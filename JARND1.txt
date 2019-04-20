@@ -1,0 +1,47 @@
+## ASICseer default config loaded in, edit it and click 'Save Changes'
+## instructions available at: https://asicseer.com/page/kb#writing-config
+
+global custompanel JARND1bit049
+
+global poolname1 us.ss.btc.com:1800
+global username1 jma289BTC
+global poolpass1 123
+global sendworker1 yes
+global poolname2 stratum.antpool.com:3333
+global username2 jma289BTC
+global poolpass2 123
+global sendworker2 yes
+global poolname3 
+global username3 
+global poolpass3 
+global sendworker3 yes
+
+global asicboost yes
+global autotune yes
+global maxwatts 1250
+
+# global autoupdate yes
+global allowed yes
+global maxtemp 90
+global fanspeed 80
+# global asicblink worker
+
+# global retune 1
+# global rebootasic 1
+# global resetasic 1
+# global panelpass gj83Nkgikg
+
+# group=rowc rebootasic 1
+# group=rowd allowed no
+
+# ab34ef location rowc2
+
+## vlans
+# vlan 10.8.250.0
+# vlan 10.8.251.0
+# vlan 10.8.252.0
+# vlan 10.8.253.0
+# vlan 10.8.254.0
+
+## asic password
+asicpass admin
