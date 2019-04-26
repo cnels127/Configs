@@ -1,0 +1,42 @@
+## ASICseer default config loaded in, edit it and click 'Save Changes'
+## instructions available at: https://asicseer.com/page/kb#writing-config
+
+global custompanel SKOTR1bit049
+
+global poolname1 stratum.slushpool.com:3333
+global username1 Yocco
+global poolpass1 123
+global sendworker1 yes
+global poolname2 
+global username2 
+global poolpass2 
+global sendworker2 yes
+global poolname3 
+global username3 
+global poolpass3 
+global sendworker3 yes
+
+global asicboost yes
+global autotune yes
+global maxwatts 1500
+
+global allowed yes
+global maxtemp 90
+global fanspeed 80
+# global asicblink worker
+
+# global retune 1
+# global rebootasic 1
+# global resetasic 1
+# global panelpass gj83Nkgikg
+
+# group=rowc rebootasic 1
+# group=rowd allowed no
+
+# ab34ef location rowc2
+
+## vlans
+vlan 10.0.0.7
+
+## asic password
+asicpass admin
