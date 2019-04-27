@@ -3,28 +3,27 @@
 
 global custompanel RGUME1bit049
 
-global poolname1 sha256.mining-dutch.nl:9996
-global username1 Sanya77
-global poolpass1 d=33992
+global poolname1 cn.stratum.slushpool.com:3333
+global username1 gesumari
+global poolpass1 123
 global sendworker1 yes
-global poolname2 sha256.eu.nicehash.com:3334
-global username2 3CXotWLd2akFo8bawu2qHHQURxNXYkV7z8
-global poolpass2 Antminer1
+global poolname2 cn.stratum.slushpool.com:443
+global username2 gesumari
+global poolpass2 123
 global sendworker2 yes
-global poolname3 eu.ss.btc.com:1800
-global username3 Bit49Antminer
-global poolpass3 x
+global poolname3 stratum.slushpool.com:3333
+global username3 gesumari
+global poolpass3 123
 global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1250
+global maxwatts 1500
 
-global autoupdate yes
 global allowed yes
-global maxtemp 90
-global fanspeed 80
-global asicblink worker
+global maxtemp 95
+global fanspeed 95
+# global asicblink worker
 
 # global retune 1
 # global rebootasic 1
@@ -37,11 +36,8 @@ global asicblink worker
 # ab34ef location rowc2
 
 ## vlans
-# vlan 10.8.250.0
-# vlan 10.8.251.0
-# vlan 10.8.252.0
-# vlan 10.8.253.0
-# vlan 10.8.254.0
+vlan 10.0.53.140-161
+vlan 10.0.54.1-38
 
 ## asic password
 asicpass admin
