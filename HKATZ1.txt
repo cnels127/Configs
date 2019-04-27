@@ -1,0 +1,42 @@
+## ASICseer default config loaded in, edit it and click 'Save Changes'
+## instructions available at: https://asicseer.com/page/kb#writing-config
+
+global custompanel HKATZ1bit049
+
+global poolname1 sha256.jp.nicehash.com:3334
+global username1 14g9byTqAYT8UgrTWdkbZcEaRDC9r6CpsE
+global poolpass1 x
+global sendworker1 yes
+global poolname2 sha256.hk.nicehash.com:3334
+global username2 14g9byTqAYT8UgrTWdkbZcEaRDC9r6CpsE
+global poolpass2 x
+global sendworker2 yes
+global poolname3 sha256.eu.nicehash.com:3334
+global username3 14g9byTqAYT8UgrTWdkbZcEaRDC9r6CpsE
+global poolpass3 x
+global sendworker3 yes
+
+# global asicboost yes
+global autotune yes
+global maxwatts 1500
+
+global allowed yes
+global maxtemp 95
+global fanspeed 95
+# global asicblink worker
+
+# global retune 1
+# global rebootasic 1
+# global resetasic 1
+# global panelpass gj83Nkgikg
+
+# group=rowc rebootasic 1
+# group=rowd allowed no
+
+# ab34ef location rowc2
+
+## vlans
+vlan 10.0.38.38-39
+
+## asic password
+asicpass admin
