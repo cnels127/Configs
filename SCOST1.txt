@@ -18,7 +18,7 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1500
+global maxwatts 1300
 
 # global autoupdate yes
 global allowed yes
@@ -33,8 +33,3 @@ global fanspeed 95
 
 # group=rowc rebootasic 1
 # group=rowd allowed no
-
-# 9053f7 location 204x212
-# 328551 location 204x225
-# 666934 location 204x207
-# f52dcb loctaion 204x206
