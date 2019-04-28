@@ -37,6 +37,8 @@ global fanspeed 95
 
 ## vlans
 vlan 10.0.62.1-76
+vlan 10.0.55.84-161
+vlan 10.0.56.1-146
 
 ## asic password
 asicpass admin
