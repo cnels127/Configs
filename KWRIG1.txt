@@ -1,0 +1,43 @@
+## ASICseer default config loaded in, edit it and click 'Save Changes'
+## instructions available at: https://asicseer.com/page/kb#writing-config
+
+global custompanel KWRIG1bit049
+
+global poolname1 bch.pool.bitcoin.com:3333
+global username1 keomaxwrightfamily
+global poolpass1 d=50000
+global sendworker1 yes
+global poolname2 profit.pool.bitcoin.com:3333
+global username2 keomaxwrightfamily
+global poolpass2 d=50000
+global sendworker2 yes
+global poolname3 
+global username3 
+global poolpass3 
+global sendworker3 yes
+
+global asicboost yes
+global autotune yes
+global maxwatts 1300
+
+global allowed yes
+global maxtemp 95
+global fanspeed 95
+# global asicblink worker
+
+# global retune 1
+# global rebootasic 1
+# global resetasic 1
+# global panelpass gj83Nkgikg
+
+# group=rowc rebootasic 1
+# group=rowd allowed no
+
+# ab34ef location rowc2
+
+## vlans
+vlan 10.0.68.109-110
+vlan 10.0.57.81-82
+
+## asic password
+asicpass admin
