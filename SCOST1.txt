@@ -33,3 +33,9 @@ global fanspeed 95
 
 # group=rowc rebootasic 1
 # group=rowd allowed no
+
+## vlans
+vlan 10.0.68.45-47
+
+## asic password
+asicpass admin
