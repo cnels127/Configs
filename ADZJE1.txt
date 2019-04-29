@@ -4,15 +4,15 @@
 global custompanel AZDJE1bit049
 
 global poolname1 stratum.antpool.com:3333
-global username1 7cloudming2
+global username1 7cloudmining2
 global poolpass1 123
 global sendworker1 yes
 global poolname2 stratum.antpool.com:443
-global username2 7cloudming2
+global username2 7cloudmining2
 global poolpass2 123
 global sendworker2 yes
 global poolname3 stratum.antpool.com:25 
-global username3 7cloudming2
+global username3 7cloudmining2
 global poolpass3 123
 global sendworker3 yes
 
@@ -21,12 +21,12 @@ global autotune yes
 global maxwatts 1525
 
 global allowed yes
-global maxtemp 90
-global fanspeed 80
+global maxtemp 95
+global fanspeed 95
 # global asicblink worker
 
 # global retune 1
-# global rebootasic 1
+global rebootasic 1
 # global resetasic 1
 # global panelpass gj83Nkgikg
 
