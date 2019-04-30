@@ -18,7 +18,7 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1500
+global maxwatts 1325
 
 # global autoupdate yes
 global allowed yes
@@ -36,9 +36,3 @@ global fanspeed 95
 
 # ab34ef location rowc2
 # ab34ef ipaddress 192.168.10.125
-
-# 4d7e5a location 204x213
-# 4f337e location 204x217
-# bef000 location 204x214
-# 2902b3 location 204x215
-# f6c118 location 204x216
