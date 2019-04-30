@@ -18,14 +18,14 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1300
+global maxwatts 1325
 
 global allowed yes
 global maxtemp 95
 global fanspeed 95
 # global asicblink worker
 
-# global retune 1
+global retune 1
 # global rebootasic 1
 # global resetasic 1
 # global panelpass gj83Nkgikg
@@ -35,7 +35,3 @@ global fanspeed 95
 
 # ab34ef location rowc2
 # ab34ef ipaddress 192.168.10.125
-
-# ec6e1c location 204x211
-# 154013 location 204x210
-# 9a3867 location 204x209
