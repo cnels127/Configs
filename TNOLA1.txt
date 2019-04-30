@@ -1,0 +1,42 @@
+## instructions available at: https://asicseer.com/page/kb#writing-config
+
+global custompanel TNOLA1bit049
+
+global poolname1 cn.stratum.slushpool.com:3333
+global username1 tcnolan96
+global poolpass1 123
+global sendworker1 yes
+global poolname2 cn.stratum.slushpool.com:443
+global username2 tcnolan96
+global poolpass2 123
+global sendworker2 yes
+global poolname3 stratum.slushpool.com:3333
+global username3 tcnolan96
+global poolpass3 123
+global sendworker3 yes
+
+global asicboost yes
+global autotune yes
+global maxwatts 1350
+
+global allowed yes
+global maxtemp 95
+global fanspeed 95
+# global asicblink worker
+
+# global retune 1
+# global rebootasic 1
+# global resetasic 1
+# global panelpass gj83Nkgikg
+
+# group=rowc rebootasic 1
+# group=rowd allowed no
+
+# ab34ef location rowc2
+
+## vlans
+vlan 10.0.57.76-80
+
+## asic password
+asicpass admin
+
