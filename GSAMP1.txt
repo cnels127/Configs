@@ -18,7 +18,7 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1525
+global maxwatts 1550
 
 global allowed yes
 global maxtemp 95
@@ -42,12 +42,6 @@ vlan 10.0.60.57-66
 asicpass admin
 
 ## tuning
-613a81 maxwatts 1550
-1c0d86 maxwatts 1550
-e2ac32 maxwatts 1550
-c09684 maxwatts 1550
-de1da0 maxwatts 1550
-4ec51b maxwatts 1550
 b4de4e maxwatts 1575
 
 ## reboots
