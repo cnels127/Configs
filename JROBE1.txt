@@ -1,7 +1,7 @@
 ## ASICseer default config loaded in, edit it and click 'Save Changes'
 ## instructions available at: https://asicseer.com/page/kb#writing-config
 
-global custompanel JROBE2bit049
+global custompanel JROBE1bit049
 
 global poolname1 profit.pool.bitcoin.com:3333
 global username1 jerradtheminer789
@@ -18,7 +18,7 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1300
+global maxwatts 1525
 
 global allowed yes
 global maxtemp 95
@@ -35,6 +35,8 @@ global fanspeed 95
 
 ## vlans
 vlan 10.0.54.74-75
+vlan 172.16.204.147-147
+vlan 172.16.202.58-59
 
 ## asic password
 asicpass admin
