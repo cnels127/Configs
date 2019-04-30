@@ -21,8 +21,8 @@ global autotune yes
 global maxwatts 1525
 
 global allowed yes
-global maxtemp 90
-global fanspeed 80
+global maxtemp 95
+global fanspeed 95
 # global asicblink worker
 
 # global retune 1
@@ -36,11 +36,21 @@ global fanspeed 80
 # ab34ef location rowc2
 
 ## vlans
-# vlan 10.8.250.0
-# vlan 10.8.251.0
-# vlan 10.8.252.0
-# vlan 10.8.253.0
-# vlan 10.8.254.0
+vlan 10.0.60.57-66
 
 ## asic password
 asicpass admin
+
+## tuning
+613a81 maxwatts 1550
+1c0d86 maxwatts 1550
+e2ac32 maxwatts 1550
+c09684 maxwatts 1550
+de1da0 maxwatts 1550
+
+## reboots
+613a81 rebootasic 1
+1c0d86 rebootasic 1
+e2ac32 rebootasic 1
+c09684 rebootasic 1
+de1da0 rebootasic 1
