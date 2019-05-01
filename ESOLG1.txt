@@ -36,7 +36,7 @@ global rebootasic 1
 # ab34ef location rowc2
 
 ## vlans
-vlan 10.0.50.71-160
-
+# vlan 10.0.50.71-160
+vlan 10.0.55.8-83
 ## asic password
 asicpass admin
