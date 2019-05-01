@@ -19,6 +19,7 @@ global asicboost yes
 global autotune yes
 global maxwatts 1500
 
+global autoupdate yes
 global allowed yes
 global maxtemp 95
 global fanspeed 85
@@ -32,7 +33,67 @@ global fanspeed 85
 # group=rowc rebootasic 1
 # group=rowd allowed no
 
-# ab34ef location rowc2
+## locations
+37c8cd location rgesu0001
+afb5e3 location rgesu0002
+da7d9d location rgesu0003
+e4a1aa location rgesu0004
+6f1bef location rgesu0005
+c3196d location rgesu0006
+866b96 location rgesu0007
+7bf34d location rgesu0008
+c1da37 location rgesu0009
+e8e0ce location rgesu0010
+d92dc2 location rgesu0011
+7a36b9 location rgesu0012
+29ece6 location rgesu0013
+79e1ed location rgesu0014
+dc8a14 location rgesu0015
+b65a11 location rgesu0016
+6073d8 location rgesu0017
+13b57d location rgesu0018
+35f34a location rgesu0019
+753f7e location rgesu0020
+a4164a location rgesu0021
+123f64 location rgesu0022
+70adc2 location rgesu0023
+2e3c21 location rgesu0024
+c64ec9 location rgesu0025
+7e18e7 location rgesu0026
+a25bea location rgesu0027
+52a31b location rgesu0028
+8883eb location rgesu0029
+2402b8 location rgesu0030
+f3393d location rgesu0031
+9b0135 location rgesu0032
+2ffd90 location rgesu0033
+081fad location rgesu0034
+b004dc location rgesu0035
+8ce706 location rgesu0036
+102b68 location rgesu0037
+0b0610 location rgesu0038
+e94ba6 location rgesu0039
+d66f6b location rgesu0040
+45099f location rgesu0041
+ada517 location rgesu0042
+0884bf location rgesu0043
+535558 location rgesu0044
+15891f location rgesu0045
+4055c4 location rgesu0046
+6c3de0 location rgesu0047
+6c69d7 location rgesu0048
+1a4852 location rgesu0049
+6d96d0 location rgesu0050
+9a8142 location rgesu0051
+0cf968 location rgesu0052
+60ea91 location rgesu0053
+59a9ba location rgesu0054
+a02b78 location rgesu0055
+4b6238 location rgesu0056
+870cd5 location rgesu0057
+ff032f location rgesu0058
+4f826d location rgesu0059
+75ef00 location rgesu0060
 
 ## vlans
 10.0.53.140-161
