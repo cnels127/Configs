@@ -26,7 +26,7 @@ global fanspeed 95
 # global asicblink worker
 
 # global retune 1
-global rebootasic 1
+global rebootasic 2
 # global resetasic 1
 # global panelpass gj83Nkgikg
 
@@ -36,11 +36,9 @@ global rebootasic 1
 # ab34ef location rowc2
 
 ## vlans
-# vlan 10.8.250.0
-# vlan 10.8.251.0
-# vlan 10.8.252.0
-# vlan 10.8.253.0
-# vlan 10.8.254.0
+vlan 10.0.58.67-161
+10.0.59.1-161
+10.0.60.1-44
 
 ## asic password
 asicpass admin
