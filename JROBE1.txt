@@ -34,6 +34,13 @@ global fanspeed 85
 # group=rowc rebootasic 1
 # group=rowd allowed no
 
+## locations
+fbb341 location 0001
+7cc8a1 location 0002
+be602c location 0003
+1565d6 location 0004
+555712 location 0005
+
 ## vlans
 vlan 10.0.54.74-75
 vlan 172.16.204.147-147
