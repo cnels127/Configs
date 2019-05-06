@@ -39,5 +39,11 @@ global fanspeed 85
 ## vlans
 vlan 10.0.32.70-79
 
+## tuning
+07e0af retune 1
+564c64 retune 1
+b7cd11 retune 1
+eaee2e retune 1
+
 ## asic password
 asicpass admin
