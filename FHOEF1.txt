@@ -7,13 +7,13 @@ global poolname1 eu.stratum.slushpool.com:3333
 global username1 Riggi1
 global poolpass1 123
 global sendworker1 yes
-global poolname2 
-global username2 
-global poolpass2 
+global poolname2 us-east.stratum.slushpool.com:3333
+global username2 Riggi1
+global poolpass2 123
 global sendworker2 yes
-global poolname3 
-global username3 
-global poolpass3 
+global poolname3 cn.stratum.slushpool.com:3333
+global username3 Riggi1
+global poolpass3 123
 global sendworker3 yes
 
 global asicboost yes
@@ -22,8 +22,8 @@ global maxwatts 1350
 
 global autoupdate yes
 global allowed yes
-global maxtemp 90
-global fanspeed 80
+global maxtemp 95
+global fanspeed 85
 # global asicblink worker
 
 # global retune 1
@@ -34,14 +34,21 @@ global fanspeed 80
 # group=rowc rebootasic 1
 # group=rowd allowed no
 
-# ab34ef location rowc2
+## locations
+# 621b00 location 
+# 1c8b88 location 
+# 965250 location 
+# be8567 location 
+# 46d9bd location 
+# a2e43b location 
+# 7a6fcf location 
+# e490c1 location 
+# 4b97c1 location 
+# 24c735 location 
 
 ## vlans
-# vlan 10.8.250.0
-# vlan 10.8.251.0
-# vlan 10.8.252.0
-# vlan 10.8.253.0
-# vlan 10.8.254.0
+vlan 10.0.62.54-62
+vlan 10.0.62.65-65
 
 ## asic password
 asicpass admin
