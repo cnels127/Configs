@@ -34,7 +34,19 @@ global asicblink worker
 # group=rowc rebootasic 1
 # group=rowd allowed no
 
-# ab34ef location rowc2
+## locations
+2462cd location johnbethBTC021
+966dd1 location johnbethBTC022
+37ffb3 location johnbethBTC023
+084a54 location johnbethBTC024
+b340b4 location johnbethBTC025
+434e7d location johnbethBTC026
+2c969d location johnbethBTC027
+690f5d location johnbethBTC028
+406249 location johnbethBTC029
+39be0c location johnbethBTC030
+e67e88 location johnbethBTC031
+6c73b3 location johnbethBTC032
 
 ## vlans
 vlan 10.0.68.48-52
