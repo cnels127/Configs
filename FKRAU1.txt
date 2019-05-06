@@ -18,7 +18,7 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1500
+global maxwatts 1525
 
 global autoupdate yes
 global allowed yes
@@ -26,7 +26,7 @@ global maxtemp 95
 global fanspeed 85
 # global asicblink worker
 
-# global retune 1
+global retune 1
 # global rebootasic 1
 # global resetasic 1
 # global panelpass gj83Nkgikg
@@ -57,20 +57,10 @@ d427dd location FKRAU0019
 31940f location FKRAU0020
 
 ## vlans
-# vlan 10.0.54.39-48
+vlan 10.0.54.39-48
 vlan 10.0.62.66-75
 
 ## tuning
-02c22d maxwatts 1525
-66f88a maxwatts 1525
-e4749b maxwatts 1525
-3a3729 maxwatts 1525
-8259fc maxwatts 1525
-ac4842 maxwatts 1525
-04339e maxwatts 1525
-24549d maxwatts 1525
-5a17ee maxwatts 1525
-4112bb maxwatts 1525
 
 ## asic password
 asicpass admin
