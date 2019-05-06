@@ -34,10 +34,43 @@ global fanspeed 85
 # group=rowc rebootasic 1
 # group=rowd allowed no
 
-# ab34ef location rowc2
+## locations
+02c22d location FKRAU0001
+66f88a location FKRAU0002
+e4749b location FKRAU0003
+3a3729 location FKRAU0004
+8259fc location FKRAU0005
+ac4842 location FKRAU0006
+04339e location FKRAU0007
+24549d location FKRAU0008
+5a17ee location FKRAU0009
+4112bb location FKRAU0010
+bfb0bc location FKRAU0011
+12a96e location FKRAU0012
+746fbe location FKRAU0013
+5b475d location FKRAU0014
+892d41 location FKRAU0015
+6b2885 location FKRAU0016
+23178f location FKRAU0017
+0ca5a4 location FKRAU0018
+d427dd location FKRAU0019
+31940f location FKRAU0020
 
 ## vlans
-vlan 10.0.54.39-48
+# vlan 10.0.54.39-48
+vlan 10.0.62.66-75
+
+## tuning
+02c22d maxwatts 1525
+66f88a maxwatts 1525
+e4749b maxwatts 1525
+3a3729 maxwatts 1525
+8259fc maxwatts 1525
+ac4842 maxwatts 1525
+04339e maxwatts 1525
+24549d maxwatts 1525
+5a17ee maxwatts 1525
+4112bb maxwatts 1525
 
 ## asic password
 asicpass admin
