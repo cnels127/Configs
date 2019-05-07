@@ -37,7 +37,10 @@ global retune 1
 # ab34ef location rowc2
 
 ## vlans
-vlan 10.0.54.142-144
+# vlan 10.0.54.142-144
+vlan 10.0.62.31-31
+vlan 10.0.62.33-33
+vlan 10.0.62.35-35
 
 ## asic password
 asicpass admin
