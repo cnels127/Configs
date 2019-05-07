@@ -3,16 +3,16 @@
 
 global custompanel RGUME1bit049
 
-global poolname1 sha256.mining-dutch.nl:9996
-global username1 Sanya77
+global poolname1 eu.ss.btc.com:1800
+global username1 Bit49Antminer.Workername
 global poolpass1 d=33992
 global sendworker1 yes
-global poolname2 sha256.eu.nicehash.com:3334
-global username2 3CXotWLd2akFo8bawu2qHHQURxNXYkV7z8
+global poolname2 stratum+tcp://sha256.mining-dutch.nl:9996
+global username2 Sanya77.Workername
 global poolpass2 Antminer1
 global sendworker2 yes
-global poolname3 eu.ss.btc.com:1800
-global username3 Bit49Antminer
+global poolname3 stratum+tcp://btc.ss.poolin.com:443
+global username3 bit49antminer.Workername
 global poolpass3 x
 global sendworker3 yes
 
