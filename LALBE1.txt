@@ -3,13 +3,13 @@
 
 global custompanel LALBE1bit049
 
-global poolname1 stratum.slushpool.com:3333
+global poolname1 eu.stratum.slushpool.com:3333
 global username1 odinfjurbag
-global poolpass1 x
+global poolpass1 123
 global sendworker1 yes
-global poolname2 stratum.slushpool.com:3333
+global poolname2 us-east.stratum.slushpool.com:3333
 global username2 odinfjurbag
-global poolpass2 x
+global poolpass2 123
 global sendworker2 yes
 global poolname3 stratum.slushpool.com:3333
 global username3 odinfjurbag
@@ -34,5 +34,27 @@ global fanspeed 85
 # group=rowc rebootasic 1
 # group=rowd allowed no
 
-# ab34ef location rowc2
+## vlans
+# vlan 172.16.204.213-217
+vlan 10.0.56.120-120
+vlan 10.0.56.122-124
+vlan 10.0.56.126-126
+
+## location
+# 4d7e5a location 4d7e5a
+# 4f337e location 4f337e
+# 2902b3 location 2902b3
+# bef000 location bef000
+# f6c118 location f6c118
+b49a7f location bi_s9_500
+21619f location bi_s9_501
+ab49a7 location bi_s9_502
+c935fd location bi_s9_503
+a9cee7 location bi_s9_504
+
+## tuning
+
 # ab34ef ipaddress 192.168.10.125
+
+## asic password
+asicpass admin
