@@ -3,17 +3,17 @@
 
 global custompanel SKOTR1bit049
 
-global poolname1 stratum.slushpool.com:3333
+global poolname1 eu.stratum.slushpool.com:3333
 global username1 Yocco
 global poolpass1 123
 global sendworker1 yes
-global poolname2 
-global username2 
-global poolpass2 
+global poolname2 us-east.stratum.slushpool.com:3333
+global username2 Yocco
+global poolpass2 123
 global sendworker2 yes
-global poolname3 
-global username3 
-global poolpass3 
+global poolname3 stratum.slushpool.com:3333
+global username3 Yocco
+global poolpass3 123
 global sendworker3 yes
 
 global asicboost yes
@@ -22,8 +22,8 @@ global maxwatts 1500
 
 global autoupdate yes
 global allowed yes
-global maxtemp 90
-global fanspeed 80
+global maxtemp 95
+global fanspeed 85
 # global asicblink worker
 
 # global retune 1
@@ -34,10 +34,17 @@ global fanspeed 80
 # group=rowc rebootasic 1
 # group=rowd allowed no
 
-# ab34ef location rowc2
-
 ## vlans
-vlan 10.0.0.7
+# vlan 172.16.204.65
+vlan 10.0.56.146-146
+
+## locations
+# 270650 location 270650
+e06ea6 location SKOTR0001
+
+## tuning
+# 270650 maxwatts 1500
+e06ea6 maxwatts 1550
 
 ## asic password
 asicpass admin
