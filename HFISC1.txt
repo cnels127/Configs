@@ -11,9 +11,9 @@ global poolname2 eu.ss.btc.com:443
 global username2 HoeffischRUS1
 global poolpass2 1234
 global sendworker2 yes
-global poolname3 
-global username3 
-global poolpass3 
+global poolname3 eu.ss.btc.com:25
+global username3 HoeffischRUS1
+global poolpass3 1234
 global sendworker3 yes
 
 global asicboost yes
@@ -37,7 +37,57 @@ global fanspeed 85
 # ab34ef location rowc2
 
 ## vlans
-10.0.68.54-63
+# vlan 10.0.68.54-63
+# vlan 172.16.204.240-244
+# vlan 172.16.204.246-250
+vlan 10.0.56.131-131
+vlan 10.0.56.134-135
+vlan 10.0.56.138-143
+vlan 10.0.56.145-145
+
+## locations
+994f1c location HFISC0001
+88a339 location HFISC0002
+88395a location HFISC0003
+80a659 location HFISC0004
+7a1084 location HFISC0005
+1c50a6 location HFISC0006
+27398f location HFISC0007
+1cfdcb location HFISC0008
+6efefd location HFISC0009
+2fd188 location HFISC0010
+# cde13e location cde13e
+# a0970f location a0970f
+# 78d0d9 location 78d0d9
+# f203cc location f203cc
+# 5430a1 location 5430a1
+# 6c0aa1 location 6c0aa1
+# 647dd4 location 647dd4
+# 304a7b location 304a7b
+# 1db959 location 1db959
+# f9ce55 location f9ce55
+2d90d3 location HFISC0011
+d049a1 location HFISC0012
+9a346c location HFISC0013
+cb9593 location HFISC0014
+f3d8b8 location HFISC0015
+1fc674 location HFISC0016
+779e72 location HFISC0017
+2020a9 location HFISC0018
+618b1a location HFISC0019
+bff483 location HFISC0020
+
+## tuning
+# cde13e maxwatts 1350
+# a0970f maxwatts 1350
+# 78d0d9 maxwatts 1350
+# f203cc maxwatts 1350
+# 5430a1 maxwatts 1350
+# 6c0aa1 maxwatts 1350
+# 647dd4 maxwatts 1350
+# 304a7b maxwatts 1350
+# 1db959 maxwatts 1350
+# f9ce55 maxwatts 1350
 
 ## asic password
 asicpass admin
