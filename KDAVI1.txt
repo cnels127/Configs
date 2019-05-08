@@ -3,11 +3,11 @@
 
 global custompanel KDAVI1bit049
 
-global poolname1 stratum.slushpool.com:3333
+global poolname1 eu.stratum.slushpool.com:3333
 global username1 kyledavis
 global poolpass1 123
 global sendworker1 yes
-global poolname2 eu.stratum.slushpool.com:3333
+global poolname2 us-east.stratum.slushpool.com:3333
 global username2 kyledavis
 global poolpass2 123
 global sendworker2 yes
@@ -34,13 +34,26 @@ global rebootasic 1
 # group=rowc rebootasic 1
 # group=rowd allowed no
 
-# ab34ef location rowc2
-
 ## vlans
-vlan 10.0.54.148-150
+# vlan 172.16.204.237-239
+# vlan 10.0.54.148-150
+vlan 10.0.56.127-129
+
+## locations
+# 3bb05e location 3bb05e
+# b4ffc9 location b4ffc9
+# a96cd3 location a96cd3
+6f3c8b location KDAVI0004
+0819f9 location KDAVI0005
+8ef4ad location KDAVI0006
+
+## tuning
+# 3bb05e maxwatts 1350
+# b4ffc9 maxwatts 1350
+# a96cd3 maxwatts 1350
+6f3c8b maxwatts 1350
+0819f9 maxwatts 1350
+8ef4ad maxwatts 1350
 
 ## asic password
 asicpass admin
-
-b4ffc9 rebootasic 1
-3bb05e rebootasic 1
