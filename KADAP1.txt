@@ -3,11 +3,11 @@
 
 global custompanel KADAP1bit049
 
-global poolname1 stratum.slushpool.com:3333
+global poolname1 eu.stratum.slushpool.com:3333
 global username1 krishna_bit49
 global poolpass1 123
 global sendworker1 yes
-global poolname2 stratum.slushpool.com:3333
+global poolname2 us-east.stratum.slushpool.com:3333
 global username2 krishna_bit49
 global poolpass2 123
 global sendworker2 yes
@@ -22,8 +22,8 @@ global maxwatts 1500
 
 global autoupdate yes
 global allowed yes
-global maxtemp 90
-global fanspeed 80
+global maxtemp 95
+global fanspeed 85
 # global asicblink worker
 
 # global retune 1
@@ -37,11 +37,26 @@ global fanspeed 80
 # ab34ef location rowc2
 
 ## vlans
-# vlan 10.8.250.0
-# vlan 10.8.251.0
-# vlan 10.8.252.0
-# vlan 10.8.253.0
-# vlan 10.8.254.0
+# vlan 172.16.204.209-211
+vlan 10.0.56.132-132
+vlan 10.0.56.136-136
+vlan 10.0.56.137-137
+
+## location
+# 9a3867 location 9a3867
+# 154013 location 154013
+# ec6e1c location ec6e1c
+2a4b43 location KADAP0001
+e917af location KADAP0002
+4c9876 location KADAP0003
+
+## tuning
+# 9a3867 maxwatts 1500
+# 154013 maxwatts 1500
+# ec6e1c maxwatts 1500
+2a4b43 maxwatts 1550
+e917af maxwatts 1550
+4c9876 maxwatts 1550
 
 ## asic password
 asicpass admin
