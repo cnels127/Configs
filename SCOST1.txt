@@ -35,11 +35,21 @@ global retune 2
 # group=rowd allowed no
 
 ## vlans
-vlan 10.0.68.45-47
-vlan 172.16.204.206-206
-vlan 172.16.204.207-207
-vlan 172.16.204.212-212
-vlan 172.16.204.225-225
+# vlan 10.0.68.45-47
+# vlan 172.16.204.206-206
+# vlan 172.16.204.207-207
+# vlan 172.16.204.212-212
+# vlan 172.16.204.225-225
+vlan 10.0.56.118-118
+vlan 10.0.56.121-121
+vlan 10.0.56.125-125
+vlan 10.0.56.130-130
+
+## tuning
+ea3cd1 maxwatts 1550
+535d30 maxwatts 1550
+a43fe6 maxwatts 1550
+6da085 maxwatts 1550
 
 ## locations
 a62f6a location Bit49-1
@@ -49,6 +59,10 @@ f52dcb location Bit49-4
 666934 location Bit49-5
 9053f7 location Bit49-6
 328551 location Bit49-7
+ea3cd1 location Bit49-4
+535d30 location Bit49-5
+a43fe6 location Bit49-6
+6da085 location Bit49-7
 
 ## asic password
 asicpass admin
