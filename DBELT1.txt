@@ -37,11 +37,14 @@ global rebootasic 1
 # ab34ef location rowc2
 
 ## vlans
-# vlan 10.8.250.0
-# vlan 10.8.251.0
-# vlan 10.8.252.0
-# vlan 10.8.253.0
-# vlan 10.8.254.0
+vlan 10.0.54.155-159
+
+## locations
+1667e2 location DBELT0001
+e7a422 location DBELT0002
+f5ddbb location DBELT0003
+0747e2 location DBELT0004
+356422 location DBELT0005
 
 ## asic password
 asicpass admin
