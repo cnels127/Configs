@@ -34,11 +34,161 @@ global rebootasic 1
 # group=rowc rebootasic 1
 # group=rowd allowed no
 
-# ab34ef location rowc2
-
 ## vlans
-vlan 10.0.57.129-161
-vlan 10.0.58.1-66
+# vlan 10.0.57.129-161
+# vlan 10.0.58.1-66
+vlan 10.0.55.102-103
+vlan 10.0.55.109-110
+vlan 10.0.55.114-114
+vlan 10.0.55.116-116
+vlan 10.0.55.118-118
+vlan 10.0.55.121-123
+vlan 10.0.55.129-129
+vlan 10.0.55.131-132
+vlan 10.0.55.134-134
+vlan 10.0.55.136-136
+vlan 10.0.55.138-138
+vlan 10.0.55.141-141
+vlan 10.0.55.152-152
+vlan 10.0.55.154-156
+vlan 10.0.55.159-159
+vlan 10.0.55.84-84
+vlan 10.0.55.88-93
+vlan 10.0.55.95-95
+vlan 10.0.55.98-98
+vlan 10.0.56.1-2
+vlan 10.0.56.4-7
+vlan 10.0.56.9-9
+vlan 10.0.56.12-14
+vlan 10.0.56.16-16
+vlan 10.0.56.18-19
+vlan 10.0.56.21-33
+vlan 10.0.56.35-35
+vlan 10.0.56.37-39
+vlan 10.0.56.43-43
+vlan 10.0.56.45-46
+vlan 10.0.56.48-49
+vlan 10.0.56.51-51
+vlan 10.0.56.54-55
+vlan 10.0.56.57-58
+vlan 10.0.56.60-64
+vlan 10.0.56.66-66
+vlan 10.0.56.70-72
+vlan 10.0.56.74-74
+vlan 10.0.56.76-76
+vlan 10.0.56.80-80
+vlan 10.0.56.82-82
+vlan 10.0.56.84-84
+vlan 10.0.56.87-87
+vlan 10.0.56.89-89
+vlan 10.0.56.92-97
+vlan 10.0.56.101-103
+vlan 10.0.56.105-105
+vlan 10.0.56.109-109
+vlan 10.0.56.111-111
+vlan 10.0.56.116-116
+
+## locations
+cc5e80 location AZDJE0001
+7f3036 location AZDJE0002
+b60497 location AZDJE0003
+99ed02 location AZDJE0004
+217b3f location AZDJE0005
+5c3d03 location AZDJE0006
+02a05c location AZDJE0007
+112fe4 location AZDJE0008
+afe8d4 location AZDJE0009
+9f651e location AZDJE0010
+48e2b3 location AZDJE0011
+04bc9e location AZDJE0012
+4715ad location AZDJE0013
+87a5b4 location AZDJE0014
+b00e95 location AZDJE0015
+40f22e location AZDJE0016
+63e690 location AZDJE0017
+cb14ff location AZDJE0018
+1aeaaa location AZDJE0019
+01b775 location AZDJE0020
+bd9982 location AZDJE0021
+ea27ce location AZDJE0022
+7a2044 location AZDJE0023
+5347e8 location AZDJE0024
+85f927 location AZDJE0025
+5e6b13 location AZDJE0026
+a5b4b4 location AZDJE0027
+2e1f23 location AZDJE0028
+0205fa location AZDJE0029
+d8b55c location AZDJE0030
+66af57 location AZDJE0031
+29335d location AZDJE0032
+93344d location AZDJE0033
+bca713 location AZDJE0034
+60ea4c location AZDJE0035
+990e69 location AZDJE0036
+c82f26 location AZDJE0037
+fcd298 location AZDJE0038
+74306d location AZDJE0039
+176368 location AZDJE0040
+6d9e42 location AZDJE0041
+8ed68e location AZDJE0042
+83ab25 location AZDJE0043
+514e9f location AZDJE0044
+3e65c0 location AZDJE0045
+7a4388 location AZDJE0046
+7d00f4 location AZDJE0047
+056e6f location AZDJE0048
+ad9578 location AZDJE0049
+ca57a1 location AZDJE0050
+23b826 location AZDJE0051
+cbdf69 location AZDJE0052
+69acbc location AZDJE0053
+b778e8 location AZDJE0054
+67baaf location AZDJE0055
+fb2ad6 location AZDJE0056
+0b6fa4 location AZDJE0057
+ed8842 location AZDJE0058
+bca146 location AZDJE0059
+5ea86e location AZDJE0060
+cc83db location AZDJE0061
+9248fa location AZDJE0062
+848aa3 location AZDJE0063
+db9eac location AZDJE0064
+3b9218 location AZDJE0065
+d683e1 location AZDJE0066
+b5d57f location AZDJE0067
+2a4578 location AZDJE0068
+d47623 location AZDJE0069
+f8714f location AZDJE0070
+f026f7 location AZDJE0071
+56faaa location AZDJE0072
+d33b29 location AZDJE0073
+dcc8ce location AZDJE0074
+df476c location AZDJE0075
+a40854 location AZDJE0076
+1b04e9 location AZDJE0077
+86b92d location AZDJE0078
+82bf37 location AZDJE0079
+74f6cd location AZDJE0080
+049b90 location AZDJE0081
+bd96d6 location AZDJE0082
+9c7897 location AZDJE0083
+fc9a2f location AZDJE0084
+457d60 location AZDJE0085
+c96ac2 location AZDJE0086
+b73e69 location AZDJE0087
+5ff091 location AZDJE0088
+ae04b2 location AZDJE0089
+c330c0 location AZDJE0090
+bc90bb location AZDJE0091
+07f9ea location AZDJE0092
+1999e2 location AZDJE0093
+4a1948 location AZDJE0094
+49f2f3 location AZDJE0095
+bf8fd2 location AZDJE0096
+9f340c location AZDJE0097
+8c8679 location AZDJE0098
+19e367 location AZDJE0099
+0d929b location AZDJE0100
 
 ## asic password
 asicpass admin
