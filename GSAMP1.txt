@@ -3,15 +3,15 @@
 
 global custompanel GSAMP1bit049
 
-global poolname1 cn.stratum.slushpool.com:3333
+global poolname1 eu.stratum.slushpool.com:3333
 global username1 CryptoHayek
 global poolpass1 123
 global sendworker1 yes
-global poolname2 cn02.stratum.slushpool.com:3333
+global poolname2 us-east.stratum.slushpool.com:3333
 global username2 CryptoHayek
 global poolpass2 123
 global sendworker2 yes
-global poolname3 jp.stratum.slushpool.com:3333
+global poolname3 stratum.slushpool.com:3333
 global username3 CryptoHayek
 global poolpass3 123
 global sendworker3 yes
@@ -31,20 +31,6 @@ global fanspeed 85
 # global resetasic 1
 # global panelpass gj83Nkgikg
 
-# group=rowc rebootasic 1
-# group=rowd allowed no
-
-# ab34ef location rowc2
-
-## vlans
-vlan 10.0.60.57-66
-
-## asic password
-asicpass admin
-
-## tuning
-b4de4e maxwatts 1575
-
 ## reboots
 613a81 rebootasic 1
 1c0d86 rebootasic 1
@@ -53,3 +39,34 @@ c09684 rebootasic 1
 de1da0 rebootasic 1
 4ec51b rebootasic 1
 b4de4e rebootasic 1
+
+# group=rowc rebootasic 1
+# group=rowd allowed no
+
+## vlans (vlan [IP address])
+# vlan 10.0.60.57-66
+vlan 10.0.56.40-41
+vlan 10.0.56.44-44
+vlan 10.0.56.47-47
+vlan 10.0.56.50-50
+vlan 10.0.56.56-56
+vlan 10.0.56.67-67
+vlan 10.0.56.75-75
+vlan 10.0.56.77-78
+
+## locations ([ASICID location [name])
+c5496d location GSAMP0001
+271937 location GSAMP0002
+609064 location GSAMP0003
+ca177b location GSAMP0004
+c02d51 location GSAMP0005
+41be8a location GSAMP0006
+751610 location GSAMP0007
+8e284e location GSAMP0008
+a7631d location GSAMP0009
+0101ec location GSAMP0010
+
+## tuning
+
+## asic password
+asicpass admin
