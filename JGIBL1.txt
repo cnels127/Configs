@@ -34,14 +34,21 @@ global asicblink worker
 # group=rowc rebootasic 1
 # group=rowd allowed no
 
-# ab34ef location rowc2
+## vlans (vlan [IP Address])
+# vlan 10.0.60.67-69
+vlan 10.0.55.151-151
+vlan 10.0.55.158-158
+vlan 10.0.56.90-90
 
-## vlans
-# vlan 10.8.250.0
-# vlan 10.8.251.0
-# vlan 10.8.252.0
-# vlan 10.8.253.0
-# vlan 10.8.254.0
+## locations ([ASICID] location [name])
+615313 location JGIBL0001
+b897c7 location JGIBL0002
+ffc9c8 location JGIBL0003
+
+## tuning ([ASICID] maxwatts ####)
+615313 maxwatts 1550
+b897c7 maxwatts 1550
+ffc9c8 maxwatts 1550
 
 ## asic password
 asicpass admin
