@@ -22,7 +22,7 @@ global maxwatts 1550
 
 global autoupdate yes
 global allowed yes
-global maxtemp 95
+global maxtemp 90
 global fanspeed 85
 # global asicblink worker
 
@@ -34,5 +34,36 @@ global retune 2
 # group=rowc rebootasic 1
 # group=rowd allowed no
 
-# ab34ef location rowc2
-# ab34ef ipaddress 192.168.10.125
+## vlans (vlan ###.###.###.###)
+# vlan 10.0.54.151-153
+vlan 10.0.55.94-94
+vlan 10.0.55.105-106
+vlan 10.0.55.115-115
+vlan 10.0.55.126-126
+vlan 10.0.55.144-144
+vlan 10.0.55.146-146
+vlan 10.0.56.17-17
+vlan 10.0.56.34-34
+vlan 10.0.56.36-36
+vlan 10.0.56.42-42
+vlan 10.0.56.100-100
+
+## locations ([ASICID] location [name])
+c55a62 location RACAY0001
+73d19d location RACAY0002
+55ae8b location RACAY0003
+57c2bb location RACAY0004
+62dffd location RACAY0005
+e98a1b location RACAY0006
+cfc1d8 location RACAY0007
+6c2312 location RACAY0008
+ec8ea7 location RACAY0009
+74a07a location RACAY0010
+5645bb location RACAY0011
+ac1696 location RACAY0012
+095c6d location RACAY0013
+d6136a location RACAY0014
+9f942d location RACAY0015
+
+## asic password
+asicpass admin
