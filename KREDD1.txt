@@ -35,10 +35,11 @@ global rebootasic 2
 # group=rowd allowed no
 
 ## vlans
-172.16.202.60-60
-172.16.202.64-66
-172.16.204.98-101
-172.16.204.125-128
+vlan 10.0.0.72-72
+# vlan 172.16.202.60-60
+vlan 172.16.202.64-66
+vlan 172.16.204.98-101
+vlan 172.16.204.125-128
 
 ## locations
 bdca90 location 0001
