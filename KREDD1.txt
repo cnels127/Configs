@@ -3,17 +3,17 @@
 
 global custompanel KREDD1bit049
 
-global poolname1 cn.stratum.slushpool.com:3333
-global username1 karthik_bit49
+global poolname1 us-east.stratum.slushpool.com:3333
+global username1 kirankbit
 global poolpass1 123
 global sendworker1 yes
-global poolname2 cn.stratum.slushpool.com:443
-global username2 karthik_bit49
-global poolpass2 123
+global poolname2 stratum.slushpool.com:3333
+global username2 kirankbit
+global poolpass2 x
 global sendworker2 yes
-global poolname3 stratum.slushpool.com:3333
-global username3 karthik_bit49
-global poolpass3 123
+global poolname3 solo.ckpool.org:3333
+global username3 13xv3Q1wrhhAf9UXwBg3J7Cqyd5UAdPRW7
+global poolpass3 x
 global sendworker3 yes
 
 global asicboost yes
@@ -34,14 +34,25 @@ global rebootasic 2
 # group=rowc rebootasic 1
 # group=rowd allowed no
 
-# ab34ef location rowc2
-
 ## vlans
-# vlan 10.8.250.0
-# vlan 10.8.251.0
-# vlan 10.8.252.0
-# vlan 10.8.253.0
-# vlan 10.8.254.0
+172.16.202.60-60
+172.16.202.64-66
+172.16.204.98-101
+172.16.204.125-128
+
+## locations
+bdca90 location 0001
+324346 location 0002
+5fbf37 location 0003
+10e456 location 0004
+6af3d4 location 0005
+8164ef location 0007
+181230 location 0008
+f252aa location 0009
+00ba16 location 0010
+a466e7 location 0011
+87e2e5 location 0013
+4347c6 location 0014
 
 ## asic password
 asicpass admin
