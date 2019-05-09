@@ -34,13 +34,19 @@ global retune 1
 # group=rowc rebootasic 1
 # group=rowd allowed no
 
-# ab34ef location rowc2
-
-## vlans
+## vlans (vlan [IP Address])
 # vlan 10.0.54.142-144
-vlan 10.0.62.31-31
-vlan 10.0.62.33-33
-vlan 10.0.62.35-35
+# vlan 10.0.62.31-31
+# vlan 10.0.62.33-33
+# vlan 10.0.62.35-35
+vlan 10.0.56.106-106
+vlan 10.0.56.115-115
+vlan 10.0.56.117-117
+
+## locations ([ASICID] location [name])
+df6f8a location ARAMA0001
+44e8a9 location ARAMA0002
+0a29cc location ARAMA0003
 
 ## asic password
 asicpass admin
