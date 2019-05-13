@@ -3,11 +3,11 @@
 
 global custompanel PEGAN1bit049
 
-global poolname1 cn.stratum.slushpool.com:3333
+global poolname1 eu.stratum.slushpool.com:3333
 global username1 peganegan
 global poolpass1 123
 global sendworker1 yes
-global poolname2 cn.stratum.slushpool.com:443
+global poolname2 us-east.stratum.slushpool.com:3333
 global username2 peganegan
 global poolpass2 123
 global sendworker2 yes
@@ -34,14 +34,20 @@ global rebootasic 1
 # group=rowc rebootasic 1
 # group=rowd allowed no
 
-# ab34ef location rowc2
-
 ## vlans
-# vlan 10.8.250.0
-# vlan 10.8.251.0
-# vlan 10.8.252.0
-# vlan 10.8.253.0
-# vlan 10.8.254.0
+vlan 10.0.54.154-154
+vlan 10.0.55.142-142
+vlan 10.0.57.86-86
+vlan 10.0.62.27-27
+vlan 10.0.68.34-35
+
+## locations
+5a3dde location PEGAN0001
+44c925 location PEGAN0002
+a3883c location PEGAN0003
+63f1ab location PEGAN0004
+ef1f6e location PEGAN0005
+38d579 location PEGAN0006
 
 ## asic password
 asicpass admin
