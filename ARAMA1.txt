@@ -44,9 +44,26 @@ vlan 10.0.56.115-115
 vlan 10.0.56.117-117
 
 ## locations ([ASICID] location [name])
-df6f8a location ARAMA0001
-44e8a9 location ARAMA0002
-0a29cc location ARAMA0003
+dc1171 location ARAMA0001
+c5f2b7 location ARAMA0002
+87a39c location ARAMA0003
+df6f8a location ARAMA0004
+44e8a9 location ARAMA0005
+0a29cc location ARAMA0006
+
+## tuning
+dc1171 maxwatts 1400
+c5f2b7 maxwatts 1400
+# 87a39c maxwatts 
+df6f8a maxwatts 1400
+44e8a9 maxwatts 1400
+0a29cc maxwatts 1400
+dc1171 retune 1
+c5f2b7 retune 1
+# 87a39c retune 1
+df6f8a retune 1
+44e8a9 retune 1
+0a29cc retune 1
 
 ## asic password
 asicpass admin
