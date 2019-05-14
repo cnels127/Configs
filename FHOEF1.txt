@@ -35,8 +35,6 @@ global fanspeed 85
 # group=rowd allowed no
 
 ## vlans
-# vlan 10.0.62.54-62
-# vlan 10.0.62.65-65
 vlan 10.0.55.85-85
 vlan 10.0.55.101-101
 vlan 10.0.55.107-107
@@ -49,16 +47,6 @@ vlan 10.0.56.85-85
 vlan 10.0.56.88-88
 
 ## locations ([ASICID] location [name])
-# 621b00 location 621b00
-# 1c8b88 location 1c8b88
-# 965250 location 965250
-# be8567 location be8567
-# 46d9bd location 46d9bd
-# a2e43b location a2e43b
-# 7a6fcf location 7a6fcf
-# e490c1 location e490c1
-# 4b97c1 location 4b97c1
-# 24c735 location 24c735
 f36d51 location FHOEF0001
 d06af5 location FHOEF0002
 1a7d47 location FHOEF0003
@@ -69,6 +57,18 @@ de83b4 location FHOEF0006
 8d76ff location FHOEF0008
 17e1e7 location FHOEF0009
 d2d829 location FHOEF0010
+
+## tuning
+# f36d51 maxwatts 1375
+# d06af5 maxwatts 1375
+# 1a7d47 maxwatts 1375
+# e0ccfa maxwatts 1375
+# 0faa22 maxwatts 1375
+# de83b4 maxwatts 1375
+# 167d2c maxwatts 1375
+# 8d76ff maxwatts 1375
+# 17e1e7 maxwatts 1375
+# d2d829 maxwatts 1375
 
 ## asic password
 asicpass admin
