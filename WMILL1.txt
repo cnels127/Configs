@@ -6,7 +6,7 @@ global poolname1 eu.stratum.slushpool.com:3333
 global username1 bitmonster89
 global poolpass1 123
 global sendworker1 yes
-global poolname2 cn.stratum.slushpool.com:3333
+global poolname2 us-east.stratum.slushpool.com:3333
 global username2 bitmonster89
 global poolpass2 123
 global sendworker2 yes
@@ -33,14 +33,15 @@ global rebootasic 1
 # group=rowc rebootasic 1
 # group=rowd allowed no
 
+## vlans
+vlan 10.0.53.55-59
+
+## locations
 35740c location s9worker1
 cb178d location s9worker2
 ed4012 location s9worker3
 99707f location s9worker4
 582483 location s9worker5
-
-## vlans
-vlan 10.0.53.55-59
 
 ## asic password
 asicpass admin
