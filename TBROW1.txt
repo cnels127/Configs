@@ -34,34 +34,61 @@ global retune 1
 # group=rowc rebootasic 1
 # group=rowd allowed no
 
-69adfb location s01
-e61a9b location s02
-1e68e9 location s03
-418c38 location s04
-bebcdf location s05
-1766a9 location s06
-789895 location s07
-2cd597 location s08
-da121e location s09
-3b93d0 location s10
-adad49 location s11
-aa5a42 location s12
-4a07bd location s13
-6fd056 location s14
-efc969 location s15
-1c9a9d location s16
-9ae6af location s17
-c7a6d8 location s18
-14b55f location s19
-9821db location s20
-833da0 location s21
-58aa3a location s22
-f0b740 location s23
-e9a6cf location s24
-
 ## vlans
-vlan 10.0.54.64-73
 vlan 10.0.32.46-59
+vlan 10.0.54.64-73
+
+## locations
+adad49 location s01
+aa5a42 location s02
+4a07bd location s03
+6fd056 location s04
+efc969 location s05
+1c9a9d location s06
+9ae6af location s07
+c7a6d8 location s08
+14b55f location s09
+9821db location s10
+833da0 location s11
+58aa3a location s12
+f0b740 location s13
+e9a6cf location s14
+69adfb location s15
+e61a9b location s16
+1e68e9 location s17
+418c38 location s18
+bebcdf location s19
+1766a9 location s20
+789895 location s21
+2cd597 location s22
+da121e location s23
+3b93d0 location s24
+
+## tuning
+# adad49 maxwatts 1575
+# aa5a42 maxwatts 1550
+# 4a07bd maxwatts 1575
+# 6fd056 maxwatts 1575
+# efc969 maxwatts 1550
+# 1c9a9d maxwatts 1575
+# 9ae6af maxwatts 1575
+# c7a6d8 maxwatts 1575
+# 14b55f maxwatts 1575
+# 9821db maxwatts 1550
+# 833da0 maxwatts 1575
+# 58aa3a maxwatts 1575
+# f0b740 maxwatts 1575
+# e9a6cf maxwatts 1575
+# 69adfb maxwatts 1550
+# e61a9b maxwatts 1550
+# 1e68e9 maxwatts 1550
+# 418c38 maxwatts 1575
+# bebcdf maxwatts 1575
+# 1766a9 maxwatts 1575
+# 789895 maxwatts 1575
+# 2cd597 maxwatts 1550
+da121e maxwatts 1525
+# 3b93d0 maxwatts 1550
 
 ## asic password
 asicpass admin
