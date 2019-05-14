@@ -70,10 +70,11 @@ d934fc location FKRAU0030
 vlan 10.0.62.41-43
 vlan 10.0.62.45-47
 vlan 10.0.62.49-52
-# vlan 10.0.54.39-48
-# vlan 10.0.62.66-75
+vlan 10.0.54.39-48
+vlan 10.0.62.66-75
 
 ## tuning
+02c22d maxwatts 1525
 
 ## asic password
 asicpass admin
