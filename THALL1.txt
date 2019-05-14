@@ -3,11 +3,11 @@
 
 global custompanel THALL1bit049
 
-global poolname1 cn.stratum.slushpool.com:3333
+global poolname1 eu.stratum.slushpool.com:3333
 global username1 RockyBojangles
 global poolpass1 123
 global sendworker1 yes
-global poolname2 cn.stratum.slushpool.com:443
+global poolname2 us-east.stratum.slushpool.com:3333
 global username2 RockyBojangles
 global poolpass2 123
 global sendworker2 yes
@@ -34,10 +34,87 @@ global fanspeed 85
 # group=rowc rebootasic 1
 # group=rowd allowed no
 
-# ab34ef location rowc2
-
 ## vlans
 vlan 10.0.32.22-45
+
+## locations
+ee2241 location THALL0001
+82a2a7 location THALL0002
+138707 location THALL0003
+9c07f5 location THALL0004
+95c8d4 location THALL0005
+b28347 location THALL0006
+2f1687 location THALL0007
+f76afb location THALL0008
+c705d1 location THALL0009
+386253 location THALL0010
+3bb8ac location THALL0011
+85ba2c location THALL0012
+c58079 location THALL0013
+3eebad location THALL0014
+349aad location THALL0015
+3ca507 location THALL0016
+830c66 location THALL0017
+c191c4 location THALL0018
+b62e9a location THALL0019
+1d29a7 location THALL0020
+a966ea location THALL0021
+845f77 location THALL0022
+f0c13e location THALL0023
+a9f19e location THALL0024
+255a6b location THALL0025
+
+## tuning
+# ee2241 maxwatts 1350
+# 82a2a7 maxwatts 1350
+# 138707 maxwatts 1350
+# 9c07f5 maxwatts 1350
+# 95c8d4 maxwatts 1350
+# b28347 maxwatts 1350
+# 2f1687 maxwatts 1350
+# f76afb maxwatts 1350
+# c705d1 maxwatts 1350
+# 386253 maxwatts 1350
+# 3bb8ac maxwatts 1350
+# 85ba2c maxwatts 1350
+# c58079 maxwatts 1350
+# 3eebad maxwatts 1350
+# 349aad maxwatts 1350
+# 3ca507 maxwatts 1350
+# 830c66 maxwatts 1350
+# c191c4 maxwatts 1350
+# b62e9a maxwatts 1350
+# 1d29a7 maxwatts 1350
+# a966ea maxwatts 1350
+# 845f77 maxwatts 1350
+# f0c13e maxwatts 1350
+# a9f19e maxwatts 1350
+# 255a6b maxwatts 1350
+# ee2241 retune 1
+# 82a2a7 retune 1
+# 138707 retune 1
+# 9c07f5 retune 1
+# 95c8d4 retune 1
+# b28347 retune 1
+# 2f1687 retune 1
+# f76afb retune 1
+# c705d1 retune 1
+# 386253 retune 1
+# 3bb8ac retune 1
+# 85ba2c retune 1
+# c58079 retune 1
+# 3eebad retune 1
+# 349aad retune 1
+# 3ca507 retune 1
+# 830c66 retune 1
+# c191c4 retune 1
+# b62e9a retune 1
+# 1d29a7 retune 1
+# a966ea retune 1
+# 845f77 retune 1
+# f0c13e retune 1
+# a9f19e retune 1
+# 255a6b retune 1
 
 ## asic password
 asicpass admin
