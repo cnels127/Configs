@@ -34,10 +34,40 @@ global retune 1
 # group=rowc rebootasic 1
 # group=rowd allowed no
 
-# ab34ef location rowc2
-
 ## vlans
 vlan 10.0.53.110-139
+
+## locations
+78202a location RHUSK0001
+4f6d37 location RHUSK0002
+79541e location RHUSK0003
+164bc2 location RHUSK0004
+4f284e location RHUSK0005
+f329fd location RHUSK0006
+e2e919 location RHUSK0007
+89f100 location RHUSK0008
+5c70b5 location RHUSK0009
+bb187d location RHUSK0010
+0fe1fa location RHUSK0011
+7b6cfa location RHUSK0012
+1677ff location RHUSK0013
+ffab5d location RHUSK0014
+1afe68 location RHUSK0015
+cec73f location RHUSK0016
+89c98f location RHUSK0017
+3faa4c location RHUSK0018
+943135 location RHUSK0019
+adbe7f location RHUSK0020
+006cd0 location RHUSK0021
+4c87c5 location RHUSK0022
+e6077e location RHUSK0023
+45dadf location RHUSK0024
+40f358 location RHUSK0025
+06988e location RHUSK0026
+ba0308 location RHUSK0027
+534814 location RHUSK0028
+f46832 location RHUSK0029
+2fb4f0 location RHUSK0030
 
 ## asic password
 asicpass admin
