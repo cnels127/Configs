@@ -45,26 +45,26 @@ ac4842 location FKRAU0006
 24549d location FKRAU0008
 5a17ee location FKRAU0009
 4112bb location FKRAU0010
-bfb0bc location FKRAU0011
-12a96e location FKRAU0012
-746fbe location FKRAU0013
-5b475d location FKRAU0014
-892d41 location FKRAU0015
-6b2885 location FKRAU0016
-23178f location FKRAU0017
-0ca5a4 location FKRAU0018
-d427dd location FKRAU0019
-31940f location FKRAU0020
-aee689 location FKRAU0021
-6d6f15 location FKRAU0022
-d81df4 location FKRAU0023
-ab6a45 location FKRAU0024
-e8ce85 location FKRAU0025
-f88d80 location FKRAU0026
-b66a48 location FKRAU0027
-7c08b6 location FKRAU0028
-04480f location FKRAU0029
-d934fc location FKRAU0030
+aee689 location FKRAU0011
+6d6f15 location FKRAU0012
+d81df4 location FKRAU0013
+ab6a45 location FKRAU0014
+e8ce85 location FKRAU0015
+f88d80 location FKRAU0016
+b66a48 location FKRAU0017
+7c08b6 location FKRAU0018
+04480f location FKRAU0019
+d934fc location FKRAU0020
+bfb0bc location FKRAU0021
+12a96e location FKRAU0022
+746fbe location FKRAU0023
+5b475d location FKRAU0024
+892d41 location FKRAU0025
+6b2885 location FKRAU0026
+23178f location FKRAU0027
+0ca5a4 location FKRAU0028
+d427dd location FKRAU0029
+31940f location FKRAU0030
 
 ## vlans
 vlan 10.0.62.41-43
@@ -84,16 +84,6 @@ ac4842 maxwatts 1550
 24549d maxwatts 1550
 5a17ee maxwatts 1525
 4112bb maxwatts 1550
-bfb0bc maxwatts 1575
-12a96e maxwatts 1525
-746fbe maxwatts 1525
-5b475d maxwatts 1575
-892d41 maxwatts 1550
-6b2885 maxwatts 1575
-23178f maxwatts 1550
-0ca5a4 maxwatts 1550
-d427dd maxwatts 1550
-31940f maxwatts 1525
 aee689 maxwatts 1525
 6d6f15 maxwatts 1575
 d81df4 maxwatts 1575
@@ -104,6 +94,16 @@ b66a48 maxwatts 1550
 7c08b6 maxwatts 1525
 04480f maxwatts 1525
 d934fc maxwatts 1550
+bfb0bc maxwatts 1575
+12a96e maxwatts 1525
+746fbe maxwatts 1525
+5b475d maxwatts 1575
+892d41 maxwatts 1550
+6b2885 maxwatts 1575
+23178f maxwatts 1550
+0ca5a4 maxwatts 1550
+d427dd maxwatts 1550
+31940f maxwatts 1525
 
 ## asic password
 asicpass admin
