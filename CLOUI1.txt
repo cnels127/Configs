@@ -3,11 +3,11 @@
 
 global custompanel CLOUI1bit049
 
-global poolname1 cn.stratum.slushpool.com:3333
+global poolname1 eu.stratum.slushpool.com:3333
 global username1 Cyruscreed00
 global poolpass1 123
 global sendworker1 yes
-global poolname2 cn.stratum.slushpool.com:443
+global poolname2 us-east.stratum.slushpool.com:3333
 global username2 Cyruscreed00
 global poolpass2 123
 global sendworker2 yes
@@ -34,10 +34,32 @@ global fanspeed 85
 # group=rowc rebootasic 1
 # group=rowd allowed no
 
-# ab34ef location rowc2
-
 ## vlans
 vlan 10.0.54.49-58
+
+## locations
+2b7bed location CLOUI0001
+1a1611 location CLOUI0002
+bf9f18 location CLOUI0003
+6d0544 location CLOUI0004
+3a0cc0 location CLOUI0005
+49ba28 location CLOUI0006
+e2c89b location CLOUI0007
+f60679 location CLOUI0008
+df94bd location CLOUI0009
+6cb55b location CLOUI0010
+
+## tuning
+2b7bed maxwatts 1350
+# 1a1611 maxwatts 1375
+bf9f18 maxwatts 1350
+# 6d0544 maxwatts 1375
+3a0cc0 maxwatts 1350
+49ba28 maxwatts 1350
+# e2c89b maxwatts 1375
+f60679 maxwatts 1350
+# df94bd maxwatts 1375
+# 6cb55b maxwatts 1375
 
 ## asic password
 asicpass admin
