@@ -34,11 +34,74 @@ global rebootasic 1
 # group=rowc rebootasic 1
 # group=rowd allowed no
 
-# ab34ef location rowc2
-
 ## vlans
+vlan 172.16.201.217-217
+vlan 172.16.201.245-245
+vlan 172.16.204.89-90
+vlan 172.16.204.93-94
+vlan 172.16.204.220-220
 vlan 10.0.57.48-72
+
+## locations
+a9c33f location tara
+b4de9a location jay1
+43345a location anton
+b70584 location thomas
+c724bb location jay2
+cfd708 location shadow
+713952 location mojo
+4b3a51 location RBARR0001
+6723e2 location RBARR0002
+0be34f location RBARR0003
+71df4f location RBARR0004
+e83b5d location RBARR0005
+08ede8 location RBARR0006
+7e7d0e location RBARR0007
+5d01ba location RBARR0008
+62cd86 location RBARR0009
+# 10.0.57.57 location RBARR0010
+4e2432 location RBARR0011
+f6aabf location RBARR0012
+247665 location RBARR0013
+7bbf29 location RBARR0014
+411421 location RBARR0015
+5478c2 location RBARR0016
+47fde6 location RBARR0017
+9aa009 location RBARR0018
+eea5d2 location RBARR0019
+427893 location RBARR0020
+1c4fae location RBARR0021
+693af5 location RBARR0022
+3ff0b0 location RBARR0023
+6ba6a0 location RBARR0024
+0746eb location RBARR0025
+
+## tuning
+4b3a51 maxwatts 1350
+6723e2 maxwatts 1350
+0be34f maxwatts 1350
+71df4f maxwatts 1350
+e83b5d maxwatts 1350
+08ede8 maxwatts 1350
+7e7d0e maxwatts 1350
+5d01ba maxwatts 1350
+62cd86 maxwatts 1350
+# 10.0.57.57 maxwatts 1350
+4e2432 maxwatts 1350
+f6aabf maxwatts 1350
+247665 maxwatts 1350
+7bbf29 maxwatts 1350
+411421 maxwatts 1350
+5478c2 maxwatts 1350
+47fde6 maxwatts 1350
+9aa009 maxwatts 1350
+eea5d2 maxwatts 1350
+427893 maxwatts 1350
+1c4fae maxwatts 1350
+693af5 maxwatts 1350
+3ff0b0 maxwatts 1350
+6ba6a0 maxwatts 1350
+0746eb maxwatts 1350
 
 ## asic password
 asicpass admin
-
