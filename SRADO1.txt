@@ -3,11 +3,11 @@
 
 global custompanel SRADO1bit049
 
-global poolname1 cn.stratum.slushpool.com:3333
+global poolname1 eu.stratum.slushpool.com:3333
 global username1 opejumeys
 global poolpass1 123
 global sendworker1 yes
-global poolname2 cn02.stratum.slushpool.com:3333
+global poolname2 us-east.stratum.slushpool.com:3333
 global username2 opejumeys
 global poolpass2 123
 global sendworker2 yes
@@ -34,11 +34,25 @@ global rebootasic 1
 # group=rowc rebootasic 1
 # group=rowd allowed no
 
-# ab34ef location rowc2
-
 ## vlans
 vlan 10.0.54.139-141
 vlan 10.0.68.42-44
+
+##  locations
+c8c8e3 location SRADO0001
+71393e location SRADO0002
+bd2001 location SRADO0003
+0f22cc location SRADO0004
+a23fe5 location SRADO0005
+fc9425 location SRADO0006
+
+## tuning
+c8c8e3 maxwatts 1350
+71393e maxwatts 1350
+bd2001 maxwatts 1350
+0f22cc maxwatts 1350
+a23fe5 maxwatts 1350
+fc9425 maxwatts 1350
 
 ## asic password
 asicpass admin
