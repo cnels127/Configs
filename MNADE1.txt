@@ -3,11 +3,11 @@
 
 global custompanel MNADE1bit049
 
-global poolname1 cn.stratum.slushpool.com:3333
+global poolname1 eu.stratum.slushpool.com:3333
 global username1 mnadelson
 global poolpass1 123
 global sendworker1 yes
-global poolname2 cn.stratum.slushpool.com:443
+global poolname2 us-east.stratum.slushpool.com:3333
 global username2 mnadelson
 global poolpass2 123
 global sendworker2 yes
@@ -18,7 +18,7 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1500
+global maxwatts 1550
 
 global autoupdate yes
 global allowed yes
@@ -37,8 +37,26 @@ global asicblink worker
 # ab34ef location rowc2
 
 ## vlans
-vlan 10.0.68.22-25
 vlan 10.0.57.83-85
+vlan 10.0.68.22-25
+
+## locations
+3bf939 location MNADE0001
+8a919b location MNADE0002
+2ecb70 location MNADE0003
+7e039a location MNADE0004
+4c4fe6 location MNADE0005
+2c0fb6 location MNADE0006
+e8521d location MNADE0007
+
+## tuning
+3bf939 maxwatts 1550
+8a919b maxwatts 1550
+2ecb70 maxwatts 1550
+7e039a maxwatts 1550
+4c4fe6 maxwatts 1550
+2c0fb6 maxwatts 1550
+e8521d maxwatts 1550
 
 ## asic password
 asicpass admin
