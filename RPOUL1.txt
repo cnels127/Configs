@@ -3,11 +3,11 @@
 
 global custompanel RPOUL1bit049
 
-global poolname1 cn.stratum.slushpool.com:3333
+global poolname1 eu.stratum.slushpool.com:3333
 global username1 bolodigi
 global poolpass1 123
 global sendworker1 yes
-global poolname2 cn02.stratum.slushpool.com:3333
+global poolname2 us-east.stratum.slushpool.com:3333
 global username2 bolodigi
 global poolpass2 123
 global sendworker2 yes
@@ -34,10 +34,20 @@ global fanspeed 85
 # group=rowc rebootasic 1
 # group=rowd allowed no
 
-# ab34ef location rowc2
-
 ## vlans
 vlan 10.0.68.30-33
+
+## locations
+12c5ea location RPOUL0001
+2e86e9 location RPOUL0002
+256c44 location RPOUL0003
+ba1c4a location RPOUL0004
+
+## tuning
+12c5ea maxwatts 1350
+2e86e9 maxwatts 1375
+256c44 maxwatts 1375
+ba1c4a maxwatts 1350
 
 ## asic password
 asicpass admin
