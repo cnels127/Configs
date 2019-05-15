@@ -39,5 +39,13 @@ global rebootasic 1
 ## vlans
 vlan 10.0.38.38-39
 
+## locations
+fae301 location HKATZ0001
+44ba88 location HKATZ0002
+
+## tuning
+# fae301 maxwatts 1550
+# 44ba88 maxwatts 1550
+
 ## asic password
 asicpass admin
