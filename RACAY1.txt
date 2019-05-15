@@ -35,8 +35,7 @@ global retune 2
 # group=rowd allowed no
 
 ## vlans (vlan ###.###.###.###)
-# vlan 10.0.54.151-153
-# vlan 10.0.60.45-56
+vlan 10.0.54.151-153
 vlan 10.0.55.94-94
 vlan 10.0.55.105-106
 vlan 10.0.55.115-115
@@ -65,6 +64,23 @@ ac1696 location RACAY0012
 095c6d location RACAY0013
 d6136a location RACAY0014
 9f942d location RACAY0015
+
+## tuning
+c55a62 maxwatts 1550
+73d19d maxwatts 1550
+55ae8b maxwatts 1550
+57c2bb maxwatts 1550
+62dffd maxwatts 1550
+e98a1b maxwatts 1550
+cfc1d8 maxwatts 1550
+6c2312 maxwatts 1550
+ec8ea7 maxwatts 1550
+74a07a maxwatts 1550
+5645bb maxwatts 1550
+ac1696 maxwatts 1550
+095c6d maxwatts 1550
+d6136a maxwatts 1550
+9f942d maxwatts 1550
 
 ## asic password
 asicpass admin
