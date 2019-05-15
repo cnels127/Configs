@@ -34,10 +34,16 @@ global fanspeed 85
 # group=rowc rebootasic 1
 # group=rowd allowed no
 
-# ab34ef location rowc2
-
 ## vlans
 vlan 10.0.68.36-37
+
+## locations
+b34b28 location JPAUL0001
+a39697 location JPAUL0002
+
+## tuning
+b34b28 maxwatts 1350
+a39697 maxwatts 1350
 
 ## asic password
 asicpass admin
