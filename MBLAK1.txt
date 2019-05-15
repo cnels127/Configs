@@ -3,11 +3,11 @@
 
 global custompanel MBLAK1bit049
 
-global poolname1 cn.stratum.slushpool.com:3333
+global poolname1 eu.stratum.slushpool.com:3333
 global username1 mdblake
 global poolpass1 123
 global sendworker1 yes
-global poolname2 cn02.stratum.slushpool.com:3333
+global poolname2 us-east.stratum.slushpool.com:3333
 global username2 mdblake
 global poolpass2 123
 global sendworker2 yes
@@ -34,10 +34,36 @@ global fanspeed 85
 # group=rowc rebootasic 1
 # group=rowd allowed no
 
-# ab34ef location rowc2
-
 ## vlans
 vlan 10.0.56.147-158
+
+## locations
+61cbc7 location MBLAK0001
+23acb0 location MBLAK0002
+abee59 location MBLAK0003
+7583aa location MBLAK0004
+3bd8d4 location MBLAK0005
+f5425c location MBLAK0006
+e27d2f location MBLAK0007
+ec382c location MBLAK0008
+ecd90f location MBLAK0009
+dfb542 location MBLAK0010
+1e74b1 location MBLAK0011
+5d3f6c location MBLAK0012
+
+## tuning
+61cbc7 maxwatts 1350
+23acb0 maxwatts 1350
+abee59 maxwatts 1350
+7583aa maxwatts 1350
+3bd8d4 maxwatts 1350
+f5425c maxwatts 1350
+e27d2f maxwatts 1350
+ec382c maxwatts 1350
+ecd90f maxwatts 1350
+dfb542 maxwatts 1350
+1e74b1 maxwatts 1350
+5d3f6c maxwatts 1350
 
 ## asic password
 asicpass admin
