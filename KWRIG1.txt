@@ -34,11 +34,23 @@ global fanspeed 85
 # group=rowc rebootasic 1
 # group=rowd allowed no
 
-# ab34ef location rowc2
-
 ## vlans
-vlan 10.0.68.109-110
 vlan 10.0.57.81-82
+vlan 10.0.68.109-110
+
+## locations
+570c84 location KWRIG0001
+97f21b location KWRIG0002
+29bca0 location KWRIG0003
+2a7ac0 location KWRIG0004
+
+## tuning
+570c84 maxwatts 1350
+97f21b maxwatts 1350
+29bca0 maxwatts 1375
+2a7ac0 maxwatts 1375
+570c84 retune 1
+97f21b retune 1
 
 ## asic password
 asicpass admin
