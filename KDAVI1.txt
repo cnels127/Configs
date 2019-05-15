@@ -35,25 +35,24 @@ global rebootasic 1
 # group=rowd allowed no
 
 ## vlans
-# vlan 172.16.204.237-239
-# vlan 10.0.54.148-150
+vlan 10.0.54.148-150
 vlan 10.0.56.127-129
 
 ## locations
-# 3bb05e location 3bb05e
-# b4ffc9 location b4ffc9
-# a96cd3 location a96cd3
+cf1a34 location KDAVI0001
+312516 location KDAVI0002
+5f861d location KDAVI0003
 6f3c8b location KDAVI0004
 0819f9 location KDAVI0005
 8ef4ad location KDAVI0006
 
 ## tuning
-# 3bb05e maxwatts 1350
-# b4ffc9 maxwatts 1350
-# a96cd3 maxwatts 1350
-6f3c8b maxwatts 1350
-0819f9 maxwatts 1350
-8ef4ad maxwatts 1350
+cf1a34 maxwatts 1375
+312516 maxwatts 1350
+5f861d maxwatts 1350
+6f3c8b maxwatts 1375
+0819f9 maxwatts 1375
+8ef4ad maxwatts 1375
 
 ## asic password
 asicpass admin
