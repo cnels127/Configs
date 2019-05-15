@@ -34,8 +34,6 @@ global fanspeed 85
 # group=rowc rebootasic 1
 # group=rowd allowed no
 
-# ab34ef location rowc2
-
 ## vlans
 vlan 10.0.32.80-83
 vlan 10.0.51.1-56
@@ -46,8 +44,8 @@ vlan 10.0.57.88-127
 588b28 location VLIGU0002
 43f6d9 location VLIGU0003
 a1b050 location VLIGU0004
-# 10.0.51.1 SCRAPPED VLIGU0005
-# 10.0.51.2 SCRAPPED VLIGU0006
+193649 location VLIGU0005
+98613c location VLIGU0006
 7b1d13 location VLIGU0007
 75ca40 location VLIGU0008
 d8c2ec location VLIGU0009
@@ -148,8 +146,8 @@ b6e3fd maxwatts 1600
 7523a0 maxwatts 1575
 6a6505 maxwatts 1600
 adc462 maxwatts 1600
-# 10.0.51.1 SCRAPPED FOR PARTS
-# 10.0.51.2 SCRAPPED FOR PARTS
+193649 maxwatts 1550
+98613c maxwatts 1550
 9a8744 maxwatts 1575
 6f161e maxwatts 1600
 ad13e2 maxwatts 1575
@@ -247,13 +245,13 @@ d517e7 maxwatts 1600
 7a4c7c maxwatts 1600
 39c93b maxwatts 1600
 
-
+## tuning
 b6e3fd retune 1
 7523a0 retune 1
 6a6505 retune 1
 adc462 retune 1
-# 10.0.51.1 SCRAPPED FOR PARTS
-# 10.0.51.2 SCRAPPED FOR PARTS
+193649 retune 1
+98613c retune 1
 bc004c retune 1
 bd6d76 retune 1
 39c93b retune 1
