@@ -18,7 +18,7 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1525
+global maxwatts 1550
 
 global autoupdate yes
 global allowed yes
@@ -34,12 +34,34 @@ global fanspeed 85
 # group=rowc rebootasic 1
 # group=rowd allowed no
 
-# ab34ef location rowc2
-
 ## vlans
 vlan 10.0.57.87-87
 vlan 10.0.54.136-138
 vlan 10.0.32.64-69
+
+## locations
+b916a9 location THORA0001
+457c65 location THORA0002
+056132 location THORA0003
+456621 location THORA0004
+981c8f location THORA0005
+c38cc0 location THORA0006
+190eef location THORA0007
+815cec location THORA0008
+e3240c location THORA0009
+0ef8df location THORA0010
+
+## tuning
+b916a9 maxwatts 1550
+457c65 maxwatts 1550
+056132 maxwatts 1550
+456621 maxwatts 1550
+981c8f maxwatts 1550
+c38cc0 maxwatts 1550
+190eef maxwatts 1550
+815cec maxwatts 1550
+e3240c maxwatts 1550
+0ef8df maxwatts 1550
 
 ## asic password
 asicpass admin
