@@ -3,11 +3,11 @@
 
 global custompanel RANDE1bit049
 
-global poolname1 cn.stratum.slushpool.com:3333
+global poolname1 eu.stratum.slushpool.com:3333
 global username1 scracing
 global poolpass1 123
 global sendworker1 yes
-global poolname2 cn.stratum.slushpool.com:443
+global poolname2 us-east.stratum.slushpool.com:3333
 global username2 scracing
 global poolpass2 123
 global sendworker2 yes
@@ -34,10 +34,16 @@ global fanspeed 85
 # group=rowc rebootasic 1
 # group=rowd allowed no
 
-# ab34ef location rowc2
-
 ## vlans
 vlan 10.0.55.6-7
+
+## locations
+5dea94 location RANDE0001
+e35f32 location RANDE0002
+
+# tuning
+5dea94 maxwatts 1350
+e35f32 maxwatts 1350
 
 ## asic password
 asicpass admin
