@@ -2,11 +2,11 @@
 
 global custompanel TNOLA1bit049
 
-global poolname1 cn.stratum.slushpool.com:3333
+global poolname1 eu.stratum.slushpool.com:3333
 global username1 tcnolan96
 global poolpass1 123
 global sendworker1 yes
-global poolname2 cn.stratum.slushpool.com:443
+global poolname2 us-east.stratum.slushpool.com:333
 global username2 tcnolan96
 global poolpass2 123
 global sendworker2 yes
@@ -37,6 +37,20 @@ global fanspeed 85
 
 ## vlans
 vlan 10.0.57.76-80
+
+## locations
+eaab57 location TNOLA0001
+f7deb6 location TNOLA0002
+9e6254 location TNOLA0003
+8bbd8a location TNOLA0004
+be162a location TNOLA0005
+
+## tuning
+eaab57 maxwatts 1350
+f7deb6 maxwatts 1350
+9e6254 maxwatts 1350
+8bbd8a maxwatts 1350
+be162a maxwatts 1350
 
 ## asic password
 asicpass admin
