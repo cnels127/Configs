@@ -3,11 +3,11 @@
 
 global custompanel DDUNN1bit049
 
-global poolname1 cn.stratum.slushpool.com:3333
+global poolname1 eu.stratum.slushpool.com:3333
 global username1 ddunn0707
 global poolpass1 123
 global sendworker1 yes
-global poolname2 cn.stratum.slushpool.com:443
+global poolname2 us-east.stratum.slushpool.com:3333
 global username2 ddunn0707
 global poolpass2 123
 global sendworker2 yes
@@ -34,11 +34,25 @@ global retune 1
 # group=rowc rebootasic 1
 # group=rowd allowed no
 
-# ab34ef location rowc2
-
 ## vlans
 vlan 10.0.54.160-161
 vlan 10.0.55.1-4
+
+## locations
+5594a0 location DDUNN0001
+ee9f37 location DDUNN0002
+14da93 location DDUNN0003
+9a204a location DDUNN0004
+4c1b54 location DDUNN0005
+d54d46 location DDUNN0006
+
+## tuning
+5594a0 maxwatts 1350
+ee9f37 maxwatts 1350
+14da93 maxwatts 1350
+9a204a maxwatts 1350
+4c1b54 maxwatts 1350
+d54d46 maxwatts 1350
 
 ## asic password
 asicpass admin
