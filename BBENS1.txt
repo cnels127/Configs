@@ -3,22 +3,22 @@
 
 global custompanel BBENS1bit049
 
-global poolname1 stratum.slushpool.com:3333
+global poolname1 eu.stratum.slushpool.com:3333
 global username1 Bbenson314
 global poolpass1 123
 global sendworker1 yes
-global poolname2 stratum.slushpool.com:3333
+global poolname2 us-east.stratum.slushpool.com:3333
 global username2 Bbenson6
 global poolpass2 123
 global sendworker2 yes
-global poolname3 
-global username3 
-global poolpass3 
+global poolname3 stratum.slushpool.com:3333
+global username3 Bbenson6
+global poolpass3 123
 global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1500
+global maxwatts 1550
 
 global autoupdate yes
 global allowed yes
@@ -39,5 +39,12 @@ global fanspeed 85
 ## vlans
 vlan 10.0.68.40-41
 
+## locations
+815d57 location BBENS0001
+f69de1 location BBENS0002
+
+## tuning
+815d57 maxwatts 1550
+f69de1 maxwatts 1550
 ## asic password
 asicpass admin
