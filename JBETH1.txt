@@ -18,7 +18,7 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1525
+global maxwatts 1550
 
 global autoupdate yes
 global allowed yes
@@ -33,6 +33,10 @@ global asicblink worker
 
 # group=rowc rebootasic 1
 # group=rowd allowed no
+
+## vlans
+vlan 10.0.68.48-52
+vlan 10.0.68.102-108
 
 ## locations
 2462cd location johnbethBTC021
@@ -49,19 +53,22 @@ e67e88 location johnbethBTC031
 6c73b3 location johnbethBTC032
 
 ## tuning
-966dd1 maxwatts 1525
-966dd1 retune 1
-2c969d maxwatts 1550
-2c969d retune 1
+2462cd maxwatts 1550
+966dd1 maxwatts 1550
+37ffb3 maxwatts 1550
+084a54 maxwatts 1550
+b340b4 maxwatts 1575
 434e7d maxwatts 1550
-434e7d retune 1
+2c969d maxwatts 1550
 690f5d maxwatts 1550
+406249 maxwatts 1550
+39be0c maxwatts 1575
+e67e88 maxwatts 1550
+6c73b3 maxwatts 1575
+966dd1 retune 1
+2c969d retune 1
+434e7d retune 1
 690f5d retune 1
-
-## vlans
-vlan 10.0.68.48-52
-vlan 10.0.68.102-108
 
 ## asic password
 asicpass admin
-
