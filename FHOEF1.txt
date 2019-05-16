@@ -3,16 +3,16 @@
 
 global custompanel FHOEF1bit049
 
-global poolname1 eu.stratum.slushpool.com:3333
-global username1 Riggi1
+global poolname1 eu.ss.btc.com:1800
+global username1 Franks
 global poolpass1 123
 global sendworker1 yes
-global poolname2 us-east.stratum.slushpool.com:3333
-global username2 Riggi1
+global poolname2 eu.ss.btc.com:443
+global username2 Franks
 global poolpass2 123
 global sendworker2 yes
-global poolname3 cn.stratum.slushpool.com:3333
-global username3 Riggi1
+global poolname3 eu.ss.btc.com:25
+global username3 Franks
 global poolpass3 123
 global sendworker3 yes
 
@@ -47,16 +47,16 @@ vlan 10.0.56.85-85
 vlan 10.0.56.88-88
 
 ## locations ([ASICID] location [name])
-f36d51 location FHOEF0001
-d06af5 location FHOEF0002
-1a7d47 location FHOEF0003
-e0ccfa location FHOEF0004
-0faa22 location FHOEF0005
-de83b4 location FHOEF0006
-167d2c location FHOEF0007
-8d76ff location FHOEF0008
-17e1e7 location FHOEF0009
-d2d829 location FHOEF0010
+f36d51 location 0001
+d06af5 location 0002
+1a7d47 location 0003
+e0ccfa location 0004
+0faa22 location 0005
+de83b4 location 0006
+167d2c location 0007
+8d76ff location 0008
+17e1e7 location 0009
+d2d829 location 0010
 
 ## tuning
 # f36d51 maxwatts 1375
