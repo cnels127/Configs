@@ -35,8 +35,19 @@ global retune 1
 # group=rowd allowed no
 
 ## vlans
-vlan 10.0.54.160-161
-vlan 10.0.55.1-4
+# vlan 10.0.54.160-161
+# vlan 10.0.55.1-4
+vlan 10.0.55.86-86
+vlan 10.0.55.112-112
+vlan 10.0.55.119-119
+vlan 10.0.55.139-139
+vlan 10.0.55.147-148
+vlan 10.0.56.53-53
+vlan 10.0.56.69-69
+vlan 10.0.56.86-86
+vlan 10.0.56.110-110
+vlan 10.0.56.112-112
+vlan 10.0.56.114-114
 
 ## locations
 5594a0 location DDUNN0001
@@ -45,6 +56,18 @@ ee9f37 location DDUNN0002
 9a204a location DDUNN0004
 4c1b54 location DDUNN0005
 d54d46 location DDUNN0006
+f5839e location DDUNN0007
+23c698 location DDUNN0008
+733b65 location DDUNN0009
+947334 location DDUNN0010
+15a0ef location DDUNN0011
+0f26d2 location DDUNN0012
+46781e location DDUNN0013
+13424f location DDUNN0014
+968831 location DDUNN0015
+eef025 location DDUNN0016
+787c22 location DDUNN0017
+58df28 location DDUNN0018
 
 ## tuning
 5594a0 maxwatts 1375
@@ -53,6 +76,18 @@ ee9f37 maxwatts 1350
 9a204a maxwatts 1375
 4c1b54 maxwatts 1350
 d54d46 maxwatts 1375
+f5839e maxwatts 1350
+23c698 maxwatts 1350
+733b65 maxwatts 1350
+947334 maxwatts 1350
+15a0ef maxwatts 1350
+0f26d2 maxwatts 1350
+46781e maxwatts 1350
+13424f maxwatts 1350
+968831 maxwatts 1350
+eef025 maxwatts 1350
+787c22 maxwatts 1350
+58df28 maxwatts 1350
 
 ## asic password
 asicpass admin
