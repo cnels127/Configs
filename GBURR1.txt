@@ -41,11 +41,11 @@ vlan 10.0.56.107-107
 vlan 10.0.56.113-113
 
 ## locations
-f0f798 location GBURR0001
-e2c6fd location GBURR0002
-2d11cf location GBURR0003
-fd17aa location GBURR0004
-fb355a location GBURR0005
+f0f798 location lucy
+e2c6fd location mini
+2d11cf location moses
+fd17aa location daisy
+fb355a location sushi
 
 ## tuning
 f0f798 maxwatts 1575
