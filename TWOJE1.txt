@@ -1,0 +1,52 @@
+## instructions available at: https://asicseer.com/page/kb#writing-config
+
+global custompanel TWOJE1bit049
+
+global poolname1 stratum.antpool.com:3333
+global username1 TomekGroup
+global poolpass1 123
+global sendworker1 yes
+global poolname2 stratum.antpool.com:443
+global username2 TomekGroup
+global poolpass2 123
+global sendworker2 yes
+global poolname3 stratum.f2pool.com:3333
+global username3 tomekgroup123
+global poolpass3 123
+global sendworker3 yes
+
+global asicboost yes
+global autotune yes
+global maxwatts 1575
+
+global autoupdate yes
+global allowed yes
+global maxtemp 90
+global fanspeed 85
+global asicblink worker
+
+# global retune 1
+# global rebootasic 1
+# global resetasic 1
+# global panelpass gj83Nkgikg
+
+# group=rowc rebootasic 1
+# group=rowd allowed no
+
+## vlans
+vlan 10.0.55.127-127
+vlan 10.0.55.161-161
+vlan 10.0.56.98-98
+
+## locations
+af01c7 location TWOJE0001
+b86fb1 location TWOJE0002
+b0ec6c location TWOJE0003
+
+## tuning
+af01c7 maxwatts 1575
+b86fb1 maxwatts 1575
+b0ec6c maxwatts 1575
+
+## asic password
+asicpass admin
