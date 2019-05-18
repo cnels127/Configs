@@ -34,9 +34,9 @@ global asicblink worker
 # group=rowd allowed no
 
 ## vlans
-10.0.55.120-120
-10.0.55.137-137
-10.0.56.68-68
+vlan 10.0.55.120-120
+vlan 10.0.55.137-137
+vlan 10.0.56.68-68
 
 ## locations
 35cf73 location ABEAU0001
