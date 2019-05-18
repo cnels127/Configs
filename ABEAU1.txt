@@ -1,0 +1,52 @@
+## instructions available at: https://asicseer.com/page/kb#writing-config
+
+global custompanel ABEAU1bit049
+
+global poolname1 eu.stratum.slushpool.com:3333
+global username1 utbeauchamp
+global poolpass1 123
+global sendworker1 yes
+global poolname2 us-east.stratum.slushpool.com:3333
+global username2 utbeauchamp
+global poolpass2 123
+global sendworker2 yes
+global poolname3 stratum.slushpool.com:3333
+global username3 utbeauchamp
+global poolpass3 123
+global sendworker3 yes
+
+global asicboost yes
+global autotune yes
+global maxwatts 1375
+
+global autoupdate yes
+global allowed yes
+global maxtemp 90
+global fanspeed 85
+global asicblink worker
+
+# global retune 1
+# global rebootasic 1
+# global resetasic 1
+# global panelpass gj83Nkgikg
+
+# group=rowc rebootasic 1
+# group=rowd allowed no
+
+## vlans
+10.0.55.120-120
+10.0.55.137-137
+10.0.56.68-68
+
+## locations
+35cf73 location ABEAU0001
+a26081 location ABEAU0002
+64c124 location ABEAU0003
+
+## tuning
+35cf73 maxwatts 1375
+a26081 maxwatts 1375
+64c124 maxwatts 1375
+
+## asic password
+asicpass admin
