@@ -1,0 +1,66 @@
+## ASICseer default config loaded in, edit it and click 'Save Changes'
+## instructions available at: https://asicseer.com/page/kb#writing-config
+
+global custompanel SLEE01bit049
+
+global poolname1 us.ss.btc.com:1800
+global username1 phishphen
+global poolpass1 x
+global sendworker1 yes
+global poolname2 bch.svpool.com:3333
+global username2 phishphen
+global poolpass2 x
+global sendworker2 yes
+global poolname3 sha256.na.mine.zpool.ca:3333
+global username3 1NVkaepBpYVK7NLsQHd3G5r6n33ZrqzFCt
+global poolpass3 c=BTC
+global sendworker3 yes
+
+global asicboost yes
+global autotune yes
+global maxwatts 1525
+
+# global autoupdate yes
+global allowed yes
+global maxtemp 90
+global fanspeed 90
+# global asicblink worker
+
+global retune 1
+global rebootasic 2
+# global resetasic 1
+# global panelpass gj83Nkgikg
+
+# group=rowc rebootasic 1
+# group=rowd allowed no
+
+## vlans
+vlan 172.16.202.48-48
+vlan 172.16.202.70-70
+vlan 172.16.202.72-72
+vlan 172.16.202.74-79
+vlan 172.16.202.83-83
+vlan 172.16.204.124-124
+vlan 172.16.204.129-132
+
+## locations
+b0864d location 0001
+0e1be6 location 0002
+460df4 location 0003
+c0fbe7 location 0004
+d0f794 location 0005
+a39906 location 0006A
+d8d329 location 0007
+e10e52 location 0008
+fc6ae7 location 0009
+a92e83 location 0010
+f913d1 location 0011A
+3812df location 0012
+5a808d location 0013
+306978 location 0014
+2d8668 location 0015
+
+## tuning
+
+## asic password
+asicpass admin
