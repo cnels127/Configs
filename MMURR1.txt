@@ -1,0 +1,47 @@
+## ASICseer default config loaded in, edit it and click 'Save Changes'
+## instructions available at: https://asicseer.com/page/kb#writing-config
+
+global custompanel MMURR1bit049
+
+global poolname1 us-east.stratum.slushpool.com:3333
+global username1 NorCalMiner
+global poolpass1 123
+global sendworker1 yes
+global poolname2 ca.stratum.slushpool.com:3333
+global username2 NorCalMiner
+global poolpass2 123
+global sendworker2 yes
+global poolname3 stratum.slushpool.com:3333
+global username3 NorCalMiner
+global poolpass3 123
+global sendworker3 yes
+
+global asicboost yes
+global autotune yes
+global maxwatts 1500
+
+global allowed yes
+global maxtemp 90
+global fanspeed 90
+# global asicblink worker
+
+# global retune 1
+# global rebootasic 1
+# global resetasic 1
+# global panelpass gj83Nkgikg
+
+# group=rowc rebootasic 1
+# group=rowd allowed no
+
+## vlans
+vlan 172.16.204.145-145
+vlan 172.16.202.57-57
+
+## locations
+6be331 location 0001
+c7c4b4 location 0002
+
+## tuning
+
+## asic password
+asicpass admin
