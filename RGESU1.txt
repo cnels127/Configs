@@ -96,8 +96,9 @@ ff032f location rgesu0058
 75ef00 location rgesu0060
 
 ## vlans
-10.0.53.140-161
-10.0.54.1-38
+vlan 10.0.53.140-161
+vlan 10.0.54.1-38
+vlan 172.16.202.91-95
 
 ## asic password
 asicpass admin
