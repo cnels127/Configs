@@ -40,6 +40,7 @@ vlan 10.0.51.1-56
 vlan 10.0.57.88-127
 vlan 10.0.56.73-73
 vlan 10.0.56.119-119
+vlan 10.0.56.52-52
 
 ## locations
 392b95 location VLIGU0001
@@ -47,6 +48,7 @@ vlan 10.0.56.119-119
 43f6d9 location VLIGU0003
 a1b050 location VLIGU0004
 193649 location VLIGU0005
+4d4439 location VLIGU0005
 98613c location VLIGU0006
 7b1d13 location VLIGU0007
 75ca40 location VLIGU0008
@@ -250,6 +252,7 @@ d517e7 maxwatts 1600
 39c93b maxwatts 1600
 3b770e maxwatts 1575
 4cbbff maxwatts 1575
+4d4439 maxwatts 1550
 
 ## tuning
 b6e3fd retune 1
