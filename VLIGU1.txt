@@ -38,6 +38,8 @@ global rebootasic 1
 vlan 10.0.32.80-83
 vlan 10.0.51.1-56
 vlan 10.0.57.88-127
+vlan 10.0.56.73-73
+vlan 10.0.56.119-119
 
 ## locations
 392b95 location VLIGU0001
@@ -51,6 +53,7 @@ a1b050 location VLIGU0004
 d8c2ec location VLIGU0009
 7dd754 location VLIGU0010
 7523a0 location VLIGU0011
+3b770e location VLIGU0011
 6a16cb location VLIGU0012
 a4acde location VLIGU0013
 418123 location VLIGU0014
@@ -117,6 +120,7 @@ adc462 location VLIGU0073
 4d4b02 location VLIGU0075
 3bd98f location VLIGU0076
 bc004c location VLIGU0077
+4cbbff location VLIGU0077
 f7dadf location VLIGU0078
 d517e7 location VLIGU0079
 2c95c4 location VLIGU0080
@@ -244,6 +248,8 @@ c05b10 maxwatts 1600
 d517e7 maxwatts 1600
 7a4c7c maxwatts 1600
 39c93b maxwatts 1600
+3b770e maxwatts 1550
+4cbbff maxwatts 1530
 
 ## tuning
 b6e3fd retune 1
