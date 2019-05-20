@@ -23,7 +23,7 @@ global maxwatts 1350
 global autoupdate no
 global allowed yes
 global maxtemp 90
-global fanspeed 85
+global fanspeed 90
 # global asicblink worker
 
 # global retune 1
@@ -33,6 +33,11 @@ global rebootasic 3
 
 # group=rowc rebootasic 1
 # group=rowd allowed no
+
+## vlans
+vlan 10.0.56.159-161
+vlan 10.0.57.1-47
+# vlan 10.0.60.70-94
 
 ## locations
 cb7a3d location cb7a3d
@@ -336,11 +341,6 @@ dae245 location dae245
 07377c location 07377c
 022072 location 022072
 bc30a1 location bc30a1
-
-## vlans
-vlan 10.0.56.159-161
-vlan 10.0.57.1-47
-vlan 10.0.60.70-94
 
 ## asic password
 asicpass admin
