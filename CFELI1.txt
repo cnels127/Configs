@@ -20,10 +20,10 @@ global asicboost yes
 global autotune yes
 global maxwatts 1500
 
-global autoupdate yes
+global autoupdate no
 global allowed yes
 global maxtemp 90
-global fanspeed 80
+global fanspeed 85
 # global asicblink worker
 
 # global retune 1
@@ -34,14 +34,11 @@ global fanspeed 80
 # group=rowc rebootasic 1
 # group=rowd allowed no
 
-# ab34ef location rowc2
-
 ## vlans
-# vlan 10.8.250.0
-# vlan 10.8.251.0
-# vlan 10.8.252.0
-# vlan 10.8.253.0
-# vlan 10.8.254.0
+
+## location
+
+## tuning
 
 ## asic password
 asicpass admin
