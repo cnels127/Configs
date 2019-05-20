@@ -23,7 +23,7 @@ global maxwatts 1350
 global autoupdate no
 global allowed yes
 global maxtemp 90
-global fanspeed 85
+global fanspeed 90
 # global asicblink worker
 
 # global retune 1
@@ -34,10 +34,32 @@ global fanspeed 85
 # group=rowc rebootasic 1
 # group=rowd allowed no
 
-# ab34ef location rowc2
-
 ## vlans
 vlan 10.0.68.92-101
+
+## locations
+29b205 location ANORC0001
+07c674 location ANORC0002
+17fb06 location ANORC0003
+f5e34e location ANORC0004
+d0157c location ANORC0005
+0796c0 location ANORC0006
+efd6b3 location ANORC0007
+3b0926 location ANORC0008
+ce82d1 location ANORC0009
+88093b location ANORC0010
+
+## tuning
+29b205 maxwatts 1350
+07c674 maxwatts 1350
+17fb06 maxwatts 1350
+f5e34e maxwatts 1350
+d0157c maxwatts 1350
+0796c0 maxwatts 1350
+efd6b3 maxwatts 1350
+3b0926 maxwatts 1350
+ce82d1 maxwatts 1350
+88093b maxwatts 1350
 
 ## asic password
 asicpass admin
