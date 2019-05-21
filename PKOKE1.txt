@@ -23,7 +23,7 @@ global maxwatts 1350
 global autoupdate no
 global allowed yes
 global maxtemp 90
-global fanspeed 85
+global fanspeed 90
 # global asicblink worker
 
 global retune 1
@@ -58,7 +58,7 @@ bb43ef location PKOKE0009
 f39f2b maxwatts 1350
 bd9932 maxwatts 1350
 7ed10f maxwatts 1400
-3bcc51 maxwatts 1400
+3bcc51 maxwatts 1500
 65e9cb maxwatts 1350
 5c1ae5 maxwatts 1400
 bb43ef maxwatts 1350
