@@ -23,7 +23,7 @@ global maxwatts 1350
 global autoupdate no
 global allowed yes
 global maxtemp 90
-global fanspeed 95
+global fanspeed 90
 global asicblink worker
 
 global retune 1
@@ -35,8 +35,8 @@ global retune 1
 # group=rowd allowed no
 
 ## vlans
-# vlan 10.0.54.160-161
-# vlan 10.0.55.1-4
+vlan 10.0.54.160-161
+vlan 10.0.55.1-4
 vlan 10.0.55.86-86
 vlan 10.0.55.112-112
 vlan 10.0.55.119-119
@@ -76,18 +76,18 @@ ee9f37 maxwatts 1350
 9a204a maxwatts 1375
 4c1b54 maxwatts 1350
 d54d46 maxwatts 1375
-f5839e maxwatts 1350
-23c698 maxwatts 1350
+f5839e maxwatts 1375
+23c698 maxwatts 1375
 733b65 maxwatts 1350
-947334 maxwatts 1350
+947334 maxwatts 1375
 15a0ef maxwatts 1350
-0f26d2 maxwatts 1350
+0f26d2 maxwatts 1400
 46781e maxwatts 1350
-13424f maxwatts 1350
-968831 maxwatts 1350
+13424f maxwatts 1375
+968831 maxwatts 1400
 eef025 maxwatts 1350
 787c22 maxwatts 1350
-58df28 maxwatts 1350
+58df28 maxwatts 1375
 
 ## asic password
 asicpass admin
