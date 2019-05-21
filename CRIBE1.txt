@@ -10,7 +10,7 @@ global poolname2 us-east.stratum.slushpool.com:3333
 global username2 WTMINING
 global poolpass2 123
 global sendworker2 yes
-global poolname3 cn.stratum.slushpool.com:3333
+global poolname3 stratum.slushpool.com:3333
 global username3 WTMINING
 global poolpass3 123
 global sendworker3 yes
@@ -22,7 +22,7 @@ global maxwatts 1550
 global autoupdate no
 global allowed yes
 global maxtemp 90
-global fanspeed 85
+global fanspeed 90
 # global asicblink worker
 
 # global retune 1
@@ -33,11 +33,64 @@ global rebootasic 1
 # group=rowc rebootasic 1
 # group=rowd allowed no
 
-# ab34ef location rowc2
-
 ## vlans
 vlan 10.0.62.1-26
 
+## locations
+e0b9e7 location CRIBE0001
+64e334 location CRIBE0002
+bb3eb8 location CRIBE0003
+923afa location CRIBE0004
+e004c5 location CRIBE0005
+04ba06 location CRIBE0006
+3fda51 location CRIBE0007
+4020bb location CRIBE0008
+138ef0 location CRIBE0009
+4b06d3 location CRIBE0010
+b43083 location CRIBE0011
+f6994a location CRIBE0012
+4eeab5 location CRIBE0013
+268669 location CRIBE0014
+c49427 location CRIBE0015
+5e59a2 location CRIBE0016
+442360 location CRIBE0017
+f9cc31 location CRIBE0018
+c7af1b location CRIBE0019
+31e054 location CRIBE0020
+54b3e0 location CRIBE0021
+582c72 location CRIBE0022
+e18884 location CRIBE0023
+4593d4 location CRIBE0024
+c120c5 location CRIBE0025
+03791c location CRIBE0026
+
+## tuning
+e0b9e7 maxwatts 1550
+64e334 maxwatts 1550
+bb3eb8 maxwatts 1550
+923afa maxwatts 1550
+e004c5 maxwatts 1550
+04ba06 maxwatts 1550
+3fda51 maxwatts 1550
+4020bb maxwatts 1550
+138ef0 maxwatts 1550
+4b06d3 maxwatts 1550
+b43083 maxwatts 1550
+f6994a maxwatts 1550
+4eeab5 maxwatts 1550
+268669 maxwatts 1550
+c49427 maxwatts 1550
+5e59a2 maxwatts 1550
+442360 maxwatts 1550
+f9cc31 maxwatts 1550
+c7af1b maxwatts 1550
+31e054 maxwatts 1550
+54b3e0 maxwatts 1550
+582c72 maxwatts 1550
+e18884 maxwatts 1550
+4593d4 maxwatts 1550
+c120c5 maxwatts 1550
+03791c maxwatts 1550
+
 ## asic password
 asicpass admin
-
