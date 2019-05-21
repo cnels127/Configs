@@ -20,10 +20,10 @@ global asicboost yes
 global autotune yes
 global maxwatts 1500
 
-global autoupdate no
+global autoupdate yes
 global allowed yes
 global maxtemp 90
-global fanspeed 85
+global fanspeed 90
 # global asicblink worker
 
 # global retune 1
@@ -35,8 +35,7 @@ global rebootasic 2
 # group=rowd allowed no
 
 ## vlans
-vlan 10.0.0.72-72
-# vlan 172.16.202.60-60
+vlan 172.16.201.248
 vlan 172.16.202.64-66
 vlan 172.16.204.98-101
 vlan 172.16.204.125-128
