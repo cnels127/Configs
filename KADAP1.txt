@@ -18,12 +18,12 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1500
+global maxwatts 1550
 
 global autoupdate no
 global allowed yes
 global maxtemp 90
-global fanspeed 85
+global fanspeed 90
 # global asicblink worker
 
 # global retune 1
@@ -34,26 +34,17 @@ global rebootasic 1
 # group=rowc rebootasic 1
 # group=rowd allowed no
 
-# ab34ef location rowc2
-
 ## vlans
-# vlan 172.16.204.209-211
 vlan 10.0.56.132-132
 vlan 10.0.56.136-136
 vlan 10.0.56.137-137
 
 ## location
-# 9a3867 location 9a3867
-# 154013 location 154013
-# ec6e1c location ec6e1c
 2a4b43 location KADAP0001
 e917af location KADAP0002
 4c9876 location KADAP0003
 
 ## tuning
-# 9a3867 maxwatts 1500
-# 154013 maxwatts 1500
-# ec6e1c maxwatts 1500
 2a4b43 maxwatts 1550
 e917af maxwatts 1550
 4c9876 maxwatts 1550
