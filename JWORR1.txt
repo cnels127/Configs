@@ -23,7 +23,7 @@ global maxwatts 1525
 global autoupdate no
 global allowed yes
 global maxtemp 90
-global fanspeed 85
+global fanspeed 90
 # global asicblink worker
 
 # global retune 1
@@ -34,12 +34,32 @@ global rebootasic 1
 # group=rowc rebootasic 1
 # group=rowd allowed no
 
-# ab34ef location rowc2
-
 ## vlans
 vlan 10.0.32.70-79
 
+## locations
+6659c1 location JWORR0001
+8f312b location JWORR0002
+b7f378 location JWORR0003
+1e82c8 location JWORR0004
+eaee2e location JWORR0005
+a1c0cf location JWORR0006
+b7cd11 location JWORR0007
+07e0af location JWORR0008
+362e0a location JWORR0009
+564c64 location JWORR0010
+
 ## tuning
+6659c1 maxwatts 1525
+8f312b maxwatts 1525
+b7f378 maxwatts 1525
+1e82c8 maxwatts 1525
+eaee2e maxwatts 1525
+a1c0cf maxwatts 1525
+b7cd11 maxwatts 1525
+07e0af maxwatts 1525
+362e0a maxwatts 1525
+564c64 maxwatts 1525
 07e0af retune 1
 564c64 retune 1
 b7cd11 retune 1
