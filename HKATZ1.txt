@@ -23,7 +23,7 @@ global maxwatts 1500
 global autoupdate no
 global allowed yes
 global maxtemp 90
-global fanspeed 85
+global fanspeed 90
 # global asicblink worker
 
 # global retune 1
@@ -37,7 +37,7 @@ global rebootasic 1
 # ab34ef location rowc2
 
 ## vlans
-vlan 10.0.38.38-39
+vlan 10.0.68.38-39
 
 ## locations
 fae301 location HKATZ0001
