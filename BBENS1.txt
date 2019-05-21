@@ -23,7 +23,7 @@ global maxwatts 1550
 global autoupdate no
 global allowed yes
 global maxtemp 90
-global fanspeed 85
+global fanspeed 90
 # global asicblink worker
 
 # global retune 1
@@ -46,5 +46,6 @@ f69de1 location BBENS0002
 ## tuning
 815d57 maxwatts 1550
 f69de1 maxwatts 1550
+
 ## asic password
 asicpass admin
