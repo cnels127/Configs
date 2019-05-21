@@ -23,7 +23,7 @@ global maxwatts 1350
 global autoupdate no
 global allowed yes
 global maxtemp 90
-global fanspeed 95
+global fanspeed 90
 # global asicblink worker
 
 # global retune 1
@@ -34,10 +34,20 @@ global rebootasic 1
 # group=rowc rebootasic 1
 # group=rowd allowed no
 
-# ab34ef location rowc2
-
 ## vlans
 vlan 10.0.68.26-29
+
+## locations
+8d1e83 location DMCCL0001
+6a1571 location DMCCL0002
+491262 location DMCCL0003
+aab607 location DMCCL0004
+
+## tuning
+8d1e83 maxwatts 1425
+6a1571 maxwatts 1400
+491262 maxwatts 1450
+aab607 maxwatts 1450
 
 ## asic password
 asicpass admin
