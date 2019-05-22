@@ -33,6 +33,11 @@ global rebootasic 4
 # group=rowc rebootasic 1
 # group=rowd allowed no
 
+## vlans
+vlan 10.0.53.140-161
+vlan 10.0.54.1-38
+vlan 172.16.202.91-95
+
 ## locations
 37c8cd location rgesu0001
 afb5e3 location rgesu0002
@@ -94,12 +99,11 @@ a02b78 location rgesu0055
 ff032f location rgesu0058
 4f826d location rgesu0059
 75ef00 location rgesu0060
-
-## vlans
-vlan 10.0.53.140-161
-vlan 10.0.54.1-38
-vlan 172.16.202.91-95
+904b7f location 0001
+d360c8 location 0002
+a8b8de location 0003
+329fab location 0004
+af9564 location 0005
 
 ## asic password
 asicpass admin
-
