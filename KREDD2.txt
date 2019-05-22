@@ -23,7 +23,7 @@ global maxwatts 1350
 global autoupdate no
 global allowed yes
 global maxtemp 90
-global fanspeed 85
+global fanspeed 90
 # global asicblink worker
 
 # global retune 1
@@ -43,7 +43,7 @@ c94710 location KREDD0001
 5d208b location KREDD0003
 
 ## tuning
-c94710 maxwatts 1350
+c94710 maxwatts 1450
 934f82 maxwatts 1350
 5d208b maxwatts 1350
 
