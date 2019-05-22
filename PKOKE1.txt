@@ -42,6 +42,7 @@ vlan 10.0.57.73-75
 vlan 172.16.204.46-46
 vlan 172.16.204.63-63
 vlan 172.16.204.222
+vlan 10.0.56.81-81
 
 ## locations
 17739c location PKOKE0001
@@ -52,6 +53,7 @@ bd9932 location PKOKE0004
 7ed10f location PKOKE0005
 3bcc51 location PKOKE0006
 65e9cb location PKOKE0007
+ab2a55 location PKOKE0007
 5c1ae5 location PKOKE0008
 bb43ef location PKOKE0009
 
@@ -66,6 +68,7 @@ bd9932 maxwatts 1375
 5c1ae5 maxwatts 1400
 bb43ef maxwatts 1350
 bcaed0 maxwatts 1575
+ab2a55 maxwatts 1600
 7ed10f retune 1
 3bcc51 retune 1
 5c1ae5 retune 1
