@@ -35,16 +35,10 @@ global fanspeed 90
 # group=rowd allowed no
 
 ## vlans
-# vlan 172.16.204.223
-vlan 10.0.56.144-144
 
 ## locations
-# 5e45d9 location 5e45d9
-6dd1ab location NMANT0001
 
 ## tuning
-# 5e45d9 maxwatts 1525
-6dd1ab maxwatts 1550
 
 ## asic password
 asicpass admin
