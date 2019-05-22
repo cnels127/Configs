@@ -1,0 +1,51 @@
+## ASICseer default config loaded in, edit it and click 'Save Changes'
+## instructions available at: https://asicseer.com/page/kb#writing-config
+
+global custompanel RMULL1bit049
+
+global poolname1 connect.pool.bitcoin.com:3333
+global username1 bob4ari
+global poolpass1 123
+global sendworker1 yes
+global poolname2 
+global username2 
+global poolpass2 
+global sendworker2 yes
+global poolname3 
+global username3 
+global poolpass3 
+global sendworker3 yes
+
+global asicboost yes
+global autotune yes
+global maxwatts 1500
+
+global allowed yes
+global maxtemp 90
+global fanspeed 90
+# global asicblink worker
+
+# global retune 1
+# global rebootasic 1
+# global resetasic 1
+# global panelpass gj83Nkgikg
+
+# group=rowc rebootasic 1
+# group=rowd allowed no
+
+## vlans
+vlan 172.16.202.55-56
+vlan 172.16.204.104-104
+vlan 172.16.204.146-146
+
+## locations
+42e469 location 0001
+# ###### location 0002
+51a9ac location 0003
+2d1b6f location 0004
+8e86bb location 0005
+
+## tuning
+
+## asic password
+asicpass admin
