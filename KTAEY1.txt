@@ -1,0 +1,93 @@
+## ASICseer default config loaded in, edit it and click 'Save Changes'
+## instructions available at: https://asicseer.com/page/kb#writing-config
+
+global custompanel KTAEY1bit049
+
+global poolname1 us-east.stratum.slushpool.com:3333
+global username1 CryptoDTM
+global poolpass1 x
+global sendworker1 yes
+global poolname2 ca.stratum.slushpool.com:3333
+global username2 CryptoDTM
+global poolpass2 x
+global sendworker2 yes
+global poolname3 stratum.slushpool.com:3333
+global username3 CryptoDTM
+global poolpass3 x
+global sendworker3 yes
+
+global asicboost yes
+global autotune yes
+global maxwatts 1500
+
+global autoupdate no
+global allowed yes
+global maxtemp 90
+global fanspeed 90
+# global asicblink worker
+
+# global retune 1
+global rebootasic 4
+# global resetasic 1
+# global panelpass gj83Nkgikg
+
+# group=rowc rebootasic 1
+# group=rowd allowed no
+
+## vlans
+vlan 172.16.202.18-18
+vlan 172.16.202.86-87
+vlan 172.16.202.89-90
+vlan 172.16.202.97-98
+vlan 172.16.202.100-100
+vlan 172.16.202.103-105
+vlan 172.16.202.107-108
+vlan 172.16.202.199-201
+vlan 172.16.204.102-103
+vlan 172.16.204.105-107
+vlan 172.16.204.109-109
+vlan 172.16.204.111-113
+vlan 172.16.204.184-184
+vlan 172.16.204.218-219
+vlan 172.16.204.227-227
+vlan 172.16.204.234-235
+
+## locations
+80297d location 0001
+251a2b location 0002
+57f039 location 0003
+5a6128 location 0004
+61ba62 location 0005
+b42644 location 0006
+6eddf3 location 0007
+9f4edd location 0008A
+4121f3 location 0009
+1fe1d2 location 0010A
+0ba36b location 0011
+bb6c13 location 0012
+c41d85 location 0013A
+2009e5 location 0014
+5d74b2 location 0015
+320c94 location 0016A
+bac719 location 0017A
+66ddea location 0018
+2e6730 location 0019
+4753df location 0020
+fc079b location 0021
+90043c location 0022
+bb75a4 location 0023
+4b62dd location 0024
+0c7167 location 0025
+37d0b3 location 0026
+#  location 0027
+f3ad1d location 0028
+f11c7d location 0029
+# 
+3dd8b5 location 0031
+05de13 location 0032
+ef85ce location 0033
+
+## tuning
+
+## asic password
+asicpass admin
