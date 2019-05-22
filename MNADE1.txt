@@ -34,8 +34,6 @@ global asicblink worker
 # group=rowc rebootasic 1
 # group=rowd allowed no
 
-# ab34ef location rowc2
-
 ## vlans
 vlan 10.0.57.83-85
 vlan 10.0.68.22-25
