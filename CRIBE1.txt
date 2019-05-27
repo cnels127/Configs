@@ -22,11 +22,12 @@ global maxwatts 1550
 global autoupdate no
 global allowed yes
 global maxtemp 90
-global fanspeed 90
+global fansaver 60
+global fanspeed 85
 # global asicblink worker
 
 # global retune 1
-global rebootasic 1
+global rebootasic 2
 # global resetasic 1
 # global panelpass gj83Nkgikg
 
