@@ -18,7 +18,7 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1600
+global maxwatts 1550
 
 # global autoupdate yes
 global allowed yes
@@ -43,6 +43,7 @@ vlan 172.16.204.223-223
 ## locations
 
 ## tuning
+36b10e maxwatts 1600
 
 ## asic password
 asicpass admin
