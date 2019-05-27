@@ -18,7 +18,7 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1525
+global maxwatts 1550
 
 global autoupdate no
 global allowed yes
@@ -51,16 +51,16 @@ b7cd11 location JWORR0007
 564c64 location JWORR0010
 
 ## tuning
-6659c1 maxwatts 1525
-8f312b maxwatts 1525
-b7f378 maxwatts 1525
-1e82c8 maxwatts 1525
-eaee2e maxwatts 1525
-a1c0cf maxwatts 1525
-b7cd11 maxwatts 1525
-07e0af maxwatts 1525
-362e0a maxwatts 1525
-564c64 maxwatts 1525
+6659c1 maxwatts 1550
+8f312b maxwatts 1550
+b7f378 maxwatts 1550
+1e82c8 maxwatts 1600
+eaee2e maxwatts 1575
+a1c0cf maxwatts 1575
+b7cd11 maxwatts 1575
+07e0af maxwatts 1575
+362e0a maxwatts 1575
+564c64 maxwatts 1550
 07e0af retune 1
 564c64 retune 1
 b7cd11 retune 1
