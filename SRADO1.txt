@@ -23,7 +23,7 @@ global maxwatts 1350
 global autoupdate no
 global allowed yes
 global maxtemp 90
-global fanspeed 80
+global fanspeed 85
 global fansaver 60
 # global asicblink worker
 
@@ -36,8 +36,15 @@ global rebootasic 2
 # group=rowd allowed no
 
 ## vlans
-vlan 10.0.54.139-141
-vlan 10.0.68.42-44
+# vlan 10.0.54.139-141
+# vlan 10.0.68.42-44
+vlan 10.0.57.146-146
+vlan 10.0.57.150-150
+vlan 10.0.57.153-153
+vlan 10.0.57.155-155
+vlan 10.0.57.158-159
+vlan 10.0.58.8-8
+vlan 10.0.58.15-17
 
 ##  locations
 c8c8e3 location SRADO0001
@@ -46,6 +53,16 @@ bd2001 location SRADO0003
 0f22cc location SRADO0004
 a23fe5 location SRADO0005
 fc9425 location SRADO0006
+89611d location SRADO0007
+9df692 location SRADO0008
+6e3f38 location SRADO0009
+531bec location SRADO0010
+71bc68 location SRADO0011
+6da23f location SRADO0012
+7c6af8 location SRADO0013
+9c1555 location SRADO0014
+acd279 location SRADO0015
+44a6c9 location SRADO0016
 
 ## tuning
 c8c8e3 maxwatts 1350
@@ -54,7 +71,16 @@ bd2001 maxwatts 1375
 0f22cc maxwatts 1375
 a23fe5 maxwatts 1350
 fc9425 maxwatts 1400
+89611d maxwatts 1350
+9df692 maxwatts 1350
+6e3f38 maxwatts 1350
+531bec maxwatts 1350
+71bc68 maxwatts 1350
+6da23f maxwatts 1350
+7c6af8 maxwatts 1350
+9c1555 maxwatts 1350
+acd279 maxwatts 1350
+44a6c9 maxwatts 1350
 
 ## asic password
 asicpass admin
-
