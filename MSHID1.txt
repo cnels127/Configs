@@ -1,0 +1,83 @@
+## instructions available at: https://asicseer.com/page/kb#writing-config
+
+global custompanel MSHID1bit049
+
+global poolname1 
+global username1 
+global poolpass1 
+global sendworker1 yes
+global poolname2 
+global username2 
+global poolpass2 
+global sendworker2 yes
+global poolname3 
+global username3 
+global poolpass3 
+global sendworker3 yes
+
+global asicboost yes
+global autotune yes
+global maxwatts 1550
+
+global autoupdate yes
+global allowed yes
+global maxtemp 90
+global fanspeed 85
+global fansaver 60
+# global asicblink worker
+
+# global retune 1
+# global rebootasic 1
+# global resetasic 1
+# global panelpass gj83Nkgikg
+
+# group=rowc rebootasic 1
+# group=rowd allowed no
+
+## vlans
+vlan 10.0.57.128-128
+vlan 10.0.57.144-145
+vlan 10.0.57.147-149
+vlan 10.0.57.151-151
+vlan 10.0.57.156-156
+vlan 10.0.58.2-2
+vlan 10.0.58.6-6
+vlan 10.0.58.9-9
+vlan 10.0.58.13-13
+vlan 10.0.58.20-20
+vlan 10.0.58.24-24
+
+## locations
+7f85b2 location MSHID0001
+7bbb90 location MSHID0002
+46bae8 location MSHID0003
+117c61 location MSHID0004
+9d84e2 location MSHID0005
+96d39b location MSHID0006
+c842f9 location MSHID0007
+304296 location MSHID0008
+0e1ddf location MSHID0009
+80596d location MSHID0010
+749409 location MSHID0011
+7f889a location MSHID0012
+6a9f03 location MSHID0013
+bccae7 location MSHID0014
+
+## tuning
+7f85b2 maxwatts 1550
+7bbb90 maxwatts 1550
+46bae8 maxwatts 1550
+117c61 maxwatts 1550
+9d84e2 maxwatts 1550
+96d39b maxwatts 1550
+c842f9 maxwatts 1550
+304296 maxwatts 1550
+0e1ddf maxwatts 1550
+80596d maxwatts 1550
+749409 maxwatts 1550
+7f889a maxwatts 1550
+6a9f03 maxwatts 1550
+bccae7 maxwatts 1550
+
+## asic password
+asicpass admin
