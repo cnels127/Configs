@@ -36,15 +36,39 @@ global fansaver 60
 # group=rowd allowed no
 
 ## vlans
-vlan 10.0.55.6-7
+# vlan 10.0.55.6-7
+vlan 10.0.57.129-129
+vlan 10.0.57.134-134
+vlan 10.0.57.142-142
+vlan 10.0.57.157-157
+vlan 10.0.58.5-5
+vlan 10.0.58.23-23
+vlan 10.0.58.26-26
+vlan 10.0.57.143-143
 
 ## locations
 5dea94 location RANDE0001
 e35f32 location RANDE0002
+1506ab location RANDE0003
+174232 location RANDE0004
+679e5d location RANDE0005
+8a2820 location RANDE0006
+005c5e location RANDE0007
+a016c1 location RANDE0008
+55019f location RANDE0009
+636f5f location RANDE0010
 
-# tuning
+## tuning
 5dea94 maxwatts 1350
 e35f32 maxwatts 1350
+1506ab maxwatts 1550
+174232 maxwatts 1550
+679e5d maxwatts 1550
+8a2820 maxwatts 1550
+005c5e maxwatts 1550
+a016c1 maxwatts 1550
+55019f maxwatts 1550
+636f5f maxwatts 1550
 
 ## asic password
 asicpass admin
