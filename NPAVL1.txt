@@ -1,0 +1,67 @@
+## instructions available at: https://asicseer.com/page/kb#writing-config
+
+global custompanel NPAVL1bit049
+
+global poolname1 
+global username1 
+global poolpass1 
+global sendworker1 yes
+global poolname2 
+global username2 
+global poolpass2 
+global sendworker2 yes
+global poolname3 
+global username3 
+global poolpass3 
+global sendworker3 yes
+
+global asicboost yes
+global autotune yes
+global maxwatts 1350
+
+global autoupdate no
+global allowed yes
+global maxtemp 90
+global fanspeed 85
+global fansaver 60
+# global asicblink worker
+
+# global retune 1
+# global rebootasic 1
+# global resetasic 1
+# global panelpass gj83Nkgikg
+
+# group=rowc rebootasic 1
+# group=rowd allowed no
+
+## vlans
+vlan 10.0.57.130-133
+vlan 10.0.57.135-137
+vlan 10.0.57.139-141
+
+## locations
+821721 location NPAVL0001
+3cfe14 location NPAVL0002
+370d4b location NPAVL0003
+11a5c9 location NPAVL0004
+f0c17e location NPAVL0005
+d42111 location NPAVL0006
+a95ab0 location NPAVL0007
+fff476 location NPAVL0008
+41e2b7 location NPAVL0009
+570241 location NPAVL0010
+
+## tuning
+821721 maxwatts 1350
+3cfe14 maxwatts 1350
+370d4b maxwatts 1350
+11a5c9 maxwatts 1350
+f0c17e maxwatts 1350
+d42111 maxwatts 1350
+a95ab0 maxwatts 1350
+fff476 maxwatts 1350
+41e2b7 maxwatts 1350
+570241 maxwatts 1350
+
+## asic password
+asicpass admin
