@@ -23,7 +23,7 @@ global maxwatts 1350
 global autoupdate no
 global allowed yes
 global maxtemp 90
-global fanspeed 80
+global fanspeed 85
 global fansaver 60
 # global asicblink worker
 
@@ -36,7 +36,10 @@ global rebootasic 2
 # group=rowd allowed no
 
 ## vlans
-vlan 10.0.54.155-159
+# vlan 10.0.54.155-159
+vlan 10.0.58.18-18
+vlan 10.0.58.25-25
+vlan 10.0.58.27-27
 
 ## locations
 1667e2 location DBELT0001
@@ -44,6 +47,9 @@ e7a422 location DBELT0002
 f5ddbb location DBELT0003
 0747e2 location DBELT0004
 356422 location DBELT0005
+179168 location DBELT0006
+54750e location DBELT0007
+056415 location DBELT0008
 
 ## tuning
 1667e2 maxwatts 1350
@@ -51,6 +57,9 @@ e7a422 maxwatts 1350
 f5ddbb maxwatts 1350
 0747e2 maxwatts 1350
 356422 maxwatts 1350
+179168 maxwatts 1350
+54750e maxwatts 1350
+056415 maxwatts 1350
 
 ## asic password
 asicpass admin
