@@ -23,7 +23,7 @@ global maxwatts 1550
 global autoupdate no
 global allowed yes
 global maxtemp 90
-global fanspeed 80
+global fanspeed 85
 global fansaver 60
 # global asicblink worker
 
@@ -36,9 +36,13 @@ global fansaver 60
 # group=rowd allowed no
 
 ## vlans
-vlan 10.0.57.87-87
-vlan 10.0.54.136-138
-vlan 10.0.32.64-69
+# vlan 10.0.32.64-69
+# vlan 10.0.54.136-138
+# vlan 10.0.57.87-87
+vlan 10.0.57.152-152
+vlan 10.0.57.154-154
+vlan 10.0.58.7-7
+vlan 10.0.58.11-12
 
 ## locations
 b916a9 location THORA0001
@@ -51,6 +55,11 @@ c38cc0 location THORA0006
 815cec location THORA0008
 e3240c location THORA0009
 0ef8df location THORA0010
+b042b3 location THORA0011
+658700 location THORA0012
+a7869e location THORA0013
+f764a5 location THORA0014
+13d4e9 location THORA0015
 
 ## tuning
 b916a9 maxwatts 1550
@@ -63,6 +72,11 @@ c38cc0 maxwatts 1550
 815cec maxwatts 1550
 e3240c maxwatts 1550
 0ef8df maxwatts 1550
+b042b3 maxwatts 1550
+658700 maxwatts 1550
+a7869e maxwatts 1550
+f764a5 maxwatts 1550
+13d4e9 maxwatts 1550
 
 ## asic password
 asicpass admin
