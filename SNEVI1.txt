@@ -40,6 +40,9 @@ global rebootasic 1
 ## vlans
 vlan 10.0.68.64-68
 
+## tuning
+633e5b maxwatts 1400
+
 ## asic password
 asicpass admin
 
