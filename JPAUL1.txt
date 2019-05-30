@@ -3,16 +3,16 @@
 
 global custompanel JPAUL1bit049
 
-global poolname1 cn.ss.btc.com:1800
-global username1 JoedirtCN1
+global poolname1 eu.ss.btc.com:1800
+global username1 mwags1.0002
 global poolpass1 123
 global sendworker1 yes
-global poolname2 cn.ss.btc.com:443
-global username2 JoedirtCN1
+global poolname2 us.ss.btc.com:1800
+global username2 mwags1.0001
 global poolpass2 123
 global sendworker2 yes
-global poolname3 cn.ss.btc.com:25
-global username3 JoedirtCN1
+global poolname3 cn.ss.btc.com:1800
+global username3 mwags1
 global poolpass3 123
 global sendworker3 yes
 
@@ -23,7 +23,7 @@ global maxwatts 1350
 global autoupdate no
 global allowed yes
 global maxtemp 90
-global fanspeed 80
+global fanspeed 90
 global fansaver 60
 # global asicblink worker
 
