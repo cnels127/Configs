@@ -23,7 +23,7 @@ global maxwatts 1525
 global autoupdate no
 global allowed yes
 global maxtemp 90
-global fanspeed 80
+global fanspeed 90
 global fansaver 60
 # global asicblink worker
 
@@ -48,11 +48,11 @@ fbb341 location 0003
 555712 location 0005
 
 ## tuning
-7cc8a1 maxwatts 1525
-be602c maxwatts 1525
-fbb341 maxwatts 1525
-1565d6 maxwatts 1575
-555712 maxwatts 1575
+7cc8a1 maxwatts 1500
+be602c maxwatts 1500
+fbb341 maxwatts 1500
+1565d6 maxwatts 1525
+555712 maxwatts 1525
 
 ## asic password
 asicpass admin
