@@ -22,7 +22,7 @@ global maxwatts 1575
 global autoupdate no
 global allowed yes
 global maxtemp 90
-global fanspeed 80
+global fanspeed 90
 global fansaver 60
 global asicblink worker
 
@@ -54,6 +54,7 @@ e2c6fd maxwatts 1575
 2d11cf maxwatts 1575
 fd17aa maxwatts 1575
 fb355a maxwatts 1575
+fd17aa retune 1
 
 ## asic password
 asicpass admin
