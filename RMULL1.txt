@@ -22,7 +22,7 @@ global maxwatts 1500
 
 global allowed yes
 global maxtemp 90
-global fanspeed 80
+global fanspeed 90
 global fansaver 60
 # global asicblink worker
 
@@ -35,12 +35,12 @@ global fansaver 60
 # group=rowd allowed no
 
 ## vlans
+vlan 172.16.200.93-93
 vlan 172.16.202.55-56
-vlan 172.16.204.104-104
 vlan 172.16.204.146-146
 
 ## locations
-42e469 location 0001
+94f88a location 0001
 # ###### location 0002
 51a9ac location 0003
 2d1b6f location 0004
