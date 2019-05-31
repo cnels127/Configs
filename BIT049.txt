@@ -18,12 +18,12 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1550
+global maxwatts 1500
 
 # global autoupdate yes
 global allowed yes
 global maxtemp 90
-global fanspeed 80
+global fanspeed 90
 global fansaver 60
 global asicblink worker
 
@@ -38,9 +38,10 @@ global asicblink worker
 # ab34ef ipaddress 192.168.10.125
 
 ## vlans
-vlan 172.16.204.223-223
-vlan 10.0.57.128-160
-vlan 10.0.58.1-27
+# vlan 172.16.204.223-223
+# vlan 10.0.57.128-160
+# vlan 10.0.58.1-27
+vlan 10.0.58.28-126
 
 ## locations
 
