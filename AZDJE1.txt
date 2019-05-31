@@ -18,7 +18,7 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1550
+global maxwatts 1525
 
 global autoupdate no
 global allowed yes
@@ -192,11 +192,11 @@ bf8fd2 location AZDJE0096
 0d929b location AZDJE0100
 
 ## tuning
-056e6f maxwatts 1600
-1aeaaa maxwatts 1600
-49f2f3 maxwatts 1600
-9248fa maxwatts 1575
-049b90 maxwatts 1575
+056e6f maxwatts 1550
+1aeaaa maxwatts 1550
+49f2f3 maxwatts 1550
+9248fa maxwatts 1550
+049b90 maxwatts 1550
 bd96d6 retune 1
 60ea4c retune 1
 8ed68e retune 1
