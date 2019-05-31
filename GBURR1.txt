@@ -17,7 +17,7 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1575
+global maxwatts 1550
 
 global autoupdate no
 global allowed yes
@@ -49,11 +49,11 @@ fd17aa location daisy
 fb355a location sushi
 
 ## tuning
-f0f798 maxwatts 1575
-e2c6fd maxwatts 1575
-2d11cf maxwatts 1575
+f0f798 maxwatts 1550
+e2c6fd maxwatts 1550
+2d11cf maxwatts 1550
 fd17aa maxwatts 1475
-fb355a maxwatts 1575
+fb355a maxwatts 1550
 fd17aa retune 1
 
 ## asic password
