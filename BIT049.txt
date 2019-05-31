@@ -41,7 +41,9 @@ global asicblink worker
 # vlan 172.16.204.223-223
 # vlan 10.0.57.128-160
 # vlan 10.0.58.1-27
-vlan 10.0.58.28-126
+# vlan 10.0.58.28-126
+vlan 10.0.58.127-161
+vlan 10.0.59.1-5
 
 ## locations
 
