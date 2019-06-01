@@ -41,11 +41,13 @@ vlan 10.0.56.146-146
 
 ## locations
 # 270650 location 270650
-e06ea6 location SKOTR0001
+# e06ea6 location SKOTR0001
+6dd1ab location SKOTR0001
 
 ## tuning
 # 270650 maxwatts 1500
 e06ea6 maxwatts 1550
+6dd1ab maxwatts 1550
 
 ## asic password
 asicpass admin
