@@ -36,16 +36,16 @@ global rebootasic 2
 # group=rowd allowed no
 
 ## vlans
-vlan 10.0.54.133-135
-vlan 10.0.55.108-108
-vlan 10.0.55.160-160
+vlan 10.0.54.133-133
 vlan 10.0.56.8-8
-vlan 10.0.56.10-10
+vlan 10.0.54.135-135
 vlan 10.0.57.73-75
+vlan 10.0.56.10-10
+vlan 10.0.55.160-160
+vlan 10.0.55.108-108
 
 ## locations
 17739c location PKOKE0001
-634063 location PKOKE0002
 bcaed0 location PKOKE0002
 f39f2b location PKOKE0003
 bd9932 location PKOKE0004
@@ -57,7 +57,6 @@ ac1644 location PKOKE0008
 
 ## tuning
 17739c maxwatts 1350
-634063 maxwatts 1400
 bcaed0 maxwatts 1575
 f39f2b maxwatts 1350
 bd9932 maxwatts 1350
@@ -68,8 +67,6 @@ ac1644 maxwatts 1350
 012910 maxwatts 1350
 7ed10f retune 1
 3bcc51 retune 1
-5c1ae5 retune 1
-634063 retune 1
 bd9932 retune 1
 
 ## asic password
