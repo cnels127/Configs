@@ -54,6 +54,8 @@ bd9932 location PKOKE0004
 613792 location PKOKE0007
 ac1644 location PKOKE0008
 012910 location PKOKE0009
+e5f3f0 location EXTRA
+e06ea6 location EXTRA
 
 ## tuning
 17739c maxwatts 1375
@@ -65,6 +67,11 @@ bd9932 maxwatts 1500
 613792 maxwatts 1425
 ac1644 maxwatts 1375
 012910 maxwatts 1375
+# EXTRAS
+e5f3f0 maxwatts 1550
+e06ea6 maxwatts 1550
+
+## retuning
 7ed10f retune 1
 3bcc51 retune 1
 bd9932 retune 1
