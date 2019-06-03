@@ -37,6 +37,7 @@ global asicblink worker
 
 ## vlans
 vlan 10.0.57.138-138
+vlan 10.0.58.28-28
 vlan 10.0.58.30-32
 vlan 10.0.58.38-50
 vlan 10.0.58.54-54
@@ -54,7 +55,6 @@ vlan 10.0.58.92-92
 vlan 10.0.58.94-94
 vlan 10.0.58.96-106
 vlan 10.0.58.108-111
-vlan 10.0.58.108-111
 vlan 10.0.58.114-116
 vlan 10.0.58.118-118
 vlan 10.0.58.120-126
@@ -63,8 +63,7 @@ vlan 10.0.58.134-134
 vlan 10.0.58.136-136
 vlan 10.0.58.138-139
 vlan 10.0.58.144-153
-vlan 10.0.58.158-159
-vlan 10.0.58.161-161
+vlan 10.0.58.158-161
 vlan 10.0.59.2-4
 
 ## locations
@@ -108,6 +107,8 @@ d5d4ec maxwatts 1550
 ffc8a3 maxwatts 1550
 ce7138 maxwatts 1550
 1301f9 maxwatts 1550
+164b1f maxwatts 1550
+0325b4 maxwatts 1550
 
 ## asic password
 asicpass admin
