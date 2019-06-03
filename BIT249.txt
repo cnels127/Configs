@@ -40,7 +40,7 @@ vlan 10.0.57.138-138
 vlan 10.0.58.28-28
 vlan 10.0.58.30-32
 vlan 10.0.58.38-50
-vlan 10.0.58.54-54
+vlan 10.0.58.52-54
 vlan 10.0.58.56-56
 vlan 10.0.58.59-59
 vlan 10.0.58.61-65
@@ -107,8 +107,10 @@ ce7138 maxwatts 1550
 164b1f maxwatts 1550
 0325b4 maxwatts 1550
 81760c maxwatts 1550
+978300 maxwatts 1550
 1dd63e maxwatts 1575
 7f619e maxwatts 1575
+3d634a maxwatts 1575
 
 ## asic password
 asicpass admin
