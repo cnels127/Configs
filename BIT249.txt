@@ -1,0 +1,99 @@
+## ASICseer default config loaded in, edit it and click 'Save Changes'
+## instructions available at: https://asicseer.com/page/kb#writing-config
+
+global custompanel bit049hshpwr
+
+global poolname1 us.ss.btc.com:1800
+global username1 bit49US
+global poolpass1 123
+global sendworker1 yes
+global poolname2 stratum.slushpool.com:3333
+global username2 bit49
+global poolpass2 123
+global sendworker2 yes
+global poolname3 profit.pool.bitcoin.com:3333
+global username3 bit49
+global poolpass3 123
+global sendworker3 yes
+
+global asicboost yes
+global autotune yes
+global maxwatts 1500
+
+# global autoupdate yes
+global allowed yes
+global maxtemp 90
+global fanspeed 90
+global fansaver 60
+global asicblink worker
+
+# global retune 1
+# global rebootasic 1
+# global resetasic 1
+# global panelpass gj83Nkgikg
+
+# group=rowc rebootasic 1
+# group=rowd allowed no
+
+## vlans
+vlan 10.0.58.30-32
+vlan 10.0.58.38-41
+vlan 10.0.58.43-50
+vlan 10.0.58.54-54
+vlan 10.0.58.56-56
+vlan 10.0.58.62-65
+vlan 10.0.58.68-69
+vlan 10.0.58.71-72
+vlan 10.0.58.74-74
+vlan 10.0.58.76-78
+vlan 10.0.58.83-85
+vlan 10.0.58.87-87
+vlan 10.0.58.89-89
+vlan 10.0.58.92-92
+vlan 10.0.58.94-94
+vlan 10.0.58.99-101
+vlan 10.0.58.103-106
+vlan 10.0.58.108-111
+vlan 10.0.58.108-111
+vlan 10.0.58.114-116
+vlan 10.0.58.118-118
+vlan 10.0.58.120-121
+vlan 10.0.58.123-123
+vlan 10.0.58.125-126
+vlan 10.0.58.128-128
+vlan 10.0.58.130-130
+vlan 10.0.58.134-134
+vlan 10.0.58.136-136
+vlan 10.0.58.138-139
+vlan 10.0.58.144-153
+vlan 10.0.58.158-158
+vlan 10.0.58.161-161
+vlan 10.0.59.2-4
+
+## locations
+
+## tuning
+992367 maxwatts 1525
+73b928 maxwatts 1525
+80d217 maxwatts 1525
+cda7bb maxwatts 1550
+cae093 maxwatts 1575
+f0052b maxwatts 1525
+d8473e maxwatts 1550
+d14e14 maxwatts 1525
+9b813a maxwatts 1525
+13dab6 maxwatts 1550
+909fe4 maxwatts 1525
+5b5ab4 maxwatts 1525
+5e5ce4 maxwatts 1525
+421c3b maxwatts 1550
+fee13e maxwatts 1525
+dcf50c maxwatts 1525
+3649ed maxwatts 1550
+eb2a9b maxwatts 1525
+89e5d1 maxwatts 1525
+29fbb5 maxwatts 1525
+8ee9ea maxwatts 1525
+
+## asic password
+asicpass admin
