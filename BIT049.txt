@@ -28,7 +28,7 @@ global fansaver 60
 global asicblink worker
 
 # global retune 1
-# global rebootasic 1
+global rebootasic 1
 # global resetasic 1
 # global panelpass gj83Nkgikg
 
@@ -38,7 +38,6 @@ global asicblink worker
 # ab34ef ipaddress 192.168.10.125
 
 ## vlans
-# vlan 172.16.204.223-223
 # vlan 10.0.57.128-160
 # vlan 10.0.58.1-27
 # vlan 10.0.58.28-126
