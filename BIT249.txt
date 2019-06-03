@@ -36,43 +36,42 @@ global asicblink worker
 # group=rowd allowed no
 
 ## vlans
+vlan 10.0.57.138-138
 vlan 10.0.58.30-32
-vlan 10.0.58.38-41
-vlan 10.0.58.43-50
+vlan 10.0.58.38-50
 vlan 10.0.58.54-54
 vlan 10.0.58.56-56
-vlan 10.0.58.62-65
-vlan 10.0.58.68-69
+vlan 10.0.58.59-59
+vlan 10.0.58.61-65
+vlan 10.0.58.67-69
 vlan 10.0.58.71-72
 vlan 10.0.58.74-74
-vlan 10.0.58.76-78
+vlan 10.0.58.76-81
 vlan 10.0.58.83-85
 vlan 10.0.58.87-87
 vlan 10.0.58.89-89
 vlan 10.0.58.92-92
 vlan 10.0.58.94-94
-vlan 10.0.58.99-101
-vlan 10.0.58.103-106
+vlan 10.0.58.96-106
 vlan 10.0.58.108-111
 vlan 10.0.58.108-111
 vlan 10.0.58.114-116
 vlan 10.0.58.118-118
-vlan 10.0.58.120-121
-vlan 10.0.58.123-123
-vlan 10.0.58.125-126
-vlan 10.0.58.128-128
-vlan 10.0.58.130-130
+vlan 10.0.58.120-126
+vlan 10.0.58.128-131
 vlan 10.0.58.134-134
 vlan 10.0.58.136-136
 vlan 10.0.58.138-139
 vlan 10.0.58.144-153
-vlan 10.0.58.158-158
+vlan 10.0.58.158-159
 vlan 10.0.58.161-161
 vlan 10.0.59.2-4
 
 ## locations
 
 ## tuning
+e1f51e maxwatts 1550
+cda7bb maxwatts 1550
 992367 maxwatts 1525
 73b928 maxwatts 1525
 80d217 maxwatts 1525
@@ -94,6 +93,21 @@ eb2a9b maxwatts 1525
 89e5d1 maxwatts 1525
 29fbb5 maxwatts 1525
 8ee9ea maxwatts 1525
+f457e2 maxwatts 1550
+649527 maxwatts 1550
+3fa490 maxwatts 1550
+9b26f7 maxwatts 1550
+d9ed47 maxwatts 1550
+c4487f maxwatts 1550
+d5d4ec maxwatts 1550
+89c642 maxwatts 1550
+13fd9c maxwatts 1550
+9db443 maxwatts 1550
+5bccd5 maxwatts 1550
+1c1459 maxwatts 1550
+ffc8a3 maxwatts 1550
+ce7138 maxwatts 1550
+1301f9 maxwatts 1550
 
 ## asic password
 asicpass admin
