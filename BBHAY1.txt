@@ -1,0 +1,53 @@
+## instructions available at: https://asicseer.com/page/kb#writing-config
+
+global custompanel BBHAY1bit049
+
+global poolname1 prohashing.com:3335
+global username1 bo1569
+global poolpass1 
+global sendworker1 yes
+global poolname2 
+global username2 
+global poolpass2 
+global sendworker2 yes
+global poolname3 
+global username3 
+global poolpass3 
+global sendworker3 yes
+
+global asicboost yes
+global autotune yes
+global maxwatts 1500
+
+global autoupdate no
+global allowed yes
+global maxtemp 90
+global fanspeed 90
+global fansaver 60
+# global asicblink worker
+
+# global retune 1
+# global rebootasic 1
+# global resetasic 1
+# global panelpass gj83Nkgikg
+
+# group=rowc rebootasic 1
+# group=rowd allowed no
+
+## vlans
+vlan 10.0.59.6-6
+vlan 10.0.59.10-11
+
+## locations
+6ad806 location BBHAY0001
+3d2252 location BBHAY0002
+fdb239 location BBHAY0003
+
+## tuning
+6ad806 maxwatts 1500
+3d2252 maxwatts 1500
+fdb239 maxwatts 1500
+
+## asic password
+asicpass admin
+
