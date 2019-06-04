@@ -23,8 +23,8 @@ global maxwatts 1525
 global autoupdate no
 global allowed yes
 global maxtemp 90
-global fanspeed 90
-global fansaver 60
+global fanspeed 80
+# global fansaver 60
 # global asicblink worker
 
 # global retune 1
@@ -43,7 +43,7 @@ vlan 10.0.53.60-109
 ca8594 location JARND0002
 6eab2c location JARND0003
 71707d location JARND0004
-576af4 location JARND0005
+cb9a02 location JARND0005
 b8e4ff location JARND0006
 a3aec5 location JARND0007
 258e1f location JARND0008
