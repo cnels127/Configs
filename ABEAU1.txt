@@ -22,8 +22,8 @@ global maxwatts 1375
 global autoupdate no
 global allowed yes
 global maxtemp 90
-global fanspeed 80
-# global fansaver 60
+global fanspeed 90
+global fansaver 60
 global asicblink worker
 
 # global retune 1
