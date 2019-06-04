@@ -49,6 +49,8 @@ b7cd11 location JWORR0007
 07e0af location JWORR0008
 362e0a location JWORR0009
 564c64 location JWORR0010
+d6ef7a location EXTRA
+bb43ef location EXTRA
 
 ## tuning
 6659c1 maxwatts 1550
@@ -65,6 +67,8 @@ b7cd11 maxwatts 1575
 564c64 retune 1
 b7cd11 retune 1
 eaee2e retune 1
+d6ef7a maxwatts 1500
+bb43ef maxwatts 1500
 
 ## asic password
 asicpass admin
