@@ -47,6 +47,9 @@ vlan 10.0.58.26-26
 vlan 10.0.57.143-143
 
 ## locations
+bda117 location 0001
+d8b0ee location 0002
+
 5dea94 location RANDE0001
 e35f32 location RANDE0002
 1506ab location RANDE0003
@@ -59,6 +62,9 @@ a016c1 location RANDE0008
 636f5f location RANDE0010
 
 ## tuning
+bda117 maxwatts 1500
+d8b0ee maxwatts 1500
+
 5dea94 maxwatts 1300
 e35f32 maxwatts 1325
 1506ab maxwatts 1550
