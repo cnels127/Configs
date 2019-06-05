@@ -23,8 +23,8 @@ global maxwatts 1350
 global autoupdate no
 global allowed yes
 global maxtemp 90
-global fanspeed 90
-global fansaver 60
+global fanspeed 80
+# global fansaver 60
 # global asicblink worker
 
 # global retune 1
@@ -41,7 +41,7 @@ vlan 10.0.68.26-29
 ## locations
 8d1e83 location DMCCL0001
 6a1571 location DMCCL0002
-491262 location DMCCL0003
+97c2eb location DMCCL0003
 aab607 location DMCCL0004
 
 ## tuning
