@@ -37,7 +37,7 @@ global rebootasic 1
 
 ## vlans
 vlan 10.0.54.160-161
-vlan 10.0.55.1-3
+vlan 10.0.55.1-4
 vlan 10.0.55.86-86
 vlan 10.0.55.112-112
 vlan 10.0.55.119-119
@@ -56,7 +56,7 @@ ee9f37 location DDUNN0002
 14da93 location DDUNN0003
 9a204a location DDUNN0004
 4c1b54 location DDUNN0005
-d54d46 location DDUNN0006
+9da716 location DDUNN0006
 f5839e location DDUNN0007
 23c698 location DDUNN0008
 733b65 location DDUNN0009
@@ -76,7 +76,7 @@ ee9f37 maxwatts 1350
 14da93 maxwatts 1375
 9a204a maxwatts 1375
 4c1b54 maxwatts 1350
-d54d46 maxwatts 1375
+9da716 maxwatts 1350
 f5839e maxwatts 1375
 23c698 maxwatts 1375
 733b65 maxwatts 1350
