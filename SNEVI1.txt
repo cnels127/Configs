@@ -35,10 +35,15 @@ global rebootasic 1
 # group=rowc rebootasic 1
 # group=rowd allowed no
 
-# ab34ef location rowc2
-
 ## vlans
 vlan 10.0.68.64-68
+
+## location
+42ac6f location SNEVI0001
+633e5b location SNEVI0002
+b7e4cf location SNEVI0003
+3ac65a location SNEVI0004
+d2fc8a location SNEVI0005
 
 ## tuning
 633e5b maxwatts 1400
