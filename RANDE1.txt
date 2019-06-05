@@ -36,7 +36,7 @@ global fanspeed 80
 # group=rowd allowed no
 
 ## vlans
-# vlan 10.0.55.6-7
+vlan 10.0.55.6-7
 vlan 10.0.57.129-129
 vlan 10.0.57.134-134
 vlan 10.0.57.142-142
