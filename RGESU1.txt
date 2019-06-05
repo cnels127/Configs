@@ -22,8 +22,8 @@ global maxwatts 1550
 global autoupdate no
 global allowed yes
 global maxtemp 90
-global fanspeed 90
-global fansaver 60
+global fanspeed 80
+# global fansaver 60
 # global asicblink worker
 
 global retune 1
@@ -89,7 +89,7 @@ ada517 location rgesu0042
 6c3de0 location rgesu0047
 6c69d7 location rgesu0048
 1a4852 location rgesu0049
-6d96d0 location rgesu0050
+99187c location rgesu0050
 9a8142 location rgesu0051
 0cf968 location rgesu0052
 60ea91 location rgesu0053
