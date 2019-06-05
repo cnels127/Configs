@@ -35,10 +35,35 @@ global fanspeed 80
 # group=rowc rebootasic 1
 # group=rowd allowed no
 
-# ab34ef location rowc2
-
 ## vlans
 vlan 10.0.68.69-91
+
+## locations
+151ac6 location TIMAT0001
+5d5985 location TIMAT0002
+4c42a8 location TIMAT0003
+7fc10f location TIMAT0004
+e292bd location TIMAT0005
+af4344 location TIMAT0006
+6167d2 location TIMAT0007
+2665f7 location TIMAT0008
+8f0d5d location TIMAT0009
+41445f location TIMAT0010
+b864f4 location TIMAT0011
+bc8e6c location TIMAT0012
+603f6f location TIMAT0013
+c3f792 location TIMAT0014
+1b0533 location TIMAT0015
+d92393 location TIMAT0016
+308db8 location TIMAT0017
+c1769c location TIMAT0018
+ec43b1 location TIMAT0019
+f74d6d location TIMAT0020
+f2296d location TIMAT0021
+12dafb location TIMAT0022
+81a6b6 location TIMAT0023
+
+## tuning
 
 ## asic password
 asicpass admin
