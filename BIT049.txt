@@ -16,7 +16,7 @@ global username3 bit49
 global poolpass3 123
 global sendworker3 yes
 
-panelclear 1
+global panelclear 1
 global asicboost yes
 global autotune yes
 global maxwatts 1500
@@ -45,40 +45,52 @@ global rebootasic 1
 vlan 10.0.58.127-161
 vlan 10.0.59.1-5
 
-## locations
+## RANDE1
 bda117 location 0001
 d8b0ee location 0002
+bda117 maxwatts 1500
+d8b0ee maxwatts 1500
 
-## tuning
-36b10e maxwatts 1700
-179168 maxwatts 1350
-89611d maxwatts 1350
-fff476 maxwatts 1350
-9df692 maxwatts 1350
-f0c17e maxwatts 1350
-71bc68 maxwatts 1350
+## NPAVL1
+821721 location NPAVL0001
+3cfe14 location NPAVL0002
+370d4b location NPAVL0003
+11a5c9 location NPAVL0004
+f0c17e location NPAVL0005
+d42111 location NPAVL0006
+a95ab0 location NPAVL0007
+fff476 location NPAVL0008
+41e2b7 location NPAVL0009
+570241 location NPAVL0010
 821721 maxwatts 1350
 3cfe14 maxwatts 1350
-acd279 maxwatts 1350
-44a6c9 maxwatts 1350
-a95ab0 maxwatts 1350
-6e3f38 maxwatts 1350
-6da23f maxwatts 1350
 370d4b maxwatts 1350
 11a5c9 maxwatts 1350
+f0c17e maxwatts 1350
 d42111 maxwatts 1350
+a95ab0 maxwatts 1350
+e1f51e maxwatts 1350
+fff476 maxwatts 1350
 41e2b7 maxwatts 1350
 570241 maxwatts 1350
+
+## TESTING
+acd279 maxwatts 1350
+44a6c9 maxwatts 1350
+6e3f38 maxwatts 1350
+6da23f maxwatts 1350
 531bec maxwatts 1350
 7c6af8 maxwatts 1350
 9c1555 maxwatts 1350
 54750e maxwatts 1350
 056415 maxwatts 1350
-e1f51e maxwatts 1350
 370d4b maxwatts 1375
 11a5c9 maxwatts 1375
 1d8df2 maxwatts 1350
-
+179168 maxwatts 1350
+89611d maxwatts 1350
+9df692 maxwatts 1350
+71bc68 maxwatts 1350
 62bdc8 maxwatts 1575
 be6e5c maxwatts 1550
 1dc957 maxwatts 1550
