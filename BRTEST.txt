@@ -1,6 +1,6 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
 
-global custompanel BRIVERbit049
+global custompanel BRTESTbit049
 
 global poolname1 192.168.77.12:1043
 global username1 skyminer
@@ -22,9 +22,9 @@ global maxwatts 1575
 global autoupdate yes
 global allowed yes
 global maxtemp 90
-global fanspeed 90
-global fansaver 60
-global asicblink worker
+global fanspeed 80
+# global fansaver 60
+# global asicblink worker
 
 # global retune 1
 # global rebootasic 1
