@@ -16,6 +16,7 @@ global username3 bit49
 global poolpass3 123
 global sendworker3 yes
 
+panelclear 1
 global asicboost yes
 global autotune yes
 global maxwatts 1500
@@ -40,14 +41,6 @@ global asicblink worker
 ## locations
 
 ## tuning
-
-## panelclear
-3d2252 panelclear 1
-6ad806 panelclear 1
-6b9725 panelclear 1
-77f955 panelclear 1
-b1c903 panelclear 1
-fdb239 panelclear 1
 
 ## asic password
 asicpass admin
