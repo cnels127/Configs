@@ -23,7 +23,7 @@ global maxwatts 1500
 global autoupdate no
 global allowed yes
 global maxtemp 90
-global fanspeed 80
+global fanspeed 90
 # global fansaver 60
 # global asicblink worker
 
@@ -52,6 +52,7 @@ bdca90 location 0001
 fe597a location 0003
 10e456 location 0004
 6af3d4 location 0005
+7c0e12 location 0006
 8164ef location 0007
 181230 location 0008
 f252aa location 0009
