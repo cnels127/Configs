@@ -36,13 +36,21 @@ global rebootasic 2
 # group=rowd allowed no
 
 ## vlans
-vlan 172.16.202.48-48
-vlan 172.16.202.70-70
 vlan 172.16.202.72-72
-vlan 172.16.202.74-79
+vlan 172.16.204.132-132
+vlan 172.16.202.70-70
+vlan 172.16.202.76-76
+vlan 172.16.204.131-131
+vlan 172.16.204.130-130
+vlan 172.16.202.48-48
 vlan 172.16.202.83-83
+vlan 172.16.200.54
+vlan 172.16.204.129-129
 vlan 172.16.204.124-124
-vlan 172.16.204.129-132
+vlan 172.16.202.78-78
+vlan 172.16.202.77-77
+vlan 172.16.202.79-79
+vlan 172.16.204.223-223
 
 ## locations
 b0864d location 0001
@@ -54,7 +62,7 @@ a39906 location 0006A
 d8d329 location 0007
 e10e52 location 0008
 7b3bc6 location 0009
-# a92e83 location 0010 - OFFLINE
+36b10e location 0010
 f913d1 location 0011A
 3812df location 0012
 5a808d location 0013
