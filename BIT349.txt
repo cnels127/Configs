@@ -37,9 +37,6 @@ global asicblink worker
 # group=rowd allowed no
 
 ## vlans
-vlan 10.0.58.37-37
-vlan 10.0.58.51-51
-vlan 10.0.58.96-96
 
 ## locations
 
@@ -47,6 +44,7 @@ vlan 10.0.58.96-96
 cce2e1 maxwatts 1550
 1dc957 maxwatts 1550
 d5d4ec maxwatts 1550
+1bd329 maxwatts 1550
 
 ## asic password
 asicpass admin
