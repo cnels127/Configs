@@ -23,8 +23,8 @@ global maxwatts 1500
 # global autoupdate yes
 global allowed yes
 global maxtemp 90
-global fanspeed 90
-global fansaver 60
+global fanspeed 80
+# global fansaver 60
 global asicblink worker
 
 # global retune 1
@@ -36,14 +36,18 @@ global asicblink worker
 # group=rowd allowed no
 
 ## vlans
-vlan 10.0.59.6-11
 
 ## locations
 
 ## tuning
-6b9725 maxwatts 1525
-77f955 maxwatts 1525
-b1c903 maxwatts 1525
+
+## panelclear
+3d2252 panelclear 1
+6ad806 panelclear 1
+6b9725 panelclear 1
+77f955 panelclear 1
+b1c903 panelclear 1
+fdb239 panelclear 1
 
 ## asic password
 asicpass admin
