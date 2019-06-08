@@ -35,62 +35,33 @@ global fansaver 60
 # group=rowd allowed no
 
 ## vlans
+vlan 10.0.58.60-60
+vlan 10.0.58.90-90
+vlan 10.0.58.93-93
+vlan 10.0.58.95-95
+vlan 10.0.58.107-107
+vlan 10.0.58.113-113
+vlan 10.0.58.117-117
+vlan 10.0.58.155-155
+vlan 10.0.59.5-5
+vlan 10.0.59.12-12
+vlan 10.0.59.20-20
+vlan 10.0.59.38-38
+vlan 10.0.59.40-40
+vlan 10.0.59.47-47
+vlan 10.0.59.55-59
+vlan 10.0.59.61-65
+vlan 10.0.59.67-70
+vlan 10.0.59.72-72
+vlan 10.0.59.74-77
+vlan 10.0.59.81-83
+vlan 10.0.59.85-87
+vlan 10.0.59.89-89
+vlan 10.0.59.92-102
+vlan 10.0.59.105-106
+vlan 10.0.59.108-108
 
 ## tuning
-536fa0 maxwatts 1525
-002a63 maxwatts 1525
-4a89fe maxwatts 1525
-a6f215 maxwatts 1425
-c3fecd maxwatts 1400
-aca1f9 maxwatts 1475
-55c85a maxwatts 1375
-667bbe maxwatts 1400
-c29aa8 maxwatts 1400
-e6dc44 maxwatts 1450
-2a6f8a maxwatts 1450
-b78f54 maxwatts 1450
-37c28b maxwatts 1350
-b169bf maxwatts 1350
-286418 maxwatts 1350
-ceceac maxwatts 1350
-0068f5 maxwatts 1350
-5efe33 maxwatts 1350
-5eb2e0 maxwatts 1350
-f4bea2 maxwatts 1350
-7a6e47 maxwatts 1350
-8b69b8 maxwatts 1350
-cdc7b1 maxwatts 1350
-eac263 maxwatts 1350
-afac5c maxwatts 1350
-fdfb5f maxwatts 1350
-02e802 maxwatts 1350
-cd80a5 maxwatts 1350
-74b1a1 maxwatts 1350
-e40534 maxwatts 1350
-830b49 maxwatts 1350
-893a70 maxwatts 1350
-bbe496 maxwatts 1350
-e7af56 maxwatts 1350
-78c1d7 maxwatts 1350
-e4cbc8 maxwatts 1350
-069b7d maxwatts 1350
-3f7354 maxwatts 1350
-4b299e maxwatts 1350
-577f14 maxwatts 1350
-5433d7 maxwatts 1350
-80218d maxwatts 1350
-b9362e maxwatts 1350
-d3941f maxwatts 1350
-e46a8f maxwatts 1350
-e74b4f maxwatts 1350
-333095 maxwatts 1350
-3ed79a maxwatts 1350
-4ae145 maxwatts 1350
-fecc4d maxwatts 1350
-b88126 maxwatts 1350
-3b9f50 maxwatts 1350
-b42546 maxwatts 1350
-eb763f maxwatts 1350
 
 ## location
 536fa0 location CRIBE0001
