@@ -26,7 +26,7 @@ global fanspeed 80
 global fansaver 60
 # global asicblink worker
 
-# global retune 1
+global retune 1
 # global rebootasic 1
 # global resetasic 1
 # global panelpass gj83Nkgikg
@@ -42,7 +42,7 @@ vlan 10.0.57.140-141
 ## tuning
 821721 maxwatts 1350
 3cfe14 maxwatts 1350
-370d4b maxwatts 1375
+370d4b maxwatts 1350
 11a5c9 maxwatts 1350
 f0c17e maxwatts 1350
 d42111 maxwatts 1350
