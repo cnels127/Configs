@@ -26,7 +26,7 @@ global allowed yes
 global maxtemp 90
 global fanspeed 80
 # global fansaver 60
-global asicblink worker
+# global asicblink worker
 
 # global retune 1
 global rebootasic 1
@@ -35,8 +35,6 @@ global rebootasic 1
 
 # group=rowc rebootasic 1
 # group=rowd allowed no
-
-# ab34ef ipaddress 192.168.10.125
 
 ## vlans
 # vlan 10.0.0.75-76
@@ -97,50 +95,119 @@ e1f51e maxwatts 1350
 41e2b7 maxwatts 1350
 570241 maxwatts 1350
 
+## CRIBE
+536fa0 maxwatts 1525
+002a63 maxwatts 1525
+4a89fe maxwatts 1525
+a6f215 maxwatts 1425
+c3fecd maxwatts 1400
+aca1f9 maxwatts 1475
+55c85a maxwatts 1375
+667bbe maxwatts 1400
+c29aa8 maxwatts 1400
+e6dc44 maxwatts 1450
+2a6f8a maxwatts 1450
+b78f54 maxwatts 1450
+37c28b maxwatts 1350
+b169bf maxwatts 1350
+286418 maxwatts 1350
+ceceac maxwatts 1350
+0068f5 maxwatts 1350
+5efe33 maxwatts 1350
+5eb2e0 maxwatts 1350
+f4bea2 maxwatts 1350
+7a6e47 maxwatts 1350
+8b69b8 maxwatts 1350
+cdc7b1 maxwatts 1350
+eac263 maxwatts 1350
+afac5c maxwatts 1350
+fdfb5f maxwatts 1350
+02e802 maxwatts 1350
+cd80a5 maxwatts 1350
+74b1a1 maxwatts 1350
+e40534 maxwatts 1350
+830b49 maxwatts 1350
+893a70 maxwatts 1350
+bbe496 maxwatts 1350
+e7af56 maxwatts 1350
+78c1d7 maxwatts 1350
+e4cbc8 maxwatts 1350
+069b7d maxwatts 1350
+3f7354 maxwatts 1350
+4b299e maxwatts 1350
+577f14 maxwatts 1350
+5433d7 maxwatts 1350
+80218d maxwatts 1350
+b9362e maxwatts 1350
+d3941f maxwatts 1350
+e46a8f maxwatts 1350
+e74b4f maxwatts 1350
+333095 maxwatts 1350
+3ed79a maxwatts 1350
+4ae145 maxwatts 1350
+fecc4d maxwatts 1350
+b88126 maxwatts 1350
+3b9f50 maxwatts 1350
+b42546 maxwatts 1350
+eb763f maxwatts 1350
+536fa0 location CRIBE0001
+002a63 location CRIBE0002
+4a89fe location CRIBE0003
+a6f215 location CRIBE0004
+c3fecd location CRIBE0005
+aca1f9 location CRIBE0006
+55c85a location CRIBE0007
+667bbe location CRIBE0008
+c29aa8 location CRIBE0009
+e6dc44 location CRIBE0010
+2a6f8a location CRIBE0011
+b78f54 location CRIBE0012
+37c28b location CRIBE0013
+b169bf location CRIBE0014
+286418 location CRIBE0015
+ceceac location CRIBE0016
+0068f5 location CRIBE0017
+5efe33 location CRIBE0018
+5eb2e0 location CRIBE0019
+f4bea2 location CRIBE0020
+7a6e47 location CRIBE0021
+8b69b8 location CRIBE0022
+cdc7b1 location CRIBE0023
+eac263 location CRIBE0024
+afac5c location CRIBE0025
+fdfb5f location CRIBE0026
+02e802 location CRIBE0027
+cd80a5 location CRIBE0028
+74b1a1 location CRIBE0029
+e40534 location CRIBE0030
+830b49 location CRIBE0031
+893a70 location CRIBE0032
+bbe496 location CRIBE0033
+e7af56 location CRIBE0034
+78c1d7 location CRIBE0035
+e4cbc8 location CRIBE0036
+069b7d location CRIBE0037
+3f7354 location CRIBE0038
+4b299e location CRIBE0039
+577f14 location CRIBE0040
+5433d7 location CRIBE0041
+80218d location CRIBE0042
+b9362e location CRIBE0043
+d3941f location CRIBE0044
+e46a8f location CRIBE0045
+e74b4f location CRIBE0046
+333095 location CRIBE0047
+3ed79a location CRIBE0048
+4ae145 location CRIBE0049
+fecc4d location CRIBE0050
+b88126 location CRIBE0051
+3b9f50 location CRIBE0052
+b42546 location CRIBE0053
+eb763f location CRIBE0054
+
+
 ## TESTING
 fff476 maxwatts 1375
-
-
-bd02cf maxwatts 1525
-acd279 maxwatts 1600
-44a6c9 maxwatts 1600
-6e3f38 maxwatts 1600
-6da23f maxwatts 1600
-531bec maxwatts 1600
-7c6af8 maxwatts 1600
-9c1555 maxwatts 1600
-54750e maxwatts 1600
-056415 maxwatts 1600
-370d4b maxwatts 1600
-11a5c9 maxwatts 1600
-1d8df2 maxwatts 1600
-179168 maxwatts 1600
-89611d maxwatts 1600
-9df692 maxwatts 1600
-71bc68 maxwatts 1600
-62bdc8 maxwatts 1600
-be6e5c maxwatts 1550
-1dc957 maxwatts 1550
-cce2e1 maxwatts 1550
-3d634a maxwatts 1550
-8b69b8 maxwatts 1550
-89c642 maxwatts 1550
-cae093 maxwatts 1550
-b28214 maxwatts 1550
-96cc66 maxwatts 1550
-c4487f maxwatts 1550
-d3f476 maxwatts 1550
-d5d4ec maxwatts 1550
-1dd63e maxwatts 1525
-3e5c58 maxwatts 1525
-aca1f9 maxwatts 1525
-b78f54 maxwatts 1525
-d8473e maxwatts 1525
-7f619e maxwatts 1525
-13dab6 maxwatts 1525
-
-0dc086 retune 1
-f5837e retune 1
 
 ## asic password
 asicpass admin
