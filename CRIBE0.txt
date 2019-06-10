@@ -35,6 +35,7 @@ global fansaver 65
 # group=rowd allowed no
 
 ## vlans
+vlan 10.0.57.139-139
 vlan 10.0.58.60-60
 vlan 10.0.58.90-90
 vlan 10.0.58.93-93
@@ -42,6 +43,7 @@ vlan 10.0.58.95-95
 vlan 10.0.58.107-107
 vlan 10.0.58.113-113
 vlan 10.0.58.117-117
+vlan 10.0.58.143-143
 vlan 10.0.58.155-155
 vlan 10.0.59.5-5
 vlan 10.0.59.12-12
@@ -64,60 +66,64 @@ vlan 10.0.59.108-108
 ## tuning
 
 ## location
-536fa0 location CRIBE0001
-002a63 location CRIBE0002
-4a89fe location CRIBE0003
-a6f215 location CRIBE0004
-c3fecd location CRIBE0005
-aca1f9 location CRIBE0006
-55c85a location CRIBE0007
-667bbe location CRIBE0008
-c29aa8 location CRIBE0009
-e6dc44 location CRIBE0010
-2a6f8a location CRIBE0011
-b78f54 location CRIBE0012
-37c28b location CRIBE0013
-b169bf location CRIBE0014
-286418 location CRIBE0015
-ceceac location CRIBE0016
-0068f5 location CRIBE0017
-5efe33 location CRIBE0018
-5eb2e0 location CRIBE0019
-f4bea2 location CRIBE0020
-7a6e47 location CRIBE0021
-8b69b8 location CRIBE0022
-cdc7b1 location CRIBE0023
-eac263 location CRIBE0024
-afac5c location CRIBE0025
-fdfb5f location CRIBE0026
-02e802 location CRIBE0027
-cd80a5 location CRIBE0028
-74b1a1 location CRIBE0029
-e40534 location CRIBE0030
-830b49 location CRIBE0031
-893a70 location CRIBE0032
-bbe496 location CRIBE0033
-e7af56 location CRIBE0034
-78c1d7 location CRIBE0035
-e4cbc8 location CRIBE0036
-069b7d location CRIBE0037
-3f7354 location CRIBE0038
-4b299e location CRIBE0039
-577f14 location CRIBE0040
-5433d7 location CRIBE0041
-80218d location CRIBE0042
-b9362e location CRIBE0043
-d3941f location CRIBE0044
-e46a8f location CRIBE0045
-e74b4f location CRIBE0046
-333095 location CRIBE0047
-3ed79a location CRIBE0048
-4ae145 location CRIBE0049
-fecc4d location CRIBE0050
-b88126 location CRIBE0051
-3b9f50 location CRIBE0052
-b42546 location CRIBE0053
-eb763f location CRIBE0054
+fff476 location CRIBE0027
+b78f54 location CRIBE0028
+a6f215 location CRIBE0029
+2a6f8a location CRIBE0030
+c29aa8 location CRIBE0031
+8b69b8 location CRIBE0032
+667bbe location CRIBE0033
+c3fecd location CRIBE0034
+cc6ecd location CRIBE0035
+002a63 location CRIBE0036
+aca1f9 location CRIBE0037
+e6dc44 location CRIBE0038
+37c28b location CRIBE0039
+e71503 location CRIBE0040
+55c85a location CRIBE0041
+286418 location CRIBE0042
+b169bf location CRIBE0043
+5eb2e0 location CRIBE0044
+7a6e47 location CRIBE0045
+ceceac location CRIBE0046
+536fa0 location CRIBE0047
+893a70 location CRIBE0048
+b42546 location CRIBE0049
+3ed79a location CRIBE0050
+4b299e location CRIBE0051
+fecc4d location CRIBE0052
+e7af56 location CRIBE0053
+e4cbc8 location CRIBE0054
+577f14 location CRIBE0055
+80218d location CRIBE0056
+0068f5 location CRIBE0057
+4ae145 location CRIBE0058
+eac263 location CRIBE0059
+e74b4f location CRIBE0060
+3b9f50 location CRIBE0061
+afac5c location CRIBE0062
+02e802 location CRIBE0063
+830b49 location CRIBE0064
+b9362e location CRIBE0065
+069b7d location CRIBE0066
+bbe496 location CRIBE0067
+b88126 location CRIBE0068
+d3941f location CRIBE0069
+5433d7 location CRIBE0070
+eb763f location CRIBE0071
+333095 location CRIBE0072
+cdc7b1 location CRIBE0073
+5efe33 location CRIBE0074
+74b1a1 location CRIBE0075
+78c1d7 location CRIBE0076
+cd80a5 location CRIBE0077
+4a89fe location CRIBE0078
+f4bea2 location CRIBE0079
+fdfb5f location CRIBE0080
+e40534 location CRIBE0081
+3f7354 location CRIBE0082
+e46a8f location CRIBE0083
+
 
 ## tuning
 c29aa8 maxwatts 1400
