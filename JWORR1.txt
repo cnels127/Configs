@@ -11,8 +11,8 @@ global poolname2 btc.viabtc.com:3333
 global username2 wwwryan
 global poolpass2 123
 global sendworker2 yes
-global poolname3 scrypt.eu.nicehash.com:3333
-global username3 37NEsVZeY8JiKcj8AC9fbKytBS9nGFr4Q9.bit49io###		
+global poolname3 sha256.eu.nicehash.com:3334
+global username3 37NEsVZeY8JiKcj8AC9fbKytBS9nGFr4Q9
 global poolpass3 
 global sendworker3 yes
 
@@ -23,8 +23,8 @@ global maxwatts 1550
 global autoupdate no
 global allowed yes
 global maxtemp 90
-global fanspeed 75
-# global fansaver 60
+global fanspeed 95
+global fansaver 65
 # global asicblink worker
 
 # global retune 1
