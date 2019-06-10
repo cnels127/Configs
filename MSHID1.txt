@@ -17,7 +17,7 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1500
+global maxwatts 1525
 
 global autoupdate no
 global allowed yes
@@ -64,20 +64,8 @@ c842f9 location MSHID0007
 bccae7 location MSHID0014
 
 ## tuning
-7f85b2 maxwatts 1500
-7bbb90 maxwatts 1500
-46bae8 maxwatts 1500
-117c61 maxwatts 1500
-9d84e2 maxwatts 1500
-96d39b maxwatts 1500
-c842f9 maxwatts 1500
-304296 maxwatts 1500
-0e1ddf maxwatts 1500
-80596d maxwatts 1500
-749409 maxwatts 1500
-7f889a maxwatts 1500
-6a9f03 maxwatts 1500
-bccae7 maxwatts 1500
+96d39b maxwatts 1550
+c842f9 maxwatts 1550
 
 ## asic password
 asicpass admin
