@@ -23,8 +23,8 @@ global maxwatts 1350
 global autoupdate no
 global allowed yes
 global maxtemp 90
-global fanspeed 80
-# global fansaver 60
+global fanspeed 95
+global fansaver 65
 # global asicblink worker
 
 # global retune 1
@@ -46,38 +46,33 @@ vlan 10.0.58.23-23
 vlan 10.0.58.26-26
 vlan 10.0.57.143-143
 
-## locations
-bda117 location 0001
-d8b0ee location 0002
-
-5dea94 location RANDE0001
-e35f32 location RANDE0002
-1506ab location RANDE0003
-174232 location RANDE0004
-679e5d location RANDE0005
-8a2820 location RANDE0006
-005c5e location RANDE0007
-a016c1 location RANDE0008
-55019f location RANDE0009
-636f5f location RANDE0010
-
-## tuning
-bda117 maxwatts 1500
-d8b0ee maxwatts 1500
-
+## RUSSIA
 5dea94 maxwatts 1300
 e35f32 maxwatts 1325
 1506ab maxwatts 1550
 174232 maxwatts 1575
 679e5d maxwatts 1550
+636f5f maxwatts 1550
 8a2820 maxwatts 1550
 005c5e maxwatts 1550
 a016c1 maxwatts 1550
 55019f maxwatts 1550
-636f5f maxwatts 1550
+5dea94 location RANDERUS0001
+e35f32 location RANDERUS0002
+1506ab location RANDERUS0003
+174232 location RANDERUS0004
+679e5d location RANDERUS0005
+8a2820 location RANDERUS0006
+005c5e location RANDERUS0007
+a016c1 location RANDERUS0008
+55019f location RANDERUS0009
+636f5f location RANDERUS0010
 
-## fans
-174232 fanspeed 95
+## COLORADO
+bda117 maxwatts 1500
+d8b0ee maxwatts 1500
+bda117 location RANDECOS0001
+d8b0ee location RANDECOS0002
 
 ## asic password
 asicpass admin
