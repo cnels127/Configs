@@ -53,6 +53,17 @@ vlan 10.0.56.56-56
 vlan 10.0.56.67-67
 vlan 10.0.56.75-75
 vlan 10.0.56.77-78
+#
+vlan 10.0.59.39-39
+vlan 10.0.59.41-46
+vlan 10.0.59.48-52
+vlan 10.0.59.54-54
+vlan 10.0.59.60-60
+vlan 10.0.59.66-66
+vlan 10.0.59.73-73
+vlan 10.0.59.80-80
+vlan 10.0.59.90-90
+
 
 ## locations ([ASICID location [name])
 c5496d location GSAMP0001
@@ -65,9 +76,50 @@ c02d51 location GSAMP0005
 8e284e location GSAMP0008
 a7631d location GSAMP0009
 0101ec location GSAMP0010
+#
+3900a7 location GSAMP0011
+a36e04 location GSAMP0012
+644746 location GSAMP0013
+26be5d location GSAMP0014
+d830a5 location GSAMP0015
+f71e65 location GSAMP0016
+4fb133 location GSAMP0017
+86c9c7 location GSAMP0018
+e61d93 location GSAMP0019
+5aa9d6 location GSAMP0020
+78cb4c location GSAMP0021
+3fb821 location GSAMP0022
+de88ec location GSAMP0023
+ff488e location GSAMP0024
+8a804d location GSAMP0025
+e1c353 location GSAMP0026
+3cd7e0 location GSAMP0027
+f24571 location GSAMP0028
+568447 location GSAMP0029
+0c9f37 location GSAMP0030
 62bdc8 location EXTRA
 
 ## tuning
+GSAMP maxwatts 1500
+GSAMP maxwatts 1500
+GSAMP maxwatts 1500
+GSAMP maxwatts 1500
+GSAMP maxwatts 1500
+GSAMP maxwatts 1500
+GSAMP maxwatts 1500
+GSAMP maxwatts 1500
+GSAMP maxwatts 1500
+GSAMP maxwatts 1500
+GSAMP maxwatts 1525
+GSAMP maxwatts 1525
+GSAMP maxwatts 1500
+GSAMP maxwatts 1525
+GSAMP maxwatts 1500
+GSAMP maxwatts 1500
+GSAMP maxwatts 1500
+GSAMP maxwatts 1500
+GSAMP maxwatts 1500
+GSAMP maxwatts 1500
 0101ec retune 1
 
 ## asic password
