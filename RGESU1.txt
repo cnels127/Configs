@@ -40,6 +40,7 @@ vlan 10.0.54.1-38
 vlan 172.16.202.91-95
 
 ## locations
+29ece6 maxwatts 1600
 37c8cd location rgesu0001
 afb5e3 location rgesu0002
 da7d9d location rgesu0003
@@ -100,15 +101,21 @@ a02b78 location rgesu0055
 ff032f location rgesu0058
 4f826d location rgesu0059
 75ef00 location rgesu0060
+
+## COLORADO
 904b7f location 0001
 d360c8 location 0002
 a8b8de location 0003
 329fab location 0004
 828235 location 0005
 af9564 location 0006
+904b7f retune 1
+d360c8 retune 1
+a8b8de retune 1
+329fab retune 1
+af9564 retune 1
 
 ## tuning
-29ece6 maxwatts 1600
 
 ## asic password
 asicpass admin
