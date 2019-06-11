@@ -36,8 +36,8 @@ global rebootasic 3
 # group=rowd allowed no
 
 ## vlans
-# vlan 10.0.60.95-161
-# vlan 10.0.61.1-161
+vlan 10.0.56.159-161
+vlan 10.0.57.1-47
 
 ## locations
 cb7a3d location cb7a3d
