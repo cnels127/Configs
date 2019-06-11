@@ -53,15 +53,18 @@ vlan 10.0.59.40-40
 vlan 10.0.59.47-47
 vlan 10.0.59.55-59
 vlan 10.0.59.61-65
-vlan 10.0.59.67-70
+vlan 10.0.59.67-68
+vlan 10.0.59.70-70
 vlan 10.0.59.72-72
-vlan 10.0.59.74-77
+vlan 10.0.59.74-76
 vlan 10.0.59.81-83
 vlan 10.0.59.85-87
 vlan 10.0.59.89-89
 vlan 10.0.59.92-102
 vlan 10.0.59.105-106
 vlan 10.0.59.108-108
+vlan 10.0.59.136-136
+vlan 10.0.60.37-37
 
 ## tuning
 
@@ -95,13 +98,13 @@ fecc4d location CRIBE0052
 e7af56 location CRIBE0053
 e4cbc8 location CRIBE0054
 577f14 location CRIBE0055
-80218d location CRIBE0056
+1f3926 location CRIBE0056
 0068f5 location CRIBE0057
 4ae145 location CRIBE0058
 eac263 location CRIBE0059
 e74b4f location CRIBE0060
 3b9f50 location CRIBE0061
-afac5c location CRIBE0062
+1b2b69 location CRIBE0062
 02e802 location CRIBE0063
 830b49 location CRIBE0064
 b9362e location CRIBE0065
@@ -124,13 +127,12 @@ e40534 location CRIBE0081
 3f7354 location CRIBE0082
 e46a8f location CRIBE0083
 
-
 ## tuning
-c29aa8 maxwatts 1400
-0068f5 maxwatts 1400
-e6dc44 maxwatts 1400
-a6f215 maxwatts 1375
 fff476 maxwatts 1375
+a6f215 maxwatts 1400
+c29aa8 maxwatts 1400
+e6dc44 maxwatts 1400
+0068f5 maxwatts 1400
 
 ## asic password
 asicpass admin
