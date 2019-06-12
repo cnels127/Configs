@@ -68,10 +68,6 @@ global rebootasic 1
 vlan 10.0.59.56-110
 
 ## RANDE1
-bda117 location 0001
-d8b0ee location 0002
-bda117 maxwatts 1500
-d8b0ee maxwatts 1500
 
 ## NPAVL1
 821721 location NPAVL0001
