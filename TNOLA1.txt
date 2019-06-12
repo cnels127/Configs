@@ -17,7 +17,7 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1350
+global maxwatts 1550
 
 global autoupdate no
 global allowed yes
@@ -47,11 +47,6 @@ f7deb6 location TNOLA0002
 be162a location TNOLA0005
 
 ## tuning
-eaab57 maxwatts 1375
-f7deb6 maxwatts 1350
-9e6254 maxwatts 1350
-8bbd8a maxwatts 1375
-be162a maxwatts 1350
 
 ## asic password
 asicpass admin
