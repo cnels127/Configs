@@ -36,8 +36,16 @@ global asicblink worker
 # group=rowd allowed no
 
 ## vlans
-vlan 10.0.68.48-52
-vlan 10.0.68.102-108
+# vlan 10.0.68.48-52
+# vlan 10.0.68.102-108
+vlan 10.0.59.129-129
+vlan 10.0.59.131-131
+vlan 10.0.60.18-18
+vlan 10.0.60.35-35
+vlan 10.0.60.100-100
+vlan 10.0.60.102-102
+vlan 10.0.60.131-131
+vlan 10.0.60.143-143
 
 ## locations
 2462cd location johnbethBTC021
@@ -52,6 +60,14 @@ b340b4 location johnbethBTC025
 39be0c location johnbethBTC030
 e67e88 location johnbethBTC031
 6c73b3 location johnbethBTC032
+45ff0c location johnbethbtc033
+95c235 location johnbethbtc034
+f9164a location johnbethbtc035
+4db5d3 location johnbethbtc036
+aba209 location johnbethbtc037
+d549fd location johnbethbtc038
+f0ed76 location johnbethbtc039
+8f1d39 location johnbethbtc040
 
 ## tuning
 2462cd maxwatts 1550
@@ -70,6 +86,14 @@ e67e88 maxwatts 1550
 2c969d retune 1
 434e7d retune 1
 690f5d retune 1
+45ff0c maxwatts 1350
+95c235 maxwatts 1350
+f9164a maxwatts 1350
+4db5d3 maxwatts 1350
+aba209 maxwatts 1350
+d549fd maxwatts 1350
+f0ed76 maxwatts 1350
+8f1d39 maxwatts 1350
 
 ## asic password
 asicpass admin
