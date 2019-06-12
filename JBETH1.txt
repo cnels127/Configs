@@ -36,8 +36,8 @@ global asicblink worker
 # group=rowd allowed no
 
 ## vlans
-# vlan 10.0.68.48-52
-# vlan 10.0.68.102-108
+vlan 10.0.68.48-52
+vlan 10.0.68.102-108
 vlan 10.0.59.129-129
 vlan 10.0.59.131-131
 vlan 10.0.60.18-18
