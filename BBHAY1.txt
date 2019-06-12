@@ -54,14 +54,15 @@ vlan 10.0.59.156-156
 vlan 10.0.59.159-160
 vlan 10.0.59.192-192
 vlan 10.0.60.2-2
+vlan 10.0.60.4-4
 vlan 10.0.60.7-8
 vlan 10.0.60.12-12
 vlan 10.0.60.15-15
 vlan 10.0.60.16-17
 vlan 10.0.60.19-19
-vlan 10.0.60.21-21
-vlan 10.0.60.23-23
-vlan 10.0.60.26-28
+vlan 10.0.60.21-23
+vlan 10.0.60.26-26
+vlan 10.0.60.28-28
 vlan 10.0.60.31-32
 vlan 10.0.60.36-36
 vlan 10.0.60.39-40
@@ -73,7 +74,6 @@ vlan 10.0.60.62-65
 vlan 10.0.60.70-70
 vlan 10.0.60.72-73
 vlan 10.0.60.76-76
-vlan 10.0.60.80-80
 vlan 10.0.60.82-82
 vlan 10.0.60.84-85
 vlan 10.0.60.88-90
@@ -134,36 +134,36 @@ d75436 location BBHAY0031
 ab9437 location BBHAY0032
 42cbf5 location BBHAY0033
 2d2b43 location BBHAY0034
-876e98 location BBHAY0035
-5bf4fd location BBHAY0036
-5fd0bb location BBHAY0037
-c0d1d0 location BBHAY0038
-81b66e location BBHAY0039
-8a564f location BBHAY0040
-41b74f location BBHAY0041
-45bf53 location BBHAY0042
-33488b location BBHAY0043
-77a941 location BBHAY0044
-4d564a location BBHAY0045
-d064ff location BBHAY0046
-b93951 location BBHAY0047
-b57c98 location BBHAY0048
-3430be location BBHAY0049
-043ca7 location BBHAY0050
-876afa location BBHAY0051
-9f1bdd location BBHAY0052
-65491 location BBHAY0053
-9b8cfa location BBHAY0054
-613a81 location BBHAY0055
-c09684 location BBHAY0056
-3f93ef location BBHAY0057
-de1da0 location BBHAY0058
-b96448 location BBHAY0059
-06c771 location BBHAY0060
-db9bd2 location BBHAY0061
-92618c location BBHAY0062
-670e76 location BBHAY0063
-5f07ce location BBHAY0064
+58b291 location BBHAY0035
+876e98 location BBHAY0036
+5bf4fd location BBHAY0037
+5fd0bb location BBHAY0038
+c0d1d0 location BBHAY0039
+81b66e location BBHAY0040
+8a564f location BBHAY0041
+41b74f location BBHAY0042
+45bf53 location BBHAY0043
+822d97 location BBHAY0044
+33488b location BBHAY0045
+77a941 location BBHAY0046
+d064ff location BBHAY0047
+b93951 location BBHAY0048
+b57c98 location BBHAY0049
+3430be location BBHAY0050
+043ca7 location BBHAY0051
+876afa location BBHAY0052
+9f1bdd location BBHAY0053
+065491 location BBHAY0054
+9b8cfa location BBHAY0055
+613a81 location BBHAY0056
+c09684 location BBHAY0057
+3f93ef location BBHAY0058
+de1da0 location BBHAY0059
+b96448 location BBHAY0060
+06c771 location BBHAY0061
+db9bd2 location BBHAY0062
+92618c location BBHAY0063
+670e76 location BBHAY0064
 c0aa77 location BBHAY0065
 6d37b8 location BBHAY0066
 10eadb location BBHAY0067
@@ -178,7 +178,7 @@ c84687 location BBHAY0071
 3e1dda location BBHAY0076
 fd4339 location BBHAY0077
 3c382a location BBHAY0078
-29298 location BBHAY0079
+029298 location BBHAY0079
 9d7383 location BBHAY0080
 77cb9b location BBHAY0081
 8b9cbe location BBHAY0082
@@ -199,7 +199,7 @@ d699e4 location BBHAY0091
 4f5b96 location BBHAY0097
 a6fc8d location BBHAY0098
 9c64d4 location BBHAY0099
-91799 location BBHAY0100
+091799 location BBHAY0100
 5b4180 location BBHAY0101
 d5b013 location BBHAY0102
 267c54 location BBHAY0103
@@ -241,6 +241,7 @@ d75436 maxwatts 1350
 ab9437 maxwatts 1350
 42cbf5 maxwatts 1350
 2d2b43 maxwatts 1350
+58b291 maxwatts 1350
 876e98 maxwatts 1350
 5bf4fd maxwatts 1350
 5fd0bb maxwatts 1350
@@ -249,9 +250,9 @@ c0d1d0 maxwatts 1350
 8a564f maxwatts 1350
 41b74f maxwatts 1350
 45bf53 maxwatts 1350
+822d97 maxwatts 1350
 33488b maxwatts 1350
 77a941 maxwatts 1350
-4d564a maxwatts 1350
 d064ff maxwatts 1350
 b93951 maxwatts 1350
 b57c98 maxwatts 1350
@@ -259,7 +260,7 @@ b57c98 maxwatts 1350
 043ca7 maxwatts 1350
 876afa maxwatts 1350
 9f1bdd maxwatts 1350
-65491 maxwatts 1350
+065491 maxwatts 1350
 9b8cfa maxwatts 1350
 613a81 maxwatts 1350
 c09684 maxwatts 1350
@@ -270,7 +271,6 @@ b96448 maxwatts 1350
 db9bd2 maxwatts 1350
 92618c maxwatts 1350
 670e76 maxwatts 1350
-5f07ce maxwatts 1350
 c0aa77 maxwatts 1350
 6d37b8 maxwatts 1350
 10eadb maxwatts 1350
@@ -285,7 +285,7 @@ c84687 maxwatts 1350
 3e1dda maxwatts 1350
 fd4339 maxwatts 1350
 3c382a maxwatts 1350
-29298 maxwatts 1350
+029298 maxwatts 1350
 9d7383 maxwatts 1350
 77cb9b maxwatts 1350
 8b9cbe maxwatts 1350
@@ -306,7 +306,7 @@ d699e4 maxwatts 1350
 4f5b96 maxwatts 1350
 a6fc8d maxwatts 1350
 9c64d4 maxwatts 1350
-91799 maxwatts 1350
+091799 maxwatts 1350
 5b4180 maxwatts 1350
 d5b013 maxwatts 1350
 267c54 maxwatts 1350
