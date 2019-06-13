@@ -35,10 +35,40 @@ global asicblink worker
 # group=rowd allowed no
 
 ## vlans
+vlan 10.0.59.120-120
+vlan 10.0.59.126-126
+vlan 10.0.59.148-148
+vlan 10.0.60.27-27
+vlan 10.0.60.30-30
+vlan 10.0.60.44-44
+vlan 10.0.60.55-55
+vlan 10.0.60.122-122
+vlan 10.0.60.160-160
+vlan 10.0.61.5-5
 
 ## locations
+334842 location VMANU0001
+ac4af9 location VMANU0002
+6ee7a2 location VMANU0003
+4d564a location VMANU0004
+00eded location VMANU0005
+0d2787 location VMANU0006
+6f8a97 location VMANU0007
+26db41 location VMANU0008
+29cb77 location VMANU0009
+689c52 location VMANU0010
 
 ## tuning
+334842 maxwatts 1350
+ac4af9 maxwatts 1350
+6ee7a2 maxwatts 1350
+4d564a maxwatts 1350
+00eded maxwatts 1350
+0d2787 maxwatts 1350
+6f8a97 maxwatts 1350
+26db41 maxwatts 1350
+29cb77 maxwatts 1350
+689c52 maxwatts 1350
 
 ## asic password
 asicpass admin
