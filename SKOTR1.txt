@@ -36,18 +36,22 @@ global asicblink worker
 # group=rowd allowed no
 
 ## vlans
-# vlan 172.16.204.65
-vlan 10.0.56.146-146
+vlan 10.0.56.144-144
+vlan 10.0.58.136-136
+vlan 10.0.60.61-61
+vlan 10.0.60.155-155
 
 ## locations
-# 270650 location 270650
-# e06ea6 location SKOTR0001
 6dd1ab location SKOTR0001
+6c2948 location SKOTR0002
+5653f6 location SKOTR0003
+031368 location SKOTR0004
 
 ## tuning
-# 270650 maxwatts 1500
-e06ea6 maxwatts 1550
 6dd1ab maxwatts 1550
+6c2948 maxwatts 1500
+5653f6 maxwatts 1500
+031368 maxwatts 1500
 
 ## asic password
 asicpass admin
