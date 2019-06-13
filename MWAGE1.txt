@@ -1,0 +1,53 @@
+## instructions available at: https://asicseer.com/page/kb#writing-config
+
+global custompanel MWAGE1bit049
+
+global poolname1 eu.ss.btc.com:1800
+global username1 mwags1
+global poolpass1 123
+global sendworker1 yes
+global poolname2 us.ss.btc.com:1800
+global username2 mwags1
+global poolpass2 123
+global sendworker2 yes
+global poolname3 cn.ss.btc.com:1800
+global username3 mwags1
+global poolpass3 123
+global sendworker3 yes
+
+global asicboost yes
+global autotune yes
+global maxwatts 1350
+
+global autoupdate no
+global allowed yes
+global maxtemp 90
+global fanspeed 95
+global fansaver 65
+# global asicblink worker
+
+# global retune 1
+# global rebootasic 1
+# global resetasic 1
+# global panelpass gj83Nkgikg
+
+# group=rowc rebootasic 1
+# group=rowd allowed no
+
+## vlans
+vlan 10.0.60.68-68
+vlan 10.0.60.129-129
+vlan 10.0.60.161-161
+
+## locations
+9b0fa1 location MWAGE0001
+96ae02 location MWAGE0002
+6364b7 location MWAGE0003
+
+## tuning
+9b0fa1 maxwatts 1350
+96ae02 maxwatts 1350
+6364b7 maxwatts 1350
+
+## asic password
+asicpass admin
