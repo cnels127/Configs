@@ -35,19 +35,18 @@ global fansaver 65
 # group=rowd allowed no
 
 ## vlans
-vlan 10.0.59.126-126
-vlan 10.0.60.30-30
-vlan 10.0.60.44-44
+vlan 10.0.60.9-10
+vlan 10.0.60.58-58
 
 ## locations
-ac4af9 location DSCRI0001
-00eded location DSCRI0002
-0d2787 location DSCRI0003
+85ae8d location DSCRI0001
+309322 location DSCRI0002
+1c0d86 location DSCRI0003
 
 ## tuning
-ac4af9 maxwatts 1350
-00eded maxwatts 1350
-0d2787 maxwatts 1350
+85ae8d maxwatts 1350
+309322 maxwatts 1350
+1c0d86 maxwatts 1350
 
 ## asic password
 asicpass admin
