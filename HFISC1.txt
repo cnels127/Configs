@@ -24,7 +24,7 @@ global autoupdate no
 global allowed yes
 global maxtemp 90
 global fanspeed 95
-# global fansaver 65
+global fansaver 65
 global asicblink worker
 
 # global retune 1
@@ -35,14 +35,22 @@ global rebootasic 1
 # group=rowc rebootasic 1
 # group=rowd allowed no
 
-# ab34ef location rowc2
-
 ## vlans
-vlan 10.0.68.54-63
-vlan 10.0.56.131-131
-vlan 10.0.56.134-135
-vlan 10.0.56.138-143
-vlan 10.0.56.145-145
+# vlan 10.0.68.54-63
+# vlan 10.0.56.131-131
+# vlan 10.0.56.134-135
+# vlan 10.0.56.138-143
+# vlan 10.0.56.145-145
+vlan 10.0.59.151-151
+vlan 10.0.60.33-33
+vlan 10.0.60.47-47
+vlan 10.0.60.59-59
+vlan 10.0.60.69-69
+vlan 10.0.60.71-71
+vlan 10.0.60.119-119
+vlan 10.0.60.158-158
+vlan 10.0.61.4-4
+vlan 10.0.61.14-14
 
 ## locations
 994f1c location HFISC0001
@@ -65,6 +73,16 @@ f3d8b8 location HFISC0015
 2020a9 location HFISC0018
 618b1a location HFISC0019
 bff483 location HFISC0020
+424037 location HFISC0021
+bca239 location HFISC0022
+c899f8 location HFISC0023
+e2ac32 location HFISC0024
+b688aa location HFISC0025
+d24d19 location HFISC0026
+972425 location HFISC0027
+f13d6c location HFISC0028
+c8c445 location HFISC0029
+de5a58 location HFISC0030
 
 ## tuning
 
