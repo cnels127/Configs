@@ -36,8 +36,32 @@ global retune 1
 # group=rowd allowed no
 
 ## vlans
-vlan 10.0.32.46-59
-vlan 10.0.54.64-73
+# vlan 10.0.32.46-59
+# vlan 10.0.54.64-73
+vlan 10.0.59.113-113
+vlan 10.0.59.117-117
+vlan 10.0.59.119-119
+vlan 10.0.59.122-122
+vlan 10.0.59.125-125
+vlan 10.0.59.134-134
+vlan 10.0.59.158-158
+vlan 10.0.60.3-3
+vlan 10.0.60.6-6
+vlan 10.0.60.11-11
+vlan 10.0.60.13-13
+vlan 10.0.60.29-29
+vlan 10.0.60.34-34
+vlan 10.0.60.42-42
+vlan 10.0.60.49-49
+vlan 10.0.60.54-54
+vlan 10.0.60.56-56
+vlan 10.0.60.60-60
+vlan 10.0.60.75-75
+vlan 10.0.60.79-79
+vlan 10.0.60.87-87
+vlan 10.0.60.92-92
+vlan 10.0.60.93-93
+vlan 10.0.60.98-98
 
 ## locations
 adad49 location s01
@@ -64,32 +88,57 @@ bebcdf location s19
 2cd597 location s22
 da121e location s23
 3b93d0 location s24
+160396 location s25
+004faa location s26
+0b2f9f location s27
+715335 location s28
+3a81c2 location s29
+03402b location s30
+fbb18b location s31
+69e1ce location s32
+bf1870 location s33
+435798 location s34
+8c8868 location s35
+939070 location s36
+e2c4c8 location s37
+c7c75f location s38
+b5dba0 location s39
+6ff8a0 location s40
+205fac location s41
+4ec51b location s42
+e12db4 location s43
+407bad location s44
+e39d7c location s45
+3c6079 location s46
+fe2dc8 location s47
+cb35ba location s48
 
 ## tuning
-# adad49 maxwatts 1575
-# aa5a42 maxwatts 1550
-# 4a07bd maxwatts 1575
-# 6fd056 maxwatts 1575
-# efc969 maxwatts 1550
-# 1c9a9d maxwatts 1575
-# 9ae6af maxwatts 1575
-# c7a6d8 maxwatts 1575
-# 14b55f maxwatts 1575
-# 9821db maxwatts 1550
-# 833da0 maxwatts 1575
-# 58aa3a maxwatts 1575
-# f0b740 maxwatts 1575
-# e9a6cf maxwatts 1575
-# 69adfb maxwatts 1550
-# e61a9b maxwatts 1550
-# 1e68e9 maxwatts 1550
-# 418c38 maxwatts 1575
-# bebcdf maxwatts 1575
-# 1766a9 maxwatts 1575
-# 789895 maxwatts 1575
-# 2cd597 maxwatts 1550
-da121e maxwatts 1525
-# 3b93d0 maxwatts 1550
+160396 maxwatts 1500
+004faa maxwatts 1500
+0b2f9f maxwatts 1500
+715335 maxwatts 1500
+3a81c2 maxwatts 1500
+03402b maxwatts 1500
+fbb18b maxwatts 1500
+69e1ce maxwatts 1500
+bf1870 maxwatts 1500
+435798 maxwatts 1500
+8c8868 maxwatts 1500
+939070 maxwatts 1500
+e2c4c8 maxwatts 1500
+c7c75f maxwatts 1500
+b5dba0 maxwatts 1500
+6ff8a0 maxwatts 1500
+205fac maxwatts 1500
+4ec51b maxwatts 1500
+e12db4 maxwatts 1500
+407bad maxwatts 1500
+e39d7c maxwatts 1500
+3c6079 maxwatts 1500
+fe2dc8 maxwatts 1500
+cb35ba maxwatts 1500
+3b93d0 retune 1
 
 ## asic password
 asicpass admin
