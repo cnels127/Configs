@@ -35,14 +35,14 @@ global asicblink worker
 # group=rowd allowed no
 
 ## vlans
-vlan 10.0.60.93-93
-vlan 10.0.60.104-104
-vlan 10.0.60.111-111
+vlan 10.0.60.99
+vlan 10.0.60.111
+vlan 10.0.60.144
 
 ## locations
-fe2dc8 location STHAY0001
-e1bef3 location STHAY0002
-f450a0 location STHAY0003
+132245 location STHAY0001
+f450a0 location STHAY0002
+546a5f location STHAY0003
 
 ## tuning
 
