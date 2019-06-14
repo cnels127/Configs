@@ -35,8 +35,28 @@ global asicblink worker
 # group=rowd allowed no
 
 ## vlans
+vlan 10.0.60.6-6
+vlan 10.0.60.11-11
+vlan 10.0.60.13-13
+vlan 10.0.60.29-29
+vlan 10.0.60.34-34
+vlan 10.0.60.42-42
+vlan 10.0.60.56-56
+vlan 10.0.60.61-61
+vlan 10.0.60.87-87
+vlan 10.0.60.92-92
 
 ## locations
+bf1870 location SLANG0001
+435798 location SLANG0002
+8c8868 location SLANG0003
+939070 location SLANG0004
+e2c4c8 location SLANG0005
+c7c75f location SLANG0006
+205fac location SLANG0007
+5653f6 location SLANG0008
+e39d7c location SLANG0009
+3c6079 location SLANG0010
 
 ## tuning
 
