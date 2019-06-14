@@ -17,14 +17,14 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1350
+global maxwatts 1500
 
 global autoupdate no
 global allowed yes
 global maxtemp 90
 global fanspeed 95
 global fansaver 65
-global asicblink worker
+# global asicblink worker
 
 # global retune 1
 # global rebootasic 1
@@ -35,10 +35,47 @@ global asicblink worker
 # group=rowd allowed no
 
 ## vlans
+vlan 172.16.203.245-245
+vlan 172.16.203.247-253
+vlan 172.16.204.1-9
 
 ## locations
+6923d5 location LMACKCOS0001
+e50e84 location LMACKCOS0002
+b879df location LMACKCOS0003
+d38886 location LMACKCOS0004
+be298d location LMACKCOS0005
+66742c location LMACKCOS0006
+902dff location LMACKCOS0007
+fd5233 location LMACKCOS0008
+fc5728 location LMACKCOS0009
+e2b17a location LMACKCOS0010
+b06f2f location LMACKCOS0011
+9be2e9 location LMACKCOS0012
+dc7a56 location LMACKCOS0013
+178cf9 location LMACKCOS0014
+697be7 location LMACKCOS0015
+3b93f0 location LMACKCOS0016
+188204 location LMACKCOS0017
 
 ## tuning
+6923d5 maxwatts 1500
+e50e84 maxwatts 1500
+b879df maxwatts 1500
+d38886 maxwatts 1500
+be298d maxwatts 1500
+66742c maxwatts 1500
+902dff maxwatts 1500
+fd5233 maxwatts 1500
+fc5728 maxwatts 1500
+e2b17a maxwatts 1500
+b06f2f maxwatts 1500
+9be2e9 maxwatts 1500
+dc7a56 maxwatts 1500
+178cf9 maxwatts 1500
+697be7 maxwatts 1500
+3b93f0 maxwatts 1500
+188204 maxwatts 1500
 
 ## asic password
 asicpass admin
