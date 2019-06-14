@@ -36,22 +36,22 @@ global resetasic 1
 
 ## vlans
 vlan 10.0.58.33-33
+vlan 10.0.58.142-142
 vlan 10.0.60.16-16
-vlan 10.0.60.74-74
 vlan 10.0.60.78-78
 vlan 10.0.60.80-80
 
 ## locations
 cc79f4 location ERICH0001
-81b66e location ERICH0002
-a57a15 location ERICH0003
+ea2b68 location ERICH0002
+81b66e location ERICH0003
 84441a location ERICH0004
 5f07ce location ERICH0005
 
 ## tuning
 cc79f4 maxwatts 1350
+ea2b68 maxwatts 1350
 81b66e maxwatts 1350
-a57a15 maxwatts 1350
 84441a maxwatts 1350
 5f07ce maxwatts 1350
 
