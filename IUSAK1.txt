@@ -1,0 +1,50 @@
+## instructions available at: https://asicseer.com/page/kb#writing-config
+
+global custompanel IUSAK1bit049
+
+global poolname1 eu.stratum.slushpool.com:3333
+global username1 ushkin
+global poolpass1 123
+global sendworker1 yes
+global poolname2 eu.ss.btc.com:1800
+global username2 ushkin
+global poolpass2 123
+global sendworker2 yes
+global poolname3 us.ss.btc.com:1800
+global username3 ushkin
+global poolpass3 123
+global sendworker3 yes
+
+global asicboost yes
+global autotune yes
+global maxwatts 1500
+
+global autoupdate no
+global allowed yes
+global maxtemp 90
+global fanspeed 95
+global fansaver 65
+# global asicblink worker
+
+# global retune 1
+# global rebootasic 1
+# global resetasic 1
+# global panelpass gj83Nkgikg
+
+# group=rowc rebootasic 1
+# group=rowd allowed no
+
+## vlans
+vlan 10.0.61.1-1
+vlan 10.0.61.9-9
+
+## locations
+fae03c location IUSAK0001
+b65b8a location IUSAK0002
+
+## tuning
+fae03c maxwatts 1500
+b65b8a maxwatts 1500
+
+## asic password
+asicpass admin
