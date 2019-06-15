@@ -1,0 +1,44 @@
+## instructions available at: https://asicseer.com/page/kb#writing-config
+
+global custompanel RHOLL1bit049
+
+global poolname1 eu.ss.btc.com:1800
+global username1 Gtx001
+global poolpass1 123
+global sendworker1 yes
+global poolname2 
+global username2 
+global poolpass2 
+global sendworker2 yes
+global poolname3 
+global username3 
+global poolpass3 
+global sendworker3 yes
+
+global asicboost yes
+global autotune yes
+global maxwatts 1350
+
+global autoupdate no
+global allowed yes
+global maxtemp 90
+global fanspeed 95
+global fansaver 65
+# global asicblink worker
+
+# global retune 1
+# global rebootasic 1
+# global resetasic 1
+# global panelpass gj83Nkgikg
+
+# group=rowc rebootasic 1
+# group=rowd allowed no
+
+## vlans
+
+## locations
+
+## tuning
+
+## asic password
+asicpass admin
