@@ -23,8 +23,8 @@ global maxwatts 1350
 global autoupdate no
 global allowed yes
 global maxtemp 90
-global fanspeed 90
-global fansaver 60
+global fanspeed 95
+global fansaver 65
 # global asicblink worker
 
 global retune 1
@@ -46,7 +46,7 @@ vlan 10.0.55.108-108
 
 ## locations
 17739c location PKOKE0001
-bcaed0 location PKOKE0002
+e5ba90 location PKOKE0002
 f39f2b location PKOKE0003
 bd9932 location PKOKE0004
 7ed10f location PKOKE0005
@@ -58,6 +58,7 @@ e5f3f0 location EXTRA
 e06ea6 location EXTRA
 
 ## tuning
+e5ba90 maxwatts 1350
 17739c maxwatts 1400
 bcaed0 maxwatts 1575
 f39f2b maxwatts 1400
