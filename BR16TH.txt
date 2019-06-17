@@ -35,6 +35,9 @@ global fanspeed 95
 # group=rowd allowed no
 
 ## vlans
+vlan 10.0.216.138-254
+vlan 10.0.217.1-254
+vlan 10.0.218.1-254
 
 ## location
 
