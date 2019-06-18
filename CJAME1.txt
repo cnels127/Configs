@@ -34,10 +34,45 @@ global fansaver 65
 # group=rowd allowed no
 
 ## vlans
+vlan 10.0.57.161-161
+vlan 10.0.58.3-3
+vlan 10.0.58.35-35
+vlan 10.0.58.55-55
+vlan 10.0.58.57-58
+vlan 10.0.58.112-112
+vlan 10.0.58.133-133
+vlan 10.0.59.53-53
+vlan 10.0.59.88-88
+vlan 10.0.60.66-66
+vlan 10.0.60.157-157
 
 ## locations
+550b63 location CJAME0001
+fa71b6 location CJAME0002
+de91a0 location CJAME0003
+be35a4 location CJAME0004
+bf5d9e location CJAME0005
+14ccc9 location CJAME0006
+e45e37 location CJAME0007
+2ecd51 location CJAME0008
+1d5db9 location CJAME0009
+e82795 location CJAME0010
+a976d3 location CJAME0011
+3ae6f5 location CJAME0012
 
 ## tuning
+550b63 maxwatts 1350
+fa71b6 maxwatts 1350
+de91a0 maxwatts 1350
+be35a4 maxwatts 1350
+bf5d9e maxwatts 1350
+14ccc9 maxwatts 1350
+e45e37 maxwatts 1350
+2ecd51 maxwatts 1350
+1d5db9 maxwatts 1350
+e82795 maxwatts 1350
+a976d3 maxwatts 1350
+3ae6f5 maxwatts 1350
 
 ## asic password
 asicpass admin
