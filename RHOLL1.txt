@@ -6,13 +6,13 @@ global poolname1 eu.ss.btc.com:1800
 global username1 Gtx001
 global poolpass1 123
 global sendworker1 yes
-global poolname2 
-global username2 
-global poolpass2 
+global poolname2 eu.ss.btc.com:443
+global username2 Gtx001
+global poolpass2 123
 global sendworker2 yes
-global poolname3 
-global username3 
-global poolpass3 
+global poolname3 eu.ss.btc.com:25
+global username3 Gtx001
+global poolpass3 123
 global sendworker3 yes
 
 global asicboost yes
@@ -24,7 +24,6 @@ global allowed yes
 global maxtemp 90
 global fanspeed 95
 global fansaver 65
-# global asicblink worker
 
 # global retune 1
 # global rebootasic 1
@@ -35,10 +34,19 @@ global fansaver 65
 # group=rowd allowed no
 
 ## vlans
+vlan 10.0.58.140-140
+vlan 10.0.59.104-104
+vlan 10.0.59.157-157
 
 ## locations
+a3eaf2 location RHOLL0001
+4d61ee location RHOLL0002
+16da58 location RHOLL0003
 
 ## tuning
+a3eaf2 maxwatts 1350
+4d61ee maxwatts 1350
+16da58 maxwatts 1350
 
 ## asic password
 asicpass admin
