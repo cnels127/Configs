@@ -1,7 +1,7 @@
 ## ASICseer default config loaded in, edit it and click 'Save Changes'
 ## instructions available at: https://asicseer.com/page/kb#writing-config
 
-global custompanel bit049hshpwr
+global custompanel REPAIRbit049
 
 global poolname1 us.ss.btc.com:1800
 global username1 bit49US
@@ -24,8 +24,7 @@ global autoupdate no
 global allowed yes
 global maxtemp 90
 global fanspeed 95
-global fansaver 60
-# global asicblink worker
+global fansaver 65
 
 # global retune 1
 global rebootasic 1
@@ -40,7 +39,6 @@ global rebootasic 1
 ## location
 
 ## tuning
-f685b6 retune 1
 
 ## asic password
 asicpass admin
