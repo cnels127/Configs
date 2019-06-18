@@ -3,17 +3,17 @@
 
 global custompanel PKOKE1bit049
 
-global poolname1 stratum.slushpool.com:3333
+global poolname1 eu.stratum.slushpool.com:3333
 global username1 ivanrk
 global poolpass1 123
 global sendworker1 yes
-global poolname2 
-global username2 
-global poolpass2 
+global poolname2 us-east.stratum.slushpool.com:3333
+global username2 ivanrk
+global poolpass2 123
 global sendworker2 yes
-global poolname3 
-global username3 
-global poolpass3 
+global poolname3 stratum.slushpool.com:3333
+global username3 ivanrk
+global poolpass3 123
 global sendworker3 yes
 
 global asicboost yes
