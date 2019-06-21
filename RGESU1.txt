@@ -34,81 +34,80 @@ global rebootasic 4
 # group=rowc rebootasic 1
 # group=rowd allowed no
 
-## vlans
+## RUSSIA
 vlan 10.0.53.140-161
 vlan 10.0.54.1-38
-vlan 172.16.202.91-95
-
-## locations
 29ece6 maxwatts 1600
-37c8cd location rgesu0001
-afb5e3 location rgesu0002
-da7d9d location rgesu0003
-e4a1aa location rgesu0004
-6f1bef location rgesu0005
-c3196d location rgesu0006
-866b96 location rgesu0007
-7bf34d location rgesu0008
-c1da37 location rgesu0009
-e8e0ce location rgesu0010
-d92dc2 location rgesu0011
-7a36b9 location rgesu0012
-29ece6 location rgesu0013
-79e1ed location rgesu0014
-dc8a14 location rgesu0015
-b65a11 location rgesu0016
-6073d8 location rgesu0017
-13b57d location rgesu0018
-35f34a location rgesu0019
-753f7e location rgesu0020
-a4164a location rgesu0021
-123f64 location rgesu0022
-70adc2 location rgesu0023
-2e3c21 location rgesu0024
-c64ec9 location rgesu0025
-7e18e7 location rgesu0026
-a25bea location rgesu0027
-52a31b location rgesu0028
-8883eb location rgesu0029
-2402b8 location rgesu0030
-f3393d location rgesu0031
-9b0135 location rgesu0032
-2ffd90 location rgesu0033
-081fad location rgesu0034
-b004dc location rgesu0035
-8ce706 location rgesu0036
-102b68 location rgesu0037
-0b0610 location rgesu0038
-e94ba6 location rgesu0039
-d66f6b location rgesu0040
-45099f location rgesu0041
-ada517 location rgesu0042
-0884bf location rgesu0043
-535558 location rgesu0044
-15891f location rgesu0045
-4055c4 location rgesu0046
-6c3de0 location rgesu0047
-6c69d7 location rgesu0048
-1a4852 location rgesu0049
-99187c location rgesu0050
-9a8142 location rgesu0051
-0cf968 location rgesu0052
-60ea91 location rgesu0053
-59a9ba location rgesu0054
-a02b78 location rgesu0055
-4b6238 location rgesu0056
-870cd5 location rgesu0057
-ff032f location rgesu0058
-4f826d location rgesu0059
-75ef00 location rgesu0060
+37c8cd location RGESURUS0001
+afb5e3 location RGESURUS0002
+da7d9d location RGESURUS0003
+e4a1aa location RGESURUS0004
+6f1bef location RGESURUS0005
+c3196d location RGESURUS0006
+866b96 location RGESURUS0007
+7bf34d location RGESURUS0008
+c1da37 location RGESURUS0009
+e8e0ce location RGESURUS0010
+d92dc2 location RGESURUS0011
+7a36b9 location RGESURUS0012
+29ece6 location RGESURUS0013
+79e1ed location RGESURUS0014
+dc8a14 location RGESURUS0015
+b65a11 location RGESURUS0016
+6073d8 location RGESURUS0017
+13b57d location RGESURUS0018
+35f34a location RGESURUS0019
+753f7e location RGESURUS0020
+a4164a location RGESURUS0021
+123f64 location RGESURUS0022
+70adc2 location RGESURUS0023
+2e3c21 location RGESURUS0024
+c64ec9 location RGESURUS0025
+7e18e7 location RGESURUS0026
+a25bea location RGESURUS0027
+52a31b location RGESURUS0028
+8883eb location RGESURUS0029
+2402b8 location RGESURUS0030
+f3393d location RGESURUS0031
+9b0135 location RGESURUS0032
+2ffd90 location RGESURUS0033
+081fad location RGESURUS0034
+b004dc location RGESURUS0035
+8ce706 location RGESURUS0036
+102b68 location RGESURUS0037
+0b0610 location RGESURUS0038
+e94ba6 location RGESURUS0039
+d66f6b location RGESURUS0040
+45099f location RGESURUS0041
+ada517 location RGESURUS0042
+0884bf location RGESURUS0043
+535558 location RGESURUS0044
+15891f location RGESURUS0045
+4055c4 location RGESURUS0046
+6c3de0 location RGESURUS0047
+6c69d7 location RGESURUS0048
+1a4852 location RGESURUS0049
+99187c location RGESURUS0050
+9a8142 location RGESURUS0051
+0cf968 location RGESURUS0052
+60ea91 location RGESURUS0053
+59a9ba location RGESURUS0054
+a02b78 location RGESURUS0055
+4b6238 location RGESURUS0056
+870cd5 location RGESURUS0057
+ff032f location RGESURUS0058
+4f826d location RGESURUS0059
+75ef00 location RGESURUS0060
 
 ## COLORADO
-904b7f location 0001
-d360c8 location 0002
-a8b8de location 0003
-329fab location 0004
-828235 location 0005
-af9564 location 0006
+vlan 172.16.202.91-95
+vlan 172.16.202.111	
+904b7f location RGESUCOS0001
+d360c8 location RGESUCOS0002
+a8b8de location RGESUCOS0003
+329fab location RGESUCOS0004
+828235 location RGESUCOS0005
+af9564 location RGESUCOS0006
 904b7f retune 1
 d360c8 retune 1
 a8b8de retune 1
