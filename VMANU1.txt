@@ -35,6 +35,7 @@ global asicblink worker
 # group=rowd allowed no
 
 ## vlans
+vlan 10.0.58.82-82
 vlan 10.0.59.120-120
 vlan 10.0.59.126-126
 vlan 10.0.59.148-148
@@ -54,23 +55,12 @@ ac4af9 location VMANU0002
 00eded location VMANU0005
 0d2787 location VMANU0006
 6f8a97 location VMANU0007
-26db41 location VMANU0008
+26db41 location EXTRA
 698d83 location VMANU0008
 29cb77 location VMANU0009
 689c52 location VMANU0010
 
 ## tuning
-698d83 maxwatts 1350
-334842 maxwatts 1350
-ac4af9 maxwatts 1350
-6ee7a2 maxwatts 1350
-4d564a maxwatts 1350
-00eded maxwatts 1350
-0d2787 maxwatts 1350
-6f8a97 maxwatts 1350
-26db41 maxwatts 1350
-29cb77 maxwatts 1350
-689c52 maxwatts 1350
 334842 retune 1
 26db41 retune 1
 
