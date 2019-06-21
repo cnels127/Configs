@@ -39,16 +39,13 @@ vlan 10.0.62.36-36
 vlan 10.0.62.38-40
 
 ## locations
-# af34c7 location RFRAN0001
-# 7f3717 location RFRAN0002
-# 46bd22 location RFRAN0003
-# d54f75 location RFRAN0004
+af34c7 location RFRANRUS0001
+7f3717 location RFRANRUS0002
+46bd22 location RFRANRUS0003
+d54f75 location RFRANRUS0004
+34cec2 location RFRANCOS0001
 
 ## tuning
-af34c7 maxwatts 1500
-7f3717 maxwatts 1500
-46bd22 maxwatts 1500
-d54f75 maxwatts 1500
 
 ## asic password
 asicpass admin
