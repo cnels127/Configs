@@ -22,8 +22,8 @@ global maxwatts 1350
 global autoupdate yes
 global allowed yes
 global maxtemp 90
-global fanspeed 80
-# global fansaver 60
+global fanspeed 95
+global fansaver 66
 # global asicblink worker
 
 # global retune 1
@@ -35,6 +35,19 @@ global fanspeed 80
 # group=rowd allowed no
 
 ## vlans
+vlan 10.0.223.176-176
+vlan 10.0.218.154-154
+vlan 10.0.223.19-20
+vlan 10.0.224.72-72
+vlan 10.0.223.169-169
+vlan 10.0.224.41-41
+vlan 10.0.224.148-148
+vlan 10.0.224.44-44
+vlan 10.0.224.159-159
+vlan 10.0.224.117-117
+vlan 10.0.223.91-92
+vlan 10.0.224.149-149
+vlan 10.0.224.165-165
 
 ## location
 
