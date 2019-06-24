@@ -3,12 +3,12 @@
 
 global custompanel NMANT1bit049
 
-global poolname1 prohashing.com:3335
-global username1 2313460athens
-global poolpass1 x
+global poolname1 sha256.mine.zergpool.com:3333
+global username1 3LLrhVQKEmPGzCrZU1t6m22vk5wVuqEjgy
+global poolpass1 c=BTC
 global sendworker1 yes
-global poolname2 
-global username2 
+global poolname2 prohashing.com:3335
+global username2 koftis71
 global poolpass2 
 global sendworker2 yes
 global poolname3 
@@ -18,14 +18,13 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1525
+global maxwatts 1500
 
 global autoupdate no
 global allowed yes
 global maxtemp 90
 global fanspeed 95
 global fansaver 65
-# global asicblink worker
 
 # global retune 1
 # global rebootasic 1
@@ -36,8 +35,10 @@ global fansaver 65
 # group=rowd allowed no
 
 ## vlans
+vlan 10.0.58.132-132
 
 ## locations
+30946f location koftis71
 
 ## tuning
 
