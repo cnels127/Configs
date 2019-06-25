@@ -1,0 +1,363 @@
+## instructions available at: https://asicseer.com/page/kb#writing-config
+
+global custompanel JARND0bit049
+
+global poolname1 192.168.77.12:1043
+global username1 skyminer
+global poolpass1 123
+global sendworker1 yes
+global poolname2 192.168.77.13:1043
+global username2 skyminer
+global poolpass2 123
+global sendworker2 yes
+global poolname3 91.221.41.35:7913
+global username3 skyminer
+global poolpass3 123
+global sendworker3 yes
+
+global asicboost yes
+global autotune yes
+global maxwatts 1500
+
+global autoupdate yes
+global allowed yes
+global maxtemp 90
+global fanspeed 95
+global fansaver 65
+
+# global retune 1
+# global rebootasic 1
+# global resetasic 1
+# global panelpass gj83Nkgikg
+
+# group=rowc rebootasic 1
+# group=rowd allowed no
+
+## vlans
+vlan 10.0.216.140-140
+vlan 10.0.216.141-141
+vlan 10.0.216.142-142
+vlan 10.0.216.143-143
+vlan 10.0.216.150-150
+vlan 10.0.216.151-151
+vlan 10.0.216.152-152
+vlan 10.0.216.153-153
+vlan 10.0.216.154-154
+vlan 10.0.216.155-155
+vlan 10.0.216.156-156
+vlan 10.0.216.158-158
+vlan 10.0.216.159-159
+vlan 10.0.216.161-161
+vlan 10.0.216.163-163
+vlan 10.0.216.164-164
+vlan 10.0.216.165-165
+vlan 10.0.216.167-167
+vlan 10.0.216.168-168
+vlan 10.0.216.169-169
+vlan 10.0.216.171-171
+vlan 10.0.216.172-172
+vlan 10.0.216.175-175
+vlan 10.0.216.176-176
+vlan 10.0.216.177-177
+vlan 10.0.216.178-178
+vlan 10.0.216.182-182
+vlan 10.0.216.183-183
+vlan 10.0.216.184-184
+vlan 10.0.216.185-185
+vlan 10.0.216.193-193
+vlan 10.0.216.194-194
+vlan 10.0.216.196-196
+vlan 10.0.216.197-197
+vlan 10.0.216.198-198
+vlan 10.0.216.200-200
+vlan 10.0.216.201-201
+vlan 10.0.216.202-202
+vlan 10.0.216.203-203
+vlan 10.0.216.204-204
+vlan 10.0.216.205-205
+vlan 10.0.216.206-206
+vlan 10.0.216.207-207
+vlan 10.0.216.211-211
+vlan 10.0.216.212-212
+vlan 10.0.216.216-216
+vlan 10.0.216.217-217
+vlan 10.0.216.219-219
+vlan 10.0.216.220-220
+vlan 10.0.216.222-222
+vlan 10.0.216.223-223
+vlan 10.0.216.225-225
+vlan 10.0.216.226-226
+vlan 10.0.216.229-229
+vlan 10.0.216.230-230
+vlan 10.0.216.233-233
+vlan 10.0.216.234-234
+vlan 10.0.216.235-235
+vlan 10.0.216.238-238
+vlan 10.0.216.239-239
+vlan 10.0.216.240-240
+vlan 10.0.217.8-8
+vlan 10.0.217.10-10
+vlan 10.0.217.17-17
+vlan 10.0.217.19-19
+vlan 10.0.217.20-20
+vlan 10.0.217.21-21
+vlan 10.0.217.23-23
+vlan 10.0.217.25-25
+vlan 10.0.217.26-26
+vlan 10.0.217.30-30
+vlan 10.0.217.32-32
+vlan 10.0.217.38-38
+vlan 10.0.217.41-41
+vlan 10.0.217.43-43
+vlan 10.0.217.44-44
+vlan 10.0.217.48-48
+vlan 10.0.217.49-49
+vlan 10.0.218.155-155
+vlan 10.0.218.156-156
+vlan 10.0.218.162-162
+vlan 10.0.218.167-167
+vlan 10.0.223.1-1
+vlan 10.0.223.8-8
+vlan 10.0.223.9-9
+vlan 10.0.223.10-10
+vlan 10.0.223.11-11
+vlan 10.0.223.12-12
+vlan 10.0.223.13-13
+vlan 10.0.223.16-16
+vlan 10.0.223.17-17
+vlan 10.0.223.18-18
+vlan 10.0.223.21-21
+vlan 10.0.223.22-22
+vlan 10.0.223.24-24
+vlan 10.0.223.25-25
+vlan 10.0.223.28-28
+vlan 10.0.223.31-31
+vlan 10.0.223.34-34
+vlan 10.0.223.38-38
+vlan 10.0.223.39-39
+vlan 10.0.223.40-40
+vlan 10.0.223.41-41
+vlan 10.0.223.42-42
+vlan 10.0.223.43-43
+vlan 10.0.223.44-44
+vlan 10.0.223.46-46
+vlan 10.0.223.47-47
+vlan 10.0.223.49-49
+vlan 10.0.223.50-50
+vlan 10.0.223.51-51
+vlan 10.0.223.53-53
+vlan 10.0.223.54-54
+vlan 10.0.223.58-58
+vlan 10.0.223.59-59
+vlan 10.0.223.60-60
+vlan 10.0.223.62-62
+vlan 10.0.223.64-64
+vlan 10.0.223.66-66
+vlan 10.0.223.67-67
+vlan 10.0.223.69-69
+vlan 10.0.223.70-70
+vlan 10.0.223.71-71
+vlan 10.0.223.72-72
+vlan 10.0.223.74-74
+vlan 10.0.223.76-76
+vlan 10.0.223.78-78
+vlan 10.0.223.79-79
+vlan 10.0.223.81-81
+vlan 10.0.223.82-82
+vlan 10.0.223.84-84
+vlan 10.0.223.85-85
+vlan 10.0.223.87-87
+vlan 10.0.223.89-89
+vlan 10.0.223.93-93
+vlan 10.0.223.94-94
+vlan 10.0.223.138-138
+vlan 10.0.223.139-139
+vlan 10.0.223.140-140
+vlan 10.0.223.143-143
+vlan 10.0.223.145-145
+vlan 10.0.223.146-146
+vlan 10.0.223.147-147
+vlan 10.0.223.148-148
+vlan 10.0.223.150-150
+vlan 10.0.223.151-151
+vlan 10.0.223.153-153
+vlan 10.0.223.156-156
+vlan 10.0.223.157-157
+vlan 10.0.223.161-161
+vlan 10.0.223.162-162
+vlan 10.0.223.164-164
+vlan 10.0.223.165-165
+vlan 10.0.223.166-166
+vlan 10.0.223.168-168
+vlan 10.0.223.171-171
+vlan 10.0.223.172-172
+vlan 10.0.223.173-173
+vlan 10.0.223.174-174
+vlan 10.0.223.175-175
+
+## location
+42ee1f location JARND0051
+b35ae4 location JARND0052
+26e08b location JARND0053
+dad66c location JARND0054
+839dc2 location JARND0055
+555854 location JARND0056
+e3d1ea location JARND0057
+a8958f location JARND0058
+e4b418 location JARND0059
+dd84fc location JARND0060
+629744 location JARND0061
+4cc40a location JARND0062
+cc01c8 location JARND0063
+33c1ae location JARND0064
+e82075 location JARND0065
+d7cd4b location JARND0066
+2930ca location JARND0067
+676228 location JARND0068
+4c6a74 location JARND0069
+0365f7 location JARND0070
+c813b9 location JARND0071
+081c44 location JARND0072
+921546 location JARND0073
+68c59c location JARND0074
+e75b6c location JARND0075
+b425a4 location JARND0076
+926679 location JARND0077
+a96f80 location JARND0078
+b8e1be location JARND0079
+e116a2 location JARND0080
+cefbab location JARND0081
+313029 location JARND0082
+8812ce location JARND0083
+97782a location JARND0084
+031b4b location JARND0085
+17ba38 location JARND0086
+d4f964 location JARND0087
+cdb81f location JARND0088
+0ae6b9 location JARND0089
+1eacbd location JARND0090
+f9c114 location JARND0091
+f04b81 location JARND0092
+405f44 location JARND0093
+e943c1 location JARND0094
+e1a2b1 location JARND0095
+132edf location JARND0096
+16c01b location JARND0097
+861c69 location JARND0098
+7bb0bc location JARND0099
+74b647 location JARND0100
+775716 location JARND0101
+24f06b location JARND0102
+6652f6 location JARND0103
+03dc60 location JARND0104
+e9c1a4 location JARND0105
+1bdc6a location JARND0106
+e94a20 location JARND0107
+8cb63b location JARND0108
+eccb56 location JARND0109
+79293a location JARND0110
+7604bf location JARND0111
+ceba7d location JARND0112
+cb59c3 location JARND0113
+cb2933 location JARND0114
+3e5976 location JARND0115
+c81ae4 location JARND0116
+112bcf location JARND0117
+ad914a location JARND0118
+d7a2fa location JARND0119
+e0b685 location JARND0120
+d3cbcd location JARND0121
+af78ba location JARND0122
+d681ad location JARND0123
+665217 location JARND0124
+ea83e9 location JARND0125
+cafe14 location JARND0126
+f86022 location JARND0127
+ecd0c3 location JARND0128
+43bb9c location JARND0129
+7abb56 location JARND0130
+2ab52d location JARND0131
+98357a location JARND0132
+8549c6 location JARND0133
+136cc9 location JARND0134
+6296be location JARND0135
+761064 location JARND0136
+2c72ed location JARND0137
+9ed844 location JARND0138
+ac9e3b location JARND0139
+360168 location JARND0140
+440f84 location JARND0141
+77730e location JARND0142
+1a4212 location JARND0143
+0b0bff location JARND0144
+937fb9 location JARND0145
+3a5486 location JARND0146
+72f74e location JARND0147
+ce9ea0 location JARND0148
+1ec256 location JARND0149
+4431b9 location JARND0150
+136ece location JARND0151
+1c5497 location JARND0152
+1815b1 location JARND0153
+78f82c location JARND0154
+6f32de location JARND0155
+8338dc location JARND0156
+850aab location JARND0157
+f377cf location JARND0158
+01cfe8 location JARND0159
+a5e807 location JARND0160
+69dd49 location JARND0161
+244ed6 location JARND0162
+b14209 location JARND0163
+d47681 location JARND0164
+9d4af9 location JARND0165
+d13f5e location JARND0166
+bd2d70 location JARND0167
+49be6d location JARND0168
+4048c1 location JARND0169
+5feaaf location JARND0170
+bb1d90 location JARND0171
+266066 location JARND0172
+8703a7 location JARND0173
+78458c location JARND0174
+9c7529 location JARND0175
+30968e location JARND0176
+8f7b97 location JARND0177
+d2338b location JARND0178
+79abef location JARND0179
+480add location JARND0180
+593230 location JARND0181
+a5f77c location JARND0182
+70bd72 location JARND0183
+bd4186 location JARND0184
+f393eb location JARND0185
+3002c7 location JARND0186
+49383c location JARND0187
+f0f51a location JARND0188
+73e1d6 location JARND0189
+ae4cbd location JARND0190
+6bf336 location JARND0191
+5b8363 location JARND0192
+e89cef location JARND0193
+995d7a location JARND0194
+86ed06 location JARND0195
+b126f7 location JARND0196
+93e5b2 location JARND0197
+8d46c5 location JARND0198
+7522e3 location JARND0199
+f4e8ee location JARND0200
+e18f8f location JARND0201
+134d88 location JARND0202
+6e022a location JARND0203
+1e7afa location JARND0204
+1f72a1 location JARND0205
+287756 location JARND0206
+377938 location JARND0207
+c1a324 location JARND0208
+6ba047 location JARND0209
+06f2e0 location JARND0210
+
+## tuning
+
+## asic password
+asicpass admin
