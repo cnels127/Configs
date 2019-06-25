@@ -3,17 +3,17 @@
 
 global custompanel KTAEY1bit049
 
-global poolname1 us-east.stratum.slushpool.com:3333
-global username1 CryptoDTM
-global poolpass1 x
+global poolname1 us.ss.btc.com:1800
+global username1 y7nhca3
+global poolpass1 123
 global sendworker1 yes
-global poolname2 ca.stratum.slushpool.com:3333
-global username2 CryptoDTM
-global poolpass2 x
+global poolname2 us.ss.btc.com:443
+global username2 y7nhca3
+global poolpass2 123
 global sendworker2 yes
 global poolname3 stratum.slushpool.com:3333
 global username3 CryptoDTM
-global poolpass3 x
+global poolpass3 123
 global sendworker3 yes
 
 global asicboost yes
@@ -24,8 +24,7 @@ global autoupdate no
 global allowed yes
 global maxtemp 90
 global fanspeed 95
-# global fansaver 65
-# global asicblink worker
+global fansaver 65
 
 global retune 1
 global rebootasic 4
