@@ -25,7 +25,6 @@ global allowed yes
 global maxtemp 90
 global fanspeed 95
 global fansaver 65
-# global asicblink worker
 
 # global retune 1
 # global rebootasic 1
@@ -49,6 +48,11 @@ a01578 location JPAUL0004
 9c326c location JPAUL0005
 
 ## tuning
+b34b28 maxwatts 1350
+a39697 maxwatts 1325
+a7102e maxwatts 1350
+a01578 maxwatts 1350
+9c326c maxwatts 1325
 
 ## asic password
 asicpass admin
