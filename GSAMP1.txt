@@ -25,7 +25,6 @@ global allowed yes
 global maxtemp 90
 global fanspeed 95
 global fansaver 65
-# global asicblink worker
 
 # global retune 1
 global rebootasic 1
@@ -45,17 +44,19 @@ b4de4e rebootasic 1
 # group=rowd allowed no
 
 ## vlans (vlan [IP address])
-# vlan 10.0.56.40-41
-# vlan 10.0.56.44-44
-# vlan 10.0.56.47-47
-# vlan 10.0.56.50-50
-# vlan 10.0.56.56-56
-# vlan 10.0.56.67-67
-# vlan 10.0.56.75-75
-# vlan 10.0.56.77-78
+vlan 10.0.56.40-41
+vlan 10.0.56.47-47
+vlan 10.0.56.50-50
+vlan 10.0.56.56-56
+vlan 10.0.56.67-67
+vlan 10.0.56.75-75
+vlan 10.0.56.77-78
+vlan 10.0.58.70-70
 #
+vlan 10.0.59.36-37
 vlan 10.0.59.39-39
-vlan 10.0.59.41-46
+vlan 10.0.59.41-41
+vlan 10.0.59.43-46
 vlan 10.0.59.48-52
 vlan 10.0.59.54-54
 vlan 10.0.59.60-60
@@ -63,12 +64,12 @@ vlan 10.0.59.66-66
 vlan 10.0.59.73-73
 vlan 10.0.59.80-80
 vlan 10.0.59.90-90
-
+vlan 10.0.61.6-6
 
 ## locations ([ASICID location [name])
 c5496d location GSAMP0001
 271937 location GSAMP0002
-609064 location GSAMP0003
+62bdc8 location GSAMP0003
 ca177b location GSAMP0004
 c02d51 location GSAMP0005
 41be8a location GSAMP0006
@@ -97,9 +98,9 @@ e1c353 location GSAMP0026
 f24571 location GSAMP0028
 568447 location GSAMP0029
 0c9f37 location GSAMP0030
-62bdc8 location EXTRA
 
 ## tuning
+c02d51 maxwatts 1500
 c5496d maxwatts 1500
 ca177b maxwatts 1500
 3900a7 maxwatts 1500
@@ -123,6 +124,7 @@ f24571 maxwatts 1500
 568447 maxwatts 1500
 0c9f37 maxwatts 1500
 0101ec retune 1
+de88ec retune 1
 
 ## asic password
 asicpass admin
