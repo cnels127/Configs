@@ -40,20 +40,16 @@ vlan 10.0.68.36-37
 vlan 10.0.55.128-128
 vlan 10.0.56.83-83
 vlan 10.0.56.99-99
+vlan 10.0.59.91-91
 
 ## locations
 b34b28 location JPAUL0001
 a39697 location JPAUL0002
 a7102e location JPAUL0003
 a01578 location JPAUL0004
-670e76 location JPAUL0005
+9c326c location JPAUL0005
 
 ## tuning
-b34b28 maxwatts 1350
-a39697 maxwatts 1350
-a7102e maxwatts 1350
-a01578 maxwatts 1350
-fbfdea maxwatts 1350
 
 ## asic password
 asicpass admin
