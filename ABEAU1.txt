@@ -24,7 +24,6 @@ global allowed yes
 global maxtemp 90
 global fanspeed 95
 global fansaver 65
-global asicblink worker
 
 # global retune 1
 # global rebootasic 1
@@ -45,7 +44,7 @@ a26081 location ABEAU0002
 64c124 location ABEAU0003
 
 ## tuning
-35cf73 maxwatts 1375
+35cf73 maxwatts 1325
 a26081 maxwatts 1375
 64c124 maxwatts 1375
 
