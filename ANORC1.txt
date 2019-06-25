@@ -3,11 +3,11 @@
 
 global custompanel ANORC1bit049
 
-global poolname1 cn.stratum.slushpool.com:3333
+global poolname1 eu.stratum.slushpool.com:3333
 global username1 tree63
 global poolpass1 123
 global sendworker1 yes
-global poolname2 cn.stratum.slushpool.com:443
+global poolname2 us-east.stratum.slushpool.com:3333
 global username2 tree63
 global poolpass2 123
 global sendworker2 yes
@@ -24,8 +24,7 @@ global autoupdate no
 global allowed yes
 global maxtemp 90
 global fanspeed 95
-# global fansaver 65
-# global asicblink worker
+global fansaver 65
 
 # global retune 1
 # global rebootasic 1
