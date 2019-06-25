@@ -26,7 +26,7 @@ global fanspeed 95
 global fansaver 65
 
 # global retune 1
-# global rebootasic 1
+global rebootasic 1
 # global resetasic 1
 # global panelpass gj83Nkgikg
 
@@ -34,49 +34,6 @@ global fansaver 65
 # group=rowd allowed no
 
 ## vlans
-vlan 10.0.218.163-163
-vlan 10.0.218.161-161
-vlan 10.0.218.153-153
-vlan 10.0.218.160-160
-vlan 10.0.218.171-171
-vlan 10.0.216.138-138
-vlan 10.0.216.179-179
-vlan 10.0.218.152-152
-vlan 10.0.217.37-37
-vlan 10.0.218.157-157
-vlan 10.0.217.40-40
-vlan 10.0.216.166-166
-vlan 10.0.217.35-35
-vlan 10.0.218.168-168
-vlan 10.0.217.46-46
-vlan 10.0.216.221-221
-vlan 10.0.217.13-13
-vlan 10.0.217.15-15
-vlan 10.0.216.192-192
-vlan 10.0.216.173-173
-vlan 10.0.216.144-144
-vlan 10.0.216.180-180
-vlan 10.0.229.8-8
-vlan 10.0.229.77-77
-vlan 10.0.229.178-178
-vlan 10.0.229.173-173
-vlan 10.0.229.42-42
-vlan 10.0.229.41-41
-vlan 10.0.229.137-137
-vlan 10.0.229.134-134
-vlan 10.0.229.151-151
-vlan 10.0.224.82-82
-vlan 10.0.229.186-186
-vlan 10.0.223.101-101
-vlan 10.0.224.94-94
-vlan 10.0.229.34-34
-vlan 10.0.224.144-144
-vlan 10.0.224.98-98
-vlan 10.0.224.132-132
-vlan 10.0.224.57-57
-vlan 10.0.226.173-173
-vlan 10.0.224.67-67
-
 
 ## location
 
