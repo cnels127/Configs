@@ -18,14 +18,13 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1550
+global maxwatts 1500
 
 global autoupdate no
 global allowed yes
 global maxtemp 90
 global fanspeed 95
 global fansaver 65
-# global asicblink worker
 
 # global retune 1
 global rebootasic 1
@@ -49,21 +48,15 @@ b7cd11 location JWORR0007
 07e0af location JWORR0008
 362e0a location JWORR0009
 564c64 location JWORR0010
-d6ef7a location EXTRA
-bb43ef location EXTRA
-5c1ae5 location EXTRA
-7fe818 location EXTRA
-36b10e location EXTRA
-65e9cb location EXTRA
 
 ## tuning
-6659c1 maxwatts 1550
+6659c1 maxwatts 1525
 8f312b maxwatts 1550
-b7f378 maxwatts 1550
-1e82c8 maxwatts 1600
+b7f378 maxwatts 1525
+1e82c8 maxwatts 1550
 eaee2e maxwatts 1575
 a1c0cf maxwatts 1575
-b7cd11 maxwatts 1575
+b7cd11 maxwatts 1550
 07e0af maxwatts 1575
 362e0a maxwatts 1575
 564c64 maxwatts 1550
@@ -71,20 +64,6 @@ b7cd11 maxwatts 1575
 564c64 retune 1
 b7cd11 retune 1
 eaee2e retune 1
-d6ef7a maxwatts 1500
-bb43ef maxwatts 1500
-5c1ae5 maxwatts 1500
-7fe818 maxwatts 1500
-36b10e maxwatts 1500
-65e9cb maxwatts 1500
-
-## fans
-d6ef7a fanspeed 90
-bb43ef fanspeed 90
-5c1ae5 fanspeed 90
-7fe818 fanspeed 90
-36b10e fanspeed 90
-65e9cb fanspeed 90
 
 ## asic password
 asicpass admin
