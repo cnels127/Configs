@@ -33,7 +33,8 @@ global fansaver 65
 # group=rowc rebootasic 1
 # group=rowd allowed no
 
-## vlansvlan 10.0.218.163-163
+## vlans
+vlan 10.0.218.163-163
 vlan 10.0.218.161-161
 vlan 10.0.218.153-153
 vlan 10.0.218.160-160
