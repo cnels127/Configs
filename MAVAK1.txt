@@ -1,0 +1,49 @@
+## instructions available at: https://asicseer.com/page/kb#writing-config
+
+global custompanel MAVAK1bit049
+
+global poolname1 eu.stratum.slushpool.com:3333
+global username1 jasavak
+global poolpass1 123
+global sendworker1 yes
+global poolname2 us-east.stratum.slushpool.com:3333
+global username2 jasavak
+global poolpass2 123
+global sendworker2 yes
+global poolname3 stratum.slushpool.com:3333
+global username3 jasavak
+global poolpass3 123
+global sendworker3 yes
+
+global asicboost yes
+global autotune yes
+global maxwatts 1350
+
+global autoupdate no
+global allowed yes
+global maxtemp 90
+global fanspeed 95
+global fansaver 65
+
+# global retune 1
+# global rebootasic 1
+# global resetasic 1
+# global panelpass gj83Nkgikg
+
+# group=rowc rebootasic 1
+# group=rowd allowed no
+
+## vlans
+vlan 10.0.58.45-45
+vlan 10.0.58.86-86
+vlan 10.0.61.12-12
+
+## locations
+f0052b location MAVAK0001
+0cf97a location MAVAK0002
+1e0fc5 location MAVAK0003
+
+## tuning
+
+## asic password
+asicpass admin
