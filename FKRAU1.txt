@@ -18,16 +18,16 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1525
+global maxwatts 1500
 
 global autoupdate no
 global allowed yes
 global maxtemp 90
 global fanspeed 95
-# global fansaver 65
+global fansaver 65
 # global asicblink worker
 
-global retune 1
+global retune 2
 global rebootasic 3
 # global resetasic 1
 # global panelpass gj83Nkgikg
@@ -75,38 +75,6 @@ vlan 10.0.54.39-48
 vlan 10.0.62.66-75
 
 ## tuning
-02c22d maxwatts 1525
-66f88a maxwatts 1550
-e4749b maxwatts 1525
-3a3729 maxwatts 1500
-8259fc maxwatts 1550
-ac4842 maxwatts 1550
-04339e maxwatts 1550
-24549d maxwatts 1550
-5a17ee maxwatts 1525
-4112bb maxwatts 1550
-aee689 maxwatts 1525
-6d6f15 maxwatts 1550
-d81df4 maxwatts 1550
-ab6a45 maxwatts 1550
-e8ce85 maxwatts 1550
-f88d80 maxwatts 1525
-b66a48 maxwatts 1550
-7c08b6 maxwatts 1525
-04480f maxwatts 1525
-d934fc maxwatts 1550
-bfb0bc maxwatts 1550
-12a96e maxwatts 1500
-746fbe maxwatts 1525
-5b475d maxwatts 1550
-892d41 maxwatts 1550
-6b2885 maxwatts 1550
-23178f maxwatts 1550
-0ca5a4 maxwatts 1550
-d427dd maxwatts 1550
-31940f maxwatts 1525
-3a3729 retune 1
-12a96e retune 1
 
 ## asic password
 asicpass admin
