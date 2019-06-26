@@ -78,7 +78,7 @@ vlan 10.0.62.66-75
 02c22d maxwatts 1525
 66f88a maxwatts 1550
 e4749b maxwatts 1525
-3a3729 maxwatts 1550
+3a3729 maxwatts 1500
 8259fc maxwatts 1550
 ac4842 maxwatts 1550
 04339e maxwatts 1550
@@ -105,6 +105,7 @@ bfb0bc maxwatts 1550
 0ca5a4 maxwatts 1550
 d427dd maxwatts 1550
 31940f maxwatts 1525
+3a3729 retune 1
 
 ## asic password
 asicpass admin
