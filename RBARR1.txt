@@ -67,7 +67,7 @@ eea5d2 location RBARR0019
 71df4f maxwatts 1300
 e83b5d maxwatts 1300
 08ede8 maxwatts 1325
-7e7d0e maxwatts 1325
+7e7d0e maxwatts 1300
 5d01ba maxwatts 1325
 62cd86 maxwatts 1325
 1d5a79 maxwatts 1300
@@ -89,6 +89,8 @@ eea5d2 maxwatts 1350
 3ff0b0 retune 1
 247665 retune 1
 427893 retune 1
+e83b5d retune 1
+0746eb retune 2
 
 ## COLORADO
 vlan 172.16.201.217-217
@@ -111,8 +113,6 @@ c724bb maxwatts 1500
 cfd708 maxwatts 1500
 713952 maxwatts 1500
 a9c33f retune 1
-e83b5d retune 1
-0746eb retune 1
 
 ## asic password
 asicpass admin
