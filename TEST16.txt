@@ -24,7 +24,6 @@ global allowed yes
 global maxtemp 90
 global fanspeed 95
 global fansaver 65
-# global asicblink worker
 
 # global retune 1
 # global rebootasic 1
@@ -35,19 +34,11 @@ global fansaver 65
 # group=rowd allowed no
 
 ## vlans
-vlan 10.0.51.2-2
-vlan 10.0.58.45-45
-vlan 10.0.58.86-86
-vlan 10.0.58.132-132
-vlan 10.0.59.42-42
-vlan 10.0.60.43-43
-vlan 10.0.60.61-61
-vlan 10.0.61.16-16
+vlan 10.0.61.19-153
 
 ## locations
 
 ## tuning
-be6e5c maxwatts 1550
 
 ## asic password
 asicpass admin
