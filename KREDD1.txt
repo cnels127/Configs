@@ -18,14 +18,14 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1500
+global maxwatts 1400
 
 global autoupdate yes
 global allowed yes
 global maxtemp 90
 global fanspeed 95
-# global fansaver 65
-# global asicblink worker
+global fansaver 65
+global asicblink worker
 
 # global retune 1
 global rebootasic 2
