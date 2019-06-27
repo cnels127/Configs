@@ -17,14 +17,13 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1350
+global maxwatts 1325
 
-global autoupdate yes
+global autoupdate no
 global allowed yes
 global maxtemp 90
 global fanspeed 95
 global fansaver 65
-# global asicblink worker
 
 # global retune 1
 # global rebootasic 1
@@ -35,48 +34,51 @@ global fansaver 65
 # group=rowd allowed no
 
 ## vlans
-vlan 10.0.58.75-75
-vlan 10.0.58.139-139
-vlan 10.0.59.2-4
-vlan 10.0.59.7-9
-vlan 10.0.59.13-15
-vlan 10.0.59.17-17
-vlan 10.0.59.19-19
-vlan 10.0.59.21-33
-vlan 10.0.59.35-35
-vlan 10.0.59.71-71
+vlan 10.0.59.124-124
+vlan 10.0.60.25-25
+vlan 10.0.60.52-52
+vlan 10.0.61.24-24
+vlan 10.0.61.108-108
+vlan 10.0.61.158-158
+vlan 10.0.62.33-33
+vlan 10.0.63.29-29
+vlan 10.0.64.44-44
+vlan 10.0.64.46-46
+vlan 10.0.65.67-67
+vlan 10.0.65.72-72
+vlan 10.0.65.82-82
+vlan 10.0.65.91-91
+vlan 10.0.65.92-92
+vlan 10.0.65.96-96
+vlan 10.0.65.108-108
+vlan 10.0.65.121-121
+vlan 10.0.65.126-126
+vlan 10.0.65.135-135
+vlan 10.0.65.136-136
+vlan 10.0.65.138-138
+vlan 10.0.226.93-93
+vlan 10.0.226.105-105
+vlan 10.0.229.14-14
+vlan 10.0.229.99-99
+vlan 10.0.229.107-107
 
 ## tuning
+01759f maxwatts 1350
+460f86 maxwatts 1350
+02713c maxwatts 1350
+07377c maxwatts 1350
+5ef933 maxwatts 1350
+44346f maxwatts 1350
+d99589 maxwatts 1350
+afc1b4 maxwatts 1350
+f139c9 maxwatts 1350
+2fe93e maxwatts 1350
+523bf3 maxwatts 1350
+b4e5e6 maxwatts 1350
+e07578 maxwatts 1350
+9ce38b maxwatts 1350
 
 ## location
-1d8df2 location NBELL0001
-1bd329 location NBELL0002
-ab23b0 location NBELL0003
-c1e4ca location NBELL0004
-436682 location NBELL0005
-b1c903 location NBELL0006
-6b9725 location NBELL0007
-77f955 location NBELL0008
-25c8f1 location NBELL0009
-6de4d3 location NBELL0010
-cce51b location NBELL0011
-56415a location NBELL0012
-e9f501 location NBELL0013
-76718e location NBELL0014
-86f503 location NBELL0015
-ca9e8f location NBELL0016
-45a510 location NBELL0017
-376191 location NBELL0018
-ad4182 location NBELL0019
-0b5a11 location NBELL0020
-8395a9 location NBELL0021
-ee2ea7 location NBELL0022
-8f1c0f location NBELL0023
-ed0dd2 location NBELL0024
-9ce455 location NBELL0025
-175b59 location NBELL0026
-69459c location NBELL0027
-fbb0c3 location NBELL0028
 
 ## asic password
 asicpass admin
