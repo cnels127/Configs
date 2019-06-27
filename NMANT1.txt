@@ -20,11 +20,12 @@ global asicboost yes
 global autotune yes
 global maxwatts 1500
 
-global autoupdate yes
+global autoupdate no
 global allowed yes
 global maxtemp 90
 global fanspeed 95
 global fansaver 65
+# global asicblink worker
 
 # global retune 1
 # global rebootasic 1
@@ -38,7 +39,7 @@ global fansaver 65
 vlan 10.0.58.132-132
 
 ## locations
-30946f location koftis71
+30946f location nmant0001
 
 ## tuning
 
