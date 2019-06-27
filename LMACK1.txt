@@ -36,6 +36,9 @@ global rebootasic 1
 
 ## vlans
 vlan 10.0.54.76-125
+vlan 172.16.203.245-245
+vlan 172.16.203.247-253
+vlan 172.16.204.1-9
 
 ## locations
 b449ed location LMACKRUS0001
