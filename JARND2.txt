@@ -1,0 +1,134 @@
+## ASICseer default config loaded in, edit it and click 'Save Changes'
+## instructions available at: https://asicseer.com/page/kb#writing-config
+
+global custompanel JARND2bit049
+
+global poolname1 us.ss.btc.com:1800
+global username1 jma289BTC
+global poolpass1 123
+global sendworker1 yes
+global poolname2 stratum.antpool.com:3333
+global username2 jma289BTC
+global poolpass2 123
+global sendworker2 yes
+global poolname3 
+global username3 
+global poolpass3 
+global sendworker3 yes
+
+global asicboost yes
+global autotune yes
+global maxwatts 1500
+
+global autoupdate no
+global allowed yes
+global maxtemp 90
+global fanspeed 95
+global fansaver 65
+
+# global retune 1
+# global rebootasic 1
+# global resetasic 1
+# global panelpass gj83Nkgikg
+
+# group=rowc rebootasic 1
+# group=rowd allowed no
+
+## vlans
+vlan 10.0.216.140-140
+vlan 10.0.216.142-143
+vlan 10.0.216.150-151
+vlan 10.0.216.153-156
+vlan 10.0.216.158-159
+vlan 10.0.216.161-161
+vlan 10.0.216.163-165
+vlan 10.0.216.167-169
+vlan 10.0.216.171-172
+vlan 10.0.216.175-178
+vlan 10.0.216.182-185
+vlan 10.0.216.193-194
+vlan 10.0.216.197-198
+vlan 10.0.216.200-207
+vlan 10.0.216.211-212
+vlan 10.0.216.216-217
+vlan 10.0.216.219-220
+vlan 10.0.216.222-223
+vlan 10.0.216.225-226
+vlan 10.0.216.229-230
+vlan 10.0.216.233-235
+vlan 10.0.216.238-240
+vlan 10.0.217.8-8
+vlan 10.0.217.10-10
+vlan 10.0.217.17-17
+vlan 10.0.217.19-21
+vlan 10.0.217.23-23
+vlan 10.0.217.25-26
+vlan 10.0.217.30-30
+vlan 10.0.217.32-32
+vlan 10.0.217.38-38
+vlan 10.0.217.41-41
+vlan 10.0.217.43-44
+vlan 10.0.217.48-49
+vlan 10.0.218.155-156
+vlan 10.0.218.167-167
+vlan 10.0.223.12-12
+vlan 10.0.223.17-18
+vlan 10.0.223.21-22
+vlan 10.0.223.24-25
+vlan 10.0.223.28-28
+vlan 10.0.223.31-31
+vlan 10.0.223.38-43
+vlan 10.0.223.46-47
+vlan 10.0.223.49-49
+vlan 10.0.223.51-51
+vlan 10.0.223.53-54
+vlan 10.0.223.57-57
+vlan 10.0.223.59-60
+vlan 10.0.223.62-62
+vlan 10.0.223.66-67
+vlan 10.0.223.70-72
+vlan 10.0.223.76-76
+vlan 10.0.223.78-79
+vlan 10.0.223.82-82
+vlan 10.0.223.84-85
+vlan 10.0.223.87-87
+vlan 10.0.223.89-89
+vlan 10.0.223.97-97
+vlan 10.0.223.99-99
+vlan 10.0.223.115-115
+vlan 10.0.223.119-119
+vlan 10.0.223.121-121
+vlan 10.0.223.126-126
+vlan 10.0.223.128-130
+vlan 10.0.223.132-132
+vlan 10.0.223.139-141
+vlan 10.0.223.143-143
+vlan 10.0.223.150-150
+vlan 10.0.223.155-155
+vlan 10.0.223.160-160
+vlan 10.0.223.164-168
+vlan 10.0.223.172-174
+vlan 10.0.223.199-199
+vlan 10.0.224.6-6
+vlan 10.0.224.43-43
+vlan 10.0.224.46-46
+vlan 10.0.224.51-53
+vlan 10.0.226.12-12
+vlan 10.0.226.54-54
+vlan 10.0.226.125-125
+vlan 10.0.229.32-32
+vlan 10.0.229.103-103
+vlan 10.0.229.113-113
+vlan 10.0.229.148-148
+vlan 10.0.229.150-150
+vlan 10.0.229.154-154
+vlan 10.0.229.179-179
+vlan 10.0.229.191-191
+vlan 10.0.229.198-198
+
+## locations
+
+## tuning
+
+## asic password
+asicpass admin
