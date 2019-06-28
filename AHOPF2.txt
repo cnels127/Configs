@@ -1,4 +1,3 @@
-## ASICseer default config loaded in, edit it and click 'Save Changes'
 ## instructions available at: https://asicseer.com/page/kb#writing-config
 
 global custompanel AHOPF1bit049
@@ -25,10 +24,9 @@ global allowed yes
 global maxtemp 90
 global fanspeed 95
 global fansaver 65
-# global asicblink worker
 
 # global retune 1
-global rebootasic 3
+# global rebootasic 1
 # global resetasic 1
 # global panelpass gj83Nkgikg
 
@@ -36,314 +34,399 @@ global rebootasic 3
 # group=rowd allowed no
 
 ## vlans
-vlan 10.0.56.159-161
-vlan 10.0.57.1-47
+vlan 10.0.216.138-138
+vlan 10.0.216.139-139
+vlan 10.0.216.144-144
+vlan 10.0.216.147-147
+vlan 10.0.216.162-162
+vlan 10.0.216.179-179
+vlan 10.0.216.180-180
+vlan 10.0.216.181-181
+vlan 10.0.216.192-192
+vlan 10.0.216.196-196
+vlan 10.0.216.209-209
+vlan 10.0.216.215-215
+vlan 10.0.216.224-224
+vlan 10.0.216.228-228
+vlan 10.0.217.7-7
+vlan 10.0.217.12-12
+vlan 10.0.217.13-13
+vlan 10.0.217.14-14
+vlan 10.0.217.22-22
+vlan 10.0.217.27-27
+vlan 10.0.217.45-45
+vlan 10.0.217.46-46
+vlan 10.0.217.47-47
+vlan 10.0.218.152-152
+vlan 10.0.218.153-153
+vlan 10.0.218.157-157
+vlan 10.0.218.160-160
+vlan 10.0.218.161-161
+vlan 10.0.218.164-164
+vlan 10.0.218.168-168
+vlan 10.0.218.171-171
+vlan 10.0.223.3-3
+vlan 10.0.223.9-9
+vlan 10.0.223.10-10
+vlan 10.0.223.11-11
+vlan 10.0.223.13-13
+vlan 10.0.223.19-19
+vlan 10.0.223.20-20
+vlan 10.0.223.27-27
+vlan 10.0.223.34-34
+vlan 10.0.223.44-44
+vlan 10.0.223.50-50
+vlan 10.0.223.56-56
+vlan 10.0.223.64-64
+vlan 10.0.223.65-65
+vlan 10.0.223.74-74
+vlan 10.0.223.81-81
+vlan 10.0.223.83-83
+vlan 10.0.223.96-96
+vlan 10.0.223.98-98
+vlan 10.0.223.106-106
+vlan 10.0.223.110-110
+vlan 10.0.223.113-113
+vlan 10.0.223.123-123
+vlan 10.0.223.127-127
+vlan 10.0.223.131-131
+vlan 10.0.223.133-133
+vlan 10.0.223.135-135
+vlan 10.0.223.136-136
+vlan 10.0.223.142-142
+vlan 10.0.223.170-170
+vlan 10.0.224.10-10
+vlan 10.0.224.11-11
+vlan 10.0.224.12-12
+vlan 10.0.224.19-19
+vlan 10.0.224.24-24
+vlan 10.0.224.27-27
+vlan 10.0.224.30-30
+vlan 10.0.224.31-31
+vlan 10.0.224.33-33
+vlan 10.0.224.41-41
+vlan 10.0.224.42-42
+vlan 10.0.224.44-44
+vlan 10.0.224.50-50
+vlan 10.0.224.59-59
+vlan 10.0.224.61-61
+vlan 10.0.224.62-62
+vlan 10.0.224.63-63
+vlan 10.0.224.65-65
+vlan 10.0.224.67-67
+vlan 10.0.224.70-70
+vlan 10.0.224.72-72
+vlan 10.0.224.77-77
+vlan 10.0.224.90-90
+vlan 10.0.224.92-92
+vlan 10.0.224.94-94
+vlan 10.0.224.98-98
+vlan 10.0.224.107-107
+vlan 10.0.224.108-108
+vlan 10.0.224.109-109
+vlan 10.0.224.110-110
+vlan 10.0.224.112-112
+vlan 10.0.224.114-114
+vlan 10.0.224.115-115
+vlan 10.0.224.117-117
+vlan 10.0.224.118-118
+vlan 10.0.224.119-119
+vlan 10.0.224.123-123
+vlan 10.0.224.128-128
+vlan 10.0.224.132-132
+vlan 10.0.224.133-133
+vlan 10.0.224.135-135
+vlan 10.0.224.146-146
+vlan 10.0.224.147-147
+vlan 10.0.224.148-148
+vlan 10.0.224.153-153
+vlan 10.0.224.157-157
+vlan 10.0.224.159-159
+vlan 10.0.224.160-160
+vlan 10.0.224.162-162
+vlan 10.0.224.165-165
+vlan 10.0.224.171-171
+vlan 10.0.226.4-4
+vlan 10.0.226.6-6
+vlan 10.0.226.18-18
+vlan 10.0.226.19-19
+vlan 10.0.226.20-20
+vlan 10.0.226.21-21
+vlan 10.0.226.22-22
+vlan 10.0.226.23-23
+vlan 10.0.226.24-24
+vlan 10.0.226.25-25
+vlan 10.0.226.28-28
+vlan 10.0.226.29-29
+vlan 10.0.226.30-30
+vlan 10.0.226.32-32
+vlan 10.0.226.38-38
+vlan 10.0.226.39-39
+vlan 10.0.226.40-40
+vlan 10.0.226.42-42
+vlan 10.0.226.44-44
+vlan 10.0.226.46-46
+vlan 10.0.226.51-51
+vlan 10.0.226.53-53
+vlan 10.0.226.56-56
+vlan 10.0.226.60-60
+vlan 10.0.226.63-63
+vlan 10.0.226.65-65
+vlan 10.0.226.66-66
+vlan 10.0.226.68-68
+vlan 10.0.226.69-69
+vlan 10.0.226.76-76
+vlan 10.0.226.77-77
+vlan 10.0.226.80-80
+vlan 10.0.226.82-82
+vlan 10.0.226.83-83
+vlan 10.0.226.90-90
+vlan 10.0.226.98-98
+vlan 10.0.226.108-108
+vlan 10.0.226.112-112
+vlan 10.0.226.114-114
+vlan 10.0.226.115-115
+vlan 10.0.226.117-117
+vlan 10.0.226.119-119
+vlan 10.0.226.122-122
+vlan 10.0.226.124-124
+vlan 10.0.226.129-129
+vlan 10.0.226.134-134
+vlan 10.0.226.137-137
+vlan 10.0.226.144-144
+vlan 10.0.226.148-148
+vlan 10.0.226.149-149
+vlan 10.0.226.150-150
+vlan 10.0.226.151-151
+vlan 10.0.226.152-152
+vlan 10.0.226.154-154
+vlan 10.0.226.155-155
+vlan 10.0.226.157-157
+vlan 10.0.226.158-158
+vlan 10.0.226.159-159
+vlan 10.0.226.160-160
+vlan 10.0.226.161-161
+vlan 10.0.226.162-162
+vlan 10.0.226.164-164
+vlan 10.0.226.165-165
+vlan 10.0.226.166-166
+vlan 10.0.226.168-168
+vlan 10.0.226.169-169
+vlan 10.0.226.171-171
+vlan 10.0.226.172-172
+vlan 10.0.226.173-173
+vlan 10.0.226.174-174
+vlan 10.0.226.175-175
+vlan 10.0.227.38-38
+vlan 10.0.227.73-73
+vlan 10.0.227.143-143
+vlan 10.0.228.77-77
+vlan 10.0.228.91-91
+vlan 10.0.228.120-120
+vlan 10.0.228.126-126
+vlan 10.0.228.154-154
+vlan 10.0.228.177-177
+vlan 10.0.228.186-186
+vlan 10.0.229.6-6
+vlan 10.0.229.7-7
+vlan 10.0.229.8-8
+vlan 10.0.229.11-11
+vlan 10.0.229.13-13
+vlan 10.0.229.20-20
+vlan 10.0.229.21-21
+vlan 10.0.229.23-23
+vlan 10.0.229.24-24
+vlan 10.0.229.29-29
+vlan 10.0.229.34-34
+vlan 10.0.229.41-41
+vlan 10.0.229.42-42
+vlan 10.0.229.49-49
+vlan 10.0.229.53-53
+vlan 10.0.229.55-55
+vlan 10.0.229.56-56
+vlan 10.0.229.60-60
+vlan 10.0.229.61-61
+vlan 10.0.229.64-64
+vlan 10.0.229.65-65
+vlan 10.0.229.74-74
+vlan 10.0.229.75-75
+vlan 10.0.229.87-87
+vlan 10.0.229.88-88
+vlan 10.0.229.91-91
+vlan 10.0.229.94-94
+vlan 10.0.229.95-95
+vlan 10.0.229.98-98
+vlan 10.0.229.101-101
+vlan 10.0.229.102-102
+vlan 10.0.229.106-106
+vlan 10.0.229.108-108
+vlan 10.0.229.109-109
+vlan 10.0.229.111-111
+vlan 10.0.229.116-116
+vlan 10.0.229.118-118
+vlan 10.0.229.120-120
+vlan 10.0.229.122-122
+vlan 10.0.229.126-126
+vlan 10.0.229.127-127
+vlan 10.0.229.134-134
+vlan 10.0.229.135-135
+vlan 10.0.229.137-137
+vlan 10.0.229.146-146
+vlan 10.0.229.147-147
+vlan 10.0.229.153-153
+vlan 10.0.229.157-157
+vlan 10.0.229.161-161
+vlan 10.0.229.162-162
+vlan 10.0.229.166-166
+vlan 10.0.229.169-169
+vlan 10.0.229.173-173
+vlan 10.0.229.175-175
+vlan 10.0.229.176-176
+vlan 10.0.229.178-178
+vlan 10.0.229.186-186
+vlan 10.0.229.192-192
+vlan 10.0.229.197-197
+vlan 10.0.229.199-199
 
 ## locations
-cb7a3d location cb7a3d
-0697d7 location 0697d7
-c606e7 location c606e7
-b63fb1 location b63fb1
-6e7701 location 6e7701
-d8e7a3 location d8e7a3
-9715d4 location 9715d4
-a43819 location a43819
-b99abe location b99abe
-a4a691 location a4a691
-103e5c location 103e5c
-5680b4 location 5680b4
-abb6f3 location abb6f3
-d22a39 location d22a39
-80b6cc location 80b6cc
-c3c415 location c3c415
-c123c8 location c123c8
-62d6d0 location 62d6d0
-38b6a2 location 38b6a2
-55b5cb location 55b5cb
-84794b location 84794b
-768cf3 location 768cf3
-47f0c6 location 47f0c6
-b93f22 location b93f22
-1f71ad location 1f71ad
-b38e61 location b38e61
-2a0ab5 location 2a0ab5
-c56a90 location c56a90
-4a8cc9 location 4a8cc9
-ae711c location ae711c
-888f80 location 888f80
-6b4731 location 6b4731
-2b10a0 location 2b10a0
-e886b1 location e886b1
-296c61 location 296c61
-b285f8 location b285f8
-4bdbe0 location 4bdbe0
-d56eaf location d56eaf
-d415da location d415da
-aa49d8 location aa49d8
-a66966 location a66966
-75e651 location 75e651
-b46ce7 location b46ce7
-5ac22f location 5ac22f
-0b383f location 0b383f
-7c5703 location 7c5703
-29f37a location 29f37a
-f5fdc7 location f5fdc7
-94a27d location 94a27d
-72720b location 72720b
-06c771 location 06c771
-d24d19 location d24d19
-db9bd2 location db9bd2
-92618c location 92618c
-a57a15 location a57a15
-e12db4 location e12db4
-670e76 location 670e76
-3031a6 location 3031a6
-84441a location 84441a
-407bad location 407bad
-5f07ce location 5f07ce
-16f1f8 location 16f1f8
-c0aa77 location c0aa77
-f0acc9 location f0acc9
-6d37b8 location 6d37b8
-10eadb location 10eadb
-497b40 location 497b40
-e39d7c location e39d7c
-ad5506 location ad5506
-ae11f6 location ae11f6
-9aa139 location 9aa139
-a07ea7 location a07ea7
-3c6079 location 3c6079
-fe2dc8 location fe2dc8
-c84687 location c84687
-3a5a63 location 3a5a63
-5f2bce location 5f2bce
-cb35ba location cb35ba
-132245 location 132245
-aba209 location aba209
-adb312 location adb312
-d549fd location d549fd
-3c84e9 location 3c84e9
-e1bef3 location e1bef3
-16c71c location 16c71c
-07155f location 07155f
-d09303 location d09303
-07fdfa location 07fdfa
-22e69d location 22e69d
-3e1dda location 3e1dda
-f450a0 location f450a0
-2f0a33 location 2f0a33
-f88d90 location f88d90
-34223c location 34223c
-053705 location 053705
-fd4339 location fd4339
-3c382a location 3c382a
-029298 location 029298
-972425 location 972425
-9d7383 location 9d7383
-77cb9b location 77cb9b
-26db41 location 26db41
-8b9cbe location 8b9cbe
-bef7dd location bef7dd
-57bfcd location 57bfcd
-39bea5 location 39bea5
-65bbdb location 65bbdb
-2076db location 2076db
-96ae02 location 96ae02
-e35914 location e35914
-f0ed76 location f0ed76
-6e8e93 location 6e8e93
-87d77d location 87d77d
-5dc1a8 location 5dc1a8
-6a6cc5 location 6a6cc5
-5eb282 location 5eb282
-b4e11c location b4e11c
-da01dc location da01dc
-e65f7f location e65f7f
-6faa51 location 6faa51
-5badfc location 5badfc
-d699e4 location d699e4
-8f1d39 location 8f1d39
-546a5f location 546a5f
-641328 location 641328
-26b30b location 26b30b
-566f03 location 566f03
-d6daa1 location d6daa1
-64fdd8 location 64fdd8
-f685b6 location f685b6
-3812f9 location 3812f9
-32c15c location 32c15c
-4f5b96 location 4f5b96
-a6fc8d location a6fc8d
-031368 location 031368
-a22e97 location a22e97
-3ae6f5 location 3ae6f5
-f13d6c location f13d6c
-9c64d4 location 9c64d4
-29cb77 location 29cb77
-6364b7 location 6364b7
-fae03c location fae03c
-e5ba90 location e5ba90
-091799 location 091799
-c8c445 location c8c445
-689c52 location 689c52
-27a7bc location 27a7bc
-5b4180 location 5b4180
-8858a8 location 8858a8
-b65b8a location b65b8a
-c5fa8c location c5fa8c
-d5b013 location d5b013
-1e0fc5 location 1e0fc5
-c28a7c location c28a7c
-de5a58 location de5a58
-663078 location 663078
-267c54 location 267c54
-f5417d location f5417d
-b3ad3a location b3ad3a
-db20c6 location db20c6
-5dd689 location 5dd689
-a3079e location a3079e
-05e91c location 05e91c
-1afe8c location 1afe8c
-460f86 location 460f86
-a13f47 location a13f47
-d1f52e location d1f52e
-b4039e location b4039e
-931e66 location 931e66
-9f7bf1 location 9f7bf1
-b1e369 location b1e369
-b4aac6 location b4aac6
-d1959f location d1959f
-bd7bf8 location bd7bf8
-c4c801 location c4c801
-1a9051 location 1a9051
-2d21b9 location 2d21b9
-5b64f1 location 5b64f1
-ccf206 location ccf206
-a43607 location a43607
-a1e51e location a1e51e
-527e85 location 527e85
-7b8d08 location 7b8d08
-290d45 location 290d45
-69c26c location 69c26c
-f1d074 location f1d074
-1de177 location 1de177
-3cd09f location 3cd09f
-448ccd location 448ccd
-a484b8 location a484b8
-92be3e location 92be3e
-57591e location 57591e
-bff875 location bff875
-f30ccf location f30ccf
-3fa514 location 3fa514
-d70d1e location d70d1e
-891907 location 891907
-8c008f location 8c008f
-425b29 location 425b29
-396497 location 396497
-fc92a5 location fc92a5
-231e50 location 231e50
-ef6de1 location ef6de1
-baefba location baefba
-049bcf location 049bcf
-804026 location 804026
-85332c location 85332c
-1b072b location 1b072b
-1f4c9e location 1f4c9e
-d26a62 location d26a62
-ebdd42 location ebdd42
-6306f6 location 6306f6
-5c49bc location 5c49bc
-9f81be location 9f81be
-5af10d location 5af10d
-d34135 location d34135
-d2eabd location d2eabd
-8aca82 location 8aca82
-9e2df5 location 9e2df5
-e76055 location e76055
-55ef04 location 55ef04
-3e1e9a location 3e1e9a
-7647eb location 7647eb
-b98f42 location b98f42
-722dbe location 722dbe
-a45573 location a45573
-48af58 location 48af58
-75bbae location 75bbae
-5617cc location 5617cc
-389f09 location 389f09
-bd5aa0 location bd5aa0
-59da1a location 59da1a
-8ec32b location 8ec32b
-332d51 location 332d51
-8e819a location 8e819a
-4d8d44 location 4d8d44
-ab47ef location ab47ef
-4ea862 location 4ea862
-e81797 location e81797
-a8b013 location a8b013
-78b6fa location 78b6fa
-c9ee5f location c9ee5f
-38b416 location 38b416
-e5eb65 location e5eb65
-177af9 location 177af9
-50ff88 location 50ff88
-7adae2 location 7adae2
-c8c200 location c8c200
-02713c location 02713c
-737fce location 737fce
-67f2e3 location 67f2e3
-240df8 location 240df8
-882711 location 882711
-c46dfb location c46dfb
-a04539 location a04539
-475791 location 475791
-c5b070 location c5b070
-62cc5e location 62cc5e
-c1a0b5 location c1a0b5
-7a2e69 location 7a2e69
-5b14ee location 5b14ee
-dcebd6 location dcebd6
-f7b757 location f7b757
-5b5575 location 5b5575
-998c4a location 998c4a
-aaf4a2 location aaf4a2
-5ee953 location 5ee953
-ceb9c2 location ceb9c2
-da25b6 location da25b6
-668f87 location 668f87
-4b653b location 4b653b
-58df4f location 58df4f
-493278 location 493278
-dcf994 location dcf994
-3fb74f location 3fb74f
-f5e0ce location f5e0ce
-6ebf46 location 6ebf46
-7104a2 location 7104a2
-596464 location 596464
-681b12 location 681b12
-12dfa3 location 12dfa3
-1c16ee location 1c16ee
-ac80c9 location ac80c9
-590194 location 590194
-f9b7ed location f9b7ed
-f56d20 location f56d20
-f6a0d2 location f6a0d2
-02e716 location 02e716
-db2b04 location db2b04
-170545 location 170545
-e02f4f location e02f4f
-b73fb2 location b73fb2
-24b794 location 24b794
-e8da52 location e8da52
-72cf2d location 72cf2d
-2a7d01 location 2a7d01
-78a6ea location 78a6ea
-dae245 location dae245
-07377c location 07377c
-022072 location 022072
-bc30a1 location bc30a1
 
 ## tuning
-abb6f3 maxwatts 1375
+e3daaa maxwatts 1350
+c4ce2d maxwatts 1350
+f1ead0 maxwatts 1350
+cd3638 maxwatts 1325
+d3bb55 maxwatts 1350
+08c7c6 maxwatts 1275
+93a040 maxwatts 1350
+6f20ae maxwatts 1350
+2b24e8 maxwatts 1300
+8812ce maxwatts 1300
+e595de maxwatts 1300
+a61391 maxwatts 1350
+0adba5 maxwatts 1300
+7e2767 maxwatts 1300
+36a526 maxwatts 1300
+029eb6 maxwatts 1350
+4121df maxwatts 1350
+71964f maxwatts 1325
+db1480 maxwatts 1350
+283ff7 maxwatts 1350
+620567 maxwatts 1300
+be27de maxwatts 1350
+658caa maxwatts 1350
+0fc1a9 maxwatts 1275
+016800 maxwatts 1350
+c6cbe1 maxwatts 1350
+26fe6a maxwatts 1350
+ddb214 maxwatts 1350
+aa775d maxwatts 1325
+e97edc maxwatts 1300
+4d79ed maxwatts 1350
+b8ef7f maxwatts 1325
+6296be maxwatts 1350
+761064 maxwatts 1300
+2c72ed maxwatts 1350
+ac9e3b maxwatts 1275
+9f2cc0 maxwatts 1300
+b78cd3 maxwatts 1325
+bf9ad5 maxwatts 1300
+1ec256 maxwatts 1325
+8338dc maxwatts 1300
+a5e807 maxwatts 1325
+e51438 maxwatts 1350
+49be6d maxwatts 1350
+900a6d maxwatts 1325
+9c7529 maxwatts 1350
+79abef maxwatts 1300
+162760 maxwatts 1325
+b5632a maxwatts 1350
+6241c4 maxwatts 1350
+4ce146 maxwatts 1350
+8cd4b8 maxwatts 1300
+45e374 maxwatts 1300
+f35825 maxwatts 1350
+377938 maxwatts 1275
+fb97b4 maxwatts 1350
+49bc94 maxwatts 1350
+dbd805 maxwatts 1350
+e18f8f maxwatts 1300
+5924ed maxwatts 1350
+862df7 maxwatts 1350
+b621e4 maxwatts 1300
+14f506 maxwatts 1275
+c45d02 maxwatts 1350
+ec49d0 maxwatts 1325
+81d744 maxwatts 1300
+98d6ae maxwatts 1300
+70245b maxwatts 1350
+1fe9d4 maxwatts 1300
+2a47b2 maxwatts 1350
+3f4abe maxwatts 1350
+42ba91 maxwatts 1300
+9da4e2 maxwatts 1350
+c5dfea maxwatts 1300
+53aed3 maxwatts 1350
+1f2763 maxwatts 1300
+69272e maxwatts 1350
+d5f0df maxwatts 1300
+5f63c0 maxwatts 1300
+e3558c maxwatts 1350
+07a57a maxwatts 1275
+c97eeb maxwatts 1275
+fc42af maxwatts 1275
+41dd5d maxwatts 1275
+1fb534 maxwatts 1350
+96b4d0 maxwatts 1300
+d2d514 maxwatts 1350
+49f59c maxwatts 1350
+8c0b48 maxwatts 1275
+f4edef maxwatts 1350
+67ad2b maxwatts 1350
+756c72 maxwatts 1325
+f01cc1 maxwatts 1275
+91b80f maxwatts 1275
+b99f63 maxwatts 1325
+81e8ca maxwatts 1325
+063844 maxwatts 1300
+013fb7 maxwatts 1300
+a7a6fd maxwatts 1350
+d2f90b maxwatts 1350
+43dfaa maxwatts 1350
+954d6b maxwatts 1300
+f9f468 maxwatts 1300
+1bf925 maxwatts 1325
+4e7242 maxwatts 1350
+0ed7c3 maxwatts 1350
+107a3f maxwatts 1300
+a28e76 maxwatts 1350
+680629 maxwatts 1300
+907d41 maxwatts 1350
+f73afd maxwatts 1350
+5d3a76 maxwatts 1300
+d7e7c1 maxwatts 1300
+a4a384 maxwatts 1350
+325536 maxwatts 1325
+538782 maxwatts 1325
+0b195c maxwatts 1300
+ed93d9 maxwatts 1300
+2c8cd5 maxwatts 1325
+8ce0da maxwatts 1350
+9b627a maxwatts 1350
+7db077 maxwatts 1300
+cb2ee7 maxwatts 1275
+95c8c3 maxwatts 1350
+251427 maxwatts 1275
+3e45c9 maxwatts 1300
+9a17ab maxwatts 1300
+b8e18b maxwatts 1300
+02e7da maxwatts 1325
+c7d88a maxwatts 1300
+fbfc4b maxwatts 1275
+4f54c6 maxwatts 1300
+e3ec19 maxwatts 1300
+4ec743 maxwatts 1300
+48deba maxwatts 1350
+d0f1c5 maxwatts 1275
 
 ## asic password
 asicpass admin
