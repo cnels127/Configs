@@ -35,12 +35,8 @@ global rebootasic 2
 # group=rowd allowed no
 
 ## vlans
-# 1ST BATCH
-vlan 10.0.62.1-26
-# 2ND BATCH
 vlan 10.0.57.139-139
 vlan 10.0.58.36-36
-vlan 10.0.59.34-34
 vlan 10.0.58.60-60
 vlan 10.0.58.90-90
 vlan 10.0.58.93-93
@@ -53,6 +49,7 @@ vlan 10.0.58.155-155
 vlan 10.0.59.5-5
 vlan 10.0.59.12-12
 vlan 10.0.59.20-20
+vlan 10.0.59.34-34
 vlan 10.0.59.38-38
 vlan 10.0.59.40-40
 vlan 10.0.59.47-47
@@ -66,103 +63,98 @@ vlan 10.0.59.81-83
 vlan 10.0.59.85-87
 vlan 10.0.59.89-89
 vlan 10.0.59.92-102
-vlan 10.0.59.105-106
+vlan 10.0.59.105-105
 vlan 10.0.59.108-108
 vlan 10.0.59.136-136
 vlan 10.0.60.37-37
-# Added missing vlans
-vlan 10.0.50.51-51
+vlan 10.0.62.1-26
 
 ## locations
-# 1ST BATCH
-e0b9e7 location CRIBE0001
-64e334 location CRIBE0002
-bb3eb8 location CRIBE0003
-923afa location CRIBE0004
-e004c5 location CRIBE0005
-04ba06 location CRIBE0006
-3fda51 location CRIBE0007
-4020bb location CRIBE0008
-138ef0 location CRIBE0009
-4b06d3 location CRIBE0010
-b43083 location CRIBE0011
-f6994a location CRIBE0012
-4eeab5 location CRIBE0013
-268669 location CRIBE0014
-c49427 location CRIBE0015
-5e59a2 location CRIBE0016
-442360 location CRIBE0017
-f9cc31 location CRIBE0018
-be6e5c location CRIBE0019
-31e054 location CRIBE0020
-54b3e0 location CRIBE0021
-582c72 location CRIBE0022
-e18884 location CRIBE0023
-4593d4 location CRIBE0024
-c120c5 location CRIBE0025
-03791c location CRIBE0026
-# 2ND BATCH
-fff476 location CRIBE0027
-b78f54 location CRIBE0028
-a6f215 location CRIBE0029
-2a6f8a location CRIBE0030
-c29aa8 location CRIBE0031
-8b69b8 location CRIBE0032
-667bbe location CRIBE0033
-c3fecd location CRIBE0034
-cc6ecd location CRIBE0035
-002a63 location CRIBE0036
-aca1f9 location CRIBE0037
-e6dc44 location CRIBE0038
-37c28b location CRIBE0039
-e71503 location CRIBE0040
-55c85a location CRIBE0041
-286418 location CRIBE0042
-b169bf location CRIBE0043
-5eb2e0 location CRIBE0044
-7a6e47 location CRIBE0045
-ceceac location CRIBE0046
-536fa0 location CRIBE0047
-893a70 location CRIBE0048
-b42546 location CRIBE0049
-3ed79a location CRIBE0050
-4b299e location CRIBE0051
-fecc4d location CRIBE0052
-e7af56 location CRIBE0053
-e4cbc8 location CRIBE0054
-577f14 location CRIBE0055
-1f3926 location CRIBE0056
-0068f5 location CRIBE0057
-4ae145 location CRIBE0058
-eac263 location CRIBE0059
-e74b4f location CRIBE0060
-3b9f50 location CRIBE0061
-1b2b69 location CRIBE0062
-02e802 location CRIBE0063
-830b49 location CRIBE0064
-b9362e location CRIBE0065
-069b7d location CRIBE0066
-bbe496 location CRIBE0067
-b88126 location CRIBE0068
-d3941f location CRIBE0069
-5433d7 location CRIBE0070
-eb763f location CRIBE0071
-333095 location CRIBE0072
-cdc7b1 location CRIBE0073
-5efe33 location CRIBE0074
-74b1a1 location CRIBE0075
-78c1d7 location CRIBE0076
-cd80a5 location CRIBE0077
-4a89fe location CRIBE0078
-f4bea2 location CRIBE0079
-fdfb5f location CRIBE0080
-e40534 location CRIBE0081
-3f7354 location CRIBE0082
-e46a8f location CRIBE0083
-
+fff476 location cribe0001
+be6e5c location cribe0002
+b78f54 location cribe0003
+a6f215 location cribe0004
+2a6f8a location cribe0005
+c29aa8 location cribe0006
+8b69b8 location cribe0007
+667bbe location cribe0008
+c3fecd location cribe0009
+cc6ecd location cribe0010
+002a63 location cribe0011
+aca1f9 location cribe0012
+e6dc44 location cribe0013
+37c28b location cribe0014
+e71503 location cribe0015
+55c85a location cribe0016
+286418 location cribe0017
+b169bf location cribe0018
+5eb2e0 location cribe0019
+7a6e47 location cribe0020
+ceceac location cribe0021
+536fa0 location cribe0022
+893a70 location cribe0023
+b42546 location cribe0024
+3ed79a location cribe0025
+4b299e location cribe0026
+fecc4d location cribe0027
+e7af56 location cribe0028
+e4cbc8 location cribe0029
+577f14 location cribe0030
+0068f5 location cribe0031
+4ae145 location cribe0032
+eac263 location cribe0033
+e74b4f location cribe0034
+3b9f50 location cribe0035
+02e802 location cribe0036
+830b49 location cribe0037
+b9362e location cribe0038
+069b7d location cribe0039
+bbe496 location cribe0040
+b88126 location cribe0041
+d3941f location cribe0042
+5433d7 location cribe0043
+eb763f location cribe0044
+333095 location cribe0045
+cdc7b1 location cribe0046
+5efe33 location cribe0047
+74b1a1 location cribe0048
+78c1d7 location cribe0049
+cd80a5 location cribe0050
+4a89fe location cribe0051
+f4bea2 location cribe0052
+fdfb5f location cribe0053
+e40534 location cribe0054
+e46a8f location cribe0055
+1b2b69 location cribe0056
+1f3926 location cribe0057
+e0b9e7 location cribe0058
+64e334 location cribe0059
+bb3eb8 location cribe0060
+923afa location cribe0061
+e004c5 location cribe0062
+04ba06 location cribe0063
+3fda51 location cribe0064
+4020bb location cribe0065
+138ef0 location cribe0066
+4b06d3 location cribe0067
+b43083 location cribe0068
+f6994a location cribe0069
+4eeab5 location cribe0070
+268669 location cribe0071
+c49427 location cribe0072
+5e59a2 location cribe0073
+442360 location cribe0074
+f9cc31 location cribe0075
+d0fc49 location cribe0076
+31e054 location cribe0077
+54b3e0 location cribe0078
+582c72 location cribe0079
+e18884 location cribe0080
+4593d4 location cribe0081
+c120c5 location cribe0082
+03791c location cribe0083
 
 ## tuning
-# 1ST BATCH
 e0b9e7 maxwatts 1550
 64e334 maxwatts 1550
 bb3eb8 maxwatts 1550
@@ -192,7 +184,6 @@ c120c5 maxwatts 1550
 3fda51 retune 1
 e18884 retune 1
 4eeab5 retune 1
-# 2ND BATCH
 fff476 maxwatts 1375
 b78f54 maxwatts 1350
 a6f215 maxwatts 1400
