@@ -35,7 +35,7 @@ global fansaver 65
 # group=rowc rebootasic 1
 # group=rowd allowed no
 
-## RUSSIA
+## RUSSIA VLAN
 vlan 10.0.55.6-7
 vlan 10.0.57.129-129
 vlan 10.0.57.134-134
@@ -45,6 +45,7 @@ vlan 10.0.58.5-5
 vlan 10.0.58.23-23
 vlan 10.0.58.26-26
 vlan 10.0.57.143-143
+
 5dea94 maxwatts 1300
 e35f32 maxwatts 1325
 1506ab maxwatts 1550
@@ -55,6 +56,8 @@ e35f32 maxwatts 1325
 005c5e maxwatts 1550
 a016c1 maxwatts 1550
 55019f maxwatts 1550
+
+## RUSSIA LOCATION
 5dea94 location RANDERUS0001
 e35f32 location RANDERUS0002
 1506ab location RANDERUS0003
