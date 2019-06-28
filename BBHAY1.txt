@@ -24,7 +24,6 @@ global allowed yes
 global maxtemp 90
 global fanspeed 95
 global fansaver 65
-# global asicblink worker
 
 # global retune 1
 # global rebootasic 1
@@ -314,6 +313,7 @@ a6fc8d maxwatts 1350
 d5b013 maxwatts 1350
 a57a15 maxwatts 1350
 9eab49 maxwatts 1350
+876e98 retune 1
 
 ## asic password
 asicpass admin
