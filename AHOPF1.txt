@@ -36,7 +36,8 @@ global rebootasic 3
 # group=rowd allowed no
 
 ## vlans
-# The vlan ranges are specified in the AHOPF2 config file
+vlan 10.0.56.159-161
+vlan 10.0.57.1-47
 
 ## locations
 cb7a3d location cb7a3d
