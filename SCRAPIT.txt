@@ -40,12 +40,12 @@ vlan 10.0.59.77-77
 vlan 10.0.59.154-154
 vlan 10.0.60.20-20
 vlan 10.0.60.50-50
+vlan 10.0.60.76-76
 vlan 10.0.60.107-107
 vlan 10.0.60.113-113
 vlan 10.0.60.130-130
 vlan 10.0.60.132-132
 vlan 10.0.60.145-145
-vlan 10.0.61.10-10
 vlan 10.0.61.13-13
 vlan 10.0.61.15-15
 
@@ -61,6 +61,12 @@ c28a7c retune 1
 
 53093c maxwatts 1325
 53093c retune 1
+
+1f103d maxwatts 1325
+1f103d retune 1
+
+c5f81b maxwatts 1325
+c5f81b retune 1
 
 ## asic password
 asicpass admin
