@@ -36,11 +36,12 @@ global rebootasic 2
 
 ## vlans
 vlan 10.0.32.80-83
-vlan 10.0.51.1-56
-vlan 10.0.57.88-127
+vlan 10.0.51.1-1         # 10.0.51.2 is currently in the TEST16 panel, so removed IP 10.0.51.2 from the vlan range of this panel.
+vlan 10.0.51.3-56
+vlan 10.0.56.52-52
 vlan 10.0.56.73-73
 vlan 10.0.56.119-119
-vlan 10.0.56.52-52
+vlan 10.0.57.88-127
 vlan 10.0.57.160-160
 vlan 10.0.58.1-1
 vlan 10.0.58.4-4
