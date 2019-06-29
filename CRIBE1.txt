@@ -24,7 +24,7 @@ global allowed yes
 global maxtemp 90
 global fanspeed 95
 global fansaver 65
-# global asicblink worker
+
 
 # global retune 1
 global rebootasic 2
@@ -35,39 +35,97 @@ global rebootasic 2
 # group=rowd allowed no
 
 ## vlans
-vlan 10.0.57.138-138
-vlan 10.0.58.36-36
-vlan 10.0.58.60-60
-vlan 10.0.58.90-90
-vlan 10.0.58.93-93
-vlan 10.0.58.95-95
-vlan 10.0.58.107-107
-vlan 10.0.58.113-113
-vlan 10.0.58.117-117
-vlan 10.0.58.143-143
-vlan 10.0.58.155-155
-vlan 10.0.59.5-5
-vlan 10.0.59.12-12
-vlan 10.0.59.20-20
-vlan 10.0.59.34-34
-vlan 10.0.59.38-38
-vlan 10.0.59.40-40
-vlan 10.0.59.47-47
-vlan 10.0.59.55-59
-vlan 10.0.59.61-65
-vlan 10.0.59.67-68
-vlan 10.0.59.70-70
-vlan 10.0.59.72-72
-vlan 10.0.59.74-76
-vlan 10.0.59.81-83
-vlan 10.0.59.85-87
-vlan 10.0.59.89-89
-vlan 10.0.59.92-102
-vlan 10.0.59.105-105
-vlan 10.0.59.108-108
-vlan 10.0.59.136-136
-vlan 10.0.60.37-37
-vlan 10.0.62.1-26
+# vlan 10.0.57.138-138
+# vlan 10.0.58.36-36
+# vlan 10.0.58.60-60
+# vlan 10.0.58.90-90
+# vlan 10.0.58.93-93
+# vlan 10.0.58.95-95
+# vlan 10.0.58.107-107
+# vlan 10.0.58.113-113
+# vlan 10.0.58.117-117
+# vlan 10.0.58.143-143
+# vlan 10.0.58.155-155
+# vlan 10.0.59.5-5
+# vlan 10.0.59.12-12
+# vlan 10.0.59.20-20
+# vlan 10.0.59.34-34
+# vlan 10.0.59.38-38
+# vlan 10.0.59.40-40
+# vlan 10.0.59.47-47
+# vlan 10.0.59.55-59
+# vlan 10.0.59.61-65
+# vlan 10.0.59.67-68
+# vlan 10.0.59.70-70
+# vlan 10.0.59.72-72
+# vlan 10.0.59.74-76
+# vlan 10.0.59.81-83
+# vlan 10.0.59.85-87
+# vlan 10.0.59.89-89
+# vlan 10.0.59.92-102
+# vlan 10.0.59.105-105
+# vlan 10.0.59.108-108
+# vlan 10.0.59.136-136
+# vlan 10.0.60.37-37
+# vlan 10.0.62.1-26
+vlan 10.0.60.43-43
+vlan 10.0.60.112-112
+vlan 10.0.60.148-148
+vlan 10.0.61.22-22
+vlan 10.0.61.23-23
+vlan 10.0.61.31-31
+vlan 10.0.61.33-33
+vlan 10.0.61.55-55
+vlan 10.0.61.57-57
+vlan 10.0.61.64-64
+vlan 10.0.61.69-69
+vlan 10.0.61.80-80
+vlan 10.0.61.84-84
+vlan 10.0.61.86-86
+vlan 10.0.61.90-90
+vlan 10.0.61.92-92
+vlan 10.0.61.94-94
+vlan 10.0.61.95-95
+vlan 10.0.61.111-111
+vlan 10.0.61.115-115
+vlan 10.0.61.118-118
+vlan 10.0.61.119-119
+vlan 10.0.61.129-129
+vlan 10.0.61.132-132
+vlan 10.0.61.141-141
+vlan 10.0.61.147-147
+vlan 10.0.61.154-154
+vlan 10.0.61.156-156
+vlan 10.0.62.28-28
+vlan 10.0.62.35-35
+vlan 10.0.62.60-60
+vlan 10.0.62.84-84
+vlan 10.0.62.103-103
+vlan 10.0.62.104-104
+vlan 10.0.62.108-108
+vlan 10.0.62.112-112
+vlan 10.0.62.117-117
+vlan 10.0.62.122-122
+vlan 10.0.62.126-126
+vlan 10.0.62.153-153
+vlan 10.0.62.154-154
+vlan 10.0.63.2-2
+vlan 10.0.63.9-9
+vlan 10.0.63.15-15
+vlan 10.0.63.16-16
+vlan 10.0.63.20-20
+vlan 10.0.63.22-22
+vlan 10.0.63.24-24
+vlan 10.0.63.30-30
+vlan 10.0.63.32-32
+vlan 10.0.63.45-45
+vlan 10.0.63.47-47
+vlan 10.0.63.48-48
+vlan 10.0.63.52-52
+vlan 10.0.63.54-54
+vlan 10.0.63.57-57
+vlan 10.0.63.65-65
+
 
 ## locations
 e1f51e location cribe0001
@@ -153,6 +211,64 @@ e18884 location cribe0080
 4593d4 location cribe0081
 c120c5 location cribe0082
 03791c location cribe0083
+9c7ef0 location CRIBE0084
+2f0a33 location CRIBE0085
+d6daa1 location CRIBE0086
+05e91c location CRIBE0087
+1afe8c location CRIBE0088
+b4aac6 location CRIBE0089
+bd7bf8 location CRIBE0090
+d70d1e location CRIBE0091
+8c008f location CRIBE0092
+049bcf location CRIBE0093
+d26a62 location CRIBE0094
+55ef04 location CRIBE0095
+722dbe location CRIBE0096
+48af58 location CRIBE0097
+bd5aa0 location CRIBE0098
+8ec32b location CRIBE0099
+8e819a location CRIBE0100
+4d8d44 location CRIBE0101
+240df8 location CRIBE0102
+475791 location CRIBE0103
+c1a0b5 location CRIBE0104
+7a2e69 location CRIBE0105
+668f87 location CRIBE0106
+493278 location CRIBE0107
+1c16ee location CRIBE0108
+02e716 location CRIBE0109
+72cf2d location CRIBE0110
+78a6ea location CRIBE0111
+904a48 location CRIBE0112
+4a7ac4 location CRIBE0113
+7a6fcf location CRIBE0114
+344d03 location CRIBE0115
+cbc7c5 location CRIBE0116
+739ff9 location CRIBE0117
+2e9762 location CRIBE0118
+bda134 location CRIBE0119
+0df44a location CRIBE0120
+aadd03 location CRIBE0121
+d9ebb6 location CRIBE0122
+0a48d9 location CRIBE0123
+9f8b8f location CRIBE0124
+340637 location CRIBE0125
+96ad80 location CRIBE0126
+bfcdc1 location CRIBE0127
+edb8c4 location CRIBE0128
+42a51d location CRIBE0129
+1162de location CRIBE0130
+e73ffc location CRIBE0131
+87cfea location CRIBE0132
+a7f5e0 location CRIBE0133
+ff69f4 location CRIBE0134
+cc994a location CRIBE0135
+830d52 location CRIBE0136
+86677b location CRIBE0137
+f870b1 location CRIBE0138
+9bb638 location CRIBE0139
+e64f0a location CRIBE0140
+
 
 ## tuning
 e0b9e7 maxwatts 1550
@@ -242,6 +358,64 @@ fdfb5f maxwatts 1350
 e40534 maxwatts 1350
 3f7354 maxwatts 1350
 e46a8f maxwatts 1350
+9c7ef0 maxwatts 1325
+2f0a33 maxwatts 1350
+d6daa1 maxwatts 1325
+05e91c maxwatts 1325
+1afe8c maxwatts 1350
+b4aac6 maxwatts 1325
+bd7bf8 maxwatts 1325
+d70d1e maxwatts 1325
+8c008f maxwatts 1325
+049bcf maxwatts 1350
+d26a62 maxwatts 1325
+55ef04 maxwatts 1325
+722dbe maxwatts 1325
+48af58 maxwatts 1325
+bd5aa0 maxwatts 1325
+8ec32b maxwatts 1350
+8e819a maxwatts 1350
+4d8d44 maxwatts 1325
+240df8 maxwatts 1325
+475791 maxwatts 1325
+c1a0b5 maxwatts 1325
+7a2e69 maxwatts 1325
+668f87 maxwatts 1350
+493278 maxwatts 1350
+1c16ee maxwatts 1325
+02e716 maxwatts 1350
+72cf2d maxwatts 1325
+78a6ea maxwatts 1325
+904a48 maxwatts 1350
+4a7ac4 maxwatts 1350
+7a6fcf maxwatts 1325
+344d03 maxwatts 1325
+cbc7c5 maxwatts 1350
+739ff9 maxwatts 1325
+2e9762 maxwatts 1325
+bda134 maxwatts 1325
+0df44a maxwatts 1325
+aadd03 maxwatts 1325
+d9ebb6 maxwatts 1325
+0a48d9 maxwatts 1325
+9f8b8f maxwatts 1325
+340637 maxwatts 1350
+96ad80 maxwatts 1325
+bfcdc1 maxwatts 1325
+edb8c4 maxwatts 1325
+42a51d maxwatts 1325
+1162de maxwatts 1325
+e73ffc maxwatts 1325
+87cfea maxwatts 1350
+a7f5e0 maxwatts 1350
+ff69f4 maxwatts 1325
+cc994a maxwatts 1325
+830d52 maxwatts 1325
+86677b maxwatts 1325
+f870b1 maxwatts 1325
+9bb638 maxwatts 1325
+e64f0a maxwatts 1325
+
 
 
 ## asic password
