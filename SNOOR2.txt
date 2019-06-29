@@ -34,9 +34,19 @@ global blinkred solid on
 # group=rowc rebootasic 1
 # group=rowd allowed no
 
-## locations
-
 ## vlans
+
+## locations
+fc5257 location SNOOR0101
+c8ec00 location SNOOR0102
+29cba1 location SNOOR0103
+d324fa location SNOOR0104
+4d36f5 location SNOOR0105
+75202d location SNOOR0106
+7b568a location SNOOR0107
+6c724e location SNOOR0108
+41b4a1 location SNOOR0109
+c1f151 location SNOOR0110
 
 ## tuning
 
