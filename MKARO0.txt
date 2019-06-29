@@ -37,10 +37,10 @@ global fansaver 65
 # ab34ef ipaddress 192.168.10.125
 
 ## vlans
+vlan 10.0.63.89-.89
 vlan 10.0.66.133-133
 vlan 10.0.66.134-134
 vlan 10.0.66.150-150
-
 vlan 10.0.66.25-25
 vlan 10.0.66.38-38
 vlan 10.0.66.46-46
@@ -55,14 +55,14 @@ vlan 10.0.67.112-112
 vlan 10.0.67.113-113
 vlan 10.0.67.120-120
 vlan 10.0.67.22-22
-
 vlan 10.0.67.27-27
+vlan 10.0.67.82-.82
 
 ## locations
-5f3948 location MKARO0001
-7f2285 location MKARO0002
-409c17 location MKARO0003
-
+742bc7 location mkaro0001
+5f3948 location MKARO0002
+7f2285 location MKARO0003
+409c17 location MKARO0004
 754d9b location MKARO0005
 fc1a3a location MKARO0006
 324b65 location MKARO0007
@@ -77,8 +77,8 @@ cd859b location MKARO0014
 eb4720 location MKARO0016
 6dbea7 location MKARO0017
 76d9af location MKARO0018
-
-9851d4 location MKARO0020
+9851d4 location MKARO0019
+c8aece location mkaro0020
 
 ## tuning
 
