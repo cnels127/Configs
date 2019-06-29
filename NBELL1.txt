@@ -24,7 +24,6 @@ global allowed yes
 global maxtemp 90
 global fanspeed 90
 global fansaver 60
-# global asicblink worker
 
 # global retune 1
 # global rebootasic 1
@@ -35,16 +34,43 @@ global fansaver 60
 # group=rowd allowed no
 
 ## vlans
-vlan 10.0.58.75-75
-vlan 10.0.58.139-139
-vlan 10.0.59.2-4
-vlan 10.0.59.7-9
-vlan 10.0.59.13-15
-vlan 10.0.59.17-17
-vlan 10.0.59.19-19
-vlan 10.0.59.21-33
-vlan 10.0.59.35-35
-vlan 10.0.59.71-71
+# vlan 10.0.58.75-75
+# vlan 10.0.58.139-139
+# vlan 10.0.59.2-4
+# vlan 10.0.59.7-9
+# vlan 10.0.59.13-15
+# vlan 10.0.59.17-17
+# vlan 10.0.59.19-19
+# vlan 10.0.59.21-33
+# vlan 10.0.59.35-35
+# vlan 10.0.59.71-71
+vlan 10.0.59.124-124
+vlan 10.0.60.25-25
+vlan 10.0.60.52-52
+vlan 10.0.61.24-24
+vlan 10.0.61.108-108
+vlan 10.0.61.158-158
+vlan 10.0.62.33-33
+vlan 10.0.63.29-29
+vlan 10.0.64.44-44
+vlan 10.0.64.46-46
+vlan 10.0.65.67-67
+vlan 10.0.65.72-72
+vlan 10.0.65.82-82
+vlan 10.0.65.91-91
+vlan 10.0.65.92-92
+vlan 10.0.65.96-96
+vlan 10.0.65.108-108
+vlan 10.0.65.121-121
+vlan 10.0.65.126-126
+vlan 10.0.65.135-135
+vlan 10.0.65.136-136
+vlan 10.0.65.138-138
+vlan 10.0.226.93-93
+vlan 10.0.226.105-105
+vlan 10.0.229.14-14
+vlan 10.0.229.99-99
+vlan 10.0.229.107-107
 
 ## locations
 1d8df2 location NBELL0001
@@ -75,8 +101,62 @@ ed0dd2 location NBELL0024
 175b59 location NBELL0026
 69459c location NBELL0027
 fbb0c3 location NBELL0028
+38c3b9 location NBELL0029
+d70df1 location NBELL0030
+01759f location NBELL0031
+460f86 location NBELL0032
+02713c location NBELL0033
+07377c location NBELL0034
+5ef933 location NBELL0035
+44346f location NBELL0036
+d99589 location NBELL0037
+afc1b4 location NBELL0038
+3b94ed location NBELL0039
+44ec81 location NBELL0040
+45c2fd location NBELL0041
+f139c9 location NBELL0042
+620f30 location NBELL0043
+503b9a location NBELL0044
+7d6154 location NBELL0045
+2fe93e location NBELL0046
+523bf3 location NBELL0047
+862736 location NBELL0048
+f76f7f location NBELL0049
+1713c8 location NBELL0050
+54b829 location NBELL0051
+b4e5e6 location NBELL0052
+8e49a5 location NBELL0053
+e07578 location NBELL0054
+9ce38b location NBELL0055
 
 ## tuning
+38c3b9 maxwatts 1325
+d70df1 maxwatts 1325
+01759f maxwatts 1350
+460f86 maxwatts 1350
+02713c maxwatts 1350
+07377c maxwatts 1350
+5ef933 maxwatts 1350
+44346f maxwatts 1350
+d99589 maxwatts 1350
+afc1b4 maxwatts 1350
+3b94ed maxwatts 1325
+44ec81 maxwatts 1325
+45c2fd maxwatts 1325
+f139c9 maxwatts 1350
+620f30 maxwatts 1325
+503b9a maxwatts 1325
+7d6154 maxwatts 1325
+2fe93e maxwatts 1350
+523bf3 maxwatts 1350
+862736 maxwatts 1325
+f76f7f maxwatts 1325
+1713c8 maxwatts 1325
+54b829 maxwatts 1325
+b4e5e6 maxwatts 1350
+8e49a5 maxwatts 1325
+e07578 maxwatts 1350
+9ce38b maxwatts 1350
 
 ## asic password
 asicpass admin
