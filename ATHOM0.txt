@@ -37,9 +37,74 @@ global fansaver 65
 # ab34ef ipaddress 192.168.10.125
 
 ## vlans
-
+vlan 10.0.61.112-112
+vlan 10.0.61.135-135
+vlan 10.0.61.145-145
+vlan 10.0.62.85-85
+vlan 10.0.63.112-112
+vlan 10.0.63.129-129
+vlan 10.0.63.132-132
+vlan 10.0.63.134-134
+vlan 10.0.63.141-141
+vlan 10.0.63.148-148
+vlan 10.0.63.150-150
+vlan 10.0.63.154-154
+vlan 10.0.64.11-11
+vlan 10.0.64.12-12
+vlan 10.0.64.137-137
+vlan 10.0.64.14-14
+vlan 10.0.64.24-24
+vlan 10.0.64.59-59
+vlan 10.0.64.72-72
+vlan 10.0.64.85-85
+vlan 10.0.65.109-109
+vlan 10.0.65.159-159
+vlan 10.0.65.22-22
+vlan 10.0.65.30-30
+vlan 10.0.65.88-88
+vlan 10.0.65.90-90
+vlan 10.0.65.97-97
+vlan 10.0.66.1-1
+vlan 10.0.66.104-104
+vlan 10.0.66.106-106
+vlan 10.0.66.109-109
+vlan 10.0.66.11-11
+vlan 10.0.66.128-128
 
 ## locations
+882711 location athom0001
+f5e0ce location athom0002
+f56d20 location athom0003
+65a8fa location athom0004
+e1960a location athom0005
+979a64 location athom0006
+794f98 location athom0007
+d58ae6 location athom0008
+158ab6 location athom0009
+bbe46f location athom0010
+2bb6c8 location athom0011
+952ba2 location athom0012
+6704f5 location athom0013
+756a0c location athom0014
+acb675 location athom0015
+1b4b3a location athom0016
+9b3517 location athom0017
+67ef67 location athom0018
+e03581 location athom0019
+eedbcd location athom0020
+82bd69 location athom0021
+c2edd9 location athom0022
+fbf1ac location athom0023
+6d1dce location athom0024
+d9dc85 location athom0025
+72e31f location athom0026
+42f4ea location athom0027
+981425 location athom0028
+94442a location athom0029
+f9ca53 location athom0030
+ead461 location athom0031
+3b7299 location athom0032
+7508a0 location athom0033
 
 ## tuning
 
