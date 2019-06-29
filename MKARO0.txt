@@ -1,0 +1,49 @@
+## ASICseer default config loaded in, edit it and click 'Save Changes'
+## instructions available at: https://asicseer.com/page/kb#writing-config
+
+global custompanel ATHOM0bit049
+
+global poolname1 us.ss.btc.com:1800
+global username1 bit49US
+global poolpass1 123
+global sendworker1 yes
+global poolname2 stratum.slushpool.com:3333
+global username2 bit49
+global poolpass2 123
+global sendworker2 yes
+global poolname3 profit.pool.bitcoin.com:3333
+global username3 bit49
+global poolpass3 123
+global sendworker3 yes
+
+global asicboost yes
+global autotune yes
+global maxwatts 1325
+
+global autoupdate no
+global allowed yes
+global maxtemp 90
+global fanspeed 95
+global fansaver 65
+
+# global retune 1
+# global rebootasic 1
+# global resetasic 1
+# global panelpass gj83Nkgikg
+
+# group=rowc rebootasic 1
+# group=rowd allowed no
+
+# ab34ef ipaddress 192.168.10.125
+
+## vlans
+
+
+## locations
+
+
+## tuning
+
+
+## asic password
+asicpass admin
