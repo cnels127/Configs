@@ -36,6 +36,39 @@ global rebootasic 1
 
 ## vlans
 vlan 10.0.54.126-132
+vlan 10.0.61.112-112
+vlan 10.0.61.135-135
+vlan 10.0.61.145-145
+vlan 10.0.62.85-85
+vlan 10.0.63.106-106
+vlan 10.0.63.112-112
+vlan 10.0.63.129-129
+vlan 10.0.63.132-132
+vlan 10.0.63.134-134
+vlan 10.0.63.141-141
+vlan 10.0.63.148-148
+vlan 10.0.63.150-150
+vlan 10.0.63.154-154
+vlan 10.0.64.11-11
+vlan 10.0.64.12-12
+vlan 10.0.64.137-137
+vlan 10.0.64.24-24
+vlan 10.0.64.59-59
+vlan 10.0.64.85-85
+vlan 10.0.65.109-109
+vlan 10.0.65.159-159
+vlan 10.0.65.22-22
+vlan 10.0.65.30-30
+vlan 10.0.65.88-88
+vlan 10.0.65.90-90
+vlan 10.0.65.97-97
+vlan 10.0.66.1-1
+vlan 10.0.66.104-104
+vlan 10.0.66.106-106
+vlan 10.0.66.109-109
+vlan 10.0.66.11-11
+vlan 10.0.67.54-54
+vlan 10.0.67.96-96
 
 ## locations
 6a323b location ATHOM0001
@@ -45,6 +78,39 @@ b2bd4a location ATHOM0004
 a1e438 location ATHOM0005
 ae4552 location ATHOM0006
 34f9ef location ATHOM0007
+882711 location athom0008
+f5e0ce location athom0009
+f56d20 location athom0010
+65a8fa location athom0011
+9be27b location athom0012
+e1960a location athom0013
+979a64 location athom0014
+794f98 location athom0015
+d58ae6 location athom0016
+158ab6 location athom0017
+bbe46f location athom0018
+2bb6c8 location athom0019
+952ba2 location athom0020
+6704f5 location athom0021
+756a0c location athom0022
+acb675 location athom0023
+9b3517 location athom0024
+67ef67 location athom0025
+eedbcd location athom0026
+82bd69 location athom0027
+c2edd9 location athom0028
+fbf1ac location athom0029
+6d1dce location athom0030
+d9dc85 location athom0031
+72e31f location athom0032
+42f4ea location athom0033
+981425 location athom0034
+94442a location athom0035
+f9ca53 location athom0036
+ead461 location athom0037
+3b7299 location athom0038
+d13d9c location athom0039
+31a7ae location athom0040
 
 ## tuning
 6a323b maxwatts 1350
