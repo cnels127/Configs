@@ -25,7 +25,6 @@ global allowed yes
 global maxtemp 90
 global fanspeed 95
 global fansaver 65
-# global asicblink worker
 
 global retune 1
 global rebootasic 2
@@ -49,8 +48,8 @@ vlan 10.0.61.2-2
 17739c location PKOKE0001
 ae28ba location PKOKE0002
 f39f2b location PKOKE0003
-ac1644 location PKOKE0004
-012910 location PKOKE0005
+012910 location PKOKE0004
+ac1644 location PKOKE0005
 bcaed0 location PKOKE0006
 613792 location PKOKE0007
 bd9932 location PKOKE0008
