@@ -36,31 +36,28 @@ global rebootasic 2
 # group=rowd allowed no
 
 ## vlans
-# vlan 10.0.54.133-135
-# vlan 10.0.61.2-2
-# vlan 10.0.57.74-75
-# vlan 10.0.56.10-10
-# vlan 10.0.55.160-160
-# vlan 10.0.55.108-108
 vlan 10.0.54.133-135
-vlan 10.0.55.108-108
 vlan 10.0.55.160-160
-# vlan 10.0.56.8-8 # this machine is on loan from snoor1
+vlan 10.0.55.108-108
+vlan 10.0.56.8-8
 vlan 10.0.56.10-10
 vlan 10.0.57.73-75
-vlan 10.0.61.2
+vlan 10.0.58.127-127
+vlan 10.0.61.2-2
 
 ## locations
 17739c location PKOKE0001
 ae28ba location PKOKE0002
 f39f2b location PKOKE0003
-e5ba90 location PKOKE0004
-7ed10f location PKOKE0005
-3bcc51 location PKOKE0006
+ac1644 location PKOKE0004
+012910 location PKOKE0005
+bcaed0 location PKOKE0006
 613792 location PKOKE0007
-ac1644 location PKOKE0008
-012910 location PKOKE0009
-bd9932 location PKOKE0010
+bd9932 location PKOKE0008
+7ed10f location PKOKE0009
+3bcc51 location PKOKE0010
+2baaac location PKOKE0011
+e5ba90 location PKOKE0012
 
 ## tuning
 17739c maxwatts 1400
@@ -73,9 +70,6 @@ e5ba90 maxwatts 1350
 ac1644 maxwatts 1400
 012910 maxwatts 1400
 bcaed0 maxwatts 1350
-# EXTRAS
-
-## retuning
 7ed10f retune 1
 3bcc51 retune 1
 
