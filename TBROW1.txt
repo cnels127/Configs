@@ -28,7 +28,7 @@ global fanspeed 95
 # global asicblink worker
 
 global retune 1
-# global rebootasic 1
+global rebootasic 1
 # global resetasic 1
 # global panelpass gj83Nkgikg
 
@@ -55,7 +55,6 @@ vlan 10.0.60.92-92
 vlan 10.0.60.98-98
 vlan 10.0.60.101-101
 vlan 10.0.60.103-103
-vlan 10.0.60.105-105
 vlan 10.0.60.105-106
 vlan 10.0.60.114-114
 vlan 10.0.60.126-126
