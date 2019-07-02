@@ -43,13 +43,15 @@ vlan 10.0.56.125-125
 vlan 10.0.56.130-130
 
 ## tuning
-a62f6a maxwatts 1525
+a62f6a maxwatts 1500
 0e992b maxwatts 1525
 9b4848 maxwatts 1525
 ea3cd1 maxwatts 1550
 535d30 maxwatts 1550
 a43fe6 maxwatts 1550
 6da085 maxwatts 1550
+
+a62f6a retune 1
 
 ## locations
 a62f6a location Bit49-1
