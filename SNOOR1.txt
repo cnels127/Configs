@@ -44,11 +44,13 @@ vlan 10.0.55.84-161
 vlan 10.0.56.1-146
 
 ## tuning
+e06ea6 maxwatts 1525
+
 b408fe retune 1
 4996aa retune 1
 d87db4 retune 1
 eec58f retune 1
-e06ea6 retune 1
+e06ea6 retune 2
 
 ## asic password
 asicpass admin
