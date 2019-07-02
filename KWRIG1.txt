@@ -48,10 +48,11 @@ vlan 10.0.68.109-110
 ## tuning
 570c84 maxwatts 1350
 97f21b maxwatts 1350
-29bca0 maxwatts 1375
+29bca0 maxwatts 1350
 2a7ac0 maxwatts 1375
 570c84 retune 1
 97f21b retune 1
+29bca0 retune 1
 
 ## asic password
 asicpass admin
