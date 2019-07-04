@@ -17,7 +17,7 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1350
+global maxwatts 1325
 
 global autoupdate no
 global allowed yes
@@ -34,19 +34,14 @@ global fansaver 65
 # group=rowd allowed no
 
 ## vlans
-vlan 10.0.58.140-140
-vlan 10.0.59.104-104
-vlan 10.0.59.157-157
+vlan 10.0.61.58-60
 
 ## locations
-a3eaf2 location RHOLL0001
-4d61ee location RHOLL0002
-16da58 location RHOLL0003
+425b29 location RHOLL0001
+396497 location RHOLL0002
+fc92a5 location RHOLL0003
 
 ## tuning
-a3eaf2 maxwatts 1350
-4d61ee maxwatts 1350
-16da58 maxwatts 1350
 
 ## asic password
 asicpass admin
