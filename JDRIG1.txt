@@ -47,10 +47,12 @@ vlan 10.0.56.104-104
 93e110 location JDRIG0004
 
 ## tuning
-11bafe maxwatts 1575
+11bafe maxwatts 1550
 33b5df maxwatts 1575
 9b787e maxwatts 1575
 93e110 maxwatts 1575
+
+11bafe retune 1
 
 ## asic password
 asicpass admin
