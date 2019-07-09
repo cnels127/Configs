@@ -2,11 +2,11 @@
 
 global custompanel MSHID1bit049
 
-global poolname1 profit.pool.bitcoin.com:3333
+global poolname1 stratum+tcp://bch.pool.bitcoin.com:3333
 global username1 sabredev
 global poolpass1 123
 global sendworker1 yes
-global poolname2 bch.pool.bitcoin.com:3333
+global poolname2 stratum+tcp://connect.pool.bitcoin.com:3333
 global username2 sabredev
 global poolpass2 123
 global sendworker2 yes
