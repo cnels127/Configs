@@ -140,14 +140,6 @@ be27de location ahopf0071
 1680e1 location ahopf0074
 c6cbe1 location ahopf0075
 
-
-## tuning
-b46ce7 maxwatts 1425
-a4a691 maxwatts 1425
-
-## asic password
-asicpass admin
-
 # generated on Jul 14 2019 15:23:08 utc
 0b383f maxwatts 1250 # 10.0.57.42
 b285f8 maxwatts 1250 # 10.0.57.33
@@ -167,3 +159,11 @@ cb7a3d rebootasic 1563117788 # 10.0.56.159
 4121df rebootasic 1563117788 # 10.0.217.13
 e3daaa rebootasic 1563117788 # 10.0.216.138
 f1ead0 rebootasic 1563117788 # 10.0.216.144
+
+## tuning
+b46ce7 maxwatts 1425
+a4a691 maxwatts 1425
+
+## asic password
+asicpass admin
+
