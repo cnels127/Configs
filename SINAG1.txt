@@ -1,0 +1,51 @@
+## instructions available at: https://asicseer.com/page/kb#writing-config
+
+global custompanel SINAG1bit049
+
+global poolname1 stratum.antpool.com:3333
+global username1 soshi64
+global poolpass1 123
+global sendworker1 yes
+global poolname2 stratum.antpool.com:443
+global username2 soshi64
+global poolpass2 123
+global sendworker2 yes
+global poolname3 stratum.antpool.com:25
+global username3 soshi64
+global poolpass3 123
+global sendworker3 yes
+
+global asicboost yes
+global autotune yes
+global maxwatts 1325
+
+global autoupdate no
+global allowed yes
+global maxtemp 90
+global fanspeed 95
+global fansaver 65
+
+# global retune 1
+# global rebootasic 1
+# global resetasic 1
+# global panelpass gj83Nkgikg
+
+# group=rowc rebootasic 1
+# group=rowd allowed no
+
+## vlans
+vlan 10.0.65.28-28
+vlan 10.0.65.56-56
+vlan 10.0.65.130-130
+vlan 10.0.65.146-146
+
+## locations
+7bfb2c location SINAG0001
+f60318 location SINAG0002
+db9779 location SINAG0003
+d3a31d location SINAG0004
+
+## tuning
+
+## asic password
+asicpass admin
