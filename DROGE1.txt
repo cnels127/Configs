@@ -1,0 +1,53 @@
+## instructions available at: https://asicseer.com/page/kb#writing-config
+
+global custompanel DROGE1bit049
+
+global poolname1 us.ss.btc.com:1800
+global username1 bit49US
+global poolpass1 123
+global sendworker1 yes
+global poolname2 stratum.slushpool.com:3333
+global username2 bit49
+global poolpass2 123
+global sendworker2 yes
+global poolname3 profit.pool.bitcoin.com:3333
+global username3 bit49
+global poolpass3 123
+global sendworker3 yes
+
+global asicboost yes
+global autotune yes
+global maxwatts 1400
+
+global autoupdate no
+global allowed yes
+global maxtemp 90
+global fanspeed 95
+global fansaver 65
+
+# global retune 1
+# global rebootasic 1
+# global resetasic 1
+# global panelpass gj83Nkgikg
+
+# group=rowc rebootasic 1
+# group=rowd allowed no
+
+## locations
+d5c809 location DROGE0001
+90c89e location DROGE0002
+e1c572 location DROGE0003
+f389f2 location DROGE0004
+8ecf72 location DROGE0005
+a1dcce location DROGE0006
+f1c4bd location DROGE0007
+2204ec location DROGE0008
+1ed461 location DROGE0009
+ed1a27 location DROGE0010
+
+## vlans
+
+## tuning
+
+## asic password
+asicpass admin
