@@ -55,5 +55,13 @@ f5417d maxwatts 1500
 
 6dd1ab retune 1
 
+# generated on Jul 16 2019 14:44:38 utc
+6dd1ab maxwatts 1425 # 10.0.56.144
+031368 maxwatts 1400 # 10.0.60.155
+f5417d maxwatts 1400 # 10.0.61.17
+6dd1ab rebootasic 1563288278 # 10.0.56.144
+031368 rebootasic 1563288278 # 10.0.60.155
+f5417d rebootasic 1563288278 # 10.0.61.17
+
 ## asic password
 asicpass admin
