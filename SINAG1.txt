@@ -2,15 +2,15 @@
 
 global custompanel SINAG1bit049
 
-global poolname1 stratum+tcp://stratum.antpool.com:3333
+global poolname1 stratum.antpool.com:3333
 global username1 momoneko
 global poolpass1 123
 global sendworker1 yes
-global poolname2 stratum+tcp://stratum.antpool.com:443
+global poolname2 stratum.antpool.com:443
 global username2 momoneko
 global poolpass2 123
 global sendworker2 yes
-global poolname3 stratum+tcp://stratum.antpool.com:25
+global poolname3 stratum.antpool.com:25
 global username3 momoneko
 global poolpass3 123
 global sendworker3 yes
@@ -40,10 +40,10 @@ vlan 10.0.65.130-130
 vlan 10.0.65.146-146
 
 ## locations
-7bfb2c location momoneko.b1
-f60318 location momoneko.b2
-db9779 location momoneko.b3
-d3a31d location momoneko.b4
+7bfb2c location b1
+f60318 location b2
+db9779 location b3
+d3a31d location b4
 
 ## tuning
 
