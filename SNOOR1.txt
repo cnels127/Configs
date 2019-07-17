@@ -44,6 +44,14 @@ vlan 10.0.55.84-161
 vlan 10.0.56.1-146
 
 ## tuning
+# generated on Jul 17 2019 10:22:44 utc
+fbfdea maxwatts 1450 # 10.0.56.99
+86bcfb maxwatts 1450 # 10.0.55.124
+7ac78e maxwatts 1450 # 10.0.56.91
+fbfdea rebootasic 1563358964 # 10.0.56.99
+86bcfb rebootasic 1563358964 # 10.0.55.124
+7ac78e rebootasic 1563358964 # 10.0.56.91
+
 e06ea6 maxwatts 1525
 
 b408fe retune 1
