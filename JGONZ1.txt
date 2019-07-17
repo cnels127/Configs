@@ -1,0 +1,58 @@
+## instructions available at: https://asicseer.com/page/kb#writing-config
+
+global custompanel JGONZ1bit049
+
+global poolname1 solo.antpool.com:3333
+global username1 jkpadget193d6
+global poolpass1 123
+global sendworker1 yes
+global poolname2 stratum.antpool.com:3333
+global username2 
+global poolpass2 
+global sendworker2 yes
+global poolname3 
+global username3 
+global poolpass3 
+global sendworker3 yes
+
+global asicboost yes
+global autotune yes
+global maxwatts 1350
+
+global autoupdate no
+global allowed yes
+global maxtemp 90
+global fanspeed 95
+global fansaver 65
+
+# global retune 1
+# global rebootasic 1
+# global resetasic 1
+# global panelpass gj83Nkgikg
+
+# group=rowc rebootasic 1
+# group=rowd allowed no
+
+## vlans
+
+## locations
+abd2b0 location 18E01
+8c9641 location 18E02
+f9b5b2 location 18E03
+de765b location 18E04
+d20dcf location 18E05
+ location 18E06
+79bda8 location 18E07
+ location 18E08
+eeb8c9 location 18E09
+9e8492 location 18E10
+2fbb7a location 18E11
+6335e0 location 18E12
+a4716c location 18E13
+31f908 location 18E14
+e8f4a0 location 18E15
+
+## tuning
+
+## asic password
+asicpass admin
