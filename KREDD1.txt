@@ -75,5 +75,24 @@ c3aa69 location KREDDCOS0025
 6af3d4 retune 1
 a2bf9f retune 1
 
+## tuning
+# generated on Jul 18 2019 02:41:15 utc
+f252aa maxwatts 1200 # 172.16.202.66
+fe597a maxwatts 1200 # 172.16.200.38
+324346 maxwatts 1200 # 172.16.204.125
+181230 maxwatts 1200 # 172.16.202.65
+bdca90 maxwatts 1200 # 172.16.201.248
+6af3d4 maxwatts 1200 # 172.16.204.128
+00ba16 maxwatts 1200 # 172.16.204.101
+7c0e12 maxwatts 1200 # 172.16.201.61
+f252aa rebootasic 1563417675 # 172.16.202.66
+fe597a rebootasic 1563417675 # 172.16.200.38
+324346 rebootasic 1563417675 # 172.16.204.125
+181230 rebootasic 1563417675 # 172.16.202.65
+bdca90 rebootasic 1563417675 # 172.16.201.248
+6af3d4 rebootasic 1563417675 # 172.16.204.128
+00ba16 rebootasic 1563417675 # 172.16.204.101
+7c0e12 rebootasic 1563417675 # 172.16.201.61
+
 ## asic password
 asicpass admin
