@@ -71,6 +71,15 @@ f46832 location RHUSK0029
 2fb4f0 location RHUSK0030
 
 ## tuning
+adbe7f maxwatts 1075 # 10.0.53.129
+cec73f maxwatts 1100 # 10.0.53.125
+ffab5d maxwatts 1050 # 10.0.53.123
+e6077e maxwatts 1275 # 10.0.53.132
+adbe7f rebootasic 1563440574 # 10.0.53.129
+cec73f rebootasic 1563440574 # 10.0.53.125
+ffab5d rebootasic 1563440574 # 10.0.53.123
+e6077e rebootasic 1563440574 # 10.0.53.132
+
 cec73f maxwatts 1200 # 10.0.53.125
 ffab5d maxwatts 1150 # 10.0.53.123
 006cd0 maxwatts 1175 # 10.0.53.130
