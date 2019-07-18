@@ -45,6 +45,9 @@ vlan 10.0.60.161-161
 6364b7 location MWAGE0003
 
 ## tuning
+9b0fa1 maxwatts 1250 # 10.0.60.68
+9b0fa1 rebootasic 1563435913 # 10.0.60.68
+
 9b0fa1 maxwatts 1350
 96ae02 maxwatts 1350
 6364b7 maxwatts 1350
