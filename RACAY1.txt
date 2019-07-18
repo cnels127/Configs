@@ -80,6 +80,11 @@ d6136a location RACAY0014
 65bbdb location RACAY0021
 
 ## tuning
+ec8ea7 maxwatts 1225 # 10.0.55.144
+73d19d maxwatts 1350 # 10.0.54.152
+ec8ea7 rebootasic 1563440564 # 10.0.55.144
+73d19d rebootasic 1563440564 # 10.0.54.152
+
 ec8ea7 maxwatts 1325 # 10.0.55.144
 57c2bb maxwatts 1450 # 10.0.55.94
 74a07a maxwatts 1450 # 10.0.55.146
