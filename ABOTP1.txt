@@ -58,6 +58,9 @@ vlan 10.0.67.38-38
 ## locations
 
 ## tuning
+a2153e maxwatts 1350 # 10.0.67.31
+a2153e rebootasic 1563444152 # 10.0.67.31
+
 fe3f38 maxwatts 1250 # 10.0.67.15
 494e5b maxwatts 1350 # 10.0.67.23
 fe3f38 rebootasic 1563440462 # 10.0.67.15
