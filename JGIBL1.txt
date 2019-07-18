@@ -40,6 +40,8 @@ vlan 10.0.55.151-151
 vlan 10.0.55.158-158
 vlan 10.0.56.90-90
 
+b897c7 maxwatts 1275
+
 ## locations ([ASICID] location [name])
 615313 location JGIBL0001
 b897c7 location JGIBL0002
@@ -53,7 +55,6 @@ b897c7 maxwatts 1350 # 10.0.55.158
 b897c7 rebootasic 1563440523 # 10.0.55.158
 
 615313 maxwatts 1500
-b897c7 maxwatts 1450
 ffc9c8 maxwatts 1450
 
 # generated on Jul 16 2019 13:26:07 utc
