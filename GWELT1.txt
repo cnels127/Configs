@@ -466,6 +466,13 @@ c94f44 location GWELT0248
 50f49e location GWELT0250
 
 ## tuning
+d3f476 maxwatts 1050 # 10.0.58.83
+50f49e maxwatts 1050 # 10.0.67.129
+5ced68 maxwatts 1250 # 10.0.65.156
+d3f476 rebootasic 1563435865 # 10.0.58.83
+50f49e rebootasic 1563435865 # 10.0.67.129
+5ced68 rebootasic 1563435865 # 10.0.65.156
+
 # generated on Jul 18 2019 02:48:08 utc
 d3f476 maxwatts 1150 # 10.0.58.83
 d3f476 rebootasic 1563418088 # 10.0.58.83
