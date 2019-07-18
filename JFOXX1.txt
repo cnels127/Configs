@@ -1,0 +1,63 @@
+## instructions available at: https://asicseer.com/page/kb#writing-config
+
+global custompanel JFOXX1bit049
+
+global poolname1 btc.f2pool.com:1314
+global username1 Mobius29er
+global poolpass1 123
+global sendworker1 yes
+global poolname2 btc.f2pool.com:3333
+global username2 Mobius29er
+global poolpass2 123
+global sendworker2 yes
+global poolname3 btc-us.f2pool.com:3333
+global username3 Mobius29er
+global poolpass3 123
+global sendworker3 yes
+
+global asicboost yes
+global autotune yes
+global maxwatts 1500
+
+global autoupdate no
+global allowed yes
+global maxtemp 90
+global fanspeed 95
+global fansaver 65
+
+global retune 1
+# global rebootasic 1
+# global resetasic 1
+# global panelpass gj83Nkgikg
+
+# group=rowc rebootasic 1
+# group=rowd allowed no
+
+## vlans
+vlan 10.0.64.66
+vlan 10.0.65.64
+vlan 10.0.65.77
+vlan 10.0.65.122
+vlan 10.0.65.123
+vlan 10.0.66.17
+vlan 10.0.66.36
+vlan 10.0.66.154
+vlan 10.0.67.97
+vlan 10.0.67.100
+
+## locations
+f12f89 location JFOXX0001
+bb71c7 location JFOXX0002
+d31afd location JFOXX0003
+2287f8 location JFOXX0004
+6f1b5d location JFOXX0005
+dd7088 location JFOXX0006
+54bcb8 location JFOXX0007
+994f74 location JFOXX0008
+1a0b83 location JFOXX0009
+a93cc1 location JFOXX0010
+
+## tuning
+
+## asic password
+asicpass admin
