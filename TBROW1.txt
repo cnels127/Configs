@@ -113,6 +113,17 @@ da01dc location s47
 6faa51 location s48
 
 ## tuning
+3b93d0 maxwatts 1225 # 10.0.54.73
+418c38 maxwatts 1225 # 10.0.54.67
+6ff8a0 maxwatts 1400 # 10.0.60.54
+1e68e9 maxwatts 1425 # 10.0.54.66
+07155f maxwatts 1400 # 10.0.60.106
+3b93d0 rebootasic 1563440594 # 10.0.54.73
+418c38 rebootasic 1563440594 # 10.0.54.67
+6ff8a0 rebootasic 1563440594 # 10.0.60.54
+1e68e9 rebootasic 1563440594 # 10.0.54.66
+07155f rebootasic 1563440594 # 10.0.60.106
+
 e61a9b maxwatts 1225 # 10.0.54.65
 39bea5 maxwatts 1300 # 10.0.60.126
 3b93d0 maxwatts 1325 # 10.0.54.73
