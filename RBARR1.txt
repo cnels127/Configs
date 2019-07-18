@@ -63,6 +63,11 @@ eea5d2 location RBARR0019
 0746eb location RBARR0025
 
 ## tuning
+71df4f maxwatts 1100 # 10.0.57.51
+247665 maxwatts 1000 # 10.0.57.60
+71df4f rebootasic 1563444273 # 10.0.57.51
+247665 rebootasic 1563444273 # 10.0.57.60
+
 71df4f maxwatts 1200 # 10.0.57.51
 247665 maxwatts 1100 # 10.0.57.60
 08ede8 maxwatts 1200 # 10.0.57.53
