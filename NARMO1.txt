@@ -1,0 +1,49 @@
+## instructions available at: https://asicseer.com/page/kb#writing-config
+
+global custompanel NARMO1bit049
+
+global poolname1 eu.stratum.slushpool.com:3333
+global username1 mrslushy
+global poolpass1 123
+global sendworker1 yes
+global poolname2 stratum.slushpool.com:3333
+global username2 mrslushy
+global poolpass2 123
+global sendworker2 yes
+global poolname3 jp.stratum.slushpool.com:3333
+global username3 mrslushy
+global poolpass3 123
+global sendworker3 yes
+
+global asicboost yes
+global autotune yes
+global maxwatts 1500
+
+global autoupdate no
+global allowed yes
+global maxtemp 90
+global fanspeed 95
+global fansaver 65
+
+global retune 1
+# global rebootasic 1
+# global resetasic 1
+# global panelpass gj83Nkgikg
+
+# group=rowc rebootasic 1
+# group=rowd allowed no
+
+## vlans
+vlan 10.0.65.71-71
+vlan 10.0.65.134-134
+vlan 10.0.66.110-110
+
+## locations
+76e85b location NARMO0001
+8bdc72 location NARMO0002
+aa75d6 location NARMO0003
+
+## tuning
+
+## asic password
+asicpass admin
