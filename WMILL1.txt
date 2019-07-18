@@ -45,5 +45,9 @@ ed4012 location s9worker3
 582483 location s9worker5
 35740c retune 1
 
+## tuning
+35740c maxwatts 1250 # 10.0.53.55
+35740c rebootasic 1563440606 # 10.0.53.55
+
 ## asic password
 asicpass admin
