@@ -114,6 +114,13 @@ a8b8de retune 1
 af9564 retune 1
 
 ## tuning
+b65a11 maxwatts 1000 # 10.0.53.155
+29ece6 maxwatts 1500 # 10.0.53.152
+dc8a14 maxwatts 1200 # 10.0.53.154
+b65a11 rebootasic 1563440570 # 10.0.53.155
+29ece6 rebootasic 1563440570 # 10.0.53.152
+dc8a14 rebootasic 1563440570 # 10.0.53.154
+
 b65a11 maxwatts 1100 # 10.0.53.155
 a4164a maxwatts 1100 # 10.0.53.160
 29ece6 maxwatts 1500 # 10.0.53.152
