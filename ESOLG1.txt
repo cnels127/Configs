@@ -543,6 +543,15 @@ b972c8 location ESOLG0497
 8e9351 location ESOLG0499
 8f3359 location ESOLG0500
 
+## tuning
+# generated on Jul 18 2019 02:51:40 utc
+ad36be maxwatts 1300 # 10.0.50.151
+0a2190 maxwatts 975 # 10.0.50.160
+08c581 maxwatts 1000 # 10.0.50.154
+ad36be rebootasic 1563418300 # 10.0.50.151
+0a2190 rebootasic 1563418300 # 10.0.50.160
+08c581 rebootasic 1563418300 # 10.0.50.154
+
 # generated on Jul 17 2019 13:34:25 utc
 b972c8 maxwatts 1075 # 10.0.55.80
 1a9fc6 maxwatts 975 # 10.0.50.149
@@ -635,7 +644,6 @@ ad36be rebootasic 1563370465 # 10.0.50.151
 f569ac rebootasic 1563370465 # 10.0.55.45
 91a0e9 rebootasic 1563370465 # 10.0.55.69
 
-## tuning
 # generated on Jul 17 2019 10:20:16 utc
 3f52a2 maxwatts 1325 # 10.0.50.152
 c9cde9 maxwatts 1275 # 10.0.50.156
