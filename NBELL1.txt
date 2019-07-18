@@ -120,6 +120,13 @@ e07578 location NBELL0054
 9ce38b location NBELL0055
 
 ## tuning
+6b9725 maxwatts 1150 # 10.0.59.8
+02713c maxwatts 1250 # 10.0.61.108
+01759f maxwatts 1250 # 10.0.60.52
+6b9725 rebootasic 1563435917 # 10.0.59.8
+02713c rebootasic 1563435917 # 10.0.61.108
+01759f rebootasic 1563435917 # 10.0.60.52
+
 # generated on Jul 18 2019 02:37:24 utc
 6b9725 maxwatts 1250 # 10.0.59.8
 6b9725 rebootasic 1563417444 # 10.0.59.8
