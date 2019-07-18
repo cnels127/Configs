@@ -49,6 +49,9 @@ vlan 10.0.68.22-25
 e8521d location MNADE0007
 
 ## tuning
+e8521d maxwatts 1400 # 10.0.68.25
+e8521d rebootasic 1563444253 # 10.0.68.25
+
 3bf939 maxwatts 1550
 8a919b maxwatts 1525
 2ecb70 maxwatts 1550
