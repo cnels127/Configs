@@ -544,6 +544,13 @@ b972c8 location ESOLG0497
 8f3359 location ESOLG0500
 
 ## tuning
+ad36be maxwatts 1000 # 10.0.50.151
+deee7c maxwatts 1000 # 10.0.50.158
+55fe55 maxwatts 1200 # 10.0.55.44
+ad36be rebootasic 1563444198 # 10.0.50.151
+deee7c rebootasic 1563444198 # 10.0.50.158
+55fe55 rebootasic 1563444198 # 10.0.55.44
+
 ad36be maxwatts 1100 # 10.0.50.151
 b972c8 maxwatts 975 # 10.0.55.80
 ad36be rebootasic 1563440505 # 10.0.50.151
