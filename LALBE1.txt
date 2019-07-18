@@ -48,6 +48,9 @@ c935fd location bi_s9_503
 a9cee7 location bi_s9_504
 
 ## tuning
+c935fd maxwatts 1250 # 10.0.56.124
+c935fd rebootasic 1563440539 # 10.0.56.124
+
 b49a7f maxwatts 1325
 
 b49a7f retune 2
