@@ -66,6 +66,11 @@ e6ca25 location KAUYE0013
 d87db4 location KAUYE0014
 
 ## tuning
+ddae42 maxwatts 1150 # 10.0.55.97
+e6ca25 maxwatts 1350 # 10.0.56.108
+ddae42 rebootasic 1563440532 # 10.0.55.97
+e6ca25 rebootasic 1563440532 # 10.0.56.108
+
 ddae42 maxwatts 1250 # 10.0.55.97
 4d1860 maxwatts 1250 # 10.0.55.100
 ddae42 rebootasic 1563435887 # 10.0.55.97
