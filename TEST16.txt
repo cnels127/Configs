@@ -93,6 +93,37 @@ vlan 10.0.66.110-110
 ## locations
 
 ## tuning
+60d60f maxwatts 850 # 10.0.64.8
+d0ff80 maxwatts 850 # 10.0.66.159
+7adae2 maxwatts 950 # 10.0.61.106
+4d7ab5 maxwatts 1050 # 10.0.66.50
+6f3a26 maxwatts 1250 # 10.0.64.25
+47bb2b maxwatts 950 # 10.0.66.101
+031746 maxwatts 1050 # 10.0.65.103
+89473a maxwatts 1350 # 10.0.66.90
+9c3c4b maxwatts 1250 # 10.0.62.78
+d156c9 maxwatts 1150 # 10.0.63.49
+b1937c maxwatts 1350 # 10.0.51.2
+0f50f9 maxwatts 1250 # 10.0.66.100
+1319ac maxwatts 1150 # 10.0.61.67
+110033 maxwatts 1350 # 10.0.66.96
+ce5ec8 maxwatts 1150 # 10.0.62.159
+60d60f rebootasic 1563444308 # 10.0.64.8
+d0ff80 rebootasic 1563444308 # 10.0.66.159
+7adae2 rebootasic 1563444308 # 10.0.61.106
+4d7ab5 rebootasic 1563444308 # 10.0.66.50
+6f3a26 rebootasic 1563444308 # 10.0.64.25
+47bb2b rebootasic 1563444308 # 10.0.66.101
+031746 rebootasic 1563444308 # 10.0.65.103
+89473a rebootasic 1563444308 # 10.0.66.90
+9c3c4b rebootasic 1563444308 # 10.0.62.78
+d156c9 rebootasic 1563444308 # 10.0.63.49
+b1937c rebootasic 1563444308 # 10.0.51.2
+0f50f9 rebootasic 1563444308 # 10.0.66.100
+1319ac rebootasic 1563444308 # 10.0.61.67
+110033 rebootasic 1563444308 # 10.0.66.96
+ce5ec8 rebootasic 1563444308 # 10.0.62.159
+
 c5778c maxwatts 1150 # 10.0.65.157
 4b5afd maxwatts 950 # 10.0.67.74
 35a425 maxwatts 1150 # 10.0.65.120
