@@ -177,6 +177,20 @@ cffad5 location EXTRA0009
 23b521 location EXTRA0011
 44e6e0 location EXTRA0012
 
+##tuning
+4d4b02 maxwatts 1050 # 10.0.57.102
+e29028 maxwatts 1350 # 10.0.51.53
+3fb0a7 maxwatts 1050 # 10.0.51.46
+2c95c4 maxwatts 1250 # 10.0.57.107
+39c93b maxwatts 1150 # 10.0.57.127
+fa20ef maxwatts 1050 # 10.0.51.50
+4d4b02 rebootasic 1563435975 # 10.0.57.102
+e29028 rebootasic 1563435975 # 10.0.51.53
+3fb0a7 rebootasic 1563435975 # 10.0.51.46
+2c95c4 rebootasic 1563435975 # 10.0.57.107
+39c93b rebootasic 1563435975 # 10.0.57.127
+fa20ef rebootasic 1563435975 # 10.0.51.50
+
 # generated on Jul 18 2019 02:12:39 utc
 4d4b02 maxwatts 1150 # 10.0.57.102
 4d4b02 rebootasic 1563415959 # 10.0.57.102
@@ -223,7 +237,6 @@ bc004c rebootasic 1563369846 # 10.0.57.104
 5621cd rebootasic 1563369846 # 10.0.57.123
 5c0833 rebootasic 1563369846 # 10.0.51.16
 
-## tuning
 # generated on Jul 17 2019 10:27:38 utc
 f41f50 maxwatts 1450 # 10.0.51.26
 fa20ef maxwatts 1250 # 10.0.51.50
