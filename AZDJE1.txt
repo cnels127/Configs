@@ -190,6 +190,17 @@ bf8fd2 location AZDJE0096
 0d929b location AZDJE0100
 
 ## tuning
+c96ac2 maxwatts 1025 # 10.0.56.72
+fc9a2f maxwatts 1025 # 10.0.56.70
+85f927 maxwatts 1325 # 10.0.55.89
+d33b29 maxwatts 1325 # 10.0.56.55
+056e6f maxwatts 1450 # 10.0.56.22
+c96ac2 rebootasic 1563440480 # 10.0.56.72
+fc9a2f rebootasic 1563440480 # 10.0.56.70
+85f927 rebootasic 1563440480 # 10.0.55.89
+d33b29 rebootasic 1563440480 # 10.0.56.55
+056e6f rebootasic 1563440480 # 10.0.56.22
+
 1aeaaa maxwatts 1350 # 10.0.55.154
 457d60 maxwatts 1125 # 10.0.56.71
 fc9a2f maxwatts 1125 # 10.0.56.70
