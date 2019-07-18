@@ -62,6 +62,13 @@ f764a5 location THORA0014
 13d4e9 location THORA0015
 
 ## tuning
+b042b3 maxwatts 1150 # 10.0.57.152
+658700 maxwatts 1450 # 10.0.57.154
+190eef maxwatts 1450 # 10.0.54.136
+b042b3 rebootasic 1563444311 # 10.0.57.152
+658700 rebootasic 1563444311 # 10.0.57.154
+190eef rebootasic 1563444311 # 10.0.54.136
+
 b042b3 maxwatts 1250 # 10.0.57.152
 e3240c maxwatts 1250 # 10.0.54.138
 b042b3 rebootasic 1563440598 # 10.0.57.152
