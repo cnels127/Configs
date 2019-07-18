@@ -34,16 +34,16 @@ global retune 1
 # group=rowd allowed no
 
 ## vlans
-vlan 10.0.64.66
-vlan 10.0.65.64
-vlan 10.0.65.77
-vlan 10.0.65.122
-vlan 10.0.65.123
-vlan 10.0.66.17
-vlan 10.0.66.36
-vlan 10.0.66.154
-vlan 10.0.67.97
-vlan 10.0.67.100
+vlan 10.0.64.66-66
+vlan 10.0.65.64-64
+vlan 10.0.65.77-77
+vlan 10.0.65.122-122
+vlan 10.0.65.123-123
+vlan 10.0.66.17-17
+vlan 10.0.66.36-36
+vlan 10.0.66.154-154
+vlan 10.0.67.97-97
+vlan 10.0.67.100-100
 
 ## locations
 f12f89 location JFOXX0001
