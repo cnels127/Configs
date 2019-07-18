@@ -58,6 +58,15 @@ dc7a56 location cos0013
 188204 location cos0017
 
 ## tuning
+be298d maxwatts 1300 # 172.16.203.250
+d38886 maxwatts 1300 # 172.16.203.249
+e50e84 maxwatts 1300 # 172.16.203.247
+b06f2f maxwatts 1300 # 172.16.204.3
+be298d rebootasic 1563435901 # 172.16.203.250
+d38886 rebootasic 1563435901 # 172.16.203.249
+e50e84 rebootasic 1563435901 # 172.16.203.247
+b06f2f rebootasic 1563435901 # 172.16.204.3
+
 6923d5 maxwatts 1400
 e50e84 maxwatts 1400
 b879df maxwatts 1400
