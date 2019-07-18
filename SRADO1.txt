@@ -65,6 +65,24 @@ acd279 location SRADO0015
 44a6c9 location SRADO0016
 
 ## tuning
+# generated on Jul 18 2019 02:24:40 utc
+89611d maxwatts 1250 # 10.0.57.146
+71bc68 maxwatts 1250 # 10.0.57.158
+acd279 maxwatts 1250 # 10.0.58.16
+89611d rebootasic 1563416680 # 10.0.57.146
+71bc68 rebootasic 1563416680 # 10.0.57.158
+acd279 rebootasic 1563416680 # 10.0.58.16
+
+# generated on Jul 16 2019 15:11:06 utc
+531bec maxwatts 1250 # 10.0.57.155
+71bc68 maxwatts 1250 # 10.0.57.158
+89611d maxwatts 1250 # 10.0.57.146
+bd2001 maxwatts 1275 # 10.0.54.141
+531bec rebootasic 1563289866 # 10.0.57.155
+71bc68 rebootasic 1563289866 # 10.0.57.158
+89611d rebootasic 1563289866 # 10.0.57.146
+bd2001 rebootasic 1563289866 # 10.0.54.141
+
 c8c8e3 maxwatts 1350
 71393e maxwatts 1375
 bd2001 maxwatts 1375
@@ -81,16 +99,6 @@ fc9425 maxwatts 1400
 9c1555 maxwatts 1350
 acd279 maxwatts 1350
 44a6c9 maxwatts 1350
-
-# generated on Jul 16 2019 15:11:06 utc
-531bec maxwatts 1250 # 10.0.57.155
-71bc68 maxwatts 1250 # 10.0.57.158
-89611d maxwatts 1250 # 10.0.57.146
-bd2001 maxwatts 1275 # 10.0.54.141
-531bec rebootasic 1563289866 # 10.0.57.155
-71bc68 rebootasic 1563289866 # 10.0.57.158
-89611d rebootasic 1563289866 # 10.0.57.146
-bd2001 rebootasic 1563289866 # 10.0.54.141
 
 ## asic password
 asicpass admin
