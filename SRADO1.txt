@@ -65,6 +65,13 @@ acd279 location SRADO0015
 44a6c9 location SRADO0016
 
 ## tuning
+89611d maxwatts 950 # 10.0.57.146
+acd279 maxwatts 1050 # 10.0.58.16
+71393e maxwatts 1275 # 10.0.54.140
+89611d rebootasic 1563444301 # 10.0.57.146
+acd279 rebootasic 1563444301 # 10.0.58.16
+71393e rebootasic 1563444301 # 10.0.54.140
+
 89611d maxwatts 1050 # 10.0.57.146
 acd279 maxwatts 1150 # 10.0.58.16
 89611d rebootasic 1563440591 # 10.0.57.146
