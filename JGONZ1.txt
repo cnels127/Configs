@@ -54,6 +54,10 @@ a4716c location 18E13
 e8f4a0 location 18E15
 
 ## tuning
+abd2b0 maxwatts 1250 # 172.16.200.236
+de765b maxwatts 1250 # 172.16.200.238
+abd2b0 rebootasic 1563504860 # 172.16.200.236
+de765b rebootasic 1563504860 # 172.16.200.238
 
 ## asic password
 asicpass admin
