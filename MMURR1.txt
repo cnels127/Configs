@@ -44,6 +44,8 @@ vlan 172.16.202.57-57
 c7c4b4 location 0002
 
 ## tuning
+6be331 maxwatts 1200 # 172.16.204.145
+6be331 rebootasic 1563504893 # 172.16.204.145
 
 ## asic password
 asicpass admin
