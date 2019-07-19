@@ -38,6 +38,22 @@ global rebootasic 8
 vlan 10.0.207.25-29
 
 ## tuning
+# generated on Jul 19 2019 03:48:51 utc
+568737 maxwatts 1200 # 10.0.223.145
+89ddd8 maxwatts 500 # 10.0.224.88
+32b6d0 maxwatts 500 # 10.0.228.115
+bed5d9 maxwatts 600 # 10.0.226.15
+f0f240 maxwatts 1100 # 10.0.229.92
+d239b0 maxwatts 1000 # 10.0.218.163
+7923ac maxwatts 1400 # 10.0.224.89
+568737 rebootasic 1563508131 # 10.0.223.145
+89ddd8 rebootasic 1563508131 # 10.0.224.88
+32b6d0 rebootasic 1563508131 # 10.0.228.115
+bed5d9 rebootasic 1563508131 # 10.0.226.15
+f0f240 rebootasic 1563508131 # 10.0.229.92
+d239b0 rebootasic 1563508131 # 10.0.218.163
+7923ac rebootasic 1563508131 # 10.0.224.89
+
 568737 maxwatts 1300 # 10.0.223.145
 dbec2a maxwatts 1200 # 10.0.229.194
 f5d121 maxwatts 1100 # 10.0.226.14
