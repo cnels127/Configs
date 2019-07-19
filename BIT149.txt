@@ -45,6 +45,13 @@ vlan 172.16.204.223-223
 ## locations
 
 ## tuning
+bb43ef maxwatts 1250 # 172.16.204.63
+5c1ae5 maxwatts 1250 # 172.16.204.46
+65e9cb maxwatts 1250 # 172.16.202.153
+bb43ef rebootasic 1563504809 # 172.16.204.63
+5c1ae5 rebootasic 1563504809 # 172.16.204.46
+65e9cb rebootasic 1563504809 # 172.16.202.153
+
 5c1ae5 maxwatts 1350 # 172.16.204.46
 7fe818 maxwatts 1350 # 172.16.91.156
 65e9cb maxwatts 1350 # 172.16.202.153
