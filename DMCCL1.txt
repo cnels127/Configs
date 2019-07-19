@@ -45,6 +45,9 @@ vlan 10.0.68.26-29
 aab607 location DMCCL0004
 
 ## tuning
+97c2eb maxwatts 675 # 10.0.68.28
+97c2eb rebootasic 1563509502 # 10.0.68.28
+
 # generated on Jul 19 2019 03:40:05 utc
 97c2eb maxwatts 775 # 10.0.68.28
 aab607 maxwatts 975 # 10.0.68.29
