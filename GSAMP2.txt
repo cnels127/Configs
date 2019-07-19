@@ -44,21 +44,6 @@ b4de4e rebootasic 1
 # group=rowd allowed no
 
 ## vlans (vlan [IP address])
-vlan 10.0.56.40-41
-vlan 10.0.56.47-47
-vlan 10.0.56.50-50
-vlan 10.0.56.56-56
-vlan 10.0.56.67-67
-vlan 10.0.56.75-75
-vlan 10.0.56.77-78
-vlan 10.0.58.70-70
-#
-vlan 10.0.59.36-37
-vlan 10.0.59.39-39
-vlan 10.0.59.41-41
-vlan 10.0.59.43-46
-vlan 10.0.59.48-49
-
 vlan 10.0.59.50-52
 vlan 10.0.59.54-54
 vlan 10.0.59.60-60
@@ -88,19 +73,6 @@ f24571 rebootasic 1563435862 # 10.0.59.73
 f24571 maxwatts 1400 # 10.0.59.73
 f24571 rebootasic 1563418164 # 10.0.59.73
 
-c02d51 maxwatts 1500
-c5496d maxwatts 1500
-ca177b maxwatts 1500
-3900a7 maxwatts 1500
-a36e04 maxwatts 1500
-644746 maxwatts 1500
-26be5d maxwatts 1500
-27a7bc maxwatts 1500
-f71e65 maxwatts 1500
-4fb133 maxwatts 1500
-86c9c7 maxwatts 1500
-e61d93 maxwatts 1500
-5aa9d6 maxwatts 1500
 78cb4c maxwatts 1525
 3fb821 maxwatts 1525
 d223ec maxwatts 1500
@@ -111,17 +83,13 @@ e1c353 maxwatts 1500
 f24571 maxwatts 1500
 2d2f66 maxwatts 1500
 0c9f37 maxwatts 1500
-0101ec maxwatts 1525
 
-0101ec retune 2
 d223ec retune 1
 8a804d retune 1
 
 # generated on Jul 16 2019 13:38:57 utc
 62bdc8 maxwatts 1450 # 10.0.58.70
-4fb133 maxwatts 1400 # 10.0.59.44
 62bdc8 rebootasic 1563284337 # 10.0.58.70
-4fb133 rebootasic 1563284337 # 10.0.59.44
 
 ## asic password
 asicpass admin
