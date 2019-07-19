@@ -58,6 +58,13 @@ vlan 10.0.223.72-72
 ## location
 
 ## tuning
+ae8e9d maxwatts 1150 # 10.0.226.70
+83aafe maxwatts 1150 # 10.0.226.67
+c16782 maxwatts 1050 # 10.0.226.2
+ae8e9d rebootasic 1563516663 # 10.0.226.70
+83aafe rebootasic 1563516663 # 10.0.226.67
+c16782 rebootasic 1563516663 # 10.0.226.2
+
 c16782 maxwatts 1150 # 10.0.226.2
 031d29 maxwatts 1250 # 10.0.226.62
 83aafe maxwatts 1250 # 10.0.226.67
