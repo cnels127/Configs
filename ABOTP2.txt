@@ -58,6 +58,11 @@ vlan 10.0.67.59-59
 ## locations
 
 ## tuning
+002190 maxwatts 1350 # 10.0.67.55
+239cfe maxwatts 1350 # 10.0.67.49
+002190 rebootasic 1563504789 # 10.0.67.55
+239cfe rebootasic 1563504789 # 10.0.67.49
+
 6ab1be maxwatts 1250 # 10.0.67.46
 5f1a6a maxwatts 1250 # 10.0.67.48
 6ab1be rebootasic 1563444153 # 10.0.67.46
