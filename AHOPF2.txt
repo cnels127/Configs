@@ -544,6 +544,13 @@ cc9fd9 location AHOPF0302
 79c07f location AHOPF0303
 
 ## tuning
+79c07f maxwatts 1050 # 10.0.229.199
+0f40ca maxwatts 1050 # 10.0.229.7
+58d134 maxwatts 1050 # 10.0.229.6
+79c07f rebootasic 1563504796 # 10.0.229.199
+0f40ca rebootasic 1563504796 # 10.0.229.7
+58d134 rebootasic 1563504796 # 10.0.229.6
+
 # generated on Jul 18 2019 23:59:18 utc
 c1e884 maxwatts 1150 # 10.0.229.118
 0f40ca maxwatts 1150 # 10.0.229.7
