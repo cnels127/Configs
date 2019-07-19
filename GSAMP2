@@ -1,0 +1,127 @@
+## ASICseer default config loaded in, edit it and click 'Save Changes'
+## instructions available at: https://asicseer.com/page/kb#writing-config
+
+global custompanel GSAMP1bit049
+
+global poolname1 eu.stratum.slushpool.com:3333
+global username1 CryptoHayek
+global poolpass1 123
+global sendworker1 yes
+global poolname2 us-east.stratum.slushpool.com:3333
+global username2 CryptoHayek
+global poolpass2 123
+global sendworker2 yes
+global poolname3 stratum.slushpool.com:3333
+global username3 CryptoHayek
+global poolpass3 123
+global sendworker3 yes
+
+global asicboost yes
+global autotune yes
+global maxwatts 1550
+
+global autoupdate no
+global allowed yes
+global maxtemp 90
+global fanspeed 95
+global fansaver 65
+
+global retune 1
+global rebootasic 1
+# global resetasic 1
+# global panelpass gj83Nkgikg
+
+## reboots
+613a81 rebootasic 1
+1c0d86 rebootasic 1
+e2ac32 rebootasic 1
+c09684 rebootasic 1
+de1da0 rebootasic 1
+4ec51b rebootasic 1
+b4de4e rebootasic 1
+
+# group=rowc rebootasic 1
+# group=rowd allowed no
+
+## vlans (vlan [IP address])
+vlan 10.0.56.40-41
+vlan 10.0.56.47-47
+vlan 10.0.56.50-50
+vlan 10.0.56.56-56
+vlan 10.0.56.67-67
+vlan 10.0.56.75-75
+vlan 10.0.56.77-78
+vlan 10.0.58.70-70
+#
+vlan 10.0.59.36-37
+vlan 10.0.59.39-39
+vlan 10.0.59.41-41
+vlan 10.0.59.43-46
+vlan 10.0.59.48-49
+
+vlan 10.0.59.50-52
+vlan 10.0.59.54-54
+vlan 10.0.59.60-60
+vlan 10.0.59.66-66
+vlan 10.0.59.73-73
+vlan 10.0.59.80-80
+vlan 10.0.59.90-90
+vlan 10.0.61.6-6
+
+## locations ([ASICID location [name])
+78cb4c location GSAMP0021
+3fb821 location GSAMP0022
+d223ec location GSAMP0023
+ff488e location GSAMP0024
+8a804d location GSAMP0025
+e1c353 location GSAMP0026
+3cd7e0 location GSAMP0027
+f24571 location GSAMP0028
+2d2f66 location GSAMP0029
+0c9f37 location GSAMP0030
+
+## tuning
+f24571 maxwatts 1300 # 10.0.59.73
+f24571 rebootasic 1563435862 # 10.0.59.73
+
+# generated on Jul 18 2019 02:49:24 utc
+f24571 maxwatts 1400 # 10.0.59.73
+f24571 rebootasic 1563418164 # 10.0.59.73
+
+c02d51 maxwatts 1500
+c5496d maxwatts 1500
+ca177b maxwatts 1500
+3900a7 maxwatts 1500
+a36e04 maxwatts 1500
+644746 maxwatts 1500
+26be5d maxwatts 1500
+27a7bc maxwatts 1500
+f71e65 maxwatts 1500
+4fb133 maxwatts 1500
+86c9c7 maxwatts 1500
+e61d93 maxwatts 1500
+5aa9d6 maxwatts 1500
+78cb4c maxwatts 1525
+3fb821 maxwatts 1525
+d223ec maxwatts 1500
+ff488e maxwatts 1525
+8a804d maxwatts 1525
+e1c353 maxwatts 1500
+3cd7e0 maxwatts 1500
+f24571 maxwatts 1500
+2d2f66 maxwatts 1500
+0c9f37 maxwatts 1500
+0101ec maxwatts 1525
+
+0101ec retune 2
+d223ec retune 1
+8a804d retune 1
+
+# generated on Jul 16 2019 13:38:57 utc
+62bdc8 maxwatts 1450 # 10.0.58.70
+4fb133 maxwatts 1400 # 10.0.59.44
+62bdc8 rebootasic 1563284337 # 10.0.58.70
+4fb133 rebootasic 1563284337 # 10.0.59.44
+
+## asic password
+asicpass admin
