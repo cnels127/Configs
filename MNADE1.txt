@@ -18,13 +18,13 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1550
+global maxwatts 1500
 
 global autoupdate no
 global allowed yes
 global maxtemp 90
 global fanspeed 95
-# global fansaver 65
+global fansaver 65
 global asicblink worker
 
 # global retune 1
@@ -38,6 +38,9 @@ global rebootasic 2
 ## vlans
 vlan 10.0.57.83-85
 vlan 10.0.68.22-25
+vlan 10.0.65.115-115
+vlan 10.0.67.37-37
+vlan 10.0.65.104-104
 
 ## locations
 3bf939 location MNADE0001
@@ -47,6 +50,9 @@ vlan 10.0.68.22-25
 4c4fe6 location MNADE0005
 2c0fb6 location MNADE0006
 e8521d location MNADE0007
+d89759 location MNADE0008
+e260d5 location MNADE0009
+6e6dd8 location MNADE0010
 
 ## tuning
 # generated on Jul 19 2019 00:13:17 utc
