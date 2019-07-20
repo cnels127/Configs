@@ -52,18 +52,11 @@ vlan 10.0.56.67-67
 vlan 10.0.56.75-75
 vlan 10.0.56.77-78
 vlan 10.0.58.70-70
-#
 vlan 10.0.59.36-37
 vlan 10.0.59.39-39
 vlan 10.0.59.41-41
 vlan 10.0.59.43-46
-vlan 10.0.59.48-52
-vlan 10.0.59.54-54
-vlan 10.0.59.60-60
-vlan 10.0.59.66-66
-vlan 10.0.59.73-73
-vlan 10.0.59.80-80
-vlan 10.0.59.90-90
+vlan 10.0.59.48-48
 vlan 10.0.61.6-6
 
 ## locations ([ASICID location [name])
@@ -88,16 +81,6 @@ f71e65 location GSAMP0016
 86c9c7 location GSAMP0018
 e61d93 location GSAMP0019
 5aa9d6 location GSAMP0020
-78cb4c location GSAMP0021
-3fb821 location GSAMP0022
-d223ec location GSAMP0023
-ff488e location GSAMP0024
-8a804d location GSAMP0025
-e1c353 location GSAMP0026
-3cd7e0 location GSAMP0027
-f24571 location GSAMP0028
-2d2f66 location GSAMP0029
-0c9f37 location GSAMP0030
 
 ## tuning
 4fb133 maxwatts 1400 # 10.0.59.44
