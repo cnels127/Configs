@@ -32,13 +32,7 @@ global rebootasic 1
 # global panelpass gj83Nkgikg
 
 ## reboots
-613a81 rebootasic 1
-1c0d86 rebootasic 1
-e2ac32 rebootasic 1
-c09684 rebootasic 1
-de1da0 rebootasic 1
-4ec51b rebootasic 1
-b4de4e rebootasic 1
+
 
 # group=rowc rebootasic 1
 # group=rowd allowed no
@@ -68,13 +62,6 @@ f24571 location CryptoHayek.008
 0c9f37 location CryptoHayek.010
 
 ## tuning
-f24571 maxwatts 1300 # 10.0.59.73
-f24571 rebootasic 1563435862 # 10.0.59.73
-
-# generated on Jul 18 2019 02:49:24 utc
-f24571 maxwatts 1400 # 10.0.59.73
-f24571 rebootasic 1563418164 # 10.0.59.73
-
 78cb4c maxwatts 1525
 3fb821 maxwatts 1525
 d223ec maxwatts 1500
@@ -85,13 +72,6 @@ e1c353 maxwatts 1500
 f24571 maxwatts 1500
 2d2f66 maxwatts 1500
 0c9f37 maxwatts 1500
-
-d223ec retune 1
-8a804d retune 1
-
-# generated on Jul 16 2019 13:38:57 utc
-62bdc8 maxwatts 1450 # 10.0.58.70
-62bdc8 rebootasic 1563284337 # 10.0.58.70
 
 ## asic password
 asicpass admin
