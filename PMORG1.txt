@@ -46,6 +46,9 @@ vlan 10.0.68.17-21
 c29a91 location PMORG0005
 
 ## tuning
+846595 maxwatts 1350 # 10.0.68.19
+846595 rebootasic 1563630484 # 10.0.68.19
+
 846595 maxwatts 1450 # 10.0.68.19
 846595 rebootasic 1563440563 # 10.0.68.19
 
