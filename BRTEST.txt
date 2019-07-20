@@ -42,6 +42,14 @@ vlan 10.0.228.1-254
 ## location
 
 ## tuning
+# generated on Jul 20 2019 01:14:21 utc
+e465d5 maxwatts 1300 # 10.0.226.35
+303214 maxwatts 1400 # 10.0.229.104
+eb8f83 maxwatts 1400 # 10.0.229.180
+e465d5 rebootasic 1563585261 # 10.0.226.35
+303214 rebootasic 1563585261 # 10.0.229.104
+eb8f83 rebootasic 1563585261 # 10.0.229.180
+
 e465d5 maxwatts 1400 # 10.0.226.35
 e465d5 rebootasic 1563504817 # 10.0.226.35
 
