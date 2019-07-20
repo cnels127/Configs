@@ -2,16 +2,16 @@
 
 global custompanel HDUON1bit049
 
-global poolname1 
-global username1 
+global poolname1 eu.ss.btc.com:1800
+global username1 duonginvestment
 global poolpass1 123
 global sendworker1 yes
-global poolname2 
-global username2 
+global poolname2 us.ss.btc.com:1800
+global username2 duonginvestment
 global poolpass2 123
 global sendworker2 yes
-global poolname3 
-global username3 
+global poolname3 cn.ss.btc.com:1800
+global username3 duonginvestment
 global poolpass3 123
 global sendworker3 yes
 
@@ -34,8 +34,16 @@ global fansaver 65
 # group=rowd allowed no
 
 ## vlans
+vlan 10.0.65.78-78
+vlan 10.0.65.129-129
+vlan 10.0.63.74-74
+vlan 10.0.67.93-93
 
 ## locations
+5a1fc0 location HDUONRUS65x78
+e18d51 location HDUONRUS65x129
+55fb45 location HDUONRUS63x74
+2e2f55 location HDUONRUS67x93
 
 ## tuning
 
