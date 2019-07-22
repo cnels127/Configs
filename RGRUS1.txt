@@ -2,9 +2,6 @@
 
 global custompanel RGRUS1bit049
 
-global poolname1 eu.ss.btc.com:1800
-global username1 bit49euro
-global poolpass1 123
 global poolname1 eu-ru01.miningrigrentals.com:3333
 global username1 andruscrypto.130837
 global poolpass1 x
@@ -13,9 +10,13 @@ global poolname2 eu-01.miningrigrentals.com:3333
 global username2 andruscrypto.130837
 global poolpass2 x
 global sendworker2 yes
-global poolname3 eu-de01.miningrigrentals.com:3333
-global username3 andruscrypto.130837
-global poolpass3 x
+# global poolname3 eu-de01.miningrigrentals.com:3333
+# global username3 andruscrypto.130837
+# global poolpass3 x
+# global sendworker3 yes
+global poolname3 eu.ss.btc.com:1800
+global username3 bit49euro
+global poolpass3 123
 global sendworker3 yes
 
 global asicboost yes
