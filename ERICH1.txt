@@ -17,7 +17,7 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1350
+global maxwatts 1300
 
 global autoupdate no
 global allowed yes
@@ -26,7 +26,7 @@ global fanspeed 95
 global fansaver 65
 global asicblink worker
 
-global retune 1
+global retune 2
 global rebootasic 1
 global resetasic 1
 # global panelpass gj83Nkgikg
