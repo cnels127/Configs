@@ -1,0 +1,55 @@
+## instructions available at: https://asicseer.com/page/kb#writing-config
+
+global custompanel RGESU2bit049
+
+global poolname1 us-east.stratum.slushpool.com:3333
+global username1 gesumari
+global poolpass1 123
+global sendworker1 yes
+global poolname2 ca.stratum.slushpool.com:3333
+global username2 gesumari
+global poolpass2 123
+global sendworker2 yes
+global poolname3 stratum.slushpool.com:3333
+global username3 gesumari
+global poolpass3 123
+global sendworker3 yes
+
+global asicboost yes
+global autotune yes
+global maxwatts 1300
+
+global autoupdate no
+global allowed yes
+global maxtemp 90
+global fanspeed 95
+global fansaver 65
+
+global retune 1
+global rebootasic 7
+# global resetasic 1
+# global panelpass gj83Nkgikg
+
+# group=rowc rebootasic 1
+# group=rowd allowed no
+
+## vlans
+vlan 172.16.202.91-95
+vlan 172.16.202.111-111
+
+## location
+904b7f location RGESUCOS0001
+d360c8 location RGESUCOS0002
+a8b8de location RGESUCOS0003
+329fab location RGESUCOS0004
+828235 location RGESUCOS0005
+af9564 location RGESUCOS0006
+
+## tuning
+d360c8 retune 1
+a8b8de retune 1
+329fab retune 1
+af9564 retune 1
+
+## asic password
+asicpass admin
