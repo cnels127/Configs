@@ -3,15 +3,15 @@
 
 global custompanel GSAMP1bit049
 
-global poolname1 eu.stratum.slushpool.com:3333
+global poolname1 cn.ss.btc.com:1800
 global username1 CryptoHayek
 global poolpass1 123
 global sendworker1 yes
-global poolname2 us-east.stratum.slushpool.com:3333
+global poolname2 cn.ss.btc.com:443
 global username2 CryptoHayek
 global poolpass2 123
 global sendworker2 yes
-global poolname3 stratum.slushpool.com:3333
+global poolname3 cn.ss.btc.com:25
 global username3 CryptoHayek
 global poolpass3 123
 global sendworker3 yes
@@ -52,37 +52,53 @@ vlan 10.0.56.67-67
 vlan 10.0.56.75-75
 vlan 10.0.56.77-78
 vlan 10.0.58.70-70
-#
 vlan 10.0.59.36-37
 vlan 10.0.59.39-39
 vlan 10.0.59.41-41
 vlan 10.0.59.43-46
-vlan 10.0.59.48-48
+vlan 10.0.59.48-50
+vlan 10.0.59.52-52
+vlan 10.0.59.54-54
+vlan 10.0.59.60-60
+vlan 10.0.59.66-66
+vlan 10.0.59.73-73
+vlan 10.0.59.80-80
+vlan 10.0.59.90-90
 vlan 10.0.61.6-6
-
+vlan 10.0.67.79-79
 
 ## locations ([ASICID location [name])
-c5496d location GSAMP0001
-271937 location GSAMP0002
-62bdc8 location GSAMP0003
-ca177b location GSAMP0004
-c02d51 location GSAMP0005
-41be8a location GSAMP0006
-751610 location GSAMP0007
-8e284e location GSAMP0008
-a7631d location GSAMP0009
-0101ec location GSAMP0010
-#
-3900a7 location GSAMP0011
-a36e04 location GSAMP0012
-644746 location GSAMP0013
-26be5d location GSAMP0014
-27a7bc location GSAMP0015
-f71e65 location GSAMP0016
-4fb133 location GSAMP0017
-86c9c7 location GSAMP0018
-e61d93 location GSAMP0019
-5aa9d6 location GSAMP0020
+c5496d location GSAMPRUS56x40
+271937 location GSAMPRUS56x41
+ca177b location GSAMPRUS56x47
+c02d51 location GSAMPRUS56x50
+41be8a location GSAMPRUS56x56
+751610 location GSAMPRUS56x67
+8e284e location GSAMPRUS56x75
+a7631d location GSAMPRUS56x77
+0101ec location GSAMPRUS56x78
+62bdc8 location GSAMPRUS58x70
+3900a7 location GSAMPRUS59x36
+a36e04 location GSAMPRUS59x37
+644746 location GSAMPRUS59x39
+26be5d location GSAMPRUS59x41
+f71e65 location GSAMPRUS59x43
+4fb133 location GSAMPRUS59x44
+86c9c7 location GSAMPRUS59x45
+e61d93 location GSAMPRUS59x46
+5aa9d6 location GSAMPRUS59x48
+78cb4c location GSAMPRUS59x49
+3fb821 location GSAMPRUS59x50
+de88ec location GSAMPRUS59x51
+ff488e location GSAMPRUS59x52
+8a804d location GSAMPRUS59x54
+e1c353 location GSAMPRUS59x60
+3cd7e0 location GSAMPRUS59x66
+f24571 location GSAMPRUS59x73
+2d2f66 location GSAMPRUS59x80
+0c9f37 location GSAMPRUS59x90
+27a7bc location GSAMPRUS61x6
+d223ec location GSAMPRUS67x79
 
 ## tuning
 
