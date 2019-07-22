@@ -33,9 +33,11 @@ global rebootasic 7
 # group=rowc rebootasic 1
 # group=rowd allowed no
 
-## RUSSIA
+## vlans
 vlan 10.0.53.140-161
 vlan 10.0.54.1-38
+
+## locations
 37c8cd location RGESURUS0001
 afb5e3 location RGESURUS0002
 da7d9d location RGESURUS0003
@@ -96,21 +98,6 @@ a02b78 location RGESURUS0055
 ff032f location RGESURUS0058
 4f826d location RGESURUS0059
 75ef00 location RGESURUS0060
-
-## COLORADO
-vlan 172.16.202.91-95
-vlan 172.16.202.111-111
-904b7f location RGESUCOS0001
-d360c8 location RGESUCOS0002
-a8b8de location RGESUCOS0003
-329fab location RGESUCOS0004
-828235 location RGESUCOS0005
-af9564 location RGESUCOS0006
-904b7f retune 1
-d360c8 retune 1
-a8b8de retune 1
-329fab retune 1
-af9564 retune 1
 
 ## tuning
 # generated on Jul 22 2019 14:48:55 utc
@@ -183,7 +170,6 @@ b65a11 rebootasic 1563417062 # 10.0.53.155
 a4164a rebootasic 1563417062 # 10.0.53.160
 753f7e rebootasic 1563417062 # 10.0.53.159
 b004dc rebootasic 1563417062 # 10.0.54.13
-
 
 ## asic password
 asicpass admin
