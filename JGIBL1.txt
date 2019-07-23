@@ -46,6 +46,13 @@ b897c7 location JGIBL0002
 ffc9c8 location JGIBL0003
 
 ## tuning ([ASICID] maxwatts ####)
+# generated on Jul 23 2019 15:13:51 utc
+b897c7 maxwatts 1150 # 10.0.55.158
+615313 maxwatts 1400 # 10.0.55.151
+ffc9c8 maxwatts 1300 # 10.0.56.90
+b897c7 rebootasic 1563894831 # 10.0.55.158
+615313 rebootasic 1563894831 # 10.0.55.151
+ffc9c8 rebootasic 1563894831 # 10.0.56.90
 
 b897c7 maxwatts 1250
 
