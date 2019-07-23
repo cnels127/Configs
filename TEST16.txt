@@ -93,6 +93,12 @@ vlan 10.0.66.110-110
 ## locations
 
 ## tuning
+# generated on Jul 23 2019 15:47:37 utc
+d0ff80 maxwatts 550 # 10.0.66.159
+860aa3 maxwatts 1250 # 10.0.64.154
+d0ff80 rebootasic 1563896857 # 10.0.66.159
+860aa3 rebootasic 1563896857 # 10.0.64.154
+
 # generated on Jul 23 2019 14:25:18 utc
 d0ff80 maxwatts 650 # 10.0.66.159
 fbf390 maxwatts 1150 # 10.0.65.42
