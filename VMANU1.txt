@@ -24,7 +24,7 @@ global allowed yes
 global maxtemp 90
 global fanspeed 95
 global fansaver 65
-global asicblink worker
+global blinkgreen rapid
 
 # global retune 1
 # global rebootasic 1
@@ -47,21 +47,85 @@ vlan 10.0.60.122-122
 vlan 10.0.60.160-160
 vlan 10.0.61.5-5
 
+vlan 10.0.61.45-45
+vlan 10.0.61.61-61
+vlan 10.0.61.161-161
+vlan 10.0.63.133-133
+vlan 10.0.65.39-39
+vlan 10.0.65.47-47
+vlan 10.0.65.76-76
+vlan 10.0.65.94-94
+vlan 10.0.65.118-118
+vlan 10.0.65.144-144
+vlan 10.0.66.31-31
+vlan 10.0.66.41-41
+vlan 10.0.66.64-64
+vlan 10.0.66.66-66
+vlan 10.0.66.69-69
+vlan 10.0.66.90-90
+vlan 10.0.66.96-96
+vlan 10.0.66.117-117
+vlan 10.0.66.127-127
+vlan 10.0.67.63-63
+
 ## locations
-287685 location VMANU0001
-ac4af9 location VMANU0002
-6ee7a2 location VMANU0003
-4d564a location VMANU0004
-00eded location VMANU0005
-0d2787 location VMANU0006
-6f8a97 location VMANU0007
+287685 location VMANURUS59X120
+ac4af9 location VMANURUS59x126
+6ee7a2 location VMANURUS59x148
+4d564a location VMANURUS60x27
+00eded location VMANURUS60x30
+0d2787 location VMANURUS60x44
+6f8a97 location VMANURUS60x55
 26db41 location EXTRA
-698d83 location VMANU0008
-29cb77 location VMANU0009
-689c52 location VMANU0010
+698d83 location VMANURUS58x82
+29cb77 location VMANURUS60x160
+689c52 location VMANURUS61x5
+2687fa location VMANURUS66x127
+231e50 location VMANURUS61x61
+110033 location VMANURUS66x96
+545c77 location VMANURUS66x66
+b3a56f location VMANURUS65x76
+b56664 location VMANURUS67x63
+9beb97 location VMANURUS66x41
+53c201 location VMANURUS61x161
+89473a location VMANURUS66x90
+f4b34b location VMANURUS65x144
+43d9af location VMANURUS66x117
+1583d5 location VMANURUS66x64
+8944e8 location VMANURUS65x47
+f1d074 location VMANURUS61x45
+8e887d location VMANURUS66x31
+183877 location VMANURUS66x69
+698e7c location VMANURUS65x118
+6571e1 location VMANURUS65x94
+91e17b location VMANURUS63x133
+e1abed location VMANURUS65x39
+
 
 ## tuning
 689c52 maxwatts 1325
+2687fa maxwatts 1250
+231e50 maxwatts 1250
+110033 maxwatts 1250
+545c77 maxwatts 1250
+b3a56f maxwatts 1250
+b56664 maxwatts 1250
+9beb97 maxwatts 1250
+53c201 maxwatts 1250
+89473a maxwatts 1250
+f4b34b maxwatts 1250
+43d9af maxwatts 1250
+1583d5 maxwatts 1250
+8944e8 maxwatts 1250
+f1d074 maxwatts 1250
+8e887d maxwatts 1250
+183877 maxwatts 1250
+698e7c maxwatts 1250
+6571e1 maxwatts 1250
+91e17b maxwatts 1250
+a39e08 maxwatts 1250
+e1abed maxwatts 1250
+
 
 689c52 retune 1
 287685 retune 1
