@@ -41,16 +41,16 @@ vlan 172.16.200.243-243
 vlan 172.16.200.248-249
 
 ## locations
-b95dbf location RMIRA0001
-95b875 location RMIRA0002
-5cd170 location RMIRA0003
-4423F1 location RMIRA0004
-3D3EA3 location RMIRA0005
-66215B location RMIRA0006
-4E58E9 location RMIRA0007
-D2B82C location RMIRA0008
-F704DC location RMIRA0009
-A0E30F location RMIRA0010
+b95dbf location 18E30
+95b875 location 18E31
+5cd170 location 18E32
+4423f1 location 18E33
+3d3ea3 location 18E34
+66215b location 18E35
+4e58e9 location 18E36
+d2b82c location 18E37
+f704dc location 18E38
+a0e30f location 18E39
 
 ## tuning
 b95dbf maxwatts 1250 # 172.16.200.248
