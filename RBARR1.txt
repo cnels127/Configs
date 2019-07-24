@@ -34,8 +34,10 @@ global rebootasic 1
 # group=rowc rebootasic 1
 # group=rowd allowed no
 
-## RUSSIA
+## vlans
 vlan 10.0.57.48-72
+
+## locations
 4b3a51 location RBARR0001
 6723e2 location RBARR0002
 0be34f location RBARR0003
@@ -149,28 +151,6 @@ eea5d2 maxwatts 1300
 427893 retune 1
 e83b5d retune 1
 0746eb retune 2
-
-## COLORADO
-vlan 172.16.201.217-217
-vlan 172.16.201.245-245
-vlan 172.16.204.89-90
-vlan 172.16.204.93-94
-vlan 172.16.204.220-220
-a9c33f location tara
-b4de9a location jay1
-43345a location anton
-b70584 location thomas
-c724bb location jay2
-cfd708 location shadow
-713952 location mojo
-a9c33f maxwatts 1300
-b4de9a maxwatts 1300
-43345a maxwatts 1300
-b70584 maxwatts 1300
-c724bb maxwatts 1300
-cfd708 maxwatts 1300
-713952 maxwatts 1300
-a9c33f retune 1
 
 ## asic password
 asicpass admin
