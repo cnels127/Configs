@@ -38,29 +38,56 @@ global rebootasic 4
 ## vlans
 # vlan 10.0.32.46-59
 # vlan 10.0.54.64-73
-vlan 10.0.59.113-113
-vlan 10.0.59.117-117
-vlan 10.0.59.119-119
-vlan 10.0.59.122-122
-vlan 10.0.59.125-125
-vlan 10.0.59.134-134
-vlan 10.0.59.158-158
-vlan 10.0.60.3-3
-vlan 10.0.60.49-49
-vlan 10.0.60.54-54
-vlan 10.0.60.60-60
-vlan 10.0.60.75-75
-vlan 10.0.60.79-79
-vlan 10.0.60.92-92
-vlan 10.0.60.98-98
-vlan 10.0.60.101-101
-vlan 10.0.60.103-103
-vlan 10.0.60.105-106
-vlan 10.0.60.114-114
-vlan 10.0.60.126-126
-vlan 10.0.60.134-134
-vlan 10.0.60.138-138
-vlan 10.0.60.140-140
+# vlan 10.0.59.113-113
+# vlan 10.0.59.117-117
+# vlan 10.0.59.119-119
+# vlan 10.0.59.122-122
+# vlan 10.0.59.125-125
+# vlan 10.0.59.134-134
+# vlan 10.0.59.158-158
+# vlan 10.0.60.3-3
+# vlan 10.0.60.49-49
+# vlan 10.0.60.54-54
+# vlan 10.0.60.60-60
+# vlan 10.0.60.75-75
+# vlan 10.0.60.79-79
+# vlan 10.0.60.92-92
+# vlan 10.0.60.98-98
+# vlan 10.0.60.101-101
+# vlan 10.0.60.103-103
+# vlan 10.0.60.105-106
+# vlan 10.0.60.114-114
+# vlan 10.0.60.126-126
+# vlan 10.0.60.134-134
+# vlan 10.0.60.138-138
+# vlan 10.0.60.140-140
+vlan 10.0.59.42-42
+vlan 10.0.61.56-56
+vlan 10.0.62.161-161
+vlan 10.0.65.150-150
+vlan 10.0.65.154-154
+vlan 10.0.66.75-75
+vlan 10.0.66.81-81
+vlan 10.0.66.95-95
+vlan 10.0.66.142-144
+vlan 10.0.66.146-146
+vlan 10.0.66.149-149
+vlan 10.0.66.158-158
+vlan 10.0.67.2-5
+vlan 10.0.67.7-9
+vlan 10.0.67.11-14
+vlan 10.0.67.16-19
+vlan 10.0.67.21-21
+vlan 10.0.67.23-23
+vlan 10.0.67.25-26
+vlan 10.0.67.28-29
+vlan 10.0.67.32-33
+vlan 10.0.67.35-35
+vlan 10.0.67.38-39
+vlan 10.0.67.41-45
+vlan 10.0.67.47-47
+vlan 10.0.67.49-53
+vlan 10.0.67.56-56
 
 ## locations
 adad49 location s01
@@ -111,8 +138,113 @@ adb312 location s40
 5dc1a8 location s46
 da01dc location s47
 6faa51 location s48
+f16670 location s49
+a44945 location s50
+9b3778 location s51
+9bdd75 location s52
+bf975b location s53
+3a5117 location s54
+1adc88 location s55
+70fe6e location s56
+891907 location s57
+d830a5 location s58
+11664a location s59
+78698e location s60
+d1214b location s61
+ef1930 location s62
+eb170d location s63
+0f1f61 location s64
+fdbceb location s65
+0a4ade location s66
+1ed5db location s67
+795c1e location s68
+19d799 location s69
+9beff8 location s70
+3a984c location s71
+13dae8 location s72
+18b1ae location s73
+dd51b7 location s74
+db4511 location s75
+2997d7 location s76
+640292 location s77
+551582 location s78
+10d06a location s79
+22efe8 location s80
+876b58 location s81
+ab21b7 location s82
+0c44c2 location s83
+e30009 location s84
+f6a043 location s85
+1e8068 location s86
+357e75 location s87
+0e26a9 location s88
+a55b5b location s89
+7f9402 location s90
+a6a4fb location s91
+f128ab location s92
+6d061b location s93
+209839 location s94
+8943b5 location s95
+728e7c location s96
+12efbe location s97
+239cfe location s98
+494e5b location s99
+dded6c location s100
 
 ## tuning
+f16670 maxwatts 1450
+a44945 maxwatts 1450
+9b3778 maxwatts 1450
+9bdd75 maxwatts 1450
+bf975b maxwatts 1450
+3a5117 maxwatts 1450
+1adc88 maxwatts 1450
+70fe6e maxwatts 1450
+891907 maxwatts 1450
+d830a5 maxwatts 1450
+11664a maxwatts 1450
+78698e maxwatts 1450
+d1214b maxwatts 1450
+ef1930 maxwatts 1450
+eb170d maxwatts 1450
+0f1f61 maxwatts 1450
+fdbceb maxwatts 1450
+0a4ade maxwatts 1450
+1ed5db maxwatts 1450
+795c1e maxwatts 1450
+19d799 maxwatts 1450
+9beff8 maxwatts 1450
+3a984c maxwatts 1450
+13dae8 maxwatts 1450
+18b1ae maxwatts 1450
+dd51b7 maxwatts 1450
+db4511 maxwatts 1450
+2997d7 maxwatts 1450
+640292 maxwatts 1450
+551582 maxwatts 1450
+10d06a maxwatts 1450
+22efe8 maxwatts 1450
+876b58 maxwatts 1450
+ab21b7 maxwatts 1450
+0c44c2 maxwatts 1450
+e30009 maxwatts 1450
+f6a043 maxwatts 1450
+1e8068 maxwatts 1350
+357e75 maxwatts 1450
+0e26a9 maxwatts 1350
+a55b5b maxwatts 1350
+7f9402 maxwatts 1350
+a6a4fb maxwatts 1450
+f128ab maxwatts 1350
+6d061b maxwatts 1450
+209839 maxwatts 1450
+8943b5 maxwatts 1450
+728e7c maxwatts 1350
+12efbe maxwatts 1350
+239cfe maxwatts 1350
+494e5b maxwatts 1350
+dded6c maxwatts 1350
+
 # generated on Jul 23 2019 14:47:32 utc
 6ff8a0 maxwatts 1200 # 10.0.60.54
 bebcdf maxwatts 1325 # 10.0.54.68
