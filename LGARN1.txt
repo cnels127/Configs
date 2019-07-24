@@ -1,0 +1,50 @@
+## instructions available at: https://asicseer.com/page/kb#writing-config
+
+global custompanel LGARN1bit049
+
+global poolname1 eu1.btc.bitriver.farm:7913
+global username1 bit49btc
+global poolpass1 123
+global sendworker1 yes
+global poolname2 eu2.btc.bitriver.farm:7913
+global username2 bit49btc
+global poolpass2 123
+global sendworker2 yes
+global poolname3 cn1.btc.bitriver.farm:7913
+global username3 bit49btc
+global poolpass3 123
+global sendworker3 yes
+
+global asicboost yes
+global autotune yes
+global maxwatts 1450
+
+global autoupdate no
+global allowed yes
+global maxtemp 90
+global fanspeed 100
+global fansaver 65
+global blinkgreen rapid
+
+# global retune 1
+# global rebootasic 1
+# global resetasic 1
+# global panelpass gj83Nkgikg
+
+# group=rowc rebootasic 1
+# group=rowd allowed no
+
+## vlans
+vlan 10.0.65.60-60
+vlan 10.0.65.102-102
+vlan 10.0.67.85-85
+
+## locations
+0aaeb9 location LGARNRUS65x60
+0fdb4f location LGARNRUS65x102
+1d58bd location LGARNRUS67x85
+
+## tuning
+
+## asic password
+asicpass admin
