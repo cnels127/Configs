@@ -1,0 +1,64 @@
+## instructions available at: https://asicseer.com/page/kb#writing-config
+
+global custompanel RBARR2bit049
+
+global poolname1 stratum.antpool.com:3333
+global username1 jummy
+global poolpass1 123
+global sendworker1 yes
+global poolname2 stratum.antpool.com:443
+global username2 jummy
+global poolpass2 123
+global sendworker2 yes
+global poolname3 profit.pool.bitcoin.com:3333
+global username3 jummy
+global poolpass3 123
+global sendworker3 yes
+
+global asicboost yes
+global autotune yes
+global maxwatts 1300
+
+global autoupdate no
+global allowed yes
+global maxtemp 90
+global fanspeed 95
+global fansaver 65
+global blinkgreen rapid
+
+# global retune 1
+global rebootasic 1
+# global resetasic 1
+# global panelpass gj83Nkgikg
+
+# group=rowc rebootasic 1
+# group=rowd allowed no
+
+## vlans
+vlan 172.16.201.217-217
+vlan 172.16.201.245-245
+vlan 172.16.204.89-90
+vlan 172.16.204.93-94
+vlan 172.16.204.220-220
+
+## location
+a9c33f location tara
+b4de9a location jay1
+43345a location anton
+b70584 location thomas
+c724bb location jay2
+cfd708 location shadow
+713952 location mojo
+
+## tuning
+a9c33f maxwatts 1300
+b4de9a maxwatts 1300
+43345a maxwatts 1300
+b70584 maxwatts 1300
+c724bb maxwatts 1300
+cfd708 maxwatts 1300
+713952 maxwatts 1300
+a9c33f retune 1
+
+## asic password
+asicpass admin
