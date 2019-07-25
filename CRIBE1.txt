@@ -319,6 +319,15 @@ f870b1 location CRIBE0138
 e64f0a location CRIBE0140
 
 ## tuning
+b88126 maxwatts 1150 # 10.0.59.87
+002a63 maxwatts 1050 # 10.0.58.155
+333095 maxwatts 1050 # 10.0.59.94
+ceceac maxwatts 1050 # 10.0.59.57
+b88126 rebootasic 1564039147 # 10.0.59.87
+002a63 rebootasic 1564039147 # 10.0.58.155
+333095 rebootasic 1564039147 # 10.0.59.94
+ceceac rebootasic 1564039147 # 10.0.59.57
+
 b88126 maxwatts 1250 # 10.0.59.87
 333095 maxwatts 1150 # 10.0.59.94
 e46a8f maxwatts 1150 # 10.0.59.108
