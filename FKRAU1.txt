@@ -75,6 +75,9 @@ vlan 10.0.54.39-48
 vlan 10.0.62.66-75
 
 ## tuning
+66f88a maxwatts 1100 # 10.0.54.40
+66f88a rebootasic 1564055083 # 10.0.54.40
+
 02c22d maxwatts 1400 # 10.0.54.39
 02c22d rebootasic 1564047307 # 10.0.54.39
 
