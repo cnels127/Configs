@@ -47,6 +47,11 @@ vlan 10.0.56.104-104
 93e110 location JDRIG0004
 
 ## tuning
+9b787e maxwatts 1275 # 10.0.55.145
+33b5df maxwatts 1475 # 10.0.55.125
+9b787e rebootasic 1564036147 # 10.0.55.145
+33b5df rebootasic 1564036147 # 10.0.55.125
+
 # generated on Jul 24 2019 15:01:57 utc
 9b787e maxwatts 1375 # 10.0.55.145
 9b787e rebootasic 1563980517 # 10.0.55.145
