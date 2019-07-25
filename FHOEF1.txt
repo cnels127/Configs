@@ -60,6 +60,13 @@ de83b4 location 0006
 d2d829 location 0010
 
 ## tuning
+17e1e7 maxwatts 1300 # 10.0.56.85
+8d76ff maxwatts 1300 # 10.0.56.79
+d2d829 maxwatts 1300 # 10.0.56.88
+17e1e7 rebootasic 1564036126 # 10.0.56.85
+8d76ff rebootasic 1564036126 # 10.0.56.79
+d2d829 rebootasic 1564036126 # 10.0.56.88
+
 # generated on Jul 23 2019 14:13:34 utc
 e0ccfa maxwatts 1275 # 10.0.55.140
 0faa22 maxwatts 1175 # 10.0.55.153
