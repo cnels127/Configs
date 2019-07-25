@@ -50,6 +50,9 @@ df6f8a location ARAMA0004
 0a29cc location ARAMA0006
 
 ## tuning
+df6f8a maxwatts 1000 # 10.0.56.106
+df6f8a rebootasic 1564047270 # 10.0.56.106
+
 dc1171 maxwatts 1100 # 10.0.54.142
 dc1171 rebootasic 1564043403 # 10.0.54.142
 
