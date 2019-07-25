@@ -55,6 +55,9 @@ e260d5 location MNADE0009
 6e6dd8 location MNADE0010
 
 ## tuning
+e260d5 maxwatts 1300 # 10.0.67.37
+e260d5 rebootasic 1564039215 # 10.0.67.37
+
 6e6dd8 maxwatts 1175 # 10.0.65.104
 e8521d maxwatts 1200 # 10.0.68.25
 8a919b maxwatts 1325 # 10.0.57.84
