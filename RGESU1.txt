@@ -100,6 +100,27 @@ ff032f location RGESURUS0058
 75ef00 location RGESURUS0060
 
 ## tuning
+b65a11 maxwatts 500 # 10.0.53.155
+123f64 maxwatts 1000 # 10.0.53.161
+13b57d maxwatts 1100 # 10.0.53.157
+535558 maxwatts 1200 # 10.0.54.22
+59a9ba maxwatts 1200 # 10.0.54.32
+6f1bef maxwatts 1100 # 10.0.53.144
+e8e0ce maxwatts 1200 # 10.0.53.149
+35f34a maxwatts 1000 # 10.0.53.158
+753f7e maxwatts 1000 # 10.0.53.159
+b004dc maxwatts 1000 # 10.0.54.13
+b65a11 rebootasic 1564036211 # 10.0.53.155
+123f64 rebootasic 1564036211 # 10.0.53.161
+13b57d rebootasic 1564036211 # 10.0.53.157
+535558 rebootasic 1564036211 # 10.0.54.22
+59a9ba rebootasic 1564036211 # 10.0.54.32
+6f1bef rebootasic 1564036211 # 10.0.53.144
+e8e0ce rebootasic 1564036211 # 10.0.53.149
+35f34a rebootasic 1564036211 # 10.0.53.158
+753f7e rebootasic 1564036211 # 10.0.53.159
+b004dc rebootasic 1564036211 # 10.0.54.13
+
 # generated on Jul 24 2019 14:33:08 utc
 b65a11 maxwatts 500 # 10.0.53.155
 29ece6 maxwatts 1200 # 10.0.53.152
