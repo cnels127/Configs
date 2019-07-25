@@ -66,6 +66,13 @@ e6ca25 location KAUYE0013
 d87db4 location KAUYE0014
 
 ## tuning
+02423d maxwatts 1350 # 10.0.55.135
+0a35cb maxwatts 1150 # 10.0.55.149
+d87db4 maxwatts 1350 # 10.0.56.133
+02423d rebootasic 1564036161 # 10.0.55.135
+0a35cb rebootasic 1564036161 # 10.0.55.149
+d87db4 rebootasic 1564036161 # 10.0.56.133
+
 # generated on Jul 23 2019 15:10:05 utc
 f371c7 maxwatts 1425 # 10.0.56.20
 e6ca25 maxwatts 1150 # 10.0.56.108
