@@ -53,6 +53,19 @@ dfb542 location MBLAK0010
 5d3f6c location MBLAK0012
 
 ## tuning
+dfb542 maxwatts 1175 # 10.0.56.156
+e27d2f maxwatts 1150 # 10.0.56.153
+5d3f6c maxwatts 1075 # 10.0.56.158
+ecd90f maxwatts 875 # 10.0.56.155
+1e74b1 maxwatts 1150 # 10.0.56.157
+3bd8d4 maxwatts 1150 # 10.0.56.151
+dfb542 rebootasic 1564036180 # 10.0.56.156
+e27d2f rebootasic 1564036180 # 10.0.56.153
+5d3f6c rebootasic 1564036180 # 10.0.56.158
+ecd90f rebootasic 1564036180 # 10.0.56.155
+1e74b1 rebootasic 1564036180 # 10.0.56.157
+3bd8d4 rebootasic 1564036180 # 10.0.56.151
+
 # generated on Jul 24 2019 14:30:12 utc
 abee59 maxwatts 1075 # 10.0.56.149
 abee59 rebootasic 1563978612 # 10.0.56.149
