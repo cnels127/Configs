@@ -190,6 +190,17 @@ d3cdf7 location LMACK0100
 
 
 ## tuning
+5eb8bd maxwatts 500 # 10.0.54.108
+f51c4d maxwatts 500 # 10.0.64.161
+bf813c maxwatts 850 # 10.0.54.93
+945ac7 maxwatts 1150 # 10.0.54.113
+7a6f07 maxwatts 1250 # 10.0.54.95
+5eb8bd rebootasic 1564047345 # 10.0.54.108
+f51c4d rebootasic 1564047345 # 10.0.64.161
+bf813c rebootasic 1564047345 # 10.0.54.93
+945ac7 rebootasic 1564047345 # 10.0.54.113
+7a6f07 rebootasic 1564047345 # 10.0.54.95
+
 f51c4d maxwatts 525 # 10.0.64.161
 bf813c maxwatts 950 # 10.0.54.93
 5eb8bd maxwatts 500 # 10.0.54.108
