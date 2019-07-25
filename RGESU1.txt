@@ -101,6 +101,17 @@ ff032f location RGESURUS0058
 
 ## tuning
 b65a11 maxwatts 500 # 10.0.53.155
+e4a1aa maxwatts 1200 # 10.0.53.143
+d92dc2 maxwatts 1100 # 10.0.53.150
+7a36b9 maxwatts 1100 # 10.0.53.151
+6073d8 maxwatts 1000 # 10.0.53.156
+b65a11 rebootasic 1564047378 # 10.0.53.155
+e4a1aa rebootasic 1564047378 # 10.0.53.143
+d92dc2 rebootasic 1564047378 # 10.0.53.150
+7a36b9 rebootasic 1564047378 # 10.0.53.151
+6073d8 rebootasic 1564047378 # 10.0.53.156
+
+b65a11 maxwatts 500 # 10.0.53.155
 123f64 maxwatts 900 # 10.0.53.161
 13b57d maxwatts 1000 # 10.0.53.157
 a4164a maxwatts 800 # 10.0.53.160
