@@ -52,6 +52,11 @@ fff476 location NPAVL0008
 570241 location NPAVL0010
 
 ## tuning
+570241 maxwatts 1150 # 10.0.57.141
+3cfe14 maxwatts 950 # 10.0.57.131
+570241 rebootasic 1564036198 # 10.0.57.141
+3cfe14 rebootasic 1564036198 # 10.0.57.131
+
 # generated on Jul 24 2019 14:33:08 utc
 370d4b maxwatts 500 # 10.0.57.132
 3cfe14 maxwatts 1050 # 10.0.57.131
