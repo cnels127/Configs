@@ -52,6 +52,11 @@ f5ddbb location DBELT0003
 056415 location DBELT0008
 
 ## tuning
+356422 maxwatts 850 # 10.0.54.159
+e7a422 maxwatts 950 # 10.0.54.156
+356422 rebootasic 1564036112 # 10.0.54.159
+e7a422 rebootasic 1564036112 # 10.0.54.156
+
 # generated on Jul 23 2019 15:20:55 utc
 0747e2 maxwatts 850 # 10.0.54.158
 e7a422 maxwatts 1050 # 10.0.54.156
