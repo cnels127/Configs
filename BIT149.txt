@@ -45,6 +45,11 @@ vlan 172.16.204.223-223
 ## locations
 
 ## tuning
+7fe818 maxwatts 1250 # 172.16.91.156
+5c1ae5 maxwatts 1050 # 172.16.204.46
+7fe818 rebootasic 1564036095 # 172.16.91.156
+5c1ae5 rebootasic 1564036095 # 172.16.204.46
+
 # generated on Jul 22 2019 22:29:47 utc
 65e9cb maxwatts 1150 # 172.16.202.153
 bb43ef maxwatts 1150 # 172.16.204.63
