@@ -204,6 +204,14 @@ vlan 10.0.229.199-199
 ## locations
 
 ## tuning
+# generated on Jul 25 2019 21:28:07 utc
+ecde5a maxwatts 1250 # 10.0.226.153
+319230 maxwatts 550 # 10.0.226.141
+e488d7 maxwatts 1050 # 10.0.229.27
+ecde5a rebootasic 1564090087 # 10.0.226.153
+319230 rebootasic 1564090087 # 10.0.226.141
+e488d7 rebootasic 1564090087 # 10.0.229.27
+
 319230 maxwatts 650 # 10.0.226.141
 e488d7 maxwatts 1150 # 10.0.229.27
 319230 rebootasic 1564036078 # 10.0.226.141
