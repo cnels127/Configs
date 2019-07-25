@@ -64,6 +64,13 @@ c842f9 location MSHID0007
 bccae7 location MSHID0014
 
 ## tuning
+304296 maxwatts 625 # 10.0.57.156
+bccae7 maxwatts 1425 # 10.0.58.24
+117c61 maxwatts 1225 # 10.0.57.147
+304296 rebootasic 1564036187 # 10.0.57.156
+bccae7 rebootasic 1564036187 # 10.0.58.24
+117c61 rebootasic 1564036187 # 10.0.57.147
+
 # generated on Jul 24 2019 14:33:08 utc
 96d39b maxwatts 1350 # 10.0.57.149
 304296 maxwatts 725 # 10.0.57.156
