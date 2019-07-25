@@ -226,6 +226,9 @@ vlan 10.0.229.192-192
 ## location1
 
 ## tuning
+cb9612 maxwatts 1400 # 10.0.228.189
+cb9612 rebootasic 1564036099 # 10.0.228.189
+
 # generated on Jul 22 2019 22:31:09 utc
 915cb5 maxwatts 1000 # 10.0.226.86
 915cb5 rebootasic 1563834669 # 10.0.226.86
