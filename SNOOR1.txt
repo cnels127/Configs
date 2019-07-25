@@ -44,6 +44,9 @@ vlan 10.0.55.84-161
 vlan 10.0.56.1-146
 
 ## tuning
+ab2a55 maxwatts 1350 # 10.0.56.81
+ab2a55 rebootasic 1564036237 # 10.0.56.81
+
 # generated on Jul 24 2019 14:39:16 utc
 ab2a55 maxwatts 1450 # 10.0.56.81
 86bcfb maxwatts 1250 # 10.0.55.124
