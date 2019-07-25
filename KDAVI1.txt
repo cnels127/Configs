@@ -48,6 +48,11 @@ cf1a34 location KDAVI0001
 8ef4ad location KDAVI0006
 
 ## tuning
+cf1a34 maxwatts 1175 # 10.0.54.148
+312516 maxwatts 1250 # 10.0.54.149
+cf1a34 rebootasic 1564036162 # 10.0.54.148
+312516 rebootasic 1564036162 # 10.0.54.149
+
 # generated on Jul 23 2019 15:09:28 utc
 5f861d maxwatts 1250 # 10.0.54.150
 0819f9 maxwatts 1075 # 10.0.56.128
