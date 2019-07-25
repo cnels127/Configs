@@ -47,6 +47,11 @@ f7deb6 location TNOLA0002
 be162a location TNOLA0005
 
 ## tuning
+eaab57 maxwatts 1450 # 10.0.57.76
+8bbd8a maxwatts 1450 # 10.0.57.79
+eaab57 rebootasic 1564036254 # 10.0.57.76
+8bbd8a rebootasic 1564036254 # 10.0.57.79
+
 # generated on Jul 24 2019 14:44:51 utc
 9e6254 maxwatts 1000 # 10.0.57.78
 9e6254 rebootasic 1563979491 # 10.0.57.78
