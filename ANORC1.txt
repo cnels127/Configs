@@ -50,6 +50,11 @@ ce82d1 location ANORC0009
 88093b location ANORC0010
 
 ## tuning
+d0157c maxwatts 1150 # 10.0.68.96
+0796c0 maxwatts 1250 # 10.0.68.97
+d0157c rebootasic 1564036084 # 10.0.68.96
+0796c0 rebootasic 1564036084 # 10.0.68.97
+
 # generated on Jul 23 2019 15:26:12 utc
 d0157c maxwatts 1250 # 10.0.68.96
 29b205 maxwatts 1250 # 10.0.68.92
