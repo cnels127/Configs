@@ -101,6 +101,17 @@ f24571 location GSAMPRUS59x73
 d223ec location GSAMPRUS67x79
 
 ## tuning
+ff488e maxwatts 1425 # 10.0.59.52
+62bdc8 maxwatts 1200 # 10.0.58.70
+26be5d maxwatts 1300 # 10.0.59.41
+c5496d maxwatts 1300 # 10.0.56.40
+41be8a maxwatts 1450 # 10.0.56.56
+ff488e rebootasic 1564036133 # 10.0.59.52
+62bdc8 rebootasic 1564036133 # 10.0.58.70
+26be5d rebootasic 1564036133 # 10.0.59.41
+c5496d rebootasic 1564036133 # 10.0.56.40
+41be8a rebootasic 1564036133 # 10.0.56.56
+
 # generated on Jul 23 2019 13:55:22 utc
 d223ec maxwatts 1350 # 10.0.67.79
 78cb4c maxwatts 1425 # 10.0.59.49
