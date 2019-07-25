@@ -1,0 +1,119 @@
+## instructions available at: https://asicseer.com/page/kb#writing-config
+
+global custompanel SNOOR3bit049
+
+global poolname1 eu.stratum.slushpool.com:3333
+global username1 zoubrown
+global poolpass1 123
+global sendworker1 yes
+global poolname2 us-east.stratum.slushpool.com:3333
+global username2 zoubrown
+global poolpass2 123
+global sendworker2 yes
+global poolname3 stratum.slushpool.com:3333
+global username3 zoubrown
+global poolpass3 123
+global sendworker3 yes
+
+global asicboost yes
+global autotune yes
+global maxwatts 1450
+
+global autoupdate no
+global allowed yes
+global maxtemp 90
+global fanspeed 100
+global fansaver 65
+global blinkgreen rapid
+
+# global retune 1
+# global rebootasic 1
+# global resetasic 1
+# global panelpass gj83Nkgikg
+
+# group=rowc rebootasic 1
+# group=rowd allowed no
+
+## vlans
+vlan 10.0.62.158-158
+vlan 10.0.64.25-25
+vlan 10.0.64.84-84
+vlan 10.0.65.58-58
+vlan 10.0.65.73-73
+vlan 10.0.65.101-101
+vlan 10.0.65.116-116
+vlan 10.0.66.9-9
+vlan 10.0.66.19-19
+vlan 10.0.66.35-35
+vlan 10.0.66.53-53
+vlan 10.0.66.57-57
+vlan 10.0.66.67-67
+vlan 10.0.66.68-68
+vlan 10.0.66.151-151
+vlan 10.0.66.152-152
+vlan 10.0.66.155-155
+vlan 10.0.66.156-156
+vlan 10.0.67.15-15
+vlan 10.0.67.31-31
+vlan 10.0.67.55-55
+vlan 10.0.67.57-57
+vlan 10.0.67.59-59
+vlan 10.0.67.76-76
+vlan 10.0.67.90-90
+
+## locations
+fb62b2 location SNOORRUS62x158
+6f3a26 location SNOORRUS64x25
+2f78ac location SNOORRUS64x84
+042161 location SNOORRUS65x58
+bcf062 location SNOORRUS65x73
+da3441 location SNOORRUS65x101
+d1055d location SNOORRUS65x116
+543486 location SNOORRUS66x9
+8e80f3 location SNOORRUS66x19
+e51a48 location SNOORRUS66x35
+fb8a3a location SNOORRUS66x53
+38f9db location SNOORRUS66x57
+9751c0 location SNOORRUS66x67
+504bf9 location SNOORRUS66x68
+0041b8 location SNOORRUS66x151
+0c43df location SNOORRUS66x152
+e0eea2 location SNOORRUS66x155
+6f584d location SNOORRUS66x156
+fe3f38 location SNOORRUS67x15
+a2153e location SNOORRUS67x31
+002190 location SNOORRUS67x55
+1bc2e0 location SNOORRUS67x57
+3c233a location SNOORRUS67x59
+280ed6 location SNOORRUS67x76
+5873d0 location SNOORRUS67x90
+
+## tuning
+fb62b2 maxwatts 1450
+6f3a26 maxwatts 1250
+2f78ac maxwatts 1350
+042161 maxwatts 1250
+bcf062 maxwatts 1450
+da3441 maxwatts 1450
+d1055d maxwatts 1350
+543486 maxwatts 1450
+8e80f3 maxwatts 1350
+e51a48 maxwatts 1350
+fb8a3a maxwatts 1250
+38f9db maxwatts 1250
+9751c0 maxwatts 1350
+504bf9 maxwatts 1450
+0041b8 maxwatts 1450
+0c43df maxwatts 1350
+e0eea2 maxwatts 1350
+6f584d maxwatts 1150
+fe3f38 maxwatts 1050
+a2153e maxwatts 1250
+002190 maxwatts 1250
+1bc2e0 maxwatts 1250
+3c233a maxwatts 1250
+280ed6 maxwatts 1350
+5873d0 maxwatts 1450
+
+## asic password
+asicpass admin
