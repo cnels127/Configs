@@ -91,6 +91,11 @@ ce2f75 location KREDDCOS18G30
 a2bf9f retune 1
 
 ## tuning
+c02c64 maxwatts 1200 # 172.16.200.150
+6fdddc maxwatts 1100 # 172.16.203.134
+c02c64 rebootasic 1564036165 # 172.16.200.150
+6fdddc rebootasic 1564036165 # 172.16.203.134
+
 # generated on Jul 20 2019 01:18:20 utc
 9b62f0 maxwatts 1200 # 172.16.200.46
 9b62f0 rebootasic 1563585500 # 172.16.200.46
