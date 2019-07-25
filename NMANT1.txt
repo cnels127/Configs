@@ -42,6 +42,9 @@ vlan 10.0.58.132-132
 30946f location nmant0001
 
 ## tuning
+30946f maxwatts 1100 # 10.0.58.132
+30946f rebootasic 1564047363 # 10.0.58.132
+
 30946f maxwatts 1200 # 10.0.58.132
 30946f rebootasic 1564043647 # 10.0.58.132
 
