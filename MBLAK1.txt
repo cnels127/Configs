@@ -53,6 +53,11 @@ dfb542 location MBLAK0010
 5d3f6c location MBLAK0012
 
 ## tuning
+ecd90f maxwatts 675 # 10.0.56.155
+e27d2f maxwatts 1050 # 10.0.56.153
+ecd90f rebootasic 1564047350 # 10.0.56.155
+e27d2f rebootasic 1564047350 # 10.0.56.153
+
 ecd90f maxwatts 775 # 10.0.56.155
 ecd90f rebootasic 1564043634 # 10.0.56.155
 
