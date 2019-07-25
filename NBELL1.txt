@@ -120,6 +120,11 @@ e07578 location NBELL0054
 9ce38b location NBELL0055
 
 ## tuning
+69459c maxwatts 1150 # 10.0.59.35
+503b9a maxwatts 1125 # 10.0.65.96
+69459c rebootasic 1564047362 # 10.0.59.35
+503b9a rebootasic 1564047362 # 10.0.65.96
+
 1d8df2 maxwatts 1150 # 10.0.58.75
 5ef933 maxwatts 1150 # 10.0.62.33
 e9f501 maxwatts 1250 # 10.0.59.19
