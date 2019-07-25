@@ -65,6 +65,13 @@ acd279 location SRADO0015
 44a6c9 location SRADO0016
 
 ## tuning
+0f22cc maxwatts 1275 # 10.0.68.42
+71393e maxwatts 1175 # 10.0.54.140
+fc9425 maxwatts 1300 # 10.0.68.44
+0f22cc rebootasic 1564036240 # 10.0.68.42
+71393e rebootasic 1564036240 # 10.0.54.140
+fc9425 rebootasic 1564036240 # 10.0.68.44
+
 # generated on Jul 24 2019 14:39:15 utc
 50dc4e maxwatts 1250 # 10.0.58.15
 50dc4e rebootasic 1563979155 # 10.0.58.15
