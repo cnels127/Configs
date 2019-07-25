@@ -71,6 +71,17 @@ eef025 location DDUNN0016
 58df28 location DDUNN0018
 
 ## tuning
+ee9f37 maxwatts 650 # 10.0.54.161
+14da93 maxwatts 775 # 10.0.55.1
+15a0ef maxwatts 1050 # 10.0.55.147
+f5839e maxwatts 1075 # 10.0.55.86
+947334 maxwatts 1275 # 10.0.55.139
+ee9f37 rebootasic 1564055072 # 10.0.54.161
+14da93 rebootasic 1564055072 # 10.0.55.1
+15a0ef rebootasic 1564055072 # 10.0.55.147
+f5839e rebootasic 1564055072 # 10.0.55.86
+947334 rebootasic 1564055072 # 10.0.55.139
+
 14da93 maxwatts 875 # 10.0.55.1
 ee9f37 maxwatts 750 # 10.0.54.161
 14da93 rebootasic 1564047295 # 10.0.55.1
