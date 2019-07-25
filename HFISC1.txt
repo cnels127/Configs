@@ -85,6 +85,9 @@ c8c445 location HFISC0029
 de5a58 location HFISC0030
 
 ## tuning
+b688aa maxwatts 1050 # 10.0.60.69
+b688aa rebootasic 1564039172 # 10.0.60.69
+
 b688aa maxwatts 1150 # 10.0.60.69
 424037 maxwatts 1250 # 10.0.59.151
 779e72 maxwatts 1250 # 10.0.56.141
