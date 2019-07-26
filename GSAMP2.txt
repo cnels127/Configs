@@ -50,16 +50,17 @@ vlan 10.0.59.90-90
 vlan 10.0.67.79-79
 
 ## locations ([ASICID location [name])
-78cb4c location CryptoHayek.001
-3fb821 location CryptoHayek.002
-d223ec location CryptoHayek.003
-ff488e location CryptoHayek.004
-8a804d location CryptoHayek.005
-e1c353 location CryptoHayek.006
-3cd7e0 location CryptoHayek.007
-f24571 location CryptoHayek.008
-2d2f66 location CryptoHayek.009
-0c9f37 location CryptoHayek.010
+78cb4c location GSAMPRUS59x49
+3fb821 location GSAMPRUS59x50
+ff488e location GSAMPRUS59x52
+8a804d location GSAMPRUS59x54
+e1c353 location GSAMPRUS59x60
+3cd7e0 location GSAMPRUS59x66
+f24571 location GSAMPRUS59x73
+2d2f66 location GSAMPRUS59x80
+0c9f37 location GSAMPRUS59x90
+d223ec location GSAMPRUS67x79
+
 
 ## tuning
 # generated on Jul 23 2019 14:30:40 utc
