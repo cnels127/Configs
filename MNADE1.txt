@@ -46,7 +46,7 @@ vlan 10.0.65.104-104
 3bf939 location MNADE0001
 8a919b location MNADE0002
 2ecb70 location MNADE0003
-7e039a location MNADE0004
+543775 location MNADE0004
 4c4fe6 location MNADE0005
 2c0fb6 location MNADE0006
 e8521d location MNADE0007
@@ -98,13 +98,11 @@ e8521d rebootasic 1563444253 # 10.0.68.25
 3bf939 maxwatts 1550
 8a919b maxwatts 1525
 2ecb70 maxwatts 1525
-7e039a maxwatts 1525
+543775 maxwatts 1525
 4c4fe6 maxwatts 1500
 2c0fb6 maxwatts 1525
 e8521d maxwatts 1500
 6e6dd8 maxwatts 1475
-
-7e039a retune 1
 
 ## asic password
 asicpass admin
