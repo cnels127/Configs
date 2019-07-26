@@ -34,32 +34,7 @@ global rebootasic 5
 # group=rowd allowed no
 
 ## vlans
-vlan 10.0.216.138-138
-vlan 10.0.216.139-139
-vlan 10.0.216.144-144
-vlan 10.0.216.147-147
-vlan 10.0.216.162-162
-vlan 10.0.216.179-179
-vlan 10.0.216.180-180
-vlan 10.0.216.181-181
-vlan 10.0.216.192-192
-vlan 10.0.216.196-196
-vlan 10.0.216.209-209
 vlan 10.0.216.215-215
-vlan 10.0.216.224-224
-vlan 10.0.216.228-228
-vlan 10.0.217.7-7
-vlan 10.0.217.12-12
-vlan 10.0.217.13-13
-vlan 10.0.217.14-14
-vlan 10.0.217.22-22
-vlan 10.0.217.27-27
-vlan 10.0.217.45-45
-vlan 10.0.217.46-46
-vlan 10.0.217.47-47
-vlan 10.0.218.152-152
-vlan 10.0.218.153-153
-vlan 10.0.218.157-157
 vlan 10.0.218.160-160
 vlan 10.0.218.161-161
 vlan 10.0.218.164-164
@@ -88,7 +63,7 @@ vlan 10.0.223.81-81
 vlan 10.0.223.83-83
 vlan 10.0.223.92-92
 vlan 10.0.223.94-94
-vlan 10.0.223.95-.95
+vlan 10.0.223.95-95
 vlan 10.0.223.96-96
 vlan 10.0.223.98-98
 vlan 10.0.223.100-100
@@ -107,29 +82,29 @@ vlan 10.0.223.142-142
 vlan 10.0.223.170-170
 vlan 10.0.224.10-10
 vlan 10.0.224.11-11
-vlan 10.0.224.12-12
+vlan 10.0.216.149-149
 vlan 10.0.224.19-19
-vlan 10.0.224.24-24
+vlan 10.0.216.232-232
 vlan 10.0.224.27-27
 vlan 10.0.224.30-30
 vlan 10.0.224.31-31
-vlan 10.0.224.33-33
-vlan 10.0.224.41-41
+vlan 10.0.229.196-196
 vlan 10.0.224.42-42
+vlan 10.0.224.43-43
 vlan 10.0.224.44-44
 vlan 10.0.224.50-50
 vlan 10.0.224.59-59
 vlan 10.0.224.61-61
 vlan 10.0.224.62-62
-vlan 10.0.224.63-63
+vlan 10.0.224.152-152
 vlan 10.0.224.65-65
 vlan 10.0.224.67-67
-vlan 10.0.224.70-70
+vlan 10.0.229.194-194
 vlan 10.0.224.72-72
 vlan 10.0.224.77-77
 vlan 10.0.224.90-90
 vlan 10.0.224.92-92
-vlan 10.0.224.94-94
+vlan 10.0.224.95-95
 vlan 10.0.224.98-98
 vlan 10.0.224.107-107
 vlan 10.0.224.108-108
@@ -204,16 +179,16 @@ vlan 10.0.226.129-129
 vlan 10.0.226.134-134
 vlan 10.0.226.137-137
 vlan 10.0.226.144-144
-vlan 10.0.226.148-148
-vlan 10.0.226.149-149
-vlan 10.0.226.150-150
-vlan 10.0.226.151-151
+vlan 10.0.229.193-193
+vlan 10.0.229.189-189
+vlan 10.0.229.188-188
+vlan 10.0.229.184-184
 vlan 10.0.226.152-152
 vlan 10.0.226.154-154
 vlan 10.0.226.155-155
 vlan 10.0.226.157-157
-vlan 10.0.226.158-158
-vlan 10.0.226.159-159
+vlan 10.0.229.183-183
+vlan 10.0.229.182-182
 vlan 10.0.226.160-160
 vlan 10.0.226.161-161
 vlan 10.0.226.162-162
@@ -278,7 +253,7 @@ vlan 10.0.229.157-157
 vlan 10.0.229.161-161
 vlan 10.0.229.162-162
 vlan 10.0.229.166-166
-vlan 10.0.229.169-169
+vlan 10.0.229.167-167
 vlan 10.0.229.173-173
 vlan 10.0.229.175-175
 vlan 10.0.229.176-176
@@ -289,32 +264,7 @@ vlan 10.0.229.197-197
 vlan 10.0.229.199-199
 
 ## locations
-e3daaa location AHOPF0051
-c4ce2d location AHOPF0052
-f1ead0 location AHOPF0053
-cd3638 location AHOPF0054
-d3bb55 location AHOPF0055
-08c7c6 location AHOPF0056
-93a040 location AHOPF0057
-6f20ae location AHOPF0058
-2b24e8 location AHOPF0059
-8812ce location AHOPF0060
-e595de location AHOPF0061
-a61391 location AHOPF0062
-0adba5 location AHOPF0063
-7e2767 location AHOPF0064
-36a526 location AHOPF0065
-029eb6 location AHOPF0066
-4121df location AHOPF0067
-71964f location AHOPF0068
-db1480 location AHOPF0069
-283ff7 location AHOPF0070
-620567 location AHOPF0071
-be27de location AHOPF0072
-658caa location AHOPF0073
-0fc1a9 location AHOPF0074
-1680e1 location AHOPF0075
-c6cbe1 location AHOPF0076
+a61391 location AHOPF0076
 26fe6a location AHOPF0077
 ddb214 location AHOPF0078
 aa775d location AHOPF0079
@@ -362,13 +312,13 @@ e18f8f location AHOPF0119
 862df7 location AHOPF0121
 b621e4 location AHOPF0122
 14f506 location AHOPF0123
-c45d02 location AHOPF0124
+11e15c location AHOPF0124
 ec49d0 location AHOPF0125
-81d744 location AHOPF0126
+bc1f98 location AHOPF0126
 98d6ae location AHOPF0127
 70245b location AHOPF0128
 1fe9d4 location AHOPF0129
-2a47b2 location AHOPF0130
+b5cf99 location AHOPF0130
 3f4abe location AHOPF0131
 42ba91 location AHOPF0132
 9da4e2 location AHOPF0133
@@ -379,7 +329,7 @@ c5dfea location AHOPF0134
 d5f0df location AHOPF0138
 5f63c0 location AHOPF0139
 e3558c location AHOPF0140
-07a57a location AHOPF0141
+dbec2a location AHOPF0141
 c97eeb location AHOPF0142
 fc42af location AHOPF0143
 41dd5d location AHOPF0144
@@ -459,16 +409,16 @@ c6721f location AHOPF0210
 98a4dc location AHOPF0218
 dbf995 location AHOPF0219
 e705e2 location AHOPF0220
-1d5775 location AHOPF0221
-eb51ca location AHOPF0222
-b03069 location AHOPF0223
-9cd1b6 location AHOPF0224
+a41d98 location AHOPF0221
+9c3f82 location AHOPF0222
+f4803e location AHOPF0223
+aef536 location AHOPF0224
 36138b location AHOPF0225
 ebfae9 location AHOPF0226
 6956cf location AHOPF0227
 1da911 location AHOPF0228
-ac469a location AHOPF0229
-84f34c location AHOPF0230
+1d0081 location AHOPF0229
+30a113 location AHOPF0230
 6462f9 location AHOPF0231
 511c0f location AHOPF0232
 6eb571 location AHOPF0233
