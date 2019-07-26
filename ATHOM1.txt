@@ -1,4 +1,3 @@
-## ASICseer default config loaded in, edit it and click 'Save Changes'
 ## instructions available at: https://asicseer.com/page/kb#writing-config
 
 global custompanel ATHOM1bit049
@@ -25,6 +24,7 @@ global allowed yes
 global maxtemp 90
 global fanspeed 95
 global fansaver 65
+global blinkgreen rapid
 
 # global retune 1
 global rebootasic 2
