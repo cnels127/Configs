@@ -1,5 +1,4 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
-## this is a test
 
 global custompanel TEST16bit049
 
@@ -20,11 +19,12 @@ global asicboost yes
 global autotune yes
 global maxwatts 1450
 
-global autoupdate yes
+global autoupdate no
 global allowed yes
 global maxtemp 90
 global fanspeed 95
 global fansaver 65
+global blinkgreen rapid
 
 # global retune 1
 global rebootasic 3
