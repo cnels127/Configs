@@ -80,6 +80,23 @@ vlan 10.0.68.16-16
 ## locations
 
 ## tuning
+35a425 maxwatts 500 # 10.0.65.120
+5fa3f6 maxwatts 1250 # 10.0.67.160
+d9c608 maxwatts 1250 # 10.0.68.1
+adb2fe maxwatts 1250 # 10.0.68.5
+d0ff80 maxwatts 500 # 10.0.66.159
+cefa6b maxwatts 1250 # 10.0.67.151
+3b882d maxwatts 1250 # 10.0.67.155
+c5778c maxwatts 500 # 10.0.65.157
+35a425 rebootasic 1564229231 # 10.0.65.120
+5fa3f6 rebootasic 1564229231 # 10.0.67.160
+d9c608 rebootasic 1564229231 # 10.0.68.1
+adb2fe rebootasic 1564229231 # 10.0.68.5
+d0ff80 rebootasic 1564229231 # 10.0.66.159
+cefa6b rebootasic 1564229231 # 10.0.67.151
+3b882d rebootasic 1564229231 # 10.0.67.155
+c5778c rebootasic 1564229231 # 10.0.65.157
+
 ce5ec8 maxwatts 550 # 10.0.62.159
 d0ff80 maxwatts 500 # 10.0.66.159
 35a425 maxwatts 500 # 10.0.65.120
