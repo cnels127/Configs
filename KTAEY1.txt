@@ -2,16 +2,16 @@
 
 global custompanel KTAEY1bit049
 
-global poolname1 us.ss.btc.com:1800
-global username1 y7nhca3
+global poolname1 us-east.stratum.slushpool.com:3333
+global username1 CryptoDTM
 global poolpass1 123
 global sendworker1 yes
-global poolname2 us.ss.btc.com:443
+global poolname2 us.ss.btc.com:1800
 global username2 y7nhca3
 global poolpass2 123
 global sendworker2 yes
-global poolname3 stratum.slushpool.com:3333
-global username3 CryptoDTM
+global poolname3 us.ss.btc.com:443
+global username3 y7nhca3
 global poolpass3 123
 global sendworker3 yes
 
@@ -59,38 +59,37 @@ vlan 172.16.204.234-235
 vlan 172.16.202.134-134
 
 ## locations
-80297d location 0001
-251a2b location 0002
-57f039 location 0003
-5a6128 location 0004
-6639db location 0005
-3b2de6 location 0006
-6eddf3 location 0007
-9f4edd location 0008A
-3c87aa location 0009
-1c301c location 0010A
-07be3d location 0011
-bb6c13 location 0012
-5e6e74 location 0013A
-2009e5 location 0014
-5d74b2 location 0015
-320c94 location 0016A
-bac719 location 0017A
-66ddea location 0018
-2e6730 location 0019
-4753df location 0020
-6a253c location 0021
-90043c location 0022
-bb75a4 location 0023
-4b62dd location 0024
-0c7167 location 0025
-37d0b3 location 0026
-951188 location 0027
-f11c7d location 0028
-3dd8b5 location 0029
-05de13 location 0030
-ef85ce location 0031
-ab09dd location 0027
+80297d location KTAEYCOS18D01
+251a2b location KTAEYCOS18D02
+57f039 location KTAEYCOS18D03
+5a6128 location KTAEYCOS18D04
+6639db location KTAEYCOS18D05
+3b2de6 location KTAEYCOS18D06
+6eddf3 location KTAEYCOS18D07
+9f4edd location KTAEYCOS18D08
+f903c9 location KTAEYCOS18D09
+1c301c location KTAEYCOS18D10
+ab09dd location KTAEYCOS18D11
+bb6c13 location KTAEYCOS18D12
+5e6e74 location KTAEYCOS18D13
+2009e5 location KTAEYCOS18D14
+5d74b2 location KTAEYCOS18D15
+320c94 location KTAEYCOS18D16
+bac719 location KTAEYCOS18D17
+66ddea location KTAEYCOS18D18
+2e6730 location KTAEYCOS18D19
+4753df location KTAEYCOS18D20
+fc079b location KTAEYCOS18D21
+90043c location KTAEYCOS18D22
+bb75a4 location KTAEYCOS18D23
+4b62dd location KTAEYCOS18D24
+0c7167 location KTAEYCOS18D25
+37d0b3 location KTAEYCOS18D26
+f3ad1d location KTAEYCOS18D27
+f11c7d location KTAEYCOS18D28
+3dd8b5 location KTAEYCOS18D29
+05de13 location KTAEYCOS18D30
+ef85ce location KTAEYCOS18D31
 
 ## tuning
 6a253c maxwatts 1100 # 172.16.203.243
