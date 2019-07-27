@@ -276,6 +276,11 @@ ab0bd6 location SNOORCOS20E14
 9cd20e location SNOORCOS20E15
 
 ## tuning
+096b7e maxwatts 500 # 172.16.204.80
+41b4a1 maxwatts 1100 # 172.16.202.112
+096b7e rebootasic 1564219956 # 172.16.204.80
+41b4a1 rebootasic 1564219956 # 172.16.202.112
+
 # generated on Jul 26 2019 21:48:27 utc
 2855a3 maxwatts 1200 # 172.16.204.73
 096b7e maxwatts 500 # 172.16.204.80
