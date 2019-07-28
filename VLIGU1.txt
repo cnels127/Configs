@@ -670,6 +670,11 @@ e5f3f0 maxwatts 1550
 629711 maxwatts 1500
 
 ## tuning
+23b521 maxwatts 1450 # 10.0.58.21
+5621cd maxwatts 1050 # 10.0.57.123
+23b521 rebootasic 1564343886 # 10.0.58.21
+5621cd rebootasic 1564343886 # 10.0.57.123
+
 629711 retune 2
 b6e3fd retune 2
 7523a0 retune 1
@@ -825,3 +830,4 @@ df64b7 rebootasic 1563284483 # 10.0.57.111
 
 ## asic password
 asicpass admin
+
