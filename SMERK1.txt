@@ -85,6 +85,53 @@ vlan 10.0.224.131-131
 
 ## tuning
 ef4cf0 maxwatts 500 # 10.0.77.137
+cdce27 maxwatts 500 # 10.0.229.80
+918b32 maxwatts 500 # 10.0.224.105
+989ff6 maxwatts 500 # 10.0.226.59
+9e743b maxwatts 500 # 10.0.226.17
+d07c04 maxwatts 500 # 10.0.226.10
+cc9cd4 maxwatts 500 # 10.0.226.113
+071970 maxwatts 500 # 10.0.226.9
+c44fd0 maxwatts 500 # 10.0.226.101
+321a3a maxwatts 500 # 10.0.226.45
+affb58 maxwatts 500 # 10.0.226.106
+5c3a63 maxwatts 500 # 10.0.226.89
+e8355a maxwatts 500 # 10.0.226.34
+d560da maxwatts 500 # 10.0.226.16
+38ca89 maxwatts 500 # 10.0.226.139
+ece87c maxwatts 1000 # 10.0.225.63
+5d72aa maxwatts 1300 # 10.0.229.19
+e3ad88 maxwatts 500 # 10.0.228.111
+1ff17d maxwatts 1200 # 10.0.223.30
+7b5da4 maxwatts 500 # 10.0.229.121
+9c860e maxwatts 1300 # 10.0.225.104
+cecef4 maxwatts 1300 # 10.0.229.86
+eb8f83 maxwatts 1400 # 10.0.229.180
+ef4cf0 rebootasic 1564358275 # 10.0.77.137
+cdce27 rebootasic 1564358275 # 10.0.229.80
+918b32 rebootasic 1564358275 # 10.0.224.105
+989ff6 rebootasic 1564358275 # 10.0.226.59
+9e743b rebootasic 1564358275 # 10.0.226.17
+d07c04 rebootasic 1564358275 # 10.0.226.10
+cc9cd4 rebootasic 1564358275 # 10.0.226.113
+071970 rebootasic 1564358275 # 10.0.226.9
+c44fd0 rebootasic 1564358275 # 10.0.226.101
+321a3a rebootasic 1564358275 # 10.0.226.45
+affb58 rebootasic 1564358275 # 10.0.226.106
+5c3a63 rebootasic 1564358275 # 10.0.226.89
+e8355a rebootasic 1564358275 # 10.0.226.34
+d560da rebootasic 1564358275 # 10.0.226.16
+38ca89 rebootasic 1564358275 # 10.0.226.139
+ece87c rebootasic 1564358275 # 10.0.225.63
+5d72aa rebootasic 1564358275 # 10.0.229.19
+e3ad88 rebootasic 1564358275 # 10.0.228.111
+1ff17d rebootasic 1564358275 # 10.0.223.30
+7b5da4 rebootasic 1564358275 # 10.0.229.121
+9c860e rebootasic 1564358275 # 10.0.225.104
+cecef4 rebootasic 1564358275 # 10.0.229.86
+eb8f83 rebootasic 1564358275 # 10.0.229.180
+
+ef4cf0 maxwatts 500 # 10.0.77.137
 6d0436 maxwatts 500 # 10.0.229.51
 c7156e maxwatts 500 # 10.0.226.104
 719b5e maxwatts 500 # 10.0.226.103
@@ -7189,6 +7236,7 @@ ecbb73 rebootasic 1563345677 # 10.0.221.130
 
 ## asic password
 asicpass admin
+
 
 
 
