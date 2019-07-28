@@ -54,6 +54,9 @@ a4716c location 18E13
 e8f4a0 location 18E15
 
 ## tuning
+31f908 maxwatts 1250 # 172.16.200.143
+31f908 rebootasic 1564351764 # 172.16.200.143
+
 # generated on Jul 26 2019 21:42:10 utc
 abd2b0 maxwatts 950 # 172.16.200.236
 f9b5b2 maxwatts 1250 # 172.16.200.237
@@ -83,3 +86,4 @@ de765b rebootasic 1563504860 # 172.16.200.238
 
 ## asic password
 asicpass admin
+
