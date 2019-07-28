@@ -34,7 +34,7 @@ global blinkgreen rapid
 # group=rowc rebootasic 1
 # group=rowd allowed no
 
-## RUSSIA VLAN
+## vlans
 vlan 10.0.55.6-7
 vlan 10.0.57.129-129
 vlan 10.0.57.134-134
@@ -44,6 +44,18 @@ vlan 10.0.58.5-5
 vlan 10.0.58.23-23
 vlan 10.0.58.26-26
 vlan 10.0.57.143-143
+
+## locations
+5dea94 location RANDERUS0001
+e35f32 location RANDERUS0002
+1506ab location RANDERUS0003
+174232 location RANDERUS0004
+679e5d location RANDERUS0005
+8a2820 location RANDERUS0006
+005c5e location RANDERUS0007
+a016c1 location RANDERUS0008
+55019f location RANDERUS0009
+636f5f location RANDERUS0010
 
 ## tuning
 636f5f maxwatts 1150 # 10.0.57.143
@@ -121,20 +133,7 @@ e35f32 maxwatts 1325
 a016c1 maxwatts 1550
 55019f maxwatts 1550
 
-## RUSSIA LOCATION
-5dea94 location RANDERUS0001
-e35f32 location RANDERUS0002
-1506ab location RANDERUS0003
-174232 location RANDERUS0004
-679e5d location RANDERUS0005
-8a2820 location RANDERUS0006
-005c5e location RANDERUS0007
-a016c1 location RANDERUS0008
-55019f location RANDERUS0009
-636f5f location RANDERUS0010
-
 ## COLORADO
-vlan 172.16.203.231-232
 bda117 maxwatts 1500
 d8b0ee maxwatts 1500
 bda117 location RANDECOS0001
