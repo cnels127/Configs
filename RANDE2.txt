@@ -1,0 +1,60 @@
+## instructions available at: https://asicseer.com/page/kb#writing-config
+
+global custompanel RANDE2bit049
+
+global poolname1 us-east.stratum.slushpool.com:3333
+global username1 scracing
+global poolpass1 123
+global sendworker1 yes
+global poolname2 ca.stratum.slushpool.com:3333
+global username2 scracing
+global poolpass2 123
+global sendworker2 yes
+global poolname3 stratum.slushpool.com:3333
+global username3 scracing
+global poolpass3 123
+global sendworker3 yes
+
+global asicboost yes
+global autotune yes
+global maxwatts 1350
+
+global autoupdate no
+global allowed yes
+global maxtemp 90
+global fanspeed 95
+global fansaver 65
+global blinkgreen rapid
+
+# global retune 1
+# global rebootasic 1
+# global resetasic 1
+# global panelpass gj83Nkgikg
+
+# group=rowc rebootasic 1
+# group=rowd allowed no
+
+## tuning
+bda117 maxwatts 1200 # 172.16.203.231
+bda117 rebootasic 1564036205 # 172.16.203.231
+
+# generated on Jul 19 2019 00:17:42 utc
+bda117 maxwatts 1300 # 172.16.203.231
+bda117 rebootasic 1563495462 # 172.16.203.231
+
+# generated on Jul 18 2019 02:33:32 utc
+bda117 maxwatts 1400 # 172.16.203.231
+bda117 rebootasic 1563417212 # 172.16.203.231
+
+bda117 maxwatts 1500
+d8b0ee maxwatts 1500
+
+## vlans
+vlan 172.16.203.231-232
+
+## locations
+bda117 location RANDECOS0001
+d8b0ee location RANDECOS0002
+
+## asic password
+asicpass admin
