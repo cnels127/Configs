@@ -41,7 +41,7 @@ vlan 10.0.56.121-121
 vlan 10.0.56.125-125
 vlan 10.0.56.130-130
 vlan 10.0.67.20-20
-vlan 10.0.224.6-6
+vlan 10.0.67.153-153
 vlan 10.0.67.107-107
 
 ## locations
@@ -53,7 +53,7 @@ ea3cd1 location Bit49-4
 a43fe6 location Bit49-6
 6da085 location Bit49-7
 4363d5 location Bit49-8
-eab4ee location Bit49-9
+133b75 location Bit49-9
 cc96e4 location Bit49-10
 
 ## tuning
@@ -84,7 +84,7 @@ ea3cd1 maxwatts 1475
 a43fe6 maxwatts 1500
 6da085 maxwatts 1475
 4363d5 maxwatts 1450
-eab4ee maxwatts 1450
+133b75 maxwatts 1450
 cc96e4 maxwatts 1450
 a62f6a retune 1
 
