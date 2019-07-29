@@ -40,6 +40,21 @@ vlan 10.0.56.118-118
 vlan 10.0.56.121-121
 vlan 10.0.56.125-125
 vlan 10.0.56.130-130
+vlan 10.0.67.20-20
+vlan 10.0.224.6-6
+vlan 10.0.67.107-107
+
+## locations
+a62f6a location Bit49-1
+0e992b location Bit49-2
+9b4848 location Bit49-3
+ea3cd1 location Bit49-4
+535d30 location Bit49-5
+a43fe6 location Bit49-6
+6da085 location Bit49-7
+4363d5 location Bit49-8
+eab4ee location Bit49-9
+cc96e4 location Bit49-10
 
 ## tuning
 a43fe6 maxwatts 1250
@@ -68,16 +83,10 @@ ea3cd1 maxwatts 1475
 535d30 maxwatts 1500
 a43fe6 maxwatts 1500
 6da085 maxwatts 1475
+4363d5 maxwatts 1450
+eab4ee maxwatts 1450
+cc96e4 maxwatts 1450
 a62f6a retune 1
-
-## locations
-a62f6a location Bit49-1
-0e992b location Bit49-2
-9b4848 location Bit49-3
-ea3cd1 location Bit49-4
-535d30 location Bit49-5
-a43fe6 location Bit49-6
-6da085 location Bit49-7
 
 ## asic password
 asicpass admin
