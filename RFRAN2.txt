@@ -1,0 +1,46 @@
+## instructions available at: https://asicseer.com/page/kb#writing-config
+
+global custompanel RFRAN1bit049
+
+global poolname1 us.ss.btc.com:1800
+global username1 xytgeisteu
+global poolpass1 123
+global sendworker1 yes
+global poolname2 us.ss.btc.com:443
+global username2 xytgeist
+global poolpass2 123
+global sendworker2 yes
+global poolname3 us.ss.btc.com:25
+global username3 xytgeistch
+global poolpass3 123
+global sendworker3 yes
+
+global asicboost yes
+global autotune yes
+global maxwatts 1400
+
+global autoupdate no
+global allowed yes
+global maxtemp 90
+global fanspeed 95
+global fansaver 65
+global blinkgreen rapid
+
+# global retune 1
+# global rebootasic 1
+# global resetasic 1
+# global panelpass gj83Nkgikg
+
+# group=rowc rebootasic 1
+# group=rowd allowed no
+
+## vlans
+vlan 172.16.202.186-186
+
+## locations
+4fde10 location RFRANCOS0001
+
+## tuning
+
+## asic password
+asicpass admin
