@@ -84,6 +84,11 @@ vlan 10.0.224.126-126
 vlan 10.0.224.131-131
 
 ## tuning
+
+# EXPERIMENT
+175f83 maxwatts 650
+b03069 maxwatts 1050
+
 fd676b maxwatts 500 # 10.0.226.107
 752979 maxwatts 500 # 10.0.226.33
 85ec4c maxwatts 500 # 10.0.226.72
