@@ -71,6 +71,9 @@ eef025 location DDUNN0016
 
 ## tuning
 14da93 maxwatts 500 # 10.0.55.1
+14da93 rebootasic 1564362526 # 10.0.55.1
+
+14da93 maxwatts 500 # 10.0.55.1
 14da93 rebootasic 1564362271 # 10.0.55.1
 
 14da93 maxwatts 500 # 10.0.55.1
@@ -216,6 +219,7 @@ eef025 maxwatts 1350
 
 ## asic password
 asicpass admin
+
 
 
 
