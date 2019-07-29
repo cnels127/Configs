@@ -103,6 +103,9 @@ e1abed location VMANURUS65x39
 
 
 ## tuning
+53c201 maxwatts 1050 # 10.0.61.161
+53c201 rebootasic 1564407062 # 10.0.61.161
+
 26db41 maxwatts 1050 # 10.0.60.122
 26db41 rebootasic 1564047419 # 10.0.60.122
 
@@ -177,3 +180,4 @@ e1abed maxwatts 1250
 
 ## asic password
 asicpass admin
+
