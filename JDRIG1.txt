@@ -39,12 +39,24 @@ vlan 10.0.55.99-99
 vlan 10.0.55.125-125
 vlan 10.0.55.145-145
 vlan 10.0.56.104-104
+vlan 10.0.67.148-148
+vlan 10.0.67.149-149
+vlan 10.0.67.156-156
+vlan 10.0.66.3-3
+vlan 10.0.67.146-146
+vlan 10.0.66.22-22
 
 ## location
 11bafe location JDRIG0001
 33b5df location JDRIG0002
 9b787e location JDRIG0003
 93e110 location JDRIG0004
+9163e6 location JDRIG0005
+b3d12e location JDRIG0006
+d55626 location JDRIG0007
+ceb84b location JDRIG0008
+cffb6d location JDRIG0009
+e2fa14 location JDRIG0010
 
 ## tuning
 9b787e maxwatts 1175 # 10.0.55.145
@@ -67,6 +79,12 @@ vlan 10.0.56.104-104
 33b5df maxwatts 1575
 9b787e maxwatts 1575
 93e110 maxwatts 1575
+9163e6 maxwatts 1350
+b3d12e maxwatts 1450
+d55626 maxwatts 1350
+ceb84b maxwatts 1350
+cffb6d maxwatts 1350
+e2fa14 maxwatts 1350
 
 11bafe retune 1
 
