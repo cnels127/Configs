@@ -101,6 +101,9 @@ f24571 location GSAMPRUS59x73
 d223ec location GSAMPRUS67x79
 
 ## tuning
+# EXPERIMENT
+4fb133 maxwatts 1250
+
 f24571 maxwatts 1400 # 10.0.59.73
 f24571 rebootasic 1564487452 # 10.0.59.73
 
@@ -204,9 +207,6 @@ f24571 maxwatts 1400 # 10.0.59.73
 27a7bc maxwatts 1200 # 10.0.61.6
 f24571 rebootasic 1564469459 # 10.0.59.73
 27a7bc rebootasic 1564469459 # 10.0.61.6
-
-# EXPERIMENT
-4fb133 maxwatts 1250
 
 d223ec maxwatts 1250 # 10.0.67.79
 d223ec rebootasic 1564364605 # 10.0.67.79
