@@ -60,6 +60,9 @@ e2fa14 location JDRIG0010
 
 ## tuning
 b3d12e maxwatts 1350 # 10.0.67.149
+b3d12e rebootasic 1564471906 # 10.0.67.149
+
+b3d12e maxwatts 1350 # 10.0.67.149
 b3d12e rebootasic 1564471662 # 10.0.67.149
 
 d55626 maxwatts 1250 # 10.0.67.156
@@ -121,6 +124,7 @@ e2fa14 maxwatts 1350
 
 ## asic password
 asicpass admin
+
 
 
 
