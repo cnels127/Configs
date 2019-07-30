@@ -192,6 +192,13 @@ d3cdf7 location LMACKRUS0100
 a92994 maxwatts 650 # 10.0.54.96
 426735 maxwatts 500 # 10.0.54.105
 5eb8bd maxwatts 500 # 10.0.54.108
+a92994 rebootasic 1564471272 # 10.0.54.96
+426735 rebootasic 1564471272 # 10.0.54.105
+5eb8bd rebootasic 1564471272 # 10.0.54.108
+
+a92994 maxwatts 650 # 10.0.54.96
+426735 maxwatts 500 # 10.0.54.105
+5eb8bd maxwatts 500 # 10.0.54.108
 a92994 rebootasic 1564460671 # 10.0.54.96
 426735 rebootasic 1564460671 # 10.0.54.105
 5eb8bd rebootasic 1564460671 # 10.0.54.108
@@ -702,6 +709,7 @@ fef436 rebootasic 1563375294 # 10.0.54.115
 
 ## asic password
 asicpass admin
+
 
 
 

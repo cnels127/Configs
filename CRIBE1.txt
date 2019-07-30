@@ -320,6 +320,9 @@ e64f0a location CRIBE0140
 
 ## tuning
 7a6fcf maxwatts 1125 # 10.0.62.60
+7a6fcf rebootasic 1564471199 # 10.0.62.60
+
+7a6fcf maxwatts 1125 # 10.0.62.60
 7a6fcf rebootasic 1564460524 # 10.0.62.60
 
 7a6fcf maxwatts 1125 # 10.0.62.60
@@ -728,6 +731,7 @@ c120c5 retune 1
 
 ## asic password
 asicpass admin
+
 
 
 

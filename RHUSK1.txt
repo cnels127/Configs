@@ -71,6 +71,9 @@ f46832 location RHUSK0029
 
 ## tuning
 4c87c5 maxwatts 1200 # 10.0.53.131
+4c87c5 rebootasic 1564471320 # 10.0.53.131
+
+4c87c5 maxwatts 1200 # 10.0.53.131
 ba0308 maxwatts 1050 # 10.0.53.136
 4c87c5 rebootasic 1564470546 # 10.0.53.131
 ba0308 rebootasic 1564470546 # 10.0.53.136
@@ -301,6 +304,7 @@ e6077e rebootasic 1563373958 # 10.0.53.132
 
 ## asic password
 asicpass admin
+
 
 
 
