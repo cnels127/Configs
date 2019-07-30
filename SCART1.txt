@@ -35,8 +35,14 @@ global blinkgreen rapid
 # group=rowd allowed no
 
 ## vlans
+vlan 10.0.61.155-155
+vlan 10.0.65.26-26
+vlan 10.0.66.27-27
 
 ## locations
+2a7d01 location SCART0001
+3fbe73 location SCART0002
+66e562 location SCART0003
 
 ## tuning
 
