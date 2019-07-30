@@ -189,6 +189,9 @@ bae0d7 location LMACKRUS0096
 d3cdf7 location LMACKRUS0100
 
 ## tuning
+5eb8bd maxwatts 500 # 10.0.54.108
+5eb8bd rebootasic 1564476244 # 10.0.54.108
+
 fdf9e1 maxwatts 1225 # 10.0.63.80
 fdf9e1 rebootasic 1564474415 # 10.0.63.80
 
@@ -725,6 +728,7 @@ fef436 rebootasic 1563375294 # 10.0.54.115
 
 ## asic password
 asicpass admin
+
 
 
 

@@ -466,6 +466,9 @@ c94f44 location GWELT0248
 50f49e location GWELT0250
 
 ## tuning
+021a44 maxwatts 1250 # 10.0.66.2
+021a44 rebootasic 1564476199 # 10.0.66.2
+
 2979a7 maxwatts 550 # 10.0.66.58
 a410fb maxwatts 1250 # 10.0.65.141
 ce8617 maxwatts 1250 # 10.0.67.73
@@ -2860,6 +2863,7 @@ c94f44 maxwatts 1450
 
 ## asic password
 asicpass admin
+
 
 
 
