@@ -59,6 +59,28 @@ cffb6d location JDRIG0009
 e2fa14 location JDRIG0010
 
 ## tuning
+d55626 maxwatts 1250 # 10.0.67.156
+9163e6 maxwatts 1200 # 10.0.67.148
+d55626 rebootasic 1564460610 # 10.0.67.156
+9163e6 rebootasic 1564460610 # 10.0.67.148
+
+cffb6d maxwatts 1250 # 10.0.67.146
+d55626 maxwatts 1250 # 10.0.67.156
+9163e6 maxwatts 1200 # 10.0.67.148
+cffb6d rebootasic 1564470464 # 10.0.67.146
+d55626 rebootasic 1564470464 # 10.0.67.156
+9163e6 rebootasic 1564470464 # 10.0.67.148
+
+d55626 maxwatts 1250 # 10.0.67.156
+9163e6 maxwatts 1200 # 10.0.67.148
+d55626 rebootasic 1564470065 # 10.0.67.156
+9163e6 rebootasic 1564470065 # 10.0.67.148
+
+d55626 maxwatts 1250 # 10.0.67.156
+9163e6 maxwatts 1200 # 10.0.67.148
+d55626 rebootasic 1564469475 # 10.0.67.156
+9163e6 rebootasic 1564469475 # 10.0.67.148
+
 9b787e maxwatts 1175 # 10.0.55.145
 9b787e rebootasic 1564043606 # 10.0.55.145
 
@@ -90,3 +112,7 @@ e2fa14 maxwatts 1350
 
 ## asic password
 asicpass admin
+
+
+
+
