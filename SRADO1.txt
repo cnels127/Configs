@@ -22,7 +22,7 @@ global maxwatts 1350
 global autoupdate no
 global allowed yes
 global maxtemp 90
-global fanspeed 95
+global fanspeed 100
 global fansaver 65
 global blinkgreen rapid
 
@@ -44,6 +44,32 @@ vlan 10.0.57.158-159
 vlan 10.0.58.8-8
 vlan 10.0.58.15-17
 vlan 10.0.68.42-44
+vlan 10.0.60.122-122
+vlan 10.0.61.67-67
+vlan 10.0.62.48-48
+vlan 10.0.62.83-83
+vlan 10.0.63.110-110
+vlan 10.0.64.69-69
+vlan 10.0.65.114-114
+vlan 10.0.65.36-36
+vlan 10.0.65.55-55
+vlan 10.0.66.100-100
+vlan 10.0.66.18-18
+vlan 10.0.66.44-44
+vlan 10.0.66.50-50
+vlan 10.0.66.51-51
+vlan 10.0.67.104-104
+vlan 10.0.67.139-139
+vlan 10.0.67.141-141
+vlan 10.0.67.142-142
+vlan 10.0.67.147-147
+vlan 10.0.67.150-150
+vlan 10.0.67.157-157
+vlan 10.0.67.159-159
+vlan 10.0.67.161-161
+vlan 10.0.67.61-61
+vlan 10.0.67.70-70
+vlan 10.0.68.4-4
 
 ##  locations
 c8c8e3 location SRADO0001
@@ -62,6 +88,32 @@ fc9425 location SRADO0006
 50dc4e location SRADO0014
 acd279 location SRADO0015
 44a6c9 location SRADO0016
+26db41 location SRADO0017
+1319ac location SRADO0018
+9e09fc location SRADO0019
+b128e8 location SRADO0020
+e3835b location SRADO0021
+2bb22c location SRADO0022
+ee5d70 location SRADO0023
+866390 location SRADO0024
+f13fb4 location SRADO0025
+0f50f9 location SRADO0026
+65013e location SRADO0027
+a39e08 location SRADO0028
+4d7ab5 location SRADO0029
+11fec4 location SRADO0030
+957edc location SRADO0031
+c3e505 location SRADO0032
+d992bc location SRADO0033
+354bd0 location SRADO0034
+e95f8a location SRADO0035
+32d65b location SRADO0036
+540807 location SRADO0037
+ca6c85 location SRADO0038
+3815f9 location SRADO0039
+2385b5 location SRADO0040
+31d8e9 location SRADO0041
+fb2a81 location SRADO0042
 
 ## tuning
 c8c8e3 maxwatts 1250 # 10.0.54.139
@@ -136,6 +188,32 @@ fc9425 maxwatts 1400
 9c1555 maxwatts 1350
 acd279 maxwatts 1350
 44a6c9 maxwatts 1350
+26db41 maxwatts 1250
+1319ac maxwatts 1050
+9e09fc maxwatts 1350
+b128e8 maxwatts 1150
+e3835b maxwatts 1050
+2bb22c maxwatts 1150
+ee5d70 maxwatts 1150
+866390 maxwatts 1350
+f13fb4 maxwatts 1450
+0f50f9 maxwatts 1150
+65013e maxwatts 1450
+a39e08 maxwatts 1050
+4d7ab5 maxwatts /950
+11fec4 maxwatts 1050
+957edc maxwatts 1050
+c3e505 maxwatts 1150
+d992bc maxwatts 1450
+354bd0 maxwatts 1350
+e95f8a maxwatts 1450
+32d65b maxwatts 1250
+540807 maxwatts 1150
+ca6c85 maxwatts 1050
+3815f9 maxwatts 1250
+2385b5 maxwatts 1150
+31d8e9 maxwatts 1050
+fb2a81 maxwatts 1450
 
 ## asic password
 asicpass admin
