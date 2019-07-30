@@ -85,6 +85,11 @@ c5778c maxwatts 500 # 10.0.65.157
 1b91e2 rebootasic 1564471357 # 10.0.67.144
 c5778c rebootasic 1564471357 # 10.0.65.157
 
+1b91e2 maxwatts 1250 # 10.0.67.144
+c5778c maxwatts 500 # 10.0.65.157
+1b91e2 rebootasic 1564471357 # 10.0.67.144
+c5778c rebootasic 1564471357 # 10.0.65.157
+
 5fa3f6 maxwatts 500 # 10.0.67.160
 3b882d maxwatts 950 # 10.0.67.155
 d9c608 maxwatts 850 # 10.0.68.1
@@ -1549,6 +1554,7 @@ d0ff80 rebootasic 1563355203 # 10.0.66.159
 
 ## asic password
 asicpass admin
+
 
 
 

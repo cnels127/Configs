@@ -108,6 +108,11 @@ f24571 rebootasic 1564471223 # 10.0.59.73
 
 f24571 maxwatts 1400 # 10.0.59.73
 27a7bc maxwatts 1200 # 10.0.61.6
+f24571 rebootasic 1564471223 # 10.0.59.73
+27a7bc rebootasic 1564471223 # 10.0.61.6
+
+f24571 maxwatts 1400 # 10.0.59.73
+27a7bc maxwatts 1200 # 10.0.61.6
 f24571 rebootasic 1564460582 # 10.0.59.73
 27a7bc rebootasic 1564460582 # 10.0.61.6
 
@@ -365,6 +370,7 @@ d223ec retune 1
 
 ## asic password
 asicpass admin
+
 
 
 
