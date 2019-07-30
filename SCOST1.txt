@@ -57,6 +57,9 @@ a43fe6 location Bit49-6
 cc96e4 location Bit49-10
 
 ## tuning
+#EXPERIMENT
+a43fe6 maxwatts 1300
+
 133b75 maxwatts 1150 # 10.0.67.153
 133b75 rebootasic 1564478649 # 10.0.67.153
 
@@ -77,9 +80,6 @@ cc96e4 location Bit49-10
 
 133b75 maxwatts 1350 # 10.0.67.153
 133b75 rebootasic 1564469569 # 10.0.67.153
-
-#EXPERIMENT
-a43fe6 maxwatts 1300
 
 6da085 maxwatts 1275 # 10.0.56.130
 a43fe6 maxwatts 1200 # 10.0.56.125
