@@ -84,6 +84,10 @@ vlan 10.0.224.126-126
 vlan 10.0.224.131-131
 
 ## tuning
+# EXPERIMENT
+175f83 maxwatts 700
+b03069 maxwatts 1050
+
 # generated on Jul 30 2019 16:16:01 utc
 8715fe maxwatts 1300 # 10.0.229.62
 8715fe rebootasic 1564503361 # 10.0.229.62
@@ -1720,10 +1724,6 @@ ca8c7a rebootasic 1564469578 # 10.0.223.102
 8f3760 rebootasic 1564426687 # 10.0.226.8
 83aafe rebootasic 1564426687 # 10.0.226.67
 5ee74d rebootasic 1564426687 # 10.0.223.114
-
-# EXPERIMENT
-175f83 maxwatts 700
-b03069 maxwatts 1050
 
 fd676b maxwatts 500 # 10.0.226.107
 752979 maxwatts 500 # 10.0.226.33
