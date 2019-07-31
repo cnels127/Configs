@@ -87,6 +87,13 @@ de5a58 location HFISC0030
 88395a maxwatts 1250 # 10.0.68.56
 27398f maxwatts 1150 # 10.0.68.60
 bff483 maxwatts 1250 # 10.0.56.145
+88395a rebootasic 1564579621 # 10.0.68.56
+27398f rebootasic 1564579621 # 10.0.68.60
+bff483 rebootasic 1564579621 # 10.0.56.145
+
+88395a maxwatts 1250 # 10.0.68.56
+27398f maxwatts 1150 # 10.0.68.60
+bff483 maxwatts 1250 # 10.0.56.145
 88395a rebootasic 1564579488 # 10.0.68.56
 27398f rebootasic 1564579488 # 10.0.68.60
 bff483 rebootasic 1564579488 # 10.0.56.145
@@ -150,5 +157,6 @@ c8c445 rebootasic 1563435868 # 10.0.61.4
 
 ## asic password
 asicpass admin
+
 
 

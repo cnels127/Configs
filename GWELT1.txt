@@ -470,6 +470,15 @@ ce7138 maxwatts 500 # 10.0.58.131
 ca367f maxwatts 1150 # 10.0.66.97
 a2e64e maxwatts 500 # 10.0.58.88
 6a7876 maxwatts 1050 # 10.0.65.70
+ce7138 rebootasic 1564579620 # 10.0.58.131
+ca367f rebootasic 1564579620 # 10.0.66.97
+a2e64e rebootasic 1564579620 # 10.0.58.88
+6a7876 rebootasic 1564579620 # 10.0.65.70
+
+ce7138 maxwatts 500 # 10.0.58.131
+ca367f maxwatts 1150 # 10.0.66.97
+a2e64e maxwatts 500 # 10.0.58.88
+6a7876 maxwatts 1050 # 10.0.65.70
 ce7138 rebootasic 1564579487 # 10.0.58.131
 ca367f rebootasic 1564579487 # 10.0.66.97
 a2e64e rebootasic 1564579487 # 10.0.58.88
@@ -3375,6 +3384,7 @@ c94f44 maxwatts 1450
 
 ## asic password
 asicpass admin
+
 
 
 
