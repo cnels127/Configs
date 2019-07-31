@@ -45,6 +45,12 @@ vlan 10.0.68.17-21
 c29a91 location PMORG0005
 
 ## tuning
+c29a91 maxwatts 1450 # 10.0.68.21
+c29a91 rebootasic 1564577457 # 10.0.68.21
+
+c29a91 maxwatts 1450 # 10.0.68.21
+c29a91 rebootasic 1564577282 # 10.0.68.21
+
 81b475 maxwatts 1450 # 10.0.68.17
 81b475 rebootasic 1564036202 # 10.0.68.17
 
@@ -66,3 +72,5 @@ c29a91 maxwatts 1550
 
 ## asic password
 asicpass admin
+
+

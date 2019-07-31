@@ -59,6 +59,16 @@ de83b4 location 0006
 d2d829 location 0010
 
 ## tuning
+de83b4 maxwatts 1300 # 10.0.55.157
+1a7d47 maxwatts 1150 # 10.0.55.107
+de83b4 rebootasic 1564577432 # 10.0.55.157
+1a7d47 rebootasic 1564577432 # 10.0.55.107
+
+de83b4 maxwatts 1300 # 10.0.55.157
+1a7d47 maxwatts 1150 # 10.0.55.107
+de83b4 rebootasic 1564577246 # 10.0.55.157
+1a7d47 rebootasic 1564577246 # 10.0.55.107
+
 8d76ff maxwatts 1200 # 10.0.56.79
 8d76ff rebootasic 1564047306 # 10.0.56.79
 
@@ -96,3 +106,5 @@ d2d829 maxwatts 1400
 
 ## asic password
 asicpass admin
+
+

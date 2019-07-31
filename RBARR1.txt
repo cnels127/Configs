@@ -66,6 +66,23 @@ eea5d2 location RBARR0019
 
 ## tuning
 71df4f maxwatts 500 # 10.0.57.51
+3ff0b0 maxwatts 1000 # 10.0.57.70
+427893 maxwatts 1000 # 10.0.57.67
+71df4f rebootasic 1564577459 # 10.0.57.51
+3ff0b0 rebootasic 1564577459 # 10.0.57.70
+427893 rebootasic 1564577459 # 10.0.57.67
+
+3ff0b0 maxwatts 1000 # 10.0.57.70
+71df4f maxwatts 500 # 10.0.57.51
+427893 maxwatts 1000 # 10.0.57.67
+3ff0b0 rebootasic 1564577284 # 10.0.57.70
+71df4f rebootasic 1564577284 # 10.0.57.51
+427893 rebootasic 1564577284 # 10.0.57.67
+
+71df4f maxwatts 500 # 10.0.57.51
+71df4f rebootasic 1564554951 # 10.0.57.51
+
+71df4f maxwatts 500 # 10.0.57.51
 71df4f rebootasic 1564552997 # 10.0.57.51
 
 71df4f maxwatts 500 # 10.0.57.51
@@ -253,6 +270,9 @@ e83b5d retune 1
 
 ## asic password
 asicpass admin
+
+
+
 
 
 
