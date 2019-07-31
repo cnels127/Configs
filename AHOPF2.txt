@@ -35,6 +35,7 @@ global rebootasic 5
 # group=rowd allowed no
 
 ## vlans
+vlan 10.0.229.63-63
 vlan 10.0.216.215-215
 vlan 10.0.218.160-160
 vlan 10.0.218.161-161
