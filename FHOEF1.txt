@@ -47,16 +47,16 @@ vlan 10.0.56.85-85
 vlan 10.0.56.88-88
 
 ## locations ([ASICID] location [name])
-84fddc location 0001
-7e7126 location 0002
-1a7d47 location 0003
-e0ccfa location 0004
-0faa22 location 0005
-de83b4 location 0006
-167d2c location 0007
-8d76ff location 0008
-17e1e7 location 0009
-d2d829 location 0010
+84fddc location FHOEF0001
+7e7126 location FHOEF0002
+1a7d47 location FHOEF0003
+e0ccfa location FHOEF0004
+0faa22 location FHOEF0005
+de83b4 location FHOEF0006
+167d2c location FHOEF0007
+8d76ff location FHOEF0008
+17e1e7 location FHOEF0009
+d2d829 location FHOEF0010
 
 ## tuning
 de83b4 maxwatts 1300 # 10.0.55.157
