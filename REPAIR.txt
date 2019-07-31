@@ -55,6 +55,9 @@ vlan 10.0.66.128-128
 b3ad3a maxwatts 850 # 10.0.61.18
 b3ad3a rebootasic 1564552998 # 10.0.61.18
 
+b3ad3a maxwatts 850 # 10.0.61.18
+b3ad3a rebootasic 1564552998 # 10.0.61.18
+
 # generated on Jul 26 2019 21:46:04 utc
 b3ad3a maxwatts 950 # 10.0.61.18
 b3ad3a rebootasic 1564177564 # 10.0.61.18
@@ -85,4 +88,5 @@ b3ad3a rebootasic 1563435932 # 10.0.61.18
 
 ## asic password
 asicpass admin
+
 

@@ -471,6 +471,11 @@ ca367f maxwatts 1150 # 10.0.66.97
 a2e64e rebootasic 1564552954 # 10.0.58.88
 ca367f rebootasic 1564552954 # 10.0.66.97
 
+a2e64e maxwatts 500 # 10.0.58.88
+ca367f maxwatts 1150 # 10.0.66.97
+a2e64e rebootasic 1564552954 # 10.0.58.88
+ca367f rebootasic 1564552954 # 10.0.66.97
+
 2979a7 maxwatts 500 # 10.0.66.58
 2979a7 rebootasic 1564499857 # 10.0.66.58
 
@@ -3323,6 +3328,7 @@ c94f44 maxwatts 1450
 
 ## asic password
 asicpass admin
+
 
 
 
