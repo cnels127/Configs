@@ -73,8 +73,17 @@ f913d1 location 0011A
 c0fbe7 maxwatts 600 # 172.16.202.76
 c0fbe7 rebootasic 1564553012 # 172.16.202.76
 
+<<<<<<< HEAD
 c0fbe7 maxwatts 600 # 172.16.202.76
 c0fbe7 rebootasic 1564553012 # 172.16.202.76
+
+c0fbe7 maxwatts 600 # 172.16.202.76
+c0fbe7 rebootasic 1564553012 # 172.16.202.76
+=======
+# generated on Jul 30 2019 23:40:31 utc
+c0fbe7 maxwatts 700 # 172.16.202.76
+c0fbe7 rebootasic 1564530031 # 172.16.202.76
+>>>>>>> 3480dda47e36854a7a688d9f4b3758d73a9ab30e
 
 # generated on Jul 20 2019 01:22:46 utc
 c0fbe7 maxwatts 800 # 172.16.202.76
@@ -124,5 +133,6 @@ d8d329 maxwatts 1400
 
 ## asic password
 asicpass admin
+
 
 

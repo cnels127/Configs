@@ -110,6 +110,7 @@ b65a11 rebootasic 1564552999 # 10.0.53.155
 13b57d rebootasic 1564552999 # 10.0.53.157
 866b96 rebootasic 1564552999 # 10.0.53.146
 
+<<<<<<< HEAD
 b65a11 maxwatts 500 # 10.0.53.155
 6073d8 maxwatts 500 # 10.0.53.156
 13b57d maxwatts 800 # 10.0.53.157
@@ -118,6 +119,24 @@ b65a11 rebootasic 1564552999 # 10.0.53.155
 6073d8 rebootasic 1564552999 # 10.0.53.156
 13b57d rebootasic 1564552999 # 10.0.53.157
 866b96 rebootasic 1564552999 # 10.0.53.146
+
+b65a11 maxwatts 500 # 10.0.53.155
+6073d8 maxwatts 500 # 10.0.53.156
+13b57d maxwatts 800 # 10.0.53.157
+866b96 maxwatts 1100 # 10.0.53.146
+b65a11 rebootasic 1564552999 # 10.0.53.155
+6073d8 rebootasic 1564552999 # 10.0.53.156
+13b57d rebootasic 1564552999 # 10.0.53.157
+866b96 rebootasic 1564552999 # 10.0.53.146
+=======
+# generated on Jul 30 2019 23:38:40 utc
+6073d8 maxwatts 500 # 10.0.53.156
+b65a11 maxwatts 500 # 10.0.53.155
+13b57d maxwatts 900 # 10.0.53.157
+6073d8 rebootasic 1564529920 # 10.0.53.156
+b65a11 rebootasic 1564529920 # 10.0.53.155
+13b57d rebootasic 1564529920 # 10.0.53.157
+>>>>>>> 3480dda47e36854a7a688d9f4b3758d73a9ab30e
 
 6073d8 maxwatts 500 # 10.0.53.156
 b65a11 maxwatts 500 # 10.0.53.155
@@ -514,6 +533,7 @@ b004dc rebootasic 1563417062 # 10.0.54.13
 
 ## asic password
 asicpass admin
+
 
 
 

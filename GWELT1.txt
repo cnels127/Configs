@@ -471,10 +471,24 @@ ca367f maxwatts 1150 # 10.0.66.97
 a2e64e rebootasic 1564552954 # 10.0.58.88
 ca367f rebootasic 1564552954 # 10.0.66.97
 
+<<<<<<< HEAD
 a2e64e maxwatts 500 # 10.0.58.88
 ca367f maxwatts 1150 # 10.0.66.97
 a2e64e rebootasic 1564552954 # 10.0.58.88
 ca367f rebootasic 1564552954 # 10.0.66.97
+
+a2e64e maxwatts 500 # 10.0.58.88
+ca367f maxwatts 1150 # 10.0.66.97
+a2e64e rebootasic 1564552954 # 10.0.58.88
+ca367f rebootasic 1564552954 # 10.0.66.97
+=======
+# generated on Jul 30 2019 23:32:37 utc
+1c1459 maxwatts 1150 # 10.0.58.124
+1c1459 rebootasic 1564529557 # 10.0.58.124
+
+#EXPERIMENT
+7d38ef maxwatts 1050
+>>>>>>> 3480dda47e36854a7a688d9f4b3758d73a9ab30e
 
 2979a7 maxwatts 500 # 10.0.66.58
 2979a7 rebootasic 1564499857 # 10.0.66.58
@@ -2284,8 +2298,6 @@ c62831 rebootasic 1564469463 # 10.0.67.119
 608111 rebootasic 1564469463 # 10.0.67.128
 50f49e rebootasic 1564469463 # 10.0.67.129
 
-7d38ef maxwatts 1100
-
 9207d7 maxwatts 1425 # 10.0.58.64
 9207d7 rebootasic 1564343235 # 10.0.58.64
 
@@ -3328,6 +3340,7 @@ c94f44 maxwatts 1450
 
 ## asic password
 asicpass admin
+
 
 
 

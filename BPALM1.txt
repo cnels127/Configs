@@ -1,0 +1,54 @@
+## instructions available at: https://asicseer.com/page/kb#writing-config
+
+global custompanel BPALM1bit049
+
+global poolname1 
+global username1 
+global poolpass1 123
+global sendworker1 yes
+global poolname2 
+global username2 
+global poolpass2 123
+global sendworker2 yes
+global poolname3 
+global username3 
+global poolpass3 123
+global sendworker3 yes
+
+global asicboost yes
+global autotune yes
+global maxwatts 1300
+
+global autoupdate yes
+global allowed yes
+global maxtemp 90
+global fanspeed 100
+global fansaver 65
+global blinkgreen rapid
+
+# global retune 1
+# global rebootasic 1
+# global resetasic 1
+# global panelpass gj83Nkgikg
+
+# group=rowc rebootasic 1
+# group=rowd allowed no
+
+## vlans
+
+## locations
+550b76 location 
+1b919f location 
+23ba0e location 
+a007c8 location 
+2a1bca location 
+5dd9d9 location 
+45e473 location 
+2c4326 location 
+f60fb2 location 
+95cae1 location 
+
+## tuning
+
+## asic password
+asicpass admin
