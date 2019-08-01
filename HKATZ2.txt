@@ -1,0 +1,76 @@
+## instructions available at: https://asicseer.com/page/kb#writing-config
+
+global custompanel HKATZ1bit049
+
+global poolname1 sha256.jp.nicehash.com:3334
+global username1 1BcvWti9xXcgPooyDsy4SesR98g1HvBkYo
+global poolpass1 x
+global sendworker1 yes
+global poolname2 sha256.hk.nicehash.com:3334
+global username2 1BcvWti9xXcgPooyDsy4SesR98g1HvBkYo
+global poolpass2 x
+global sendworker2 yes
+global poolname3 sha256.eu.nicehash.com:3334
+global username3 1BcvWti9xXcgPooyDsy4SesR98g1HvBkYo
+global poolpass3 x
+global sendworker3 yes
+
+global asicboost no
+global autotune yes
+global maxwatts 1400
+
+global autoupdate no
+global allowed yes
+global maxtemp 90
+global fanspeed 95
+global fansaver 65
+global blinkgreen rapid
+
+# global retune 1
+global rebootasic 1
+# global resetasic 1
+# global panelpass gj83Nkgikg
+
+# group=rowc rebootasic 1
+# group=rowd allowed no
+
+## vlans
+vlan 10.0.68.38-39
+
+## locations
+fae301 location HKATZRUS68x38
+44ba88 location HKATZRUS68x39
+
+## tuning
+# generated on Jul 30 2019 23:32:37 utc
+44ba88 maxwatts 1200 # 10.0.68.39
+44ba88 rebootasic 1564529557 # 10.0.68.39
+
+# generated on Jul 23 2019 21:10:12 utc
+fae301 maxwatts 1200 # 10.0.68.38
+fae301 rebootasic 1563916212 # 10.0.68.38
+
+# generated on Jul 23 2019 15:15:30 utc
+44ba88 maxwatts 1300 # 10.0.68.39
+44ba88 rebootasic 1563894930 # 10.0.68.39
+
+# generated on Jul 22 2019 15:19:43 utc
+15e78d maxwatts 1300 # 10.0.65.61
+15e78d rebootasic 1563808783 # 10.0.65.61
+
+# generated on Jul 18 2019 15:40:31 utc
+fae301 maxwatts 1300 # 10.0.68.38
+fae301 rebootasic 1563464431 # 10.0.68.38
+
+fae301 maxwatts 1400 # 10.0.68.38
+fae301 rebootasic 1563435870 # 10.0.68.38
+
+# fae301 maxwatts 1550
+# 44ba88 maxwatts 1550
+
+44ba88 retune 2
+7f79ef retune 1
+ceac8d maxwatts 1350
+
+## asic password
+asicpass admin
