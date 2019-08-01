@@ -43,6 +43,10 @@ vlan 10.0.61.58-60
 fc92a5 location RHOLL0003
 
 ## tuning
+# generated on Aug 01 2019 00:30:02 utc
+fc92a5 maxwatts 1225 # 10.0.61.60
+fc92a5 rebootasic 1564619402 # 10.0.61.60
+
 
 ## asic password
 asicpass admin
