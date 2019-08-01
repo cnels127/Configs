@@ -59,6 +59,9 @@ de83b4 location FHOEF0006
 d2d829 location FHOEF0010
 
 ## tuning
+0faa22 maxwatts 1075 # 10.0.55.153
+0faa22 rebootasic 1564644394 # 10.0.55.153
+
 # generated on Aug 01 2019 00:22:30 utc
 167d2c maxwatts 1300 # 10.0.56.59
 167d2c rebootasic 1564618950 # 10.0.56.59
@@ -114,5 +117,6 @@ d2d829 maxwatts 1400
 
 ## asic password
 asicpass admin
+
 
 
