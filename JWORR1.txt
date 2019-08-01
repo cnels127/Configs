@@ -50,6 +50,9 @@ b7cd11 location JWORR0007
 564c64 location JWORR0010
 
 ## tuning
+eaee2e maxwatts 1475 # 10.0.32.74
+eaee2e rebootasic 1564646662 # 10.0.32.74
+
 1e82c8 maxwatts 1450 # 10.0.32.73
 1e82c8 rebootasic 1564635865 # 10.0.32.73
 
@@ -70,4 +73,5 @@ eaee2e retune 1
 
 ## asic password
 asicpass admin
+
 
