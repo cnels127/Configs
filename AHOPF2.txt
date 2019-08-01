@@ -497,6 +497,10 @@ cc9fd9 location AHOPF0302
 79c07f location AHOPF0303
 
 ## tuning
+# EXPERIMENT INFO
+c1e884 maxwatts 1100
+b39993 maxwatts 750
+
 7401f4 maxwatts 1150 # 10.0.229.95
 7401f4 rebootasic 1564651782 # 10.0.229.95
 
@@ -517,13 +521,6 @@ cc9fd9 location AHOPF0302
 
 98d6ae maxwatts 1000 # 10.0.224.27
 98d6ae rebootasic 1564635796 # 10.0.224.27
-
-
-
-# EXPERIMENT INFO
-c1e884 maxwatts 1050
-b39993 maxwatts 700
-
 
 b39993 maxwatts 750 # 10.0.229.11
 6956cf maxwatts 1150 # 10.0.226.155
