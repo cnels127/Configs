@@ -121,6 +121,9 @@ e07578 location NBELL0054
 9ce38b location NBELL0055
 
 ## tuning
+1d8df2 maxwatts 950 # 10.0.58.75
+1d8df2 rebootasic 1564635902 # 10.0.58.75
+
 # generated on Aug 01 2019 00:30:02 utc
 ad4182 maxwatts 950 # 10.0.59.26
 1d8df2 maxwatts 1050 # 10.0.58.75
@@ -264,6 +267,7 @@ d70df1 retune 1
 
 ## asic password
 asicpass admin
+
 
 
 
