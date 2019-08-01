@@ -73,6 +73,11 @@ f5ddbb rebootasic 1564651863 # 10.0.54.157
 
 356422 maxwatts 500 # 10.0.54.159
 f5ddbb maxwatts 500 # 10.0.54.157
+356422 rebootasic 1564651863 # 10.0.54.159
+f5ddbb rebootasic 1564651863 # 10.0.54.157
+
+356422 maxwatts 500 # 10.0.54.159
+f5ddbb maxwatts 500 # 10.0.54.157
 356422 rebootasic 1564648670 # 10.0.54.159
 f5ddbb rebootasic 1564648670 # 10.0.54.157
 
@@ -408,6 +413,7 @@ f5ddbb maxwatts 1350
 
 ## asic password
 asicpass admin
+
 
 
 
