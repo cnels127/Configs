@@ -68,6 +68,11 @@ b864f4 maxwatts 1050 # 10.0.68.79
 f2296d rebootasic 1564727805 # 10.0.68.89
 b864f4 rebootasic 1564727805 # 10.0.68.79
 
+f2296d maxwatts 1225 # 10.0.68.89
+b864f4 maxwatts 1050 # 10.0.68.79
+f2296d rebootasic 1564727805 # 10.0.68.89
+b864f4 rebootasic 1564727805 # 10.0.68.79
+
 5d5985 maxwatts 950 # 10.0.68.70
 5d5985 rebootasic 1564579658 # 10.0.68.70
 
@@ -128,6 +133,7 @@ ec43b1 retune 1
 
 ## asic password
 asicpass admin
+
 
 
 
