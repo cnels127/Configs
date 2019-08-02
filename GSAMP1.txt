@@ -101,6 +101,9 @@ f24571 location GSAMPRUS59x73
 d223ec location GSAMPRUS67x79
 
 ## tuning
+f24571 maxwatts 1400 # 10.0.59.73
+f24571 rebootasic 1564785651 # 10.0.59.73
+
 # generated on Aug 02 2019 21:02:16 utc
 d223ec maxwatts 1250 # 10.0.67.79
 ff488e maxwatts 1425 # 10.0.59.52
@@ -605,6 +608,7 @@ d223ec retune 1
 
 ## asic password
 asicpass admin
+
 
 
 
