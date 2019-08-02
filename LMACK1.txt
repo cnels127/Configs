@@ -196,6 +196,11 @@ b4364f rebootasic 1564728516 # 10.0.54.118
 
 5eb8bd maxwatts 500 # 10.0.54.108
 b4364f maxwatts 500 # 10.0.54.118
+5eb8bd rebootasic 1564728516 # 10.0.54.108
+b4364f rebootasic 1564728516 # 10.0.54.118
+
+5eb8bd maxwatts 500 # 10.0.54.108
+b4364f maxwatts 500 # 10.0.54.118
 5eb8bd rebootasic 1564728133 # 10.0.54.108
 b4364f rebootasic 1564728133 # 10.0.54.118
 
@@ -837,6 +842,7 @@ fef436 rebootasic 1563375294 # 10.0.54.115
 
 ## asic password
 asicpass admin
+
 
 
 

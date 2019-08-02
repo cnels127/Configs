@@ -62,6 +62,9 @@ dc7a56 location LMACKCOS18F13
 d38886 maxwatts 800 # 172.16.203.249
 d38886 rebootasic 1564728517 # 172.16.203.249
 
+d38886 maxwatts 800 # 172.16.203.249
+d38886 rebootasic 1564728517 # 172.16.203.249
+
 e50e84 maxwatts 900 # 172.16.203.247
 d38886 maxwatts 800 # 172.16.203.249
 e50e84 rebootasic 1564728134 # 172.16.203.247
@@ -179,6 +182,7 @@ dc7a56 maxwatts 1400
 
 ## asic password
 asicpass admin
+
 
 
 
