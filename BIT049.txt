@@ -228,6 +228,9 @@ dc9d3b location 21H28
 05bd00 location 21H30
 
 ## tuning
+1941cd maxwatts 1200 # 172.16.203.175
+1941cd rebootasic 1564728463 # 172.16.203.175
+
 62c9cc maxwatts 1200 # 172.16.204.25
 bb8c66 maxwatts 1200 # 172.16.204.15
 f38127 maxwatts 1200 # 172.16.203.244
@@ -551,6 +554,7 @@ fba5f2 rebootasic 1564727519 # 172.16.203.240
 
 ## asic password
 asicpass admin
+
 
 
 

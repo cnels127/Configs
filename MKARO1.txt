@@ -83,6 +83,11 @@ eb4720 location MKARO0019
 ## tuning
 f2d5d3 maxwatts 1025 # 10.0.66.61
 f15e5f maxwatts 1125 # 10.0.66.94
+f2d5d3 rebootasic 1564728521 # 10.0.66.61
+f15e5f rebootasic 1564728521 # 10.0.66.94
+
+f2d5d3 maxwatts 1025 # 10.0.66.61
+f15e5f maxwatts 1125 # 10.0.66.94
 f2d5d3 rebootasic 1564728139 # 10.0.66.61
 f15e5f rebootasic 1564728139 # 10.0.66.94
 
@@ -139,6 +144,7 @@ f15e5f rebootasic 1563891332 # 10.0.66.94
 
 ## asic password
 asicpass admin
+
 
 
 
