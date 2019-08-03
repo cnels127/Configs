@@ -189,6 +189,47 @@ bf8fd2 location AZDJE0096
 0d929b location AZDJE0100
 
 ## tuning
+fcd298 maxwatts 1425 # 10.0.56.111
+48e2b3 maxwatts 1225 # 10.0.55.129
+87a5b4 maxwatts 1425 # 10.0.55.134
+63e690 maxwatts 1225 # 10.0.55.141
+01b775 maxwatts 725 # 10.0.55.155
+93344d maxwatts 1225 # 10.0.56.101
+bca713 maxwatts 1425 # 10.0.56.102
+8ed68e maxwatts 1025 # 10.0.56.14
+ad9578 maxwatts 1425 # 10.0.56.23
+ca57a1 maxwatts 1325 # 10.0.56.24
+bca146 maxwatts 1125 # 10.0.56.33
+b5d57f maxwatts 1425 # 10.0.56.46
+56faaa maxwatts 1425 # 10.0.56.54
+d33b29 maxwatts 925 # 10.0.56.55
+1b04e9 maxwatts 1225 # 10.0.56.60
+86b92d maxwatts 1125 # 10.0.56.61
+07f9ea maxwatts 1225 # 10.0.56.87
+1999e2 maxwatts 1225 # 10.0.56.89
+8c8679 maxwatts 1225 # 10.0.56.95
+0d929b maxwatts 1325 # 10.0.56.97
+fcd298 rebootasic 1564840503 # 10.0.56.111
+48e2b3 rebootasic 1564840503 # 10.0.55.129
+87a5b4 rebootasic 1564840503 # 10.0.55.134
+63e690 rebootasic 1564840503 # 10.0.55.141
+01b775 rebootasic 1564840503 # 10.0.55.155
+93344d rebootasic 1564840503 # 10.0.56.101
+bca713 rebootasic 1564840503 # 10.0.56.102
+8ed68e rebootasic 1564840503 # 10.0.56.14
+ad9578 rebootasic 1564840503 # 10.0.56.23
+ca57a1 rebootasic 1564840503 # 10.0.56.24
+bca146 rebootasic 1564840503 # 10.0.56.33
+b5d57f rebootasic 1564840503 # 10.0.56.46
+56faaa rebootasic 1564840503 # 10.0.56.54
+d33b29 rebootasic 1564840503 # 10.0.56.55
+1b04e9 rebootasic 1564840503 # 10.0.56.60
+86b92d rebootasic 1564840503 # 10.0.56.61
+07f9ea rebootasic 1564840503 # 10.0.56.87
+1999e2 rebootasic 1564840503 # 10.0.56.89
+8c8679 rebootasic 1564840503 # 10.0.56.95
+0d929b rebootasic 1564840503 # 10.0.56.97
+
 23b826 maxwatts 1125 # 10.0.56.25
 23b826 rebootasic 1564727697 # 10.0.56.25
 
@@ -643,6 +684,7 @@ b60497 rebootasic 1563370636 # 10.0.55.109
 
 ## asic password
 asicpass admin
+
 
 
 

@@ -79,6 +79,9 @@ d6136a location RACAY0014
 65bbdb location RACAY0021
 
 ## tuning
+497b40 maxwatts 1100 # 10.0.60.86
+497b40 rebootasic 1564840654 # 10.0.60.86
+
 053705 maxwatts 1000 # 10.0.60.115
 053705 rebootasic 1564794772 # 10.0.60.115
 
@@ -261,6 +264,7 @@ ac1696 rebootasic 1563373104 # 10.0.56.34
 
 ## asic password
 asicpass admin
+
 
 
 

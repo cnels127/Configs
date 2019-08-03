@@ -58,6 +58,9 @@ vlan 10.0.65.51-51
 ## locations
 
 ## tuning
+1d3229 maxwatts 1150 # 10.0.64.61
+1d3229 rebootasic 1564840483 # 10.0.64.61
+
 # generated on Jul 30 2019 23:06:41 utc
 1d3229 maxwatts 1250 # 10.0.64.61
 1d3229 rebootasic 1564528001 # 10.0.64.61
@@ -215,5 +218,6 @@ abde5c rebootasic 1563435810 # 10.0.65.51
 
 ## asic password
 asicpass admin
+
 
 

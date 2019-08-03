@@ -69,6 +69,15 @@ f0ed76 location johnbethbtc039
 8f1d39 location johnbethbtc040
 
 ## tuning
+2462cd maxwatts 1200 # 10.0.68.48
+966dd1 maxwatts 1450 # 10.0.68.49
+2c969d maxwatts 1450 # 10.0.68.103
+406249 maxwatts 1300 # 10.0.68.105
+2462cd rebootasic 1564840574 # 10.0.68.48
+966dd1 rebootasic 1564840574 # 10.0.68.49
+2c969d rebootasic 1564840574 # 10.0.68.103
+406249 rebootasic 1564840574 # 10.0.68.105
+
 690f5d maxwatts 1250 # 10.0.68.104
 690f5d rebootasic 1564728496 # 10.0.68.104
 
@@ -160,6 +169,7 @@ f0ed76 maxwatts 1325
 
 ## asic password
 asicpass admin
+
 
 
 
