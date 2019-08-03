@@ -548,6 +548,15 @@ deee7c maxwatts 500 # 10.0.50.158
 0a2190 maxwatts 500 # 10.0.50.160
 11aa26 maxwatts 1250 # 10.0.30.154
 548bcf maxwatts 1375 # 10.0.30.160
+deee7c rebootasic 1564858223 # 10.0.50.158
+0a2190 rebootasic 1564858223 # 10.0.50.160
+11aa26 rebootasic 1564858223 # 10.0.30.154
+548bcf rebootasic 1564858223 # 10.0.30.160
+
+deee7c maxwatts 500 # 10.0.50.158
+0a2190 maxwatts 500 # 10.0.50.160
+11aa26 maxwatts 1250 # 10.0.30.154
+548bcf maxwatts 1375 # 10.0.30.160
 deee7c rebootasic 1564856024 # 10.0.50.158
 0a2190 rebootasic 1564856024 # 10.0.50.160
 11aa26 rebootasic 1564856024 # 10.0.30.154
@@ -2630,6 +2639,7 @@ d471c4 fanspeed 90
 
 ## asic password
 asicpass admin
+
 
 
 
