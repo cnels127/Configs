@@ -35,6 +35,27 @@ global blinkgreen rapid
 # group=rowd allowed no
 
 ## vlans
+vlan 172.16.200.236-236
+vlan 172.16.200.239-239
+vlan 172.16.200.237-237
+vlan 172.16.200.238-238
+vlan 172.16.200.192-192
+vlan 172.16.200.228-228
+vlan 172.16.200.146-146
+vlan 172.16.200.148-148
+vlan 172.16.200.193-193
+vlan 172.16.204.113-113
+vlan 172.16.200.145-145
+vlan 172.16.200.140-140
+vlan 172.16.200.147-147
+vlan 172.16.200.143-143
+vlan 172.16.200.144-144
+
+vlan 172.16.202.126-126
+vlan 172.16.204.213-213
+vlan 172.16.202.131-131
+vlan 172.16.202.214-214
+vlan 172.16.202.149-149
 
 ## locations
 abd2b0 location 18E01
@@ -52,6 +73,11 @@ eeb8c9 location 18E09
 a4716c location 18E13
 31f908 location 18E14
 e8f4a0 location 18E15
+ccf8bb location TEMP1
+76cef8 location TEMP2
+8fee55 location TEMP3
+ef8f42 location TEMP4
+5ab5f6 location TEMP5
 
 ## tuning
 # generated on Aug 01 2019 00:25:51 utc
@@ -109,6 +135,12 @@ abd2b0 maxwatts 1250 # 172.16.200.236
 de765b maxwatts 1250 # 172.16.200.238
 abd2b0 rebootasic 1563504860 # 172.16.200.236
 de765b rebootasic 1563504860 # 172.16.200.238
+
+76cef8 maxwatts 1100
+ccf8bb maxwatts 1100
+8fee55 maxwatts 1200
+5ab5f6 maxwatts 1300
+ef8f42 maxwatts 1300
 
 ## asic password
 asicpass admin
