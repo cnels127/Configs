@@ -1,6 +1,6 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
 
-global custompanel CGRUS1bit049
+global custompanel CGRUS0bit049
 
 global poolname1 eu.stratum.slushpool.com:3333
 global username1 chrisgu
@@ -17,12 +17,12 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1500
+global maxwatts 1450
 
 global autoupdate no
 global allowed yes
 global maxtemp 90
-global fanspeed 95
+global fanspeed 100
 global fansaver 65
 global blinkgreen rapid
 
@@ -35,10 +35,16 @@ global blinkgreen rapid
 # group=rowd allowed no
 
 ## vlans
+vlan 10.0.63.70-70
+vlan 10.0.64.123-123
 
 ## locations
+e234df location CGRUS0001
+522efd location CGRUS0002
 
 ## tuning
+e234df maxwatts 1350
+522efd maxwatts 1450
 
 ## asic password
 asicpass admin
