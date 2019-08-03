@@ -1,0 +1,50 @@
+## instructions available at: https://asicseer.com/page/kb#writing-config
+
+global custompanel CCADR0bit049
+
+global poolname1 eu.ss.btc.com:1800
+global username1 wzzjxj2
+global poolpass1 123
+global sendworker1 yes
+global poolname2 eu.multipool.us:3332 
+global username2 alexander101
+global poolpass2 123
+global sendworker2 yes
+global poolname3 eu.ss.btc.com:443
+global username3 wzzjxj2
+global poolpass3 123
+global sendworker3 yes
+
+global asicboost yes
+global autotune yes
+global maxwatts 1450
+
+global autoupdate yes
+global allowed yes
+global maxtemp 90
+global fanspeed 100
+global fansaver 65
+global blinkgreen rapid
+
+# global retune 1
+# global rebootasic 1
+# global resetasic 1
+# global panelpass gj83Nkgikg
+
+# group=rowc rebootasic 1
+# group=rowd allowed no
+
+## vlans
+vlan 10.0.64.105-105
+vlan 10.0.64.153-153
+vlan 10.0.66.116-116
+
+## locations
+549631 location CCADR0001
+1c6e2b location CCADR0002
+551f73 location CCADR0003
+
+## tuning
+
+## asic password
+asicpass admin
