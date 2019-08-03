@@ -59,6 +59,9 @@ dc7a56 location LMACKCOS18F13
 188204 location LMACKCOS18F17
 
 ## tuning
+d38886 maxwatts 700 # 172.16.203.249
+d38886 rebootasic 1564876182 # 172.16.203.249
+
 d38886 maxwatts 800 # 172.16.203.249
 d38886 rebootasic 1564728517 # 172.16.203.249
 
@@ -182,6 +185,7 @@ dc7a56 maxwatts 1400
 
 ## asic password
 asicpass admin
+
 
 
 
