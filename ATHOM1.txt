@@ -114,6 +114,13 @@ d13d9c location athom0039
 
 ## tuning
 9be27b maxwatts 500 # 10.0.63.106
+de2039 maxwatts 1075 # 10.0.54.127
+9b3517 maxwatts 1025 # 10.0.64.24
+9be27b rebootasic 1564801904 # 10.0.63.106
+de2039 rebootasic 1564801904 # 10.0.54.127
+9b3517 rebootasic 1564801904 # 10.0.64.24
+
+9be27b maxwatts 500 # 10.0.63.106
 9be27b rebootasic 1564763137 # 10.0.63.106
 
 9be27b maxwatts 500 # 10.0.63.106
@@ -351,6 +358,7 @@ ae4552 maxwatts 1400
 
 ## asic password
 asicpass admin
+
 
 
 
