@@ -57,6 +57,9 @@ a43fe6 location Bit49-6
 cc96e4 location Bit49-10
 
 ## tuning
+133b75 maxwatts 650 # 10.0.67.153
+133b75 rebootasic 1564896925 # 10.0.67.153
+
 133b75 maxwatts 750 # 10.0.67.153
 133b75 rebootasic 1564895231 # 10.0.67.153
 
@@ -133,6 +136,7 @@ a62f6a retune 1
 
 ## asic password
 asicpass admin
+
 
 
 
