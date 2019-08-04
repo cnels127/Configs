@@ -102,6 +102,9 @@ d223ec location GSAMPRUS67x79
 
 ## tuning
 ff488e maxwatts 1425 # 10.0.59.52
+ff488e rebootasic 1564890080 # 10.0.59.52
+
+ff488e maxwatts 1425 # 10.0.59.52
 ff488e rebootasic 1564889547 # 10.0.59.52
 
 3fb821 maxwatts 1425 # 10.0.59.50
@@ -915,6 +918,7 @@ d223ec retune 1
 
 ## asic password
 asicpass admin
+
 
 
 

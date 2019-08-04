@@ -497,6 +497,9 @@ cc9fd9 location AHOPF0302
 79c07f location AHOPF0303
 
 ## tuning
+98d6ae maxwatts 500 # 10.0.224.27
+98d6ae rebootasic 1564890026 # 10.0.224.27
+
 
 #experiment to upclock hashrate - 10.31PM EST 8.3.2019 
 0676bb maxwatts 1499# 10.0.229.137
@@ -1427,6 +1430,7 @@ d0f1c5 maxwatts 1275
 
 ## asic password
 asicpass admin
+
 
 
 
