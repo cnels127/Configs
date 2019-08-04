@@ -53,6 +53,9 @@ vlan 10.0.66.128-128
 
 ## tuning
 d51a5c maxwatts 950 # 10.0.59.161
+d51a5c rebootasic 1564905483 # 10.0.59.161
+
+d51a5c maxwatts 950 # 10.0.59.161
 d51a5c rebootasic 1564904812 # 10.0.59.161
 
 d51a5c maxwatts 1050 # 10.0.59.161
@@ -145,6 +148,7 @@ b3ad3a rebootasic 1563435932 # 10.0.61.18
 
 ## asic password
 asicpass admin
+
 
 
 
