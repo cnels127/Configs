@@ -93,6 +93,9 @@ ef85ce location KTAEYCOS18D31
 
 ## tuning
 bb6c13 maxwatts 900 # 172.16.202.98
+bb6c13 rebootasic 1564942048 # 172.16.202.98
+
+bb6c13 maxwatts 900 # 172.16.202.98
 bb6c13 rebootasic 1564941146 # 172.16.202.98
 
 57f039 maxwatts 800 # 172.16.202.87
@@ -211,6 +214,7 @@ bac719 rebootasic 1563435894 # 172.16.204.103
 
 ## asic password
 asicpass admin
+
 
 
 
