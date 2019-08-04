@@ -320,6 +320,9 @@ e64f0a location CRIBE0140
 
 ## tuning
 fdfb5f maxwatts 1250 # 10.0.59.102
+fdfb5f rebootasic 1564891730 # 10.0.59.102
+
+fdfb5f maxwatts 1250 # 10.0.59.102
 fdfb5f rebootasic 1564891181 # 10.0.59.102
 
 2f0a33 maxwatts 1050 # 10.0.60.112
@@ -821,6 +824,7 @@ c120c5 retune 1
 
 ## asic password
 asicpass admin
+
 
 
 
