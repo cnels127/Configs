@@ -546,6 +546,11 @@ b972c8 location ESOLG0497
 ## tuning
 deee7c maxwatts 500 # 10.0.50.158
 b1546e maxwatts 1325 # 10.0.31.83
+deee7c rebootasic 1564913029 # 10.0.50.158
+b1546e rebootasic 1564913029 # 10.0.31.83
+
+deee7c maxwatts 500 # 10.0.50.158
+b1546e maxwatts 1325 # 10.0.31.83
 deee7c rebootasic 1564912098 # 10.0.50.158
 b1546e rebootasic 1564912098 # 10.0.31.83
 
@@ -3013,6 +3018,7 @@ d471c4 fanspeed 90
 
 ## asic password
 asicpass admin
+
 
 
 
