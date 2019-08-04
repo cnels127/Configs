@@ -84,6 +84,17 @@ vlan 10.0.224.126-126
 vlan 10.0.224.131-131
 
 ## tuning
+6d0436 maxwatts 500 # 10.0.229.51
+a85379 maxwatts 500 # 10.0.224.136
+cdce27 maxwatts 500 # 10.0.229.80
+568737 maxwatts 500 # 10.0.223.145
+a81c86 maxwatts 500 # 10.0.224.104
+6d0436 rebootasic 1564879846 # 10.0.229.51
+a85379 rebootasic 1564879846 # 10.0.224.136
+cdce27 rebootasic 1564879846 # 10.0.229.80
+568737 rebootasic 1564879846 # 10.0.223.145
+a81c86 rebootasic 1564879846 # 10.0.224.104
+
 381d25 maxwatts 500 # 10.0.224.71
 6d0436 maxwatts 500 # 10.0.229.51
 a85379 maxwatts 500 # 10.0.224.136
@@ -13081,6 +13092,7 @@ ecbb73 rebootasic 1563345677 # 10.0.221.130
 
 ## asic password
 asicpass admin
+
 
 
 
