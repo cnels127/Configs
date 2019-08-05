@@ -81,6 +81,9 @@ eb4720 location MKARO0019
 6dbea7 location MKARO0020
 
 ## tuning
+5ee162 maxwatts 1125 # 10.0.67.112
+5ee162 rebootasic 1564992770 # 10.0.67.112
+
 5ee162 maxwatts 1225 # 10.0.67.112
 5ee162 rebootasic 1564989998 # 10.0.67.112
 
@@ -171,6 +174,7 @@ f15e5f rebootasic 1563891332 # 10.0.66.94
 
 ## asic password
 asicpass admin
+
 
 
 
