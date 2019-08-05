@@ -45,6 +45,9 @@ vlan 10.0.67.85-85
 1d58bd location LGARNRUS67x85
 
 ## tuning
+0fdb4f maxwatts 1350 # 10.0.65.102
+0fdb4f rebootasic 1564991235 # 10.0.65.102
+
 0aaeb9 maxwatts 1250 # 10.0.65.60
 0fdb4f maxwatts 1350 # 10.0.65.102
 0aaeb9 rebootasic 1564989900 # 10.0.65.60
@@ -56,5 +59,6 @@ vlan 10.0.67.85-85
 
 ## asic password
 asicpass admin
+
 
 
