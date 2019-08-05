@@ -40,6 +40,9 @@ vlan 10.0.59.69-69
 80218d location JLUIRUS0001
 
 ## tuning
+80218d maxwatts 1100 # 10.0.59.69
+80218d rebootasic 1565004288 # 10.0.59.69
+
 80218d maxwatts 1200 # 10.0.59.69
 80218d rebootasic 1564840588 # 10.0.59.69
 
@@ -52,4 +55,5 @@ vlan 10.0.59.69-69
 
 ## asic password
 asicpass admin
+
 
