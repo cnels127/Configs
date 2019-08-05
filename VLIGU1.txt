@@ -687,6 +687,9 @@ e5f3f0 maxwatts 1550
 629711 maxwatts 1500
 
 ## tuning
+cffad5 maxwatts 1250 # 10.0.58.14
+cffad5 rebootasic 1565015272 # 10.0.58.14
+
 da3f92 maxwatts 1150 # 10.0.57.88
 a8f303 maxwatts 1150 # 10.0.57.96
 093dac maxwatts 1350 # 10.0.57.90
@@ -3307,6 +3310,7 @@ df64b7 rebootasic 1563284483 # 10.0.57.111
 
 ## asic password
 asicpass admin
+
 
 
 
