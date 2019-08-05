@@ -53,6 +53,9 @@ vlan 10.0.66.128-128
 
 ## tuning
 b3ad3a maxwatts 500 # 10.0.61.18
+b3ad3a rebootasic 1564994438 # 10.0.61.18
+
+b3ad3a maxwatts 500 # 10.0.61.18
 b3ad3a rebootasic 1564986052 # 10.0.61.18
 
 b3ad3a maxwatts 500 # 10.0.61.18
@@ -163,6 +166,7 @@ b3ad3a rebootasic 1563435932 # 10.0.61.18
 
 ## asic password
 asicpass admin
+
 
 
 
