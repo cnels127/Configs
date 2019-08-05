@@ -229,6 +229,9 @@ dc9d3b location BIT04921H28
 
 ## tuning
 f57cfe maxwatts 1000 # 172.16.203.176
+f57cfe rebootasic 1565042665 # 172.16.203.176
+
+f57cfe maxwatts 1000 # 172.16.203.176
 f26e7e maxwatts 1000 # 172.16.203.145
 f57cfe rebootasic 1565041131 # 172.16.203.176
 f26e7e rebootasic 1565041131 # 172.16.203.145
@@ -794,6 +797,7 @@ fba5f2 rebootasic 1564727519 # 172.16.203.240
 
 ## asic password
 asicpass admin
+
 
 
 
