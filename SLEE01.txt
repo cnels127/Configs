@@ -71,6 +71,9 @@ f913d1 location 0011A
 	
 ## tuning
 0e1be6 maxwatts 1200 # 172.16.204.132
+0e1be6 rebootasic 1564967829 # 172.16.204.132
+
+0e1be6 maxwatts 1200 # 172.16.204.132
 0e1be6 rebootasic 1564966499 # 172.16.204.132
 
 0e1be6 maxwatts 1200 # 172.16.204.132
@@ -319,6 +322,7 @@ d8d329 maxwatts 1400
 
 ## asic password
 asicpass admin
+
 
 
 
