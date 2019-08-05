@@ -105,6 +105,15 @@ ff488e maxwatts 1425 # 10.0.59.52
 d223ec maxwatts 1250 # 10.0.67.79
 e1c353 maxwatts 1300 # 10.0.59.60
 f24571 maxwatts 1400 # 10.0.59.73
+ff488e rebootasic 1565010452 # 10.0.59.52
+d223ec rebootasic 1565010452 # 10.0.67.79
+e1c353 rebootasic 1565010452 # 10.0.59.60
+f24571 rebootasic 1565010452 # 10.0.59.73
+
+ff488e maxwatts 1425 # 10.0.59.52
+d223ec maxwatts 1250 # 10.0.67.79
+e1c353 maxwatts 1300 # 10.0.59.60
+f24571 maxwatts 1400 # 10.0.59.73
 ff488e rebootasic 1565008985 # 10.0.59.52
 d223ec rebootasic 1565008985 # 10.0.67.79
 e1c353 rebootasic 1565008985 # 10.0.59.60
@@ -1795,6 +1804,7 @@ d223ec retune 1
 
 ## asic password
 asicpass admin
+
 
 
 
