@@ -47,6 +47,9 @@ f7deb6 location TNOLA0002
 be162a location TNOLA0005
 
 ## tuning
+9e6254 maxwatts 800 # 10.0.57.78
+9e6254 rebootasic 1565089287 # 10.0.57.78
+
 eaab57 maxwatts 1250 # 10.0.57.76
 eaab57 rebootasic 1564840736 # 10.0.57.76
 
@@ -92,6 +95,7 @@ be162a maxwatts 1500
 
 ## asic password
 asicpass admin
+
 
 
 
