@@ -192,6 +192,13 @@ bf8fd2 location AZDJE0096
 01b775 maxwatts 500 # 10.0.55.155
 af16ee maxwatts 500 # 10.0.55.159
 d33b29 maxwatts 500 # 10.0.56.55
+01b775 rebootasic 1565078791 # 10.0.55.155
+af16ee rebootasic 1565078791 # 10.0.55.159
+d33b29 rebootasic 1565078791 # 10.0.56.55
+
+01b775 maxwatts 500 # 10.0.55.155
+af16ee maxwatts 500 # 10.0.55.159
+d33b29 maxwatts 500 # 10.0.56.55
 01b775 rebootasic 1565077089 # 10.0.55.155
 af16ee rebootasic 1565077089 # 10.0.55.159
 d33b29 rebootasic 1565077089 # 10.0.56.55
@@ -959,6 +966,7 @@ b60497 rebootasic 1563370636 # 10.0.55.109
 
 ## asic password
 asicpass admin
+
 
 
 
