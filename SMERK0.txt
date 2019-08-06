@@ -15,16 +15,16 @@ global username3 xpdk7ck
 global poolpass3 123
 global sendworker3 yes
 
+global autoupdate no
+global blinkgreen rapid
+global allowed yes
 global asicboost yes
 global autotune yes
 global maxwatts 1450
-
-global autoupdate no
-global allowed yes
-global maxtemp 90
+global maxtemp 90 1
+global throttle 50
 global fanspeed 100
 # global fansaver 65
-global blinkgreen rapid
 
 # global retune 1
 global rebootasic 9
