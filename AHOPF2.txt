@@ -500,6 +500,13 @@ cc9fd9 location AHOPF0302
 98d6ae maxwatts 500 # 10.0.224.27
 d7e7c1 maxwatts 1000 # 10.0.226.4
 6d6ee5 maxwatts 650 # 10.0.226.98
+98d6ae rebootasic 1565057409 # 10.0.224.27
+d7e7c1 rebootasic 1565057409 # 10.0.226.4
+6d6ee5 rebootasic 1565057409 # 10.0.226.98
+
+98d6ae maxwatts 500 # 10.0.224.27
+d7e7c1 maxwatts 1000 # 10.0.226.4
+6d6ee5 maxwatts 650 # 10.0.226.98
 98d6ae rebootasic 1565055282 # 10.0.224.27
 d7e7c1 rebootasic 1565055282 # 10.0.226.4
 6d6ee5 rebootasic 1565055282 # 10.0.226.98
@@ -1735,6 +1742,7 @@ d0f1c5 maxwatts 1275
 
 ## asic password
 asicpass admin
+
 
 
 
