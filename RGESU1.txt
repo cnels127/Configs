@@ -104,6 +104,13 @@ ff032f location RGESURUS0058
 b65a11 maxwatts 500 # 10.0.53.155
 6073d8 maxwatts 500 # 10.0.53.156
 a4164a maxwatts 500 # 10.0.53.160
+b65a11 rebootasic 1565113888 # 10.0.53.155
+6073d8 rebootasic 1565113888 # 10.0.53.156
+a4164a rebootasic 1565113888 # 10.0.53.160
+
+b65a11 maxwatts 500 # 10.0.53.155
+6073d8 maxwatts 500 # 10.0.53.156
+a4164a maxwatts 500 # 10.0.53.160
 b65a11 rebootasic 1565112113 # 10.0.53.155
 6073d8 rebootasic 1565112113 # 10.0.53.156
 a4164a rebootasic 1565112113 # 10.0.53.160
@@ -3899,6 +3906,7 @@ b004dc rebootasic 1563417062 # 10.0.54.13
 
 ## asic password
 asicpass admin
+
 
 
 
