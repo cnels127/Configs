@@ -178,6 +178,39 @@ cffad5 location EXTRA0009
 44e6e0 location EXTRA0012
 
 ## tuning
+cffad5 maxwatts 1250 # 10.0.58.14
+5c0833 maxwatts 1350 # 10.0.51.16
+aaf208 maxwatts 1350 # 10.0.51.18
+eabd2c maxwatts 1050 # 10.0.51.28
+0ebe29 maxwatts 1150 # 10.0.51.34
+81d214 maxwatts 1450 # 10.0.51.36
+688790 maxwatts 1450 # 10.0.51.37
+da3f92 maxwatts 1150 # 10.0.57.88
+093dac maxwatts 1350 # 10.0.57.90
+fde057 maxwatts 1250 # 10.0.57.95
+a8f303 maxwatts 1150 # 10.0.57.96
+e6ead1 maxwatts 1250 # 10.0.57.98
+d517e7 maxwatts 1350 # 10.0.57.106
+b0c57f maxwatts 1350 # 10.0.57.114
+8334c3 maxwatts 1150 # 10.0.57.115
+db2bbb maxwatts 1450 # 10.0.57.120
+cffad5 rebootasic 1565103198 # 10.0.58.14
+5c0833 rebootasic 1565103198 # 10.0.51.16
+aaf208 rebootasic 1565103198 # 10.0.51.18
+eabd2c rebootasic 1565103198 # 10.0.51.28
+0ebe29 rebootasic 1565103198 # 10.0.51.34
+81d214 rebootasic 1565103198 # 10.0.51.36
+688790 rebootasic 1565103198 # 10.0.51.37
+da3f92 rebootasic 1565103198 # 10.0.57.88
+093dac rebootasic 1565103198 # 10.0.57.90
+fde057 rebootasic 1565103198 # 10.0.57.95
+a8f303 rebootasic 1565103198 # 10.0.57.96
+e6ead1 rebootasic 1565103198 # 10.0.57.98
+d517e7 rebootasic 1565103198 # 10.0.57.106
+b0c57f rebootasic 1565103198 # 10.0.57.114
+8334c3 rebootasic 1565103198 # 10.0.57.115
+db2bbb rebootasic 1565103198 # 10.0.57.120
+
 # generated on Aug 01 2019 00:33:42 utc
 da3f92 maxwatts 1250 # 10.0.57.88
 4dac09 maxwatts 1250 # 10.0.51.42
@@ -3312,6 +3345,7 @@ df64b7 rebootasic 1563284483 # 10.0.57.111
 
 ## asic password
 asicpass admin
+
 
 
 
