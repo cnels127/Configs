@@ -47,6 +47,9 @@ e18d51 location HDUONRUS65x129
 2e2f55 location HDUONRUS67x93
 
 ## tuning
+2e2f55 maxwatts 1350 # 10.0.67.93
+2e2f55 rebootasic 1565180480 # 10.0.67.93
+
 5a1fc0 maxwatts 1150 # 10.0.65.78
 55fb45 maxwatts 1050 # 10.0.63.74
 5a1fc0 rebootasic 1564753710 # 10.0.65.78
@@ -76,6 +79,7 @@ e18d51 rebootasic 1564619151 # 10.0.65.129
 
 ## asic password
 asicpass admin
+
 
 
 
