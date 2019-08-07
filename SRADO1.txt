@@ -70,11 +70,6 @@ global rebootasic 3
 # vlan 10.0.67.61-61
 # vlan 10.0.67.70-70
 # vlan 10.0.68.4-4
-vlan 10.0.61.93-93
-vlan 10.0.61.150-150
-vlan 10.0.65.17-17
-vlan 10.0.66.126-126
-vlan 10.0.68.16-16
 
 ##  locations
 c8c8e3 location SRADO0001
@@ -119,11 +114,6 @@ ca6c85 location SRADO0038
 2385b5 location SRADO0040
 31d8e9 location SRADO0041
 fb2a81 location SRADO0042
-332d51 location SRADO0043
-e02f4f location SRADO0044
-35360b location SRADO0045
-124035 location SRADO0046
-9057b2 location SRADO0047
 
 ## tuning
 0f22cc maxwatts 500 # 10.0.68.42
