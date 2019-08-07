@@ -81,6 +81,9 @@ vlan 10.0.68.16-16
 
 ## tuning
 b19f40 maxwatts 500 # 10.0.66.153
+b19f40 rebootasic 1565166632 # 10.0.66.153
+
+b19f40 maxwatts 500 # 10.0.66.153
 ef15e2 maxwatts 500 # 10.0.62.131
 b19f40 rebootasic 1565164876 # 10.0.66.153
 ef15e2 rebootasic 1565164876 # 10.0.62.131
@@ -2589,6 +2592,7 @@ d0ff80 rebootasic 1563355203 # 10.0.66.159
 
 ## asic password
 asicpass admin
+
 
 
 
