@@ -35,9 +35,15 @@ global blinkgreen rapid
 # group=rowd allowed no
 
 ## vlans
-vlan 10.0.56.120-120
-vlan 10.0.56.122-124
-vlan 10.0.56.126-126
+# vlan 10.0.56.120-120
+# vlan 10.0.56.122-124
+# vlan 10.0.56.126-126
+vlan 10.0.64.77-77
+vlan 10.0.64.127-127
+vlan 10.0.65.12-12
+vlan 10.0.66.8-8
+vlan 10.0.67.6-6
+vlan 10.0.68.11-11
 
 ## location
 b49a7f location bi_s9_500
@@ -45,6 +51,12 @@ b49a7f location bi_s9_500
 ab49a7 location bi_s9_502
 c935fd location bi_s9_503
 a9cee7 location bi_s9_504
+e3af8a location bi_s9_505
+739481 location bi_s9_506
+6eb9e6 location bi_s9_507
+701541 location bi_s9_508
+979f86 location bi_s9_509
+4363c7 location bi_s9_510
 
 ## tuning
 21619f maxwatts 1150 # 10.0.56.122
@@ -66,10 +78,12 @@ c935fd rebootasic 1563440539 # 10.0.56.124
 
 b49a7f maxwatts 1325
 b49a7f retune 2
-
-
-
-# ab34ef ipaddress 192.168.10.125
+e3af8a maxwatts 250
+739481 maxwatts 1450
+6eb9e6 maxwatts 1450
+701541 maxwatts 850
+979f86 maxwatts 850
+4363c7 maxwatts 850
 
 ## asic password
 asicpass admin
