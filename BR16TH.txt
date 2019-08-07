@@ -226,6 +226,9 @@ vlan 10.0.229.192-192
 ## location1
 
 ## tuning
+cc8999 maxwatts 1400 # 10.0.224.3
+cc8999 rebootasic 1565161202 # 10.0.224.3
+
 cb9612 maxwatts 1400 # 10.0.228.189
 cb9612 rebootasic 1564036099 # 10.0.228.189
 
@@ -248,3 +251,4 @@ cb9612 rebootasic 1564036099 # 10.0.228.189
 
 ## asic password
 asicpass admin
+
