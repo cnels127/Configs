@@ -18,6 +18,7 @@ global sendworker3 yes
 global asicboost yes
 global autotune yes
 global maxwatts 1450
+global throttle 50
 
 global autoupdate yes
 global allowed yes
@@ -35,8 +36,38 @@ global blinkgreen rapid
 # group=rowd allowed no
 
 ## vlans
+vlan 10.0.61.72-72
+vlan 10.0.61.134-134
+vlan 10.0.63.68-68
+vlan 10.0.64.15-15
+vlan 10.0.64.61-61
+vlan 10.0.64.151-151
+vlan 10.0.65.7-7
+vlan 10.0.65.98-98
+vlan 10.0.65.127-127
+vlan 10.0.65.132-132
+vlan 10.0.65.145-145
+vlan 10.0.65.158-158
+vlan 10.0.66.12-12
+vlan 10.0.66.72-72
+vlan 10.0.66.74-74
 
 ## locations
+5c49bc location KGRAF0001
+3fb74f location KGRAF0002
+16adc1 location KGRAF0003
+5d07a6 location KGRAF0004
+1d3229 location KGRAF0005
+8d226c location KGRAF0006
+93c991 location KGRAF0007
+eec58f location KGRAF0008
+701564 location KGRAF0009
+c7bfa8 location KGRAF0010
+e63499 location KGRAF0011
+141236 location KGRAF0012
+364861 location KGRAF0013
+e4158d location KGRAF0014
+eadea9 location KGRAF0015
 
 ## tuning
 
