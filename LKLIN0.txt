@@ -1,0 +1,44 @@
+## instructions available at: https://asicseer.com/page/kb#writing-config
+
+global custompanel LKLIN0bit049
+
+global poolname1 stratum+tcp://nl.kano.is:3333
+global username1 PGA
+global poolpass1 123
+global sendworker1 yes
+global poolname2 
+global username2 
+global poolpass2 
+global sendworker2 yes
+global poolname3 
+global username3 
+global poolpass3 
+global sendworker3 yes
+
+global autoupdate no
+global blinkgreen rapid
+global allowed yes
+global asicboost yes
+global autotune yes
+global maxwatts 1450
+global maxtemp 90
+global throttle 50
+global fanspeed 100
+# global fansaver 65
+
+# global retune 1
+# global rebootasic 1
+# global resetasic 1
+# global panelpass gj83Nkgikg
+
+# group=rowc rebootasic 1
+# group=rowd allowed no
+
+## vlans
+
+## locations
+
+## tuning
+
+## asic password
+asicpass admin
