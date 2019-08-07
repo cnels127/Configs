@@ -35,7 +35,12 @@ global blinkgreen rapid
 # group=rowd allowed no
 
 ## vlans
-vlan 10.0.68.17-21
+# vlan 10.0.68.17-21
+vlan 10.0.61.93-93
+vlan 10.0.61.150-150
+vlan 10.0.65.17-17
+vlan 10.0.66.126-126
+vlan 10.0.68.16-16
 
 ## locations
 81b475 location PMORG0001
@@ -43,6 +48,11 @@ vlan 10.0.68.17-21
 846595 location PMORG0003
 9a0287 location PMORG0004
 c29a91 location PMORG0005
+332d51 location PMORG0006
+e02f4f location PMORG0007
+35360b location PMORG0008
+124035 location PMORG0009
+9057b2 location PMORG0010
 
 ## tuning
 846595 maxwatts 1250 # 10.0.68.19
