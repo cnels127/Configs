@@ -35,18 +35,38 @@ global retune 1
 # group=rowd allowed no
 
 ## vlans
-vlan 10.0.55.85-85
-vlan 10.0.55.101-101
-vlan 10.0.55.107-107
-vlan 10.0.55.140-140
-vlan 10.0.55.153-153
-vlan 10.0.55.157-157
-vlan 10.0.56.59-59
-vlan 10.0.56.79-79
-vlan 10.0.56.85-85
-vlan 10.0.56.88-88
+# vlan 10.0.55.85-85
+# vlan 10.0.55.101-101
+# vlan 10.0.55.107-107
+# vlan 10.0.55.140-140
+# vlan 10.0.55.153-153
+# vlan 10.0.55.157-157
+# vlan 10.0.56.59-59
+# vlan 10.0.56.79-79
+# vlan 10.0.56.85-85
+# vlan 10.0.56.88-88
+vlan 10.0.62.30-30
+vlan 10.0.63.144-144
+vlan 10.0.64.58-58
+vlan 10.0.64.126-126
+vlan 10.0.64.157-157
+vlan 10.0.65.25-25
+vlan 10.0.65.34-34
+vlan 10.0.65.57-57
+vlan 10.0.65.74-74
+vlan 10.0.65.95-95
+vlan 10.0.65.148-148
+vlan 10.0.66.93-93
+vlan 10.0.66.147-147
+vlan 10.0.67.34-34
+vlan 10.0.67.92-92
+vlan 10.0.67.132-132
+vlan 10.0.67.136-136
+vlan 10.0.67.143-143
+vlan 10.0.68.9-9
+vlan 10.0.68.13-13
 
-## locations ([ASICID] location [name])
+## locations
 84fddc location FHOEF0001
 7e7126 location FHOEF0002
 1a7d47 location FHOEF0003
@@ -57,6 +77,27 @@ de83b4 location FHOEF0006
 8d76ff location FHOEF0008
 17e1e7 location FHOEF0009
 d2d829 location FHOEF0010
+99d76d location FHOEF0011
+b6e889 location FHOEF0012
+dcbbe1 location FHOEF0013
+ed92f7 location FHOEF0014
+e4b5b6 location FHOEF0015
+a3e024 location FHOEF0016
+bc2299 location FHOEF0017
+fe05ff location FHOEF0018
+e8cf8b location FHOEF0019
+e7f1a9 location FHOEF0020
+8342ab location FHOEF0021
+b3897a location FHOEF0022
+a2cb7c location FHOEF0023
+ae42ad location FHOEF0024
+d3176c location FHOEF0025
+67304d location FHOEF0026
+64cc79 location FHOEF0027
+589176 location FHOEF0028
+e3f444 location FHOEF0029
+73ee2e location FHOEF0030
+
 
 ## tuning
 d2d829 maxwatts 1100 # 10.0.56.88
@@ -123,12 +164,26 @@ de83b4 maxwatts 1400
 8d76ff maxwatts 1400
 17e1e7 maxwatts 1400
 d2d829 maxwatts 1400
+99d76d maxwatts 1450
+b6e889 maxwatts 1350
+dcbbe1 maxwatts 1350
+ed92f7 maxwatts 1450
+e4b5b6 maxwatts 1250
+a3e024 maxwatts 1250
+bc2299 maxwatts 1150
+fe05ff maxwatts 1450
+e8cf8b maxwatts 1150
+e7f1a9 maxwatts 1150
+8342ab maxwatts 1250
+b3897a maxwatts 1050
+a2cb7c maxwatts 1050
+ae42ad maxwatts 950
+d3176c maxwatts 1250
+67304d maxwatts 1450
+64cc79 maxwatts 1450
+589176 maxwatts 850
+e3f444 maxwatts 1150
+73ee2e maxwatts 1450
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
