@@ -49,6 +49,9 @@ ceac8d location HKATZRUS67X40
 
 ## tuning
 fae301 maxwatts 1100 # 10.0.68.38
+fae301 rebootasic 1565218773 # 10.0.68.38
+
+fae301 maxwatts 1100 # 10.0.68.38
 fae301 rebootasic 1565217064 # 10.0.68.38
 
 fae301 maxwatts 1100 # 10.0.68.38
@@ -456,6 +459,7 @@ ceac8d maxwatts 1350
 
 ## asic password
 asicpass admin
+
 
 
 
