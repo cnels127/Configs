@@ -46,6 +46,9 @@ ed4012 location s9worker3
 35740c retune 1
 
 ## tuning
+cb178d maxwatts 1250 # 10.0.53.56
+cb178d rebootasic 1565170183 # 10.0.53.56
+
 # generated on Jul 26 2019 15:40:50 utc
 35740c maxwatts 1050 # 10.0.53.55
 35740c rebootasic 1564155650 # 10.0.53.55
@@ -62,3 +65,4 @@ ed4012 location s9worker3
 
 ## asic password
 asicpass admin
+
