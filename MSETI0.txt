@@ -1,0 +1,53 @@
+## instructions available at: https://asicseer.com/page/kb#writing-config
+
+global custompanel MSETI0bit049
+
+global poolname1 sha256.usa-new.nicehash.com:3334
+global username1 3HorDMDdLWBgZ7hnqFzPRnQUtG5XVjSkTQ
+global poolpass1 12345
+global sendworker1 yes
+global poolname2 sha256.usa-new.nicehash.com:3334
+global username2 3HorDMDdLWBgZ7hnqFzPRnQUtG5XVjSkTQ
+global poolpass2 12345
+global sendworker2 yes
+global poolname3 sha256.usa-new.nicehash.com:3334
+global username3 3HorDMDdLWBgZ7hnqFzPRnQUtG5XVjSkTQ
+global poolpass3 12345
+global sendworker3 yes
+
+global autoupdate no
+global blinkgreen rapid
+global allowed yes
+global asicboost no
+global autotune yes
+global maxwatts 1450
+global maxtemp 90
+global throttle 50
+global fanspeed 100
+# global fansaver 65
+
+# global retune 1
+# global rebootasic 1
+# global resetasic 1
+# global panelpass gj83Nkgikg
+
+# group=rowc rebootasic 1
+# group=rowd allowed no
+
+## vlans
+vlan 10.0.61.137-137
+vlan 10.0.63.140-140
+vlan 10.0.63.160-160
+
+## locations
+location MSETI0001
+location MSETI0002
+location MSETI0003
+
+## tuning
+7104a2 maxwatts 1450
+a22315 maxwatts 950
+743db3 maxwatts 950
+
+## asic password
+asicpass admin
