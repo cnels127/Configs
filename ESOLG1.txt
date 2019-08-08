@@ -553,6 +553,31 @@ afd8a4 maxwatts 1250 # 10.0.31.108
 dd258c maxwatts 1300 # 10.0.31.114
 4b1240 maxwatts 500 # 10.0.50.155
 deee7c maxwatts 500 # 10.0.50.158
+55fe55 maxwatts 800 # 10.0.55.44
+3e829b maxwatts 500 # 10.0.55.70
+8e9351 maxwatts 500 # 10.0.55.82
+83dcd9 rebootasic 1565265354 # 10.0.30.152
+11aa26 rebootasic 1565265354 # 10.0.30.154
+548bcf rebootasic 1565265354 # 10.0.30.160
+6bfa85 rebootasic 1565265354 # 10.0.31.52
+b1546e rebootasic 1565265354 # 10.0.31.83
+afd8a4 rebootasic 1565265354 # 10.0.31.108
+dd258c rebootasic 1565265354 # 10.0.31.114
+4b1240 rebootasic 1565265354 # 10.0.50.155
+deee7c rebootasic 1565265354 # 10.0.50.158
+55fe55 rebootasic 1565265354 # 10.0.55.44
+3e829b rebootasic 1565265354 # 10.0.55.70
+8e9351 rebootasic 1565265354 # 10.0.55.82
+
+83dcd9 maxwatts 1300 # 10.0.30.152
+11aa26 maxwatts 1250 # 10.0.30.154
+548bcf maxwatts 1375 # 10.0.30.160
+6bfa85 maxwatts 1250 # 10.0.31.52
+b1546e maxwatts 1325 # 10.0.31.83
+afd8a4 maxwatts 1250 # 10.0.31.108
+dd258c maxwatts 1300 # 10.0.31.114
+4b1240 maxwatts 500 # 10.0.50.155
+deee7c maxwatts 500 # 10.0.50.158
 8e9351 maxwatts 500 # 10.0.55.82
 83dcd9 rebootasic 1565263336 # 10.0.30.152
 11aa26 rebootasic 1565263336 # 10.0.30.154
@@ -5654,6 +5679,7 @@ d471c4 fanspeed 90
 
 ## asic password
 asicpass admin
+
 
 
 
