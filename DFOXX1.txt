@@ -63,6 +63,9 @@ d7ac75 location DFOXXRUS66x140
 d10cec location DFOXXRUS66x141
 
 ## tuning
+95ae86 maxwatts 500 # 10.0.66.130
+95ae86 rebootasic 1565243682 # 10.0.66.130
+
 d10cec maxwatts 1350 # 10.0.66.141
 d10cec rebootasic 1565236362 # 10.0.66.141
 
@@ -235,6 +238,7 @@ d7ac75 rebootasic 1564840533 # 10.0.66.140
 
 ## asic password
 asicpass admin
+
 
 
 
