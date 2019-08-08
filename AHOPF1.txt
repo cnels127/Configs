@@ -142,6 +142,9 @@ c6cbe1 location ahopf0075
 
 ## tuning
 38b6a2 maxwatts 500 # 10.0.57.16
+38b6a2 rebootasic 1565251389 # 10.0.57.16
+
+38b6a2 maxwatts 500 # 10.0.57.16
 38b6a2 rebootasic 1565249418 # 10.0.57.16
 
 38b6a2 maxwatts 500 # 10.0.57.16
@@ -528,6 +531,7 @@ a4a691 maxwatts 1425
 
 ## asic password
 asicpass admin
+
 
 
 

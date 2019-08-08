@@ -190,6 +190,9 @@ d3cdf7 location LMACKRUS0100
 
 ## tuning
 f51c4d maxwatts 500 # 10.0.64.161
+f51c4d rebootasic 1565251578 # 10.0.64.161
+
+f51c4d maxwatts 500 # 10.0.64.161
 f51c4d rebootasic 1565249634 # 10.0.64.161
 
 184ed5 maxwatts 1225 # 10.0.63.76
@@ -1063,6 +1066,7 @@ fef436 rebootasic 1563375294 # 10.0.54.115
 
 ## asic password
 asicpass admin
+
 
 
 
