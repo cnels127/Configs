@@ -85,6 +85,11 @@ de5a58 location HFISC0030
 
 ## tuning
 b688aa maxwatts 500 # 10.0.60.69
+de5a58 maxwatts 1050 # 10.0.61.14
+b688aa rebootasic 1565253473 # 10.0.60.69
+de5a58 rebootasic 1565253473 # 10.0.61.14
+
+b688aa maxwatts 500 # 10.0.60.69
 b688aa rebootasic 1565251520 # 10.0.60.69
 
 b688aa maxwatts 500 # 10.0.60.69
@@ -424,6 +429,7 @@ c8c445 rebootasic 1563435868 # 10.0.61.4
 
 ## asic password
 asicpass admin
+
 
 
 
