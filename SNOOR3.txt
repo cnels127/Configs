@@ -89,6 +89,9 @@ a2153e location SNOORRUS67x31
 5873d0 location SNOORRUS67x90
 
 ## tuning
+e51a48 maxwatts 1250 # 10.0.66.35
+e51a48 rebootasic 1565234672 # 10.0.66.35
+
 6f3a26 maxwatts 1050 # 10.0.64.25
 6f3a26 rebootasic 1565087540 # 10.0.64.25
 
@@ -177,6 +180,7 @@ a2153e maxwatts 1250
 
 ## asic password
 asicpass admin
+
 
 
 
