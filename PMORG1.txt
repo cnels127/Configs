@@ -55,35 +55,7 @@ e02f4f location PMORG0007
 9057b2 location PMORG0010
 
 ## tuning
-81b475 maxwatts 1350 # 10.0.68.17
-81b475 rebootasic 1565247716 # 10.0.68.17
-
-846595 maxwatts 1250 # 10.0.68.19
-c29a91 maxwatts 1350 # 10.0.68.21
-846595 rebootasic 1564840651 # 10.0.68.19
-c29a91 rebootasic 1564840651 # 10.0.68.21
-
-37f1e2 maxwatts 1450 # 10.0.68.18
-37f1e2 rebootasic 1564646708 # 10.0.68.18
-
-c29a91 maxwatts 1450 # 10.0.68.21
-c29a91 rebootasic 1564577457 # 10.0.68.21
-
-c29a91 maxwatts 1450 # 10.0.68.21
-c29a91 rebootasic 1564577282 # 10.0.68.21
-
-81b475 maxwatts 1450 # 10.0.68.17
-81b475 rebootasic 1564036202 # 10.0.68.17
-
-# generated on Jul 23 2019 14:58:13 utc
-9a0287 maxwatts 1450 # 10.0.68.20
-9a0287 rebootasic 1563893893 # 10.0.68.20
-
-846595 maxwatts 1350 # 10.0.68.19
-846595 rebootasic 1563630484 # 10.0.68.19
-
-846595 maxwatts 1450 # 10.0.68.19
-846595 rebootasic 1563440563 # 10.0.68.19
+#removed overheat max watts 8.9.19 17:50 UTC
 
 81b475 maxwatts 1550
 37f1e2 maxwatts 1550
