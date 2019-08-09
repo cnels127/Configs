@@ -59,34 +59,7 @@ bd9932 location PKOKE0008
 e5ba90 location PKOKE0012
 
 ## tuning
-17739c maxwatts 1200 # 10.0.54.133
-17739c rebootasic 1564343309 # 10.0.54.133
-
-17739c maxwatts 1300 # 10.0.54.133
-17739c rebootasic 1564039230 # 10.0.54.133
-
-# generated on Jul 23 2019 14:58:58 utc
-3bcc51 maxwatts 1200 # 10.0.57.75
-3bcc51 rebootasic 1563893938 # 10.0.57.75
-
-# generated on Jul 19 2019 03:45:00 utc
-ac1644 maxwatts 900 # 10.0.55.160
-ac1644 rebootasic 1563507900 # 10.0.55.160
-
-ac1644 maxwatts 1000 # 10.0.55.160
-ac1644 rebootasic 1563444267 # 10.0.55.160
-
-ac1644 maxwatts 1100 # 10.0.55.160
-ac1644 rebootasic 1563440562 # 10.0.55.160
-
-ac1644 maxwatts 1200 # 10.0.55.160
-3bcc51 maxwatts 1300 # 10.0.57.75
-ac1644 rebootasic 1563435925 # 10.0.55.160
-3bcc51 rebootasic 1563435925 # 10.0.57.75
-
-# generated on Jul 18 2019 02:35:00 utc
-ac1644 maxwatts 1300 # 10.0.55.160
-ac1644 rebootasic 1563417300 # 10.0.55.160
+#removed overheat max watts 8.9.19 17:50 UTC
 
 17739c maxwatts 1400
 ae28ba maxwatts 1350
