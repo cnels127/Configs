@@ -40,18 +40,7 @@ vlan 10.0.59.69-69
 80218d location JLUIRUS0001
 
 ## tuning
-80218d maxwatts 1100 # 10.0.59.69
-80218d rebootasic 1565004288 # 10.0.59.69
-
-80218d maxwatts 1200 # 10.0.59.69
-80218d rebootasic 1564840588 # 10.0.59.69
-
-80218d maxwatts 1300 # 10.0.59.69
-80218d rebootasic 1564036152 # 10.0.59.69
-
-# generated on Jul 23 2019 15:13:11 utc
-80218d maxwatts 1400 # 10.0.59.69
-80218d rebootasic 1563894791 # 10.0.59.69
+#removed overheat max watts 8.9.19 17:30 UTC
 
 ## asic password
 asicpass admin
