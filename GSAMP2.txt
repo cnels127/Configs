@@ -63,45 +63,7 @@ d223ec location GSAMPRUS67x79
 
 
 ## tuning
-78cb4c maxwatts 1325 # 10.0.59.49
-ff488e maxwatts 1225 # 10.0.59.52
-e1c353 maxwatts 1300 # 10.0.59.60
-78cb4c rebootasic 1565353933 # 10.0.59.49
-ff488e rebootasic 1565353933 # 10.0.59.52
-e1c353 rebootasic 1565353933 # 10.0.59.60
-
-# generated on Aug 07 2019 22:28:55 utc
-ff488e maxwatts 1325 # 10.0.59.52
-f24571 maxwatts 1300 # 10.0.59.73
-2d2f66 maxwatts 1300 # 10.0.59.80
-ff488e rebootasic 1565216935 # 10.0.59.52
-f24571 rebootasic 1565216935 # 10.0.59.73
-2d2f66 rebootasic 1565216935 # 10.0.59.80
-
-# generated on Aug 06 2019 21:38:46 utc
-# This snippet was added manually JB
-ff488e maxwatts 1425 # 10.0.59.52
-8a804d maxwatts 1425 # 10.0.59.54
-f24571 maxwatts 1400 # 10.0.59.73
-2d2f66 maxwatts 1400 # 10.0.59.80
-d223ec maxwatts 1250 # 10.0.67.79
-ff488e rebootasic 1565127526 # 10.0.59.52
-8a804d rebootasic 1565127526 # 10.0.59.54
-f24571 rebootasic 1565127526 # 10.0.59.73
-2d2f66 rebootasic 1565127526 # 10.0.59.80
-d223ec rebootasic 1565127526 # 10.0.67.79
-
-# generated on Jul 23 2019 14:30:40 utc
-78cb4c maxwatts 1425 # 10.0.59.49
-d223ec maxwatts 1350 # 10.0.67.79
-e1c353 maxwatts 1400 # 10.0.59.60
-78cb4c rebootasic 1563892240 # 10.0.59.49
-d223ec rebootasic 1563892240 # 10.0.67.79
-e1c353 rebootasic 1563892240 # 10.0.59.60
-
-# generated on Jul 22 2019 14:12:41 utc
-d223ec maxwatts 1450 # 10.0.67.79
-d223ec rebootasic 1563804761 # 10.0.67.79
+#removed overheat max watts 8.9.19 17:20 UTC
 
 78cb4c maxwatts 1525
 3fb821 maxwatts 1525
