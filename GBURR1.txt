@@ -49,37 +49,7 @@ b69144 location daisy
 fb355a location sushi
 
 ## tuning
-2d11cf maxwatts 1200 # 10.0.55.150
-2d11cf rebootasic 1564055085 # 10.0.55.150
-
-f0f798 maxwatts 1300 # 10.0.55.87
-f0f798 rebootasic 1564043593 # 10.0.55.87
-
-2d11cf maxwatts 1300 # 10.0.55.150
-fb355a maxwatts 1400 # 10.0.56.113
-2d11cf rebootasic 1564036132 # 10.0.55.150
-fb355a rebootasic 1564036132 # 10.0.56.113
-
-# generated on Jul 23 2019 15:16:17 utc
-2d11cf maxwatts 1400 # 10.0.55.150
-b69144 maxwatts 975 # 10.0.56.107
-f0f798 maxwatts 1400 # 10.0.55.87
-2d11cf rebootasic 1563894977 # 10.0.55.150
-b69144 rebootasic 1563894977 # 10.0.56.107
-f0f798 rebootasic 1563894977 # 10.0.55.87
-
-b69144 maxwatts 1075 # 10.0.56.107
-b69144 rebootasic 1563444204 # 10.0.56.107
-
-b69144 maxwatts 1175 # 10.0.56.107
-b69144 rebootasic 1563440510 # 10.0.56.107
-
-b69144 maxwatts 1275 # 10.0.56.107
-b69144 rebootasic 1563435861 # 10.0.56.107
-
-# generated on Jul 18 2019 02:50:03 utc
-b69144 maxwatts 1375 # 10.0.56.107
-b69144 rebootasic 1563418203 # 10.0.56.107
+#removed overheat max watts 8.9.19 17:20 UTC
 
 f0f798 maxwatts 1500
 e2c6fd maxwatts 1500
