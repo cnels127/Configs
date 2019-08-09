@@ -42,21 +42,7 @@ vlan 10.0.68.40-41
 f69de1 location BBENS0002
 
 ## tuning
-815d57 maxwatts 1250 # 10.0.68.40
-815d57 rebootasic 1565247471 # 10.0.68.40
-
-f69de1 maxwatts 1450 # 10.0.68.41
-f69de1 rebootasic 1564840506 # 10.0.68.41
-
-815d57 maxwatts 1350 # 10.0.68.40
-815d57 rebootasic 1564036092 # 10.0.68.40
-
-# generated on Jul 23 2019 15:24:10 utc
-815d57 maxwatts 1450 # 10.0.68.40
-815d57 rebootasic 1563895450 # 10.0.68.40
-
-815d57 maxwatts 1550
-f69de1 maxwatts 1550
+#removed overheat max watts 8.9.19 17:05 UTC
 
 ## asic password
 asicpass admin
