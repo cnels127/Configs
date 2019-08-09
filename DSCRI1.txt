@@ -44,18 +44,7 @@ vlan 10.0.60.58-58
 1c0d86 location DSCRI0003
 
 ## tuning
-1c0d86 maxwatts 950 # 10.0.60.58
-1c0d86 rebootasic 1564840540 # 10.0.60.58
-
-1c0d86 maxwatts 1050 # 10.0.60.58
-1c0d86 rebootasic 1564047300 # 10.0.60.58
-
-1c0d86 maxwatts 1150 # 10.0.60.58
-1c0d86 rebootasic 1564036119 # 10.0.60.58
-
-# generated on Jul 23 2019 15:18:35 utc
-1c0d86 maxwatts 1250 # 10.0.60.58
-1c0d86 rebootasic 1563895115 # 10.0.60.58
+#removed overheat max watts 8.9.19 17:17 UTC
 
 85ae8d maxwatts 1350
 309322 maxwatts 1350
