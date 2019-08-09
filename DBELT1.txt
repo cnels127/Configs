@@ -52,6 +52,9 @@ f5ddbb location DBELT0003
 
 ## tuning
 f5ddbb maxwatts -100 # 10.0.54.157
+f5ddbb rebootasic 1565389350 # 10.0.54.157
+
+f5ddbb maxwatts -100 # 10.0.54.157
 f5ddbb rebootasic 1565387596 # 10.0.54.157
 
 f5ddbb maxwatts -100 # 10.0.54.157
@@ -1523,6 +1526,7 @@ f5ddbb maxwatts 1350
 
 ## asic password
 asicpass admin
+
 
 
 
