@@ -45,25 +45,8 @@ vlan 10.0.60.161-161
 6364b7 location MWAGE0003
 
 ## tuning
-6364b7 maxwatts 1250 # 10.0.60.161
-6364b7 rebootasic 1565354002 # 10.0.60.161
+#removed overheat max watts 8.9.19 17:45 UTC
 
-96ae02 maxwatts 1150 # 10.0.60.129
-96ae02 rebootasic 1565259637 # 10.0.60.129
-
-96ae02 maxwatts 1250 # 10.0.60.129
-96ae02 rebootasic 1564840633 # 10.0.60.129
-
-# generated on Jul 24 2019 14:33:08 utc
-9b0fa1 maxwatts 1050 # 10.0.60.68
-9b0fa1 rebootasic 1563978788 # 10.0.60.68
-
-# generated on Jul 23 2019 15:02:59 utc
-9b0fa1 maxwatts 1150 # 10.0.60.68
-9b0fa1 rebootasic 1563894179 # 10.0.60.68
-
-9b0fa1 maxwatts 1250 # 10.0.60.68
-9b0fa1 rebootasic 1563435913 # 10.0.60.68
 
 9b0fa1 maxwatts 1350
 96ae02 maxwatts 1350
