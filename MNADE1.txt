@@ -54,62 +54,7 @@ e260d5 location MNADE0009
 6e6dd8 location MNADE0010
 
 ## tuning
-6e6dd8 maxwatts 975 # 10.0.65.104
-6e6dd8 rebootasic 1565255611 # 10.0.65.104
-
-4c4fe6 maxwatts 1300 # 10.0.68.23
-2c0fb6 maxwatts 1325 # 10.0.68.24
-4c4fe6 rebootasic 1564840626 # 10.0.68.23
-2c0fb6 rebootasic 1564840626 # 10.0.68.24
-
-d89759 maxwatts 1300 # 10.0.65.115
-d89759 rebootasic 1564756074 # 10.0.65.115
-
-d89759 maxwatts 1400 # 10.0.65.115
-d89759 rebootasic 1564732714 # 10.0.65.115
-
-3bf939 maxwatts 1450 # 10.0.57.83
-3bf939 rebootasic 1564648746 # 10.0.57.83
-
-8a919b maxwatts 1225 # 10.0.57.84
-e8521d maxwatts 1100 # 10.0.68.25
-6e6dd8 maxwatts 1075 # 10.0.65.104
-2c0fb6 maxwatts 1425 # 10.0.68.24
-8a919b rebootasic 1564047355 # 10.0.57.84
-e8521d rebootasic 1564047355 # 10.0.68.25
-6e6dd8 rebootasic 1564047355 # 10.0.65.104
-2c0fb6 rebootasic 1564047355 # 10.0.68.24
-
-e260d5 maxwatts 1300 # 10.0.67.37
-e260d5 rebootasic 1564039215 # 10.0.67.37
-
-6e6dd8 maxwatts 1175 # 10.0.65.104
-e8521d maxwatts 1200 # 10.0.68.25
-8a919b maxwatts 1325 # 10.0.57.84
-6e6dd8 rebootasic 1564036186 # 10.0.65.104
-e8521d rebootasic 1564036186 # 10.0.68.25
-8a919b rebootasic 1564036186 # 10.0.57.84
-
-# generated on Jul 24 2019 14:30:12 utc
-6e6dd8 maxwatts 1275 # 10.0.65.104
-6e6dd8 rebootasic 1563978612 # 10.0.65.104
-
-# generated on Jul 23 2019 15:04:41 utc
-4c4fe6 maxwatts 1400 # 10.0.68.23
-e8521d maxwatts 1300 # 10.0.68.25
-e260d5 maxwatts 1400 # 10.0.67.37
-6e6dd8 maxwatts 1375 # 10.0.65.104
-4c4fe6 rebootasic 1563894281 # 10.0.68.23
-e8521d rebootasic 1563894281 # 10.0.68.25
-e260d5 rebootasic 1563894281 # 10.0.67.37
-6e6dd8 rebootasic 1563894281 # 10.0.65.104
-
-# generated on Jul 19 2019 00:13:17 utc
-8a919b maxwatts 1425 # 10.0.57.84
-8a919b rebootasic 1563495197 # 10.0.57.84
-
-e8521d maxwatts 1400 # 10.0.68.25
-e8521d rebootasic 1563444253 # 10.0.68.25
+#removed overheat max watts 8.9.19 17:40 UTC
 
 3bf939 maxwatts 1550
 8a919b maxwatts 1525
