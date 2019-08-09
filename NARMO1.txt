@@ -45,12 +45,7 @@ vlan 10.0.66.110-110
 aa75d6 location NARMO0003
 
 ## tuning
-8bdc72 maxwatts 1300 # 10.0.65.134
-8bdc72 rebootasic 1564753783 # 10.0.65.134
-
-8bdc72 maxwatts 1400 # 10.0.65.134
-8bdc72 rebootasic 1564732717 # 10.0.65.134
-
+#removed overheat max watts 8.9.19 17:45 UTC
 
 ## asic password
 asicpass admin
