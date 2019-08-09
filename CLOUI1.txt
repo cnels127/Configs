@@ -50,17 +50,7 @@ df94bd location CLOUI0009
 6cb55b location CLOUI0010
 
 ## tuning
-2b7bed maxwatts 1250 # 10.0.54.49
-bf9f18 maxwatts 1150 # 10.0.54.51
-2b7bed rebootasic 1565080524 # 10.0.54.49
-bf9f18 rebootasic 1565080524 # 10.0.54.51
-
-6cb55b maxwatts 1275 # 10.0.54.58
-6cb55b rebootasic 1564036108 # 10.0.54.58
-
-# generated on Jul 23 2019 15:22:46 utc
-bf9f18 maxwatts 1250 # 10.0.54.51
-bf9f18 rebootasic 1563895366 # 10.0.54.51
+#removed overheat max watts 8.9.19 17:12 UTC
 
 2b7bed maxwatts 1350
 1a1611 maxwatts 1375
