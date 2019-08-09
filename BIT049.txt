@@ -228,6 +228,15 @@ dc9d3b location BIT04921H28
 05bd00 location BIT04921H30
 
 ## tuning
+e97fe4 maxwatts -100 # 172.16.203.139
+01c2fc maxwatts 400 # 172.16.203.210
+bbae64 maxwatts -100 # 172.16.203.174
+195e82 maxwatts 1200 # 172.16.203.172
+e97fe4 rebootasic 1565380623 # 172.16.203.139
+01c2fc rebootasic 1565380623 # 172.16.203.210
+bbae64 rebootasic 1565380623 # 172.16.203.174
+195e82 rebootasic 1565380623 # 172.16.203.172
+
 bbae64 maxwatts 0 # 172.16.203.174
 bbae64 rebootasic 1565375455 # 172.16.203.174
 
@@ -993,6 +1002,7 @@ fba5f2 rebootasic 1564727519 # 172.16.203.240
 
 ## asic password
 asicpass admin
+
 
 
 
