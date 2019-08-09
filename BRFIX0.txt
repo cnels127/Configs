@@ -58,62 +58,7 @@ vlan 10.0.223.72-72
 ## location
 
 ## tuning
-# generated on Jul 22 2019 22:31:08 utc
-031d29 maxwatts 950 # 10.0.226.62
-83aafe maxwatts 850 # 10.0.226.67
-c16782 maxwatts 750 # 10.0.226.2
-031d29 rebootasic 1563834668 # 10.0.226.62
-83aafe rebootasic 1563834668 # 10.0.226.67
-c16782 rebootasic 1563834668 # 10.0.226.2
-
-83aafe maxwatts 950 # 10.0.226.67
-ae8e9d maxwatts 950 # 10.0.226.70
-031d29 maxwatts 1050 # 10.0.226.62
-c16782 maxwatts 850 # 10.0.226.2
-83aafe rebootasic 1563630365 # 10.0.226.67
-ae8e9d rebootasic 1563630365 # 10.0.226.70
-031d29 rebootasic 1563630365 # 10.0.226.62
-c16782 rebootasic 1563630365 # 10.0.226.2
-
-# generated on Jul 20 2019 01:14:21 utc
-c16782 maxwatts 950 # 10.0.226.2
-83aafe maxwatts 1050 # 10.0.226.67
-ae8e9d maxwatts 1050 # 10.0.226.70
-031d29 maxwatts 1150 # 10.0.226.62
-c16782 rebootasic 1563585261 # 10.0.226.2
-83aafe rebootasic 1563585261 # 10.0.226.67
-ae8e9d rebootasic 1563585261 # 10.0.226.70
-031d29 rebootasic 1563585261 # 10.0.226.62
-
-ae8e9d maxwatts 1150 # 10.0.226.70
-83aafe maxwatts 1150 # 10.0.226.67
-c16782 maxwatts 1050 # 10.0.226.2
-ae8e9d rebootasic 1563516663 # 10.0.226.70
-83aafe rebootasic 1563516663 # 10.0.226.67
-c16782 rebootasic 1563516663 # 10.0.226.2
-
-c16782 maxwatts 1150 # 10.0.226.2
-031d29 maxwatts 1250 # 10.0.226.62
-83aafe maxwatts 1250 # 10.0.226.67
-ae8e9d maxwatts 1250 # 10.0.226.70
-c16782 rebootasic 1563504815 # 10.0.226.2
-031d29 rebootasic 1563504815 # 10.0.226.62
-83aafe rebootasic 1563504815 # 10.0.226.67
-ae8e9d rebootasic 1563504815 # 10.0.226.70
-
-0c3772 maxwatts 1150 # 10.0.217.33
-0c3772 rebootasic 1563440489 # 10.0.217.33
-
-0c3772 maxwatts 1250 # 10.0.217.33
-138188 maxwatts 1250 # 10.0.217.28
-962149 maxwatts 1250 # 10.0.217.34
-c16782 maxwatts 1250 # 10.0.226.2
-f7741a maxwatts 1250 # 10.0.223.137
-0c3772 rebootasic 1563435834 # 10.0.217.33
-138188 rebootasic 1563435834 # 10.0.217.28
-962149 rebootasic 1563435834 # 10.0.217.34
-c16782 rebootasic 1563435834 # 10.0.226.2
-f7741a rebootasic 1563435834 # 10.0.223.137
+#removed overheat max watts 8.9.19 17:10 UTC
 
 ## asic password
 asicpass admin
