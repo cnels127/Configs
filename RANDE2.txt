@@ -35,26 +35,7 @@ global blinkgreen rapid
 # group=rowd allowed no
 
 ## tuning
-bda117 maxwatts 1100 # 172.16.203.231
-d8b0ee maxwatts 1400 # 172.16.203.232
-bda117 rebootasic 1564727770 # 172.16.203.231
-d8b0ee rebootasic 1564727770 # 172.16.203.232
-
-bda117 maxwatts 1100 # 172.16.203.231
-d8b0ee maxwatts 1400 # 172.16.203.232
-bda117 rebootasic 1564727770 # 172.16.203.231
-d8b0ee rebootasic 1564727770 # 172.16.203.232
-
-bda117 maxwatts 1200 # 172.16.203.231
-bda117 rebootasic 1564036205 # 172.16.203.231
-
-# generated on Jul 19 2019 00:17:42 utc
-bda117 maxwatts 1300 # 172.16.203.231
-bda117 rebootasic 1563495462 # 172.16.203.231
-
-# generated on Jul 18 2019 02:33:32 utc
-bda117 maxwatts 1400 # 172.16.203.231
-bda117 rebootasic 1563417212 # 172.16.203.231
+#removed overheat max watts 8.9.19 17:50 UTC
 
 bda117 maxwatts 1500
 d8b0ee maxwatts 1500
