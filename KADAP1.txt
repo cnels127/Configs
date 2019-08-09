@@ -45,44 +45,7 @@ e917af location KADAP0002
 4c9876 location KADAP0003
 
 ## tuning
-2a4b43 maxwatts 950 # 10.0.56.132
-2a4b43 rebootasic 1564887921 # 10.0.56.132
-
-2a4b43 maxwatts 1050 # 10.0.56.132
-2a4b43 rebootasic 1564884644 # 10.0.56.132
-
-2a4b43 maxwatts 1150 # 10.0.56.132
-2a4b43 rebootasic 1564840597 # 10.0.56.132
-
-# generated on Jul 25 2019 19:24:40 utc
-4c9876 maxwatts 1250 # 10.0.56.137
-4c9876 rebootasic 1564082680 # 10.0.56.137
-
-2a4b43 maxwatts 1250 # 10.0.56.132
-2a4b43 rebootasic 1564043616 # 10.0.56.132
-
-2a4b43 maxwatts 1350 # 10.0.56.132
-4c9876 maxwatts 1350 # 10.0.56.137
-e917af maxwatts 1125 # 10.0.56.136
-2a4b43 rebootasic 1564036159 # 10.0.56.132
-4c9876 rebootasic 1564036159 # 10.0.56.137
-e917af rebootasic 1564036159 # 10.0.56.136
-
-# generated on Jul 24 2019 15:02:33 utc
-e917af maxwatts 1225 # 10.0.56.136
-e917af rebootasic 1563980553 # 10.0.56.136
-
-# generated on Jul 23 2019 15:10:53 utc
-e917af maxwatts 1325 # 10.0.56.136
-2a4b43 maxwatts 1450 # 10.0.56.132
-4c9876 maxwatts 1450 # 10.0.56.137
-e917af rebootasic 1563894653 # 10.0.56.136
-2a4b43 rebootasic 1563894653 # 10.0.56.132
-4c9876 rebootasic 1563894653 # 10.0.56.137
-
-# generated on Jul 22 2019 15:14:52 utc
-e917af maxwatts 1425 # 10.0.56.136
-e917af rebootasic 1563808492 # 10.0.56.136
+#removed overheat max watts 8.9.19 17:30 UTC
 
 2a4b43 maxwatts 1550
 e917af maxwatts 1525
