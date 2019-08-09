@@ -48,53 +48,7 @@ a01578 location JPAUL0004
 9c326c location JPAUL0005
 
 ## tuning
-a7102e maxwatts 1050 # 10.0.55.128
-a7102e rebootasic 1565002453 # 10.0.55.128
-
-a01578 maxwatts 1150 # 10.0.56.83
-a01578 rebootasic 1564728502 # 10.0.56.83
-
-a01578 maxwatts 1150 # 10.0.56.83
-a01578 rebootasic 1564728502 # 10.0.56.83
-
-a01578 maxwatts 1150 # 10.0.56.83
-a01578 rebootasic 1564728115 # 10.0.56.83
-
-a01578 maxwatts 1150 # 10.0.56.83
-a01578 rebootasic 1564728115 # 10.0.56.83
-
-a01578 maxwatts 1150 # 10.0.56.83
-a01578 rebootasic 1564727732 # 10.0.56.83
-
-a01578 maxwatts 1150 # 10.0.56.83
-a01578 rebootasic 1564727732 # 10.0.56.83
-
-9c326c maxwatts 1225 # 10.0.59.91
-9c326c rebootasic 1564648711 # 10.0.59.91
-
-a01578 maxwatts 1250 # 10.0.56.83
-a01578 rebootasic 1564646657 # 10.0.56.83
-
-a39697 maxwatts 1225 # 10.0.68.37
-a39697 rebootasic 1564644413 # 10.0.68.37
-
-b34b28 maxwatts 1150 # 10.0.68.36
-a7102e maxwatts 1150 # 10.0.55.128
-b34b28 rebootasic 1564577440 # 10.0.68.36
-a7102e rebootasic 1564577440 # 10.0.55.128
-
-b34b28 maxwatts 1150 # 10.0.68.36
-a7102e maxwatts 1150 # 10.0.55.128
-b34b28 rebootasic 1564577258 # 10.0.68.36
-a7102e rebootasic 1564577258 # 10.0.55.128
-
-# generated on Jul 24 2019 14:27:06 utc
-a7102e maxwatts 1250 # 10.0.55.128
-a7102e rebootasic 1563978426 # 10.0.55.128
-
-# generated on Jul 22 2019 15:16:35 utc
-b34b28 maxwatts 1250 # 10.0.68.36
-b34b28 rebootasic 1563808595 # 10.0.68.36
+#removed overheat max watts 8.9.19 17:30 UTC
 
 b34b28 maxwatts 1350
 a39697 maxwatts 1325
