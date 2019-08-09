@@ -43,8 +43,7 @@ fae03c location IUSAK0001
 b65b8a location IUSAK0002
 
 ## tuning
-b65b8a maxwatts 1400 # 10.0.61.9
-b65b8a rebootasic 1564036142 # 10.0.61.9
+#removed overheat max watts 8.9.19 17:25 UTC
 
 fae03c maxwatts 1500
 b65b8a maxwatts 1500
