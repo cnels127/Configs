@@ -49,45 +49,7 @@ df6f8a location ARAMA0004
 0a29cc location ARAMA0006
 
 ## tuning
-87a39c maxwatts 1150 # 10.0.54.144
-87a39c rebootasic 1565255382 # 10.0.54.144
-
-44e8a9 maxwatts 1200 # 10.0.56.115
-44e8a9 rebootasic 1564840497 # 10.0.56.115
-
-df6f8a maxwatts 1000 # 10.0.56.106
-df6f8a rebootasic 1564047270 # 10.0.56.106
-
-dc1171 maxwatts 1100 # 10.0.54.142
-dc1171 rebootasic 1564043403 # 10.0.54.142
-
-c5f2b7 maxwatts 1000 # 10.0.54.143
-df6f8a maxwatts 1100 # 10.0.56.106
-dc1171 maxwatts 1200 # 10.0.54.142
-c5f2b7 rebootasic 1564039123 # 10.0.54.143
-df6f8a rebootasic 1564039123 # 10.0.56.106
-dc1171 rebootasic 1564039123 # 10.0.54.142
-
-87a39c maxwatts 1250 # 10.0.54.144
-df6f8a maxwatts 1200 # 10.0.56.106
-c5f2b7 maxwatts 1100 # 10.0.54.143
-44e8a9 maxwatts 1300 # 10.0.56.115
-87a39c rebootasic 1564036086 # 10.0.54.144
-df6f8a rebootasic 1564036086 # 10.0.56.106
-c5f2b7 rebootasic 1564036086 # 10.0.54.143
-44e8a9 rebootasic 1564036086 # 10.0.56.115
-
-# generated on Jul 23 2019 15:25:32 utc
-dc1171 maxwatts 1300 # 10.0.54.142
-c5f2b7 maxwatts 1200 # 10.0.54.143
-df6f8a maxwatts 1300 # 10.0.56.106
-dc1171 rebootasic 1563895532 # 10.0.54.142
-c5f2b7 rebootasic 1563895532 # 10.0.54.143
-df6f8a rebootasic 1563895532 # 10.0.56.106
-
-# generated on Jul 18 2019 03:27:42 utc
-c5f2b7 maxwatts 1300 # 10.0.54.143
-c5f2b7 rebootasic 1563420462 # 10.0.54.143
+#removed overheat max watts 8.9.19 17:02 UTC
 
 dc1171 maxwatts 1400
 c5f2b7 maxwatts 1400
