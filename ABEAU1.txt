@@ -45,11 +45,7 @@ a26081 location ABEAU0002
 64c124 location ABEAU0003
 
 ## tuning
-64c124 maxwatts 1175 # 10.0.56.68
-64c124 rebootasic 1564753605 # 10.0.56.68
-
-64c124 maxwatts 1275 # 10.0.56.68
-64c124 rebootasic 1564729538 # 10.0.56.68
+#removed overheat max watts 8.9.19 16:55 UTC
 
 35cf73 maxwatts 1325
 a26081 maxwatts 1375
