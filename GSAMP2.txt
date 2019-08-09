@@ -63,6 +63,13 @@ d223ec location GSAMPRUS67x79
 
 
 ## tuning
+78cb4c maxwatts 1325 # 10.0.59.49
+ff488e maxwatts 1225 # 10.0.59.52
+e1c353 maxwatts 1300 # 10.0.59.60
+78cb4c rebootasic 1565353933 # 10.0.59.49
+ff488e rebootasic 1565353933 # 10.0.59.52
+e1c353 rebootasic 1565353933 # 10.0.59.60
+
 # generated on Aug 07 2019 22:28:55 utc
 ff488e maxwatts 1325 # 10.0.59.52
 f24571 maxwatts 1300 # 10.0.59.73
@@ -109,3 +116,4 @@ f24571 maxwatts 1500
 
 ## asic password
 asicpass admin
+
