@@ -46,29 +46,7 @@ d54f75 location RFRANRUS0004
 4fde10 location RFRANCOS0001
 
 ## tuning
-7f3717 maxwatts 1100 # 10.0.62.38
-7f3717 rebootasic 1565245743 # 10.0.62.38
-
-7f3717 maxwatts 1200 # 10.0.62.38
-7f3717 rebootasic 1565082359 # 10.0.62.38
-
-7f3717 maxwatts 1300 # 10.0.62.38
-7f3717 rebootasic 1564579644 # 10.0.62.38
-
-7f3717 maxwatts 1300 # 10.0.62.38
-7f3717 rebootasic 1564579521 # 10.0.62.38
-
-af34c7 maxwatts 1300 # 10.0.62.36
-af34c7 rebootasic 1564577460 # 10.0.62.36
-
-af34c7 maxwatts 1400 # 10.0.62.36
-af34c7 rebootasic 1564039239 # 10.0.62.36
-
-# generated on Jul 23 2019 14:54:48 utc
-7f3717 maxwatts 1400 # 10.0.62.38
-46bd22 maxwatts 1400 # 10.0.62.39
-7f3717 rebootasic 1563893688 # 10.0.62.38
-46bd22 rebootasic 1563893688 # 10.0.62.39
+#removed overheat max watts 8.9.19 17:55 UTC
 
 d54f75 retune 1
 4fde10 maxwatts 1400
