@@ -57,16 +57,7 @@ vlan 172.16.202.39-39
 vlan 172.16.202.96-96
 
 ## tuning
-# generated on Jul 23 2019 21:07:19 utc
-ed1a27 maxwatts 1250 # 172.16.202.40
-ed1a27 rebootasic 1563916039 # 172.16.202.40
-
-# generated on Jul 20 2019 01:16:21 utc
-8ecf72 maxwatts 1250 # 172.16.202.114
-2204ec maxwatts 1250 # 172.16.202.96
-8ecf72 rebootasic 1563585381 # 172.16.202.114
-2204ec rebootasic 1563585381 # 172.16.202.96
-
+#removed overheat max watts 8.9.19 17:16 UTC
 
 ## asic password
 asicpass admin
