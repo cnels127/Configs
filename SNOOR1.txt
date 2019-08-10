@@ -43,55 +43,7 @@ vlan 10.0.55.84-161
 vlan 10.0.56.1-146
 
 ## tuning
-7ac78e maxwatts 1150 # 10.0.56.91
-7ac78e rebootasic 1564840710 # 10.0.56.91
-
-ab2a55 maxwatts 1250 # 10.0.56.81
-ab2a55 rebootasic 1564047399 # 10.0.56.81
-
-86bcfb maxwatts 1150 # 10.0.55.124
-86bcfb rebootasic 1564043682 # 10.0.55.124
-
-ab2a55 maxwatts 1350 # 10.0.56.81
-ab2a55 rebootasic 1564036237 # 10.0.56.81
-
-# generated on Jul 24 2019 14:39:16 utc
-ab2a55 maxwatts 1450 # 10.0.56.81
-86bcfb maxwatts 1250 # 10.0.55.124
-ab2a55 rebootasic 1563979156 # 10.0.56.81
-86bcfb rebootasic 1563979156 # 10.0.55.124
-
-# generated on Jul 23 2019 14:49:47 utc
-fbfdea maxwatts 950 # 10.0.56.99
-86bcfb maxwatts 1350 # 10.0.55.124
-7ac78e maxwatts 1250 # 10.0.56.91
-fbfdea rebootasic 1563893387 # 10.0.56.99
-86bcfb rebootasic 1563893387 # 10.0.55.124
-7ac78e rebootasic 1563893387 # 10.0.56.91
-
-# generated on Jul 22 2019 14:40:09 utc
-fbfdea maxwatts 1050 # 10.0.56.99
-fbfdea rebootasic 1563806409 # 10.0.56.99
-
-fbfdea maxwatts 1150 # 10.0.56.99
-fbfdea rebootasic 1563444299 # 10.0.56.99
-
-fbfdea maxwatts 1250 # 10.0.56.99
-7ac78e maxwatts 1350 # 10.0.56.91
-fbfdea rebootasic 1563435957 # 10.0.56.99
-7ac78e rebootasic 1563435957 # 10.0.56.91
-
-# generated on Jul 18 2019 02:26:03 utc
-fbfdea maxwatts 1350 # 10.0.56.99
-fbfdea rebootasic 1563416763 # 10.0.56.99
-
-# generated on Jul 17 2019 10:22:44 utc
-fbfdea maxwatts 1450 # 10.0.56.99
-86bcfb maxwatts 1450 # 10.0.55.124
-7ac78e maxwatts 1450 # 10.0.56.91
-fbfdea rebootasic 1563358964 # 10.0.56.99
-86bcfb rebootasic 1563358964 # 10.0.55.124
-7ac78e rebootasic 1563358964 # 10.0.56.91
+#removed overheat max watts 8.9.19 18:05 UTC
 
 e06ea6 maxwatts 1525
 
