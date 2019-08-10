@@ -43,21 +43,7 @@ vlan 10.0.61.58-60
 fc92a5 location RHOLL0003
 
 ## tuning
-396497 maxwatts 1225 # 10.0.61.59
-396497 rebootasic 1565173610 # 10.0.61.59
-
-fc92a5 maxwatts 1025 # 10.0.61.60
-fc92a5 rebootasic 1565002762 # 10.0.61.60
-
-425b29 maxwatts 1225 # 10.0.61.58
-fc92a5 maxwatts 1125 # 10.0.61.60
-425b29 rebootasic 1564840677 # 10.0.61.58
-fc92a5 rebootasic 1564840677 # 10.0.61.60
-
-# generated on Aug 01 2019 00:30:02 utc
-fc92a5 maxwatts 1225 # 10.0.61.60
-fc92a5 rebootasic 1564619402 # 10.0.61.60
-
+#removed overheat max watts 8.9.19 18:00 UTC
 
 ## asic password
 asicpass admin
