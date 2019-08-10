@@ -101,6 +101,13 @@ ff032f location RGESURUS0058
 75ef00 location RGESURUS0060
 
 ## tuning
+79e1ed maxwatts 1100 # 10.0.53.153
+6073d8 maxwatts 900 # 10.0.53.156
+a4164a maxwatts 600 # 10.0.53.160
+79e1ed rebootasic 1565408443 # 10.0.53.153
+6073d8 rebootasic 1565408443 # 10.0.53.156
+a4164a rebootasic 1565408443 # 10.0.53.160
+
 e4a1aa maxwatts 1100 # 10.0.53.143
 7bf34d maxwatts 1200 # 10.0.53.147
 dc8a14 maxwatts 1000 # 10.0.53.154
@@ -219,6 +226,7 @@ b004dc rebootasic 1565396767 # 10.0.54.13
 
 ## asic password
 asicpass admin
+
 
 
 

@@ -41,6 +41,9 @@ vlan 10.0.55.5-5
 09cad2 location LWENZ0001
 
 ## tuning
+09cad2 maxwatts 1150 # 10.0.55.5
+09cad2 rebootasic 1565408364 # 10.0.55.5
+
 09cad2 maxwatts 1250 # 10.0.55.5
 09cad2 rebootasic 1565400538 # 10.0.55.5
 
@@ -50,6 +53,7 @@ vlan 10.0.55.5-5
 
 ## asic password
 asicpass admin
+
 
 
 
