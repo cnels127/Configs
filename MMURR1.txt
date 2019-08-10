@@ -43,7 +43,11 @@ vlan 172.16.202.57-57
 c7c4b4 location 0002
 
 ## tuning
+c7c4b4 maxwatts 1200 # 172.16.202.57
+c7c4b4 rebootasic 1565478545 # 172.16.202.57
+
 #removed overheat max watts 8.9.19 17:40 UTC
 
 ## asic password
 asicpass admin
+
