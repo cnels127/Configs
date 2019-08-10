@@ -74,6 +74,9 @@ vlan 10.0.54.39-48
 vlan 10.0.62.66-75
 
 ## tuning
+3a3729 maxwatts 1200 # 10.0.54.42
+3a3729 rebootasic 1565429955 # 10.0.54.42
+
 04339e maxwatts 1200 # 10.0.54.45
 04339e rebootasic 1565413938 # 10.0.54.45
 
@@ -160,6 +163,7 @@ d427dd rebootasic 1565396574 # 10.0.62.74
 
 ## asic password
 asicpass admin
+
 
 
 
