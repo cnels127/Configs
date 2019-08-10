@@ -101,6 +101,13 @@ f24571 location GSAMPRUS59x73
 d223ec location GSAMPRUS67x79
 
 ## tuning
+c5496d maxwatts 1400 # 10.0.56.40
+ff488e maxwatts 1425 # 10.0.59.52
+27a7bc maxwatts 1200 # 10.0.61.6
+c5496d rebootasic 1565400455 # 10.0.56.40
+ff488e rebootasic 1565400455 # 10.0.59.52
+27a7bc rebootasic 1565400455 # 10.0.61.6
+
 27a7bc maxwatts 1300 # 10.0.61.6
 27a7bc rebootasic 1565398517 # 10.0.61.6
 
@@ -154,6 +161,7 @@ d223ec retune 1
 
 ## asic password
 asicpass admin
+
 
 
 

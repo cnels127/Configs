@@ -58,6 +58,13 @@ a016c1 location RANDERUS0008
 636f5f location RANDERUS0010
 
 ## tuning
+e35f32 maxwatts 1250 # 10.0.55.7
+679e5d maxwatts 1250 # 10.0.57.142
+636f5f maxwatts 1250 # 10.0.57.143
+e35f32 rebootasic 1565400591 # 10.0.55.7
+679e5d rebootasic 1565400591 # 10.0.57.142
+636f5f rebootasic 1565400591 # 10.0.57.143
+
 #removed overheat max watts 8.9.19 17:50 UTC
 
 ## COLORADO
@@ -68,6 +75,7 @@ d8b0ee location RANDECOS0002
 
 ## asic password
 asicpass admin
+
 
 
 

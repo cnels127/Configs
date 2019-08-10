@@ -466,6 +466,37 @@ c94f44 location GWELT0248
 50f49e location GWELT0250
 
 ## tuning
+cce2e1 maxwatts 1250 # 10.0.58.51
+5bccd5 maxwatts 1250 # 10.0.58.122
+ffc8a3 maxwatts 1250 # 10.0.58.129
+ce7138 maxwatts 1450 # 10.0.58.131
+d02def maxwatts 1225 # 10.0.58.156
+8ee9ea maxwatts 1225 # 10.0.58.158
+8472ef maxwatts 1250 # 10.0.58.161
+0b6bfe maxwatts 1150 # 10.0.63.159
+22fb1a maxwatts 1250 # 10.0.65.52
+5ced68 maxwatts 1150 # 10.0.65.156
+d9af93 maxwatts 1250 # 10.0.66.4
+c00c7e maxwatts 1350 # 10.0.66.24
+4ca4e7 maxwatts 1350 # 10.0.66.43
+8ec6e6 maxwatts 1350 # 10.0.67.78
+e339a9 maxwatts 1350 # 10.0.67.118
+cce2e1 rebootasic 1565400465 # 10.0.58.51
+5bccd5 rebootasic 1565400465 # 10.0.58.122
+ffc8a3 rebootasic 1565400465 # 10.0.58.129
+ce7138 rebootasic 1565400465 # 10.0.58.131
+d02def rebootasic 1565400465 # 10.0.58.156
+8ee9ea rebootasic 1565400465 # 10.0.58.158
+8472ef rebootasic 1565400465 # 10.0.58.161
+0b6bfe rebootasic 1565400465 # 10.0.63.159
+22fb1a rebootasic 1565400465 # 10.0.65.52
+5ced68 rebootasic 1565400465 # 10.0.65.156
+d9af93 rebootasic 1565400465 # 10.0.66.4
+c00c7e rebootasic 1565400465 # 10.0.66.24
+4ca4e7 rebootasic 1565400465 # 10.0.66.43
+8ec6e6 rebootasic 1565400465 # 10.0.67.78
+e339a9 rebootasic 1565400465 # 10.0.67.118
+
 e9f5d8 maxwatts 1425 # 10.0.58.41
 cce2e1 maxwatts 1350 # 10.0.58.51
 f2866b maxwatts 1350 # 10.0.58.103
@@ -835,6 +866,7 @@ c94f44 maxwatts 1450
 
 ## asic password
 asicpass admin
+
 
 
 
