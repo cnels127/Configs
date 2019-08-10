@@ -47,9 +47,7 @@ db9779 location b3
 d3a31d location b4
 
 ## tuning
-f60318 maxwatts 1200 # 10.0.65.56
-f60318 rebootasic 1564840696 # 10.0.65.56
-
+#removed overheat max watts 8.9.19 18:05 UTC
 
 ## asic password
 asicpass admin
