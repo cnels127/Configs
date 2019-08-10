@@ -47,60 +47,7 @@ f7deb6 location TNOLA0002
 be162a location TNOLA0005
 
 ## tuning
-be162a maxwatts 1300 # 10.0.57.80
-be162a rebootasic 1565234697 # 10.0.57.80
-
-be162a maxwatts 1400 # 10.0.57.80
-be162a rebootasic 1565171919 # 10.0.57.80
-
-8bbd8a maxwatts 1250 # 10.0.57.79
-8bbd8a rebootasic 1565161373 # 10.0.57.79
-
-f7deb6 maxwatts 1350 # 10.0.57.77
-f7deb6 rebootasic 1565159621 # 10.0.57.77
-
-9e6254 maxwatts 800 # 10.0.57.78
-9e6254 rebootasic 1565089287 # 10.0.57.78
-
-eaab57 maxwatts 1250 # 10.0.57.76
-eaab57 rebootasic 1564840736 # 10.0.57.76
-
-eaab57 maxwatts 1350 # 10.0.57.76
-eaab57 rebootasic 1564478682 # 10.0.57.76
-
-eaab57 maxwatts 1350 # 10.0.57.76
-eaab57 rebootasic 1564478428 # 10.0.57.76
-
-8bbd8a maxwatts 1350 # 10.0.57.79
-f7deb6 maxwatts 1450 # 10.0.57.77
-8bbd8a rebootasic 1564047414 # 10.0.57.79
-f7deb6 rebootasic 1564047414 # 10.0.57.77
-
-9e6254 maxwatts 900 # 10.0.57.78
-9e6254 rebootasic 1564043697 # 10.0.57.78
-
-eaab57 maxwatts 1450 # 10.0.57.76
-8bbd8a maxwatts 1450 # 10.0.57.79
-eaab57 rebootasic 1564036254 # 10.0.57.76
-8bbd8a rebootasic 1564036254 # 10.0.57.79
-
-# generated on Jul 24 2019 14:44:51 utc
-9e6254 maxwatts 1000 # 10.0.57.78
-9e6254 rebootasic 1563979491 # 10.0.57.78
-
-# generated on Jul 23 2019 14:44:34 utc
-9e6254 maxwatts 1100 # 10.0.57.78
-9e6254 rebootasic 1563893074 # 10.0.57.78
-
-9e6254 maxwatts 1200 # 10.0.57.78
-9e6254 rebootasic 1563444314 # 10.0.57.78
-
-9e6254 maxwatts 1300 # 10.0.57.78
-9e6254 rebootasic 1563435972 # 10.0.57.78
-
-# generated on Jul 18 2019 02:14:53 utc
-9e6254 maxwatts 1400 # 10.0.57.78
-9e6254 rebootasic 1563416093 # 10.0.57.78
+#removed overheat max watts 8.9.19 18:15 UTC
 
 9e6254 maxwatts 1500
 be162a maxwatts 1500
