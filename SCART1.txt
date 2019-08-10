@@ -45,6 +45,9 @@ vlan 10.0.66.27-27
 66e562 location SCART0003
 
 ## tuning
+2a7d01 maxwatts 1250 # 10.0.61.155
+2a7d01 rebootasic 1565404597 # 10.0.61.155
+
 2a7d01 maxwatts 1350 # 10.0.61.155
 2a7d01 rebootasic 1565402611 # 10.0.61.155
 
@@ -55,6 +58,7 @@ vlan 10.0.66.27-27
 
 ## asic password
 asicpass admin
+
 
 
 

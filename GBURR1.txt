@@ -49,6 +49,9 @@ b69144 location daisy
 fb355a location sushi
 
 ## tuning
+2d11cf maxwatts 1300 # 10.0.55.150
+2d11cf rebootasic 1565404376 # 10.0.55.150
+
 2d11cf maxwatts 1400 # 10.0.55.150
 2d11cf rebootasic 1565402396 # 10.0.55.150
 
@@ -73,5 +76,6 @@ b69144 rebootasic 1563292059 # 10.0.56.107
 
 ## asic password
 asicpass admin
+
 
 

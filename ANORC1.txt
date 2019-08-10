@@ -50,6 +50,13 @@ ce82d1 location ANORC0009
 88093b location ANORC0010
 
 ## tuning
+29b205 maxwatts 1250 # 10.0.68.92
+d0157c maxwatts 1050 # 10.0.68.96
+88093b maxwatts 1250 # 10.0.68.101
+29b205 rebootasic 1565404282 # 10.0.68.92
+d0157c rebootasic 1565404282 # 10.0.68.96
+88093b rebootasic 1565404282 # 10.0.68.101
+
 d0157c maxwatts 1150 # 10.0.68.96
 d0157c rebootasic 1565402294 # 10.0.68.96
 
@@ -73,6 +80,7 @@ ce82d1 maxwatts 1350
 
 ## asic password
 asicpass admin
+
 
 
 

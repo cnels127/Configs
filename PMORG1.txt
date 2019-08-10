@@ -55,6 +55,9 @@ e02f4f location PMORG0007
 9057b2 location PMORG0010
 
 ## tuning
+81b475 maxwatts 1450 # 10.0.68.17
+81b475 rebootasic 1565404544 # 10.0.68.17
+
 #removed overheat max watts 8.9.19 17:50 UTC
 
 81b475 maxwatts 1550
@@ -65,6 +68,7 @@ c29a91 maxwatts 1550
 
 ## asic password
 asicpass admin
+
 
 
 
