@@ -58,6 +58,9 @@ a016c1 location RANDERUS0008
 636f5f location RANDERUS0010
 
 ## tuning
+e35f32 maxwatts 950 # 10.0.55.7
+e35f32 rebootasic 1565412212 # 10.0.55.7
+
 e35f32 maxwatts 1050 # 10.0.55.7
 e35f32 rebootasic 1565408419 # 10.0.55.7
 
@@ -88,6 +91,7 @@ d8b0ee location RANDECOS0002
 
 ## asic password
 asicpass admin
+
 
 
 

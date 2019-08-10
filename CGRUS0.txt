@@ -43,6 +43,9 @@ e234df location CGRUS0001
 522efd location CGRUS0002
 
 ## tuning
+e234df maxwatts 1250 # 10.0.64.123
+e234df rebootasic 1565412036 # 10.0.64.123
+
 e234df maxwatts 1350 # 10.0.64.123
 e234df rebootasic 1565402335 # 10.0.64.123
 
@@ -50,4 +53,5 @@ e234df rebootasic 1565402335 # 10.0.64.123
 
 ## asic password
 asicpass admin
+
 
