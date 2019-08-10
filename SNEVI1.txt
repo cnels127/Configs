@@ -45,38 +45,7 @@ b7e4cf location SNEVI0003
 d2fc8a location SNEVI0005
 
 ## tuning
-b7e4cf maxwatts 1150 # 10.0.68.66
-b7e4cf rebootasic 1564840706 # 10.0.68.66
-
-633e5b maxwatts 1000 # 10.0.68.65
-633e5b rebootasic 1564460784 # 10.0.68.65
-
-633e5b maxwatts 1000 # 10.0.68.65
-633e5b rebootasic 1564470568 # 10.0.68.65
-
-633e5b maxwatts 1000 # 10.0.68.65
-633e5b rebootasic 1564470171 # 10.0.68.65
-
-633e5b maxwatts 1000 # 10.0.68.65
-633e5b rebootasic 1564469581 # 10.0.68.65
-
-633e5b maxwatts 1100 # 10.0.68.65
-633e5b rebootasic 1564356688 # 10.0.68.65
-
-633e5b maxwatts 1200 # 10.0.68.65
-633e5b rebootasic 1564351852 # 10.0.68.65
-
-633e5b maxwatts 1200 # 10.0.68.65
-633e5b rebootasic 1564351852 # 10.0.68.65
-
-633e5b maxwatts 1200 # 10.0.68.65
-633e5b rebootasic 1564351852 # 10.0.68.65
-
-633e5b maxwatts 1300 # 10.0.68.65
-633e5b rebootasic 1564343860 # 10.0.68.65
-
-b7e4cf maxwatts 1250 # 10.0.68.66
-b7e4cf rebootasic 1564036233 # 10.0.68.66
+#removed overheat max watts 8.9.19 18:05 UTC
 
 633e5b maxwatts 1400
 
