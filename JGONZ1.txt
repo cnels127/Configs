@@ -80,6 +80,11 @@ ef8f42 location TEMP4
 5ab5f6 location TEMP5
 
 ## tuning
+8c9641 maxwatts 1250 # 172.16.200.239
+76cef8 maxwatts 1000 # 172.16.202.126
+8c9641 rebootasic 1565453501 # 172.16.200.239
+76cef8 rebootasic 1565453501 # 172.16.202.126
+
 #removed overheat max watts 8.9.19 17:25 UTC
 
 76cef8 maxwatts 1100
@@ -90,6 +95,7 @@ ef8f42 maxwatts 1300
 
 ## asic password
 asicpass admin
+
 
 
 
