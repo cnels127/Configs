@@ -59,6 +59,9 @@ dc7a56 location LMACKCOS18F13
 188204 location LMACKCOS18F17
 
 ## tuning
+be298d maxwatts 1300 # 172.16.203.250
+be298d rebootasic 1565396686 # 172.16.203.250
+
 #removed overheat max watts 8.9.19 17:40 UTC
 
 6923d5 maxwatts 1400
@@ -81,6 +84,7 @@ dc7a56 maxwatts 1400
 
 ## asic password
 asicpass admin
+
 
 
 

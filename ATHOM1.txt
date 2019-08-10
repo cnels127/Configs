@@ -113,6 +113,31 @@ d13d9c location athom0039
 31a7ae location athom0040
 
 ## tuning
+b2bd4a maxwatts 1250 # 10.0.54.129
+ae4552 maxwatts 1300 # 10.0.54.131
+882711 maxwatts 1225 # 10.0.61.112
+9be27b maxwatts 1225 # 10.0.63.106
+979a64 maxwatts 1225 # 10.0.63.129
+158ab6 maxwatts 1225 # 10.0.63.141
+2bb6c8 maxwatts 1225 # 10.0.63.150
+9b3517 maxwatts 1225 # 10.0.64.24
+eedbcd maxwatts 1225 # 10.0.64.85
+42f4ea maxwatts 1225 # 10.0.65.97
+981425 maxwatts 1225 # 10.0.66.1
+94442a maxwatts 1225 # 10.0.66.104
+b2bd4a rebootasic 1565396496 # 10.0.54.129
+ae4552 rebootasic 1565396496 # 10.0.54.131
+882711 rebootasic 1565396496 # 10.0.61.112
+9be27b rebootasic 1565396496 # 10.0.63.106
+979a64 rebootasic 1565396496 # 10.0.63.129
+158ab6 rebootasic 1565396496 # 10.0.63.141
+2bb6c8 rebootasic 1565396496 # 10.0.63.150
+9b3517 rebootasic 1565396496 # 10.0.64.24
+eedbcd rebootasic 1565396496 # 10.0.64.85
+42f4ea rebootasic 1565396496 # 10.0.65.97
+981425 rebootasic 1565396496 # 10.0.66.1
+94442a rebootasic 1565396496 # 10.0.66.104
+
 #removed overheat max watts 8.9.19 17:03 UTC
 
 6a323b maxwatts 1350
@@ -125,6 +150,7 @@ ae4552 maxwatts 1400
 
 ## asic password
 asicpass admin
+
 
 
 

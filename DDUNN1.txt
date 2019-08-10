@@ -70,6 +70,11 @@ eef025 location DDUNN0016
 58df28 location DDUNN0018
 
 ## tuning
+ee9f37 maxwatts 1250 # 10.0.54.161
+787c22 maxwatts 1250 # 10.0.56.112
+ee9f37 rebootasic 1565396542 # 10.0.54.161
+787c22 rebootasic 1565396542 # 10.0.56.112
+
 #removed overheat max watts 8.9.19 17:14 UTC
 
 5594a0 maxwatts 1375
@@ -93,6 +98,7 @@ eef025 maxwatts 1350
 
 ## asic password
 asicpass admin
+
 
 
 

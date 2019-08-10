@@ -90,10 +90,14 @@ ce2f75 location KREDDCOS18G30
 a2bf9f retune 1
 
 ## tuning
+324346 maxwatts 1200 # 172.16.204.125
+324346 rebootasic 1565396660 # 172.16.204.125
+
 #removed overheat max watts 8.9.19 17:35 UTC
 
 ## asic password
 asicpass admin
+
 
 
 

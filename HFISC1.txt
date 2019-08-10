@@ -84,6 +84,21 @@ c8c445 location HFISC0029
 de5a58 location HFISC0030
 
 ## tuning
+7a1084 maxwatts 1250 # 10.0.68.58
+27398f maxwatts 1250 # 10.0.68.60
+779e72 maxwatts 1250 # 10.0.56.141
+bca239 maxwatts 1250 # 10.0.60.33
+e2ac32 maxwatts 1250 # 10.0.60.59
+b688aa maxwatts 1250 # 10.0.60.69
+c8c445 maxwatts 1250 # 10.0.61.4
+7a1084 rebootasic 1565396602 # 10.0.68.58
+27398f rebootasic 1565396602 # 10.0.68.60
+779e72 rebootasic 1565396602 # 10.0.56.141
+bca239 rebootasic 1565396602 # 10.0.60.33
+e2ac32 rebootasic 1565396602 # 10.0.60.59
+b688aa rebootasic 1565396602 # 10.0.60.69
+c8c445 rebootasic 1565396602 # 10.0.61.4
+
 #removed overheat max watts 8.9.19 17:20 UTC
 
 972425 maxwatts 1325
@@ -92,6 +107,7 @@ de5a58 location HFISC0030
 
 ## asic password
 asicpass admin
+
 
 
 

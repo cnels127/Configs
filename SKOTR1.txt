@@ -47,6 +47,9 @@ vlan 10.0.61.17-17
 f5417d location SKOTR0004
 
 ## tuning
+031368 maxwatts 1400 # 10.0.60.155
+031368 rebootasic 1565396796 # 10.0.60.155
+
 #removed overheat max watts 8.9.19 18:05 UTC
 
 6dd1ab maxwatts 1525
@@ -57,4 +60,5 @@ f5417d maxwatts 1500
 
 ## asic password
 asicpass admin
+
 

@@ -45,6 +45,9 @@ vlan 10.0.68.109-110
 2a7ac0 location KWRIG0004
 
 ## tuning
+29bca0 maxwatts 1250 # 10.0.68.109
+29bca0 rebootasic 1565396671 # 10.0.68.109
+
 #removed overheat max watts 8.9.19 17:35 UTC
 
 570c84 maxwatts 1350
@@ -57,3 +60,4 @@ vlan 10.0.68.109-110
 
 ## asic password
 asicpass admin
+

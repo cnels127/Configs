@@ -497,6 +497,31 @@ cc9fd9 location AHOPF0302
 79c07f location AHOPF0303
 
 ## tuning
+98d6ae maxwatts 1200 # 10.0.224.27
+1fe9d4 maxwatts 1200 # 10.0.224.31
+8c0b48 maxwatts 1175 # 10.0.224.108
+c6721f maxwatts 1250 # 10.0.226.112
+1abfaa maxwatts 1250 # 10.0.226.114
+439e29 maxwatts 1250 # 10.0.226.129
+1da911 maxwatts 1250 # 10.0.226.157
+231e10 maxwatts 1250 # 10.0.226.168
+58d134 maxwatts 1250 # 10.0.229.6
+b39993 maxwatts 1250 # 10.0.229.11
+7401f4 maxwatts 1250 # 10.0.229.95
+fd0a3b maxwatts 1250 # 10.0.229.161
+98d6ae rebootasic 1565396482 # 10.0.224.27
+1fe9d4 rebootasic 1565396482 # 10.0.224.31
+8c0b48 rebootasic 1565396482 # 10.0.224.108
+c6721f rebootasic 1565396482 # 10.0.226.112
+1abfaa rebootasic 1565396482 # 10.0.226.114
+439e29 rebootasic 1565396482 # 10.0.226.129
+1da911 rebootasic 1565396482 # 10.0.226.157
+231e10 rebootasic 1565396482 # 10.0.226.168
+58d134 rebootasic 1565396482 # 10.0.229.6
+b39993 rebootasic 1565396482 # 10.0.229.11
+7401f4 rebootasic 1565396482 # 10.0.229.95
+fd0a3b rebootasic 1565396482 # 10.0.229.161
+
 #removed overheat max watts 8.9.19 17:01 UTC
 
 e3daaa maxwatts 1350
@@ -640,6 +665,7 @@ d0f1c5 maxwatts 1275
 
 ## asic password
 asicpass admin
+
 
 
 

@@ -92,6 +92,13 @@ f11c7d location KTAEYCOS18D28
 ef85ce location KTAEYCOS18D31
 
 ## tuning
+80297d maxwatts 1300 # 172.16.202.86
+bb6c13 maxwatts 1200 # 172.16.202.98
+bac719 maxwatts 1200 # 172.16.204.103
+80297d rebootasic 1565396666 # 172.16.202.86
+bb6c13 rebootasic 1565396666 # 172.16.202.98
+bac719 rebootasic 1565396666 # 172.16.204.103
+
 #removed overheat max watts 8.9.19 17:35 UTC
 
 5a6128 maxwatts 1400
@@ -114,6 +121,7 @@ ef85ce location KTAEYCOS18D31
 
 ## asic password
 asicpass admin
+
 
 
 

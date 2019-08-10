@@ -59,10 +59,20 @@ dd7088 location JFOXX0006
 a93cc1 location JFOXX0010
 
 ## tuning
+f12f89 maxwatts 1350 # 10.0.64.66
+d31afd maxwatts 1350 # 10.0.65.77
+6f1b5d maxwatts 1350 # 10.0.65.123
+994f74 maxwatts 1350 # 10.0.66.154
+f12f89 rebootasic 1565396621 # 10.0.64.66
+d31afd rebootasic 1565396621 # 10.0.65.77
+6f1b5d rebootasic 1565396621 # 10.0.65.123
+994f74 rebootasic 1565396621 # 10.0.66.154
+
 #removed overheat max watts 8.9.19 17:25 UTC
 
 ## asic password
 asicpass admin
+
 
 
 

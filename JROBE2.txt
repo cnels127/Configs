@@ -46,6 +46,9 @@ fbb341 location 0003
 555712 location JROBE0002
 
 ## tuning
+7cc8a1 maxwatts 1400 # 172.16.202.58
+7cc8a1 rebootasic 1565396636 # 172.16.202.58
+
 #removed overheat max watts 8.9.19 17:30 UTC
 
 7cc8a1 maxwatts 1500
@@ -54,3 +57,4 @@ fbb341 maxwatts 1500
 
 ## asic password
 asicpass admin
+

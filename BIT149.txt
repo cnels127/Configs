@@ -45,12 +45,16 @@ vlan 172.16.204.223-223
 ## locations
 
 ## tuning
+bb43ef maxwatts 1350 # 172.16.204.63
+bb43ef rebootasic 1565396511 # 172.16.204.63
+
 #removed overheat max watts 8.9.19 17:07 UTC
 
 7f14db maxwatts 1250
 
 ## asic password
 asicpass admin
+
 
 
 

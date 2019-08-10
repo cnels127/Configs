@@ -50,6 +50,9 @@ ef1f6e location PEGAN0005
 38d579 location PEGAN0006
 
 ## tuning
+5a3dde maxwatts 1000 # 10.0.54.154
+5a3dde rebootasic 1565396735 # 10.0.54.154
+
 #removed overheat max watts 8.9.19 17:50 UTC
 
 5a3dde maxwatts 1100
@@ -64,5 +67,6 @@ ef1f6e maxwatts 1350
 
 ## asic password
 asicpass admin
+
 
 

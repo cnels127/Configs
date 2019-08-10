@@ -63,6 +63,9 @@ f2296d location TIMAT0021
 81a6b6 location TIMAT0023
 
 ## tuning
+151ac6 maxwatts 1250 # 10.0.68.69
+151ac6 rebootasic 1565396861 # 10.0.68.69
+
 #removed overheat max watts 8.9.19 18:15 UTC
 
 f2296d maxwatts 1325
@@ -73,6 +76,7 @@ ec43b1 retune 1
 
 ## asic password
 asicpass admin
+
 
 
 

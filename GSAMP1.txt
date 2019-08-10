@@ -101,6 +101,17 @@ f24571 location GSAMPRUS59x73
 d223ec location GSAMPRUS67x79
 
 ## tuning
+62bdc8 maxwatts 1350 # 10.0.58.70
+26be5d maxwatts 1400 # 10.0.59.41
+5aa9d6 maxwatts 1400 # 10.0.59.48
+27a7bc maxwatts 1400 # 10.0.61.6
+d223ec maxwatts 1400 # 10.0.67.79
+62bdc8 rebootasic 1565396584 # 10.0.58.70
+26be5d rebootasic 1565396584 # 10.0.59.41
+5aa9d6 rebootasic 1565396584 # 10.0.59.48
+27a7bc rebootasic 1565396584 # 10.0.61.6
+d223ec rebootasic 1565396584 # 10.0.67.79
+
 #removed overheat max watts 8.9.19 17:20 UTC
 
 c02d51 maxwatts 1500
@@ -140,6 +151,7 @@ d223ec retune 1
 
 ## asic password
 asicpass admin
+
 
 
 

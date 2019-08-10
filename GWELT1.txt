@@ -466,6 +466,85 @@ c94f44 location GWELT0248
 50f49e location GWELT0250
 
 ## tuning
+1dc957 maxwatts 1450 # 10.0.58.37
+a29dfd maxwatts 1425 # 10.0.58.38
+cae093 maxwatts 1475 # 10.0.58.43
+af5e7c maxwatts 1425 # 10.0.58.50
+cce2e1 maxwatts 1450 # 10.0.58.51
+978300 maxwatts 1450 # 10.0.58.53
+a2e64e maxwatts 1425 # 10.0.58.88
+3d6b13 maxwatts 1425 # 10.0.58.92
+f2866b maxwatts 1450 # 10.0.58.103
+c040ef maxwatts 1425 # 10.0.58.106
+214b41 maxwatts 1425 # 10.0.58.120
+2fe2de maxwatts 1425 # 10.0.58.121
+5bccd5 maxwatts 1450 # 10.0.58.122
+ffc8a3 maxwatts 1450 # 10.0.58.129
+d02def maxwatts 1425 # 10.0.58.156
+8ee9ea maxwatts 1425 # 10.0.58.158
+0325b4 maxwatts 1450 # 10.0.58.160
+8472ef maxwatts 1450 # 10.0.58.161
+0b6bfe maxwatts 1350 # 10.0.63.159
+09fd9b maxwatts 1350 # 10.0.64.96
+bbbe26 maxwatts 1350 # 10.0.65.49
+b91d80 maxwatts 1350 # 10.0.65.50
+22fb1a maxwatts 1350 # 10.0.65.52
+d69f79 maxwatts 1350 # 10.0.65.84
+7620af maxwatts 1350 # 10.0.65.139
+c02700 maxwatts 1350 # 10.0.65.155
+5ced68 maxwatts 1350 # 10.0.65.156
+d9af93 maxwatts 1350 # 10.0.66.4
+e087cf maxwatts 1350 # 10.0.66.13
+0dd651 maxwatts 1350 # 10.0.66.15
+fddff5 maxwatts 1350 # 10.0.66.42
+f73001 maxwatts 1350 # 10.0.66.45
+1d21a2 maxwatts 1350 # 10.0.66.47
+486ae7 maxwatts 1350 # 10.0.66.80
+df6891 maxwatts 1350 # 10.0.67.81
+6700fb maxwatts 1350 # 10.0.67.86
+d15350 maxwatts 1350 # 10.0.67.94
+82150d maxwatts 1350 # 10.0.67.117
+3b771d maxwatts 1350 # 10.0.67.124
+1dc957 rebootasic 1565396593 # 10.0.58.37
+a29dfd rebootasic 1565396593 # 10.0.58.38
+cae093 rebootasic 1565396593 # 10.0.58.43
+af5e7c rebootasic 1565396593 # 10.0.58.50
+cce2e1 rebootasic 1565396593 # 10.0.58.51
+978300 rebootasic 1565396593 # 10.0.58.53
+a2e64e rebootasic 1565396593 # 10.0.58.88
+3d6b13 rebootasic 1565396593 # 10.0.58.92
+f2866b rebootasic 1565396593 # 10.0.58.103
+c040ef rebootasic 1565396593 # 10.0.58.106
+214b41 rebootasic 1565396593 # 10.0.58.120
+2fe2de rebootasic 1565396593 # 10.0.58.121
+5bccd5 rebootasic 1565396593 # 10.0.58.122
+ffc8a3 rebootasic 1565396593 # 10.0.58.129
+d02def rebootasic 1565396593 # 10.0.58.156
+8ee9ea rebootasic 1565396593 # 10.0.58.158
+0325b4 rebootasic 1565396593 # 10.0.58.160
+8472ef rebootasic 1565396593 # 10.0.58.161
+0b6bfe rebootasic 1565396593 # 10.0.63.159
+09fd9b rebootasic 1565396593 # 10.0.64.96
+bbbe26 rebootasic 1565396593 # 10.0.65.49
+b91d80 rebootasic 1565396593 # 10.0.65.50
+22fb1a rebootasic 1565396593 # 10.0.65.52
+d69f79 rebootasic 1565396593 # 10.0.65.84
+7620af rebootasic 1565396593 # 10.0.65.139
+c02700 rebootasic 1565396593 # 10.0.65.155
+5ced68 rebootasic 1565396593 # 10.0.65.156
+d9af93 rebootasic 1565396593 # 10.0.66.4
+e087cf rebootasic 1565396593 # 10.0.66.13
+0dd651 rebootasic 1565396593 # 10.0.66.15
+fddff5 rebootasic 1565396593 # 10.0.66.42
+f73001 rebootasic 1565396593 # 10.0.66.45
+1d21a2 rebootasic 1565396593 # 10.0.66.47
+486ae7 rebootasic 1565396593 # 10.0.66.80
+df6891 rebootasic 1565396593 # 10.0.67.81
+6700fb rebootasic 1565396593 # 10.0.67.86
+d15350 rebootasic 1565396593 # 10.0.67.94
+82150d rebootasic 1565396593 # 10.0.67.117
+3b771d rebootasic 1565396593 # 10.0.67.124
+
 #removed overheat max watts 8.9.19 17:20 UTC
 
 164b1f maxwatts 1550
@@ -727,6 +806,7 @@ c94f44 maxwatts 1450
 
 ## asic password
 asicpass admin
+
 
 
 

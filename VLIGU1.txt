@@ -178,6 +178,19 @@ cffad5 location EXTRA0009
 44e6e0 location EXTRA0012
 
 ## tuning
+53247d maxwatts 1450 # 10.0.55.133
+cffad5 maxwatts 1450 # 10.0.58.14
+eabd2c maxwatts 1450 # 10.0.51.28
+3fb0a7 maxwatts 1450 # 10.0.51.46
+fa20ef maxwatts 1450 # 10.0.51.50
+5621cd maxwatts 1450 # 10.0.57.123
+53247d rebootasic 1565396869 # 10.0.55.133
+cffad5 rebootasic 1565396869 # 10.0.58.14
+eabd2c rebootasic 1565396869 # 10.0.51.28
+3fb0a7 rebootasic 1565396869 # 10.0.51.46
+fa20ef rebootasic 1565396869 # 10.0.51.50
+5621cd rebootasic 1565396869 # 10.0.57.123
+
 #removed overheat max watts 8.9.19 18:15 UTC
 
 b6e3fd maxwatts 1500
@@ -400,6 +413,7 @@ db2bbb retune 1
 
 ## asic password
 asicpass admin
+
 
 
 

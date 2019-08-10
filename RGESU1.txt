@@ -101,10 +101,44 @@ ff032f location RGESURUS0058
 75ef00 location RGESURUS0060
 
 ## tuning
+37c8cd maxwatts 1200 # 10.0.53.140
+afb5e3 maxwatts 1200 # 10.0.53.141
+da7d9d maxwatts 1200 # 10.0.53.142
+c3196d maxwatts 1200 # 10.0.53.145
+866b96 maxwatts 1200 # 10.0.53.146
+79e1ed maxwatts 1200 # 10.0.53.153
+dc8a14 maxwatts 1200 # 10.0.53.154
+b65a11 maxwatts 1200 # 10.0.53.155
+6073d8 maxwatts 1200 # 10.0.53.156
+13b57d maxwatts 1200 # 10.0.53.157
+35f34a maxwatts 1200 # 10.0.53.158
+753f7e maxwatts 1200 # 10.0.53.159
+a4164a maxwatts 1200 # 10.0.53.160
+123f64 maxwatts 1200 # 10.0.53.161
+b004dc maxwatts 1200 # 10.0.54.13
+59a9ba maxwatts 1200 # 10.0.54.32
+37c8cd rebootasic 1565396767 # 10.0.53.140
+afb5e3 rebootasic 1565396767 # 10.0.53.141
+da7d9d rebootasic 1565396767 # 10.0.53.142
+c3196d rebootasic 1565396767 # 10.0.53.145
+866b96 rebootasic 1565396767 # 10.0.53.146
+79e1ed rebootasic 1565396767 # 10.0.53.153
+dc8a14 rebootasic 1565396767 # 10.0.53.154
+b65a11 rebootasic 1565396767 # 10.0.53.155
+6073d8 rebootasic 1565396767 # 10.0.53.156
+13b57d rebootasic 1565396767 # 10.0.53.157
+35f34a rebootasic 1565396767 # 10.0.53.158
+753f7e rebootasic 1565396767 # 10.0.53.159
+a4164a rebootasic 1565396767 # 10.0.53.160
+123f64 rebootasic 1565396767 # 10.0.53.161
+b004dc rebootasic 1565396767 # 10.0.54.13
+59a9ba rebootasic 1565396767 # 10.0.54.32
+
 #removed overheat max watts 8.9.19 17:55 UTC
 
 ## asic password
 asicpass admin
+
 
 
 

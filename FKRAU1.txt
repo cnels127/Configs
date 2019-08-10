@@ -74,10 +74,24 @@ vlan 10.0.54.39-48
 vlan 10.0.62.66-75
 
 ## tuning
+66f88a maxwatts 1400 # 10.0.54.40
+04339e maxwatts 1400 # 10.0.54.45
+6d6f15 maxwatts 1400 # 10.0.62.42
+ab6a45 maxwatts 1400 # 10.0.62.45
+5b475d maxwatts 1400 # 10.0.62.69
+d427dd maxwatts 1400 # 10.0.62.74
+66f88a rebootasic 1565396574 # 10.0.54.40
+04339e rebootasic 1565396574 # 10.0.54.45
+6d6f15 rebootasic 1565396574 # 10.0.62.42
+ab6a45 rebootasic 1565396574 # 10.0.62.45
+5b475d rebootasic 1565396574 # 10.0.62.69
+d427dd rebootasic 1565396574 # 10.0.62.74
+
 #removed overheat max watts 8.9.19 17:20 UTC
 
 ## asic password
 asicpass admin
+
 
 
 

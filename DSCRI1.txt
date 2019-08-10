@@ -44,6 +44,9 @@ vlan 10.0.60.58-58
 1c0d86 location DSCRI0003
 
 ## tuning
+1c0d86 maxwatts 1250 # 10.0.60.58
+1c0d86 rebootasic 1565396558 # 10.0.60.58
+
 #removed overheat max watts 8.9.19 17:17 UTC
 
 85ae8d maxwatts 1350
@@ -52,4 +55,5 @@ vlan 10.0.60.58-58
 
 ## asic password
 asicpass admin
+
 

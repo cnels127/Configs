@@ -41,7 +41,11 @@ vlan 10.0.58.132-132
 30946f location nmant0001
 
 ## tuning
+30946f maxwatts 1400 # 10.0.58.132
+30946f rebootasic 1565396723 # 10.0.58.132
+
 #removed overheat max watts 8.9.19 17:45 UTC
 
 ## asic password
 asicpass admin
+

@@ -45,12 +45,16 @@ b7e4cf location SNEVI0003
 d2fc8a location SNEVI0005
 
 ## tuning
+633e5b maxwatts 1300 # 10.0.68.65
+633e5b rebootasic 1565396820 # 10.0.68.65
+
 #removed overheat max watts 8.9.19 18:05 UTC
 
 633e5b maxwatts 1400
 
 ## asic password
 asicpass admin
+
 
 
 

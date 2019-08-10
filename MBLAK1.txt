@@ -52,6 +52,15 @@ dfb542 location MBLAK0010
 5d3f6c location MBLAK0012
 
 ## tuning
+23acb0 maxwatts 1275 # 10.0.56.148
+abee59 maxwatts 1275 # 10.0.56.149
+ecd90f maxwatts 1275 # 10.0.56.155
+5d3f6c maxwatts 1275 # 10.0.56.158
+23acb0 rebootasic 1565396694 # 10.0.56.148
+abee59 rebootasic 1565396694 # 10.0.56.149
+ecd90f rebootasic 1565396694 # 10.0.56.155
+5d3f6c rebootasic 1565396694 # 10.0.56.158
+
 #removed overheat max watts 8.9.19 17:40 UTC
 
 61cbc7 maxwatts 1350
@@ -71,6 +80,7 @@ ec382c retune 1
 
 ## asic password
 asicpass admin
+
 
 
 

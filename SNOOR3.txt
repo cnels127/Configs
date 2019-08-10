@@ -89,6 +89,11 @@ a2153e location SNOORRUS67x31
 5873d0 location SNOORRUS67x90
 
 ## tuning
+da3441 maxwatts 1350 # 10.0.65.101
+002190 maxwatts 1150 # 10.0.67.55
+da3441 rebootasic 1565396836 # 10.0.65.101
+002190 rebootasic 1565396836 # 10.0.67.55
+
 #removed overheat max watts 8.9.19 18:05 UTC 
 
 fb62b2 maxwatts 1450
@@ -119,6 +124,7 @@ a2153e maxwatts 1250
 
 ## asic password
 asicpass admin
+
 
 
 

@@ -79,6 +79,19 @@ d6136a location RACAY0014
 65bbdb location RACAY0021
 
 ## tuning
+cfc1d8 maxwatts 1450 # 10.0.55.115
+ec8ea7 maxwatts 1425 # 10.0.55.144
+74a07a maxwatts 1450 # 10.0.55.146
+497b40 maxwatts 1400 # 10.0.60.86
+053705 maxwatts 1400 # 10.0.60.115
+65bbdb maxwatts 1400 # 10.0.60.127
+cfc1d8 rebootasic 1565396746 # 10.0.55.115
+ec8ea7 rebootasic 1565396746 # 10.0.55.144
+74a07a rebootasic 1565396746 # 10.0.55.146
+497b40 rebootasic 1565396746 # 10.0.60.86
+053705 rebootasic 1565396746 # 10.0.60.115
+65bbdb rebootasic 1565396746 # 10.0.60.127
+
 #removed overheat max watts 8.9.19 17:50 UTC
 
 c55a62 maxwatts 1550
@@ -108,6 +121,7 @@ ec8ea7 retune 1
 
 ## asic password
 asicpass admin
+
 
 
 

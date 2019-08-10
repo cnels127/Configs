@@ -64,10 +64,18 @@ c842f9 location MSHID0007
 bccae7 location MSHID0014
 
 ## tuning
+46bae8 maxwatts 1425 # 10.0.57.145
+304296 maxwatts 1425 # 10.0.57.156
+7f889a maxwatts 1425 # 10.0.58.13
+46bae8 rebootasic 1565396712 # 10.0.57.145
+304296 rebootasic 1565396712 # 10.0.57.156
+7f889a rebootasic 1565396712 # 10.0.58.13
+
 #removed overheat max watts 8.9.19 17:40 UTC
 
 ## asic password
 asicpass admin
+
 
 
 

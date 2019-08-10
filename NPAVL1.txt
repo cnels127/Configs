@@ -52,6 +52,13 @@ fff476 location NPAVL0008
 570241 location NPAVL0010
 
 ## tuning
+3cfe14 maxwatts 1250 # 10.0.57.131
+a95ab0 maxwatts 1275 # 10.0.57.137
+41e2b7 maxwatts 1250 # 10.0.57.140
+3cfe14 rebootasic 1565396729 # 10.0.57.131
+a95ab0 rebootasic 1565396729 # 10.0.57.137
+41e2b7 rebootasic 1565396729 # 10.0.57.140
+
 #removed overheat max watts 8.9.19 17:45 UTC
 
 821721 maxwatts 1375
@@ -67,6 +74,7 @@ fff476 maxwatts 1375
 
 ## asic password
 asicpass admin
+
 
 
 

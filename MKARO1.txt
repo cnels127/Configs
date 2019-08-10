@@ -81,11 +81,19 @@ eb4720 location MKARO0019
 6dbea7 location MKARO0020
 
 ## tuning
+f15e5f maxwatts 1225 # 10.0.66.94
+9851d4 maxwatts 1225 # 10.0.67.27
+5ee162 maxwatts 1225 # 10.0.67.112
+f15e5f rebootasic 1565396700 # 10.0.66.94
+9851d4 rebootasic 1565396700 # 10.0.67.27
+5ee162 rebootasic 1565396700 # 10.0.67.112
+
 #removed overheat max watts 8.9.19 17:40 UTC
 
 
 ## asic password
 asicpass admin
+
 
 
 

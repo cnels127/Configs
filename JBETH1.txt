@@ -69,6 +69,11 @@ f0ed76 location johnbethbtc039
 8f1d39 location johnbethbtc040
 
 ## tuning
+2462cd maxwatts 1400 # 10.0.68.48
+690f5d maxwatts 1450 # 10.0.68.104
+2462cd rebootasic 1565396611 # 10.0.68.48
+690f5d rebootasic 1565396611 # 10.0.68.104
+
 #removed overheat max watts 8.9.19 17:25 UTC
 
 2462cd maxwatts 1500
@@ -98,6 +103,7 @@ f0ed76 maxwatts 1325
 
 ## asic password
 asicpass admin
+
 
 
 
