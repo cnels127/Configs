@@ -367,6 +367,9 @@ f7e3d8 location SNOORCOS20E27
 dd4d31 location SNOORCOS20E28
 
 ## tuning
+c56855 maxwatts 600 # 172.16.204.60
+c56855 rebootasic 1565433627 # 172.16.204.60
+
 c56855 maxwatts 700 # 172.16.204.60
 c56855 rebootasic 1565431853 # 172.16.204.60
 
@@ -465,6 +468,7 @@ d8c5c3 rebootasic 1565396831 # 172.16.200.135
 
 ## asic password
 asicpass admin
+
 
 
 
