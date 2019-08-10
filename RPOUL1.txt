@@ -44,10 +44,7 @@ vlan 10.0.68.30-33
 ba1c4a location RPOUL0004
 
 ## tuning
-12c5ea maxwatts 1275 # 10.0.68.30
-ba1c4a maxwatts 1250 # 10.0.68.33
-12c5ea rebootasic 1564840686 # 10.0.68.30
-ba1c4a rebootasic 1564840686 # 10.0.68.33
+#removed overheat max watts 8.9.19 18:00 UTC
 
 12c5ea maxwatts 1375
 2e86e9 maxwatts 1375
