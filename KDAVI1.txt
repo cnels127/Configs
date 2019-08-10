@@ -48,6 +48,9 @@ cf1a34 location KDAVI0001
 8ef4ad location KDAVI0006
 
 ## tuning
+cf1a34 maxwatts 175 # 10.0.54.148
+cf1a34 rebootasic 1565417640 # 10.0.54.148
+
 cf1a34 maxwatts 275 # 10.0.54.148
 cf1a34 rebootasic 1565415821 # 10.0.54.148
 
@@ -94,6 +97,7 @@ cf1a34 maxwatts 1375
 
 ## asic password
 asicpass admin
+
 
 
 
