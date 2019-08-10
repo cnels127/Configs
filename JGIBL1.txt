@@ -45,6 +45,9 @@ b897c7 location JGIBL0002
 ffc9c8 location JGIBL0003
 
 ## tuning
+615313 maxwatts 1400 # 10.0.55.151
+615313 rebootasic 1565410224 # 10.0.55.151
+
 #removed overheat max watts 8.9.19 17:25 UTC
 
 b897c7 maxwatts 1250
@@ -55,6 +58,7 @@ ffc9c8 maxwatts 1450
 
 ## asic password
 asicpass admin
+
 
 
 
