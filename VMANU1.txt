@@ -103,6 +103,9 @@ e1abed location VMANURUS65x39
 
 
 ## tuning
+53c201 maxwatts 1150 # 10.0.61.160
+53c201 rebootasic 1565398780 # 10.0.61.160
+
 #removed overheat max watts 8.9.19 18:15 UTC
 
 689c52 maxwatts 1325
@@ -135,6 +138,7 @@ e1abed maxwatts 1250
 
 ## asic password 
 asicpass admin
+
 
 
 

@@ -47,6 +47,9 @@ f7deb6 location TNOLA0002
 be162a location TNOLA0005
 
 ## tuning
+9e6254 maxwatts 1400 # 10.0.57.78
+9e6254 rebootasic 1565398764 # 10.0.57.78
+
 #removed overheat max watts 8.9.19 18:15 UTC
 
 9e6254 maxwatts 1500
@@ -54,6 +57,7 @@ be162a maxwatts 1500
 
 ## asic password
 asicpass admin
+
 
 
 

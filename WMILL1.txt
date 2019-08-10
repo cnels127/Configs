@@ -46,10 +46,14 @@ ed4012 location s9worker3
 35740c retune 1
 
 ## tuning
+cb178d maxwatts 1250 # 10.0.53.56
+cb178d rebootasic 1565398785 # 10.0.53.56
+
 #removed overheat max watts 8.9.19 18:15 UTC
 
 ## asic password
 asicpass admin
+
 
 
 
