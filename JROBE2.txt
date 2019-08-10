@@ -46,6 +46,9 @@ fbb341 location 0003
 555712 location JROBE0002
 
 ## tuning
+be602c maxwatts 1300 # 172.16.202.59
+be602c rebootasic 1565463184 # 172.16.202.59
+
 fbb341 maxwatts 1400 # 172.16.204.147
 fbb341 rebootasic 1565461191 # 172.16.204.147
 
@@ -63,6 +66,7 @@ fbb341 maxwatts 1500
 
 ## asic password
 asicpass admin
+
 
 
 
