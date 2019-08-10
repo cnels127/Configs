@@ -46,17 +46,8 @@ vlan 10.0.67.82-82
 ## locations
 
 ## tuning
-16d3c8 maxwatts 950 # 10.0.32.60
-16d3c8 rebootasic 1565065981 # 10.0.32.60
+#removed overheat max watts 8.9.19 18:10 UTC
 
-16d3c8 maxwatts 1050 # 10.0.32.60
-16d3c8 rebootasic 1564753833 # 10.0.32.60
-
-16d3c8 maxwatts 1150 # 10.0.32.60
-16d3c8 rebootasic 1564343873 # 10.0.32.60
-
-16d3c8 maxwatts 1250 # 10.0.32.60
-16d3c8 rebootasic 1564219964 # 10.0.32.60
 
 ## asic password
 asicpass admin
