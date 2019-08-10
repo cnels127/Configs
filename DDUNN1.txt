@@ -70,6 +70,11 @@ eef025 location DDUNN0016
 58df28 location DDUNN0018
 
 ## tuning
+ee9f37 maxwatts 950 # 10.0.54.161
+15a0ef maxwatts 1250 # 10.0.55.147
+ee9f37 rebootasic 1565402355 # 10.0.54.161
+15a0ef rebootasic 1565402355 # 10.0.55.147
+
 ee9f37 maxwatts 1050 # 10.0.54.161
 ee9f37 rebootasic 1565400425 # 10.0.54.161
 
@@ -104,6 +109,7 @@ eef025 maxwatts 1350
 
 ## asic password
 asicpass admin
+
 
 
 

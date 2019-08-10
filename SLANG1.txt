@@ -59,6 +59,13 @@ fe2dc8 location SLANG0009
 e1bef3 location SLANG0010
 
 ## tuning
+435798 maxwatts 1100 # 10.0.60.11
+e39d7c maxwatts 1300 # 10.0.60.87
+e1bef3 maxwatts 1100 # 10.0.60.104
+435798 rebootasic 1565402625 # 10.0.60.11
+e39d7c rebootasic 1565402625 # 10.0.60.87
+e1bef3 rebootasic 1565402625 # 10.0.60.104
+
 435798 maxwatts 1200 # 10.0.60.11
 e1bef3 maxwatts 1200 # 10.0.60.104
 435798 rebootasic 1565400640 # 10.0.60.11
@@ -82,6 +89,7 @@ e1bef3 rebootasic 1565396801 # 10.0.60.104
 
 ## asic password
 asicpass admin
+
 
 
 

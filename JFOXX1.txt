@@ -59,6 +59,9 @@ dd7088 location JFOXX0006
 a93cc1 location JFOXX0010
 
 ## tuning
+994f74 maxwatts 1050 # 10.0.66.154
+994f74 rebootasic 1565402441 # 10.0.66.154
+
 994f74 maxwatts 1150 # 10.0.66.154
 994f74 rebootasic 1565400484 # 10.0.66.154
 
@@ -78,6 +81,7 @@ d31afd rebootasic 1565396621 # 10.0.65.77
 
 ## asic password
 asicpass admin
+
 
 
 

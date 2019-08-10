@@ -43,7 +43,11 @@ e234df location CGRUS0001
 522efd location CGRUS0002
 
 ## tuning
+e234df maxwatts 1350 # 10.0.64.123
+e234df rebootasic 1565402335 # 10.0.64.123
+
 #removed overheat max watts 8.9.19 17:11 UTC
 
 ## asic password
 asicpass admin
+

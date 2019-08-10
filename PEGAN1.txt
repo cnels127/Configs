@@ -50,6 +50,9 @@ ef1f6e location PEGAN0005
 38d579 location PEGAN0006
 
 ## tuning
+5a3dde maxwatts 900 # 10.0.54.154
+5a3dde rebootasic 1565402553 # 10.0.54.154
+
 5a3dde maxwatts 1000 # 10.0.54.154
 5a3dde rebootasic 1565396735 # 10.0.54.154
 
@@ -67,6 +70,7 @@ ef1f6e maxwatts 1350
 
 ## asic password
 asicpass admin
+
 
 
 

@@ -79,6 +79,17 @@ d6136a location RACAY0014
 65bbdb location RACAY0021
 
 ## tuning
+73d19d maxwatts 1450 # 10.0.54.152
+cfc1d8 maxwatts 1350 # 10.0.55.115
+095c6d maxwatts 1425 # 10.0.56.36
+497b40 maxwatts 1300 # 10.0.60.86
+053705 maxwatts 1300 # 10.0.60.115
+73d19d rebootasic 1565402565 # 10.0.54.152
+cfc1d8 rebootasic 1565402565 # 10.0.55.115
+095c6d rebootasic 1565402565 # 10.0.56.36
+497b40 rebootasic 1565402565 # 10.0.60.86
+053705 rebootasic 1565402565 # 10.0.60.115
+
 ec8ea7 maxwatts 1225 # 10.0.55.144
 ec8ea7 rebootasic 1565400585 # 10.0.55.144
 
@@ -127,6 +138,7 @@ ec8ea7 retune 1
 
 ## asic password
 asicpass admin
+
 
 
 

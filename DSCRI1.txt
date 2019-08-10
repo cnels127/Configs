@@ -44,6 +44,9 @@ vlan 10.0.60.58-58
 1c0d86 location DSCRI0003
 
 ## tuning
+1c0d86 maxwatts 1150 # 10.0.60.58
+1c0d86 rebootasic 1565402365 # 10.0.60.58
+
 1c0d86 maxwatts 1250 # 10.0.60.58
 1c0d86 rebootasic 1565396558 # 10.0.60.58
 
@@ -55,5 +58,6 @@ vlan 10.0.60.58-58
 
 ## asic password
 asicpass admin
+
 
 
