@@ -541,6 +541,9 @@ b972c8 location ESOLG0497
 8f3359 location ESOLG0500
 
 ## tuning
+91a0e9 maxwatts 700 # 10.0.55.69
+91a0e9 rebootasic 1565516734 # 10.0.55.69
+
 91a0e9 maxwatts 800 # 10.0.55.69
 91a0e9 rebootasic 1565500287 # 10.0.55.69
 
@@ -2043,6 +2046,7 @@ b972c8 retune 1
 
 ## asic password
 asicpass admin
+
 
 
 
