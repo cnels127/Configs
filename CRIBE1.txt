@@ -319,6 +319,11 @@ f870b1 location CRIBE0138
 e64f0a location CRIBE0140
 
 ## tuning
+667bbe maxwatts 1250 # 10.0.58.113
+f4bea2 maxwatts 1250 # 10.0.59.101
+667bbe rebootasic 1565510430 # 10.0.58.113
+f4bea2 rebootasic 1565510430 # 10.0.59.101
+
 bfcdc1 maxwatts 1125 # 10.0.63.15
 bfcdc1 rebootasic 1565419343 # 10.0.63.15
 
@@ -638,6 +643,7 @@ c120c5 retune 1
 
 ## asic password
 asicpass admin
+
 
 
 
