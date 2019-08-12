@@ -542,6 +542,9 @@ b972c8 location ESOLG0497
 
 ## tuning
 deee7c maxwatts -100 # 10.0.50.158
+deee7c rebootasic 1565597592 # 10.0.50.158
+
+deee7c maxwatts -100 # 10.0.50.158
 deee7c rebootasic 1565594564 # 10.0.50.158
 
 deee7c maxwatts -100 # 10.0.50.158
@@ -2076,6 +2079,7 @@ b972c8 retune 1
 
 ## asic password
 asicpass admin
+
 
 
 
