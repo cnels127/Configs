@@ -45,9 +45,13 @@ vlan 10.0.63.160-160
 a22315 location bit03s916th
 
 ## tuning
+743db3 maxwatts 850 # 10.0.63.160
+743db3 rebootasic 1565572431 # 10.0.63.160
+
 7104a2 maxwatts 1450
 a22315 maxwatts 950
 743db3 maxwatts 950
 
 ## asic password
 asicpass admin
+
