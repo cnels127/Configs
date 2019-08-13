@@ -89,7 +89,6 @@ e61d93 location GSAMPRUS59x46
 5aa9d6 location GSAMPRUS59x48
 78cb4c location GSAMPRUS59x49
 3fb821 location GSAMPRUS59x50
-de88ec location GSAMPRUS59x51
 ff488e location GSAMPRUS59x52
 8a804d location GSAMPRUS59x54
 e1c353 location GSAMPRUS59x60
@@ -101,6 +100,71 @@ f24571 location GSAMPRUS59x73
 d223ec location GSAMPRUS67x79
 
 ## tuning
+# moved GSAMP2 config data over to GSAMP1 8/13/19 17:08 UTC
+5aa9d6 maxwatts 1100 # 10.0.59.48
+27a7bc maxwatts 800 # 10.0.61.6
+5aa9d6 rebootasic 1565417604 # 10.0.59.48
+27a7bc rebootasic 1565417604 # 10.0.61.6
+
+0101ec maxwatts 1425 # 10.0.56.78
+27a7bc maxwatts 900 # 10.0.61.6
+0101ec rebootasic 1565413950 # 10.0.56.78
+27a7bc rebootasic 1565413950 # 10.0.61.6
+
+ff488e maxwatts 1225 # 10.0.59.52
+e1c353 maxwatts 1400 # 10.0.59.60
+ff488e rebootasic 1565412092 # 10.0.59.52
+e1c353 rebootasic 1565412092 # 10.0.59.60
+
+d223ec maxwatts 1200 # 10.0.67.79
+d223ec rebootasic 1565410188 # 10.0.67.79
+
+d223ec maxwatts 1300 # 10.0.67.79
+d223ec rebootasic 1565408283 # 10.0.67.79
+
+62bdc8 maxwatts 1250 # 10.0.58.70
+5aa9d6 maxwatts 1200 # 10.0.59.48
+27a7bc maxwatts 1000 # 10.0.61.6
+62bdc8 rebootasic 1565404386 # 10.0.58.70
+5aa9d6 rebootasic 1565404386 # 10.0.59.48
+27a7bc rebootasic 1565404386 # 10.0.61.6
+
+c5496d maxwatts 1300 # 10.0.56.40
+26be5d maxwatts 1300 # 10.0.59.41
+5aa9d6 maxwatts 1300 # 10.0.59.48
+ff488e maxwatts 1325 # 10.0.59.52
+27a7bc maxwatts 1100 # 10.0.61.6
+c5496d rebootasic 1565402406 # 10.0.56.40
+26be5d rebootasic 1565402406 # 10.0.59.41
+5aa9d6 rebootasic 1565402406 # 10.0.59.48
+ff488e rebootasic 1565402406 # 10.0.59.52
+27a7bc rebootasic 1565402406 # 10.0.61.6
+
+c5496d maxwatts 1400 # 10.0.56.40
+ff488e maxwatts 1425 # 10.0.59.52
+27a7bc maxwatts 1200 # 10.0.61.6
+c5496d rebootasic 1565400460 # 10.0.56.40
+ff488e rebootasic 1565400460 # 10.0.59.52
+27a7bc rebootasic 1565400460 # 10.0.61.6
+
+27a7bc maxwatts 1300 # 10.0.61.6
+27a7bc rebootasic 1565398521 # 10.0.61.6
+
+62bdc8 maxwatts 1350 # 10.0.58.70
+26be5d maxwatts 1400 # 10.0.59.41
+5aa9d6 maxwatts 1400 # 10.0.59.48
+27a7bc maxwatts 1400 # 10.0.61.6
+d223ec maxwatts 1400 # 10.0.67.79
+62bdc8 rebootasic 1565396588 # 10.0.58.70
+26be5d rebootasic 1565396588 # 10.0.59.41
+5aa9d6 rebootasic 1565396588 # 10.0.59.48
+27a7bc rebootasic 1565396588 # 10.0.61.6
+d223ec rebootasic 1565396588 # 10.0.67.79
+
+#removed overheat max watts 8.9.19 17:20 UTC
+
+# end of GSAMP2 data moved over
+
 5aa9d6 maxwatts 1100 # 10.0.59.48
 27a7bc maxwatts 800 # 10.0.61.6
 5aa9d6 rebootasic 1565417598 # 10.0.59.48
@@ -192,382 +256,5 @@ f24571 maxwatts 1500
 d223ec retune 1
 8a804d retune 1
 
-# generated on Jul 16 2019 13:38:57 utc
-62bdc8 maxwatts 1450 # 10.0.58.70
-4fb133 maxwatts 1400 # 10.0.59.44
-62bdc8 rebootasic 1563284337 # 10.0.58.70
-4fb133 rebootasic 1563284337 # 10.0.59.44
-
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
