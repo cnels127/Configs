@@ -1695,6 +1695,15 @@ db2219 location SMERK0856
 381d25 maxwatts -50 # 10.0.224.71
 a85379 maxwatts -50 # 10.0.224.136
 08e0ef maxwatts -50 # 10.0.229.51
+1bae03 rebootasic 1565658690 # 10.0.223.4
+381d25 rebootasic 1565658690 # 10.0.224.71
+a85379 rebootasic 1565658690 # 10.0.224.136
+08e0ef rebootasic 1565658690 # 10.0.229.51
+
+1bae03 maxwatts -50 # 10.0.223.4
+381d25 maxwatts -50 # 10.0.224.71
+a85379 maxwatts -50 # 10.0.224.136
+08e0ef maxwatts -50 # 10.0.229.51
 1bae03 rebootasic 1565655501 # 10.0.223.4
 381d25 rebootasic 1565655501 # 10.0.224.71
 a85379 rebootasic 1565655501 # 10.0.224.136
@@ -3251,6 +3260,7 @@ f729dc rebootasic 1565150888 # 10.0.77.68
 
 ## asic password
 asicpass admin
+
 
 
 
