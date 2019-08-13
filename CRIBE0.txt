@@ -2,28 +2,29 @@
 
 global custompanel CRIBE0bit049
 
-global poolname1 us.ss.btc.com:1800
-global username1 bit49US
+global poolname1 eu.stratum.slushpool.com:3333
+global username1 WTMINING
 global poolpass1 123
 global sendworker1 yes
-global poolname2 stratum.slushpool.com:3333
-global username2 bit49
+global poolname2 us-east.stratum.slushpool.com:3333
+global username2 WTMINING
 global poolpass2 123
 global sendworker2 yes
-global poolname3 profit.pool.bitcoin.com:3333
-global username3 bit49
+global poolname3 stratum.slushpool.com:3333
+global username3 WTMINING
 global poolpass3 123
 global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1325
-
+global maxwatts 1500
+global throttle 100
 global autoupdate no
 global allowed yes
 global maxtemp 90
 global fanspeed 95
 global fansaver 65
+global blinkgreen rapid
 
 # global retune 1
 # global rebootasic 1
@@ -34,8 +35,92 @@ global fansaver 65
 # group=rowd allowed no
 
 ## vlans
-vlan 10.0.60.148-148
+vlan 10.0.57.138-138
+vlan 10.0.58.36-36
+vlan 10.0.58.60-60
+vlan 10.0.58.90-90
+vlan 10.0.58.93-93
+vlan 10.0.58.95-95
+vlan 10.0.58.107-107
+vlan 10.0.58.113-113
+vlan 10.0.58.117-117
+vlan 10.0.58.143-143
+vlan 10.0.58.155-155
+vlan 10.0.59.5-5
+vlan 10.0.59.12-12
+vlan 10.0.59.20-20
+vlan 10.0.59.34-34
+vlan 10.0.59.38-38
+vlan 10.0.59.40-40
+vlan 10.0.59.47-47
+vlan 10.0.59.55-55
+vlan 10.0.59.56-56
+vlan 10.0.59.57-57
+vlan 10.0.59.58-58
+vlan 10.0.59.59-59
+vlan 10.0.59.61-61
+vlan 10.0.59.62-62
+vlan 10.0.59.63-63
+vlan 10.0.59.64-64
+vlan 10.0.59.65-65
+vlan 10.0.59.67-67
+vlan 10.0.59.68-68
+vlan 10.0.59.70-70
+vlan 10.0.59.72-72
+vlan 10.0.59.74-74
+vlan 10.0.59.75-75
+vlan 10.0.59.76-76
+vlan 10.0.59.81-81
+vlan 10.0.59.82-82
+vlan 10.0.59.83-83
+vlan 10.0.59.85-85
+vlan 10.0.59.86-86
+vlan 10.0.59.87-87
+vlan 10.0.59.89-89
+vlan 10.0.59.92-92
+vlan 10.0.59.93-93
+vlan 10.0.59.94-94
+vlan 10.0.59.95-95
+vlan 10.0.59.96-96
+vlan 10.0.59.97-97
+vlan 10.0.59.98-98
+vlan 10.0.59.99-99
+vlan 10.0.59.100-100
+vlan 10.0.59.101-101
+vlan 10.0.59.102-102
+vlan 10.0.59.105-105
+vlan 10.0.59.108-108
+vlan 10.0.59.136-136
+vlan 10.0.60.37-37
+vlan 10.0.62.1-1
+vlan 10.0.62.2-2
+vlan 10.0.62.3-3
+vlan 10.0.62.4-4
+vlan 10.0.62.5-5
+vlan 10.0.62.6-6
+vlan 10.0.62.7-7
+vlan 10.0.62.8-8
+vlan 10.0.62.9-9
+vlan 10.0.62.10-10
+vlan 10.0.62.11-11
+vlan 10.0.62.12-12
+vlan 10.0.62.13-13
+vlan 10.0.62.14-14
+vlan 10.0.62.15-15
+vlan 10.0.62.16-16
+vlan 10.0.62.17-17
+vlan 10.0.62.18-18
+vlan 10.0.61.21-21
+vlan 10.0.62.20-20
+vlan 10.0.62.21-21
+vlan 10.0.62.22-22
+vlan 10.0.62.23-23
+vlan 10.0.62.24-24
+vlan 10.0.62.25-25
+vlan 10.0.62.26-26
 vlan 10.0.60.43-43
+vlan 10.0.60.112-112
+vlan 10.0.60.148-148
 vlan 10.0.61.22-22
 vlan 10.0.61.23-23
 vlan 10.0.61.31-31
@@ -91,24 +176,473 @@ vlan 10.0.63.54-54
 vlan 10.0.63.57-57
 vlan 10.0.63.65-65
 
+## locations
+e1f51e location CRIBE0001
+be6e5c location CRIBE0002
+b78f54 location CRIBE0003
+a6f215 location CRIBE0004
+2a6f8a location CRIBE0005
+c29aa8 location CRIBE0006
+8b69b8 location CRIBE0007
+667bbe location CRIBE0008
+c3fecd location CRIBE0009
+cc6ecd location CRIBE0010
+002a63 location CRIBE0011
+aca1f9 location CRIBE0012
+e6dc44 location CRIBE0013
+37c28b location CRIBE0014
+e71503 location CRIBE0015
+55c85a location CRIBE0016
+286418 location CRIBE0017
+b169bf location CRIBE0018
+5eb2e0 location CRIBE0019
+7a6e47 location CRIBE0020
+ceceac location CRIBE0021
+536fa0 location CRIBE0022
+893a70 location CRIBE0023
+b42546 location CRIBE0024
+3ed79a location CRIBE0025
+4b299e location CRIBE0026
+fecc4d location CRIBE0027
+e7af56 location CRIBE0028
+e4cbc8 location CRIBE0029
+577f14 location CRIBE0030
+0068f5 location CRIBE0031
+4ae145 location CRIBE0032
+eac263 location CRIBE0033
+e74b4f location CRIBE0034
+3b9f50 location CRIBE0035
+02e802 location CRIBE0036
+830b49 location CRIBE0037
+b9362e location CRIBE0038
+069b7d location CRIBE0039
+bbe496 location CRIBE0040
+b88126 location CRIBE0041
+d3941f location CRIBE0042
+5433d7 location CRIBE0043
+eb763f location CRIBE0044
+333095 location CRIBE0045
+cdc7b1 location CRIBE0046
+5efe33 location CRIBE0047
+74b1a1 location CRIBE0048
+78c1d7 location CRIBE0049
+cd80a5 location CRIBE0050
+4a89fe location CRIBE0051
+f4bea2 location CRIBE0052
+fdfb5f location CRIBE0053
+e40534 location CRIBE0054
+e46a8f location CRIBE0055
+1b2b69 location CRIBE0056
+1f3926 location CRIBE0057
+e0b9e7 location CRIBE0058
+64e334 location CRIBE0059
+bb3eb8 location CRIBE0060
+923afa location CRIBE0061
+e004c5 location CRIBE0062
+04ba06 location CRIBE0063
+3fda51 location CRIBE0064
+4020bb location CRIBE0065
+138ef0 location CRIBE0066
+4b06d3 location CRIBE0067
+b43083 location CRIBE0068
+f6994a location CRIBE0069
+4eeab5 location CRIBE0070
+268669 location CRIBE0071
+c49427 location CRIBE0072
+5e59a2 location CRIBE0073
+442360 location CRIBE0074
+f9cc31 location CRIBE0075
+a3079e location CRIBE0076
+31e054 location CRIBE0077
+54b3e0 location CRIBE0078
+582c72 location CRIBE0079
+e18884 location CRIBE0080
+4593d4 location CRIBE0081
+c120c5 location CRIBE0082
+03791c location CRIBE0083
+9c7ef0 location CRIBE0084
+2f0a33 location CRIBE0085
+d6daa1 location CRIBE0086
+05e91c location CRIBE0087
+1afe8c location CRIBE0088
+b4aac6 location CRIBE0089
+bd7bf8 location CRIBE0090
+d70d1e location CRIBE0091
+8c008f location CRIBE0092
+049bcf location CRIBE0093
+d26a62 location CRIBE0094
+55ef04 location CRIBE0095
+722dbe location CRIBE0096
+48af58 location CRIBE0097
+bd5aa0 location CRIBE0098
+8ec32b location CRIBE0099
+8e819a location CRIBE0100
+4d8d44 location CRIBE0101
+240df8 location CRIBE0102
+475791 location CRIBE0103
+c1a0b5 location CRIBE0104
+7a2e69 location CRIBE0105
+668f87 location CRIBE0106
+493278 location CRIBE0107
+1c16ee location CRIBE0108
+02e716 location CRIBE0109
+72cf2d location CRIBE0110
+78a6ea location CRIBE0111
+904a48 location CRIBE0112
+4a7ac4 location CRIBE0113
+7a6fcf location CRIBE0114
+344d03 location CRIBE0115
+cbc7c5 location CRIBE0116
+739ff9 location CRIBE0117
+2e9762 location CRIBE0118
+bda134 location CRIBE0119
+0df44a location CRIBE0120
+aadd03 location CRIBE0121
+d9ebb6 location CRIBE0122
+0a48d9 location CRIBE0123
+9f8b8f location CRIBE0124
+340637 location CRIBE0125
+96ad80 location CRIBE0126
+bfcdc1 location CRIBE0127
+edb8c4 location CRIBE0128
+42a51d location CRIBE0129
+1162de location CRIBE0130
+e73ffc location CRIBE0131
+87cfea location CRIBE0132
+a7f5e0 location CRIBE0133
+ff69f4 location CRIBE0134
+cc994a location CRIBE0135
+830d52 location CRIBE0136
+86677b location CRIBE0137
+f870b1 location CRIBE0138
+9bb638 location CRIBE0139
+e64f0a location CRIBE0140
+
 ## tuning
-904a48 maxwatts 1350
-cbc7c5 maxwatts 1350
+667bbe maxwatts 1150 # 10.0.58.113
+667bbe rebootasic 1565512480 # 10.0.58.113
+
+667bbe maxwatts 1250 # 10.0.58.113
+f4bea2 maxwatts 1250 # 10.0.59.101
+667bbe rebootasic 1565510430 # 10.0.58.113
+f4bea2 rebootasic 1565510430 # 10.0.59.101
+
+bfcdc1 maxwatts 1125 # 10.0.63.15
+bfcdc1 rebootasic 1565419343 # 10.0.63.15
+
+4d8d44 maxwatts 1225 # 10.0.61.95
+4d8d44 rebootasic 1565415751 # 10.0.61.95
+
+002a63 maxwatts 1050 # 10.0.58.155
+333095 maxwatts 1050 # 10.0.59.94
+e46a8f maxwatts 1150 # 10.0.59.108
+04ba06 maxwatts 1150 # 10.0.62.6
+f6994a maxwatts 1450 # 10.0.62.12
+d26a62 maxwatts 1225 # 10.0.61.69
+002a63 rebootasic 1565412044 # 10.0.58.155
+333095 rebootasic 1565412044 # 10.0.59.94
+e46a8f rebootasic 1565412044 # 10.0.59.108
+04ba06 rebootasic 1565412044 # 10.0.62.6
+f6994a rebootasic 1565412044 # 10.0.62.12
+d26a62 rebootasic 1565412044 # 10.0.61.69
+
+5e59a2 maxwatts 1250 # 10.0.62.16
+4593d4 maxwatts 1350 # 10.0.62.24
+475791 maxwatts 925 # 10.0.61.115
+493278 maxwatts 1150 # 10.0.61.132
+7a6fcf maxwatts 825 # 10.0.62.60
+aadd03 maxwatts 1025 # 10.0.62.122
+5e59a2 rebootasic 1565410141 # 10.0.62.16
+4593d4 rebootasic 1565410141 # 10.0.62.24
+475791 rebootasic 1565410141 # 10.0.61.115
+493278 rebootasic 1565410141 # 10.0.61.132
+7a6fcf rebootasic 1565410141 # 10.0.62.60
+aadd03 rebootasic 1565410141 # 10.0.62.122
+
+002a63 maxwatts 1150 # 10.0.58.155
+138ef0 maxwatts 1450 # 10.0.62.9
+475791 maxwatts 1025 # 10.0.61.115
+493278 maxwatts 1250 # 10.0.61.132
+002a63 rebootasic 1565408228 # 10.0.58.155
+138ef0 rebootasic 1565408228 # 10.0.62.9
+475791 rebootasic 1565408228 # 10.0.61.115
+493278 rebootasic 1565408228 # 10.0.61.132
+
+333095 maxwatts 1150 # 10.0.59.94
+bfcdc1 maxwatts 1225 # 10.0.63.15
+333095 rebootasic 1565406307 # 10.0.59.94
+bfcdc1 rebootasic 1565406307 # 10.0.63.15
+
+0068f5 maxwatts 1000 # 10.0.59.70
+b88126 maxwatts 1150 # 10.0.59.87
+923afa maxwatts 1150 # 10.0.62.4
+e004c5 maxwatts 1450 # 10.0.62.5
+04ba06 maxwatts 1250 # 10.0.62.6
+582c72 maxwatts 1350 # 10.0.62.22
+e18884 maxwatts 1350 # 10.0.62.23
+03791c maxwatts 1250 # 10.0.62.26
+2f0a33 maxwatts 1250 # 10.0.60.112
+475791 maxwatts 1125 # 10.0.61.115
+7a6fcf maxwatts 925 # 10.0.62.60
+0068f5 rebootasic 1565404327 # 10.0.59.70
+b88126 rebootasic 1565404327 # 10.0.59.87
+923afa rebootasic 1565404327 # 10.0.62.4
+e004c5 rebootasic 1565404327 # 10.0.62.5
+04ba06 rebootasic 1565404327 # 10.0.62.6
+582c72 rebootasic 1565404327 # 10.0.62.22
+e18884 rebootasic 1565404327 # 10.0.62.23
+03791c rebootasic 1565404327 # 10.0.62.26
+2f0a33 rebootasic 1565404327 # 10.0.60.112
+475791 rebootasic 1565404327 # 10.0.61.115
+7a6fcf rebootasic 1565404327 # 10.0.62.60
+
+0068f5 maxwatts 1100 # 10.0.59.70
+b88126 maxwatts 1250 # 10.0.59.87
+04ba06 maxwatts 1350 # 10.0.62.6
+c49427 maxwatts 1350 # 10.0.62.15
+5e59a2 maxwatts 1350 # 10.0.62.16
+582c72 maxwatts 1450 # 10.0.62.22
+4593d4 maxwatts 1450 # 10.0.62.24
+bd7bf8 maxwatts 1225 # 10.0.61.33
+475791 maxwatts 1225 # 10.0.61.115
+72cf2d maxwatts 925 # 10.0.61.154
+7a6fcf maxwatts 1025 # 10.0.62.60
+aadd03 maxwatts 1125 # 10.0.62.122
+0068f5 rebootasic 1565402345 # 10.0.59.70
+b88126 rebootasic 1565402345 # 10.0.59.87
+04ba06 rebootasic 1565402345 # 10.0.62.6
+c49427 rebootasic 1565402345 # 10.0.62.15
+5e59a2 rebootasic 1565402345 # 10.0.62.16
+582c72 rebootasic 1565402345 # 10.0.62.22
+4593d4 rebootasic 1565402345 # 10.0.62.24
+bd7bf8 rebootasic 1565402345 # 10.0.61.33
+475791 rebootasic 1565402345 # 10.0.61.115
+72cf2d rebootasic 1565402345 # 10.0.61.154
+7a6fcf rebootasic 1565402345 # 10.0.62.60
+aadd03 rebootasic 1565402345 # 10.0.62.122
+
+923afa maxwatts 1250 # 10.0.62.4
+c49427 maxwatts 1450 # 10.0.62.15
+e18884 maxwatts 1450 # 10.0.62.23
+72cf2d maxwatts 1025 # 10.0.61.154
+923afa rebootasic 1565400415 # 10.0.62.4
+c49427 rebootasic 1565400415 # 10.0.62.15
+e18884 rebootasic 1565400415 # 10.0.62.23
+72cf2d rebootasic 1565400415 # 10.0.61.154
+
+0068f5 maxwatts 1200 # 10.0.59.70
+923afa maxwatts 1350 # 10.0.62.4
+03791c maxwatts 1350 # 10.0.62.26
+72cf2d maxwatts 1125 # 10.0.61.154
+7a6fcf maxwatts 1125 # 10.0.62.60
+0068f5 rebootasic 1565398475 # 10.0.59.70
+923afa rebootasic 1565398475 # 10.0.62.4
+03791c rebootasic 1565398475 # 10.0.62.26
+72cf2d rebootasic 1565398475 # 10.0.61.154
+7a6fcf rebootasic 1565398475 # 10.0.62.60
+
+002a63 maxwatts 1250 # 10.0.58.155
+0068f5 maxwatts 1300 # 10.0.59.70
+333095 maxwatts 1250 # 10.0.59.94
+e46a8f maxwatts 1250 # 10.0.59.108
+e0b9e7 maxwatts 1450 # 10.0.62.1
+923afa maxwatts 1450 # 10.0.62.4
+04ba06 maxwatts 1450 # 10.0.62.6
+268669 maxwatts 1450 # 10.0.62.14
+5e59a2 maxwatts 1450 # 10.0.62.16
+54b3e0 maxwatts 1450 # 10.0.62.21
+03791c maxwatts 1450 # 10.0.62.26
+72cf2d maxwatts 1225 # 10.0.61.154
+7a6fcf maxwatts 1225 # 10.0.62.60
+aadd03 maxwatts 1225 # 10.0.62.122
+002a63 rebootasic 1565396533 # 10.0.58.155
+0068f5 rebootasic 1565396533 # 10.0.59.70
+333095 rebootasic 1565396533 # 10.0.59.94
+e46a8f rebootasic 1565396533 # 10.0.59.108
+e0b9e7 rebootasic 1565396533 # 10.0.62.1
+923afa rebootasic 1565396533 # 10.0.62.4
+04ba06 rebootasic 1565396533 # 10.0.62.6
+268669 rebootasic 1565396533 # 10.0.62.14
+5e59a2 rebootasic 1565396533 # 10.0.62.16
+54b3e0 rebootasic 1565396533 # 10.0.62.21
+03791c rebootasic 1565396533 # 10.0.62.26
+72cf2d rebootasic 1565396533 # 10.0.61.154
+7a6fcf rebootasic 1565396533 # 10.0.62.60
+aadd03 rebootasic 1565396533 # 10.0.62.122
+
+#removed overheat max watts 8.9.19 17:13 UTC
+
+e0b9e7 maxwatts 1550
+64e334 maxwatts 1550
+bb3eb8 maxwatts 1550
+923afa maxwatts 1550
+e004c5 maxwatts 1550
+04ba06 maxwatts 1550
+3fda51 maxwatts 1550
+4020bb maxwatts 1550
+138ef0 maxwatts 1550
+4b06d3 maxwatts 1550
+b43083 maxwatts 1550
+f6994a maxwatts 1550
+4eeab5 maxwatts 1525
+268669 maxwatts 1550
+c49427 maxwatts 1550
+5e59a2 maxwatts 1550
+442360 maxwatts 1550
+f9cc31 maxwatts 1550
+c7af1b maxwatts 1550
+31e054 maxwatts 1550
+54b3e0 maxwatts 1550
+582c72 maxwatts 1550
+e18884 maxwatts 1550
+4593d4 maxwatts 1550
+c120c5 maxwatts 1525
+03791c maxwatts 1550
+3fda51 retune 1
+e18884 retune 1
+4eeab5 retune 2
+e1f51e maxwatts 1350
+fff476 maxwatts 1375
+b78f54 maxwatts 1350
+a6f215 maxwatts 1400
+2a6f8a maxwatts 1350
+c29aa8 maxwatts 1400
+8b69b8 maxwatts 1350
+667bbe maxwatts 1350
+c3fecd maxwatts 1350
+cc6ecd maxwatts 1350
+002a63 maxwatts 1350
+aca1f9 maxwatts 1350
+e6dc44 maxwatts 1400
+37c28b maxwatts 1350
+e71503 maxwatts 1350
+55c85a maxwatts 1350
+286418 maxwatts 1350
+b169bf maxwatts 1350
+5eb2e0 maxwatts 1350
+7a6e47 maxwatts 1350
+ceceac maxwatts 1350
+536fa0 maxwatts 1350
+893a70 maxwatts 1350
+b42546 maxwatts 1350
+3ed79a maxwatts 1350
+4b299e maxwatts 1350
+fecc4d maxwatts 1350
+e7af56 maxwatts 1350
+e4cbc8 maxwatts 1350
+577f14 maxwatts 1350
+1f3926 maxwatts 1350
+0068f5 maxwatts 1400
+4ae145 maxwatts 1350
+eac263 maxwatts 1350
+e74b4f maxwatts 1350
+3b9f50 maxwatts 1350
+1b2b69 maxwatts 1350
+02e802 maxwatts 1350
+830b49 maxwatts 1350
+b9362e maxwatts 1350
+069b7d maxwatts 1350
+bbe496 maxwatts 1350
+b88126 maxwatts 1350
+d3941f maxwatts 1325
+5433d7 maxwatts 1350
+eb763f maxwatts 1350
+333095 maxwatts 1350
+cdc7b1 maxwatts 1350
+5efe33 maxwatts 1350
+74b1a1 maxwatts 1350
+78c1d7 maxwatts 1350
+cd80a5 maxwatts 1350
+4a89fe maxwatts 1350
+f4bea2 maxwatts 1350
+fdfb5f maxwatts 1350
+e40534 maxwatts 1350
+3f7354 maxwatts 1350
+e46a8f maxwatts 1350
+9c7ef0 maxwatts 1325
+2f0a33 maxwatts 1350
+d6daa1 maxwatts 1325
+05e91c maxwatts 1325
 1afe8c maxwatts 1350
-a7f5e0 maxwatts 1350
-02e716 maxwatts 1350
-87cfea maxwatts 1350
-340637 maxwatts 1350
-8e819a maxwatts 1350
-8ec32b maxwatts 1350
-493278 maxwatts 1350
-668f87 maxwatts 1350
+b4aac6 maxwatts 1325
+bd7bf8 maxwatts 1325
+d70d1e maxwatts 1325
+8c008f maxwatts 1325
 049bcf maxwatts 1350
+d26a62 maxwatts 1325
+55ef04 maxwatts 1325
+722dbe maxwatts 1325
+48af58 maxwatts 1325
+bd5aa0 maxwatts 1325
+8ec32b maxwatts 1350
+8e819a maxwatts 1350
+4d8d44 maxwatts 1325
+240df8 maxwatts 1325
+475791 maxwatts 1325
+c1a0b5 maxwatts 1325
+7a2e69 maxwatts 1325
+668f87 maxwatts 1350
+493278 maxwatts 1350
+1c16ee maxwatts 1325
+02e716 maxwatts 1350
+72cf2d maxwatts 1325
+78a6ea maxwatts 1325
+904a48 maxwatts 1350
 4a7ac4 maxwatts 1350
+7a6fcf maxwatts 1325
+344d03 maxwatts 1325
+cbc7c5 maxwatts 1350
+739ff9 maxwatts 1325
+2e9762 maxwatts 1325
+bda134 maxwatts 1325
+0df44a maxwatts 1325
+aadd03 maxwatts 1325
+d9ebb6 maxwatts 1325
+0a48d9 maxwatts 1325
+9f8b8f maxwatts 1325
+340637 maxwatts 1350
+96ad80 maxwatts 1325
+bfcdc1 maxwatts 1325
+edb8c4 maxwatts 1325
+42a51d maxwatts 1325
+1162de maxwatts 1325
+e73ffc maxwatts 1325
+87cfea maxwatts 1350
+a7f5e0 maxwatts 1350
+ff69f4 maxwatts 1325
+cc994a maxwatts 1325
+830d52 maxwatts 1325
+86677b maxwatts 1325
+f870b1 maxwatts 1325
+9bb638 maxwatts 1325
+e64f0a maxwatts 1325
+a3079e maxwatts 1350
+d3941f retune 1
+c120c5 retune 1
 
-## location
-
-## tuning
+# generated on Jul 16 2019 15:50:32 utc
+5e59a2 maxwatts 1450 # 10.0.62.16
+923afa maxwatts 1450 # 10.0.62.4
+04ba06 maxwatts 1450 # 10.0.62.6
+72cf2d maxwatts 1225 # 10.0.61.154
+03791c maxwatts 1450 # 10.0.62.26
+64e334 maxwatts 1450 # 10.0.62.2
+268669 maxwatts 1450 # 10.0.62.14
+54b3e0 maxwatts 1450 # 10.0.62.21
+582c72 maxwatts 1450 # 10.0.62.22
+475791 maxwatts 1225 # 10.0.61.115
+493278 maxwatts 1250 # 10.0.61.132
+5e59a2 rebootasic 1563292232 # 10.0.62.16
+923afa rebootasic 1563292232 # 10.0.62.4
+04ba06 rebootasic 1563292232 # 10.0.62.6
+72cf2d rebootasic 1563292232 # 10.0.61.154
+03791c rebootasic 1563292232 # 10.0.62.26
+64e334 rebootasic 1563292232 # 10.0.62.2
+268669 rebootasic 1563292232 # 10.0.62.14
+54b3e0 rebootasic 1563292232 # 10.0.62.21
+582c72 rebootasic 1563292232 # 10.0.62.22
+475791 rebootasic 1563292232 # 10.0.61.115
+493278 rebootasic 1563292232 # 10.0.61.132
 
 ## asic password
 asicpass admin
