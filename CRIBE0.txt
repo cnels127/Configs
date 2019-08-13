@@ -176,6 +176,40 @@ vlan 10.0.63.54-54
 vlan 10.0.63.57-57
 vlan 10.0.63.65-65
 
+172.16.203.199-199
+172.16.203.181-181
+172.16.203.190-190
+172.16.202.248-248
+172.16.203.123-123
+172.16.203.188-188
+172.16.203.240-240
+172.16.203.193-193
+172.16.203.156-156
+172.16.203.125-125
+172.16.203.233-233
+172.16.203.200-200
+172.16.203.33-33
+172.16.203.154-154
+172.16.203.166-166
+172.16.203.168-168
+172.16.203.94-94
+172.16.203.157-157
+172.16.203.206-206
+172.16.203.207-207
+172.16.203.183-183
+172.16.203.205-205
+172.16.203.163-163
+172.16.203.160-160
+172.16.203.171-171
+172.16.203.189-189
+172.16.203.191-191
+172.16.203.230-230
+172.16.203.173-173
+172.16.203.195-195
+172.16.200.50-50
+172.16.203.48-48
+
+
 ## locations
 e1f51e location CRIBE0001
 be6e5c location CRIBE0002
@@ -317,6 +351,40 @@ cc994a location CRIBE0135
 f870b1 location CRIBE0138
 9bb638 location CRIBE0139
 e64f0a location CRIBE0140
+
+814fc7 location CRIBE0141
+1d6dee location CRIBE0142
+79ad0a location CRIBE0143
+87b31e location CRIBE0144
+3ddd59 location CRIBE0145
+c31448 location CRIBE0146
+fba5f2 location CRIBE0147
+0870a5 location CRIBE0148
+199f5d location CRIBE0149
+48e9f6 location CRIBE0150
+13af96 location CRIBE0151
+a151c2 location CRIBE0152
+7c515d location CRIBE0153
+c65e0e location CRIBE0154
+1defb9 location CRIBE0155
+7f4a43 location CRIBE0156
+dc9d3b location CRIBE0157
+982bde location CRIBE0158
+73defc location CRIBE0159
+0f9bc9 location CRIBE0160
+2286f9 location CRIBE0161
+30c8ae location CRIBE0162
+bcec9a location CRIBE0163
+09c54b location CRIBE0164
+f31616 location CRIBE0165
+80691d location CRIBE0166
+52ce7e location CRIBE0167
+cc5457 location CRIBE0168
+420738 location CRIBE0169
+99808d location CRIBE0170
+b66659 location CRIBE0171
+9674d6 location CRIBE0172
+
 
 ## tuning
 667bbe maxwatts 1150 # 10.0.58.113
@@ -619,6 +687,40 @@ e64f0a maxwatts 1325
 a3079e maxwatts 1350
 d3941f retune 1
 c120c5 retune 1
+
+814fc7 maxwatts 1100
+1d6dee maxwatts 1100
+79ad0a maxwatts 1100
+87b31e maxwatts 1200
+3ddd59 maxwatts 1200
+c31448 maxwatts 1200
+fba5f2 maxwatts 1200
+0870a5 maxwatts 1200
+199f5d maxwatts 1300
+48e9f6 maxwatts 1200
+13af96 maxwatts 1300
+a151c2 maxwatts 1300
+7c515d maxwatts 1300
+c65e0e maxwatts 1300
+1defb9 maxwatts 1300
+7f4a43 maxwatts 1300
+dc9d3b maxwatts 1300
+982bde maxwatts 1300
+73defc maxwatts 1300
+0f9bc9 maxwatts 1300
+2286f9 maxwatts 1300
+30c8ae maxwatts 1300
+bcec9a maxwatts 1300
+09c54b maxwatts 1300
+f31616 maxwatts 1300
+80691d maxwatts 1300
+52ce7e maxwatts 1300
+cc5457 maxwatts 1300
+420738 maxwatts 1300
+99808d maxwatts 1300
+b66659 maxwatts 1300
+9674d6 maxwatts 1300
+
 
 # generated on Jul 16 2019 15:50:32 utc
 5e59a2 maxwatts 1450 # 10.0.62.16
