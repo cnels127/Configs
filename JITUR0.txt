@@ -10,7 +10,7 @@ global poolname2 pool.bitcoin.com
 global username2 jiturbe
 global poolpass2 123
 global sendworker2 yes
-global poolname3 eu.ss.btc.com:443
+global poolname3 us.ss.btc.com:1800
 global username3 e2ru2pr-Eu
 global poolpass3 123
 global sendworker3 yes
@@ -19,12 +19,10 @@ global asicboost yes
 global autotune yes
 global maxwatts 1350
 global throttle 100
-fanspeed 100
-
 global autoupdate no
 global allowed yes
 global maxtemp 90
-global fanspeed 95
+global fanspeed 100
 global fansaver 65
 global blinkgreen rapid
 
