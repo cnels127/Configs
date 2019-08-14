@@ -1692,6 +1692,17 @@ db2219 location SMERK0856
 
 ## tuning
 1bae03 maxwatts -50 # 10.0.223.4
+c07c16 maxwatts 1350 # 10.0.227.29
+937ce5 maxwatts 450 # 10.0.228.71
+32b6d0 maxwatts -50 # 10.0.228.115
+eba0c1 maxwatts -50 # 10.0.229.12
+1bae03 rebootasic 1565825814 # 10.0.223.4
+c07c16 rebootasic 1565825814 # 10.0.227.29
+937ce5 rebootasic 1565825814 # 10.0.228.71
+32b6d0 rebootasic 1565825814 # 10.0.228.115
+eba0c1 rebootasic 1565825814 # 10.0.229.12
+
+1bae03 maxwatts -50 # 10.0.223.4
 32b6d0 maxwatts -50 # 10.0.228.115
 9d6f23 maxwatts 1350 # 10.0.229.2
 1bae03 rebootasic 1565824590 # 10.0.223.4
@@ -3446,6 +3457,7 @@ f729dc rebootasic 1565150888 # 10.0.77.68
 
 ## asic password
 asicpass admin
+
 
 
 
