@@ -35,6 +35,7 @@ global rebootasic 3
 # group=rowd allowed no
 
 ## vlans
+vlan 10.0.57.86-86
 vlan 10.0.67.130-130
 vlan 10.0.67.131-131
 vlan 10.0.67.132-132
@@ -246,6 +247,8 @@ f60107 rebootasic 1565396850 # 10.0.62.160
 
 
 ede705 maxwatts 1500
+
+a3883c maxwatts 1350
 
 #removed overheat max watts 8.9.19 18:10 UTC
 
