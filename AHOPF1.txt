@@ -141,6 +141,13 @@ be27de location ahopf0071
 c6cbe1 location ahopf0075
 
 ## tuning
+c606e7 maxwatts 1250 # 10.0.56.161
+5ac22f maxwatts 1250 # 10.0.57.41
+0b383f maxwatts 1250 # 10.0.57.42
+c606e7 rebootasic 1565801271 # 10.0.56.161
+5ac22f rebootasic 1565801271 # 10.0.57.41
+0b383f rebootasic 1565801271 # 10.0.57.42
+
 #removed overheat max watts 8.14.19 14:30 UTC
 
 #removed overheat max watts 8.9.19 17:00 UTC
@@ -150,3 +157,4 @@ a4a691 maxwatts 1425
 
 ## asic password
 asicpass admin
+
