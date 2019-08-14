@@ -51,6 +51,9 @@ df94bd location CLOUI0009
 
 ## tuning
 6d0544 maxwatts 1275 # 10.0.54.52
+6d0544 rebootasic 1565822632 # 10.0.54.52
+
+6d0544 maxwatts 1275 # 10.0.54.52
 6d0544 rebootasic 1565822112 # 10.0.54.52
 
 #removed overheat max watts 8.9.19 17:12 UTC
@@ -68,5 +71,6 @@ df94bd maxwatts 1375
 
 ## asic password
 asicpass admin
+
 
 
