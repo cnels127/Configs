@@ -37,17 +37,15 @@ global rebootasic 1
 ## vlans
 vlan 10.0.54.154-154
 vlan 10.0.55.142-142
-vlan 10.0.57.86-86
 vlan 10.0.62.27-27
 vlan 10.0.68.34-35
 
 ## locations
 5a3dde location PEGAN0001
 44c925 location PEGAN0002
-a3883c location PEGAN0003
-63f1ab location PEGAN0004
-ef1f6e location PEGAN0005
-38d579 location PEGAN0006
+63f1ab location PEGAN0003
+ef1f6e location PEGAN0004
+38d579 location PEGAN0005
 
 ## tuning
 5a3dde maxwatts 800 # 10.0.54.154
@@ -67,7 +65,6 @@ ef1f6e location PEGAN0005
 5a3dde maxwatts 1100
 5a3dde maxwatts 1350
 44c925 maxwatts 1350
-a3883c maxwatts 1350
 63f1ab maxwatts 1350
 ef1f6e maxwatts 1350
 38d579 maxwatts 1350
