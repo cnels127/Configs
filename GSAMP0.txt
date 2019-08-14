@@ -1,6 +1,6 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
 
-global custompanel GSAMP1bit049
+global custompanel GSAMP0bit049
 
 global poolname1 cn.ss.btc.com:1800
 global username1 CryptoHayek
@@ -68,36 +68,36 @@ vlan 10.0.61.6-6
 vlan 10.0.67.79-79
 
 ## locations ([ASICID location [name])
-c5496d location GSAMPRUS56x40
-271937 location GSAMPRUS56x41
-ca177b location GSAMPRUS56x47
-c02d51 location GSAMPRUS56x50
-41be8a location GSAMPRUS56x56
-751610 location GSAMPRUS56x67
-8e284e location GSAMPRUS56x75
-a7631d location GSAMPRUS56x77
-0101ec location GSAMPRUS56x78
-62bdc8 location GSAMPRUS58x70
-3900a7 location GSAMPRUS59x36
-a36e04 location GSAMPRUS59x37
-644746 location GSAMPRUS59x39
-26be5d location GSAMPRUS59x41
-f71e65 location GSAMPRUS59x43
-4fb133 location GSAMPRUS59x44
-86c9c7 location GSAMPRUS59x45
-e61d93 location GSAMPRUS59x46
-5aa9d6 location GSAMPRUS59x48
-78cb4c location GSAMPRUS59x49
-3fb821 location GSAMPRUS59x50
-ff488e location GSAMPRUS59x52
-8a804d location GSAMPRUS59x54
-e1c353 location GSAMPRUS59x60
-3cd7e0 location GSAMPRUS59x66
-f24571 location GSAMPRUS59x73
-2d2f66 location GSAMPRUS59x80
-0c9f37 location GSAMPRUS59x90
-27a7bc location GSAMPRUS61x6
-d223ec location GSAMPRUS67x79
+c5496d location GSAMP0001
+271937 location GSAMP0002
+ca177b location GSAMP0003
+c02d51 location GSAMP0004
+41be8a location GSAMP0005
+751610 location GSAMP0006
+8e284e location GSAMP0007
+a7631d location GSAMP0008
+0101ec location GSAMP0009
+62bdc8 location GSAMP0010
+3900a7 location GSAMP0011
+a36e04 location GSAMP0012
+644746 location GSAMP0013
+26be5d location GSAMP0014
+f71e65 location GSAMP0015
+4fb133 location GSAMP0016
+86c9c7 location GSAMP0017
+e61d93 location GSAMP0018
+5aa9d6 location GSAMP0019
+78cb4c location GSAMP0020
+3fb821 location GSAMP0021
+ff488e location GSAMP0022
+8a804d location GSAMP0023
+e1c353 location GSAMP0024
+3cd7e0 location GSAMP0025
+f24571 location GSAMP0026
+2d2f66 location GSAMP0027
+0c9f37 location GSAMP0028
+27a7bc location GSAMP0029
+d223ec location GSAMP0030
 
 ## tuning
 # generated on Aug 14 2019 15:00:58 utc: 1565794858
