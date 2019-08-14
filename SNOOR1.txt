@@ -43,8 +43,6 @@ vlan 10.0.55.84-161
 vlan 10.0.56.1-146
 
 ## tuning
-ac1644 maxwatts 900
-
 ac1644 maxwatts 1450 # 10.0.55.160
 ac1644 rebootasic 1565811845 # 10.0.55.160
 
@@ -75,6 +73,8 @@ fbfdea rebootasic 1565396826 # 10.0.56.99
 #removed overheat max watts 8.9.19 18:05 UTC
 
 e06ea6 maxwatts 1525
+
+ac1644 maxwatts 900
 
 b408fe retune 1
 4996aa retune 1
