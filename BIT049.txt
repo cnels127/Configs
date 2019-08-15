@@ -233,6 +233,17 @@ e97fe4 maxwatts -100 # 172.16.203.139
 bbae64 maxwatts -100 # 172.16.203.174
 ad6d00 maxwatts 500 # 172.16.203.158
 e49dd5 maxwatts -100 # 172.16.203.239
+e97fe4 rebootasic 1565898521 # 172.16.203.139
+01c2fc rebootasic 1565898521 # 172.16.203.210
+bbae64 rebootasic 1565898521 # 172.16.203.174
+ad6d00 rebootasic 1565898521 # 172.16.203.158
+e49dd5 rebootasic 1565898521 # 172.16.203.239
+
+e97fe4 maxwatts -100 # 172.16.203.139
+01c2fc maxwatts 400 # 172.16.203.210
+bbae64 maxwatts -100 # 172.16.203.174
+ad6d00 maxwatts 500 # 172.16.203.158
+e49dd5 maxwatts -100 # 172.16.203.239
 e97fe4 rebootasic 1565897713 # 172.16.203.139
 01c2fc rebootasic 1565897713 # 172.16.203.210
 bbae64 rebootasic 1565897713 # 172.16.203.174
@@ -1194,6 +1205,7 @@ ad1687 rebootasic 1565396506 # 172.16.203.209
 
 ## asic password
 asicpass admin
+
 
 
 

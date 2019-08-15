@@ -59,6 +59,9 @@ d99e8a location LMACK0032
 
 ## tuning
 2367af maxwatts 1125 # 192.168.1.238
+2367af rebootasic 1565898672 # 192.168.1.238
+
+2367af maxwatts 1125 # 192.168.1.238
 2367af rebootasic 1565897834 # 192.168.1.238
 
 2367af maxwatts 1225 # 192.168.1.238
@@ -67,5 +70,6 @@ d99e8a location LMACK0032
 
 ## asic password
 asicpass admin
+
 
 
