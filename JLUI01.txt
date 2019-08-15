@@ -17,7 +17,7 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1500
+global maxwatts 1450
 
 global autoupdate no
 global allowed yes
@@ -35,9 +35,11 @@ global fansaver 65
 
 ## vlans
 vlan 10.0.59.69-69
+vlan 10.0.62.64-64
 
 ## locations
 80218d location JLUIRUS0001
+10ecee location JLUIRUS0001
 
 ## tuning
 #removed overheat max watts 8.9.19 17:30 UTC
