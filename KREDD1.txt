@@ -91,6 +91,15 @@ a2bf9f retune 1
 
 ## tuning
 bdca90 maxwatts 900 # 172.16.201.248
+fe597a maxwatts 1100 # 172.16.200.38
+6fdddc maxwatts 1100 # 172.16.203.134
+7c0c74 maxwatts 1000 # 172.16.200.43
+bdca90 rebootasic 1565903295 # 172.16.201.248
+fe597a rebootasic 1565903295 # 172.16.200.38
+6fdddc rebootasic 1565903295 # 172.16.203.134
+7c0c74 rebootasic 1565903295 # 172.16.200.43
+
+bdca90 maxwatts 900 # 172.16.201.248
 324346 maxwatts 900 # 172.16.204.125
 fe597a maxwatts 1100 # 172.16.200.38
 6af3d4 maxwatts 1100 # 172.16.204.128
@@ -175,6 +184,7 @@ bdca90 rebootasic 1565406408 # 172.16.201.248
 
 ## asic password
 asicpass admin
+
 
 
 
