@@ -81,6 +81,9 @@ ef8f42 location TEMP4
 
 ## tuning
 abd2b0 maxwatts 1050 # 172.16.200.236
+abd2b0 rebootasic 1565894321 # 172.16.200.236
+
+abd2b0 maxwatts 1050 # 172.16.200.236
 abd2b0 rebootasic 1565893194 # 172.16.200.236
 
 abd2b0 maxwatts 1150 # 172.16.200.236
@@ -131,6 +134,7 @@ ef8f42 maxwatts 1300
 
 ## asic password
 asicpass admin
+
 
 
 
