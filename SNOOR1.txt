@@ -43,6 +43,9 @@ vlan 10.0.55.84-161
 vlan 10.0.56.1-146
 
 ## tuning
+ac1644 maxwatts 1050 # 10.0.55.160
+ac1644 rebootasic 1565847588 # 10.0.55.160
+
 ac1644 maxwatts 1150 # 10.0.55.160
 ac1644 rebootasic 1565839155 # 10.0.55.160
 
@@ -99,6 +102,7 @@ e06ea6 retune 2
 
 ## asic password
 asicpass admin
+
 
 
 
