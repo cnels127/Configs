@@ -50,6 +50,9 @@ df94bd location CLOUI0009
 6cb55b location CLOUI0010
 
 ## tuning
+6d0544 maxwatts 1175 # 10.0.54.52
+6d0544 rebootasic 1565831634 # 10.0.54.52
+
 6d0544 maxwatts 1275 # 10.0.54.52
 6d0544 rebootasic 1565822632 # 10.0.54.52
 
@@ -71,6 +74,7 @@ df94bd maxwatts 1375
 
 ## asic password
 asicpass admin
+
 
 
 
