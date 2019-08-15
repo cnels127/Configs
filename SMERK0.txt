@@ -1698,6 +1698,21 @@ a85379 maxwatts -50 # 10.0.224.136
 32b6d0 maxwatts -50 # 10.0.228.115
 eba0c1 maxwatts -50 # 10.0.229.12
 08e0ef maxwatts -50 # 10.0.229.51
+10335b rebootasic 1565842853 # 10.0.53.14
+1bae03 rebootasic 1565842853 # 10.0.223.4
+381d25 rebootasic 1565842853 # 10.0.224.71
+a85379 rebootasic 1565842853 # 10.0.224.136
+32b6d0 rebootasic 1565842853 # 10.0.228.115
+eba0c1 rebootasic 1565842853 # 10.0.229.12
+08e0ef rebootasic 1565842853 # 10.0.229.51
+
+10335b maxwatts 1050 # 10.0.53.14
+1bae03 maxwatts -50 # 10.0.223.4
+381d25 maxwatts -50 # 10.0.224.71
+a85379 maxwatts -50 # 10.0.224.136
+32b6d0 maxwatts -50 # 10.0.228.115
+eba0c1 maxwatts -50 # 10.0.229.12
+08e0ef maxwatts -50 # 10.0.229.51
 10335b rebootasic 1565842328 # 10.0.53.14
 1bae03 rebootasic 1565842328 # 10.0.223.4
 381d25 rebootasic 1565842328 # 10.0.224.71
@@ -3595,6 +3610,7 @@ f729dc rebootasic 1565150888 # 10.0.77.68
 
 ## asic password
 asicpass admin
+
 
 
 
