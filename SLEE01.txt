@@ -70,6 +70,9 @@ f913d1 location 18A31
 94e47a location 18B34
 	
 ## tuning
+a39906 maxwatts 1200 # 172.16.204.130
+a39906 rebootasic 1565889868 # 172.16.204.130
+
 f913d1 maxwatts 1200 # 172.16.204.129
 f913d1 rebootasic 1565562550 # 172.16.204.129
 
@@ -96,6 +99,7 @@ d8d329 maxwatts 1400
 
 ## asic password
 asicpass admin
+
 
 
 
