@@ -45,6 +45,11 @@ vlan 172.16.204.223-223
 ## locations
 
 ## tuning
+5c1ae5 maxwatts 1050 # 172.16.204.46
+bb43ef maxwatts 950 # 172.16.204.63
+5c1ae5 rebootasic 1565902063 # 172.16.204.46
+bb43ef rebootasic 1565902063 # 172.16.204.63
+
 7fe818 maxwatts 1250 # 172.16.203.99
 bb43ef maxwatts 1050 # 172.16.204.63
 7fe818 rebootasic 1565894160 # 172.16.203.99
@@ -77,6 +82,7 @@ bb43ef rebootasic 1565396511 # 172.16.204.63
 
 ## asic password
 asicpass admin
+
 
 
 

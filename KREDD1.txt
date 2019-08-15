@@ -90,6 +90,23 @@ ce2f75 location KREDDCOS18G30
 a2bf9f retune 1
 
 ## tuning
+bdca90 maxwatts 900 # 172.16.201.248
+324346 maxwatts 900 # 172.16.204.125
+fe597a maxwatts 1100 # 172.16.200.38
+6af3d4 maxwatts 1100 # 172.16.204.128
+7c0e12 maxwatts 1000 # 172.16.201.61
+8164ef maxwatts 1100 # 172.16.202.64
+6fdddc maxwatts 1100 # 172.16.203.134
+7c0c74 maxwatts 1000 # 172.16.200.43
+bdca90 rebootasic 1565902208 # 172.16.201.248
+324346 rebootasic 1565902208 # 172.16.204.125
+fe597a rebootasic 1565902208 # 172.16.200.38
+6af3d4 rebootasic 1565902208 # 172.16.204.128
+7c0e12 rebootasic 1565902208 # 172.16.201.61
+8164ef rebootasic 1565902208 # 172.16.202.64
+6fdddc rebootasic 1565902208 # 172.16.203.134
+7c0c74 rebootasic 1565902208 # 172.16.200.43
+
 87e2e5 maxwatts 1200 # 172.16.204.99
 4347c6 maxwatts 1200 # 172.16.204.100
 87e2e5 rebootasic 1565894391 # 172.16.204.99
@@ -158,6 +175,7 @@ bdca90 rebootasic 1565406408 # 172.16.201.248
 
 ## asic password
 asicpass admin
+
 
 
 
