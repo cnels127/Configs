@@ -47,6 +47,9 @@ fbb341 location 0003
 
 ## tuning
 be602c maxwatts 1200 # 172.16.202.59
+be602c rebootasic 1565890573 # 172.16.202.59
+
+be602c maxwatts 1200 # 172.16.202.59
 be602c rebootasic 1565889707 # 172.16.202.59
 
 fbb341 maxwatts 1300 # 172.16.204.147
@@ -75,6 +78,7 @@ fbb341 maxwatts 1500
 
 ## asic password
 asicpass admin
+
 
 
 
