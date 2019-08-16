@@ -70,11 +70,15 @@ f46832 location RHUSK0029
 2fb4f0 location RHUSK0030
 
 ## tuning
+ba0308 maxwatts 1350 # 10.0.53.136
+ba0308 rebootasic 1565920032 # 10.0.53.136
+
 adbe7f maxwatts 1350 # 10.0.53.129
 adbe7f rebootasic 1565623866 # 10.0.53.129
 
 
 ## asic password
 asicpass admin
+
 
 
