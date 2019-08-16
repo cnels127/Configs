@@ -65,19 +65,20 @@ eea5d2 location RBARR0019
 0746eb location RBARR0025
 
 ## tuning
-1c4fae maxwatts 1350 # 10.0.57.68
-693af5 maxwatts 1050 # 10.0.57.69
-1c4fae rebootasic 1565412218 # 10.0.57.68
-693af5 rebootasic 1565412218 # 10.0.57.69
+f6aabf maxwatts 1500
+427893 maxwatts 1500
+6ba6a0 maxwatts 1500
+62cd86 maxwatts 1500
+0746eb maxwatts 1500
+4b3a51 maxwatts 1500
+5478c2 maxwatts 1500
+6723e2 maxwatts 1475
+08ede8 maxwatts 1475
+5d01ba maxwatts 1475
+9aa009 maxwatts 1475
+eea5d2 maxwatts 1475
 
-693af5 maxwatts 1150 # 10.0.57.69
-693af5 rebootasic 1565408426 # 10.0.57.69
-
-693af5 maxwatts 1250 # 10.0.57.69
-693af5 rebootasic 1565404562 # 10.0.57.69
-
-693af5 maxwatts 1350 # 10.0.57.69
-693af5 rebootasic 1565402577 # 10.0.57.69
+#removed overheat max watts 8.16.19 16:54 UTC
 
 #removed overheat max watts 8.9.19 17:55 UTC
 
@@ -91,10 +92,3 @@ e83b5d retune 1
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
