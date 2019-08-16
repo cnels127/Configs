@@ -179,6 +179,13 @@ cffad5 location EXTRA0009
 
 ## tuning
 52051a maxwatts 1450 # 10.0.51.14
+d0fe6f maxwatts 1250 # 10.0.51.31
+9079b4 maxwatts 1150 # 10.0.51.56
+52051a rebootasic 1565932411 # 10.0.51.14
+d0fe6f rebootasic 1565932411 # 10.0.51.31
+9079b4 rebootasic 1565932411 # 10.0.51.56
+
+52051a maxwatts 1450 # 10.0.51.14
 52051a rebootasic 1565930633 # 10.0.51.14
 
 52051a maxwatts 1450 # 10.0.51.14
@@ -615,6 +622,7 @@ db2bbb retune 1
 
 ## asic password
 asicpass admin
+
 
 
 
