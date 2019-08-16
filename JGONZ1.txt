@@ -80,6 +80,9 @@ ef8f42 location TEMP4
 5ab5f6 location TEMP5
 
 ## tuning
+5ab5f6 maxwatts 1000 # 172.16.202.214
+5ab5f6 rebootasic 1565992650 # 172.16.202.214
+
 76cef8 maxwatts 200 # 172.16.202.126
 76cef8 rebootasic 1565990851 # 172.16.202.126
 
@@ -158,6 +161,7 @@ ef8f42 maxwatts 1300
 
 ## asic password
 asicpass admin
+
 
 
 
