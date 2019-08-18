@@ -1,0 +1,50 @@
+## instructions available at: https://asicseer.com/page/kb#writing-config
+
+global custompanel DWINL0bit049
+
+global poolname1 eu.stratum.slushpool.com:3333
+global username1 dmwinland
+global poolpass1 123
+global sendworker1 yes
+global poolname2 stratum.slushpool.com:3333
+global username2 dmwinland
+global poolpass2 123
+global sendworker2 yes
+global poolname3 us-east.stratum.slushpool.com:3333
+global username3 dmwinland
+global poolpass3 123
+global sendworker3 yes
+
+global asicboost yes
+global autotune yes
+global maxwatts 1500
+global throttle 100
+global autoupdate no
+global allowed yes
+global maxtemp 90
+global fanspeed 100
+global fansaver 65
+global blinkgreen rapid
+
+# global retune 1
+# global rebootasic 1
+# global resetasic 1
+# global panelpass gj83Nkgikg
+
+# group=rowc rebootasic 1
+# group=rowd allowed no
+
+## vlans
+vlan 10.0.63.91-91
+vlan 10.0.66.161-161
+vlan 10.0.67.82-82
+
+## locations
+bdc4b8 location DWINL0001
+764024 location DWINL0002
+c8aece location DWINL0003
+
+## tuning
+
+## asic password
+asicpass admin
