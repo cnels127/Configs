@@ -2,23 +2,23 @@
 
 global custompanel HKATZ1bit049
 
-global poolname1 sha256.jp.nicehash.com:3334
+global poolname1 sha256asicboost.eu.nicehash.com:3368
 global username1 14g9byTqAYT8UgrTWdkbZcEaRDC9r6CpsE
 global poolpass1 x
 global sendworker1 yes
-global poolname2 sha256.hk.nicehash.com:3334
+global poolname2 sha256asicboost.usa-new.nicehash.com:3368
 global username2 14g9byTqAYT8UgrTWdkbZcEaRDC9r6CpsE
 global poolpass2 x
 global sendworker2 yes
-global poolname3 sha256.eu.nicehash.com:3334
+global poolname3 sha256asicboost.hk-new.nicehash.com:3368
 global username3 14g9byTqAYT8UgrTWdkbZcEaRDC9r6CpsE
 global poolpass3 x
 global sendworker3 yes
 
-global asicboost no
+global asicboost yes
 global autotune yes
-global maxwatts 1400
-
+global maxwatts 1450
+global throttle 100
 global autoupdate no
 global allowed yes
 global maxtemp 90
@@ -26,8 +26,8 @@ global fanspeed 95
 global fansaver 65
 global blinkgreen rapid
 
-# global retune 1
-global rebootasic 1
+global retune 1
+global rebootasic 2
 # global resetasic 1
 # global panelpass gj83Nkgikg
 
@@ -41,396 +41,15 @@ vlan 10.0.65.61-61
 vlan 10.0.67.40-40
 
 ## locations
-fae301 location HKATZRUS68x38
-44ba88 location HKATZRUS68x39
-7f79ef location HKATZRUS66x30
-15e78d location HKATZRUS65x61
-ceac8d location HKATZRUS67X40
+fae301 location HKATZ0001
+44ba88 location HKATZ0002
+7f79ef location HKATZ0003
+15e78d location HKATZ0004
+ceac8d location HKATZ0005
 
 ## tuning
-ceac8d maxwatts 950 # 10.0.67.40
-ceac8d rebootasic 1565957416 # 10.0.67.40
-
-ceac8d maxwatts 1050 # 10.0.67.40
-ceac8d rebootasic 1565955675 # 10.0.67.40
-
-ceac8d maxwatts 1150 # 10.0.67.40
-ceac8d rebootasic 1565674642 # 10.0.67.40
-
-ceac8d maxwatts 1250 # 10.0.67.40
-ceac8d rebootasic 1565671191 # 10.0.67.40
-
-fae301 maxwatts 1300 # 10.0.68.38
-fae301 rebootasic 1565510534 # 10.0.68.38
-
-fae301 maxwatts 1300 # 10.0.68.38
-fae301 rebootasic 1565508466 # 10.0.68.38
-
-fae301 maxwatts 1300 # 10.0.68.38
-fae301 rebootasic 1565506464 # 10.0.68.38
-
-fae301 maxwatts 1300 # 10.0.68.38
-fae301 rebootasic 1565504420 # 10.0.68.38
-
-fae301 maxwatts 1300 # 10.0.68.38
-fae301 rebootasic 1565502410 # 10.0.68.38
-
-fae301 maxwatts 1300 # 10.0.68.38
-fae301 rebootasic 1565500346 # 10.0.68.38
-
-fae301 maxwatts 1300 # 10.0.68.38
-fae301 rebootasic 1565498292 # 10.0.68.38
-
-fae301 maxwatts 1300 # 10.0.68.38
-fae301 rebootasic 1565496319 # 10.0.68.38
-
-fae301 maxwatts 1300 # 10.0.68.38
-fae301 rebootasic 1565494315 # 10.0.68.38
-
-fae301 maxwatts 1300 # 10.0.68.38
-fae301 rebootasic 1565492327 # 10.0.68.38
-
-fae301 maxwatts 1300 # 10.0.68.38
-fae301 rebootasic 1565490313 # 10.0.68.38
-
-fae301 maxwatts 1300 # 10.0.68.38
-fae301 rebootasic 1565488312 # 10.0.68.38
-
-fae301 maxwatts 1300 # 10.0.68.38
-fae301 rebootasic 1565486326 # 10.0.68.38
-
-fae301 maxwatts 1300 # 10.0.68.38
-fae301 rebootasic 1565484360 # 10.0.68.38
-
-fae301 maxwatts 1300 # 10.0.68.38
-fae301 rebootasic 1565482389 # 10.0.68.38
-
-fae301 maxwatts 1300 # 10.0.68.38
-fae301 rebootasic 1565480455 # 10.0.68.38
-
-fae301 maxwatts 1300 # 10.0.68.38
-fae301 rebootasic 1565478486 # 10.0.68.38
-
-fae301 maxwatts 1300 # 10.0.68.38
-fae301 rebootasic 1565476584 # 10.0.68.38
-
-fae301 maxwatts 1300 # 10.0.68.38
-fae301 rebootasic 1565474652 # 10.0.68.38
-
-fae301 maxwatts 1300 # 10.0.68.38
-fae301 rebootasic 1565472735 # 10.0.68.38
-
-fae301 maxwatts 1300 # 10.0.68.38
-fae301 rebootasic 1565470839 # 10.0.68.38
-
-fae301 maxwatts 1300 # 10.0.68.38
-fae301 rebootasic 1565468956 # 10.0.68.38
-
-fae301 maxwatts 1300 # 10.0.68.38
-fae301 rebootasic 1565467047 # 10.0.68.38
-
-fae301 maxwatts 1300 # 10.0.68.38
-fae301 rebootasic 1565465114 # 10.0.68.38
-
-fae301 maxwatts 1300 # 10.0.68.38
-fae301 rebootasic 1565463144 # 10.0.68.38
-
-fae301 maxwatts 1300 # 10.0.68.38
-fae301 rebootasic 1565461166 # 10.0.68.38
-
-fae301 maxwatts 1300 # 10.0.68.38
-fae301 rebootasic 1565459220 # 10.0.68.38
-
-fae301 maxwatts 1300 # 10.0.68.38
-fae301 rebootasic 1565457307 # 10.0.68.38
-
-fae301 maxwatts 1300 # 10.0.68.38
-fae301 rebootasic 1565455425 # 10.0.68.38
-
-fae301 maxwatts 1300 # 10.0.68.38
-fae301 rebootasic 1565453482 # 10.0.68.38
-
-fae301 maxwatts 1300 # 10.0.68.38
-fae301 rebootasic 1565451600 # 10.0.68.38
-
-fae301 maxwatts 1300 # 10.0.68.38
-fae301 rebootasic 1565449790 # 10.0.68.38
-
-fae301 maxwatts 1300 # 10.0.68.38
-fae301 rebootasic 1565447977 # 10.0.68.38
-
-fae301 maxwatts 1300 # 10.0.68.38
-fae301 rebootasic 1565446141 # 10.0.68.38
-
-fae301 maxwatts 1300 # 10.0.68.38
-fae301 rebootasic 1565444317 # 10.0.68.38
-
-fae301 maxwatts 1300 # 10.0.68.38
-fae301 rebootasic 1565442527 # 10.0.68.38
-
-fae301 maxwatts 1300 # 10.0.68.38
-fae301 rebootasic 1565440707 # 10.0.68.38
-
-fae301 maxwatts 1300 # 10.0.68.38
-fae301 rebootasic 1565438891 # 10.0.68.38
-
-fae301 maxwatts 1300 # 10.0.68.38
-fae301 rebootasic 1565437102 # 10.0.68.38
-
-fae301 maxwatts 1300 # 10.0.68.38
-fae301 rebootasic 1565435304 # 10.0.68.38
-
-fae301 maxwatts 1300 # 10.0.68.38
-fae301 rebootasic 1565433512 # 10.0.68.38
-
-fae301 maxwatts 1300 # 10.0.68.38
-fae301 rebootasic 1565431740 # 10.0.68.38
-
-fae301 maxwatts 1300 # 10.0.68.38
-fae301 rebootasic 1565429976 # 10.0.68.38
-
-fae301 maxwatts 1300 # 10.0.68.38
-fae301 rebootasic 1565428187 # 10.0.68.38
-
-fae301 maxwatts 1300 # 10.0.68.38
-fae301 rebootasic 1565426410 # 10.0.68.38
-
-fae301 maxwatts 1300 # 10.0.68.38
-fae301 rebootasic 1565424633 # 10.0.68.38
-
-15e78d maxwatts 1200 # 10.0.65.61
-15e78d rebootasic 1565413963 # 10.0.65.61
-
-15e78d maxwatts 1300 # 10.0.65.61
-15e78d rebootasic 1565402426 # 10.0.65.61
-
-#removed overheat max watts 8.9.19 17:25 UTC
-
-
-# fae301 maxwatts 1550
-# 44ba88 maxwatts 1550
-
 44ba88 retune 2
 7f79ef retune 1
-ceac8d maxwatts 1350
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
