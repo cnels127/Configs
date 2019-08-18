@@ -1,0 +1,62 @@
+## instructions available at: https://asicseer.com/page/kb#writing-config
+
+global custompanel HFAUS0bit049
+
+global poolname1 eu.stratum.slushpool.com:3333
+global username1 DUTCH
+global poolpass1 123
+global sendworker1 yes
+global poolname2 us-east.stratum.slushpool.com:3333
+global username2 DUTCH
+global poolpass2 123
+global sendworker2 yes
+global poolname3 stratum.slushpool.com:3333
+global username3 DUTCH
+global poolpass3 123
+global sendworker3 yes
+
+global asicboost yes
+global autotune yes
+global maxwatts 1450
+global throttle 100
+global autoupdate no
+global allowed yes
+global maxtemp 90
+global fanspeed 100
+global fansaver 65
+global blinkgreen rapid
+
+# global retune 1
+# global rebootasic 1
+# global resetasic 1
+# global panelpass gj83Nkgikg
+
+# group=rowc rebootasic 1
+# group=rowd allowed no
+
+## vlans
+vlan 10.0.62.37-37
+vlan 10.0.67.115-115
+vlan 10.0.57.86-86
+vlan 10.0.62.81-81
+vlan 10.0.62.82-82
+vlan 10.0.62.32-32
+
+## locations
+a7fca0 location HFAUS0001
+311b99 location HFAUS0001
+a3883c location HFAUS0002
+335e38 location HFAUS0002
+57febf location HFAUS0003
+485e13 location HFAUS0003
+
+## tuning
+a7fca0 maxwatts 1450
+311b99 maxwatts 1450
+a3883c maxwatts 1350
+335e38 maxwatts 1450
+57febf maxwatts 1450
+485e13 maxwatts 1350
+
+## asic password
+asicpass admin
