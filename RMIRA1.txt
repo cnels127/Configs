@@ -53,6 +53,9 @@ f704dc location 18E38
 a0e30f location 18E39
 
 ## tuning
+4423f1 maxwatts 1150 # 172.16.200.227
+4423f1 rebootasic 1566105568 # 172.16.200.227
+
 4423f1 maxwatts 1250 # 172.16.200.227
 4423f1 rebootasic 1566091752 # 172.16.200.227
 
@@ -60,4 +63,5 @@ a0e30f location 18E39
 
 ## asic password
 asicpass admin
+
 
