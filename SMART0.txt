@@ -1,0 +1,46 @@
+## instructions available at: https://asicseer.com/page/kb#writing-config
+
+global custompanel SMART0bit049
+
+global poolname1 eu.stratum.slushpool.com:3333
+global username1 tonitram
+global poolpass1 123
+global sendworker1 yes
+global poolname2 us-east.stratum.slushpool.com:3333
+global username2 tonitram
+global poolpass2 123
+global sendworker2 yes
+global poolname3 stratum.slushpool.com:3333
+global username3 tonitram
+global poolpass3 123
+global sendworker3 yes
+
+global asicboost yes
+global autotune yes
+global maxwatts 1450
+global throttle 100
+global autoupdate no
+global allowed yes
+global maxtemp 90
+global fanspeed 100
+global fansaver 65
+global blinkgreen rapid
+
+# global retune 1
+# global rebootasic 1
+# global resetasic 1
+# global panelpass gj83Nkgikg
+
+# group=rowc rebootasic 1
+# group=rowd allowed no
+
+## vlans
+vlan 10.0.59.78-78
+
+## locations
+35cf73 location SMART0001
+
+## tuning
+
+## asic password
+asicpass admin
