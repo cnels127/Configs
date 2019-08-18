@@ -22,7 +22,7 @@ global throttle 100
 global autoupdate no
 global allowed yes
 global maxtemp 90
-global fanspeed 95
+global fanspeed 100
 global fansaver 65
 global blinkgreen rapid
 
@@ -35,14 +35,11 @@ global rebootasic 2
 # group=rowd allowed no
 
 ## vlans
-vlan 10.0.68.38-39
 vlan 10.0.66.30-30
 vlan 10.0.65.61-61
 vlan 10.0.67.40-40
 
 ## locations
-fae301 location HKATZ0001
-44ba88 location HKATZ0002
 7f79ef location HKATZ0003
 15e78d location HKATZ0004
 ceac8d location HKATZ0005
