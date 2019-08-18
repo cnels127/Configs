@@ -1,0 +1,48 @@
+## instructions available at: https://asicseer.com/page/kb#writing-config
+
+global custompanel VDUBO0bit049
+
+global poolname1 stratum+tcp://sha256asicboost.eu.nicehash.com:3368
+global username1 3KuGHtZ4yvTop3QN7nUSsaBeSXtJd1cDEj
+global poolpass1 123
+global sendworker1 yes
+global poolname2 
+global username2 
+global poolpass2 
+global sendworker2 yes
+global poolname3 
+global username3 
+global poolpass3 
+global sendworker3 yes
+
+global asicboost yes
+global autotune yes
+global maxwatts 1450
+global throttle 100
+global autoupdate no
+global allowed yes
+global maxtemp 90
+global fanspeed 95
+global fansaver 65
+global blinkgreen rapid
+
+# global retune 1
+# global rebootasic 1
+# global resetasic 1
+# global panelpass gj83Nkgikg
+
+# group=rowc rebootasic 1
+# group=rowd allowed no
+
+## vlans
+vlan 10.0.63.75-75
+vlan 10.0.61.142-142
+
+## locations
+10992f location VDUBO0001
+ac80c9 location VDUBO0001
+
+## tuning
+
+## asic password
+asicpass admin
