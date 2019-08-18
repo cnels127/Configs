@@ -57,7 +57,11 @@ vlan 172.16.202.39-39
 vlan 172.16.202.96-96
 
 ## tuning
+2204ec maxwatts 1250 # 172.16.202.96
+2204ec rebootasic 1566091621 # 172.16.202.96
+
 #removed overheat max watts 8.9.19 17:16 UTC
 
 ## asic password
 asicpass admin
+

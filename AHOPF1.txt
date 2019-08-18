@@ -141,6 +141,11 @@ be27de location ahopf0071
 c6cbe1 location ahopf0075
 
 ## tuning
+d415da maxwatts 1450 # 10.0.57.36
+f1ead0 maxwatts 1450 # 10.0.216.144
+d415da rebootasic 1566091570 # 10.0.57.36
+f1ead0 rebootasic 1566091570 # 10.0.216.144
+
 #kWh billing experiment
 cb7a3d maxwatts 1550
 0697d7 maxwatts 1550
@@ -274,6 +279,7 @@ a4a691 maxwatts 1425
 
 ## asic password
 asicpass admin
+
 
 
 
