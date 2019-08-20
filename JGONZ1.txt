@@ -81,6 +81,9 @@ ef8f42 location TEMP4
 
 ## tuning
 76cef8 maxwatts -100 # 172.16.202.126
+76cef8 rebootasic 1566330539 # 172.16.202.126
+
+76cef8 maxwatts -100 # 172.16.202.126
 76cef8 rebootasic 1566327691 # 172.16.202.126
 
 76cef8 maxwatts -100 # 172.16.202.126
@@ -240,6 +243,7 @@ ef8f42 maxwatts 1300
 
 ## asic password
 asicpass admin
+
 
 
 
