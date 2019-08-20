@@ -35,15 +35,17 @@ global rebootasic 2
 # group=rowd allowed no
 
 ## vlans
-vlan 10.0.54.155-159
+vlan 10.0.54.155-156
+vlan 10.0.54.158-159
 vlan 10.0.58.18-18
 vlan 10.0.58.25-25
 vlan 10.0.58.27-27
+vlan 10.0.62.101-101
 
 ## locations
 1667e2 location DBELT0001
 e7a422 location DBELT0002
-f5ddbb location DBELT0003
+468aaf location DBELT0003
 0747e2 location DBELT0004
 356422 location DBELT0005
 179168 location DBELT0006
@@ -80,14 +82,14 @@ e7a422 rebootasic 1565396538 # 10.0.54.156
 
 #removed overheat max watts 8.9.19 17:14 UTC
 
-1667e2 maxwatts 1350
-e7a422 maxwatts 1350
-f5ddbb maxwatts 1350
-0747e2 maxwatts 1350
-356422 maxwatts 1350
-179168 maxwatts 1350
-54750e maxwatts 1350
-056415 maxwatts 1350
+# 1667e2 maxwatts 1350
+# e7a422 maxwatts 1350
+# 468aaf maxwatts 1350
+# 0747e2 maxwatts 1350
+# 356422 maxwatts 1350
+# 179168 maxwatts 1350
+# 54750e maxwatts 1350
+# 056415 maxwatts 1350
 
 ## asic password
 asicpass admin
