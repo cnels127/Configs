@@ -117,6 +117,9 @@ fb2a81 location SRADO0042
 
 ## tuning
 0f22cc maxwatts -25 # 10.0.68.42
+0f22cc rebootasic 1566286905 # 10.0.68.42
+
+0f22cc maxwatts -25 # 10.0.68.42
 ca6c85 maxwatts -50 # 10.0.67.159
 0f22cc rebootasic 1566284499 # 10.0.68.42
 ca6c85 rebootasic 1566284499 # 10.0.67.159
@@ -1497,6 +1500,7 @@ fb2a81 maxwatts 1450
 
 ## asic password
 asicpass admin
+
 
 
 
