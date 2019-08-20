@@ -36,12 +36,15 @@ global blinkgreen rapid
 
 ## vlans
 vlan 10.0.61.32-32
+vlan 10.0.66.101-101
 
 ## locations
-d1959f location ASICseer
+d1959f location ASICseer1
+47bb2b location ASICseer2
 
 ## tuning
 d1959f maxwatts 1350
+47bb2b maxwatts 1050
 
 ## asic password
 asicpass admin
