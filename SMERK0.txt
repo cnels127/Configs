@@ -21,10 +21,10 @@ global allowed yes
 global asicboost yes
 global autotune yes
 global maxwatts 1450
-global maxtemp 90 1
-global throttle 50
+global maxtemp 90
+global throttle 100
 global fanspeed 100
-# global fansaver 65
+global fansaver 65
 
 # global retune 1
 global rebootasic 9
