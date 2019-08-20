@@ -113,6 +113,9 @@ d13d9c location athom0039
 31a7ae location athom0040
 
 ## tuning
+34f9ef maxwatts 375 # 10.0.54.132
+34f9ef rebootasic 1566341941 # 10.0.54.132
+
 c2edd9 maxwatts 1125 # 10.0.65.159
 c2edd9 rebootasic 1566119456 # 10.0.65.159
 
@@ -240,5 +243,6 @@ f9ca53 retune 1
 
 ## asic password
 asicpass admin
+
 
 
