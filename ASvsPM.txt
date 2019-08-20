@@ -1,0 +1,47 @@
+## instructions available at: https://asicseer.com/page/kb#writing-config
+
+global custompanel ASvsPMbit049
+
+global poolname1 connect.pool.bitcoin.com:3333
+global username1 bit49xasicseervsprominer
+global poolpass1 123
+global sendworker1 yes
+global poolname2 connect.pool.bitcoin.com:3333
+global username2 bit49xasicseervsprominer
+global poolpass2 123
+global sendworker2 yes
+global poolname3 connect.pool.bitcoin.com:3333
+global username3 bit49xasicseervsprominer
+global poolpass3 123
+global sendworker3 yes
+
+global asicboost yes
+global autotune yes
+global maxwatts 1050
+
+global autoupdate no
+global allowed yes
+global maxtemp 90
+global fanspeed 100
+# global fansaver 65
+global blinkgreen rapid
+
+# global retune 1
+# global rebootasic 1
+# global resetasic 1
+# global panelpass gj83Nkgikg
+
+# group=rowc rebootasic 1
+# group=rowd allowed no
+
+## vlans
+vlan 10.0.66.101-101
+
+## locations
+47bb2b location ASICseer Control
+
+## tuning
+47bb2b maxwatts 1050
+
+## asic password
+asicpass admin
