@@ -65,6 +65,9 @@ eea5d2 location RBARR0019
 0746eb location RBARR0025
 
 ## tuning
+693af5 maxwatts 1350 # 10.0.57.69
+693af5 rebootasic 1566365782 # 10.0.57.69
+
 247665 maxwatts 1350 # 10.0.57.60
 247665 rebootasic 1565998115 # 10.0.57.60
 
@@ -95,4 +98,5 @@ e83b5d retune 1
 
 ## asic password
 asicpass admin
+
 
