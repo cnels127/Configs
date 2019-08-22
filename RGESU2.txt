@@ -47,6 +47,9 @@ a8b8de location RGESUCOS0003
 af9564 location RGESUCOS0006
 
 ## tuning
+d360c8 maxwatts 1200 # 172.16.202.92
+d360c8 rebootasic 1566511611 # 172.16.202.92
+
 d360c8 retune 1
 a8b8de retune 1
 329fab retune 1
@@ -54,3 +57,4 @@ af9564 retune 1
 
 ## asic password
 asicpass admin
+
