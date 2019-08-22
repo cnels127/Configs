@@ -50,6 +50,9 @@ b7cd11 location JWORR0007
 564c64 location JWORR0010
 
 ## tuning
+a1c0cf maxwatts 1475 # 10.0.32.75
+a1c0cf rebootasic 1566470956 # 10.0.32.75
+
 #removed overheat max watts 8.9.19 17:30 UTC
 
 6659c1 maxwatts 1525
@@ -69,6 +72,7 @@ eaee2e retune 1
 
 ## asic password
 asicpass admin
+
 
 
 
