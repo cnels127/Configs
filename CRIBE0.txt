@@ -386,6 +386,9 @@ b66659 location CRIBE0171
 
 
 ## tuning
+f9cc31 maxwatts 1150 # 10.0.62.18
+f9cc31 rebootasic 1566464033 # 10.0.62.18
+
 667bbe maxwatts 850 # 10.0.58.113
 1afe8c maxwatts 850 # 10.0.61.23
 667bbe rebootasic 1566430001 # 10.0.58.113
@@ -1039,4 +1042,5 @@ b66659 maxwatts 1300
 
 ## asic password
 asicpass admin
+
 
