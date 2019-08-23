@@ -497,6 +497,9 @@ cc9fd9 location AHOPF0302
 79c07f location AHOPF0303
 
 ## tuning
+ddb214 maxwatts 1450 # 10.0.218.161
+ddb214 rebootasic 1566538491 # 10.0.218.161
+
 
 #removed R2D2 overheat maxwatt adjustments 8.22.19 03:07 UTC
 
@@ -1115,6 +1118,7 @@ d0f1c5 maxwatts 1275
 
 ## asic password
 asicpass admin
+
 
 
 
