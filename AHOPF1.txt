@@ -141,6 +141,9 @@ be27de location ahopf0071
 c6cbe1 location ahopf0075
 
 ## tuning
+0adba5 maxwatts 1450 # 10.0.216.224
+0adba5 rebootasic 1566550388 # 10.0.216.224
+
 c6cbe1 maxwatts 1450 # 10.0.218.157
 c6cbe1 rebootasic 1566548415 # 10.0.218.157
 
@@ -461,6 +464,7 @@ a4a691 maxwatts 1425
 
 ## asic password
 asicpass admin
+
 
 
 
