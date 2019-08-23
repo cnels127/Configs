@@ -41,10 +41,14 @@ vlan 172.16.202.186-186
 4fde10 location RFRANCOS0001
 
 ## tuning
+4fde10 maxwatts 1200 # 172.16.202.186
+4fde10 rebootasic 1566597851 # 172.16.202.186
+
 4fde10 maxwatts 1300 # 172.16.202.186
 4fde10 rebootasic 1566511588 # 172.16.202.186
 
 
 ## asic password
 asicpass admin
+
 
