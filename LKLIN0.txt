@@ -20,7 +20,7 @@ global blinkgreen rapid
 global allowed yes
 global asicboost yes
 global autotune yes
-global maxwatts 1450
+global maxwatts 1475
 global maxtemp 90
 global throttle 50
 global fanspeed 100
@@ -35,8 +35,60 @@ global fanspeed 100
 # group=rowd allowed no
 
 ## vlans
+vlan 10.0.32.60-60
+vlan 10.0.59.157-157
+vlan 10.0.61.18-18
+vlan 10.0.61.88-88
+vlan 10.0.61.138-138
+vlan 10.0.63.37-37
+vlan 10.0.63.107-107
+vlan 10.0.65.43-43
+vlan 10.0.66.160-160
+vlan 10.0.67.145-145
+vlan 10.0.68.12-12
+vlan 172.16.203.107-107
+vlan 172.16.203.126-126
+vlan 172.16.203.127-127
+vlan 172.16.203.131-131
+vlan 172.16.203.135-135
+vlan 172.16.203.142-142
+vlan 172.16.203.147-147
+vlan 172.16.203.151-151
+vlan 172.16.203.158-158
+vlan 172.16.203.161-161
+vlan 172.16.203.165-165
+vlan 172.16.203.167-167
+vlan 172.16.203.179-179
+vlan 172.16.203.187-187
+vlan 172.16.203.239-239
 
 ## locations
+16d3c8 location LKLIN0001
+16da58 location LKLIN0002
+b3ad3a location LKLIN0003
+5617cc location LKLIN0004
+596464 location LKLIN0005
+fc23ff location LKLIN0006
+ed846d location LKLIN0007
+2b0498 location LKLIN0008
+5351fb location LKLIN0009
+7106b2 location LKLIN0010
+a410f2 location LKLIN0011
+05bd00 location LKLIN0012
+39ec5f location LKLIN0013
+6176ae location LKLIN0014
+9b6fc6 location LKLIN0015
+a29038 location LKLIN0016
+71126e location LKLIN0017
+ba3fd2 location LKLIN0018
+1b3d5a location LKLIN0019
+ad6d00 location LKLIN0020
+50d491 location LKLIN0021
+d755b0 location LKLIN0022
+cd93e3 location LKLIN0023
+ea7c6e location LKLIN0024
+d287d6 location LKLIN0025
+e49dd5 location LKLIN0026
 
 ## tuning
 
