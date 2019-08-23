@@ -3,8 +3,8 @@
 global custompanel LKLIN0bit049
 
 global poolname1 stratum+tcp://nl.kano.is:3333
-global username1 PGA
-global poolpass1 123
+global username1 PGA.worker
+global poolpass1 x
 global sendworker1 yes
 global poolname2 
 global username2 
