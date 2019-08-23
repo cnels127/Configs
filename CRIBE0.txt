@@ -386,6 +386,9 @@ b66659 location CRIBE0171
 
 
 ## tuning
+0068f5 maxwatts 700 # 10.0.59.70
+0068f5 rebootasic 1566546552 # 10.0.59.70
+
 0068f5 maxwatts 800 # 10.0.59.70
 0068f5 rebootasic 1566542470 # 10.0.59.70
 
@@ -1048,6 +1051,7 @@ b66659 maxwatts 1300
 
 ## asic password
 asicpass admin
+
 
 
 
