@@ -18,11 +18,11 @@ global sendworker3 yes
 global asicboost yes
 global autotune yes
 global maxwatts 1500
-
+global throttle 100
 global autoupdate no
 global allowed yes
 global maxtemp 90
-global fanspeed 95
+global fanspeed 100
 global fansaver 65
 global blinkgreen rapid
 
@@ -45,6 +45,22 @@ vlan 10.0.60.56-56
 vlan 10.0.60.87-87
 vlan 10.0.60.93-93
 vlan 10.0.60.104-104
+vlan 10.0.64.155-155
+vlan 10.0.65.42-42
+vlan 10.0.62.76-76
+vlan 10.0.64.139-139
+vlan 10.0.61.75-75
+vlan 10.0.67.30-30
+vlan 10.0.62.125-125
+vlan 10.0.63.53-53
+vlan 10.0.63.10-10
+vlan 10.0.65.59-59
+vlan 10.0.61.161-161
+vlan 10.0.64.74-74
+vlan 10.0.61.53-53
+vlan 10.0.66.77-77
+vlan 10.0.61.77-77
+vlan 10.0.62.146-146
 
 ## locations
 bf1870 location SLANG0001
@@ -57,6 +73,23 @@ c7c75f location SLANG0006
 e39d7c location SLANG0008
 fe2dc8 location SLANG0009
 e1bef3 location SLANG0010
+3c6a08 location SLANG0011
+4d2038 location SLANG0011
+fbf390 location SLANG0012
+56b43e location SLANG0012
+a7b6db location SLANG0013
+596481 location SLANG0013
+84cd22 location SLANG0014
+3c8ba2 location SLANG0014
+d34135 location SLANG0015
+15269c location SLANG0015
+1df8f9 location SLANG0016
+f30ccf location SLANG0016
+d09da5 location SLANG0017
+02a4cb location SLANG0018
+8aca82 location SLANG0019
+866c28 location SLANG0020
+
 
 ## tuning
 435798 maxwatts 900 # 10.0.60.11
@@ -112,6 +145,23 @@ e39d7c rebootasic 1565396801 # 10.0.60.87
 e1bef3 rebootasic 1565396801 # 10.0.60.104
 
 #removed overheat max watts 8.9.19 18:05 UTC
+
+3c6a08 maxwatts 1150
+fbf390 maxwatts 1450
+a7b6db maxwatts 1450
+84cd22 maxwatts 1250
+d34135 maxwatts 1350
+1df8f9 maxwatts 1450
+d09da5 maxwatts 1450
+4d2038 maxwatts 1450
+56b43e maxwatts 1450
+596481 maxwatts 1450
+3c8ba2 maxwatts 1450
+15269c maxwatts 1450
+f30ccf maxwatts 1450
+02a4cb maxwatts 1450
+8aca82 maxwatts 1450
+866c28 maxwatts 1450
 
 ## asic password
 asicpass admin
