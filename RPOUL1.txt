@@ -44,6 +44,9 @@ vlan 10.0.68.30-33
 ba1c4a location RPOUL0004
 
 ## tuning
+2e86e9 maxwatts 1275 # 10.0.68.31
+2e86e9 rebootasic 1566566476 # 10.0.68.31
+
 #removed overheat max watts 8.9.19 18:00 UTC
 
 12c5ea maxwatts 1375
@@ -54,4 +57,5 @@ ba1c4a maxwatts 1350
 
 ## asic password
 asicpass admin
+
 

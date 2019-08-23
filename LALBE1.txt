@@ -59,6 +59,9 @@ e3af8a location bi_s9_505
 4363c7 location bi_s9_510
 
 ## tuning
+6eb9e6 maxwatts 1150 # 10.0.65.12
+6eb9e6 rebootasic 1566566272 # 10.0.65.12
+
 6eb9e6 maxwatts 1250 # 10.0.65.12
 6eb9e6 rebootasic 1566550594 # 10.0.65.12
 
@@ -87,6 +90,7 @@ e3af8a maxwatts 250
 
 ## asic password
 asicpass admin
+
 
 
 
