@@ -1,0 +1,59 @@
+## instructions available at: https://asicseer.com/page/kb#writing-config
+
+global custompanel TGROT0bit049
+
+global poolname1 eu.stratum.slushpool.com:3333
+global username1 tomxster
+global poolpass1 123
+global sendworker1 yes
+global poolname2 us-east.stratum.slushpool.com:3333
+global username2 tomxster
+global poolpass2 123
+global sendworker2 yes
+global poolname3 stratum.slushpool.com:3333
+global username3 tomxster
+global poolpass3 123
+global sendworker3 yes
+
+global asicboost yes
+global autotune yes
+global maxwatts 1450
+global throttle 100
+global autoupdate no
+global allowed yes
+global maxtemp 90
+global fanspeed 100
+global fansaver 65
+global blinkgreen rapid
+
+# global retune 1
+# global rebootasic 1
+# global resetasic 1
+# global panelpass gj83Nkgikg
+
+# group=rowc rebootasic 1
+# group=rowd allowed no
+
+## vlans
+vlan 10.0.65.68-68
+vlan 10.0.61.157-157
+vlan 10.0.63.84-84
+vlan 10.0.58.157-157
+vlan 10.0.63.23-23
+
+## locations
+0040fc location TGROT00001
+dae245 location TGROT00001
+f2dc4d location TGROT00002
+6db0b2 location TGROT00002
+83bf48 location TGROT00003
+
+## tuning
+0040fc maxwatts 1250
+dae245 maxwatts 1250
+f2dc4d maxwatts 1450
+6db0b2 maxwatts 1450
+83bf48 maxwatts 1450
+
+## asic password
+asicpass admin
