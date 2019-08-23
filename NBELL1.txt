@@ -121,6 +121,9 @@ e07578 location NBELL0054
 9ce38b location NBELL0055
 
 ## tuning
+620f30 maxwatts 1125 # 10.0.65.92
+620f30 rebootasic 1566564284 # 10.0.65.92
+
 86f503 maxwatts 1050 # 10.0.59.22
 86f503 rebootasic 1566542657 # 10.0.59.22
 
@@ -217,6 +220,7 @@ d70df1 retune 1
 
 ## asic password
 asicpass admin
+
 
 
 
