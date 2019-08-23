@@ -41,6 +41,26 @@ vlan 10.0.57.86-86
 vlan 10.0.62.81-81
 vlan 10.0.62.82-82
 vlan 10.0.62.32-32
+vlan 10.0.64.3-3
+vlan 10.0.67.83-83
+vlan 10.0.67.95-95
+vlan 10.0.64.145-145
+vlan 10.0.65.99-99
+vlan 10.0.59.161-161
+vlan 10.0.66.87-87
+vlan 10.0.61.13-13
+vlan 10.0.63.42-42
+vlan 10.0.62.110-110
+vlan 10.0.65.112-112
+vlan 10.0.63.34-34
+vlan 10.0.62.131-131
+vlan 10.0.64.104-104
+vlan 10.0.61.106-106
+vlan 10.0.61.105-105
+vlan 10.0.63.77-77
+vlan 10.0.65.124-124
+vlan 10.0.61.109-109
+vlan 10.0.65.11-11
 
 ## locations
 a7fca0 location HFAUS0001
@@ -49,6 +69,26 @@ a3883c location HFAUS0002
 335e38 location HFAUS0002
 57febf location HFAUS0003
 485e13 location HFAUS0003
+4c84d0 location HFAUS0009
+683bb6 location HFAUS0009
+a072b9 location HFAUS0010
+dd8320 location HFAUS0004
+2c2665 location HFAUS0010
+d51a5c location HFAUS0011
+eb31e9 location HFAUS0005
+c28a7c location HFAUS0006
+6192a4 location HFAUS0007
+eff346 location HFAUS0008
+fe7105 location HFAUS0010
+9157ba location HFAUS0009
+ef15e2 location HFAUS0012
+f3c9af location HFAUS0012
+7adae2 location HFAUS0011
+50ff88 location HFAUS0008
+c81b30 location HFAUS0007
+f3bb3d location HFAUS0006
+737fce location HFAUS0005
+c7c8e8 location HFAUS0004
 
 ## tuning
 a7fca0 maxwatts 1450
@@ -57,6 +97,26 @@ a3883c maxwatts 1350
 335e38 maxwatts 1450
 57febf maxwatts 1450
 485e13 maxwatts 1350
+4c84d0 maxwatts 1450
+683bb6 maxwatts 1050
+a072b9 maxwatts 1150
+dd8320 maxwatts 1350
+2c2665 maxwatts 1250
+d51a5c maxwatts 1250
+eb31e9 maxwatts 1450
+c28a7c maxwatts 1450
+6192a4 maxwatts 1450
+eff346 maxwatts 1450
+fe7105 maxwatts 950
+9157ba maxwatts 950
+ef15e2 maxwatts 950
+f3c9af maxwatts 1450
+7adae2 maxwatts 1450
+50ff88 maxwatts 1350
+c81b30 maxwatts 1450
+f3bb3d maxwatts 1450
+737fce maxwatts 1350
+c7c8e8 maxwatts 1450
 
 ## asic password
 asicpass admin
