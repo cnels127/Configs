@@ -370,6 +370,13 @@ dd4d31 location SNOORCOS20E28
 c56855 maxwatts -100 # 172.16.204.60
 46e9ab maxwatts -100 # 172.16.200.161
 2e113e maxwatts -100 # 172.16.202.250
+c56855 rebootasic 1566679865 # 172.16.204.60
+46e9ab rebootasic 1566679865 # 172.16.200.161
+2e113e rebootasic 1566679865 # 172.16.202.250
+
+c56855 maxwatts -100 # 172.16.204.60
+46e9ab maxwatts -100 # 172.16.200.161
+2e113e maxwatts -100 # 172.16.202.250
 8d629a maxwatts -100 # 172.16.202.198
 2855a3 maxwatts 200 # 172.16.204.73
 c56855 rebootasic 1566677071 # 172.16.204.60
@@ -2528,6 +2535,7 @@ d8c5c3 rebootasic 1565396831 # 172.16.200.135
 
 ## asic password
 asicpass admin
+
 
 
 
