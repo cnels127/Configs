@@ -91,6 +91,12 @@ d287d6 location LKLIN-E25
 e49dd5 location LKLIN-E26
 
 ## tuning
+e49dd5 maxwatts 1375 # 172.16.203.239
+b3ad3a maxwatts 1375 # 10.0.61.18
+e49dd5 rebootasic 1566606709 # 172.16.203.239
+b3ad3a rebootasic 1566606709 # 10.0.61.18
+
 
 ## asic password
 asicpass admin
+
