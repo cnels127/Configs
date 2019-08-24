@@ -66,12 +66,94 @@ bfb0bc location FKRAU0021
 d427dd location FKRAU0029
 31940f location FKRAU0030
 
+de88ec location FKRAU0031
+c5abf8 location FKRAU0032
+6e8e93 location FKRAU0033
+b4e11c location FKRAU0034
+641328 location FKRAU0035
+663078 location FKRAU0036
+baefba location FKRAU0037
+d379c4 location FKRAU0038
+a82ce7 location FKRAU0039
+411cd1 location FKRAU0040
+137fd6 location FKRAU0041
+f60107 location FKRAU0042
+d156c9 location FKRAU0043
+196328 location FKRAU0044
+2b0498 location FKRAU0045
+7508a0 location FKRAU0046
+b7b010 location FKRAU0047
+7ef3f6 location FKRAU0048
+4e7a4a location FKRAU0049
+591a2b location FKRAU0050
+386f3e location FKRAU0051
+d384aa location FKRAU0052
+e97fe4 location FKRAU0053
+f14409 location FKRAU0054
+695803 location FKRAU0055
+69c528 location FKRAU0056
+2e2a44 location FKRAU0057
+009e83 location FKRAU0058
+bbae64 location FKRAU0059
+5bf703 location FKRAU0060
+1e6230 location FKRAU0E61
+f6e217 location FKRAU0E62
+d85490 location FKRAU0E63
+344078 location FKRAU0E64
+1eec9e location FKRAU0E65
+500f18 location FKRAU0E66
+4ae759 location FKRAU0E67
+f38127 location FKRAU0E68
+bb8c66 location FKRAU0E69
+f5eccd location FKRAU0E70
+
 ## vlans
 vlan 10.0.62.41-43
 vlan 10.0.62.45-47
 vlan 10.0.62.49-52
 vlan 10.0.54.39-48
 vlan 10.0.62.66-75
+
+vlan 10.0.59.51-51
+vlan 10.0.59.110-110
+vlan 10.0.60.132-132
+vlan 10.0.60.137-137
+vlan 10.0.60.145-145
+vlan 10.0.61.15-15
+vlan 10.0.61.63-63
+vlan 10.0.62.53-53
+vlan 10.0.62.87-87
+vlan 10.0.62.91-91
+vlan 10.0.62.102-102
+vlan 10.0.62.160-160
+vlan 10.0.63.49-49
+vlan 10.0.64.51-51
+vlan 10.0.65.43-43
+vlan 10.0.66.128-128
+vlan 10.0.67.101-101
+vlan 10.0.67.130-130
+vlan 172.16.200.69-69
+vlan 172.16.203.120-120
+vlan 172.16.203.133-133
+vlan 172.16.203.137-137
+vlan 172.16.203.139-139
+vlan 172.16.203.146-146
+vlan 172.16.203.152-152
+vlan 172.16.203.153-153
+vlan 172.16.203.159-159
+vlan 172.16.203.164-164
+vlan 172.16.203.174-174
+vlan 172.16.203.177-177
+vlan 172.16.203.184-184
+vlan 172.16.203.186-186
+vlan 172.16.203.196-196
+vlan 172.16.203.197-197
+vlan 172.16.203.198-198
+vlan 172.16.203.213-213
+vlan 172.16.203.237-237
+vlan 172.16.203.244-244
+vlan 172.16.204.15-15
+vlan 172.16.204.109-109
 
 ## tuning
 8259fc maxwatts 1000 # 10.0.54.43
@@ -189,6 +271,48 @@ ab6a45 rebootasic 1565396574 # 10.0.62.45
 d427dd rebootasic 1565396574 # 10.0.62.74
 
 #removed overheat max watts 8.9.19 17:20 UTC
+
+# de88ec maxwatts 1450
+# c5abf8 maxwatts 1450
+# 6e8e93 maxwatts 1450
+# b4e11c maxwatts 1450
+# 641328 maxwatts 1450
+# 663078 maxwatts 1450
+# baefba maxwatts 1450
+# d379c4 maxwatts 1450
+# a82ce7 maxwatts 1450
+# 411cd1 maxwatts 1450
+# 137fd6 maxwatts 1450
+# f60107 maxwatts 1450
+# d156c9 maxwatts 1450
+# 196328 maxwatts 1450
+# 2b0498 maxwatts 1450
+# 7508a0 maxwatts 1450
+# b7b010 maxwatts 1450
+# 7ef3f6 maxwatts 1450
+# 4e7a4a maxwatts 1450
+# 591a2b maxwatts 1450
+# 386f3e maxwatts 1450
+# d384aa maxwatts 1450
+# e97fe4 maxwatts 1450
+# f14409 maxwatts 1450
+# 695803 maxwatts 1450
+# 69c528 maxwatts 1450
+# 2e2a44 maxwatts 1450
+# 009e83 maxwatts 1450
+# bbae64 maxwatts 1450
+# 5bf703 maxwatts 1450
+# 1e6230 maxwatts 1450
+# f6e217 maxwatts 1450
+# d85490 maxwatts 1450
+# 344078 maxwatts 1450
+# 1eec9e maxwatts 1450
+# 500f18 maxwatts 1450
+# 4ae759 maxwatts 1450
+# f38127 maxwatts 1450
+# bb8c66 maxwatts 1450
+# f5eccd maxwatts 1450
+
 
 ## asic password
 asicpass admin
