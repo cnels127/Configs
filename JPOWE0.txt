@@ -1,0 +1,46 @@
+## instructions available at: https://asicseer.com/page/kb#writing-config
+
+global custompanel JPOWE0bit049
+
+global poolname1 btc-eu.f2pool.com:3333
+global username1 jcpowers868
+global poolpass1 123
+global sendworker1 yes
+global poolname2 btc-us.f2pool.com:3333
+global username2 jcpowers868
+global poolpass2 123
+global sendworker2 yes
+global poolname3 btc.f2pool.com:1314
+global username3 jcpowers868
+global poolpass3 123
+global sendworker3 yes
+
+global asicboost yes
+global autotune yes
+global maxwatts 1450
+global throttle 100
+global autoupdate no
+global allowed yes
+global maxtemp 90
+global fanspeed 100
+global fansaver 65
+global blinkgreen rapid
+
+# global retune 1
+# global rebootasic 1
+# global resetasic 1
+# global panelpass gj83Nkgikg
+
+# group=rowc rebootasic 1
+# group=rowd allowed no
+
+## vlans
+vlan 172.16.203.99-99
+
+## locations
+7fe818 location JPOWE0001
+
+## tuning
+
+## asic password
+asicpass admin
