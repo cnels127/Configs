@@ -57,6 +57,11 @@ vlan 172.16.202.39-39
 vlan 172.16.202.96-96
 
 ## tuning
+8ecf72 maxwatts 1250 # 172.16.202.114
+a1dcce maxwatts 1250 # 172.16.202.41
+8ecf72 rebootasic 1566824666 # 172.16.202.114
+a1dcce rebootasic 1566824666 # 172.16.202.41
+
 1ed461 maxwatts 1250 # 172.16.202.46
 ed1a27 maxwatts 1250 # 172.16.202.40
 1ed461 rebootasic 1566597364 # 172.16.202.46
@@ -69,5 +74,6 @@ ed1a27 rebootasic 1566597364 # 172.16.202.40
 
 ## asic password
 asicpass admin
+
 
 
