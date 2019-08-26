@@ -57,41 +57,7 @@ a43fe6 location Bit49-6
 cc96e4 location Bit49-10
 
 ## tuning
-133b75 maxwatts 450 # 10.0.67.153
-133b75 rebootasic 1566566503 # 10.0.67.153
-
-133b75 maxwatts 550 # 10.0.67.153
-133b75 rebootasic 1565424729 # 10.0.67.153
-
-133b75 maxwatts 650 # 10.0.67.153
-133b75 rebootasic 1565417714 # 10.0.67.153
-
-133b75 maxwatts 750 # 10.0.67.153
-133b75 rebootasic 1565415900 # 10.0.67.153
-
-6da085 maxwatts 1275 # 10.0.56.130
-133b75 maxwatts 850 # 10.0.67.153
-6da085 rebootasic 1565412242 # 10.0.56.130
-133b75 rebootasic 1565412242 # 10.0.67.153
-
-133b75 maxwatts 950 # 10.0.67.153
-133b75 rebootasic 1565404603 # 10.0.67.153
-
-133b75 maxwatts 1050 # 10.0.67.153
-133b75 rebootasic 1565402617 # 10.0.67.153
-
-133b75 maxwatts 1150 # 10.0.67.153
-133b75 rebootasic 1565400629 # 10.0.67.153
-
-6da085 maxwatts 1375 # 10.0.56.130
-133b75 maxwatts 1250 # 10.0.67.153
-cc96e4 maxwatts 1350 # 10.0.67.107
-6da085 rebootasic 1565398696 # 10.0.56.130
-133b75 rebootasic 1565398696 # 10.0.67.153
-cc96e4 rebootasic 1565398696 # 10.0.67.107
-
-133b75 maxwatts 1350 # 10.0.67.153
-133b75 rebootasic 1565396790 # 10.0.67.153
+# removed overheat max watts 8.26.19 20:37 UTC
 
 #removed overheat max watts 8.9.19 18:00 UTC
 
@@ -109,43 +75,3 @@ a62f6a retune 1
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
