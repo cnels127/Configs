@@ -20,7 +20,7 @@ global blinkgreen solid
 global allowed yes
 global asicboost yes
 global autotune yes
-global maxwatts 1450
+global maxwatts 1500
 global maxtemp 90
 global throttle 100
 global fanspeed 100
@@ -1848,18 +1848,6 @@ a85379 rebootasic 1566356723 # 10.0.224.136
 d664b7 maxwatts 1350 # 10.0.224.174
 d664b7 rebootasic 1566294219 # 10.0.224.174
 
-f53f62 maxwatts 1450
-62c412 maxwatts 1450
-98a188 maxwatts 1450
-f748a3 maxwatts 1450
-042f1e maxwatts 1450
-79ccbb maxwatts 1450
-00c6d6 maxwatts 1450
-219af2 maxwatts 1450
-061acb maxwatts 1450
-56a397 maxwatts 1450
-2ad385 maxwatts 1450
-
 559680 retune 1
 0c8fd8 retune 1
 5953f5 retune 1
@@ -1869,45 +1857,3 @@ c27c44 retune 1
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
