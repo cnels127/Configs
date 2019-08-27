@@ -2,17 +2,17 @@
 
 global custompanel LKLIN0bit049
 
-global poolname1 stratum+tcp://nl.kano.is:3333
+global poolname1 eu.stratum.slushpool.com:3333
 global username1 PGA
-global poolpass1 x
+global poolpass1 123
 global sendworker1 yes
-global poolname2 
-global username2 
-global poolpass2 
+global poolname2 us-east.stratum.slushpool.com:3333
+global username2 PGA
+global poolpass2 123
 global sendworker2 yes
-global poolname3 
-global username3 
-global poolpass3 
+global poolname3 stratum.slushpool.com:3333
+global username3 PGA
+global poolpass3 123
 global sendworker3 yes
 
 global autoupdate no
@@ -22,7 +22,7 @@ global asicboost yes
 global autotune yes
 global maxwatts 1500
 global maxtemp 90
-global throttle 50
+# global throttle 50
 global fanspeed 100
 # global fansaver 65
 
