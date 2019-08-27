@@ -92,60 +92,7 @@ d09da5 location SLANG0017
 
 
 ## tuning
-3c6a08 maxwatts 1050 # 10.0.64.155
-3c6a08 rebootasic 1566574611 # 10.0.64.155
-
-435798 maxwatts 900 # 10.0.60.11
-435798 rebootasic 1565415908 # 10.0.60.11
-
-8c8868 maxwatts 1300 # 10.0.60.13
-8c8868 rebootasic 1565412250 # 10.0.60.13
-
-e39d7c maxwatts 1100 # 10.0.60.87
-e39d7c rebootasic 1565410354 # 10.0.60.87
-
-e2c4c8 maxwatts 1300 # 10.0.60.34
-e2c4c8 rebootasic 1565408469 # 10.0.60.34
-
-435798 maxwatts 1000 # 10.0.60.11
-435798 rebootasic 1565406534 # 10.0.60.11
-
-bf1870 maxwatts 1300 # 10.0.60.6
-8c8868 maxwatts 1400 # 10.0.60.13
-e2c4c8 maxwatts 1400 # 10.0.60.34
-e39d7c maxwatts 1200 # 10.0.60.87
-e1bef3 maxwatts 1000 # 10.0.60.104
-bf1870 rebootasic 1565404615 # 10.0.60.6
-8c8868 rebootasic 1565404615 # 10.0.60.13
-e2c4c8 rebootasic 1565404615 # 10.0.60.34
-e39d7c rebootasic 1565404615 # 10.0.60.87
-e1bef3 rebootasic 1565404615 # 10.0.60.104
-
-435798 maxwatts 1100 # 10.0.60.11
-e39d7c maxwatts 1300 # 10.0.60.87
-e1bef3 maxwatts 1100 # 10.0.60.104
-435798 rebootasic 1565402625 # 10.0.60.11
-e39d7c rebootasic 1565402625 # 10.0.60.87
-e1bef3 rebootasic 1565402625 # 10.0.60.104
-
-435798 maxwatts 1200 # 10.0.60.11
-e1bef3 maxwatts 1200 # 10.0.60.104
-435798 rebootasic 1565400640 # 10.0.60.11
-e1bef3 rebootasic 1565400640 # 10.0.60.104
-
-435798 maxwatts 1300 # 10.0.60.11
-e1bef3 maxwatts 1300 # 10.0.60.104
-435798 rebootasic 1565398704 # 10.0.60.11
-e1bef3 rebootasic 1565398704 # 10.0.60.104
-
-bf1870 maxwatts 1400 # 10.0.60.6
-435798 maxwatts 1400 # 10.0.60.11
-e39d7c maxwatts 1400 # 10.0.60.87
-e1bef3 maxwatts 1400 # 10.0.60.104
-bf1870 rebootasic 1565396801 # 10.0.60.6
-435798 rebootasic 1565396801 # 10.0.60.11
-e39d7c rebootasic 1565396801 # 10.0.60.87
-e1bef3 rebootasic 1565396801 # 10.0.60.104
+# removed overheat max watts 8.27.19 13:34 UTC
 
 #removed overheat max watts 8.9.19 18:05 UTC
 
@@ -168,26 +115,3 @@ f30ccf maxwatts 1450
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
