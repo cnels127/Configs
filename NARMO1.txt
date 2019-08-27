@@ -1,6 +1,6 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
 
-global custompanel NARMO1bit049
+global custompanel NARMO0bit049
 
 global poolname1 eu.stratum.slushpool.com:3333
 global username1 mrslushy
@@ -22,7 +22,7 @@ global maxwatts 1500
 global autoupdate no
 global allowed yes
 global maxtemp 90
-global fanspeed 95
+global fanspeed 100
 global fansaver 65
 global blinkgreen rapid
 
@@ -45,10 +45,6 @@ vlan 10.0.66.110-110
 aa75d6 location NARMO0003
 
 ## tuning
-8bdc72 maxwatts 1400 # 10.0.65.134
-8bdc72 rebootasic 1565410294 # 10.0.65.134
-
-#removed overheat max watts 8.9.19 17:45 UTC
 
 ## asic password
 asicpass admin
