@@ -142,6 +142,9 @@ c6cbe1 location ahopf0075
 
 ## tuning
 c4ce2d maxwatts 1050 # 10.0.216.139
+c4ce2d rebootasic 1567027362 # 10.0.216.139
+
+c4ce2d maxwatts 1050 # 10.0.216.139
 c4ce2d rebootasic 1567025743 # 10.0.216.139
 
 c4ce2d maxwatts 1050 # 10.0.216.139
@@ -495,6 +498,7 @@ a4a691 maxwatts 1425
 
 ## asic password
 asicpass admin
+
 
 
 
