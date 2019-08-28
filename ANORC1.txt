@@ -50,6 +50,9 @@ ce82d1 location ANORC0009
 88093b location ANORC0010
 
 ## tuning
+0796c0 maxwatts 1250 # 10.0.68.97
+0796c0 rebootasic 1567006389 # 10.0.68.97
+
 #removed overheat max watts 8.9.19 14:32 UTC
 
 #removed overheat max watts 8.9.19 17:02 UTC
@@ -69,6 +72,7 @@ ce82d1 maxwatts 1350
 
 ## asic password
 asicpass admin
+
 
 
 

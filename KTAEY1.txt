@@ -92,6 +92,9 @@ f11c7d location KTAEYCOS18D28
 ef85ce location KTAEYCOS18D31
 
 ## tuning
+5a6128 maxwatts 1000 # 172.16.204.111
+5a6128 rebootasic 1567006472 # 172.16.204.111
+
 2e6730 maxwatts 600 # 172.16.202.104
 2e6730 rebootasic 1566600078 # 172.16.202.104
 
@@ -259,6 +262,7 @@ bac719 rebootasic 1565396666 # 172.16.204.103
 
 ## asic password
 asicpass admin
+
 
 
 
