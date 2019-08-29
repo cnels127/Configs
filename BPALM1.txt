@@ -2,16 +2,16 @@
 
 global custompanel BPALM1bit049
 
-global poolname1 
-global username1 
+global poolname1 us-east.stratum.slushpool.com:3333
+global username1 palmermining
 global poolpass1 123
 global sendworker1 yes
-global poolname2 
-global username2 
+global poolname2 connect.pool.bitcoin.com:3333
+global username2 brycepalmer
 global poolpass2 123
 global sendworker2 yes
-global poolname3 
-global username3 
+global poolname3 bch.pool.bitcoin.com:3333
+global username3 brycepalmer
 global poolpass3 123
 global sendworker3 yes
 
@@ -35,17 +35,25 @@ global blinkgreen rapid
 # group=rowd allowed no
 
 ## vlans
+vlan 172.16.200.64-64
+vlan 172.16.202.17-17
+vlan 172.16.202.148-148
+vlan 172.16.203.7-7
+vlan 172.16.203.108-108
+vlan 172.16.203.114-114
+vlan 172.16.203.116-116
+vlan 172.16.204.23-23
 
 ## locations
-550b76 location 
-1b919f location 
-23ba0e location 
+2a1bca location BPALM10001
+550b76 location BPALM10002
+45e473 location BPALM10003
+2c4326 location BPALM10004
+23ba0e location BPALM10005
+1b919f location BPALM10006
+5dd9d9 location BPALM10007
+f60fb2 location BPALM10008
 a007c8 location 
-2a1bca location 
-5dd9d9 location 
-45e473 location 
-2c4326 location 
-f60fb2 location 
 95cae1 location 
 
 ## tuning
