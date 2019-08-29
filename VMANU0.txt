@@ -1,6 +1,6 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
 
-global custompanel VMANU1bit049
+global custompanel VMANU0bit049
 
 global poolname1 stratum.antpool.com:3333
 global username1 TheWay2Riches
@@ -22,7 +22,7 @@ global maxwatts 1350
 global autoupdate no
 global allowed yes
 global maxtemp 90
-global fanspeed 95
+global fanspeed 100
 global fansaver 65
 global blinkgreen rapid
 
@@ -36,21 +36,19 @@ global blinkgreen rapid
 
 ## vlans
 vlan 10.0.58.82-82
-vlan 10.0.59.120-120
 vlan 10.0.59.126-126
 vlan 10.0.59.148-148
 vlan 10.0.60.27-27
 vlan 10.0.60.30-30
 vlan 10.0.60.44-44
 vlan 10.0.60.55-55
-vlan 10.0.60.122-122
 vlan 10.0.60.160-160
 vlan 10.0.61.5-5
-
 vlan 10.0.61.45-45
 vlan 10.0.61.61-61
-vlan 10.0.61.161-161
+vlan 10.0.61.160-160
 vlan 10.0.63.133-133
+vlan 10.0.64.31-31
 vlan 10.0.65.39-39
 vlan 10.0.65.47-47
 vlan 10.0.65.76-76
@@ -69,38 +67,36 @@ vlan 10.0.66.127-127
 vlan 10.0.67.63-63
 
 ## locations
-08c55f location VMANURUS59X120
-ac4af9 location VMANURUS59x126
-6ee7a2 location VMANURUS59x148
-4d564a location VMANURUS60x27
-00eded location VMANURUS60x30
-0d2787 location VMANURUS60x44
-6f8a97 location VMANURUS60x55
-26db41 location EXTRA
-698d83 location VMANURUS58x82
-29cb77 location VMANURUS60x160
-689c52 location VMANURUS61x5
-2687fa location VMANURUS66x127
-231e50 location VMANURUS61x61
-110033 location VMANURUS66x96
-545c77 location VMANURUS66x66
-b3a56f location VMANURUS65x76
-b56664 location VMANURUS67x63
-9beb97 location VMANURUS66x41
-53c201 location VMANURUS61x161
-89473a location VMANURUS66x90
-f4b34b location VMANURUS65x144
-43d9af location VMANURUS66x117
-1583d5 location VMANURUS66x64
-8944e8 location VMANURUS65x47
-f1d074 location VMANURUS61x45
-8e887d location VMANURUS66x31
-183877 location VMANURUS66x69
-698e7c location VMANURUS65x118
-6571e1 location VMANURUS65x94
-91e17b location VMANURUS63x133
-e1abed location VMANURUS65x39
-
+698d83 location VMANU00001
+ac4af9 location VMANU00002
+6ee7a2 location VMANU00003
+4d564a location VMANU00004
+00eded location VMANU00005
+0d2787 location VMANU00006
+6f8a97 location VMANU00007
+29cb77 location VMANU00008
+689c52 location VMANU00009
+f1d074 location VMANU00010
+231e50 location VMANU00011
+53c201 location VMANU00012
+91e17b location VMANU00013
+08c55f location VMANU00014
+e1abed location VMANU00015
+8944e8 location VMANU00016
+b3a56f location VMANU00017
+6571e1 location VMANU00018
+698e7c location VMANU00019
+f4b34b location VMANU00020
+8e887d location VMANU00021
+9beb97 location VMANU00022
+1583d5 location VMANU00023
+545c77 location VMANU00024
+183877 location VMANU00025
+89473a location VMANU00026
+110033 location VMANU00027
+43d9af location VMANU00028
+2687fa location VMANU00029
+b56664 location VMANU00030
 
 ## tuning
 231e50 maxwatts 1250
@@ -125,52 +121,9 @@ b56664 maxwatts 1300
 698e7c maxwatts 1300
 8e887d maxwatts 1275
 689c52 maxwatts 1350
-
-f1d074 maxwatts 1150 # 10.0.61.45
-f1d074 rebootasic 1566839951 # 10.0.61.45
-
-89473a maxwatts 1150 # 10.0.66.90
-89473a rebootasic 1566544840 # 10.0.66.90
-
-91e17b maxwatts 1050 # 10.0.63.133
-91e17b rebootasic 1565808482 # 10.0.63.133
-
-00eded maxwatts 1150 # 10.0.60.30
-00eded rebootasic 1565410421 # 10.0.60.30
-
-91e17b maxwatts 1150 # 10.0.63.133
-110033 maxwatts 1150 # 10.0.66.96
-91e17b rebootasic 1565408532 # 10.0.63.133
-110033 rebootasic 1565408532 # 10.0.66.96
-
-00eded maxwatts 1250 # 10.0.60.30
-f4b34b maxwatts 1150 # 10.0.65.144
-00eded rebootasic 1565402699 # 10.0.60.30
-f4b34b rebootasic 1565402699 # 10.0.65.144
-
-53c201 maxwatts 1150 # 10.0.61.160
-53c201 rebootasic 1565398780 # 10.0.61.160
-
-#removed overheat max watts 8.9.19 18:15 UTC
-
 689c52 retune 1
 287685 retune 1
 26db41 retune 1
 
 ## asic password 
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
