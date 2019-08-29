@@ -41,6 +41,9 @@ vlan 10.0.68.53-53
 a3d661 location SSAOU0001
 
 ## tuning
+a3d661 maxwatts 1150 # 10.0.68.53
+a3d661 rebootasic 1567062355 # 10.0.68.53
+
 a3d661 maxwatts 1250 # 10.0.68.53
 a3d661 rebootasic 1565414126 # 10.0.68.53
 
@@ -50,5 +53,6 @@ a3d661 maxwatts 1350
 
 ## asic password
 asicpass admin
+
 
 
