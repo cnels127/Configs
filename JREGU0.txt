@@ -20,7 +20,7 @@ global allowed yes
 global asicboost yes
 global autotune yes
 global maxwatts 1450
-global throttle 100
+# global throttle 100
 global maxtemp 90
 global fanspeed 100
 global fansaver 65
@@ -38,7 +38,7 @@ global blinkgreen rapid
 vlan 172.16.203.40-40
 
 ## locations
-7f14db location JREGU0001
+7f14db location JREGU10001
 
 ## tuning
 
