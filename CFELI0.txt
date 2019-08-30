@@ -1,0 +1,294 @@
+## instructions available at: https://asicseer.com/page/kb#writing-config
+
+global custompanel CFELI0bit049
+
+global poolname1 stratum.antpool.com:3333
+global username1 CesareF93
+global poolpass1 123
+global sendworker1 yes
+global poolname2 stratum.antpool.com:443
+global username2 CesareF93
+global poolpass2 123
+global sendworker2 yes
+global poolname3 stratum.antpool.com:25 
+global username3 CesareF93
+global poolpass3 123
+global sendworker3 yes
+
+global asicboost yes
+global autotune yes
+global maxwatts 1450
+
+global autoupdate no
+global allowed yes
+global maxtemp 90
+global fanspeed 100
+global fansaver 65
+global blinkgreen rapid
+
+# global retune 1
+# global rebootasic 1
+# global resetasic 1
+# global panelpass gj83Nkgikg
+
+# group=rowc rebootasic 1
+# group=rowd allowed no
+
+## vlans
+vlan 10.0.51.59-59
+vlan 10.0.51.62-62
+vlan 10.0.51.63-63
+vlan 10.0.51.68-68
+vlan 10.0.51.70-70
+vlan 10.0.51.88-88
+vlan 10.0.51.91-91
+vlan 10.0.51.93-93
+vlan 10.0.51.94-94
+vlan 10.0.51.96-96
+vlan 10.0.51.97-97
+vlan 10.0.51.98-98
+vlan 10.0.51.99-99
+vlan 10.0.51.114-114
+vlan 10.0.51.116-116
+vlan 10.0.51.117-117
+vlan 10.0.51.118-118
+vlan 10.0.51.120-120
+vlan 10.0.51.127-127
+vlan 10.0.51.128-128
+vlan 10.0.51.134-134
+vlan 10.0.53.1-1
+vlan 10.0.53.2-2
+vlan 10.0.53.4-4
+vlan 10.0.53.5-5
+vlan 10.0.53.7-7
+vlan 10.0.53.9-9
+vlan 10.0.53.10-10
+vlan 10.0.53.16-16
+vlan 10.0.53.22-22
+vlan 10.0.53.26-26
+vlan 10.0.53.30-30
+vlan 10.0.77.2-2
+vlan 10.0.77.4-4
+vlan 10.0.77.6-6
+vlan 10.0.77.16-16
+vlan 10.0.77.25-25
+vlan 10.0.77.29-29
+vlan 10.0.77.30-30
+vlan 10.0.77.31-31
+vlan 10.0.77.32-32
+vlan 10.0.77.36-36
+vlan 10.0.77.38-38
+vlan 10.0.77.40-40
+vlan 10.0.77.41-41
+vlan 10.0.77.48-48
+vlan 10.0.77.58-58
+vlan 10.0.77.61-61
+vlan 10.0.77.62-62
+vlan 10.0.77.65-65
+vlan 10.0.77.67-67
+vlan 10.0.77.81-81
+vlan 10.0.77.86-86
+vlan 10.0.77.97-97
+vlan 10.0.77.98-98
+vlan 10.0.77.104-104
+vlan 10.0.77.106-106
+vlan 10.0.77.108-108
+vlan 10.0.77.111-111
+vlan 10.0.77.113-113
+vlan 10.0.77.116-116
+vlan 10.0.77.135-135
+vlan 10.0.77.136-136
+vlan 10.0.77.142-142
+vlan 10.0.77.147-147
+vlan 10.0.77.157-157
+vlan 10.0.220.108-108
+vlan 10.0.221.121-121
+vlan 10.0.221.126-126
+vlan 10.0.221.131-131
+vlan 10.0.226.127-127
+vlan 10.0.226.141-141
+vlan 10.0.227.3-3
+vlan 10.0.227.27-27
+vlan 10.0.227.29-29
+vlan 10.0.227.34-34
+vlan 10.0.227.36-36
+vlan 10.0.227.71-71
+vlan 10.0.227.72-72
+vlan 10.0.227.109-109
+vlan 10.0.227.141-141
+vlan 10.0.227.142-142
+vlan 10.0.228.36-36
+vlan 10.0.228.77-77
+vlan 10.0.228.82-82
+vlan 10.0.228.92-92
+vlan 10.0.228.93-93
+vlan 10.0.228.102-102
+vlan 10.0.228.103-103
+vlan 10.0.228.119-119
+vlan 10.0.228.121-121
+vlan 10.0.228.127-127
+vlan 10.0.228.128-128
+vlan 10.0.228.142-142
+vlan 10.0.228.149-149
+vlan 10.0.228.152-152
+vlan 10.0.228.156-156
+vlan 10.0.228.159-159
+vlan 10.0.228.163-163
+vlan 10.0.228.168-168
+vlan 10.0.228.174-174
+vlan 10.0.228.182-182
+vlan 10.0.228.186-186
+vlan 10.0.228.189-189
+vlan 10.0.228.192-192
+vlan 10.0.228.199-199
+vlan 10.0.229.17-17
+vlan 10.0.229.18-18
+vlan 10.0.229.30-30
+vlan 10.0.229.35-35
+vlan 10.0.229.51-51
+vlan 10.0.229.68-68
+vlan 10.0.229.73-73
+vlan 10.0.229.81-81
+vlan 10.0.229.89-89
+vlan 10.0.229.96-96
+vlan 10.0.229.97-97
+vlan 10.0.229.104-104
+vlan 10.0.229.117-117
+vlan 10.0.229.121-121
+vlan 10.0.229.136-136
+vlan 10.0.229.143-143
+vlan 10.0.229.145-145
+vlan 10.0.229.159-159
+vlan 10.0.229.160-160
+
+## location
+569caf location CFELI00001
+264414 location CFELI00002
+9df800 location CFELI00003
+ce651a location CFELI00004
+675375 location CFELI00005
+590698 location CFELI00006
+79ccbb location CFELI00007
+344c0f location CFELI00008
+00c6d6 location CFELI00009
+7a97a5 location CFELI00010
+68c1ad location CFELI00011
+8f4f40 location CFELI00012
+8f7a2c location CFELI00013
+d6d6fa location CFELI00014
+59f457 location CFELI00015
+2ad385 location CFELI00016
+de1210 location CFELI00017
+b2d051 location CFELI00018
+6f7564 location CFELI00019
+7e0b37 location CFELI00020
+5953f5 location CFELI00021
+5dc4be location CFELI00022
+25540e location CFELI00023
+de7893 location CFELI00024
+8a6dd0 location CFELI00025
+34dc74 location CFELI00026
+340a14 location CFELI00027
+a9422c location CFELI00028
+5b087d location CFELI00029
+ec9139 location CFELI00030
+e630e5 location CFELI00031
+b6f8fd location CFELI00032
+24861f location CFELI00033
+ef16b9 location CFELI00034
+6f25d3 location CFELI00035
+9831ac location CFELI00036
+a50d50 location CFELI00037
+39af61 location CFELI00038
+8074e3 location CFELI00039
+858ea7 location CFELI00040
+61d55d location CFELI00041
+e57caf location CFELI00042
+4f3500 location CFELI00043
+4ba225 location CFELI00044
+5c6323 location CFELI00045
+e85843 location CFELI00046
+d64900 location CFELI00047
+ef6a37 location CFELI00048
+f869c1 location CFELI00049
+adc9fb location CFELI00050
+afb8af location CFELI00051
+320ac9 location CFELI00052
+dec4f4 location CFELI00053
+311861 location CFELI00054
+fa3e17 location CFELI00055
+ebdc64 location CFELI00056
+c327dd location CFELI00057
+c986dc location CFELI00058
+df723d location CFELI00059
+c46f3d location CFELI00060
+d7ef39 location CFELI00061
+5cead9 location CFELI00062
+916880 location CFELI00063
+b01ba7 location CFELI00064
+9ed9d8 location CFELI00065
+bdd349 location CFELI00066
+1c0320 location CFELI00067
+53c5b0 location CFELI00068
+e352e4 location CFELI00069
+79b50b location CFELI00070
+300975 location CFELI00071
+319230 location CFELI00072
+e4a33b location CFELI00073
+504e6a location CFELI00074
+c07c16 location CFELI00075
+a6dbf3 location CFELI00076
+d21562 location CFELI00077
+3b50b7 location CFELI00078
+eb8faf location CFELI00079
+163e19 location CFELI00080
+9a4c7a location CFELI00081
+219121 location CFELI00082
+507799 location CFELI00083
+772cca location CFELI00084
+c546a0 location CFELI00085
+4ecd57 location CFELI00086
+5343a2 location CFELI00087
+6cfea1 location CFELI00088
+a25a7d location CFELI00089
+6b5fc7 location CFELI00090
+8dc36b location CFELI00091
+5aad6c location CFELI00092
+8ec38a location CFELI00093
+92708e location CFELI00094
+c9273a location CFELI00095
+34307f location CFELI00096
+7c9338 location CFELI00097
+211c0b location CFELI00098
+1cd86f location CFELI00099
+e2c47c location CFELI00100
+b2899c location CFELI00101
+519469 location CFELI00102
+5cfdc1 location CFELI00103
+cb9612 location CFELI00104
+1bdbff location CFELI00105
+05e2d1 location CFELI00106
+492e34 location CFELI00107
+a01ab0 location CFELI00108
+e04099 location CFELI00109
+b8511f location CFELI00110
+08e0ef location CFELI00111
+c36a84 location CFELI00112
+430852 location CFELI00113
+60d855 location CFELI00114
+c9374d location CFELI00115
+7fc895 location CFELI00116
+0c74fd location CFELI00117
+303214 location CFELI00118
+0d8889 location CFELI00119
+7b5da4 location CFELI00120
+a8af8e location CFELI00121
+604d79 location CFELI00122
+41d81f location CFELI00123
+a6dc9b location CFELI00124
+16d5a9 location CFELI00125
+
+## tuning
+
+## asic password
+asicpass admin
