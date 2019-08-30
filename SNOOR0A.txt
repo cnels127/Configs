@@ -2,29 +2,29 @@
 
 global custompanel SNOOR0bit049
 
-global poolname1 us.ss.btc.com:1800
-global username1 bit49US
+global poolname1 eu.stratum.slushpool.com:3333
+global username1 allinone07860
 global poolpass1 123
 global sendworker1 yes
-global poolname2 stratum.slushpool.com:3333
-global username2 bit49
+global poolname2 us-east.stratum.slushpool.com:3333
+global username2 allinone07860
 global poolpass2 123
 global sendworker2 yes
-global poolname3 profit.pool.bitcoin.com:3333
-global username3 bit49
+global poolname3 stratum.slushpool.com:3333
+global username3 allinone07860
 global poolpass3 123
 global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1250
+global maxwatts 1500
 
 global autoupdate no
 global allowed yes
 global maxtemp 90
-global fanspeed 95
+global fanspeed 100
 global fansaver 65
-global asicblink worker
+global blinkgreen rapid
 
 # global retune 1
 # global rebootasic 1
@@ -35,11 +35,13 @@ global asicblink worker
 # group=rowd allowed no
 
 ## vlans
+vlan 10.0.62.1-76
+vlan 10.0.55.84-161
+vlan 10.0.56.1-146
 
 ## locations
 
 ## tuning
-
 
 ## asic password
 asicpass admin
