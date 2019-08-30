@@ -84,6 +84,11 @@ c8c445 location HFISC0029
 de5a58 location HFISC0030
 
 ## tuning
+994f1c maxwatts 1250 # 10.0.68.54
+27398f maxwatts 1250 # 10.0.68.60
+994f1c rebootasic 1567150099 # 10.0.68.54
+27398f rebootasic 1567150099 # 10.0.68.60
+
 # removed overheat max watts 8.26.19 20:42 UTC
 
 #removed overheat max watts 8.9.19 17:20 UTC
@@ -94,3 +99,4 @@ de5a58 location HFISC0030
 
 ## asic password
 asicpass admin
+
