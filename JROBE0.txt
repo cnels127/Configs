@@ -1,0 +1,47 @@
+## instructions available at: https://asicseer.com/page/kb#writing-config
+
+global custompanel JROBE0bit049
+
+global poolname1 profit.pool.bitcoin.com:3333
+global username1 jerradtheminer789
+global poolpass1 x
+global sendworker1 yes
+global poolname2 stratum.slushpool.com:3333
+global username2 jerradtheminer789
+global poolpass2 x
+global sendworker2 yes
+global poolname3 
+global username3 
+global poolpass3 
+global sendworker3 yes
+
+global asicboost yes
+global autotune yes
+global maxwatts 1500
+
+global autoupdate no
+global allowed yes
+global maxtemp 90
+global fanspeed 100
+global fansaver 65
+global blinkgreen rapid
+
+# global retune 1
+global rebootasic 1
+# global resetasic 1
+# global panelpass gj83Nkgikg
+
+# group=rowc rebootasic 1
+# group=rowd allowed no
+
+## vlans
+vlan 10.0.54.74-75
+
+## locations
+1565d6 location JROBE00001
+555712 location JROBE00002
+
+## tuning
+
+## asic password
+asicpass admin
