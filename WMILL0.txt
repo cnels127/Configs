@@ -1,6 +1,6 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
 
-global custompanel WMILL1bit049
+global custompanel WMILL0bit049
 
 global poolname1 eu.stratum.slushpool.com:3333
 global username1 bitmonster89
@@ -22,7 +22,7 @@ global maxwatts 1350
 global autoupdate no
 global allowed yes
 global maxtemp 90
-global fanspeed 95
+global fanspeed 100
 global fansaver 65
 global blinkgreen rapid
 
@@ -38,35 +38,14 @@ global rebootasic 1
 vlan 10.0.53.55-59
 
 ## locations
-35740c location s9worker1
-cb178d location s9worker2
-ed4012 location s9worker3
-99707f location s9worker4
-582483 location s9worker5
+35740c location WMILL00001
+cb178d location WMILL00002
+ed4012 location WMILL00003
+99707f location WMILL00004
+582483 location WMILL00005
 35740c retune 1
 
 ## tuning
-35740c maxwatts 1150 # 10.0.53.55
-35740c rebootasic 1566566682 # 10.0.53.55
-
-cb178d maxwatts 1150 # 10.0.53.56
-cb178d rebootasic 1565410426 # 10.0.53.56
-
-35740c maxwatts 1250 # 10.0.53.55
-35740c rebootasic 1565400717 # 10.0.53.55
-
-cb178d maxwatts 1250 # 10.0.53.56
-cb178d rebootasic 1565398785 # 10.0.53.56
-
-#removed overheat max watts 8.9.19 18:15 UTC
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
