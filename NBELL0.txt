@@ -454,6 +454,9 @@ a0cac7 location NBELL00204
 252f2b location NBELL00207
 
 ## tuning
+5ef933 maxwatts 1250 # 10.0.62.33
+5ef933 rebootasic 1567229698 # 10.0.62.33
+
 fb1aea maxwatts 1250 # 10.0.77.82
 fb1aea rebootasic 1567224989 # 10.0.77.82
 
@@ -462,4 +465,5 @@ d70df1 retune 1
 
 ## asic password
 asicpass admin
+
 
