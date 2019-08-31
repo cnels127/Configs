@@ -204,6 +204,13 @@ vlan 10.0.228.199-199
 ## locations
 
 ## tuning
+07cb48 maxwatts 1050 # 10.0.77.94
+a3225e maxwatts 1200 # 10.0.77.128
+f5acba maxwatts 1100 # 10.0.77.51
+07cb48 rebootasic 1567220955 # 10.0.77.94
+a3225e rebootasic 1567220955 # 10.0.77.128
+f5acba rebootasic 1567220955 # 10.0.77.51
+
 a3225e maxwatts 1300 # 10.0.77.128
 a3225e rebootasic 1567218601 # 10.0.77.128
 
@@ -534,6 +541,7 @@ a3883c maxwatts 1350
 
 ## asic password
 asicpass admin
+
 
 
 
