@@ -1,6 +1,6 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
 
-global custompanel LGARN1bit049
+global custompanel LGARN0bit049
 
 global poolname1 eu1.btc.bitriver.farm:7913
 global username1 bit49btc
@@ -40,16 +40,11 @@ vlan 10.0.65.102-102
 vlan 10.0.67.85-85
 
 ## locations
-0aaeb9 location LGARNRUS65x60
-0fdb4f location LGARNRUS65x102
-1d58bd location LGARNRUS67x85
+0aaeb9 location LGARN00001
+0fdb4f location LGARN00002
+1d58bd location LGARN00003
 
 ## tuning
-#removed overheat max watts 8.9.19 17:35 UTC
 
 ## asic password
 asicpass admin
-
-
-
-
