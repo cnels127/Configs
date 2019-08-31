@@ -29,7 +29,7 @@ global blinkgreen rapid
 
 # global retune 1
 # global rebootasic 1
-# global resetasic 1
+global resetasic 1
 # global panelpass gj83Nkgikg
 
 # group=rowc rebootasic 1
@@ -53,25 +53,23 @@ vlan 10.0.66.72-72
 vlan 10.0.66.74-74
 
 ## locations
-5c49bc location KGRAF0001
-3fb74f location KGRAF0002
-16adc1 location KGRAF0003
-5d07a6 location KGRAF0004
-1d3229 location KGRAF0005
-8d226c location KGRAF0006
-93c991 location KGRAF0007
-eec58f location KGRAF0008
-701564 location KGRAF0009
-c7bfa8 location KGRAF0010
-e63499 location KGRAF0011
-141236 location KGRAF0012
-364861 location KGRAF0013
-e4158d location KGRAF0014
-eadea9 location KGRAF0015
+5c49bc location KGRAF00001
+3fb74f location KGRAF00002
+16adc1 location KGRAF00003
+5d07a6 location KGRAF00004
+1d3229 location KGRAF00005
+8d226c location KGRAF00006
+93c991 location KGRAF00007
+eec58f location KGRAF00008
+701564 location KGRAF00009
+c7bfa8 location KGRAF00010
+e63499 location KGRAF00011
+141236 location KGRAF00012
+364861 location KGRAF00013
+e4158d location KGRAF00014
+eadea9 location KGRAF00015
 
 ## tuning
-#removed overheat max watts 8.9.19 17:35 UTC
 
 ## asic password
 asicpass admin
-
