@@ -39,16 +39,10 @@ vlan 10.0.63.70-70
 vlan 10.0.64.123-123
 
 ## locations
-e234df location CGRUS0001
-522efd location CGRUS0002
+e234df location CGRUS00001
+522efd location CGRUS00002
 
 ## tuning
 
-#removed overheat max watts 8.13.19 20:41
-
-#removed overheat max watts 8.9.19 17:11 UTC
-
 ## asic password
 asicpass admin
-
-
