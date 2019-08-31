@@ -1,6 +1,6 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
 
-global custompanel JFOXX1bit049
+global custompanel JFOXX0bit049
 
 global poolname1 btc.f2pool.com:1314
 global username1 Mobius29er
@@ -22,7 +22,7 @@ global maxwatts 1450
 global autoupdate no
 global allowed yes
 global maxtemp 90
-global fanspeed 95
+global fanspeed 100
 global fansaver 65
 global blinkgreen rapid
 
@@ -47,68 +47,18 @@ vlan 10.0.67.97-97
 vlan 10.0.67.100-100
 
 ## locations
-f12f89 location JFOXX0001
-bb71c7 location JFOXX0002
-d31afd location JFOXX0003
-2287f8 location JFOXX0004
-6f1b5d location JFOXX0005
-dd7088 location JFOXX0006
-54bcb8 location JFOXX0007
-994f74 location JFOXX0008
-1a0b83 location JFOXX0009
-a93cc1 location JFOXX0010
+f12f89 location JFOXX00001
+bb71c7 location JFOXX00002
+d31afd location JFOXX00003
+2287f8 location JFOXX00004
+6f1b5d location JFOXX00005
+dd7088 location JFOXX00006
+54bcb8 location JFOXX00007
+994f74 location JFOXX00008
+1a0b83 location JFOXX00009
+a93cc1 location JFOXX00010
 
 ## tuning
-994f74 maxwatts 850 # 10.0.66.154
-994f74 rebootasic 1566548540 # 10.0.66.154
-
-d31afd maxwatts 1250 # 10.0.65.77
-d31afd rebootasic 1565413977 # 10.0.65.77
-
-f12f89 maxwatts 1250 # 10.0.64.66
-994f74 maxwatts 950 # 10.0.66.154
-f12f89 rebootasic 1565404420 # 10.0.64.66
-994f74 rebootasic 1565404420 # 10.0.66.154
-
-994f74 maxwatts 1050 # 10.0.66.154
-994f74 rebootasic 1565402441 # 10.0.66.154
-
-994f74 maxwatts 1150 # 10.0.66.154
-994f74 rebootasic 1565400484 # 10.0.66.154
-
-994f74 maxwatts 1250 # 10.0.66.154
-994f74 rebootasic 1565398548 # 10.0.66.154
-
-f12f89 maxwatts 1350 # 10.0.64.66
-d31afd maxwatts 1350 # 10.0.65.77
-6f1b5d maxwatts 1350 # 10.0.65.123
-994f74 maxwatts 1350 # 10.0.66.154
-f12f89 rebootasic 1565396621 # 10.0.64.66
-d31afd rebootasic 1565396621 # 10.0.65.77
-6f1b5d rebootasic 1565396621 # 10.0.65.123
-994f74 rebootasic 1565396621 # 10.0.66.154
-
-#removed overheat max watts 8.9.19 17:25 UTC
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
