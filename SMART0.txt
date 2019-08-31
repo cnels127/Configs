@@ -18,7 +18,7 @@ global sendworker3 yes
 global asicboost yes
 global autotune yes
 global maxwatts 1450
-global throttle 100
+# global throttle 100
 global autoupdate no
 global allowed yes
 global maxtemp 90
@@ -35,10 +35,10 @@ global blinkgreen rapid
 # group=rowd allowed no
 
 ## vlans
-vlan 10.0.59.78-78
+vlan 10.0.53.18-18
 
 ## locations
-8dd5c8 location SMART0001
+616f22 location SMART00001
 
 ## tuning
 
