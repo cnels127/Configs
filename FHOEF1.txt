@@ -100,6 +100,9 @@ e3f444 location FHOEF0029
 
 
 ## tuning
+e3f444 maxwatts 1050 # 10.0.68.9
+e3f444 rebootasic 1567245162 # 10.0.68.9
+
 73ee2e maxwatts 1150 # 10.0.68.13
 73ee2e rebootasic 1567239469 # 10.0.68.13
 
@@ -155,6 +158,7 @@ e3f444 maxwatts 1150
 
 ## asic password
 asicpass admin
+
 
 
 
