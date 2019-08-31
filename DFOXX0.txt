@@ -1,0 +1,68 @@
+## instructions available at: https://asicseer.com/page/kb#writing-config
+
+global custompanel DFOXX0bit049
+
+global poolname1 btc.f2pool.com:1314
+global username1 Mobius29er
+global poolpass1 123
+global sendworker1 yes
+global poolname2 btc.f2pool.com:3333
+global username2 Mobius29er
+global poolpass2 123
+global sendworker2 yes
+global poolname3 btc-us.f2pool.com:3333
+global username3 Mobius29er
+global poolpass3 123
+global sendworker3 yes
+
+global asicboost yes
+global autotune yes
+global maxwatts 1450
+
+global autoupdate no
+global allowed yes
+global maxtemp 90
+global fanspeed 100
+global fansaver 65
+global blinkgreen rapid
+
+# global retune 1
+# global rebootasic 1
+# global resetasic 1
+# global panelpass gj83Nkgikg
+
+# group=rowc rebootasic 1
+# group=rowd allowed no
+
+## vlans
+vlan 10.0.66.113-115
+vlan 10.0.66.119-121
+vlan 10.0.66.124-125
+vlan 10.0.66.129-132
+vlan 10.0.66.135-141
+
+## locations
+4df20f location DFOXX00001
+a1dd12 location DFOXX00002
+4c6349 location DFOXX00003
+7e981b location DFOXX00004
+55c5a2 location DFOXX00005
+3ce1a0 location DFOXX00006
+76dbbb location DFOXX00007
+5d4833 location DFOXX00008
+085752 location DFOXX00009
+95ae86 location DFOXX00010
+25f83c location DFOXX00011
+54a9ae location DFOXX00012
+763ea8 location DFOXX00013
+07fd37 location DFOXX00014
+57f217 location DFOXX00015
+4df698 location DFOXX00016
+6957e3 location DFOXX00017
+d7ac75 location DFOXX00018
+d10cec location DFOXX00019
+
+## tuning
+
+## asic password
+asicpass admin
