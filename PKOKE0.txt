@@ -1,6 +1,6 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
 
-global custompanel PKOKE1bit049
+global custompanel PKOKE0bit049
 
 global poolname1 eu.stratum.slushpool.com:3333
 global username1 ivanrk
@@ -22,7 +22,7 @@ global maxwatts 1350
 global autoupdate no
 global allowed yes
 global maxtemp 90
-global fanspeed 95
+global fanspeed 100
 global fansaver 65
 global blinkgreen rapid
 
@@ -53,27 +53,11 @@ bd9932 location PKOKE0005
 e5ba90 location PKOKE0009
 
 ## tuning
-17739c maxwatts 1300 # 10.0.54.133
-17739c rebootasic 1565410314 # 10.0.54.133
-
-#removed overheat max watts 8.9.19 17:50 UTC
-
-17739c maxwatts 1400
-ae28ba maxwatts 1350
-f39f2b maxwatts 1350
-e5ba90 maxwatts 1350
+17739c maxwatts 1300
 7ed10f maxwatts 1400
 3bcc51 maxwatts 1400
-bcaed0 maxwatts 1350
 7ed10f retune 1
 3bcc51 retune 1
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
