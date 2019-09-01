@@ -52,6 +52,9 @@ cfd708 location shadow
 1b6910 location jay2
 
 ## tuning
+a9c33f maxwatts 0 # 172.16.201.217
+a9c33f rebootasic 1567358964 # 172.16.201.217
+
 a9c33f maxwatts 100 # 172.16.201.217
 a9c33f rebootasic 1567280915 # 172.16.201.217
 
@@ -122,6 +125,7 @@ a9c33f retune 1
 
 ## asic password
 asicpass admin
+
 
 
 
