@@ -41,26 +41,28 @@ vlan 10.0.57.86-86
 vlan 10.0.62.81-81
 vlan 10.0.62.82-82
 vlan 10.0.62.32-32
-vlan 10.0.64.3-3
-vlan 10.0.67.83-83
-vlan 10.0.67.95-95
+vlan 10.0.65.11-11
 vlan 10.0.64.145-145
-vlan 10.0.65.99-99
-vlan 10.0.59.161-161
+vlan 10.0.61.109-109
 vlan 10.0.66.87-87
 vlan 10.0.61.13-13
+vlan 10.0.65.124-124
+vlan 10.0.63.77-77
 vlan 10.0.63.42-42
+vlan 10.0.61.105-105
 vlan 10.0.62.110-110
-vlan 10.0.65.112-112
+vlan 10.0.64.3-3
+vlan 10.0.67.83-83
 vlan 10.0.63.34-34
+vlan 10.0.67.95-95
+vlan 10.0.65.99-99
+vlan 10.0.65.112-112
+vlan 10.0.59.161-161
+vlan 10.0.61.106-106
 vlan 10.0.62.131-131
 vlan 10.0.64.104-104
-vlan 10.0.61.106-106
-vlan 10.0.61.105-105
-vlan 10.0.63.77-77
-vlan 10.0.65.124-124
-vlan 10.0.61.109-109
-vlan 10.0.65.11-11
+vlan 10.0.64.70-70
+vlan 10.0.66.153-153
 
 ## locations
 a7fca0 location HFAUS00001
@@ -89,6 +91,8 @@ c81b30 location HFAUS00007
 f3bb3d location HFAUS00006
 737fce location HFAUS00005
 c7c8e8 location HFAUS00004
+11d430 location HFAUS00013
+b19f40 location HFAUS00013
 
 ## tuning
 a7fca0 maxwatts 1450
