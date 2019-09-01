@@ -1,0 +1,63 @@
+## instructions available at: https://asicseer.com/page/kb#writing-config
+
+global custompanel RANDE0bit049
+
+global poolname1 eu.stratum.slushpool.com:3333
+global username1 scracing
+global poolpass1 123
+global sendworker1 yes
+global poolname2 us-east.stratum.slushpool.com:3333
+global username2 scracing
+global poolpass2 123
+global sendworker2 yes
+global poolname3 stratum.slushpool.com:3333
+global username3 scracing
+global poolpass3 123
+global sendworker3 yes
+
+global asicboost yes
+global autotune yes
+global maxwatts 1350
+
+global autoupdate no
+global allowed yes
+global maxtemp 90
+global fanspeed 100
+global fansaver 65
+global blinkgreen rapid
+
+# global retune 1
+# global rebootasic 1
+# global resetasic 1
+# global panelpass gj83Nkgikg
+
+# group=rowc rebootasic 1
+# group=rowd allowed no
+
+## vlans
+vlan 10.0.55.6-7
+vlan 10.0.57.129-129
+vlan 10.0.57.134-134
+vlan 10.0.57.142-142
+vlan 10.0.57.157-157
+vlan 10.0.58.5-5
+vlan 10.0.58.23-23
+vlan 10.0.58.26-26
+vlan 10.0.57.143-143
+
+## locations
+5dea94 location RANDE00001
+e35f32 location RANDE00002
+1506ab location RANDE00003
+174232 location RANDE00004
+679e5d location RANDE00005
+8a2820 location RANDE00006
+005c5e location RANDE00007
+a016c1 location RANDE00008
+55019f location RANDE00009
+636f5f location RANDE00010
+
+## tuning
+
+## asic password
+asicpass admin
