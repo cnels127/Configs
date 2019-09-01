@@ -1,0 +1,75 @@
+## instructions available at: https://asicseer.com/page/kb#writing-config
+
+global custompanel DDUNN0bit049
+
+global poolname1 eu.stratum.slushpool.com:3333
+global username1 ddunn0707
+global poolpass1 123
+global sendworker1 yes
+global poolname2 us-east.stratum.slushpool.com:3333
+global username2 ddunn0707
+global poolpass2 123
+global sendworker2 yes
+global poolname3 stratum.slushpool.com:3333
+global username3 ddunn0707
+global poolpass3 123
+global sendworker3 yes
+
+global asicboost yes
+global autotune yes
+global maxwatts 1350
+
+global autoupdate no
+global allowed yes
+global maxtemp 90
+global fanspeed 100
+global fansaver 65
+global blinkgreen rapid
+
+global retune 1
+global rebootasic 1
+# global resetasic 1
+# global panelpass gj83Nkgikg
+
+# group=rowc rebootasic 1
+# group=rowd allowed no
+
+## vlans
+vlan 10.0.54.160-161
+vlan 10.0.55.1-4
+vlan 10.0.55.86-86
+vlan 10.0.55.112-112
+vlan 10.0.55.119-119
+vlan 10.0.55.139-139
+vlan 10.0.55.147-148
+vlan 10.0.56.53-53
+vlan 10.0.56.69-69
+vlan 10.0.56.86-86
+vlan 10.0.56.110-110
+vlan 10.0.56.112-112
+vlan 10.0.56.114-114
+
+## locations
+5594a0 location DDUNN00001
+ee9f37 location DDUNN00002
+14da93 location DDUNN00003
+9a204a location DDUNN00004
+4c1b54 location DDUNN00005
+9da716 location DDUNN00006
+f5839e location DDUNN00007
+23c698 location DDUNN00008
+733b65 location DDUNN00009
+947334 location DDUNN00010
+15a0ef location DDUNN00011
+0f26d2 location DDUNN00012
+46781e location DDUNN00013
+13424f location DDUNN00014
+968831 location DDUNN00015
+eef025 location DDUNN00016
+787c22 location DDUNN00017
+58df28 location DDUNN00018
+
+## tuning
+
+## asic password
+asicpass admin
