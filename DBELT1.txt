@@ -1,6 +1,6 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
 
-global custompanel DBELT1bit049
+global custompanel DBELT0bit049
 
 global poolname1 eu.stratum.slushpool.com:3333
 global username1 dalebeltjr
@@ -22,7 +22,7 @@ global maxwatts 1350
 global autoupdate no
 global allowed yes
 global maxtemp 90
-global fanspeed 95  
+global fanspeed 100  
 global fansaver 65
 global blinkgreen rapid
 
@@ -43,77 +43,16 @@ vlan 10.0.58.27-27
 vlan 10.0.62.101-101
 
 ## locations
-1667e2 location DBELT0001
-e7a422 location DBELT0002
-468aaf location DBELT0003
-0747e2 location DBELT0004
-356422 location DBELT0005
-179168 location DBELT0006
-54750e location DBELT0007
-056415 location DBELT0008
+1667e2 location DBELT00001
+e7a422 location DBELT00002
+468aaf location DBELT00003
+0747e2 location DBELT00004
+356422 location DBELT00005
+179168 location DBELT00006
+54750e location DBELT00007
+056415 location DBELT00008
 
 ## tuning
-356422 maxwatts 250 # 10.0.54.159
-356422 rebootasic 1566610789 # 10.0.54.159
-
-356422 maxwatts 350 # 10.0.54.159
-356422 rebootasic 1566584638 # 10.0.54.159
-
-356422 maxwatts 450 # 10.0.54.159
-356422 rebootasic 1566576402 # 10.0.54.159
-
-356422 maxwatts 550 # 10.0.54.159
-356422 rebootasic 1566572374 # 10.0.54.159
-
-356422 maxwatts 650 # 10.0.54.159
-356422 rebootasic 1566570428 # 10.0.54.159
-
-356422 maxwatts 750 # 10.0.54.159
-356422 rebootasic 1566568390 # 10.0.54.159
-
-356422 maxwatts 850 # 10.0.54.159
-356422 rebootasic 1565404332 # 10.0.54.159
-
-e7a422 maxwatts 950 # 10.0.54.156
-356422 maxwatts 950 # 10.0.54.159
-e7a422 rebootasic 1565402350 # 10.0.54.156
-356422 rebootasic 1565402350 # 10.0.54.159
-
-e7a422 maxwatts 1050 # 10.0.54.156
-356422 maxwatts 1050 # 10.0.54.159
-e7a422 rebootasic 1565400420 # 10.0.54.156
-356422 rebootasic 1565400420 # 10.0.54.159
-
-e7a422 maxwatts 1150 # 10.0.54.156
-356422 maxwatts 1150 # 10.0.54.159
-e7a422 rebootasic 1565398479 # 10.0.54.156
-356422 rebootasic 1565398479 # 10.0.54.159
-
-e7a422 maxwatts 1250 # 10.0.54.156
-0747e2 maxwatts 1250 # 10.0.54.158
-356422 maxwatts 1250 # 10.0.54.159
-54750e maxwatts 1250 # 10.0.58.25
-e7a422 rebootasic 1565396538 # 10.0.54.156
-0747e2 rebootasic 1565396538 # 10.0.54.158
-356422 rebootasic 1565396538 # 10.0.54.159
-54750e rebootasic 1565396538 # 10.0.58.25
-
-#removed overheat max watts 8.9.19 17:14 UTC
-
-# 1667e2 maxwatts 1350
-# e7a422 maxwatts 1350
-# 468aaf maxwatts 1350
-# 0747e2 maxwatts 1350
-# 356422 maxwatts 1350
-# 179168 maxwatts 1350
-# 54750e maxwatts 1350
-# 056415 maxwatts 1350
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
