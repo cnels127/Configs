@@ -1,6 +1,6 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
 
-global custompanel LWENZ1bit049
+global custompanel LWENZ0bit049
 
 global poolname1 us.ss.btc.com:3333
 global username1 y6mg33v
@@ -22,7 +22,7 @@ global maxwatts 1350
 global autoupdate no
 global allowed yes
 global maxtemp 90
-global fanspeed 95
+global fanspeed 100
 global fansaver 65
 global blinkgreen rapid
 
@@ -41,23 +41,6 @@ vlan 10.0.55.5-5
 09cad2 location LWENZ0001
 
 ## tuning
-09cad2 maxwatts 1050 # 10.0.55.5
-09cad2 rebootasic 1567231987 # 10.0.55.5
-
-09cad2 maxwatts 1150 # 10.0.55.5
-09cad2 rebootasic 1565408364 # 10.0.55.5
-
-09cad2 maxwatts 1250 # 10.0.55.5
-09cad2 rebootasic 1565400538 # 10.0.55.5
-
-#removed overheat max watts 8.9.19 17:40 UTC
-
-09cad2 maxwatts 1350
 
 ## asic password
 asicpass admin
-
-
-
-
-
