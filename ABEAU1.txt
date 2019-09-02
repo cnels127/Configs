@@ -45,6 +45,9 @@ a26081 location ABEAU0002
 64c124 location ABEAU0003
 
 ## tuning
+64c124 maxwatts 1275 # 10.0.56.68
+64c124 rebootasic 1567417135 # 10.0.56.68
+
 
 #removed overheat max watts 8.14.19 14:17 UTC
 
@@ -56,6 +59,7 @@ a26081 maxwatts 1375
 
 ## asic password
 asicpass admin
+
 
 
 
