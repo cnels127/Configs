@@ -65,6 +65,17 @@ a9f19e location THALL0024
 255a6b location THALL0025
 
 ## tuning
+b28347 maxwatts 1050 # 10.0.32.26
+2f1687 maxwatts 1150 # 10.0.32.27
+f76afb maxwatts 1050 # 10.0.32.28
+349aad maxwatts 1050 # 10.0.32.35
+3ca507 maxwatts 1050 # 10.0.32.36
+b28347 rebootasic 1567405181 # 10.0.32.26
+2f1687 rebootasic 1567405181 # 10.0.32.27
+f76afb rebootasic 1567405181 # 10.0.32.28
+349aad rebootasic 1567405181 # 10.0.32.35
+3ca507 rebootasic 1567405181 # 10.0.32.36
+
 b28347 maxwatts 1150 # 10.0.32.26
 f76afb maxwatts 1150 # 10.0.32.28
 3bb8ac maxwatts 1250 # 10.0.32.31
@@ -123,5 +134,6 @@ a9f19e maxwatts 1350
 
 ## asic password
 asicpass admin
+
 
 
