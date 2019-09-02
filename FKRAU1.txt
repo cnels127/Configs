@@ -155,6 +155,11 @@ vlan 172.16.204.15-15
 vlan 172.16.204.109-109
 
 ## tuning
+d384aa maxwatts 1000 # 172.16.203.137
+bbae64 maxwatts 1000 # 172.16.203.174
+d384aa rebootasic 1567394720 # 172.16.203.137
+bbae64 rebootasic 1567394720 # 172.16.203.174
+
 3a3729 maxwatts 1000 # 10.0.54.42
 3a3729 rebootasic 1567261514 # 10.0.54.42
 
@@ -495,6 +500,7 @@ d427dd maxwatts 1500
 
 ## asic password
 asicpass admin
+
 
 
 
