@@ -46,6 +46,10 @@ ed4012 location WMILL00003
 35740c retune 1
 
 ## tuning
+35740c maxwatts 1250 # 10.0.53.55
+35740c rebootasic 1567415598 # 10.0.53.55
+
 
 ## asic password
 asicpass admin
+
