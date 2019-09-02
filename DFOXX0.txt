@@ -63,6 +63,9 @@ d7ac75 location DFOXX00018
 d10cec location DFOXX00019
 
 ## tuning
+4df698 maxwatts 1350 # 10.0.66.138
+4df698 rebootasic 1567408494 # 10.0.66.138
+
 25f83c maxwatts 950 # 10.0.66.131
 25f83c rebootasic 1567405035 # 10.0.66.131
 
@@ -87,6 +90,7 @@ d10cec rebootasic 1567399878 # 10.0.66.141
 
 ## asic password
 asicpass admin
+
 
 
 
