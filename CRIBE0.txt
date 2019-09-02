@@ -457,6 +457,11 @@ c53edf location CRIBE00204
 
 ## tuning
 667bbe maxwatts -50 # 10.0.58.113
+bfb2c5 maxwatts 1300 # 10.0.229.37
+667bbe rebootasic 1567448267 # 10.0.58.113
+bfb2c5 rebootasic 1567448267 # 10.0.229.37
+
+667bbe maxwatts -50 # 10.0.58.113
 667bbe rebootasic 1567444851 # 10.0.58.113
 
 667bbe maxwatts -50 # 10.0.58.113
@@ -1427,6 +1432,7 @@ b66659 maxwatts 1300
 
 ## asic password
 asicpass admin
+
 
 
 
