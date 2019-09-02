@@ -41,6 +41,10 @@ vlan 172.16.203.99-99
 7fe818 location JPOWE00001
 
 ## tuning
+7fe818 maxwatts 1350 # 172.16.203.99
+7fe818 rebootasic 1567444891 # 172.16.203.99
+
 
 ## asic password
 asicpass admin
+
