@@ -454,6 +454,51 @@ a0cac7 location NBELL00204
 252f2b location NBELL00207
 
 ## tuning
+8e49a5 maxwatts 1050 # 10.0.229.14
+e07578 maxwatts 1150 # 10.0.229.99
+9d6f23 maxwatts 1050 # 10.0.229.2
+c98fa4 maxwatts 1050 # 10.0.229.15
+5d72aa maxwatts 1050 # 10.0.229.19
+06d648 maxwatts 1050 # 10.0.229.22
+0df28d maxwatts 1050 # 10.0.229.57
+2c8034 maxwatts 1050 # 10.0.229.59
+b3b6d1 maxwatts 1050 # 10.0.229.71
+1345e0 maxwatts 1050 # 10.0.229.72
+cecef4 maxwatts 1050 # 10.0.229.86
+f0f240 maxwatts 1050 # 10.0.229.92
+1fe000 maxwatts 1050 # 10.0.229.100
+b9e56a maxwatts 1050 # 10.0.229.112
+5e91db maxwatts 1050 # 10.0.229.114
+68b158 maxwatts 1050 # 10.0.229.133
+8aa248 maxwatts 1050 # 10.0.229.139
+eeed9c maxwatts 1050 # 10.0.229.140
+a0cac7 maxwatts 1050 # 10.0.229.142
+694a29 maxwatts 1050 # 10.0.229.144
+9c462c maxwatts 1050 # 10.0.229.151
+252f2b maxwatts 1050 # 10.0.229.172
+8e49a5 rebootasic 1567453510 # 10.0.229.14
+e07578 rebootasic 1567453510 # 10.0.229.99
+9d6f23 rebootasic 1567453510 # 10.0.229.2
+c98fa4 rebootasic 1567453510 # 10.0.229.15
+5d72aa rebootasic 1567453510 # 10.0.229.19
+06d648 rebootasic 1567453510 # 10.0.229.22
+0df28d rebootasic 1567453510 # 10.0.229.57
+2c8034 rebootasic 1567453510 # 10.0.229.59
+b3b6d1 rebootasic 1567453510 # 10.0.229.71
+1345e0 rebootasic 1567453510 # 10.0.229.72
+cecef4 rebootasic 1567453510 # 10.0.229.86
+f0f240 rebootasic 1567453510 # 10.0.229.92
+1fe000 rebootasic 1567453510 # 10.0.229.100
+b9e56a rebootasic 1567453510 # 10.0.229.112
+5e91db rebootasic 1567453510 # 10.0.229.114
+68b158 rebootasic 1567453510 # 10.0.229.133
+8aa248 rebootasic 1567453510 # 10.0.229.139
+eeed9c rebootasic 1567453510 # 10.0.229.140
+a0cac7 rebootasic 1567453510 # 10.0.229.142
+694a29 rebootasic 1567453510 # 10.0.229.144
+9c462c rebootasic 1567453510 # 10.0.229.151
+252f2b rebootasic 1567453510 # 10.0.229.172
+
 b894e2 maxwatts 1150 # 10.0.227.110
 df39bb maxwatts 1050 # 10.0.227.144
 5d72aa maxwatts 1150 # 10.0.229.19
@@ -710,6 +755,7 @@ d70df1 retune 1
 
 ## asic password
 asicpass admin
+
 
 
 
