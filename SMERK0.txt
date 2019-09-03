@@ -991,6 +991,9 @@ db2219 location SMERK0876
 546516 location SMERK0877
 
 ## tuning
+5047c0 maxwatts 1400 # 10.0.216.166
+5047c0 rebootasic 1567499808 # 10.0.216.166
+
 24884e maxwatts 900 # 10.0.216.213
 24884e rebootasic 1567496131 # 10.0.216.213
 
@@ -1690,6 +1693,7 @@ e7f17f retune 1
 
 ## asic password
 asicpass admin
+
 
 
 
