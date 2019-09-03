@@ -204,6 +204,9 @@ vlan 10.0.228.199-199
 ## locations
 
 ## tuning
+edf21b maxwatts 1000 # 10.0.58.34
+edf21b rebootasic 1567496176 # 10.0.58.34
+
 edf21b maxwatts 1100 # 10.0.58.34
 edf21b rebootasic 1567487077 # 10.0.58.34
 
@@ -611,6 +614,7 @@ a3883c maxwatts 1350
 
 ## asic password
 asicpass admin
+
 
 
 
