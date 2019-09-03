@@ -1,6 +1,6 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
 
-global custompanel FKRAU1bit049
+global custompanel FKRAU0bit049
 
 global poolname1 eu.ss.btc.com:1800
 global username1 fastfred02
@@ -22,7 +22,7 @@ global maxwatts 1500
 global autoupdate no
 global allowed yes
 global maxtemp 90
-global fanspeed 95
+global fanspeed 100
 global fansaver 65
 global blinkgreen rapid
 
@@ -35,84 +35,119 @@ global rebootasic 6
 # group=rowd allowed no
 
 ## locations
-02c22d location FKRAU0001
-66f88a location FKRAU0002
-e4749b location FKRAU0003
-3a3729 location FKRAU0004
-8259fc location FKRAU0005
-ac4842 location FKRAU0006
-04339e location FKRAU0007
-24549d location FKRAU0008
-5a17ee location FKRAU0009
-4112bb location FKRAU0010
-aee689 location FKRAU0011
-6d6f15 location FKRAU0012
-d81df4 location FKRAU0013
-ab6a45 location FKRAU0014
-e8ce85 location FKRAU0015
-f88d80 location FKRAU0016
-b66a48 location FKRAU0017
-7c08b6 location FKRAU0018
-a88d52 location FKRAU0019
-d934fc location FKRAU0020
-bfb0bc location FKRAU0021
-12a96e location FKRAU0022
-746fbe location FKRAU0023
-5b475d location FKRAU0024
-892d41 location FKRAU0025
-6b2885 location FKRAU0026
-23178f location FKRAU0027
-0ca5a4 location FKRAU0028
-d427dd location FKRAU0029
-31940f location FKRAU0030
+02c22d location FKRAU00001
+66f88a location FKRAU00002
+e4749b location FKRAU00003
+3a3729 location FKRAU00004
+8259fc location FKRAU00005
+ac4842 location FKRAU00006
+04339e location FKRAU00007
+24549d location FKRAU00008
+5a17ee location FKRAU00009
+4112bb location FKRAU00010
+aee689 location FKRAU00011
+6d6f15 location FKRAU00012
+d81df4 location FKRAU00013
+ab6a45 location FKRAU00014
+e8ce85 location FKRAU00015
+f88d80 location FKRAU00016
+b66a48 location FKRAU00017
+7c08b6 location FKRAU00018
+a88d52 location FKRAU00019
+d934fc location FKRAU00020
+bfb0bc location FKRAU00021
+12a96e location FKRAU00022
+746fbe location FKRAU00023
+5b475d location FKRAU00024
+892d41 location FKRAU00025
+6b2885 location FKRAU00026
+23178f location FKRAU00027
+0ca5a4 location FKRAU00028
+d427dd location FKRAU00029
+31940f location FKRAU00030
 
-de88ec location FKRAU0031
-c5abf8 location FKRAU0032
-6e8e93 location FKRAU0033
-b4e11c location FKRAU0034
-641328 location FKRAU0035
-663078 location FKRAU0036
-baefba location FKRAU0037
-d379c4 location FKRAU0038
-a82ce7 location FKRAU0039
-411cd1 location FKRAU0040
-137fd6 location FKRAU0041
-f60107 location FKRAU0042
-d156c9 location FKRAU0043
-196328 location FKRAU0044
-9c3c4b location FKRAU0045
-7508a0 location FKRAU0046
-b7b010 location FKRAU0047
-7ef3f6 location FKRAU0048
-4e7a4a location FKRAU0049
-591a2b location FKRAU0050
-386f3e location FKRAU0051
-d384aa location FKRAU0052
-e97fe4 location FKRAU0053
-f14409 location FKRAU0054
-695803 location FKRAU0055
-69c528 location FKRAU0056
-2e2a44 location FKRAU0057
-009e83 location FKRAU0058
-bbae64 location FKRAU0059
-5bf703 location FKRAU0060
-1e6230 location FKRAU-E61
-f6e217 location FKRAU-E62
-d85490 location FKRAU-E63
-344078 location FKRAU-E64
-1eec9e location FKRAU-E65
-500f18 location FKRAU-E66
-4ae759 location FKRAU-E67
-f38127 location FKRAU-E68
-bb8c66 location FKRAU-E69
-f5eccd location FKRAU-E70
+de88ec location FKRAU00031
+c5abf8 location FKRAU00032
+6e8e93 location FKRAU00033
+b4e11c location FKRAU00034
+641328 location FKRAU00035
+663078 location FKRAU00036
+baefba location FKRAU00037
+d379c4 location FKRAU00038
+a82ce7 location FKRAU00039
+411cd1 location FKRAU00040
+137fd6 location FKRAU00041
+f60107 location FKRAU00042
+d156c9 location FKRAU00043
+196328 location FKRAU00044
+9c3c4b location FKRAU00045
+7508a0 location FKRAU00046
+b7b010 location FKRAU00047
+7ef3f6 location FKRAU00048
+4e7a4a location FKRAU00049
+591a2b location FKRAU00050
+386f3e location FKRAU00051
+d384aa location FKRAU00052
+e97fe4 location FKRAU00053
+f14409 location FKRAU00054
+695803 location FKRAU00055
+69c528 location FKRAU00056
+2e2a44 location FKRAU00057
+009e83 location FKRAU00058
+bbae64 location FKRAU00059
+5bf703 location FKRAU00060
+1e6230 location FKRAU0-E61
+f6e217 location FKRAU0-E62
+d85490 location FKRAU0-E63
+344078 location FKRAU0-E64
+1eec9e location FKRAU0-E65
+500f18 location FKRAU0-E66
+4ae759 location FKRAU0-E67
+f38127 location FKRAU0-E68
+bb8c66 location FKRAU0-E69
+f5eccd location FKRAU0-E70
+b1937c location FKRAU00061
+74ebb2 location FKRAU00062
+7c3b2a location FKRAU00063
+f799cf location FKRAU00064
+8605af location FKRAU00065
+daed2a location FKRAU00066
+061acb location FKRAU00067
+56a397 location FKRAU00068
+545150 location FKRAU00069
+a8ee8a location FKRAU00070
+6d4d37 location FKRAU00071
+27b5a1 location FKRAU00072
+d7e534 location FKRAU00073
+df6e3e location FKRAU00074
+62c02a location FKRAU00075
+52a8ec location FKRAU00076
+e8c8c1 location FKRAU00077
+9b7c66 location FKRAU00078
+386a2e location FKRAU00079
+9b8580 location FKRAU00080
+8a141e location FKRAU00081
+5f49b0 location FKRAU00082
+5af4ab location FKRAU00083
+9c37f8 location FKRAU00084
+58d6e6 location FKRAU00085
+59acb5 location FKRAU00086
+ed783e location FKRAU00087
+482b5f location FKRAU00088
+b97a6e location FKRAU00089
+0b9d8d location FKRAU00090
 
 ## vlans
-vlan 10.0.62.41-43
-vlan 10.0.62.45-47
-vlan 10.0.62.49-52
-vlan 10.0.54.39-48
-vlan 10.0.62.66-75
+vlan 10.0.54.39-39
+vlan 10.0.54.40-40
+vlan 10.0.54.41-41
+vlan 10.0.54.42-42
+vlan 10.0.54.43-43
+vlan 10.0.54.44-44
+vlan 10.0.54.45-45
+vlan 10.0.54.46-46
+vlan 10.0.54.47-47
+vlan 10.0.54.48-48
 vlan 10.0.59.51-51
 vlan 10.0.59.110-110
 vlan 10.0.60.132-132
@@ -120,8 +155,28 @@ vlan 10.0.60.137-137
 vlan 10.0.60.145-145
 vlan 10.0.61.15-15
 vlan 10.0.61.63-63
+vlan 10.0.62.41-41
+vlan 10.0.62.42-42
+vlan 10.0.62.43-43
+vlan 10.0.62.45-45
+vlan 10.0.62.46-46
+vlan 10.0.62.47-47
+vlan 10.0.62.49-49
+vlan 10.0.62.50-50
+vlan 10.0.62.51-51
+vlan 10.0.62.52-52
 vlan 10.0.62.53-53
-vlan 10.0.62.78-53
+vlan 10.0.62.66-66
+vlan 10.0.62.67-67
+vlan 10.0.62.68-68
+vlan 10.0.62.69-69
+vlan 10.0.62.70-70
+vlan 10.0.62.71-71
+vlan 10.0.62.72-72
+vlan 10.0.62.73-73
+vlan 10.0.62.74-74
+vlan 10.0.62.75-75
+vlan 10.0.62.78-78
 vlan 10.0.62.87-87
 vlan 10.0.62.91-91
 vlan 10.0.62.102-102
@@ -131,11 +186,11 @@ vlan 10.0.64.51-51
 vlan 10.0.66.128-128
 vlan 10.0.67.101-101
 vlan 10.0.67.130-130
+
 vlan 172.16.200.69-69
 vlan 172.16.203.120-120
 vlan 172.16.203.133-133
 vlan 172.16.203.137-137
-vlan 172.16.203.139-139
 vlan 172.16.203.146-146
 vlan 172.16.203.152-152
 vlan 172.16.203.153-153
@@ -153,6 +208,37 @@ vlan 172.16.203.237-237
 vlan 172.16.203.244-244
 vlan 172.16.204.15-15
 vlan 172.16.204.109-109
+
+vlan 10.0.51.2-2
+vlan 10.0.51.58-58
+vlan 10.0.51.74-74
+vlan 10.0.51.90-90
+vlan 10.0.51.92-92
+vlan 10.0.51.102-102
+vlan 10.0.51.105-105
+vlan 10.0.51.111-111
+vlan 10.0.51.112-112
+vlan 10.0.51.129-129
+vlan 10.0.53.11-11
+vlan 10.0.53.12-12
+vlan 10.0.53.13-13
+vlan 10.0.77.1-1
+vlan 10.0.77.7-7
+vlan 10.0.77.18-18
+vlan 10.0.77.33-33
+vlan 10.0.77.49-49
+vlan 10.0.77.50-50
+vlan 10.0.77.71-71
+vlan 10.0.77.75-75
+vlan 10.0.77.80-80
+vlan 10.0.77.110-110
+vlan 10.0.77.119-119
+vlan 10.0.77.129-129
+vlan 10.0.77.144-144
+vlan 10.0.77.148-148
+vlan 10.0.227.35-35
+vlan 10.0.228.139-139
+vlan 10.0.228.151-151
 
 ## tuning
 8259fc maxwatts 700 # 10.0.54.43
@@ -492,61 +578,36 @@ ab6a45 rebootasic 1565396574 # 10.0.62.45
 5b475d rebootasic 1565396574 # 10.0.62.69
 d427dd rebootasic 1565396574 # 10.0.62.74
 
-#removed overheat max watts 8.9.19 17:20 UTC
-
-ac4842 maxwatts 1500
-5a17ee maxwatts 1500
-b66a48 maxwatts 1500
-009e83 maxwatts 1500
-bb8c66 maxwatts 1500
-a88d52 maxwatts 1500
-5bf703 maxwatts 1500
-663078 maxwatts 1500
-f88d80 maxwatts 1500
-7c08b6 maxwatts 1500
-d384aa maxwatts 1500
-d427dd maxwatts 1500
-641328 maxwatts 1500
-31940f maxwatts 1500
-7508a0 maxwatts 1500
+b1937c maxwatts 1350
+74ebb2 maxwatts 1350
+7c3b2a maxwatts 1350
+f799cf maxwatts 1350
+8605af maxwatts 1350
+daed2a maxwatts 1350
+061acb maxwatts 1350
+56a397 maxwatts 1350
+545150 maxwatts 1350
+a8ee8a maxwatts 1350
+6d4d37 maxwatts 1350
+27b5a1 maxwatts 1350
+d7e534 maxwatts 1350
+df6e3e maxwatts 1350
+62c02a maxwatts 1350
+52a8ec maxwatts 1350
+e8c8c1 maxwatts 1350
+9b7c66 maxwatts 1350
+386a2e maxwatts 1350
+9b8580 maxwatts 1350
+8a141e maxwatts 1350
+5f49b0 maxwatts 1350
+5af4ab maxwatts 1350
+9c37f8 maxwatts 1350
+58d6e6 maxwatts 1350
+59acb5 maxwatts 1350
+ed783e maxwatts 1350
+482b5f maxwatts 1350
+b97a6e maxwatts 1350
+0b9d8d maxwatts 1350
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
