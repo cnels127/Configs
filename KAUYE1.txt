@@ -67,6 +67,9 @@ d87db4 location KAUYE0014
 
 ## tuning
 0a35cb maxwatts -50 # 10.0.55.149
+0a35cb rebootasic 1567512387 # 10.0.55.149
+
+0a35cb maxwatts -50 # 10.0.55.149
 0a35cb rebootasic 1567510547 # 10.0.55.149
 
 0a35cb maxwatts -50 # 10.0.55.149
@@ -268,6 +271,7 @@ d87db4 maxwatts 1550
 
 ## asic password
 asicpass admin
+
 
 
 
