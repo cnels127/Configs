@@ -454,6 +454,33 @@ a0cac7 location NBELL00204
 252f2b location NBELL00207
 
 ## tuning
+e07578 maxwatts 850 # 10.0.229.99
+38ca89 maxwatts 850 # 10.0.226.139
+1d5775 maxwatts 850 # 10.0.226.148
+b03069 maxwatts 1050 # 10.0.226.150
+263d1d maxwatts 950 # 10.0.226.156
+c98fa4 maxwatts 450 # 10.0.229.15
+2c8034 maxwatts 650 # 10.0.229.59
+b3b6d1 maxwatts 450 # 10.0.229.71
+b9e56a maxwatts 650 # 10.0.229.112
+5e91db maxwatts 850 # 10.0.229.114
+a0cac7 maxwatts 450 # 10.0.229.142
+9c462c maxwatts 850 # 10.0.229.151
+252f2b maxwatts 650 # 10.0.229.172
+e07578 rebootasic 1567533658 # 10.0.229.99
+38ca89 rebootasic 1567533658 # 10.0.226.139
+1d5775 rebootasic 1567533658 # 10.0.226.148
+b03069 rebootasic 1567533658 # 10.0.226.150
+263d1d rebootasic 1567533658 # 10.0.226.156
+c98fa4 rebootasic 1567533658 # 10.0.229.15
+2c8034 rebootasic 1567533658 # 10.0.229.59
+b3b6d1 rebootasic 1567533658 # 10.0.229.71
+b9e56a rebootasic 1567533658 # 10.0.229.112
+5e91db rebootasic 1567533658 # 10.0.229.114
+a0cac7 rebootasic 1567533658 # 10.0.229.142
+9c462c rebootasic 1567533658 # 10.0.229.151
+252f2b rebootasic 1567533658 # 10.0.229.172
+
 2354fd maxwatts 1050 # 10.0.226.142
 b4e5e6 maxwatts 950 # 10.0.226.105
 8e49a5 maxwatts 650 # 10.0.229.14
@@ -1063,6 +1090,7 @@ d70df1 retune 1
 
 ## asic password
 asicpass admin
+
 
 
 
