@@ -36,12 +36,42 @@ global blinkgreen rapid
 ## vlans
 vlan 10.0.63.75-75
 vlan 10.0.61.142-142
+vlan 10.0.51.115-115
+vlan 10.0.51.124-124
+vlan 10.0.51.130-130
+vlan 10.0.53.19-19
+vlan 10.0.77.10-10
+vlan 10.0.77.107-107
+vlan 10.0.77.131-131
+vlan 10.0.77.134-134
+vlan 10.0.77.87-87
+vlan 10.0.77.88-88
 
 ## locations
 10992f location VDUBO00001
 ac80c9 location VDUBO00001
+4e6021 location VDUBO00002
+175f83 location VDUBO00003
+6fc701 location VDUBO00004
+c6a34d location VDUBO00005
+edcb66 location VDUBO00006
+bc84e4 location VDUBO00007
+c55b18 location VDUBO00008
+0f7cf9 location VDUBO00009
+33ab1b location VDUBO00010
+215267 location VDUBO00011
 
 ## tuning
+4e6021 maxwatts 1350
+175f83 maxwatts 1350
+6fc701 maxwatts 1350
+c6a34d maxwatts 1350
+edcb66 maxwatts 1350
+bc84e4 maxwatts 1350
+c55b18 maxwatts 1350
+0f7cf9 maxwatts 1350
+33ab1b maxwatts 1350
+215267 maxwatts 1350
 
 ## asic password
 asicpass admin
