@@ -43,8 +43,12 @@ d1959f location ASICseer1
 47bb2b location ASICseer2
 
 ## tuning
+d1959f maxwatts 1250 # 10.0.61.32
+d1959f rebootasic 1567611706 # 10.0.61.32
+
 d1959f maxwatts 1350
 47bb2b maxwatts 1050
 
 ## asic password
 asicpass admin
+

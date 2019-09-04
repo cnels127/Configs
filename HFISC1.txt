@@ -84,6 +84,17 @@ c8c445 location HFISC0029
 de5a58 location HFISC0030
 
 ## tuning
+7a1084 maxwatts 950 # 10.0.68.58
+1c50a6 maxwatts 1250 # 10.0.68.59
+27398f maxwatts 1050 # 10.0.68.60
+6efefd maxwatts 1250 # 10.0.68.62
+779e72 maxwatts 1250 # 10.0.56.141
+7a1084 rebootasic 1567611752 # 10.0.68.58
+1c50a6 rebootasic 1567611752 # 10.0.68.59
+27398f rebootasic 1567611752 # 10.0.68.60
+6efefd rebootasic 1567611752 # 10.0.68.62
+779e72 rebootasic 1567611752 # 10.0.56.141
+
 7a1084 maxwatts 1050 # 10.0.68.58
 7a1084 rebootasic 1567405059 # 10.0.68.58
 
@@ -123,6 +134,7 @@ bca239 rebootasic 1567239578 # 10.0.60.33
 
 ## asic password
 asicpass admin
+
 
 
 

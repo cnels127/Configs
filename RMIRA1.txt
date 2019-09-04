@@ -53,6 +53,11 @@ f704dc location 18E38
 a0e30f location 18E39
 
 ## tuning
+b95dbf maxwatts 1050 # 172.16.200.248
+95b875 maxwatts 1150 # 172.16.200.249
+b95dbf rebootasic 1567611845 # 172.16.200.248
+95b875 rebootasic 1567611845 # 172.16.200.249
+
 b95dbf maxwatts 1150 # 172.16.200.248
 95b875 maxwatts 1250 # 172.16.200.249
 b95dbf rebootasic 1566597931 # 172.16.200.248
@@ -74,6 +79,7 @@ b95dbf rebootasic 1566511626 # 172.16.200.248
 
 ## asic password
 asicpass admin
+
 
 
 

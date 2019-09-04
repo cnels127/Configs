@@ -453,6 +453,11 @@ a0cac7 location NBELL00204
 252f2b location NBELL00207
 
 ## tuning
+a07290 maxwatts 1250 # 10.0.77.19
+ef4cf0 maxwatts 1250 # 10.0.77.137
+a07290 rebootasic 1567611815 # 10.0.77.19
+ef4cf0 rebootasic 1567611815 # 10.0.77.137
+
 # I added this since R2D2 appears to be down Sep 04 2019 01:35:52 utc: 1567560952 -- Jacoby
 b4e5e6 maxwatts 850 # 10.0.226.105
 8e49a5 maxwatts 350 # 10.0.229.14
@@ -1211,6 +1216,7 @@ d70df1 retune 1
 
 ## asic password
 asicpass admin
+
 
 
 
