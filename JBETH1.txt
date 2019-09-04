@@ -69,63 +69,6 @@ f0ed76 location johnbethbtc039
 8f1d39 location johnbethbtc040
 
 ## tuning
-2462cd maxwatts 1100 # 10.0.68.48
-690f5d maxwatts 1250 # 10.0.68.104
-2462cd rebootasic 1567239634 # 10.0.68.48
-690f5d rebootasic 1567239634 # 10.0.68.104
-
-966dd1 maxwatts 1450 # 10.0.68.49
-966dd1 rebootasic 1567154053 # 10.0.68.49
-
-084a54 maxwatts 1325 # 10.0.68.51
-406249 maxwatts 1300 # 10.0.68.105
-084a54 rebootasic 1567006452 # 10.0.68.51
-406249 rebootasic 1567006452 # 10.0.68.105
-
-690f5d maxwatts 1350 # 10.0.68.104
-690f5d rebootasic 1566550532 # 10.0.68.104
-
-406249 maxwatts 1400 # 10.0.68.105
-406249 rebootasic 1566544597 # 10.0.68.105
-
-2462cd maxwatts 1200 # 10.0.68.48
-084a54 maxwatts 1425 # 10.0.68.51
-b340b4 maxwatts 1225 # 10.0.68.52
-2462cd rebootasic 1566542546 # 10.0.68.48
-084a54 rebootasic 1566542546 # 10.0.68.51
-b340b4 rebootasic 1566542546 # 10.0.68.52
-
-2c969d maxwatts 1450 # 10.0.68.103
-2c969d rebootasic 1565849963 # 10.0.68.103
-
-2c969d maxwatts 1450 # 10.0.68.103
-2c969d rebootasic 1565849363 # 10.0.68.103
-
-45ff0c maxwatts 1225 # 10.0.59.129
-45ff0c rebootasic 1565438903 # 10.0.59.129
-
-434e7d maxwatts 1325 # 10.0.68.102
-434e7d rebootasic 1565413971 # 10.0.68.102
-
-b340b4 maxwatts 1325 # 10.0.68.52
-d549fd maxwatts 1225 # 10.0.60.102
-b340b4 rebootasic 1565412112 # 10.0.68.52
-d549fd rebootasic 1565412112 # 10.0.60.102
-
-434e7d maxwatts 1425 # 10.0.68.102
-434e7d rebootasic 1565410212 # 10.0.68.102
-
-2462cd maxwatts 1300 # 10.0.68.48
-b340b4 maxwatts 1425 # 10.0.68.52
-e67e88 maxwatts 1400 # 10.0.68.107
-2462cd rebootasic 1565404409 # 10.0.68.48
-b340b4 rebootasic 1565404409 # 10.0.68.52
-e67e88 rebootasic 1565404409 # 10.0.68.107
-
-2462cd maxwatts 1400 # 10.0.68.48
-690f5d maxwatts 1450 # 10.0.68.104
-2462cd rebootasic 1565396611 # 10.0.68.48
-690f5d rebootasic 1565396611 # 10.0.68.104
 
 #removed overheat max watts 8.9.19 17:25 UTC
 
@@ -141,10 +84,6 @@ b340b4 maxwatts 1525
 39be0c maxwatts 1550
 e67e88 maxwatts 1500
 6c73b3 maxwatts 1575
-966dd1 retune 1
-2c969d retune 1
-434e7d retune 1
-690f5d retune 1
 45ff0c maxwatts 1325
 95c235 maxwatts 1325
 f9164a maxwatts 1325
@@ -154,31 +93,17 @@ d549fd maxwatts 1325
 f0ed76 maxwatts 1325
 8f1d39 maxwatts 1325
 
+2462cd retune 1
+966dd1 retune 1
+084a54 retune 1
+b340b4 retune 1
+434e7d retune 1
+2c969d retune 1
+690f5d retune 1
+406249 retune 2
+e67e88 retune 2
+45ff0c retune 2
+d549fd retune 2
+
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
