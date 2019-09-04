@@ -1,4 +1,3 @@
-## ASICseer default config loaded in, edit it and click 'Save Changes'
 ## instructions available at: https://asicseer.com/page/kb#writing-config
 
 global custompanel MKARO0bit049
@@ -23,8 +22,8 @@ global maxwatts 1325
 global autoupdate no
 global allowed yes
 global maxtemp 90
-global fanspeed 95
-global fansaver 65
+global fanspeed 100
+# global fansaver 65
 
 # global retune 1
 # global rebootasic 1
