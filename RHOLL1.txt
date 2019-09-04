@@ -36,17 +36,19 @@ global blinkgreen rapid
 
 ## vlans
 vlan 10.0.61.58-60
+vlan 10.0.77.91-91
+vlan 10.0.77.93-93
+vlan 10.0.77.105-105
 
 ## locations
-425b29 location RHOLL0001
-396497 location RHOLL0002
-fc92a5 location RHOLL0003
+425b29 location RHOLL00001
+396497 location RHOLL00002
+fc92a5 location RHOLL00003
+d9b3f8 location RHOLL00004
+1c76d5 location RHOLL00005
+434628 location RHOLL00006
 
 ## tuning
-#removed overheat max watts 8.9.19 18:00 UTC
 
 ## asic password
 asicpass admin
-
-
-
