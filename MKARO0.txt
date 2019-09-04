@@ -1,6 +1,6 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
 
-global custompanel MKARO1bit049
+global custompanel MKARO0bit049
 
 global poolname1 eu.ss.btc.com:1800
 global username1 mahanteshkaroshi001
@@ -38,9 +38,6 @@ global blinkgreen rapid
 
 ## vlans
 vlan 10.0.63.89-89
-vlan 10.0.66.133-133
-vlan 10.0.66.134-134
-vlan 10.0.66.150-150
 vlan 10.0.66.25-25
 vlan 10.0.66.38-38
 vlan 10.0.66.46-46
@@ -48,37 +45,50 @@ vlan 10.0.66.61-61
 vlan 10.0.66.83-83
 vlan 10.0.66.89-89
 vlan 10.0.66.94-94
+vlan 10.0.66.133-133
+vlan 10.0.66.134-134
+vlan 10.0.66.150-150
 vlan 10.0.67.1-1
+vlan 10.0.67.22-22
+vlan 10.0.67.27-27
+vlan 10.0.67.77-77
 vlan 10.0.67.103-103
 vlan 10.0.67.106-106
 vlan 10.0.67.112-112
 vlan 10.0.67.113-113
 vlan 10.0.67.120-120
-vlan 10.0.67.22-22
-vlan 10.0.67.27-27
-vlan 10.0.67.77-77
+vlan 10.0.226.79-79
+vlan 10.0.228.115-115
+vlan 10.0.228.118-118
+vlan 10.0.228.133-133
+vlan 10.0.229.195-195
 
 ## locations
-742bc7 location MKARO0001
-754d9b location MKARO0002
-fc1a3a location MKARO0003
-324b65 location MKARO0004
-f2d5d3 location MKARO0005
-15319a location MKARO0006
-55ac26 location MKARO0007
-f15e5f location MKARO0008
-5f3948 location MKARO0009
-7f2285 location MKARO0010
-409c17 location MKARO0011
-a1a798 location MKARO0012
-76d9af location MKARO0013
-9851d4 location MKARO0014
-2bd4e7 location MKARO0015
-c14399 location MKARO0016
-cd859b location MKARO0017
-5ee162 location MKARO0018
-eb4720 location MKARO0019
-6dbea7 location MKARO0020
+742bc7 location MKARO00001
+754d9b location MKARO00002
+fc1a3a location MKARO00003
+324b65 location MKARO00004
+f2d5d3 location MKARO00005
+15319a location MKARO00006
+55ac26 location MKARO00007
+f15e5f location MKARO00008
+5f3948 location MKARO00009
+7f2285 location MKARO00010
+409c17 location MKARO00011
+a1a798 location MKARO00012
+76d9af location MKARO00013
+9851d4 location MKARO00014
+2bd4e7 location MKARO00015
+c14399 location MKARO00016
+cd859b location MKARO00017
+5ee162 location MKARO00018
+eb4720 location MKARO00019
+6dbea7 location MKARO00020
+f2e682 location MKARO00021
+32b6d0 location MKARO00022
+6955e8 location MKARO00023
+a53423 location MKARO00024
+000122 location MKARO00025
 
 ## tuning
 5ee162 maxwatts 1225 # 10.0.67.112
@@ -87,15 +97,5 @@ eb4720 location MKARO0019
 7f2285 maxwatts 1225 # 10.0.66.134
 7f2285 rebootasic 1567113098 # 10.0.66.134
 
-# removed overheat max watts 8.26.19 20:55 UTC
-
-# removed overheat max watts 8.23.19 13:27 UTC
-
-#removed overheat max watts 8.9.19 17:40 UTC
-
-
 ## asic password
 asicpass admin
-
-
-
