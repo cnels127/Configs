@@ -142,6 +142,9 @@ c6cbe1 location ahopf0075
 
 ## tuning
 be27de maxwatts 1050 # 10.0.217.46
+be27de rebootasic 1567625464 # 10.0.217.46
+
+be27de maxwatts 1050 # 10.0.217.46
 be27de rebootasic 1567623720 # 10.0.217.46
 
 be27de maxwatts 1050 # 10.0.217.46
@@ -686,6 +689,7 @@ a4a691 maxwatts 1425
 
 ## asic password
 asicpass admin
+
 
 
 
