@@ -35,24 +35,27 @@ global rebootasic 7
 # group=rowd allowed no
 
 ## vlans
-vlan 10.0.54.151-153
-vlan 10.0.55.94-94
-vlan 10.0.55.105-106
-vlan 10.0.55.115-115
-vlan 10.0.55.126-126
-vlan 10.0.55.144-144
-vlan 10.0.55.146-146
-vlan 10.0.56.17-17
-vlan 10.0.56.34-34
-vlan 10.0.56.36-36
-vlan 10.0.56.42-42
-vlan 10.0.56.100-100
-vlan 10.0.59.16-16
-vlan 10.0.60.38-38
-vlan 10.0.60.53-53
-vlan 10.0.60.86-86
-vlan 10.0.60.115-115
-vlan 10.0.60.127-127
+# vlan 10.0.54.151-153
+# vlan 10.0.55.94-94
+# vlan 10.0.55.105-106
+# vlan 10.0.55.115-115
+# vlan 10.0.55.126-126
+# vlan 10.0.55.144-144
+# vlan 10.0.55.146-146
+# vlan 10.0.56.17-17
+# vlan 10.0.56.34-34
+# vlan 10.0.56.36-36
+# vlan 10.0.56.42-42
+# vlan 10.0.56.100-100
+# vlan 10.0.59.16-16
+# vlan 10.0.60.38-38
+# vlan 10.0.60.53-53
+# vlan 10.0.60.86-86
+# vlan 10.0.60.115-115
+# vlan 10.0.60.127-127
+vlan 10.0.77.68-68
+vlan 10.0.77.76-76
+vlan 10.0.77.141-141
 
 ## locations
 c55a62 location RACAY00001
@@ -76,6 +79,9 @@ d6136a location RACAY00014
 497b40 location RACAY00019
 053705 location RACAY00020
 65bbdb location RACAY00021
+f729dc location RACAY00022
+9938b8 location RACAY00023
+70247c location RACAY00024
 
 ## tuning
 74a07a maxwatts 1100 # 10.0.55.146
@@ -92,6 +98,9 @@ d6136a location RACAY00014
 
 ec8ea7 retune 1
 095c6d retune 1
+f729dc maxwatts 1350
+9938b8 maxwatts 1350
+70247c maxwatts 1350
 
 ## asic password
 asicpass admin
