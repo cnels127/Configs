@@ -48,10 +48,14 @@ cf1a34 location KDAVI00001
 8ef4ad location KDAVI00006
 
 ## tuning
+0819f9 maxwatts 1150 # 10.0.56.128
+0819f9 rebootasic 1567623807 # 10.0.56.128
+
 0819f9 maxwatts 1250 # 10.0.56.128
 0819f9 rebootasic 1567615207 # 10.0.56.128
 
 
 ## asic password
 asicpass admin
+
 
