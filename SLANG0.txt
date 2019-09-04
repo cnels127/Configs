@@ -1,6 +1,6 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
 
-global custompanel SLANG1bit049
+global custompanel SLANG0bit049
 
 global poolname1 eu.stratum.slushpool.com:3333
 global username1 gameseb
@@ -60,41 +60,47 @@ vlan 10.0.61.53-53
 vlan 10.0.66.77-77
 vlan 10.0.61.77-77
 vlan 10.0.62.146-146
+vlan 10.0.226.73-73
+vlan 10.0.226.102-102
+vlan 10.0.226.107-107
+vlan 10.0.226.109-109
+vlan 10.0.226.113-113
+
 
 ## locations
-bf1870 location SLANG0001
-435798 location SLANG0002
-8c8868 location SLANG0003
-939070 location SLANG0004
-e2c4c8 location SLANG0005
-c7c75f location SLANG0006
-205fac location SLANG0007
-e39d7c location SLANG0008
-fe2dc8 location SLANG0009
-e1bef3 location SLANG0010
-3c6a08 location SLANG0011
-4d2038 location SLANG0011
-fbf390 location SLANG0012
-56b43e location SLANG0012
-a7b6db location SLANG0013
-596481 location SLANG0013
-84cd22 location SLANG0014
-3c8ba2 location SLANG0014
-d34135 location SLANG0015
-15269c location SLANG0015
-1df8f9 location SLANG0016
-f30ccf location SLANG0016
-d09da5 location SLANG0017
-02a4cb location SLANG0018
-8aca82 location SLANG0019
-866c28 location SLANG0020
-
+bf1870 location SLANG00001
+435798 location SLANG00002
+8c8868 location SLANG00003
+939070 location SLANG00004
+e2c4c8 location SLANG00005
+c7c75f location SLANG00006
+205fac location SLANG00007
+e39d7c location SLANG00008
+fe2dc8 location SLANG00009
+e1bef3 location SLANG00010
+3c6a08 location SLANG00011
+4d2038 location SLANG00011
+fbf390 location SLANG00012
+56b43e location SLANG00012
+a7b6db location SLANG00013
+596481 location SLANG00013
+84cd22 location SLANG00014
+3c8ba2 location SLANG00014
+d34135 location SLANG00015
+15269c location SLANG00015
+1df8f9 location SLANG00016
+f30ccf location SLANG00016
+d09da5 location SLANG00017
+02a4cb location SLANG00018
+8aca82 location SLANG00019
+866c28 location SLANG00020
+c44e97 location SLANG00021
+b65856 location SLANG00022
+fd676b location SLANG00023
+a3c9ac location SLANG00024
+cc9cd4 location SLANG00025
 
 ## tuning
-# removed overheat max watts 8.27.19 13:34 UTC
-
-#removed overheat max watts 8.9.19 18:05 UTC
-
 3c6a08 maxwatts 1150
 fbf390 maxwatts 1450
 a7b6db maxwatts 1450
@@ -111,6 +117,11 @@ f30ccf maxwatts 1450
 02a4cb maxwatts 1450
 8aca82 maxwatts 1450
 866c28 maxwatts 1450
+c44e97 maxwatts 1350
+b65856 maxwatts 1350
+fd676b maxwatts 1350
+a3c9ac maxwatts 1350
+cc9cd4 maxwatts 1350
 
 ## asic password
 asicpass admin
