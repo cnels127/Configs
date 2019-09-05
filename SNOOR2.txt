@@ -369,6 +369,15 @@ dd4d31 location SNOORCOS20E28
 
 ## tuning
 998318 maxwatts 1150 # 172.16.204.207
+c56855 maxwatts -50 # 172.16.204.60
+f0c6d0 maxwatts -50 # 172.16.204.68
+01dcac maxwatts 1150 # 172.16.200.74
+998318 rebootasic 1567658468 # 172.16.204.207
+c56855 rebootasic 1567658468 # 172.16.204.60
+f0c6d0 rebootasic 1567658468 # 172.16.204.68
+01dcac rebootasic 1567658468 # 172.16.200.74
+
+998318 maxwatts 1150 # 172.16.204.207
 f0c6d0 maxwatts -50 # 172.16.204.68
 998318 rebootasic 1567656785 # 172.16.204.207
 f0c6d0 rebootasic 1567656785 # 172.16.204.68
@@ -1492,6 +1501,7 @@ c65e96 rebootasic 1567132008 # 172.16.204.20
 
 ## asic password
 asicpass admin
+
 
 
 
