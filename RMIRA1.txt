@@ -41,16 +41,16 @@ vlan 172.16.200.243-243
 vlan 172.16.200.248-249
 
 ## locations
-b95dbf location 18E30
-95b875 location 18E31
-5cd170 location 18E32
-4423f1 location 18E33
-3d3ea3 location 18E34
-66215b location 18E35
-4e58e9 location 18E36
-d2b82c location 18E37
-f704dc location 18E38
-a0e30f location 18E39
+b95dbf location 0001-18E21
+95b875 location 0002-18E22
+5cd170 location 0003-18E23
+4423f1 location 0004-18E24
+3d3ea3 location 0005-18E25
+66215b location 0006-18E26
+4e58e9 location 0007-18E27
+d2b82c location 0008-18E28
+f704dc location 0009-18E29
+a0e30f location 0010-18E30
 
 ## tuning
 b95dbf maxwatts 1050 # 172.16.200.248
