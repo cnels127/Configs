@@ -17,7 +17,7 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1500
+global maxwatts 1425
 global autoupdate no
 global allowed yes
 global maxtemp 90
@@ -44,9 +44,9 @@ vlan 172.16.203.185-185
 40e982 location JITUR0003
 
 ## tuning
-23409b maxwatts 1500
-90804a maxwatts 1500
-40e982 maxwatts 1500
+23409b maxwatts 1425
+90804a maxwatts 1425
+40e982 maxwatts 1425
 
 ## asic password
 asicpass admin
