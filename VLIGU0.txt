@@ -1,0 +1,249 @@
+## instructions available at: https://asicseer.com/page/kb#writing-config
+
+global custompanel VLIGU0bit049
+
+global poolname1 eu.stratum.slushpool.com:3333
+global username1 grmining
+global poolpass1 123
+global sendworker1 yes
+global poolname2 us-east.stratum.slushpool.com:3333
+global username2 grmining
+global poolpass2 123
+global sendworker2 yes
+global poolname3 cn.stratum.slushpool.com:3333
+global username3 grmining
+global poolpass3 123
+global sendworker3 yes
+
+global asicboost yes
+global autotune yes
+global maxwatts 1500
+
+global autoupdate yes
+global allowed yes
+global maxtemp 90
+global fanspeed 100
+# global fansaver 65
+global blinkgreen rapid
+
+# global retune 1
+global rebootasic 8
+# global resetasic 1
+# global panelpass gj83Nkgikg
+
+# group=rowc rebootasic 1
+# group=rowd allowed no
+
+## vlans
+vlan 10.0.32.80-83
+vlan 10.0.51.1-1
+vlan 10.0.51.3-56
+vlan 10.0.57.88-127
+vlan 10.0.57.160
+
+## locations
+392b95 location VLIGU00001
+588b28 location VLIGU00002
+43f6d9 location VLIGU00003
+a1b050 location VLIGU00004
+193649 location VLIGU00005
+7b1d13 location VLIGU00006
+75ca40 location VLIGU00007
+d8c2ec location VLIGU00008
+7dd754 location VLIGU00009
+629711 location VLIGU00010
+6a16cb location VLIGU00011
+a4acde location VLIGU00012
+418123 location VLIGU00013
+db4dc1 location VLIGU00014
+d8a882 location VLIGU00015
+5bda2f location VLIGU00016
+52051a location VLIGU00017
+27300f location VLIGU00018
+5c0833 location VLIGU00019
+1be66b location VLIGU00020
+aaf208 location VLIGU00021
+54af96 location VLIGU00022
+7eea51 location VLIGU00023
+3fb054 location VLIGU00024
+e4561d location VLIGU00025
+4319ad location VLIGU00026
+7da70a location VLIGU00027
+ab7297 location VLIGU00028
+f41f50 location VLIGU00029
+182773 location VLIGU00030
+eabd2c location VLIGU00031
+d59af9 location VLIGU00032
+9b9835 location VLIGU00033
+d0fe6f location VLIGU00034
+7e0c44 location VLIGU00035
+6878ae location VLIGU00036
+0ebe29 location VLIGU00037
+d756d3 location VLIGU00038
+81d214 location VLIGU00039
+688790 location VLIGU00040
+9a8744 location VLIGU00041
+b6e3fd location VLIGU00042
+8483c5 location VLIGU00043
+7ad9c1 location VLIGU00044
+4dac09 location VLIGU00045
+b84091 location VLIGU00046
+02d712 location VLIGU00047
+a6cb63 location VLIGU00048
+3fb0a7 location VLIGU00049
+fe82d8 location VLIGU00050
+de8889 location VLIGU00051
+054447 location VLIGU00052
+fa20ef location VLIGU00053
+428ab8 location VLIGU00054
+8ae513 location VLIGU00055
+e29028 location VLIGU00056
+f4ba29 location VLIGU00057
+c05b10 location VLIGU00058
+9079b4 location VLIGU00059
+da3f92 location VLIGU00060
+9b7ce8 location VLIGU00061
+093dac location VLIGU00062
+89d0d8 location VLIGU00063
+89fcd2 location VLIGU00064
+ac0a46 location VLIGU00065
+de6bea location VLIGU00066
+fde057 location VLIGU00067
+a8f303 location VLIGU00068
+22122a location VLIGU00069
+e6ead1 location VLIGU00070
+8e1779 location VLIGU00071
+adc462 location VLIGU00072
+268467 location VLIGU00073
+4d4b02 location VLIGU00074
+3bd98f location VLIGU00075
+bc004c location VLIGU00076
+f7dadf location VLIGU00077
+d517e7 location VLIGU00078
+2c95c4 location VLIGU00079
+0fb0c4 location VLIGU00080
+6ebe19 location VLIGU00081
+d239b9 location VLIGU00082
+df64b7 location VLIGU00083
+b75ead location VLIGU00084
+7646a4 location VLIGU00085
+b0c57f location VLIGU00086
+8334c3 location VLIGU00087
+229e75 location VLIGU00088
+6f161e location VLIGU00089
+5ad207 location VLIGU00090
+ad13e2 location VLIGU00091
+db2bbb location VLIGU00092
+2a8e96 location VLIGU00093
+6904ea location VLIGU00094
+5621cd location VLIGU00095
+2bf22d location VLIGU00096
+6a116f location VLIGU00097
+7a4c7c location VLIGU00098
+39c93b location VLIGU00099
+430b5d location VLIGU00100
+
+## tuning
+629711 retune 2
+b6e3fd retune 2
+7523a0 retune 1
+adc462 retune 1
+193649 retune 1
+98613c retune 1
+bc004c retune 1
+bd6d76 retune 1
+39c93b retune 1
+a1b050 retune 1
+3bd98f retune 1
+4dac09 retune 1
+6a116f retune 1
+43f6d9 retune 1
+b0c57f retune 3
+fe82d8 retune 1
+8ae513 retune 1
+9b9835 retune 1
+89d0d8 retune 1
+df64b7 retune 1
+75ca40 retune 1
+392b95 retune 1
+a8f303 retune 1
+ab7297 retune 1
+9a8744 retune 1
+8483c5 retune 1
+27300f retune 1
+52051a retune 1
+aaf208 retune 1
+e4561d retune 1
+0ebe29 retune 1
+1be66b retune 1
+2bf22d retune 1
+5c0833 retune 1
+6a16cb retune 1
+6f161e retune 1
+7a4c7c retune 1
+89fcd2 retune 1
+428ab8 retune 1
+6878ae retune 1
+d8a882 retune 1
+d239b9 retune 1
+e6ead1 retune 1
+e29028 retune 1
+588b28 retune 1
+4319ad retune 1
+ad13e2 retune 1
+cddcd2 retune 1
+d8c2ec retune 1
+d756d3 retune 1
+0fb0c4 retune 1
+3fb054 retune 1
+7ad9c1 retune 1
+7e0c44 retune 1
+8e1779 retune 1
+7646a4 retune 1
+9079b4 retune 1
+22122a retune 1
+688790 retune 1
+a4acde retune 2
+da3f92 retune 1
+02d712 retune 1
+2a8e96 retune 1
+4d4b02 retune 1
+5bda2f retune 1
+7b1d13 retune 1
+7dd754 retune 1
+54af96 retune 1
+229e75 retune 1
+d0fe6f retune 1
+de6bea retune 1
+f7dadf retune 1
+f41f50 retune 1
+fa20ef retune 1
+fde057 retune 1
+9b7ce8 retune 1
+268467 retune 1
+b75ead retune 1
+b84091 retune 1
+d59af9 retune 1
+eabd2c retune 1
+5ad207 retune 1
+6904ea retune 1
+a6cb63 retune 1
+c05b10 retune 1
+d517e7 retune 1
+de8889 retune 1
+093dac retune 1
+2c95c4 retune 1
+3fb0a7 retune 1
+81d214 retune 1
+5621cd retune 1
+418123 retune 1
+182773 retune 1
+ac0a46 retune 1
+7da70a retune 1
+6ebe19 retune 1
+db2bbb retune 1
+7a4c7c retune 1
+39c93b retune 1
+
+## asic password
+asicpass admin
