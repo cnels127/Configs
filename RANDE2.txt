@@ -35,6 +35,9 @@ global blinkgreen rapid
 # group=rowd allowed no
 
 ## tuning
+bda117 maxwatts 600 # 172.16.203.231
+bda117 rebootasic 1567727296 # 172.16.203.231
+
 bda117 maxwatts 700 # 172.16.203.231
 d8b0ee maxwatts 1100 # 172.16.203.232
 bda117 rebootasic 1567611828 # 172.16.203.231
@@ -84,6 +87,7 @@ d8b0ee location RANDECOS0002
 
 ## asic password
 asicpass admin
+
 
 
 
