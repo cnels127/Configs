@@ -71,6 +71,9 @@ eadea9 location KGRAF00015
 
 ## tuning
 1d3229 maxwatts -50 # 10.0.64.61
+1d3229 rebootasic 1567644705 # 10.0.64.61
+
+1d3229 maxwatts -50 # 10.0.64.61
 1d3229 rebootasic 1567642949 # 10.0.64.61
 
 1d3229 maxwatts -50 # 10.0.64.61
@@ -127,6 +130,7 @@ eadea9 location KGRAF00015
 
 ## asic password
 asicpass admin
+
 
 
 
