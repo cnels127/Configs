@@ -67,6 +67,9 @@ vlan 10.0.77.152-152
 ## locations
 
 ## tuning
+f5acba maxwatts 300 # 10.0.77.51
+f5acba rebootasic 1567648344 # 10.0.77.51
+
 ced30b maxwatts 900 # 10.0.228.79
 ced30b rebootasic 1567618719 # 10.0.228.79
 
@@ -513,6 +516,7 @@ a3883c maxwatts 1350
 
 ## asic password
 asicpass admin
+
 
 
 
