@@ -35,6 +35,7 @@ global fanspeed 100
 
 ## vlans
 vlan 10.0.32.60-60
+vlan 10.0.59.120-120
 vlan 10.0.59.157-157
 vlan 10.0.61.18-18
 vlan 10.0.61.88-88
@@ -45,19 +46,19 @@ vlan 10.0.65.43-43
 vlan 10.0.66.160-160
 vlan 10.0.67.145-145
 vlan 10.0.68.12-12
+vlan 10.0.77.11-11
+vlan 10.0.77.117-117
+vlan 10.0.77.28-28
+vlan 10.0.77.34-34
+vlan 10.0.77.5-5
+vlan 10.0.226.110-110
 vlan 172.16.203.107-107
-vlan 172.16.203.126-126
-vlan 172.16.203.127-127
 vlan 172.16.203.131-131
-vlan 172.16.203.135-135
 vlan 172.16.203.142-142
 vlan 172.16.203.147-147
 vlan 172.16.203.151-151
 vlan 172.16.203.158-158
-vlan 172.16.203.161-161
-vlan 172.16.203.165-165
 vlan 172.16.203.167-167
-vlan 172.16.203.179-179
 vlan 172.16.203.187-187
 vlan 172.16.203.239-239
 
@@ -74,129 +75,24 @@ ed846d location LKLIN0007
 7106b2 location LKLIN0010
 a410f2 location LKLIN0011
 05bd00 location LKLIN0012
-39ec5f location LKLIN0013
-6176ae location LKLIN0014
+788a72 location LKLIN0013
+5ad5c7 location LKLIN0014
 9b6fc6 location LKLIN0015
-a29038 location LKLIN0016
+582a1e location LKLIN0016
 71126e location LKLIN0017
 ba3fd2 location LKLIN0018
 1b3d5a location LKLIN0019
 ad6d00 location LKLIN0020
-50d491 location LKLIN-E21
-d755b0 location LKLIN-E22
+a28737 location LKLIN-E21
+64c473 location LKLIN-E22
 cd93e3 location LKLIN-E23
-ea7c6e location LKLIN-E24
+287685 location LKLIN-E24
 d287d6 location LKLIN-E25
 e49dd5 location LKLIN-E26
+8d08ea location LKLIN-E27
 
 ## tuning
-9b6fc6 maxwatts 1200 # 172.16.203.131
-9b6fc6 rebootasic 1567716051 # 172.16.203.131
 
-e49dd5 maxwatts -25 # 172.16.203.239
-e49dd5 rebootasic 1567703326 # 172.16.203.239
-
-e49dd5 maxwatts -25 # 172.16.203.239
-e49dd5 rebootasic 1567646479 # 172.16.203.239
-
-9b6fc6 maxwatts 1300 # 172.16.203.131
-9b6fc6 rebootasic 1567625567 # 172.16.203.131
-
-d755b0 maxwatts 1400 # 172.16.203.165
-ea7c6e maxwatts 1200 # 172.16.203.179
-e49dd5 maxwatts -25 # 172.16.203.239
-05bd00 maxwatts 1300 # 172.16.203.107
-9b6fc6 maxwatts 1400 # 172.16.203.131
-d755b0 rebootasic 1567611794 # 172.16.203.165
-ea7c6e rebootasic 1567611794 # 172.16.203.179
-e49dd5 rebootasic 1567611794 # 172.16.203.239
-05bd00 rebootasic 1567611794 # 172.16.203.107
-9b6fc6 rebootasic 1567611794 # 172.16.203.131
-
-e49dd5 maxwatts -25 # 172.16.203.239
-e49dd5 rebootasic 1567531590 # 172.16.203.239
-
-e49dd5 maxwatts -25 # 172.16.203.239
-e49dd5 rebootasic 1567521701 # 172.16.203.239
-
-e49dd5 maxwatts -25 # 172.16.203.239
-e49dd5 rebootasic 1567478026 # 172.16.203.239
-
-e49dd5 maxwatts -25 # 172.16.203.239
-e49dd5 rebootasic 1567476232 # 172.16.203.239
-
-e49dd5 maxwatts 75 # 172.16.203.239
-e49dd5 rebootasic 1567474451 # 172.16.203.239
-
-e49dd5 maxwatts 175 # 172.16.203.239
-e49dd5 rebootasic 1567472707 # 172.16.203.239
-
-e49dd5 maxwatts 275 # 172.16.203.239
-e49dd5 rebootasic 1567465670 # 172.16.203.239
-
-e49dd5 maxwatts 375 # 172.16.203.239
-e49dd5 rebootasic 1567451767 # 172.16.203.239
-
-e49dd5 maxwatts 475 # 172.16.203.239
-e49dd5 rebootasic 1567448324 # 172.16.203.239
-
-e49dd5 maxwatts 575 # 172.16.203.239
-1b3d5a maxwatts 1400 # 172.16.203.151
-e49dd5 rebootasic 1567444912 # 172.16.203.239
-1b3d5a rebootasic 1567444912 # 172.16.203.151
-
-ea7c6e maxwatts 1300 # 172.16.203.179
-d287d6 maxwatts 1300 # 172.16.203.187
-e49dd5 maxwatts 675 # 172.16.203.239
-05bd00 maxwatts 1400 # 172.16.203.107
-ea7c6e rebootasic 1567394775 # 172.16.203.179
-d287d6 rebootasic 1567394775 # 172.16.203.187
-e49dd5 rebootasic 1567394775 # 172.16.203.239
-05bd00 rebootasic 1567394775 # 172.16.203.107
-
-ea7c6e maxwatts 1400 # 172.16.203.179
-d287d6 maxwatts 1400 # 172.16.203.187
-e49dd5 maxwatts 775 # 172.16.203.239
-ea7c6e rebootasic 1567358924 # 172.16.203.179
-d287d6 rebootasic 1567358924 # 172.16.203.187
-e49dd5 rebootasic 1567358924 # 172.16.203.239
-
-7106b2 maxwatts 1400 # 10.0.67.145
-7106b2 rebootasic 1566825317 # 10.0.67.145
-
-a410f2 maxwatts 1400 # 10.0.68.12
-a410f2 rebootasic 1566687909 # 10.0.68.12
-
-e49dd5 maxwatts 875 # 172.16.203.239
-e49dd5 rebootasic 1566671659 # 172.16.203.239
-
-cd93e3 maxwatts 1400 # 172.16.203.167
-e49dd5 maxwatts 975 # 172.16.203.239
-ad6d00 maxwatts 1400 # 172.16.203.158
-cd93e3 rebootasic 1566668700 # 172.16.203.167
-e49dd5 rebootasic 1566668700 # 172.16.203.239
-ad6d00 rebootasic 1566668700 # 172.16.203.158
-
-e49dd5 maxwatts 1075 # 172.16.203.239
-e49dd5 rebootasic 1566613258 # 172.16.203.239
-
-e49dd5 maxwatts 1175 # 172.16.203.239
-e49dd5 rebootasic 1566611018 # 172.16.203.239
-
-e49dd5 maxwatts 1275 # 172.16.203.239
-6176ae maxwatts 1375 # 172.16.203.127
-e49dd5 rebootasic 1566608811 # 172.16.203.239
-6176ae rebootasic 1566608811 # 172.16.203.127
-
-e49dd5 maxwatts 1375 # 172.16.203.239
-b3ad3a maxwatts 1375 # 10.0.61.18
-e49dd5 rebootasic 1566606709 # 172.16.203.239
-b3ad3a rebootasic 1566606709 # 10.0.61.18
-
-e49dd5 maxwatts 1400
-b3ad3a maxwatts 1500
-5351fb maxwatts 1500
-a410f2 maxwatts 1500
 
 ## asic password
 asicpass admin
