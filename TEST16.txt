@@ -67,6 +67,9 @@ vlan 10.0.77.152-152
 ## locations
 
 ## tuning
+0025f7 maxwatts 1400 # 10.0.229.78
+0025f7 rebootasic 1567742100 # 10.0.229.78
+
 000122 maxwatts 1400 # 10.0.226.163
 12da9b maxwatts 1400 # 10.0.226.132
 719b5e maxwatts 1400 # 10.0.226.103
@@ -578,6 +581,7 @@ a3883c maxwatts 1350
 
 ## asic password
 asicpass admin
+
 
 
 
