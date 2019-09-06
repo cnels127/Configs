@@ -105,6 +105,9 @@ ad6d00 location LKLIN0020
 
 ## tuning
 64c473 maxwatts -100 # 10.0.226.110
+64c473 rebootasic 1567810446 # 10.0.226.110
+
+64c473 maxwatts -100 # 10.0.226.110
 64c473 rebootasic 1567808267 # 10.0.226.110
 
 64c473 maxwatts -100 # 10.0.226.110
@@ -198,6 +201,7 @@ e49dd5 rebootasic 1567727244 # 172.16.203.239
 
 ## asic password
 asicpass admin
+
 
 
 
