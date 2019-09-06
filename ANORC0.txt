@@ -1,6 +1,6 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
 
-global custompanel ANORC1bit049
+global custompanel ANORC0bit049
 
 global poolname1 eu.stratum.slushpool.com:3333
 global username1 tree63
@@ -51,16 +51,6 @@ ce82d1 location ANORC0009
 88093b location ANORC0010
 
 ## tuning
-17fb06 maxwatts 1250 # 10.0.68.94
-17fb06 rebootasic 1567239212 # 10.0.68.94
-
-0796c0 maxwatts 1250 # 10.0.68.97
-0796c0 rebootasic 1567006389 # 10.0.68.97
-
-#removed overheat max watts 8.9.19 14:32 UTC
-
-#removed overheat max watts 8.9.19 17:02 UTC
-
 29b205 maxwatts 1350
 07c674 maxwatts 1375
 17fb06 maxwatts 1350
@@ -76,12 +66,3 @@ ce82d1 maxwatts 1350
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
