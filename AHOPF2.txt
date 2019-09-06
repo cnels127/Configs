@@ -497,6 +497,23 @@ cc9fd9 location AHOPF0302
 79c07f location AHOPF0303
 
 ## tuning
+9f2cc0 maxwatts 1450 # 10.0.223.19
+7a4cbf maxwatts 1350 # 10.0.223.37
+162760 maxwatts 1250 # 10.0.223.83
+4ec743 maxwatts 1250 # 10.0.226.53
+2c38f0 maxwatts 1450 # 10.0.226.83
+9c3f82 maxwatts 1250 # 10.0.229.189
+1da911 maxwatts 750 # 10.0.226.157
+6462f9 maxwatts 1350 # 10.0.226.160
+9f2cc0 rebootasic 1567774058 # 10.0.223.19
+7a4cbf rebootasic 1567774058 # 10.0.223.37
+162760 rebootasic 1567774058 # 10.0.223.83
+4ec743 rebootasic 1567774058 # 10.0.226.53
+2c38f0 rebootasic 1567774058 # 10.0.226.83
+9c3f82 rebootasic 1567774058 # 10.0.229.189
+1da911 rebootasic 1567774058 # 10.0.226.157
+6462f9 rebootasic 1567774058 # 10.0.226.160
+
 9ea85e maxwatts 1350 # 10.0.223.36
 cbc634 maxwatts 1450 # 10.0.223.58
 f35825 maxwatts 1150 # 10.0.223.123
@@ -1808,6 +1825,7 @@ d0f1c5 maxwatts 1275
 
 ## asic password
 asicpass admin
+
 
 
 
