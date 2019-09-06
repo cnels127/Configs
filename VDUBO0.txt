@@ -17,12 +17,13 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1450
-global autoupdate no
+global maxwatts 1350
+global autoupdate yes
 global allowed yes
 global maxtemp 90
 global fanspeed 100
-# global fansaver 65
+global fansaver no
+global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
@@ -62,16 +63,8 @@ c55b18 location VDUBO00008
 215267 location VDUBO00011
 
 ## tuning
-4e6021 maxwatts 1350
-175f83 maxwatts 1350
-6fc701 maxwatts 1350
-c6a34d maxwatts 1350
-edcb66 maxwatts 1350
-bc84e4 maxwatts 1350
-c55b18 maxwatts 1350
-0f7cf9 maxwatts 1350
-33ab1b maxwatts 1350
-215267 maxwatts 1350
+ac80c9 maxwatts 1500
+10992f maxwatts 1500
 
 ## asic password
 asicpass admin
