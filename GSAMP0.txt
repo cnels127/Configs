@@ -17,13 +17,13 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1550
+global maxwatts 1500
 
 global autoupdate yes
 global allowed yes
 global maxtemp 90
 global fanspeed 100
-# global fansaver yes
+global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
@@ -44,7 +44,7 @@ b4de4e rebootasic 1
 # group=rowc rebootasic 1
 # group=rowd allowed no
 
-## vlans (vlan [IP address])
+## vlans
 vlan 10.0.56.40-41
 vlan 10.0.56.47-47
 vlan 10.0.56.50-50
@@ -68,45 +68,41 @@ vlan 10.0.59.90-90
 vlan 10.0.61.6-6
 vlan 10.0.67.79-79
 
-## locations ([ASICID location [name])
-c5496d location GSAMP0001
-271937 location GSAMP0002
-ca177b location GSAMP0003
-c02d51 location GSAMP0004
-41be8a location GSAMP0005
-751610 location GSAMP0006
-8e284e location GSAMP0007
-a7631d location GSAMP0008
-0101ec location GSAMP0009
-62bdc8 location GSAMP0010
-3900a7 location GSAMP0011
-a36e04 location GSAMP0012
-644746 location GSAMP0013
-26be5d location GSAMP0014
-f71e65 location GSAMP0015
-4fb133 location GSAMP0016
-86c9c7 location GSAMP0017
-e61d93 location GSAMP0018
-5aa9d6 location GSAMP0019
-78cb4c location GSAMP0020
-3fb821 location GSAMP0021
-ff488e location GSAMP0022
-8a804d location GSAMP0023
-e1c353 location GSAMP0024
-3cd7e0 location GSAMP0025
-f24571 location GSAMP0026
-2d2f66 location GSAMP0027
-0c9f37 location GSAMP0028
-27a7bc location GSAMP0029
-d223ec location GSAMP0030
+## locations
+c5496d location GSAMP00001
+271937 location GSAMP00002
+ca177b location GSAMP00003
+c02d51 location GSAMP00004
+41be8a location GSAMP00005
+751610 location GSAMP00006
+8e284e location GSAMP00007
+a7631d location GSAMP00008
+0101ec location GSAMP00009
+62bdc8 location GSAMP00010
+3900a7 location GSAMP00011
+a36e04 location GSAMP00012
+644746 location GSAMP00013
+26be5d location GSAMP00014
+f71e65 location GSAMP00015
+4fb133 location GSAMP00016
+86c9c7 location GSAMP00017
+e61d93 location GSAMP00018
+5aa9d6 location GSAMP00019
+78cb4c location GSAMP00020
+3fb821 location GSAMP00021
+ff488e location GSAMP00022
+8a804d location GSAMP00023
+e1c353 location GSAMP00024
+3cd7e0 location GSAMP00025
+f24571 location GSAMP00026
+2d2f66 location GSAMP00027
+0c9f37 location GSAMP00028
+27a7bc location GSAMP00029
+d223ec location GSAMP00030
 
 ## tuning
 78cb4c maxwatts 1400 # 10.0.59.49
 78cb4c rebootasic 1567436389 # 10.0.59.49
-
-#removed overheat max watts 8.9.19 17:20 UTC
-
-#removed overheat max watts 8.9.19 17:20 UTC
 
 c02d51 maxwatts 1500
 c5496d maxwatts 1500
@@ -139,14 +135,3 @@ d223ec retune 1
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
