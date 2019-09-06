@@ -1,6 +1,6 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
 
-global custompanel BBENS1bit049
+global custompanel BBENS0bit049
 
 global poolname1 eu.stratum.slushpool.com:3333
 global username1 Bbenson314
@@ -17,13 +17,13 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1550
+global maxwatts 1500
 
 global autoupdate yes
 global allowed yes
 global maxtemp 90
 global fanspeed 100
-# global fansaver yes
+global fansaver no
 global blinkred idle
 global blinkgreen rapid
 
@@ -43,13 +43,6 @@ vlan 10.0.68.40-41
 f69de1 location BBENS0002
 
 ## tuning
-f69de1 maxwatts 1450 # 10.0.68.41
-f69de1 rebootasic 1566568320 # 10.0.68.41
-
-815d57 maxwatts 1450 # 10.0.68.40
-815d57 rebootasic 1565404300 # 10.0.68.40
-
-#removed overheat max watts 8.9.19 17:05 UTC
 
 ## asic password
 asicpass admin
