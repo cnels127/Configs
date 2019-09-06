@@ -19,11 +19,12 @@ global asicboost yes
 global autotune yes
 global maxwatts 1350
 
-global autoupdate no
+global autoupdate yes
 global allowed yes
 global maxtemp 90
 global fanspeed 100
-# global fansaver 65
+# global fansaver yes
+global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
@@ -43,15 +44,10 @@ c94710 location KREDD0001
 5d208b location KREDD0003
 
 ## tuning
-5d208b maxwatts 1250 # 10.0.54.147
-5d208b rebootasic 1565404466 # 10.0.54.147
-
-#removed overheat max watts 8.9.19 17:35 UTC
-
+5d208b resetasic 1
 c94710 maxwatts 1350
 934f82 maxwatts 1350
 5d208b maxwatts 1350
 
 ## asic password
 asicpass admin
-
