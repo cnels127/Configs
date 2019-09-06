@@ -62,7 +62,9 @@ vlan 172.16.203.147-147
 vlan 172.16.203.151-151
 vlan 172.16.203.158-158
 vlan 172.16.203.161-161
+vlan 172.16.203.165-165
 vlan 172.16.203.167-167
+vlan 172.16.203.179-167
 vlan 172.16.203.187-187
 vlan 172.16.203.239-239
 
@@ -70,7 +72,9 @@ vlan 172.16.203.239-239
 64c473 location LKLIN0001
 16d3c8 location LKLIN0001
 16da58 location LKLIN0002
+d755b0 location LKLIN0002
 b3ad3a location LKLIN0003
+ea7c6e location LKLIN0003
 cd93e3 location LKLIN0004
 5617cc location LKLIN0004
 e49dd5 location LKLIN0005
@@ -114,30 +118,3 @@ e49dd5 rebootasic 1567727244 # 172.16.203.239
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
