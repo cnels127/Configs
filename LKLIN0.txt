@@ -53,43 +53,49 @@ vlan 10.0.77.34-34
 vlan 10.0.77.5-5
 vlan 10.0.226.110-110
 vlan 172.16.203.107-107
+vlan 172.16.203.127-127
 vlan 172.16.203.131-131
+vlan 172.16.203.135-135
 vlan 172.16.203.142-142
 vlan 172.16.203.147-147
 vlan 172.16.203.151-151
 vlan 172.16.203.158-158
+vlan 172.16.203.161-161
 vlan 172.16.203.167-167
 vlan 172.16.203.187-187
 vlan 172.16.203.239-239
 
 ## locations
+64c473 location LKLIN0001
 16d3c8 location LKLIN0001
 16da58 location LKLIN0002
 b3ad3a location LKLIN0003
+cd93e3 location LKLIN0004
 5617cc location LKLIN0004
+e49dd5 location LKLIN0005
 596464 location LKLIN0005
 fc23ff location LKLIN0006
+8d08ea location LKLIN0006
+a29038 location LKLIN0006
 ed846d location LKLIN0007
+6176ae location LKLIN0007
 2b0498 location LKLIN0008
 5351fb location LKLIN0009
+287685 location LKLIN0010
 7106b2 location LKLIN0010
 a410f2 location LKLIN0011
 05bd00 location LKLIN0012
+a28737 location LKLIN0013
 788a72 location LKLIN0013
 5ad5c7 location LKLIN0014
 9b6fc6 location LKLIN0015
+d287d6 location LKLIN0015
 582a1e location LKLIN0016
 71126e location LKLIN0017
 ba3fd2 location LKLIN0018
+50d491 location LKLIN0018
 1b3d5a location LKLIN0019
 ad6d00 location LKLIN0020
-a28737 location LKLIN-E21
-64c473 location LKLIN-E22
-cd93e3 location LKLIN-E23
-287685 location LKLIN-E24
-d287d6 location LKLIN-E25
-e49dd5 location LKLIN-E26
-8d08ea location LKLIN-E27
 
 ## tuning
 e49dd5 maxwatts 1400 # 172.16.203.239
