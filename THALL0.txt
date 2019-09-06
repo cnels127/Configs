@@ -1,6 +1,6 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
 
-global custompanel THALL1bit049
+global custompanel THALL0bit049
 
 global poolname1 eu.stratum.slushpool.com:3333
 global username1 RockyBojangles
@@ -39,31 +39,31 @@ global blinkgreen rapid
 vlan 10.0.32.21-45
 
 ## locations
-ee2241 location THALL0001
-82a2a7 location THALL0002
-138707 location THALL0003
-9c07f5 location THALL0004
-95c8d4 location THALL0005
-b28347 location THALL0006
-2f1687 location THALL0007
-f76afb location THALL0008
-c705d1 location THALL0009
-386253 location THALL0010
-3bb8ac location THALL0011
-85ba2c location THALL0012
-c58079 location THALL0013
-3eebad location THALL0014
-349aad location THALL0015
-3ca507 location THALL0016
-830c66 location THALL0017
-c191c4 location THALL0018
-b62e9a location THALL0019
-1d29a7 location THALL0020
-a966ea location THALL0021
-845f77 location THALL0022
-f0c13e location THALL0023
-a9f19e location THALL0024
-255a6b location THALL0025
+ee2241 location THALL00001
+82a2a7 location THALL00002
+138707 location THALL00003
+9c07f5 location THALL00004
+95c8d4 location THALL00005
+b28347 location THALL00006
+2f1687 location THALL00007
+f76afb location THALL00008
+c705d1 location THALL00009
+386253 location THALL00010
+3bb8ac location THALL00011
+85ba2c location THALL00012
+c58079 location THALL00013
+3eebad location THALL00014
+349aad location THALL00015
+3ca507 location THALL00016
+830c66 location THALL00017
+c191c4 location THALL00018
+b62e9a location THALL00019
+1d29a7 location THALL00020
+a966ea location THALL00021
+845f77 location THALL00022
+f0c13e location THALL00023
+a9f19e location THALL00024
+255a6b location THALL00025
 
 ## tuning
 82a2a7 maxwatts 1375
