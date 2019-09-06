@@ -17,12 +17,13 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1450
-global autoupdate no
+global maxwatts 1500
+global autoupdate yes
 global allowed yes
 global maxtemp 90
 global fanspeed 100
-# global fansaver 65
+global fansaver yes
+global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
@@ -48,11 +49,6 @@ f2dc4d location TGROT00002
 83bf48 location TGROT00003
 
 ## tuning
-0040fc maxwatts 1250
-dae245 maxwatts 1250
-f2dc4d maxwatts 1450
-6db0b2 maxwatts 1450
-83bf48 maxwatts 1450
 
 ## asic password
 asicpass admin
