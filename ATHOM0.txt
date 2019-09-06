@@ -1,0 +1,126 @@
+## instructions available at: https://asicseer.com/page/kb#writing-config
+
+global custompanel ATHOM0bit049
+
+global poolname1 eu.ss.btc.com:1800
+global username1 sweans
+global poolpass1 123
+global sendworker1 yes
+global poolname2 eu.ss.btc.com:443
+global username2 sweans
+global poolpass2 123
+global sendworker2 yes
+global poolname3 eu.ss.btc.com:25
+global username3 sweans
+global poolpass3 123
+global sendworker3 yes
+
+global asicboost yes
+global autotune yes
+global maxwatts 1350
+
+global autoupdate yes
+global allowed yes
+global maxtemp 90
+global fanspeed 100
+global fansaver no
+global blinkred idle
+global blinkgreen rapid
+
+# global retune 1
+global rebootasic 2
+# global resetasic 1
+# global panelpass gj83Nkgikg
+
+# group=rowc rebootasic 1
+# group=rowd allowed no
+
+## vlans
+vlan 10.0.54.126-126
+vlan 10.0.54.127-127
+vlan 10.0.54.128-128
+vlan 10.0.54.129-129
+vlan 10.0.54.130-130
+vlan 10.0.54.131-131
+vlan 10.0.54.132-132
+vlan 10.0.61.112-112
+vlan 10.0.61.135-135
+vlan 10.0.61.145-145
+vlan 10.0.62.85-85
+vlan 10.0.63.106-106
+vlan 10.0.63.112-112
+vlan 10.0.63.129-129
+vlan 10.0.63.132-132
+vlan 10.0.63.134-134
+vlan 10.0.63.141-141
+vlan 10.0.63.148-148
+vlan 10.0.63.150-150
+vlan 10.0.63.154-154
+vlan 10.0.64.11-11
+vlan 10.0.64.12-12
+vlan 10.0.64.24-24
+vlan 10.0.64.59-59
+vlan 10.0.64.85-85
+vlan 10.0.64.137-137
+vlan 10.0.65.22-22
+vlan 10.0.65.30-30
+vlan 10.0.65.88-88
+vlan 10.0.65.90-90
+vlan 10.0.65.97-97
+vlan 10.0.65.109-109
+vlan 10.0.65.159-159
+vlan 10.0.66.1-1
+vlan 10.0.66.11-11
+vlan 10.0.66.104-104
+vlan 10.0.66.106-106
+vlan 10.0.66.109-109
+vlan 10.0.67.54-54
+vlan 10.0.67.96-96
+
+## locations
+6a323b location ATHOM00001
+de2039 location ATHOM00002
+083c04 location ATHOM00003
+b2bd4a location ATHOM00004
+a1e438 location ATHOM00005
+ae4552 location ATHOM00006
+34f9ef location ATHOM00007
+882711 location ATHOM00008
+f5e0ce location ATHOM00009
+f56d20 location ATHOM00010
+65a8fa location ATHOM00011
+9be27b location ATHOM00012
+e1960a location ATHOM00013
+979a64 location ATHOM00014
+794f98 location ATHOM00015
+d58ae6 location ATHOM00016
+158ab6 location ATHOM00017
+bbe46f location ATHOM00018
+2bb6c8 location ATHOM00019
+952ba2 location ATHOM00020
+6704f5 location ATHOM00021
+756a0c location ATHOM00022
+9b3517 location ATHOM00023
+67ef67 location ATHOM00024
+eedbcd location ATHOM00025
+acb675 location ATHOM00026
+fbf1ac location ATHOM00027
+6d1dce location ATHOM00028
+d9dc85 location ATHOM00029
+72e31f location ATHOM00030
+42f4ea location ATHOM00031
+82bd69 location ATHOM00032
+c2edd9 location ATHOM00033
+981425 location ATHOM00034
+3b7299 location ATHOM00035
+94442a location ATHOM00036
+f9ca53 location ATHOM00037
+ead461 location ATHOM00038
+d13d9c location ATHOM00039
+31a7ae location ATHOM00040
+
+## tuning
+f9ca53 retune 1
+
+## asic password
+asicpass admin
