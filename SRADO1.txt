@@ -19,11 +19,12 @@ global asicboost yes
 global autotune yes
 global maxwatts 1350
 
-global autoupdate no
+global autoupdate yes
 global allowed yes
 global maxtemp 90
 global fanspeed 100
-# global fansaver 65
+global fansaver yes
+global blinkred idle
 global blinkgreen rapid
 
 global retune 1
@@ -116,42 +117,6 @@ ca6c85 location SRADO0038
 fb2a81 location SRADO0042
 
 ## tuning
-a23fe5 maxwatts 1150 # 10.0.68.43
-a23fe5 rebootasic 1567494309 # 10.0.68.43
-
-32d65b maxwatts 850 # 10.0.67.150
-32d65b rebootasic 1567492494 # 10.0.67.150
-
-32d65b maxwatts 950 # 10.0.67.150
-32d65b rebootasic 1567476312 # 10.0.67.150
-
-26db41 maxwatts 1150 # 10.0.60.122
-26db41 rebootasic 1567467494 # 10.0.60.122
-
-26db41 maxwatts 1250 # 10.0.60.122
-26db41 rebootasic 1567462235 # 10.0.60.122
-
-32d65b maxwatts 1050 # 10.0.67.150
-32d65b rebootasic 1567453560 # 10.0.67.150
-
-32d65b maxwatts 1150 # 10.0.67.150
-32d65b rebootasic 1567451833 # 10.0.67.150
-
-32d65b maxwatts 1250 # 10.0.67.150
-32d65b rebootasic 1567450112 # 10.0.67.150
-
-a23fe5 maxwatts 1250 # 10.0.68.43
-a23fe5 rebootasic 1567448393 # 10.0.68.43
-
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
