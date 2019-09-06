@@ -19,11 +19,12 @@ global asicboost yes
 global autotune yes
 global maxwatts 1350
 
-global autoupdate no
+global autoupdate yes
 global allowed yes
 global maxtemp 90
 global fanspeed 100
-# global fansaver 65
+global fansaver yes
+global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
@@ -35,26 +36,10 @@ global blinkgreen rapid
 # group=rowd allowed no
 
 ## vlans
-vlan 10.0.59.91-91
-vlan 10.0.59.124-124
-vlan 10.0.60.24-25
-vlan 10.0.60.52-52
-vlan 10.0.60.112-112
-vlan 10.0.61.12-12
-vlan 10.0.67.82-82
 
 ## locations
 
 ## tuning
-16d3c8 maxwatts 1250 # 10.0.32.60
-16d3c8 rebootasic 1565398742 # 10.0.32.60
-
-#removed overheat max watts 8.9.19 18:10 UTC
-
 
 ## asic password
 asicpass admin
-
-
-
-
