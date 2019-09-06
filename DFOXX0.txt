@@ -17,13 +17,13 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1450
+global maxwatts 1500
 
 global autoupdate yes
 global allowed yes
 global maxtemp 90
 global fanspeed 100
-# global fansaver yes
+global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
@@ -64,60 +64,6 @@ d7ac75 location DFOXX00018
 d10cec location DFOXX00019
 
 ## tuning
-76dbbb maxwatts 1350 # 10.0.66.124
-76dbbb rebootasic 1567486914 # 10.0.66.124
-
-07fd37 maxwatts 1350 # 10.0.66.136
-07fd37 rebootasic 1567485108 # 10.0.66.136
-
-3ce1a0 maxwatts 1250 # 10.0.66.121
-3ce1a0 rebootasic 1567483296 # 10.0.66.121
-
-a1dd12 maxwatts 1350 # 10.0.66.114
-a1dd12 rebootasic 1567479743 # 10.0.66.114
-
-d10cec maxwatts 1250 # 10.0.66.141
-d10cec rebootasic 1567477955 # 10.0.66.141
-
-5d4833 maxwatts 1250 # 10.0.66.125
-5d4833 rebootasic 1567410221 # 10.0.66.125
-
-4df698 maxwatts 1350 # 10.0.66.138
-4df698 rebootasic 1567408494 # 10.0.66.138
-
-25f83c maxwatts 950 # 10.0.66.131
-25f83c rebootasic 1567405035 # 10.0.66.131
-
-25f83c maxwatts 1050 # 10.0.66.131
-25f83c rebootasic 1567401591 # 10.0.66.131
-
-25f83c maxwatts 1150 # 10.0.66.131
-d10cec maxwatts 1350 # 10.0.66.141
-25f83c rebootasic 1567399878 # 10.0.66.131
-d10cec rebootasic 1567399878 # 10.0.66.141
-
-3ce1a0 maxwatts 1350 # 10.0.66.121
-25f83c maxwatts 1250 # 10.0.66.131
-3ce1a0 rebootasic 1567396463 # 10.0.66.121
-25f83c rebootasic 1567396463 # 10.0.66.131
-
-5d4833 maxwatts 1350 # 10.0.66.125
-25f83c maxwatts 1350 # 10.0.66.131
-5d4833 rebootasic 1567394699 # 10.0.66.125
-25f83c rebootasic 1567394699 # 10.0.66.131
-
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
