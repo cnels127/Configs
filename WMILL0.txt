@@ -19,11 +19,12 @@ global asicboost yes
 global autotune yes
 global maxwatts 1350
 
-global autoupdate no
+global autoupdate yes
 global allowed yes
 global maxtemp 90
 global fanspeed 100
-# global fansaver 65
+global fansaver yes
+global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
@@ -49,7 +50,5 @@ ed4012 location WMILL00003
 35740c maxwatts 1250 # 10.0.53.55
 35740c rebootasic 1567415598 # 10.0.53.55
 
-
 ## asic password
 asicpass admin
-
