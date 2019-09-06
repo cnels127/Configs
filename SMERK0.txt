@@ -990,6 +990,53 @@ db2219 location SMERK0876
 546516 location SMERK0877
 
 ## tuning
+e832ef maxwatts 1100 # 10.0.223.7
+ad20e2 maxwatts 1400 # 10.0.223.48
+ae2afa maxwatts 1400 # 10.0.223.80
+ab17e5 maxwatts 1300 # 10.0.223.122
+bc29e2 maxwatts 1200 # 10.0.223.175
+615e72 maxwatts 900 # 10.0.224.7
+3094d0 maxwatts -100 # 10.0.224.18
+865095 maxwatts -100 # 10.0.224.32
+94a3c3 maxwatts -100 # 10.0.224.37
+3d578d maxwatts 600 # 10.0.224.49
+4c06b8 maxwatts -100 # 10.0.224.81
+e42129 maxwatts 0 # 10.0.224.111
+e3ce5c maxwatts 200 # 10.0.224.134
+4e0552 maxwatts -100 # 10.0.224.166
+a2131a maxwatts 1000 # 10.0.225.37
+1541e1 maxwatts -100 # 10.0.225.47
+51345d maxwatts 1400 # 10.0.225.55
+a03b81 maxwatts -100 # 10.0.225.58
+c16782 maxwatts 1000 # 10.0.226.2
+071970 maxwatts 1300 # 10.0.226.9
+f5d121 maxwatts 1100 # 10.0.226.14
+bed5d9 maxwatts 900 # 10.0.226.15
+85ec4c maxwatts 800 # 10.0.226.72
+e832ef rebootasic 1567778290 # 10.0.223.7
+ad20e2 rebootasic 1567778290 # 10.0.223.48
+ae2afa rebootasic 1567778290 # 10.0.223.80
+ab17e5 rebootasic 1567778290 # 10.0.223.122
+bc29e2 rebootasic 1567778290 # 10.0.223.175
+615e72 rebootasic 1567778290 # 10.0.224.7
+3094d0 rebootasic 1567778290 # 10.0.224.18
+865095 rebootasic 1567778290 # 10.0.224.32
+94a3c3 rebootasic 1567778290 # 10.0.224.37
+3d578d rebootasic 1567778290 # 10.0.224.49
+4c06b8 rebootasic 1567778290 # 10.0.224.81
+e42129 rebootasic 1567778290 # 10.0.224.111
+e3ce5c rebootasic 1567778290 # 10.0.224.134
+4e0552 rebootasic 1567778290 # 10.0.224.166
+a2131a rebootasic 1567778290 # 10.0.225.37
+1541e1 rebootasic 1567778290 # 10.0.225.47
+51345d rebootasic 1567778290 # 10.0.225.55
+a03b81 rebootasic 1567778290 # 10.0.225.58
+c16782 rebootasic 1567778290 # 10.0.226.2
+071970 rebootasic 1567778290 # 10.0.226.9
+f5d121 rebootasic 1567778290 # 10.0.226.14
+bed5d9 rebootasic 1567778290 # 10.0.226.15
+85ec4c rebootasic 1567778290 # 10.0.226.72
+
 707893 maxwatts 1400 # 10.0.223.15
 c899a0 maxwatts -100 # 10.0.224.26
 cbc77e maxwatts -100 # 10.0.224.137
@@ -2816,6 +2863,7 @@ e7f17f retune 1
 
 ## asic password
 asicpass admin
+
 
 
 
