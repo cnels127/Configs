@@ -27,7 +27,7 @@ global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
-global retune 1
+global retune 2
 global rebootasic 1
 # global resetasic 1
 # global panelpass gj83Nkgikg
@@ -104,29 +104,9 @@ d223ec location GSAMP00030
 78cb4c maxwatts 1400 # 10.0.59.49
 78cb4c rebootasic 1567436389 # 10.0.59.49
 
-c02d51 maxwatts 1500
-c5496d maxwatts 1500
-ca177b maxwatts 1500
-3900a7 maxwatts 1500
-a36e04 maxwatts 1500
-644746 maxwatts 1500
-26be5d maxwatts 1500
-27a7bc maxwatts 1500
-f71e65 maxwatts 1500
-4fb133 maxwatts 1500
-86c9c7 maxwatts 1500
-e61d93 maxwatts 1500
-5aa9d6 maxwatts 1500
-78cb4c maxwatts 1500
 3fb821 maxwatts 1525
-d223ec maxwatts 1500
 ff488e maxwatts 1525
 8a804d maxwatts 1525
-e1c353 maxwatts 1500
-3cd7e0 maxwatts 1500
-f24571 maxwatts 1500
-2d2f66 maxwatts 1500
-0c9f37 maxwatts 1500
 0101ec maxwatts 1525
 
 0101ec retune 2
