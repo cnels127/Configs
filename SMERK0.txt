@@ -990,6 +990,65 @@ db2219 location SMERK0876
 546516 location SMERK0877
 
 ## tuning
+8549c6 maxwatts 1100 # 10.0.223.1
+e832ef maxwatts 1300 # 10.0.223.7
+ad22e9 maxwatts 1300 # 10.0.223.93
+ab17e5 maxwatts 1400 # 10.0.223.122
+bc29e2 maxwatts 1300 # 10.0.223.175
+615e72 maxwatts 1000 # 10.0.224.7
+ad0b1f maxwatts 300 # 10.0.224.8
+3094d0 maxwatts 0 # 10.0.224.18
+c899a0 maxwatts 0 # 10.0.224.26
+865095 maxwatts -100 # 10.0.224.32
+94a3c3 maxwatts -100 # 10.0.224.37
+4c06b8 maxwatts 0 # 10.0.224.81
+e42129 maxwatts 100 # 10.0.224.111
+e3ce5c maxwatts 300 # 10.0.224.134
+cbc77e maxwatts 0 # 10.0.224.137
+4e0552 maxwatts -100 # 10.0.224.166
+839e1f maxwatts 500 # 10.0.225.42
+be5d42 maxwatts 1300 # 10.0.225.43
+1541e1 maxwatts 200 # 10.0.225.47
+a03b81 maxwatts -100 # 10.0.225.58
+03495a maxwatts 600 # 10.0.225.70
+c16782 maxwatts 1100 # 10.0.226.2
+071970 maxwatts 1400 # 10.0.226.9
+f5d121 maxwatts 1200 # 10.0.226.14
+bed5d9 maxwatts 1000 # 10.0.226.15
+0f2dda maxwatts 450 # 10.0.226.64
+85ec4c maxwatts 1000 # 10.0.226.72
+1ee0e9 maxwatts 1000 # 10.0.226.75
+3fd204 maxwatts 600 # 10.0.226.99
+8549c6 rebootasic 1567772378 # 10.0.223.1
+e832ef rebootasic 1567772378 # 10.0.223.7
+ad22e9 rebootasic 1567772378 # 10.0.223.93
+ab17e5 rebootasic 1567772378 # 10.0.223.122
+bc29e2 rebootasic 1567772378 # 10.0.223.175
+615e72 rebootasic 1567772378 # 10.0.224.7
+ad0b1f rebootasic 1567772378 # 10.0.224.8
+3094d0 rebootasic 1567772378 # 10.0.224.18
+c899a0 rebootasic 1567772378 # 10.0.224.26
+865095 rebootasic 1567772378 # 10.0.224.32
+94a3c3 rebootasic 1567772378 # 10.0.224.37
+4c06b8 rebootasic 1567772378 # 10.0.224.81
+e42129 rebootasic 1567772378 # 10.0.224.111
+e3ce5c rebootasic 1567772378 # 10.0.224.134
+cbc77e rebootasic 1567772378 # 10.0.224.137
+4e0552 rebootasic 1567772378 # 10.0.224.166
+839e1f rebootasic 1567772378 # 10.0.225.42
+be5d42 rebootasic 1567772378 # 10.0.225.43
+1541e1 rebootasic 1567772378 # 10.0.225.47
+a03b81 rebootasic 1567772378 # 10.0.225.58
+03495a rebootasic 1567772378 # 10.0.225.70
+c16782 rebootasic 1567772378 # 10.0.226.2
+071970 rebootasic 1567772378 # 10.0.226.9
+f5d121 rebootasic 1567772378 # 10.0.226.14
+bed5d9 rebootasic 1567772378 # 10.0.226.15
+0f2dda rebootasic 1567772378 # 10.0.226.64
+85ec4c rebootasic 1567772378 # 10.0.226.72
+1ee0e9 rebootasic 1567772378 # 10.0.226.75
+3fd204 rebootasic 1567772378 # 10.0.226.99
+
 8549c6 maxwatts 1200 # 10.0.223.1
 cc5e00 maxwatts 1400 # 10.0.223.23
 615e72 maxwatts 1100 # 10.0.224.7
@@ -2721,6 +2780,7 @@ e7f17f retune 1
 
 ## asic password
 asicpass admin
+
 
 
 
