@@ -23,11 +23,11 @@ global autoupdate yes
 global allowed yes
 global maxtemp 90
 global fanspeed 100
-# global fansaver yes
+global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
-# global retune 1
+global retune 1
 # global rebootasic 1
 # global resetasic 1
 # global panelpass gj83Nkgikg
@@ -46,16 +46,6 @@ vlan 10.0.66.116-116
 551f73 location CCADR00003
 
 ## tuning
-551f73 maxwatts 1350 # 10.0.66.116
-551f73 rebootasic 1565936122 # 10.0.66.116
-
-1c6e2b maxwatts 1350 # 10.0.64.153
-1c6e2b rebootasic 1565594372 # 10.0.64.153
-
-#removed overheat max watts 8.9.19 17:11 UTC
 
 ## asic password
 asicpass admin
-
-
-
