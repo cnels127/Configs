@@ -290,6 +290,11 @@ a6dc9b location CFELI00124
 16d5a9 location CFELI00125
 
 ## tuning
+5aad6c maxwatts 1050 # 10.0.228.127
+34307f maxwatts 850 # 10.0.228.152
+5aad6c rebootasic 1567762430 # 10.0.228.127
+34307f rebootasic 1567762430 # 10.0.228.152
+
 e04099 maxwatts 250 # 10.0.229.30
 c9374d maxwatts 550 # 10.0.229.89
 16d5a9 maxwatts 750 # 10.0.229.160
@@ -795,6 +800,7 @@ a6dc9b rebootasic 1567394685 # 10.0.229.159
 
 ## asic password
 asicpass admin
+
 
 
 
