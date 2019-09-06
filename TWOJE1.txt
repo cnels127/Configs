@@ -17,13 +17,14 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1575
+global maxwatts 1500
 
-global autoupdate no
+global autoupdate yes
 global allowed yes
 global maxtemp 90
 global fanspeed 100
-# global fansaver 65
+global fansaver yes
+global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
@@ -64,9 +65,3 @@ af01c7 rebootasic 1565398769 # 10.0.55.127
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
