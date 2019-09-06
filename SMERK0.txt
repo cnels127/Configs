@@ -990,6 +990,43 @@ db2219 location SMERK0876
 546516 location SMERK0877
 
 ## tuning
+ad0b1f maxwatts 600 # 10.0.224.8
+3094d0 maxwatts 300 # 10.0.224.18
+c899a0 maxwatts 200 # 10.0.224.26
+865095 maxwatts 100 # 10.0.224.32
+060916 maxwatts 1000 # 10.0.224.106
+9a258b maxwatts 1300 # 10.0.224.125
+35e5b2 maxwatts 700 # 10.0.224.127
+cbc77e maxwatts 400 # 10.0.224.137
+4e0552 maxwatts 200 # 10.0.224.166
+2c9613 maxwatts 1000 # 10.0.225.32
+a03b81 maxwatts 200 # 10.0.225.58
+bb2408 maxwatts 900 # 10.0.226.13
+88775f maxwatts 700 # 10.0.226.36
+e66eb3 maxwatts 1000 # 10.0.226.37
+85ec4c maxwatts 1300 # 10.0.226.72
+1ee0e9 maxwatts 1300 # 10.0.226.75
+e8330a maxwatts 900 # 10.0.226.91
+3fd204 maxwatts 800 # 10.0.226.99
+ad0b1f rebootasic 1567760723 # 10.0.224.8
+3094d0 rebootasic 1567760723 # 10.0.224.18
+c899a0 rebootasic 1567760723 # 10.0.224.26
+865095 rebootasic 1567760723 # 10.0.224.32
+060916 rebootasic 1567760723 # 10.0.224.106
+9a258b rebootasic 1567760723 # 10.0.224.125
+35e5b2 rebootasic 1567760723 # 10.0.224.127
+cbc77e rebootasic 1567760723 # 10.0.224.137
+4e0552 rebootasic 1567760723 # 10.0.224.166
+2c9613 rebootasic 1567760723 # 10.0.225.32
+a03b81 rebootasic 1567760723 # 10.0.225.58
+bb2408 rebootasic 1567760723 # 10.0.226.13
+88775f rebootasic 1567760723 # 10.0.226.36
+e66eb3 rebootasic 1567760723 # 10.0.226.37
+85ec4c rebootasic 1567760723 # 10.0.226.72
+1ee0e9 rebootasic 1567760723 # 10.0.226.75
+e8330a rebootasic 1567760723 # 10.0.226.91
+3fd204 rebootasic 1567760723 # 10.0.226.99
+
 fae9ca maxwatts 800 # 10.0.224.25
 94a3c3 maxwatts -100 # 10.0.224.37
 512376 maxwatts 700 # 10.0.224.73
@@ -2539,6 +2576,7 @@ e7f17f retune 1
 
 ## asic password
 asicpass admin
+
 
 
 
