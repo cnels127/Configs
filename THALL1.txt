@@ -19,11 +19,12 @@ global asicboost yes
 global autotune yes
 global maxwatts 1350
 
-global autoupdate no
+global autoupdate yes
 global allowed yes
 global maxtemp 90
 global fanspeed 100
-# global fansaver 65
+global fansaver yes
+global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
@@ -65,85 +66,12 @@ a9f19e location THALL0024
 255a6b location THALL0025
 
 ## tuning
-9c07f5 maxwatts 1150 # 10.0.32.24
-b28347 maxwatts 950 # 10.0.32.26
-2f1687 maxwatts 1050 # 10.0.32.27
-349aad maxwatts 950 # 10.0.32.35
-9c07f5 rebootasic 1567406912 # 10.0.32.24
-b28347 rebootasic 1567406912 # 10.0.32.26
-2f1687 rebootasic 1567406912 # 10.0.32.27
-349aad rebootasic 1567406912 # 10.0.32.35
-
-b28347 maxwatts 1050 # 10.0.32.26
-2f1687 maxwatts 1150 # 10.0.32.27
-f76afb maxwatts 1050 # 10.0.32.28
-349aad maxwatts 1050 # 10.0.32.35
-3ca507 maxwatts 1050 # 10.0.32.36
-b28347 rebootasic 1567405181 # 10.0.32.26
-2f1687 rebootasic 1567405181 # 10.0.32.27
-f76afb rebootasic 1567405181 # 10.0.32.28
-349aad rebootasic 1567405181 # 10.0.32.35
-3ca507 rebootasic 1567405181 # 10.0.32.36
-
-b28347 maxwatts 1150 # 10.0.32.26
-f76afb maxwatts 1150 # 10.0.32.28
-3bb8ac maxwatts 1250 # 10.0.32.31
-349aad maxwatts 1150 # 10.0.32.35
-3ca507 maxwatts 1150 # 10.0.32.36
-f0c13e maxwatts 1150 # 10.0.32.43
-255a6b maxwatts 1250 # 10.0.32.45
-b28347 rebootasic 1567403455 # 10.0.32.26
-f76afb rebootasic 1567403455 # 10.0.32.28
-3bb8ac rebootasic 1567403455 # 10.0.32.31
-349aad rebootasic 1567403455 # 10.0.32.35
-3ca507 rebootasic 1567403455 # 10.0.32.36
-f0c13e rebootasic 1567403455 # 10.0.32.43
-255a6b rebootasic 1567403455 # 10.0.32.45
-
-9c07f5 maxwatts 1250 # 10.0.32.24
-b28347 maxwatts 1250 # 10.0.32.26
-2f1687 maxwatts 1250 # 10.0.32.27
-f76afb maxwatts 1250 # 10.0.32.28
-349aad maxwatts 1250 # 10.0.32.35
-3ca507 maxwatts 1250 # 10.0.32.36
-f0c13e maxwatts 1250 # 10.0.32.43
-9c07f5 rebootasic 1567401730 # 10.0.32.24
-b28347 rebootasic 1567401730 # 10.0.32.26
-2f1687 rebootasic 1567401730 # 10.0.32.27
-f76afb rebootasic 1567401730 # 10.0.32.28
-349aad rebootasic 1567401730 # 10.0.32.35
-3ca507 rebootasic 1567401730 # 10.0.32.36
-f0c13e rebootasic 1567401730 # 10.0.32.43
-
-ee2241 maxwatts 1350
 82a2a7 maxwatts 1375
-138707 maxwatts 1350
-9c07f5 maxwatts 1350
-95c8d4 maxwatts 1350
-b28347 maxwatts 1350
-2f1687 maxwatts 1350
-f76afb maxwatts 1350
 c705d1 maxwatts 1375
 386253 maxwatts 1375
-3bb8ac maxwatts 1350
-85ba2c maxwatts 1350
 c58079 maxwatts 1375
 3eebad maxwatts 1375
-349aad maxwatts 1350
-3ca507 maxwatts 1350
-830c66 maxwatts 1350
 c191c4 maxwatts 1375
-b62e9a maxwatts 1350
-1d29a7 maxwatts 1350
-a966ea maxwatts 1350
-845f77 maxwatts 1350
-f0c13e maxwatts 1350
-a9f19e maxwatts 1350
-255a6b maxwatts 1350
 
 ## asic password
 asicpass admin
-
-
-
-
