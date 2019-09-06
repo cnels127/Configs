@@ -990,6 +990,59 @@ db2219 location SMERK0876
 546516 location SMERK0877
 
 ## tuning
+e832ef maxwatts 900 # 10.0.223.7
+707893 maxwatts 1200 # 10.0.223.15
+cc5e00 maxwatts 1200 # 10.0.223.23
+ad20e2 maxwatts 1100 # 10.0.223.48
+ae2afa maxwatts 1200 # 10.0.223.80
+ab17e5 maxwatts 1000 # 10.0.223.122
+38cf59 maxwatts 1200 # 10.0.223.125
+bc29e2 maxwatts 1000 # 10.0.223.175
+d723bc maxwatts 1400 # 10.0.224.4
+3094d0 maxwatts -100 # 10.0.224.18
+94a3c3 maxwatts -100 # 10.0.224.37
+4c06b8 maxwatts -100 # 10.0.224.81
+4d41a8 maxwatts 1300 # 10.0.224.83
+5a3ea6 maxwatts 1400 # 10.0.224.96
+e42129 maxwatts -100 # 10.0.224.111
+e3ce5c maxwatts -100 # 10.0.224.134
+cbc77e maxwatts -100 # 10.0.224.137
+4e0552 maxwatts -100 # 10.0.224.166
+bc50a4 maxwatts 1400 # 10.0.225.5
+a2131a maxwatts 800 # 10.0.225.37
+be5d42 maxwatts 800 # 10.0.225.43
+1541e1 maxwatts -100 # 10.0.225.47
+a03b81 maxwatts -100 # 10.0.225.58
+03495a maxwatts 400 # 10.0.225.70
+f5d121 maxwatts 900 # 10.0.226.14
+ae8e9d maxwatts 1400 # 10.0.226.70
+e832ef rebootasic 1567787458 # 10.0.223.7
+707893 rebootasic 1567787458 # 10.0.223.15
+cc5e00 rebootasic 1567787458 # 10.0.223.23
+ad20e2 rebootasic 1567787458 # 10.0.223.48
+ae2afa rebootasic 1567787458 # 10.0.223.80
+ab17e5 rebootasic 1567787458 # 10.0.223.122
+38cf59 rebootasic 1567787458 # 10.0.223.125
+bc29e2 rebootasic 1567787458 # 10.0.223.175
+d723bc rebootasic 1567787458 # 10.0.224.4
+3094d0 rebootasic 1567787458 # 10.0.224.18
+94a3c3 rebootasic 1567787458 # 10.0.224.37
+4c06b8 rebootasic 1567787458 # 10.0.224.81
+4d41a8 rebootasic 1567787458 # 10.0.224.83
+5a3ea6 rebootasic 1567787458 # 10.0.224.96
+e42129 rebootasic 1567787458 # 10.0.224.111
+e3ce5c rebootasic 1567787458 # 10.0.224.134
+cbc77e rebootasic 1567787458 # 10.0.224.137
+4e0552 rebootasic 1567787458 # 10.0.224.166
+bc50a4 rebootasic 1567787458 # 10.0.225.5
+a2131a rebootasic 1567787458 # 10.0.225.37
+be5d42 rebootasic 1567787458 # 10.0.225.43
+1541e1 rebootasic 1567787458 # 10.0.225.47
+a03b81 rebootasic 1567787458 # 10.0.225.58
+03495a rebootasic 1567787458 # 10.0.225.70
+f5d121 rebootasic 1567787458 # 10.0.226.14
+ae8e9d rebootasic 1567787458 # 10.0.226.70
+
 6e866a maxwatts 1400 # 10.0.223.75
 ab17e5 maxwatts 1100 # 10.0.223.122
 bc29e2 maxwatts 1100 # 10.0.223.175
@@ -2990,6 +3043,7 @@ e7f17f retune 1
 
 ## asic password
 asicpass admin
+
 
 
 
