@@ -990,6 +990,19 @@ db2219 location SMERK0876
 546516 location SMERK0877
 
 ## tuning
+707893 maxwatts 1400 # 10.0.223.15
+c899a0 maxwatts -100 # 10.0.224.26
+cbc77e maxwatts -100 # 10.0.224.137
+839e1f maxwatts 400 # 10.0.225.42
+be5d42 maxwatts 1100 # 10.0.225.43
+1541e1 maxwatts 0 # 10.0.225.47
+707893 rebootasic 1567776306 # 10.0.223.15
+c899a0 rebootasic 1567776306 # 10.0.224.26
+cbc77e rebootasic 1567776306 # 10.0.224.137
+839e1f rebootasic 1567776306 # 10.0.225.42
+be5d42 rebootasic 1567776306 # 10.0.225.43
+1541e1 rebootasic 1567776306 # 10.0.225.47
+
 e832ef maxwatts 1200 # 10.0.223.7
 3094d0 maxwatts -100 # 10.0.224.18
 fae9ca maxwatts 600 # 10.0.224.25
@@ -2803,6 +2816,7 @@ e7f17f retune 1
 
 ## asic password
 asicpass admin
+
 
 
 
