@@ -15,15 +15,16 @@ global username3 PGA
 global poolpass3 123
 global sendworker3 yes
 
-global autoupdate no
-global blinkgreen rapid
+global autoupdate yes
 global allowed yes
 global asicboost yes
 global autotune yes
 global maxwatts 1500
 global maxtemp 90
 global fanspeed 100
-# global fansaver 65
+global fansaver yes
+global blinkred idle
+global blinkgreen rapid
 
 # global retune 1
 # global rebootasic 1
@@ -69,39 +70,39 @@ vlan 172.16.203.187-187
 vlan 172.16.203.239-239
 
 ## locations
-64c473 location LKLIN0001
-16d3c8 location LKLIN0001
-16da58 location LKLIN0002
-d755b0 location LKLIN0002
-b3ad3a location LKLIN0003
-ea7c6e location LKLIN0003
-cd93e3 location LKLIN0004
-5617cc location LKLIN0004
-e49dd5 location LKLIN0005
-596464 location LKLIN0005
-fc23ff location LKLIN0006
-8d08ea location LKLIN0006
-a29038 location LKLIN0006
-ed846d location LKLIN0007
-6176ae location LKLIN0007
-2b0498 location LKLIN0008
-5351fb location LKLIN0009
-287685 location LKLIN0010
-7106b2 location LKLIN0010
-a410f2 location LKLIN0011
-05bd00 location LKLIN0012
-39ec5f location LKLIN0012
-a28737 location LKLIN0013
-788a72 location LKLIN0013
-5ad5c7 location LKLIN0014
-9b6fc6 location LKLIN0015
-d287d6 location LKLIN0015
-582a1e location LKLIN0016
-71126e location LKLIN0017
-ba3fd2 location LKLIN0018
-50d491 location LKLIN0018
-1b3d5a location LKLIN0019
-ad6d00 location LKLIN0020
+64c473 location LKLIN00001
+16d3c8 location LKLIN00001
+16da58 location LKLIN00002
+d755b0 location LKLIN00002
+b3ad3a location LKLIN00003
+ea7c6e location LKLIN00003
+cd93e3 location LKLIN00004
+5617cc location LKLIN00004
+e49dd5 location LKLIN00005
+596464 location LKLIN00005
+fc23ff location LKLIN00006
+8d08ea location LKLIN00006
+a29038 location LKLIN00006
+ed846d location LKLIN00007
+6176ae location LKLIN00007
+2b0498 location LKLIN00008
+5351fb location LKLIN00009
+287685 location LKLIN00010
+7106b2 location LKLIN00010
+a410f2 location LKLIN00011
+05bd00 location LKLIN00012
+39ec5f location LKLIN00012
+a28737 location LKLIN00013
+788a72 location LKLIN00013
+5ad5c7 location LKLIN00014
+9b6fc6 location LKLIN00015
+d287d6 location LKLIN00015
+582a1e location LKLIN00016
+71126e location LKLIN00017
+ba3fd2 location LKLIN00018
+50d491 location LKLIN00018
+1b3d5a location LKLIN00019
+ad6d00 location LKLIN00020
 
 ## tuning
 
