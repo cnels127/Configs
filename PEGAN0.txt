@@ -19,11 +19,12 @@ global asicboost yes
 global autotune yes
 global maxwatts 1350
 
-global autoupdate no
+global autoupdate yes
 global allowed yes
 global maxtemp 90
 global fanspeed 100
-# global fansaver 65
+global fansaver yes
+global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
@@ -40,12 +41,48 @@ vlan 10.0.55.142-142
 vlan 10.0.62.27-27
 vlan 10.0.68.34-35
 
+vlan 10.0.220.41-41
+vlan 10.0.220.42-42
+vlan 10.0.223.146-146
+vlan 10.0.224.103-103
+vlan 10.0.224.120-120
+vlan 10.0.224.122-122
+vlan 10.0.224.125-125
+vlan 10.0.224.126-126
+vlan 10.0.224.130-130
+vlan 10.0.224.131-131
+vlan 10.0.224.143-143
+vlan 10.0.224.166-166
+vlan 10.0.224.172-172
+vlan 10.0.225.1-1
+vlan 10.0.225.11-11
+vlan 10.0.225.12-12
+vlan 10.0.225.22-22
+
 ## locations
 5a3dde location PEGAN00001
 44c925 location PEGAN00002
 63f1ab location PEGAN00003
 ef1f6e location PEGAN00004
 38d579 location PEGAN00005
+
+c1a1c1 location PEGAN00006
+499bef location PEGAN00006
+2a7de4 location PEGAN00007
+6c96dd location PEGAN00008
+b6ea4d location PEGAN00009
+0be583 location PEGAN00010
+9a258b location PEGAN00011
+d20101 location PEGAN00007
+a03c97 location PEGAN00008
+f49c47 location PEGAN00009
+e6d42b location PEGAN00010
+4e0552 location PEGAN00011
+d1c299 location PEGAN00012
+d3efbf location PEGAN00013
+f1ae88 location PEGAN00014
+9373bb location PEGAN00015
+4900fd location PEGAN00015
 
 ## tuning
 63f1ab retune 1
