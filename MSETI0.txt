@@ -16,14 +16,15 @@ global poolpass3 12345
 global sendworker3 yes
 
 global autoupdate yes
-global blinkgreen rapid
 global allowed yes
 global asicboost yes
 global autotune yes
 global maxwatts 1500
 global maxtemp 90
 global fanspeed 100
-# global fansaver 65
+global fansaver yes
+global blinkred idle
+global blinkgreen rapid
 
 # global retune 1
 # global rebootasic 1
@@ -40,19 +41,15 @@ vlan 10.0.63.160-160
 vlan 10.0.58.19-19
 
 ## locations
-743db3 location bit01s916th
-7efb10 location bit02s916th
-7104a2 location bit02s916th
-a22315 location bit03s916th
+743db3 location MSETI00001
+7efb10 location MSETI00002
+7104a2 location MSETI00003
+a22315 location MSETI00004
 
 ## tuning
-
 743db3 retune 1
 7104a2 retune 1
 a22315 retune 1
 
 ## asic password
 asicpass admin
-
-
-
