@@ -17,12 +17,13 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1450
-global autoupdate no
+global maxwatts 1500
+global autoupdate yes
 global allowed yes
 global maxtemp 90
 global fanspeed 100
-# global fansaver 65
+global fansaver yes
+global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
@@ -43,7 +44,5 @@ vlan 172.16.203.99-99
 7fe818 maxwatts 1350 # 172.16.203.99
 7fe818 rebootasic 1567444891 # 172.16.203.99
 
-
 ## asic password
 asicpass admin
-
