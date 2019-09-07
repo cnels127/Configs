@@ -1,6 +1,6 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
 
-global custompanel FHOEF1bit049
+global custompanel FHOEF0bit049
 
 global poolname1 eu.ss.btc.com:1800
 global username1 Franks
@@ -22,7 +22,7 @@ global autoupdate yes
 global allowed yes
 global maxtemp 90
 global fanspeed 100
-# global fansaver yes
+global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
@@ -35,16 +35,16 @@ global retune 1
 # group=rowd allowed no
 
 ## vlans
-# vlan 10.0.55.85-85
-# vlan 10.0.55.101-101
-# vlan 10.0.55.107-107
-# vlan 10.0.55.140-140
-# vlan 10.0.55.153-153
-# vlan 10.0.55.157-157
-# vlan 10.0.56.59-59
-# vlan 10.0.56.79-79
-# vlan 10.0.56.85-85
-# vlan 10.0.56.88-88
+vlan 10.0.55.85-85
+vlan 10.0.55.101-101
+vlan 10.0.55.107-107
+vlan 10.0.55.140-140
+vlan 10.0.55.153-153
+vlan 10.0.55.157-157
+vlan 10.0.56.59-59
+vlan 10.0.56.79-79
+vlan 10.0.56.85-85
+vlan 10.0.56.88-88
 vlan 10.0.62.30-30
 vlan 10.0.63.144-144
 vlan 10.0.64.58-58
@@ -66,37 +66,75 @@ vlan 10.0.67.143-143
 vlan 10.0.68.9-9
 vlan 10.0.68.13-13
 
+vlan 10.0.225.23-23
+vlan 10.0.225.31-31
+vlan 10.0.225.43-43
+vlan 10.0.225.49-49
+vlan 10.0.225.51-51
+vlan 10.0.225.57-57
+vlan 10.0.225.58-58
+vlan 10.0.225.67-67
+vlan 10.0.225.104-104
+vlan 10.0.226.2-2
+vlan 10.0.226.5-5
+vlan 10.0.226.11-11
+vlan 10.0.226.16-16
+vlan 10.0.226.17-17
+vlan 10.0.226.33-33
+vlan 10.0.226.36-36
+vlan 10.0.226.55-55
+
+
 ## locations
-84fddc location FHOEF0001
-7e7126 location FHOEF0002
-1a7d47 location FHOEF0003
-e0ccfa location FHOEF0004
-0faa22 location FHOEF0005
-de83b4 location FHOEF0006
-167d2c location FHOEF0007
-8d76ff location FHOEF0008
-17e1e7 location FHOEF0009
-d2d829 location FHOEF0010
-99d76d location FHOEF0011
-b6e889 location FHOEF0012
-dcbbe1 location FHOEF0013
-ed92f7 location FHOEF0014
-e4b5b6 location FHOEF0015
-a3e024 location FHOEF0016
-bc2299 location FHOEF0017
-fe05ff location FHOEF0018
-e8cf8b location FHOEF0019
-e7f1a9 location FHOEF0020
-8342ab location FHOEF0021
-b3897a location FHOEF0022
-a2cb7c location FHOEF0023
-ae42ad location FHOEF0024
-d3176c location FHOEF0025
-67304d location FHOEF0026
-64cc79 location FHOEF0027
-589176 location FHOEF0028
-e3f444 location FHOEF0029
-73ee2e location FHOEF0030
+84fddc location FHOEF00001
+7e7126 location FHOEF00002
+1a7d47 location FHOEF00003
+e0ccfa location FHOEF00004
+0faa22 location FHOEF00005
+de83b4 location FHOEF00006
+167d2c location FHOEF00007
+8d76ff location FHOEF00008
+17e1e7 location FHOEF00009
+d2d829 location FHOEF00010
+99d76d location FHOEF00011
+b6e889 location FHOEF00012
+dcbbe1 location FHOEF00013
+ed92f7 location FHOEF00014
+e4b5b6 location FHOEF00015
+a3e024 location FHOEF00016
+bc2299 location FHOEF00017
+fe05ff location FHOEF00018
+e8cf8b location FHOEF00019
+e7f1a9 location FHOEF00020
+8342ab location FHOEF00021
+b3897a location FHOEF00022
+a2cb7c location FHOEF00023
+ae42ad location FHOEF00024
+d3176c location FHOEF00025
+67304d location FHOEF00026
+64cc79 location FHOEF00027
+589176 location FHOEF00028
+e3f444 location FHOEF00029
+73ee2e location FHOEF00030
+
+4ffb50 location FHOEF00031
+584490 location FHOEF00032
+be5d42 location FHOEF00033
+bad6b7 location FHOEF00034
+1444fa location FHOEF00035
+e2c437 location FHOEF00031
+a03b81 location FHOEF00033
+873362 location FHOEF00036
+9c860e location FHOEF00040
+c16782 location FHOEF00037
+c71a7f location FHOEF00034
+2bf2a8 location FHOEF00035
+d560da location FHOEF00039
+9e743b location FHOEF00036
+752979 location FHOEF00038
+88775f location FHOEF00032
+7fdd93 location FHOEF00037
+
 
 
 ## tuning
@@ -167,20 +205,3 @@ e3f444 maxwatts 1150
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
