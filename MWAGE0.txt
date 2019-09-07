@@ -1,6 +1,6 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
 
-global custompanel MWAGE1bit049
+global custompanel MWAGE0bit049
 
 global poolname1 eu.ss.btc.com:1800
 global username1 Mwags1001
@@ -19,11 +19,12 @@ global asicboost yes
 global autotune yes
 global maxwatts 1350
 
-global autoupdate no
+global autoupdate yes
 global allowed yes
 global maxtemp 90
 global fanspeed 100
-# global fansaver 65
+global fansaver yes
+global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
@@ -40,20 +41,11 @@ vlan 10.0.60.129-129
 vlan 10.0.60.161-161
 
 ## locations
-9b0fa1 location MWAGE0001
-96ae02 location MWAGE0002
-6364b7 location MWAGE0003
+9b0fa1 location MWAGE00001
+96ae02 location MWAGE00002
+6364b7 location MWAGE00003
 
 ## tuning
-#removed overheat max watts 8.9.19 17:45 UTC
-
-
-9b0fa1 maxwatts 1350
-96ae02 maxwatts 1350
-6364b7 maxwatts 1350
 
 ## asic password
 asicpass admin
-
-
-
