@@ -1,6 +1,6 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
 
-global custompanel JGIBL1bit049
+global custompanel JGIBL0bit049
 
 global poolname1 bitcoin-russia.ru:3333
 global username1 1B1G4VbTjJ8a5XeHmeLTtW8NmmEXwe6SeK
@@ -27,40 +27,25 @@ global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
-# global retune 1
+global retune 1
 # global rebootasic 1
-# global resetasic 1
+global resetasic 1
 # global panelpass gj83Nkgikg
 
 # group=rowc rebootasic 1
 # group=rowd allowed no
 
-## vlans (vlan [IP Address])
+## vlans
 vlan 10.0.55.151-151
 vlan 10.0.55.158-158
 vlan 10.0.56.90-90
 
-## locations ([ASICID] location [name])
-615313 location JGIBL0001
-b897c7 location JGIBL0002
-ffc9c8 location JGIBL0003
+## locations
+615313 location JGIBL00001
+b897c7 location JGIBL00002
+ffc9c8 location JGIBL00003
 
 ## tuning
-615313 maxwatts 1400 # 10.0.55.151
-615313 rebootasic 1565410224 # 10.0.55.151
-
-#removed overheat max watts 8.9.19 17:25 UTC
-
-b897c7 maxwatts 1250
-b897c7 maxwatts 1300
-ffc9c8 maxwatts 1400
-615313 maxwatts 1500
-ffc9c8 maxwatts 1450
 
 ## asic password
 asicpass admin
-
-
-
-
-
