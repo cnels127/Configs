@@ -1,0 +1,91 @@
+## instructions available at: https://asicseer.com/page/kb#writing-config
+
+global custompanel HFISC0bit049
+
+global poolname1 eu.ss.btc.com:1800
+global username1 HoeffischRUS1
+global poolpass1 1234
+global sendworker1 yes
+global poolname2 eu.ss.btc.com:443
+global username2 HoeffischRUS1
+global poolpass2 1234
+global sendworker2 yes
+global poolname3 eu.ss.btc.com:25
+global username3 HoeffischRUS1
+global poolpass3 1234
+global sendworker3 yes
+
+global asicboost yes
+global autotune yes
+global maxwatts 1350
+
+global autoupdate yes
+global allowed yes
+global maxtemp 90
+global fanspeed 100
+global fansaver yes
+global blinkred idle
+global blinkgreen rapid
+
+global retune 1
+global rebootasic 2
+# global resetasic 1
+# global panelpass gj83Nkgikg
+
+# group=rowc rebootasic 1
+# group=rowd allowed no
+
+## vlans
+vlan 10.0.68.54-63
+vlan 10.0.56.131-131
+vlan 10.0.56.134-135
+vlan 10.0.56.138-143
+vlan 10.0.56.145-145
+vlan 10.0.59.151-151
+vlan 10.0.60.33-33
+vlan 10.0.60.47-47
+vlan 10.0.60.59-59
+vlan 10.0.60.69-69
+vlan 10.0.60.71-71
+vlan 10.0.60.119-119
+vlan 10.0.60.158-158
+vlan 10.0.61.4-4
+vlan 10.0.61.14-14
+
+## locations
+994f1c location HFISC00001
+88a339 location HFISC00002
+88395a location HFISC00003
+80a659 location HFISC00004
+7a1084 location HFISC00005
+1c50a6 location HFISC00006
+27398f location HFISC00007
+1cfdcb location HFISC00008
+6efefd location HFISC00009
+2fd188 location HFISC00010
+2d90d3 location HFISC00011
+d049a1 location HFISC00012
+9a346c location HFISC00013
+cb9593 location HFISC00014
+f3d8b8 location HFISC00015
+1fc674 location HFISC00016
+779e72 location HFISC00017
+2020a9 location HFISC00018
+618b1a location HFISC00019
+bff483 location HFISC00020
+424037 location HFISC00021
+bca239 location HFISC00022
+c899f8 location HFISC00023
+e2ac32 location HFISC00024
+b688aa location HFISC00025
+d24d19 location HFISC00026
+972425 location HFISC00027
+f13d6c location HFISC00028
+c8c445 location HFISC00029
+de5a58 location HFISC00030
+
+## tuning
+972425 retune 1
+
+## asic password
+asicpass admin
