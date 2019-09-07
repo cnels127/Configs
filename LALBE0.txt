@@ -1,0 +1,66 @@
+## instructions available at: https://asicseer.com/page/kb#writing-config
+
+global custompanel LALBE0bit049
+
+global poolname1 eu.stratum.slushpool.com:3333
+global username1 odinfjurbag
+global poolpass1 123
+global sendworker1 yes
+global poolname2 us-east.stratum.slushpool.com:3333
+global username2 odinfjurbag
+global poolpass2 123
+global sendworker2 yes
+global poolname3 stratum.slushpool.com:3333
+global username3 odinfjurbag
+global poolpass3 x
+global sendworker3 yes
+
+global asicboost yes
+global autotune yes
+global maxwatts 1350
+
+global autoupdate yes
+global allowed yes
+global maxtemp 90
+global fanspeed 100
+global fansaver yes
+global blinkred idle
+global blinkgreen rapid
+
+# global retune 1
+# global rebootasic 1
+# global resetasic 1
+# global panelpass gj83Nkgikg
+
+# group=rowc rebootasic 1
+# group=rowd allowed no
+
+## vlans
+vlan 10.0.56.120-120
+vlan 10.0.56.122-124
+vlan 10.0.56.126-126
+vlan 10.0.64.77-77
+vlan 10.0.64.127-127
+vlan 10.0.65.12-12
+vlan 10.0.66.8-8
+vlan 10.0.67.6-6
+vlan 10.0.68.11-11
+
+## location
+b49a7f location LALBE00001
+21619f location LALBE00002
+ab49a7 location LALBE00003
+c935fd location LALBE00004
+a9cee7 location LALBE00005
+e3af8a location LALBE00006
+739481 location LALBE00007
+6eb9e6 location LALBE00008
+701541 location LALBE00009
+979f86 location LALBE00010
+4363c7 location LALBE00011
+
+## tuning
+b49a7f retune 2
+
+## asic password
+asicpass admin
