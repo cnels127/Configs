@@ -19,16 +19,17 @@ global asicboost yes
 global autotune yes
 global maxwatts 1300
 
-global autoupdate no
+global autoupdate yes
 global allowed yes
 global maxtemp 90
 global fanspeed 100
-# global fansaver 65
+global fansaver yes
+global blinkred idle
 global blinkgreen rapid
 
 global retune 1
 global rebootasic 4
-# global resetasic 1
+global resetasic 1
 # global panelpass gj83Nkgikg
 
 # group=rowc rebootasic 1
@@ -59,225 +60,39 @@ vlan 172.16.204.234-235
 vlan 172.16.202.134-134
 
 ## locations
-80297d location KTAEYCOS18D01
-251a2b location KTAEYCOS18D02
-57f039 location KTAEYCOS18D03
-5a6128 location KTAEYCOS18D04
-6639db location KTAEYCOS18D05
-3b2de6 location KTAEYCOS18D06
-6eddf3 location KTAEYCOS18D07
-9f4edd location KTAEYCOS18D08
-f903c9 location KTAEYCOS18D09
-1c301c location KTAEYCOS18D10
-ab09dd location KTAEYCOS18D11
-bb6c13 location KTAEYCOS18D12
-5e6e74 location KTAEYCOS18D13
-2009e5 location KTAEYCOS18D14
-5d74b2 location KTAEYCOS18D15
-320c94 location KTAEYCOS18D16
-bac719 location KTAEYCOS18D17
-66ddea location KTAEYCOS18D18
-2e6730 location KTAEYCOS18D19
-4753df location KTAEYCOS18D20
-fc079b location KTAEYCOS18D21
-90043c location KTAEYCOS18D22
-bb75a4 location KTAEYCOS18D23
-4b62dd location KTAEYCOS18D24
-0c7167 location KTAEYCOS18D25
-37d0b3 location KTAEYCOS18D26
-f3ad1d location KTAEYCOS18D27
-f11c7d location KTAEYCOS18D28
-3dd8b5 location KTAEYCOS18D29
-05de13 location KTAEYCOS18D30
-ef85ce location KTAEYCOS18D31
+80297d location KTAEY10001
+251a2b location KTAEY10002
+57f039 location KTAEY10003
+5a6128 location KTAEY10004
+6639db location KTAEY10005
+3b2de6 location KTAEY10006
+6eddf3 location KTAEY10007
+9f4edd location KTAEY10008
+ location KTAEY10009
+ location KTAEY10010
+ab09dd location KTAEY10011
+bb6c13 location KTAEY10012
+5e6e74 location KTAEY10013
+2009e5 location KTAEY10014
+5d74b2 location KTAEY10015
+320c94 location KTAEY10016
+bac719 location KTAEY10017
+66ddea location KTAEY10018
+2e6730 location KTAEY10019
+4753df location KTAEY10020
+ location KTAEY10021
+90043c location KTAEY10022
+bb75a4 location KTAEY10023
+4b62dd location KTAEY10024
+0c7167 location KTAEY10025
+37d0b3 location KTAEY10026
+ location KTAEY10027
+f11c7d location KTAEY10028
+3dd8b5 location KTAEY10029
+05de13 location KTAEY10030
+ef85ce location KTAEY10031
 
 ## tuning
-6a253c maxwatts 1000 # 172.16.203.243
-2e6730 maxwatts 400 # 172.16.202.104
-90043c maxwatts 1100 # 172.16.204.235
-6a253c rebootasic 1567727221 # 172.16.203.243
-2e6730 rebootasic 1567727221 # 172.16.202.104
-90043c rebootasic 1567727221 # 172.16.204.235
-
-2e6730 maxwatts 500 # 172.16.202.104
-4b62dd maxwatts 1000 # 172.16.202.108
-0c7167 maxwatts 1000 # 172.16.202.18
-37d0b3 maxwatts 1100 # 172.16.204.107
-3dd8b5 maxwatts 1100 # 172.16.204.219
-2e6730 rebootasic 1567611788 # 172.16.202.104
-4b62dd rebootasic 1567611788 # 172.16.202.108
-0c7167 rebootasic 1567611788 # 172.16.202.18
-37d0b3 rebootasic 1567611788 # 172.16.204.107
-3dd8b5 rebootasic 1567611788 # 172.16.204.219
-
-6a253c maxwatts 1100 # 172.16.203.243
-6a253c rebootasic 1567139110 # 172.16.203.243
-
-5d74b2 maxwatts 1000 # 172.16.202.100
-251a2b maxwatts 1100 # 172.16.204.184
-5d74b2 rebootasic 1567099601 # 172.16.202.100
-251a2b rebootasic 1567099601 # 172.16.204.184
-
-6a253c maxwatts 1200 # 172.16.203.243
-6a253c rebootasic 1567094505 # 172.16.203.243
-
-5a6128 maxwatts 1000 # 172.16.204.111
-5a6128 rebootasic 1567006472 # 172.16.204.111
-
-2e6730 maxwatts 600 # 172.16.202.104
-2e6730 rebootasic 1566600078 # 172.16.202.104
-
-251a2b maxwatts 1200 # 172.16.204.184
-ab09dd maxwatts 1200 # 172.16.204.110
-5e6e74 maxwatts 1300 # 172.16.200.70
-2009e5 maxwatts 1000 # 172.16.204.234
-5d74b2 maxwatts 1100 # 172.16.202.100
-320c94 maxwatts 900 # 172.16.204.102
-bac719 maxwatts 1100 # 172.16.204.103
-66ddea maxwatts 1100 # 172.16.202.103
-2e6730 maxwatts 700 # 172.16.202.104
-4753df maxwatts 800 # 172.16.202.105
-bb75a4 maxwatts 1100 # 172.16.202.107
-4b62dd maxwatts 1100 # 172.16.202.108
-0c7167 maxwatts 1100 # 172.16.202.18
-37d0b3 maxwatts 1200 # 172.16.204.107
-3dd8b5 maxwatts 1200 # 172.16.204.219
-ef85ce maxwatts 1200 # 172.16.204.227
-251a2b rebootasic 1566597618 # 172.16.204.184
-ab09dd rebootasic 1566597618 # 172.16.204.110
-5e6e74 rebootasic 1566597618 # 172.16.200.70
-2009e5 rebootasic 1566597618 # 172.16.204.234
-5d74b2 rebootasic 1566597618 # 172.16.202.100
-320c94 rebootasic 1566597618 # 172.16.204.102
-bac719 rebootasic 1566597618 # 172.16.204.103
-66ddea rebootasic 1566597618 # 172.16.202.103
-2e6730 rebootasic 1566597618 # 172.16.202.104
-4753df rebootasic 1566597618 # 172.16.202.105
-bb75a4 rebootasic 1566597618 # 172.16.202.107
-4b62dd rebootasic 1566597618 # 172.16.202.108
-0c7167 rebootasic 1566597618 # 172.16.202.18
-37d0b3 rebootasic 1566597618 # 172.16.204.107
-3dd8b5 rebootasic 1566597618 # 172.16.204.219
-ef85ce rebootasic 1566597618 # 172.16.204.227
-
-66ddea maxwatts 1200 # 172.16.202.103
-2e6730 maxwatts 800 # 172.16.202.104
-66ddea rebootasic 1566515174 # 172.16.202.103
-2e6730 rebootasic 1566515174 # 172.16.202.104
-
-320c94 maxwatts 1000 # 172.16.204.102
-2e6730 maxwatts 900 # 172.16.202.104
-320c94 rebootasic 1566511509 # 172.16.204.102
-2e6730 rebootasic 1566511509 # 172.16.202.104
-
-2e6730 maxwatts 1000 # 172.16.202.104
-4753df maxwatts 900 # 172.16.202.105
-2e6730 rebootasic 1566484255 # 172.16.202.104
-4753df rebootasic 1566484255 # 172.16.202.105
-
-4753df maxwatts 1000 # 172.16.202.105
-4753df rebootasic 1566430054 # 172.16.202.105
-
-3b2de6 maxwatts 1200 # 172.16.202.187
-3b2de6 rebootasic 1566321965 # 172.16.202.187
-
-bb6c13 maxwatts 1100 # 172.16.202.98
-bb6c13 rebootasic 1566235049 # 172.16.202.98
-
-90043c maxwatts 1200 # 172.16.204.235
-90043c rebootasic 1566102030 # 172.16.204.235
-
-4753df maxwatts 1100 # 172.16.202.105
-4753df rebootasic 1566091685 # 172.16.202.105
-
-2e6730 maxwatts 1100 # 172.16.202.104
-2e6730 rebootasic 1565902241 # 172.16.202.104
-
-6eddf3 maxwatts 1200 # 172.16.204.112
-6eddf3 rebootasic 1565894420 # 172.16.204.112
-
-6eddf3 maxwatts 1200 # 172.16.204.112
-2009e5 maxwatts 1100 # 172.16.204.234
-320c94 maxwatts 1100 # 172.16.204.102
-4b62dd maxwatts 1200 # 172.16.202.108
-0c7167 maxwatts 1200 # 172.16.202.18
-6eddf3 rebootasic 1565893291 # 172.16.204.112
-2009e5 rebootasic 1565893291 # 172.16.204.234
-320c94 rebootasic 1565893291 # 172.16.204.102
-4b62dd rebootasic 1565893291 # 172.16.202.108
-0c7167 rebootasic 1565893291 # 172.16.202.18
-
-80297d maxwatts 900 # 172.16.202.86
-bb75a4 maxwatts 1200 # 172.16.202.107
-80297d rebootasic 1565890612 # 172.16.202.86
-bb75a4 rebootasic 1565890612 # 172.16.202.107
-
-80297d maxwatts 900 # 172.16.202.86
-5a6128 maxwatts 1100 # 172.16.204.111
-bb75a4 maxwatts 1200 # 172.16.202.107
-80297d rebootasic 1565889745 # 172.16.202.86
-5a6128 rebootasic 1565889745 # 172.16.204.111
-bb75a4 rebootasic 1565889745 # 172.16.202.107
-
-57f039 maxwatts 900 # 172.16.202.87
-6eddf3 maxwatts 1300 # 172.16.204.112
-4753df maxwatts 1200 # 172.16.202.105
-57f039 rebootasic 1565801605 # 172.16.202.87
-6eddf3 rebootasic 1565801605 # 172.16.204.112
-4753df rebootasic 1565801605 # 172.16.202.105
-
-80297d maxwatts 1000 # 172.16.202.86
-80297d rebootasic 1565629705 # 172.16.202.86
-
-57f039 maxwatts 1000 # 172.16.202.87
-320c94 maxwatts 1200 # 172.16.204.102
-57f039 rebootasic 1565557527 # 172.16.202.87
-320c94 rebootasic 1565557527 # 172.16.204.102
-
-2009e5 maxwatts 1200 # 172.16.204.234
-2009e5 rebootasic 1565465152 # 172.16.204.234
-
-5a6128 maxwatts 1200 # 172.16.204.111
-5a6128 rebootasic 1565461229 # 172.16.204.111
-
-80297d maxwatts 1100 # 172.16.202.86
-5a6128 maxwatts 1300 # 172.16.204.111
-5d74b2 maxwatts 1200 # 172.16.202.100
-80297d rebootasic 1565457379 # 172.16.202.86
-5a6128 rebootasic 1565457379 # 172.16.204.111
-5d74b2 rebootasic 1565457379 # 172.16.202.100
-
-2009e5 maxwatts 1300 # 172.16.204.234
-2009e5 rebootasic 1565455484 # 172.16.204.234
-
-80297d maxwatts 1200 # 172.16.202.86
-80297d rebootasic 1565453550 # 172.16.202.86
-
-57f039 maxwatts 1100 # 172.16.202.87
-57f039 rebootasic 1565451656 # 172.16.202.87
-
-57f039 maxwatts 1200 # 172.16.202.87
-57f039 rebootasic 1565406415 # 172.16.202.87
-
-2e6730 maxwatts 1200 # 172.16.202.104
-2e6730 rebootasic 1565398585 # 172.16.202.104
-
-80297d maxwatts 1300 # 172.16.202.86
-bb6c13 maxwatts 1200 # 172.16.202.98
-bac719 maxwatts 1200 # 172.16.204.103
-80297d rebootasic 1565396666 # 172.16.202.86
-bb6c13 rebootasic 1565396666 # 172.16.202.98
-bac719 rebootasic 1565396666 # 172.16.204.103
-
-#removed overheat max watts 8.9.19 17:35 UTC
-
-5a6128 maxwatts 1400
-80297d maxwatts 1400
-6639db maxwatts 1400
-6eddf3 maxwatts 1400
-9f4edd maxwatts 1400
-5e6e74 maxwatts 1400
-2009e5 maxwatts 1400
 5a6128 retune 1
 80297d retune 1
 6639db retune 1
@@ -291,41 +106,3 @@ bac719 rebootasic 1565396666 # 172.16.204.103
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
