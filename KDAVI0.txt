@@ -18,13 +18,14 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1450
+global maxwatts 1500
 
-global autoupdate no
+global autoupdate yes
 global allowed yes
 global maxtemp 90
 global fanspeed 100
-# global fansaver 65
+global fansaver yes
+global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
@@ -48,13 +49,8 @@ cf1a34 location KDAVI00001
 8ef4ad location KDAVI00006
 
 ## tuning
-cf1a34 maxwatts 1350 # 10.0.54.148
-cf1a34 rebootasic 1567741959 # 10.0.54.148
-
-
+cf1a34 maxwatts 1450
+cf1a34 retune 1
 
 ## asic password
 asicpass admin
-
-
-
