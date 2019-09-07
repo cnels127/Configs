@@ -1,6 +1,6 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
 
-global custompanel JLUI011bit049
+global custompanel JLUI00bit049
 
 global poolname1 cn.ss.btc.com:1800
 global username1 bit49
@@ -17,13 +17,13 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1325
-global throttle 100
+global maxwatts 1350
 global autoupdate yes
 global allowed yes
 global maxtemp 90
 global fanspeed 100
-# global fansaver 65
+global fansaver yes
+global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
@@ -39,13 +39,10 @@ vlan 10.0.59.69-69
 vlan 10.0.62.64-64
 
 ## locations
-80218d location JLUI0001
-10ecee location JLUI0001
+80218d location JLUI000001
+10ecee location JLUI000001
 
 ## tuning
-#removed overheat max watts 8.9.19 17:30 UTC
 
 ## asic password
 asicpass admin
-
-
