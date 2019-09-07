@@ -1,0 +1,95 @@
+## instructions available at: https://asicseer.com/page/kb#writing-config
+
+global custompanel JBETH0bit049
+
+global poolname1 eu.stratum.slushpool.com:3333
+global username1 johnbeth
+global poolpass1 123
+global sendworker1 yes
+global poolname2 us-east.stratum.slushpool.com:3333
+global username2 johnbeth
+global poolpass2 123
+global sendworker2 yes
+global poolname3 cn.stratum.slushpool.com:3333
+global username3 johnbeth
+global poolpass3 123
+global sendworker3 yes
+
+global asicboost yes
+global autotune yes
+global maxwatts 1500
+
+global autoupdate yes
+global allowed yes
+global maxtemp 90
+global fanspeed 100
+global fansaver yes
+global blinkred idle
+global blinkgreen rapid
+
+global retune 1
+# global rebootasic 1
+# global resetasic 1
+# global panelpass gj83Nkgikg
+
+# group=rowc rebootasic 1
+# group=rowd allowed no
+
+## vlans
+vlan 10.0.68.48-52
+vlan 10.0.68.102-108
+vlan 10.0.59.129-129
+vlan 10.0.59.131-131
+vlan 10.0.60.18-18
+vlan 10.0.60.35-35
+vlan 10.0.60.100-100
+vlan 10.0.60.102-102
+vlan 10.0.60.131-131
+vlan 10.0.60.143-143
+
+## locations
+2462cd location JBETH00001
+966dd1 location JBETH00002
+37ffb3 location JBETH00003
+084a54 location JBETH00004
+b340b4 location JBETH00005
+434e7d location JBETH00006
+2c969d location JBETH00007
+690f5d location JBETH00008
+406249 location JBETH00009
+39be0c location JBETH00010
+e67e88 location JBETH00011
+6c73b3 location JBETH00012
+45ff0c location JBETH00013
+95c235 location JBETH00014
+f9164a location JBETH00015
+4db5d3 location JBETH00016
+aba209 location JBETH00017
+d549fd location JBETH00018
+f0ed76 location JBETH00019
+8f1d39 location JBETH00020
+
+## tuning
+45ff0c maxwatts 1350
+95c235 maxwatts 1350
+f9164a maxwatts 1350
+4db5d3 maxwatts 1350
+aba209 maxwatts 1350
+d549fd maxwatts 1350
+f0ed76 maxwatts 1350
+8f1d39 maxwatts 1350
+
+2462cd retune 1
+966dd1 retune 1
+084a54 retune 1
+b340b4 retune 1
+434e7d retune 1
+2c969d retune 1
+690f5d retune 1
+406249 retune 2
+e67e88 retune 2
+45ff0c retune 2
+d549fd retune 2
+
+## asic password
+asicpass admin
