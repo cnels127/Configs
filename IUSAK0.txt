@@ -1,6 +1,6 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
 
-global custompanel IUSAK1bit049
+global custompanel IUSAK0bit049
 
 global poolname1 eu.stratum.slushpool.com:3333
 global username1 ushkin
@@ -19,14 +19,15 @@ global asicboost yes
 global autotune yes
 global maxwatts 1500
 
-global autoupdate no
+global autoupdate yes
 global allowed yes
 global maxtemp 90
 global fanspeed 100
-# global fansaver 65
+global fansaver yes
+global blinkred idle
 global blinkgreen rapid
 
-# global retune 1
+global retune 1
 # global rebootasic 1
 # global resetasic 1
 # global panelpass gj83Nkgikg
@@ -39,14 +40,10 @@ vlan 10.0.61.1-1
 vlan 10.0.61.9-9
 
 ## locations
-fae03c location IUSAK0001
-b65b8a location IUSAK0002
+fae03c location IUSAK00001
+b65b8a location IUSAK00002
 
 ## tuning
-#removed overheat max watts 8.9.19 17:25 UTC
-
-fae03c maxwatts 1500
-b65b8a maxwatts 1500
 
 ## asic password
 asicpass admin
