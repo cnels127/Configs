@@ -49,7 +49,9 @@ a01578 location JPAUL00004
 9c326c location JPAUL00005
 
 ## tuning
-a01578 maxwatts 1050 # overheat 09072019
+# generated on Sep 07 2019 23:44:12 utc: 1567899852: 1567899852
+a01578 maxwatts 950 # 10.0.56.83
+a01578 rebootasic 1567899852 # 10.0.56.83
 
 ## asic password
 asicpass admin
