@@ -1,0 +1,198 @@
+## instructions available at: https://asicseer.com/page/kb#writing-config
+
+global custompanel LMACK0bit049
+
+global poolname1 eu.stratum.slushpool.com:3333
+global username1 BitVenturesLLC
+global poolpass1 123
+global sendworker1 yes
+global poolname2 us-east.stratum.slushpool.com:3333
+global username2 BitVenturesLLC
+global poolpass2 123
+global sendworker2 yes
+global poolname3 stratum.slushpool.com:3333
+global username3 BitVenturesLLC
+global poolpass3 123
+global sendworker3 yes
+
+global asicboost yes
+global autotune yes
+global maxwatts 1350
+
+global autoupdate yes
+global allowed yes
+global maxtemp 90
+global fanspeed 100
+global fansaver yes
+global blinkred idle
+global blinkgreen rapid
+
+global retune 1
+global rebootasic 3
+# global resetasic 1
+# global panelpass gj83Nkgikg
+
+# group=rowc rebootasic 1
+# group=rowd allowed no
+
+## vlans
+vlan 10.0.63.76-76
+vlan 10.0.63.80-80
+vlan 10.0.63.96-96
+vlan 10.0.63.101-101
+vlan 10.0.63.109-109
+vlan 10.0.63.116-116
+vlan 10.0.63.127-127
+vlan 10.0.63.130-130
+vlan 10.0.63.131-131
+vlan 10.0.63.136-136
+vlan 10.0.63.137-137
+vlan 10.0.63.138-138
+vlan 10.0.63.139-139
+vlan 10.0.63.142-142
+vlan 10.0.63.155-155
+vlan 10.0.63.156-156
+vlan 10.0.63.157-157
+vlan 10.0.64.6-6
+vlan 10.0.64.13-13
+vlan 10.0.64.16-16
+vlan 10.0.64.17-17
+vlan 10.0.64.20-20
+vlan 10.0.64.30-30
+vlan 10.0.64.32-32
+vlan 10.0.64.35-35
+vlan 10.0.64.41-41
+vlan 10.0.64.67-67
+vlan 10.0.64.78-78
+vlan 10.0.64.89-89
+vlan 10.0.64.90-90
+vlan 10.0.64.91-91
+vlan 10.0.64.92-92
+vlan 10.0.64.103-103
+vlan 10.0.64.106-106
+vlan 10.0.64.117-117
+vlan 10.0.64.118-118
+vlan 10.0.64.119-119
+vlan 10.0.64.134-134
+vlan 10.0.64.136-136
+vlan 10.0.64.146-146
+vlan 10.0.64.161-161
+vlan 10.0.65.5-5
+vlan 10.0.65.10-10
+vlan 10.0.65.21-21
+vlan 10.0.65.32-32
+vlan 10.0.65.33-33
+vlan 10.0.65.41-41
+vlan 10.0.65.44-44
+vlan 10.0.65.46-46
+vlan 10.0.65.63-63
+
+## locations
+b449ed location LMACK00001
+baa645 location LMACK00002
+98b693 location LMACK00003
+9cbaab location LMACK00004
+2f0c3e location LMACK00005
+811edf location LMACK00006
+e0fbc5 location LMACK00007
+f82c5a location LMACK00008
+ce7e25 location LMACK00009
+3631fd location LMACK00010
+68bff7 location LMACK00011
+28679c location LMACK00012
+95fe79 location LMACK00013
+340126 location LMACK00014
+4d47c4 location LMACK00015
+b3fa40 location LMACK00016
+09dacf location LMACK00017
+bf813c location LMACK00018
+7b29e7 location LMACK00019
+7a6f07 location LMACK00020
+a92994 location LMACK00021
+6bb076 location LMACK00022
+efd005 location LMACK00023
+a708a6 location LMACK00024
+0bfe76 location LMACK00025
+194a3d location LMACK00026
+f6ae2a location LMACK00027
+9d6e5b location LMACK00028
+ff507b location LMACK00029
+426735 location LMACK00030
+79af19 location LMACK00031
+3aa215 location LMACK00032
+5eb8bd location LMACK00033
+57fe8f location LMACK00034
+48e29f location LMACK00035
+9cbbc0 location LMACK00036
+7e61fb location LMACK00037
+945ac7 location LMACK00038
+49aa9f location LMACK00039
+fef436 location LMACK00040
+b8a2e8 location LMACK00041
+7ff846 location LMACK00042
+b4364f location LMACK00043
+372578 location LMACK00044
+da640f location LMACK00045
+6ecc5b location LMACK00046
+61a902 location LMACK00047
+13262a location LMACK00048
+59810a location LMACK00049
+604d36 location LMACK00050
+184ed5 location LMACK00051
+fdf9e1 location LMACK00052
+f3e559 location LMACK00053
+6d21ad location LMACK00054
+05eada location LMACK00055
+117c32 location LMACK00056
+1fc3d1 location LMACK00057
+8e17cd location LMACK00058
+eab061 location LMACK00059
+f8f4e5 location LMACK00060
+009b2a location LMACK00061
+612b06 location LMACK00062
+6f6bc5 location LMACK00063
+9b0eee location LMACK00064
+b362c2 location LMACK00065
+fa37c0 location LMACK00066
+c8f286 location LMACK00067
+01f0ee location LMACK00068
+aa901a location LMACK00069
+ccbf50 location LMACK00070
+ed31d1 location LMACK00071
+5d4be9 location LMACK00072
+32d8b5 location LMACK00073
+f0956e location LMACK00074
+8db22c location LMACK00075
+0e7df6 location LMACK00076
+06fcb0 location LMACK00077
+676c1a location LMACK00078
+ba4916 location LMACK00079
+9ac79a location LMACK00080
+5a0978 location LMACK00081
+6797cf location LMACK00082
+7c8c74 location LMACK00083
+671310 location LMACK00084
+90d215 location LMACK00085
+e29eef location LMACK00086
+f537f7 location LMACK00087
+84cc12 location LMACK00088
+9e9bff location LMACK00089
+638ba3 location LMACK00090
+f51c4d location LMACK00091
+233eab location LMACK00092
+d8ce86 location LMACK00093
+c807d9 location LMACK00094
+6ad3c0 location LMACK00095
+bae0d7 location LMACK00096
+4e22e3 location LMACK00097
+5ad8ba location LMACK00098
+0c44ff location LMACK00099
+d3cdf7 location LMACK00100
+
+## tuning
+426735 retune 1
+95fe79 retune 1
+9d6e5b retune 1
+
+## asic password
+asicpass admin
