@@ -1,6 +1,6 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
 
-global custompanel KWRIG1bit049
+global custompanel KWRIG0bit049
 
 global poolname1 bch.pool.bitcoin.com:3333
 global username1 keomaxwrightfamily
@@ -19,11 +19,12 @@ global asicboost yes
 global autotune yes
 global maxwatts 1350
 
-global autoupdate no
+global autoupdate yes
 global allowed yes
 global maxtemp 90
 global fanspeed 100
-# global fansaver 65
+global fansaver yes
+global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
@@ -39,25 +40,15 @@ vlan 10.0.57.81-82
 vlan 10.0.68.109-110
 
 ## locations
-570c84 location KWRIG0001
-97f21b location KWRIG0002
-29bca0 location KWRIG0003
-2a7ac0 location KWRIG0004
+570c84 location KWRIG00001
+97f21b location KWRIG00002
+29bca0 location KWRIG00003
+2a7ac0 location KWRIG00004
 
 ## tuning
-29bca0 maxwatts 1250 # 10.0.68.109
-29bca0 rebootasic 1565396671 # 10.0.68.109
-
-#removed overheat max watts 8.9.19 17:35 UTC
-
-570c84 maxwatts 1350
-97f21b maxwatts 1350
-29bca0 maxwatts 1350
-2a7ac0 maxwatts 1375
 570c84 retune 1
 97f21b retune 1
 29bca0 retune 1
 
 ## asic password
 asicpass admin
-
