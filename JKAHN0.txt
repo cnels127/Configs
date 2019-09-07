@@ -17,13 +17,14 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1525
+global maxwatts 1500
 
-global autoupdate no
+global autoupdate yes
 global allowed yes
 global maxtemp 90
 global fanspeed 100
-# global fansaver 65
+global fansaver yes
+global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
@@ -38,7 +39,7 @@ global blinkgreen rapid
 vlan 10.0.68.7-7
 
 ## locations
-ef83d4 location JKAHN0001
+ef83d4 location JKAHN00001
 
 ## tuning
 
