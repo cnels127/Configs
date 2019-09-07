@@ -17,16 +17,17 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1425
-global autoupdate no
+global maxwatts 1350
+global autoupdate yes
 global allowed yes
 global maxtemp 90
 global fanspeed 100
-# global fansaver 65
+global fansaver yes
+global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
-# global rebootasic 1
+global rebootasic 1
 # global resetasic 1
 # global panelpass gj83Nkgikg
 
@@ -39,14 +40,11 @@ vlan 172.16.203.169-169
 vlan 172.16.203.185-185
 
 ## locations
-23409b location JITUR0001
-90804a location JITUR0002
-40e982 location JITUR0003
+23409b location JITUR00001
+90804a location JITUR00002
+40e982 location JITUR00003
 
 ## tuning
-23409b maxwatts 1475
-90804a maxwatts 1475
-40e982 maxwatts 1475
 
 ## asic password
 asicpass admin
