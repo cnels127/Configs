@@ -17,14 +17,15 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1450
+global maxwatts 1500
 global throttle 50
 
 global autoupdate yes
 global allowed yes
 global maxtemp 90
 global fanspeed 100
-# global fansaver 65
+global fansaver yes
+global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
@@ -70,154 +71,6 @@ e4158d location KGRAF00014
 eadea9 location KGRAF00015
 
 ## tuning
-1d3229 maxwatts -50 # 10.0.64.61
-1d3229 rebootasic 1567675396 # 10.0.64.61
-
-1d3229 maxwatts -50 # 10.0.64.61
-1d3229 rebootasic 1567673689 # 10.0.64.61
-
-1d3229 maxwatts -50 # 10.0.64.61
-1d3229 rebootasic 1567671984 # 10.0.64.61
-
-1d3229 maxwatts -50 # 10.0.64.61
-1d3229 rebootasic 1567670287 # 10.0.64.61
-
-1d3229 maxwatts -50 # 10.0.64.61
-1d3229 rebootasic 1567668587 # 10.0.64.61
-
-1d3229 maxwatts -50 # 10.0.64.61
-1d3229 rebootasic 1567666879 # 10.0.64.61
-
-1d3229 maxwatts -50 # 10.0.64.61
-1d3229 rebootasic 1567665184 # 10.0.64.61
-
-1d3229 maxwatts -50 # 10.0.64.61
-1d3229 rebootasic 1567663493 # 10.0.64.61
-
-1d3229 maxwatts -50 # 10.0.64.61
-1d3229 rebootasic 1567661794 # 10.0.64.61
-
-1d3229 maxwatts -50 # 10.0.64.61
-1d3229 rebootasic 1567660094 # 10.0.64.61
-
-1d3229 maxwatts -50 # 10.0.64.61
-1d3229 rebootasic 1567658407 # 10.0.64.61
-
-1d3229 maxwatts -50 # 10.0.64.61
-1d3229 rebootasic 1567656724 # 10.0.64.61
-
-1d3229 maxwatts -50 # 10.0.64.61
-1d3229 rebootasic 1567655031 # 10.0.64.61
-
-1d3229 maxwatts -50 # 10.0.64.61
-1d3229 rebootasic 1567653345 # 10.0.64.61
-
-1d3229 maxwatts -50 # 10.0.64.61
-1d3229 rebootasic 1567651670 # 10.0.64.61
-
-1d3229 maxwatts -50 # 10.0.64.61
-1d3229 rebootasic 1567649991 # 10.0.64.61
-
-1d3229 maxwatts -50 # 10.0.64.61
-1d3229 rebootasic 1567648232 # 10.0.64.61
-
-1d3229 maxwatts -50 # 10.0.64.61
-1d3229 rebootasic 1567646464 # 10.0.64.61
-
-1d3229 maxwatts -50 # 10.0.64.61
-1d3229 rebootasic 1567644705 # 10.0.64.61
-
-1d3229 maxwatts -50 # 10.0.64.61
-1d3229 rebootasic 1567642949 # 10.0.64.61
-
-1d3229 maxwatts -50 # 10.0.64.61
-1d3229 rebootasic 1567641194 # 10.0.64.61
-
-1d3229 maxwatts -50 # 10.0.64.61
-1d3229 rebootasic 1567639445 # 10.0.64.61
-
-1d3229 maxwatts -50 # 10.0.64.61
-1d3229 rebootasic 1567637700 # 10.0.64.61
-
-1d3229 maxwatts 50 # 10.0.64.61
-1d3229 rebootasic 1567635956 # 10.0.64.61
-
-1d3229 maxwatts 150 # 10.0.64.61
-1d3229 rebootasic 1567634207 # 10.0.64.61
-
-1d3229 maxwatts 250 # 10.0.64.61
-1d3229 rebootasic 1567632468 # 10.0.64.61
-
-1d3229 maxwatts 350 # 10.0.64.61
-1d3229 rebootasic 1567630740 # 10.0.64.61
-
-1d3229 maxwatts 450 # 10.0.64.61
-1d3229 rebootasic 1567627293 # 10.0.64.61
-
-1d3229 maxwatts 550 # 10.0.64.61
-1d3229 rebootasic 1567625553 # 10.0.64.61
-
-1d3229 maxwatts 650 # 10.0.64.61
-1d3229 rebootasic 1567623811 # 10.0.64.61
-
-1d3229 maxwatts 750 # 10.0.64.61
-1d3229 rebootasic 1567622067 # 10.0.64.61
-
-1d3229 maxwatts 850 # 10.0.64.61
-1d3229 rebootasic 1567620345 # 10.0.64.61
-
-1d3229 maxwatts 950 # 10.0.64.61
-1d3229 rebootasic 1567618633 # 10.0.64.61
-
-1d3229 maxwatts 1050 # 10.0.64.61
-1d3229 rebootasic 1567616921 # 10.0.64.61
-
-1d3229 maxwatts 1150 # 10.0.64.61
-1d3229 rebootasic 1567615210 # 10.0.64.61
-
-1d3229 maxwatts 1250 # 10.0.64.61
-1d3229 rebootasic 1567613500 # 10.0.64.61
-
-1d3229 maxwatts 1350 # 10.0.64.61
-1d3229 rebootasic 1567611781 # 10.0.64.61
-
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
