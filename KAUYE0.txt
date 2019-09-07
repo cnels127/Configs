@@ -1,0 +1,72 @@
+## instructions available at: https://asicseer.com/page/kb#writing-config
+
+global custompanel KAUYE0bit049
+
+global poolname1 eu.stratum.slushpool.com:3333
+global username1 timauybc
+global poolpass1 123
+global sendworker1 yes
+global poolname2 us-east.stratum.slushpool.com:3333
+global username2 timauybc
+global poolpass2 123
+global sendworker2 yes
+global poolname3 stratum.slushpool.com:3333
+global username3 timauybc
+global poolpass3 123
+global sendworker3 yes
+
+global asicboost yes
+global autotune yes
+global maxwatts 1500
+
+global autoupdate yes
+global allowed yes
+global maxtemp 90
+global fanspeed 100
+global fansaver yes
+global blinkred idle
+global blinkgreen rapid
+
+# global retune 1
+# global rebootasic 1
+# global resetasic 1
+# global panelpass gj83Nkgikg
+
+# group=rowc rebootasic 1
+# group=rowd allowed no
+
+## vlans
+vlan 10.0.55.96-97
+vlan 10.0.55.100-100
+vlan 10.0.55.104-104
+vlan 10.0.55.113-113
+vlan 10.0.55.130-130
+vlan 10.0.55.135-135
+vlan 10.0.55.149-149
+vlan 10.0.56.3-3
+vlan 10.0.56.11-11
+vlan 10.0.56.20-20
+vlan 10.0.56.65-65
+vlan 10.0.56.108-108
+vlan 10.0.56.133-133
+
+## locations
+213829 location KAUYE00001
+ddae42 location KAUYE00002
+4d1860 location KAUYE00003
+184c88 location KAUYE00004
+4f4ae6 location KAUYE00005
+49aee9 location KAUYE00006
+02423d location KAUYE00007
+0a35cb location KAUYE00008
+b408fe location KAUYE00009
+9249ec location KAUYE00010
+f371c7 location KAUYE00011
+4996aa location KAUYE00012
+e6ca25 location KAUYE00013
+d87db4 location KAUYE00014
+
+## tuning
+
+## asic password
+asicpass admin
