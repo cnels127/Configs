@@ -1,0 +1,66 @@
+## instructions available at: https://asicseer.com/page/kb#writing-config
+
+global custompanel JDRIG0bit049
+
+global poolname1 eu.stratum.slushpool.com:3333
+global username1 tarpling2
+global poolpass1 123
+global sendworker1 yes
+global poolname2 us-east.stratum.slushpool.com:3333
+global username2 tarpling2
+global poolpass2 123
+global sendworker2 yes
+global poolname3 stratum.slushpool.com:3333
+global username3 tarpling2
+global poolpass3 123
+global sendworker3 yes
+
+global asicboost yes
+global autotune yes
+global maxwatts 1500
+
+global autoupdate yes
+global allowed yes
+global maxtemp 90
+global fanspeed 100
+global fansaver yes
+global blinkred idle
+global blinkgreen rapid
+
+global retune 1
+# global rebootasic 1
+# global resetasic 1
+# global panelpass gj83Nkgikg
+
+# group=rowc rebootasic 1
+# group=rowd allowed no
+
+## vlans
+vlan 10.0.55.99-99
+vlan 10.0.55.125-125
+vlan 10.0.55.145-145
+vlan 10.0.56.104-104
+vlan 10.0.67.148-148
+vlan 10.0.67.149-149
+vlan 10.0.67.156-156
+vlan 10.0.66.3-3
+vlan 10.0.67.146-146
+vlan 10.0.66.22-22
+
+## location
+11bafe location JDRIG00001
+33b5df location JDRIG00002
+9b787e location JDRIG00003
+93e110 location JDRIG00004
+9163e6 location JDRIG00005
+b3d12e location JDRIG00006
+d55626 location JDRIG00007
+ceb84b location JDRIG00008
+cffb6d location JDRIG00009
+e2fa14 location JDRIG00010
+
+## tuning
+11bafe retune 1
+
+## asic password
+asicpass admin
