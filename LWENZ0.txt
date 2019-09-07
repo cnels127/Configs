@@ -19,11 +19,12 @@ global asicboost yes
 global autotune yes
 global maxwatts 1350
 
-global autoupdate no
+global autoupdate yes
 global allowed yes
 global maxtemp 90
 global fanspeed 100
-# global fansaver 65
+global fansaver yes
+global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
@@ -38,7 +39,7 @@ global blinkgreen rapid
 vlan 10.0.55.5-5
 
 ## locations
-09cad2 location LWENZ0001
+09cad2 location LWENZ00001
 
 ## tuning
 
