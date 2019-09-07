@@ -1,6 +1,6 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
 
-global custompanel JPAUL1bit049
+global custompanel JPAUL0bit049
 
 global poolname1 eu.ss.btc.com:1800
 global username1 JoeDirt07
@@ -19,11 +19,12 @@ global asicboost yes
 global autotune yes
 global maxwatts 1350
 
-global autoupdate no
+global autoupdate yes
 global allowed yes
 global maxtemp 90
 global fanspeed 100
-# global fansaver 65
+global fansaver yes
+global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
@@ -48,33 +49,6 @@ a01578 location JPAUL0004
 9c326c location JPAUL0005
 
 ## tuning
-a01578 maxwatts 1250 # 10.0.56.83
-a01578 rebootasic 1565404430 # 10.0.56.83
-
-a7102e maxwatts 1250 # 10.0.55.128
-a7102e rebootasic 1565396630 # 10.0.55.128
-
-#removed overheat max watts 8.9.19 17:30 UTC
-
-b34b28 maxwatts 1350
-a39697 maxwatts 1325
-a7102e maxwatts 1350
-a01578 maxwatts 1350
-9c326c maxwatts 1325
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
