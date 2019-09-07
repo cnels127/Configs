@@ -19,16 +19,17 @@ global asicboost yes
 global autotune yes
 global maxwatts 1300
 
-global autoupdate no
+global autoupdate yes
 global allowed yes
 global maxtemp 90
 global fanspeed 100
-# global fansaver 65
+global fansaver yes
+global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
-global rebootasic 1
-# global resetasic 1
+# global rebootasic 1
+global resetasic 1
 # global panelpass gj83Nkgikg
 
 # group=rowc rebootasic 1
@@ -39,82 +40,11 @@ vlan 172.16.202.58-59
 vlan 172.16.204.147-147
 
 ## locations
-7cc8a1 location 0001
-be602c location 0002
-fbb341 location 0003
-1565d6 location JROBE0001
-555712 location JROBE0002
+7cc8a1 location JROBE10001
+be602c location JROBE10002
+fbb341 location JROBE10003
 
 ## tuning
-7cc8a1 maxwatts 1000 # 172.16.202.58
-be602c maxwatts 1000 # 172.16.202.59
-7cc8a1 rebootasic 1567611772 # 172.16.202.58
-be602c rebootasic 1567611772 # 172.16.202.59
-
-fbb341 maxwatts 1000 # 172.16.204.147
-fbb341 rebootasic 1566825132 # 172.16.204.147
-
-7cc8a1 maxwatts 1100 # 172.16.202.58
-fbb341 maxwatts 1100 # 172.16.204.147
-7cc8a1 rebootasic 1566597503 # 172.16.202.58
-fbb341 rebootasic 1566597503 # 172.16.204.147
-
-fbb341 maxwatts 1200 # 172.16.204.147
-fbb341 rebootasic 1566511481 # 172.16.204.147
-
-be602c maxwatts 1100 # 172.16.202.59
-be602c rebootasic 1566091669 # 172.16.202.59
-
-7cc8a1 maxwatts 1200 # 172.16.202.58
-7cc8a1 rebootasic 1565894353 # 172.16.202.58
-
-7cc8a1 maxwatts 1200 # 172.16.202.58
-7cc8a1 rebootasic 1565893226 # 172.16.202.58
-
-be602c maxwatts 1200 # 172.16.202.59
-be602c rebootasic 1565890573 # 172.16.202.59
-
-be602c maxwatts 1200 # 172.16.202.59
-be602c rebootasic 1565889707 # 172.16.202.59
-
-fbb341 maxwatts 1300 # 172.16.204.147
-fbb341 rebootasic 1565629551 # 172.16.204.147
-
-7cc8a1 maxwatts 1300 # 172.16.202.58
-7cc8a1 rebootasic 1565557426 # 172.16.202.58
-
-be602c maxwatts 1300 # 172.16.202.59
-be602c rebootasic 1565463184 # 172.16.202.59
-
-fbb341 maxwatts 1400 # 172.16.204.147
-fbb341 rebootasic 1565461191 # 172.16.204.147
-
-be602c maxwatts 1400 # 172.16.202.59
-be602c rebootasic 1565453517 # 172.16.202.59
-
-7cc8a1 maxwatts 1400 # 172.16.202.58
-7cc8a1 rebootasic 1565396636 # 172.16.202.58
-
-#removed overheat max watts 8.9.19 17:30 UTC
-
-7cc8a1 maxwatts 1500
-be602c maxwatts 1500
-fbb341 maxwatts 1500
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
