@@ -19,11 +19,12 @@ global asicboost yes
 global autotune yes
 global maxwatts 1300
 
-global autoupdate no
+global autoupdate yes
 global allowed yes
 global maxtemp 90
 global fanspeed 100
-# global fansaver 65
+global fansaver yes
+global blinkred idle
 global blinkgreen rapid
 
 global retune 1
@@ -39,12 +40,12 @@ vlan 172.16.202.91-95
 vlan 172.16.202.111-111
 
 ## location
-904b7f location RGESUCOS0001
-d360c8 location RGESUCOS0002
-a8b8de location RGESUCOS0003
-329fab location RGESUCOS0004
-828235 location RGESUCOS0005
-af9564 location RGESUCOS0006
+904b7f location RGESU10001
+d360c8 location RGESU10002
+a8b8de location RGESU10003
+329fab location RGESU10004
+828235 location RGESU10005
+af9564 location RGESU10006
 
 ## tuning
 af9564 maxwatts 1100 # 172.16.202.95
@@ -55,16 +56,11 @@ d360c8 maxwatts 1100 # 172.16.202.92
 a8b8de maxwatts 1200 # 172.16.202.93
 329fab maxwatts 1200 # 172.16.202.94
 828235 maxwatts 1200 # 172.16.202.111
-af9564 maxwatts 1200 # 172.16.202.95
 904b7f rebootasic 1566597887 # 172.16.202.91
 d360c8 rebootasic 1566597887 # 172.16.202.92
 a8b8de rebootasic 1566597887 # 172.16.202.93
 329fab rebootasic 1566597887 # 172.16.202.94
 828235 rebootasic 1566597887 # 172.16.202.111
-af9564 rebootasic 1566597887 # 172.16.202.95
-
-d360c8 maxwatts 1200 # 172.16.202.92
-d360c8 rebootasic 1566511611 # 172.16.202.92
 
 d360c8 retune 1
 a8b8de retune 1
@@ -73,6 +69,3 @@ af9564 retune 1
 
 ## asic password
 asicpass admin
-
-
-
