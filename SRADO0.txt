@@ -1,6 +1,6 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
 
-global custompanel SRADO1bit049
+global custompanel SRADO0bit049
 
 global poolname1 eu.stratum.slushpool.com:3333
 global username1 opejumeys
@@ -18,7 +18,6 @@ global sendworker3 yes
 global asicboost yes
 global autotune yes
 global maxwatts 1350
-
 global autoupdate yes
 global allowed yes
 global maxtemp 90
@@ -73,78 +72,54 @@ vlan 10.0.67.70-70
 vlan 10.0.68.4-4
 
 ##  locations
-c8c8e3 location SRADO0001
-71393e location SRADO0002
-bd2001 location SRADO0003
-0f22cc location SRADO0004
-a23fe5 location SRADO0005
-fc9425 location SRADO0006
-89611d location SRADO0007
-9df692 location SRADO0008
-6e3f38 location SRADO0009
-531bec location SRADO0010
-756440 location SRADO0011
-6da23f location SRADO0012
-7c6af8 location SRADO0013
-50dc4e location SRADO0014
-acd279 location SRADO0015
-44a6c9 location SRADO0016
-26db41 location SRADO0017
-1319ac location SRADO0018
-9e09fc location SRADO0019
-b128e8 location SRADO0020
-e3835b location SRADO0021
-2bb22c location SRADO0022
-ee5d70 location SRADO0023
-866390 location SRADO0024
-f13fb4 location SRADO0025
-0f50f9 location SRADO0026
-65013e location SRADO0027
-a39e08 location SRADO0028
-4d7ab5 location SRADO0029
-11fec4 location SRADO0030
-957edc location SRADO0031
-c3e505 location SRADO0032
-d992bc location SRADO0033
-354bd0 location SRADO0034
-e95f8a location SRADO0035
-32d65b location SRADO0036
-540807 location SRADO0037
-ca6c85 location SRADO0038
-3815f9 location SRADO0039
-2385b5 location SRADO0040
-31d8e9 location SRADO0041
-fb2a81 location SRADO0042
+c8c8e3 location SRADO00001
+71393e location SRADO00002
+bd2001 location SRADO00003
+0f22cc location SRADO00004
+a23fe5 location SRADO00005
+fc9425 location SRADO00006
+89611d location SRADO00007
+9df692 location SRADO00008
+6e3f38 location SRADO00009
+531bec location SRADO00010
+756440 location SRADO00011
+6da23f location SRADO00012
+7c6af8 location SRADO00013
+50dc4e location SRADO00014
+acd279 location SRADO00015
+44a6c9 location SRADO00016
+26db41 location SRADO00017
+1319ac location SRADO00018
+9e09fc location SRADO00019
+b128e8 location SRADO00020
+e3835b location SRADO00021
+2bb22c location SRADO00022
+ee5d70 location SRADO00023
+866390 location SRADO00024
+f13fb4 location SRADO00025
+0f50f9 location SRADO00026
+65013e location SRADO00027
+a39e08 location SRADO00028
+4d7ab5 location SRADO00029
+11fec4 location SRADO00030
+957edc location SRADO00031
+c3e505 location SRADO00032
+d992bc location SRADO00033
+354bd0 location SRADO00034
+e95f8a location SRADO00035
+32d65b location SRADO00036
+540807 location SRADO00037
+ca6c85 location SRADO00038
+3815f9 location SRADO00039
+2385b5 location SRADO00040
+31d8e9 location SRADO00041
+fb2a81 location SRADO00042
 
 ## tuning
 0f22cc maxwatts 750 # 10.0.68.42
+32d65b maxwatts 1150 # 10.0.67.150
 0f22cc rebootasic 1567810637 # 10.0.68.42
-
-0f22cc maxwatts 850 # 10.0.68.42
-0f22cc rebootasic 1567808455 # 10.0.68.42
-
-0f22cc maxwatts 950 # 10.0.68.42
-0f22cc rebootasic 1567806312 # 10.0.68.42
-
-0f22cc maxwatts 1050 # 10.0.68.42
-0f22cc rebootasic 1567804198 # 10.0.68.42
-
-0f22cc maxwatts 1150 # 10.0.68.42
-0f22cc rebootasic 1567802091 # 10.0.68.42
-
-0f22cc maxwatts 1250 # 10.0.68.42
-0f22cc rebootasic 1567799940 # 10.0.68.42
-
-32d65b maxwatts 1250 # 10.0.67.150
 32d65b rebootasic 1567793673 # 10.0.67.150
-
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
