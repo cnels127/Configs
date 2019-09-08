@@ -1,6 +1,6 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
 
-global custompanel RPOUL1bit049
+global custompanel RPOUL0bit049
 
 global poolname1 eu.stratum.slushpool.com:3333
 global username1 bolodigi
@@ -18,12 +18,12 @@ global sendworker3 yes
 global asicboost yes
 global autotune yes
 global maxwatts 1350
-
-global autoupdate no
+global autoupdate yes
 global allowed yes
 global maxtemp 90
 global fanspeed 100
-# global fansaver 65
+global fansaver yes
+global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
@@ -38,28 +38,12 @@ global blinkgreen rapid
 vlan 10.0.68.30-33
 
 ## locations
-12c5ea location RPOUL0001
-2e86e9 location RPOUL0002
-256c44 location RPOUL0003
-ba1c4a location RPOUL0004
+12c5ea location RPOUL00001
+2e86e9 location RPOUL00002
+256c44 location RPOUL00003
+ba1c4a location RPOUL00004
 
 ## tuning
-12c5ea maxwatts 1275 # 10.0.68.30
-12c5ea rebootasic 1567152142 # 10.0.68.30
-
-2e86e9 maxwatts 1275 # 10.0.68.31
-2e86e9 rebootasic 1566566476 # 10.0.68.31
-
-#removed overheat max watts 8.9.19 18:00 UTC
-
-12c5ea maxwatts 1375
-2e86e9 maxwatts 1375
-256c44 maxwatts 1375
-ba1c4a maxwatts 1350
-256c44 retune 1
 
 ## asic password
 asicpass admin
-
-
-
