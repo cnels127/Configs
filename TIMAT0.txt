@@ -1,0 +1,73 @@
+## instructions available at: https://asicseer.com/page/kb#writing-config
+
+global custompanel TIMAT0bit049
+
+global poolname1 b4c.f2pool.com:1228
+global username1 148eSzEPqqjERfpvXabuen84WXZP2KCfnu
+global poolpass1 123
+global sendworker1 yes
+global poolname2 eu.stratum.slushpool.com:3333
+global username2 cosbeni
+global poolpass2 123
+global sendworker2 yes
+global poolname3 prohashing.com:3335
+global username3 cosbeni
+global poolpass3 
+global sendworker3 yes
+
+global asicboost yes
+global autotune yes
+global maxwatts 1350
+global autoupdate yes
+global allowed yes
+global maxtemp 90
+global fanspeed 100
+global fansaver yes
+global blinkred idle
+global blinkgreen rapid
+
+# global retune 1
+# global rebootasic 1
+# global resetasic 1
+# global panelpass gj83Nkgikg
+
+# group=rowc rebootasic 1
+# group=rowd allowed no
+
+## vlans
+vlan 10.0.68.69-91
+
+## locations
+151ac6 location TIMAT00001
+5d5985 location TIMAT00002
+4c42a8 location TIMAT00003
+7fc10f location TIMAT00004
+e292bd location TIMAT00005
+af4344 location TIMAT00006
+6167d2 location TIMAT00007
+2665f7 location TIMAT00008
+8f0d5d location TIMAT00009
+41445f location TIMAT00010
+b864f4 location TIMAT00011
+bc8e6c location TIMAT00012
+603f6f location TIMAT00013
+c3f792 location TIMAT00014
+1b0533 location TIMAT00015
+d92393 location TIMAT00016
+308db8 location TIMAT00017
+c1769c location TIMAT00018
+ec43b1 location TIMAT00019
+f74d6d location TIMAT00020
+f2296d location TIMAT00021
+12dafb location TIMAT00022
+81a6b6 location TIMAT00023
+
+## tuning
+7fc10f maxwatts 350 # 10.0.68.72
+7fc10f rebootasic 1567810704 # 10.0.68.72
+
+f2296d retune 1
+ec43b1 retune 1
+
+## asic password
+asicpass admin
