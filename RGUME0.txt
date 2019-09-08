@@ -1,6 +1,6 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
 
-global custompanel RGUME1bit049
+global custompanel RGUME0bit049
 
 global poolname1 eu.ss.btc.com:1800
 global username1 Bit49Antminer
@@ -18,12 +18,12 @@ global sendworker3 yes
 global asicboost yes
 global autotune yes
 global maxwatts 1350
-
-global autoupdate no
+global autoupdate yes
 global allowed yes
 global maxtemp 90
 global fanspeed 100
-# global fansaver 65
+global fansaver yes
+global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
@@ -34,10 +34,13 @@ global blinkgreen rapid
 # group=rowc rebootasic 1
 # group=rowd allowed no
 
-# ab34ef location rowc2
-
 ## vlans
 vlan 10.0.32.61-63
+
+## locations
+b2e414 location RGUME00001
+df79d4 location RGUME00002
+c27ee4 location RGUME00003
 
 ## asic password
 asicpass admin
