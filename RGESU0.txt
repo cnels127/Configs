@@ -1,0 +1,106 @@
+## instructions available at: https://asicseer.com/page/kb#writing-config
+
+global custompanel RGESU0bit049
+
+global poolname1 eu.stratum.slushpool.com:3333
+global username1 gesumari
+global poolpass1 123
+global sendworker1 yes
+global poolname2 us-east.stratum.slushpool.com:3333
+global username2 gesumari
+global poolpass2 123
+global sendworker2 yes
+global poolname3 stratum.slushpool.com:3333
+global username3 gesumari
+global poolpass3 123
+global sendworker3 yes
+
+global asicboost yes
+global autotune yes
+global maxwatts 1350
+global autoupdate yes
+global allowed yes
+global maxtemp 90
+global fanspeed 100
+global fansaver yes
+global blinkred idle
+global blinkgreen rapid
+
+global retune 1
+global rebootasic 7
+# global resetasic 1
+# global panelpass gj83Nkgikg
+
+# group=rowc rebootasic 1
+# group=rowd allowed no
+
+## vlans
+vlan 10.0.53.140-161
+vlan 10.0.54.1-38
+
+## locations
+37c8cd location RGESU00001
+afb5e3 location RGESU00002
+da7d9d location RGESU00003
+e4a1aa location RGESU00004
+6f1bef location RGESU00005
+c3196d location RGESU00006
+866b96 location RGESU00007
+7bf34d location RGESU00008
+c1da37 location RGESU00009
+e8e0ce location RGESU00010
+d92dc2 location RGESU00011
+7a36b9 location RGESU00012
+29ece6 location RGESU00013
+79e1ed location RGESU00014
+dc8a14 location RGESU00015
+b65a11 location RGESU00016
+6073d8 location RGESU00017
+13b57d location RGESU00018
+35f34a location RGESU00019
+753f7e location RGESU00020
+a4164a location RGESU00021
+123f64 location RGESU00022
+70adc2 location RGESU00023
+2e3c21 location RGESU00024
+c64ec9 location RGESU00025
+7e18e7 location RGESU00026
+a25bea location RGESU00027
+52a31b location RGESU00028
+8883eb location RGESU00029
+2402b8 location RGESU00030
+f3393d location RGESU00031
+9b0135 location RGESU00032
+2ffd90 location RGESU00033
+081fad location RGESU00034
+b004dc location RGESU00035
+8ce706 location RGESU00036
+102b68 location RGESU00037
+0b0610 location RGESU00038
+e94ba6 location RGESU00039
+d66f6b location RGESU00040
+45099f location RGESU00041
+ada517 location RGESU00042
+0884bf location RGESU00043
+535558 location RGESU00044
+15891f location RGESU00045
+4055c4 location RGESU00046
+6c3de0 location RGESU00047
+6c69d7 location RGESU00048
+1a4852 location RGESU00049
+99187c location RGESU00050
+9a8142 location RGESU00051
+0cf968 location RGESU00052
+60ea91 location RGESU00053
+59a9ba location RGESU00054
+a02b78 location RGESU00055
+4b6238 location RGESU00056
+870cd5 location RGESU00057
+ff032f location RGESU00058
+4f826d location RGESU00059
+75ef00 location RGESU00060
+
+## tuning
+
+## asic password
+asicpass admin
