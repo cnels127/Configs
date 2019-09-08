@@ -1,6 +1,6 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
 
-global custompanel SINAG1bit049
+global custompanel SINAG0bit049
 
 global poolname1 stratum.antpool.com:3333
 global username1 momoneko
@@ -17,13 +17,13 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1300
-
-global autoupdate no
+global maxwatts 1350
+global autoupdate yes
 global allowed yes
 global maxtemp 90
 global fanspeed 100
-# global fansaver 65
+global fansaver yes
+global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
@@ -41,14 +41,12 @@ vlan 10.0.65.130-130
 vlan 10.0.65.146-146
 
 ## locations
-7bfb2c location b1
-f60318 location b2
-db9779 location b3
-d3a31d location b4
+7bfb2c location SINAG00001
+f60318 location SINAG00002
+db9779 location SINAG00003
+d3a31d location SINAG00004
 
 ## tuning
-#removed overheat max watts 8.9.19 18:05 UTC
 
 ## asic password
 asicpass admin
-
