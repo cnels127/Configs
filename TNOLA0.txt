@@ -1,6 +1,6 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
 
-global custompanel TNOLA1bit049
+global custompanel TNOLA0bit049
 
 global poolname1 eu.stratum.slushpool.com:3333
 global username1 tcnolan96
@@ -18,7 +18,6 @@ global sendworker3 yes
 global asicboost yes
 global autotune yes
 global maxwatts 1500
-
 global autoupdate yes
 global allowed yes
 global maxtemp 90
@@ -39,11 +38,11 @@ global blinkgreen rapid
 vlan 10.0.57.76-80
 
 ## locations
-eaab57 location TNOLA0001
-f7deb6 location TNOLA0002
-9e6254 location TNOLA0003
-8bbd8a location TNOLA0004
-be162a location TNOLA0005
+eaab57 location TNOLA00001
+f7deb6 location TNOLA00002
+9e6254 location TNOLA00003
+8bbd8a location TNOLA00004
+be162a location TNOLA00005
 
 ## tuning
 
