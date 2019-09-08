@@ -1,6 +1,6 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
 
-global custompanel RGRUS1bit049
+global custompanel RGRUS0bit049
 
 global poolname1 eu-ru01.miningrigrentals.com:3311
 global username1 andruscrypto
@@ -17,13 +17,13 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1350
-
-global autoupdate no
+global maxwatts 1500
+global autoupdate yes
 global allowed yes
 global maxtemp 90
 global fanspeed 100
-# global fansaver 65
+global fansaver yes
+global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
@@ -41,16 +41,6 @@ vlan 10.0.66.148-148
 658bd9 location 132139
 
 ## tuning
-658bd9 maxwatts 1150 # 10.0.66.148
-658bd9 rebootasic 1565410339 # 10.0.66.148
-
-658bd9 maxwatts 1250 # 10.0.66.148
-658bd9 rebootasic 1565402595 # 10.0.66.148
-
-#removed overheat max watts 8.9.19 17:55 UTC
 
 ## asic password
 asicpass admin
-
-
-
