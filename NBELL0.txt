@@ -453,7 +453,18 @@ a0cac7 location NBELL00204
 9c462c location NBELL00206
 252f2b location NBELL00207
 
-## tuning
+## reboots for chain ailment
+# generated on Sep 08 2019 05:33:18 utc: 1567920798 1567920798
+ad4182 rebootasic 1567920798 # 10.0.59.26 nbell00019
+22c41f rebootasic 1567920798 # 10.0.77.143 nbell00116
+
+## overheats
+# generated on Sep 08 2019 05:35:02 utc: 1567920902: 1567920902
+fa790a maxwatts 1250 # 10.0.77.45
+9dd012 maxwatts 850 # 10.0.77.92
+fa790a rebootasic 1567920902 # 10.0.77.45
+9dd012 rebootasic 1567920902 # 10.0.77.92
+
 # generated on Sep 08 2019 04:53:52 utc: 1567918432: 1567918432
 9dd012 maxwatts 950 # 10.0.77.92
 a23bc8 maxwatts 1250 # 10.0.221.129
@@ -596,6 +607,7 @@ a0cac7 rebootasic 1567907525 # 10.0.229.142
 9c462c rebootasic 1567907525 # 10.0.229.151
 252f2b rebootasic 1567907525 # 10.0.229.172
 
+## tuning
 fbb0c3 retune 1
 d70df1 retune 1
 
