@@ -1,6 +1,6 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
 
-global custompanel TWOJE1bit049
+global custompanel TWOJE0bit049
 
 global poolname1 stratum.antpool.com:3333
 global username1 TomekGroup
@@ -18,7 +18,6 @@ global sendworker3 yes
 global asicboost yes
 global autotune yes
 global maxwatts 1500
-
 global autoupdate yes
 global allowed yes
 global maxtemp 90
@@ -41,27 +40,13 @@ vlan 10.0.55.161-161
 vlan 10.0.56.98-98
 
 ## locations
-af01c7 location TWOJE0001
-b86fb1 location TWOJE0002
-b0ec6c location TWOJE0003
+af01c7 location TWOJE00001
+b86fb1 location TWOJE00002
+b0ec6c location TWOJE00003
 
 ## tuning
 af01c7 maxwatts 1075 # 10.0.55.127
 af01c7 rebootasic 1565414148 # 10.0.55.127
-
-af01c7 maxwatts 1175 # 10.0.55.127
-af01c7 rebootasic 1565404683 # 10.0.55.127
-
-af01c7 maxwatts 1275 # 10.0.55.127
-af01c7 rebootasic 1565402687 # 10.0.55.127
-
-af01c7 maxwatts 1375 # 10.0.55.127
-af01c7 rebootasic 1565400704 # 10.0.55.127
-
-af01c7 maxwatts 1475 # 10.0.55.127
-af01c7 rebootasic 1565398769 # 10.0.55.127
-
-#removed overheat max watts 8.9.19 18:15 UTC
 
 ## asic password
 asicpass admin
