@@ -18,12 +18,12 @@ global sendworker3 yes
 global asicboost yes
 global autotune yes
 global maxwatts 1350
-
-global autoupdate no
+global autoupdate yes
 global allowed yes
 global maxtemp 90
 global fanspeed 100
-# global fansaver 65
+global fansaver yes
+global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
@@ -35,75 +35,13 @@ global blinkgreen rapid
 # group=rowd allowed no
 
 ## tuning
-bda117 maxwatts 400 # 172.16.203.231
-bda117 rebootasic 1567743875 # 172.16.203.231
-
-bda117 maxwatts 500 # 172.16.203.231
-bda117 rebootasic 1567742025 # 172.16.203.231
-
-bda117 maxwatts 600 # 172.16.203.231
-bda117 rebootasic 1567727296 # 172.16.203.231
-
-bda117 maxwatts 700 # 172.16.203.231
-d8b0ee maxwatts 1100 # 172.16.203.232
-bda117 rebootasic 1567611828 # 172.16.203.231
-d8b0ee rebootasic 1567611828 # 172.16.203.232
-
-bda117 maxwatts 800 # 172.16.203.231
-d8b0ee maxwatts 1200 # 172.16.203.232
-bda117 rebootasic 1566597776 # 172.16.203.231
-d8b0ee rebootasic 1566597776 # 172.16.203.232
-
-bda117 maxwatts 900 # 172.16.203.231
-d8b0ee maxwatts 1300 # 172.16.203.232
-bda117 rebootasic 1566511564 # 172.16.203.231
-d8b0ee rebootasic 1566511564 # 172.16.203.232
-
-bda117 maxwatts 1000 # 172.16.203.231
-d8b0ee maxwatts 1400 # 172.16.203.232
-bda117 rebootasic 1566494324 # 172.16.203.231
-d8b0ee rebootasic 1566494324 # 172.16.203.232
-
-bda117 maxwatts 1100 # 172.16.203.231
-bda117 rebootasic 1565903444 # 172.16.203.231
-
-bda117 maxwatts 1100 # 172.16.203.231
-bda117 rebootasic 1565902354 # 172.16.203.231
-
-bda117 maxwatts 1200 # 172.16.203.231
-bda117 rebootasic 1565890681 # 172.16.203.231
-
-bda117 maxwatts 1300 # 172.16.203.231
-bda117 rebootasic 1565465214 # 172.16.203.231
-
-bda117 maxwatts 1400 # 172.16.203.231
-bda117 rebootasic 1565453605 # 172.16.203.231
-
-#removed overheat max watts 8.9.19 17:50 UTC
-
-bda117 maxwatts 1500
-d8b0ee maxwatts 1500
 
 ## vlans
 vlan 172.16.203.231-232
 
 ## locations
-bda117 location RANDECOS0001
-d8b0ee location RANDECOS0002
+bda117 location RANDE10001
+d8b0ee location RANDE10002
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
