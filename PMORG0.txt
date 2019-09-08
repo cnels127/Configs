@@ -1,0 +1,61 @@
+## instructions available at: https://asicseer.com/page/kb#writing-config
+
+global custompanel PMORG0bit049
+
+global poolname1 eu.stratum.slushpool.com:3333
+global username1 pamorga2
+global poolpass1 123
+global sendworker1 yes
+global poolname2 us-east.stratum.slushpool.com:3333
+global username2 pamorga2
+global poolpass2 123
+global sendworker2 yes
+global poolname3 stratum.slushpool.com:3333
+global username3 pamorga2
+global poolpass3 123
+global sendworker3 yes
+
+global asicboost yes
+global autotune yes
+global maxwatts 1525
+
+global autoupdate yes
+global allowed yes
+global maxtemp 90
+global fanspeed 100
+global fansaver yes
+global blinkred idle
+global blinkgreen rapid
+
+# global retune 1
+# global rebootasic 1
+# global resetasic 1
+# global panelpass gj83Nkgikg
+
+# group=rowc rebootasic 1
+# group=rowd allowed no
+
+## vlans
+vlan 10.0.68.17-21
+vlan 10.0.61.93-93
+vlan 10.0.61.150-150
+vlan 10.0.65.17-17
+vlan 10.0.66.126-126
+vlan 10.0.68.16-16
+
+## locations
+81b475 location PMORG00001
+37f1e2 location PMORG00002
+846595 location PMORG00003
+9a0287 location PMORG00004
+c29a91 location PMORG00005
+332d51 location PMORG00006
+e02f4f location PMORG00007
+35360b location PMORG00008
+124035 location PMORG00009
+9057b2 location PMORG00010
+
+## tuning
+
+## asic password
+asicpass admin
