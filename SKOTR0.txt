@@ -1,6 +1,6 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
 
-global custompanel SKOTR1bit049
+global custompanel SKOTR0bit049
 
 global poolname1 eu.stratum.slushpool.com:3333
 global username1 Yocco
@@ -18,12 +18,12 @@ global sendworker3 yes
 global asicboost yes
 global autotune yes
 global maxwatts 1500
-
-global autoupdate no
+global autoupdate yes
 global allowed yes
 global maxtemp 90
 global fanspeed 100
-# global fansaver 65
+global fansaver yes
+global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
@@ -41,25 +41,13 @@ vlan 10.0.60.155-155
 vlan 10.0.61.17-17
 
 ## locations
-6dd1ab location SKOTR0001
-6c2948 location SKOTR0002
-031368 location SKOTR0003
-f5417d location SKOTR0004
+6dd1ab location SKOTR00001
+6c2948 location SKOTR00002
+031368 location SKOTR00003
+f5417d location SKOTR00004
 
 ## tuning
-031368 maxwatts 1400 # 10.0.60.155
-031368 rebootasic 1567541827 # 10.0.60.155
-
-# removed overheat max watts 8.26.19 20:36 UTC
-
-#removed overheat max watts 8.9.19 18:05 UTC
-
-6dd1ab maxwatts 1525
-6c2948 maxwatts 1500
-031368 maxwatts 1500
-f5417d maxwatts 1500
 6dd1ab retune 1
 
 ## asic password
 asicpass admin
-
