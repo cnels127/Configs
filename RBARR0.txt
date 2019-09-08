@@ -1,0 +1,79 @@
+## instructions available at: https://asicseer.com/page/kb#writing-config
+
+global custompanel RBARR0bit049
+
+global poolname1 stratum.antpool.com:3333
+global username1 jummy
+global poolpass1 123
+global sendworker1 yes
+global poolname2 stratum.antpool.com:443
+global username2 jummy
+global poolpass2 123
+global sendworker2 yes
+global poolname3 profit.pool.bitcoin.com:3333
+global username3 jummy
+global poolpass3 123
+global sendworker3 yes
+
+global asicboost yes
+global autotune yes
+global maxwatts 1500
+global autoupdate yes
+global allowed yes
+global maxtemp 90
+global fanspeed 100
+global fansaver yes
+global blinkred idle
+global blinkgreen rapid
+
+# global retune 1
+global rebootasic 1
+# global resetasic 1
+# global panelpass gj83Nkgikg
+
+# group=rowc rebootasic 1
+# group=rowd allowed no
+
+## vlans
+vlan 10.0.57.48-72
+
+## locations
+4b3a51 location RBARR00001
+6723e2 location RBARR00002
+0be34f location RBARR00003
+71df4f location RBARR00004
+e83b5d location RBARR00005
+08ede8 location RBARR00006
+7e7d0e location RBARR00007
+5d01ba location RBARR00008
+62cd86 location RBARR00009
+1d5a79 location RBARR00010
+4e2432 location RBARR00011
+f6aabf location RBARR00012
+247665 location RBARR00013
+08445c location RBARR00014
+411421 location RBARR00015
+5478c2 location RBARR00016
+47fde6 location RBARR00017
+9aa009 location RBARR00018
+eea5d2 location RBARR00019
+427893 location RBARR00020
+1c4fae location RBARR00021
+693af5 location RBARR00022
+3ff0b0 location RBARR00023
+6ba6a0 location RBARR00024
+0746eb location RBARR00025
+
+## tuning
+5478c2 retune 1
+08ede8 retune 1
+3ff0b0 retune 1
+247665 retune 1
+427893 retune 1
+e83b5d retune 1
+0746eb retune 2
+693af5 resetasic 1
+247665 resetasic 1
+
+## asic password
+asicpass admin
