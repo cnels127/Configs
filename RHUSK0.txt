@@ -1,0 +1,79 @@
+## instructions available at: https://asicseer.com/page/kb#writing-config
+
+global custompanel RHUSK0bit049
+
+global poolname1 stratum.antpool.com:3333
+global username1 Bakken
+global poolpass1 123
+global sendworker1 yes
+global poolname2 stratum.antpool.com:443
+global username2 Bakken
+global poolpass2 123
+global sendworker2 yes
+global poolname3 cn.ss.btc.com:1800
+global username3 30S9s
+global poolpass3 123
+global sendworker3 yes
+
+global asicboost yes
+global autotune yes
+global maxwatts 1500
+
+global autoupdate yes
+global allowed yes
+global maxtemp 90
+global fanspeed 100
+global fansaver yes
+global blinkred idle
+global blinkgreen rapid
+
+global retune 1
+global rebootasic 3
+# global resetasic 1
+# global panelpass gj83Nkgikg
+
+# group=rowc rebootasic 1
+# group=rowd allowed no
+
+## vlans
+vlan 10.0.53.110-139
+
+## locations
+78202a location RHUSK00001
+4f6d37 location RHUSK00002
+79541e location RHUSK00003
+164bc2 location RHUSK00004
+4f284e location RHUSK00005
+f329fd location RHUSK00006
+e2e919 location RHUSK00007
+89f100 location RHUSK00008
+5c70b5 location RHUSK00009
+bb187d location RHUSK00010
+0fe1fa location RHUSK00011
+7b6cfa location RHUSK00012
+1677ff location RHUSK00013
+ffab5d location RHUSK00014
+1afe68 location RHUSK00015
+cec73f location RHUSK00016
+89c98f location RHUSK00017
+3faa4c location RHUSK00018
+943135 location RHUSK00019
+adbe7f location RHUSK00020
+006cd0 location RHUSK00021
+4c87c5 location RHUSK00022
+e6077e location RHUSK00023
+45dadf location RHUSK00024
+40f358 location RHUSK00025
+06988e location RHUSK00026
+ba0308 location RHUSK00027
+534814 location RHUSK00028
+f46832 location RHUSK00029
+2fb4f0 location RHUSK00030
+
+## tuning
+ffab5d retune 1
+adbe7f retune 1
+ba0308 retune 1
+
+## asic password
+asicpass admin
