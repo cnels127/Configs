@@ -1,6 +1,6 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
 
-global custompanel RFRAN1bit049
+global custompanel RFRAN0bit049
 
 global poolname1 eu.ss.btc.com:1800
 global username1 xytgeisteu
@@ -18,12 +18,12 @@ global sendworker3 yes
 global asicboost yes
 global autotune yes
 global maxwatts 1500
-
 global autoupdate no
 global allowed yes
 global maxtemp 90
 global fanspeed 100
-# global fansaver 65
+global fansaver 65
+global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
@@ -39,29 +39,13 @@ vlan 10.0.62.36-36
 vlan 10.0.62.38-40
 
 ## locations
-af34c7 location RFRANRUS0001
-7f3717 location RFRANRUS0002
-46bd22 location RFRANRUS0003
-d54f75 location RFRANRUS0004
-4fde10 location RFRANCOS0001
+af34c7 location RFRAN00001
+7f3717 location RFRAN00002
+46bd22 location RFRAN00003
+d54f75 location RFRAN00004
 
 ## tuning
-7f3717 maxwatts 1200 # 10.0.62.38
-7f3717 rebootasic 1567245660 # 10.0.62.38
-
-af34c7 maxwatts 1400 # 10.0.62.36
-af34c7 rebootasic 1567139168 # 10.0.62.36
-
-7f3717 maxwatts 1300 # 10.0.62.38
-7f3717 rebootasic 1565852998 # 10.0.62.38
-
-7f3717 maxwatts 1400 # 10.0.62.38
-7f3717 rebootasic 1565396761 # 10.0.62.38
-
-#removed overheat max watts 8.9.19 17:55 UTC
-
 d54f75 retune 1
-4fde10 maxwatts 1400
 
 ## asic password
 asicpass admin
