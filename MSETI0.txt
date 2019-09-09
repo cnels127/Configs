@@ -47,9 +47,13 @@ vlan 10.0.58.19-19
 a22315 location MSETI00004
 
 ## tuning
+7104a2 maxwatts 1400 # 10.0.61.137
+7104a2 rebootasic 1568048688 # 10.0.61.137
+
 743db3 retune 1
 7104a2 retune 1
 a22315 retune 1
 
 ## asic password
 asicpass admin
+
