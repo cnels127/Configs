@@ -93,6 +93,9 @@ f11c7d location KTAEY10028
 ef85ce location KTAEY10031
 
 ## tuning
+320c94 maxwatts 1200 # 172.16.204.102
+320c94 rebootasic 1568058925 # 172.16.204.102
+
 5a6128 retune 1
 80297d retune 1
 6639db retune 1
@@ -106,3 +109,4 @@ ef85ce location KTAEY10031
 
 ## asic password
 asicpass admin
+
