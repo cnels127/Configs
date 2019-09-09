@@ -115,11 +115,15 @@ ca6c85 location SRADO00038
 31d8e9 location SRADO00041
 fb2a81 location SRADO00042
 
-## tuning
+## overheats
+# generated on Sep 09 2019 02:55:41 utc: 1567997741: 1567997741
+32d65b maxwatts 1050 # 10.0.67.150
+32d65b rebootasic 1567997741 # 10.0.67.150
+
 0f22cc maxwatts 750 # 10.0.68.42
-32d65b maxwatts 1150 # 10.0.67.150
 0f22cc rebootasic 1567810637 # 10.0.68.42
-32d65b rebootasic 1567793673 # 10.0.67.150
+
+## tuning
 
 ## asic password
 asicpass admin
