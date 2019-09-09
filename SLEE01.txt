@@ -71,6 +71,9 @@ f913d1 location 18A31
 94e47a location 18B34
 	
 ## tuning
+d8d329 maxwatts 1250 # 172.16.202.48
+d8d329 rebootasic 1568071551 # 172.16.202.48
+
 460df4 maxwatts 1250 # 172.16.202.70
 306978 maxwatts 1250 # 172.16.202.77
 460df4 rebootasic 1567795750 # 172.16.202.70
@@ -80,4 +83,5 @@ d8d329 retune 1
 
 ## asic password
 asicpass admin
+
 
