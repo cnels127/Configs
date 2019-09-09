@@ -135,17 +135,34 @@ d560da location FHOEF00039
 88775f location FHOEF00032
 7fdd93 location FHOEF00037
 
-
-
 ## tuning
+# generated on Sep 09 2019 15:33:00 utc: 1568043180: 1568043180
+4ffb50 maxwatts 1250 # 10.0.225.23
+584490 maxwatts 1250 # 10.0.225.31
+88775f maxwatts 1250 # 10.0.226.36
+a03b81 maxwatts 1250 # 10.0.225.58
+be5d42 maxwatts 1250 # 10.0.225.43
+bad6b7 maxwatts 1250 # 10.0.225.49
+873362 maxwatts 1250 # 10.0.225.67
+c16782 maxwatts 1250 # 10.0.226.2
+752979 maxwatts 1250 # 10.0.226.33
+9c860e maxwatts 1250 # 10.0.225.104
+4ffb50 rebootasic 1568043180 # 10.0.225.23
+584490 rebootasic 1568043180 # 10.0.225.31
+88775f rebootasic 1568043180 # 10.0.226.36
+a03b81 rebootasic 1568043180 # 10.0.225.58
+be5d42 rebootasic 1568043180 # 10.0.225.43
+bad6b7 rebootasic 1568043180 # 10.0.225.49
+873362 rebootasic 1568043180 # 10.0.225.67
+c16782 rebootasic 1568043180 # 10.0.226.2
+752979 rebootasic 1568043180 # 10.0.226.33
+9c860e rebootasic 1568043180 # 10.0.225.104
+
 64cc79 maxwatts 1050 # 10.0.67.136
 64cc79 rebootasic 1567808147 # 10.0.67.136
 
 de83b4 maxwatts 1300 # 10.0.55.157
 de83b4 rebootasic 1567611742 # 10.0.55.157
-
-64cc79 maxwatts 1150 # 10.0.67.136
-64cc79 rebootasic 1567492299 # 10.0.67.136
 
 e3f444 maxwatts 1050 # 10.0.68.9
 e3f444 rebootasic 1567245162 # 10.0.68.9
@@ -153,24 +170,10 @@ e3f444 rebootasic 1567245162 # 10.0.68.9
 73ee2e maxwatts 1150 # 10.0.68.13
 73ee2e rebootasic 1567239469 # 10.0.68.13
 
-73ee2e maxwatts 1250 # 10.0.68.13
-73ee2e rebootasic 1567220501 # 10.0.68.13
-
-73ee2e maxwatts 1350 # 10.0.68.13
-73ee2e rebootasic 1567176339 # 10.0.68.13
-
 a3e024 maxwatts 1050 # 10.0.65.25
 64cc79 maxwatts 1250 # 10.0.67.136
 a3e024 rebootasic 1567006432 # 10.0.65.25
 64cc79 rebootasic 1567006432 # 10.0.67.136
-
-a3e024 maxwatts 1150 # 10.0.65.25
-a3e024 rebootasic 1566627459 # 10.0.65.25
-
-64cc79 maxwatts 1350 # 10.0.67.136
-64cc79 rebootasic 1565848051 # 10.0.67.136
-
-#removed overheat max watts 8.9.19 17:20 UTC
 
 f36d51 maxwatts 1400
 d06af5 maxwatts 1375
