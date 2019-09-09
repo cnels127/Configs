@@ -35,7 +35,6 @@ global blinkgreen rapid
 # group=rowd allowed no
 
 ## vlans
-vlan 10.0.32.60-60
 vlan 10.0.59.120-120
 vlan 10.0.59.157-157
 vlan 10.0.61.18-18
@@ -74,10 +73,9 @@ cd93e3 location LKLIN00004
 ed846d location LKLIN00007
 2b0498 location LKLIN00008
 5351fb location LKLIN00009
-71126e location LKLIN00010
 7106b2 location LKLIN00010
 a410f2 location LKLIN00011
-16d3c8 location LKLIN00012
+71126e location LKLIN00012
 a28737 location LKLIN00013
 788a72 location LKLIN00013
 5ad5c7 location LKLIN00014
