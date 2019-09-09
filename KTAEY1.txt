@@ -93,6 +93,9 @@ f11c7d location KTAEY10028
 ef85ce location KTAEY10031
 
 ## tuning
+251a2b maxwatts 1200 # 172.16.204.184
+251a2b rebootasic 1568065802 # 172.16.204.184
+
 80297d maxwatts 1200 # 172.16.202.86
 2e6730 maxwatts 1200 # 172.16.202.104
 80297d rebootasic 1568064079 # 172.16.202.86
@@ -114,5 +117,6 @@ ef85ce location KTAEY10031
 
 ## asic password
 asicpass admin
+
 
 
