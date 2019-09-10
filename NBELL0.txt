@@ -536,6 +536,9 @@ a0cac7 rebootasic 1568032620 # 10.0.229.142
 9c462c rebootasic 1568032620 # 10.0.229.151
 
 ## tuning
+9dd012 maxwatts 650 # 10.0.77.92
+9dd012 rebootasic 1568145757 # 10.0.77.92
+
 369a1c maxwatts 1050 # 10.0.220.1
 a23bc8 maxwatts 1050 # 10.0.221.129
 771e29 maxwatts 1050 # 10.0.226.138
@@ -2937,6 +2940,7 @@ d70df1 retune 1
 
 ## asic password
 asicpass admin
+
 
 
 
