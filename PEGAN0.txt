@@ -85,6 +85,13 @@ f1ae88 location PEGAN00014
 4900fd location PEGAN00015
 
 ## tuning
+c1a1c1 maxwatts 950 # 10.0.220.41
+6c96dd maxwatts 750 # 10.0.224.103
+d1c299 maxwatts 850 # 10.0.224.172
+c1a1c1 rebootasic 1568087172 # 10.0.220.41
+6c96dd rebootasic 1568087172 # 10.0.224.103
+d1c299 rebootasic 1568087172 # 10.0.224.172
+
 c1a1c1 maxwatts 1050 # 10.0.220.41
 b6ea4d maxwatts 1050 # 10.0.224.120
 0be583 maxwatts 1150 # 10.0.224.122
@@ -176,6 +183,7 @@ f1ae88 rebootasic 1567915220 # 10.0.225.11
 
 ## asic password
 asicpass admin
+
 
 
 
