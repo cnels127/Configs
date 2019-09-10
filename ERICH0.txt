@@ -1,6 +1,6 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
 
-global custompanel ERICH1bit049
+global custompanel ERICH0bit049
 
 global poolname1 eu.stratum.slushpool.com:3333
 global username1 edodgexige
@@ -17,13 +17,13 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1300
+global maxwatts 1350
 
 global autoupdate yes
 global allowed yes
 global maxtemp 90
 global fanspeed 100
-# global fansaver yes
+global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
@@ -43,29 +43,13 @@ vlan 10.0.60.78-78
 vlan 10.0.60.80-80
 
 ## locations
-cc79f4 location ERICH0001
-ea2b68 location ERICH0002
-81b66e location ERICH0003
-84441a location ERICH0004
-5f07ce location ERICH0005
+cc79f4 location ERICH00001
+ea2b68 location ERICH00002
+81b66e location ERICH00003
+84441a location ERICH00004
+5f07ce location ERICH00005
 
 ## tuning
-cc79f4 maxwatts 1000 # 10.0.58.33
-cc79f4 rebootasic 1565424599 # 10.0.58.33
-
-cc79f4 maxwatts 1100 # 10.0.58.33
-cc79f4 rebootasic 1565408248 # 10.0.58.33
-
-cc79f4 maxwatts 1200 # 10.0.58.33
-cc79f4 rebootasic 1565402370 # 10.0.58.33
-
-#removed overheat max watts 8.9.19 17:17 UTC
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
