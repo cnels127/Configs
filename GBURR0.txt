@@ -1,0 +1,60 @@
+## instructions available at: https://asicseer.com/page/kb#writing-config
+
+global custompanel GBURR0bit049
+
+global poolname1 eu.stratum.slushpool.com:3333
+global username1 twdadmin
+global poolpass1 123
+global sendworker1 yes
+global poolname2 us-east.stratum.slushpool.com:3333
+global username2 twdadmin
+global poolpass2 123
+global sendworker2 yes
+global poolname3 stratum.slushpool.com:3333
+global username3 twdadmin
+global poolpass3 123
+global sendworker3 yes
+
+global asicboost yes
+global autotune yes
+global maxwatts 1500
+global autoupdate yes
+global allowed yes
+global maxtemp 90
+global fanspeed 100
+global fansaver yes
+global blinkred idle
+global blinkgreen rapid
+
+# global retune 1
+# global rebootasic 1
+# global resetasic 1
+# global panelpass gj83Nkgikg
+
+# group=rowc rebootasic 1
+# group=rowd allowed no
+
+## vlans
+vlan 10.0.55.87-87
+vlan 10.0.55.117-117
+vlan 10.0.55.150-150
+vlan 10.0.56.107-107
+vlan 10.0.56.113-113
+
+## locations
+f0f798 location GBURR00001
+e2c6fd location GBURR00002
+2d11cf location GBURR00003
+b69144 location GBURR00004
+fb355a location GBURR00005
+
+## overheats
+
+## tuning
+fd17aa retune 1
+f0f798 retune 1
+e2c6fd retune 1
+fb355a retune 1
+
+## asic password
+asicpass admin
