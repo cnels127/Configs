@@ -1,6 +1,6 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
 
-global custompanel DSCRI1bit049
+global custompanel DSCRI0bit049
 
 global poolname1 eu.stratum.slushpool.com:3333
 global username1 dasminer
@@ -23,7 +23,7 @@ global autoupdate yes
 global allowed yes
 global maxtemp 90
 global fanspeed 100
-# global fansaver yes
+global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
@@ -40,25 +40,11 @@ vlan 10.0.60.9-10
 vlan 10.0.60.58-58
 
 ## locations
-85ae8d location DSCRI0001
-309322 location DSCRI0002
-1c0d86 location DSCRI0003
+85ae8d location DSCRI00001
+309322 location DSCRI00002
+1c0d86 location DSCRI00003
 
 ## tuning
-1c0d86 maxwatts 1150 # 10.0.60.58
-1c0d86 rebootasic 1565402365 # 10.0.60.58
-
-1c0d86 maxwatts 1250 # 10.0.60.58
-1c0d86 rebootasic 1565396558 # 10.0.60.58
-
-#removed overheat max watts 8.9.19 17:17 UTC
-
-85ae8d maxwatts 1350
-309322 maxwatts 1350
-1c0d86 maxwatts 1350
 
 ## asic password
 asicpass admin
-
-
-
