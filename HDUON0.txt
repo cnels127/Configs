@@ -1,6 +1,6 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
 
-global custompanel HDUON1bit049
+global custompanel HDUON0bit049
 
 global poolname1 eu.ss.btc.com:1800
 global username1 4miners
@@ -17,13 +17,13 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1450
+global maxwatts 1500
 
 global autoupdate yes
 global allowed yes
 global maxtemp 90
 global fanspeed 100
-# global fansaver yes
+global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
@@ -36,16 +36,16 @@ global blinkgreen rapid
 # group=rowd allowed no
 
 ## vlans
+vlan 10.0.63.74-74
 vlan 10.0.65.78-78
 vlan 10.0.65.129-129
-vlan 10.0.63.74-74
 vlan 10.0.67.93-93
 
 ## locations
-5a1fc0 location HDUONRUS65x78
-e18d51 location HDUONRUS65x129
-55fb45 location HDUONRUS63x74
-2e2f55 location HDUONRUS67x93
+55fb45 location HDUON00001
+5a1fc0 location HDUON00002
+e18d51 location HDUON00003
+2e2f55 location HDUON00004
 
 ## tuning
 
