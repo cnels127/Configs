@@ -543,6 +543,9 @@ b972c8 location ESOLG0497
 
 ## tuning
 c256c3 maxwatts -25 # 10.0.50.143
+c256c3 rebootasic 1568081869 # 10.0.50.143
+
+c256c3 maxwatts -25 # 10.0.50.143
 c256c3 rebootasic 1568080131 # 10.0.50.143
 
 c256c3 maxwatts -25 # 10.0.50.143
@@ -2275,6 +2278,7 @@ b972c8 retune 1
 
 ## asic password
 asicpass admin
+
 
 
 
