@@ -52,6 +52,11 @@ d8b0ee rebootasic 1567914791 # 172.16.203.232
 
 ## tuning
 bda117 maxwatts 1150 # 172.16.203.231
+d8b0ee maxwatts 450 # 172.16.203.232
+bda117 rebootasic 1568083712 # 172.16.203.231
+d8b0ee rebootasic 1568083712 # 172.16.203.232
+
+bda117 maxwatts 1150 # 172.16.203.231
 d8b0ee maxwatts 550 # 172.16.203.232
 bda117 rebootasic 1568081960 # 172.16.203.231
 d8b0ee rebootasic 1568081960 # 172.16.203.232
@@ -109,6 +114,7 @@ bda117 rebootasic 1568060688 # 172.16.203.231
 
 ## asic password
 asicpass admin
+
 
 
 
