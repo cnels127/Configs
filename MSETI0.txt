@@ -35,21 +35,30 @@ global blinkgreen rapid
 # group=rowd allowed no
 
 ## vlans
-vlan 10.0.61.137-137
-vlan 10.0.63.140-140
-vlan 10.0.63.160-160
-vlan 10.0.58.19-19
+# vlan 10.0.61.137-137
+# vlan 10.0.63.140-140
+# vlan 10.0.63.160-160
+# vlan 10.0.58.19-19
+vlan 10.0.115.164-164
+vlan 10.0.115.169-169
+vlan 10.0.117.155-155
 
 ## locations
 743db3 location MSETI00001
 7efb10 location MSETI00002
 7104a2 location MSETI00003
 a22315 location MSETI00004
+fc5018 location MSETI00005
+f6388e location MSETI00006
+35e5b2 location MSETI00007
 
 ## tuning
 7104a2 maxwatts 1400 # 10.0.61.137
 7104a2 rebootasic 1568048688 # 10.0.61.137
 
+fc5018 maxwatts 1350
+f6388e maxwatts 1350
+35e5b2 maxwatts 1350
 743db3 retune 1
 7104a2 retune 1
 a22315 retune 1
