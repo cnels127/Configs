@@ -1,0 +1,66 @@
+## instructions available at: https://asicseer.com/page/kb#writing-config
+
+global custompanel SKATO0bit049 
+
+global poolname1 btc.ss.poolin.com:443
+global username1 randomstar5
+global poolpass1 123
+global sendworker1 yes
+global poolname2 btc.ss.poolin.com:1883
+global username2 randomstar5
+global poolpass2 123
+global sendworker2 yes
+global poolname3 btc.ss.poolin.com:25
+global username3 randomstar5
+global poolpass3 123
+global sendworker3 yes
+
+global asicboost yes
+global autotune yes
+global maxwatts 1350
+global autoupdate yes
+global allowed yes
+global maxtemp 90
+global fanspeed 100
+global fansaver no
+global blinkred idle
+global blinkgreen rapid
+
+# global retune 1
+# global rebootasic 1
+# global resetasic 1
+# global panelpass gj83Nkgikg
+
+# group=rowc rebootasic 1
+# group=rowd allowed no
+
+## vlans
+vlan 10.0.118.95-95
+vlan 10.0.119.78-78
+vlan 10.0.225.2-2
+vlan 10.0.225.3-3
+vlan 10.0.225.4-4
+vlan 10.0.225.5-5
+vlan 10.0.225.6-6
+vlan 10.0.225.7-7
+vlan 10.0.225.8-8
+vlan 10.0.225.9-9
+
+## locations
+3dc5cb location SKATO00001
+fb347a location SKATO00002
+602346 location SKATO00003
+9a1f51 location SKATO00004
+5fb768 location SKATO00005
+bc50a4 location SKATO00006
+03c926 location SKATO00007
+5a5d0e location SKATO00008
+af5ca2 location SKATO00009
+054826 location SKATO00010
+
+## tuning
+
+## asic password
+asicpass admin
+
+
