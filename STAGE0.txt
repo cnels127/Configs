@@ -1,6 +1,6 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
 
-global custompanel stage1hshpwr
+global custompanel stage0hshpwr
 
 global poolname1 us.ss.btc.com:1800
 global username1 bit49US
@@ -17,7 +17,7 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1350
+global maxwatts 1500
 global autoupdate yes
 global allowed yes
 global maxtemp 90
@@ -35,6 +35,11 @@ global blinkgreen rapid
 # group=rowd allowed no
 
 ## vlans
+vlan 10.0.115.1-255
+vlan 10.0.116.1-255
+vlan 10.0.117.1-255
+vlan 10.0.118.1-255
+vlan 10.0.119.1-255
 
 ## locations
 
