@@ -299,6 +299,12 @@ a6dc9b location CFELI00124
 16d5a9 location CFELI00125
 
 ## tuning
+# generated on Sep 12 2019 07:18:05 utc: 1568272685: 1568272685
+1c0320 maxwatts 500 # 10.0.220.108
+1bdbff maxwatts 1300 # 10.0.119.99
+1c0320 rebootasic 1568272685 # 10.0.220.108
+1bdbff rebootasic 1568272685 # 10.0.119.99
+
 e352e4 maxwatts 800 # 10.0.221.126
 e352e4 rebootasic 1568165126 # 10.0.221.126
 
@@ -713,6 +719,17 @@ c9374d rebootasic 1567787176 # 10.0.229.89
 a8af8e rebootasic 1567787176 # 10.0.229.136
 16d5a9 rebootasic 1567787176 # 10.0.229.160
 
+## reboots
+# generated on Sep 12 2019 07:18:54 utc: 1568272734 1568272734
+d6d6fa rebootasic 1568272734 # 10.0.51.114 cfeli00014
+2ad385 rebootasic 1568272734 # 10.0.51.117 cfeli00016
+e630e5 rebootasic 1568272734 # 10.0.53.26 cfeli00031
+39af61 rebootasic 1568272734 # 10.0.77.29 cfeli00038
+8074e3 rebootasic 1568272734 # 10.0.77.30 cfeli00039
+311861 rebootasic 1568272734 # 10.0.77.97 cfeli00054
+c327dd rebootasic 1568272734 # 10.0.77.106 cfeli00057
+d7ef39 rebootasic 1568272734 # 10.0.77.116 cfeli00061
+79b50b rebootasic 1568272734 # 10.0.221.131 cfeli00070
 
 ## asic password
 asicpass admin
