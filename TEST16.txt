@@ -37,6 +37,7 @@ global rebootasic 3
 
 ## vlans
 vlan 10.0.32.60-60
+vlan 10.0.68.45-45 # 2019-09-12: Moved from SCOST0. Was SCOST0001. Replaced with a better machine from TEST16
 vlan 10.0.224.103-103
 vlan 10.0.224.104-104
 vlan 10.0.224.105-105
