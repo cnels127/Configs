@@ -35,7 +35,12 @@ global rebootasic 1
 # group=rowd allowed no
 
 ## vlans
-vlan 10.0.57.48-72
+# vlan 10.0.57.48-72
+vlan 10.0.115.13-13
+vlan 10.0.115.14-14
+vlan 10.0.115.33-33
+vlan 10.0.115.34-34
+vlan 10.0.115.71-71
 
 ## locations
 4b3a51 location RBARR00001
@@ -63,8 +68,18 @@ eea5d2 location RBARR00019
 3ff0b0 location RBARR00023
 6ba6a0 location RBARR00024
 0746eb location RBARR00025
+aa0122 location RBARR00026
+a81c86 location RBARR00027
+defa6a location RBARR00028
+639689 location RBARR00029
+894362 location RBARR00030
 
 ## tuning
+aa0122 maxwatts 1350
+a81c86 maxwatts 1350
+defa6a maxwatts 1350
+639689 maxwatts 1350
+894362 maxwatts 1350
 5478c2 retune 1
 08ede8 retune 1
 3ff0b0 retune 1
