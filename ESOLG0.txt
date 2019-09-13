@@ -103,6 +103,13 @@ ef88d6 rebootasic 1568152582 # 10.0.55.61
 cc57e2 rebootasic 1568152582 # 10.0.55.65
 
 ## tuning
+e4b4e7 maxwatts 1250 # 10.0.50.98
+fc7cf8 maxwatts 1250 # 10.0.50.131
+c256c3 maxwatts 1050 # 10.0.50.143
+e4b4e7 rebootasic 1568395640 # 10.0.50.98
+fc7cf8 rebootasic 1568395640 # 10.0.50.131
+c256c3 rebootasic 1568395640 # 10.0.50.143
+
 
 ## BitPlusCanada (200 machines)
 vlan 10.0.30.77-160
@@ -1215,8 +1222,16 @@ b972c8 location ESOLG00497
 8f3359 location ESOLG00500
 
 ## tuning
+e4b4e7 maxwatts 1250 # 10.0.50.98
+fc7cf8 maxwatts 1250 # 10.0.50.131
+c256c3 maxwatts 1050 # 10.0.50.143
+e4b4e7 rebootasic 1568395640 # 10.0.50.98
+fc7cf8 rebootasic 1568395640 # 10.0.50.131
+c256c3 rebootasic 1568395640 # 10.0.50.143
+
 
 ## fans
 
 ## asic password
 asicpass admin
+
