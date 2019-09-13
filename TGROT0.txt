@@ -2,15 +2,15 @@
 
 global custompanel TGROT0bit049
 
-global poolname1 eu.stratum.slushpool.com:3333
-global username1 tomxster
+global poolname1 stratum.antpool.com:3333
+global username1 einsergolf
 global poolpass1 123
 global sendworker1 yes
-global poolname2 us-east.stratum.slushpool.com:3333
+global poolname2 eu.stratum.slushpool.com:3333
 global username2 tomxster
 global poolpass2 123
 global sendworker2 yes
-global poolname3 stratum.slushpool.com:3333
+global poolname3 us-east.stratum.slushpool.com:3333
 global username3 tomxster
 global poolpass3 123
 global sendworker3 yes
@@ -35,20 +35,46 @@ global blinkgreen rapid
 # group=rowd allowed no
 
 ## vlans
-vlan 10.0.65.68-68
-vlan 10.0.61.157-157
-vlan 10.0.63.84-84
-vlan 10.0.58.157-157
-vlan 10.0.63.23-23
+# vlan 10.0.61.157-157
+# vlan 10.0.63.84-84
+# vlan 10.0.65.68-68
+vlan 10.0.115.88-88
+vlan 10.0.115.104-104
+vlan 10.0.115.106-106
+vlan 10.0.115.107-107
+vlan 10.0.115.167-167
+vlan 10.0.115.171-171
+vlan 10.0.116.37-37
+vlan 10.0.116.68-68
+vlan 10.0.116.94-94
+vlan 10.0.116.150-150
 
 ## locations
-0040fc location TGROT00001
 dae245 location TGROT00001
 f2dc4d location TGROT00002
-6db0b2 location TGROT00002
-83bf48 location TGROT00003
+0040fc location TGROT00003
+11a6fc location TGROT00004
+48fe50 location TGROT00005
+d664b7 location TGROT00006
+56444d location TGROT00007
+1ea527 location TGROT00008
+a485fd location TGROT00009
+052e16 location TGROT00010
+cb7d1b location TGROT00011
+a83fdc location TGROT00012
+69f354 location TGROT00013
 
 ## tuning
+11a6fc maxwatts 1350
+48fe50 maxwatts 1350
+d664b7 maxwatts 1350
+56444d maxwatts 1350
+1ea527 maxwatts 1350
+a485fd maxwatts 1350
+052e16 maxwatts 1350
+cb7d1b maxwatts 1350
+a83fdc maxwatts 1350
+69f354 maxwatts 1350
 
 ## asic password
 asicpass admin
