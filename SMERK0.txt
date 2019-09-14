@@ -16,7 +16,6 @@ global poolpass3 123
 global sendworker3 yes
 
 global autoupdate yes
-global blinkgreen solid
 global allowed yes
 global asicboost yes
 global autotune yes
@@ -24,6 +23,8 @@ global maxwatts 1500
 global maxtemp 90
 global fanspeed 100
 global fansaver no
+global blinkgreen solid
+global blinkred idle
 
 # global retune 1
 global rebootasic 10
