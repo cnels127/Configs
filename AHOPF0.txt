@@ -1,0 +1,193 @@
+## instructions available at: https://asicseer.com/page/kb#writing-config
+
+global custompanel AHOPF0bit049
+
+global poolname1 btc.ru.3tkje.antpool.com:3333
+global username1 GMTVILLA01
+global poolpass1 123
+global sendworker1 yes
+global poolname2 btc.ru.3tkje.antpool.com:443
+global username2 GMTVILLA01
+global poolpass2 123
+global sendworker2 yes
+global poolname3 vip.cnaw2.antpool.com:3333
+global username3 GMTVILLA01
+global poolpass3 123
+global sendworker3 yes
+
+global asicboost yes
+global autotune yes
+global maxwatts 1400
+global autoupdate yes
+global allowed yes
+global maxtemp 90
+global fanspeed 100
+global fansaver yes
+global blinkred idle
+global blinkgreen rapid
+
+# global retune 1
+global rebootasic 4
+# global resetasic 1
+# global panelpass gj83Nkgikg
+
+# group=rowc rebootasic 1
+# group=rowd allowed no
+
+## vlans
+vlan 10.0.56.159-159
+vlan 10.0.56.160-160
+vlan 10.0.56.161-161
+vlan 10.0.57.1-1
+vlan 10.0.57.2-2
+vlan 10.0.57.3-3
+vlan 10.0.57.4-4
+vlan 10.0.57.5-5
+vlan 10.0.57.6-6
+vlan 10.0.57.7-7
+vlan 10.0.57.8-8
+vlan 10.0.57.9-9
+vlan 10.0.57.10-10
+vlan 10.0.57.11-11
+vlan 10.0.57.12-12
+vlan 10.0.57.13-13
+vlan 10.0.57.14-14
+vlan 10.0.57.15-15
+vlan 10.0.57.16-16
+vlan 10.0.57.17-17
+vlan 10.0.57.18-18
+vlan 10.0.57.19-19
+vlan 10.0.57.20-20
+vlan 10.0.57.21-21
+vlan 10.0.57.22-22
+vlan 10.0.57.23-23
+vlan 10.0.57.24-24
+vlan 10.0.57.26-26
+vlan 10.0.57.27-27
+vlan 10.0.57.28-28
+vlan 10.0.57.29-29
+vlan 10.0.57.30-30
+vlan 10.0.57.31-31
+vlan 10.0.57.32-32
+vlan 10.0.57.33-33
+vlan 10.0.57.34-34
+vlan 10.0.57.35-35
+vlan 10.0.57.36-36
+vlan 10.0.57.37-37
+vlan 10.0.57.38-38
+vlan 10.0.57.39-39
+vlan 10.0.57.40-40
+vlan 10.0.57.41-41
+vlan 10.0.57.42-42
+vlan 10.0.57.43-43
+vlan 10.0.57.44-44
+vlan 10.0.57.45-45
+vlan 10.0.57.46-46
+vlan 10.0.57.47-47
+vlan 10.0.118.35-35
+vlan 10.0.119.29-29
+vlan 10.0.119.44-44
+vlan 10.0.120.6-6
+vlan 10.0.120.10-10
+vlan 10.0.120.13-13
+vlan 10.0.120.14-14
+vlan 10.0.120.15-15
+vlan 10.0.120.18-18
+vlan 10.0.120.20-20
+vlan 10.0.120.21-21
+vlan 10.0.120.22-22
+vlan 10.0.120.36-36
+vlan 10.0.120.45-45
+vlan 10.0.120.60-60
+vlan 10.0.120.89-89
+vlan 10.0.120.93-93
+vlan 10.0.120.94-94
+vlan 10.0.120.97-97
+vlan 10.0.120.148-148
+vlan 10.0.120.244-244
+vlan 10.0.121.21-21
+vlan 10.0.121.64-64
+vlan 10.0.121.82-82
+vlan 10.0.121.83-83
+
+## locations
+cb7a3d location AHOPF00001
+0697d7 location AHOPF00002
+c606e7 location AHOPF00003
+b63fb1 location AHOPF00004
+6e7701 location AHOPF00005
+d8e7a3 location AHOPF00006
+9715d4 location AHOPF00007
+a43819 location AHOPF00008
+b99abe location AHOPF00009
+a4a691 location AHOPF00010
+103e5c location AHOPF00011
+5680b4 location AHOPF00012
+abb6f3 location AHOPF00013
+d22a39 location AHOPF00014
+80b6cc location AHOPF00015
+c3c415 location AHOPF00016
+c123c8 location AHOPF00017
+62d6d0 location AHOPF00018
+38b6a2 location AHOPF00019
+55b5cb location AHOPF00020
+84794b location AHOPF00021
+768cf3 location AHOPF00022
+47f0c6 location AHOPF00023
+b93f22 location AHOPF00024
+1f71ad location AHOPF00025
+b38e61 location AHOPF00026
+2a0ab5 location AHOPF00027
+c56a90 location AHOPF00028
+4a8cc9 location AHOPF00029
+ae711c location AHOPF00030
+888f80 location AHOPF00031
+6b4731 location AHOPF00032
+2b10a0 location AHOPF00033
+e886b1 location AHOPF00034
+296c61 location AHOPF00035
+b285f8 location AHOPF00036
+4bdbe0 location AHOPF00037
+d56eaf location AHOPF00038
+d415da location AHOPF00039
+aa49d8 location AHOPF00040
+a66966 location AHOPF00041
+75e651 location AHOPF00042
+b46ce7 location AHOPF00043
+5ac22f location AHOPF00044
+0b383f location AHOPF00045
+7c5703 location AHOPF00046
+29f37a location AHOPF00047
+f5fdc7 location AHOPF00048
+94a27d location AHOPF00049
+72720b location AHOPF00050
+e3daaa location AHOPF00051
+c4ce2d location AHOPF00052
+f1ead0 location AHOPF00053
+cd3638 location AHOPF00054
+d3bb55 location AHOPF00055
+08c7c6 location AHOPF00056
+93a040 location AHOPF00057
+6f20ae location AHOPF00058
+2b24e8 location AHOPF00059
+8812ce location AHOPF00060
+e595de location AHOPF00061
+0adba5 location AHOPF00062
+7e2767 location AHOPF00063
+36a526 location AHOPF00064
+029eb6 location AHOPF00065
+4121df location AHOPF00066
+71964f location AHOPF00067
+db1480 location AHOPF00068
+283ff7 location AHOPF00069
+620567 location AHOPF00070
+be27de location AHOPF00071
+658caa location AHOPF00072
+0fc1a9 location AHOPF00073
+1680e1 location AHOPF00074
+c6cbe1 location AHOPF00075
+
+## tuning
+
+## asic password
+asicpass admin
