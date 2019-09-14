@@ -1,0 +1,499 @@
+## instructions available at: https://asicseer.com/page/kb#writing-config
+
+global custompanel AHOPF0bit049 
+
+global poolname1 btc.ru.3tkje.antpool.com:3333
+global username1 GMTBMS01
+global poolpass1 123
+global sendworker1 yes
+global poolname2 btc.ru.3tkje.antpool.com:443
+global username2 GMTBMS01
+global poolpass2 123
+global sendworker2 yes
+global poolname3 vip.cnaw2.antpool.com:3333
+global username3 GMTBMS01
+global poolpass3 123
+global sendworker3 yes
+
+global asicboost yes
+global autotune yes
+global maxwatts 1400
+global autoupdate yes
+global allowed yes
+global maxtemp 90
+global fanspeed 100
+global fansaver yes
+global blinkred idle
+global blinkgreen rapid
+
+# global retune 1
+global rebootasic 5
+# global resetasic 1
+# global panelpass gj83Nkgikg
+
+# group=rowc rebootasic 1
+# group=rowd allowed no
+
+## vlans
+vlan 10.0.115.3-3
+vlan 10.0.115.4-4
+vlan 10.0.115.9-9
+vlan 10.0.115.16-16
+vlan 10.0.115.20-20
+vlan 10.0.115.22-22
+vlan 10.0.115.23-23
+vlan 10.0.115.26-26
+vlan 10.0.115.27-27
+vlan 10.0.115.28-28
+vlan 10.0.115.37-37
+vlan 10.0.115.57-57
+vlan 10.0.115.58-58
+vlan 10.0.115.68-68
+vlan 10.0.115.69-69
+vlan 10.0.115.70-70
+vlan 10.0.115.73-73
+vlan 10.0.115.74-74
+vlan 10.0.115.75-75
+vlan 10.0.115.79-79
+vlan 10.0.115.82-82
+vlan 10.0.115.89-89
+vlan 10.0.115.97-97
+vlan 10.0.115.99-99
+vlan 10.0.115.109-109
+vlan 10.0.115.110-110
+vlan 10.0.115.115-115
+vlan 10.0.115.118-118
+vlan 10.0.115.119-119
+vlan 10.0.115.121-121
+vlan 10.0.115.123-123
+vlan 10.0.115.125-125
+vlan 10.0.115.128-128
+vlan 10.0.115.130-130
+vlan 10.0.115.131-131
+vlan 10.0.115.134-134
+vlan 10.0.115.136-136
+vlan 10.0.115.137-137
+vlan 10.0.115.144-144
+vlan 10.0.115.146-146
+vlan 10.0.115.150-150
+vlan 10.0.115.151-151
+vlan 10.0.115.158-158
+vlan 10.0.115.159-159
+vlan 10.0.115.160-160
+vlan 10.0.116.1-1
+vlan 10.0.116.3-3
+vlan 10.0.116.4-4
+vlan 10.0.116.19-19
+vlan 10.0.116.22-22
+vlan 10.0.116.25-25
+vlan 10.0.116.26-26
+vlan 10.0.116.28-28
+vlan 10.0.116.29-29
+vlan 10.0.116.35-35
+vlan 10.0.116.36-36
+vlan 10.0.116.39-39
+vlan 10.0.116.42-42
+vlan 10.0.116.45-45
+vlan 10.0.116.46-46
+vlan 10.0.116.56-56
+vlan 10.0.116.59-59
+vlan 10.0.116.63-63
+vlan 10.0.116.64-64
+vlan 10.0.116.66-66
+vlan 10.0.116.76-76
+vlan 10.0.116.78-78
+vlan 10.0.116.89-89
+vlan 10.0.116.102-102
+vlan 10.0.116.109-109
+vlan 10.0.116.111-111
+vlan 10.0.116.113-113
+vlan 10.0.116.119-119
+vlan 10.0.116.123-123
+vlan 10.0.116.125-125
+vlan 10.0.116.127-127
+vlan 10.0.116.133-133
+vlan 10.0.116.138-138
+vlan 10.0.116.140-140
+vlan 10.0.116.143-143
+vlan 10.0.116.146-146
+vlan 10.0.116.148-148
+vlan 10.0.116.155-155
+vlan 10.0.116.156-156
+vlan 10.0.116.158-158
+vlan 10.0.117.61-61
+vlan 10.0.117.67-67
+vlan 10.0.117.72-72
+vlan 10.0.117.73-73
+vlan 10.0.117.86-86
+vlan 10.0.117.87-87
+vlan 10.0.117.98-98
+vlan 10.0.117.101-101
+vlan 10.0.117.111-111
+vlan 10.0.117.112-112
+vlan 10.0.117.115-115
+vlan 10.0.117.123-123
+vlan 10.0.117.125-125
+vlan 10.0.117.126-126
+vlan 10.0.117.130-130
+vlan 10.0.117.132-132
+vlan 10.0.117.137-137
+vlan 10.0.117.138-138
+vlan 10.0.117.142-142
+vlan 10.0.117.148-148
+vlan 10.0.117.149-149
+vlan 10.0.117.153-153
+vlan 10.0.117.156-156
+vlan 10.0.117.159-159
+vlan 10.0.117.160-160
+vlan 10.0.118.3-3
+vlan 10.0.118.11-11
+vlan 10.0.118.16-16
+vlan 10.0.118.20-20
+vlan 10.0.118.25-25
+vlan 10.0.118.58-58
+vlan 10.0.118.74-74
+vlan 10.0.118.79-79
+vlan 10.0.118.82-82
+vlan 10.0.118.84-84
+vlan 10.0.118.93-93
+vlan 10.0.118.105-105
+vlan 10.0.118.116-116
+vlan 10.0.118.117-117
+vlan 10.0.118.119-119
+vlan 10.0.118.132-132
+vlan 10.0.118.133-133
+vlan 10.0.118.136-136
+vlan 10.0.118.137-137
+vlan 10.0.118.141-141
+vlan 10.0.118.145-145
+vlan 10.0.118.154-154
+vlan 10.0.118.160-160
+vlan 10.0.118.161-161
+vlan 10.0.119.11-11
+vlan 10.0.119.14-14
+vlan 10.0.119.20-20
+vlan 10.0.119.26-26
+vlan 10.0.119.32-32
+vlan 10.0.119.38-38
+vlan 10.0.119.42-42
+vlan 10.0.119.43-43
+vlan 10.0.119.46-46
+vlan 10.0.119.54-54
+vlan 10.0.119.57-57
+vlan 10.0.119.64-64
+vlan 10.0.119.65-65
+vlan 10.0.119.67-67
+vlan 10.0.119.68-68
+vlan 10.0.119.69-69
+vlan 10.0.119.80-80
+vlan 10.0.119.85-85
+vlan 10.0.119.87-87
+vlan 10.0.119.91-91
+vlan 10.0.119.93-93
+vlan 10.0.119.95-95
+vlan 10.0.119.98-98
+vlan 10.0.119.102-102
+vlan 10.0.119.120-120
+vlan 10.0.119.121-121
+vlan 10.0.119.149-149
+vlan 10.0.119.152-152
+vlan 10.0.119.158-158
+vlan 10.0.119.163-163
+vlan 10.0.120.2-2
+vlan 10.0.120.25-25
+vlan 10.0.120.30-30
+vlan 10.0.120.35-35
+vlan 10.0.120.57-57
+vlan 10.0.120.62-62
+vlan 10.0.120.74-74
+vlan 10.0.120.79-79
+vlan 10.0.120.109-109
+vlan 10.0.120.124-124
+vlan 10.0.120.125-125
+vlan 10.0.120.126-126
+vlan 10.0.120.132-132
+vlan 10.0.120.134-134
+vlan 10.0.120.136-136
+vlan 10.0.120.139-139
+vlan 10.0.120.145-145
+vlan 10.0.120.149-149
+vlan 10.0.120.150-150
+vlan 10.0.120.155-155
+vlan 10.0.120.157-157
+vlan 10.0.120.161-161
+vlan 10.0.121.9-9
+vlan 10.0.121.17-17
+vlan 10.0.121.37-37
+vlan 10.0.121.48-48
+vlan 10.0.121.56-56
+vlan 10.0.121.57-57
+vlan 10.0.121.60-60
+vlan 10.0.121.61-61
+vlan 10.0.121.66-66
+vlan 10.0.121.67-67
+vlan 10.0.121.87-87
+vlan 10.0.121.97-97
+vlan 10.0.121.98-98
+vlan 10.0.121.99-99
+vlan 10.0.121.104-104
+vlan 10.0.121.112-112
+vlan 10.0.121.115-115
+vlan 10.0.121.117-117
+vlan 10.0.121.118-118
+vlan 10.0.121.126-126
+vlan 10.0.121.127-127
+vlan 10.0.121.129-129
+vlan 10.0.121.130-130
+vlan 10.0.121.141-141
+vlan 10.0.121.146-146
+vlan 10.0.121.148-148
+vlan 10.0.121.149-149
+vlan 10.0.121.151-151
+vlan 10.0.121.154-154
+vlan 10.0.121.155-155
+vlan 10.0.121.156-156
+vlan 10.0.121.158-158
+vlan 10.0.223.110-110
+vlan 10.0.224.44-44
+vlan 10.0.224.171-171
+vlan 10.0.226.68-68
+vlan 10.0.226.69-69
+vlan 10.0.226.80-80
+vlan 10.0.229.13-13
+
+## locations
+a61391 location AHOPF00076
+2e67dc location AHOPF00076
+26fe6a location AHOPF00077
+ddb214 location AHOPF00078
+aa775d location AHOPF00079
+e97edc location AHOPF00080
+4d79ed location AHOPF00081
+b8ef7f location AHOPF00082
+6296be location AHOPF00083
+761064 location AHOPF00084
+2c72ed location AHOPF00085
+ac9e3b location AHOPF00086
+9f2cc0 location AHOPF00087
+b78cd3 location AHOPF00088
+bf9ad5 location AHOPF00089
+1ec256 location AHOPF00090
+9ea85e location AHOPF00091
+7a4cbf location AHOPF00092
+8338dc location AHOPF00093
+a5e807 location AHOPF00094
+e51438 location AHOPF00095
+cbc634 location AHOPF00096
+73d5cd location AHOPF00097
+49be6d location AHOPF00098
+900a6d location AHOPF00099
+9c7529 location AHOPF00100
+79abef location AHOPF00101
+162760 location AHOPF00102
+a7f562 location AHOPF00103
+1151fd location AHOPF00104
+918961 location AHOPF00105
+b5632a location AHOPF00106
+6241c4 location AHOPF00107
+e5de91 location AHOPF00108
+06043c location AHOPF00109
+4ce146 location AHOPF00110
+aa104f location AHOPF00111
+8cd4b8 location AHOPF00112
+45e374 location AHOPF00113
+f35825 location AHOPF00114
+377938 location AHOPF00115
+fb97b4 location AHOPF00116
+49bc94 location AHOPF00117
+dbd805 location AHOPF00118
+e18f8f location AHOPF00119
+5924ed location AHOPF00120
+862df7 location AHOPF00121
+b621e4 location AHOPF00122
+14f506 location AHOPF00123
+11e15c location AHOPF00124
+ec49d0 location AHOPF00125
+bc1f98 location AHOPF00126
+98d6ae location AHOPF00127
+70245b location AHOPF00128
+1fe9d4 location AHOPF00129
+b5cf99 location AHOPF00130
+3f4abe location AHOPF00131
+42ba91 location AHOPF00132
+9da4e2 location AHOPF00133
+c5dfea location AHOPF00134
+53aed3 location AHOPF00135
+1f2763 location AHOPF00136
+69272e location AHOPF00137
+d5f0df location AHOPF00138
+5f63c0 location AHOPF00139
+e3558c location AHOPF00140
+dbec2a location AHOPF00141
+c97eeb location AHOPF00142
+fc42af location AHOPF00143
+41dd5d location AHOPF00144
+1fb534 location AHOPF00145
+96b4d0 location AHOPF00146
+ebbec9 location AHOPF00147
+49f59c location AHOPF00148
+8c0b48 location AHOPF00149
+f4edef location AHOPF00150
+67ad2b location AHOPF00151
+756c72 location AHOPF00152
+f01cc1 location AHOPF00153
+91b80f location AHOPF00154
+b99f63 location AHOPF00155
+81e8ca location AHOPF00156
+063844 location AHOPF00157
+013fb7 location AHOPF00158
+a7a6fd location AHOPF00159
+d2f90b location AHOPF00160
+43dfaa location AHOPF00161
+954d6b location AHOPF00162
+f9f468 location AHOPF00163
+1bf925 location AHOPF00164
+4e7242 location AHOPF00165
+0ed7c3 location AHOPF00166
+107a3f location AHOPF00167
+a28e76 location AHOPF00168
+680629 location AHOPF00169
+907d41 location AHOPF00170
+f73afd location AHOPF00171
+5d3a76 location AHOPF00172
+d7e7c1 location AHOPF00173
+a4a384 location AHOPF00174
+325536 location AHOPF00175
+538782 location AHOPF00176
+0b195c location AHOPF00177
+ed93d9 location AHOPF00178
+2c8cd5 location AHOPF00179
+8ce0da location AHOPF00180
+9b627a location AHOPF00181
+7db077 location AHOPF00182
+cb2ee7 location AHOPF00183
+95c8c3 location AHOPF00184
+251427 location AHOPF00185
+3e45c9 location AHOPF00186
+9a17ab location AHOPF00187
+b8e18b location AHOPF00188
+02e7da location AHOPF00189
+c7d88a location AHOPF00190
+fbfc4b location AHOPF00191
+4f54c6 location AHOPF00192
+e3ec19 location AHOPF00193
+4ec743 location AHOPF00194
+48deba location AHOPF00195
+d0f1c5 location AHOPF00196
+083967 location AHOPF00197
+bda514 location AHOPF00198
+ae4e94 location AHOPF00199
+7ace88 location AHOPF00200
+92e8df location AHOPF00201
+361299 location AHOPF00202
+38f67d location AHOPF00203
+e8b482 location AHOPF00204
+5b0b0f location AHOPF00205
+2c38f0 location AHOPF00206
+7f4c05 location AHOPF00207
+6d6ee5 location AHOPF00208
+b06869 location AHOPF00209
+c6721f location AHOPF00210
+1abfaa location AHOPF00211
+291e6a location AHOPF00212
+3f1222 location AHOPF00213
+453434 location AHOPF00214
+81ceb2 location AHOPF00215
+9ac0b4 location AHOPF00216
+439e29 location AHOPF00217
+98a4dc location AHOPF00218
+dbf995 location AHOPF00219
+e705e2 location AHOPF00220
+a41d98 location AHOPF00221
+9c3f82 location AHOPF00222
+f4803e location AHOPF00223
+aef536 location AHOPF00224
+36138b location AHOPF00225
+ebfae9 location AHOPF00226
+6956cf location AHOPF00227
+1da911 location AHOPF00228
+1d0081 location AHOPF00229
+30a113 location AHOPF00230
+6462f9 location AHOPF00231
+511c0f location AHOPF00232
+6eb571 location AHOPF00233
+c3e42b location AHOPF00234
+909f42 location AHOPF00235
+f77c16 location AHOPF00236
+231e10 location AHOPF00237
+319daa location AHOPF00238
+9350c9 location AHOPF00239
+ffbd34 location AHOPF00240
+d67876 location AHOPF00241
+c3ca0b location AHOPF00242
+6e9d31 location AHOPF00243
+58d134 location AHOPF00244
+0f40ca location AHOPF00245
+a3b0e2 location AHOPF00246
+b39993 location AHOPF00247
+611b3a location AHOPF00248
+8c5e6a location AHOPF00249
+050e35 location AHOPF00250
+10c92c location AHOPF00251
+f643d6 location AHOPF00252
+fe9dbc location AHOPF00253
+182fb6 location AHOPF00254
+8060b1 location AHOPF00255
+49d54c location AHOPF00256
+feb499 location AHOPF00257
+bf93f7 location AHOPF00258
+4be16a location AHOPF00259
+974b8e location AHOPF00260
+d086cc location AHOPF00261
+7bd54d location AHOPF00262
+683eaf location AHOPF00263
+47f82c location AHOPF00264
+cc0723 location AHOPF00265
+2c336c location AHOPF00266
+3b56cc location AHOPF00267
+ede1d7 location AHOPF00268
+25ab47 location AHOPF00269
+212177 location AHOPF00270
+7401f4 location AHOPF00271
+7c7fa9 location AHOPF00272
+e249c4 location AHOPF00273
+25c894 location AHOPF00274
+da40e8 location AHOPF00275
+ee2a52 location AHOPF00276
+80a3e3 location AHOPF00277
+0763a7 location AHOPF00278
+b188c8 location AHOPF00279
+c1e884 location AHOPF00280
+8daee1 location AHOPF00281
+1369fd location AHOPF00282
+0d3787 location AHOPF00283
+a19897 location AHOPF00284
+525871 location AHOPF00285
+318543 location AHOPF00286
+0676bb location AHOPF00287
+0c978c location AHOPF00288
+8744d5 location AHOPF00289
+e219fe location AHOPF00290
+6254a4 location AHOPF00291
+fd0a3b location AHOPF00292
+da7641 location AHOPF00293
+bbc88e location AHOPF00294
+4b0c05 location AHOPF00295
+cb5f83 location AHOPF00296
+7a1dba location AHOPF00297
+59b276 location AHOPF00298
+4ee240 location AHOPF00299
+3b5e37 location AHOPF00300
+64e8d9 location AHOPF00301
+cc9fd9 location AHOPF00302
+79c07f location AHOPF00303
+
+## tuning
+1fb534 retune 1
+
+## asic password
+asicpass admin
