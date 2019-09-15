@@ -84,7 +84,6 @@ vlan 10.0.226.33-33
 vlan 10.0.226.36-36
 vlan 10.0.226.55-55
 
-
 ## locations
 84fddc location FHOEF00001
 7e7126 location FHOEF00002
@@ -136,6 +135,12 @@ d560da location FHOEF00039
 7fdd93 location FHOEF00037
 
 ## tuning
+# generated on Sep 15 2019 04:32:27 utc: 1568521947: 1568521947
+64cc79 maxwatts 950 # 10.0.67.136
+752979 maxwatts -50 # 10.0.121.5
+64cc79 rebootasic 1568521947 # 10.0.67.136
+752979 rebootasic 1568521947 # 10.0.121.5
+
 bad6b7 maxwatts 550 # 10.0.121.76
 bad6b7 rebootasic 1568395645 # 10.0.121.76
 
