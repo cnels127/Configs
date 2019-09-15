@@ -62,12 +62,11 @@ f2296d location TIMAT00021
 12dafb location TIMAT00022
 81a6b6 location TIMAT00023
 
-## overheats
-# generated on Sep 09 2019 02:56:44 utc: 1567997804: 1567997804
-7fc10f maxwatts 150 # 10.0.68.72
-7fc10f rebootasic 1567997804 # 10.0.68.72
-
 ## tuning
+# generated on Sep 15 2019 04:36:41 utc: 1568522201: 1568522201
+7fc10f maxwatts 50 # 10.0.68.72
+7fc10f rebootasic 1568522201 # 10.0.68.72
+
 7fc10f maxwatts 50 # 10.0.68.72
 7fc10f rebootasic 1568395795 # 10.0.68.72
 
@@ -261,72 +260,12 @@ af4344 rebootasic 1568099408 # 10.0.68.74
 7fc10f maxwatts 50 # 10.0.68.72
 7fc10f rebootasic 1568068095 # 10.0.68.72
 
-
 f2296d retune 1
 ec43b1 retune 1
 
+## reboots
+# generated on Sep 15 2019 04:39:11 utc: 1568522351 1568522351
+4c42a8 rebootasic 1568522351 # 10.0.68.71 timat00003
+
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
