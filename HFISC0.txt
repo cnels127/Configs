@@ -125,6 +125,12 @@ bf90a6 location HFISC00044
 e3ce5c location HFISC00050
 
 ## tuning
+# generated on Sep 15 2019 04:18:12 utc: 1568521092: 1568521092
+cb9593 maxwatts 950 # 10.0.56.138
+540742 maxwatts 1250 # 10.0.58.10
+cb9593 rebootasic 1568521092 # 10.0.56.138
+540742 rebootasic 1568521092 # 10.0.58.10
+
 cb9593 maxwatts 1050 # 10.0.56.138
 779e72 maxwatts 1250 # 10.0.56.141
 cb9593 rebootasic 1568395665 # 10.0.56.138
@@ -140,7 +146,12 @@ cb9593 maxwatts 1150 # overheat 9/7/19
 
 972425 retune 1
 d24d19 retune 1
+
+## reboots
 cb9593 rebootasic 1
+# generated on Sep 15 2019 04:19:23 utc: 1568521163 1568521163
+2fd188 rebootasic 1568521163 # 10.0.68.63 hfisc00010
+3ccb07 rebootasic 1568521163 # 10.0.77.27 hfisc00048
 
 ## asic password
 asicpass admin
