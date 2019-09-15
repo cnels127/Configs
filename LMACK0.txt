@@ -18,7 +18,6 @@ global sendworker3 yes
 global asicboost yes
 global autotune yes
 global maxwatts 1350
-
 global autoupdate yes
 global allowed yes
 global maxtemp 90
@@ -192,15 +191,18 @@ bae0d7 location LMACK00096
 d3cdf7 location LMACK00100
 
 ## tuning
+# generated on Sep 15 2019 04:00:05 utc: 1568520005: 1568520005
+95fe79 maxwatts 1250 # 10.0.54.88
+
+95fe79 rebootasic 1568520005 # 10.0.54.88
 a92994 maxwatts 1250 # 10.0.54.96
 a92994 rebootasic 1568395704 # 10.0.54.96
+7c8c74 maxwatts 1250 # 10.0.64.103
+7c8c74 rebootasic 1567896450 # 10.0.64.103
 
 426735 retune 1
 95fe79 retune 1
 9d6e5b retune 1
-
-7c8c74 maxwatts 1250 # 10.0.64.103
-7c8c74 rebootasic 1567896450 # 10.0.64.103
 
 ## asic password
 asicpass admin
