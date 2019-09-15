@@ -466,6 +466,11 @@ c94f44 location GWELT00248
 50f49e location GWELT00250
 
 ## tuning
+# generated on Sep 15 2019 04:26:26 utc: 1568521586: 1568521586
+cc59cf maxwatts 1325 # 10.0.66.5
+235400 maxwatts 1425 # 10.0.67.64
+cc59cf rebootasic 1568521586 # 10.0.66.5
+235400 rebootasic 1568521586 # 10.0.67.64
 # generated on Sep 14 2019 14:13:57 utc: 1568470437: 1568470437
 2dd3d4 maxwatts 1425 # 10.0.58.118
 c02700 maxwatts 1425 # 10.0.65.155
@@ -510,6 +515,14 @@ d15350 resetasic 1
 29a826 retune 1
 9207d7 retune 1
 1dd63e retune 1
+
+## reboots
+# generated on Sep 15 2019 04:27:17 utc: 1568521637 1568521637
+cda7bb rebootasic 1568521637 # 10.0.58.42 gwelt00010
+31a25b rebootasic 1568521637 # 10.0.58.146 gwelt00088
+5997f2 rebootasic 1568521637 # 10.0.65.81 gwelt00132
+5ced68 rebootasic 1568521637 # 10.0.65.156 gwelt00159
+f9b156 rebootasic 1568521637 # 10.0.66.63 gwelt00190
 
 ## asic password
 asicpass admin
