@@ -290,8 +290,25 @@ e352e4 location CFELI00124
 79b50b location CFELI00125
 
 ## tuning
+# generated on Sep 16 2019 21:41:17 utc: 1568670077: 1568670077
+a6dc9b maxwatts 1400 # 10.0.117.143
+16d5a9 maxwatts 1400 # 10.0.117.145
+319230 maxwatts 1400 # 10.0.118.40
+0c74fd maxwatts 1400 # 10.0.118.128
+300975 maxwatts 1400 # 10.0.120.81
+e352e4 maxwatts 1400 # 10.0.120.159
+a6dc9b rebootasic 1568670077 # 10.0.117.143
+16d5a9 rebootasic 1568670077 # 10.0.117.145
+319230 rebootasic 1568670077 # 10.0.118.40
+0c74fd rebootasic 1568670077 # 10.0.118.128
+300975 rebootasic 1568670077 # 10.0.120.81
+e352e4 rebootasic 1568670077 # 10.0.120.159
 
-## reboots
+## reboots (chain ailment)
+# generated on Sep 16 2019 21:41:57 utc: 1568670117 1568670117
+e630e5 rebootasic 1568670117 # 10.0.53.26 cfeli00031
+6f25d3 rebootasic 1568670117 # 10.0.77.6 cfeli00035
+d7ef39 rebootasic 1568670117 # 10.0.77.116 cfeli00061
 
 ## resetasic
 c36a84 resetasic 1
