@@ -35,22 +35,23 @@ global rebootasic 1
 # group=rowd allowed no
 
 ## vlans
+vlan 10.0.115.32-32
+vlan 10.0.115.35-35
 vlan 10.0.68.47-47
 vlan 10.0.56.118-118
-vlan 10.0.56.121-121
+vlan 10.0.115.44-44
 vlan 10.0.56.125-125
 vlan 10.0.56.130-130
 vlan 10.0.67.20-20
 vlan 10.0.67.153-153
 vlan 10.0.67.107-107
-vlan 10.0.120.176-176
 
 ## locations
-a6d314 location SCOST00001
-0e992b location SCOST00002
+cee4db location SCOST00001
+3bc058 location SCOST00002
 9b4848 location SCOST00003
 ea3cd1 location SCOST00004
-535d30 location SCOST00005
+445700 location SCOST00005
 a43fe6 location SCOST00006
 6da085 location SCOST00007
 4363d5 location SCOST00008
