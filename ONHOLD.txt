@@ -1,0 +1,76 @@
+## instructions available at: https://asicseer.com/page/kb#writing-config
+
+global custompanel bit049hshpwr
+
+global poolname1 profit.pool.bitcoin.com:3333
+global username1 bit49
+global poolpass1 123
+global sendworker1 yes
+global poolname2 us.ss.btc.com:1800
+global username2 bit49US
+global poolpass2 123
+global sendworker2 yes
+global poolname3 stratum.slushpool.com:3333
+global username3 bit49
+global poolpass3 123
+global sendworker3 yes
+
+global asicboost yes
+global autotune yes
+global maxwatts 1500
+
+global autoupdate yes
+global allowed yes
+global maxtemp 90
+global fanspeed 100
+global fansaver yes
+global blinkred idle
+global blinkgreen rapid
+
+# global retune 1
+# global rebootasic 1
+# global resetasic 1
+# global panelpass gj83Nkgikg
+
+# group=rowc rebootasic 1
+# group=rowd allowed no
+
+## LWENZ0
+vlan 10.0.55.5-5
+09cad2 location LWENZ00001
+09cad2 maxwatts 1350
+
+## NSORE0
+vlan 10.0.66.122-122
+fb574c location NSORE00001
+fb574c maxwatts 1500
+
+## RGRUS0
+vlan 10.0.66.148-148
+658bd9 location RGRUS00001
+658bd9 maxwatts 1500
+
+## ZVORW0
+vlan 10.0.62.138-138
+vlan 10.0.62.34-34
+vlan 10.0.63.55-55
+vlan 10.0.67.69-69
+vlan 10.0.64.29-29
+vlan 10.0.63.118-118
+2371b0 location ZVORW00001
+3884fb location ZVORW00001
+f726b1 location ZVORW00002
+871acb location ZVORW00002
+c2ee95 location ZVORW00003
+eabba9 location ZVORW00003
+2371b0 maxwatts 1500
+3884fb maxwatts 1500
+f726b1 maxwatts 1500
+871acb maxwatts 1500
+c2ee95 maxwatts 1500
+eabba9 maxwatts 1500
+
+## tuning
+
+## asic password
+asicpass admin
