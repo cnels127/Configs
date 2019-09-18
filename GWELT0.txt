@@ -1,4 +1,7 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
+##      250 s9s at 16 Th/s = 4,000 Th/s
+##     50 s9s at 14.4 Th/s = 720 Th/s
+## TOTAL EXPECTED HASHRATE = 4,720 Th/s
 
 global custompanel GWELT0bit049
 
@@ -35,182 +38,233 @@ global rebootasic 7
 # group=rowd allowed no
 
 ## vlans
-vlan 10.0.58.28-28
-vlan 10.0.58.30-32
-vlan 10.0.58.37-44
-vlan 10.0.58.46-54
-vlan 10.0.58.56-56
-vlan 10.0.58.59-59
-vlan 10.0.58.61-69
-vlan 10.0.58.71-72
-vlan 10.0.58.74-74
-vlan 10.0.58.76-81
-vlan 10.0.58.83-85
-vlan 10.0.58.87-89
-vlan 10.0.58.92-92
-vlan 10.0.58.94-94
-vlan 10.0.58.96-106
-vlan 10.0.58.108-111
-vlan 10.0.58.114-116
-vlan 10.0.58.118-126
-vlan 10.0.58.128-131
-vlan 10.0.58.134-135
-vlan 10.0.58.137-138
-vlan 10.0.58.141-141
-vlan 10.0.58.144-153
-vlan 10.0.58.156-156
-vlan 10.0.58.158-161
+# vlan 10.0.58.28-28
+# vlan 10.0.58.30-32
+# vlan 10.0.58.37-44
+# vlan 10.0.58.46-54
+# vlan 10.0.58.56-56
+# vlan 10.0.58.59-59
+# vlan 10.0.58.61-69
+# vlan 10.0.58.71-72
+# vlan 10.0.58.74-74
+# vlan 10.0.58.76-81
+# vlan 10.0.58.83-85
+# vlan 10.0.58.87-89
+# vlan 10.0.58.92-92
+# vlan 10.0.58.94-94
+# vlan 10.0.58.96-106
+# vlan 10.0.58.108-111
+# vlan 10.0.58.114-116
+# vlan 10.0.58.118-126
+# vlan 10.0.58.128-131
+# vlan 10.0.58.134-135
+# vlan 10.0.58.137-138
+# vlan 10.0.58.141-141
+# vlan 10.0.58.144-153
+# vlan 10.0.58.156-156
+# vlan 10.0.58.158-161
 # 2nd Batch
-vlan 10.0.60.61-61
-vlan 10.0.61.26-26
-vlan 10.0.62.77-77
-vlan 10.0.62.147-147
-vlan 10.0.63.21-21
-vlan 10.0.63.64-64
-vlan 10.0.63.79-79
-vlan 10.0.63.147-147
-vlan 10.0.63.151-151
-vlan 10.0.63.159-159
-vlan 10.0.64.9-9
-vlan 10.0.64.80-80
-vlan 10.0.64.87-87
-vlan 10.0.64.96-96
-vlan 10.0.64.121-121
-vlan 10.0.64.159-159
-vlan 10.0.65.20-20
-vlan 10.0.65.23-23
-vlan 10.0.65.27-27
-vlan 10.0.65.31-31
-vlan 10.0.65.37-37
-vlan 10.0.65.45-45
-vlan 10.0.65.49-49
-vlan 10.0.65.50-50
-vlan 10.0.65.52-52
-vlan 10.0.65.53-53
-vlan 10.0.65.62-62
-vlan 10.0.65.65-65
-vlan 10.0.65.66-66
-vlan 10.0.65.69-69
-vlan 10.0.65.70-70
-vlan 10.0.65.81-81
-vlan 10.0.65.83-83
-vlan 10.0.65.84-84
-vlan 10.0.65.85-85
-vlan 10.0.65.86-86
-vlan 10.0.65.87-87
-vlan 10.0.65.89-89
-vlan 10.0.65.93-93
-vlan 10.0.65.100-100
-vlan 10.0.65.105-105
-vlan 10.0.65.106-106
-vlan 10.0.65.107-107
-vlan 10.0.65.111-111
-vlan 10.0.65.113-113
-vlan 10.0.65.119-119
-vlan 10.0.65.125-125
-vlan 10.0.65.128-128
-vlan 10.0.65.131-131
-vlan 10.0.65.139-139
-vlan 10.0.65.140-140
-vlan 10.0.65.141-141
-vlan 10.0.65.142-142
-vlan 10.0.65.143-143
-vlan 10.0.65.149-149
-vlan 10.0.65.152-152
-vlan 10.0.65.153-153
-vlan 10.0.65.155-155
-vlan 10.0.65.156-156
-vlan 10.0.66.2-2
-vlan 10.0.66.4-4
-vlan 10.0.66.5-5
-vlan 10.0.66.6-6
-vlan 10.0.66.7-7
-vlan 10.0.66.10-10
-vlan 10.0.66.13-13
-vlan 10.0.66.14-14
-vlan 10.0.66.15-15
-vlan 10.0.66.16-16
-vlan 10.0.66.21-21
-vlan 10.0.66.24-24
-vlan 10.0.66.26-26
-vlan 10.0.66.28-28
-vlan 10.0.66.29-29
-vlan 10.0.66.32-32
-vlan 10.0.66.33-33
-vlan 10.0.66.40-40
-vlan 10.0.66.42-42
-vlan 10.0.66.43-43
-vlan 10.0.66.45-45
-vlan 10.0.66.47-47
-vlan 10.0.66.48-48
-vlan 10.0.66.49-49
-vlan 10.0.66.52-52
-vlan 10.0.66.55-55
-vlan 10.0.66.58-58
-vlan 10.0.66.59-59
-vlan 10.0.66.60-60
-vlan 10.0.66.62-62
-vlan 10.0.66.63-63
-vlan 10.0.66.65-65
-vlan 10.0.66.70-70
-vlan 10.0.66.71-71
-vlan 10.0.66.73-73
-vlan 10.0.66.76-76
-vlan 10.0.66.79-79
-vlan 10.0.66.80-80
-vlan 10.0.66.82-82
-vlan 10.0.66.84-84
-vlan 10.0.66.86-86
-vlan 10.0.66.88-88
-vlan 10.0.66.92-92
-vlan 10.0.66.97-97
-vlan 10.0.66.98-98
-vlan 10.0.66.99-99
-vlan 10.0.66.102-102
-vlan 10.0.66.107-107
-vlan 10.0.66.108-108
-vlan 10.0.66.111-111
-vlan 10.0.66.112-112
-vlan 10.0.67.60-60
-vlan 10.0.67.62-62
-vlan 10.0.67.64-64
-vlan 10.0.67.65-65
-vlan 10.0.67.66-66
-vlan 10.0.67.67-67
-vlan 10.0.67.68-68
-vlan 10.0.67.71-71
-vlan 10.0.67.72-72
-vlan 10.0.67.73-73
-vlan 10.0.67.75-75
-vlan 10.0.67.78-78
-vlan 10.0.67.80-80
-vlan 10.0.67.81-81
-vlan 10.0.67.86-86
-vlan 10.0.67.87-87
-vlan 10.0.67.88-88
-vlan 10.0.67.91-91
-vlan 10.0.67.94-94
-vlan 10.0.67.98-98
-vlan 10.0.67.99-99
-vlan 10.0.67.102-102
-vlan 10.0.67.105-105
-vlan 10.0.67.109-109
-vlan 10.0.67.110-110
-vlan 10.0.67.111-111
-vlan 10.0.67.114-114
-vlan 10.0.67.116-116
-vlan 10.0.67.117-117
-vlan 10.0.67.118-118
-vlan 10.0.67.119-119
-vlan 10.0.67.121-121
-vlan 10.0.67.122-122
-vlan 10.0.67.123-123
-vlan 10.0.67.124-124
-vlan 10.0.67.125-125
-vlan 10.0.67.126-126
-vlan 10.0.67.127-127
-vlan 10.0.67.128-128
-vlan 10.0.67.129-129
+# vlan 10.0.60.61-61
+# vlan 10.0.61.26-26
+# vlan 10.0.62.77-77
+# vlan 10.0.62.147-147
+# vlan 10.0.63.21-21
+# vlan 10.0.63.64-64
+# vlan 10.0.63.79-79
+# vlan 10.0.63.147-147
+# vlan 10.0.63.151-151
+# vlan 10.0.63.159-159
+# vlan 10.0.64.9-9
+# vlan 10.0.64.80-80
+# vlan 10.0.64.87-87
+# vlan 10.0.64.96-96
+# vlan 10.0.64.121-121
+# vlan 10.0.64.159-159
+# vlan 10.0.65.20-20
+# vlan 10.0.65.23-23
+# vlan 10.0.65.27-27
+# vlan 10.0.65.31-31
+# vlan 10.0.65.37-37
+# vlan 10.0.65.45-45
+# vlan 10.0.65.49-49
+# vlan 10.0.65.50-50
+# vlan 10.0.65.52-52
+# vlan 10.0.65.53-53
+# vlan 10.0.65.62-62
+# vlan 10.0.65.65-65
+# vlan 10.0.65.66-66
+# vlan 10.0.65.69-69
+# vlan 10.0.65.70-70
+# vlan 10.0.65.81-81
+# vlan 10.0.65.83-83
+# vlan 10.0.65.84-84
+# vlan 10.0.65.85-85
+# vlan 10.0.65.86-86
+# vlan 10.0.65.87-87
+# vlan 10.0.65.89-89
+# vlan 10.0.65.93-93
+# vlan 10.0.65.100-100
+# vlan 10.0.65.105-105
+# vlan 10.0.65.106-106
+# vlan 10.0.65.107-107
+# vlan 10.0.65.111-111
+# vlan 10.0.65.113-113
+# vlan 10.0.65.119-119
+# vlan 10.0.65.125-125
+# vlan 10.0.65.128-128
+# vlan 10.0.65.131-131
+# vlan 10.0.65.139-139
+# vlan 10.0.65.140-140
+# vlan 10.0.65.141-141
+# vlan 10.0.65.142-142
+# vlan 10.0.65.143-143
+# vlan 10.0.65.149-149
+# vlan 10.0.65.152-152
+# vlan 10.0.65.153-153
+# vlan 10.0.65.155-155
+# vlan 10.0.65.156-156
+# vlan 10.0.66.2-2
+# vlan 10.0.66.4-4
+# vlan 10.0.66.5-5
+# vlan 10.0.66.6-6
+# vlan 10.0.66.7-7
+# vlan 10.0.66.10-10
+# vlan 10.0.66.13-13
+# vlan 10.0.66.14-14
+# vlan 10.0.66.15-15
+# vlan 10.0.66.16-16
+# vlan 10.0.66.21-21
+# vlan 10.0.66.24-24
+# vlan 10.0.66.26-26
+# vlan 10.0.66.28-28
+# vlan 10.0.66.29-29
+# vlan 10.0.66.32-32
+# vlan 10.0.66.33-33
+# vlan 10.0.66.40-40
+# vlan 10.0.66.42-42
+# vlan 10.0.66.43-43
+# vlan 10.0.66.45-45
+# vlan 10.0.66.47-47
+# vlan 10.0.66.48-48
+# vlan 10.0.66.49-49
+# vlan 10.0.66.52-52
+# vlan 10.0.66.55-55
+# vlan 10.0.66.58-58
+# vlan 10.0.66.59-59
+# vlan 10.0.66.60-60
+# vlan 10.0.66.62-62
+# vlan 10.0.66.63-63
+# vlan 10.0.66.65-65
+# vlan 10.0.66.70-70
+# vlan 10.0.66.71-71
+# vlan 10.0.66.73-73
+# vlan 10.0.66.76-76
+# vlan 10.0.66.79-79
+# vlan 10.0.66.80-80
+# vlan 10.0.66.82-82
+# vlan 10.0.66.84-84
+# vlan 10.0.66.86-86
+# vlan 10.0.66.88-88
+# vlan 10.0.66.92-92
+# vlan 10.0.66.97-97
+# vlan 10.0.66.98-98
+# vlan 10.0.66.99-99
+# vlan 10.0.66.102-102
+# vlan 10.0.66.107-107
+# vlan 10.0.66.108-108
+# vlan 10.0.66.111-111
+# vlan 10.0.66.112-112
+# vlan 10.0.67.60-60
+# vlan 10.0.67.62-62
+# vlan 10.0.67.64-64
+# vlan 10.0.67.65-65
+# vlan 10.0.67.66-66
+# vlan 10.0.67.67-67
+# vlan 10.0.67.68-68
+# vlan 10.0.67.71-71
+# vlan 10.0.67.72-72
+# vlan 10.0.67.73-73
+# vlan 10.0.67.75-75
+# vlan 10.0.67.78-78
+# vlan 10.0.67.80-80
+# vlan 10.0.67.81-81
+# vlan 10.0.67.86-86
+# vlan 10.0.67.87-87
+# vlan 10.0.67.88-88
+# vlan 10.0.67.91-91
+# vlan 10.0.67.94-94
+# vlan 10.0.67.98-98
+# vlan 10.0.67.99-99
+# vlan 10.0.67.102-102
+# vlan 10.0.67.105-105
+# vlan 10.0.67.109-109
+# vlan 10.0.67.110-110
+# vlan 10.0.67.111-111
+# vlan 10.0.67.114-114
+# vlan 10.0.67.116-116
+# vlan 10.0.67.117-117
+# vlan 10.0.67.118-118
+# vlan 10.0.67.119-119
+# vlan 10.0.67.121-121
+# vlan 10.0.67.122-122
+# vlan 10.0.67.123-123
+# vlan 10.0.67.124-124
+# vlan 10.0.67.125-125
+# vlan 10.0.67.126-126
+# vlan 10.0.67.127-127
+# vlan 10.0.67.128-128
+# vlan 10.0.67.129-129
+# 3rd batch
+vlan 10.0.118.118-118
+vlan 10.0.119.7-7
+vlan 10.0.119.15-15
+vlan 10.0.119.28-28
+vlan 10.0.119.30-30
+vlan 10.0.119.34-34
+vlan 10.0.119.39-39
+vlan 10.0.119.41-41
+vlan 10.0.119.82-82
+vlan 10.0.119.122-122
+vlan 10.0.119.135-135
+vlan 10.0.119.159-159
+vlan 10.0.120.54-54
+vlan 10.0.120.70-70
+vlan 10.0.120.71-71
+vlan 10.0.120.72-72
+vlan 10.0.120.113-113
+vlan 10.0.120.116-116
+vlan 10.0.120.122-122
+vlan 10.0.120.129-129
+vlan 10.0.120.131-131
+vlan 10.0.120.138-138
+vlan 10.0.120.141-141
+vlan 10.0.120.146-146
+vlan 10.0.121.4-4
+vlan 10.0.121.11-11
+vlan 10.0.121.15-15
+vlan 10.0.121.16-16
+vlan 10.0.121.19-19
+vlan 10.0.121.24-24
+vlan 10.0.121.35-35
+vlan 10.0.121.44-44
+vlan 10.0.121.46-46
+vlan 10.0.121.49-49
+vlan 10.0.121.59-59
+vlan 10.0.121.63-63
+vlan 10.0.121.71-71
+vlan 10.0.121.72-72
+vlan 10.0.121.73-73
+vlan 10.0.121.75-75
+vlan 10.0.121.77-77
+vlan 10.0.121.107-107
+vlan 10.0.121.108-108
+vlan 10.0.121.110-110
+vlan 10.0.121.111-111
+vlan 10.0.121.113-113
+vlan 10.0.121.122-122
+vlan 10.0.121.131-131
+vlan 10.0.121.135-135
+vlan 10.0.121.160-160
 
 ## locations
 164b1f location GWELT00001
@@ -465,6 +519,57 @@ c94f44 location GWELT00248
 608111 location GWELT00249
 50f49e location GWELT00250
 
+482b5f location GWELT00251
+334c13 location GWELT00252
+332dd2 location GWELT00253
+75f695 location GWELT00254
+c41b38 location GWELT00255
+2c9613 location GWELT00256
+f294b4 location GWELT00257
+c9b5ce location GWELT00258
+060916 location GWELT00259
+1e7a91 location GWELT00260
+7833ab location GWELT00261
+1fe62e location GWELT00262
+83a46d location GWELT00263
+d6543e location GWELT00264
+622a99 location GWELT00265
+a8fc56 location GWELT00266
+afc54a location GWELT00267
+a1e312 location GWELT00268
+7deb62 location GWELT00269
+208f0b location GWELT00270
+039271 location GWELT00271
+5170b3 location GWELT00272
+74a492 location GWELT00273
+c86992 location GWELT00274
+71feb3 location GWELT00275
+90b7fe location GWELT00276
+b7c3ed location GWELT00277
+1541e1 location GWELT00278
+ec7d0a location GWELT00279
+4ae309 location GWELT00280
+1047f3 location GWELT00281
+b5ee93 location GWELT00282
+7352f1 location GWELT00283
+4ea065 location GWELT00284
+d07c04 location GWELT00285
+071970 location GWELT00286
+1a64c1 location GWELT00287
+8f3760 location GWELT00288
+6579f1 location GWELT00289
+839e1f location GWELT00290
+e30678 location GWELT00291
+f5d121 location GWELT00292
+bb2408 location GWELT00293
+fbf6a7 location GWELT00294
+a2131a location GWELT00295
+fdbabb location GWELT00296
+9f686d location GWELT00297
+4f04e1 location GWELT00298
+87056f location GWELT00299
+989b0b location GWELT00300
+
 ## tuning
 235400 maxwatts 1325 # 10.0.67.64
 7d38ef maxwatts 1425 # 10.0.67.88
@@ -476,7 +581,12 @@ c94f44 location GWELT00248
 3b10a5 rebootasic 1568812745 # 10.0.65.45
 6a7876 rebootasic 1568812745 # 10.0.65.70
 96cc66 rebootasic 1568812745 # 10.0.58.148
-
+# generated on Sep 15 2019 04:27:17 utc: 1568521637 1568521637
+cda7bb rebootasic 1568521637 # 10.0.58.42 gwelt00010
+31a25b rebootasic 1568521637 # 10.0.58.146 gwelt00088
+5997f2 rebootasic 1568521637 # 10.0.65.81 gwelt00132
+5ced68 rebootasic 1568521637 # 10.0.65.156 gwelt00159
+f9b156 rebootasic 1568521637 # 10.0.66.63 gwelt00190
 # generated on Sep 15 2019 04:26:26 utc: 1568521586: 1568521586
 cc59cf maxwatts 1325 # 10.0.66.5
 235400 maxwatts 1425 # 10.0.67.64
@@ -527,13 +637,59 @@ d15350 resetasic 1
 9207d7 retune 1
 1dd63e retune 1
 
+# 50 machines at 14.4 Th/s
+482b5f maxwatts 1350
+334c13 maxwatts 1350
+332dd2 maxwatts 1350
+75f695 maxwatts 1350
+c41b38 maxwatts 1350
+2c9613 maxwatts 1350
+f294b4 maxwatts 1350
+c9b5ce maxwatts 1350
+060916 maxwatts 1350
+1e7a91 maxwatts 1350
+7833ab maxwatts 1350
+1fe62e maxwatts 1350
+83a46d maxwatts 1350
+d6543e maxwatts 1350
+622a99 maxwatts 1350
+a8fc56 maxwatts 1350
+afc54a maxwatts 1350
+a1e312 maxwatts 1350
+7deb62 maxwatts 1350
+208f0b maxwatts 1350
+039271 maxwatts 1350
+5170b3 maxwatts 1350
+74a492 maxwatts 1350
+c86992 maxwatts 1350
+71feb3 maxwatts 1350
+90b7fe maxwatts 1350
+b7c3ed maxwatts 1350
+1541e1 maxwatts 1350
+ec7d0a maxwatts 1350
+4ae309 maxwatts 1350
+1047f3 maxwatts 1350
+b5ee93 maxwatts 1350
+7352f1 maxwatts 1350
+4ea065 maxwatts 1350
+d07c04 maxwatts 1350
+071970 maxwatts 1350
+1a64c1 maxwatts 1350
+8f3760 maxwatts 1350
+6579f1 maxwatts 1350
+839e1f maxwatts 1350
+e30678 maxwatts 1350
+f5d121 maxwatts 1350
+bb2408 maxwatts 1350
+fbf6a7 maxwatts 1350
+a2131a maxwatts 1350
+fdbabb maxwatts 1350
+9f686d maxwatts 1350
+4f04e1 maxwatts 1350
+87056f maxwatts 1350
+989b0b maxwatts 1350
+
 ## reboots
-# generated on Sep 15 2019 04:27:17 utc: 1568521637 1568521637
-cda7bb rebootasic 1568521637 # 10.0.58.42 gwelt00010
-31a25b rebootasic 1568521637 # 10.0.58.146 gwelt00088
-5997f2 rebootasic 1568521637 # 10.0.65.81 gwelt00132
-5ced68 rebootasic 1568521637 # 10.0.65.156 gwelt00159
-f9b156 rebootasic 1568521637 # 10.0.66.63 gwelt00190
 
 ## asic password
 asicpass admin
