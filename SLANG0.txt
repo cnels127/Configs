@@ -117,6 +117,9 @@ a3c9ac rebootasic 1567997702 # 10.0.226.109
 cc9cd4 rebootasic 1567997702 # 10.0.226.113
 
 ## tuning
+84cd22 maxwatts 850 # 10.0.64.139
+84cd22 rebootasic 1568812853 # 10.0.64.139
+
 # generated on Sep 15 2019 04:24:35 utc: 1568521475: 1568521475
 84cd22 maxwatts 850 # 10.0.64.139
 b65856 maxwatts 1050 # 10.0.120.143
@@ -752,3 +755,4 @@ cc9cd4 maxwatts 1350
 
 ## asic password
 asicpass admin
+

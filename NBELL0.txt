@@ -470,6 +470,17 @@ ad4182 rebootasic 1567920798 # 10.0.59.26 nbell00019
 
 ## overheats
 ## tuning
+b894e2 maxwatts 350 # 10.0.118.110
+9dd012 maxwatts 50 # 10.0.77.92
+45c2fd maxwatts 850 # 10.0.65.82
+5ef933 maxwatts 1150 # 10.0.62.33
+dd72ac maxwatts 1250 # 10.0.77.55
+b894e2 rebootasic 1568812813 # 10.0.118.110
+9dd012 rebootasic 1568812813 # 10.0.77.92
+45c2fd rebootasic 1568812813 # 10.0.65.82
+5ef933 rebootasic 1568812813 # 10.0.62.33
+dd72ac rebootasic 1568812813 # 10.0.77.55
+
 # generated on Sep 17 2019 00:09:12 utc: 1568678952: 1568678952
 b894e2 maxwatts 450 # 10.0.118.110
 9dd012 maxwatts 150 # 10.0.77.92
@@ -556,3 +567,4 @@ d70df1 retune 1
 
 ## asic password
 asicpass admin
+
