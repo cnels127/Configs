@@ -1,0 +1,99 @@
+## instructions available at: https://asicseer.com/page/kb#writing-config
+## 100 machines @ 14.4 Th/s
+## TOTAL EXPECTED HASHRATE: 1,440 Th/s
+
+global custompanel ASMIT0bit049
+
+global poolname1 cn1.btc.bitriver.farm:7913
+global username1 Vark1977
+global poolpass1 123
+global sendworker1 yes
+global poolname2 cn2.btc.bitriver.farm:7988
+global username2 Vark1977
+global poolpass2 123
+global sendworker2 yes
+global poolname3 
+global username3 
+global poolpass3 123
+global sendworker3 yes
+
+global asicboost yes
+global autotune yes
+global maxwatts 1500
+
+global autoupdate yes
+global allowed yes
+global maxtemp 90
+global fanspeed 100
+global fansaver no
+global blinkred idle
+global blinkgreen rapid
+
+# global retune 1
+# global rebootasic 1
+# global resetasic 1
+# global panelpass gj83Nkgikg
+
+# group=rowc rebootasic 1
+# group=rowd allowed no
+
+## vlans
+vlan 10.0.63.23-23
+vlan 10.0.115.31-31
+vlan 10.0.115.133-133
+vlan 10.0.115.135-135
+vlan 10.0.116.68-68
+vlan 10.0.116.160-160
+vlan 10.0.117.1-1
+vlan 10.0.117.8-8
+vlan 10.0.117.12-12
+vlan 10.0.117.16-16
+vlan 10.0.117.18-18
+vlan 10.0.117.88-88
+vlan 10.0.117.92-92
+vlan 10.0.117.116-116
+vlan 10.0.117.121-121
+vlan 10.0.117.158-158
+vlan 10.0.118.6-6
+vlan 10.0.118.39-39
+vlan 10.0.118.59-59
+vlan 10.0.118.76-76
+vlan 10.0.119.5-5
+vlan 10.0.120.76-76
+vlan 10.0.120.96-96
+vlan 10.0.121.136-136
+vlan 10.0.121.150-150
+
+## locations
+83bf48 location ASMIT00001
+839650 location ASMIT00002
+b6dc9b location ASMIT00003
+e73231 location ASMIT00004
+cb7d1b location ASMIT00005
+9a2fce location ASMIT00006
+e1c210 location ASMIT00007
+fee615 location ASMIT00008
+ac5f4f location ASMIT00009
+4ef268 location ASMIT00010
+3f6300 location ASMIT00011
+1b1f44 location ASMIT00012
+e98842 location ASMIT00013
+0b9d8d location ASMIT00014
+11d7bd location ASMIT00015
+b506b4 location ASMIT00016
+b187aa location ASMIT00017
+56c483 location ASMIT00018
+d9e316 location ASMIT00019
+7d610a location ASMIT00020
+9af0af location ASMIT00021
+bed5d9 location ASMIT00022
+613041 location ASMIT00023
+19851e location ASMIT00024
+b92ebe location ASMIT00025
+
+## tuning
+
+## reboots (chain ailment)
+
+## asic password
+asicpass admin
