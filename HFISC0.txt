@@ -125,40 +125,28 @@ bf90a6 location HFISC00044
 e3ce5c location HFISC00050
 
 ## tuning
-267c54 maxwatts 950 # 10.0.61.16
-32db9b maxwatts 1250 # 10.0.77.95
-267c54 rebootasic 1568812754 # 10.0.61.16
-32db9b rebootasic 1568812754 # 10.0.77.95
-
-# generated on Sep 15 2019 04:18:12 utc: 1568521092: 1568521092
-cb9593 maxwatts 950 # 10.0.56.138
-540742 maxwatts 1250 # 10.0.58.10
-cb9593 rebootasic 1568521092 # 10.0.56.138
-540742 rebootasic 1568521092 # 10.0.58.10
-
-cb9593 maxwatts 1050 # 10.0.56.138
-779e72 maxwatts 1250 # 10.0.56.141
-cb9593 rebootasic 1568395665 # 10.0.56.138
-779e72 rebootasic 1568395665 # 10.0.56.141
-
-# generated on Sep 11 2019 15:58:53 utc: 1568217533: 1568217533
-267c54 maxwatts 1050 # 10.0.61.16
-267c54 rebootasic 1568217533 # 10.0.61.16
-# generated on Sep 11 2019 15:22:36 utc: 1568215356: 1568215356
-267c54 maxwatts 1250 # 10.0.61.16
-267c54 rebootasic 1568215356 # 10.0.61.16
-cb9593 maxwatts 1150 # overheat 9/7/19
+cb9593 maxwatts 1350
+779e72  maxwatts 1350
+540742 maxwatts 1350
+267c54 maxwatts 1350
+32db9b maxwatts 1350
 
 972425 retune 1
 d24d19 retune 1
 
 ## reboots
 cb9593 rebootasic 1
+
+cb9593 resetasic 1
+779e72 resetasic 1
+540742 resetasic 1
+267c54 resetasic 1
+32db9b resetasic 1
+
 # generated on Sep 15 2019 04:19:23 utc: 1568521163 1568521163
 2fd188 rebootasic 1568521163 # 10.0.68.63 hfisc00010
 3ccb07 rebootasic 1568521163 # 10.0.77.27 hfisc00048
 
 ## asic password
+
 asicpass admin
-
-
