@@ -102,10 +102,6 @@ f11c7d location KTAEY10028
 ef85ce location KTAEY10031
 
 ## tuning
-80297d resetasic 1
-251a2b resetasic 2
-bac719 resetasic 1
-2e6730 resetasic 2
 5a6128 retune 1
 80297d retune 1
 6639db retune 1
@@ -116,6 +112,13 @@ bac719 resetasic 1
 
 ## reboots
 80297d rebootasic 1
+
+## resets
+80297d resetasic 1
+251a2b resetasic 2
+bac719 resetasic 1
+2e6730 resetasic 2
+6639db resetasic 1
 
 ## asic password
 asicpass admin
