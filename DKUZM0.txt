@@ -17,7 +17,7 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1500
+global maxwatts 1525
 global autoupdate yes
 global allowed yes
 global maxtemp 90
@@ -26,7 +26,7 @@ global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
-# global retune 1
+global retune 1
 # global rebootasic 1
 # global resetasic 1
 # global panelpass gj83Nkgikg
@@ -35,25 +35,16 @@ global blinkgreen rapid
 # group=rowd allowed no
 
 ## vlans
-vlan 10.0.66.23-23
 vlan 10.0.61.133-133
-vlan 10.0.62.157-157
 vlan 10.0.65.54-54
 vlan 10.0.65.75-75
 
 ## locations
-a7849c location DKUZM00001
 dcf994 location DKUZM00001
-e12ce5 location DKUZM00002
 596a83 location DKUZM00002
 e06e8a location DKUZM00003
 
 ## tuning
-a7849c maxwatts 1050
-dcf994 maxwatts 1450
-e12ce5 maxwatts 1250
-596a83 maxwatts 1450
-e06e8a maxwatts 1450
 
 ## asic password
 asicpass admin
