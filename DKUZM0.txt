@@ -17,12 +17,12 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1450
+global maxwatts 1500
 global autoupdate yes
 global allowed yes
 global maxtemp 90
 global fanspeed 100
-# global fansaver yes
+global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
