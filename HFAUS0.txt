@@ -38,54 +38,38 @@ global retune 1
 
 ## vlans
 vlan 10.0.62.37-37
-vlan 10.0.67.115-115
 vlan 10.0.57.86-86
 vlan 10.0.62.81-81
-vlan 10.0.62.82-82
 vlan 10.0.62.32-32
 vlan 10.0.65.11-11
-vlan 10.0.64.145-145
 vlan 10.0.61.109-109
-vlan 10.0.66.87-87
-vlan 10.0.61.13-13
 vlan 10.0.65.124-124
 vlan 10.0.63.77-77
 vlan 10.0.63.42-42
 vlan 10.0.61.105-105
-vlan 10.0.62.110-110
 vlan 10.0.64.3-3
 vlan 10.0.67.83-83
 vlan 10.0.63.34-34
 vlan 10.0.67.95-95
-vlan 10.0.65.99-99
 vlan 10.0.65.112-112
 vlan 10.0.59.161-161
 vlan 10.0.61.106-106
-vlan 10.0.62.131-131
 vlan 10.0.64.104-104
 vlan 10.0.64.70-70
 vlan 10.0.66.153-153
 
 ## locations
 a7fca0 location HFAUS00001
-311b99 location HFAUS00001
 a3883c location HFAUS00002
 335e38 location HFAUS00002
-57febf location HFAUS00003
 485e13 location HFAUS00003
 4c84d0 location HFAUS00009
 683bb6 location HFAUS00009
 a072b9 location HFAUS00010
-dd8320 location HFAUS00004
-2c2665 location HFAUS00010
 d51a5c location HFAUS00011
-eb31e9 location HFAUS00005
-c28a7c location HFAUS00006
 6192a4 location HFAUS00007
-eff346 location HFAUS00008
 fe7105 location HFAUS00010
 9157ba location HFAUS00009
-ef15e2 location HFAUS00012
 f3c9af location HFAUS00012
 7adae2 location HFAUS00011
 50ff88 location HFAUS00008
@@ -97,48 +81,9 @@ c7c8e8 location HFAUS00004
 b19f40 location HFAUS00013
 
 ## tuning
-eb31e9 maxwatts 1250 # 10.0.66.87
-eb31e9 rebootasic 1567797624 # 10.0.66.87
-
-c7c8e8 maxwatts 1350 # 10.0.65.11
-c7c8e8 rebootasic 1567795533 # 10.0.65.11
-
-eb31e9 maxwatts 1350 # 10.0.66.87
-eb31e9 rebootasic 1567793389 # 10.0.66.87
-
-d51a5c maxwatts 1150 # 10.0.59.161
-d51a5c rebootasic 1567787269 # 10.0.59.161
-
-a7fca0 maxwatts 1450
-311b99 maxwatts 1450
-a3883c maxwatts 1350
-335e38 maxwatts 1450
-57febf maxwatts 1450
-485e13 maxwatts 1350
-4c84d0 maxwatts 1450
-683bb6 maxwatts 1050
-a072b9 maxwatts 1150
-dd8320 maxwatts 1350
-2c2665 maxwatts 1250
-d51a5c maxwatts 1250
-eb31e9 maxwatts 1450
-c28a7c maxwatts 1450
-6192a4 maxwatts 1450
-eff346 maxwatts 1450
-fe7105 maxwatts 950
-9157ba maxwatts 950
-ef15e2 maxwatts 950
-f3c9af maxwatts 1450
-7adae2 maxwatts 1450
-50ff88 maxwatts 1350
-c81b30 maxwatts 1450
-f3bb3d maxwatts 1450
-737fce maxwatts 1350
-c7c8e8 maxwatts 1450
+# generated on Sep 19 2019 01:28:54 utc: 1568856534: 1568856534
+b19f40 maxwatts 1400 # 10.0.66.154
+b19f40 rebootasic 1568856534 # 10.0.66.154
 
 ## asic password
 asicpass admin
-
-
-
-
