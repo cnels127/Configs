@@ -190,6 +190,13 @@ bf8fd2 location AZDJE00096
 
 ## tuning
 8ed68e maxwatts -100 # 10.0.56.14
+01b775 maxwatts 1125 # 10.0.55.155
+60ea4c maxwatts 1400 # 10.0.56.103
+8ed68e rebootasic 1568961948 # 10.0.56.14
+01b775 rebootasic 1568961948 # 10.0.55.155
+60ea4c rebootasic 1568961948 # 10.0.56.103
+
+8ed68e maxwatts -100 # 10.0.56.14
 8ed68e rebootasic 1568960164 # 10.0.56.14
 
 8ed68e maxwatts -100 # 10.0.56.14
@@ -343,6 +350,7 @@ dcc8ce rebootasic 1568520202 # 10.0.56.57 azdje00074
 
 ## asic password
 asicpass admin
+
 
 
 
