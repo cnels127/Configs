@@ -125,6 +125,9 @@ bf90a6 location HFISC00044
 e3ce5c location HFISC00050
 
 ## tuning
+267c54 maxwatts 950 # 10.0.61.16
+267c54 rebootasic 1568937730 # 10.0.61.16
+
 267c54 maxwatts 1050 # 10.0.61.16
 267c54 rebootasic 1568934329 # 10.0.61.16
 
@@ -159,6 +162,7 @@ cb9593 resetasic 1
 ## asic password
 
 asicpass admin
+
 
 
 
