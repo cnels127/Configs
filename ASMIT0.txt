@@ -42,7 +42,7 @@ vlan 10.0.63.23-23
 vlan 10.0.115.31-31
 vlan 10.0.115.133-133
 vlan 10.0.115.135-135
-vlan 10.0.116.68-68
+vlan 10.0.62.110-110
 vlan 10.0.116.160-160
 vlan 10.0.117.1-1
 vlan 10.0.117.8-8
@@ -73,13 +73,15 @@ vlan 10.0.61.32-32
 vlan 10.0.118.17-17
 vlan 10.0.121.79-79
 vlan 10.0.77.3-3
+vlan 10.0.67.83-83
+vlan 10.0.63.10-10
 
 ## locations
 83bf48 location ASMIT00001
 839650 location ASMIT00002
 b6dc9b location ASMIT00003
 e73231 location ASMIT00004
-cb7d1b location ASMIT00005
+eff346 location ASMIT00005
 9a2fce location ASMIT00006
 e1c210 location ASMIT00007
 fee615 location ASMIT00008
@@ -110,6 +112,8 @@ d1959f location ASMIT00032
 85ec4c location ASMIT00033
 989ff6 location ASMIT00034
 524b81 location ASMIT00035
+683bb6 location ASMIT00036
+56b43e location ASMIT00037
 
 ## tuning
 # generated on Sep 19 2019 14:51:27 utc: 1568904687: 1568904687
