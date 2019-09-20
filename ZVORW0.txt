@@ -17,7 +17,7 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1450
+global maxwatts 1500
 global autoupdate yes
 global allowed yes
 global maxtemp 90
@@ -35,20 +35,14 @@ global blinkgreen rapid
 # group=rowd allowed no
 
 ## vlans
-vlan 10.0.62.138-138
 vlan 10.0.62.34-34
 vlan 10.0.63.55-55
-vlan 10.0.67.69-69
 vlan 10.0.64.29-29
-vlan 10.0.63.118-118
 
 ## locations
-2371b0 location ZVORW00001
 3884fb location ZVORW00001
 f726b1 location ZVORW00002
-871acb location ZVORW00002
 c2ee95 location ZVORW00003
-eabba9 location ZVORW00003
 
 ## tuning
 
