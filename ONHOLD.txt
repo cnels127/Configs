@@ -70,6 +70,17 @@ f726b1 maxwatts 1500
 c2ee95 maxwatts 1500
 eabba9 maxwatts 1500
 
+## JROBE2
+vlan 172.16.202.58-58
+vlan 172.16.202.59-59
+vlan 172.16.204.147-147
+7cc8a1 location JROBE10001
+be602c location JROBE10002
+fbb341 location JROBE10003
+7cc8a1 maxwatts 1300
+be602c maxwatts 1300
+fbb341 maxwatts 1300
+
 ## tuning
 871acb maxwatts 1400 # 10.0.67.69
 871acb rebootasic 1568948105 # 10.0.67.69
