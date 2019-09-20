@@ -45,6 +45,9 @@ af34c7 location RFRAN00001
 d54f75 location RFRAN00004
 
 ## tuning
+7f3717 maxwatts 1400 # 10.0.62.38
+7f3717 rebootasic 1568969199 # 10.0.62.38
+
 46bd22 maxwatts 1400 # 10.0.62.39
 46bd22 rebootasic 1568951586 # 10.0.62.39
 
@@ -52,4 +55,5 @@ d54f75 retune 1
 
 ## asic password
 asicpass admin
+
 
