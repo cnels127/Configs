@@ -206,6 +206,23 @@ d1959f location ASMIT00031
 524b81 location ASMIT00034
 683bb6 location ASMIT00035
 56b43e location ASMIT00036
+1df8f9 location ASMIT00037
+e12ce5 location ASMIT00038
+a9900e location ASMIT00039
+03495a location ASMIT00040
+5c3a63 location ASMIT00041
+e8355a location ASMIT00042
+d94043 location ASMIT00043
+12da9b location ASMIT00044
+bd7f48 location ASMIT00045
+57db56 location ASMIT00046
+dd8320 location ASMIT00047
+e42129 location ASMIT00048
+f5ddbb location ASMIT00049
+2c2665 location ASMIT00050
+47bb2b location ASMIT00051
+d34135 location ASMIT00052
+3bc058 location ASMIT00053
 
 d46fb5 location ASMIT0AAAA
 63239b location ASMIT0AAAA
@@ -225,7 +242,6 @@ e56295 location ASMIT0AAAA
 77f6c4 location ASMIT0AAAA
 f5acba location ASMIT0AAAA
 86bd56 location ASMIT0AAAA
-e8355a location ASMIT0AAAA
 faba84 location ASMIT0AAAA
 e3ad88 location ASMIT0AAAA
 d65343 location ASMIT0AAAA
@@ -244,24 +260,18 @@ ebac3f location ASMIT0AAAA
 000122 location ASMIT0AAAA
 0025f7 location ASMIT0AAAA
 031d29 location ASMIT0AAAA
-03495a location ASMIT0AAAA
 059330 location ASMIT0AAAA
 071a82 location ASMIT0AAAA
 08e3f8 location ASMIT0AAAA
 1c635d location ASMIT0AAAA
-1df8f9 location ASMIT0AAAA
 1ee0e9 location ASMIT0AAAA
 2b2c57 location ASMIT0AAAA
 2c294b location ASMIT0AAAA
-2c2665 location ASMIT0AAAA
-3bc058 location ASMIT0AAAA
 6db0b2 location ASMIT0AAAA
 8bb8b2 location ASMIT0AAAA
 9c6854 location ASMIT0AAAA
 9cf57d location ASMIT0AAAA
-12da9b location ASMIT0AAAA
 26c95e location ASMIT0AAAA
-47bb2b location ASMIT0AAAA
 50aace location ASMIT0AAAA
 57febf location ASMIT0AAAA
 65ebd5 location ASMIT0AAAA
@@ -288,26 +298,27 @@ ae8e9d location ASMIT0AAAA
 b1aa6a location ASMIT0AAAA
 b6f985 location ASMIT0AAAA
 b16fdd location ASMIT0AAAA
-bd7f48 location ASMIT0AAAA
 c28a7c location ASMIT0AAAA
 c81b30 location ASMIT0AAAA
 cdce27 location ASMIT0AAAA
 d2a09d location ASMIT0AAAA
 d6d15f location ASMIT0AAAA
 d5888b location ASMIT0AAAA
-d34135 location ASMIT0AAAA
 d46013 location ASMIT0AAAA
 da3e46 location ASMIT0AAAA
 dcb3fe location ASMIT0AAAA
-dd8320 location ASMIT0AAAA
-e12ce5 location ASMIT0AAAA
 e3414b location ASMIT0AAAA
-e42129 location ASMIT0AAAA
 ea2105 location ASMIT0AAAA
 eabba9 location ASMIT0AAAA
 eb16ee location ASMIT0AAAA
 eb31e9 location ASMIT0AAAA
 f6f5cd location ASMIT0AAAA
+d780da location ASMIT0AAAA
+d9e963 location ASMIT0AAAA
+b78fed location ASMIT0AAAA
+619d59 location ASMIT0AAAA
+364899 location ASMIT0AAAA
+
 
 ## tuning
 # generated on Sep 21 2019 17:31:56 utc: 1569087116: 1569087116
@@ -430,6 +441,9 @@ bed5d9 rebootasic 1568904687 # 10.0.120.76
 # generated on Sep 18 2019 22:01:56 utc: 1568844116: 1568844116
 bed5d9 maxwatts 1400 # 10.0.120.76
 bed5d9 rebootasic 1568844116 # 10.0.120.76
+
+613041 maxwatts 1500
+d1959f maxwatts 1500
 
 ## reboots (chain ailment)
 
