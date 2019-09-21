@@ -1,4 +1,7 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
+##       3 s9 @ 16 Th = 48 Th/s
+##     3 s9 @ 14.4 Th = 43.2 Th/s
+## TOTAL EXP HASHRATE = 91.2 Th/s
 
 global custompanel MSETI0bit049
 
@@ -35,22 +38,20 @@ global blinkgreen rapid
 # group=rowd allowed no
 
 ## vlans
-# vlan 10.0.61.137-137
-# vlan 10.0.63.140-140
-# vlan 10.0.63.160-160
-# vlan 10.0.58.19-19
-vlan 10.0.115.164-164
-vlan 10.0.115.169-169
+vlan 10.0.58.19-19
+vlan 10.0.61.137-137
+vlan 10.0.63.140-140
+vlan 10.0.63.160-160
+vlan 10.0.115.61-61
 vlan 10.0.117.155-155
 
 ## locations
-743db3 location MSETI00001
-7efb10 location MSETI00002
-7104a2 location MSETI00003
-a22315 location MSETI00004
-fc5018 location MSETI00005
-f6388e location MSETI00006
-35e5b2 location MSETI00007
+7efb10 location MSETI00001
+7104a2 location MSETI00002
+a22315 location MSETI00003
+743db3 location MSETI00004
+f6388e location MSETI00005
+35e5b2 location MSETI00006
 
 ## tuning
 7104a2 maxwatts 1400 # 10.0.61.137
