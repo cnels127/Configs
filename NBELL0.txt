@@ -471,6 +471,9 @@ ad4182 rebootasic 1567920798 # 10.0.59.26 nbell00019
 ## overheats
 ## tuning
 b894e2 maxwatts -50 # 10.0.118.110
+b894e2 rebootasic 1569339989 # 10.0.118.110
+
+b894e2 maxwatts -50 # 10.0.118.110
 b894e2 rebootasic 1569338281 # 10.0.118.110
 
 b894e2 maxwatts -50 # 10.0.118.110
@@ -910,6 +913,7 @@ d70df1 retune 1
 
 ## asic password
 asicpass admin
+
 
 
 
