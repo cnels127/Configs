@@ -38,19 +38,19 @@ global blinkgreen rapid
 # group=rowd allowed no
 
 ## vlans
-# vlan 10.0.61.157-157
-# vlan 10.0.63.84-84
-# vlan 10.0.65.68-68
+vlan 10.0.61.157-157
+vlan 10.0.63.84-84
+vlan 10.0.65.68-68
 vlan 10.0.115.88-88
 vlan 10.0.115.104-104
 vlan 10.0.115.106-106
 vlan 10.0.115.107-107
-vlan 10.0.115.167-167
-vlan 10.0.115.171-171
+vlan 10.0.115.66-66
+vlan 10.0.115.86-86
 vlan 10.0.116.37-37
 vlan 10.0.116.68-68
 vlan 10.0.116.94-94
-vlan 10.0.116.150-150
+vlan 10.0.68.6
 
 ## locations
 dae245 location TGROT00001
@@ -65,19 +65,20 @@ a485fd location TGROT00009
 052e16 location TGROT00010
 cb7d1b location TGROT00011
 a83fdc location TGROT00012
-69f354 location TGROT00013
+3ec4f8 location TGROT00013
 
 ## tuning
-11a6fc maxwatts 1350
-48fe50 maxwatts 1350
-d664b7 maxwatts 1350
-56444d maxwatts 1350
-1ea527 maxwatts 1350
-a485fd maxwatts 1350
-052e16 maxwatts 1350
-cb7d1b maxwatts 1350
-a83fdc maxwatts 1350
-69f354 maxwatts 1350
+11a6fc maxwatts 1400
+48fe50 maxwatts 1400
+d664b7 maxwatts 1400
+56444d maxwatts 1400
+1ea527 maxwatts 1400
+a485fd maxwatts 1400
+052e16 maxwatts 1400
+cb7d1b maxwatts 1400
+a83fdc maxwatts 1400
+69f354 maxwatts 1400
+3ec4f8 maxwatts 1400
 
 ## asic password
 asicpass admin
