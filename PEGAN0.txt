@@ -66,7 +66,6 @@ vlan 10.0.225.22-22
 63f1ab location PEGAN00003
 ef1f6e location PEGAN00004
 38d579 location PEGAN00005
-
 c1a1c1 location PEGAN00006
 499bef location PEGAN00006
 2a7de4 location PEGAN00007
@@ -86,130 +85,11 @@ f1ae88 location PEGAN00014
 4900fd location PEGAN00015
 
 ## tuning
-d3efbf maxwatts 450 # 10.0.120.112
-d3efbf rebootasic 1568951571 # 10.0.120.112
-
-9373bb maxwatts 1250 # 10.0.121.68
-9373bb rebootasic 1568949835 # 10.0.121.68
-
-c1a1c1 maxwatts 350 # 10.0.220.41
-c1a1c1 rebootasic 1568167003 # 10.0.220.41
-
-c1a1c1 maxwatts 450 # 10.0.220.41
-c1a1c1 rebootasic 1568154590 # 10.0.220.41
-
-f1ae88 maxwatts 650 # 10.0.225.11
-f1ae88 rebootasic 1568151051 # 10.0.225.11
-
-d3efbf maxwatts 550 # 10.0.225.1
-d3efbf rebootasic 1568138787 # 10.0.225.1
-
-d3efbf maxwatts 650 # 10.0.225.1
-d3efbf rebootasic 1568135349 # 10.0.225.1
-
-f1ae88 maxwatts 750 # 10.0.225.11
-f1ae88 rebootasic 1568131942 # 10.0.225.11
-
-f1ae88 maxwatts 850 # 10.0.225.11
-f1ae88 rebootasic 1568126847 # 10.0.225.11
-
-d3efbf maxwatts 750 # 10.0.225.1
-d3efbf rebootasic 1568125142 # 10.0.225.1
-
-c1a1c1 maxwatts 550 # 10.0.220.41
-c1a1c1 rebootasic 1568123423 # 10.0.220.41
-
-d3efbf maxwatts 850 # 10.0.225.1
-d3efbf rebootasic 1568118347 # 10.0.225.1
-
-f1ae88 maxwatts 950 # 10.0.225.11
-f1ae88 rebootasic 1568116654 # 10.0.225.11
-
-c1a1c1 maxwatts 650 # 10.0.220.41
-c1a1c1 rebootasic 1568109932 # 10.0.220.41
-
-c1a1c1 maxwatts 750 # 10.0.220.41
-c1a1c1 rebootasic 1568106405 # 10.0.220.41
-
-c1a1c1 maxwatts 850 # 10.0.220.41
-2a7de4 maxwatts 1050 # 10.0.223.146
-c1a1c1 rebootasic 1568097578 # 10.0.220.41
-2a7de4 rebootasic 1568097578 # 10.0.223.146
-
-f1ae88 maxwatts 1050 # 10.0.225.11
-f1ae88 rebootasic 1568092351 # 10.0.225.11
-
-c1a1c1 maxwatts 950 # 10.0.220.41
-6c96dd maxwatts 750 # 10.0.224.103
-c1a1c1 rebootasic 1568087172 # 10.0.220.41
-6c96dd rebootasic 1568087172 # 10.0.224.103
-
-c1a1c1 maxwatts 1050 # 10.0.220.41
-b6ea4d maxwatts 1050 # 10.0.224.120
-0be583 maxwatts 1150 # 10.0.224.122
-4e0552 maxwatts 650 # 10.0.224.166
-d3efbf maxwatts 950 # 10.0.225.1
-f1ae88 maxwatts 1150 # 10.0.225.11
-c1a1c1 rebootasic 1568083702 # 10.0.220.41
-b6ea4d rebootasic 1568083702 # 10.0.224.120
-0be583 rebootasic 1568083702 # 10.0.224.122
-4e0552 rebootasic 1568083702 # 10.0.224.166
-d3efbf rebootasic 1568083702 # 10.0.225.1
-f1ae88 rebootasic 1568083702 # 10.0.225.11
-
-d3efbf maxwatts 1050 # 10.0.225.1
-d3efbf rebootasic 1568080218 # 10.0.225.1
-
-2a7de4 maxwatts 1150 # 10.0.223.146
-6c96dd maxwatts 850 # 10.0.224.103
-9a258b maxwatts 850 # 10.0.224.125
-2a7de4 rebootasic 1568078471 # 10.0.223.146
-6c96dd rebootasic 1568078471 # 10.0.224.103
-9a258b rebootasic 1568078471 # 10.0.224.125
-
-6c96dd maxwatts 950 # 10.0.224.103
-4e0552 maxwatts 750 # 10.0.224.166
-6c96dd rebootasic 1568076731 # 10.0.224.103
-4e0552 rebootasic 1568076731 # 10.0.224.166
-
-4e0552 maxwatts 850 # 10.0.224.166
-4e0552 rebootasic 1568074990 # 10.0.224.166
-
-6c96dd maxwatts 1050 # 10.0.224.103
-9a258b maxwatts 950 # 10.0.224.125
-4e0552 maxwatts 950 # 10.0.224.166
-6c96dd rebootasic 1568073254 # 10.0.224.103
-9a258b rebootasic 1568073254 # 10.0.224.125
-4e0552 rebootasic 1568073254 # 10.0.224.166
-
-6c96dd maxwatts 1150 # 10.0.224.103
-6c96dd rebootasic 1568071510 # 10.0.224.103
-
-4e0552 maxwatts 1050 # 10.0.224.166
-9a258b maxwatts 1050 # 10.0.224.125
-4e0552 rebootasic 1568069756 # 10.0.224.166
-9a258b rebootasic 1568069756 # 10.0.224.125
-
-c1a1c1 maxwatts 1150 # 10.0.220.41
-2a7de4 maxwatts 1250 # 10.0.223.146
-6c96dd maxwatts 1250 # 10.0.224.103
-b6ea4d maxwatts 1150 # 10.0.224.120
-4e0552 maxwatts 1150 # 10.0.224.166
-9a258b maxwatts 1150 # 10.0.224.125
-d3efbf maxwatts 1150 # 10.0.225.1
-c1a1c1 rebootasic 1568068023 # 10.0.220.41
-2a7de4 rebootasic 1568068023 # 10.0.223.146
-6c96dd rebootasic 1568068023 # 10.0.224.103
-b6ea4d rebootasic 1568068023 # 10.0.224.120
-4e0552 rebootasic 1568068023 # 10.0.224.166
-9a258b rebootasic 1568068023 # 10.0.224.125
-d3efbf rebootasic 1568068023 # 10.0.225.1
-
 63f1ab retune 1
 5a3dde retune 1
 
 ## resets
-f1ae88 resetasic 2
+f1ae88 resetasic 3
 c1a1c1 resetasic 2
 d20101 resetasic 2
 a03c97 resetasic 2
@@ -219,5 +99,3 @@ d1c299 resetasic 2
 
 ## asic password
 asicpass admin
-
-
