@@ -37,6 +37,21 @@ global rebootasic 1
 # group=rowd allowed no
 
 ## vlans
+vlan 10.0.54.154-154
+vlan 10.0.55.142-142
+vlan 10.0.62.27-27
+vlan 10.0.68.34-34
+vlan 10.0.68.35-35
+vlan 10.0.118.5-5
+vlan 10.0.118.48-48
+vlan 10.0.115.21-21
+vlan 10.0.115.100-100
+vlan 10.0.117.4-4
+vlan 10.0.115.2-2
+vlan 10.0.115.96-96
+vlan 10.0.118.49-49
+vlan 10.0.120.92-92
+vlan 10.0.119.52-52
 
 ## locations
 5a3dde location PEGAN00001
