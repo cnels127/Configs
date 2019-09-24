@@ -36,11 +36,17 @@ global rebootasic 1
 # group=rowd allowed no
 
 ## vlans
-vlan 10.0.54.74-75
+# vlan 10.0.54.74-75
+vlan 10.0.68.9-9
+vlan 10.0.119.71-71
+vlan 10.0.120.130-30
 
 ## locations
 1565d6 location JROBE00001
 555712 location JROBE00002
+317af1 location JROBE00003
+9b2f7a location JROBE00004
+321a3a location JROBE00005
 
 ## tuning
 1565d6 retune 1
