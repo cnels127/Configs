@@ -100,6 +100,9 @@ f4b34b location VMANU00020
 b56664 location VMANU00030
 
 ## tuning
+183877 maxwatts 1050 # 10.0.66.69
+183877 rebootasic 1569329686 # 10.0.66.69
+
 43d9af maxwatts 1150 # 10.0.66.117
 43d9af rebootasic 1568812904 # 10.0.66.117
 
@@ -125,6 +128,7 @@ b56664 location VMANU00030
 
 ## asic password 
 asicpass admin
+
 
 
 
