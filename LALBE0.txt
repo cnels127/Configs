@@ -61,6 +61,9 @@ e3af8a location LALBE00006
 
 ## tuning
 e3af8a maxwatts -50 # 10.0.64.77
+e3af8a rebootasic 1569346869 # 10.0.64.77
+
+e3af8a maxwatts -50 # 10.0.64.77
 e3af8a rebootasic 1569345137 # 10.0.64.77
 
 e3af8a maxwatts -50 # 10.0.64.77
@@ -307,6 +310,7 @@ b49a7f retune 2
 
 ## asic password
 asicpass admin
+
 
 
 
