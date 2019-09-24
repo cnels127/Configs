@@ -1,4 +1,7 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
+##  50 s9 @ 14.4 Th/s = 720 Th/s
+##  10 s9 @ 13.5 Th/s = 135 Th/s
+## TOTAL EXP HASHRATE = 855 Th/s
 
 global custompanel HFISC0bit049
 
@@ -51,26 +54,40 @@ global rebootasic 2
 # vlan 10.0.60.158-158
 # vlan 10.0.61.4-4
 # vlan 10.0.61.14-14
-vlan 10.0.58.1-1
-vlan 10.0.58.4-4
-vlan 10.0.58.10-10
-vlan 10.0.58.14-14
-vlan 10.0.58.21-21
-vlan 10.0.58.22-22
-vlan 10.0.61.16-16
-vlan 10.0.62.64-64
-vlan 10.0.62.118-118
-vlan 10.0.63.17-17
-vlan 10.0.65.1-1
-vlan 10.0.65.2-2
-vlan 10.0.65.4-4
-vlan 10.0.65.13-13
-vlan 10.0.65.14-14
-vlan 10.0.65.16-16
-vlan 10.0.65.18-18
-vlan 10.0.77.27-27
-vlan 10.0.77.95-95
-vlan 10.0.115.30-30
+# vlan 10.0.58.1-1
+# vlan 10.0.58.4-4
+# vlan 10.0.58.10-10
+# vlan 10.0.58.14-14
+# vlan 10.0.58.21-21
+# vlan 10.0.58.22-22
+# vlan 10.0.61.16-16
+# vlan 10.0.62.64-64
+# vlan 10.0.62.118-118
+# vlan 10.0.63.17-17
+# vlan 10.0.65.1-1
+# vlan 10.0.65.2-2
+# vlan 10.0.65.4-4
+# vlan 10.0.65.13-13
+# vlan 10.0.65.14-14
+# vlan 10.0.65.16-16
+# vlan 10.0.65.18-18
+# vlan 10.0.77.27-27
+# vlan 10.0.77.95-95
+# vlan 10.0.115.30-30
+
+vlan 10.0.60.83-83
+vlan 10.0.61.44-44
+vlan 10.0.117.10-10
+vlan 10.0.117.15-15
+vlan 10.0.118.28-28
+vlan 10.0.118.54-54
+vlan 10.0.119.125-125
+vlan 10.0.121.68-68
+vlan 10.0.64.3-3
+vlan 10.0.64.107-107
+vlan 10.0.51.65-65
+vlan 10.0.51.61-61
+
 
 ## locations
 994f1c location HFISC00001
@@ -124,6 +141,20 @@ bf90a6 location HFISC00044
 32db9b location HFISC00049
 e3ce5c location HFISC00050
 
+f0acc9 location HFISC00051
+69c26c location HFISC00052
+abb865 location HFISC00053
+b73e18 location HFISC00054
+939cc7 location HFISC00055
+f2b75b location HFISC00056
+77f6c4 location HFISC00057
+9373bb location HFISC00058
+4c84d0 location HFISC00059
+26c95e location HFISC00059
+227281 location HFISC00060
+000122 location HFISC00060
+
+
 ## tuning
 267c54 maxwatts 450 # 10.0.61.16
 267c54 rebootasic 1568965563 # 10.0.61.16
@@ -155,11 +186,22 @@ e3ce5c location HFISC00050
 267c54 rebootasic 1568930918 # 10.0.61.16
 
 cb9593 maxwatts 1350
-779e72  maxwatts 1350
+779e72 maxwatts 1350
 540742 maxwatts 1350
 267c54 maxwatts 1350
 32db9b maxwatts 1350
-
+f0acc9 maxwatts 1250
+69c26c maxwatts 1250
+abb865 maxwatts 1250
+b73e18 maxwatts 1250
+939cc7 maxwatts 1250
+f2b75b maxwatts 1250
+77f6c4 maxwatts 1250
+9373bb maxwatts 1250
+4c84d0 maxwatts 1250
+26c95e maxwatts 1250
+227281 maxwatts 1250
+000122 maxwatts 1250
 972425 retune 1
 d24d19 retune 1
 
@@ -179,12 +221,3 @@ cb9593 resetasic 1
 ## asic password
 
 asicpass admin
-
-
-
-
-
-
-
-
-
