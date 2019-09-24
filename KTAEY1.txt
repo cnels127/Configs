@@ -102,12 +102,6 @@ f11c7d location KTAEY10028
 ef85ce location KTAEY10031
 
 ## tuning
-eb6467 maxwatts 1100 # 172.16.203.78
-eb6467 rebootasic 1569297513 # 172.16.203.78
-
-eb6467 maxwatts 1200 # 172.16.203.78
-eb6467 rebootasic 1569290553 # 172.16.203.78
-
 5a6128 retune 1
 80297d retune 1
 6639db retune 1
@@ -120,6 +114,7 @@ eb6467 rebootasic 1569290553 # 172.16.203.78
 80297d rebootasic 1
 
 ## resets
+eb6467 resetasic 1569365547
 5a6128 resetasic 1569354674
 eb6467 resetasic 1569354674
 3c87aa resetasic 1569354674
