@@ -463,11 +463,6 @@ a0cac7 location NBELL00204
 9c462c location NBELL00206
 252f2b location NBELL00207
 
-## reboots for chain ailment
-# generated on Sep 08 2019 05:33:18 utc: 1567920798 1567920798
-ad4182 rebootasic 1567920798 # 10.0.59.26 nbell00019
-22c41f rebootasic 1567920798 # 10.0.77.143 nbell00116
-
 ## overheats
 ## tuning
 b894e2 maxwatts -50 # 10.0.118.110
@@ -926,85 +921,15 @@ b894e2 rebootasic 1568320741 # 10.0.118.110
 fbb0c3 retune 1
 d70df1 retune 1
 
+## reboots (chain ailment)
+# generated on Sep 08 2019 05:33:18 utc: 1567920798 1567920798
+ad4182 rebootasic 1567920798 # 10.0.59.26 nbell00019
+22c41f rebootasic 1567920798 # 10.0.77.143 nbell00116
+
+## resets (fixed machines)
+5534be resetasic 1
+055005 resetasic 1
+df39bb resetasic 1
+
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
