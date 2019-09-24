@@ -1,4 +1,5 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
+## TOTAL EXP HASHRATE 303 s9 @ 14.4 Th/s = 4,363 Th/s
 
 global custompanel AHOPF0bit049 
 
@@ -493,6 +494,9 @@ cc9fd9 location AHOPF00302
 79c07f location AHOPF00303
 
 ## tuning
+# generated on Sep 24 2019 18:57:55 utc: 1569351475: 1569351475
+2c8cd5 maxwatts 1300 # 10.0.121.60
+2c8cd5 rebootasic 1569351475 # 10.0.121.60
 # generated on Sep 20 2019 14:17:10 utc: 1568989030: 1568989030
 98d6ae maxwatts 1300 # 10.0.116.56
 5b0b0f maxwatts 1300 # 10.0.121.117
