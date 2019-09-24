@@ -60,6 +60,17 @@ dc7a56 location LMACK10013
 188204 location LMACK10017
 
 ## tuning
+dc7a56 maxwatts 800 # 172.16.203.133
+66742c maxwatts 1200 # 172.16.203.153
+902dff maxwatts 1200 # 172.16.203.124
+fc5728 maxwatts 1200 # 172.16.201.172
+e2b17a maxwatts 1100 # 172.16.203.138
+dc7a56 rebootasic 1569353841 # 172.16.203.133
+66742c rebootasic 1569353841 # 172.16.203.153
+902dff rebootasic 1569353841 # 172.16.203.124
+fc5728 rebootasic 1569353841 # 172.16.201.172
+e2b17a rebootasic 1569353841 # 172.16.203.138
+
 188204 maxwatts 1000 # 172.16.201.140
 be298d maxwatts 1100 # 172.16.203.118
 188204 rebootasic 1569294040 # 172.16.201.140
@@ -135,6 +146,7 @@ dc7a56 rebootasic 1568067992 # 172.16.204.5
 
 ## asic password
 asicpass admin
+
 
 
 
