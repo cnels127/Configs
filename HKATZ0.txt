@@ -46,6 +46,13 @@ ceac8d location HKATZ00005
 
 ## tuning
 fae301 maxwatts 1400 # 10.0.68.38
+ceac8d maxwatts 1400 # 10.0.67.40
+44ba88 maxwatts 1400 # 10.0.68.39
+fae301 rebootasic 1569404191 # 10.0.68.38
+ceac8d rebootasic 1569404191 # 10.0.67.40
+44ba88 rebootasic 1569404191 # 10.0.68.39
+
+fae301 maxwatts 1400 # 10.0.68.38
 44ba88 maxwatts 1400 # 10.0.68.39
 fae301 rebootasic 1569402263 # 10.0.68.38
 44ba88 rebootasic 1569402263 # 10.0.68.39
@@ -346,6 +353,7 @@ fae301 rebootasic 1568944584 # 10.0.68.38
 
 ## asic password
 asicpass admin
+
 
 
 
