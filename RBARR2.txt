@@ -29,7 +29,7 @@ global blinkgreen rapid
 
 # global retune 1
 global rebootasic 1
-# global resetasic 1
+global resetasic 2
 # global panelpass gj83Nkgikg
 
 # group=rowc rebootasic 1
@@ -53,71 +53,6 @@ cfd708 location shadow
 1b6910 location jay2
 
 ## tuning
-a9c33f maxwatts -100 # 172.16.201.217
-a9c33f rebootasic 1567394817 # 172.16.201.217
-
-a9c33f maxwatts 0 # 172.16.201.217
-a9c33f rebootasic 1567358964 # 172.16.201.217
-
-a9c33f maxwatts 100 # 172.16.201.217
-a9c33f rebootasic 1567280915 # 172.16.201.217
-
-a9c33f maxwatts 200 # 172.16.201.217
-a9c33f rebootasic 1566836886 # 172.16.201.217
-
-1b6910 maxwatts 1100 # 172.16.203.53
-b70584 maxwatts 1200 # 172.16.204.90
-1b6910 rebootasic 1566825564 # 172.16.203.53
-b70584 rebootasic 1566825564 # 172.16.204.90
-
-43345a maxwatts 900 # 172.16.204.89
-b4de9a maxwatts 1200 # 172.16.201.245
-1b6910 maxwatts 1200 # 172.16.203.53
-43345a rebootasic 1566597813 # 172.16.204.89
-b4de9a rebootasic 1566597813 # 172.16.201.245
-1b6910 rebootasic 1566597813 # 172.16.203.53
-
-43345a maxwatts 1000 # 172.16.204.89
-43345a rebootasic 1566511576 # 172.16.204.89
-
-a9c33f maxwatts 300 # 172.16.201.217
-a9c33f rebootasic 1566497709 # 172.16.201.217
-
-a9c33f maxwatts 400 # 172.16.201.217
-a9c33f rebootasic 1566443569 # 172.16.201.217
-
-a9c33f maxwatts 500 # 172.16.201.217
-a9c33f rebootasic 1566301381 # 172.16.201.217
-
-a9c33f maxwatts 600 # 172.16.201.217
-a9c33f rebootasic 1566220681 # 172.16.201.217
-
-a9c33f maxwatts 700 # 172.16.201.217
-a9c33f rebootasic 1566175291 # 172.16.201.217
-
-a9c33f maxwatts 800 # 172.16.201.217
-a9c33f rebootasic 1565969455 # 172.16.201.217
-
-43345a maxwatts 1100 # 172.16.204.89
-43345a rebootasic 1565893442 # 172.16.204.89
-
-a9c33f maxwatts 900 # 172.16.201.217
-a9c33f rebootasic 1565890710 # 172.16.201.217
-
-a9c33f maxwatts 1000 # 172.16.201.217
-a9c33f rebootasic 1565613202 # 172.16.201.217
-
-43345a maxwatts 1200 # 172.16.204.89
-43345a rebootasic 1565557682 # 172.16.204.89
-
-a9c33f maxwatts 1100 # 172.16.201.217
-a9c33f rebootasic 1565514761 # 172.16.201.217
-
-a9c33f maxwatts 1200 # 172.16.201.217
-a9c33f rebootasic 1565494431 # 172.16.201.217
-
-#removed overheat max watts 8.9.19 17:55 UTC
-
 a9c33f maxwatts 1300
 b4de9a maxwatts 1300
 43345a maxwatts 1300
