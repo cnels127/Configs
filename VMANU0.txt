@@ -1,4 +1,5 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
+## TOTAL EXP HASHRATE 35 s9 @ 14.4 Th/s = 504 Th/s
 
 global custompanel VMANU0bit049
 
@@ -17,8 +18,7 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1350
-
+global maxwatts 1400
 global autoupdate yes
 global allowed yes
 global maxtemp 90
@@ -29,43 +29,48 @@ global blinkgreen rapid
 
 # global retune 1
 # global rebootasic 1
-# global resetasic 1
+global resetasic 2
 # global panelpass gj83Nkgikg
 
 # group=rowc rebootasic 1
 # group=rowd allowed no
 
 ## vlans
-vlan 10.0.58.82-82
-vlan 10.0.59.126-126
-vlan 10.0.59.148-148
-vlan 10.0.60.27-27
-vlan 10.0.60.30-30
-vlan 10.0.60.44-44
-vlan 10.0.60.55-55
-vlan 10.0.60.160-160
-vlan 10.0.61.5-5
-vlan 10.0.61.45-45
-vlan 10.0.61.61-61
-vlan 10.0.61.160-160
-vlan 10.0.63.133-133
-vlan 10.0.64.31-31
-vlan 10.0.65.39-39
-vlan 10.0.65.47-47
-vlan 10.0.65.76-76
-vlan 10.0.65.94-94
-vlan 10.0.65.118-118
-vlan 10.0.65.144-144
-vlan 10.0.66.31-31
-vlan 10.0.66.41-41
-vlan 10.0.66.64-64
-vlan 10.0.66.66-66
-vlan 10.0.66.69-69
-vlan 10.0.66.90-90
-vlan 10.0.66.96-96
-vlan 10.0.66.117-117
-vlan 10.0.66.127-127
-vlan 10.0.67.63-63
+# vlan 10.0.58.82-82
+# vlan 10.0.59.126-126
+# vlan 10.0.59.148-148
+# vlan 10.0.60.27-27
+# vlan 10.0.60.30-30
+# vlan 10.0.60.44-44
+# vlan 10.0.60.55-55
+# vlan 10.0.60.160-160
+# vlan 10.0.61.5-5
+# vlan 10.0.61.45-45
+# vlan 10.0.61.61-61
+# vlan 10.0.61.160-160
+# vlan 10.0.63.133-133
+# vlan 10.0.64.31-31
+# vlan 10.0.65.39-39
+# vlan 10.0.65.47-47
+# vlan 10.0.65.76-76
+# vlan 10.0.65.94-94
+# vlan 10.0.65.118-118
+# vlan 10.0.65.144-144
+# vlan 10.0.66.31-31
+# vlan 10.0.66.41-41
+# vlan 10.0.66.64-64
+# vlan 10.0.66.66-66
+# vlan 10.0.66.69-69
+# vlan 10.0.66.90-90
+# vlan 10.0.66.96-96
+# vlan 10.0.66.117-117
+# vlan 10.0.66.127-127
+# vlan 10.0.67.63-63
+vlan 10.0.115.155-155
+vlan 10.0.116.108-108
+vlan 10.0.116.121-121
+vlan 10.0.116.154-154
+vlan 10.0.117.6-6
 
 ## locations
 698d83 location VMANU00001
@@ -98,63 +103,16 @@ f4b34b location VMANU00020
 43d9af location VMANU00028
 2687fa location VMANU00029
 b56664 location VMANU00030
+8bb8b2 location VMANU00031
+a7ebd6 location VMANU00032
+86bd56 location VMANU00033
+c6bede location VMANU00034
+2730fb location VMANU00035
 
 ## tuning
-43d9af maxwatts 1050 # 10.0.66.117
-43d9af rebootasic 1569395004 # 10.0.66.117
-
-183877 maxwatts 550 # 10.0.66.69
-183877 rebootasic 1569389378 # 10.0.66.69
-
-183877 maxwatts 650 # 10.0.66.69
-183877 rebootasic 1569383944 # 10.0.66.69
-
-183877 maxwatts 750 # 10.0.66.69
-183877 rebootasic 1569378565 # 10.0.66.69
-
-183877 maxwatts 850 # 10.0.66.69
-183877 rebootasic 1569334959 # 10.0.66.69
-
-183877 maxwatts 950 # 10.0.66.69
-183877 rebootasic 1569331481 # 10.0.66.69
-
-183877 maxwatts 1050 # 10.0.66.69
-183877 rebootasic 1569329686 # 10.0.66.69
-
-43d9af maxwatts 1150 # 10.0.66.117
-43d9af rebootasic 1568812904 # 10.0.66.117
-
-# generated on Sep 15 2019 04:28:02 utc: 1568521682: 1568521682
-183877 maxwatts 1150 # 10.0.66.69
-183877 rebootasic 1568521682 # 10.0.66.69
-
-183877 maxwatts 1250 # 10.0.66.69
-183877 rebootasic 1568395805 # 10.0.66.69
-
-43d9af maxwatts 1250 # 10.0.66.117
-43d9af rebootasic 1568048764 # 10.0.66.117
-
-545c77 maxwatts 1250 # 10.0.66.66
-545c77 rebootasic 1567512558 # 10.0.66.66
-
-91e17b maxwatts 1250 # 10.0.63.133
-91e17b rebootasic 1567133827 # 10.0.63.133
-
 689c52 retune 1
 287685 retune 1
 26db41 retune 1
 
 ## asic password 
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
