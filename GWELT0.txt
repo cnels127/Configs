@@ -572,6 +572,9 @@ fdbabb location GWELT00296
 
 ## tuning
 cc59cf maxwatts -75 # 10.0.66.5
+cc59cf rebootasic 1569485845 # 10.0.66.5
+
+cc59cf maxwatts -75 # 10.0.66.5
 a410fb maxwatts 525 # 10.0.65.141
 cc59cf rebootasic 1569483622 # 10.0.66.5
 a410fb rebootasic 1569483622 # 10.0.65.141
@@ -825,6 +828,7 @@ fdbabb maxwatts 1350
 
 ## asic password
 asicpass admin
+
 
 
 
