@@ -1,6 +1,6 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
 
-global custompanel RBARR2bit049
+global custompanel RBARR1bit049
 
 global poolname1 stratum.antpool.com:3333
 global username1 jummy
@@ -18,7 +18,6 @@ global sendworker3 yes
 global asicboost yes
 global autotune yes
 global maxwatts 1300
-
 global autoupdate yes
 global allowed yes
 global maxtemp 90
@@ -36,40 +35,27 @@ global resetasic 2
 # group=rowd allowed no
 
 ## vlans
+vlan 172.16.201.178-178
+vlan 172.16.203.146-146
+vlan 172.16.203.114-114
 vlan 172.16.201.217-217
-vlan 172.16.201.245-245
-vlan 172.16.204.89-90
-vlan 172.16.204.93-94
-vlan 172.16.204.220-220
+vlan 172.16.201.129-129
+vlan 172.16.202.203-203
+vlan 172.16.201.64-64
 
 ## location
-a9c33f location tara
-b4de9a location jay1
-43345a location anton
-b70584 location thomas
-c724bb location jay2
-cfd708 location shadow
-713952 location mojo
-1b6910 location jay2
+1b6910 location RBARR10001 # jay2
+43345a location RBARR10002 # anton
+713952 location RBARR10003 # mojo
+a9c33f location RBARR10004 # tara
+b4de9a location RBARR10005 # jay1
+b70584 location RBARR10006 # thomas
+cfd708 location RBARR10007 # shadow
 
 ## tuning
-a9c33f maxwatts 1000 # 172.16.201.217
-a9c33f rebootasic 1569474875 # 172.16.201.217
-
-a9c33f maxwatts 1100 # 172.16.201.217
-a9c33f rebootasic 1569468310 # 172.16.201.217
-
-a9c33f maxwatts 1200 # 172.16.201.217
-a9c33f rebootasic 1569464134 # 172.16.201.217
-
-a9c33f maxwatts 1300
-b4de9a maxwatts 1300
-43345a maxwatts 1300
-b70584 maxwatts 1300
-c724bb maxwatts 1300
-cfd708 maxwatts 1300
-713952 maxwatts 1300
 a9c33f retune 1
+
+## resets
 
 ## asic password
 asicpass admin
