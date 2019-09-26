@@ -41,6 +41,9 @@ global rebootasic 3
 
 ## tuning
 84cd22 maxwatts -100 # 10.0.64.139
+84cd22 rebootasic 1569472778 # 10.0.64.139
+
+84cd22 maxwatts -100 # 10.0.64.139
 d46013 maxwatts 1400 # 10.0.120.114
 0f2dda maxwatts 1200 # 10.0.121.1
 84cd22 rebootasic 1569470579 # 10.0.64.139
@@ -292,6 +295,7 @@ b16fdd resetasic 2
 
 ## asic password
 asicpass admin
+
 
 
 
