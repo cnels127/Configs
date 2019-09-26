@@ -466,6 +466,11 @@ a0cac7 location NBELL00204
 ## overheats
 ## tuning
 b894e2 maxwatts -50 # 10.0.118.110
+9dd012 maxwatts -50 # 10.0.77.92
+b894e2 rebootasic 1569497492 # 10.0.118.110
+9dd012 rebootasic 1569497492 # 10.0.77.92
+
+b894e2 maxwatts -50 # 10.0.118.110
 13e5c6 maxwatts 1250 # 10.0.118.113
 b894e2 rebootasic 1569495214 # 10.0.118.110
 13e5c6 rebootasic 1569495214 # 10.0.118.113
@@ -1171,6 +1176,7 @@ df39bb resetasic 1
 
 ## asic password
 asicpass admin
+
 
 
 
