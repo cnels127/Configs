@@ -1,4 +1,5 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
+## TOTAL EXP HASHRATE 100 s9 @ 14.4 Th/s = 1,440 Th/s
 
 global custompanel LMACK0bit049
 
@@ -240,6 +241,20 @@ a92994 rebootasic 1568395704 # 10.0.54.96
 426735 retune 1
 95fe79 retune 1
 9d6e5b retune 1
+
+## resets
+b3fa40 resetasic 1569555806
+bf813c resetasic 1569555806
+6bb076 resetasic 1569555806
+efd005 resetasic 1569555806
+a708a6 resetasic 1569555806
+57fe8f resetasic 1569555806
+9cbbc0 resetasic 1569555806
+fef436 resetasic 1569555806
+b8a2e8 resetasic 1569555806
+b4364f resetasic 1569555806
+13262a resetasic 1569555806
+
 
 ## asic password
 asicpass admin
