@@ -1,4 +1,7 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
+##    21 s9 @ 16 Th/s = 336 Th/s
+##   3 s9 @ 14.4 Th/s = 43.2 Th/s
+## TOTAL EXP HASHRATE = 379.2 Th/s
 
 global custompanel RACAY0bit049
 
@@ -135,16 +138,9 @@ f729dc maxwatts 1350
 9938b8 maxwatts 1350
 70247c maxwatts 1350
 
+## resets
+c55a62 resetasic 1569556634
+55ae8b resetasic 1569556634
+
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
