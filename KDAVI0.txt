@@ -1,5 +1,5 @@
-
 ## instructions available at: https://asicseer.com/page/kb#writing-config
+## TOTAL EXP HASHRATE 6 s9 @ 14.4 = 86.4 Th/s
 
 global custompanel KDAVI0bit049
 
@@ -88,17 +88,8 @@ cf1a34 rebootasic 1568067968 # 10.0.54.148
 cf1a34 maxwatts 1450
 cf1a34 retune 1
 
+## resets
+cf1a34 resetasic 1569556537
+
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
