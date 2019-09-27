@@ -1,4 +1,7 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
+##    15 s9 @ 16 Th/s = 240 Th/s
+##  30 s9 @ 14.4 Th/s = 432 Th/s
+## TOTAL EXP HASHRATE = 672 Th/s
 
 global custompanel KGRAF0bit049
 
@@ -18,8 +21,6 @@ global sendworker3 yes
 global asicboost yes
 global autotune yes
 global maxwatts 1500
-global throttle 50
-
 global autoupdate yes
 global allowed yes
 global maxtemp 90
@@ -37,21 +38,57 @@ global resetasic 1
 # group=rowd allowed no
 
 ## vlans
-vlan 10.0.61.72-72
-vlan 10.0.61.134-134
-vlan 10.0.63.68-68
-vlan 10.0.64.15-15
-vlan 10.0.64.61-61
-vlan 10.0.64.151-151
-vlan 10.0.65.7-7
-vlan 10.0.65.98-98
-vlan 10.0.65.127-127
-vlan 10.0.65.132-132
-vlan 10.0.65.145-145
-vlan 10.0.65.158-158
-vlan 10.0.66.12-12
-vlan 10.0.66.72-72
-vlan 10.0.66.74-74
+# vlan 10.0.61.72-72
+# vlan 10.0.61.134-134
+# vlan 10.0.63.68-68
+# vlan 10.0.64.15-15
+# vlan 10.0.64.61-61
+# vlan 10.0.64.151-151
+# vlan 10.0.65.7-7
+# vlan 10.0.65.98-98
+# vlan 10.0.65.127-127
+# vlan 10.0.65.132-132
+# vlan 10.0.65.145-145
+# vlan 10.0.65.158-158
+# vlan 10.0.66.12-12
+# vlan 10.0.66.72-72
+# vlan 10.0.66.74-74
+vlan 10.0.58.91-91
+vlan 10.0.59.109-109
+vlan 10.0.61.13-13
+vlan 10.0.61.106-106
+vlan 10.0.62.138-138
+vlan 10.0.66.154-154
+vlan 10.0.77.13-13
+vlan 10.0.77.73-73
+vlan 10.0.115.6-6
+vlan 10.0.115.54-54
+vlan 10.0.115.140-140
+vlan 10.0.115.148-148
+vlan 10.0.115.153-153
+vlan 10.0.116.161-161
+vlan 10.0.117.6-6
+vlan 10.0.117.7-7
+vlan 10.0.117.55-55
+vlan 10.0.117.85-85
+vlan 10.0.117.118-118
+vlan 10.0.117.150-150
+vlan 10.0.118.31-31
+vlan 10.0.118.112-112
+vlan 10.0.119.61-61
+vlan 10.0.120.112-112
+vlan 10.0.51.85-85
+vlan 10.0.51.100-100
+vlan 10.0.115.45-45
+vlan 10.0.115.139-139
+vlan 10.0.77.51-51
+vlan 10.0.77.125-125
+vlan 10.0.119.4-4
+vlan 10.0.119.19-19
+vlan 10.0.115.142-142
+vlan 10.0.121.1-1
+vlan 10.0.58.157-157
+vlan 10.0.68.45-45
 
 ## locations
 5c49bc location KGRAF00001
@@ -69,10 +106,83 @@ e63499 location KGRAF00011
 364861 location KGRAF00013
 e4158d location KGRAF00014
 eadea9 location KGRAF00015
+943575 location KGRAF00016
+91c3cc location KGRAF00017
+c28a7c location KGRAF00018
+7adae2 location KGRAF00019
+2371b0 location KGRAF00020
+b19f40 location KGRAF00021
+fe0384 location KGRAF00022
+d2a09d location KGRAF00023
+76ebeb location KGRAF00024
+d91645 location KGRAF00025
+f6ef21 location KGRAF00026
+86db98 location KGRAF00027
+3037fd location KGRAF00028
+d46fb5 location KGRAF00029
+2730fb location KGRAF00030
+7bc97a location KGRAF00031
+0be583 location KGRAF00032
+071a82 location KGRAF00033
+68eecb location KGRAF00034
+154753 location KGRAF00035
+499bef location KGRAF00036
+b16fdd location KGRAF00037
+d1c299 location KGRAF00038
+d3efbf location KGRAF00039
+385e8f location KGRAF00040
+da3e46 location KGRAF00040
+b6ea4d location KGRAF00041
+d780da location KGRAF00041
+f5acba location KGRAF00042
+45ecb6 location KGRAF00042
+b78fed location KGRAF00043
+eb16ee location KGRAF00043
+b1aa6a location KGRAF00044
+0f2dda location KGRAF00044
+6db0b2 location KGRAF00045
+a62f6a location KGRAF00045
 
 ## tuning
 93c991 maxwatts 1400 # 10.0.65.7
 93c991 rebootasic 1569545236 # 10.0.65.7
+
+943575 maxwatts 1350
+91c3cc maxwatts 1350
+c28a7c maxwatts 1350
+7adae2 maxwatts 1350
+2371b0 maxwatts 1350
+b19f40 maxwatts 1350
+fe0384 maxwatts 1350
+d2a09d maxwatts 1350
+76ebeb maxwatts 1350
+d91645 maxwatts 1350
+f6ef21 maxwatts 1350
+86db98 maxwatts 1350
+3037fd maxwatts 1350
+d46fb5 maxwatts 1350
+2730fb maxwatts 1350
+7bc97a maxwatts 1350
+0be583 maxwatts 1350
+071a82 maxwatts 1350
+68eecb maxwatts 1350
+154753 maxwatts 1350
+499bef maxwatts 1350
+b16fdd maxwatts 1350
+d1c299 maxwatts 1350
+d3efbf maxwatts 1350
+385e8f maxwatts 1500
+da3e46 maxwatts 1500
+b6ea4d maxwatts 1500
+d780da maxwatts 1500
+f5acba maxwatts 1500
+45ecb6 maxwatts 1500
+b78fed maxwatts 1500
+eb16ee maxwatts 1500
+b1aa6a maxwatts 1500
+0f2dda maxwatts 1500
+6db0b2 maxwatts 1500
+a62f6a maxwatts 1500
 
 
 ## asic password
