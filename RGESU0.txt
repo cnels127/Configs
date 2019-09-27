@@ -1,4 +1,5 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
+## TOTAL EXP HASHRATE 60 s9 @ 16 Th/s = 960 Th/s
 
 global custompanel RGESU0bit049
 
@@ -131,6 +132,12 @@ ff032f location RGESU00058
 6c3de0 maxwatts 1250 # 10.0.54.25
 6c3de0 rebootasic 1568069773 # 10.0.54.25
 
+## resets
+70adc2 resetasic 1569555947
+0b0610 resetasic 1569555947
+45099f resetasic 1569555947
+6c69d7 resetasic 1569555947
+75ef00 resetasic 1569555947
 
 ## asic password
 asicpass admin
