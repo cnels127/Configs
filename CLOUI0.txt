@@ -1,4 +1,5 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
+## TOTAL EXP HASHRATE 10 s9 @ 14.4 Th/s = 144 Th/s
 
 global custompanel CLOUI0bit049
 
@@ -60,19 +61,9 @@ df94bd location CLOUI00009
 2b7bed maxwatts 1250 # 10.0.54.49
 2b7bed rebootasic 1568951466 # 10.0.54.49
 
+## resets
+2b7bed resetasic 1569556229
+3a0cc0 resetasic 1569556229
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
