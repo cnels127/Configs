@@ -47,6 +47,9 @@ a26081 location ABEAU00002
 64c124 location ABEAU00003
 
 ## tuning
+35cf73 maxwatts 1050 # 10.0.55.120
+35cf73 rebootasic 1569544701 # 10.0.55.120
+
 35cf73 maxwatts 1150 # 10.0.55.120
 35cf73 rebootasic 1569541654 # 10.0.55.120
 
@@ -56,5 +59,6 @@ a26081 location ABEAU00002
 
 ## asic password
 asicpass admin
+
 
 
