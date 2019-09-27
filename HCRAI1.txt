@@ -61,6 +61,15 @@ f4d922 location HCRAI0006
 78c005 location HCRAI0010
 
 ## tuning
+246602 maxwatts 1250 # 172.16.200.57
+64addf maxwatts 1250 # 172.16.200.49
+97de11 maxwatts 1250 # 172.16.200.107
+54ce08 maxwatts 1250 # 172.16.200.110
+246602 rebootasic 1569616249 # 172.16.200.57
+64addf rebootasic 1569616249 # 172.16.200.49
+97de11 rebootasic 1569616249 # 172.16.200.107
+54ce08 rebootasic 1569616249 # 172.16.200.110
+
 246602 maxwatts 1350 # 172.16.200.57
 64addf maxwatts 1350 # 172.16.200.49
 97de11 maxwatts 1350 # 172.16.200.107
@@ -79,5 +88,6 @@ f4d922 rebootasic 1569609249 # 172.16.200.76
 
 ## asic password
 asicpass admin
+
 
 
