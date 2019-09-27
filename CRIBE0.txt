@@ -457,6 +457,9 @@ fba5f2 location CRIBE00206
 
 ## tuning
 e7af56 maxwatts -75 # 10.0.59.65
+e7af56 rebootasic 1569579867 # 10.0.59.65
+
+e7af56 maxwatts -75 # 10.0.59.65
 e7af56 rebootasic 1569576773 # 10.0.59.65
 
 e7af56 maxwatts -75 # 10.0.59.65
@@ -850,6 +853,7 @@ aee61e resetasic 1
 
 ## asic password
 asicpass admin
+
 
 
 
