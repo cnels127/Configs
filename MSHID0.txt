@@ -64,6 +64,9 @@ c842f9 location MSHID00007
 bccae7 location MSHID00014
 
 ## tuning
+6a9f03 maxwatts 1400 # 10.0.58.20
+6a9f03 rebootasic 1569609719 # 10.0.58.20
+
 bccae7 maxwatts 1400 # 10.0.58.24
 bccae7 rebootasic 1569530797 # 10.0.58.24
 
@@ -85,6 +88,7 @@ bccae7 rebootasic 1569530797 # 10.0.58.24
 
 ## asic password
 asicpass admin
+
 
 
 
