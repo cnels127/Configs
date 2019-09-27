@@ -92,6 +92,9 @@ ba3fd2 location LKLIN00018
 ad6d00 location LKLIN00020
 
 ## tuning
+1b3d5a maxwatts 1200 # 172.16.203.151
+1b3d5a rebootasic 1569548358 # 172.16.203.151
+
 16da58 maxwatts 1200 # 10.0.59.157
 16da58 rebootasic 1568967388 # 10.0.59.157
 
@@ -144,3 +147,4 @@ ad6d00 rebootasic 1568149265 # 172.16.203.158
 
 ## asic password
 asicpass admin
+
