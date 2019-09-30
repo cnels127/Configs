@@ -31,7 +31,7 @@ global blinkgreen rapid
 
 # global retune 1
 # global rebootasic 1
-# global resetasic 1
+global resetasic 2
 # global panelpass gj83Nkgikg
 
 # group=rowc rebootasic 1
@@ -54,9 +54,6 @@ f6388e location MSETI00005
 35e5b2 location MSETI00006
 
 ## tuning
-7104a2 maxwatts 1400 # 10.0.61.137
-7104a2 rebootasic 1568048688 # 10.0.61.137
-
 fc5018 maxwatts 1500 # TEMP SET TO 1500 TO MAKE UP FOR MACHINES NEEDING HASHBOARD REPAIR
 f6388e maxwatts 1500 # TEMP SET TO 1500 TO MAKE UP FOR MACHINES NEEDING HASHBOARD REPAIR
 35e5b2 maxwatts 1500 # TEMP SET TO 1500 TO MAKE UP FOR MACHINES NEEDING HASHBOARD REPAIR
