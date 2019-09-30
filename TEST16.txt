@@ -40,64 +40,6 @@ global rebootasic 3
 ## locations
 
 ## tuning
-84cd22 maxwatts -100 # 10.0.64.139
-84cd22 rebootasic 1569617182 # 10.0.64.139
-
-84cd22 maxwatts -100 # 10.0.64.139
-84cd22 rebootasic 1569613748 # 10.0.64.139
-
-84cd22 maxwatts -100 # 10.0.64.139
-84cd22 rebootasic 1569610277 # 10.0.64.139
-
-84cd22 maxwatts 0 # 10.0.64.139
-943575 maxwatts 1400 # 10.0.58.91
-84cd22 rebootasic 1569603542 # 10.0.64.139
-943575 rebootasic 1569603542 # 10.0.58.91
-
-84cd22 maxwatts 100 # 10.0.64.139
-84cd22 rebootasic 1569596737 # 10.0.64.139
-
-84cd22 maxwatts 200 # 10.0.64.139
-84cd22 rebootasic 1569593602 # 10.0.64.139
-
-84cd22 maxwatts 300 # 10.0.64.139
-84cd22 rebootasic 1569590438 # 10.0.64.139
-
-84cd22 maxwatts 400 # 10.0.64.139
-84cd22 rebootasic 1569586724 # 10.0.64.139
-
-84cd22 maxwatts 500 # 10.0.64.139
-84cd22 rebootasic 1569583879 # 10.0.64.139
-
-84cd22 maxwatts 600 # 10.0.64.139
-84cd22 rebootasic 1569580788 # 10.0.64.139
-
-b78fed maxwatts 1400 # 10.0.119.4
-84cd22 maxwatts 700 # 10.0.64.139
-b78fed rebootasic 1569577677 # 10.0.119.4
-84cd22 rebootasic 1569577677 # 10.0.64.139
-
-84cd22 maxwatts 800 # 10.0.64.139
-84cd22 rebootasic 1569574607 # 10.0.64.139
-
-84cd22 maxwatts 900 # 10.0.64.139
-84cd22 rebootasic 1569571632 # 10.0.64.139
-
-84cd22 maxwatts 1000 # 10.0.64.139
-84cd22 rebootasic 1569568632 # 10.0.64.139
-
-84cd22 maxwatts 1100 # 10.0.64.139
-84cd22 rebootasic 1569565225 # 10.0.64.139
-
-84cd22 maxwatts 1200 # 10.0.64.139
-84cd22 rebootasic 1569561960 # 10.0.64.139
-
-84cd22 maxwatts 1300 # 10.0.64.139
-84cd22 rebootasic 1569558698 # 10.0.64.139
-
-84cd22 maxwatts 1400 # 10.0.64.139
-84cd22 rebootasic 1569555326 # 10.0.64.139
-
 
 ## resets
 b40f5a resetasic 1569644503
