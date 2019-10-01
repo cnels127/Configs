@@ -61,6 +61,10 @@ f6388e maxwatts 1500 # TEMP SET TO 1500 TO MAKE UP FOR MACHINES NEEDING HASHBOAR
 7104a2 retune 1
 a22315 retune 1
 
+## resets
+7104a2 resetasic 1569948223
+743db3 resetasic 1569948223
+
 ## asic password
 asicpass admin
 
