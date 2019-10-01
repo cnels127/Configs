@@ -1,4 +1,5 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
+## TOTAL EXP HASHRATE 1 s9 @ 16 Th/s = 16 Th/s
 
 global custompanel JPOWE0bit049
 
@@ -35,14 +36,14 @@ global blinkgreen rapid
 # group=rowd allowed no
 
 ## vlans
-vlan 172.16.203.99-99
+vlan 10.0.116.30-30
 
 ## locations
-7fe818 location JPOWE00001
+ab17e5 location JPOWE00001
 
 ## tuning
-7fe818 maxwatts 1350 # 172.16.203.99
-7fe818 rebootasic 1567444891 # 172.16.203.99
+
+## resets
 
 ## asic password
 asicpass admin
