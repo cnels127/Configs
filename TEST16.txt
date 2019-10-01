@@ -39,6 +39,15 @@ global rebootasic 3
 ## locations
 
 ## tuning
+# generated on Oct 01 2019 15:29:08 utc: 1569943748: 1569943748
+84cd22 maxwatts 1200 # 10.0.64.139
+84f544 maxwatts 1400 # 10.0.118.47
+ec6e17 maxwatts 1200 # 10.0.116.77
+3ebf58 maxwatts 1400 # 10.0.115.77
+84cd22 rebootasic 1569943748 # 10.0.64.139
+84f544 rebootasic 1569943748 # 10.0.118.47
+ec6e17 rebootasic 1569943748 # 10.0.116.77
+3ebf58 rebootasic 1569943748 # 10.0.115.77
 # generated on Oct 01 2019 06:17:36 utc: 1569910656: 1569910656
 84cd22 maxwatts 1300 # 10.0.64.139
 6e866a maxwatts 1300 # 10.0.118.63
