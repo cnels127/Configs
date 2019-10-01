@@ -1,4 +1,5 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
+## TOTAL EXP HASHRATE 3 s9 @ 14.4 Th/s = 43.2 Th/s
 
 global custompanel JITUR0bit049
 
@@ -17,7 +18,7 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1250
+global maxwatts 1350
 global autoupdate yes
 global allowed yes
 global maxtemp 90
@@ -35,18 +36,18 @@ global resetasic 1
 # group=rowd allowed no
 
 ## vlans
-vlan 172.16.203.136-136
-vlan 172.16.203.169-169
-vlan 172.16.203.185-185
+vlan 10.0.116.96-96
+vlan 10.0.116.97-97
+vlan 10.0.116.98-98
 
 ## locations
-23409b location JITUR00001
-90804a location JITUR00002
-40e982 location JITUR00003
+1652a5 location JITUR00001
+fae9ca location JITUR00002
+262c0d location JITUR00003
 
 ## tuning
-40e982 maxwatts 1150
-40e982 rebootasic 1567887600
+
+## resets
 
 ## asic password
 asicpass admin
