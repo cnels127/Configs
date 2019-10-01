@@ -1,4 +1,5 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
+## TOTAL EXP HASHRATE 1 s9 @ 16 Th/s = 16 Th/s
 
 global custompanel JREGU0bit049
 
@@ -35,13 +36,12 @@ global resetasic 1
 # group=rowd allowed no
 
 ## vlans
-vlan 172.16.203.40-40
+vlan 10.0.115.60-60
 
 ## locations
-7f14db location JREGU00001
+cc5e00 location JREGU00001
 
 ## tuning
-7f14db maxwatts 1350
 
 ## asic password
 asicpass admin
