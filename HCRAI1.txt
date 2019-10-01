@@ -1,29 +1,28 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
 
-global custompanel HCRAI1hshpwr
+global custompanel HCRAI1bit049
 
-# global poolname1 us.ss.btc.com:1800
-# global username1 t5n6597
-# global poolpass1 123
-# global sendworker1 yes
-# global poolname2 us.ss.btc.com:443
-# global username2 t5n6597
-# global poolpass2 123
-# global sendworker2 yes
-# global poolname3 us.ss.btc.com:25
-# global username3 t5n6597
-# global poolpass3 123
-# global sendworker3 yes
+global poolname1 us.ss.btc.com:1800
+global username1 t5n6597
+global poolpass1 123
+global sendworker1 yes
+global poolname2 us.ss.btc.com:443
+global username2 t5n6597
+global poolpass2 123
+global sendworker2 yes
+global poolname3 us.ss.btc.com:25
+global username3 t5n6597
+global poolpass3 123
+global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1450
-
+global maxwatts 1300
 global autoupdate yes
 global allowed yes
 global maxtemp 90
 global fanspeed 100
-# global fansaver yes
+global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
@@ -47,7 +46,6 @@ vlan 172.16.200.107-107
 vlan 172.16.200.110-110
 vlan 172.16.200.111-111
 
-
 ## locations
 64addf location HCRAI0001
 77b952 location HCRAI0002
@@ -69,22 +67,6 @@ f4d922 location HCRAI0006
 64addf rebootasic 1569616249 # 172.16.200.49
 97de11 rebootasic 1569616249 # 172.16.200.107
 54ce08 rebootasic 1569616249 # 172.16.200.110
-
-246602 maxwatts 1350 # 172.16.200.57
-64addf maxwatts 1350 # 172.16.200.49
-97de11 maxwatts 1350 # 172.16.200.107
-54ce08 maxwatts 1350 # 172.16.200.110
-246602 rebootasic 1569612827 # 172.16.200.57
-64addf rebootasic 1569612827 # 172.16.200.49
-97de11 rebootasic 1569612827 # 172.16.200.107
-54ce08 rebootasic 1569612827 # 172.16.200.110
-
-f4d922 maxwatts 1350 # 172.16.200.76
-4b09a0 maxwatts 1350 # 172.16.200.51
-f4d922 rebootasic 1569609249 # 172.16.200.76
-4b09a0 rebootasic 1569609249 # 172.16.200.51
-
-
 
 ## asic password
 asicpass admin
