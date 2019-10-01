@@ -75,6 +75,14 @@ defa6a location RBARR00028
 894362 location RBARR00030
 
 ## tuning
+# generated on Oct 01 2019 20:39:54 utc: 1569962394: 1569962394
+5478c2 maxwatts 1400 # 10.0.57.63
+411421 maxwatts 1400 # 10.0.57.62
+427893 maxwatts 1400 # 10.0.57.67
+5478c2 rebootasic 1569962394 # 10.0.57.63
+411421 rebootasic 1569962394 # 10.0.57.62
+427893 rebootasic 1569962394 # 10.0.57.67
+
 aa0122 maxwatts 1350
 a81c86 maxwatts 1350
 defa6a maxwatts 1350
@@ -87,6 +95,9 @@ defa6a maxwatts 1350
 427893 retune 1
 e83b5d retune 1
 0746eb retune 2
+
+## resets
+247665 resetasic 1569962374
 693af5 resetasic 1
 247665 resetasic 1
 
