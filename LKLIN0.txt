@@ -37,41 +37,30 @@ global retune 2
 
 ## vlans
 vlan 10.0.32.60-60
-vlan 10.0.59.120-120
 vlan 10.0.59.157-157
 vlan 10.0.61.18-18
 vlan 10.0.61.88-88
 vlan 10.0.61.138-138
-vlan 10.0.63.37-37
+vlan 10.0.77.28-28
 vlan 10.0.63.107-107
 vlan 10.0.65.43-43
-vlan 10.0.66.160-160
+vlan 10.0.66.161-161
 vlan 10.0.67.145-145
 vlan 10.0.68.12-12
-vlan 10.0.77.11-11
-vlan 10.0.77.117-117
-vlan 10.0.77.28-28
-vlan 10.0.77.34-34
-vlan 10.0.77.5-5
 vlan 10.0.121.125-125
-vlan 10.0.226.110-110
-vlan 172.16.203.107-107
-vlan 172.16.203.147-147
-vlan 172.16.203.151-151
-vlan 172.16.203.158-158
-vlan 172.16.203.165-165
-vlan 172.16.203.167-167
-vlan 172.16.203.179-179
+vlan 10.0.77.34-34
+vlan 10.0.77.11-11
+vlan 10.0.63.37-37
+vlan 10.0.77.117-117
+vlan 10.0.59.120-120
+vlan 10.0.115.48-48
+vlan 10.0.115.98-98
+vlan 10.0.116.15-15
 
 ## locations
-
 16d3c8 location LKLIN00001
-05bd00 location LKLIN00001
 16da58 location LKLIN00002
-d755b0 location LKLIN00002
 b3ad3a location LKLIN00003
-ea7c6e location LKLIN00003
-cd93e3 location LKLIN00004
 5617cc location LKLIN00004
 596464 location LKLIN00005
 8d08ea location LKLIN00006
@@ -81,15 +70,14 @@ ed846d location LKLIN00007
 7106b2 location LKLIN00010
 a410f2 location LKLIN00011
 64c473 location LKLIN00012
-a28737 location LKLIN00013
 788a72 location LKLIN00013
 5ad5c7 location LKLIN00014
 fc23ff location LKLIN00015
 a28737 location LKLIN00016
 287685 location LKLIN00017
-ba3fd2 location LKLIN00018
-1b3d5a location LKLIN00019
-ad6d00 location LKLIN00020
+e97769 location LKLIN00018
+bc5723 location LKLIN00019
+07a57a location LKLIN00020
 
 ## tuning
 287685 maxwatts 1100 # 10.0.59.120
