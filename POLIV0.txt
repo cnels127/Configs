@@ -39,7 +39,7 @@ global blinkgreen rapid
 # group=rowd allowed no
 
 ## vlans
-# vlan 10.0.120.99-99
+vlan 10.0.120.99-99
 vlan 10.0.116.79-79
 vlan 10.0.116.83-83
 vlan 10.0.117.17-17
@@ -55,6 +55,9 @@ vlan 10.0.117.17-17
 4fc5e3 maxwatts 1250
 136cc9 maxwatts 1250
 88d995 maxwatts 1250
+
+## resets
+1d229c resetasic 1569986189
 
 ## asic password
 asicpass admin
