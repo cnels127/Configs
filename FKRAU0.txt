@@ -118,16 +118,16 @@ global rebootasic 6
 # vlan 10.0.77.49-49
 # vlan 10.0.77.50-50
 # vlan 10.0.77.71-71
-# vlan 10.0.77.75-75
+vlan 10.0.116.69-69
 # vlan 10.0.77.80-80
 # vlan 10.0.77.110-110
 # vlan 10.0.77.119-119
 # vlan 10.0.77.129-129
 # vlan 10.0.77.144-144
 # vlan 10.0.77.148-148
-vlan 10.0.116.70-70
-vlan 10.0.115.47-47
-vlan 10.0.116.44-44
+# vlan 10.0.116.70-70
+# vlan 10.0.115.47-47
+# vlan 10.0.116.44-44
 
 ## locations
 02c22d location FKRAU00001
@@ -210,7 +210,7 @@ e8c8c1 location FKRAU00077
 9b7c66 location FKRAU00078
 386a2e location FKRAU00079
 9b8580 location FKRAU00080
-8a141e location FKRAU00081
+0a9fbb location FKRAU00081
 5f49b0 location FKRAU00082
 5af4ab location FKRAU00083
 9c37f8 location FKRAU00084
@@ -250,7 +250,7 @@ e8c8c1 maxwatts 1350
 9b7c66 maxwatts 1350
 386a2e maxwatts 1350
 9b8580 maxwatts 1350
-8a141e maxwatts 1350
+0a9fbb maxwatts 1350
 5f49b0 maxwatts 1350
 5af4ab maxwatts 1350
 9c37f8 maxwatts 1350
