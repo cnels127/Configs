@@ -783,6 +783,17 @@ e7af56 maxwatts 1425 # 10.0.59.65
 e7af56 rebootasic 1568670019 # 10.0.59.65
 3b9f50 rebootasic 1568670019 # 10.0.59.76
 
+# downclocked from 1525 to see if hashboard comes back
+b169bf maxwatts 1500
+e46a8f maxwatts 1500
+64e334 maxwatts 1500
+3fda51 maxwatts 1500
+138ef0 maxwatts 1500
+eac263 maxwatts 1500
+e74b4f maxwatts 1500
+5433d7 maxwatts 1500
+74b1a1 maxwatts 1500
+
 30f3ce maxwatts 1525
 5226b6 maxwatts 1525
 8df680 maxwatts 1525
@@ -848,6 +859,13 @@ d3941f retune 1
 c120c5 retune 1
 
 ## resets (fixed machines)
+667bbe resetasic 1570036592 
+2f0a33 resetasic 1570036592
+493278 resetasic 1570036592
+02e716 resetasic 1570036592
+c49427 resetasic 1570036592
+31e054 resetasic 1570036592
+7f6f52 resetasic 1570036592
 340637 resetasic 1569910254
 a4bf15 resetasic 1
 aee61e resetasic 1
