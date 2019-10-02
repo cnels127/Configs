@@ -1,5 +1,7 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
 ##     1 s9 @ 16 Th/s = 16 Th/s
+##   3 s9 @ 13.5 Th/s = 40.5 Th/s
+## TOTAL EXP HASHRATE = 56.5 Th/s
 
 global custompanel POLIV0bit049
 
@@ -37,12 +39,22 @@ global blinkgreen rapid
 # group=rowd allowed no
 
 ## vlans
-vlan 10.0.120.99-99
+# vlan 10.0.120.99-99
+vlan 10.0.116.79-79
+vlan 10.0.116.83-83
+vlan 10.0.117.17-17
+
 
 ## locations
 1d229c location POLIV00001
+4fc5e3 location POLIV00002
+136cc9 location POLIV00003
+88d995 location POLIV00004
 
 ## tuning
+4fc5e3 maxwatts 1250
+136cc9 maxwatts 1250
+88d995 maxwatts 1250
 
 ## asic password
 asicpass admin
