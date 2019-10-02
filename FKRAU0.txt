@@ -86,18 +86,18 @@ global rebootasic 6
 # vlan 10.0.66.128-128
 # vlan 10.0.67.101-101
 # vlan 10.0.67.130-130
-vlan 10.0.115.40-40
-vlan 10.0.115.81-81
-vlan 10.0.115.85-85
-vlan 10.0.115.91-91
-vlan 10.0.115.92-92
-vlan 10.0.115.105-105
-vlan 10.0.116.14-14
-vlan 10.0.116.71-71
-vlan 10.0.117.66-66
-vlan 10.0.117.93-93
-vlan 10.0.117.106-106
-vlan 10.0.121.139-139
+# vlan 10.0.115.40-40
+# vlan 10.0.115.81-81
+# vlan 10.0.115.85-85
+# vlan 10.0.115.91-91
+# vlan 10.0.115.92-92
+# vlan 10.0.115.105-105
+# vlan 10.0.116.14-14
+# vlan 10.0.116.71-71
+# vlan 10.0.117.66-66
+# vlan 10.0.117.93-93
+# vlan 10.0.117.106-106
+# vlan 10.0.121.139-139
 # vlan 10.0.51.2-2
 # vlan 10.0.51.58-58
 # vlan 10.0.51.74-74
@@ -125,9 +125,9 @@ vlan 10.0.121.139-139
 # vlan 10.0.77.129-129
 # vlan 10.0.77.144-144
 # vlan 10.0.77.148-148
-# vlan 10.0.227.35-35
-# vlan 10.0.228.139-139
-# vlan 10.0.228.151-151
+vlan 10.0.116.70-70
+vlan 10.0.115.47-47
+vlan 10.0.116.44-44
 
 ## locations
 02c22d location FKRAU00001
@@ -190,16 +190,6 @@ ae2afa location FKRAU00055
 a1f2ff location FKRAU00058
 8549c6 location FKRAU00059
 3fd204 location FKRAU00060
-1e6230 location FKRAU0-E61
-f6e217 location FKRAU0-E62
-d85490 location FKRAU0-E63
-344078 location FKRAU0-E64
-1eec9e location FKRAU0-E65
-500f18 location FKRAU0-E66
-4ae759 location FKRAU0-E67
-f38127 location FKRAU0-E68
-bb8c66 location FKRAU0-E69
-f5eccd location FKRAU0-E70
 b1937c location FKRAU00061
 74ebb2 location FKRAU00062
 7c3b2a location FKRAU00063
@@ -227,9 +217,9 @@ e8c8c1 location FKRAU00077
 58d6e6 location FKRAU00085
 59acb5 location FKRAU00086
 ed783e location FKRAU00087
-482b5f location FKRAU00088
-b97a6e location FKRAU00089
-0b9d8d location FKRAU00090
+c899a0 location FKRAU00088
+1bae03 location FKRAU00089
+3ee8ed location FKRAU00090
 
 ## tuning
 # generated on Oct 02 2019 03:20:22 utc: 1569986422: 1569986422
@@ -267,9 +257,9 @@ e8c8c1 maxwatts 1350
 58d6e6 maxwatts 1350
 59acb5 maxwatts 1350
 ed783e maxwatts 1350
-482b5f maxwatts 1350
-b97a6e maxwatts 1350
-0b9d8d maxwatts 1350
+c899a0 maxwatts 1350
+1bae03 maxwatts 1350
+3ee8ed maxwatts 1350
 
 ## resets
 9c3c4b resetasic 1569909077
