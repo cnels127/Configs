@@ -222,6 +222,9 @@ c899a0 location FKRAU00088
 3ee8ed location FKRAU00090
 
 ## tuning
+5af4ab maxwatts 1250 # 10.0.77.110
+5af4ab rebootasic 1570105275 # 10.0.77.110
+
 # s_overheat generated on Oct 02 2019 14:57:08 utc: 1570028228
 52a8ec maxwatts 1050 # 10.0.77.18
 52a8ec rebootasic 1570028228 # 10.0.77.18
@@ -271,3 +274,4 @@ c899a0 maxwatts 1350
 
 ## asic password
 asicpass admin
+

@@ -144,6 +144,9 @@ b1aa6a location KGRAF00044
 a62f6a location KGRAF00045
 
 ## tuning
+b78fed maxwatts 1400 # 10.0.119.4
+b78fed rebootasic 1570105315 # 10.0.119.4
+
 # generated on Sep 29 2019 05:21:39 utc: 1569734499: 1569734499
 f5acba maxwatts 1300 # 10.0.77.51
 a62f6a maxwatts 1300 # 10.0.68.45
@@ -203,4 +206,5 @@ b1aa6a resetasic 1569614707
 
 ## asic password
 asicpass admin
+
 
