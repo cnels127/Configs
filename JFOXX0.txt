@@ -1,4 +1,5 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
+## TOTAL EXP HASHRATE 24 s9 @ 16 Th/s = 384 Th/s
 
 global custompanel JFOXX0bit049
 
@@ -18,7 +19,6 @@ global sendworker3 yes
 global asicboost yes
 global autotune yes
 global maxwatts 1500
-
 global autoupdate yes
 global allowed yes
 global maxtemp 90
@@ -36,30 +36,58 @@ global resetasic 1
 # group=rowd allowed no
 
 ## vlans
-vlan 10.0.64.66-66
-vlan 10.0.65.64-64
-vlan 10.0.65.77-77
-vlan 10.0.65.122-122
-vlan 10.0.65.123-123
-vlan 10.0.66.17-17
-vlan 10.0.66.36-36
-vlan 10.0.66.154-154
-vlan 10.0.67.97-97
-vlan 10.0.67.100-100
+vlan 10.0.66.113-115
+vlan 10.0.66.119-121
+vlan 10.0.66.124-125
+vlan 10.0.66.130-133
+vlan 10.0.66.136-142
+# vlan 10.0.64.66-66
+# vlan 10.0.65.64-64
+# vlan 10.0.65.77-77
+# vlan 10.0.65.122-122
+# vlan 10.0.65.123-123
 
 ## locations
-f12f89 location JFOXX00001
-bb71c7 location JFOXX00002
-d31afd location JFOXX00003
-2287f8 location JFOXX00004
-6f1b5d location JFOXX00005
-dd7088 location JFOXX00006
-54bcb8 location JFOXX00007
-994f74 location JFOXX00008
-1a0b83 location JFOXX00009
-a93cc1 location JFOXX00010
+4df20f location JFOXX00001
+a1dd12 location JFOXX00002
+4c6349 location JFOXX00003
+7e981b location JFOXX00004
+55c5a2 location JFOXX00005
+3ce1a0 location JFOXX00006
+76dbbb location JFOXX00007
+5d4833 location JFOXX00008
+085752 location JFOXX00009
+95ae86 location JFOXX00010
+25f83c location JFOXX00011
+54a9ae location JFOXX00012
+763ea8 location JFOXX00013
+07fd37 location JFOXX00014
+57f217 location JFOXX00015
+4df698 location JFOXX00016
+6957e3 location JFOXX00017
+d7ac75 location JFOXX00018
+d10cec location JFOXX00019
+f12f89 location JFOXX00020
+bb71c7 location JFOXX00021
+d31afd location JFOXX00022
+2287f8 location JFOXX00023
+6f1b5d location JFOXX00024
 
 ## tuning
+25f83c maxwatts 1300 # 10.0.66.132
+25f83c rebootasic 1568963756 # 10.0.66.132
+
+4df698 maxwatts 1400 # 10.0.66.138
+4df698 rebootasic 1567791268 # 10.0.66.138
+
+25f83c maxwatts 1400 # 10.0.66.131
+3ce1a0 maxwatts 1400 # 10.0.66.121
+25f83c rebootasic 1567789250 # 10.0.66.131
+3ce1a0 rebootasic 1567789250 # 10.0.66.121
+
+## reboots
+
+## resets
 
 ## asic password
 asicpass admin
