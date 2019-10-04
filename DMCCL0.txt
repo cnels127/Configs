@@ -45,6 +45,10 @@ vlan 10.0.68.26-29
 aab607 location DMCCL00004
 
 ## tuning
+# s_overheat generated on Oct 04 2019 17:13:04 utc: 1570209184
+aab607 maxwatts 1050 # 10.0.68.29
+aab607 rebootasic 1570209184 # 10.0.68.29
+
 aab607 maxwatts 1150 # 10.0.68.29
 aab607 rebootasic 1570120682 # 10.0.68.29
 
