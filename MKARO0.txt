@@ -1,4 +1,5 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
+## TOTAL EXP HASHRATE 25 s9 @ 14.4 Th/s = 360 Th/s
 
 global custompanel MKARO0bit049
 
@@ -18,7 +19,6 @@ global sendworker3 yes
 global asicboost yes
 global autotune yes
 global maxwatts 1350
-
 global autoupdate yes
 global allowed yes
 global maxtemp 90
@@ -92,6 +92,10 @@ a53423 location MKARO00024
 000122 location MKARO00025
 
 ## tuning
+
+7f2285 maxwatts 650 # 10.0.66.135
+7f2285 rebootasic 1570213416 # 10.0.66.135
+
 7f2285 maxwatts 750 # 10.0.66.135
 7f2285 rebootasic 1570157053 # 10.0.66.135
 
@@ -152,6 +156,10 @@ a53423 location MKARO00024
 000122 maxwatts 1350
 f2e682 maxwatts 1350
 
+## reboots
+
+## resets
+cd859b resetasic 1570213416
 7f2285 resetasic 1
 5ee162 resetasic 1
 32b6d0 resetasic 1
@@ -160,21 +168,3 @@ f2e682 resetasic 1
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
