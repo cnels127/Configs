@@ -1,4 +1,5 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
+## TOTAL EXP HASHRATE 5 s9 @ 14.4 Th/s = 72 Th/s
 
 global custompanel ERICH0bit049
 
@@ -18,7 +19,6 @@ global sendworker3 yes
 global asicboost yes
 global autotune yes
 global maxwatts 1350
-
 global autoupdate yes
 global allowed yes
 global maxtemp 90
@@ -53,6 +53,9 @@ ea2b68 location ERICH00002
 81b66e maxwatts 1250 # 10.0.60.16
 81b66e rebootasic 1569612545 # 10.0.60.16
 
+## reboots
+
+## resets
 
 ## asic password
 asicpass admin
