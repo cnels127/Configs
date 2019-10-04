@@ -1,4 +1,5 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
+## TOTAL EXP HASHRATE 5 s9 @ 16 Th/s = 80 Th/s
 
 global custompanel HKATZ0bit049
 
@@ -463,110 +464,14 @@ fae301 maxwatts 1400 # 10.0.68.38
 fae301 rebootasic 1568944584 # 10.0.68.38
 
 15e78d maxwatts 1350
-15e78d rebootasic 2
 44ba88 retune 2
 7f79ef retune 1
 
+## reboots
+15e78d rebootasic 2
+
+## resets
+7f79ef resetasic 
+
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
