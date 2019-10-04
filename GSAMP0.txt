@@ -1,4 +1,5 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
+## TOTAL EXP HASHRATE 30 s9 @ 16 Th/s = 480 Th/s
 
 global custompanel GSAMP0bit049
 
@@ -118,6 +119,8 @@ ff488e maxwatts 1525
 0101ec retune 2
 d223ec retune 1
 8a804d retune 1
+
+## reboots
 
 ## resets
 78cb4c reseasic 1569429862
