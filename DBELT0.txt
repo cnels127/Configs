@@ -1,4 +1,5 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
+## TOTAL EXP HASHRATE 8 s9 @ 14.4 Th/s = 115.2 Th/s
 
 global custompanel DBELT0bit049
 
@@ -18,7 +19,6 @@ global sendworker3 yes
 global asicboost yes
 global autotune yes
 global maxwatts 1350
-
 global autoupdate yes
 global allowed yes
 global maxtemp 90
@@ -55,6 +55,8 @@ e7a422 location DBELT00002
 
 ## tuning
 54750e retune 1
+
+## reboots
 
 ## resets
 356422 resetasic 1569962236
