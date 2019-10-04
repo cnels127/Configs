@@ -1,4 +1,5 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
+## TOTAL EXP HASHRATE 18 s9 @ 14.4 Th/s = 259.2 Th/s
 
 global custompanel DDUNN0bit049
 
@@ -83,6 +84,9 @@ eef025 rebootasic 1567795424 # 10.0.56.110
 15a0ef maxwatts 1250 # 10.0.55.147
 15a0ef rebootasic 1567406764 # 10.0.55.147
 
+## reboots
+
+## resets
 
 ## asic password
 asicpass admin
