@@ -1,4 +1,5 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
+## TOTAL EXP HASHRATE 4 s9 @ 14.4 Th/s = 57.6 Th/s
 
 global custompanel KWRIG0bit049
 
@@ -18,7 +19,6 @@ global sendworker3 yes
 global asicboost yes
 global autotune yes
 global maxwatts 1350
-
 global autoupdate yes
 global allowed yes
 global maxtemp 90
@@ -46,12 +46,15 @@ vlan 10.0.68.109-110
 2a7ac0 location KWRIG00004
 
 ## tuning
-29bca0 maxwatts 1250 # 10.0.68.109
-29bca0 rebootasic 1569602693 # 10.0.68.109
 
 570c84 retune 1
 97f21b retune 1
 29bca0 retune 1
+
+## reboots
+
+## resets
+29bca0 resetasic 1570212619
 
 ## asic password
 asicpass admin
