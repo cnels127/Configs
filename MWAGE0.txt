@@ -1,4 +1,5 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
+## TOTAL EXP HASHRATE 3 s9 @ 14.4 Th/s = 43.2 Th/s
 
 global custompanel MWAGE0bit049
 
@@ -46,6 +47,10 @@ vlan 10.0.60.161-161
 6364b7 location MWAGE00003
 
 ## tuning
+
+## reboots
+
+## resets
 
 ## asic password
 asicpass admin
