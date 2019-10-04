@@ -1,4 +1,5 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
+## TOTAL EXP HASHRATE 5 s9 @ 16 Th/s = 80 Th/s
 
 global custompanel GBURR0bit049
 
@@ -67,6 +68,8 @@ fd17aa retune 1
 f0f798 retune 1
 e2c6fd retune 1
 fb355a retune 1
+
+## reboots
 
 ## resets
 fb355a resetasic 1569963886
