@@ -1,4 +1,5 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
+## TOTAL EXP HASHRATE 3 s9 @ 14.4 Th/s = 43.2 Th/s
 
 global custompanel KREDD0bit049
 
@@ -44,10 +45,14 @@ c94710 location KREDD00001
 5d208b location KREDD00003
 
 ## tuning
-5d208b resetasic 1
 c94710 maxwatts 1350
 934f82 maxwatts 1350
 5d208b maxwatts 1350
+
+## reboots
+
+## resets
+5d208b resetasic 1
 
 ## asic password
 asicpass admin
