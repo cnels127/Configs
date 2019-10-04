@@ -1,4 +1,5 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
+## TOTAL EXP HASHRATE 1 s9 @ 16 Th/s = 16 Th/s
 
 global custompanel JLUI00bit049
 
@@ -36,13 +37,15 @@ global blinkgreen rapid
 
 ## vlans
 vlan 10.0.59.69-69
-vlan 10.0.62.64-64
 
 ## locations
 80218d location JLUI000001
-10ecee location JLUI000001
 
 ## tuning
+
+## reboots
+
+## resets
 
 ## asic password
 asicpass admin
