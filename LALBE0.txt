@@ -1,4 +1,7 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
+##   5 s9 @ 14.4 Th/s = 72 Th/s
+##     6 s9 @ 16 Th/s = 96 Th/s
+## TOTAL EXP HASHRATE = 168 Th/s
 
 global custompanel LALBE0bit049
 
@@ -63,8 +66,18 @@ e3af8a location LALBE00006
 4363c7 maxwatts 1250 # 10.0.68.11
 4363c7 rebootasic 1569536266 # 10.0.68.11
 
+e3af8a maxwatts 1500
+739481 maxwatts 1500
+6eb9e6 maxwatts 1500
+701541 maxwatts 1500
+979f86 maxwatts 1500
+4363c7 maxwatts 1500
 
 b49a7f retune 2
+
+## reboots
+
+## resets
 
 ## asic password
 asicpass admin
