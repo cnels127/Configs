@@ -1,4 +1,7 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
+##    25 s9 @ 16 Th/s = 400 Th/s
+##   5 s9 @ 14.4 Th/s = 72 Th/s
+## TOTAL EXP HASHRATE = 472 Th/s
 
 global custompanel RBARR0bit049
 
@@ -101,6 +104,8 @@ defa6a maxwatts 1350
 427893 retune 1
 e83b5d retune 1
 0746eb retune 2
+
+## reboots
 
 ## resets
 4b3a51 resetasic 1569963178
