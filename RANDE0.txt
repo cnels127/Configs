@@ -1,4 +1,7 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
+##   2 s9 @ 14.4 Th/s = 28.8 Th/s
+##     8 s9 @ 16 Th/s = 128 Th/s
+## TOTAL EXP HASHRATE = 156.8 Th/s
 
 global custompanel RANDE0bit049
 
@@ -60,8 +63,18 @@ a016c1 location RANDE00008
 ## tuning
 e35f32 maxwatts 1250 # 10.0.55.7
 e35f32 rebootasic 1568989633 # 10.0.55.7
+1506ab maxwatts 1500
+174232 maxwatts 1500
+679e5d maxwatts 1500
+8a2820 maxwatts 1500
+005c5e maxwatts 1500
+a016c1 maxwatts 1500
+55019f maxwatts 1500
+636f5f maxwatts 1500
 
+## reboots
+
+## resets
 
 ## asic password
 asicpass admin
-
