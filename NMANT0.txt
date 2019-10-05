@@ -1,4 +1,5 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
+## TOTAL EXP HASHRATE 1 s9 @ 16 Th/s = 16 Th/s
 
 global custompanel NMANT0bit049
 
@@ -41,6 +42,10 @@ vlan 10.0.58.132-132
 30946f location NMANT00001
 
 ## tuning
+
+## reboots
+
+## resets
 
 ## asic password
 asicpass admin
