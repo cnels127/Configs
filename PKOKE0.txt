@@ -1,4 +1,5 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
+## TOTAL EXP HASHRATE 9 s9 @ 14.4 Th/s = 129.6 Th/s
 
 global custompanel PKOKE0bit049
 
@@ -55,6 +56,10 @@ e5ba90 location PKOKE00009
 ## tuning
 7ed10f retune 1
 3bcc51 retune 1
+
+## reboots
+
+## resets
 
 ## asic password
 asicpass admin
