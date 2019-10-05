@@ -1,4 +1,5 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
+TOTAL EXP HASHRATE 25 s9 @ 14.4 Th/s = 360 Th/s
 
 global custompanel THALL0bit049
 
@@ -18,7 +19,6 @@ global sendworker3 yes
 global asicboost yes
 global autotune yes
 global maxwatts 1350
-
 global autoupdate yes
 global allowed yes
 global maxtemp 90
@@ -72,6 +72,10 @@ c705d1 maxwatts 1375
 c58079 maxwatts 1375
 3eebad maxwatts 1375
 c191c4 maxwatts 1375
+
+## reboots
+
+## resets
 
 ## asic password
 asicpass admin
