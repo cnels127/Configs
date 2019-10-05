@@ -1,4 +1,6 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
+## TOTAL EXP HASHRATE 3 s9 @ 16 Th/s = 48 Th/s
+## 139 s9 @ 16 Th/s STILL UNFULFILLED
 
 global custompanel SCART0bit049
 
@@ -18,7 +20,6 @@ global sendworker3 yes
 global asicboost yes
 global autotune yes
 global maxwatts 1500
-
 global autoupdate yes
 global allowed yes
 global maxtemp 90
@@ -46,6 +47,8 @@ vlan 10.0.66.27-27
 66e562 location SCART00003
 
 ## tuning
+
+## reboots
 
 ## resets
 3fbe73 resetasic 1569969843
