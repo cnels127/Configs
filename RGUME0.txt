@@ -1,4 +1,5 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
+## TOTAL EXP HASHRATE 3 s9 @ 14.4 Th/s = 43.2 Th/s
 
 global custompanel RGUME0bit049
 
@@ -41,6 +42,10 @@ vlan 10.0.32.61-63
 b2e414 location RGUME00001
 df79d4 location RGUME00002
 c27ee4 location RGUME00003
+
+## reboots
+
+## resets
 
 ## asic password
 asicpass admin
