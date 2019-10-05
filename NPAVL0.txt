@@ -1,4 +1,5 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
+## TOTAL EXP HASHRATE 10 s9 @ 14.4 Th/s = 144 Th/s
 
 global custompanel NPAVL0bit049
 
@@ -18,7 +19,6 @@ global sendworker3 yes
 global asicboost yes
 global autotune yes
 global maxwatts 1350
-
 global autoupdate yes
 global allowed yes
 global maxtemp 90
@@ -109,20 +109,9 @@ a95ab0 rebootasic 1569603085 # 10.0.57.137
 821721 maxwatts 1250 # 10.0.57.130
 821721 rebootasic 1569545463 # 10.0.57.130
 
+## reboots
+
+## resets
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
