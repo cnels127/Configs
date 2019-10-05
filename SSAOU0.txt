@@ -1,4 +1,5 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
+## TOTAL EXP HASHRATE 1 s9 @ 14.4 Th/s = 14.4 Th/s
 
 global custompanel SSAOU0bit049
 
@@ -18,7 +19,6 @@ global sendworker3 yes
 global asicboost yes
 global autotune yes
 global maxwatts 1350
-
 global autoupdate yes
 global allowed yes
 global maxtemp 90
@@ -45,6 +45,9 @@ a3d661 location SSAOU0001
 a3d661 maxwatts 1250 # 10.0.68.53
 a3d661 rebootasic 1569320591 # 10.0.68.53
 
+## reboots
+
+## resets
 
 ## asic password
 asicpass admin
