@@ -1,4 +1,5 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
+## TOTAL EXP HASHRATE 4 s9 @ 16 Th/s = 64 Th/s
 
 global custompanel RFRAN0bit049
 
@@ -52,6 +53,10 @@ d54f75 location RFRAN00004
 46bd22 rebootasic 1568951586 # 10.0.62.39
 
 d54f75 retune 1
+
+## reboots
+
+## resets
 
 ## asic password
 asicpass admin
