@@ -1,4 +1,5 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
+## TOTAL EXP HASHRATE 5 s9 @ 16 Th/s = 80 Th/s
 
 global custompanel TNOLA0bit049
 
@@ -54,9 +55,9 @@ be162a location TNOLA00005
 9e6254 maxwatts 1400 # 10.0.57.78
 9e6254 rebootasic 1568962184 # 10.0.57.78
 
+## reboots
+
+## resets
 
 ## asic password
 asicpass admin
-
-
-
