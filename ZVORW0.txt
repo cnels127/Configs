@@ -1,4 +1,5 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
+## TOTAL EXP HASHRATE 3 s9 @ 16 Th/s = 48 Th/s
 
 global custompanel ZVORW0bit049
 
@@ -48,6 +49,9 @@ c2ee95 location ZVORW00003
 f726b1 maxwatts 1400 # 10.0.63.55
 f726b1 rebootasic 1570157140 # 10.0.63.55
 
+## reboots
+
+## resets
 
 ## asic password
 asicpass admin
