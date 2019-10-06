@@ -1,4 +1,5 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
+## TOTAL EXP HASHRATE 5 s9 @ 14.4 Th/s = 72 Th/s
 
 global custompanel WMILL0bit049
 
@@ -18,7 +19,6 @@ global sendworker3 yes
 global asicboost yes
 global autotune yes
 global maxwatts 1350
-
 global autoupdate yes
 global allowed yes
 global maxtemp 90
@@ -49,6 +49,10 @@ ed4012 location WMILL00003
 ## tuning
 35740c maxwatts 1250 # 10.0.53.55
 35740c rebootasic 1567415598 # 10.0.53.55
+
+## reboots
+
+## resets
 
 ## asic password
 asicpass admin
