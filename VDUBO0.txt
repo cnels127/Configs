@@ -1,4 +1,7 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
+##     1 s9 @ 16 Th/s = 16 Th/s
+##  10 s9 @ 14.4 Th/s = 144 Th/s
+## TOTAL EXP HASHRATE = 160 Th/s
 
 global custompanel VDUBO0bit049
 
@@ -65,6 +68,11 @@ c55b18 location VDUBO00008
 ## tuning
 ac80c9 maxwatts 1500
 10992f maxwatts 1500
+
+## reboots
+
+## resets
+ac80c9 resetasic 1570387772
 
 ## asic password
 asicpass admin
