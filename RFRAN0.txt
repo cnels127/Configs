@@ -19,7 +19,7 @@ global sendworker3 yes
 global asicboost yes
 global autotune yes
 global maxwatts 1500
-global autoupdate no
+global autoupdate yes
 global allowed yes
 global maxtemp 90
 global fanspeed 100
@@ -57,6 +57,7 @@ d54f75 retune 1
 ## reboots
 
 ## resets
+d54f75 resetasic 1570472086
 
 ## asic password
 asicpass admin
