@@ -19,7 +19,6 @@ global sendworker3 yes
 global asicboost yes
 global autotune yes
 global maxwatts 1500
-
 global autoupdate yes
 global allowed yes
 global maxtemp 90
@@ -82,6 +81,7 @@ d87db4 location KAUYE00014
 ## reboots
 
 ## resets
+e6ca25 resetasic 1570471546
 
 ## asic password
 asicpass admin
