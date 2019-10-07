@@ -1,5 +1,5 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
-## TOTAL EXP HASHRATE 5 s9 @ 14.4 Th/s = 72 Th/s
+## TOTAL EXP HASHRATE 80 s9 @ 14.4 Th/s = 1,152 Th/s
 
 global custompanel JVAND0bit049
 
@@ -19,7 +19,6 @@ global sendworker3 yes
 global asicboost yes
 global autotune yes
 global maxwatts 1350
-
 global autoupdate yes
 global allowed yes
 global maxtemp 90
@@ -37,7 +36,82 @@ global blinkgreen rapid
 # group=rowd allowed no
 
 ## vlans
-vlan 10.0.54.59-63
+# vlan 10.0.54.59-63
+vlan 10.0.59.78-78
+vlan 10.0.66.36-36
+vlan 10.0.66.155-155
+vlan 10.0.67.100-100
+vlan 10.0.115.8-8
+vlan 10.0.115.25-25
+vlan 10.0.115.53-53
+vlan 10.0.115.77-77
+vlan 10.0.115.84-84
+vlan 10.0.115.95-95
+vlan 10.0.115.102-102
+vlan 10.0.116.6-6
+vlan 10.0.116.10-10
+vlan 10.0.116.20-20
+vlan 10.0.116.50-50
+vlan 10.0.116.51-51
+vlan 10.0.116.53-53
+vlan 10.0.116.54-54
+vlan 10.0.116.57-57
+vlan 10.0.116.101-101
+vlan 10.0.116.106-106
+vlan 10.0.117.99-99
+vlan 10.0.117.154-154
+vlan 10.0.118.46-46
+vlan 10.0.118.63-63
+vlan 10.0.118.65-65
+vlan 10.0.118.73-73
+vlan 10.0.118.75-75
+vlan 10.0.118.83-83
+vlan 10.0.118.98-98
+vlan 10.0.118.99-99
+vlan 10.0.118.103-103
+vlan 10.0.118.104-104
+vlan 10.0.119.3-3
+vlan 10.0.119.10-10
+vlan 10.0.119.37-37
+vlan 10.0.119.40-40
+vlan 10.0.119.47-47
+vlan 10.0.119.50-50
+vlan 10.0.119.73-73
+vlan 10.0.119.75-75
+vlan 10.0.119.79-79
+vlan 10.0.119.83-83
+vlan 10.0.119.84-84
+vlan 10.0.119.89-89
+vlan 10.0.119.94-94
+vlan 10.0.119.97-97
+vlan 10.0.119.100-100
+vlan 10.0.119.104-104
+vlan 10.0.119.107-107
+vlan 10.0.120.4-4
+vlan 10.0.120.7-7
+vlan 10.0.120.11-11
+vlan 10.0.120.32-32
+vlan 10.0.120.42-42
+vlan 10.0.120.44-44
+vlan 10.0.120.50-50
+vlan 10.0.120.51-51
+vlan 10.0.120.75-75
+vlan 10.0.120.88-88
+vlan 10.0.120.98-98
+vlan 10.0.120.102-102
+vlan 10.0.120.103-103
+vlan 10.0.120.108-108
+vlan 10.0.120.152-152
+vlan 10.0.121.13-13
+vlan 10.0.121.45-45
+vlan 10.0.121.50-50
+vlan 10.0.121.52-52
+vlan 10.0.121.84-84
+vlan 10.0.121.88-88
+vlan 10.0.121.92-92
+vlan 10.0.121.96-96
+vlan 10.0.121.100-100
+vlan 10.0.121.103-103
 
 ## locations
 39e026 location JVAND00001
@@ -45,6 +119,81 @@ vlan 10.0.54.59-63
 33afb1 location JVAND00003
 df8f8f location JVAND00004
 ac6001 location JVAND00005
+8dd5c8 location JVAND00006
+54bcb8 location JVAND00007
+994f74 location JVAND00008
+a93cc1 location JVAND00009
+d657a0 location JVAND00010
+893870 location JVAND00011
+ca8c7a location JVAND00012
+3ebf58 location JVAND00013
+ad22e9 location JVAND00014
+63239b location JVAND00015
+7368d0 location JVAND00016
+cd2082 location JVAND00017
+eab4ee location JVAND00018
+3d85a8 location JVAND00019
+6138b0 location JVAND00020
+305367 location JVAND00021
+100ee3 location JVAND00022
+af0fab location JVAND00023
+83db84 location JVAND00024
+d22225 location JVAND00025
+707893 location JVAND00026
+be659d location JVAND00027
+381d25 location JVAND00028
+58224a location JVAND00029
+6e866a location JVAND00030
+b5522d location JVAND00031
+f0b58f location JVAND00032
+38cf59 location JVAND00033
+6a9e54 location JVAND00034
+b16b0a location JVAND00035
+c55ec3 location JVAND00036
+6e2e68 location JVAND00037
+c45d02 location JVAND00038
+519b76 location JVAND00039
+817ac1 location JVAND00040
+387f3b location JVAND00041
+962149 location JVAND00042
+250269 location JVAND00043
+b7a6bc location JVAND00044
+000122 location JVAND00045
+b31776 location JVAND00046
+01085c location JVAND00047
+dacf42 location JVAND00048
+7bf12e location JVAND00049
+133149 location JVAND00050
+1cbe40 location JVAND00051
+ac4e9b location JVAND00052
+3d578d location JVAND00053
+0defe6 location JVAND00054
+4b38e9 location JVAND00055
+44b6d3 location JVAND00056
+9b70e9 location JVAND00057
+2ba4ba location JVAND00058
+fab434 location JVAND00059
+53a5e4 location JVAND00060
+6cec70 location JVAND00061
+aefd4a location JVAND00062
+13fe77 location JVAND00063
+c0917e location JVAND00064
+6c5e76 location JVAND00065
+dfd1e4 location JVAND00066
+6ef7cf location JVAND00067
+50f5c9 location JVAND00068
+189393 location JVAND00069
+93620c location JVAND00070
+e3ebf1 location JVAND00071
+bfb2ab location JVAND00072
+f026a7 location JVAND00073
+d239b0 location JVAND00074
+f3bb5d location JVAND00075
+2ab52d location JVAND00076
+beb772 location JVAND00077
+b35ae4 location JVAND00078
+5047c0 location JVAND00079
+8d9cd3 location JVAND00080
 
 ## tuning
 
