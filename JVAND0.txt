@@ -196,6 +196,9 @@ b35ae4 location JVAND00078
 8d9cd3 location JVAND00080
 
 ## tuning
+7bf12e maxwatts 1250 # 10.0.119.84
+7bf12e rebootasic 1570464668 # 10.0.119.84
+
 
 ## reboots
 
@@ -203,3 +206,4 @@ b35ae4 location JVAND00078
 
 ## asic password
 asicpass admin
+
