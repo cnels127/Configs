@@ -104,6 +104,15 @@ ef88d6 rebootasic 1568152582 # 10.0.55.61
 cc57e2 rebootasic 1568152582 # 10.0.55.65
 
 ## tuning
+1a9fc6 maxwatts 850 # 10.0.50.149
+c256c3 maxwatts 1050 # 10.0.50.143
+0a2190 maxwatts 1150 # 10.0.50.160
+447c81 maxwatts 1150 # 10.0.55.62
+1a9fc6 rebootasic 1570445658 # 10.0.50.149
+c256c3 rebootasic 1570445658 # 10.0.50.143
+0a2190 rebootasic 1570445658 # 10.0.50.160
+447c81 rebootasic 1570445658 # 10.0.55.62
+
 c256c3 maxwatts 1050 # 10.0.50.143
 63cfad maxwatts 450 # 10.0.50.119
 1a9fc6 maxwatts 950 # 10.0.50.149
@@ -2434,6 +2443,15 @@ b972c8 location ESOLG00497
 8f3359 location ESOLG00500
 
 ## tuning
+1a9fc6 maxwatts 850 # 10.0.50.149
+c256c3 maxwatts 1050 # 10.0.50.143
+0a2190 maxwatts 1150 # 10.0.50.160
+447c81 maxwatts 1150 # 10.0.55.62
+1a9fc6 rebootasic 1570445658 # 10.0.50.149
+c256c3 rebootasic 1570445658 # 10.0.50.143
+0a2190 rebootasic 1570445658 # 10.0.50.160
+447c81 rebootasic 1570445658 # 10.0.55.62
+
 c256c3 maxwatts 1050 # 10.0.50.143
 63cfad maxwatts 450 # 10.0.50.119
 1a9fc6 maxwatts 950 # 10.0.50.149
@@ -3693,6 +3711,7 @@ d44702 resetasic 1569965032
 
 ## asic password
 asicpass admin
+
 
 
 
