@@ -25,7 +25,7 @@ global autoupdate yes
 global allowed yes
 global maxtemp 90
 global fanspeed 100
-global fansaver no
+global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
@@ -38,7 +38,6 @@ global blinkgreen rapid
 # group=rowd allowed no
 
 ## vlans
-vlan 10.0.63.75-75
 vlan 10.0.61.142-142
 vlan 10.0.51.115-115
 vlan 10.0.51.124-124
@@ -52,7 +51,6 @@ vlan 10.0.77.87-87
 vlan 10.0.77.88-88
 
 ## locations
-10992f location VDUBO00001
 ac80c9 location VDUBO00001
 4e6021 location VDUBO00002
 175f83 location VDUBO00003
@@ -72,6 +70,9 @@ ac80c9 maxwatts 1500
 ## reboots
 
 ## resets
+175f83 resetasic 1570472619
+c55b18 resetasic 1570472619
+33ab1b resetasic 1570472619
 ac80c9 resetasic 1570387772
 
 ## asic password
