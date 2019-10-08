@@ -171,6 +171,9 @@ a2153e username3 zoubrown
 5873d0 username3 zoubrown
 
 ## tuning
+d1055d maxwatts 1400 # 10.0.65.116
+d1055d rebootasic 1570561367 # 10.0.65.116
+
 fe3f38 maxwatts 1300 # 10.0.67.15
 fe3f38 rebootasic 1570461295 # 10.0.67.15
 
@@ -223,6 +226,7 @@ bcf062 rebootasic 1569528062 # 10.0.65.73
 
 ## asic password
 asicpass admin
+
 
 
 
