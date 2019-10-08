@@ -19,16 +19,15 @@ global sendworker3 yes
 global asicboost yes
 global autotune yes
 global maxwatts 1350
-
 global autoupdate yes
 global allowed yes
 global maxtemp 90
 global fanspeed 100
-# global fansaver yes
+global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
-global retune 1
+# global retune 1
 # global rebootasic 1
 # global resetasic 1
 # global panelpass gj83Nkgikg
@@ -42,7 +41,7 @@ vlan 10.0.56.106-106
 vlan 10.0.56.115-115
 vlan 10.0.56.117-117
 
-## locations ([ASICID] location [name])
+## locations
 dc1171 location ARAMA00001
 c5f2b7 location ARAMA00002
 87a39c location ARAMA00003
@@ -51,11 +50,10 @@ df6f8a location ARAMA00004
 0a29cc location ARAMA00006
 
 ## tuning
-dc1171 retune 1
-c5f2b7 retune 1
-df6f8a retune 1
-44e8a9 retune 1
-0a29cc retune 2
+
+## reboots
+
+## resets
 
 ## asic password
 asicpass admin
