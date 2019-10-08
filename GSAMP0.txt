@@ -102,30 +102,6 @@ f24571 location GSAMP00026
 d223ec location GSAMP00030
 
 ## tuning
-78cb4c maxwatts 700 # 10.0.59.49
-78cb4c rebootasic 1570546080 # 10.0.59.49
-
-78cb4c maxwatts 800 # 10.0.59.49
-78cb4c rebootasic 1570542404 # 10.0.59.49
-
-78cb4c maxwatts 900 # 10.0.59.49
-78cb4c rebootasic 1570535257 # 10.0.59.49
-
-78cb4c maxwatts 1000 # 10.0.59.49
-78cb4c rebootasic 1570531749 # 10.0.59.49
-
-78cb4c maxwatts 1100 # 10.0.59.49
-78cb4c rebootasic 1570443905 # 10.0.59.49
-
-78cb4c maxwatts 1200 # 10.0.59.49
-78cb4c rebootasic 1569612694 # 10.0.59.49
-
-78cb4c maxwatts 1300 # 10.0.59.49
-78cb4c rebootasic 1568970882 # 10.0.59.49
-
-78cb4c maxwatts 1400 # 10.0.59.49
-78cb4c rebootasic 1567436389 # 10.0.59.49
-
 3fb821 maxwatts 1525
 ff488e maxwatts 1525
 8a804d maxwatts 1525
@@ -138,6 +114,7 @@ d223ec retune 1
 ## reboots
 
 ## resets
+78cb4c resetasic 1570547803
 0101ec resetasic 1570472391
 d223ec resetasic 1570472391
 78cb4c resetasic 1570472391
