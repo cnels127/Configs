@@ -46,6 +46,9 @@ dcf994 location DKUZM00001
 e06e8a location DKUZM00003
 
 ## tuning
+dcf994 maxwatts 1425 # 10.0.61.133
+dcf994 rebootasic 1570555281 # 10.0.61.133
+
 
 ## resets
 e06e8a resetasic 1570025249
@@ -53,3 +56,4 @@ e06e8a resetasic 1570025249
 
 ## asic password
 asicpass admin
+
