@@ -52,9 +52,6 @@ fb355a location GBURR00005
 ## overheats
 
 ## tuning
-2d11cf maxwatts 1400 # 10.0.55.150
-2d11cf rebootasic 1570112123 # 10.0.55.150
-
 b69144 maxwatts 1200 # 10.0.56.107
 b69144 rebootasic 1568986159 # 10.0.56.107
 
@@ -73,7 +70,7 @@ fb355a retune 1
 
 ## resets
 fb355a resetasic 1569963886
-2d11cf resetasic 1570108159
+2d11cf resetasic 1570548708
 
 ## asic password
 asicpass admin
