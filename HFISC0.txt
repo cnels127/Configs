@@ -159,91 +159,16 @@ f2b75b location HFISC00056
 267c54 maxwatts -50 # 10.0.61.16
 267c54 rebootasic 1570547913 # 10.0.61.16
 
-267c54 maxwatts -50 # 10.0.61.16
-267c54 rebootasic 1570546112 # 10.0.61.16
-
-267c54 maxwatts -50 # 10.0.61.16
-267c54 rebootasic 1570542434 # 10.0.61.16
-
-267c54 maxwatts -50 # 10.0.61.16
-267c54 rebootasic 1570540586 # 10.0.61.16
-
-267c54 maxwatts -50 # 10.0.61.16
-267c54 rebootasic 1570537024 # 10.0.61.16
-
-267c54 maxwatts -50 # 10.0.61.16
-267c54 rebootasic 1570533491 # 10.0.61.16
-
-267c54 maxwatts -50 # 10.0.61.16
-267c54 rebootasic 1570530011 # 10.0.61.16
-
-267c54 maxwatts -50 # 10.0.61.16
-267c54 rebootasic 1570523050 # 10.0.61.16
-
-267c54 maxwatts -50 # 10.0.61.16
-267c54 rebootasic 1570516157 # 10.0.61.16
-
 b73e18 maxwatts -50 # 10.0.117.15
 b73e18 rebootasic 1570511035 # 10.0.117.15
 
-b73e18 maxwatts -50 # 10.0.117.15
-b73e18 rebootasic 1570507631 # 10.0.117.15
-
-b73e18 maxwatts -50 # 10.0.117.15
-b73e18 rebootasic 1570500827 # 10.0.117.15
-
-b73e18 maxwatts -50 # 10.0.117.15
-b73e18 rebootasic 1570497453 # 10.0.117.15
-
-b73e18 maxwatts -50 # 10.0.117.15
-b73e18 rebootasic 1570492397 # 10.0.117.15
-
-b73e18 maxwatts -50 # 10.0.117.15
-b73e18 rebootasic 1570485679 # 10.0.117.15
-
-b73e18 maxwatts -50 # 10.0.117.15
-b73e18 rebootasic 1570482181 # 10.0.117.15
-
 cb9593 maxwatts 750 # 10.0.56.138
 cb9593 rebootasic 1570457698 # 10.0.56.138
-
-b73e18 maxwatts 50 # 10.0.117.15
-b73e18 rebootasic 1570452524 # 10.0.117.15
-
-b73e18 maxwatts 150 # 10.0.117.15
-b73e18 rebootasic 1570443919 # 10.0.117.15
-
-b73e18 maxwatts 250 # 10.0.117.15
-b73e18 rebootasic 1570157014 # 10.0.117.15
-
-b73e18 maxwatts 350 # 10.0.117.15
-b73e18 rebootasic 1570131167 # 10.0.117.15
-
-b73e18 maxwatts 450 # 10.0.117.15
-b73e18 rebootasic 1570120707 # 10.0.117.15
 
 cb9593 maxwatts 850 # 10.0.56.138
 b73e18 maxwatts 550 # 10.0.117.15
 cb9593 rebootasic 1570105288 # 10.0.56.138
 b73e18 rebootasic 1570105288 # 10.0.117.15
-
-267c54 maxwatts -50 # 10.0.61.16
-267c54 rebootasic 1569612909 # 10.0.61.16
-
-267c54 maxwatts -50 # 10.0.61.16
-267c54 rebootasic 1569609331 # 10.0.61.16
-
-267c54 maxwatts 50 # 10.0.61.16
-267c54 rebootasic 1569602449 # 10.0.61.16
-
-267c54 maxwatts 150 # 10.0.61.16
-267c54 rebootasic 1569595956 # 10.0.61.16
-
-267c54 maxwatts 250 # 10.0.61.16
-267c54 rebootasic 1569592835 # 10.0.61.16
-
-267c54 maxwatts 350 # 10.0.61.16
-267c54 rebootasic 1569589685 # 10.0.61.16
 
 cb9593 maxwatts 950 # 10.0.56.138
 cb9593 rebootasic 1569567853 # 10.0.56.138
@@ -328,6 +253,11 @@ cb9593 rebootasic 1
 3ccb07 rebootasic 1568521163 # 10.0.77.27 hfisc00048
 
 ## resets
+e2ac32 resetasic 1570549143
+10ecee resetasic 1570549143
+396eb4 resetasic 1570549143
+32db9b resetasic 1570549143
+69c26c resetasic 1570549143
 1c50a6 resetasic 1570511283
 994f1c resetasic 1570511283
 3ccb07 resetasic 1570511283
@@ -339,41 +269,4 @@ cb9593 resetasic 1
 32db9b resetasic 1
 
 ## asic password
-
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
