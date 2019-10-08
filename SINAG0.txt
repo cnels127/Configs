@@ -48,6 +48,9 @@ db9779 location SINAG00003
 d3a31d location SINAG00004
 
 ## tuning
+db9779 maxwatts 1150 # 10.0.65.130
+db9779 rebootasic 1570572896 # 10.0.65.130
+
 db9779 maxwatts 1250 # 10.0.65.130
 db9779 rebootasic 1570571037 # 10.0.65.130
 
@@ -62,5 +65,6 @@ db9779 resetasic 1570472235
 
 ## asic password
 asicpass admin
+
 
 
