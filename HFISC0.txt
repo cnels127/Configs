@@ -296,16 +296,20 @@ d24d19 retune 1
 
 ## reboots
 cb9593 rebootasic 1
+# generated on Sep 15 2019 04:19:23 utc: 1568521163 1568521163
+2fd188 rebootasic 1568521163 # 10.0.68.63 hfisc00010
+3ccb07 rebootasic 1568521163 # 10.0.77.27 hfisc00048
 
+## resets
+1c50a6 resetasic 1570511283
+994f1c resetasic 1570511283
+3ccb07 resetasic 1570511283
+2fd188 resetasic 1570511283
 cb9593 resetasic 1
 779e72 resetasic 1
 540742 resetasic 1
 267c54 resetasic 1
 32db9b resetasic 1
-
-# generated on Sep 15 2019 04:19:23 utc: 1568521163 1568521163
-2fd188 rebootasic 1568521163 # 10.0.68.63 hfisc00010
-3ccb07 rebootasic 1568521163 # 10.0.77.27 hfisc00048
 
 ## asic password
 
