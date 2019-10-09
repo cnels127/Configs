@@ -50,6 +50,9 @@ ea2b68 location ERICH00002
 5f07ce location ERICH00005
 
 ## tuning
+5f07ce maxwatts 1150 # 10.0.60.80
+5f07ce rebootasic 1570603890 # 10.0.60.80
+
 5f07ce maxwatts 1250 # 10.0.60.80
 5f07ce rebootasic 1570600357 # 10.0.60.80
 
@@ -74,6 +77,7 @@ ea2b68 location ERICH00002
 
 ## asic password
 asicpass admin
+
 
 
 
