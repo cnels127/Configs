@@ -101,6 +101,9 @@ f24571 location GSAMP00026
 d223ec location GSAMP00030
 
 ## tuning
+3900a7 maxwatts 1250 # 10.0.59.36
+3900a7 rebootasic 1570600375 # 10.0.59.36
+
 # s_overheat generated on Oct 09 2019 05:06:50 utc: 1570597610
 3900a7 maxwatts 1350 # 10.0.59.36
 62bdc8 maxwatts 1400 # 10.0.58.70
@@ -137,6 +140,7 @@ d223ec resetasic 1570472391
 
 ## asic password
 asicpass admin
+
 
 
 

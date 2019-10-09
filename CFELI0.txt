@@ -292,6 +292,9 @@ e352e4 location CFELI00124
 79b50b location CFELI00125
 
 ## tuning
+ec9139 maxwatts 1400 # 10.0.53.22
+ec9139 rebootasic 1570600334 # 10.0.53.22
+
 c46f3d maxwatts 1400 # 10.0.77.113
 c46f3d rebootasic 1570566952 # 10.0.77.113
 
@@ -448,6 +451,7 @@ e352e4 resetasic 1
 
 ## asic password
 asicpass admin
+
 
 
 
