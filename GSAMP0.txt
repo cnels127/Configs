@@ -19,7 +19,6 @@ global sendworker3 yes
 global asicboost yes
 global autotune yes
 global maxwatts 1500
-
 global autoupdate yes
 global allowed yes
 global maxtemp 90
@@ -102,6 +101,14 @@ f24571 location GSAMP00026
 d223ec location GSAMP00030
 
 ## tuning
+# s_overheat generated on Oct 09 2019 05:06:50 utc: 1570597610
+3900a7 maxwatts 1350 # 10.0.59.36
+62bdc8 maxwatts 1400 # 10.0.58.70
+3cd7e0 maxwatts 1400 # 10.0.59.66
+3900a7 rebootasic 1570597610 # 10.0.59.36
+62bdc8 rebootasic 1570597610 # 10.0.58.70
+3cd7e0 rebootasic 1570597610 # 10.0.59.66
+
 78cb4c maxwatts 1400 # 10.0.59.49
 3900a7 maxwatts 1400 # 10.0.59.36
 78cb4c rebootasic 1570584616 # 10.0.59.49
