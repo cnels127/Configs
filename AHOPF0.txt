@@ -192,6 +192,13 @@ c6cbe1 location AHOPF00075
 b8ef7f maxwatts 1300 # 10.0.117.72
 f4803e maxwatts 1300 # 10.0.115.109
 a41d98 maxwatts 1300 # 10.0.115.158
+b8ef7f rebootasic 1570625050 # 10.0.117.72
+f4803e rebootasic 1570625050 # 10.0.115.109
+a41d98 rebootasic 1570625050 # 10.0.115.158
+
+b8ef7f maxwatts 1300 # 10.0.117.72
+f4803e maxwatts 1300 # 10.0.115.109
+a41d98 maxwatts 1300 # 10.0.115.158
 b8ef7f rebootasic 1570623259 # 10.0.117.72
 f4803e rebootasic 1570623259 # 10.0.115.109
 a41d98 rebootasic 1570623259 # 10.0.115.158
@@ -1577,6 +1584,7 @@ be27de resetasic 1
 
 ## asic password
 asicpass admin
+
 
 
 
