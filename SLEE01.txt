@@ -29,7 +29,7 @@ global blinkgreen rapid
 
 global retune 1
 global rebootasic 2
-# global resetasic 1
+global resetasic 1570655874
 # global panelpass gj83Nkgikg
 
 # group=rowc rebootasic 1
@@ -71,18 +71,11 @@ f913d1 location 18A31
 94e47a location 18B34
 	
 ## tuning
-e10e52 maxwatts 1250 # 172.16.201.211
-e10e52 rebootasic 1569495401 # 172.16.201.211
-
-d8d329 maxwatts 1250 # 172.16.202.48
-d8d329 rebootasic 1568071551 # 172.16.202.48
-
-460df4 maxwatts 1250 # 172.16.202.70
-306978 maxwatts 1250 # 172.16.202.77
-460df4 rebootasic 1567795750 # 172.16.202.70
-306978 rebootasic 1567795750 # 172.16.202.77
-
 d8d329 retune 1
+
+## reboots
+
+## resets
 
 ## asic password
 asicpass admin
