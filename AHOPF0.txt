@@ -226,10 +226,8 @@ c5dfea maxwatts 1300 # 10.0.115.99
 a7a6fd rebootasic 1570572644 # 10.0.115.20
 c5dfea rebootasic 1570572644 # 10.0.115.99
 
-47f0c6 maxwatts 700 # 10.0.57.20
 a7a6fd maxwatts 1300 # 10.0.115.20
 c5dfea maxwatts 1300 # 10.0.115.99
-47f0c6 rebootasic 1570570755 # 10.0.57.20
 a7a6fd rebootasic 1570570755 # 10.0.115.20
 c5dfea rebootasic 1570570755 # 10.0.115.99
 
@@ -259,25 +257,8 @@ a7a6fd rebootasic 1570561009 # 10.0.115.20
 a7a6fd maxwatts 1300 # 10.0.115.20
 a7a6fd rebootasic 1570559076 # 10.0.115.20
 
-47f0c6 maxwatts 800 # 10.0.57.20
 a7a6fd maxwatts 1300 # 10.0.115.20
-47f0c6 rebootasic 1570557126 # 10.0.57.20
 a7a6fd rebootasic 1570557126 # 10.0.115.20
-
-47f0c6 maxwatts 900 # 10.0.57.20
-47f0c6 rebootasic 1570553360 # 10.0.57.20
-
-47f0c6 maxwatts 1000 # 10.0.57.20
-47f0c6 rebootasic 1570549705 # 10.0.57.20
-
-47f0c6 maxwatts 1100 # 10.0.57.20
-47f0c6 rebootasic 1570545999 # 10.0.57.20
-
-47f0c6 maxwatts 1200 # 10.0.57.20
-47f0c6 rebootasic 1570542337 # 10.0.57.20
-
-47f0c6 maxwatts 1300 # 10.0.57.20
-47f0c6 rebootasic 1570535205 # 10.0.57.20
 
 9c7529 maxwatts 1300 # 10.0.119.57
 9c7529 rebootasic 1570502473 # 10.0.119.57
@@ -1440,6 +1421,7 @@ cb2ee7 rebootasic 1568827608 # 10.0.121.57 ahopf00183
 611b3a rebootasic 1568827608 # 10.0.116.130 ahopf00248
 
 ## resets (fixed machines)
+47f0c6 resetasic 1
 be27de resetasic 1
 0adba5 resetasic 1
 
