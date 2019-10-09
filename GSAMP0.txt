@@ -109,9 +109,7 @@ d223ec location GSAMP00030
 62bdc8 rebootasic 1570597610 # 10.0.58.70
 3cd7e0 rebootasic 1570597610 # 10.0.59.66
 
-78cb4c maxwatts 1400 # 10.0.59.49
 3900a7 maxwatts 1400 # 10.0.59.36
-78cb4c rebootasic 1570584616 # 10.0.59.49
 3900a7 rebootasic 1570584616 # 10.0.59.36
 
 c02d51 maxwatts 1400 # 10.0.56.50
@@ -132,7 +130,7 @@ d223ec retune 1
 ## reboots
 
 ## resets
-78cb4c resetasic 1570547803
+78cb4c resetasic 1570598317
 0101ec resetasic 1570472391
 d223ec resetasic 1570472391
 78cb4c resetasic 1570472391
