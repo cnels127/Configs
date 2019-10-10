@@ -1,4 +1,5 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
+## TOTAL EXP HASHRATE 10 s9 @ 16 Th/s = 160 Th/s
 
 global custompanel HCRAI1hshpwr
 
@@ -17,7 +18,7 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1300
+global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90
