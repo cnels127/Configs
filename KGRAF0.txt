@@ -77,17 +77,11 @@ vlan 10.0.118.31-31
 vlan 10.0.118.112-112
 vlan 10.0.119.61-61
 vlan 10.0.120.112-112
-vlan 10.0.51.85-85
 vlan 10.0.51.100-100
-vlan 10.0.115.45-45
 vlan 10.0.115.139-139
-vlan 10.0.77.51-51
 vlan 10.0.77.125-125
-vlan 10.0.119.4-4
-vlan 10.0.119.19-19
-vlan 10.0.115.142-142
+vlan 10.0.115.45-45
 vlan 10.0.121.1-1
-vlan 10.0.58.157-157
 vlan 10.0.68.45-45
 
 ## locations
@@ -130,17 +124,11 @@ d46fb5 location KGRAF00029
 b16fdd location KGRAF00037
 d1c299 location KGRAF00038
 d3efbf location KGRAF00039
-385e8f location KGRAF00040
 da3e46 location KGRAF00040
-b6ea4d location KGRAF00041
 d780da location KGRAF00041
-f5acba location KGRAF00042
 45ecb6 location KGRAF00042
-b78fed location KGRAF00043
-eb16ee location KGRAF00043
-b1aa6a location KGRAF00044
+b6ea4d location KGRAF00043
 0f2dda location KGRAF00044
-6db0b2 location KGRAF00045
 a62f6a location KGRAF00045
 
 ## tuning
@@ -193,6 +181,7 @@ f5acba rebootasic 1570725927
 0f2dda rebootasic 1570725927
 
 ## resets
+16adc1 resetasic 1570747236
 16adc1 resetasic 1570733397
 16adc1 resetasic 1570724725
 1d3229 resetasic 1570724725
