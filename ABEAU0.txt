@@ -19,12 +19,11 @@ global sendworker3 yes
 global asicboost yes
 global autotune yes
 global maxwatts 1350
-
 global autoupdate yes
 global allowed yes
 global maxtemp 90
-global fanspeed 100
-global fansaver yes
+global fanspeed 30
+global fansaver no
 global blinkred idle
 global blinkgreen rapid
 
@@ -47,25 +46,11 @@ a26081 location ABEAU00002
 64c124 location ABEAU00003
 
 ## tuning
-a26081 maxwatts 1150 # 10.0.55.137
-a26081 rebootasic 1570628654 # 10.0.55.137
-
-a26081 maxwatts 1250 # 10.0.55.137
-a26081 rebootasic 1570625045 # 10.0.55.137
-
-35cf73 maxwatts 1050 # 10.0.55.120
-35cf73 rebootasic 1570557111 # 10.0.55.120
-
-35cf73 maxwatts 1150 # 10.0.55.120
-35cf73 rebootasic 1570551526 # 10.0.55.120
-
-35cf73 maxwatts 1250 # 10.0.55.120
-35cf73 rebootasic 1570549690 # 10.0.55.120
-
 
 ## reset
-35cf73 resetasic 1
-64c124 resetasic 1
+35cf73 resetasic 1570735193
+a26081 resetasic 1570735193
+64c124 resetasic 1570735193
 
 ## asic password
 asicpass admin
