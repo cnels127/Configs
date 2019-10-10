@@ -22,7 +22,7 @@ global maxwatts 1350
 global autoupdate yes
 global allowed yes
 global maxtemp 90
-global fanspeed 100
+global fanspeed 30
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
@@ -51,9 +51,17 @@ df6f8a location ARAMA00004
 
 ## tuning
 
+## fans
+dc1171 fanspeed 50
+87a39c fanspeed 50
+
 ## reboots
 
 ## resets
+44e8a9 resetasic 1570735595
+dc1171 resetasic 1570735595
+c5f2b7 resetasic 1570735595
+df6f8a resetasic 1570735595
 
 ## asic password
 asicpass admin
