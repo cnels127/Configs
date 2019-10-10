@@ -104,6 +104,10 @@ cc9cd4 location SLANG00025
 
 ## tuning
 
+## fans
+bf1870 fanspeed 100
+fe2dc8 fanspeed 100
+
 ## reboots
 # generated on Sep 15 2019 04:25:14 utc: 1568521514 1568521514
 1df8f9 rebootasic 1568521514 # 10.0.67.30 slang00016
@@ -130,20 +134,3 @@ cc9cd4 resetasic 1
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
