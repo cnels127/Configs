@@ -144,6 +144,9 @@ b1aa6a location KGRAF00044
 a62f6a location KGRAF00045
 
 ## tuning
+eadea9 maxwatts 1000 # 10.0.66.74
+eadea9 rebootasic 1570666139 # 10.0.66.74
+
 da3e46 maxwatts 1400 # 10.0.51.100
 da3e46 rebootasic 1570662514 # 10.0.51.100
 
@@ -277,6 +280,7 @@ b1aa6a resetasic 1569614707
 
 ## asic password
 asicpass admin
+
 
 
 
