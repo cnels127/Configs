@@ -144,9 +144,7 @@ b1aa6a location KGRAF00044
 a62f6a location KGRAF00045
 
 ## tuning
-f5acba maxwatts 1400 # 10.0.77.51
-f5acba rebootasic 1570725484 # 10.0.77.51
-
+f5acba retune 1570730062
 943575 maxwatts 1350
 91c3cc maxwatts 1350
 c28a7c maxwatts 1350
@@ -185,6 +183,8 @@ b1aa6a maxwatts 1500
 a62f6a maxwatts 1500
 
 ## fans
+a62f6a fanspeed 100
+5c49bc fanspeed 100
 f5acba fanspeed 100
 0f2dda fanspeed 100
 
@@ -215,10 +215,3 @@ b1aa6a resetasic 1569614707
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
