@@ -159,8 +159,21 @@ ef15e2 location ASMIT00097
 # bed5d9 maxwatts 1200 # 10.0.120.76
 # 871acb maxwatts 1400 # 10.0.67.69
 
+## fans
+aa7b11 fanspeed 100
+683bb6 fanspeed 100
+57db56 fanspeed 100
+12853f fanspeed 100
+ef15e2 fanspeed 100
+51345d fanspeed 100
 
-## reboots (chain ailment)
+## reboots
+aa7b11 rebootasic 1570750302 # 10.0.118.33 asmit00027
+683bb6 rebootasic 1570750302 # 10.0.67.83 asmit00035
+57db56 rebootasic 1570750302 # 10.0.66.91 asmit00046
+12853f rebootasic 1570750302 # 10.0.64.95 asmit00067
+ef15e2 rebootasic 1570750302 # 10.0.62.131 asmit00097
+51345d rebootasic 1570750302 # 10.0.119.22 asmit00099
 
 ## resets
 
