@@ -22,14 +22,14 @@ global maxwatts 1350
 global autoupdate yes
 global allowed yes
 global maxtemp 90
-global fanspeed 100
-global fansaver yes
+global fanspeed 30
+global fansaver no
 global blinkred idle
 global blinkgreen rapid
 
 global retune 1
 global rebootasic 2
-global resetasic 3
+global resetasic 1570749503
 # global panelpass gj83Nkgikg
 
 # group=rowc rebootasic 1
@@ -54,19 +54,10 @@ e7a422 location DBELT00002
 056415 location DBELT00008
 
 ## tuning
-0747e2 maxwatts 1250 # 10.0.54.158
-0747e2 rebootasic 1570725324 # 10.0.54.158
-
-1667e2 maxwatts 1150 # 10.0.54.155
-1667e2 rebootasic 1570693156 # 10.0.54.155
-
-1667e2 maxwatts 1250 # 10.0.54.155
-1667e2 rebootasic 1570684074 # 10.0.54.155
-
-179168 maxwatts 1250 # 10.0.58.18
-179168 rebootasic 1570619728 # 10.0.58.18
-
 54750e retune 1
+
+## fans
+356422 fanspeed 50
 
 ## reboots
 
