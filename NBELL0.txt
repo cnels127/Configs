@@ -466,6 +466,23 @@ a0cac7 location NBELL00204
 
 ## overheats
 ## tuning
+a39fa3 maxwatts 1250 # 10.0.119.155
+5ef933 maxwatts 1250 # 10.0.62.33
+b894e2 maxwatts 1250 # 10.0.118.110
+334b70 maxwatts 1250 # 10.0.53.6
+1bd329 maxwatts 1250 # 10.0.58.139
+02713c maxwatts 1250 # 10.0.61.108
+a07290 maxwatts 1250 # 10.0.77.19
+920bc4 maxwatts 1250 # 10.0.116.91
+a39fa3 rebootasic 1570723503 # 10.0.119.155
+5ef933 rebootasic 1570723503 # 10.0.62.33
+b894e2 rebootasic 1570723503 # 10.0.118.110
+334b70 rebootasic 1570723503 # 10.0.53.6
+1bd329 rebootasic 1570723503 # 10.0.58.139
+02713c rebootasic 1570723503 # 10.0.61.108
+a07290 rebootasic 1570723503 # 10.0.77.19
+920bc4 rebootasic 1570723503 # 10.0.116.91
+
 
 fbb0c3 retune 1
 d70df1 retune 1
@@ -494,3 +511,4 @@ b894e2 fanspeed 100
 
 ## asic password
 asicpass admin
+
