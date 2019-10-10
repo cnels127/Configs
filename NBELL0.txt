@@ -479,7 +479,7 @@ a0cac7 location NBELL00204
 # fb1aea maxwatts 1150
 # fbb0c3 maxwatts 1250
 # 0a9fce maxwatts 1150
-c27c44 maxwatts 950
+# c27c44 maxwatts 950
 # 68b158 maxwatts 1250
 # 56415a maxwatts 1150
 # ad4182 maxwatts 1150
@@ -487,6 +487,7 @@ c27c44 maxwatts 950
 # ca9e8f maxwatts 1050
 # 334b70 maxwatts 1050
 # 2d2ba1 maxwatts 1250
+c27c44 retune 1570739716
 fbb0c3 retune 1
 d70df1 retune 1
 
@@ -511,7 +512,7 @@ c27c44 fanspeed 100
 45c2fd fanspeed 100
 
 ## complete fan failure
-b894e2 allowed no
+# b894e2 allowed no
 # 460f86 allowed no
 # 9dd012 allowed no
 
@@ -560,6 +561,3 @@ df39bb resetasic 1
 
 ## asic password
 asicpass admin
-
-
-
