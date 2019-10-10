@@ -54,8 +54,10 @@ ce82d1 location ANORC0009
 07c674 retune 1
 
 ## fans
+07c674 fanspeed 100
 
 ## reboots
+07c674 rebootasic 1570736293 # 10.0.68.93 anorc0002
 
 ## resets
 
