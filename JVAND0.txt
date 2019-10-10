@@ -36,7 +36,7 @@ global resetasic 1570719914
 # group=rowd allowed no
 
 ## vlans
-# vlan 10.0.54.59-63
+vlan 10.0.54.59-63
 vlan 10.0.59.78-78
 vlan 10.0.66.36-36
 vlan 10.0.66.155-155
@@ -196,6 +196,9 @@ b35ae4 location JVAND00078
 8d9cd3 location JVAND00080
 
 ## fans
+994f74 fanspeed 100
+d22225 fanspeed 100
+6ef7cf fanspeed 100
 1cbe40 fanspeed 100
 b35ae4 fanspeed 100
 cd2082 fanspeed 100
