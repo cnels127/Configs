@@ -24,8 +24,8 @@ global maxwatts 1500
 global autoupdate yes
 global allowed yes
 global maxtemp 90
-global fanspeed 100
-global fansaver yes
+global fanspeed 50
+global fansaver no
 global blinkred idle
 global blinkgreen rapid
 
@@ -38,21 +38,21 @@ global resetasic 1
 # group=rowd allowed no
 
 ## vlans
-# vlan 10.0.61.72-72
-# vlan 10.0.61.134-134
-# vlan 10.0.63.68-68
-# vlan 10.0.64.15-15
-# vlan 10.0.64.61-61
-# vlan 10.0.64.151-151
-# vlan 10.0.65.7-7
-# vlan 10.0.65.98-98
-# vlan 10.0.65.127-127
-# vlan 10.0.65.132-132
-# vlan 10.0.65.145-145
-# vlan 10.0.65.158-158
-# vlan 10.0.66.12-12
-# vlan 10.0.66.72-72
-# vlan 10.0.66.74-74
+vlan 10.0.61.72-72
+vlan 10.0.61.134-134
+vlan 10.0.63.68-68
+vlan 10.0.64.15-15
+vlan 10.0.64.61-61
+vlan 10.0.64.151-151
+vlan 10.0.65.7-7
+vlan 10.0.65.98-98
+vlan 10.0.65.127-127
+vlan 10.0.65.132-132
+vlan 10.0.65.145-145
+vlan 10.0.65.158-158
+vlan 10.0.66.12-12
+vlan 10.0.66.72-72
+vlan 10.0.66.74-74
 vlan 10.0.58.91-91
 vlan 10.0.59.109-109
 vlan 10.0.61.13-13
@@ -144,101 +144,6 @@ b1aa6a location KGRAF00044
 a62f6a location KGRAF00045
 
 ## tuning
-1d3229 maxwatts 1200 # 10.0.64.61
-1d3229 rebootasic 1570702520 # 10.0.64.61
-
-eadea9 maxwatts 1000 # 10.0.66.74
-eadea9 rebootasic 1570666139 # 10.0.66.74
-
-da3e46 maxwatts 1400 # 10.0.51.100
-da3e46 rebootasic 1570662514 # 10.0.51.100
-
-eadea9 maxwatts 1100 # 10.0.66.74
-eadea9 rebootasic 1570658884 # 10.0.66.74
-
-eadea9 maxwatts 1200 # 10.0.66.74
-eadea9 rebootasic 1570655348 # 10.0.66.74
-
-eadea9 maxwatts 1300 # 10.0.66.74
-eadea9 rebootasic 1570653571 # 10.0.66.74
-
-7adae2 maxwatts 850 # 10.0.61.106
-5d07a6 maxwatts 1000 # 10.0.64.15
-7adae2 rebootasic 1570630599 # 10.0.61.106
-5d07a6 rebootasic 1570630599 # 10.0.64.15
-
-d91645 maxwatts 1250 # 10.0.115.54
-d91645 rebootasic 1570626965 # 10.0.115.54
-
-eadea9 maxwatts 1400 # 10.0.66.74
-eadea9 rebootasic 1570614486 # 10.0.66.74
-
-7adae2 maxwatts 950 # 10.0.61.106
-7adae2 rebootasic 1570612734 # 10.0.61.106
-
-7adae2 maxwatts 1050 # 10.0.61.106
-7adae2 rebootasic 1570609225 # 10.0.61.106
-
-e4158d maxwatts 1200 # 10.0.66.72
-1d3229 maxwatts 1300 # 10.0.64.61
-7adae2 maxwatts 1150 # 10.0.61.106
-e4158d rebootasic 1570605722 # 10.0.66.72
-1d3229 rebootasic 1570605722 # 10.0.64.61
-7adae2 rebootasic 1570605722 # 10.0.61.106
-
-e4158d maxwatts 1300 # 10.0.66.72
-e4158d rebootasic 1570603952 # 10.0.66.72
-
-7adae2 maxwatts 1250 # 10.0.61.106
-1d3229 maxwatts 1400 # 10.0.64.61
-e4158d maxwatts 1400 # 10.0.66.72
-7adae2 rebootasic 1570600424 # 10.0.61.106
-1d3229 rebootasic 1570600424 # 10.0.64.61
-e4158d rebootasic 1570600424 # 10.0.66.72
-
-5d07a6 maxwatts 1100 # 10.0.64.15
-5d07a6 rebootasic 1570551661 # 10.0.64.15
-
-5d07a6 maxwatts 1200 # 10.0.64.15
-5d07a6 rebootasic 1570547951 # 10.0.64.15
-
-5d07a6 maxwatts 1300 # 10.0.64.15
-5d07a6 rebootasic 1570544278 # 10.0.64.15
-
-5d07a6 maxwatts 1400 # 10.0.64.15
-5d07a6 rebootasic 1570530052 # 10.0.64.15
-
-b19f40 maxwatts 1150 # 10.0.66.154
-b19f40 rebootasic 1570526561 # 10.0.66.154
-
-b19f40 maxwatts 1250 # 10.0.66.154
-b19f40 rebootasic 1570443950 # 10.0.66.154
-
-b78fed maxwatts 1200 # 10.0.119.4
-b78fed rebootasic 1570132940 # 10.0.119.4
-
-b78fed maxwatts 1300 # 10.0.119.4
-b78fed rebootasic 1570110450 # 10.0.119.4
-
-b78fed maxwatts 1400 # 10.0.119.4
-b78fed rebootasic 1570105315 # 10.0.119.4
-
-# generated on Sep 29 2019 05:21:39 utc: 1569734499: 1569734499
-f5acba maxwatts 1300 # 10.0.77.51
-a62f6a maxwatts 1300 # 10.0.68.45
-f5acba rebootasic 1569734499 # 10.0.77.51
-a62f6a rebootasic 1569734499 # 10.0.68.45
-# generated on Sep 29 2019 03:34:59 utc: 1569728099: 1569728099
-a62f6a maxwatts 1400 # 10.0.68.45
-f5acba maxwatts 1400 # 10.0.77.51
-0f2dda maxwatts 1400 # 10.0.121.1
-a62f6a rebootasic 1569728099 # 10.0.68.45
-f5acba rebootasic 1569728099 # 10.0.77.51
-0f2dda rebootasic 1569728099 # 10.0.121.1
-
-93c991 maxwatts 1400 # 10.0.65.7
-93c991 rebootasic 1569545236 # 10.0.65.7
-
 943575 maxwatts 1350
 91c3cc maxwatts 1350
 c28a7c maxwatts 1350
@@ -276,7 +181,27 @@ b1aa6a maxwatts 1500
 6db0b2 maxwatts 1500
 a62f6a maxwatts 1500
 
+## fans
+
+## reboots
+
 ## resets
+16adc1 resetasic 1570724725
+1d3229 resetasic 1570724725
+5d07a6 resetasic 1570724725
+e63499 resetasic 1570724725
+141236 resetasic 1570724725
+7bc97a resetasic 1570724725
+071a82 resetasic 1570724725
+154753 resetasic 1570724725
+499bef resetasic 1570724725
+d3efbf resetasic 1570724725
+45ecb6 resetasic 1570724725
+f5acba resetasic 1570724725
+b1aa6a resetasic 1570724725
+0f2dda resetasic 1570724725
+6db0b2 resetasic 1570724725
+a62f6a resetasic 1570724725
 d780da resetasic 1570642311
 86db98 resetasic 1569614911
 b1aa6a resetasic 1569614707
