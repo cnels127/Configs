@@ -54,6 +54,9 @@ e7a422 location DBELT00002
 056415 location DBELT00008
 
 ## tuning
+0747e2 maxwatts 1250 # 10.0.54.158
+0747e2 rebootasic 1570725324 # 10.0.54.158
+
 1667e2 maxwatts 1150 # 10.0.54.155
 1667e2 rebootasic 1570693156 # 10.0.54.155
 
@@ -74,6 +77,7 @@ e7a422 location DBELT00002
 
 ## asic password
 asicpass admin
+
 
 
 
