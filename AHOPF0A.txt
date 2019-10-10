@@ -22,14 +22,14 @@ global maxwatts 1400
 global autoupdate yes
 global allowed yes
 global maxtemp 90
-global fanspeed 100
-global fansaver yes
+global fanspeed 50
+global fansaver no
 global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
 global rebootasic 5
-# global resetasic 1
+global resetasic 1570745520
 # global panelpass gj83Nkgikg
 
 # group=rowc rebootasic 1
@@ -494,19 +494,17 @@ cc9fd9 location AHOPF00302
 79c07f location AHOPF00303
 
 ## tuning
-# generated on Sep 24 2019 18:57:55 utc: 1569351475: 1569351475
-2c8cd5 maxwatts 1300 # 10.0.121.60
-2c8cd5 rebootasic 1569351475 # 10.0.121.60
-# generated on Sep 20 2019 14:17:10 utc: 1568989030: 1568989030
-98d6ae maxwatts 1300 # 10.0.116.56
-5b0b0f maxwatts 1300 # 10.0.121.117
-98d6ae rebootasic 1568989030 # 10.0.116.56
-5b0b0f rebootasic 1568989030 # 10.0.121.117
-# generated on Sep 17 2019 00:13:34 utc: 1568679214: 1568679214
-1da911 maxwatts 1300 # 10.0.121.87
-1da911 rebootasic 1568679214 # 10.0.121.87
-
+# 2c8cd5 maxwatts 1300 # 10.0.121.60
+# 98d6ae maxwatts 1300 # 10.0.116.56
+# 5b0b0f maxwatts 1300 # 10.0.121.117
+# 1da911 maxwatts 1300 # 10.0.121.87
 1fb534 retune 1
+
+## fans
+2c8cd5 fanspeed 100
+98d6ae fanspeed 100
+5b0b0f fanspeed 100
+1da911 fanspeed 100
 
 ## reboots
 # s_reboot generated on Oct 10 2019 19:51:55 utc: 1570737115 rebooting overheats
@@ -549,39 +547,6 @@ cb2ee7 rebootasic 1568679306 # 10.0.121.57 ahopf00183
 9350c9 rebootasic 1568679306 # 10.0.121.115 ahopf00239
 
 ## resets (fixed machines)
-683eaf resetasic 1570596713
-ae4e94 resetasic 1569616498
-4b0c05 resetasic 1569611061
-f4edef resetasic 1569603209
-ebbec9 resetasic 1569454073
-a7f562 resetasic 1569453184
-da7641 resetasic 1569453184
-49d54c resetasic 1569453184
-1d0081 resetasic 1569453184
-ede1d7 resetasic 1569453184
-1151fd resetasic 1569453184
-d5f0df resetasic 1569453184
-6241c4 resetasic 1569453184
-ffbd34 resetasic 1569454958
-92e8df resetasic 1
-7f4c05 resetasic 1
-1fb534 resetasic 1569454958
-41dd5d resetasic 1
-f4edef resetasic 1
-ec49d0 resetasic 1569454958
-377938 resetasic 1
-7ace88 resetasic 1
-e18f8f resetasic 1569454958
-cc9fd9 resetasic 1
-0763a7 resetasic 1
-0676bb resetasic 1
-318543 resetasic 1569454958
-43dfaa resetasic 1
-4f54c6 resetasic 1569454958
-7db077 resetasic 1569454958
-511c0f resetasic 1569454958
-e97edc resetasic 1
-0b195c resetasic 1569454958
 
 ## asic password
 asicpass admin
