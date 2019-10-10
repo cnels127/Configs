@@ -76,63 +76,6 @@ f0ed76 location JBETH00019
 8f1d39 location JBETH00020
 
 ## tuning
-8f1d39 maxwatts 1000 # 10.0.60.143
-8f1d39 rebootasic 1570709914 # 10.0.60.143
-
-8f1d39 maxwatts 1100 # 10.0.60.143
-8f1d39 rebootasic 1570691375 # 10.0.60.143
-
-8f1d39 maxwatts 1200 # 10.0.60.143
-8f1d39 rebootasic 1570687752 # 10.0.60.143
-
-8f1d39 maxwatts 1300 # 10.0.60.143
-8f1d39 rebootasic 1570685920 # 10.0.60.143
-
-8f1d39 maxwatts 1400 # 10.0.60.143
-8f1d39 rebootasic 1570684136 # 10.0.60.143
-
-406249 maxwatts 1300 # 10.0.68.105
-406249 rebootasic 1570660698 # 10.0.68.105
-
-2c969d maxwatts 1200 # 10.0.68.103
-406249 maxwatts 1400 # 10.0.68.105
-2c969d rebootasic 1570653548 # 10.0.68.103
-406249 rebootasic 1570653548 # 10.0.68.105
-
-2c969d maxwatts 1300 # 10.0.68.103
-2c969d rebootasic 1570648305 # 10.0.68.103
-
-2c969d maxwatts 1400 # 10.0.68.103
-2c969d rebootasic 1570644869 # 10.0.68.103
-
-4db5d3 maxwatts 900 # 10.0.60.35
-4db5d3 rebootasic 1570634173 # 10.0.60.35
-
-45ff0c maxwatts 1100 # 10.0.59.129
-45ff0c rebootasic 1570632366 # 10.0.59.129
-
-4db5d3 maxwatts 1000 # 10.0.60.35
-4db5d3 rebootasic 1570626929 # 10.0.60.35
-
-4db5d3 maxwatts 1100 # 10.0.60.35
-4db5d3 rebootasic 1570623352 # 10.0.60.35
-
-45ff0c maxwatts 1200 # 10.0.59.129
-4db5d3 maxwatts 1200 # 10.0.60.35
-45ff0c rebootasic 1570617991 # 10.0.59.129
-4db5d3 rebootasic 1570617991 # 10.0.60.35
-
-45ff0c maxwatts 1300 # 10.0.59.129
-45ff0c rebootasic 1570614457 # 10.0.59.129
-
-4db5d3 maxwatts 1300 # 10.0.60.35
-4db5d3 rebootasic 1570612706 # 10.0.60.35
-
-45ff0c maxwatts 1400 # 10.0.59.129
-4db5d3 maxwatts 1400 # 10.0.60.35
-45ff0c rebootasic 1570609198 # 10.0.59.129
-4db5d3 rebootasic 1570609198 # 10.0.60.35
-
 # 45ff0c maxwatts 1350
 # 95c235 maxwatts 1350
 # f9164a maxwatts 1350
@@ -170,20 +113,3 @@ f0ed76 resetasic 1570594245
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
