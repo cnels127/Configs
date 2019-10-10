@@ -202,6 +202,11 @@ cd2082 rebootasic 1570720910
 7bf12e rebootasic 1570720910
 
 ## tuning
+cd2082 maxwatts 1250 # 10.0.116.6
+7bf12e maxwatts 1250 # 10.0.119.84
+cd2082 rebootasic 1570721470 # 10.0.116.6
+7bf12e rebootasic 1570721470 # 10.0.119.84
+
 
 ## reboots
 
@@ -209,3 +214,4 @@ cd2082 rebootasic 1570720910
 
 ## asic password
 asicpass admin
+
