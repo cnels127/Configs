@@ -19,18 +19,17 @@ global sendworker3 yes
 global asicboost yes
 global autotune yes
 global maxwatts 1350
-
 global autoupdate yes
 global allowed yes
 global maxtemp 90
-global fanspeed 100
+global fanspeed 30
 global fansaver no
 global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
 # global rebootasic 1
-# global resetasic 1
+global resetasic 1570735344
 # global panelpass gj83Nkgikg
 
 # group=rowc rebootasic 1
@@ -52,24 +51,14 @@ ce82d1 location ANORC0009
 88093b location ANORC0010
 
 ## tuning
-efd6b3 maxwatts 1150 # 10.0.68.98
-efd6b3 rebootasic 1568961940 # 10.0.68.98
-
-efd6b3 maxwatts 1250 # 10.0.68.98
-efd6b3 rebootasic 1568949714 # 10.0.68.98
-
-29b205 maxwatts 1350
-07c674 maxwatts 1375
-17fb06 maxwatts 1350
-f5e34e maxwatts 1375
-d0157c maxwatts 1350
-0796c0 maxwatts 1350
-efd6b3 maxwatts 1350
-3b0926 maxwatts 1350
-ce82d1 maxwatts 1350
-88093b maxwatts 1350
-
 07c674 retune 1
+
+## fans
+
+## reboots
+
+## resets
+
 
 ## asic password
 asicpass admin
