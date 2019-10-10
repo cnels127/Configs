@@ -87,6 +87,9 @@ d560da location FHOEF00039
 7fdd93 location FHOEF00037
 
 ## tuning
+88775f maxwatts 1200 # 10.0.121.159
+88775f rebootasic 1570727333 # 10.0.121.159
+
 64cc79 maxwatts 1200 # 10.0.67.136
 64cc79 rebootasic 1570666052 # 10.0.67.136
 
@@ -136,6 +139,7 @@ e2c437 resetasic 1
 
 ## asic password
 asicpass admin
+
 
 
 
