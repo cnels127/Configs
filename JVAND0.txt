@@ -196,19 +196,18 @@ b35ae4 location JVAND00078
 8d9cd3 location JVAND00080
 
 ## fans
+1cbe40 fanspeed 100
+b35ae4 fanspeed 100
 cd2082 fanspeed 100
 7bf12e fanspeed 100
-cd2082 rebootasic 1570720910
-7bf12e rebootasic 1570720910
 
 ## tuning
-cd2082 maxwatts 1250 # 10.0.116.6
-7bf12e maxwatts 1250 # 10.0.119.84
-cd2082 rebootasic 1570721470 # 10.0.116.6
-7bf12e rebootasic 1570721470 # 10.0.119.84
-
+cd2082 retune 1570727029
+7bf12e retune 1570727029
 
 ## reboots
+cd2082 rebootasic 1570720910
+7bf12e rebootasic 1570720910
 
 ## resets
 
