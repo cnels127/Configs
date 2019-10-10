@@ -103,6 +103,12 @@ ff032f location RGESU00058
 
 ## tuning
 
+## fans
+2e3c21 fanspeed 100
+
+## reboots
+2e3c21 rebootasic 1570730389
+
 ## resets
 0cf968 resetasic 1570727541
 4b6238 resetasic 1570727541
@@ -127,43 +133,3 @@ a4164a resetasic 1570727541
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
