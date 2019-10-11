@@ -466,6 +466,8 @@ a0cac7 location NBELL00204
 
 ## overheats
 ## tuning
+b894e2 maxwatts 1050 # 10.0.118.110 nbell00150
+b894e2 rebootasic 1570754488 # 10.0.118.110 nbell00150
 
 # 86f503 maxwatts 750
 # afc1b4 maxwatts 1250
@@ -511,10 +513,6 @@ ab23b0 fanspeed 100
 c27c44 fanspeed 100
 45c2fd fanspeed 100
 
-## complete fan failure
-# b894e2 allowed no
-# 460f86 allowed no
-# 9dd012 allowed no
 
 ## reboots (chain ailment)
 # s_reboot generated on Oct 10 2019 20:02:37 utc: 1570737757
