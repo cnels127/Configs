@@ -189,6 +189,23 @@ be27de location AHOPF00071
 c6cbe1 location AHOPF00075
 
 ## tuning
+cb7a3d maxwatts 1100 # 10.0.56.159
+3e45c9 maxwatts 1300 # 10.0.120.157
+6d6ee5 maxwatts 1300 # 10.0.121.9
+9ac0b4 maxwatts 1300 # 10.0.119.42
+cb7a3d rebootasic 1570773180 # 10.0.56.159
+3e45c9 rebootasic 1570773180 # 10.0.120.157
+6d6ee5 rebootasic 1570773180 # 10.0.121.9
+9ac0b4 rebootasic 1570773180 # 10.0.119.42
+cb7a3d maxwatts 1100 # 10.0.56.159
+3e45c9 maxwatts 1300 # 10.0.120.157
+6d6ee5 maxwatts 1300 # 10.0.121.9
+9ac0b4 maxwatts 1300 # 10.0.119.42
+cb7a3d rebootasic 1570773180 # 10.0.56.159
+3e45c9 rebootasic 1570773180 # 10.0.120.157
+6d6ee5 rebootasic 1570773180 # 10.0.121.9
+9ac0b4 rebootasic 1570773180 # 10.0.119.42
+
 3e45c9 maxwatts 1300 # 10.0.120.157
 6d6ee5 maxwatts 1300 # 10.0.121.9
 9ac0b4 maxwatts 1300 # 10.0.119.42
@@ -2095,6 +2112,7 @@ be27de resetasic 1
 
 ## asic password
 asicpass admin
+
 
 
 
