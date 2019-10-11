@@ -21,8 +21,8 @@ global maxwatts 1500
 global autoupdate yes
 global allowed yes
 global maxtemp 90
-global fanspeed 30
-global fansaver no
+global fanspeed 100
+global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
@@ -35,12 +35,84 @@ global blinkgreen rapid
 # group=rowd allowed no
 
 ## RWEAV0 (2 s9 13.5 Th/s)
-vlan 10.0.117.19-19
-vlan 10.0.116.52-52
+# vlan 10.0.117.19-19
+# vlan 10.0.116.52-52
 1ff15c location RWEAV00001
 bfbee3 location RWEAV00002
 1ff15c maxwatts 1250
 bfbee3 maxwatts 1250
+
+## AHOPF0 (150 s9i)
+vlan 10.0.20.11-11
+vlan 10.0.20.13-13
+vlan 10.0.20.14-14
+vlan 10.0.20.15-15
+vlan 10.0.20.16-16
+vlan 10.0.20.17-17
+vlan 10.0.20.18-18
+vlan 10.0.20.19-19
+vlan 10.0.20.20-20
+vlan 10.0.20.21-21
+vlan 10.0.20.22-22
+vlan 10.0.20.23-23
+vlan 10.0.20.25-25
+vlan 10.0.20.26-26
+vlan 10.0.20.27-27
+vlan 10.0.20.28-28
+vlan 10.0.20.29-29
+vlan 10.0.20.30-30
+vlan 10.0.20.31-31
+vlan 10.0.20.33-33
+vlan 10.0.20.36-36
+vlan 10.0.20.37-37
+vlan 10.0.20.38-38
+vlan 10.0.20.40-40
+vlan 10.0.20.42-42
+vlan 10.0.20.43-43
+vlan 10.0.20.44-44
+vlan 10.0.20.45-45
+vlan 10.0.20.116-116
+fd2246 location AHOPF00304
+7590b3 location AHOPF00305
+010ecd location AHOPF00306
+bfd0a3 location AHOPF00307
+77253f location AHOPF00308
+952620 location AHOPF00309
+02ed3b location AHOPF00310
+02e78e location AHOPF00311
+23a3fb location AHOPF00312
+6f82b5 location AHOPF00313
+e09d11 location AHOPF00314
+a3fe0e location AHOPF00316
+d9cb06 location AHOPF00317
+93ba23 location AHOPF00318
+2639b1 location AHOPF00319
+0e7129 location AHOPF00320
+285eaa location AHOPF00321
+7b5858 location AHOPF00322
+3b82a6 location AHOPF00323
+f73f65 location AHOPF00324
+80e1a3 location AHOPF00325
+73b3d8 location AHOPF00326
+a27a14 location AHOPF00328
+b5df40 location AHOPF00329
+5142da location AHOPF00330
+330ac8 location AHOPF00331
+c6eb8f location AHOPF00332
+77f364 location AHOPF00333
+f476f8 location AHOPF00334
+fd9612 location AHOPF00336
+3e7458 location AHOPF00339
+ef5d97 location AHOPF00340
+04790f location AHOPF00341
+f6b2c7 location AHOPF00343
+ebad13 location AHOPF00345
+fbac47 location AHOPF00346
+3a2f7e location AHOPF00347
+62e3a0 location AHOPF00348
+bc472e location AHOPF00419
+
+
 
 ## asic password
 asicpass admin
