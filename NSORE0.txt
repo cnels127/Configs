@@ -42,6 +42,9 @@ vlan 10.0.66.122-122
 fb574c location NSORE00001
 
 ## tuning
+fb574c maxwatts 1400 # 10.0.66.122
+fb574c rebootasic 1570824723 # 10.0.66.122
+
 
 ## reboots
 
@@ -49,3 +52,4 @@ fb574c location NSORE00001
 
 ## asic password
 asicpass admin
+
