@@ -47,6 +47,9 @@ b897c7 location JGIBL00002
 ffc9c8 location JGIBL00003
 
 ## tuning
+ffc9c8 maxwatts 1400 # 10.0.56.90
+ffc9c8 rebootasic 1570836566 # 10.0.56.90
+
 
 ## reboots
 
@@ -54,3 +57,4 @@ ffc9c8 location JGIBL00003
 
 ## asic password
 asicpass admin
+
