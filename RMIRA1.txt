@@ -53,6 +53,9 @@ f704dc location RMIRA10009
 a0e30f location RMIRA10010
 
 ## tuning
+d2b82c maxwatts 1250 # 172.16.200.232
+d2b82c rebootasic 1570766592 # 172.16.200.232
+
 4423f1 maxwatts 950 # 172.16.200.227
 4423f1 rebootasic 1568152868 # 172.16.200.227
 
@@ -65,4 +68,5 @@ b95dbf rebootasic 1567611845 # 172.16.200.248
 
 ## asic password
 asicpass admin
+
 

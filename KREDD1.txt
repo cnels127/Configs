@@ -88,6 +88,11 @@ ce2f75 location KREDD10030
 6cc057 location KREDD10031
 
 ## tuning
+30cb4e maxwatts 1200 # 172.16.200.45
+9a2688 maxwatts 1200 # 172.16.200.36
+30cb4e rebootasic 1570766531 # 172.16.200.45
+9a2688 rebootasic 1570766531 # 172.16.200.36
+
 adf13f maxwatts 1200 # 172.16.200.164
 adf13f rebootasic 1570651819 # 172.16.200.164
 
@@ -179,6 +184,7 @@ a2bf9f retune 1
 
 ## asic password
 asicpass admin
+
 
 
 

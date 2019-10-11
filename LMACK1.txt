@@ -73,6 +73,9 @@ dc7a56 location LMACK10013
 188204 location LMACK10017
 
 ## tuning
+d38886 maxwatts 1200 # 172.16.200.119
+d38886 rebootasic 1570766540 # 172.16.200.119
+
 
 ## reboots
 # s_reboot generated on Oct 03 2019 13:57:42 utc: 1570111062
@@ -87,3 +90,4 @@ dc7a56 rebootasic 1570111062 # 172.16.203.133 lmack10013
 
 ## asic password
 asicpass admin
+
