@@ -80,6 +80,9 @@ bc5723 location LKLIN00019
 07a57a location LKLIN00020
 
 ## tuning
+5617cc maxwatts 1200 # 10.0.61.88
+5617cc rebootasic 1570776554 # 10.0.61.88
+
 5617cc maxwatts 1300 # 10.0.61.88
 5617cc rebootasic 1570768243 # 10.0.61.88
 
@@ -122,6 +125,7 @@ b3ad3a resetasic 1569596418
 
 ## asic password
 asicpass admin
+
 
 
 
