@@ -60,6 +60,9 @@ a43fe6 location SCOST00006
 cc96e4 location SCOST00010
 
 ## tuning
+445700 maxwatts 1100 # 10.0.115.44
+445700 rebootasic 1570801363 # 10.0.115.44
+
 445700 maxwatts 1200 # 10.0.115.44
 445700 rebootasic 1570798052 # 10.0.115.44
 
@@ -73,6 +76,7 @@ cc96e4 location SCOST00010
 
 ## asic password
 asicpass admin
+
 
 
 
