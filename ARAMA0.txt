@@ -22,8 +22,8 @@ global maxwatts 1350
 global autoupdate yes
 global allowed yes
 global maxtemp 90
-global fanspeed 30
-global fansaver no
+global fanspeed 100
+global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
@@ -52,8 +52,6 @@ df6f8a location ARAMA00004
 ## tuning
 
 ## fans
-dc1171 fanspeed 100
-87a39c fanspeed 100
 
 ## reboots
 
