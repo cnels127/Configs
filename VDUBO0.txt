@@ -64,6 +64,9 @@ c55b18 location VDUBO00008
 215267 location VDUBO00011
 
 ## tuning
+215267 maxwatts 1050 # 10.0.77.88
+215267 rebootasic 1570848769 # 10.0.77.88
+
 215267 maxwatts 1150 # 10.0.77.88
 215267 rebootasic 1570845278 # 10.0.77.88
 
@@ -112,6 +115,7 @@ ac80c9 resetasic 1570387772
 
 ## asic password
 asicpass admin
+
 
 
 
