@@ -36,1464 +36,23 @@ global resetasic 1570805991
 # group=rowc rebootasic 1
 # group=rowd allowed no
 
-## reboots
-# generated on Sep 11 2019 22:48:28 utc: 1568242108 1568242108
-3b3109 rebootasic 1568242108 # 10.0.30.85 esolg00009
-bc91a2 rebootasic 1568242108 # 10.0.30.144 esolg00068
-a2bd60 rebootasic 1568242108 # 10.0.30.150 esolg00074
-f27232 rebootasic 1568242108 # 10.0.31.28 esolg00112
-87c0f9 rebootasic 1568242108 # 10.0.31.44 esolg00128
-f6b7d6 rebootasic 1568242108 # 10.0.31.103 esolg00187
-35f8d3 rebootasic 1568242108 # 10.0.31.109 esolg00193
-ad8ef4 rebootasic 1568242108 # 10.0.31.117 esolg00201
-963eab rebootasic 1568242108 # 10.0.31.144 esolg00228
-7ca1fd rebootasic 1568242108 # 10.0.31.154 esolg00238
-ee4ce6 rebootasic 1568242108 # 10.0.31.159 esolg00243
-dad158 rebootasic 1568242108 # 10.0.31.160 esolg00244
-75f914 rebootasic 1568242108 # 10.0.32.12 esolg00256
-5db8fa rebootasic 1568242108 # 10.0.32.15 esolg00259
-f4d276 rebootasic 1568242108 # 10.0.50.5 esolg00269
-149af8 rebootasic 1568242108 # 10.0.50.17 esolg00281
-1faa55 rebootasic 1568242108 # 10.0.50.18 esolg00282
-083178 rebootasic 1568242108 # 10.0.50.27 esolg00291
-5e3a00 rebootasic 1568242108 # 10.0.50.47 esolg00311
-606c53 rebootasic 1568242108 # 10.0.50.61 esolg00325
-fb174f rebootasic 1568242108 # 10.0.50.63 esolg00327
-e591e7 rebootasic 1568242108 # 10.0.50.67 esolg00331
-3e3e0f rebootasic 1568242108 # 10.0.50.85 esolg00349
-8ce465 rebootasic 1568242108 # 10.0.50.102 esolg00366
-ac0008 rebootasic 1568242108 # 10.0.50.104 esolg00368
-1dfac7 rebootasic 1568242108 # 10.0.50.115 esolg00379
-0479ed rebootasic 1568242108 # 10.0.50.123 esolg00387
-11e653 rebootasic 1568242108 # 10.0.50.147 esolg00411
-1a9fc6 rebootasic 1568242108 # 10.0.50.149 esolg00413
-ad36be rebootasic 1568242108 # 10.0.50.151 esolg00415
-f99d9d rebootasic 1568242108 # 10.0.55.27 esolg00444
-55fe55 rebootasic 1568242108 # 10.0.55.44 esolg00461
-4f615d rebootasic 1568242108 # 10.0.55.59 esolg00476
-
-## tuning
-f99d9d maxwatts 1150 # 10.0.55.27
-f99d9d rebootasic 1570918661 # 10.0.55.27
-
-dd258c maxwatts 1250 # 10.0.31.114
-f99d9d maxwatts 1250 # 10.0.55.27
-dd258c rebootasic 1570916852 # 10.0.31.114
-f99d9d rebootasic 1570916852 # 10.0.55.27
-
-b45f14 maxwatts 1150 # 10.0.50.15
-b45f14 rebootasic 1570913244 # 10.0.50.15
-
-3ca1f0 maxwatts 1250 # 10.0.55.13
-3ca1f0 rebootasic 1570911400 # 10.0.55.13
-
-564bdb maxwatts 1050 # 10.0.50.136
-564bdb rebootasic 1570907783 # 10.0.50.136
-
-39ece6 maxwatts -50 # 10.0.55.11
-c88f61 maxwatts 1150 # 10.0.50.150
-39ece6 rebootasic 1570905952 # 10.0.55.11
-c88f61 rebootasic 1570905952 # 10.0.50.150
-
-39ece6 maxwatts -50 # 10.0.55.11
-39ece6 rebootasic 1570900602 # 10.0.55.11
-
-39ece6 maxwatts -50 # 10.0.55.11
-39ece6 rebootasic 1570897071 # 10.0.55.11
-
-39ece6 maxwatts -50 # 10.0.55.11
-08c581 maxwatts 850 # 10.0.50.154
-ede199 maxwatts 850 # 10.0.55.50
-39ece6 rebootasic 1570893568 # 10.0.55.11
-08c581 rebootasic 1570893568 # 10.0.50.154
-ede199 rebootasic 1570893568 # 10.0.55.50
-
-39ece6 maxwatts -50 # 10.0.55.11
-39ece6 rebootasic 1570890057 # 10.0.55.11
-
-db8872 maxwatts 650 # 10.0.55.15
-db8872 rebootasic 1570888326 # 10.0.55.15
-
-39ece6 maxwatts -50 # 10.0.55.11
-39ece6 rebootasic 1570886600 # 10.0.55.11
-
-39ece6 maxwatts -50 # 10.0.55.11
-39ece6 rebootasic 1570883062 # 10.0.55.11
-
-08c581 maxwatts 950 # 10.0.50.154
-08c581 rebootasic 1570881202 # 10.0.50.154
-
-75697f maxwatts 1050 # 10.0.50.144
-39ece6 maxwatts -50 # 10.0.55.11
-75697f rebootasic 1570879357 # 10.0.50.144
-39ece6 rebootasic 1570879357 # 10.0.55.11
-
-39ece6 maxwatts -50 # 10.0.55.11
-2968f0 maxwatts 1050 # 10.0.50.110
-39ece6 rebootasic 1570875740 # 10.0.55.11
-2968f0 rebootasic 1570875740 # 10.0.50.110
-
-39ece6 maxwatts -50 # 10.0.55.11
-305120 maxwatts 650 # 10.0.55.39
-55050e maxwatts 1250 # 10.0.50.95
-39ece6 rebootasic 1570873919 # 10.0.55.11
-305120 rebootasic 1570873919 # 10.0.55.39
-55050e rebootasic 1570873919 # 10.0.50.95
-
-39ece6 maxwatts -50 # 10.0.55.11
-447c81 maxwatts 750 # 10.0.55.62
-39ece6 rebootasic 1570872052 # 10.0.55.11
-447c81 rebootasic 1570872052 # 10.0.55.62
-
-39ece6 maxwatts -50 # 10.0.55.11
-16808c maxwatts 850 # 10.0.55.12
-3c8dcd maxwatts 1150 # 10.0.50.135
-39ece6 rebootasic 1570868360 # 10.0.55.11
-16808c rebootasic 1570868360 # 10.0.55.12
-3c8dcd rebootasic 1570868360 # 10.0.50.135
-
-39ece6 maxwatts -50 # 10.0.55.11
-16808c maxwatts 950 # 10.0.55.12
-b972c8 maxwatts 750 # 10.0.55.80
-39ece6 rebootasic 1570866508 # 10.0.55.11
-16808c rebootasic 1570866508 # 10.0.55.12
-b972c8 rebootasic 1570866508 # 10.0.55.80
-
-39ece6 maxwatts -50 # 10.0.55.11
-6ec60f maxwatts 650 # 10.0.55.35
-16d041 maxwatts 750 # 10.0.55.36
-6d2f1f maxwatts 1250 # 10.0.50.113
-f22ee0 maxwatts 850 # 10.0.55.40
-b8dc4a maxwatts 750 # 10.0.55.57
-39ece6 rebootasic 1570864671 # 10.0.55.11
-6ec60f rebootasic 1570864671 # 10.0.55.35
-16d041 rebootasic 1570864671 # 10.0.55.36
-6d2f1f rebootasic 1570864671 # 10.0.50.113
-f22ee0 rebootasic 1570864671 # 10.0.55.40
-b8dc4a rebootasic 1570864671 # 10.0.55.57
-
-39ece6 maxwatts -50 # 10.0.55.11
-8f3359 maxwatts 850 # 10.0.55.83
-e4b546 maxwatts 950 # 10.0.55.46
-faf076 maxwatts 1150 # 10.0.50.32
-579d9f maxwatts 1250 # 10.0.50.34
-8e9351 maxwatts 850 # 10.0.55.82
-39ece6 rebootasic 1570862831 # 10.0.55.11
-8f3359 rebootasic 1570862831 # 10.0.55.83
-e4b546 rebootasic 1570862831 # 10.0.55.46
-faf076 rebootasic 1570862831 # 10.0.50.32
-579d9f rebootasic 1570862831 # 10.0.50.34
-8e9351 rebootasic 1570862831 # 10.0.55.82
-
-eae352 maxwatts 1150 # 10.0.50.25
-8d5b8b maxwatts 950 # 10.0.50.117
-39ece6 maxwatts -50 # 10.0.55.11
-eae352 rebootasic 1570859230 # 10.0.50.25
-8d5b8b rebootasic 1570859230 # 10.0.50.117
-39ece6 rebootasic 1570859230 # 10.0.55.11
-
-39ece6 maxwatts -50 # 10.0.55.11
-db8872 maxwatts 750 # 10.0.55.15
-447c81 maxwatts 850 # 10.0.55.62
-8f3359 maxwatts 950 # 10.0.55.83
-eae352 maxwatts 1250 # 10.0.50.25
-8d5b8b maxwatts 1050 # 10.0.50.117
-c9cde9 maxwatts 1250 # 10.0.50.156
-39ece6 rebootasic 1570857406 # 10.0.55.11
-db8872 rebootasic 1570857406 # 10.0.55.15
-447c81 rebootasic 1570857406 # 10.0.55.62
-8f3359 rebootasic 1570857406 # 10.0.55.83
-eae352 rebootasic 1570857406 # 10.0.50.25
-8d5b8b rebootasic 1570857406 # 10.0.50.117
-c9cde9 rebootasic 1570857406 # 10.0.50.156
-
-39ece6 maxwatts -50 # 10.0.55.11
-39ece6 rebootasic 1570855630 # 10.0.55.11
-
-db8872 maxwatts 850 # 10.0.55.15
-16808c maxwatts 1050 # 10.0.55.12
-b45f14 maxwatts 1250 # 10.0.50.15
-083178 maxwatts 50 # 10.0.50.27
-db8872 rebootasic 1570853856 # 10.0.55.15
-16808c rebootasic 1570853856 # 10.0.55.12
-b45f14 rebootasic 1570853856 # 10.0.50.15
-083178 rebootasic 1570853856 # 10.0.50.27
-
-083178 maxwatts 150 # 10.0.50.27
-083178 rebootasic 1570852096 # 10.0.50.27
-
-08c581 maxwatts 1050 # 10.0.50.154
-8f3359 maxwatts 1050 # 10.0.55.83
-447c81 maxwatts 950 # 10.0.55.62
-083178 maxwatts 250 # 10.0.50.27
-75697f maxwatts 1150 # 10.0.50.144
-08c581 rebootasic 1570850347 # 10.0.50.154
-8f3359 rebootasic 1570850347 # 10.0.55.83
-447c81 rebootasic 1570850347 # 10.0.55.62
-083178 rebootasic 1570850347 # 10.0.50.27
-75697f rebootasic 1570850347 # 10.0.50.144
-
-deee7c maxwatts 1150 # 10.0.50.158
-716735 maxwatts 1250 # 10.0.31.122
-1ebecd maxwatts 1150 # 10.0.30.87
-083178 maxwatts 350 # 10.0.50.27
-deee7c rebootasic 1570848592 # 10.0.50.158
-716735 rebootasic 1570848592 # 10.0.31.122
-1ebecd rebootasic 1570848592 # 10.0.30.87
-083178 rebootasic 1570848592 # 10.0.50.27
-
-083178 maxwatts 450 # 10.0.50.27
-083178 rebootasic 1570846856 # 10.0.50.27
-
-db8872 maxwatts 950 # 10.0.55.15
-08c581 maxwatts 1150 # 10.0.50.154
-083178 maxwatts 550 # 10.0.50.27
-d50138 maxwatts 1250 # 10.0.50.35
-db8872 rebootasic 1570845122 # 10.0.55.15
-08c581 rebootasic 1570845122 # 10.0.50.154
-083178 rebootasic 1570845122 # 10.0.50.27
-d50138 rebootasic 1570845122 # 10.0.50.35
-
-083178 maxwatts 650 # 10.0.50.27
-d371f5 maxwatts 1150 # 10.0.50.93
-083178 rebootasic 1570843386 # 10.0.50.27
-d371f5 rebootasic 1570843386 # 10.0.50.93
-
-db8872 maxwatts 1050 # 10.0.55.15
-083178 maxwatts 750 # 10.0.50.27
-0b711d maxwatts 1250 # 10.0.55.14
-4a4af1 maxwatts 1250 # 10.0.55.16
-07cece maxwatts 1250 # 10.0.55.33
-db8872 rebootasic 1570841667 # 10.0.55.15
-083178 rebootasic 1570841667 # 10.0.50.27
-0b711d rebootasic 1570841667 # 10.0.55.14
-4a4af1 rebootasic 1570841667 # 10.0.55.16
-07cece rebootasic 1570841667 # 10.0.55.33
-
-083178 maxwatts 850 # 10.0.50.27
-083178 rebootasic 1570839950 # 10.0.50.27
-
-564bdb maxwatts 1150 # 10.0.50.136
-db8872 maxwatts 1150 # 10.0.55.15
-083178 maxwatts 950 # 10.0.50.27
-55fe55 maxwatts 50 # 10.0.55.44
-564bdb rebootasic 1570838241 # 10.0.50.136
-db8872 rebootasic 1570838241 # 10.0.55.15
-083178 rebootasic 1570838241 # 10.0.50.27
-55fe55 rebootasic 1570838241 # 10.0.55.44
-
-083178 maxwatts 1050 # 10.0.50.27
-55fe55 maxwatts 150 # 10.0.55.44
-083178 rebootasic 1570836532 # 10.0.50.27
-55fe55 rebootasic 1570836532 # 10.0.55.44
-
-083178 maxwatts 1150 # 10.0.50.27
-55fe55 maxwatts 250 # 10.0.55.44
-083178 rebootasic 1570834822 # 10.0.50.27
-55fe55 rebootasic 1570834822 # 10.0.55.44
-
-ede199 maxwatts 950 # 10.0.55.50
-564bdb maxwatts 1250 # 10.0.50.136
-55fe55 maxwatts 350 # 10.0.55.44
-ede199 rebootasic 1570833117 # 10.0.55.50
-564bdb rebootasic 1570833117 # 10.0.50.136
-55fe55 rebootasic 1570833117 # 10.0.55.44
-
-db8872 maxwatts 1250 # 10.0.55.15
-55fe55 maxwatts 450 # 10.0.55.44
-db8872 rebootasic 1570831418 # 10.0.55.15
-55fe55 rebootasic 1570831418 # 10.0.55.44
-
-8f3359 maxwatts 1150 # 10.0.55.83
-08c581 maxwatts 1250 # 10.0.50.154
-55fe55 maxwatts 550 # 10.0.55.44
-8f3359 rebootasic 1570829727 # 10.0.55.83
-08c581 rebootasic 1570829727 # 10.0.50.154
-55fe55 rebootasic 1570829727 # 10.0.55.44
-
-55fe55 maxwatts 650 # 10.0.55.44
-55fe55 rebootasic 1570828030 # 10.0.55.44
-
-55fe55 maxwatts 750 # 10.0.55.44
-55fe55 rebootasic 1570826338 # 10.0.55.44
-
-55fe55 maxwatts 850 # 10.0.55.44
-8f3359 maxwatts 1250 # 10.0.55.83
-55fe55 rebootasic 1570824655 # 10.0.55.44
-8f3359 rebootasic 1570824655 # 10.0.55.83
-
-16808c maxwatts 1150 # 10.0.55.12
-deee7c maxwatts 1250 # 10.0.50.158
-55fe55 maxwatts 950 # 10.0.55.44
-16808c rebootasic 1570822971 # 10.0.55.12
-deee7c rebootasic 1570822971 # 10.0.50.158
-55fe55 rebootasic 1570822971 # 10.0.55.44
-
-6ec60f maxwatts 750 # 10.0.55.35
-55fe55 maxwatts 1050 # 10.0.55.44
-6ec60f rebootasic 1570821287 # 10.0.55.35
-55fe55 rebootasic 1570821287 # 10.0.55.44
-
-55fe55 maxwatts 1150 # 10.0.55.44
-55fe55 rebootasic 1570819602 # 10.0.55.44
-
-ab39de maxwatts 1150 # 10.0.50.94
-55fe55 maxwatts 1250 # 10.0.55.44
-ab39de rebootasic 1570817925 # 10.0.50.94
-55fe55 rebootasic 1570817925 # 10.0.55.44
-
-3b2351 maxwatts 1250 # 10.0.31.47
-3b2351 rebootasic 1570816250 # 10.0.31.47
-
-6ec60f maxwatts 850 # 10.0.55.35
-428487 maxwatts 1250 # 10.0.55.41
-6ec60f rebootasic 1570812907 # 10.0.55.35
-428487 rebootasic 1570812907 # 10.0.55.41
-
-6ec60f maxwatts 950 # 10.0.55.35
-447c81 maxwatts 1050 # 10.0.55.62
-6ec60f rebootasic 1570811241 # 10.0.55.35
-447c81 rebootasic 1570811241 # 10.0.55.62
-
-334741 maxwatts 1250 # 10.0.30.81
-c99e2f maxwatts 1250 # 10.0.31.84
-06bc48 maxwatts 1250 # 10.0.31.104
-ede199 maxwatts 1050 # 10.0.55.50
-334741 rebootasic 1570809575 # 10.0.30.81
-c99e2f rebootasic 1570809575 # 10.0.31.84
-06bc48 rebootasic 1570809575 # 10.0.31.104
-ede199 rebootasic 1570809575 # 10.0.55.50
-
-6ec60f maxwatts 1050 # 10.0.55.35
-1ebecd maxwatts 1250 # 10.0.30.87
-9feac3 maxwatts 1250 # 10.0.30.145
-f5205c maxwatts 1250 # 10.0.31.139
-abae36 maxwatts 1250 # 10.0.55.71
-6ec60f rebootasic 1570807911 # 10.0.55.35
-1ebecd rebootasic 1570807911 # 10.0.30.87
-9feac3 rebootasic 1570807911 # 10.0.30.145
-f5205c rebootasic 1570807911 # 10.0.31.139
-abae36 rebootasic 1570807911 # 10.0.55.71
-
-75f914 maxwatts 1150 # 10.0.32.12
-1faa55 maxwatts 950 # 10.0.50.18
-6ec60f maxwatts 1150 # 10.0.55.35
-447c81 maxwatts 1150 # 10.0.55.62
-75f914 rebootasic 1570806251 # 10.0.32.12
-1faa55 rebootasic 1570806251 # 10.0.50.18
-6ec60f rebootasic 1570806251 # 10.0.55.35
-447c81 rebootasic 1570806251 # 10.0.55.62
-
-
-## BitPlusCanada (200 machines)
-vlan 10.0.30.77-160
-vlan 10.0.31.1-116
-ff2685 location ESOLG00001
-28f489 location ESOLG00002
-80af65 location ESOLG00003
-4a5ef0 location ESOLG00004
-334741 location ESOLG00005
-c0dcef location ESOLG00006
-123c9c location ESOLG00007
-fdc2d5 location ESOLG00008
-3b3109 location ESOLG00009
-a2b120 location ESOLG00010
-1ebecd location ESOLG00011
-168a85 location ESOLG00012
-86ccad location ESOLG00013
-219faa location ESOLG00014
-4f72bb location ESOLG00015
-f28e5e location ESOLG00016
-0f44f8 location ESOLG00017
-9813c6 location ESOLG00018
-e775a1 location ESOLG00019
-710fd9 location ESOLG00020
-517473 location ESOLG00021
-b9832c location ESOLG00022
-f1c18a location ESOLG00023
-44c35f location ESOLG00024
-474757 location ESOLG00025
-c4aa6b location ESOLG00026
-4c2b76 location ESOLG00027
-a47932 location ESOLG00028
-7d4308 location ESOLG00029
-97fbfe location ESOLG00030
-2edc24 location ESOLG00031
-0f1c77 location ESOLG00032
-93d91c location ESOLG00033
-ef852c location ESOLG00034
-d190c8 location ESOLG00035
-d933f2 location ESOLG00036
-9d72da location ESOLG00037
-8fad98 location ESOLG00038
-6bddf7 location ESOLG00039
-4f22fd location ESOLG00040
-6c7f54 location ESOLG00041
-d5777d location ESOLG00042
-9d2d3d location ESOLG00043
-cd0517 location ESOLG00044
-8fdf36 location ESOLG00045
-2fce82 location ESOLG00046
-c2b167 location ESOLG00047
-2d4ed1 location ESOLG00048
-36d47b location ESOLG00049
-156f39 location ESOLG00050
-1dd296 location ESOLG00051
-d095a0 location ESOLG00052
-f08058 location ESOLG00053
-96aa30 location ESOLG00054
-5d61db location ESOLG00055
-706b75 location ESOLG00056
-ff7d35 location ESOLG00057
-306c92 location ESOLG00058
-c6558b location ESOLG00059
-3e070f location ESOLG00060
-458508 location ESOLG00061
-cdcfc0 location ESOLG00062
-0fcecb location ESOLG00063
-743bb2 location ESOLG00064
-4a3fb3 location ESOLG00065
-363997 location ESOLG00066
-5af11a location ESOLG00067
-bc91a2 location ESOLG00068
-9feac3 location ESOLG00069
-ebfef0 location ESOLG00070
-812fca location ESOLG00071
-0cc841 location ESOLG00072
-931826 location ESOLG00073
-a2bd60 location ESOLG00074
-3241ed location ESOLG00075
-83dcd9 location ESOLG00076
-eeec0a location ESOLG00077
-11aa26 location ESOLG00078
-1863b6 location ESOLG00079
-83d143 location ESOLG00080
-530f2f location ESOLG00081
-38a6ba location ESOLG00082
-047af0 location ESOLG00083
-548bcf location ESOLG00084
-4508c7 location ESOLG00085
-6bbb19 location ESOLG00086
-27a764 location ESOLG00087
-cb20e4 location ESOLG00088
-9b8b73 location ESOLG00089
-c68ca4 location ESOLG00090
-c39dd7 location ESOLG00091
-121b5d location ESOLG00092
-f6db5e location ESOLG00093
-586985 location ESOLG00094
-669175 location ESOLG00095
-01507b location ESOLG00096
-139a58 location ESOLG00097
-112dcb location ESOLG00098
-cc589c location ESOLG00099
-e45b18 location ESOLG00100
-41cd58 location ESOLG00101
-51f862 location ESOLG00102
-0ae4fc location ESOLG00103
-7f3032 location ESOLG00104
-6d3452 location ESOLG00105
-a0586c location ESOLG00106
-686c93 location ESOLG00107
-2ce9d3 location ESOLG00108
-194547 location ESOLG00109
-1599aa location ESOLG00110
-a7b8d5 location ESOLG00111
-f27232 location ESOLG00112
-6a9e49 location ESOLG00113
-70554d location ESOLG00114
-94a97e location ESOLG00115
-74577a location ESOLG00116
-f3c641 location ESOLG00117
-807662 location ESOLG00118
-250602 location ESOLG00119
-75e685 location ESOLG00120
-b8c823 location ESOLG00121
-fe20a4 location ESOLG00122
-e54e0a location ESOLG00123
-37ba71 location ESOLG00124
-664447 location ESOLG00125
-c5ce9c location ESOLG00126
-c24766 location ESOLG00127
-87c0f9 location ESOLG00128
-82c5ca location ESOLG00129
-b434f4 location ESOLG00130
-3b2351 location ESOLG00131
-8cf564 location ESOLG00132
-0ebea3 location ESOLG00133
-e566c2 location ESOLG00134
-4f6dfe location ESOLG00135
-6bfa85 location ESOLG00136
-4b9432 location ESOLG00137
-90b06e location ESOLG00138
-c5da9f location ESOLG00139
-25ff97 location ESOLG00140
-771df9 location ESOLG00141
-de1d19 location ESOLG00142
-a48265 location ESOLG00143
-002240 location ESOLG00144
-068e77 location ESOLG00145
-731bbf location ESOLG00146
-e5323c location ESOLG00147
-f51cb8 location ESOLG00148
-f1a1ea location ESOLG00149
-c7805b location ESOLG00150
-a6beb2 location ESOLG00151
-637f46 location ESOLG00152
-1190c7 location ESOLG00153
-c60781 location ESOLG00154
-1c9a7e location ESOLG00155
-7f3e08 location ESOLG00156
-ff3702 location ESOLG00157
-7989cb location ESOLG00158
-3844aa location ESOLG00159
-f0cff0 location ESOLG00160
-628082 location ESOLG00161
-fb68fa location ESOLG00162
-c6a6bf location ESOLG00163
-da000d location ESOLG00164
-70ca7a location ESOLG00165
-83daec location ESOLG00166
-b1546e location ESOLG00167
-c99e2f location ESOLG00168
-8b7b26 location ESOLG00169
-86ea29 location ESOLG00170
-3b0a6d location ESOLG00171
-c9b5e7 location ESOLG00172
-382807 location ESOLG00173
-6a7a7f location ESOLG00174
-e7ff4f location ESOLG00175
-b72b2e location ESOLG00176
-8e4153 location ESOLG00177
-292a11 location ESOLG00178
-cd47d8 location ESOLG00179
-39a10b location ESOLG00180
-1614c8 location ESOLG00181
-09370c location ESOLG00182
-002107 location ESOLG00183
-5717a8 location ESOLG00184
-c6f025 location ESOLG00185
-4eca98 location ESOLG00186
-f6b7d6 location ESOLG00187
-06bc48 location ESOLG00188
-d6ebe6 location ESOLG00189
-cefc09 location ESOLG00190
-a5d526 location ESOLG00191
-afd8a4 location ESOLG00192
-35f8d3 location ESOLG00193
-13deaf location ESOLG00194
-17611d location ESOLG00195
-5687a8 location ESOLG00196
-37cf20 location ESOLG00197
-dd258c location ESOLG00198
-8229d1 location ESOLG00199
-ffe40c location ESOLG00200
-ff2685 username1 BitPlusCanada
-28f489 username1 BitPlusCanada
-80af65 username1 BitPlusCanada
-4a5ef0 username1 BitPlusCanada
-334741 username1 BitPlusCanada
-c0dcef username1 BitPlusCanada
-123c9c username1 BitPlusCanada
-fdc2d5 username1 BitPlusCanada
-3b3109 username1 BitPlusCanada
-a2b120 username1 BitPlusCanada
-1ebecd username1 BitPlusCanada
-168a85 username1 BitPlusCanada
-86ccad username1 BitPlusCanada
-219faa username1 BitPlusCanada
-4f72bb username1 BitPlusCanada
-f28e5e username1 BitPlusCanada
-0f44f8 username1 BitPlusCanada
-9813c6 username1 BitPlusCanada
-e775a1 username1 BitPlusCanada
-710fd9 username1 BitPlusCanada
-517473 username1 BitPlusCanada
-b9832c username1 BitPlusCanada
-f1c18a username1 BitPlusCanada
-44c35f username1 BitPlusCanada
-474757 username1 BitPlusCanada
-c4aa6b username1 BitPlusCanada
-4c2b76 username1 BitPlusCanada
-a47932 username1 BitPlusCanada
-7d4308 username1 BitPlusCanada
-97fbfe username1 BitPlusCanada
-2edc24 username1 BitPlusCanada
-0f1c77 username1 BitPlusCanada
-93d91c username1 BitPlusCanada
-ef852c username1 BitPlusCanada
-d190c8 username1 BitPlusCanada
-d933f2 username1 BitPlusCanada
-9d72da username1 BitPlusCanada
-8fad98 username1 BitPlusCanada
-6bddf7 username1 BitPlusCanada
-4f22fd username1 BitPlusCanada
-6c7f54 username1 BitPlusCanada
-d5777d username1 BitPlusCanada
-9d2d3d username1 BitPlusCanada
-cd0517 username1 BitPlusCanada
-8fdf36 username1 BitPlusCanada
-2fce82 username1 BitPlusCanada
-c2b167 username1 BitPlusCanada
-2d4ed1 username1 BitPlusCanada
-36d47b username1 BitPlusCanada
-156f39 username1 BitPlusCanada
-1dd296 username1 BitPlusCanada
-d095a0 username1 BitPlusCanada
-f08058 username1 BitPlusCanada
-96aa30 username1 BitPlusCanada
-5d61db username1 BitPlusCanada
-706b75 username1 BitPlusCanada
-ff7d35 username1 BitPlusCanada
-306c92 username1 BitPlusCanada
-c6558b username1 BitPlusCanada
-3e070f username1 BitPlusCanada
-458508 username1 BitPlusCanada
-cdcfc0 username1 BitPlusCanada
-0fcecb username1 BitPlusCanada
-743bb2 username1 BitPlusCanada
-4a3fb3 username1 BitPlusCanada
-363997 username1 BitPlusCanada
-5af11a username1 BitPlusCanada
-bc91a2 username1 BitPlusCanada
-9feac3 username1 BitPlusCanada
-ebfef0 username1 BitPlusCanada
-812fca username1 BitPlusCanada
-0cc841 username1 BitPlusCanada
-931826 username1 BitPlusCanada
-a2bd60 username1 BitPlusCanada
-3241ed username1 BitPlusCanada
-83dcd9 username1 BitPlusCanada
-eeec0a username1 BitPlusCanada
-11aa26 username1 BitPlusCanada
-1863b6 username1 BitPlusCanada
-83d143 username1 BitPlusCanada
-530f2f username1 BitPlusCanada
-38a6ba username1 BitPlusCanada
-047af0 username1 BitPlusCanada
-548bcf username1 BitPlusCanada
-4508c7 username1 BitPlusCanada
-6bbb19 username1 BitPlusCanada
-27a764 username1 BitPlusCanada
-cb20e4 username1 BitPlusCanada
-9b8b73 username1 BitPlusCanada
-c68ca4 username1 BitPlusCanada
-c39dd7 username1 BitPlusCanada
-121b5d username1 BitPlusCanada
-f6db5e username1 BitPlusCanada
-586985 username1 BitPlusCanada
-669175 username1 BitPlusCanada
-01507b username1 BitPlusCanada
-139a58 username1 BitPlusCanada
-112dcb username1 BitPlusCanada
-cc589c username1 BitPlusCanada
-e45b18 username1 BitPlusCanada
-41cd58 username1 BitPlusCanada
-51f862 username1 BitPlusCanada
-0ae4fc username1 BitPlusCanada
-7f3032 username1 BitPlusCanada
-6d3452 username1 BitPlusCanada
-a0586c username1 BitPlusCanada
-686c93 username1 BitPlusCanada
-2ce9d3 username1 BitPlusCanada
-194547 username1 BitPlusCanada
-1599aa username1 BitPlusCanada
-a7b8d5 username1 BitPlusCanada
-f27232 username1 BitPlusCanada
-6a9e49 username1 BitPlusCanada
-70554d username1 BitPlusCanada
-94a97e username1 BitPlusCanada
-74577a username1 BitPlusCanada
-f3c641 username1 BitPlusCanada
-807662 username1 BitPlusCanada
-250602 username1 BitPlusCanada
-75e685 username1 BitPlusCanada
-b8c823 username1 BitPlusCanada
-fe20a4 username1 BitPlusCanada
-e54e0a username1 BitPlusCanada
-37ba71 username1 BitPlusCanada
-664447 username1 BitPlusCanada
-c5ce9c username1 BitPlusCanada
-c24766 username1 BitPlusCanada
-87c0f9 username1 BitPlusCanada
-82c5ca username1 BitPlusCanada
-b434f4 username1 BitPlusCanada
-3b2351 username1 BitPlusCanada
-8cf564 username1 BitPlusCanada
-0ebea3 username1 BitPlusCanada
-e566c2 username1 BitPlusCanada
-4f6dfe username1 BitPlusCanada
-6bfa85 username1 BitPlusCanada
-4b9432 username1 BitPlusCanada
-90b06e username1 BitPlusCanada
-c5da9f username1 BitPlusCanada
-25ff97 username1 BitPlusCanada
-771df9 username1 BitPlusCanada
-de1d19 username1 BitPlusCanada
-a48265 username1 BitPlusCanada
-002240 username1 BitPlusCanada
-068e77 username1 BitPlusCanada
-731bbf username1 BitPlusCanada
-e5323c username1 BitPlusCanada
-f51cb8 username1 BitPlusCanada
-f1a1ea username1 BitPlusCanada
-c7805b username1 BitPlusCanada
-a6beb2 username1 BitPlusCanada
-637f46 username1 BitPlusCanada
-1190c7 username1 BitPlusCanada
-c60781 username1 BitPlusCanada
-1c9a7e username1 BitPlusCanada
-7f3e08 username1 BitPlusCanada
-ff3702 username1 BitPlusCanada
-7989cb username1 BitPlusCanada
-3844aa username1 BitPlusCanada
-f0cff0 username1 BitPlusCanada
-628082 username1 BitPlusCanada
-fb68fa username1 BitPlusCanada
-c6a6bf username1 BitPlusCanada
-da000d username1 BitPlusCanada
-70ca7a username1 BitPlusCanada
-83daec username1 BitPlusCanada
-b1546e username1 BitPlusCanada
-c99e2f username1 BitPlusCanada
-8b7b26 username1 BitPlusCanada
-86ea29 username1 BitPlusCanada
-3b0a6d username1 BitPlusCanada
-c9b5e7 username1 BitPlusCanada
-382807 username1 BitPlusCanada
-6a7a7f username1 BitPlusCanada
-e7ff4f username1 BitPlusCanada
-b72b2e username1 BitPlusCanada
-8e4153 username1 BitPlusCanada
-292a11 username1 BitPlusCanada
-cd47d8 username1 BitPlusCanada
-39a10b username1 BitPlusCanada
-1614c8 username1 BitPlusCanada
-09370c username1 BitPlusCanada
-002107 username1 BitPlusCanada
-5717a8 username1 BitPlusCanada
-c6f025 username1 BitPlusCanada
-4eca98 username1 BitPlusCanada
-f6b7d6 username1 BitPlusCanada
-06bc48 username1 BitPlusCanada
-d6ebe6 username1 BitPlusCanada
-cefc09 username1 BitPlusCanada
-a5d526 username1 BitPlusCanada
-afd8a4 username1 BitPlusCanada
-35f8d3 username1 BitPlusCanada
-13deaf username1 BitPlusCanada
-17611d username1 BitPlusCanada
-5687a8 username1 BitPlusCanada
-37cf20 username1 BitPlusCanada
-dd258c username1 BitPlusCanada
-8229d1 username1 BitPlusCanada
-ffe40c username1 BitPlusCanada
-ff2685 username2 BitPlusCanada
-28f489 username2 BitPlusCanada
-80af65 username2 BitPlusCanada
-4a5ef0 username2 BitPlusCanada
-334741 username2 BitPlusCanada
-c0dcef username2 BitPlusCanada
-123c9c username2 BitPlusCanada
-fdc2d5 username2 BitPlusCanada
-3b3109 username2 BitPlusCanada
-a2b120 username2 BitPlusCanada
-1ebecd username2 BitPlusCanada
-168a85 username2 BitPlusCanada
-86ccad username2 BitPlusCanada
-219faa username2 BitPlusCanada
-4f72bb username2 BitPlusCanada
-f28e5e username2 BitPlusCanada
-0f44f8 username2 BitPlusCanada
-9813c6 username2 BitPlusCanada
-e775a1 username2 BitPlusCanada
-710fd9 username2 BitPlusCanada
-517473 username2 BitPlusCanada
-b9832c username2 BitPlusCanada
-f1c18a username2 BitPlusCanada
-44c35f username2 BitPlusCanada
-474757 username2 BitPlusCanada
-c4aa6b username2 BitPlusCanada
-4c2b76 username2 BitPlusCanada
-a47932 username2 BitPlusCanada
-7d4308 username2 BitPlusCanada
-97fbfe username2 BitPlusCanada
-2edc24 username2 BitPlusCanada
-0f1c77 username2 BitPlusCanada
-93d91c username2 BitPlusCanada
-ef852c username2 BitPlusCanada
-d190c8 username2 BitPlusCanada
-d933f2 username2 BitPlusCanada
-9d72da username2 BitPlusCanada
-8fad98 username2 BitPlusCanada
-6bddf7 username2 BitPlusCanada
-4f22fd username2 BitPlusCanada
-6c7f54 username2 BitPlusCanada
-d5777d username2 BitPlusCanada
-9d2d3d username2 BitPlusCanada
-cd0517 username2 BitPlusCanada
-8fdf36 username2 BitPlusCanada
-2fce82 username2 BitPlusCanada
-c2b167 username2 BitPlusCanada
-2d4ed1 username2 BitPlusCanada
-36d47b username2 BitPlusCanada
-156f39 username2 BitPlusCanada
-1dd296 username2 BitPlusCanada
-d095a0 username2 BitPlusCanada
-f08058 username2 BitPlusCanada
-96aa30 username2 BitPlusCanada
-5d61db username2 BitPlusCanada
-706b75 username2 BitPlusCanada
-ff7d35 username2 BitPlusCanada
-306c92 username2 BitPlusCanada
-c6558b username2 BitPlusCanada
-3e070f username2 BitPlusCanada
-458508 username2 BitPlusCanada
-cdcfc0 username2 BitPlusCanada
-0fcecb username2 BitPlusCanada
-743bb2 username2 BitPlusCanada
-4a3fb3 username2 BitPlusCanada
-363997 username2 BitPlusCanada
-5af11a username2 BitPlusCanada
-bc91a2 username2 BitPlusCanada
-9feac3 username2 BitPlusCanada
-ebfef0 username2 BitPlusCanada
-812fca username2 BitPlusCanada
-0cc841 username2 BitPlusCanada
-931826 username2 BitPlusCanada
-a2bd60 username2 BitPlusCanada
-3241ed username2 BitPlusCanada
-83dcd9 username2 BitPlusCanada
-eeec0a username2 BitPlusCanada
-11aa26 username2 BitPlusCanada
-1863b6 username2 BitPlusCanada
-83d143 username2 BitPlusCanada
-530f2f username2 BitPlusCanada
-38a6ba username2 BitPlusCanada
-047af0 username2 BitPlusCanada
-548bcf username2 BitPlusCanada
-4508c7 username2 BitPlusCanada
-6bbb19 username2 BitPlusCanada
-27a764 username2 BitPlusCanada
-cb20e4 username2 BitPlusCanada
-9b8b73 username2 BitPlusCanada
-c68ca4 username2 BitPlusCanada
-c39dd7 username2 BitPlusCanada
-121b5d username2 BitPlusCanada
-f6db5e username2 BitPlusCanada
-586985 username2 BitPlusCanada
-669175 username2 BitPlusCanada
-01507b username2 BitPlusCanada
-139a58 username2 BitPlusCanada
-112dcb username2 BitPlusCanada
-cc589c username2 BitPlusCanada
-e45b18 username2 BitPlusCanada
-41cd58 username2 BitPlusCanada
-51f862 username2 BitPlusCanada
-0ae4fc username2 BitPlusCanada
-7f3032 username2 BitPlusCanada
-6d3452 username2 BitPlusCanada
-a0586c username2 BitPlusCanada
-686c93 username2 BitPlusCanada
-2ce9d3 username2 BitPlusCanada
-194547 username2 BitPlusCanada
-1599aa username2 BitPlusCanada
-a7b8d5 username2 BitPlusCanada
-f27232 username2 BitPlusCanada
-6a9e49 username2 BitPlusCanada
-70554d username2 BitPlusCanada
-94a97e username2 BitPlusCanada
-74577a username2 BitPlusCanada
-f3c641 username2 BitPlusCanada
-807662 username2 BitPlusCanada
-250602 username2 BitPlusCanada
-75e685 username2 BitPlusCanada
-b8c823 username2 BitPlusCanada
-fe20a4 username2 BitPlusCanada
-e54e0a username2 BitPlusCanada
-37ba71 username2 BitPlusCanada
-664447 username2 BitPlusCanada
-c5ce9c username2 BitPlusCanada
-c24766 username2 BitPlusCanada
-87c0f9 username2 BitPlusCanada
-82c5ca username2 BitPlusCanada
-b434f4 username2 BitPlusCanada
-3b2351 username2 BitPlusCanada
-8cf564 username2 BitPlusCanada
-0ebea3 username2 BitPlusCanada
-e566c2 username2 BitPlusCanada
-4f6dfe username2 BitPlusCanada
-6bfa85 username2 BitPlusCanada
-4b9432 username2 BitPlusCanada
-90b06e username2 BitPlusCanada
-c5da9f username2 BitPlusCanada
-25ff97 username2 BitPlusCanada
-771df9 username2 BitPlusCanada
-de1d19 username2 BitPlusCanada
-a48265 username2 BitPlusCanada
-002240 username2 BitPlusCanada
-068e77 username2 BitPlusCanada
-731bbf username2 BitPlusCanada
-e5323c username2 BitPlusCanada
-f51cb8 username2 BitPlusCanada
-f1a1ea username2 BitPlusCanada
-c7805b username2 BitPlusCanada
-a6beb2 username2 BitPlusCanada
-637f46 username2 BitPlusCanada
-1190c7 username2 BitPlusCanada
-c60781 username2 BitPlusCanada
-1c9a7e username2 BitPlusCanada
-7f3e08 username2 BitPlusCanada
-ff3702 username2 BitPlusCanada
-7989cb username2 BitPlusCanada
-3844aa username2 BitPlusCanada
-f0cff0 username2 BitPlusCanada
-628082 username2 BitPlusCanada
-fb68fa username2 BitPlusCanada
-c6a6bf username2 BitPlusCanada
-da000d username2 BitPlusCanada
-70ca7a username2 BitPlusCanada
-83daec username2 BitPlusCanada
-b1546e username2 BitPlusCanada
-c99e2f username2 BitPlusCanada
-8b7b26 username2 BitPlusCanada
-86ea29 username2 BitPlusCanada
-3b0a6d username2 BitPlusCanada
-c9b5e7 username2 BitPlusCanada
-382807 username2 BitPlusCanada
-6a7a7f username2 BitPlusCanada
-e7ff4f username2 BitPlusCanada
-b72b2e username2 BitPlusCanada
-8e4153 username2 BitPlusCanada
-292a11 username2 BitPlusCanada
-cd47d8 username2 BitPlusCanada
-39a10b username2 BitPlusCanada
-1614c8 username2 BitPlusCanada
-09370c username2 BitPlusCanada
-002107 username2 BitPlusCanada
-5717a8 username2 BitPlusCanada
-c6f025 username2 BitPlusCanada
-4eca98 username2 BitPlusCanada
-f6b7d6 username2 BitPlusCanada
-06bc48 username2 BitPlusCanada
-d6ebe6 username2 BitPlusCanada
-cefc09 username2 BitPlusCanada
-a5d526 username2 BitPlusCanada
-afd8a4 username2 BitPlusCanada
-35f8d3 username2 BitPlusCanada
-13deaf username2 BitPlusCanada
-17611d username2 BitPlusCanada
-5687a8 username2 BitPlusCanada
-37cf20 username2 BitPlusCanada
-dd258c username2 BitPlusCanada
-8229d1 username2 BitPlusCanada
-ffe40c username2 BitPlusCanada
-ff2685 username3 BitPlusCanada
-28f489 username3 BitPlusCanada
-80af65 username3 BitPlusCanada
-4a5ef0 username3 BitPlusCanada
-334741 username3 BitPlusCanada
-c0dcef username3 BitPlusCanada
-123c9c username3 BitPlusCanada
-fdc2d5 username3 BitPlusCanada
-3b3109 username3 BitPlusCanada
-a2b120 username3 BitPlusCanada
-1ebecd username3 BitPlusCanada
-168a85 username3 BitPlusCanada
-86ccad username3 BitPlusCanada
-219faa username3 BitPlusCanada
-4f72bb username3 BitPlusCanada
-f28e5e username3 BitPlusCanada
-0f44f8 username3 BitPlusCanada
-9813c6 username3 BitPlusCanada
-e775a1 username3 BitPlusCanada
-710fd9 username3 BitPlusCanada
-517473 username3 BitPlusCanada
-b9832c username3 BitPlusCanada
-f1c18a username3 BitPlusCanada
-44c35f username3 BitPlusCanada
-474757 username3 BitPlusCanada
-c4aa6b username3 BitPlusCanada
-4c2b76 username3 BitPlusCanada
-a47932 username3 BitPlusCanada
-7d4308 username3 BitPlusCanada
-97fbfe username3 BitPlusCanada
-2edc24 username3 BitPlusCanada
-0f1c77 username3 BitPlusCanada
-93d91c username3 BitPlusCanada
-ef852c username3 BitPlusCanada
-d190c8 username3 BitPlusCanada
-d933f2 username3 BitPlusCanada
-9d72da username3 BitPlusCanada
-8fad98 username3 BitPlusCanada
-6bddf7 username3 BitPlusCanada
-4f22fd username3 BitPlusCanada
-6c7f54 username3 BitPlusCanada
-d5777d username3 BitPlusCanada
-9d2d3d username3 BitPlusCanada
-cd0517 username3 BitPlusCanada
-8fdf36 username3 BitPlusCanada
-2fce82 username3 BitPlusCanada
-c2b167 username3 BitPlusCanada
-2d4ed1 username3 BitPlusCanada
-36d47b username3 BitPlusCanada
-156f39 username3 BitPlusCanada
-1dd296 username3 BitPlusCanada
-d095a0 username3 BitPlusCanada
-f08058 username3 BitPlusCanada
-96aa30 username3 BitPlusCanada
-5d61db username3 BitPlusCanada
-706b75 username3 BitPlusCanada
-ff7d35 username3 BitPlusCanada
-306c92 username3 BitPlusCanada
-c6558b username3 BitPlusCanada
-3e070f username3 BitPlusCanada
-458508 username3 BitPlusCanada
-cdcfc0 username3 BitPlusCanada
-0fcecb username3 BitPlusCanada
-743bb2 username3 BitPlusCanada
-4a3fb3 username3 BitPlusCanada
-363997 username3 BitPlusCanada
-5af11a username3 BitPlusCanada
-bc91a2 username3 BitPlusCanada
-9feac3 username3 BitPlusCanada
-ebfef0 username3 BitPlusCanada
-812fca username3 BitPlusCanada
-0cc841 username3 BitPlusCanada
-931826 username3 BitPlusCanada
-a2bd60 username3 BitPlusCanada
-3241ed username3 BitPlusCanada
-83dcd9 username3 BitPlusCanada
-eeec0a username3 BitPlusCanada
-11aa26 username3 BitPlusCanada
-1863b6 username3 BitPlusCanada
-83d143 username3 BitPlusCanada
-530f2f username3 BitPlusCanada
-38a6ba username3 BitPlusCanada
-047af0 username3 BitPlusCanada
-548bcf username3 BitPlusCanada
-4508c7 username3 BitPlusCanada
-6bbb19 username3 BitPlusCanada
-27a764 username3 BitPlusCanada
-cb20e4 username3 BitPlusCanada
-9b8b73 username3 BitPlusCanada
-c68ca4 username3 BitPlusCanada
-c39dd7 username3 BitPlusCanada
-121b5d username3 BitPlusCanada
-f6db5e username3 BitPlusCanada
-586985 username3 BitPlusCanada
-669175 username3 BitPlusCanada
-01507b username3 BitPlusCanada
-139a58 username3 BitPlusCanada
-112dcb username3 BitPlusCanada
-cc589c username3 BitPlusCanada
-e45b18 username3 BitPlusCanada
-41cd58 username3 BitPlusCanada
-51f862 username3 BitPlusCanada
-0ae4fc username3 BitPlusCanada
-7f3032 username3 BitPlusCanada
-6d3452 username3 BitPlusCanada
-a0586c username3 BitPlusCanada
-686c93 username3 BitPlusCanada
-2ce9d3 username3 BitPlusCanada
-194547 username3 BitPlusCanada
-1599aa username3 BitPlusCanada
-a7b8d5 username3 BitPlusCanada
-f27232 username3 BitPlusCanada
-6a9e49 username3 BitPlusCanada
-70554d username3 BitPlusCanada
-94a97e username3 BitPlusCanada
-74577a username3 BitPlusCanada
-f3c641 username3 BitPlusCanada
-807662 username3 BitPlusCanada
-250602 username3 BitPlusCanada
-75e685 username3 BitPlusCanada
-b8c823 username3 BitPlusCanada
-fe20a4 username3 BitPlusCanada
-e54e0a username3 BitPlusCanada
-37ba71 username3 BitPlusCanada
-664447 username3 BitPlusCanada
-c5ce9c username3 BitPlusCanada
-c24766 username3 BitPlusCanada
-87c0f9 username3 BitPlusCanada
-82c5ca username3 BitPlusCanada
-b434f4 username3 BitPlusCanada
-3b2351 username3 BitPlusCanada
-8cf564 username3 BitPlusCanada
-0ebea3 username3 BitPlusCanada
-e566c2 username3 BitPlusCanada
-4f6dfe username3 BitPlusCanada
-6bfa85 username3 BitPlusCanada
-4b9432 username3 BitPlusCanada
-90b06e username3 BitPlusCanada
-c5da9f username3 BitPlusCanada
-25ff97 username3 BitPlusCanada
-771df9 username3 BitPlusCanada
-de1d19 username3 BitPlusCanada
-a48265 username3 BitPlusCanada
-002240 username3 BitPlusCanada
-068e77 username3 BitPlusCanada
-731bbf username3 BitPlusCanada
-e5323c username3 BitPlusCanada
-f51cb8 username3 BitPlusCanada
-f1a1ea username3 BitPlusCanada
-c7805b username3 BitPlusCanada
-a6beb2 username3 BitPlusCanada
-637f46 username3 BitPlusCanada
-1190c7 username3 BitPlusCanada
-c60781 username3 BitPlusCanada
-1c9a7e username3 BitPlusCanada
-7f3e08 username3 BitPlusCanada
-ff3702 username3 BitPlusCanada
-7989cb username3 BitPlusCanada
-3844aa username3 BitPlusCanada
-f0cff0 username3 BitPlusCanada
-628082 username3 BitPlusCanada
-fb68fa username3 BitPlusCanada
-c6a6bf username3 BitPlusCanada
-da000d username3 BitPlusCanada
-70ca7a username3 BitPlusCanada
-83daec username3 BitPlusCanada
-b1546e username3 BitPlusCanada
-c99e2f username3 BitPlusCanada
-8b7b26 username3 BitPlusCanada
-86ea29 username3 BitPlusCanada
-3b0a6d username3 BitPlusCanada
-c9b5e7 username3 BitPlusCanada
-382807 username3 BitPlusCanada
-6a7a7f username3 BitPlusCanada
-e7ff4f username3 BitPlusCanada
-b72b2e username3 BitPlusCanada
-8e4153 username3 BitPlusCanada
-292a11 username3 BitPlusCanada
-cd47d8 username3 BitPlusCanada
-39a10b username3 BitPlusCanada
-1614c8 username3 BitPlusCanada
-09370c username3 BitPlusCanada
-002107 username3 BitPlusCanada
-5717a8 username3 BitPlusCanada
-c6f025 username3 BitPlusCanada
-4eca98 username3 BitPlusCanada
-f6b7d6 username3 BitPlusCanada
-06bc48 username3 BitPlusCanada
-d6ebe6 username3 BitPlusCanada
-cefc09 username3 BitPlusCanada
-a5d526 username3 BitPlusCanada
-afd8a4 username3 BitPlusCanada
-35f8d3 username3 BitPlusCanada
-13deaf username3 BitPlusCanada
-17611d username3 BitPlusCanada
-5687a8 username3 BitPlusCanada
-37cf20 username3 BitPlusCanada
-dd258c username3 BitPlusCanada
-8229d1 username3 BitPlusCanada
-ffe40c username3 BitPlusCanada
-
-## bitplusmining1 (300 machines)
-vlan 10.0.31.117-160
-vlan 10.0.32.1-20
-vlan 10.0.50.1-160
-vlan 10.0.55.8-83
-ad8ef4 location ESOLG00201
-0765c2 location ESOLG00202
-b216a0 location ESOLG00203
-c36ffa location ESOLG00204
-e56347 location ESOLG00205
-716735 location ESOLG00206
-f4e6f5 location ESOLG00207
-d11fae location ESOLG00208
-09a6bc location ESOLG00209
-ca719a location ESOLG00210
-736160 location ESOLG00211
-2e275d location ESOLG00212
-5e2793 location ESOLG00213
-e284f2 location ESOLG00214
-705bfb location ESOLG00215
-dd2856 location ESOLG00216
-857a40 location ESOLG00217
-ce4fd2 location ESOLG00218
-d1b9d7 location ESOLG00219
-fdf08a location ESOLG00220
-9b586c location ESOLG00221
-f78d9a location ESOLG00222
-f5205c location ESOLG00223
-89b85e location ESOLG00224
-ab0151 location ESOLG00225
-c22a6f location ESOLG00226
-c3ffd0 location ESOLG00227
-963eab location ESOLG00228
-0de34a location ESOLG00229
-ac2a48 location ESOLG00230
-6ce009 location ESOLG00231
-75d9d8 location ESOLG00232
-07e5fd location ESOLG00233
-32dd13 location ESOLG00234
-4c52a9 location ESOLG00235
-2fe5c2 location ESOLG00236
-a7b5ce location ESOLG00237
-7ca1fd location ESOLG00238
-7115c6 location ESOLG00239
-7a3f1b location ESOLG00240
-8bce91 location ESOLG00241
-2c9456 location ESOLG00242
-ee4ce6 location ESOLG00243
-dad158 location ESOLG00244
-29b4bf location ESOLG00245
-b5c0ce location ESOLG00246
-9d0c9f location ESOLG00247
-4864ba location ESOLG00248
-5ee6bc location ESOLG00249
-15b3a8 location ESOLG00250
-7ff9a3 location ESOLG00251
-1e78ac location ESOLG00252
-2f15df location ESOLG00253
-ba03db location ESOLG00254
-daf117 location ESOLG00255
-75f914 location ESOLG00256
-fa8181 location ESOLG00257
-a5a60e location ESOLG00258
-5db8fa location ESOLG00259
-1da616 location ESOLG00260
-be8e6c location ESOLG00261
-dd58ae location ESOLG00262
-55bff4 location ESOLG00263
-c2a063 location ESOLG00264
-cdcba9 location ESOLG00265
-e5abd1 location ESOLG00266
-fb358a location ESOLG00267
-32e9a1 location ESOLG00268
-f4d276 location ESOLG00269
-43c7db location ESOLG00270
-ae25a9 location ESOLG00271
-011e81 location ESOLG00272
-c686a3 location ESOLG00273
-04743e location ESOLG00274
-cb4a49 location ESOLG00275
-2abd91 location ESOLG00276
-811205 location ESOLG00277
-df9e62 location ESOLG00278
-b45f14 location ESOLG00279
-a88603 location ESOLG00280
-149af8 location ESOLG00281
-1faa55 location ESOLG00282
-4fc4bf location ESOLG00283
-91b329 location ESOLG00284
-a882a5 location ESOLG00285
-7d081c location ESOLG00286
-4d576b location ESOLG00287
-33e99b location ESOLG00288
-eae352 location ESOLG00289
-ae427e location ESOLG00290
-083178 location ESOLG00291
-64be4e location ESOLG00292
-71e6fe location ESOLG00293
-5aad48 location ESOLG00294
-8bdde4 location ESOLG00295
-faf076 location ESOLG00296
-34ac56 location ESOLG00297
-579d9f location ESOLG00298
-d50138 location ESOLG00299
-329e8a location ESOLG00300
-230c72 location ESOLG00301
-33d1f3 location ESOLG00302
-d39dc1 location ESOLG00303
-efdabe location ESOLG00304
-0cb6b2 location ESOLG00305
-a46199 location ESOLG00306
-086857 location ESOLG00307
-439202 location ESOLG00308
-9cd2d8 location ESOLG00309
-9f8c41 location ESOLG00310
-5e3a00 location ESOLG00311
-c2cb38 location ESOLG00312
-92d4a2 location ESOLG00313
-3c9a6e location ESOLG00314
-d44702 location ESOLG00315
-520695 location ESOLG00316
-42e20d location ESOLG00317
-26c5ab location ESOLG00318
-f89a8a location ESOLG00319
-5163c8 location ESOLG00320
-5170b3 location ESOLG00321
-4281ec location ESOLG00322
-69f234 location ESOLG00323
-71bb12 location ESOLG00324
-606c53 location ESOLG00325
-3eedee location ESOLG00326
-fb174f location ESOLG00327
-649248 location ESOLG00328
-a286c5 location ESOLG00329
-b186ce location ESOLG00330
-e591e7 location ESOLG00331
-79370f location ESOLG00332
-fa2a16 location ESOLG00333
-9dab91 location ESOLG00334
-9b748e location ESOLG00335
-8c6210 location ESOLG00336
-067cdd location ESOLG00337
-31a3b4 location ESOLG00338
-ae2c80 location ESOLG00339
-5a95dc location ESOLG00340
-ff4f01 location ESOLG00341
-f510d5 location ESOLG00342
-bd8087 location ESOLG00343
-8574ff location ESOLG00344
-a3f926 location ESOLG00345
-c1a8a9 location ESOLG00346
-e1804e location ESOLG00347
-079505 location ESOLG00348
-3e3e0f location ESOLG00349
-9065df location ESOLG00350
-a6ea5c location ESOLG00351
-812582 location ESOLG00352
-fbddb7 location ESOLG00353
-1bb2af location ESOLG00354
-aa7902 location ESOLG00355
-9f0dc5 location ESOLG00356
-d371f5 location ESOLG00357
-ab39de location ESOLG00358
-55050e location ESOLG00359
-f5432f location ESOLG00360
-2d1f93 location ESOLG00361
-e4b4e7 location ESOLG00362
-05d232 location ESOLG00363
-8ceecc location ESOLG00364
-e6f4d7 location ESOLG00365
-8ce465 location ESOLG00366
-1e46a9 location ESOLG00367
-ac0008 location ESOLG00368
-b97596 location ESOLG00369
-fc1948 location ESOLG00370
-bc3585 location ESOLG00371
-b3b42c location ESOLG00372
-6140f0 location ESOLG00373
-2968f0 location ESOLG00374
-b1cf9d location ESOLG00375
-3cd509 location ESOLG00376
-6d2f1f location ESOLG00377
-6d09b2 location ESOLG00378
-1dfac7 location ESOLG00379
-fba28a location ESOLG00380
-8d5b8b location ESOLG00381
-ab6221 location ESOLG00382
-63cfad location ESOLG00383
-b0abe0 location ESOLG00384
-aa526b location ESOLG00385
-a19ede location ESOLG00386
-0479ed location ESOLG00387
-3132b1 location ESOLG00388
-5aee19 location ESOLG00389
-fd3880 location ESOLG00390
-0d7f09 location ESOLG00391
-479987 location ESOLG00392
-4820c2 location ESOLG00393
-c5e28a location ESOLG00394
-fc7cf8 location ESOLG00395
-b8d599 location ESOLG00396
-47bcc8 location ESOLG00397
-d471c4 location ESOLG00398
-3c8dcd location ESOLG00399
-564bdb location ESOLG00400
-94587a location ESOLG00401
-b6bb9b location ESOLG00402
-4f86dd location ESOLG00403
-b6d960 location ESOLG00404
-1c5a0a location ESOLG00405
-4a16a7 location ESOLG00406
-c256c3 location ESOLG00407
-75697f location ESOLG00408
-b68f59 location ESOLG00409
-910fab location ESOLG00410
-11e653 location ESOLG00411
-a46da9 location ESOLG00412
-1a9fc6 location ESOLG00413
-c88f61 location ESOLG00414
-ad36be location ESOLG00415
-3f52a2 location ESOLG00416
-38dfad location ESOLG00417
-08c581 location ESOLG00418
-4b1240 location ESOLG00419
-c9cde9 location ESOLG00420
-26b110 location ESOLG00421
-deee7c location ESOLG00422
-a1c1cb location ESOLG00423
-0a2190 location ESOLG00424
-225634 location ESOLG00425
-0ac223 location ESOLG00426
-2f6e4f location ESOLG00427
-39ece6 location ESOLG00428
-16808c location ESOLG00429
-3ca1f0 location ESOLG00430
-0b711d location ESOLG00431
-db8872 location ESOLG00432
-4a4af1 location ESOLG00433
-5d0a3e location ESOLG00434
-d110a4 location ESOLG00435
-3385d0 location ESOLG00436
-fb6775 location ESOLG00437
-954d29 location ESOLG00438
-65f909 location ESOLG00439
-dbbb41 location ESOLG00440
-df07ea location ESOLG00441
-486fc9 location ESOLG00442
-930d98 location ESOLG00443
-f99d9d location ESOLG00444
-cf61df location ESOLG00445
-c02a2d location ESOLG00446
-1792c4 location ESOLG00447
-8ed5ee location ESOLG00448
-ffa316 location ESOLG00449
-07cece location ESOLG00450
-b8aba7 location ESOLG00451
-6ec60f location ESOLG00452
-16d041 location ESOLG00453
-8f6b78 location ESOLG00454
-df25ab location ESOLG00455
-305120 location ESOLG00456
-f22ee0 location ESOLG00457
-428487 location ESOLG00458
-694670 location ESOLG00459
-e27620 location ESOLG00460
-55fe55 location ESOLG00461
-f569ac location ESOLG00462
-e4b546 location ESOLG00463
-434580 location ESOLG00464
-ed5948 location ESOLG00465
-996b7a location ESOLG00466
-ede199 location ESOLG00467
-2b318e location ESOLG00468
-a1179d location ESOLG00469
-1aeaf3 location ESOLG00470
-153e7d location ESOLG00471
-e31aef location ESOLG00472
-c2c61a location ESOLG00473
-b8dc4a location ESOLG00474
-e074cf location ESOLG00475
-4f615d location ESOLG00476
-1dce27 location ESOLG00477
-ef88d6 location ESOLG00478
-447c81 location ESOLG00479
-e284f3 location ESOLG00480
-871727 location ESOLG00481
-cc57e2 location ESOLG00482
-4476be location ESOLG00483
-83390b location ESOLG00484
-524460 location ESOLG00485
-91a0e9 location ESOLG00486
-3e829b location ESOLG00487
-abae36 location ESOLG00488
-f0a16a location ESOLG00489
-f584b2 location ESOLG00490
-6d3f5e location ESOLG00491
-4efff4 location ESOLG00492
-396903 location ESOLG00493
-2cf166 location ESOLG00494
-3c23e1 location ESOLG00495
-02ef83 location ESOLG00496
-b972c8 location ESOLG00497
-7e183d location ESOLG00498
-8e9351 location ESOLG00499
-8f3359 location ESOLG00500
+## vlan
+vlan 10.0.30.152-152
+vlan 10.0.31.50-50
+vlan 10.0.31.146-146
+vlan 10.0.31.25-25
+vlan 10.0.32.3-3
+vlan 10.0.50.154-154
+vlan 10.0.50.144-144
+vlan 10.0.50.110-110
+vlan 10.0.50.113-113
+vlan 10.0.50.34-34
+vlan 10.0.50.25-25
+vlan 10.0.50.35-35
+vlan 10.0.50.93-93
+vlan 10.0.31.109-109
+vlan 10.0.50.18-18
+vlan 10.0.50.94-94
 
 ## tuning
 f99d9d maxwatts 1150 # 10.0.55.27
@@ -4338,267 +2897,1116 @@ fb6775 rebootasic 1568440139 # 10.0.55.20
 447c81 rebootasic 1568440139 # 10.0.55.62
 
 ## reboots
-# s_reboot generated on Oct 12 2019 17:57:18 utc: 1570903038
-08c581 rebootasic 1570903038 # 10.0.50.154 esolg00418
-75697f rebootasic 1570903038 # 10.0.50.144 esolg00408
-2968f0 rebootasic 1570903038 # 10.0.50.110 esolg00374
-6d2f1f rebootasic 1570903038 # 10.0.50.113 esolg00377
-579d9f rebootasic 1570903038 # 10.0.50.34 esolg00298
-eae352 rebootasic 1570903038 # 10.0.50.25 esolg00289
-d50138 rebootasic 1570903038 # 10.0.50.35 esolg00299
-086857 rebootasic 1570903038 # 10.0.50.43 esolg00307
-ab39de rebootasic 1570903038 # 10.0.50.94 esolg00358
-9d0c9f rebootasic 1570903038 # 10.0.32.3 esolg00247
-ef852c rebootasic 1570903038 # 10.0.30.110 esolg00034
-306c92 rebootasic 1570903038 # 10.0.30.134 esolg00058
-83dcd9 rebootasic 1570903038 # 10.0.30.152 esolg00076
-194547 rebootasic 1570903038 # 10.0.31.25 esolg00109
-e566c2 rebootasic 1570903038 # 10.0.31.50 esolg00134
-86ea29 rebootasic 1570903038 # 10.0.31.86 esolg00170
-35f8d3 rebootasic 1570903038 # 10.0.31.109 esolg00193
-c36ffa rebootasic 1570903038 # 10.0.31.120 esolg00204
-ac2a48 rebootasic 1570903038 # 10.0.31.146 esolg00230
-1faa55 rebootasic 1570903038 # 10.0.50.18 esolg00282
-a19ede rebootasic 1570903038 # 10.0.50.122 esolg00386
-# generated on Sep 15 2019 03:55:13 utc: 1568519713 1568519713
-5170b3 rebootasic 1568519713 # 10.0.50.57 esolg00321
-3e3e0f rebootasic 1568519713 # 10.0.50.85 esolg00349
-4f615d rebootasic 1568519713 # 10.0.55.59 esolg00476
 
-## resets
-d44702 resetasic 1569965032
+## BitPlusCanada (200 machines)
+# vlan 10.0.30.77-160
+# vlan 10.0.31.1-116
+ff2685 location ESOLG00001
+28f489 location ESOLG00002
+80af65 location ESOLG00003
+4a5ef0 location ESOLG00004
+334741 location ESOLG00005
+c0dcef location ESOLG00006
+123c9c location ESOLG00007
+fdc2d5 location ESOLG00008
+3b3109 location ESOLG00009
+a2b120 location ESOLG00010
+1ebecd location ESOLG00011
+168a85 location ESOLG00012
+86ccad location ESOLG00013
+219faa location ESOLG00014
+4f72bb location ESOLG00015
+f28e5e location ESOLG00016
+0f44f8 location ESOLG00017
+9813c6 location ESOLG00018
+e775a1 location ESOLG00019
+710fd9 location ESOLG00020
+517473 location ESOLG00021
+b9832c location ESOLG00022
+f1c18a location ESOLG00023
+44c35f location ESOLG00024
+474757 location ESOLG00025
+c4aa6b location ESOLG00026
+4c2b76 location ESOLG00027
+a47932 location ESOLG00028
+7d4308 location ESOLG00029
+97fbfe location ESOLG00030
+2edc24 location ESOLG00031
+0f1c77 location ESOLG00032
+93d91c location ESOLG00033
+ef852c location ESOLG00034
+d190c8 location ESOLG00035
+d933f2 location ESOLG00036
+9d72da location ESOLG00037
+8fad98 location ESOLG00038
+6bddf7 location ESOLG00039
+4f22fd location ESOLG00040
+6c7f54 location ESOLG00041
+d5777d location ESOLG00042
+9d2d3d location ESOLG00043
+cd0517 location ESOLG00044
+8fdf36 location ESOLG00045
+2fce82 location ESOLG00046
+c2b167 location ESOLG00047
+2d4ed1 location ESOLG00048
+36d47b location ESOLG00049
+156f39 location ESOLG00050
+1dd296 location ESOLG00051
+d095a0 location ESOLG00052
+f08058 location ESOLG00053
+96aa30 location ESOLG00054
+5d61db location ESOLG00055
+706b75 location ESOLG00056
+ff7d35 location ESOLG00057
+306c92 location ESOLG00058
+c6558b location ESOLG00059
+3e070f location ESOLG00060
+458508 location ESOLG00061
+cdcfc0 location ESOLG00062
+0fcecb location ESOLG00063
+743bb2 location ESOLG00064
+4a3fb3 location ESOLG00065
+363997 location ESOLG00066
+5af11a location ESOLG00067
+bc91a2 location ESOLG00068
+9feac3 location ESOLG00069
+ebfef0 location ESOLG00070
+812fca location ESOLG00071
+0cc841 location ESOLG00072
+931826 location ESOLG00073
+a2bd60 location ESOLG00074
+3241ed location ESOLG00075
+83dcd9 location ESOLG00076
+eeec0a location ESOLG00077
+11aa26 location ESOLG00078
+1863b6 location ESOLG00079
+83d143 location ESOLG00080
+530f2f location ESOLG00081
+38a6ba location ESOLG00082
+047af0 location ESOLG00083
+548bcf location ESOLG00084
+4508c7 location ESOLG00085
+6bbb19 location ESOLG00086
+27a764 location ESOLG00087
+cb20e4 location ESOLG00088
+9b8b73 location ESOLG00089
+c68ca4 location ESOLG00090
+c39dd7 location ESOLG00091
+121b5d location ESOLG00092
+f6db5e location ESOLG00093
+586985 location ESOLG00094
+669175 location ESOLG00095
+01507b location ESOLG00096
+139a58 location ESOLG00097
+112dcb location ESOLG00098
+cc589c location ESOLG00099
+e45b18 location ESOLG00100
+41cd58 location ESOLG00101
+51f862 location ESOLG00102
+0ae4fc location ESOLG00103
+7f3032 location ESOLG00104
+6d3452 location ESOLG00105
+a0586c location ESOLG00106
+686c93 location ESOLG00107
+2ce9d3 location ESOLG00108
+194547 location ESOLG00109
+1599aa location ESOLG00110
+a7b8d5 location ESOLG00111
+f27232 location ESOLG00112
+6a9e49 location ESOLG00113
+70554d location ESOLG00114
+94a97e location ESOLG00115
+74577a location ESOLG00116
+f3c641 location ESOLG00117
+807662 location ESOLG00118
+250602 location ESOLG00119
+75e685 location ESOLG00120
+b8c823 location ESOLG00121
+fe20a4 location ESOLG00122
+e54e0a location ESOLG00123
+37ba71 location ESOLG00124
+664447 location ESOLG00125
+c5ce9c location ESOLG00126
+c24766 location ESOLG00127
+87c0f9 location ESOLG00128
+82c5ca location ESOLG00129
+b434f4 location ESOLG00130
+3b2351 location ESOLG00131
+8cf564 location ESOLG00132
+0ebea3 location ESOLG00133
+e566c2 location ESOLG00134
+4f6dfe location ESOLG00135
+6bfa85 location ESOLG00136
+4b9432 location ESOLG00137
+90b06e location ESOLG00138
+c5da9f location ESOLG00139
+25ff97 location ESOLG00140
+771df9 location ESOLG00141
+de1d19 location ESOLG00142
+a48265 location ESOLG00143
+002240 location ESOLG00144
+068e77 location ESOLG00145
+731bbf location ESOLG00146
+e5323c location ESOLG00147
+f51cb8 location ESOLG00148
+f1a1ea location ESOLG00149
+c7805b location ESOLG00150
+a6beb2 location ESOLG00151
+637f46 location ESOLG00152
+1190c7 location ESOLG00153
+c60781 location ESOLG00154
+1c9a7e location ESOLG00155
+7f3e08 location ESOLG00156
+ff3702 location ESOLG00157
+7989cb location ESOLG00158
+3844aa location ESOLG00159
+f0cff0 location ESOLG00160
+628082 location ESOLG00161
+fb68fa location ESOLG00162
+c6a6bf location ESOLG00163
+da000d location ESOLG00164
+70ca7a location ESOLG00165
+83daec location ESOLG00166
+b1546e location ESOLG00167
+c99e2f location ESOLG00168
+8b7b26 location ESOLG00169
+86ea29 location ESOLG00170
+3b0a6d location ESOLG00171
+c9b5e7 location ESOLG00172
+382807 location ESOLG00173
+6a7a7f location ESOLG00174
+e7ff4f location ESOLG00175
+b72b2e location ESOLG00176
+8e4153 location ESOLG00177
+292a11 location ESOLG00178
+cd47d8 location ESOLG00179
+39a10b location ESOLG00180
+1614c8 location ESOLG00181
+09370c location ESOLG00182
+002107 location ESOLG00183
+5717a8 location ESOLG00184
+c6f025 location ESOLG00185
+4eca98 location ESOLG00186
+f6b7d6 location ESOLG00187
+06bc48 location ESOLG00188
+d6ebe6 location ESOLG00189
+cefc09 location ESOLG00190
+a5d526 location ESOLG00191
+afd8a4 location ESOLG00192
+35f8d3 location ESOLG00193
+13deaf location ESOLG00194
+17611d location ESOLG00195
+5687a8 location ESOLG00196
+37cf20 location ESOLG00197
+dd258c location ESOLG00198
+8229d1 location ESOLG00199
+ffe40c location ESOLG00200
+ff2685 username1 BitPlusCanada
+28f489 username1 BitPlusCanada
+80af65 username1 BitPlusCanada
+4a5ef0 username1 BitPlusCanada
+334741 username1 BitPlusCanada
+c0dcef username1 BitPlusCanada
+123c9c username1 BitPlusCanada
+fdc2d5 username1 BitPlusCanada
+3b3109 username1 BitPlusCanada
+a2b120 username1 BitPlusCanada
+1ebecd username1 BitPlusCanada
+168a85 username1 BitPlusCanada
+86ccad username1 BitPlusCanada
+219faa username1 BitPlusCanada
+4f72bb username1 BitPlusCanada
+f28e5e username1 BitPlusCanada
+0f44f8 username1 BitPlusCanada
+9813c6 username1 BitPlusCanada
+e775a1 username1 BitPlusCanada
+710fd9 username1 BitPlusCanada
+517473 username1 BitPlusCanada
+b9832c username1 BitPlusCanada
+f1c18a username1 BitPlusCanada
+44c35f username1 BitPlusCanada
+474757 username1 BitPlusCanada
+c4aa6b username1 BitPlusCanada
+4c2b76 username1 BitPlusCanada
+a47932 username1 BitPlusCanada
+7d4308 username1 BitPlusCanada
+97fbfe username1 BitPlusCanada
+2edc24 username1 BitPlusCanada
+0f1c77 username1 BitPlusCanada
+93d91c username1 BitPlusCanada
+ef852c username1 BitPlusCanada
+d190c8 username1 BitPlusCanada
+d933f2 username1 BitPlusCanada
+9d72da username1 BitPlusCanada
+8fad98 username1 BitPlusCanada
+6bddf7 username1 BitPlusCanada
+4f22fd username1 BitPlusCanada
+6c7f54 username1 BitPlusCanada
+d5777d username1 BitPlusCanada
+9d2d3d username1 BitPlusCanada
+cd0517 username1 BitPlusCanada
+8fdf36 username1 BitPlusCanada
+2fce82 username1 BitPlusCanada
+c2b167 username1 BitPlusCanada
+2d4ed1 username1 BitPlusCanada
+36d47b username1 BitPlusCanada
+156f39 username1 BitPlusCanada
+1dd296 username1 BitPlusCanada
+d095a0 username1 BitPlusCanada
+f08058 username1 BitPlusCanada
+96aa30 username1 BitPlusCanada
+5d61db username1 BitPlusCanada
+706b75 username1 BitPlusCanada
+ff7d35 username1 BitPlusCanada
+306c92 username1 BitPlusCanada
+c6558b username1 BitPlusCanada
+3e070f username1 BitPlusCanada
+458508 username1 BitPlusCanada
+cdcfc0 username1 BitPlusCanada
+0fcecb username1 BitPlusCanada
+743bb2 username1 BitPlusCanada
+4a3fb3 username1 BitPlusCanada
+363997 username1 BitPlusCanada
+5af11a username1 BitPlusCanada
+bc91a2 username1 BitPlusCanada
+9feac3 username1 BitPlusCanada
+ebfef0 username1 BitPlusCanada
+812fca username1 BitPlusCanada
+0cc841 username1 BitPlusCanada
+931826 username1 BitPlusCanada
+a2bd60 username1 BitPlusCanada
+3241ed username1 BitPlusCanada
+83dcd9 username1 BitPlusCanada
+eeec0a username1 BitPlusCanada
+11aa26 username1 BitPlusCanada
+1863b6 username1 BitPlusCanada
+83d143 username1 BitPlusCanada
+530f2f username1 BitPlusCanada
+38a6ba username1 BitPlusCanada
+047af0 username1 BitPlusCanada
+548bcf username1 BitPlusCanada
+4508c7 username1 BitPlusCanada
+6bbb19 username1 BitPlusCanada
+27a764 username1 BitPlusCanada
+cb20e4 username1 BitPlusCanada
+9b8b73 username1 BitPlusCanada
+c68ca4 username1 BitPlusCanada
+c39dd7 username1 BitPlusCanada
+121b5d username1 BitPlusCanada
+f6db5e username1 BitPlusCanada
+586985 username1 BitPlusCanada
+669175 username1 BitPlusCanada
+01507b username1 BitPlusCanada
+139a58 username1 BitPlusCanada
+112dcb username1 BitPlusCanada
+cc589c username1 BitPlusCanada
+e45b18 username1 BitPlusCanada
+41cd58 username1 BitPlusCanada
+51f862 username1 BitPlusCanada
+0ae4fc username1 BitPlusCanada
+7f3032 username1 BitPlusCanada
+6d3452 username1 BitPlusCanada
+a0586c username1 BitPlusCanada
+686c93 username1 BitPlusCanada
+2ce9d3 username1 BitPlusCanada
+194547 username1 BitPlusCanada
+1599aa username1 BitPlusCanada
+a7b8d5 username1 BitPlusCanada
+f27232 username1 BitPlusCanada
+6a9e49 username1 BitPlusCanada
+70554d username1 BitPlusCanada
+94a97e username1 BitPlusCanada
+74577a username1 BitPlusCanada
+f3c641 username1 BitPlusCanada
+807662 username1 BitPlusCanada
+250602 username1 BitPlusCanada
+75e685 username1 BitPlusCanada
+b8c823 username1 BitPlusCanada
+fe20a4 username1 BitPlusCanada
+e54e0a username1 BitPlusCanada
+37ba71 username1 BitPlusCanada
+664447 username1 BitPlusCanada
+c5ce9c username1 BitPlusCanada
+c24766 username1 BitPlusCanada
+87c0f9 username1 BitPlusCanada
+82c5ca username1 BitPlusCanada
+b434f4 username1 BitPlusCanada
+3b2351 username1 BitPlusCanada
+8cf564 username1 BitPlusCanada
+0ebea3 username1 BitPlusCanada
+e566c2 username1 BitPlusCanada
+4f6dfe username1 BitPlusCanada
+6bfa85 username1 BitPlusCanada
+4b9432 username1 BitPlusCanada
+90b06e username1 BitPlusCanada
+c5da9f username1 BitPlusCanada
+25ff97 username1 BitPlusCanada
+771df9 username1 BitPlusCanada
+de1d19 username1 BitPlusCanada
+a48265 username1 BitPlusCanada
+002240 username1 BitPlusCanada
+068e77 username1 BitPlusCanada
+731bbf username1 BitPlusCanada
+e5323c username1 BitPlusCanada
+f51cb8 username1 BitPlusCanada
+f1a1ea username1 BitPlusCanada
+c7805b username1 BitPlusCanada
+a6beb2 username1 BitPlusCanada
+637f46 username1 BitPlusCanada
+1190c7 username1 BitPlusCanada
+c60781 username1 BitPlusCanada
+1c9a7e username1 BitPlusCanada
+7f3e08 username1 BitPlusCanada
+ff3702 username1 BitPlusCanada
+7989cb username1 BitPlusCanada
+3844aa username1 BitPlusCanada
+f0cff0 username1 BitPlusCanada
+628082 username1 BitPlusCanada
+fb68fa username1 BitPlusCanada
+c6a6bf username1 BitPlusCanada
+da000d username1 BitPlusCanada
+70ca7a username1 BitPlusCanada
+83daec username1 BitPlusCanada
+b1546e username1 BitPlusCanada
+c99e2f username1 BitPlusCanada
+8b7b26 username1 BitPlusCanada
+86ea29 username1 BitPlusCanada
+3b0a6d username1 BitPlusCanada
+c9b5e7 username1 BitPlusCanada
+382807 username1 BitPlusCanada
+6a7a7f username1 BitPlusCanada
+e7ff4f username1 BitPlusCanada
+b72b2e username1 BitPlusCanada
+8e4153 username1 BitPlusCanada
+292a11 username1 BitPlusCanada
+cd47d8 username1 BitPlusCanada
+39a10b username1 BitPlusCanada
+1614c8 username1 BitPlusCanada
+09370c username1 BitPlusCanada
+002107 username1 BitPlusCanada
+5717a8 username1 BitPlusCanada
+c6f025 username1 BitPlusCanada
+4eca98 username1 BitPlusCanada
+f6b7d6 username1 BitPlusCanada
+06bc48 username1 BitPlusCanada
+d6ebe6 username1 BitPlusCanada
+cefc09 username1 BitPlusCanada
+a5d526 username1 BitPlusCanada
+afd8a4 username1 BitPlusCanada
+35f8d3 username1 BitPlusCanada
+13deaf username1 BitPlusCanada
+17611d username1 BitPlusCanada
+5687a8 username1 BitPlusCanada
+37cf20 username1 BitPlusCanada
+dd258c username1 BitPlusCanada
+8229d1 username1 BitPlusCanada
+ffe40c username1 BitPlusCanada
+ff2685 username2 BitPlusCanada
+28f489 username2 BitPlusCanada
+80af65 username2 BitPlusCanada
+4a5ef0 username2 BitPlusCanada
+334741 username2 BitPlusCanada
+c0dcef username2 BitPlusCanada
+123c9c username2 BitPlusCanada
+fdc2d5 username2 BitPlusCanada
+3b3109 username2 BitPlusCanada
+a2b120 username2 BitPlusCanada
+1ebecd username2 BitPlusCanada
+168a85 username2 BitPlusCanada
+86ccad username2 BitPlusCanada
+219faa username2 BitPlusCanada
+4f72bb username2 BitPlusCanada
+f28e5e username2 BitPlusCanada
+0f44f8 username2 BitPlusCanada
+9813c6 username2 BitPlusCanada
+e775a1 username2 BitPlusCanada
+710fd9 username2 BitPlusCanada
+517473 username2 BitPlusCanada
+b9832c username2 BitPlusCanada
+f1c18a username2 BitPlusCanada
+44c35f username2 BitPlusCanada
+474757 username2 BitPlusCanada
+c4aa6b username2 BitPlusCanada
+4c2b76 username2 BitPlusCanada
+a47932 username2 BitPlusCanada
+7d4308 username2 BitPlusCanada
+97fbfe username2 BitPlusCanada
+2edc24 username2 BitPlusCanada
+0f1c77 username2 BitPlusCanada
+93d91c username2 BitPlusCanada
+ef852c username2 BitPlusCanada
+d190c8 username2 BitPlusCanada
+d933f2 username2 BitPlusCanada
+9d72da username2 BitPlusCanada
+8fad98 username2 BitPlusCanada
+6bddf7 username2 BitPlusCanada
+4f22fd username2 BitPlusCanada
+6c7f54 username2 BitPlusCanada
+d5777d username2 BitPlusCanada
+9d2d3d username2 BitPlusCanada
+cd0517 username2 BitPlusCanada
+8fdf36 username2 BitPlusCanada
+2fce82 username2 BitPlusCanada
+c2b167 username2 BitPlusCanada
+2d4ed1 username2 BitPlusCanada
+36d47b username2 BitPlusCanada
+156f39 username2 BitPlusCanada
+1dd296 username2 BitPlusCanada
+d095a0 username2 BitPlusCanada
+f08058 username2 BitPlusCanada
+96aa30 username2 BitPlusCanada
+5d61db username2 BitPlusCanada
+706b75 username2 BitPlusCanada
+ff7d35 username2 BitPlusCanada
+306c92 username2 BitPlusCanada
+c6558b username2 BitPlusCanada
+3e070f username2 BitPlusCanada
+458508 username2 BitPlusCanada
+cdcfc0 username2 BitPlusCanada
+0fcecb username2 BitPlusCanada
+743bb2 username2 BitPlusCanada
+4a3fb3 username2 BitPlusCanada
+363997 username2 BitPlusCanada
+5af11a username2 BitPlusCanada
+bc91a2 username2 BitPlusCanada
+9feac3 username2 BitPlusCanada
+ebfef0 username2 BitPlusCanada
+812fca username2 BitPlusCanada
+0cc841 username2 BitPlusCanada
+931826 username2 BitPlusCanada
+a2bd60 username2 BitPlusCanada
+3241ed username2 BitPlusCanada
+83dcd9 username2 BitPlusCanada
+eeec0a username2 BitPlusCanada
+11aa26 username2 BitPlusCanada
+1863b6 username2 BitPlusCanada
+83d143 username2 BitPlusCanada
+530f2f username2 BitPlusCanada
+38a6ba username2 BitPlusCanada
+047af0 username2 BitPlusCanada
+548bcf username2 BitPlusCanada
+4508c7 username2 BitPlusCanada
+6bbb19 username2 BitPlusCanada
+27a764 username2 BitPlusCanada
+cb20e4 username2 BitPlusCanada
+9b8b73 username2 BitPlusCanada
+c68ca4 username2 BitPlusCanada
+c39dd7 username2 BitPlusCanada
+121b5d username2 BitPlusCanada
+f6db5e username2 BitPlusCanada
+586985 username2 BitPlusCanada
+669175 username2 BitPlusCanada
+01507b username2 BitPlusCanada
+139a58 username2 BitPlusCanada
+112dcb username2 BitPlusCanada
+cc589c username2 BitPlusCanada
+e45b18 username2 BitPlusCanada
+41cd58 username2 BitPlusCanada
+51f862 username2 BitPlusCanada
+0ae4fc username2 BitPlusCanada
+7f3032 username2 BitPlusCanada
+6d3452 username2 BitPlusCanada
+a0586c username2 BitPlusCanada
+686c93 username2 BitPlusCanada
+2ce9d3 username2 BitPlusCanada
+194547 username2 BitPlusCanada
+1599aa username2 BitPlusCanada
+a7b8d5 username2 BitPlusCanada
+f27232 username2 BitPlusCanada
+6a9e49 username2 BitPlusCanada
+70554d username2 BitPlusCanada
+94a97e username2 BitPlusCanada
+74577a username2 BitPlusCanada
+f3c641 username2 BitPlusCanada
+807662 username2 BitPlusCanada
+250602 username2 BitPlusCanada
+75e685 username2 BitPlusCanada
+b8c823 username2 BitPlusCanada
+fe20a4 username2 BitPlusCanada
+e54e0a username2 BitPlusCanada
+37ba71 username2 BitPlusCanada
+664447 username2 BitPlusCanada
+c5ce9c username2 BitPlusCanada
+c24766 username2 BitPlusCanada
+87c0f9 username2 BitPlusCanada
+82c5ca username2 BitPlusCanada
+b434f4 username2 BitPlusCanada
+3b2351 username2 BitPlusCanada
+8cf564 username2 BitPlusCanada
+0ebea3 username2 BitPlusCanada
+e566c2 username2 BitPlusCanada
+4f6dfe username2 BitPlusCanada
+6bfa85 username2 BitPlusCanada
+4b9432 username2 BitPlusCanada
+90b06e username2 BitPlusCanada
+c5da9f username2 BitPlusCanada
+25ff97 username2 BitPlusCanada
+771df9 username2 BitPlusCanada
+de1d19 username2 BitPlusCanada
+a48265 username2 BitPlusCanada
+002240 username2 BitPlusCanada
+068e77 username2 BitPlusCanada
+731bbf username2 BitPlusCanada
+e5323c username2 BitPlusCanada
+f51cb8 username2 BitPlusCanada
+f1a1ea username2 BitPlusCanada
+c7805b username2 BitPlusCanada
+a6beb2 username2 BitPlusCanada
+637f46 username2 BitPlusCanada
+1190c7 username2 BitPlusCanada
+c60781 username2 BitPlusCanada
+1c9a7e username2 BitPlusCanada
+7f3e08 username2 BitPlusCanada
+ff3702 username2 BitPlusCanada
+7989cb username2 BitPlusCanada
+3844aa username2 BitPlusCanada
+f0cff0 username2 BitPlusCanada
+628082 username2 BitPlusCanada
+fb68fa username2 BitPlusCanada
+c6a6bf username2 BitPlusCanada
+da000d username2 BitPlusCanada
+70ca7a username2 BitPlusCanada
+83daec username2 BitPlusCanada
+b1546e username2 BitPlusCanada
+c99e2f username2 BitPlusCanada
+8b7b26 username2 BitPlusCanada
+86ea29 username2 BitPlusCanada
+3b0a6d username2 BitPlusCanada
+c9b5e7 username2 BitPlusCanada
+382807 username2 BitPlusCanada
+6a7a7f username2 BitPlusCanada
+e7ff4f username2 BitPlusCanada
+b72b2e username2 BitPlusCanada
+8e4153 username2 BitPlusCanada
+292a11 username2 BitPlusCanada
+cd47d8 username2 BitPlusCanada
+39a10b username2 BitPlusCanada
+1614c8 username2 BitPlusCanada
+09370c username2 BitPlusCanada
+002107 username2 BitPlusCanada
+5717a8 username2 BitPlusCanada
+c6f025 username2 BitPlusCanada
+4eca98 username2 BitPlusCanada
+f6b7d6 username2 BitPlusCanada
+06bc48 username2 BitPlusCanada
+d6ebe6 username2 BitPlusCanada
+cefc09 username2 BitPlusCanada
+a5d526 username2 BitPlusCanada
+afd8a4 username2 BitPlusCanada
+35f8d3 username2 BitPlusCanada
+13deaf username2 BitPlusCanada
+17611d username2 BitPlusCanada
+5687a8 username2 BitPlusCanada
+37cf20 username2 BitPlusCanada
+dd258c username2 BitPlusCanada
+8229d1 username2 BitPlusCanada
+ffe40c username2 BitPlusCanada
+ff2685 username3 BitPlusCanada
+28f489 username3 BitPlusCanada
+80af65 username3 BitPlusCanada
+4a5ef0 username3 BitPlusCanada
+334741 username3 BitPlusCanada
+c0dcef username3 BitPlusCanada
+123c9c username3 BitPlusCanada
+fdc2d5 username3 BitPlusCanada
+3b3109 username3 BitPlusCanada
+a2b120 username3 BitPlusCanada
+1ebecd username3 BitPlusCanada
+168a85 username3 BitPlusCanada
+86ccad username3 BitPlusCanada
+219faa username3 BitPlusCanada
+4f72bb username3 BitPlusCanada
+f28e5e username3 BitPlusCanada
+0f44f8 username3 BitPlusCanada
+9813c6 username3 BitPlusCanada
+e775a1 username3 BitPlusCanada
+710fd9 username3 BitPlusCanada
+517473 username3 BitPlusCanada
+b9832c username3 BitPlusCanada
+f1c18a username3 BitPlusCanada
+44c35f username3 BitPlusCanada
+474757 username3 BitPlusCanada
+c4aa6b username3 BitPlusCanada
+4c2b76 username3 BitPlusCanada
+a47932 username3 BitPlusCanada
+7d4308 username3 BitPlusCanada
+97fbfe username3 BitPlusCanada
+2edc24 username3 BitPlusCanada
+0f1c77 username3 BitPlusCanada
+93d91c username3 BitPlusCanada
+ef852c username3 BitPlusCanada
+d190c8 username3 BitPlusCanada
+d933f2 username3 BitPlusCanada
+9d72da username3 BitPlusCanada
+8fad98 username3 BitPlusCanada
+6bddf7 username3 BitPlusCanada
+4f22fd username3 BitPlusCanada
+6c7f54 username3 BitPlusCanada
+d5777d username3 BitPlusCanada
+9d2d3d username3 BitPlusCanada
+cd0517 username3 BitPlusCanada
+8fdf36 username3 BitPlusCanada
+2fce82 username3 BitPlusCanada
+c2b167 username3 BitPlusCanada
+2d4ed1 username3 BitPlusCanada
+36d47b username3 BitPlusCanada
+156f39 username3 BitPlusCanada
+1dd296 username3 BitPlusCanada
+d095a0 username3 BitPlusCanada
+f08058 username3 BitPlusCanada
+96aa30 username3 BitPlusCanada
+5d61db username3 BitPlusCanada
+706b75 username3 BitPlusCanada
+ff7d35 username3 BitPlusCanada
+306c92 username3 BitPlusCanada
+c6558b username3 BitPlusCanada
+3e070f username3 BitPlusCanada
+458508 username3 BitPlusCanada
+cdcfc0 username3 BitPlusCanada
+0fcecb username3 BitPlusCanada
+743bb2 username3 BitPlusCanada
+4a3fb3 username3 BitPlusCanada
+363997 username3 BitPlusCanada
+5af11a username3 BitPlusCanada
+bc91a2 username3 BitPlusCanada
+9feac3 username3 BitPlusCanada
+ebfef0 username3 BitPlusCanada
+812fca username3 BitPlusCanada
+0cc841 username3 BitPlusCanada
+931826 username3 BitPlusCanada
+a2bd60 username3 BitPlusCanada
+3241ed username3 BitPlusCanada
+83dcd9 username3 BitPlusCanada
+eeec0a username3 BitPlusCanada
+11aa26 username3 BitPlusCanada
+1863b6 username3 BitPlusCanada
+83d143 username3 BitPlusCanada
+530f2f username3 BitPlusCanada
+38a6ba username3 BitPlusCanada
+047af0 username3 BitPlusCanada
+548bcf username3 BitPlusCanada
+4508c7 username3 BitPlusCanada
+6bbb19 username3 BitPlusCanada
+27a764 username3 BitPlusCanada
+cb20e4 username3 BitPlusCanada
+9b8b73 username3 BitPlusCanada
+c68ca4 username3 BitPlusCanada
+c39dd7 username3 BitPlusCanada
+121b5d username3 BitPlusCanada
+f6db5e username3 BitPlusCanada
+586985 username3 BitPlusCanada
+669175 username3 BitPlusCanada
+01507b username3 BitPlusCanada
+139a58 username3 BitPlusCanada
+112dcb username3 BitPlusCanada
+cc589c username3 BitPlusCanada
+e45b18 username3 BitPlusCanada
+41cd58 username3 BitPlusCanada
+51f862 username3 BitPlusCanada
+0ae4fc username3 BitPlusCanada
+7f3032 username3 BitPlusCanada
+6d3452 username3 BitPlusCanada
+a0586c username3 BitPlusCanada
+686c93 username3 BitPlusCanada
+2ce9d3 username3 BitPlusCanada
+194547 username3 BitPlusCanada
+1599aa username3 BitPlusCanada
+a7b8d5 username3 BitPlusCanada
+f27232 username3 BitPlusCanada
+6a9e49 username3 BitPlusCanada
+70554d username3 BitPlusCanada
+94a97e username3 BitPlusCanada
+74577a username3 BitPlusCanada
+f3c641 username3 BitPlusCanada
+807662 username3 BitPlusCanada
+250602 username3 BitPlusCanada
+75e685 username3 BitPlusCanada
+b8c823 username3 BitPlusCanada
+fe20a4 username3 BitPlusCanada
+e54e0a username3 BitPlusCanada
+37ba71 username3 BitPlusCanada
+664447 username3 BitPlusCanada
+c5ce9c username3 BitPlusCanada
+c24766 username3 BitPlusCanada
+87c0f9 username3 BitPlusCanada
+82c5ca username3 BitPlusCanada
+b434f4 username3 BitPlusCanada
+3b2351 username3 BitPlusCanada
+8cf564 username3 BitPlusCanada
+0ebea3 username3 BitPlusCanada
+e566c2 username3 BitPlusCanada
+4f6dfe username3 BitPlusCanada
+6bfa85 username3 BitPlusCanada
+4b9432 username3 BitPlusCanada
+90b06e username3 BitPlusCanada
+c5da9f username3 BitPlusCanada
+25ff97 username3 BitPlusCanada
+771df9 username3 BitPlusCanada
+de1d19 username3 BitPlusCanada
+a48265 username3 BitPlusCanada
+002240 username3 BitPlusCanada
+068e77 username3 BitPlusCanada
+731bbf username3 BitPlusCanada
+e5323c username3 BitPlusCanada
+f51cb8 username3 BitPlusCanada
+f1a1ea username3 BitPlusCanada
+c7805b username3 BitPlusCanada
+a6beb2 username3 BitPlusCanada
+637f46 username3 BitPlusCanada
+1190c7 username3 BitPlusCanada
+c60781 username3 BitPlusCanada
+1c9a7e username3 BitPlusCanada
+7f3e08 username3 BitPlusCanada
+ff3702 username3 BitPlusCanada
+7989cb username3 BitPlusCanada
+3844aa username3 BitPlusCanada
+f0cff0 username3 BitPlusCanada
+628082 username3 BitPlusCanada
+fb68fa username3 BitPlusCanada
+c6a6bf username3 BitPlusCanada
+da000d username3 BitPlusCanada
+70ca7a username3 BitPlusCanada
+83daec username3 BitPlusCanada
+b1546e username3 BitPlusCanada
+c99e2f username3 BitPlusCanada
+8b7b26 username3 BitPlusCanada
+86ea29 username3 BitPlusCanada
+3b0a6d username3 BitPlusCanada
+c9b5e7 username3 BitPlusCanada
+382807 username3 BitPlusCanada
+6a7a7f username3 BitPlusCanada
+e7ff4f username3 BitPlusCanada
+b72b2e username3 BitPlusCanada
+8e4153 username3 BitPlusCanada
+292a11 username3 BitPlusCanada
+cd47d8 username3 BitPlusCanada
+39a10b username3 BitPlusCanada
+1614c8 username3 BitPlusCanada
+09370c username3 BitPlusCanada
+002107 username3 BitPlusCanada
+5717a8 username3 BitPlusCanada
+c6f025 username3 BitPlusCanada
+4eca98 username3 BitPlusCanada
+f6b7d6 username3 BitPlusCanada
+06bc48 username3 BitPlusCanada
+d6ebe6 username3 BitPlusCanada
+cefc09 username3 BitPlusCanada
+a5d526 username3 BitPlusCanada
+afd8a4 username3 BitPlusCanada
+35f8d3 username3 BitPlusCanada
+13deaf username3 BitPlusCanada
+17611d username3 BitPlusCanada
+5687a8 username3 BitPlusCanada
+37cf20 username3 BitPlusCanada
+dd258c username3 BitPlusCanada
+8229d1 username3 BitPlusCanada
+ffe40c username3 BitPlusCanada
+
+## bitplusmining1 (300 machines)
+# vlan 10.0.31.117-160
+# vlan 10.0.32.1-20
+vlan 10.0.50.1-160
+vlan 10.0.55.8-83
+ad8ef4 location ESOLG00201
+0765c2 location ESOLG00202
+b216a0 location ESOLG00203
+c36ffa location ESOLG00204
+e56347 location ESOLG00205
+716735 location ESOLG00206
+f4e6f5 location ESOLG00207
+d11fae location ESOLG00208
+09a6bc location ESOLG00209
+ca719a location ESOLG00210
+736160 location ESOLG00211
+2e275d location ESOLG00212
+5e2793 location ESOLG00213
+e284f2 location ESOLG00214
+705bfb location ESOLG00215
+dd2856 location ESOLG00216
+857a40 location ESOLG00217
+ce4fd2 location ESOLG00218
+d1b9d7 location ESOLG00219
+fdf08a location ESOLG00220
+9b586c location ESOLG00221
+f78d9a location ESOLG00222
+f5205c location ESOLG00223
+89b85e location ESOLG00224
+ab0151 location ESOLG00225
+c22a6f location ESOLG00226
+c3ffd0 location ESOLG00227
+963eab location ESOLG00228
+0de34a location ESOLG00229
+ac2a48 location ESOLG00230
+6ce009 location ESOLG00231
+75d9d8 location ESOLG00232
+07e5fd location ESOLG00233
+32dd13 location ESOLG00234
+4c52a9 location ESOLG00235
+2fe5c2 location ESOLG00236
+a7b5ce location ESOLG00237
+7ca1fd location ESOLG00238
+7115c6 location ESOLG00239
+7a3f1b location ESOLG00240
+8bce91 location ESOLG00241
+2c9456 location ESOLG00242
+ee4ce6 location ESOLG00243
+dad158 location ESOLG00244
+29b4bf location ESOLG00245
+b5c0ce location ESOLG00246
+9d0c9f location ESOLG00247
+4864ba location ESOLG00248
+5ee6bc location ESOLG00249
+15b3a8 location ESOLG00250
+7ff9a3 location ESOLG00251
+1e78ac location ESOLG00252
+2f15df location ESOLG00253
+ba03db location ESOLG00254
+daf117 location ESOLG00255
+75f914 location ESOLG00256
+fa8181 location ESOLG00257
+a5a60e location ESOLG00258
+5db8fa location ESOLG00259
+1da616 location ESOLG00260
+be8e6c location ESOLG00261
+dd58ae location ESOLG00262
+55bff4 location ESOLG00263
+c2a063 location ESOLG00264
+cdcba9 location ESOLG00265
+e5abd1 location ESOLG00266
+fb358a location ESOLG00267
+32e9a1 location ESOLG00268
+f4d276 location ESOLG00269
+43c7db location ESOLG00270
+ae25a9 location ESOLG00271
+011e81 location ESOLG00272
+c686a3 location ESOLG00273
+04743e location ESOLG00274
+cb4a49 location ESOLG00275
+2abd91 location ESOLG00276
+811205 location ESOLG00277
+df9e62 location ESOLG00278
+b45f14 location ESOLG00279
+a88603 location ESOLG00280
+149af8 location ESOLG00281
+1faa55 location ESOLG00282
+4fc4bf location ESOLG00283
+91b329 location ESOLG00284
+a882a5 location ESOLG00285
+7d081c location ESOLG00286
+4d576b location ESOLG00287
+33e99b location ESOLG00288
+eae352 location ESOLG00289
+ae427e location ESOLG00290
+083178 location ESOLG00291
+64be4e location ESOLG00292
+71e6fe location ESOLG00293
+5aad48 location ESOLG00294
+8bdde4 location ESOLG00295
+faf076 location ESOLG00296
+34ac56 location ESOLG00297
+579d9f location ESOLG00298
+d50138 location ESOLG00299
+329e8a location ESOLG00300
+230c72 location ESOLG00301
+33d1f3 location ESOLG00302
+d39dc1 location ESOLG00303
+efdabe location ESOLG00304
+0cb6b2 location ESOLG00305
+a46199 location ESOLG00306
+086857 location ESOLG00307
+439202 location ESOLG00308
+9cd2d8 location ESOLG00309
+9f8c41 location ESOLG00310
+5e3a00 location ESOLG00311
+c2cb38 location ESOLG00312
+92d4a2 location ESOLG00313
+3c9a6e location ESOLG00314
+d44702 location ESOLG00315
+520695 location ESOLG00316
+42e20d location ESOLG00317
+26c5ab location ESOLG00318
+f89a8a location ESOLG00319
+5163c8 location ESOLG00320
+5170b3 location ESOLG00321
+4281ec location ESOLG00322
+69f234 location ESOLG00323
+71bb12 location ESOLG00324
+606c53 location ESOLG00325
+3eedee location ESOLG00326
+fb174f location ESOLG00327
+649248 location ESOLG00328
+a286c5 location ESOLG00329
+b186ce location ESOLG00330
+e591e7 location ESOLG00331
+79370f location ESOLG00332
+fa2a16 location ESOLG00333
+9dab91 location ESOLG00334
+9b748e location ESOLG00335
+8c6210 location ESOLG00336
+067cdd location ESOLG00337
+31a3b4 location ESOLG00338
+ae2c80 location ESOLG00339
+5a95dc location ESOLG00340
+ff4f01 location ESOLG00341
+f510d5 location ESOLG00342
+bd8087 location ESOLG00343
+8574ff location ESOLG00344
+a3f926 location ESOLG00345
+c1a8a9 location ESOLG00346
+e1804e location ESOLG00347
+079505 location ESOLG00348
+3e3e0f location ESOLG00349
+9065df location ESOLG00350
+a6ea5c location ESOLG00351
+812582 location ESOLG00352
+fbddb7 location ESOLG00353
+1bb2af location ESOLG00354
+aa7902 location ESOLG00355
+9f0dc5 location ESOLG00356
+d371f5 location ESOLG00357
+ab39de location ESOLG00358
+55050e location ESOLG00359
+f5432f location ESOLG00360
+2d1f93 location ESOLG00361
+e4b4e7 location ESOLG00362
+05d232 location ESOLG00363
+8ceecc location ESOLG00364
+e6f4d7 location ESOLG00365
+8ce465 location ESOLG00366
+1e46a9 location ESOLG00367
+ac0008 location ESOLG00368
+b97596 location ESOLG00369
+fc1948 location ESOLG00370
+bc3585 location ESOLG00371
+b3b42c location ESOLG00372
+6140f0 location ESOLG00373
+2968f0 location ESOLG00374
+b1cf9d location ESOLG00375
+3cd509 location ESOLG00376
+6d2f1f location ESOLG00377
+6d09b2 location ESOLG00378
+1dfac7 location ESOLG00379
+fba28a location ESOLG00380
+8d5b8b location ESOLG00381
+ab6221 location ESOLG00382
+63cfad location ESOLG00383
+b0abe0 location ESOLG00384
+aa526b location ESOLG00385
+a19ede location ESOLG00386
+0479ed location ESOLG00387
+3132b1 location ESOLG00388
+5aee19 location ESOLG00389
+fd3880 location ESOLG00390
+0d7f09 location ESOLG00391
+479987 location ESOLG00392
+4820c2 location ESOLG00393
+c5e28a location ESOLG00394
+fc7cf8 location ESOLG00395
+b8d599 location ESOLG00396
+47bcc8 location ESOLG00397
+d471c4 location ESOLG00398
+3c8dcd location ESOLG00399
+564bdb location ESOLG00400
+94587a location ESOLG00401
+b6bb9b location ESOLG00402
+4f86dd location ESOLG00403
+b6d960 location ESOLG00404
+1c5a0a location ESOLG00405
+4a16a7 location ESOLG00406
+c256c3 location ESOLG00407
+75697f location ESOLG00408
+b68f59 location ESOLG00409
+910fab location ESOLG00410
+11e653 location ESOLG00411
+a46da9 location ESOLG00412
+1a9fc6 location ESOLG00413
+c88f61 location ESOLG00414
+ad36be location ESOLG00415
+3f52a2 location ESOLG00416
+38dfad location ESOLG00417
+08c581 location ESOLG00418
+4b1240 location ESOLG00419
+c9cde9 location ESOLG00420
+26b110 location ESOLG00421
+deee7c location ESOLG00422
+a1c1cb location ESOLG00423
+0a2190 location ESOLG00424
+225634 location ESOLG00425
+0ac223 location ESOLG00426
+2f6e4f location ESOLG00427
+39ece6 location ESOLG00428
+16808c location ESOLG00429
+3ca1f0 location ESOLG00430
+0b711d location ESOLG00431
+db8872 location ESOLG00432
+4a4af1 location ESOLG00433
+5d0a3e location ESOLG00434
+d110a4 location ESOLG00435
+3385d0 location ESOLG00436
+fb6775 location ESOLG00437
+954d29 location ESOLG00438
+65f909 location ESOLG00439
+dbbb41 location ESOLG00440
+df07ea location ESOLG00441
+486fc9 location ESOLG00442
+930d98 location ESOLG00443
+f99d9d location ESOLG00444
+cf61df location ESOLG00445
+c02a2d location ESOLG00446
+1792c4 location ESOLG00447
+8ed5ee location ESOLG00448
+ffa316 location ESOLG00449
+07cece location ESOLG00450
+b8aba7 location ESOLG00451
+6ec60f location ESOLG00452
+16d041 location ESOLG00453
+8f6b78 location ESOLG00454
+df25ab location ESOLG00455
+305120 location ESOLG00456
+f22ee0 location ESOLG00457
+428487 location ESOLG00458
+694670 location ESOLG00459
+e27620 location ESOLG00460
+55fe55 location ESOLG00461
+f569ac location ESOLG00462
+e4b546 location ESOLG00463
+434580 location ESOLG00464
+ed5948 location ESOLG00465
+996b7a location ESOLG00466
+ede199 location ESOLG00467
+2b318e location ESOLG00468
+a1179d location ESOLG00469
+1aeaf3 location ESOLG00470
+153e7d location ESOLG00471
+e31aef location ESOLG00472
+c2c61a location ESOLG00473
+b8dc4a location ESOLG00474
+e074cf location ESOLG00475
+4f615d location ESOLG00476
+1dce27 location ESOLG00477
+ef88d6 location ESOLG00478
+447c81 location ESOLG00479
+e284f3 location ESOLG00480
+871727 location ESOLG00481
+cc57e2 location ESOLG00482
+4476be location ESOLG00483
+83390b location ESOLG00484
+524460 location ESOLG00485
+91a0e9 location ESOLG00486
+3e829b location ESOLG00487
+abae36 location ESOLG00488
+f0a16a location ESOLG00489
+f584b2 location ESOLG00490
+6d3f5e location ESOLG00491
+4efff4 location ESOLG00492
+396903 location ESOLG00493
+2cf166 location ESOLG00494
+3c23e1 location ESOLG00495
+02ef83 location ESOLG00496
+b972c8 location ESOLG00497
+7e183d location ESOLG00498
+8e9351 location ESOLG00499
+8f3359 location ESOLG00500
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
