@@ -110,6 +110,9 @@ c6bede location VMANU00034
 5f0304 location VMANU00035
 
 ## tuning
+0d2787 maxwatts 1100 # 10.0.60.44
+0d2787 rebootasic 1570866762 # 10.0.60.44
+
 698d83 maxwatts 1100 # 10.0.58.82
 698d83 rebootasic 1570768320 # 10.0.58.82
 
@@ -172,6 +175,7 @@ c6bede location VMANU00034
 
 ## asic password 
 asicpass admin
+
 
 
 
