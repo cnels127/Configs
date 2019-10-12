@@ -46,6 +46,9 @@ fae9ca location JITUR00002
 262c0d location JITUR00003
 
 ## tuning
+fae9ca maxwatts 1250 # 10.0.116.97
+fae9ca rebootasic 1570872112 # 10.0.116.97
+
 1652a5 maxwatts 1250 # 10.0.116.96
 1652a5 rebootasic 1570801301 # 10.0.116.96
 
@@ -54,4 +57,5 @@ fae9ca location JITUR00002
 
 ## asic password
 asicpass admin
+
 
