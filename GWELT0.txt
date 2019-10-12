@@ -571,6 +571,9 @@ fdbabb location GWELT00296
 989b0b location GWELT00300
 
 ## tuning
+82150d maxwatts 1425 # 10.0.67.117
+82150d rebootasic 1570911427 # 10.0.67.117
+
 d14e14 maxwatts -75 # 10.0.58.54
 6308b3 maxwatts 1425 # 10.0.67.125
 d14e14 rebootasic 1570909588 # 10.0.58.54
@@ -2313,6 +2316,7 @@ ce096e rebootasic 1570599091 # 10.0.66.40 gwelt00177
 
 ## asic password
 asicpass admin
+
 
 
 
