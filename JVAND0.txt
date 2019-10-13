@@ -22,8 +22,8 @@ global maxwatts 1350
 global autoupdate yes
 global allowed yes
 global maxtemp 90
-global fanspeed 50
-global fansaver no
+global fanspeed 100
+global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
