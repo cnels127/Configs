@@ -28,8 +28,8 @@ global maxwatts 1500
 global autoupdate yes
 global allowed yes
 global maxtemp 90
-global fanspeed 50
-global fansaver no
+global fanspeed 100
+global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
@@ -76,53 +76,10 @@ f0ed76 location JBETH00019
 8f1d39 location JBETH00020
 
 ## tuning
-f9164a maxwatts 1400 # 10.0.60.18
-f9164a rebootasic 1570952345 # 10.0.60.18
-
-# 45ff0c maxwatts 1350
-# 95c235 maxwatts 1350
-# f9164a maxwatts 1350
-# 4db5d3 maxwatts 1350
-# aba209 maxwatts 1350
-# d549fd maxwatts 1350
-# f0ed76 maxwatts 1350
-# 8f1d39 maxwatts 1350
-
-2462cd retune 1
-966dd1 retune 1
-084a54 retune 1
-b340b4 retune 1
-434e7d retune 1
-2c969d retune 1
-690f5d retune 1
-406249 retune 2
-e67e88 retune 2
-45ff0c retune 2
-d549fd retune 2
 
 ## fans
-b340b4 fanspeed 100
 
 ## resets
-434e7d resetasic 1570745799
-690f5d resetasic 1570745799
-8f1d39 resetasic 1570726148
-406249 resetasic 1570726148
-2c969d resetasic 1570726148
-45ff0c resetasic 1570726148
-4db5d3 resetasic 1570726148
-6c73b3 resetasic 1570599271
-4db5d3 resetasic 1570599271
-8f1d39 resetasic 1570594245
-2c969d resetasic 1570594245
-4db5d3 resetasic 1570594245
-6c73b3 resetasic 1570594245
-8f1d39 resetasic 1570594245
-95c235 resetasic 1570594245
-f9164a resetasic 1570594245
-aba209 resetasic 1570594245
-d549fd resetasic 1570594245
-f0ed76 resetasic 1570594245
 
 ## asic password
 asicpass admin
