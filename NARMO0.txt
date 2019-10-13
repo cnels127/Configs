@@ -46,6 +46,9 @@ vlan 10.0.66.110-110
 aa75d6 location NARMO00003
 
 ## tuning
+76e85b maxwatts 1000 # 10.0.65.71
+76e85b rebootasic 1571009375 # 10.0.65.71
+
 76e85b maxwatts 1100 # 10.0.65.71
 76e85b rebootasic 1571002484 # 10.0.65.71
 
@@ -68,6 +71,7 @@ aa75d6 rebootasic 1570913367 # 10.0.66.110
 
 ## asic password
 asicpass admin
+
 
 
 
