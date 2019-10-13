@@ -205,6 +205,9 @@ cd2082 fanspeed 100
 7bf12e fanspeed 100
 
 ## tuning
+93620c maxwatts 1050 # 10.0.120.152
+93620c rebootasic 1570952379 # 10.0.120.152
+
 93620c maxwatts 1150 # 10.0.120.152
 93620c rebootasic 1570943867 # 10.0.120.152
 
@@ -224,6 +227,7 @@ dacf42 resetasic 1570808833
 
 ## asic password
 asicpass admin
+
 
 
 
