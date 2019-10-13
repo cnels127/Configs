@@ -43,6 +43,9 @@ ede705 location MFASE00001
 
 ## tuning
 ede705 maxwatts -100 # 10.0.66.56
+ede705 rebootasic 1570973921 # 10.0.66.56
+
+ede705 maxwatts -100 # 10.0.66.56
 ede705 rebootasic 1570971716 # 10.0.66.56
 
 ede705 maxwatts -100 # 10.0.66.56
@@ -121,6 +124,7 @@ ede705 rebootasic 1570814629 # 10.0.66.56
 
 ## asic password
 asicpass admin
+
 
 
 
