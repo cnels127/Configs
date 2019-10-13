@@ -22,8 +22,8 @@ global maxwatts 1500
 global autoupdate yes
 global allowed yes
 global maxtemp 90
-global fanspeed 30
-global fansaver no
+global fanspeed 100
+global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
@@ -68,7 +68,6 @@ vlan 10.0.226.107-107
 vlan 10.0.226.109-109
 vlan 10.0.226.113-113
 
-
 ## locations
 bf1870 location SLANG00001
 435798 location SLANG00002
@@ -103,88 +102,12 @@ a3c9ac location SLANG00024
 cc9cd4 location SLANG00025
 
 ## tuning
-fbf390 maxwatts 1400 # 10.0.65.42
-fbf390 rebootasic 1570967494 # 10.0.65.42
-
-e1bef3 maxwatts 1400 # 10.0.60.104
-e1bef3 rebootasic 1570961158 # 10.0.60.104
-
-fd676b maxwatts 1200 # 10.0.121.70
-fd676b rebootasic 1570959101 # 10.0.121.70
-
-02a4cb maxwatts 1400 # 10.0.66.77
-02a4cb rebootasic 1570956871 # 10.0.66.77
-
-e2c4c8 maxwatts 1200 # 10.0.60.34
-e2c4c8 rebootasic 1570950430 # 10.0.60.34
-
-fd676b maxwatts 1300 # 10.0.121.70
-fd676b rebootasic 1570937725 # 10.0.121.70
-
-866c28 maxwatts 1300 # 10.0.62.146
-fd676b maxwatts 1400 # 10.0.121.70
-866c28 rebootasic 1570868533 # 10.0.62.146
-fd676b rebootasic 1570868533 # 10.0.121.70
-
-e2c4c8 maxwatts 1300 # 10.0.60.34
-e2c4c8 rebootasic 1570866697 # 10.0.60.34
-
-e2c4c8 maxwatts 1400 # 10.0.60.34
-e2c4c8 rebootasic 1570864839 # 10.0.60.34
-
-866c28 maxwatts 1400 # 10.0.62.146
-866c28 rebootasic 1570857581 # 10.0.62.146
-
 
 ## fans
-bf1870 fanspeed 100
-fe2dc8 fanspeed 100
-205fac fanspeed 50
-e39d7c fanspeed 50
-435798 fanspeed 50
-c7c75f fanspeed 50
-8c8868 fanspeed 50
-596481 fanspeed 50
-15269c fanspeed 50
-f30ccf fanspeed 50
-d09da5 fanspeed 50
-8aca82 fanspeed 50
-cc9cd4 fanspeed 50
-b65856 fanspeed 50
 
 ## reboots
-# generated on Sep 15 2019 04:25:14 utc: 1568521514 1568521514
-1df8f9 rebootasic 1568521514 # 10.0.67.30 slang00016
-02a4cb rebootasic 1568521514 # 10.0.66.77 slang00018
 
 ## resets
-02a4cb resetasic 1570720658
-866c28 resetasic 1570720658
-435798 resetasic 1570720658
-b65856 resetasic 1570720658
-fbf390 resetasic 1570720658
-e39d7c resetasic 1570720658
-e1bef3 resetasic 1570549799
-8aca82 resetasic 1570506379
-c44e97 resetasic 1570506379
-4d2038 resetasic 1569910926
-b65856 resetasic 1569598048
-3c6a08 resetasic 1
-c44e97 resetasic 1
-b65856 resetasic 1
-fd676b resetasic 1
-a3c9ac resetasic 1
-cc9cd4 resetasic 1
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
