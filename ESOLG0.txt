@@ -39,6 +39,15 @@ global resetasic 1570805991
 
 ## tuning
 39ece6 maxwatts -50 # 10.0.55.11
+305120 maxwatts -50 # 10.0.55.39
+7d081c maxwatts -50 # 10.0.50.22
+faf076 maxwatts 1050 # 10.0.50.32
+39ece6 rebootasic 1570993117 # 10.0.55.11
+305120 rebootasic 1570993117 # 10.0.55.39
+7d081c rebootasic 1570993117 # 10.0.50.22
+faf076 rebootasic 1570993117 # 10.0.50.32
+
+39ece6 maxwatts -50 # 10.0.55.11
 69f234 maxwatts 1150 # 10.0.50.59
 39ece6 rebootasic 1570990956 # 10.0.55.11
 69f234 rebootasic 1570990956 # 10.0.50.59
@@ -4195,6 +4204,7 @@ b972c8 location ESOLG00497
 
 ## asic password
 asicpass admin
+
 
 
 
