@@ -77,6 +77,9 @@ ba0308 maxwatts 1100 # 10.0.53.136
 ba0308 rebootasic 1567997673 # 10.0.53.136
 
 ## tuning
+7b6cfa maxwatts 300 # 10.0.53.121
+7b6cfa rebootasic 1570969652 # 10.0.53.121
+
 1677ff maxwatts 800 # 10.0.53.122
 e6077e maxwatts 800 # 10.0.53.132
 1677ff rebootasic 1570967460 # 10.0.53.122
@@ -752,6 +755,7 @@ ba0308 retune 1
 
 ## asic password
 asicpass admin
+
 
 
 
