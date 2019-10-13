@@ -18,12 +18,12 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1350
+global maxwatts 1500
 global autoupdate yes
 global allowed yes
 global maxtemp 90
-global fanspeed 30
-global fansaver no
+global fanspeed 100
+global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
@@ -102,206 +102,12 @@ ff032f location RGESU00058
 75ef00 location RGESU00060
 
 ## tuning
-52a31b maxwatts 1250 # 10.0.54.6
-52a31b rebootasic 1570997948 # 10.0.54.6
-
-13b57d maxwatts 1150 # 10.0.53.157
-13b57d rebootasic 1570993409 # 10.0.53.157
-
-35f34a maxwatts 1250 # 10.0.53.158
-f3393d maxwatts 1250 # 10.0.54.9
-102b68 maxwatts 1250 # 10.0.54.15
-4f826d maxwatts 1150 # 10.0.54.37
-35f34a rebootasic 1570976222 # 10.0.53.158
-f3393d rebootasic 1570976222 # 10.0.54.9
-102b68 rebootasic 1570976222 # 10.0.54.15
-4f826d rebootasic 1570976222 # 10.0.54.37
-
-75ef00 maxwatts 1150 # 10.0.54.38
-75ef00 rebootasic 1570971837 # 10.0.54.38
-
-1a4852 maxwatts 950 # 10.0.54.27
-a4164a maxwatts 950 # 10.0.53.160
-1a4852 rebootasic 1570967433 # 10.0.54.27
-a4164a rebootasic 1570967433 # 10.0.53.160
-
-a25bea maxwatts 1150 # 10.0.54.5
-0cf968 maxwatts 1250 # 10.0.54.30
-a25bea rebootasic 1570965326 # 10.0.54.5
-0cf968 rebootasic 1570965326 # 10.0.54.30
-
-a02b78 maxwatts 1250 # 10.0.54.33
-a02b78 rebootasic 1570959063 # 10.0.54.33
-
-123f64 maxwatts 1150 # 10.0.53.161
-ada517 maxwatts 1150 # 10.0.54.20
-123f64 rebootasic 1570956816 # 10.0.53.161
-ada517 rebootasic 1570956816 # 10.0.54.20
-
-15891f maxwatts 1150 # 10.0.54.23
-6c3de0 maxwatts 1050 # 10.0.54.25
-123f64 maxwatts 1250 # 10.0.53.161
-75ef00 maxwatts 1250 # 10.0.54.38
-15891f rebootasic 1570954648 # 10.0.54.23
-6c3de0 rebootasic 1570954648 # 10.0.54.25
-123f64 rebootasic 1570954648 # 10.0.53.161
-75ef00 rebootasic 1570954648 # 10.0.54.38
-
-0884bf maxwatts 950 # 10.0.54.21
-866b96 maxwatts 1250 # 10.0.53.146
-0884bf rebootasic 1570950378 # 10.0.54.21
-866b96 rebootasic 1570950378 # 10.0.53.146
-
-7a36b9 maxwatts 1250 # 10.0.53.151
-1a4852 maxwatts 1050 # 10.0.54.27
-7a36b9 rebootasic 1570948237 # 10.0.53.151
-1a4852 rebootasic 1570948237 # 10.0.54.27
-
-753f7e maxwatts 1050 # 10.0.53.159
-753f7e rebootasic 1570946084 # 10.0.53.159
-
-15891f maxwatts 1250 # 10.0.54.23
-15891f rebootasic 1570944001 # 10.0.54.23
-
-0b0610 maxwatts 1250 # 10.0.54.16
-0b0610 rebootasic 1570941918 # 10.0.54.16
-
-0884bf maxwatts 1050 # 10.0.54.21
-4b6238 maxwatts 1050 # 10.0.54.34
-6f1bef maxwatts 1250 # 10.0.53.144
-0884bf rebootasic 1570939750 # 10.0.54.21
-4b6238 rebootasic 1570939750 # 10.0.54.34
-6f1bef rebootasic 1570939750 # 10.0.53.144
-
-a4164a maxwatts 1050 # 10.0.53.160
-c1da37 maxwatts 1250 # 10.0.53.148
-a4164a rebootasic 1570937677 # 10.0.53.160
-c1da37 rebootasic 1570937677 # 10.0.53.148
-
-6c3de0 maxwatts 1150 # 10.0.54.25
-6c3de0 rebootasic 1570935595 # 10.0.54.25
-
-ada517 maxwatts 1250 # 10.0.54.20
-6c3de0 maxwatts 1250 # 10.0.54.25
-ada517 rebootasic 1570872206 # 10.0.54.20
-6c3de0 rebootasic 1570872206 # 10.0.54.25
-
-753f7e maxwatts 1150 # 10.0.53.159
-e94ba6 maxwatts 1150 # 10.0.54.17
-753f7e rebootasic 1570864810 # 10.0.53.159
-e94ba6 rebootasic 1570864810 # 10.0.54.17
-
-13b57d maxwatts 1250 # 10.0.53.157
-0884bf maxwatts 1150 # 10.0.54.21
-4f826d maxwatts 1250 # 10.0.54.37
-13b57d rebootasic 1570862991 # 10.0.53.157
-0884bf rebootasic 1570862991 # 10.0.54.21
-4f826d rebootasic 1570862991 # 10.0.54.37
-
-4b6238 maxwatts 1150 # 10.0.54.34
-4b6238 rebootasic 1570859378 # 10.0.54.34
-
-a4164a maxwatts 1150 # 10.0.53.160
-a4164a rebootasic 1570857553 # 10.0.53.160
-
-a4164a maxwatts 1250 # 10.0.53.160
-a4164a rebootasic 1570788135 # 10.0.53.160
-
-99187c maxwatts 1150 # 10.0.54.28
-1a4852 maxwatts 1150 # 10.0.54.27
-99187c rebootasic 1570779887 # 10.0.54.28
-1a4852 rebootasic 1570779887 # 10.0.54.27
-
-e94ba6 maxwatts 1250 # 10.0.54.17
-99187c maxwatts 1250 # 10.0.54.28
-e94ba6 rebootasic 1570776583 # 10.0.54.17
-99187c rebootasic 1570776583 # 10.0.54.28
-
-a25bea maxwatts 1250 # 10.0.54.5
-1a4852 maxwatts 1250 # 10.0.54.27
-a25bea rebootasic 1570769958 # 10.0.54.5
-1a4852 rebootasic 1570769958 # 10.0.54.27
-
-4b6238 maxwatts 1250 # 10.0.54.34
-4b6238 rebootasic 1570768277 # 10.0.54.34
-
-0884bf maxwatts 1250 # 10.0.54.21
-753f7e maxwatts 1250 # 10.0.53.159
-0884bf rebootasic 1570766583 # 10.0.54.21
-753f7e rebootasic 1570766583 # 10.0.53.159
-
 
 ## fans
-2e3c21 fanspeed 100
-8883eb fanspeed 100
-6c3de0 fanspeed 100
-6073d8 fanspeed 100
-9b0135 fanspeed 100
-2ffd90 fanspeed 100
-535558 fanspeed 100
 
 ## reboots
-6073d8 rebootasic 1570749796 # 10.0.53.156 rgesu00017
-9b0135 rebootasic 1570749796 # 10.0.54.10 rgesu00032
-2ffd90 rebootasic 1570749796 # 10.0.54.11 rgesu00033
-535558 rebootasic 1570749796 # 10.0.54.22 rgesu00044
-2e3c21 rebootasic 1570730389
 
 ## resets
-dc8a14 resetasic 1570808833
-13b57d resetasic 1570808833
-35f34a resetasic 1570808833
-a4164a resetasic 1570808833
-870cd5 resetasic 1570808833
-52a31b resetasic 1570737337
-0cf968 resetasic 1570727541
-4b6238 resetasic 1570727541
-0b0610 resetasic 1570727541
-0884bf resetasic 1570727541
-ada517 resetasic 1570727541
-45099f resetasic 1570727541
-b65a11 resetasic 1570727541
-1a4852 resetasic 1570727541
-c1da37 resetasic 1570727541
-13b57d resetasic 1570727541
-a4164a resetasic 1570727541
-2e3c21 resetasic 1570727541
-081fad resetasic 1570727541
-6c3de0 resetasic 1570727541
-6073d8 resetasic 1570727541
-70adc2 resetasic 1569555947
-0b0610 resetasic 1569555947
-45099f resetasic 1569555947
-6c69d7 resetasic 1569555947
-75ef00 resetasic 1569555947
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
