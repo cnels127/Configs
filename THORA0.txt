@@ -62,6 +62,9 @@ f764a5 location THORA00014
 13d4e9 location THORA00015
 
 ## tuning
+b042b3 maxwatts 700 # 10.0.57.152
+b042b3 rebootasic 1570963341 # 10.0.57.152
+
 b042b3 maxwatts 800 # 10.0.57.152
 b042b3 rebootasic 1570866744 # 10.0.57.152
 
@@ -123,6 +126,7 @@ b916a9 rebootasic 1567539804 # 10.0.32.64
 
 ## asic password
 asicpass admin
+
 
 
 
