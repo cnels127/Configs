@@ -102,6 +102,11 @@ ff032f location RGESU00058
 75ef00 location RGESU00060
 
 ## tuning
+7a36b9 maxwatts 1250 # 10.0.53.151
+1a4852 maxwatts 1050 # 10.0.54.27
+7a36b9 rebootasic 1570948237 # 10.0.53.151
+1a4852 rebootasic 1570948237 # 10.0.54.27
+
 753f7e maxwatts 1050 # 10.0.53.159
 753f7e rebootasic 1570946084 # 10.0.53.159
 
@@ -222,6 +227,7 @@ a4164a resetasic 1570727541
 
 ## asic password
 asicpass admin
+
 
 
 
