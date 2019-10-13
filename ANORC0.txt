@@ -51,6 +51,9 @@ ce82d1 location ANORC00009
 88093b location ANORC00010
 
 ## tuning
+29b205 maxwatts 1250 # 10.0.68.92
+29b205 rebootasic 1570927657 # 10.0.68.92
+
 07c674 retune 1
 
 ## fans
@@ -65,5 +68,6 @@ efd6b3 resetasic 1570750660
 
 ## asic password
 asicpass admin
+
 
 
