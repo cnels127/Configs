@@ -60,6 +60,13 @@ a007c8 location BPALM10009
 95cae1 location BPALM10010
 
 ## tuning
+2c4326 maxwatts 950 # 10.10.126.105
+550b76 maxwatts 1150 # 10.10.126.104
+1b919f maxwatts 1150 # 10.10.126.102
+2c4326 rebootasic 1570929533 # 10.10.126.105
+550b76 rebootasic 1570929533 # 10.10.126.104
+1b919f rebootasic 1570929533 # 10.10.126.102
+
 f60fb2 maxwatts 1150 # 172.16.204.23
 f60fb2 rebootasic 1567611716 # 172.16.204.23
 
@@ -72,6 +79,7 @@ f60fb2 rebootasic 1567611716 # 172.16.204.23
 
 ## asic password
 asicpass admin
+
 
 
 
