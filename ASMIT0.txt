@@ -141,288 +141,30 @@ ef15e2 location ASMIT00097
 000122 location ASMIT00100
 
 ## tuning
-47bb2b maxwatts -100 # 10.0.66.101
-47bb2b rebootasic 1571062794 # 10.0.66.101
-
-47bb2b maxwatts -100 # 10.0.66.101
-47bb2b rebootasic 1571060193 # 10.0.66.101
-
-47bb2b maxwatts -100 # 10.0.66.101
-47bb2b rebootasic 1571054853 # 10.0.66.101
-
-47bb2b maxwatts -100 # 10.0.66.101
-47bb2b rebootasic 1571052221 # 10.0.66.101
-
-dd8320 maxwatts 900 # 10.0.64.145
-dd8320 rebootasic 1571038964 # 10.0.64.145
-
-47bb2b maxwatts -100 # 10.0.66.101
-eb31e9 maxwatts 1200 # 10.0.66.87
-47bb2b rebootasic 1571036280 # 10.0.66.101
-eb31e9 rebootasic 1571036280 # 10.0.66.87
-
-47bb2b maxwatts -100 # 10.0.66.101
-47bb2b rebootasic 1571033569 # 10.0.66.101
-
-47bb2b maxwatts -100 # 10.0.66.101
-e42129 maxwatts 800 # 10.0.115.42
-47bb2b rebootasic 1571028305 # 10.0.66.101
-e42129 rebootasic 1571028305 # 10.0.115.42
-
-47bb2b maxwatts -100 # 10.0.66.101
-eb31e9 maxwatts 1300 # 10.0.66.87
-47bb2b rebootasic 1571025652 # 10.0.66.101
-eb31e9 rebootasic 1571025652 # 10.0.66.87
-
-47bb2b maxwatts 0 # 10.0.66.101
-47bb2b rebootasic 1570982230 # 10.0.66.101
-
-47bb2b maxwatts 100 # 10.0.66.101
-47bb2b rebootasic 1570973692 # 10.0.66.101
-
-47bb2b maxwatts 200 # 10.0.66.101
-47bb2b rebootasic 1570969243 # 10.0.66.101
-
-dd8320 maxwatts 1000 # 10.0.64.145
-dd8320 rebootasic 1570958658 # 10.0.64.145
-
-47bb2b maxwatts 300 # 10.0.66.101
-47bb2b rebootasic 1570956437 # 10.0.66.101
-
-50aace maxwatts 1300 # 10.0.118.152
-50aace rebootasic 1570952174 # 10.0.118.152
-
-989ff6 maxwatts 800 # 10.0.121.79
-989ff6 rebootasic 1570950000 # 10.0.121.79
-
-47bb2b maxwatts 400 # 10.0.66.101
-47bb2b rebootasic 1570947882 # 10.0.66.101
-
-d34135 maxwatts 900 # 10.0.61.75
-d34135 rebootasic 1570945802 # 10.0.61.75
-
-989ff6 maxwatts 900 # 10.0.121.79
-50aace maxwatts 1400 # 10.0.118.152
-989ff6 rebootasic 1570941533 # 10.0.121.79
-50aace rebootasic 1570941533 # 10.0.118.152
-
-47bb2b maxwatts 500 # 10.0.66.101
-47bb2b rebootasic 1570939434 # 10.0.66.101
-
-b6dc9b maxwatts 1200 # 10.0.115.133
-b6dc9b rebootasic 1570935324 # 10.0.115.133
-
-b6dc9b maxwatts 1300 # 10.0.115.133
-b6dc9b rebootasic 1570931423 # 10.0.115.133
-
-b6dc9b maxwatts 1400 # 10.0.115.133
-b6dc9b rebootasic 1570902357 # 10.0.115.133
-
-d34135 maxwatts 1000 # 10.0.61.75
-d34135 rebootasic 1570891791 # 10.0.61.75
-
-47bb2b maxwatts 600 # 10.0.66.101
-e73231 maxwatts 1200 # 10.0.115.135
-e42129 maxwatts 900 # 10.0.115.42
-47bb2b rebootasic 1570871999 # 10.0.66.101
-e73231 rebootasic 1570871999 # 10.0.115.135
-e42129 rebootasic 1570871999 # 10.0.115.42
-
-4ef268 maxwatts 900 # 10.0.117.16
-4ef268 rebootasic 1570870154 # 10.0.117.16
-
-85ec4c maxwatts 1000 # 10.0.118.17
-989ff6 maxwatts 1000 # 10.0.121.79
-85ec4c rebootasic 1570868314 # 10.0.118.17
-989ff6 rebootasic 1570868314 # 10.0.121.79
-
-85ec4c maxwatts 1100 # 10.0.118.17
-85ec4c rebootasic 1570866454 # 10.0.118.17
-
-4ef268 maxwatts 1000 # 10.0.117.16
-4ef268 rebootasic 1570864627 # 10.0.117.16
-
-47bb2b maxwatts 700 # 10.0.66.101
-a85379 maxwatts 1200 # 10.0.117.75
-47bb2b rebootasic 1570862788 # 10.0.66.101
-a85379 rebootasic 1570862788 # 10.0.117.75
-
-4ef268 maxwatts 1100 # 10.0.117.16
-e73231 maxwatts 1300 # 10.0.115.135
-989ff6 maxwatts 1100 # 10.0.121.79
-4ef268 rebootasic 1570861005 # 10.0.117.16
-e73231 rebootasic 1570861005 # 10.0.115.135
-989ff6 rebootasic 1570861005 # 10.0.121.79
-
-47bb2b maxwatts 800 # 10.0.66.101
-e42129 maxwatts 1000 # 10.0.115.42
-4ef268 maxwatts 1200 # 10.0.117.16
-47bb2b rebootasic 1570859182 # 10.0.66.101
-e42129 rebootasic 1570859182 # 10.0.115.42
-4ef268 rebootasic 1570859182 # 10.0.117.16
-
-dd8320 maxwatts 1100 # 10.0.64.145
-85ec4c maxwatts 1200 # 10.0.118.17
-e73231 maxwatts 1400 # 10.0.115.135
-dd8320 rebootasic 1570857365 # 10.0.64.145
-85ec4c rebootasic 1570857365 # 10.0.118.17
-e73231 rebootasic 1570857365 # 10.0.115.135
-
-d34135 maxwatts 1100 # 10.0.61.75
-e42129 maxwatts 1100 # 10.0.115.42
-47bb2b maxwatts 900 # 10.0.66.101
-dd8320 maxwatts 1200 # 10.0.64.145
-d34135 rebootasic 1570855590 # 10.0.61.75
-e42129 rebootasic 1570855590 # 10.0.115.42
-47bb2b rebootasic 1570855590 # 10.0.66.101
-dd8320 rebootasic 1570855590 # 10.0.64.145
-
-4ef268 maxwatts 1300 # 10.0.117.16
-989ff6 maxwatts 1200 # 10.0.121.79
-85ec4c maxwatts 1300 # 10.0.118.17
-4ef268 rebootasic 1570853818 # 10.0.117.16
-989ff6 rebootasic 1570853818 # 10.0.121.79
-85ec4c rebootasic 1570853818 # 10.0.118.17
-
-d34135 maxwatts 1200 # 10.0.61.75
-e42129 maxwatts 1200 # 10.0.115.42
-47bb2b maxwatts 1000 # 10.0.66.101
-d34135 rebootasic 1570852059 # 10.0.61.75
-e42129 rebootasic 1570852059 # 10.0.115.42
-47bb2b rebootasic 1570852059 # 10.0.66.101
-
-4ef268 maxwatts 1400 # 10.0.117.16
-4ef268 rebootasic 1570850309 # 10.0.117.16
-
-47bb2b maxwatts 1100 # 10.0.66.101
-d34135 maxwatts 1300 # 10.0.61.75
-a85379 maxwatts 1300 # 10.0.117.75
-e42129 maxwatts 1300 # 10.0.115.42
-dd8320 maxwatts 1300 # 10.0.64.145
-017eb1 maxwatts 1400 # 10.0.51.106
-47bb2b rebootasic 1570848559 # 10.0.66.101
-d34135 rebootasic 1570848559 # 10.0.61.75
-a85379 rebootasic 1570848559 # 10.0.117.75
-e42129 rebootasic 1570848559 # 10.0.115.42
-dd8320 rebootasic 1570848559 # 10.0.64.145
-017eb1 rebootasic 1570848559 # 10.0.51.106
-
-47bb2b maxwatts 1200 # 10.0.66.101
-989ff6 maxwatts 1300 # 10.0.121.79
-47bb2b rebootasic 1570846820 # 10.0.66.101
-989ff6 rebootasic 1570846820 # 10.0.121.79
-
-47bb2b maxwatts 1300 # 10.0.66.101
-85ec4c maxwatts 1400 # 10.0.118.17
-d34135 maxwatts 1400 # 10.0.61.75
-47bb2b rebootasic 1570845087 # 10.0.66.101
-85ec4c rebootasic 1570845087 # 10.0.118.17
-d34135 rebootasic 1570845087 # 10.0.61.75
-
-989ff6 maxwatts 1400 # 10.0.121.79
-dd8320 maxwatts 1400 # 10.0.64.145
-e42129 maxwatts 1400 # 10.0.115.42
-f5ddbb maxwatts 1400 # 10.0.54.157
-47bb2b maxwatts 1400 # 10.0.66.101
-a85379 maxwatts 1400 # 10.0.117.75
-989ff6 rebootasic 1570843354 # 10.0.121.79
-dd8320 rebootasic 1570843354 # 10.0.64.145
-e42129 rebootasic 1570843354 # 10.0.115.42
-f5ddbb rebootasic 1570843354 # 10.0.54.157
-47bb2b rebootasic 1570843354 # 10.0.66.101
-a85379 rebootasic 1570843354 # 10.0.117.75
-
-2c2665 maxwatts 1400 # 10.0.65.99
-2c2665 rebootasic 1570773183 # 10.0.65.99
-
-51345d maxwatts 1400 # 10.0.119.22
-eb31e9 maxwatts 1400 # 10.0.66.87
-51345d rebootasic 1570766448 # 10.0.119.22
-eb31e9 rebootasic 1570766448 # 10.0.66.87
-
-# 0f2dda maxwatts 800
-# eff346 maxwatts 1425
-# 619d59 maxwatts 1325
-# b78fed maxwatts 1125
-# eb31e9 maxwatts 1325
-# f5acba maxwatts 925 # 10.0.77.51
-# 57db56 maxwatts 1425 # 10.0.66.91
-# 1b4b3a maxwatts 1400 # 10.0.64.14
-# e3ad88 maxwatts 1125 # 10.0.116.58
-# aa7b11 maxwatts 1325 # 10.0.118.33
-# ef15e2 maxwatts 1100 # 10.0.62.131
-# 12853f maxwatts 1200 # 10.0.64.95
-# 51345d maxwatts 1000 # 10.0.119.22
-# 3fd204 maxwatts 1300 # 10.0.121.139
-# 2c2665 maxwatts 1425 # 10.0.65.99
-# bed5d9 maxwatts 1200 # 10.0.120.76
-# 871acb maxwatts 1400 # 10.0.67.69
 
 ## fans
-aa7b11 fanspeed 100
-683bb6 fanspeed 100
-57db56 fanspeed 100
-12853f fanspeed 100
-ef15e2 fanspeed 100
-51345d fanspeed 100
-2c2665 fanspeed 100
-eb31e9 fanspeed 100
-e3ad88 fanspeed 100
-23551c fanspeed 100
 
 ## reboots
-aa7b11 rebootasic 1570750302 # 10.0.118.33 asmit00027
-683bb6 rebootasic 1570750302 # 10.0.67.83 asmit00035
-57db56 rebootasic 1570750302 # 10.0.66.91 asmit00046
-12853f rebootasic 1570750302 # 10.0.64.95 asmit00067
-ef15e2 rebootasic 1570750302 # 10.0.62.131 asmit00097
-51345d rebootasic 1570750302 # 10.0.119.22 asmit00099
+# s_reboot generated on Oct 14 2019 15:12:19 utc: 1571065939
+42d422 rebootasic 1571065939 # 10.0.66.20 asmit00041
+eff346 rebootasic 1571065939 # 10.0.62.110 asmit00005
+e1c210 rebootasic 1571065939 # 10.0.117.1 asmit00007
+1b1f44 rebootasic 1571065939 # 10.0.117.88 asmit00012
+613041 rebootasic 1571065939 # 10.0.120.96 asmit00023
+a9900e rebootasic 1571065939 # 10.0.118.34 asmit00039
+9cf57d rebootasic 1571065939 # 10.0.117.11 asmit00057
+a6d314 rebootasic 1571065939 # 10.0.120.153 asmit00066
+50aace rebootasic 1571065939 # 10.0.118.152 asmit00071
+f6e78f rebootasic 1571065939 # 10.0.116.142 asmit00076
+ebac3f rebootasic 1571065939 # 10.0.116.152 asmit00088
+2b2c57 rebootasic 1571065939 # 10.0.120.151 asmit00093
+0025f7 rebootasic 1571065939 # 10.0.117.133 asmit00098
+47bb2b rebootasic 1571065939 # 10.0.66.101 asmit00051
 
 ## resets
 683bb6 resetasic 1570751440
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
