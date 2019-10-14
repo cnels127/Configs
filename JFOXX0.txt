@@ -74,6 +74,9 @@ d31afd location JFOXX00022
 6f1b5d location JFOXX00024
 
 ## tuning
+54a9ae maxwatts 1200 # 10.0.66.133
+54a9ae rebootasic 1571080933 # 10.0.66.133
+
 a1dd12 maxwatts 900 # 10.0.66.114
 a1dd12 rebootasic 1571068720 # 10.0.66.114
 
@@ -175,6 +178,7 @@ d7ac75 rebootasic 1570796338 # 10.0.66.141
 
 ## asic password
 asicpass admin
+
 
 
 
