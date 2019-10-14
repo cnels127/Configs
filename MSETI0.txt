@@ -54,6 +54,9 @@ f6388e location MSETI00005
 35e5b2 location MSETI00006
 
 ## tuning
+a22315 maxwatts 800 # 10.0.63.140
+a22315 rebootasic 1571044824 # 10.0.63.140
+
 a22315 maxwatts 900 # 10.0.63.140
 a22315 rebootasic 1570948127 # 10.0.63.140
 
@@ -98,6 +101,7 @@ a22315 retune 1
 
 ## asic password
 asicpass admin
+
 
 
 
