@@ -20,8 +20,7 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1350
-
+global maxwatts 1500
 global autoupdate yes
 global allowed yes
 global maxtemp 90
@@ -32,7 +31,7 @@ global blinkgreen rapid
 
 # global retune 1
 # global rebootasic 1
-# global resetasic 1
+global resetasic 1571070997
 # global panelpass gj83Nkgikg
 
 # group=rowc rebootasic 1
@@ -63,64 +62,10 @@ e3af8a location LALBE00006
 4363c7 location LALBE00011
 
 ## tuning
-e3af8a maxwatts 700 # 10.0.64.77
-e3af8a rebootasic 1571044653 # 10.0.64.77
-
-e3af8a maxwatts 800 # 10.0.64.77
-e3af8a rebootasic 1571036651 # 10.0.64.77
-
-a9cee7 maxwatts 1150 # 10.0.56.126
-a9cee7 rebootasic 1570931549 # 10.0.56.126
-
-e3af8a maxwatts 900 # 10.0.64.77
-e3af8a rebootasic 1570870286 # 10.0.64.77
-
-e3af8a maxwatts 1000 # 10.0.64.77
-e3af8a rebootasic 1570866594 # 10.0.64.77
-
-e3af8a maxwatts 1100 # 10.0.64.77
-e3af8a rebootasic 1570859310 # 10.0.64.77
-
-e3af8a maxwatts 1200 # 10.0.64.77
-e3af8a rebootasic 1570850416 # 10.0.64.77
-
-e3af8a maxwatts 1300 # 10.0.64.77
-e3af8a rebootasic 1570845177 # 10.0.64.77
-
-e3af8a maxwatts 1400 # 10.0.64.77
-e3af8a rebootasic 1570838297 # 10.0.64.77
-
-a9cee7 maxwatts 1250 # 10.0.56.126
-a9cee7 rebootasic 1570819648 # 10.0.56.126
-
-
-e3af8a maxwatts 1500
-739481 maxwatts 1500
-6eb9e6 maxwatts 1500
-701541 maxwatts 1500
-979f86 maxwatts 1500
-4363c7 maxwatts 1500
-
-b49a7f retune 2
 
 ## reboots
 
 ## resets
-4363c7 resetasic 1570813461
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
