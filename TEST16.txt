@@ -108,6 +108,9 @@ vlan 10.0.121.96-96
 
 ## tuning
 ec6e17 maxwatts -100 # 10.0.116.77
+ec6e17 rebootasic 1571016608 # 10.0.116.77
+
+ec6e17 maxwatts -100 # 10.0.116.77
 ec6e17 rebootasic 1571014255 # 10.0.116.77
 
 84f544 maxwatts 1200 # 10.0.118.47
@@ -647,6 +650,7 @@ bd7794 resetasic 1570730224
 
 ## asic password
 asicpass admin
+
 
 
 
