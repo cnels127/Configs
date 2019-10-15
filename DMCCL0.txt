@@ -46,6 +46,9 @@ aab607 location DMCCL00004
 
 ## tuning
 97c2eb maxwatts -50 # 10.0.68.28
+97c2eb rebootasic 1571163541 # 10.0.68.28
+
+97c2eb maxwatts -50 # 10.0.68.28
 97c2eb rebootasic 1571158584 # 10.0.68.28
 
 97c2eb maxwatts -50 # 10.0.68.28
@@ -111,6 +114,7 @@ aab607 rebootasic 1570105265 # 10.0.68.29
 
 ## asic password
 asicpass admin
+
 
 
 
