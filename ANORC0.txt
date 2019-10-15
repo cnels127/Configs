@@ -18,7 +18,7 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1350
+global maxwatts 1500
 global autoupdate yes
 global allowed yes
 global maxtemp 90
@@ -29,7 +29,7 @@ global blinkgreen rapid
 
 # global retune 1
 # global rebootasic 1
-global resetasic 1570735344
+global resetasic 1571107115
 # global panelpass gj83Nkgikg
 
 # group=rowc rebootasic 1
