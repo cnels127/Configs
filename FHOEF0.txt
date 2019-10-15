@@ -87,233 +87,26 @@ d560da location FHOEF00039
 7fdd93 location FHOEF00037
 
 ## tuning
-88775f maxwatts 600 # 10.0.121.159
-88775f rebootasic 1571150163 # 10.0.121.159
-
-88775f maxwatts 700 # 10.0.121.159
-fe05ff maxwatts 200 # 10.0.65.57
-84fddc maxwatts 700 # 10.0.55.85
-a03b81 maxwatts 400 # 10.0.121.81
-88775f rebootasic 1571148473 # 10.0.121.159
-fe05ff rebootasic 1571148473 # 10.0.65.57
-84fddc rebootasic 1571148473 # 10.0.55.85
-a03b81 rebootasic 1571148473 # 10.0.121.81
-
-8d76ff rebootasic 1571147914 # 10.0.56.79 fhoef00008
-2bf2a8 rebootasic 1571147914 # 10.0.118.24 fhoef00035
-be5d42 rebootasic 1571147914 # 10.0.120.83 fhoef00033
-bad6b7 rebootasic 1571147914 # 10.0.121.76 fhoef00034
- 
-
-88775f maxwatts 800 # 10.0.121.159
-84fddc maxwatts 800 # 10.0.55.85
-fe05ff maxwatts 300 # 10.0.65.57
-a03b81 maxwatts 500 # 10.0.121.81
-167d2c maxwatts 600 # 10.0.56.59
-88775f rebootasic 1571145371 # 10.0.121.159
-84fddc rebootasic 1571145371 # 10.0.55.85
-fe05ff rebootasic 1571145371 # 10.0.65.57
-a03b81 rebootasic 1571145371 # 10.0.121.81
-167d2c rebootasic 1571145371 # 10.0.56.59
-
-fe05ff maxwatts 400 # 10.0.65.57
-fe05ff rebootasic 1571089530 # 10.0.65.57
-
-64cc79 maxwatts 800 # 10.0.67.136
-64cc79 rebootasic 1571063054 # 10.0.67.136
-
-167d2c maxwatts 700 # 10.0.56.59
-167d2c rebootasic 1571031012 # 10.0.56.59
-
-88775f maxwatts 900 # 10.0.121.159
-88775f rebootasic 1570980184 # 10.0.121.159
-
-fe05ff maxwatts 500 # 10.0.65.57
-fe05ff rebootasic 1570971542 # 10.0.65.57
-
-84fddc maxwatts 900 # 10.0.55.85
-84fddc rebootasic 1570967194 # 10.0.55.85
-
-a03b81 maxwatts 600 # 10.0.121.81
-a03b81 rebootasic 1570958783 # 10.0.121.81
-
-88775f maxwatts 1000 # 10.0.121.159
-fe05ff maxwatts 600 # 10.0.65.57
-88775f rebootasic 1570950099 # 10.0.121.159
-fe05ff rebootasic 1570950099 # 10.0.65.57
-
-88775f maxwatts 1100 # 10.0.121.159
-88775f rebootasic 1570943768 # 10.0.121.159
-
-b6e889 maxwatts 1200 # 10.0.63.144
-b6e889 rebootasic 1570920488 # 10.0.63.144
-
-64cc79 maxwatts 900 # 10.0.67.136
-64cc79 rebootasic 1570873926 # 10.0.67.136
-
-167d2c maxwatts 800 # 10.0.56.59
-a03b81 maxwatts 700 # 10.0.121.81
-167d2c rebootasic 1570872059 # 10.0.56.59
-a03b81 rebootasic 1570872059 # 10.0.121.81
-
-64cc79 maxwatts 1000 # 10.0.67.136
-64cc79 rebootasic 1570870207 # 10.0.67.136
-
-fe05ff maxwatts 700 # 10.0.65.57
-fe05ff rebootasic 1570868366 # 10.0.65.57
-
-167d2c maxwatts 900 # 10.0.56.59
-167d2c rebootasic 1570866514 # 10.0.56.59
-
-fe05ff maxwatts 800 # 10.0.65.57
-84fddc maxwatts 1000 # 10.0.55.85
-fe05ff rebootasic 1570862837 # 10.0.65.57
-84fddc rebootasic 1570862837 # 10.0.55.85
-
-fe05ff maxwatts 900 # 10.0.65.57
-167d2c maxwatts 1000 # 10.0.56.59
-fe05ff rebootasic 1570859235 # 10.0.65.57
-167d2c rebootasic 1570859235 # 10.0.56.59
-
-a03b81 maxwatts 800 # 10.0.121.81
-a03b81 rebootasic 1570857411 # 10.0.121.81
-
-a03b81 maxwatts 900 # 10.0.121.81
-a03b81 rebootasic 1570853860 # 10.0.121.81
-
-a03b81 maxwatts 1000 # 10.0.121.81
-a03b81 rebootasic 1570850351 # 10.0.121.81
-
-fe05ff maxwatts 1000 # 10.0.65.57
-fe05ff rebootasic 1570848596 # 10.0.65.57
-
-ed92f7 maxwatts 1300 # 10.0.64.126
-ed92f7 rebootasic 1570843390 # 10.0.64.126
-
-fe05ff maxwatts 1100 # 10.0.65.57
-fe05ff rebootasic 1570841671 # 10.0.65.57
-
-fe05ff maxwatts 1200 # 10.0.65.57
-fe05ff rebootasic 1570838244 # 10.0.65.57
-
-a03b81 maxwatts 1100 # 10.0.121.81
-a03b81 rebootasic 1570836535 # 10.0.121.81
-
-fe05ff maxwatts 1300 # 10.0.65.57
-fe05ff rebootasic 1570831420 # 10.0.65.57
-
-a03b81 maxwatts 1200 # 10.0.121.81
-a03b81 rebootasic 1570828033 # 10.0.121.81
-
-167d2c maxwatts 1100 # 10.0.56.59
-167d2c rebootasic 1570826340 # 10.0.56.59
-
-167d2c maxwatts 1200 # 10.0.56.59
-167d2c rebootasic 1570821289 # 10.0.56.59
-
-167d2c maxwatts 1300 # 10.0.56.59
-167d2c rebootasic 1570817927 # 10.0.56.59
-
-84fddc maxwatts 1100 # 10.0.55.85
-84fddc rebootasic 1570784767 # 10.0.55.85
-
-64cc79 maxwatts 1100 # 10.0.67.136
-64cc79 rebootasic 1570769876 # 10.0.67.136
-
-88775f maxwatts 1200 # 10.0.121.159
-88775f rebootasic 1570727333 # 10.0.121.159
-
-64cc79 maxwatts 1200 # 10.0.67.136
-64cc79 rebootasic 1570666052 # 10.0.67.136
-
-64cc79 maxwatts 1300 # 10.0.67.136
-64cc79 rebootasic 1570664234 # 10.0.67.136
-
-84fddc maxwatts 1200 # 10.0.55.85
-84fddc rebootasic 1570619753 # 10.0.55.85
-
-84fddc maxwatts 1300 # 10.0.55.85
-84fddc rebootasic 1570600365 # 10.0.55.85
-
-2bf2a8 maxwatts 1200 # 10.0.118.24
-2bf2a8 rebootasic 1569318617 # 10.0.118.24
-
-2bf2a8 maxwatts 1300 # 10.0.118.24
-b6e889 maxwatts 1300 # 10.0.63.144
-2bf2a8 rebootasic 1569309731 # 10.0.118.24
-b6e889 rebootasic 1569309731 # 10.0.63.144
-
-99d76d maxwatts 1300 # 10.0.62.30
-99d76d rebootasic 1569299210 # 10.0.62.30
-
-# generated on Sep 24 2019 03:36:57 utc: 1569296217: 1569296217
-9c860e maxwatts 1300 # 10.0.120.128
-bad6b7 maxwatts 1300 # 10.0.121.76
-a03b81 maxwatts 1300 # 10.0.121.81
-873362 maxwatts 1300 # 10.0.118.41
-e3f444 maxwatts 1300 # 10.0.68.7
-584490 maxwatts 1300 # 10.0.121.8
-88775f maxwatts 1300 # 10.0.121.159
-752979 maxwatts 1300 # 10.0.121.5
-9c860e rebootasic 1569296217 # 10.0.120.128
-bad6b7 rebootasic 1569296217 # 10.0.121.76
-a03b81 rebootasic 1569296217 # 10.0.121.81
-873362 rebootasic 1569296217 # 10.0.118.41
-e3f444 rebootasic 1569296217 # 10.0.68.7
-584490 rebootasic 1569296217 # 10.0.121.8
-88775f rebootasic 1569296217 # 10.0.121.159
-752979 rebootasic 1569296217 # 10.0.121.5
 
 ## resets
-d560da resetasic 1569608472
-be5d42 resetasic 1569559767
-e2c437 resetasic 1569303166
-e2c437 resetasic 1
+88775f resetasic 1571151521
+c71a7f resetasic 1571151521
+1444fa resetasic 1571151521
+2bf2a8 resetasic 1571151521
+9e743b resetasic 1571151521
+873362 resetasic 1571151521
+c16782 resetasic 1571151521
+4ffb50 resetasic 1571151521
+a03b81 resetasic 1571151521
+be5d42 resetasic 1571151521
+7e7126 resetasic 1571151521
+de83b4 resetasic 1571151521
+8d76ff resetasic 1571151521
+bc2299 resetasic 1571151521
+fe05ff resetasic 1571151521
+b6e889 resetasic 1571151521
+167d2c resetasic 1571151521
+84fddc resetasic 1571151521
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
