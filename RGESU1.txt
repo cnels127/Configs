@@ -51,6 +51,9 @@ a8b8de location RGESU10003
 af9564 location RGESU10006
 
 ## tuning
+329fab rebootasic 1571148000 # 10.10.125.12 rgesu10004
+ 
+
 329fab maxwatts 1200 # 10.10.125.12
 329fab rebootasic 1571145483 # 10.10.125.12
 
@@ -64,6 +67,7 @@ af9564 retune 1
 
 ## asic password
 asicpass admin
+
 
 
 
