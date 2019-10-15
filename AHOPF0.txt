@@ -3,16 +3,16 @@
 
 global custompanel AHOPF0bit049
 
-global poolname1 btc.ru.3tkje.antpool.com:3333
-global username1 GMTVILLA01
+global poolname1 eu.ss.btc.com:1800
+global username1 GMTMAIN
 global poolpass1 123
 global sendworker1 yes
-global poolname2 btc.ru.3tkje.antpool.com:443
-global username2 GMTVILLA01
+global poolname2 us.ss.btc.com:1800
+global username2 GMTMAINUS
 global poolpass2 123
 global sendworker2 yes
-global poolname3 vip.cnaw2.antpool.com:3333
-global username3 GMTVILLA01
+global poolname3 btc.ru.3tkje.antpool.com:3333
+global username3 GMTBMS01
 global poolpass3 123
 global sendworker3 yes
 
@@ -28,14 +28,15 @@ global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
-global rebootasic 4
-global resetasic 1571113675 #global resetasic 1571113675 # 1570840241
+# global rebootasic 4
+# global resetasic 1571113675 
+# global resetasic 1571113675
 # global panelpass gj83Nkgikg
 
 # group=rowc rebootasic 1
 # group=rowd allowed no
 
-## vlans
+## GMTVILLA01 (75 Machines)
 # vlan 10.0.56.159-159
 # vlan 10.0.56.160-160
 # vlan 10.0.56.161-161
@@ -110,8 +111,6 @@ global resetasic 1571113675 #global resetasic 1571113675 # 1570840241
 # vlan 10.0.121.64-64
 # vlan 10.0.121.82-82
 # vlan 10.0.121.83-83
-
-## locations
 cb7a3d location AHOPF00001
 0697d7 location AHOPF00002
 c606e7 location AHOPF00003
@@ -188,2010 +187,1226 @@ be27de location AHOPF00071
 1680e1 location AHOPF00074
 c6cbe1 location AHOPF00075
 
+## GMTBMS01
+vlan 10.0.115.3-3
+vlan 10.0.115.4-4
+vlan 10.0.115.9-9
+vlan 10.0.115.16-16
+vlan 10.0.115.20-20
+vlan 10.0.115.22-22
+vlan 10.0.115.23-23
+vlan 10.0.115.26-26
+vlan 10.0.115.27-27
+vlan 10.0.115.28-28
+vlan 10.0.115.37-37
+vlan 10.0.115.57-57
+vlan 10.0.115.58-58
+vlan 10.0.115.68-68
+vlan 10.0.115.69-69
+vlan 10.0.115.70-70
+vlan 10.0.115.73-73
+vlan 10.0.115.74-74
+vlan 10.0.115.75-75
+vlan 10.0.115.79-79
+vlan 10.0.115.82-82
+vlan 10.0.115.89-89
+vlan 10.0.115.97-97
+vlan 10.0.115.99-99
+vlan 10.0.115.109-109
+vlan 10.0.115.110-110
+vlan 10.0.115.115-115
+vlan 10.0.115.118-118
+vlan 10.0.115.119-119
+vlan 10.0.115.121-121
+vlan 10.0.115.123-123
+vlan 10.0.115.125-125
+vlan 10.0.115.128-128
+vlan 10.0.115.130-130
+vlan 10.0.115.131-131
+vlan 10.0.115.134-134
+vlan 10.0.115.136-136
+vlan 10.0.115.137-137
+vlan 10.0.115.144-144
+vlan 10.0.115.146-146
+vlan 10.0.115.150-150
+vlan 10.0.115.151-151
+vlan 10.0.115.158-158
+vlan 10.0.115.159-159
+vlan 10.0.115.160-160
+vlan 10.0.116.1-1
+vlan 10.0.116.3-3
+vlan 10.0.116.4-4
+vlan 10.0.116.19-19
+vlan 10.0.116.22-22
+vlan 10.0.116.25-25
+vlan 10.0.116.26-26
+vlan 10.0.116.28-28
+vlan 10.0.116.29-29
+vlan 10.0.116.35-35
+vlan 10.0.116.36-36
+vlan 10.0.116.39-39
+vlan 10.0.116.42-42
+vlan 10.0.116.45-45
+vlan 10.0.116.46-46
+vlan 10.0.116.56-56
+vlan 10.0.116.59-59
+vlan 10.0.116.63-63
+vlan 10.0.116.64-64
+vlan 10.0.116.66-66
+vlan 10.0.116.76-76
+vlan 10.0.116.78-78
+vlan 10.0.116.89-89
+vlan 10.0.116.102-102
+vlan 10.0.116.109-109
+vlan 10.0.116.111-111
+vlan 10.0.116.113-113
+vlan 10.0.116.119-119
+vlan 10.0.116.123-123
+vlan 10.0.116.125-125
+vlan 10.0.116.127-127
+vlan 10.0.116.133-133
+vlan 10.0.116.138-138
+vlan 10.0.116.140-140
+vlan 10.0.116.143-143
+vlan 10.0.116.146-146
+vlan 10.0.116.148-148
+vlan 10.0.116.155-155
+vlan 10.0.116.156-156
+vlan 10.0.116.158-158
+vlan 10.0.117.61-61
+vlan 10.0.117.67-67
+vlan 10.0.117.72-72
+vlan 10.0.117.73-73
+vlan 10.0.117.86-86
+vlan 10.0.117.87-87
+vlan 10.0.117.98-98
+vlan 10.0.117.101-101
+vlan 10.0.117.111-111
+vlan 10.0.117.112-112
+vlan 10.0.117.115-115
+vlan 10.0.117.123-123
+vlan 10.0.117.125-125
+vlan 10.0.117.126-126
+vlan 10.0.117.130-130
+vlan 10.0.117.132-132
+vlan 10.0.117.137-137
+vlan 10.0.117.138-138
+vlan 10.0.117.142-142
+vlan 10.0.117.148-148
+vlan 10.0.117.149-149
+vlan 10.0.117.153-153
+vlan 10.0.117.156-156
+vlan 10.0.117.159-159
+vlan 10.0.117.160-160
+vlan 10.0.118.3-3
+vlan 10.0.118.11-11
+vlan 10.0.118.16-16
+vlan 10.0.118.20-20
+vlan 10.0.118.25-25
+vlan 10.0.118.58-58
+vlan 10.0.118.74-74
+vlan 10.0.118.79-79
+vlan 10.0.118.82-82
+vlan 10.0.118.84-84
+vlan 10.0.118.93-93
+vlan 10.0.118.105-105
+vlan 10.0.118.116-116
+vlan 10.0.118.117-117
+vlan 10.0.118.119-119
+vlan 10.0.118.132-132
+vlan 10.0.118.133-133
+vlan 10.0.118.136-136
+vlan 10.0.118.137-137
+vlan 10.0.118.141-141
+vlan 10.0.118.145-145
+vlan 10.0.118.154-154
+vlan 10.0.118.160-160
+vlan 10.0.118.161-161
+vlan 10.0.119.11-11
+vlan 10.0.119.14-14
+vlan 10.0.119.20-20
+vlan 10.0.119.26-26
+vlan 10.0.119.32-32
+vlan 10.0.119.38-38
+vlan 10.0.119.42-42
+vlan 10.0.119.43-43
+vlan 10.0.119.46-46
+vlan 10.0.119.54-54
+vlan 10.0.119.57-57
+vlan 10.0.119.64-64
+vlan 10.0.119.65-65
+vlan 10.0.119.67-67
+vlan 10.0.119.68-68
+vlan 10.0.119.69-69
+vlan 10.0.119.80-80
+vlan 10.0.119.85-85
+vlan 10.0.119.87-87
+vlan 10.0.119.91-91
+vlan 10.0.119.93-93
+vlan 10.0.119.95-95
+vlan 10.0.119.98-98
+vlan 10.0.119.102-102
+vlan 10.0.119.120-120
+vlan 10.0.119.121-121
+vlan 10.0.119.149-149
+vlan 10.0.119.152-152
+vlan 10.0.119.158-158
+vlan 10.0.119.163-163
+vlan 10.0.120.2-2
+vlan 10.0.120.25-25
+vlan 10.0.120.30-30
+vlan 10.0.120.35-35
+vlan 10.0.120.57-57
+vlan 10.0.120.62-62
+vlan 10.0.120.74-74
+vlan 10.0.120.79-79
+vlan 10.0.120.109-109
+vlan 10.0.120.124-124
+vlan 10.0.120.125-125
+vlan 10.0.120.126-126
+vlan 10.0.120.132-132
+vlan 10.0.120.134-134
+vlan 10.0.120.136-136
+vlan 10.0.120.139-139
+vlan 10.0.120.145-145
+vlan 10.0.120.149-149
+vlan 10.0.120.150-150
+vlan 10.0.120.155-155
+vlan 10.0.120.157-157
+vlan 10.0.120.161-161
+vlan 10.0.121.9-9
+vlan 10.0.121.17-17
+vlan 10.0.121.37-37
+vlan 10.0.121.48-48
+vlan 10.0.121.56-56
+vlan 10.0.121.57-57
+vlan 10.0.121.60-60
+vlan 10.0.121.61-61
+vlan 10.0.121.66-66
+vlan 10.0.121.67-67
+vlan 10.0.121.87-87
+vlan 10.0.121.97-97
+vlan 10.0.121.98-98
+vlan 10.0.121.99-99
+vlan 10.0.121.104-104
+vlan 10.0.121.112-112
+vlan 10.0.121.115-115
+vlan 10.0.121.117-117
+vlan 10.0.121.118-118
+vlan 10.0.121.126-126
+vlan 10.0.121.127-127
+vlan 10.0.121.129-129
+vlan 10.0.121.130-130
+vlan 10.0.121.141-141
+vlan 10.0.121.146-146
+vlan 10.0.121.148-148
+vlan 10.0.121.149-149
+vlan 10.0.121.151-151
+vlan 10.0.121.154-154
+vlan 10.0.121.155-155
+vlan 10.0.121.156-156
+vlan 10.0.121.158-158
+vlan 10.0.223.110-110
+vlan 10.0.224.44-44
+vlan 10.0.224.171-171
+vlan 10.0.226.68-68
+vlan 10.0.226.69-69
+vlan 10.0.226.80-80
+vlan 10.0.229.13-13
+
+vlan 10.0.20.1-1
+vlan 10.0.20.2-2
+vlan 10.0.20.3-3
+vlan 10.0.20.4-4
+vlan 10.0.20.5-5
+vlan 10.0.20.6-6
+vlan 10.0.20.7-7
+vlan 10.0.20.8-8
+vlan 10.0.20.9-9
+vlan 10.0.20.10-10
+vlan 10.0.20.11-11
+vlan 10.0.20.12-12
+vlan 10.0.20.13-13
+vlan 10.0.20.14-14
+vlan 10.0.20.15-15
+vlan 10.0.20.16-16
+vlan 10.0.20.17-17
+vlan 10.0.20.18-18
+vlan 10.0.20.19-19
+vlan 10.0.20.20-20
+vlan 10.0.20.21-21
+vlan 10.0.20.22-22
+vlan 10.0.20.23-23
+vlan 10.0.20.24-24
+vlan 10.0.20.25-25
+vlan 10.0.20.26-26
+vlan 10.0.20.27-27
+vlan 10.0.20.28-28
+vlan 10.0.20.29-29
+vlan 10.0.20.30-30
+vlan 10.0.20.31-31
+vlan 10.0.20.32-32
+vlan 10.0.20.33-33
+vlan 10.0.20.34-34
+vlan 10.0.20.35-35
+vlan 10.0.20.36-36
+vlan 10.0.20.37-37
+vlan 10.0.20.38-38
+vlan 10.0.20.39-39
+vlan 10.0.20.40-40
+vlan 10.0.20.41-41
+vlan 10.0.20.42-42
+vlan 10.0.20.43-43
+vlan 10.0.20.44-44
+vlan 10.0.20.45-45
+vlan 10.0.20.46-46
+vlan 10.0.20.47-47
+vlan 10.0.20.48-48
+vlan 10.0.20.49-49
+vlan 10.0.20.50-50
+vlan 10.0.20.51-51
+vlan 10.0.20.52-52
+vlan 10.0.20.53-53
+vlan 10.0.20.54-54
+vlan 10.0.20.62-62
+vlan 10.0.20.63-63
+vlan 10.0.20.64-64
+vlan 10.0.20.65-65
+vlan 10.0.20.66-66
+vlan 10.0.20.67-67
+vlan 10.0.20.68-68
+vlan 10.0.20.69-69
+vlan 10.0.20.70-70
+vlan 10.0.20.71-71
+vlan 10.0.20.72-72
+vlan 10.0.20.73-73
+vlan 10.0.20.74-74
+vlan 10.0.20.75-75
+vlan 10.0.20.76-76
+vlan 10.0.20.77-77
+vlan 10.0.20.78-78
+vlan 10.0.20.79-79
+vlan 10.0.20.80-80
+vlan 10.0.20.81-81
+vlan 10.0.20.82-82
+vlan 10.0.20.83-83
+vlan 10.0.20.84-84
+vlan 10.0.20.85-85
+vlan 10.0.20.86-86
+vlan 10.0.20.87-87
+vlan 10.0.20.88-88
+vlan 10.0.20.89-89
+vlan 10.0.20.90-90
+vlan 10.0.20.91-91
+vlan 10.0.20.92-92
+vlan 10.0.20.93-93
+vlan 10.0.20.94-94
+vlan 10.0.20.95-95
+vlan 10.0.20.96-96
+vlan 10.0.20.97-97
+vlan 10.0.20.98-98
+vlan 10.0.20.99-99
+vlan 10.0.20.100-100
+vlan 10.0.20.101-101
+vlan 10.0.20.102-102
+vlan 10.0.20.103-103
+vlan 10.0.20.104-104
+vlan 10.0.20.105-105
+vlan 10.0.20.106-106
+vlan 10.0.20.107-107
+vlan 10.0.20.108-108
+vlan 10.0.20.109-109
+vlan 10.0.20.110-110
+vlan 10.0.20.111-111
+vlan 10.0.20.112-112
+vlan 10.0.20.113-113
+vlan 10.0.20.114-114
+vlan 10.0.20.115-115
+vlan 10.0.20.116-116
+vlan 10.0.20.117-117
+vlan 10.0.20.118-118
+vlan 10.0.20.119-119
+vlan 10.0.20.120-120
+vlan 10.0.20.121-121
+vlan 10.0.20.122-122
+vlan 10.0.20.123-123
+vlan 10.0.20.124-124
+vlan 10.0.20.125-125
+vlan 10.0.20.126-126
+vlan 10.0.20.127-127
+vlan 10.0.20.128-128
+vlan 10.0.20.129-129
+vlan 10.0.20.130-130
+vlan 10.0.20.131-131
+vlan 10.0.20.132-132
+vlan 10.0.20.133-133
+vlan 10.0.20.134-134
+vlan 10.0.20.135-135
+vlan 10.0.20.136-136
+vlan 10.0.20.137-137
+vlan 10.0.20.138-138
+vlan 10.0.20.139-139
+vlan 10.0.20.140-140
+vlan 10.0.20.141-141
+vlan 10.0.20.142-142
+vlan 10.0.20.143-143
+vlan 10.0.20.144-144
+vlan 10.0.20.145-145
+vlan 10.0.20.146-146
+vlan 10.0.20.147-147
+vlan 10.0.20.148-148
+vlan 10.0.20.149-149
+vlan 10.0.20.150-150
+vlan 10.0.20.151-151
+vlan 10.0.20.152-152
+vlan 10.0.20.153-153
+vlan 10.0.20.154-154
+vlan 10.0.20.155-155
+vlan 10.0.20.156-156
+vlan 10.0.20.157-157
+vlan 10.0.20.158-158
+vlan 10.0.20.159-159
+vlan 10.0.20.160-160
+a61391 location AHOPF00076
+2e67dc location AHOPF00076
+26fe6a location AHOPF00077
+ddb214 location AHOPF00078
+aa775d location AHOPF00079
+e97edc location AHOPF00080
+4d79ed location AHOPF00081
+b8ef7f location AHOPF00082
+6296be location AHOPF00083
+761064 location AHOPF00084
+2c72ed location AHOPF00085
+ac9e3b location AHOPF00086
+9f2cc0 location AHOPF00087
+b78cd3 location AHOPF00088
+b97aec location AHOPF00089
+1ec256 location AHOPF00090
+9ea85e location AHOPF00091
+7a4cbf location AHOPF00092
+8338dc location AHOPF00093
+a5e807 location AHOPF00094
+e51438 location AHOPF00095
+cbc634 location AHOPF00096
+73d5cd location AHOPF00097
+49be6d location AHOPF00098
+cbc77e location AHOPF00099
+9c7529 location AHOPF00100
+79abef location AHOPF00101
+162760 location AHOPF00102
+a7f562 location AHOPF00103
+1151fd location AHOPF00104
+918961 location AHOPF00105
+b5632a location AHOPF00106
+6241c4 location AHOPF00107
+e5de91 location AHOPF00108
+06043c location AHOPF00109
+4ce146 location AHOPF00110
+aa104f location AHOPF00111
+8cd4b8 location AHOPF00112
+45e374 location AHOPF00113
+f35825 location AHOPF00114
+377938 location AHOPF00115
+fb97b4 location AHOPF00116
+49bc94 location AHOPF00117
+dbd805 location AHOPF00118
+e18f8f location AHOPF00119
+5924ed location AHOPF00120
+862df7 location AHOPF00121
+b621e4 location AHOPF00122
+14f506 location AHOPF00123
+11e15c location AHOPF00124
+ec49d0 location AHOPF00125
+bc1f98 location AHOPF00126
+98d6ae location AHOPF00127
+70245b location AHOPF00128
+1fe9d4 location AHOPF00129
+b5cf99 location AHOPF00130
+3f4abe location AHOPF00131
+42ba91 location AHOPF00132
+9da4e2 location AHOPF00133
+c5dfea location AHOPF00134
+f01d71 location AHOPF00135
+1f2763 location AHOPF00136
+69272e location AHOPF00137
+d5f0df location AHOPF00138
+5f63c0 location AHOPF00139
+e3558c location AHOPF00140
+dbec2a location AHOPF00141
+c97eeb location AHOPF00142
+fc42af location AHOPF00143
+41dd5d location AHOPF00144
+1fb534 location AHOPF00145
+96b4d0 location AHOPF00146
+ebbec9 location AHOPF00147
+49f59c location AHOPF00148
+8c0b48 location AHOPF00149
+f4edef location AHOPF00150
+67ad2b location AHOPF00151
+756c72 location AHOPF00152
+f01cc1 location AHOPF00153
+91b80f location AHOPF00154
+b99f63 location AHOPF00155
+81e8ca location AHOPF00156
+063844 location AHOPF00157
+013fb7 location AHOPF00158
+a7a6fd location AHOPF00159
+d2f90b location AHOPF00160
+43dfaa location AHOPF00161
+954d6b location AHOPF00162
+f9f468 location AHOPF00163
+1bf925 location AHOPF00164
+4e7242 location AHOPF00165
+0ed7c3 location AHOPF00166
+107a3f location AHOPF00167
+a28e76 location AHOPF00168
+680629 location AHOPF00169
+907d41 location AHOPF00170
+f73afd location AHOPF00171
+5d3a76 location AHOPF00172
+d7e7c1 location AHOPF00173
+a4a384 location AHOPF00174
+325536 location AHOPF00175
+538782 location AHOPF00176
+0b195c location AHOPF00177
+ed93d9 location AHOPF00178
+2c8cd5 location AHOPF00179
+8ce0da location AHOPF00180
+9b627a location AHOPF00181
+7db077 location AHOPF00182
+cb2ee7 location AHOPF00183
+95c8c3 location AHOPF00184
+251427 location AHOPF00185
+3e45c9 location AHOPF00186
+9a17ab location AHOPF00187
+b8e18b location AHOPF00188
+02e7da location AHOPF00189
+c7d88a location AHOPF00190
+fbfc4b location AHOPF00191
+4f54c6 location AHOPF00192
+e3ec19 location AHOPF00193
+4ec743 location AHOPF00194
+48deba location AHOPF00195
+d0f1c5 location AHOPF00196
+083967 location AHOPF00197
+bda514 location AHOPF00198
+ae4e94 location AHOPF00199
+7ace88 location AHOPF00200
+92e8df location AHOPF00201
+361299 location AHOPF00202
+38f67d location AHOPF00203
+e8b482 location AHOPF00204
+5b0b0f location AHOPF00205
+2c38f0 location AHOPF00206
+7f4c05 location AHOPF00207
+6d6ee5 location AHOPF00208
+b06869 location AHOPF00209
+c6721f location AHOPF00210
+1abfaa location AHOPF00211
+291e6a location AHOPF00212
+3f1222 location AHOPF00213
+453434 location AHOPF00214
+81ceb2 location AHOPF00215
+9ac0b4 location AHOPF00216
+439e29 location AHOPF00217
+98a4dc location AHOPF00218
+dbf995 location AHOPF00219
+e705e2 location AHOPF00220
+a41d98 location AHOPF00221
+9c3f82 location AHOPF00222
+f4803e location AHOPF00223
+aef536 location AHOPF00224
+36138b location AHOPF00225
+ebfae9 location AHOPF00226
+6956cf location AHOPF00227
+1da911 location AHOPF00228
+1d0081 location AHOPF00229
+30a113 location AHOPF00230
+6462f9 location AHOPF00231
+511c0f location AHOPF00232
+6eb571 location AHOPF00233
+c3e42b location AHOPF00234
+909f42 location AHOPF00235
+f77c16 location AHOPF00236
+231e10 location AHOPF00237
+319daa location AHOPF00238
+9350c9 location AHOPF00239
+ffbd34 location AHOPF00240
+d67876 location AHOPF00241
+c3ca0b location AHOPF00242
+6e9d31 location AHOPF00243
+58d134 location AHOPF00244
+0f40ca location AHOPF00245
+a3b0e2 location AHOPF00246
+b39993 location AHOPF00247
+611b3a location AHOPF00248
+8c5e6a location AHOPF00249
+050e35 location AHOPF00250
+10c92c location AHOPF00251
+f643d6 location AHOPF00252
+fe9dbc location AHOPF00253
+182fb6 location AHOPF00254
+8060b1 location AHOPF00255
+49d54c location AHOPF00256
+feb499 location AHOPF00257
+bf93f7 location AHOPF00258
+4be16a location AHOPF00259
+974b8e location AHOPF00260
+d086cc location AHOPF00261
+7bd54d location AHOPF00262
+683eaf location AHOPF00263
+47f82c location AHOPF00264
+cc0723 location AHOPF00265
+2c336c location AHOPF00266
+3b56cc location AHOPF00267
+ede1d7 location AHOPF00268
+25ab47 location AHOPF00269
+212177 location AHOPF00270
+7401f4 location AHOPF00271
+7c7fa9 location AHOPF00272
+e249c4 location AHOPF00273
+25c894 location AHOPF00274
+da40e8 location AHOPF00275
+ee2a52 location AHOPF00276
+80a3e3 location AHOPF00277
+0763a7 location AHOPF00278
+b188c8 location AHOPF00279
+c1e884 location AHOPF00280
+8daee1 location AHOPF00281
+1369fd location AHOPF00282
+0d3787 location AHOPF00283
+a19897 location AHOPF00284
+525871 location AHOPF00285
+318543 location AHOPF00286
+0676bb location AHOPF00287
+0c978c location AHOPF00288
+8744d5 location AHOPF00289
+e219fe location AHOPF00290
+6254a4 location AHOPF00291
+e8a87c location AHOPF00292
+da7641 location AHOPF00293
+bbc88e location AHOPF00294
+4b0c05 location AHOPF00295
+cb5f83 location AHOPF00296
+7a1dba location AHOPF00297
+59b276 location AHOPF00298
+4ee240 location AHOPF00299
+3b5e37 location AHOPF00300
+64e8d9 location AHOPF00301
+cc9fd9 location AHOPF00302
+79c07f location AHOPF00303
+fd2246 location AHOPF00304
+7590b3 location AHOPF00305
+010ecd location AHOPF00306
+bfd0a3 location AHOPF00307
+77253f location AHOPF00308
+952620 location AHOPF00309
+02ed3b location AHOPF00310
+02e78e location AHOPF00311
+23a3fb location AHOPF00312
+6f82b5 location AHOPF00313
+e09d11 location AHOPF00314
+519e2d location AHOPF00315
+a3fe0e location AHOPF00316
+d9cb06 location AHOPF00317
+93ba23 location AHOPF00318
+2639b1 location AHOPF00319
+0e7129 location AHOPF00320
+285eaa location AHOPF00321
+7b5858 location AHOPF00322
+3b82a6 location AHOPF00323
+f73f65 location AHOPF00324
+80e1a3 location AHOPF00325
+73b3d8 location AHOPF00326
+ location AHOPF00327
+a27a14 location AHOPF00328
+b5df40 location AHOPF00329
+5142da location AHOPF00330
+330ac8 location AHOPF00331
+c6eb8f location AHOPF00332
+77f364 location AHOPF00333
+f476f8 location AHOPF00334
+746d1e location AHOPF00335
+fd9612 location AHOPF00336
+253618 location AHOPF00337
+b262c5 location AHOPF00338
+3e7458 location AHOPF00339
+ef5d97 location AHOPF00340
+04790f location AHOPF00341
+a2b940 location AHOPF00342
+f6b2c7 location AHOPF00343
+389091 location AHOPF00344
+ebad13 location AHOPF00345
+fbac47 location AHOPF00346
+3a2f7e location AHOPF00347
+62e3a0 location AHOPF00348
+ea8118 location AHOPF00349
+83eb7f location AHOPF00350
+4fe0e1 location AHOPF00351
+cd37f8 location AHOPF00352
+eaa7bc location AHOPF00353
+45ecb5 location AHOPF00354
+b7ee47 location AHOPF00355
+af594a location AHOPF00356
+267ad2 location AHOPF00357
+08ac34 location AHOPF00358
+e467c5 location AHOPF00359
+d1027e location AHOPF00360
+367c9d location AHOPF00361
+f7b0fc location AHOPF00362
+5c5d11 location AHOPF00363
+a2affd location AHOPF00364
+a6565f location AHOPF00365
+e31317 location AHOPF00366
+2c024b location AHOPF00367
+855e55 location AHOPF00368
+afad02 location AHOPF00369
+17ea41 location AHOPF00370
+24273b location AHOPF00371
+480a1a location AHOPF00372
+4ed093 location AHOPF00373
+08ef17 location AHOPF00374
+e84233 location AHOPF00375
+bac4af location AHOPF00376
+c29470 location AHOPF00377
+8e9026 location AHOPF00378
+1f4a0d location AHOPF00379
+0fc9a9 location AHOPF00380
+a64893 location AHOPF00381
+b79b7a location AHOPF00382
+308614 location AHOPF00383
+d9e3f4 location AHOPF00384
+4a2a17 location AHOPF00385
+72109e location AHOPF00386
+3a6a42 location AHOPF00387
+8189d5 location AHOPF00388
+93663e location AHOPF00389
+a7f120 location AHOPF00390
+76dfa0 location AHOPF00391
+9b356e location AHOPF00392
+cf8737 location AHOPF00393
+b5232f location AHOPF00394
+212810 location AHOPF00395
+d317f1 location AHOPF00396
+9c071b location AHOPF00397
+faaab4 location AHOPF00398
+aab92e location AHOPF00399
+2efa3c location AHOPF00400
+42bd7e location AHOPF00401
+8d7d97 location AHOPF00402
+59141e location AHOPF00403
+8c9189 location AHOPF00404
+469251 location AHOPF00405
+5783fe location AHOPF00406
+6b9f94 location AHOPF00407
+8da327 location AHOPF00408
+ location AHOPF00409
+e549f5 location AHOPF00410
+218527 location AHOPF00411
+bc472e location AHOPF00412
+3fc24e location AHOPF00413
+19756a location AHOPF00414
+17ce8c location AHOPF00415
+8afb1b location AHOPF00416
+37d5ce location AHOPF00417
+be62a6 location AHOPF00418
+3e5528 location AHOPF00419
+a47fd5 location AHOPF00420
+ca77dd location AHOPF00421
+e0d12f location AHOPF00422
+bcb08b location AHOPF00423
+22f5be location AHOPF00424
+8d788a location AHOPF00425
+0a5ffb location AHOPF00426
+dc6882 location AHOPF00427
+dfa90f location AHOPF00428
+d162e2 location AHOPF00429
+638597 location AHOPF00430
+055a7f location AHOPF00431
+93db98 location AHOPF00432
+204b63 location AHOPF00433
+a8b74f location AHOPF00434
+29c5a2 location AHOPF00435
+12e887 location AHOPF00436
+dd9d7b location AHOPF00437
+8ffbc2 location AHOPF00438
+03e6c8 location AHOPF00439
+5da055 location AHOPF00440
+069009 location AHOPF00441
+0f6f9a location AHOPF00442
+3d6ba7 location AHOPF00443
+48ae69 location AHOPF00444
+e1ebc9 location AHOPF00445
+07a03a location AHOPF00446
+0dfa04 location AHOPF00447
+47be03 location AHOPF00448
+7be20a location AHOPF00449
+333438 location AHOPF00450
+d7ca01 location AHOPF00451
+028d18 location AHOPF00452
+95f51f location AHOPF00453
+662be7 location AHOPF00454
+d7d3e4 location AHOPF00455
+999c20 location AHOPF00456
+
 ## tuning
-47f0c6 maxwatts -100 # 10.0.57.20
-45ecb5 maxwatts 1400 # 10.0.20.51
-9ac0b4 maxwatts 1400 # 10.0.119.42
-9c7529 maxwatts 1400 # 10.0.119.57
-b621e4 maxwatts 1400 # 10.0.115.89
-1bf925 maxwatts 1400 # 10.0.115.37
-2c8cd5 maxwatts 1400 # 10.0.121.60
-3e45c9 maxwatts 1400 # 10.0.120.157
-47f0c6 rebootasic 1571108600 # 10.0.57.20
-45ecb5 rebootasic 1571108600 # 10.0.20.51
-9ac0b4 rebootasic 1571108600 # 10.0.119.42
-9c7529 rebootasic 1571108600 # 10.0.119.57
-b621e4 rebootasic 1571108600 # 10.0.115.89
-1bf925 rebootasic 1571108600 # 10.0.115.37
-2c8cd5 rebootasic 1571108600 # 10.0.121.60
-3e45c9 rebootasic 1571108600 # 10.0.120.157
-9ac0b4 maxwatts 1400 # 10.0.119.42
-47f0c6 maxwatts -100 # 10.0.57.20
-45ecb5 maxwatts 1400 # 10.0.20.51
-9c7529 maxwatts 1400 # 10.0.119.57
-b621e4 maxwatts 1400 # 10.0.115.89
-1bf925 maxwatts 1400 # 10.0.115.37
-2c8cd5 maxwatts 1400 # 10.0.121.60
-3e45c9 maxwatts 1400 # 10.0.120.157
-9ac0b4 rebootasic 1571108652 # 10.0.119.42
-47f0c6 rebootasic 1571108652 # 10.0.57.20
-45ecb5 rebootasic 1571108652 # 10.0.20.51
-9c7529 rebootasic 1571108652 # 10.0.119.57
-b621e4 rebootasic 1571108652 # 10.0.115.89
-1bf925 rebootasic 1571108652 # 10.0.115.37
-2c8cd5 rebootasic 1571108652 # 10.0.121.60
-3e45c9 rebootasic 1571108652 # 10.0.120.157
-
-9ac0b4 maxwatts 1400 # 10.0.119.42
-47f0c6 maxwatts -100 # 10.0.57.20
-d317f1 maxwatts 1400 # 10.0.20.100
-e09d11 maxwatts 1400 # 10.0.20.11
-45ecb5 maxwatts 1400 # 10.0.20.51
-253618 maxwatts 1400 # 10.0.20.34
-83eb7f maxwatts 1400 # 10.0.20.47
-ebad13 maxwatts 1400 # 10.0.20.42
-d56eaf maxwatts 400 # 10.0.57.35
-9c7529 maxwatts 1400 # 10.0.119.57
-b621e4 maxwatts 1400 # 10.0.115.89
-1bf925 maxwatts 1400 # 10.0.115.37
-3e45c9 maxwatts 1400 # 10.0.120.157
-9b356e maxwatts 1400 # 10.0.20.96
-9ac0b4 rebootasic 1571105119 # 10.0.119.42
-47f0c6 rebootasic 1571105119 # 10.0.57.20
-d317f1 rebootasic 1571105119 # 10.0.20.100
-e09d11 rebootasic 1571105119 # 10.0.20.11
-45ecb5 rebootasic 1571105119 # 10.0.20.51
-253618 rebootasic 1571105119 # 10.0.20.34
-83eb7f rebootasic 1571105119 # 10.0.20.47
-ebad13 rebootasic 1571105119 # 10.0.20.42
-d56eaf rebootasic 1571105119 # 10.0.57.35
-9c7529 rebootasic 1571105119 # 10.0.119.57
-b621e4 rebootasic 1571105119 # 10.0.115.89
-1bf925 rebootasic 1571105119 # 10.0.115.37
-3e45c9 rebootasic 1571105119 # 10.0.120.157
-9b356e rebootasic 1571105119 # 10.0.20.96
-9ac0b4 maxwatts 1400 # 10.0.119.42
-47f0c6 maxwatts -100 # 10.0.57.20
-d317f1 maxwatts 1400 # 10.0.20.100
-e09d11 maxwatts 1400 # 10.0.20.11
-253618 maxwatts 1400 # 10.0.20.34
-45ecb5 maxwatts 1400 # 10.0.20.51
-83eb7f maxwatts 1400 # 10.0.20.47
-ebad13 maxwatts 1400 # 10.0.20.42
-d56eaf maxwatts 400 # 10.0.57.35
-9c7529 maxwatts 1400 # 10.0.119.57
-b621e4 maxwatts 1400 # 10.0.115.89
-1bf925 maxwatts 1400 # 10.0.115.37
-3e45c9 maxwatts 1400 # 10.0.120.157
-9b356e maxwatts 1400 # 10.0.20.96
-9ac0b4 rebootasic 1571105170 # 10.0.119.42
-47f0c6 rebootasic 1571105170 # 10.0.57.20
-d317f1 rebootasic 1571105170 # 10.0.20.100
-e09d11 rebootasic 1571105170 # 10.0.20.11
-253618 rebootasic 1571105170 # 10.0.20.34
-45ecb5 rebootasic 1571105170 # 10.0.20.51
-83eb7f rebootasic 1571105170 # 10.0.20.47
-ebad13 rebootasic 1571105170 # 10.0.20.42
-d56eaf rebootasic 1571105170 # 10.0.57.35
-9c7529 rebootasic 1571105170 # 10.0.119.57
-b621e4 rebootasic 1571105170 # 10.0.115.89
-1bf925 rebootasic 1571105170 # 10.0.115.37
-3e45c9 rebootasic 1571105170 # 10.0.120.157
-9b356e rebootasic 1571105170 # 10.0.20.96
-
-47f0c6 maxwatts -100 # 10.0.57.20
-9ac0b4 maxwatts 1400 # 10.0.119.42
-d317f1 maxwatts 1400 # 10.0.20.100
-e09d11 maxwatts 1400 # 10.0.20.11
-45ecb5 maxwatts 1400 # 10.0.20.51
-83eb7f maxwatts 1400 # 10.0.20.47
-ebad13 maxwatts 1400 # 10.0.20.42
-9c7529 maxwatts 1400 # 10.0.119.57
-b621e4 maxwatts 1400 # 10.0.115.89
-1bf925 maxwatts 1400 # 10.0.115.37
-3e45c9 maxwatts 1400 # 10.0.120.157
-9b356e maxwatts 1400 # 10.0.20.96
-47f0c6 rebootasic 1571101695 # 10.0.57.20
-9ac0b4 rebootasic 1571101695 # 10.0.119.42
-d317f1 rebootasic 1571101695 # 10.0.20.100
-e09d11 rebootasic 1571101695 # 10.0.20.11
-45ecb5 rebootasic 1571101695 # 10.0.20.51
-83eb7f rebootasic 1571101695 # 10.0.20.47
-ebad13 rebootasic 1571101695 # 10.0.20.42
-9c7529 rebootasic 1571101695 # 10.0.119.57
-b621e4 rebootasic 1571101695 # 10.0.115.89
-1bf925 rebootasic 1571101695 # 10.0.115.37
-3e45c9 rebootasic 1571101695 # 10.0.120.157
-9b356e rebootasic 1571101695 # 10.0.20.96
-47f0c6 maxwatts -100 # 10.0.57.20
-9ac0b4 maxwatts 1400 # 10.0.119.42
-d317f1 maxwatts 1400 # 10.0.20.100
-e09d11 maxwatts 1400 # 10.0.20.11
-45ecb5 maxwatts 1400 # 10.0.20.51
-83eb7f maxwatts 1400 # 10.0.20.47
-ebad13 maxwatts 1400 # 10.0.20.42
-9c7529 maxwatts 1400 # 10.0.119.57
-b621e4 maxwatts 1400 # 10.0.115.89
-1bf925 maxwatts 1400 # 10.0.115.37
-3e45c9 maxwatts 1400 # 10.0.120.157
-9b356e maxwatts 1400 # 10.0.20.96
-47f0c6 rebootasic 1571101745 # 10.0.57.20
-9ac0b4 rebootasic 1571101745 # 10.0.119.42
-d317f1 rebootasic 1571101745 # 10.0.20.100
-e09d11 rebootasic 1571101745 # 10.0.20.11
-45ecb5 rebootasic 1571101745 # 10.0.20.51
-83eb7f rebootasic 1571101745 # 10.0.20.47
-ebad13 rebootasic 1571101745 # 10.0.20.42
-9c7529 rebootasic 1571101745 # 10.0.119.57
-b621e4 rebootasic 1571101745 # 10.0.115.89
-1bf925 rebootasic 1571101745 # 10.0.115.37
-3e45c9 rebootasic 1571101745 # 10.0.120.157
-9b356e rebootasic 1571101745 # 10.0.20.96
-
-47f0c6 maxwatts -100 # 10.0.57.20
-9ac0b4 maxwatts 1400 # 10.0.119.42
-d317f1 maxwatts 1400 # 10.0.20.100
-e09d11 maxwatts 1400 # 10.0.20.11
-45ecb5 maxwatts 1400 # 10.0.20.51
-83eb7f maxwatts 1400 # 10.0.20.47
-9c7529 maxwatts 1400 # 10.0.119.57
-b621e4 maxwatts 1400 # 10.0.115.89
-1bf925 maxwatts 1400 # 10.0.115.37
-3e45c9 maxwatts 1400 # 10.0.120.157
-9b356e maxwatts 1400 # 10.0.20.96
-47f0c6 rebootasic 1571098684 # 10.0.57.20
-9ac0b4 rebootasic 1571098684 # 10.0.119.42
-d317f1 rebootasic 1571098684 # 10.0.20.100
-e09d11 rebootasic 1571098684 # 10.0.20.11
-45ecb5 rebootasic 1571098684 # 10.0.20.51
-83eb7f rebootasic 1571098684 # 10.0.20.47
-9c7529 rebootasic 1571098684 # 10.0.119.57
-b621e4 rebootasic 1571098684 # 10.0.115.89
-1bf925 rebootasic 1571098684 # 10.0.115.37
-3e45c9 rebootasic 1571098684 # 10.0.120.157
-9b356e rebootasic 1571098684 # 10.0.20.96
-47f0c6 maxwatts -100 # 10.0.57.20
-9ac0b4 maxwatts 1400 # 10.0.119.42
-d317f1 maxwatts 1400 # 10.0.20.100
-e09d11 maxwatts 1400 # 10.0.20.11
-45ecb5 maxwatts 1400 # 10.0.20.51
-83eb7f maxwatts 1400 # 10.0.20.47
-9c7529 maxwatts 1400 # 10.0.119.57
-b621e4 maxwatts 1400 # 10.0.115.89
-1bf925 maxwatts 1400 # 10.0.115.37
-3e45c9 maxwatts 1400 # 10.0.120.157
-9b356e maxwatts 1400 # 10.0.20.96
-47f0c6 rebootasic 1571098734 # 10.0.57.20
-9ac0b4 rebootasic 1571098734 # 10.0.119.42
-d317f1 rebootasic 1571098734 # 10.0.20.100
-e09d11 rebootasic 1571098734 # 10.0.20.11
-45ecb5 rebootasic 1571098734 # 10.0.20.51
-83eb7f rebootasic 1571098734 # 10.0.20.47
-9c7529 rebootasic 1571098734 # 10.0.119.57
-b621e4 rebootasic 1571098734 # 10.0.115.89
-1bf925 rebootasic 1571098734 # 10.0.115.37
-3e45c9 rebootasic 1571098734 # 10.0.120.157
-9b356e rebootasic 1571098734 # 10.0.20.96
-
-9ac0b4 maxwatts 1400 # 10.0.119.42
-d317f1 maxwatts 1400 # 10.0.20.100
-83eb7f maxwatts 1400 # 10.0.20.47
-9c7529 maxwatts 1400 # 10.0.119.57
-b621e4 maxwatts 1400 # 10.0.115.89
-1bf925 maxwatts 1400 # 10.0.115.37
-3e45c9 maxwatts 1400 # 10.0.120.157
-9b356e maxwatts 1400 # 10.0.20.96
-9ac0b4 rebootasic 1571095531 # 10.0.119.42
-d317f1 rebootasic 1571095531 # 10.0.20.100
-83eb7f rebootasic 1571095531 # 10.0.20.47
-9c7529 rebootasic 1571095531 # 10.0.119.57
-b621e4 rebootasic 1571095531 # 10.0.115.89
-1bf925 rebootasic 1571095531 # 10.0.115.37
-3e45c9 rebootasic 1571095531 # 10.0.120.157
-9b356e rebootasic 1571095531 # 10.0.20.96
-47f0c6 maxwatts -100 # 10.0.57.20
-9ac0b4 maxwatts 1400 # 10.0.119.42
-d317f1 maxwatts 1400 # 10.0.20.100
-83eb7f maxwatts 1400 # 10.0.20.47
-9c7529 maxwatts 1400 # 10.0.119.57
-b621e4 maxwatts 1400 # 10.0.115.89
-1bf925 maxwatts 1400 # 10.0.115.37
-3e45c9 maxwatts 1400 # 10.0.120.157
-9b356e maxwatts 1400 # 10.0.20.96
-47f0c6 rebootasic 1571095580 # 10.0.57.20
-9ac0b4 rebootasic 1571095580 # 10.0.119.42
-d317f1 rebootasic 1571095580 # 10.0.20.100
-83eb7f rebootasic 1571095580 # 10.0.20.47
-9c7529 rebootasic 1571095580 # 10.0.119.57
-b621e4 rebootasic 1571095580 # 10.0.115.89
-1bf925 rebootasic 1571095580 # 10.0.115.37
-3e45c9 rebootasic 1571095580 # 10.0.120.157
-9b356e rebootasic 1571095580 # 10.0.20.96
-
-9ac0b4 maxwatts 1400 # 10.0.119.42
-47f0c6 maxwatts -100 # 10.0.57.20
-d317f1 maxwatts 1400 # 10.0.20.100
-83eb7f maxwatts 1400 # 10.0.20.47
-9c7529 maxwatts 1400 # 10.0.119.57
-b621e4 maxwatts 1400 # 10.0.115.89
-1bf925 maxwatts 1400 # 10.0.115.37
-3e45c9 maxwatts 1400 # 10.0.120.157
-9b356e maxwatts 1400 # 10.0.20.96
-9ac0b4 rebootasic 1571092373 # 10.0.119.42
-47f0c6 rebootasic 1571092373 # 10.0.57.20
-d317f1 rebootasic 1571092373 # 10.0.20.100
-83eb7f rebootasic 1571092373 # 10.0.20.47
-9c7529 rebootasic 1571092373 # 10.0.119.57
-b621e4 rebootasic 1571092373 # 10.0.115.89
-1bf925 rebootasic 1571092373 # 10.0.115.37
-3e45c9 rebootasic 1571092373 # 10.0.120.157
-9b356e rebootasic 1571092373 # 10.0.20.96
-9ac0b4 maxwatts 1400 # 10.0.119.42
-47f0c6 maxwatts -100 # 10.0.57.20
-d317f1 maxwatts 1400 # 10.0.20.100
-83eb7f maxwatts 1400 # 10.0.20.47
-9c7529 maxwatts 1400 # 10.0.119.57
-b621e4 maxwatts 1400 # 10.0.115.89
-1bf925 maxwatts 1400 # 10.0.115.37
-3e45c9 maxwatts 1400 # 10.0.120.157
-9b356e maxwatts 1400 # 10.0.20.96
-9ac0b4 rebootasic 1571092421 # 10.0.119.42
-47f0c6 rebootasic 1571092421 # 10.0.57.20
-d317f1 rebootasic 1571092421 # 10.0.20.100
-83eb7f rebootasic 1571092421 # 10.0.20.47
-9c7529 rebootasic 1571092421 # 10.0.119.57
-b621e4 rebootasic 1571092421 # 10.0.115.89
-1bf925 rebootasic 1571092421 # 10.0.115.37
-3e45c9 rebootasic 1571092421 # 10.0.120.157
-9b356e rebootasic 1571092421 # 10.0.20.96
-
-9ac0b4 maxwatts 1400 # 10.0.119.42
-d317f1 maxwatts 1400 # 10.0.20.100
-83eb7f maxwatts 1400 # 10.0.20.47
-291e6a maxwatts 1400 # 10.0.120.139
-9c7529 maxwatts 1400 # 10.0.119.57
-b621e4 maxwatts 1400 # 10.0.115.89
-1bf925 maxwatts 1400 # 10.0.115.37
-3e45c9 maxwatts 1400 # 10.0.120.157
-9ac0b4 rebootasic 1571089222 # 10.0.119.42
-d317f1 rebootasic 1571089222 # 10.0.20.100
-83eb7f rebootasic 1571089222 # 10.0.20.47
-291e6a rebootasic 1571089222 # 10.0.120.139
-9c7529 rebootasic 1571089222 # 10.0.119.57
-b621e4 rebootasic 1571089222 # 10.0.115.89
-1bf925 rebootasic 1571089222 # 10.0.115.37
-3e45c9 rebootasic 1571089222 # 10.0.120.157
-9ac0b4 maxwatts 1400 # 10.0.119.42
-d317f1 maxwatts 1400 # 10.0.20.100
-83eb7f maxwatts 1400 # 10.0.20.47
-291e6a maxwatts 1400 # 10.0.120.139
-9c7529 maxwatts 1400 # 10.0.119.57
-b621e4 maxwatts 1400 # 10.0.115.89
-1bf925 maxwatts 1400 # 10.0.115.37
-3e45c9 maxwatts 1400 # 10.0.120.157
-9ac0b4 rebootasic 1571089270 # 10.0.119.42
-d317f1 rebootasic 1571089270 # 10.0.20.100
-83eb7f rebootasic 1571089270 # 10.0.20.47
-291e6a rebootasic 1571089270 # 10.0.120.139
-9c7529 rebootasic 1571089270 # 10.0.119.57
-b621e4 rebootasic 1571089270 # 10.0.115.89
-1bf925 rebootasic 1571089270 # 10.0.115.37
-3e45c9 rebootasic 1571089270 # 10.0.120.157
-
-47f0c6 maxwatts -100 # 10.0.57.20
-9ac0b4 maxwatts 1400 # 10.0.119.42
-291e6a maxwatts 1400 # 10.0.120.139
-9c7529 maxwatts 1400 # 10.0.119.57
-b621e4 maxwatts 1400 # 10.0.115.89
-1bf925 maxwatts 1400 # 10.0.115.37
-3e45c9 maxwatts 1400 # 10.0.120.157
-47f0c6 rebootasic 1571086238 # 10.0.57.20
-9ac0b4 rebootasic 1571086238 # 10.0.119.42
-291e6a rebootasic 1571086238 # 10.0.120.139
-9c7529 rebootasic 1571086238 # 10.0.119.57
-b621e4 rebootasic 1571086238 # 10.0.115.89
-1bf925 rebootasic 1571086238 # 10.0.115.37
-3e45c9 rebootasic 1571086238 # 10.0.120.157
-47f0c6 maxwatts -100 # 10.0.57.20
-9ac0b4 maxwatts 1400 # 10.0.119.42
-291e6a maxwatts 1400 # 10.0.120.139
-9c7529 maxwatts 1400 # 10.0.119.57
-b621e4 maxwatts 1400 # 10.0.115.89
-1bf925 maxwatts 1400 # 10.0.115.37
-3e45c9 maxwatts 1400 # 10.0.120.157
-47f0c6 rebootasic 1571086285 # 10.0.57.20
-9ac0b4 rebootasic 1571086285 # 10.0.119.42
-291e6a rebootasic 1571086285 # 10.0.120.139
-9c7529 rebootasic 1571086285 # 10.0.119.57
-b621e4 rebootasic 1571086285 # 10.0.115.89
-1bf925 rebootasic 1571086285 # 10.0.115.37
-3e45c9 rebootasic 1571086285 # 10.0.120.157
-
-9ac0b4 maxwatts 1400 # 10.0.119.42
-291e6a maxwatts 1400 # 10.0.120.139
-9c7529 maxwatts 1400 # 10.0.119.57
-b621e4 maxwatts 1400 # 10.0.115.89
-1bf925 maxwatts 1400 # 10.0.115.37
-3e45c9 maxwatts 1400 # 10.0.120.157
-9ac0b4 rebootasic 1571083428 # 10.0.119.42
-291e6a rebootasic 1571083428 # 10.0.120.139
-9c7529 rebootasic 1571083428 # 10.0.119.57
-b621e4 rebootasic 1571083428 # 10.0.115.89
-1bf925 rebootasic 1571083428 # 10.0.115.37
-3e45c9 rebootasic 1571083428 # 10.0.120.157
-9ac0b4 maxwatts 1400 # 10.0.119.42
-291e6a maxwatts 1400 # 10.0.120.139
-9c7529 maxwatts 1400 # 10.0.119.57
-b621e4 maxwatts 1400 # 10.0.115.89
-1bf925 maxwatts 1400 # 10.0.115.37
-3e45c9 maxwatts 1400 # 10.0.120.157
-9ac0b4 rebootasic 1571083474 # 10.0.119.42
-291e6a rebootasic 1571083474 # 10.0.120.139
-9c7529 rebootasic 1571083474 # 10.0.119.57
-b621e4 rebootasic 1571083474 # 10.0.115.89
-1bf925 rebootasic 1571083474 # 10.0.115.37
-3e45c9 rebootasic 1571083474 # 10.0.120.157
-
-9ac0b4 maxwatts 1400 # 10.0.119.42
-47f0c6 maxwatts -100 # 10.0.57.20
-291e6a maxwatts 1400 # 10.0.120.139
-9c7529 maxwatts 1400 # 10.0.119.57
-b621e4 maxwatts 1400 # 10.0.115.89
-1bf925 maxwatts 1400 # 10.0.115.37
-3e45c9 maxwatts 1400 # 10.0.120.157
-9ac0b4 rebootasic 1571080469 # 10.0.119.42
-47f0c6 rebootasic 1571080469 # 10.0.57.20
-291e6a rebootasic 1571080469 # 10.0.120.139
-9c7529 rebootasic 1571080469 # 10.0.119.57
-b621e4 rebootasic 1571080469 # 10.0.115.89
-1bf925 rebootasic 1571080469 # 10.0.115.37
-3e45c9 rebootasic 1571080469 # 10.0.120.157
-9ac0b4 maxwatts 1400 # 10.0.119.42
-47f0c6 maxwatts -100 # 10.0.57.20
-291e6a maxwatts 1400 # 10.0.120.139
-9c7529 maxwatts 1400 # 10.0.119.57
-b621e4 maxwatts 1400 # 10.0.115.89
-1bf925 maxwatts 1400 # 10.0.115.37
-3e45c9 maxwatts 1400 # 10.0.120.157
-9ac0b4 rebootasic 1571080519 # 10.0.119.42
-47f0c6 rebootasic 1571080519 # 10.0.57.20
-291e6a rebootasic 1571080519 # 10.0.120.139
-9c7529 rebootasic 1571080519 # 10.0.119.57
-b621e4 rebootasic 1571080519 # 10.0.115.89
-1bf925 rebootasic 1571080519 # 10.0.115.37
-3e45c9 rebootasic 1571080519 # 10.0.120.157
-
-9ac0b4 maxwatts 1400 # 10.0.119.42
-291e6a maxwatts 1400 # 10.0.120.139
-9c7529 maxwatts 1400 # 10.0.119.57
-b621e4 maxwatts 1400 # 10.0.115.89
-1bf925 maxwatts 1400 # 10.0.115.37
-3e45c9 maxwatts 1400 # 10.0.120.157
-9ac0b4 rebootasic 1571077206 # 10.0.119.42
-291e6a rebootasic 1571077206 # 10.0.120.139
-9c7529 rebootasic 1571077206 # 10.0.119.57
-b621e4 rebootasic 1571077206 # 10.0.115.89
-1bf925 rebootasic 1571077206 # 10.0.115.37
-3e45c9 rebootasic 1571077206 # 10.0.120.157
-9ac0b4 maxwatts 1400 # 10.0.119.42
-291e6a maxwatts 1400 # 10.0.120.139
-9c7529 maxwatts 1400 # 10.0.119.57
-b621e4 maxwatts 1400 # 10.0.115.89
-1bf925 maxwatts 1400 # 10.0.115.37
-3e45c9 maxwatts 1400 # 10.0.120.157
-9ac0b4 rebootasic 1571077251 # 10.0.119.42
-291e6a rebootasic 1571077251 # 10.0.120.139
-9c7529 rebootasic 1571077251 # 10.0.119.57
-b621e4 rebootasic 1571077251 # 10.0.115.89
-1bf925 rebootasic 1571077251 # 10.0.115.37
-3e45c9 rebootasic 1571077251 # 10.0.120.157
-
-47f0c6 maxwatts -100 # 10.0.57.20
-291e6a maxwatts 1400 # 10.0.120.139
-9ac0b4 maxwatts 1400 # 10.0.119.42
-9c7529 maxwatts 1400 # 10.0.119.57
-b621e4 maxwatts 1400 # 10.0.115.89
-1bf925 maxwatts 1400 # 10.0.115.37
-3e45c9 maxwatts 1400 # 10.0.120.157
-47f0c6 rebootasic 1571074205 # 10.0.57.20
-291e6a rebootasic 1571074205 # 10.0.120.139
-9ac0b4 rebootasic 1571074205 # 10.0.119.42
-9c7529 rebootasic 1571074205 # 10.0.119.57
-b621e4 rebootasic 1571074205 # 10.0.115.89
-1bf925 rebootasic 1571074205 # 10.0.115.37
-3e45c9 rebootasic 1571074205 # 10.0.120.157
-47f0c6 maxwatts -100 # 10.0.57.20
-291e6a maxwatts 1400 # 10.0.120.139
-9ac0b4 maxwatts 1400 # 10.0.119.42
-9c7529 maxwatts 1400 # 10.0.119.57
-b621e4 maxwatts 1400 # 10.0.115.89
-1bf925 maxwatts 1400 # 10.0.115.37
-3e45c9 maxwatts 1400 # 10.0.120.157
-47f0c6 rebootasic 1571074250 # 10.0.57.20
-291e6a rebootasic 1571074250 # 10.0.120.139
-9ac0b4 rebootasic 1571074250 # 10.0.119.42
-9c7529 rebootasic 1571074250 # 10.0.119.57
-b621e4 rebootasic 1571074250 # 10.0.115.89
-1bf925 rebootasic 1571074250 # 10.0.115.37
-3e45c9 rebootasic 1571074250 # 10.0.120.157
-
-47f0c6 maxwatts -100 # 10.0.57.20
-291e6a maxwatts 1400 # 10.0.120.139
-9ac0b4 maxwatts 1400 # 10.0.119.42
-b621e4 maxwatts 1400 # 10.0.115.89
-1bf925 maxwatts 1400 # 10.0.115.37
-3e45c9 maxwatts 1400 # 10.0.120.157
-47f0c6 rebootasic 1571071240 # 10.0.57.20
-291e6a rebootasic 1571071240 # 10.0.120.139
-9ac0b4 rebootasic 1571071240 # 10.0.119.42
-b621e4 rebootasic 1571071240 # 10.0.115.89
-1bf925 rebootasic 1571071240 # 10.0.115.37
-3e45c9 rebootasic 1571071240 # 10.0.120.157
-47f0c6 maxwatts -100 # 10.0.57.20
-291e6a maxwatts 1400 # 10.0.120.139
-9ac0b4 maxwatts 1400 # 10.0.119.42
-b621e4 maxwatts 1400 # 10.0.115.89
-1bf925 maxwatts 1400 # 10.0.115.37
-3e45c9 maxwatts 1400 # 10.0.120.157
-47f0c6 rebootasic 1571071284 # 10.0.57.20
-291e6a rebootasic 1571071284 # 10.0.120.139
-9ac0b4 rebootasic 1571071284 # 10.0.119.42
-b621e4 rebootasic 1571071284 # 10.0.115.89
-1bf925 rebootasic 1571071284 # 10.0.115.37
-3e45c9 rebootasic 1571071284 # 10.0.120.157
-
-47f0c6 maxwatts -100 # 10.0.57.20
-291e6a maxwatts 1400 # 10.0.120.139
-9ac0b4 maxwatts 1400 # 10.0.119.42
-b621e4 maxwatts 1400 # 10.0.115.89
-1bf925 maxwatts 1400 # 10.0.115.37
-3e45c9 maxwatts 1400 # 10.0.120.157
-47f0c6 rebootasic 1571068277 # 10.0.57.20
-291e6a rebootasic 1571068277 # 10.0.120.139
-9ac0b4 rebootasic 1571068277 # 10.0.119.42
-b621e4 rebootasic 1571068277 # 10.0.115.89
-1bf925 rebootasic 1571068277 # 10.0.115.37
-3e45c9 rebootasic 1571068277 # 10.0.120.157
-47f0c6 maxwatts -100 # 10.0.57.20
-291e6a maxwatts 1400 # 10.0.120.139
-9ac0b4 maxwatts 1400 # 10.0.119.42
-b621e4 maxwatts 1400 # 10.0.115.89
-1bf925 maxwatts 1400 # 10.0.115.37
-3e45c9 maxwatts 1400 # 10.0.120.157
-47f0c6 rebootasic 1571068320 # 10.0.57.20
-291e6a rebootasic 1571068320 # 10.0.120.139
-9ac0b4 rebootasic 1571068320 # 10.0.119.42
-b621e4 rebootasic 1571068320 # 10.0.115.89
-1bf925 rebootasic 1571068320 # 10.0.115.37
-3e45c9 rebootasic 1571068320 # 10.0.120.157
-
-291e6a maxwatts 1400 # 10.0.120.139
-9ac0b4 maxwatts 1400 # 10.0.119.42
-9c7529 maxwatts 1400 # 10.0.119.57
-b621e4 maxwatts 1400 # 10.0.115.89
-1bf925 maxwatts 1400 # 10.0.115.37
-3e45c9 maxwatts 1400 # 10.0.120.157
-291e6a rebootasic 1571065511 # 10.0.120.139
-9ac0b4 rebootasic 1571065511 # 10.0.119.42
-9c7529 rebootasic 1571065511 # 10.0.119.57
-b621e4 rebootasic 1571065511 # 10.0.115.89
-1bf925 rebootasic 1571065511 # 10.0.115.37
-3e45c9 rebootasic 1571065511 # 10.0.120.157
-291e6a maxwatts 1400 # 10.0.120.139
-9ac0b4 maxwatts 1400 # 10.0.119.42
-9c7529 maxwatts 1400 # 10.0.119.57
-b621e4 maxwatts 1400 # 10.0.115.89
-1bf925 maxwatts 1400 # 10.0.115.37
-3e45c9 maxwatts 1400 # 10.0.120.157
-291e6a rebootasic 1571065554 # 10.0.120.139
-9ac0b4 rebootasic 1571065554 # 10.0.119.42
-9c7529 rebootasic 1571065554 # 10.0.119.57
-b621e4 rebootasic 1571065554 # 10.0.115.89
-1bf925 rebootasic 1571065554 # 10.0.115.37
-3e45c9 rebootasic 1571065554 # 10.0.120.157
-
-47f0c6 maxwatts -100 # 10.0.57.20
-291e6a maxwatts 1400 # 10.0.120.139
-9ac0b4 maxwatts 1400 # 10.0.119.42
-9c7529 maxwatts 1400 # 10.0.119.57
-b621e4 maxwatts 1400 # 10.0.115.89
-1bf925 maxwatts 1400 # 10.0.115.37
-3e45c9 maxwatts 1400 # 10.0.120.157
-47f0c6 rebootasic 1571062705 # 10.0.57.20
-291e6a rebootasic 1571062705 # 10.0.120.139
-9ac0b4 rebootasic 1571062705 # 10.0.119.42
-9c7529 rebootasic 1571062705 # 10.0.119.57
-b621e4 rebootasic 1571062705 # 10.0.115.89
-1bf925 rebootasic 1571062705 # 10.0.115.37
-3e45c9 rebootasic 1571062705 # 10.0.120.157
-47f0c6 maxwatts -100 # 10.0.57.20
-291e6a maxwatts 1400 # 10.0.120.139
-9ac0b4 maxwatts 1400 # 10.0.119.42
-9c7529 maxwatts 1400 # 10.0.119.57
-b621e4 maxwatts 1400 # 10.0.115.89
-1bf925 maxwatts 1400 # 10.0.115.37
-3e45c9 maxwatts 1400 # 10.0.120.157
-47f0c6 rebootasic 1571062747 # 10.0.57.20
-291e6a rebootasic 1571062747 # 10.0.120.139
-9ac0b4 rebootasic 1571062747 # 10.0.119.42
-9c7529 rebootasic 1571062747 # 10.0.119.57
-b621e4 rebootasic 1571062747 # 10.0.115.89
-1bf925 rebootasic 1571062747 # 10.0.115.37
-3e45c9 rebootasic 1571062747 # 10.0.120.157
-
-291e6a maxwatts 1400 # 10.0.120.139
-9ac0b4 maxwatts 1400 # 10.0.119.42
-9c7529 maxwatts 1400 # 10.0.119.57
-b621e4 maxwatts 1400 # 10.0.115.89
-1bf925 maxwatts 1400 # 10.0.115.37
-3e45c9 maxwatts 1400 # 10.0.120.157
-291e6a rebootasic 1571060105 # 10.0.120.139
-9ac0b4 rebootasic 1571060105 # 10.0.119.42
-9c7529 rebootasic 1571060105 # 10.0.119.57
-b621e4 rebootasic 1571060105 # 10.0.115.89
-1bf925 rebootasic 1571060105 # 10.0.115.37
-3e45c9 rebootasic 1571060105 # 10.0.120.157
-291e6a maxwatts 1400 # 10.0.120.139
-9ac0b4 maxwatts 1400 # 10.0.119.42
-9c7529 maxwatts 1400 # 10.0.119.57
-b621e4 maxwatts 1400 # 10.0.115.89
-1bf925 maxwatts 1400 # 10.0.115.37
-3e45c9 maxwatts 1400 # 10.0.120.157
-291e6a rebootasic 1571060146 # 10.0.120.139
-9ac0b4 rebootasic 1571060146 # 10.0.119.42
-9c7529 rebootasic 1571060146 # 10.0.119.57
-b621e4 rebootasic 1571060146 # 10.0.115.89
-1bf925 rebootasic 1571060146 # 10.0.115.37
-3e45c9 rebootasic 1571060146 # 10.0.120.157
-
-47f0c6 maxwatts -100 # 10.0.57.20
-291e6a maxwatts 1400 # 10.0.120.139
-9ac0b4 maxwatts 1400 # 10.0.119.42
-9c7529 maxwatts 1400 # 10.0.119.57
-b621e4 maxwatts 1400 # 10.0.115.89
-1bf925 maxwatts 1400 # 10.0.115.37
-3e45c9 maxwatts 1400 # 10.0.120.157
-47f0c6 rebootasic 1571057358 # 10.0.57.20
-291e6a rebootasic 1571057358 # 10.0.120.139
-9ac0b4 rebootasic 1571057358 # 10.0.119.42
-9c7529 rebootasic 1571057358 # 10.0.119.57
-b621e4 rebootasic 1571057358 # 10.0.115.89
-1bf925 rebootasic 1571057358 # 10.0.115.37
-3e45c9 rebootasic 1571057358 # 10.0.120.157
-47f0c6 maxwatts -100 # 10.0.57.20
-291e6a maxwatts 1400 # 10.0.120.139
-9ac0b4 maxwatts 1400 # 10.0.119.42
-9c7529 maxwatts 1400 # 10.0.119.57
-b621e4 maxwatts 1400 # 10.0.115.89
-1bf925 maxwatts 1400 # 10.0.115.37
-3e45c9 maxwatts 1400 # 10.0.120.157
-47f0c6 rebootasic 1571057399 # 10.0.57.20
-291e6a rebootasic 1571057399 # 10.0.120.139
-9ac0b4 rebootasic 1571057399 # 10.0.119.42
-9c7529 rebootasic 1571057399 # 10.0.119.57
-b621e4 rebootasic 1571057399 # 10.0.115.89
-1bf925 rebootasic 1571057399 # 10.0.115.37
-3e45c9 rebootasic 1571057399 # 10.0.120.157
-
-47f0c6 maxwatts -100 # 10.0.57.20
-291e6a maxwatts 1400 # 10.0.120.139
-9ac0b4 maxwatts 1400 # 10.0.119.42
-9c7529 maxwatts 1400 # 10.0.119.57
-b621e4 maxwatts 1400 # 10.0.115.89
-1bf925 maxwatts 1400 # 10.0.115.37
-3e45c9 maxwatts 1400 # 10.0.120.157
-47f0c6 rebootasic 1571054768 # 10.0.57.20
-291e6a rebootasic 1571054768 # 10.0.120.139
-9ac0b4 rebootasic 1571054768 # 10.0.119.42
-9c7529 rebootasic 1571054768 # 10.0.119.57
-b621e4 rebootasic 1571054768 # 10.0.115.89
-1bf925 rebootasic 1571054768 # 10.0.115.37
-3e45c9 rebootasic 1571054768 # 10.0.120.157
-47f0c6 maxwatts -100 # 10.0.57.20
-291e6a maxwatts 1400 # 10.0.120.139
-9ac0b4 maxwatts 1400 # 10.0.119.42
-9c7529 maxwatts 1400 # 10.0.119.57
-b621e4 maxwatts 1400 # 10.0.115.89
-1bf925 maxwatts 1400 # 10.0.115.37
-3e45c9 maxwatts 1400 # 10.0.120.157
-47f0c6 rebootasic 1571054808 # 10.0.57.20
-291e6a rebootasic 1571054808 # 10.0.120.139
-9ac0b4 rebootasic 1571054808 # 10.0.119.42
-9c7529 rebootasic 1571054808 # 10.0.119.57
-b621e4 rebootasic 1571054808 # 10.0.115.89
-1bf925 rebootasic 1571054808 # 10.0.115.37
-3e45c9 rebootasic 1571054808 # 10.0.120.157
-
-291e6a maxwatts 1400 # 10.0.120.139
-9ac0b4 maxwatts 1400 # 10.0.119.42
-9c7529 maxwatts 1400 # 10.0.119.57
-b621e4 maxwatts 1400 # 10.0.115.89
-1bf925 maxwatts 1400 # 10.0.115.37
-3e45c9 maxwatts 1400 # 10.0.120.157
-291e6a rebootasic 1571052136 # 10.0.120.139
-9ac0b4 rebootasic 1571052136 # 10.0.119.42
-9c7529 rebootasic 1571052136 # 10.0.119.57
-b621e4 rebootasic 1571052136 # 10.0.115.89
-1bf925 rebootasic 1571052136 # 10.0.115.37
-3e45c9 rebootasic 1571052136 # 10.0.120.157
-291e6a maxwatts 1400 # 10.0.120.139
-9ac0b4 maxwatts 1400 # 10.0.119.42
-9c7529 maxwatts 1400 # 10.0.119.57
-b621e4 maxwatts 1400 # 10.0.115.89
-1bf925 maxwatts 1400 # 10.0.115.37
-3e45c9 maxwatts 1400 # 10.0.120.157
-291e6a rebootasic 1571052176 # 10.0.120.139
-9ac0b4 rebootasic 1571052176 # 10.0.119.42
-9c7529 rebootasic 1571052176 # 10.0.119.57
-b621e4 rebootasic 1571052176 # 10.0.115.89
-1bf925 rebootasic 1571052176 # 10.0.115.37
-3e45c9 rebootasic 1571052176 # 10.0.120.157
-
-47f0c6 maxwatts -100 # 10.0.57.20
-9ac0b4 maxwatts 1400 # 10.0.119.42
-9c7529 maxwatts 1400 # 10.0.119.57
-b621e4 maxwatts 1400 # 10.0.115.89
-1bf925 maxwatts 1400 # 10.0.115.37
-3e45c9 maxwatts 1400 # 10.0.120.157
-291e6a maxwatts 1400 # 10.0.120.139
-47f0c6 rebootasic 1571049431 # 10.0.57.20
-9ac0b4 rebootasic 1571049431 # 10.0.119.42
-9c7529 rebootasic 1571049431 # 10.0.119.57
-b621e4 rebootasic 1571049431 # 10.0.115.89
-1bf925 rebootasic 1571049431 # 10.0.115.37
-3e45c9 rebootasic 1571049431 # 10.0.120.157
-291e6a rebootasic 1571049431 # 10.0.120.139
-47f0c6 maxwatts -100 # 10.0.57.20
-9ac0b4 maxwatts 1400 # 10.0.119.42
-9c7529 maxwatts 1400 # 10.0.119.57
-b621e4 maxwatts 1400 # 10.0.115.89
-1bf925 maxwatts 1400 # 10.0.115.37
-3e45c9 maxwatts 1400 # 10.0.120.157
-291e6a maxwatts 1400 # 10.0.120.139
-47f0c6 rebootasic 1571049470 # 10.0.57.20
-9ac0b4 rebootasic 1571049470 # 10.0.119.42
-9c7529 rebootasic 1571049470 # 10.0.119.57
-b621e4 rebootasic 1571049470 # 10.0.115.89
-1bf925 rebootasic 1571049470 # 10.0.115.37
-3e45c9 rebootasic 1571049470 # 10.0.120.157
-291e6a rebootasic 1571049470 # 10.0.120.139
-
-9ac0b4 maxwatts 1400 # 10.0.119.42
-9c7529 maxwatts 1400 # 10.0.119.57
-b621e4 maxwatts 1400 # 10.0.115.89
-1bf925 maxwatts 1400 # 10.0.115.37
-3e45c9 maxwatts 1400 # 10.0.120.157
-9ac0b4 rebootasic 1571046954 # 10.0.119.42
-9c7529 rebootasic 1571046954 # 10.0.119.57
-b621e4 rebootasic 1571046954 # 10.0.115.89
-1bf925 rebootasic 1571046954 # 10.0.115.37
-3e45c9 rebootasic 1571046954 # 10.0.120.157
-9ac0b4 maxwatts 1400 # 10.0.119.42
-9c7529 maxwatts 1400 # 10.0.119.57
-b621e4 maxwatts 1400 # 10.0.115.89
-1bf925 maxwatts 1400 # 10.0.115.37
-3e45c9 maxwatts 1400 # 10.0.120.157
-9ac0b4 rebootasic 1571046992 # 10.0.119.42
-9c7529 rebootasic 1571046992 # 10.0.119.57
-b621e4 rebootasic 1571046992 # 10.0.115.89
-1bf925 rebootasic 1571046992 # 10.0.115.37
-3e45c9 rebootasic 1571046992 # 10.0.120.157
-
-47f0c6 maxwatts -100 # 10.0.57.20
-9ac0b4 maxwatts 1400 # 10.0.119.42
-9c7529 maxwatts 1400 # 10.0.119.57
-b621e4 maxwatts 1400 # 10.0.115.89
-1bf925 maxwatts 1400 # 10.0.115.37
-3e45c9 maxwatts 1400 # 10.0.120.157
-291e6a maxwatts 1400 # 10.0.120.139
-47f0c6 rebootasic 1571044223 # 10.0.57.20
-9ac0b4 rebootasic 1571044223 # 10.0.119.42
-9c7529 rebootasic 1571044223 # 10.0.119.57
-b621e4 rebootasic 1571044223 # 10.0.115.89
-1bf925 rebootasic 1571044223 # 10.0.115.37
-3e45c9 rebootasic 1571044223 # 10.0.120.157
-291e6a rebootasic 1571044223 # 10.0.120.139
-47f0c6 maxwatts -100 # 10.0.57.20
-9ac0b4 maxwatts 1400 # 10.0.119.42
-9c7529 maxwatts 1400 # 10.0.119.57
-b621e4 maxwatts 1400 # 10.0.115.89
-1bf925 maxwatts 1400 # 10.0.115.37
-3e45c9 maxwatts 1400 # 10.0.120.157
-291e6a maxwatts 1400 # 10.0.120.139
-47f0c6 rebootasic 1571044260 # 10.0.57.20
-9ac0b4 rebootasic 1571044260 # 10.0.119.42
-9c7529 rebootasic 1571044260 # 10.0.119.57
-b621e4 rebootasic 1571044260 # 10.0.115.89
-1bf925 rebootasic 1571044260 # 10.0.115.37
-3e45c9 rebootasic 1571044260 # 10.0.120.157
-291e6a rebootasic 1571044260 # 10.0.120.139
-
-9ac0b4 maxwatts 1400 # 10.0.119.42
-9c7529 maxwatts 1400 # 10.0.119.57
-b621e4 maxwatts 1400 # 10.0.115.89
-1bf925 maxwatts 1400 # 10.0.115.37
-3e45c9 maxwatts 1400 # 10.0.120.157
-291e6a maxwatts 1400 # 10.0.120.139
-9ac0b4 rebootasic 1571041672 # 10.0.119.42
-9c7529 rebootasic 1571041672 # 10.0.119.57
-b621e4 rebootasic 1571041672 # 10.0.115.89
-1bf925 rebootasic 1571041672 # 10.0.115.37
-3e45c9 rebootasic 1571041672 # 10.0.120.157
-291e6a rebootasic 1571041672 # 10.0.120.139
-9ac0b4 maxwatts 1400 # 10.0.119.42
-9c7529 maxwatts 1400 # 10.0.119.57
-b621e4 maxwatts 1400 # 10.0.115.89
-1bf925 maxwatts 1400 # 10.0.115.37
-3e45c9 maxwatts 1400 # 10.0.120.157
-291e6a maxwatts 1400 # 10.0.120.139
-9ac0b4 rebootasic 1571041709 # 10.0.119.42
-9c7529 rebootasic 1571041709 # 10.0.119.57
-b621e4 rebootasic 1571041709 # 10.0.115.89
-1bf925 rebootasic 1571041709 # 10.0.115.37
-3e45c9 rebootasic 1571041709 # 10.0.120.157
-291e6a rebootasic 1571041709 # 10.0.120.139
-
-9ac0b4 maxwatts 1400 # 10.0.119.42
-47f0c6 maxwatts -100 # 10.0.57.20
-9c7529 maxwatts 1400 # 10.0.119.57
-b621e4 maxwatts 1400 # 10.0.115.89
-1bf925 maxwatts 1400 # 10.0.115.37
-3e45c9 maxwatts 1400 # 10.0.120.157
-291e6a maxwatts 1400 # 10.0.120.139
-9ac0b4 rebootasic 1571038886 # 10.0.119.42
-47f0c6 rebootasic 1571038886 # 10.0.57.20
-9c7529 rebootasic 1571038886 # 10.0.119.57
-b621e4 rebootasic 1571038886 # 10.0.115.89
-1bf925 rebootasic 1571038886 # 10.0.115.37
-3e45c9 rebootasic 1571038886 # 10.0.120.157
-291e6a rebootasic 1571038886 # 10.0.120.139
-9ac0b4 maxwatts 1400 # 10.0.119.42
-47f0c6 maxwatts -100 # 10.0.57.20
-9c7529 maxwatts 1400 # 10.0.119.57
-b621e4 maxwatts 1400 # 10.0.115.89
-1bf925 maxwatts 1400 # 10.0.115.37
-3e45c9 maxwatts 1400 # 10.0.120.157
-291e6a maxwatts 1400 # 10.0.120.139
-9ac0b4 rebootasic 1571038922 # 10.0.119.42
-47f0c6 rebootasic 1571038922 # 10.0.57.20
-9c7529 rebootasic 1571038922 # 10.0.119.57
-b621e4 rebootasic 1571038922 # 10.0.115.89
-1bf925 rebootasic 1571038922 # 10.0.115.37
-3e45c9 rebootasic 1571038922 # 10.0.120.157
-291e6a rebootasic 1571038922 # 10.0.120.139
-
-9ac0b4 maxwatts 1400 # 10.0.119.42
-be27de maxwatts 1200 # 10.0.120.89
-9c7529 maxwatts 1400 # 10.0.119.57
-b621e4 maxwatts 1400 # 10.0.115.89
-1bf925 maxwatts 1400 # 10.0.115.37
-3e45c9 maxwatts 1400 # 10.0.120.157
-291e6a maxwatts 1400 # 10.0.120.139
-9ac0b4 rebootasic 1571036204 # 10.0.119.42
-be27de rebootasic 1571036204 # 10.0.120.89
-9c7529 rebootasic 1571036204 # 10.0.119.57
-b621e4 rebootasic 1571036204 # 10.0.115.89
-1bf925 rebootasic 1571036204 # 10.0.115.37
-3e45c9 rebootasic 1571036204 # 10.0.120.157
-291e6a rebootasic 1571036204 # 10.0.120.139
-9ac0b4 maxwatts 1400 # 10.0.119.42
-be27de maxwatts 1200 # 10.0.120.89
-9c7529 maxwatts 1400 # 10.0.119.57
-b621e4 maxwatts 1400 # 10.0.115.89
-1bf925 maxwatts 1400 # 10.0.115.37
-3e45c9 maxwatts 1400 # 10.0.120.157
-291e6a maxwatts 1400 # 10.0.120.139
-9ac0b4 rebootasic 1571036240 # 10.0.119.42
-be27de rebootasic 1571036240 # 10.0.120.89
-9c7529 rebootasic 1571036240 # 10.0.119.57
-b621e4 rebootasic 1571036240 # 10.0.115.89
-1bf925 rebootasic 1571036240 # 10.0.115.37
-3e45c9 rebootasic 1571036240 # 10.0.120.157
-291e6a rebootasic 1571036240 # 10.0.120.139
-
-47f0c6 maxwatts 0 # 10.0.57.20
-9ac0b4 maxwatts 1400 # 10.0.119.42
-9c7529 maxwatts 1400 # 10.0.119.57
-b621e4 maxwatts 1400 # 10.0.115.89
-1bf925 maxwatts 1400 # 10.0.115.37
-3e45c9 maxwatts 1400 # 10.0.120.157
-291e6a maxwatts 1400 # 10.0.120.139
-47f0c6 rebootasic 1571033494 # 10.0.57.20
-9ac0b4 rebootasic 1571033494 # 10.0.119.42
-9c7529 rebootasic 1571033494 # 10.0.119.57
-b621e4 rebootasic 1571033494 # 10.0.115.89
-1bf925 rebootasic 1571033494 # 10.0.115.37
-3e45c9 rebootasic 1571033494 # 10.0.120.157
-291e6a rebootasic 1571033494 # 10.0.120.139
-47f0c6 maxwatts 0 # 10.0.57.20
-9ac0b4 maxwatts 1400 # 10.0.119.42
-9c7529 maxwatts 1400 # 10.0.119.57
-b621e4 maxwatts 1400 # 10.0.115.89
-1bf925 maxwatts 1400 # 10.0.115.37
-3e45c9 maxwatts 1400 # 10.0.120.157
-291e6a maxwatts 1400 # 10.0.120.139
-47f0c6 rebootasic 1571033529 # 10.0.57.20
-9ac0b4 rebootasic 1571033529 # 10.0.119.42
-9c7529 rebootasic 1571033529 # 10.0.119.57
-b621e4 rebootasic 1571033529 # 10.0.115.89
-1bf925 rebootasic 1571033529 # 10.0.115.37
-3e45c9 rebootasic 1571033529 # 10.0.120.157
-291e6a rebootasic 1571033529 # 10.0.120.139
-
-9ac0b4 maxwatts 1400 # 10.0.119.42
-9c7529 maxwatts 1400 # 10.0.119.57
-b621e4 maxwatts 1400 # 10.0.115.89
-1bf925 maxwatts 1400 # 10.0.115.37
-3e45c9 maxwatts 1400 # 10.0.120.157
-291e6a maxwatts 1400 # 10.0.120.139
-9ac0b4 rebootasic 1571030825 # 10.0.119.42
-9c7529 rebootasic 1571030825 # 10.0.119.57
-b621e4 rebootasic 1571030825 # 10.0.115.89
-1bf925 rebootasic 1571030825 # 10.0.115.37
-3e45c9 rebootasic 1571030825 # 10.0.120.157
-291e6a rebootasic 1571030825 # 10.0.120.139
-9ac0b4 maxwatts 1400 # 10.0.119.42
-9c7529 maxwatts 1400 # 10.0.119.57
-b621e4 maxwatts 1400 # 10.0.115.89
-1bf925 maxwatts 1400 # 10.0.115.37
-3e45c9 maxwatts 1400 # 10.0.120.157
-291e6a maxwatts 1400 # 10.0.120.139
-9ac0b4 rebootasic 1571030860 # 10.0.119.42
-9c7529 rebootasic 1571030860 # 10.0.119.57
-b621e4 rebootasic 1571030860 # 10.0.115.89
-1bf925 rebootasic 1571030860 # 10.0.115.37
-3e45c9 rebootasic 1571030860 # 10.0.120.157
-291e6a rebootasic 1571030860 # 10.0.120.139
-
-47f0c6 maxwatts 100 # 10.0.57.20
-9ac0b4 maxwatts 1400 # 10.0.119.42
-d56eaf maxwatts 500 # 10.0.57.35
-9c7529 maxwatts 1400 # 10.0.119.57
-b621e4 maxwatts 1400 # 10.0.115.89
-1bf925 maxwatts 1400 # 10.0.115.37
-3e45c9 maxwatts 1400 # 10.0.120.157
-291e6a maxwatts 1400 # 10.0.120.139
-47f0c6 rebootasic 1571028232 # 10.0.57.20
-9ac0b4 rebootasic 1571028232 # 10.0.119.42
-d56eaf rebootasic 1571028232 # 10.0.57.35
-9c7529 rebootasic 1571028232 # 10.0.119.57
-b621e4 rebootasic 1571028232 # 10.0.115.89
-1bf925 rebootasic 1571028232 # 10.0.115.37
-3e45c9 rebootasic 1571028232 # 10.0.120.157
-291e6a rebootasic 1571028232 # 10.0.120.139
-47f0c6 maxwatts 100 # 10.0.57.20
-9ac0b4 maxwatts 1400 # 10.0.119.42
-d56eaf maxwatts 500 # 10.0.57.35
-9c7529 maxwatts 1400 # 10.0.119.57
-b621e4 maxwatts 1400 # 10.0.115.89
-1bf925 maxwatts 1400 # 10.0.115.37
-3e45c9 maxwatts 1400 # 10.0.120.157
-291e6a maxwatts 1400 # 10.0.120.139
-47f0c6 rebootasic 1571028267 # 10.0.57.20
-9ac0b4 rebootasic 1571028267 # 10.0.119.42
-d56eaf rebootasic 1571028267 # 10.0.57.35
-9c7529 rebootasic 1571028267 # 10.0.119.57
-b621e4 rebootasic 1571028267 # 10.0.115.89
-1bf925 rebootasic 1571028267 # 10.0.115.37
-3e45c9 rebootasic 1571028267 # 10.0.120.157
-291e6a rebootasic 1571028267 # 10.0.120.139
-
-9ac0b4 maxwatts 1400 # 10.0.119.42
-9c7529 maxwatts 1400 # 10.0.119.57
-b621e4 maxwatts 1400 # 10.0.115.89
-1bf925 maxwatts 1400 # 10.0.115.37
-3e45c9 maxwatts 1400 # 10.0.120.157
-291e6a maxwatts 1400 # 10.0.120.139
-9ac0b4 rebootasic 1571025580 # 10.0.119.42
-9c7529 rebootasic 1571025580 # 10.0.119.57
-b621e4 rebootasic 1571025580 # 10.0.115.89
-1bf925 rebootasic 1571025580 # 10.0.115.37
-3e45c9 rebootasic 1571025580 # 10.0.120.157
-291e6a rebootasic 1571025580 # 10.0.120.139
-9ac0b4 maxwatts 1400 # 10.0.119.42
-9c7529 maxwatts 1400 # 10.0.119.57
-b621e4 maxwatts 1400 # 10.0.115.89
-1bf925 maxwatts 1400 # 10.0.115.37
-3e45c9 maxwatts 1400 # 10.0.120.157
-291e6a maxwatts 1400 # 10.0.120.139
-9ac0b4 rebootasic 1571025614 # 10.0.119.42
-9c7529 rebootasic 1571025614 # 10.0.119.57
-b621e4 rebootasic 1571025614 # 10.0.115.89
-1bf925 rebootasic 1571025614 # 10.0.115.37
-3e45c9 rebootasic 1571025614 # 10.0.120.157
-291e6a rebootasic 1571025614 # 10.0.120.139
-
-9ac0b4 maxwatts 1400 # 10.0.119.42
-47f0c6 maxwatts 200 # 10.0.57.20
-b621e4 maxwatts 1400 # 10.0.115.89
-1bf925 maxwatts 1400 # 10.0.115.37
-3e45c9 maxwatts 1400 # 10.0.120.157
-291e6a maxwatts 1400 # 10.0.120.139
-9ac0b4 rebootasic 1571022967 # 10.0.119.42
-47f0c6 rebootasic 1571022967 # 10.0.57.20
-b621e4 rebootasic 1571022967 # 10.0.115.89
-1bf925 rebootasic 1571022967 # 10.0.115.37
-3e45c9 rebootasic 1571022967 # 10.0.120.157
-291e6a rebootasic 1571022967 # 10.0.120.139
-9ac0b4 maxwatts 1400 # 10.0.119.42
-47f0c6 maxwatts 200 # 10.0.57.20
-b621e4 maxwatts 1400 # 10.0.115.89
-1bf925 maxwatts 1400 # 10.0.115.37
-3e45c9 maxwatts 1400 # 10.0.120.157
-291e6a maxwatts 1400 # 10.0.120.139
-9ac0b4 rebootasic 1571023000 # 10.0.119.42
-47f0c6 rebootasic 1571023000 # 10.0.57.20
-b621e4 rebootasic 1571023000 # 10.0.115.89
-1bf925 rebootasic 1571023000 # 10.0.115.37
-3e45c9 rebootasic 1571023000 # 10.0.120.157
-291e6a rebootasic 1571023000 # 10.0.120.139
-
-9ac0b4 maxwatts 1400 # 10.0.119.42
-b621e4 maxwatts 1400 # 10.0.115.89
-1bf925 maxwatts 1400 # 10.0.115.37
-3e45c9 maxwatts 1400 # 10.0.120.157
-291e6a maxwatts 1400 # 10.0.120.139
-9ac0b4 rebootasic 1571020675 # 10.0.119.42
-b621e4 rebootasic 1571020675 # 10.0.115.89
-1bf925 rebootasic 1571020675 # 10.0.115.37
-3e45c9 rebootasic 1571020675 # 10.0.120.157
-291e6a rebootasic 1571020675 # 10.0.120.139
-9ac0b4 maxwatts 1400 # 10.0.119.42
-b621e4 maxwatts 1400 # 10.0.115.89
-1bf925 maxwatts 1400 # 10.0.115.37
-3e45c9 maxwatts 1400 # 10.0.120.157
-291e6a maxwatts 1400 # 10.0.120.139
-9ac0b4 rebootasic 1571020707 # 10.0.119.42
-b621e4 rebootasic 1571020707 # 10.0.115.89
-1bf925 rebootasic 1571020707 # 10.0.115.37
-3e45c9 rebootasic 1571020707 # 10.0.120.157
-291e6a rebootasic 1571020707 # 10.0.120.139
-
-47f0c6 maxwatts 300 # 10.0.57.20
-9ac0b4 maxwatts 1400 # 10.0.119.42
-b621e4 maxwatts 1400 # 10.0.115.89
-1bf925 maxwatts 1400 # 10.0.115.37
-3e45c9 maxwatts 1400 # 10.0.120.157
-291e6a maxwatts 1400 # 10.0.120.139
-47f0c6 rebootasic 1571018343 # 10.0.57.20
-9ac0b4 rebootasic 1571018343 # 10.0.119.42
-b621e4 rebootasic 1571018343 # 10.0.115.89
-1bf925 rebootasic 1571018343 # 10.0.115.37
-3e45c9 rebootasic 1571018343 # 10.0.120.157
-291e6a rebootasic 1571018343 # 10.0.120.139
-47f0c6 maxwatts 300 # 10.0.57.20
-9ac0b4 maxwatts 1400 # 10.0.119.42
-b621e4 maxwatts 1400 # 10.0.115.89
-1bf925 maxwatts 1400 # 10.0.115.37
-3e45c9 maxwatts 1400 # 10.0.120.157
-291e6a maxwatts 1400 # 10.0.120.139
-47f0c6 rebootasic 1571018375 # 10.0.57.20
-9ac0b4 rebootasic 1571018375 # 10.0.119.42
-b621e4 rebootasic 1571018375 # 10.0.115.89
-1bf925 rebootasic 1571018375 # 10.0.115.37
-3e45c9 rebootasic 1571018375 # 10.0.120.157
-291e6a rebootasic 1571018375 # 10.0.120.139
-
-9ac0b4 maxwatts 1400 # 10.0.119.42
-b621e4 maxwatts 1400 # 10.0.115.89
-1bf925 maxwatts 1400 # 10.0.115.37
-3e45c9 maxwatts 1400 # 10.0.120.157
-291e6a maxwatts 1400 # 10.0.120.139
-9ac0b4 rebootasic 1571015965 # 10.0.119.42
-b621e4 rebootasic 1571015965 # 10.0.115.89
-1bf925 rebootasic 1571015965 # 10.0.115.37
-3e45c9 rebootasic 1571015965 # 10.0.120.157
-291e6a rebootasic 1571015965 # 10.0.120.139
-9ac0b4 maxwatts 1400 # 10.0.119.42
-b621e4 maxwatts 1400 # 10.0.115.89
-1bf925 maxwatts 1400 # 10.0.115.37
-3e45c9 maxwatts 1400 # 10.0.120.157
-291e6a maxwatts 1400 # 10.0.120.139
-9ac0b4 rebootasic 1571015997 # 10.0.119.42
-b621e4 rebootasic 1571015997 # 10.0.115.89
-1bf925 rebootasic 1571015997 # 10.0.115.37
-3e45c9 rebootasic 1571015997 # 10.0.120.157
-291e6a rebootasic 1571015997 # 10.0.120.139
-
-47f0c6 maxwatts 400 # 10.0.57.20
-9ac0b4 maxwatts 1400 # 10.0.119.42
-b621e4 maxwatts 1400 # 10.0.115.89
-1bf925 maxwatts 1400 # 10.0.115.37
-3e45c9 maxwatts 1400 # 10.0.120.157
-291e6a maxwatts 1400 # 10.0.120.139
-47f0c6 rebootasic 1571013621 # 10.0.57.20
-9ac0b4 rebootasic 1571013621 # 10.0.119.42
-b621e4 rebootasic 1571013621 # 10.0.115.89
-1bf925 rebootasic 1571013621 # 10.0.115.37
-3e45c9 rebootasic 1571013621 # 10.0.120.157
-291e6a rebootasic 1571013621 # 10.0.120.139
-47f0c6 maxwatts 400 # 10.0.57.20
-9ac0b4 maxwatts 1400 # 10.0.119.42
-b621e4 maxwatts 1400 # 10.0.115.89
-1bf925 maxwatts 1400 # 10.0.115.37
-3e45c9 maxwatts 1400 # 10.0.120.157
-291e6a maxwatts 1400 # 10.0.120.139
-47f0c6 rebootasic 1571013652 # 10.0.57.20
-9ac0b4 rebootasic 1571013652 # 10.0.119.42
-b621e4 rebootasic 1571013652 # 10.0.115.89
-1bf925 rebootasic 1571013652 # 10.0.115.37
-3e45c9 rebootasic 1571013652 # 10.0.120.157
-291e6a rebootasic 1571013652 # 10.0.120.139
-
-9ac0b4 maxwatts 1400 # 10.0.119.42
-b621e4 maxwatts 1400 # 10.0.115.89
-1bf925 maxwatts 1400 # 10.0.115.37
-3e45c9 maxwatts 1400 # 10.0.120.157
-291e6a maxwatts 1400 # 10.0.120.139
-9ac0b4 rebootasic 1571011324 # 10.0.119.42
-b621e4 rebootasic 1571011324 # 10.0.115.89
-1bf925 rebootasic 1571011324 # 10.0.115.37
-3e45c9 rebootasic 1571011324 # 10.0.120.157
-291e6a rebootasic 1571011324 # 10.0.120.139
-9ac0b4 maxwatts 1400 # 10.0.119.42
-b621e4 maxwatts 1400 # 10.0.115.89
-1bf925 maxwatts 1400 # 10.0.115.37
-3e45c9 maxwatts 1400 # 10.0.120.157
-291e6a maxwatts 1400 # 10.0.120.139
-9ac0b4 rebootasic 1571011354 # 10.0.119.42
-b621e4 rebootasic 1571011354 # 10.0.115.89
-1bf925 rebootasic 1571011354 # 10.0.115.37
-3e45c9 rebootasic 1571011354 # 10.0.120.157
-291e6a rebootasic 1571011354 # 10.0.120.139
-
-47f0c6 maxwatts 500 # 10.0.57.20
-9ac0b4 maxwatts 1400 # 10.0.119.42
-291e6a maxwatts 1400 # 10.0.120.139
-1bf925 maxwatts 1400 # 10.0.115.37
-3e45c9 maxwatts 1400 # 10.0.120.157
-47f0c6 rebootasic 1571008996 # 10.0.57.20
-9ac0b4 rebootasic 1571008996 # 10.0.119.42
-291e6a rebootasic 1571008996 # 10.0.120.139
-1bf925 rebootasic 1571008996 # 10.0.115.37
-3e45c9 rebootasic 1571008996 # 10.0.120.157
-47f0c6 maxwatts 500 # 10.0.57.20
-9ac0b4 maxwatts 1400 # 10.0.119.42
-291e6a maxwatts 1400 # 10.0.120.139
-1bf925 maxwatts 1400 # 10.0.115.37
-3e45c9 maxwatts 1400 # 10.0.120.157
-47f0c6 rebootasic 1571009026 # 10.0.57.20
-9ac0b4 rebootasic 1571009026 # 10.0.119.42
-291e6a rebootasic 1571009026 # 10.0.120.139
-1bf925 rebootasic 1571009026 # 10.0.115.37
-3e45c9 rebootasic 1571009026 # 10.0.120.157
-
-9ac0b4 maxwatts 1400 # 10.0.119.42
-c5dfea maxwatts 1400 # 10.0.115.99
-291e6a maxwatts 1400 # 10.0.120.139
-1bf925 maxwatts 1400 # 10.0.115.37
-3e45c9 maxwatts 1400 # 10.0.120.157
-9ac0b4 rebootasic 1571006721 # 10.0.119.42
-c5dfea rebootasic 1571006721 # 10.0.115.99
-291e6a rebootasic 1571006721 # 10.0.120.139
-1bf925 rebootasic 1571006721 # 10.0.115.37
-3e45c9 rebootasic 1571006721 # 10.0.120.157
-9ac0b4 maxwatts 1400 # 10.0.119.42
-c5dfea maxwatts 1400 # 10.0.115.99
-291e6a maxwatts 1400 # 10.0.120.139
-1bf925 maxwatts 1400 # 10.0.115.37
-3e45c9 maxwatts 1400 # 10.0.120.157
-9ac0b4 rebootasic 1571006751 # 10.0.119.42
-c5dfea rebootasic 1571006751 # 10.0.115.99
-291e6a rebootasic 1571006751 # 10.0.120.139
-1bf925 rebootasic 1571006751 # 10.0.115.37
-3e45c9 rebootasic 1571006751 # 10.0.120.157
-
-47f0c6 maxwatts 600 # 10.0.57.20
-9ac0b4 maxwatts 1400 # 10.0.119.42
-c5dfea maxwatts 1400 # 10.0.115.99
-291e6a maxwatts 1400 # 10.0.120.139
-1bf925 maxwatts 1400 # 10.0.115.37
-3e45c9 maxwatts 1400 # 10.0.120.157
-47f0c6 rebootasic 1571004419 # 10.0.57.20
-9ac0b4 rebootasic 1571004419 # 10.0.119.42
-c5dfea rebootasic 1571004419 # 10.0.115.99
-291e6a rebootasic 1571004419 # 10.0.120.139
-1bf925 rebootasic 1571004419 # 10.0.115.37
-3e45c9 rebootasic 1571004419 # 10.0.120.157
-47f0c6 maxwatts 600 # 10.0.57.20
-9ac0b4 maxwatts 1400 # 10.0.119.42
-c5dfea maxwatts 1400 # 10.0.115.99
-291e6a maxwatts 1400 # 10.0.120.139
-1bf925 maxwatts 1400 # 10.0.115.37
-3e45c9 maxwatts 1400 # 10.0.120.157
-47f0c6 rebootasic 1571004448 # 10.0.57.20
-9ac0b4 rebootasic 1571004448 # 10.0.119.42
-c5dfea rebootasic 1571004448 # 10.0.115.99
-291e6a rebootasic 1571004448 # 10.0.120.139
-1bf925 rebootasic 1571004448 # 10.0.115.37
-3e45c9 rebootasic 1571004448 # 10.0.120.157
-
-9ac0b4 maxwatts 1400 # 10.0.119.42
-c5dfea maxwatts 1400 # 10.0.115.99
-1bf925 maxwatts 1400 # 10.0.115.37
-3e45c9 maxwatts 1400 # 10.0.120.157
-9ac0b4 rebootasic 1571002046 # 10.0.119.42
-c5dfea rebootasic 1571002046 # 10.0.115.99
-1bf925 rebootasic 1571002046 # 10.0.115.37
-3e45c9 rebootasic 1571002046 # 10.0.120.157
-9ac0b4 maxwatts 1400 # 10.0.119.42
-c5dfea maxwatts 1400 # 10.0.115.99
-1bf925 maxwatts 1400 # 10.0.115.37
-3e45c9 maxwatts 1400 # 10.0.120.157
-9ac0b4 rebootasic 1571002075 # 10.0.119.42
-c5dfea rebootasic 1571002075 # 10.0.115.99
-1bf925 rebootasic 1571002075 # 10.0.115.37
-3e45c9 rebootasic 1571002075 # 10.0.120.157
-
-9ac0b4 maxwatts 1300 # 10.0.119.42
-c5dfea maxwatts 1300 # 10.0.115.99
-3e45c9 maxwatts 1300 # 10.0.120.157
-9ac0b4 rebootasic 1570999795 # 10.0.119.42
-c5dfea rebootasic 1570999795 # 10.0.115.99
-3e45c9 rebootasic 1570999795 # 10.0.120.157
-47f0c6 maxwatts 700 # 10.0.57.20
-9ac0b4 maxwatts 1300 # 10.0.119.42
-c5dfea maxwatts 1300 # 10.0.115.99
-3e45c9 maxwatts 1300 # 10.0.120.157
-47f0c6 rebootasic 1570999824 # 10.0.57.20
-9ac0b4 rebootasic 1570999824 # 10.0.119.42
-c5dfea rebootasic 1570999824 # 10.0.115.99
-3e45c9 rebootasic 1570999824 # 10.0.120.157
-
-9ac0b4 maxwatts 1300 # 10.0.119.42
-47f0c6 maxwatts 800 # 10.0.57.20
-c5dfea maxwatts 1300 # 10.0.115.99
-3e45c9 maxwatts 1300 # 10.0.120.157
-9ac0b4 rebootasic 1570997471 # 10.0.119.42
-47f0c6 rebootasic 1570997471 # 10.0.57.20
-c5dfea rebootasic 1570997471 # 10.0.115.99
-3e45c9 rebootasic 1570997471 # 10.0.120.157
-9ac0b4 maxwatts 1300 # 10.0.119.42
-47f0c6 maxwatts 800 # 10.0.57.20
-c5dfea maxwatts 1300 # 10.0.115.99
-3e45c9 maxwatts 1300 # 10.0.120.157
-9ac0b4 rebootasic 1570997499 # 10.0.119.42
-47f0c6 rebootasic 1570997499 # 10.0.57.20
-c5dfea rebootasic 1570997499 # 10.0.115.99
-3e45c9 rebootasic 1570997499 # 10.0.120.157
-
-9ac0b4 maxwatts 1300 # 10.0.119.42
-c5dfea maxwatts 1300 # 10.0.115.99
-3e45c9 maxwatts 1300 # 10.0.120.157
-9ac0b4 rebootasic 1570995267 # 10.0.119.42
-c5dfea rebootasic 1570995267 # 10.0.115.99
-3e45c9 rebootasic 1570995267 # 10.0.120.157
-9ac0b4 maxwatts 1300 # 10.0.119.42
-c5dfea maxwatts 1300 # 10.0.115.99
-3e45c9 maxwatts 1300 # 10.0.120.157
-9ac0b4 rebootasic 1570995295 # 10.0.119.42
-c5dfea rebootasic 1570995295 # 10.0.115.99
-3e45c9 rebootasic 1570995295 # 10.0.120.157
-
-9ac0b4 maxwatts 1300 # 10.0.119.42
-47f0c6 maxwatts 900 # 10.0.57.20
-c5dfea maxwatts 1300 # 10.0.115.99
-3e45c9 maxwatts 1300 # 10.0.120.157
-9ac0b4 rebootasic 1570992972 # 10.0.119.42
-47f0c6 rebootasic 1570992972 # 10.0.57.20
-c5dfea rebootasic 1570992972 # 10.0.115.99
-3e45c9 rebootasic 1570992972 # 10.0.120.157
-9ac0b4 maxwatts 1300 # 10.0.119.42
-47f0c6 maxwatts 900 # 10.0.57.20
-c5dfea maxwatts 1300 # 10.0.115.99
-3e45c9 maxwatts 1300 # 10.0.120.157
-9ac0b4 rebootasic 1570992999 # 10.0.119.42
-47f0c6 rebootasic 1570992999 # 10.0.57.20
-c5dfea rebootasic 1570992999 # 10.0.115.99
-3e45c9 rebootasic 1570992999 # 10.0.120.157
-
-c5dfea maxwatts 1300 # 10.0.115.99
-9ac0b4 maxwatts 1300 # 10.0.119.42
-3e45c9 maxwatts 1300 # 10.0.120.157
-c5dfea rebootasic 1570990814 # 10.0.115.99
-9ac0b4 rebootasic 1570990814 # 10.0.119.42
-3e45c9 rebootasic 1570990814 # 10.0.120.157
-c5dfea maxwatts 1300 # 10.0.115.99
-9ac0b4 maxwatts 1300 # 10.0.119.42
-3e45c9 maxwatts 1300 # 10.0.120.157
-c5dfea rebootasic 1570990841 # 10.0.115.99
-9ac0b4 rebootasic 1570990841 # 10.0.119.42
-3e45c9 rebootasic 1570990841 # 10.0.120.157
-
-c5dfea maxwatts 1300 # 10.0.115.99
-47f0c6 maxwatts 1000 # 10.0.57.20
-9ac0b4 maxwatts 1300 # 10.0.119.42
-3e45c9 maxwatts 1300 # 10.0.120.157
-c5dfea rebootasic 1570988644 # 10.0.115.99
-47f0c6 rebootasic 1570988644 # 10.0.57.20
-9ac0b4 rebootasic 1570988644 # 10.0.119.42
-3e45c9 rebootasic 1570988644 # 10.0.120.157
-c5dfea maxwatts 1300 # 10.0.115.99
-47f0c6 maxwatts 1000 # 10.0.57.20
-9ac0b4 maxwatts 1300 # 10.0.119.42
-3e45c9 maxwatts 1300 # 10.0.120.157
-c5dfea rebootasic 1570988670 # 10.0.115.99
-47f0c6 rebootasic 1570988670 # 10.0.57.20
-9ac0b4 rebootasic 1570988670 # 10.0.119.42
-3e45c9 rebootasic 1570988670 # 10.0.120.157
-
-9ac0b4 maxwatts 1300 # 10.0.119.42
-c5dfea maxwatts 1300 # 10.0.115.99
-3e45c9 maxwatts 1300 # 10.0.120.157
-9ac0b4 rebootasic 1570986442 # 10.0.119.42
-c5dfea rebootasic 1570986442 # 10.0.115.99
-3e45c9 rebootasic 1570986442 # 10.0.120.157
-9ac0b4 maxwatts 1300 # 10.0.119.42
-c5dfea maxwatts 1300 # 10.0.115.99
-3e45c9 maxwatts 1300 # 10.0.120.157
-9ac0b4 rebootasic 1570986467 # 10.0.119.42
-c5dfea rebootasic 1570986467 # 10.0.115.99
-3e45c9 rebootasic 1570986467 # 10.0.120.157
-
-9ac0b4 maxwatts 1300 # 10.0.119.42
-3e45c9 maxwatts 1300 # 10.0.120.157
-9ac0b4 rebootasic 1570984339 # 10.0.119.42
-3e45c9 rebootasic 1570984339 # 10.0.120.157
-9ac0b4 maxwatts 1300 # 10.0.119.42
-3e45c9 maxwatts 1300 # 10.0.120.157
-9ac0b4 rebootasic 1570984364 # 10.0.119.42
-3e45c9 rebootasic 1570984364 # 10.0.120.157
-
-9ac0b4 maxwatts 1300 # 10.0.119.42
-3e45c9 maxwatts 1300 # 10.0.120.157
-9ac0b4 rebootasic 1570982178 # 10.0.119.42
-3e45c9 rebootasic 1570982178 # 10.0.120.157
-9ac0b4 maxwatts 1300 # 10.0.119.42
-3e45c9 maxwatts 1300 # 10.0.120.157
-9ac0b4 rebootasic 1570982202 # 10.0.119.42
-3e45c9 rebootasic 1570982202 # 10.0.120.157
-
-9ac0b4 maxwatts 1300 # 10.0.119.42
-47f0c6 maxwatts 1100 # 10.0.57.20
-3e45c9 maxwatts 1300 # 10.0.120.157
-9ac0b4 rebootasic 1570980029 # 10.0.119.42
-47f0c6 rebootasic 1570980029 # 10.0.57.20
-3e45c9 rebootasic 1570980029 # 10.0.120.157
-9ac0b4 maxwatts 1300 # 10.0.119.42
-47f0c6 maxwatts 1100 # 10.0.57.20
-3e45c9 maxwatts 1300 # 10.0.120.157
-9ac0b4 rebootasic 1570980053 # 10.0.119.42
-47f0c6 rebootasic 1570980053 # 10.0.57.20
-3e45c9 rebootasic 1570980053 # 10.0.120.157
-
-9ac0b4 maxwatts 1300 # 10.0.119.42
-9ac0b4 rebootasic 1570977916 # 10.0.119.42
-9ac0b4 maxwatts 1300 # 10.0.119.42
-9ac0b4 rebootasic 1570977940 # 10.0.119.42
-
-9ac0b4 maxwatts 1300 # 10.0.119.42
-4121df maxwatts 1400 # 10.0.120.14
-3e45c9 maxwatts 1300 # 10.0.120.157
-9ac0b4 rebootasic 1570975746 # 10.0.119.42
-4121df rebootasic 1570975746 # 10.0.120.14
-3e45c9 rebootasic 1570975746 # 10.0.120.157
-9ac0b4 maxwatts 1300 # 10.0.119.42
-4121df maxwatts 1400 # 10.0.120.14
-3e45c9 maxwatts 1300 # 10.0.120.157
-9ac0b4 rebootasic 1570975769 # 10.0.119.42
-4121df rebootasic 1570975769 # 10.0.120.14
-3e45c9 rebootasic 1570975769 # 10.0.120.157
-
-72720b maxwatts 600 # 10.0.57.47
-9ac0b4 maxwatts 1300 # 10.0.119.42
-3e45c9 maxwatts 1300 # 10.0.120.157
-72720b rebootasic 1570973644 # 10.0.57.47
-9ac0b4 rebootasic 1570973644 # 10.0.119.42
-3e45c9 rebootasic 1570973644 # 10.0.120.157
-72720b maxwatts 600 # 10.0.57.47
-9ac0b4 maxwatts 1300 # 10.0.119.42
-3e45c9 maxwatts 1300 # 10.0.120.157
-72720b rebootasic 1570973666 # 10.0.57.47
-9ac0b4 rebootasic 1570973666 # 10.0.119.42
-3e45c9 rebootasic 1570973666 # 10.0.120.157
-
-9ac0b4 maxwatts 1300 # 10.0.119.42
-3e45c9 maxwatts 1300 # 10.0.120.157
-9ac0b4 rebootasic 1570971375 # 10.0.119.42
-3e45c9 rebootasic 1570971375 # 10.0.120.157
-9ac0b4 maxwatts 1300 # 10.0.119.42
-3e45c9 maxwatts 1300 # 10.0.120.157
-9ac0b4 rebootasic 1570971397 # 10.0.119.42
-3e45c9 rebootasic 1570971397 # 10.0.120.157
-
-9ac0b4 maxwatts 1300 # 10.0.119.42
-3e45c9 maxwatts 1300 # 10.0.120.157
-9ac0b4 rebootasic 1570969196 # 10.0.119.42
-3e45c9 rebootasic 1570969196 # 10.0.120.157
-9ac0b4 maxwatts 1300 # 10.0.119.42
-3e45c9 maxwatts 1300 # 10.0.120.157
-9ac0b4 rebootasic 1570969218 # 10.0.119.42
-3e45c9 rebootasic 1570969218 # 10.0.120.157
-
-55b5cb maxwatts 1000 # 10.0.57.17
-9ac0b4 maxwatts 1300 # 10.0.119.42
-3e45c9 maxwatts 1300 # 10.0.120.157
-55b5cb rebootasic 1570967054 # 10.0.57.17
-9ac0b4 rebootasic 1570967054 # 10.0.119.42
-3e45c9 rebootasic 1570967054 # 10.0.120.157
-55b5cb maxwatts 1000 # 10.0.57.17
-9ac0b4 maxwatts 1300 # 10.0.119.42
-3e45c9 maxwatts 1300 # 10.0.120.157
-55b5cb rebootasic 1570967076 # 10.0.57.17
-9ac0b4 rebootasic 1570967076 # 10.0.119.42
-3e45c9 rebootasic 1570967076 # 10.0.120.157
-
-9ac0b4 maxwatts 1300 # 10.0.119.42
-3e45c9 maxwatts 1300 # 10.0.120.157
-9ac0b4 rebootasic 1570964995 # 10.0.119.42
-3e45c9 rebootasic 1570964995 # 10.0.120.157
-9ac0b4 maxwatts 1300 # 10.0.119.42
-3e45c9 maxwatts 1300 # 10.0.120.157
-9ac0b4 rebootasic 1570965016 # 10.0.119.42
-3e45c9 rebootasic 1570965016 # 10.0.120.157
-
-9ac0b4 maxwatts 1300 # 10.0.119.42
-3e45c9 maxwatts 1300 # 10.0.120.157
-9ac0b4 rebootasic 1570962851 # 10.0.119.42
-3e45c9 rebootasic 1570962851 # 10.0.120.157
-9ac0b4 maxwatts 1300 # 10.0.119.42
-3e45c9 maxwatts 1300 # 10.0.120.157
-9ac0b4 rebootasic 1570962872 # 10.0.119.42
-3e45c9 rebootasic 1570962872 # 10.0.120.157
-
-9ac0b4 maxwatts 1300 # 10.0.119.42
-3e45c9 maxwatts 1300 # 10.0.120.157
-9ac0b4 rebootasic 1570960797 # 10.0.119.42
-3e45c9 rebootasic 1570960797 # 10.0.120.157
-9ac0b4 maxwatts 1300 # 10.0.119.42
-3e45c9 maxwatts 1300 # 10.0.120.157
-9ac0b4 rebootasic 1570960817 # 10.0.119.42
-3e45c9 rebootasic 1570960817 # 10.0.120.157
-
-9ac0b4 maxwatts 1300 # 10.0.119.42
-3e45c9 maxwatts 1300 # 10.0.120.157
-9ac0b4 rebootasic 1570958616 # 10.0.119.42
-3e45c9 rebootasic 1570958616 # 10.0.120.157
-9ac0b4 maxwatts 1300 # 10.0.119.42
-3e45c9 maxwatts 1300 # 10.0.120.157
-9ac0b4 rebootasic 1570958635 # 10.0.119.42
-3e45c9 rebootasic 1570958635 # 10.0.120.157
-
-9ac0b4 maxwatts 1300 # 10.0.119.42
-72720b maxwatts 700 # 10.0.57.47
-3e45c9 maxwatts 1300 # 10.0.120.157
-9ac0b4 rebootasic 1570956395 # 10.0.119.42
-72720b rebootasic 1570956395 # 10.0.57.47
-3e45c9 rebootasic 1570956395 # 10.0.120.157
-9ac0b4 maxwatts 1300 # 10.0.119.42
-72720b maxwatts 700 # 10.0.57.47
-3e45c9 maxwatts 1300 # 10.0.120.157
-9ac0b4 rebootasic 1570956414 # 10.0.119.42
-72720b rebootasic 1570956414 # 10.0.57.47
-3e45c9 rebootasic 1570956414 # 10.0.120.157
-
-9ac0b4 maxwatts 1300 # 10.0.119.42
-be27de maxwatts 1300 # 10.0.120.89
-3e45c9 maxwatts 1300 # 10.0.120.157
-9ac0b4 rebootasic 1570954308 # 10.0.119.42
-be27de rebootasic 1570954308 # 10.0.120.89
-3e45c9 rebootasic 1570954308 # 10.0.120.157
-9ac0b4 maxwatts 1300 # 10.0.119.42
-be27de maxwatts 1300 # 10.0.120.89
-3e45c9 maxwatts 1300 # 10.0.120.157
-9ac0b4 rebootasic 1570954327 # 10.0.119.42
-be27de rebootasic 1570954327 # 10.0.120.89
-3e45c9 rebootasic 1570954327 # 10.0.120.157
-
-9ac0b4 maxwatts 1300 # 10.0.119.42
-3e45c9 maxwatts 1300 # 10.0.120.157
-9ac0b4 rebootasic 1570952134 # 10.0.119.42
-3e45c9 rebootasic 1570952134 # 10.0.120.157
-9ac0b4 maxwatts 1300 # 10.0.119.42
-3e45c9 maxwatts 1300 # 10.0.120.157
-9ac0b4 rebootasic 1570952152 # 10.0.119.42
-3e45c9 rebootasic 1570952152 # 10.0.120.157
-
-9ac0b4 maxwatts 1300 # 10.0.119.42
-38b6a2 maxwatts 800 # 10.0.57.16
-3e45c9 maxwatts 1300 # 10.0.120.157
-9ac0b4 rebootasic 1570949961 # 10.0.119.42
-38b6a2 rebootasic 1570949961 # 10.0.57.16
-3e45c9 rebootasic 1570949961 # 10.0.120.157
-9ac0b4 maxwatts 1300 # 10.0.119.42
-38b6a2 maxwatts 800 # 10.0.57.16
-3e45c9 maxwatts 1300 # 10.0.120.157
-9ac0b4 rebootasic 1570949979 # 10.0.119.42
-38b6a2 rebootasic 1570949979 # 10.0.57.16
-3e45c9 rebootasic 1570949979 # 10.0.120.157
-
-9ac0b4 maxwatts 1300 # 10.0.119.42
-d56eaf maxwatts 600 # 10.0.57.35
-3e45c9 maxwatts 1300 # 10.0.120.157
-9ac0b4 rebootasic 1570947844 # 10.0.119.42
-d56eaf rebootasic 1570947844 # 10.0.57.35
-3e45c9 rebootasic 1570947844 # 10.0.120.157
-9ac0b4 maxwatts 1300 # 10.0.119.42
-d56eaf maxwatts 600 # 10.0.57.35
-3e45c9 maxwatts 1300 # 10.0.120.157
-9ac0b4 rebootasic 1570947862 # 10.0.119.42
-d56eaf rebootasic 1570947862 # 10.0.57.35
-3e45c9 rebootasic 1570947862 # 10.0.120.157
-
-9ac0b4 maxwatts 1300 # 10.0.119.42
-3e45c9 maxwatts 1300 # 10.0.120.157
-9ac0b4 rebootasic 1570945764 # 10.0.119.42
-3e45c9 rebootasic 1570945764 # 10.0.120.157
-9ac0b4 maxwatts 1300 # 10.0.119.42
-3e45c9 maxwatts 1300 # 10.0.120.157
-9ac0b4 rebootasic 1570945782 # 10.0.119.42
-3e45c9 rebootasic 1570945782 # 10.0.120.157
-
-9ac0b4 maxwatts 1300 # 10.0.119.42
-55b5cb maxwatts 1100 # 10.0.57.17
-3e45c9 maxwatts 1300 # 10.0.120.157
-9ac0b4 rebootasic 1570943637 # 10.0.119.42
-55b5cb rebootasic 1570943637 # 10.0.57.17
-3e45c9 rebootasic 1570943637 # 10.0.120.157
-9ac0b4 maxwatts 1300 # 10.0.119.42
-55b5cb maxwatts 1100 # 10.0.57.17
-3e45c9 maxwatts 1300 # 10.0.120.157
-9ac0b4 rebootasic 1570943654 # 10.0.119.42
-55b5cb rebootasic 1570943654 # 10.0.57.17
-3e45c9 rebootasic 1570943654 # 10.0.120.157
-
-9ac0b4 maxwatts 1300 # 10.0.119.42
-3e45c9 maxwatts 1300 # 10.0.120.157
-9ac0b4 rebootasic 1570941497 # 10.0.119.42
-3e45c9 rebootasic 1570941497 # 10.0.120.157
-9ac0b4 maxwatts 1300 # 10.0.119.42
-3e45c9 maxwatts 1300 # 10.0.120.157
-9ac0b4 rebootasic 1570941514 # 10.0.119.42
-3e45c9 rebootasic 1570941514 # 10.0.120.157
-
-9ac0b4 maxwatts 1300 # 10.0.119.42
-3e45c9 maxwatts 1300 # 10.0.120.157
-9ac0b4 rebootasic 1570939399 # 10.0.119.42
-3e45c9 rebootasic 1570939399 # 10.0.120.157
-9ac0b4 maxwatts 1300 # 10.0.119.42
-3e45c9 maxwatts 1300 # 10.0.120.157
-9ac0b4 rebootasic 1570939415 # 10.0.119.42
-3e45c9 rebootasic 1570939415 # 10.0.120.157
-
-9ac0b4 maxwatts 1300 # 10.0.119.42
-3e45c9 maxwatts 1300 # 10.0.120.157
-9ac0b4 rebootasic 1570937318 # 10.0.119.42
-3e45c9 rebootasic 1570937318 # 10.0.120.157
-9ac0b4 maxwatts 1300 # 10.0.119.42
-3e45c9 maxwatts 1300 # 10.0.120.157
-9ac0b4 rebootasic 1570937333 # 10.0.119.42
-3e45c9 rebootasic 1570937333 # 10.0.120.157
-
-9ac0b4 maxwatts 1300 # 10.0.119.42
-3e45c9 maxwatts 1300 # 10.0.120.157
-9ac0b4 rebootasic 1570935290 # 10.0.119.42
-3e45c9 rebootasic 1570935290 # 10.0.120.157
-9ac0b4 maxwatts 1300 # 10.0.119.42
-3e45c9 maxwatts 1300 # 10.0.120.157
-9ac0b4 rebootasic 1570935306 # 10.0.119.42
-3e45c9 rebootasic 1570935306 # 10.0.120.157
-
-9ac0b4 maxwatts 1300 # 10.0.119.42
-9ac0b4 rebootasic 1570933311 # 10.0.119.42
-9ac0b4 maxwatts 1300 # 10.0.119.42
-9ac0b4 rebootasic 1570933326 # 10.0.119.42
-
-9ac0b4 maxwatts 1300 # 10.0.119.42
-9ac0b4 rebootasic 1570931390 # 10.0.119.42
-9ac0b4 maxwatts 1300 # 10.0.119.42
-9ac0b4 rebootasic 1570931405 # 10.0.119.42
-
-9ac0b4 maxwatts 1300 # 10.0.119.42
-9ac0b4 rebootasic 1570929493 # 10.0.119.42
-9ac0b4 maxwatts 1300 # 10.0.119.42
-9ac0b4 rebootasic 1570929507 # 10.0.119.42
-
-47f0c6 maxwatts 1200 # 10.0.57.20
-47f0c6 rebootasic 1570918609 # 10.0.57.20
-47f0c6 maxwatts 1200 # 10.0.57.20
-47f0c6 rebootasic 1570918622 # 10.0.57.20
-
-9ac0b4 maxwatts 1300 # 10.0.119.42
-9ac0b4 rebootasic 1570916800 # 10.0.119.42
-9ac0b4 maxwatts 1300 # 10.0.119.42
-9ac0b4 rebootasic 1570916812 # 10.0.119.42
-
-9ac0b4 maxwatts 1300 # 10.0.119.42
-9ac0b4 rebootasic 1570915018 # 10.0.119.42
-9ac0b4 maxwatts 1300 # 10.0.119.42
-9ac0b4 rebootasic 1570915030 # 10.0.119.42
-
-9ac0b4 maxwatts 1300 # 10.0.119.42
-9ac0b4 rebootasic 1570913184 # 10.0.119.42
-9ac0b4 maxwatts 1300 # 10.0.119.42
-9ac0b4 rebootasic 1570913195 # 10.0.119.42
-
-9ac0b4 maxwatts 1300 # 10.0.119.42
-0b383f maxwatts 1400 # 10.0.57.42
-9ac0b4 rebootasic 1570911331 # 10.0.119.42
-0b383f rebootasic 1570911331 # 10.0.57.42
-9ac0b4 maxwatts 1300 # 10.0.119.42
-0b383f maxwatts 1400 # 10.0.57.42
-9ac0b4 rebootasic 1570911342 # 10.0.119.42
-0b383f rebootasic 1570911342 # 10.0.57.42
-
-9ac0b4 maxwatts 1300 # 10.0.119.42
-9ac0b4 rebootasic 1570909515 # 10.0.119.42
-9ac0b4 maxwatts 1300 # 10.0.119.42
-9ac0b4 rebootasic 1570909525 # 10.0.119.42
-
-9ac0b4 maxwatts 1300 # 10.0.119.42
-9ac0b4 rebootasic 1570907737 # 10.0.119.42
-9ac0b4 maxwatts 1300 # 10.0.119.42
-9ac0b4 rebootasic 1570907747 # 10.0.119.42
-
-9ac0b4 maxwatts 1300 # 10.0.119.42
-9ac0b4 rebootasic 1570905878 # 10.0.119.42
-9ac0b4 maxwatts 1300 # 10.0.119.42
-9ac0b4 rebootasic 1570905888 # 10.0.119.42
-
-9ac0b4 maxwatts 1300 # 10.0.119.42
-9ac0b4 rebootasic 1570902336 # 10.0.119.42
-9ac0b4 maxwatts 1300 # 10.0.119.42
-9ac0b4 rebootasic 1570902345 # 10.0.119.42
-
-9ac0b4 maxwatts 1300 # 10.0.119.42
-9ac0b4 rebootasic 1570900541 # 10.0.119.42
-9ac0b4 maxwatts 1300 # 10.0.119.42
-9ac0b4 rebootasic 1570900550 # 10.0.119.42
-
-9ac0b4 maxwatts 1300 # 10.0.119.42
-9ac0b4 rebootasic 1570898780 # 10.0.119.42
-9ac0b4 maxwatts 1300 # 10.0.119.42
-9ac0b4 rebootasic 1570898789 # 10.0.119.42
-
-9ac0b4 maxwatts 1300 # 10.0.119.42
-9ac0b4 rebootasic 1570897029 # 10.0.119.42
-9ac0b4 maxwatts 1300 # 10.0.119.42
-9ac0b4 rebootasic 1570897038 # 10.0.119.42
-
-9ac0b4 maxwatts 1300 # 10.0.119.42
-9ac0b4 rebootasic 1570895274 # 10.0.119.42
-9ac0b4 maxwatts 1300 # 10.0.119.42
-9ac0b4 rebootasic 1570895282 # 10.0.119.42
-
-9ac0b4 maxwatts 1300 # 10.0.119.42
-9ac0b4 rebootasic 1570893527 # 10.0.119.42
-9ac0b4 maxwatts 1300 # 10.0.119.42
-9ac0b4 rebootasic 1570893535 # 10.0.119.42
-
-9ac0b4 maxwatts 1300 # 10.0.119.42
-9ac0b4 rebootasic 1570891773 # 10.0.119.42
-9ac0b4 maxwatts 1300 # 10.0.119.42
-9ac0b4 rebootasic 1570891781 # 10.0.119.42
-
-9ac0b4 maxwatts 1300 # 10.0.119.42
-9ac0b4 rebootasic 1570890011 # 10.0.119.42
-9ac0b4 maxwatts 1300 # 10.0.119.42
-9ac0b4 rebootasic 1570890018 # 10.0.119.42
-
-9ac0b4 maxwatts 1300 # 10.0.119.42
-9ac0b4 rebootasic 1570888281 # 10.0.119.42
-9ac0b4 maxwatts 1300 # 10.0.119.42
-9ac0b4 rebootasic 1570888288 # 10.0.119.42
-
-9ac0b4 maxwatts 1300 # 10.0.119.42
-9ac0b4 rebootasic 1570886547 # 10.0.119.42
-9ac0b4 maxwatts 1300 # 10.0.119.42
-9ac0b4 rebootasic 1570886554 # 10.0.119.42
-
-9ac0b4 maxwatts 1300 # 10.0.119.42
-9ac0b4 rebootasic 1570884788 # 10.0.119.42
-9ac0b4 maxwatts 1300 # 10.0.119.42
-9ac0b4 rebootasic 1570884797 # 10.0.119.42
-
-9ac0b4 maxwatts 1300 # 10.0.119.42
-3e45c9 maxwatts 1300 # 10.0.120.157
-9ac0b4 rebootasic 1570882995 # 10.0.119.42
-3e45c9 rebootasic 1570882995 # 10.0.120.157
-9ac0b4 maxwatts 1300 # 10.0.119.42
-3e45c9 maxwatts 1300 # 10.0.120.157
-9ac0b4 rebootasic 1570883002 # 10.0.119.42
-3e45c9 rebootasic 1570883002 # 10.0.120.157
-
-9ac0b4 maxwatts 1300 # 10.0.119.42
-3e45c9 maxwatts 1300 # 10.0.120.157
-9ac0b4 rebootasic 1570881136 # 10.0.119.42
-3e45c9 rebootasic 1570881136 # 10.0.120.157
-9ac0b4 maxwatts 1300 # 10.0.119.42
-3e45c9 maxwatts 1300 # 10.0.120.157
-9ac0b4 rebootasic 1570881143 # 10.0.119.42
-3e45c9 rebootasic 1570881143 # 10.0.120.157
-
-9ac0b4 maxwatts 1300 # 10.0.119.42
-3e45c9 maxwatts 1300 # 10.0.120.157
-9ac0b4 rebootasic 1570879303 # 10.0.119.42
-3e45c9 rebootasic 1570879303 # 10.0.120.157
-9ac0b4 maxwatts 1300 # 10.0.119.42
-3e45c9 maxwatts 1300 # 10.0.120.157
-9ac0b4 rebootasic 1570879310 # 10.0.119.42
-3e45c9 rebootasic 1570879310 # 10.0.120.157
-
-9ac0b4 maxwatts 1300 # 10.0.119.42
-3e45c9 maxwatts 1300 # 10.0.120.157
-9ac0b4 rebootasic 1570877497 # 10.0.119.42
-3e45c9 rebootasic 1570877497 # 10.0.120.157
-9ac0b4 maxwatts 1300 # 10.0.119.42
-3e45c9 maxwatts 1300 # 10.0.120.157
-9ac0b4 rebootasic 1570877503 # 10.0.119.42
-3e45c9 rebootasic 1570877503 # 10.0.120.157
-
-9ac0b4 maxwatts 1300 # 10.0.119.42
-3e45c9 maxwatts 1300 # 10.0.120.157
-9ac0b4 rebootasic 1570875684 # 10.0.119.42
-3e45c9 rebootasic 1570875684 # 10.0.120.157
-9ac0b4 maxwatts 1300 # 10.0.119.42
-3e45c9 maxwatts 1300 # 10.0.120.157
-9ac0b4 rebootasic 1570875690 # 10.0.119.42
-3e45c9 rebootasic 1570875690 # 10.0.120.157
-
-9ac0b4 maxwatts 1300 # 10.0.119.42
-29f37a maxwatts 1400 # 10.0.57.44
-3e45c9 maxwatts 1300 # 10.0.120.157
-9ac0b4 rebootasic 1570873854 # 10.0.119.42
-29f37a rebootasic 1570873854 # 10.0.57.44
-3e45c9 rebootasic 1570873854 # 10.0.120.157
-9ac0b4 maxwatts 1300 # 10.0.119.42
-29f37a maxwatts 1400 # 10.0.57.44
-3e45c9 maxwatts 1300 # 10.0.120.157
-9ac0b4 rebootasic 1570873860 # 10.0.119.42
-29f37a rebootasic 1570873860 # 10.0.57.44
-3e45c9 rebootasic 1570873860 # 10.0.120.157
-
-9ac0b4 maxwatts 1300 # 10.0.119.42
-3e45c9 maxwatts 1300 # 10.0.120.157
-9ac0b4 rebootasic 1570871984 # 10.0.119.42
-3e45c9 rebootasic 1570871984 # 10.0.120.157
-9ac0b4 maxwatts 1300 # 10.0.119.42
-3e45c9 maxwatts 1300 # 10.0.120.157
-9ac0b4 rebootasic 1570871990 # 10.0.119.42
-3e45c9 rebootasic 1570871990 # 10.0.120.157
-
-9ac0b4 maxwatts 1300 # 10.0.119.42
-3e45c9 maxwatts 1300 # 10.0.120.157
-9ac0b4 rebootasic 1570870139 # 10.0.119.42
-3e45c9 rebootasic 1570870139 # 10.0.120.157
-9ac0b4 maxwatts 1300 # 10.0.119.42
-3e45c9 maxwatts 1300 # 10.0.120.157
-9ac0b4 rebootasic 1570870145 # 10.0.119.42
-3e45c9 rebootasic 1570870145 # 10.0.120.157
-
-9ac0b4 maxwatts 1300 # 10.0.119.42
-3e45c9 maxwatts 1300 # 10.0.120.157
-9ac0b4 rebootasic 1570868299 # 10.0.119.42
-3e45c9 rebootasic 1570868299 # 10.0.120.157
-9ac0b4 maxwatts 1300 # 10.0.119.42
-3e45c9 maxwatts 1300 # 10.0.120.157
-9ac0b4 rebootasic 1570868305 # 10.0.119.42
-3e45c9 rebootasic 1570868305 # 10.0.120.157
-
-9ac0b4 maxwatts 1300 # 10.0.119.42
-72720b maxwatts 800 # 10.0.57.47
-d56eaf maxwatts 700 # 10.0.57.35
-3e45c9 maxwatts 1300 # 10.0.120.157
-9ac0b4 rebootasic 1570866440 # 10.0.119.42
-72720b rebootasic 1570866440 # 10.0.57.47
-d56eaf rebootasic 1570866440 # 10.0.57.35
-3e45c9 rebootasic 1570866440 # 10.0.120.157
-9ac0b4 maxwatts 1300 # 10.0.119.42
-72720b maxwatts 800 # 10.0.57.47
-d56eaf maxwatts 700 # 10.0.57.35
-3e45c9 maxwatts 1300 # 10.0.120.157
-9ac0b4 rebootasic 1570866446 # 10.0.119.42
-72720b rebootasic 1570866446 # 10.0.57.47
-d56eaf rebootasic 1570866446 # 10.0.57.35
-3e45c9 rebootasic 1570866446 # 10.0.120.157
-
-38b6a2 maxwatts 900 # 10.0.57.16
-3e45c9 maxwatts 1300 # 10.0.120.157
-9ac0b4 maxwatts 1300 # 10.0.119.42
-38b6a2 rebootasic 1570864614 # 10.0.57.16
-3e45c9 rebootasic 1570864614 # 10.0.120.157
-9ac0b4 rebootasic 1570864614 # 10.0.119.42
-38b6a2 maxwatts 900 # 10.0.57.16
-3e45c9 maxwatts 1300 # 10.0.120.157
-9ac0b4 maxwatts 1300 # 10.0.119.42
-38b6a2 rebootasic 1570864619 # 10.0.57.16
-3e45c9 rebootasic 1570864619 # 10.0.120.157
-9ac0b4 rebootasic 1570864619 # 10.0.119.42
-
-72720b maxwatts 900 # 10.0.57.47
-3e45c9 maxwatts 1300 # 10.0.120.157
-9ac0b4 maxwatts 1300 # 10.0.119.42
-72720b rebootasic 1570862775 # 10.0.57.47
-3e45c9 rebootasic 1570862775 # 10.0.120.157
-9ac0b4 rebootasic 1570862775 # 10.0.119.42
-72720b maxwatts 900 # 10.0.57.47
-3e45c9 maxwatts 1300 # 10.0.120.157
-9ac0b4 maxwatts 1300 # 10.0.119.42
-72720b rebootasic 1570862780 # 10.0.57.47
-3e45c9 rebootasic 1570862780 # 10.0.120.157
-9ac0b4 rebootasic 1570862780 # 10.0.119.42
-
-9ac0b4 maxwatts 1300 # 10.0.119.42
-9ac0b4 rebootasic 1570860992 # 10.0.119.42
-9ac0b4 maxwatts 1300 # 10.0.119.42
-9ac0b4 rebootasic 1570860997 # 10.0.119.42
-
-72720b maxwatts 1000 # 10.0.57.47
-d56eaf maxwatts 800 # 10.0.57.35
-55b5cb maxwatts 1200 # 10.0.57.17
-9ac0b4 maxwatts 1300 # 10.0.119.42
-72720b rebootasic 1570859170 # 10.0.57.47
-d56eaf rebootasic 1570859170 # 10.0.57.35
-55b5cb rebootasic 1570859170 # 10.0.57.17
-9ac0b4 rebootasic 1570859170 # 10.0.119.42
-72720b maxwatts 1000 # 10.0.57.47
-d56eaf maxwatts 800 # 10.0.57.35
-55b5cb maxwatts 1200 # 10.0.57.17
-9ac0b4 maxwatts 1300 # 10.0.119.42
-72720b rebootasic 1570859174 # 10.0.57.47
-d56eaf rebootasic 1570859174 # 10.0.57.35
-55b5cb rebootasic 1570859174 # 10.0.57.17
-9ac0b4 rebootasic 1570859174 # 10.0.119.42
-
-9ac0b4 maxwatts 1300 # 10.0.119.42
-9ac0b4 rebootasic 1570857354 # 10.0.119.42
-9ac0b4 maxwatts 1300 # 10.0.119.42
-9ac0b4 rebootasic 1570857358 # 10.0.119.42
-
-72720b maxwatts 1100 # 10.0.57.47
-38b6a2 maxwatts 1000 # 10.0.57.16
-9ac0b4 maxwatts 1300 # 10.0.119.42
-72720b rebootasic 1570855579 # 10.0.57.47
-38b6a2 rebootasic 1570855579 # 10.0.57.16
-9ac0b4 rebootasic 1570855579 # 10.0.119.42
-72720b maxwatts 1100 # 10.0.57.47
-38b6a2 maxwatts 1000 # 10.0.57.16
-9ac0b4 maxwatts 1300 # 10.0.119.42
-72720b rebootasic 1570855583 # 10.0.57.47
-38b6a2 rebootasic 1570855583 # 10.0.57.16
-9ac0b4 rebootasic 1570855583 # 10.0.119.42
-
-d56eaf maxwatts 900 # 10.0.57.35
-9ac0b4 maxwatts 1300 # 10.0.119.42
-d56eaf rebootasic 1570853807 # 10.0.57.35
-9ac0b4 rebootasic 1570853807 # 10.0.119.42
-d56eaf maxwatts 900 # 10.0.57.35
-9ac0b4 maxwatts 1300 # 10.0.119.42
-d56eaf rebootasic 1570853811 # 10.0.57.35
-9ac0b4 rebootasic 1570853811 # 10.0.119.42
-
-d56eaf maxwatts 1000 # 10.0.57.35
-72720b maxwatts 1200 # 10.0.57.47
-38b6a2 maxwatts 1100 # 10.0.57.16
-d56eaf rebootasic 1570852048 # 10.0.57.35
-72720b rebootasic 1570852048 # 10.0.57.47
-38b6a2 rebootasic 1570852048 # 10.0.57.16
-d56eaf maxwatts 1000 # 10.0.57.35
-72720b maxwatts 1200 # 10.0.57.47
-38b6a2 maxwatts 1100 # 10.0.57.16
-d56eaf rebootasic 1570852052 # 10.0.57.35
-72720b rebootasic 1570852052 # 10.0.57.47
-38b6a2 rebootasic 1570852052 # 10.0.57.16
-
-d56eaf maxwatts 1100 # 10.0.57.35
-d56eaf rebootasic 1570850299 # 10.0.57.35
-d56eaf maxwatts 1100 # 10.0.57.35
-d56eaf rebootasic 1570850303 # 10.0.57.35
-
-47f0c6 maxwatts 1300 # 10.0.57.20
-62d6d0 maxwatts 1400 # 10.0.57.15
-47f0c6 rebootasic 1570848549 # 10.0.57.20
-62d6d0 rebootasic 1570848549 # 10.0.57.15
-47f0c6 maxwatts 1300 # 10.0.57.20
-62d6d0 maxwatts 1400 # 10.0.57.15
-47f0c6 rebootasic 1570848552 # 10.0.57.20
-62d6d0 rebootasic 1570848552 # 10.0.57.15
-
-d56eaf maxwatts 1200 # 10.0.57.35
-38b6a2 maxwatts 1200 # 10.0.57.16
-72720b maxwatts 1300 # 10.0.57.47
-d56eaf rebootasic 1570846811 # 10.0.57.35
-38b6a2 rebootasic 1570846811 # 10.0.57.16
-72720b rebootasic 1570846811 # 10.0.57.47
-d56eaf maxwatts 1200 # 10.0.57.35
-38b6a2 maxwatts 1200 # 10.0.57.16
-72720b maxwatts 1300 # 10.0.57.47
-d56eaf rebootasic 1570846814 # 10.0.57.35
-38b6a2 rebootasic 1570846814 # 10.0.57.16
-72720b rebootasic 1570846814 # 10.0.57.47
-
-d56eaf maxwatts 1300 # 10.0.57.35
-38b6a2 maxwatts 1300 # 10.0.57.16
-55b5cb maxwatts 1300 # 10.0.57.17
-abb6f3 maxwatts 1400 # 10.0.57.10
-d56eaf rebootasic 1570845078 # 10.0.57.35
-38b6a2 rebootasic 1570845078 # 10.0.57.16
-55b5cb rebootasic 1570845078 # 10.0.57.17
-abb6f3 rebootasic 1570845078 # 10.0.57.10
-d56eaf maxwatts 1300 # 10.0.57.35
-38b6a2 maxwatts 1300 # 10.0.57.16
-55b5cb maxwatts 1300 # 10.0.57.17
-abb6f3 maxwatts 1400 # 10.0.57.10
-d56eaf rebootasic 1570845081 # 10.0.57.35
-38b6a2 rebootasic 1570845081 # 10.0.57.16
-55b5cb rebootasic 1570845081 # 10.0.57.17
-abb6f3 rebootasic 1570845081 # 10.0.57.10
-
-d22a39 maxwatts 1400 # 10.0.57.11
-0697d7 maxwatts 1400 # 10.0.56.160
-38b6a2 maxwatts 1400 # 10.0.57.16
-55b5cb maxwatts 1400 # 10.0.57.17
-b93f22 maxwatts 1400 # 10.0.57.21
-d56eaf maxwatts 1400 # 10.0.57.35
-72720b maxwatts 1400 # 10.0.57.47
-d22a39 rebootasic 1570843345 # 10.0.57.11
-0697d7 rebootasic 1570843345 # 10.0.56.160
-38b6a2 rebootasic 1570843345 # 10.0.57.16
-55b5cb rebootasic 1570843345 # 10.0.57.17
-b93f22 rebootasic 1570843345 # 10.0.57.21
-d56eaf rebootasic 1570843345 # 10.0.57.35
-72720b rebootasic 1570843345 # 10.0.57.47
-d22a39 maxwatts 1400 # 10.0.57.11
-0697d7 maxwatts 1400 # 10.0.56.160
-38b6a2 maxwatts 1400 # 10.0.57.16
-55b5cb maxwatts 1400 # 10.0.57.17
-b93f22 maxwatts 1400 # 10.0.57.21
-d56eaf maxwatts 1400 # 10.0.57.35
-72720b maxwatts 1400 # 10.0.57.47
-d22a39 rebootasic 1570843348 # 10.0.57.11
-0697d7 rebootasic 1570843348 # 10.0.56.160
-38b6a2 rebootasic 1570843348 # 10.0.57.16
-55b5cb rebootasic 1570843348 # 10.0.57.17
-b93f22 rebootasic 1570843348 # 10.0.57.21
-d56eaf rebootasic 1570843348 # 10.0.57.35
-72720b rebootasic 1570843348 # 10.0.57.47
-
-47f0c6 maxwatts 1400 # 10.0.57.20
-0adba5 maxwatts 1400 # 10.0.118.35
-be27de maxwatts 1400 # 10.0.120.89
-47f0c6 rebootasic 1570841627 # 10.0.57.20
-0adba5 rebootasic 1570841627 # 10.0.118.35
-be27de rebootasic 1570841627 # 10.0.120.89
-47f0c6 maxwatts 1400 # 10.0.57.20
-0adba5 maxwatts 1400 # 10.0.118.35
-be27de maxwatts 1400 # 10.0.120.89
-47f0c6 rebootasic 1570841630 # 10.0.57.20
-0adba5 rebootasic 1570841630 # 10.0.118.35
-be27de rebootasic 1570841630 # 10.0.120.89
-
 
 ## reboots (chain ailment)
 
 ## resets (fixed machines)
-47f0c6 resetasic 1570596713
-be27de resetasic 1
-0adba5 resetasic 1
 
+## GMTVILLA01 Configuration (75 machines)
+cb7a3d poolname1 btc.ru.3tkje.antpool.com:3333
+0697d7 poolname1 btc.ru.3tkje.antpool.com:3333
+c606e7 poolname1 btc.ru.3tkje.antpool.com:3333
+b63fb1 poolname1 btc.ru.3tkje.antpool.com:3333
+6e7701 poolname1 btc.ru.3tkje.antpool.com:3333
+d8e7a3 poolname1 btc.ru.3tkje.antpool.com:3333
+9715d4 poolname1 btc.ru.3tkje.antpool.com:3333
+a43819 poolname1 btc.ru.3tkje.antpool.com:3333
+b99abe poolname1 btc.ru.3tkje.antpool.com:3333
+a4a691 poolname1 btc.ru.3tkje.antpool.com:3333
+103e5c poolname1 btc.ru.3tkje.antpool.com:3333
+5680b4 poolname1 btc.ru.3tkje.antpool.com:3333
+abb6f3 poolname1 btc.ru.3tkje.antpool.com:3333
+d22a39 poolname1 btc.ru.3tkje.antpool.com:3333
+80b6cc poolname1 btc.ru.3tkje.antpool.com:3333
+c3c415 poolname1 btc.ru.3tkje.antpool.com:3333
+c123c8 poolname1 btc.ru.3tkje.antpool.com:3333
+62d6d0 poolname1 btc.ru.3tkje.antpool.com:3333
+38b6a2 poolname1 btc.ru.3tkje.antpool.com:3333
+55b5cb poolname1 btc.ru.3tkje.antpool.com:3333
+84794b poolname1 btc.ru.3tkje.antpool.com:3333
+768cf3 poolname1 btc.ru.3tkje.antpool.com:3333
+47f0c6 poolname1 btc.ru.3tkje.antpool.com:3333
+b93f22 poolname1 btc.ru.3tkje.antpool.com:3333
+1f71ad poolname1 btc.ru.3tkje.antpool.com:3333
+b38e61 poolname1 btc.ru.3tkje.antpool.com:3333
+2a0ab5 poolname1 btc.ru.3tkje.antpool.com:3333
+c56a90 poolname1 btc.ru.3tkje.antpool.com:3333
+4a8cc9 poolname1 btc.ru.3tkje.antpool.com:3333
+ae711c poolname1 btc.ru.3tkje.antpool.com:3333
+888f80 poolname1 btc.ru.3tkje.antpool.com:3333
+6b4731 poolname1 btc.ru.3tkje.antpool.com:3333
+2b10a0 poolname1 btc.ru.3tkje.antpool.com:3333
+e886b1 poolname1 btc.ru.3tkje.antpool.com:3333
+296c61 poolname1 btc.ru.3tkje.antpool.com:3333
+b285f8 poolname1 btc.ru.3tkje.antpool.com:3333
+4bdbe0 poolname1 btc.ru.3tkje.antpool.com:3333
+d56eaf poolname1 btc.ru.3tkje.antpool.com:3333
+d415da poolname1 btc.ru.3tkje.antpool.com:3333
+aa49d8 poolname1 btc.ru.3tkje.antpool.com:3333
+a66966 poolname1 btc.ru.3tkje.antpool.com:3333
+75e651 poolname1 btc.ru.3tkje.antpool.com:3333
+b46ce7 poolname1 btc.ru.3tkje.antpool.com:3333
+5ac22f poolname1 btc.ru.3tkje.antpool.com:3333
+0b383f poolname1 btc.ru.3tkje.antpool.com:3333
+7c5703 poolname1 btc.ru.3tkje.antpool.com:3333
+29f37a poolname1 btc.ru.3tkje.antpool.com:3333
+f5fdc7 poolname1 btc.ru.3tkje.antpool.com:3333
+94a27d poolname1 btc.ru.3tkje.antpool.com:3333
+72720b poolname1 btc.ru.3tkje.antpool.com:3333
+e3daaa poolname1 btc.ru.3tkje.antpool.com:3333
+c4ce2d poolname1 btc.ru.3tkje.antpool.com:3333
+f1ead0 poolname1 btc.ru.3tkje.antpool.com:3333
+cd3638 poolname1 btc.ru.3tkje.antpool.com:3333
+d3bb55 poolname1 btc.ru.3tkje.antpool.com:3333
+08c7c6 poolname1 btc.ru.3tkje.antpool.com:3333
+93a040 poolname1 btc.ru.3tkje.antpool.com:3333
+6f20ae poolname1 btc.ru.3tkje.antpool.com:3333
+2b24e8 poolname1 btc.ru.3tkje.antpool.com:3333
+8812ce poolname1 btc.ru.3tkje.antpool.com:3333
+e595de poolname1 btc.ru.3tkje.antpool.com:3333
+0adba5 poolname1 btc.ru.3tkje.antpool.com:3333
+7e2767 poolname1 btc.ru.3tkje.antpool.com:3333
+36a526 poolname1 btc.ru.3tkje.antpool.com:3333
+029eb6 poolname1 btc.ru.3tkje.antpool.com:3333
+4121df poolname1 btc.ru.3tkje.antpool.com:3333
+71964f poolname1 btc.ru.3tkje.antpool.com:3333
+db1480 poolname1 btc.ru.3tkje.antpool.com:3333
+283ff7 poolname1 btc.ru.3tkje.antpool.com:3333
+620567 poolname1 btc.ru.3tkje.antpool.com:3333
+be27de poolname1 btc.ru.3tkje.antpool.com:3333
+658caa poolname1 btc.ru.3tkje.antpool.com:3333
+0fc1a9 poolname1 btc.ru.3tkje.antpool.com:3333
+1680e1 poolname1 btc.ru.3tkje.antpool.com:3333
+c6cbe1 poolname1 btc.ru.3tkje.antpool.com:3333
+cb7a3d username1 GMTVILLA01
+0697d7 username1 GMTVILLA01
+c606e7 username1 GMTVILLA01
+b63fb1 username1 GMTVILLA01
+6e7701 username1 GMTVILLA01
+d8e7a3 username1 GMTVILLA01
+9715d4 username1 GMTVILLA01
+a43819 username1 GMTVILLA01
+b99abe username1 GMTVILLA01
+a4a691 username1 GMTVILLA01
+103e5c username1 GMTVILLA01
+5680b4 username1 GMTVILLA01
+abb6f3 username1 GMTVILLA01
+d22a39 username1 GMTVILLA01
+80b6cc username1 GMTVILLA01
+c3c415 username1 GMTVILLA01
+c123c8 username1 GMTVILLA01
+62d6d0 username1 GMTVILLA01
+38b6a2 username1 GMTVILLA01
+55b5cb username1 GMTVILLA01
+84794b username1 GMTVILLA01
+768cf3 username1 GMTVILLA01
+47f0c6 username1 GMTVILLA01
+b93f22 username1 GMTVILLA01
+1f71ad username1 GMTVILLA01
+b38e61 username1 GMTVILLA01
+2a0ab5 username1 GMTVILLA01
+c56a90 username1 GMTVILLA01
+4a8cc9 username1 GMTVILLA01
+ae711c username1 GMTVILLA01
+888f80 username1 GMTVILLA01
+6b4731 username1 GMTVILLA01
+2b10a0 username1 GMTVILLA01
+e886b1 username1 GMTVILLA01
+296c61 username1 GMTVILLA01
+b285f8 username1 GMTVILLA01
+4bdbe0 username1 GMTVILLA01
+d56eaf username1 GMTVILLA01
+d415da username1 GMTVILLA01
+aa49d8 username1 GMTVILLA01
+a66966 username1 GMTVILLA01
+75e651 username1 GMTVILLA01
+b46ce7 username1 GMTVILLA01
+5ac22f username1 GMTVILLA01
+0b383f username1 GMTVILLA01
+7c5703 username1 GMTVILLA01
+29f37a username1 GMTVILLA01
+f5fdc7 username1 GMTVILLA01
+94a27d username1 GMTVILLA01
+72720b username1 GMTVILLA01
+e3daaa username1 GMTVILLA01
+c4ce2d username1 GMTVILLA01
+f1ead0 username1 GMTVILLA01
+cd3638 username1 GMTVILLA01
+d3bb55 username1 GMTVILLA01
+08c7c6 username1 GMTVILLA01
+93a040 username1 GMTVILLA01
+6f20ae username1 GMTVILLA01
+2b24e8 username1 GMTVILLA01
+8812ce username1 GMTVILLA01
+e595de username1 GMTVILLA01
+0adba5 username1 GMTVILLA01
+7e2767 username1 GMTVILLA01
+36a526 username1 GMTVILLA01
+029eb6 username1 GMTVILLA01
+4121df username1 GMTVILLA01
+71964f username1 GMTVILLA01
+db1480 username1 GMTVILLA01
+283ff7 username1 GMTVILLA01
+620567 username1 GMTVILLA01
+be27de username1 GMTVILLA01
+658caa username1 GMTVILLA01
+0fc1a9 username1 GMTVILLA01
+1680e1 username1 GMTVILLA01
+c6cbe1 username1 GMTVILLA01
+cb7a3d poolname2 btc.ru.3tkje.antpool.com:443
+0697d7 poolname2 btc.ru.3tkje.antpool.com:443
+c606e7 poolname2 btc.ru.3tkje.antpool.com:443
+b63fb1 poolname2 btc.ru.3tkje.antpool.com:443
+6e7701 poolname2 btc.ru.3tkje.antpool.com:443
+d8e7a3 poolname2 btc.ru.3tkje.antpool.com:443
+9715d4 poolname2 btc.ru.3tkje.antpool.com:443
+a43819 poolname2 btc.ru.3tkje.antpool.com:443
+b99abe poolname2 btc.ru.3tkje.antpool.com:443
+a4a691 poolname2 btc.ru.3tkje.antpool.com:443
+103e5c poolname2 btc.ru.3tkje.antpool.com:443
+5680b4 poolname2 btc.ru.3tkje.antpool.com:443
+abb6f3 poolname2 btc.ru.3tkje.antpool.com:443
+d22a39 poolname2 btc.ru.3tkje.antpool.com:443
+80b6cc poolname2 btc.ru.3tkje.antpool.com:443
+c3c415 poolname2 btc.ru.3tkje.antpool.com:443
+c123c8 poolname2 btc.ru.3tkje.antpool.com:443
+62d6d0 poolname2 btc.ru.3tkje.antpool.com:443
+38b6a2 poolname2 btc.ru.3tkje.antpool.com:443
+55b5cb poolname2 btc.ru.3tkje.antpool.com:443
+84794b poolname2 btc.ru.3tkje.antpool.com:443
+768cf3 poolname2 btc.ru.3tkje.antpool.com:443
+47f0c6 poolname2 btc.ru.3tkje.antpool.com:443
+b93f22 poolname2 btc.ru.3tkje.antpool.com:443
+1f71ad poolname2 btc.ru.3tkje.antpool.com:443
+b38e61 poolname2 btc.ru.3tkje.antpool.com:443
+2a0ab5 poolname2 btc.ru.3tkje.antpool.com:443
+c56a90 poolname2 btc.ru.3tkje.antpool.com:443
+4a8cc9 poolname2 btc.ru.3tkje.antpool.com:443
+ae711c poolname2 btc.ru.3tkje.antpool.com:443
+888f80 poolname2 btc.ru.3tkje.antpool.com:443
+6b4731 poolname2 btc.ru.3tkje.antpool.com:443
+2b10a0 poolname2 btc.ru.3tkje.antpool.com:443
+e886b1 poolname2 btc.ru.3tkje.antpool.com:443
+296c61 poolname2 btc.ru.3tkje.antpool.com:443
+b285f8 poolname2 btc.ru.3tkje.antpool.com:443
+4bdbe0 poolname2 btc.ru.3tkje.antpool.com:443
+d56eaf poolname2 btc.ru.3tkje.antpool.com:443
+d415da poolname2 btc.ru.3tkje.antpool.com:443
+aa49d8 poolname2 btc.ru.3tkje.antpool.com:443
+a66966 poolname2 btc.ru.3tkje.antpool.com:443
+75e651 poolname2 btc.ru.3tkje.antpool.com:443
+b46ce7 poolname2 btc.ru.3tkje.antpool.com:443
+5ac22f poolname2 btc.ru.3tkje.antpool.com:443
+0b383f poolname2 btc.ru.3tkje.antpool.com:443
+7c5703 poolname2 btc.ru.3tkje.antpool.com:443
+29f37a poolname2 btc.ru.3tkje.antpool.com:443
+f5fdc7 poolname2 btc.ru.3tkje.antpool.com:443
+94a27d poolname2 btc.ru.3tkje.antpool.com:443
+72720b poolname2 btc.ru.3tkje.antpool.com:443
+e3daaa poolname2 btc.ru.3tkje.antpool.com:443
+c4ce2d poolname2 btc.ru.3tkje.antpool.com:443
+f1ead0 poolname2 btc.ru.3tkje.antpool.com:443
+cd3638 poolname2 btc.ru.3tkje.antpool.com:443
+d3bb55 poolname2 btc.ru.3tkje.antpool.com:443
+08c7c6 poolname2 btc.ru.3tkje.antpool.com:443
+93a040 poolname2 btc.ru.3tkje.antpool.com:443
+6f20ae poolname2 btc.ru.3tkje.antpool.com:443
+2b24e8 poolname2 btc.ru.3tkje.antpool.com:443
+8812ce poolname2 btc.ru.3tkje.antpool.com:443
+e595de poolname2 btc.ru.3tkje.antpool.com:443
+0adba5 poolname2 btc.ru.3tkje.antpool.com:443
+7e2767 poolname2 btc.ru.3tkje.antpool.com:443
+36a526 poolname2 btc.ru.3tkje.antpool.com:443
+029eb6 poolname2 btc.ru.3tkje.antpool.com:443
+4121df poolname2 btc.ru.3tkje.antpool.com:443
+71964f poolname2 btc.ru.3tkje.antpool.com:443
+db1480 poolname2 btc.ru.3tkje.antpool.com:443
+283ff7 poolname2 btc.ru.3tkje.antpool.com:443
+620567 poolname2 btc.ru.3tkje.antpool.com:443
+be27de poolname2 btc.ru.3tkje.antpool.com:443
+658caa poolname2 btc.ru.3tkje.antpool.com:443
+0fc1a9 poolname2 btc.ru.3tkje.antpool.com:443
+1680e1 poolname2 btc.ru.3tkje.antpool.com:443
+c6cbe1 poolname2 btc.ru.3tkje.antpool.com:443
+cb7a3d username2 GMTVILLA01
+0697d7 username2 GMTVILLA01
+c606e7 username2 GMTVILLA01
+b63fb1 username2 GMTVILLA01
+6e7701 username2 GMTVILLA01
+d8e7a3 username2 GMTVILLA01
+9715d4 username2 GMTVILLA01
+a43819 username2 GMTVILLA01
+b99abe username2 GMTVILLA01
+a4a691 username2 GMTVILLA01
+103e5c username2 GMTVILLA01
+5680b4 username2 GMTVILLA01
+abb6f3 username2 GMTVILLA01
+d22a39 username2 GMTVILLA01
+80b6cc username2 GMTVILLA01
+c3c415 username2 GMTVILLA01
+c123c8 username2 GMTVILLA01
+62d6d0 username2 GMTVILLA01
+38b6a2 username2 GMTVILLA01
+55b5cb username2 GMTVILLA01
+84794b username2 GMTVILLA01
+768cf3 username2 GMTVILLA01
+47f0c6 username2 GMTVILLA01
+b93f22 username2 GMTVILLA01
+1f71ad username2 GMTVILLA01
+b38e61 username2 GMTVILLA01
+2a0ab5 username2 GMTVILLA01
+c56a90 username2 GMTVILLA01
+4a8cc9 username2 GMTVILLA01
+ae711c username2 GMTVILLA01
+888f80 username2 GMTVILLA01
+6b4731 username2 GMTVILLA01
+2b10a0 username2 GMTVILLA01
+e886b1 username2 GMTVILLA01
+296c61 username2 GMTVILLA01
+b285f8 username2 GMTVILLA01
+4bdbe0 username2 GMTVILLA01
+d56eaf username2 GMTVILLA01
+d415da username2 GMTVILLA01
+aa49d8 username2 GMTVILLA01
+a66966 username2 GMTVILLA01
+75e651 username2 GMTVILLA01
+b46ce7 username2 GMTVILLA01
+5ac22f username2 GMTVILLA01
+0b383f username2 GMTVILLA01
+7c5703 username2 GMTVILLA01
+29f37a username2 GMTVILLA01
+f5fdc7 username2 GMTVILLA01
+94a27d username2 GMTVILLA01
+72720b username2 GMTVILLA01
+e3daaa username2 GMTVILLA01
+c4ce2d username2 GMTVILLA01
+f1ead0 username2 GMTVILLA01
+cd3638 username2 GMTVILLA01
+d3bb55 username2 GMTVILLA01
+08c7c6 username2 GMTVILLA01
+93a040 username2 GMTVILLA01
+6f20ae username2 GMTVILLA01
+2b24e8 username2 GMTVILLA01
+8812ce username2 GMTVILLA01
+e595de username2 GMTVILLA01
+0adba5 username2 GMTVILLA01
+7e2767 username2 GMTVILLA01
+36a526 username2 GMTVILLA01
+029eb6 username2 GMTVILLA01
+4121df username2 GMTVILLA01
+71964f username2 GMTVILLA01
+db1480 username2 GMTVILLA01
+283ff7 username2 GMTVILLA01
+620567 username2 GMTVILLA01
+be27de username2 GMTVILLA01
+658caa username2 GMTVILLA01
+0fc1a9 username2 GMTVILLA01
+1680e1 username2 GMTVILLA01
+c6cbe1 username2 GMTVILLA01
+cb7a3d poolname3 vip.cnaw2.antpool.com:3333
+0697d7 poolname3 vip.cnaw2.antpool.com:3333
+c606e7 poolname3 vip.cnaw2.antpool.com:3333
+b63fb1 poolname3 vip.cnaw2.antpool.com:3333
+6e7701 poolname3 vip.cnaw2.antpool.com:3333
+d8e7a3 poolname3 vip.cnaw2.antpool.com:3333
+9715d4 poolname3 vip.cnaw2.antpool.com:3333
+a43819 poolname3 vip.cnaw2.antpool.com:3333
+b99abe poolname3 vip.cnaw2.antpool.com:3333
+a4a691 poolname3 vip.cnaw2.antpool.com:3333
+103e5c poolname3 vip.cnaw2.antpool.com:3333
+5680b4 poolname3 vip.cnaw2.antpool.com:3333
+abb6f3 poolname3 vip.cnaw2.antpool.com:3333
+d22a39 poolname3 vip.cnaw2.antpool.com:3333
+80b6cc poolname3 vip.cnaw2.antpool.com:3333
+c3c415 poolname3 vip.cnaw2.antpool.com:3333
+c123c8 poolname3 vip.cnaw2.antpool.com:3333
+62d6d0 poolname3 vip.cnaw2.antpool.com:3333
+38b6a2 poolname3 vip.cnaw2.antpool.com:3333
+55b5cb poolname3 vip.cnaw2.antpool.com:3333
+84794b poolname3 vip.cnaw2.antpool.com:3333
+768cf3 poolname3 vip.cnaw2.antpool.com:3333
+47f0c6 poolname3 vip.cnaw2.antpool.com:3333
+b93f22 poolname3 vip.cnaw2.antpool.com:3333
+1f71ad poolname3 vip.cnaw2.antpool.com:3333
+b38e61 poolname3 vip.cnaw2.antpool.com:3333
+2a0ab5 poolname3 vip.cnaw2.antpool.com:3333
+c56a90 poolname3 vip.cnaw2.antpool.com:3333
+4a8cc9 poolname3 vip.cnaw2.antpool.com:3333
+ae711c poolname3 vip.cnaw2.antpool.com:3333
+888f80 poolname3 vip.cnaw2.antpool.com:3333
+6b4731 poolname3 vip.cnaw2.antpool.com:3333
+2b10a0 poolname3 vip.cnaw2.antpool.com:3333
+e886b1 poolname3 vip.cnaw2.antpool.com:3333
+296c61 poolname3 vip.cnaw2.antpool.com:3333
+b285f8 poolname3 vip.cnaw2.antpool.com:3333
+4bdbe0 poolname3 vip.cnaw2.antpool.com:3333
+d56eaf poolname3 vip.cnaw2.antpool.com:3333
+d415da poolname3 vip.cnaw2.antpool.com:3333
+aa49d8 poolname3 vip.cnaw2.antpool.com:3333
+a66966 poolname3 vip.cnaw2.antpool.com:3333
+75e651 poolname3 vip.cnaw2.antpool.com:3333
+b46ce7 poolname3 vip.cnaw2.antpool.com:3333
+5ac22f poolname3 vip.cnaw2.antpool.com:3333
+0b383f poolname3 vip.cnaw2.antpool.com:3333
+7c5703 poolname3 vip.cnaw2.antpool.com:3333
+29f37a poolname3 vip.cnaw2.antpool.com:3333
+f5fdc7 poolname3 vip.cnaw2.antpool.com:3333
+94a27d poolname3 vip.cnaw2.antpool.com:3333
+72720b poolname3 vip.cnaw2.antpool.com:3333
+e3daaa poolname3 vip.cnaw2.antpool.com:3333
+c4ce2d poolname3 vip.cnaw2.antpool.com:3333
+f1ead0 poolname3 vip.cnaw2.antpool.com:3333
+cd3638 poolname3 vip.cnaw2.antpool.com:3333
+d3bb55 poolname3 vip.cnaw2.antpool.com:3333
+08c7c6 poolname3 vip.cnaw2.antpool.com:3333
+93a040 poolname3 vip.cnaw2.antpool.com:3333
+6f20ae poolname3 vip.cnaw2.antpool.com:3333
+2b24e8 poolname3 vip.cnaw2.antpool.com:3333
+8812ce poolname3 vip.cnaw2.antpool.com:3333
+e595de poolname3 vip.cnaw2.antpool.com:3333
+0adba5 poolname3 vip.cnaw2.antpool.com:3333
+7e2767 poolname3 vip.cnaw2.antpool.com:3333
+36a526 poolname3 vip.cnaw2.antpool.com:3333
+029eb6 poolname3 vip.cnaw2.antpool.com:3333
+4121df poolname3 vip.cnaw2.antpool.com:3333
+71964f poolname3 vip.cnaw2.antpool.com:3333
+db1480 poolname3 vip.cnaw2.antpool.com:3333
+283ff7 poolname3 vip.cnaw2.antpool.com:3333
+620567 poolname3 vip.cnaw2.antpool.com:3333
+be27de poolname3 vip.cnaw2.antpool.com:3333
+658caa poolname3 vip.cnaw2.antpool.com:3333
+0fc1a9 poolname3 vip.cnaw2.antpool.com:3333
+1680e1 poolname3 vip.cnaw2.antpool.com:3333
+c6cbe1 poolname3 vip.cnaw2.antpool.com:3333
+cb7a3d username3 GMTVILLA01
+0697d7 username3 GMTVILLA01
+c606e7 username3 GMTVILLA01
+b63fb1 username3 GMTVILLA01
+6e7701 username3 GMTVILLA01
+d8e7a3 username3 GMTVILLA01
+9715d4 username3 GMTVILLA01
+a43819 username3 GMTVILLA01
+b99abe username3 GMTVILLA01
+a4a691 username3 GMTVILLA01
+103e5c username3 GMTVILLA01
+5680b4 username3 GMTVILLA01
+abb6f3 username3 GMTVILLA01
+d22a39 username3 GMTVILLA01
+80b6cc username3 GMTVILLA01
+c3c415 username3 GMTVILLA01
+c123c8 username3 GMTVILLA01
+62d6d0 username3 GMTVILLA01
+38b6a2 username3 GMTVILLA01
+55b5cb username3 GMTVILLA01
+84794b username3 GMTVILLA01
+768cf3 username3 GMTVILLA01
+47f0c6 username3 GMTVILLA01
+b93f22 username3 GMTVILLA01
+1f71ad username3 GMTVILLA01
+b38e61 username3 GMTVILLA01
+2a0ab5 username3 GMTVILLA01
+c56a90 username3 GMTVILLA01
+4a8cc9 username3 GMTVILLA01
+ae711c username3 GMTVILLA01
+888f80 username3 GMTVILLA01
+6b4731 username3 GMTVILLA01
+2b10a0 username3 GMTVILLA01
+e886b1 username3 GMTVILLA01
+296c61 username3 GMTVILLA01
+b285f8 username3 GMTVILLA01
+4bdbe0 username3 GMTVILLA01
+d56eaf username3 GMTVILLA01
+d415da username3 GMTVILLA01
+aa49d8 username3 GMTVILLA01
+a66966 username3 GMTVILLA01
+75e651 username3 GMTVILLA01
+b46ce7 username3 GMTVILLA01
+5ac22f username3 GMTVILLA01
+0b383f username3 GMTVILLA01
+7c5703 username3 GMTVILLA01
+29f37a username3 GMTVILLA01
+f5fdc7 username3 GMTVILLA01
+94a27d username3 GMTVILLA01
+72720b username3 GMTVILLA01
+e3daaa username3 GMTVILLA01
+c4ce2d username3 GMTVILLA01
+f1ead0 username3 GMTVILLA01
+cd3638 username3 GMTVILLA01
+d3bb55 username3 GMTVILLA01
+08c7c6 username3 GMTVILLA01
+93a040 username3 GMTVILLA01
+6f20ae username3 GMTVILLA01
+2b24e8 username3 GMTVILLA01
+8812ce username3 GMTVILLA01
+e595de username3 GMTVILLA01
+0adba5 username3 GMTVILLA01
+7e2767 username3 GMTVILLA01
+36a526 username3 GMTVILLA01
+029eb6 username3 GMTVILLA01
+4121df username3 GMTVILLA01
+71964f username3 GMTVILLA01
+db1480 username3 GMTVILLA01
+283ff7 username3 GMTVILLA01
+620567 username3 GMTVILLA01
+be27de username3 GMTVILLA01
+658caa username3 GMTVILLA01
+0fc1a9 username3 GMTVILLA01
+1680e1 username3 GMTVILLA01
+c6cbe1 username3 GMTVILLA01
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
