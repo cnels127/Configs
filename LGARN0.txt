@@ -29,7 +29,7 @@ global blinkgreen rapid
 
 # global retune 1
 # global rebootasic 1
-global resetasic 1570212987
+global resetasic 1571113675 # 1570212987
 # global panelpass gj83Nkgikg
 
 # group=rowc rebootasic 1
@@ -53,3 +53,4 @@ vlan 10.0.67.85-85
 
 ## asic password
 asicpass admin
+

@@ -29,7 +29,7 @@ global blinkgreen rapid
 
 # global retune 1
 # global rebootasic 1
-global resetasic 2
+global resetasic 1571113675 # 2
 # global panelpass gj83Nkgikg
 
 # group=rowc rebootasic 1
@@ -420,6 +420,7 @@ bcf062 rebootasic 1569528062 # 10.0.65.73
 
 ## asic password
 asicpass admin
+
 
 
 
