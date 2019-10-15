@@ -38,6 +38,17 @@ global resetasic 1571113675 # 1570805991
 ## vlan
 
 ## tuning
+7d081c maxwatts -50 # 10.0.50.22
+447c81 maxwatts -50 # 10.0.55.62
+39ece6 maxwatts -50 # 10.0.55.11
+f5432f maxwatts 950 # 10.0.50.96
+b1546e maxwatts 1400 # 10.0.31.83
+7d081c rebootasic 1571161897 # 10.0.50.22
+447c81 rebootasic 1571161897 # 10.0.55.62
+39ece6 rebootasic 1571161897 # 10.0.55.11
+f5432f rebootasic 1571161897 # 10.0.50.96
+b1546e rebootasic 1571161897 # 10.0.31.83
+
 305120 maxwatts -50 # 10.0.55.39
 b8dc4a maxwatts -50 # 10.0.55.57
 75f914 maxwatts 750 # 10.0.32.12
@@ -5075,6 +5086,7 @@ b972c8 location ESOLG00497
 
 ## asic password
 asicpass admin
+
 
 
 
