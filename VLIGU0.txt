@@ -146,6 +146,11 @@ db2bbb location VLIGU00092
 
 ## tuning
 fa20ef maxwatts -100 # 10.0.51.50
+7e0c44 maxwatts 1100 # 10.0.51.32
+fa20ef rebootasic 1571171966 # 10.0.51.50
+7e0c44 rebootasic 1571171966 # 10.0.51.32
+
+fa20ef maxwatts -100 # 10.0.51.50
 7ad9c1 maxwatts 1200 # 10.0.51.41
 5621cd maxwatts 1400 # 10.0.57.123
 fa20ef rebootasic 1571170287 # 10.0.51.50
@@ -960,6 +965,7 @@ db2bbb retune 1
 
 ## asic password
 asicpass admin
+
 
 
 
