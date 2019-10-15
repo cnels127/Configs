@@ -41,6 +41,23 @@ global resetasic 1571113675 # 1570805991
 305120 maxwatts -50 # 10.0.55.39
 39ece6 maxwatts -50 # 10.0.55.11
 b8dc4a maxwatts -50 # 10.0.55.57
+447c81 maxwatts -50 # 10.0.55.62
+6ec60f maxwatts -50 # 10.0.55.35
+27a764 maxwatts 1300 # 10.0.31.3
+7d081c maxwatts -50 # 10.0.50.22
+564bdb maxwatts 750 # 10.0.50.136
+305120 rebootasic 1571155214 # 10.0.55.39
+39ece6 rebootasic 1571155214 # 10.0.55.11
+b8dc4a rebootasic 1571155214 # 10.0.55.57
+447c81 rebootasic 1571155214 # 10.0.55.62
+6ec60f rebootasic 1571155214 # 10.0.55.35
+27a764 rebootasic 1571155214 # 10.0.31.3
+7d081c rebootasic 1571155214 # 10.0.50.22
+564bdb rebootasic 1571155214 # 10.0.50.136
+
+305120 maxwatts -50 # 10.0.55.39
+39ece6 maxwatts -50 # 10.0.55.11
+b8dc4a maxwatts -50 # 10.0.55.57
 305120 rebootasic 1571153527 # 10.0.55.39
 39ece6 rebootasic 1571153527 # 10.0.55.11
 b8dc4a rebootasic 1571153527 # 10.0.55.57
@@ -5029,6 +5046,7 @@ b972c8 location ESOLG00497
 
 ## asic password
 asicpass admin
+
 
 
 
