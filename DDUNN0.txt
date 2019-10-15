@@ -72,65 +72,11 @@ eef025 location DDUNN00016
 58df28 location DDUNN00018
 
 ## tuning
-0f26d2 maxwatts 750 # 10.0.55.148
-46781e maxwatts 950 # 10.0.56.53
-0f26d2 rebootasic 1571145355 # 10.0.55.148
-46781e rebootasic 1571145355 # 10.0.56.53
-
-0f26d2 maxwatts 850 # 10.0.55.148
-0f26d2 rebootasic 1571108909 # 10.0.55.148
-
-46781e maxwatts 1050 # 10.0.56.53
-46781e rebootasic 1571062950 # 10.0.56.53
-
-46781e maxwatts 1150 # 10.0.56.53
-46781e rebootasic 1571057556 # 10.0.56.53
-
-46781e maxwatts 1250 # 10.0.56.53
-46781e rebootasic 1571052366 # 10.0.56.53
-
-787c22 maxwatts 1250 # 10.0.56.112
-787c22 rebootasic 1571002187 # 10.0.56.112
-
-0f26d2 maxwatts 950 # 10.0.55.148
-0f26d2 rebootasic 1570975883 # 10.0.55.148
-
-f5839e maxwatts 950 # 10.0.55.86
-f5839e rebootasic 1570941614 # 10.0.55.86
-
-f5839e maxwatts 1050 # 10.0.55.86
-f5839e rebootasic 1570935385 # 10.0.55.86
-
-0f26d2 maxwatts 1050 # 10.0.55.148
-0f26d2 rebootasic 1570859216 # 10.0.55.148
-
-0f26d2 maxwatts 1150 # 10.0.55.148
-0f26d2 rebootasic 1570822960 # 10.0.55.148
-
-0f26d2 maxwatts 1250 # 10.0.55.148
-0f26d2 rebootasic 1570816240 # 10.0.55.148
-
-f5839e maxwatts 1150 # 10.0.55.86
-f5839e rebootasic 1570632319 # 10.0.55.86
-
-f5839e maxwatts 1250 # 10.0.55.86
-f5839e rebootasic 1570626873 # 10.0.55.86
-
-eef025 maxwatts 1150 # 10.0.56.110
-eef025 rebootasic 1569551262 # 10.0.56.110
-
-ee9f37 maxwatts 1250 # 10.0.54.161
-ee9f37 rebootasic 1568960186 # 10.0.54.161
-
-eef025 maxwatts 1250 # 10.0.56.110
-eef025 rebootasic 1567795424 # 10.0.56.110
-
-15a0ef maxwatts 1250 # 10.0.55.147
-15a0ef rebootasic 1567406764 # 10.0.55.147
 
 ## reboots
 
 ## resets
+f5839e resetasic 1571169651
 
 ## asic password
 asicpass admin
