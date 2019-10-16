@@ -122,9 +122,7 @@ fb2a81 location SRADO00042
 32d65b rebootasic 1571268947 # 10.0.67.150
 
 32d65b maxwatts -100 # 10.0.67.150
-26db41 maxwatts 1200 # 10.0.60.122
 32d65b rebootasic 1571267241 # 10.0.67.150
-26db41 rebootasic 1571267241 # 10.0.60.122
 
 32d65b maxwatts -100 # 10.0.67.150
 957edc maxwatts 1400 # 10.0.67.104
@@ -132,9 +130,7 @@ fb2a81 location SRADO00042
 957edc rebootasic 1571265395 # 10.0.67.104
 
 32d65b maxwatts -100 # 10.0.67.150
-26db41 maxwatts 1300 # 10.0.60.122
 32d65b rebootasic 1571263561 # 10.0.67.150
-26db41 rebootasic 1571263561 # 10.0.60.122
 
 32d65b maxwatts -100 # 10.0.67.150
 32d65b rebootasic 1571261674 # 10.0.67.150
@@ -178,9 +174,7 @@ e3835b rebootasic 1571248848 # 10.0.63.110
 32d65b rebootasic 1571247017 # 10.0.67.150
 
 32d65b maxwatts -100 # 10.0.67.150
-26db41 maxwatts 1400 # 10.0.60.122
 32d65b rebootasic 1571245192 # 10.0.67.150
-26db41 rebootasic 1571245192 # 10.0.60.122
 
 32d65b maxwatts -100 # 10.0.67.150
 32d65b rebootasic 1571243373 # 10.0.67.150
@@ -275,9 +269,7 @@ e3835b rebootasic 1571241575 # 10.0.63.110
 32d65b rebootasic 1571190846 # 10.0.67.150
 
 32d65b maxwatts -100 # 10.0.67.150
-71bc68 maxwatts 1300 # 10.0.57.158
 32d65b rebootasic 1571189055 # 10.0.67.150
-71bc68 rebootasic 1571189055 # 10.0.57.158
 
 32d65b maxwatts -100 # 10.0.67.150
 c8c8e3 maxwatts 1400 # 10.0.54.139
@@ -293,9 +285,7 @@ e3835b rebootasic 1571185516 # 10.0.63.110
 7c6af8 rebootasic 1571182060 # 10.0.58.8
 
 32d65b maxwatts -100 # 10.0.67.150
-71bc68 maxwatts 1400 # 10.0.57.158
 32d65b rebootasic 1571180367 # 10.0.67.150
-71bc68 rebootasic 1571180367 # 10.0.57.158
 
 32d65b maxwatts -100 # 10.0.67.150
 32d65b rebootasic 1571178684 # 10.0.67.150
@@ -372,76 +362,9 @@ fb2a81 rebootasic 1571145513 # 10.0.68.3
 ## reboots
 
 ## resets
+89611d resetasic 1571269331
+71bc68 resetasic 1571269331
+26db41 resetasic 1571269331
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
