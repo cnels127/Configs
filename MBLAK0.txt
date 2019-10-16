@@ -53,6 +53,9 @@ dfb542 location MBLAK00010
 5d3f6c location MBLAK00012
 
 ## tuning
+ecd90f maxwatts 1150 # 10.0.56.155
+ecd90f rebootasic 1571195968 # 10.0.56.155
+
 5d3f6c maxwatts 1250 # 10.0.56.158
 5d3f6c rebootasic 1571185429 # 10.0.56.158
 
@@ -118,6 +121,7 @@ ec382c retune 1
 
 ## asic password
 asicpass admin
+
 
 
 
