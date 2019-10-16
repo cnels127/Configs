@@ -18,7 +18,7 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1500
+global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90
@@ -38,81 +38,6 @@ global resetasic 1571237128 # 1571225465
 ## vlan
 
 ## tuning
-e4b4e7 maxwatts 1100 # 10.0.50.98
-faf076 maxwatts 1300 # 10.0.50.32
-225634 maxwatts 1400 # 10.0.55.8
-c2c61a maxwatts 1400 # 10.0.55.56
-e4b4e7 rebootasic 1571259592 # 10.0.50.98
-faf076 rebootasic 1571259592 # 10.0.50.32
-225634 rebootasic 1571259592 # 10.0.55.8
-c2c61a rebootasic 1571259592 # 10.0.55.56
-
-55050e maxwatts 1400 # 10.0.50.95
-55050e rebootasic 1571257747 # 10.0.50.95
-
-e4b4e7 maxwatts 1200 # 10.0.50.98
-c256c3 maxwatts 1300 # 10.0.50.143
-f5432f maxwatts 1400 # 10.0.50.96
-e4b4e7 rebootasic 1571255909 # 10.0.50.98
-c256c3 rebootasic 1571255909 # 10.0.50.143
-f5432f rebootasic 1571255909 # 10.0.50.96
-
-c88f61 maxwatts 1400 # 10.0.50.150
-4d576b maxwatts 1400 # 10.0.50.23
-c88f61 rebootasic 1571254102 # 10.0.50.150
-4d576b rebootasic 1571254102 # 10.0.50.23
-
-e4b4e7 maxwatts 1300 # 10.0.50.98
-e4b4e7 rebootasic 1571252257 # 10.0.50.98
-
-e4b4e7 maxwatts 1400 # 10.0.50.98
-e4b4e7 rebootasic 1571248661 # 10.0.50.98
-
-afd8a4 maxwatts 1400 # 10.0.31.108
-afd8a4 rebootasic 1571246828 # 10.0.31.108
-
-4f22fd maxwatts 1300 # 10.0.30.116
-11aa26 maxwatts 1300 # 10.0.30.154
-2968f0 maxwatts 1400 # 10.0.50.110
-4f22fd rebootasic 1571243197 # 10.0.30.116
-11aa26 rebootasic 1571243197 # 10.0.30.154
-2968f0 rebootasic 1571243197 # 10.0.50.110
-
-0a2190 maxwatts 1200 # 10.0.50.160
-c99e2f maxwatts 1400 # 10.0.31.84
-628082 maxwatts 1400 # 10.0.31.77
-dd258c maxwatts 1400 # 10.0.31.114
-0a2190 rebootasic 1571241408 # 10.0.50.160
-c99e2f rebootasic 1571241408 # 10.0.31.84
-628082 rebootasic 1571241408 # 10.0.31.77
-dd258c rebootasic 1571241408 # 10.0.31.114
-
-0a2190 maxwatts 1300 # 10.0.50.160
-cc57e2 maxwatts 1300 # 10.0.55.65
-8d5b8b maxwatts 1400 # 10.0.50.117
-4f22fd maxwatts 1400 # 10.0.30.116
-11aa26 maxwatts 1400 # 10.0.30.154
-a48265 maxwatts 1400 # 10.0.31.59
-a7b5ce maxwatts 1400 # 10.0.31.153
-c256c3 maxwatts 1400 # 10.0.50.143
-0a2190 rebootasic 1571239630 # 10.0.50.160
-cc57e2 rebootasic 1571239630 # 10.0.55.65
-8d5b8b rebootasic 1571239630 # 10.0.50.117
-4f22fd rebootasic 1571239630 # 10.0.30.116
-11aa26 rebootasic 1571239630 # 10.0.30.154
-a48265 rebootasic 1571239630 # 10.0.31.59
-a7b5ce rebootasic 1571239630 # 10.0.31.153
-c256c3 rebootasic 1571239630 # 10.0.50.143
-
-39ece6 maxwatts -50 # 10.0.55.11
-faf076 maxwatts 1400 # 10.0.50.32
-0a2190 maxwatts 1400 # 10.0.50.160
-cc57e2 maxwatts 1400 # 10.0.55.65
-39ece6 rebootasic 1571237851 # 10.0.55.11
-faf076 rebootasic 1571237851 # 10.0.50.32
-0a2190 rebootasic 1571237851 # 10.0.50.160
-cc57e2 rebootasic 1571237851 # 10.0.55.65
-
 
 ## reboots
 
