@@ -18,7 +18,7 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1400
+global maxwatts 1500
 global autoupdate yes
 global allowed yes
 global maxtemp 90
@@ -29,7 +29,7 @@ global blinkgreen rapid
 
 global retune 1
 global rebootasic 2
-global resetasic 1571113675 # 1
+global resetasic 1571241400 # 2
 # global panelpass gj83Nkgikg
 
 # group=rowc rebootasic 1
@@ -54,44 +54,6 @@ bd9932 location PKOKE00005
 e5ba90 location PKOKE00009
 
 ## tuning
-3bcc51 maxwatts 800 # 10.0.57.75
-3bcc51 rebootasic 1571206364 # 10.0.57.75
-
-f39f2b maxwatts 1200 # 10.0.54.135
-f39f2b rebootasic 1571188978 # 10.0.54.135
-
-2baaac maxwatts 1300 # 10.0.58.127
-2baaac rebootasic 1571178645 # 10.0.58.127
-
-17739c rebootasic 1571147986 # 10.0.54.133 pkoke00001
- 
-
-3bcc51 maxwatts 900 # 10.0.57.75
-3bcc51 rebootasic 1570950347 # 10.0.57.75
-
-f39f2b maxwatts 1300 # 10.0.54.135
-f39f2b rebootasic 1570922383 # 10.0.54.135
-
-3bcc51 maxwatts 1000 # 10.0.57.75
-3bcc51 rebootasic 1570864791 # 10.0.57.75
-
-17739c maxwatts 1300 # 10.0.54.133
-17739c rebootasic 1570774918 # 10.0.54.133
-
-3bcc51 maxwatts 1100 # 10.0.57.75
-3bcc51 rebootasic 1570711949 # 10.0.57.75
-
-e5ba90 maxwatts 1200 # 10.0.61.2
-e5ba90 rebootasic 1570664355 # 10.0.61.2
-
-3bcc51 maxwatts 1200 # 10.0.57.75
-3bcc51 rebootasic 1570653616 # 10.0.57.75
-
-3bcc51 maxwatts 1300 # 10.0.57.75
-e5ba90 maxwatts 1300 # 10.0.61.2
-3bcc51 rebootasic 1570648371 # 10.0.57.75
-e5ba90 rebootasic 1570648371 # 10.0.61.2
-
 7ed10f retune 1
 3bcc51 retune 1
 
