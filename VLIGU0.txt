@@ -29,7 +29,7 @@ global blinkgreen rapid
 
 global retune 1
 global rebootasic 8
-global resetasic 1571167915 # 2
+global resetasic 1571226298 # 2
 # global panelpass gj83Nkgikg
 
 # group=rowc rebootasic 1
@@ -145,6 +145,13 @@ db2bbb location VLIGU00092
 430b5d location VLIGU00100
 
 ## tuning
+d756d3 rebootasic 1571225938 # 10.0.51.35 vligu00038
+81d214 rebootasic 1571225938 # 10.0.51.36 vligu00039
+229e75 rebootasic 1571225938 # 10.0.57.116 vligu00088
+fe82d8 rebootasic 1571225938 # 10.0.51.47 vligu00050
+ab7297 rebootasic 1571225938 # 10.0.51.25 vligu00028
+3bd98f rebootasic 1571225938 # 10.0.57.103 vligu00075
+
 4319ad maxwatts 400 # 10.0.51.23
 4319ad rebootasic 1571225702 # 10.0.51.23
 
