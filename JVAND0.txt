@@ -198,6 +198,9 @@ b35ae4 location JVAND00078
 ## fans
 
 ## tuning
+5047c0 maxwatts 850 # 10.0.121.100
+5047c0 rebootasic 1571190725 # 10.0.121.100
+
 5047c0 maxwatts 950 # 10.0.121.100
 93620c maxwatts 1050 # 10.0.120.152
 5047c0 rebootasic 1571187148 # 10.0.121.100
@@ -246,6 +249,7 @@ dacf42 resetasic 1570808833
 
 ## asic password
 asicpass admin
+
 
 
 
