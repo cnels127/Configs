@@ -29,7 +29,7 @@ global blinkgreen rapid
 
 # global retune 1
 # global rebootasic 1
-global resetasic 1571113675 # 1
+global resetasic 1571248734 # 1571113675
 # global panelpass gj83Nkgikg
 
 # group=rowc rebootasic 1
@@ -46,8 +46,6 @@ bdc4b8 location DWINL00001
 c8aece location DWINL00003
 
 ## tuning
-764024 maxwatts 1400 # 10.0.66.161
-764024 rebootasic 1568145672 # 10.0.66.161
 
 ## reboots
 
