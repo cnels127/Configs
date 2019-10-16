@@ -45,118 +45,12 @@ vlan 10.0.68.26-29
 aab607 location DMCCL00004
 
 ## tuning
-97c2eb maxwatts -50 # 10.0.68.28
-97c2eb rebootasic 1571227275 # 10.0.68.28
-
-97c2eb maxwatts -50 # 10.0.68.28
-97c2eb rebootasic 1571220263 # 10.0.68.28
-
-97c2eb maxwatts -50 # 10.0.68.28
-97c2eb rebootasic 1571214997 # 10.0.68.28
-
-97c2eb maxwatts -50 # 10.0.68.28
-97c2eb rebootasic 1571209736 # 10.0.68.28
-
-97c2eb maxwatts -50 # 10.0.68.28
-97c2eb rebootasic 1571204533 # 10.0.68.28
-
-97c2eb maxwatts -50 # 10.0.68.28
-97c2eb rebootasic 1571199352 # 10.0.68.28
-
-97c2eb maxwatts -50 # 10.0.68.28
-97c2eb rebootasic 1571194181 # 10.0.68.28
-
-97c2eb maxwatts -50 # 10.0.68.28
-97c2eb rebootasic 1571163541 # 10.0.68.28
-
-97c2eb maxwatts -50 # 10.0.68.28
-97c2eb rebootasic 1571158584 # 10.0.68.28
-
-97c2eb maxwatts -50 # 10.0.68.28
-97c2eb rebootasic 1571155206 # 10.0.68.28
-
-8d1e83 rebootasic 1571147905 # 10.0.68.26 dmccl00001
- 
-
-97c2eb maxwatts 50 # 10.0.68.28
-97c2eb rebootasic 1571145358 # 10.0.68.28
-
-97c2eb maxwatts 150 # 10.0.68.28
-97c2eb rebootasic 1571108965 # 10.0.68.28
-
-97c2eb maxwatts 250 # 10.0.68.28
-97c2eb rebootasic 1571102008 # 10.0.68.28
-
-97c2eb maxwatts 350 # 10.0.68.28
-97c2eb rebootasic 1571065765 # 10.0.68.28
-
-97c2eb maxwatts 450 # 10.0.68.28
-97c2eb rebootasic 1571044447 # 10.0.68.28
-
-97c2eb maxwatts 550 # 10.0.68.28
-97c2eb rebootasic 1571033704 # 10.0.68.28
-
-97c2eb maxwatts 650 # 10.0.68.28
-97c2eb rebootasic 1571025781 # 10.0.68.28
-
-97c2eb maxwatts 750 # 10.0.68.28
-97c2eb rebootasic 1570986570 # 10.0.68.28
-
-97c2eb maxwatts 850 # 10.0.68.28
-97c2eb rebootasic 1570567011 # 10.0.68.28
-
-97c2eb maxwatts 950 # 10.0.68.28
-97c2eb rebootasic 1570565028 # 10.0.68.28
-
-97c2eb maxwatts 1050 # 10.0.68.28
-97c2eb rebootasic 1570561078 # 10.0.68.28
-
-97c2eb maxwatts 1150 # 10.0.68.28
-97c2eb rebootasic 1570557193 # 10.0.68.28
-
-97c2eb maxwatts 1250 # 10.0.68.28
-97c2eb rebootasic 1570443885 # 10.0.68.28
-
-# s_overheat generated on Oct 04 2019 17:13:04 utc: 1570209184
-aab607 maxwatts 1050 # 10.0.68.29
-aab607 rebootasic 1570209184 # 10.0.68.29
-
-aab607 maxwatts 1150 # 10.0.68.29
-aab607 rebootasic 1570120682 # 10.0.68.29
-
-aab607 maxwatts 1250 # 10.0.68.29
-aab607 rebootasic 1570105265 # 10.0.68.29
-
-97c2eb retune 1
 
 ## reboots
 
 ## resets
+97c2eb resetasic 1571248369
+aab607 resetasic 1571248369
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
