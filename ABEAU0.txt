@@ -29,7 +29,7 @@ global blinkgreen rapid
 
 global retune 2
 # global rebootasic 1
-global resetasic 1571113675 # 1571107115
+global resetasic 1571243779 # 1571113675
 # global panelpass gj83Nkgikg
 
 # group=rowc rebootasic 1
@@ -46,22 +46,8 @@ a26081 location ABEAU00002
 64c124 location ABEAU00003
 
 ## tuning
-64c124 maxwatts 1100 # 10.0.56.68
-64c124 rebootasic 1571211447 # 10.0.56.68
-
-64c124 maxwatts 1200 # 10.0.56.68
-64c124 rebootasic 1571206227 # 10.0.56.68
-
-64c124 maxwatts 1300 # 10.0.56.68
-64c124 rebootasic 1571194151 # 10.0.56.68
-
-64c124 maxwatts 1400 # 10.0.56.68
-64c124 rebootasic 1571185299 # 10.0.56.68
-
 
 ## reboots
-# s_reboot generated on Oct 12 2019 07:26:23 utc: 1570865183
-a26081 rebootasic 1570865183 # 10.0.55.137 abeau00002
 
 ## reset
 35cf73 resetasic 1570773874
