@@ -156,6 +156,9 @@ f2b75b location HFISC00056
 
 
 ## tuning
+e3ce5c maxwatts 750 # 10.0.115.30
+e3ce5c rebootasic 1571199385 # 10.0.115.30
+
 e3ce5c maxwatts 850 # 10.0.115.30
 e3ce5c rebootasic 1571195919 # 10.0.115.30
 
@@ -1240,6 +1243,7 @@ cb9593 resetasic 1
 
 ## asic password
 asicpass admin
+
 
 
 
