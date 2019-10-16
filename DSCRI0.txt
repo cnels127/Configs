@@ -19,7 +19,6 @@ global sendworker3 yes
 global asicboost yes
 global autotune yes
 global maxwatts 1350
-
 global autoupdate yes
 global allowed yes
 global maxtemp 90
@@ -30,7 +29,7 @@ global blinkgreen rapid
 
 # global retune 1
 # global rebootasic 1
-global resetasic 1571113675 # 1
+global resetasic 1571248699 # 1571113675
 # global panelpass gj83Nkgikg
 
 # group=rowc rebootasic 1
@@ -46,9 +45,6 @@ vlan 10.0.60.58-58
 1c0d86 location DSCRI00003
 
 ## tuning
-309322 maxwatts 1250 # 10.0.60.10
-309322 rebootasic 1571145361 # 10.0.60.10
-
 
 ## asic password
 asicpass admin
