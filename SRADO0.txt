@@ -137,10 +137,8 @@ fb2a81 location SRADO00042
 
 32d65b maxwatts -100 # 10.0.67.150
 e3835b maxwatts 700 # 10.0.63.110
-acd279 maxwatts 1400 # 10.0.58.16
 32d65b rebootasic 1571259816 # 10.0.67.150
 e3835b rebootasic 1571259816 # 10.0.63.110
-acd279 rebootasic 1571259816 # 10.0.58.16
 
 32d65b maxwatts -100 # 10.0.67.150
 32d65b rebootasic 1571257947 # 10.0.67.150
@@ -362,6 +360,7 @@ fb2a81 rebootasic 1571145513 # 10.0.68.3
 ## reboots
 
 ## resets
+acd279 resetasic 1571269484
 89611d resetasic 1571269331
 71bc68 resetasic 1571269331
 26db41 resetasic 1571269331
