@@ -228,10 +228,8 @@ b35ae4 location JVAND00078
 
 8d9cd3 maxwatts 1250 # 10.0.121.103
 cd2082 maxwatts 1250 # 10.0.116.6
-6138b0 maxwatts 1250 # 10.0.116.50
 8d9cd3 rebootasic 1571145412 # 10.0.121.103
 cd2082 rebootasic 1571145412 # 10.0.116.6
-6138b0 rebootasic 1571145412 # 10.0.116.50
 
 54bcb8 maxwatts 1250 # 10.0.66.36
 54bcb8 rebootasic 1570988876 # 10.0.66.36
@@ -244,6 +242,7 @@ cd2082 rebootasic 1570720910
 7bf12e rebootasic 1570720910
 
 ## resets
+6138b0 resetasic 1571197824
 5047c0 resetasic 1571171714
 93620c resetasic 1571171657
 b16b0a resetasic 1571171547
