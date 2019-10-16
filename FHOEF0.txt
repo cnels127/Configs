@@ -108,9 +108,6 @@ d560da location FHOEF00039
 84fddc maxwatts 1200 # 10.0.55.85
 84fddc rebootasic 1571171845 # 10.0.55.85
 
-2bf2a8 maxwatts 1300 # 10.0.118.24
-2bf2a8 rebootasic 1571165199 # 10.0.118.24
-
 84fddc maxwatts 1300 # 10.0.55.85
 84fddc rebootasic 1571158591 # 10.0.55.85
 
@@ -119,6 +116,9 @@ d560da location FHOEF00039
 88775f rebootasic 1571160413
 
 ## resets
+2bf2a8 resetasic 1571197399
+9e743b resetasic 1571197399
+8d76ff resetasic 1571197399
 be5d42 resetasic 1571164337
 a03b81 resetasic 1571164254
 4ffb50 resetasic 1571164120
