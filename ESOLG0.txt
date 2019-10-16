@@ -29,7 +29,7 @@ global blinkgreen rapid
 
 global retune 1
 global rebootasic 10
-global resetasic 1571113675 # 1570805991
+global resetasic 1571225465 # 1570805991
 # global panelpass gj83Nkgikg
 
 # group=rowc rebootasic 1
@@ -38,6 +38,30 @@ global resetasic 1571113675 # 1570805991
 ## vlan
 
 ## tuning
+a46199 rebootasic 1571225465 # 10.0.50.42 esolg00306
+996b7a rebootasic 1571225465 # 10.0.55.49 esolg00466
+c6558b rebootasic 1571225465 # 10.0.30.135 esolg00059
+97fbfe rebootasic 1571225465 # 10.0.30.106 esolg00030
+f0cff0 rebootasic 1571225465 # 10.0.31.76 esolg00160
+ca719a rebootasic 1571225465 # 10.0.31.126 esolg00210
+2f15df rebootasic 1571225465 # 10.0.32.9 esolg00253
+75f914 rebootasic 1571225465 # 10.0.32.12 esolg00256
+16d041 rebootasic 1571225465 # 10.0.55.36 esolg00453
+a5d526 rebootasic 1571225465 # 10.0.31.107 esolg00191
+4f615d rebootasic 1571225465 # 10.0.55.59 esolg00476
+75e685 rebootasic 1571225465 # 10.0.31.36 esolg00120
+4f72bb rebootasic 1571225465 # 10.0.30.91 esolg00015
+cc589c rebootasic 1571225465 # 10.0.31.15 esolg00099
+7f3032 rebootasic 1571225465 # 10.0.31.20 esolg00104
+e566c2 rebootasic 1571225465 # 10.0.31.50 esolg00134
+731bbf rebootasic 1571225465 # 10.0.31.62 esolg00146
+f51cb8 rebootasic 1571225465 # 10.0.31.64 esolg00148
+0de34a rebootasic 1571225465 # 10.0.31.145 esolg00229
+083178 rebootasic 1571225465 # 10.0.50.27 esolg00291
+5170b3 rebootasic 1571225465 # 10.0.50.57 esolg00321
+ac0008 rebootasic 1571225465 # 10.0.50.104 esolg00368
+4a16a7 rebootasic 1571225465 # 10.0.50.142 esolg00406
+ad36be rebootasic 1571225465 # 10.0.50.151 esolg00415
 305120 maxwatts -50 # 10.0.55.39
 305120 rebootasic 1571223779 # 10.0.55.39
 
