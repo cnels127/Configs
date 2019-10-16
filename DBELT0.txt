@@ -29,7 +29,7 @@ global blinkgreen rapid
 
 global retune 1
 global rebootasic 2
-global resetasic 1571113675 # 1570749503
+global resetasic 1571245947 # 1571113675
 # global panelpass gj83Nkgikg
 
 # group=rowc rebootasic 1
@@ -54,65 +54,12 @@ e7a422 location DBELT00002
 056415 location DBELT00008
 
 ## tuning
-1667e2 maxwatts 800 # 10.0.54.155
-1667e2 rebootasic 1571225499 # 10.0.54.155
-
-1667e2 maxwatts 900 # 10.0.54.155
-1667e2 rebootasic 1571211489 # 10.0.54.155
-
-1667e2 maxwatts 1000 # 10.0.54.155
-1667e2 rebootasic 1571181938 # 10.0.54.155
-
-1667e2 maxwatts 1100 # 10.0.54.155
-1667e2 rebootasic 1571170147 # 10.0.54.155
-
-1667e2 maxwatts 1200 # 10.0.54.155
-1667e2 rebootasic 1571095815 # 10.0.54.155
-
-1667e2 maxwatts 1300 # 10.0.54.155
-1667e2 rebootasic 1571080709 # 10.0.54.155
-
-0747e2 maxwatts 1400 # 10.0.54.158
-0747e2 rebootasic 1571071456 # 10.0.54.158
-
-1667e2 maxwatts 1400 # 10.0.54.155
-1667e2 rebootasic 1571044404 # 10.0.54.155
-
-54750e retune 1
 
 ## fans
 
 ## reboots
 
 ## resets
-356422 resetasic 1569962236
-1667e2 resetasic 1
-356422 resetasic 1
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
