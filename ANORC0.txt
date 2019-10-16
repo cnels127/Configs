@@ -29,7 +29,7 @@ global blinkgreen rapid
 
 # global retune 1
 # global rebootasic 1
-global resetasic 1571113675 # 1571107115
+global resetasic 1571243876 # 1571113675
 # global panelpass gj83Nkgikg
 
 # group=rowc rebootasic 1
@@ -51,32 +51,12 @@ ce82d1 location ANORC00009
 88093b location ANORC00010
 
 ## tuning
-29b205 maxwatts 1150 # 10.0.68.92
-29b205 rebootasic 1571188785 # 10.0.68.92
-
-f5e34e rebootasic 1571147879 # 10.0.68.95 anorc00004
- 
-
-ce82d1 maxwatts 1400 # 10.0.68.100
-ce82d1 rebootasic 1571145328 # 10.0.68.100
-
-efd6b3 maxwatts 1400 # 10.0.68.98
-efd6b3 rebootasic 1571108704 # 10.0.68.98
-
-29b205 maxwatts 1250 # 10.0.68.92
-29b205 rebootasic 1570927657 # 10.0.68.92
-
-07c674 retune 1
 
 ## fans
 
 ## reboots
-07c674 rebootasic 1570736293 # 10.0.68.93 anorc0002
-17fb06 rebootasic 1570736452 # 10.0.68.94 anorc0003
-ce82d1 rebootasic 1570743165 # 10.0.68.100 anorc0009
 
 ## resets
-efd6b3 resetasic 1570750660
 
 ## asic password
 asicpass admin
