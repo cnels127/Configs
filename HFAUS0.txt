@@ -30,7 +30,7 @@ global blinkgreen rapid
 
 global retune 1
 # global rebootasic 1
-global resetasic 1571113675 # 1
+global resetasic 1571251512 # 1571113675
 # global panelpass gj83Nkgikg
 
 # group=rowc rebootasic 1
@@ -73,109 +73,8 @@ f3c9af location HFAUS00012
 11d430 location HFAUS00013
 
 ## tuning
-737fce maxwatts 1000 # 10.0.61.109
-737fce rebootasic 1571241431 # 10.0.61.109
-
-737fce maxwatts 1100 # 10.0.61.109
-737fce rebootasic 1571232562 # 10.0.61.109
-
-737fce maxwatts 1200 # 10.0.61.109
-737fce rebootasic 1571190689 # 10.0.61.109
-
-d51a5c maxwatts 1400 # 10.0.59.161
-d51a5c rebootasic 1571145385 # 10.0.59.161
-
-737fce maxwatts 1300 # 10.0.61.109
-737fce rebootasic 1571109259 # 10.0.61.109
-
-737fce maxwatts 1400 # 10.0.61.109
-737fce rebootasic 1571089641 # 10.0.61.109
-
-c7c8e8 maxwatts 1300 # 10.0.65.11
-c7c8e8 rebootasic 1570907811 # 10.0.65.11
-
-335e38 maxwatts 1400 # 10.0.62.81
-335e38 rebootasic 1570839965 # 10.0.62.81
-
-a3883c maxwatts 1100 # 10.0.57.86
-a3883c rebootasic 1570786424 # 10.0.57.86
-
-c7c8e8 maxwatts 1400 # 10.0.65.11
-c7c8e8 rebootasic 1570766493 # 10.0.65.11
-
-a3883c maxwatts 1200 # 10.0.57.86
-a3883c rebootasic 1570666087 # 10.0.57.86
-
-a3883c maxwatts 1300 # 10.0.57.86
-a3883c rebootasic 1570660680 # 10.0.57.86
-
-f3bb3d maxwatts 1300 # 10.0.65.124
-f3bb3d rebootasic 1570648290 # 10.0.65.124
-
-f3bb3d maxwatts 1400 # 10.0.65.124
-f3bb3d rebootasic 1570614444 # 10.0.65.124
-
-a3883c maxwatts 1400 # 10.0.57.86
-a3883c rebootasic 1570612692 # 10.0.57.86
-
-9157ba maxwatts 1300 # 10.0.63.34
-fe7105 maxwatts 900 # 10.0.65.112
-9157ba rebootasic 1568960219 # 10.0.63.34
-fe7105 rebootasic 1568960219 # 10.0.65.112
-
-9157ba maxwatts 1400 # 10.0.63.34
-9157ba rebootasic 1568951497 # 10.0.63.34
-
-fe7105 maxwatts 1000 # 10.0.65.112
-fe7105 rebootasic 1568942856 # 10.0.65.112
-
-fe7105 maxwatts 1100 # 10.0.65.112
-fe7105 rebootasic 1568934325 # 10.0.65.112
-
-fe7105 maxwatts 1200 # 10.0.65.112
-fe7105 rebootasic 1568932623 # 10.0.65.112
-
-# generated on Sep 19 2019 22:37:44 utc: 1568932664: 1568932664
-fe7105 maxwatts 1000 # 10.0.65.112
-fe7105 rebootasic 1568932664 # 10.0.65.112
-# generated on Sep 19 2019 21:53:18 utc: 1568929998: 1568929998
-fe7105 maxwatts 1300 # 10.0.65.112
-fe7105 rebootasic 1568929998 # 10.0.65.112
-# generated on Sep 19 2019 21:32:41 utc: 1568928761: 1568928761
-fe7105 maxwatts 1400 # 10.0.65.112
-ef15e2 maxwatts 1400 # 10.0.62.131
-4c84d0 maxwatts 1400 # 10.0.64.3
-fe7105 rebootasic 1568928761 # 10.0.65.112
-ef15e2 rebootasic 1568928761 # 10.0.62.131
-4c84d0 rebootasic 1568928761 # 10.0.64.3
-
-# generated on Sep 19 2019 01:28:54 utc: 1568856534: 1568856534
-b19f40 maxwatts 1400 # 10.0.66.154
-b19f40 rebootasic 1568856534 # 10.0.66.154
 
 ## resets
-335e38 resetasic 1
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
