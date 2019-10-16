@@ -102,6 +102,9 @@ a3c9ac location SLANG00024
 cc9cd4 location SLANG00025
 
 ## tuning
+e39d7c maxwatts 1400 # 10.0.60.87
+e39d7c rebootasic 1571245171 # 10.0.60.87
+
 fd676b maxwatts 1100 # 10.0.121.70
 fd676b rebootasic 1571239782 # 10.0.121.70
 
@@ -138,6 +141,7 @@ fd676b rebootasic 1571009517 # 10.0.121.70
 
 ## asic password
 asicpass admin
+
 
 
 
