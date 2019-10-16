@@ -29,7 +29,7 @@ global blinkgreen rapid
 
 global retune 1
 global rebootasic 7
-global resetasic 1571113675 # 1570745709
+global resetasic 1571251831 # 3
 # global panelpass gj83Nkgikg
 
 # group=rowc rebootasic 1
@@ -102,72 +102,6 @@ ff032f location RGESU00058
 75ef00 location RGESU00060
 
 ## tuning
-35f34a maxwatts 1400 # 10.0.53.158
-35f34a rebootasic 1571209858 # 10.0.53.158
-
-13b57d maxwatts 1300 # 10.0.53.157
-6073d8 maxwatts 1300 # 10.0.53.156
-13b57d rebootasic 1571151917 # 10.0.53.157
-6073d8 rebootasic 1571151917 # 10.0.53.156
-
-081fad rebootasic 1571147998 # 10.0.54.12 rgesu00034
-9a8142 rebootasic 1571147998 # 10.0.54.29 rgesu00051
- 
-
-6c3de0 maxwatts 1100 # 10.0.54.25
-6073d8 maxwatts 1400 # 10.0.53.156
-45099f maxwatts 1200 # 10.0.54.19
-13b57d maxwatts 1400 # 10.0.53.157
-6c3de0 rebootasic 1571145481 # 10.0.54.25
-6073d8 rebootasic 1571145481 # 10.0.53.156
-45099f rebootasic 1571145481 # 10.0.54.19
-13b57d rebootasic 1571145481 # 10.0.53.157
-
-b65a11 maxwatts 900 # 10.0.53.155
-b65a11 rebootasic 1571090058 # 10.0.53.155
-
-b65a11 maxwatts 1000 # 10.0.53.155
-c1da37 maxwatts 1400 # 10.0.53.148
-b65a11 rebootasic 1571084101 # 10.0.53.155
-c1da37 rebootasic 1571084101 # 10.0.53.148
-
-b65a11 maxwatts 1100 # 10.0.53.155
-b65a11 rebootasic 1571081296 # 10.0.53.155
-
-45099f maxwatts 1300 # 10.0.54.19
-45099f rebootasic 1571075144 # 10.0.54.19
-
-b65a11 maxwatts 1200 # 10.0.53.155
-a02b78 maxwatts 1400 # 10.0.54.33
-b65a11 rebootasic 1571072168 # 10.0.53.155
-a02b78 rebootasic 1571072168 # 10.0.54.33
-
-866b96 maxwatts 1400 # 10.0.53.146
-866b96 rebootasic 1571069189 # 10.0.53.146
-
-b65a11 maxwatts 1300 # 10.0.53.155
-1a4852 maxwatts 1400 # 10.0.54.27
-b65a11 rebootasic 1571055417 # 10.0.53.155
-1a4852 rebootasic 1571055417 # 10.0.54.27
-
-45099f maxwatts 1400 # 10.0.54.19
-45099f rebootasic 1571039650 # 10.0.54.19
-
-52a31b maxwatts 1400 # 10.0.54.6
-52a31b rebootasic 1571036960 # 10.0.54.6
-
-b65a11 maxwatts 1400 # 10.0.53.155
-b65a11 rebootasic 1571023603 # 10.0.53.155
-
-6c3de0 maxwatts 1200 # 10.0.54.25
-6c3de0 rebootasic 1571009462 # 10.0.54.25
-
-6c3de0 maxwatts 1300 # 10.0.54.25
-6c3de0 rebootasic 1571004894 # 10.0.54.25
-
-6c3de0 maxwatts 1400 # 10.0.54.25
-6c3de0 rebootasic 1571002567 # 10.0.54.25
-
 
 ## fans
 
