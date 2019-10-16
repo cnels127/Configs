@@ -19,18 +19,17 @@ global sendworker3 yes
 global asicboost yes
 global autotune yes
 global maxwatts 1350
-
 global autoupdate yes
 global allowed yes
 global maxtemp 90
 global fanspeed 100
-# global fansaver yes
+global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
 global retune 1
 # global rebootasic 1
-global resetasic 1571113675 # 1
+global resetasic 1571244674 # 1571113675
 # global panelpass gj83Nkgikg
 
 # group=rowc rebootasic 1
@@ -52,107 +51,8 @@ df94bd location CLOUI00009
 6cb55b location CLOUI00010
 
 ## tuning
-2b7bed maxwatts 50 # 10.0.54.49
-2b7bed rebootasic 1571211480 # 10.0.54.49
-
-2b7bed maxwatts 150 # 10.0.54.49
-2b7bed rebootasic 1571095717 # 10.0.54.49
-
-2b7bed maxwatts 250 # 10.0.54.49
-2b7bed rebootasic 1571068481 # 10.0.54.49
-
-2b7bed maxwatts 350 # 10.0.54.49
-2b7bed rebootasic 1571060298 # 10.0.54.49
-
-2b7bed maxwatts 450 # 10.0.54.49
-2b7bed rebootasic 1570952223 # 10.0.54.49
-
-2b7bed maxwatts 550 # 10.0.54.49
-2b7bed rebootasic 1570943704 # 10.0.54.49
-
-1a1611 maxwatts 950 # 10.0.54.50
-1a1611 rebootasic 1570933372 # 10.0.54.50
-
-2b7bed maxwatts 650 # 10.0.54.49
-2b7bed rebootasic 1570861028 # 10.0.54.49
-
-6d0544 maxwatts 1050 # 10.0.54.52
-6d0544 rebootasic 1570859204 # 10.0.54.52
-
-bf9f18 maxwatts 850 # 10.0.54.51
-bf9f18 rebootasic 1570779807 # 10.0.54.51
-
-bf9f18 maxwatts 950 # 10.0.54.51
-bf9f18 rebootasic 1570698686 # 10.0.54.51
-
-bf9f18 maxwatts 1050 # 10.0.54.51
-bf9f18 rebootasic 1570675052 # 10.0.54.51
-
-bf9f18 maxwatts 1150 # 10.0.54.51
-bf9f18 rebootasic 1570660628 # 10.0.54.51
-
-1a1611 maxwatts 1050 # 10.0.54.50
-1a1611 rebootasic 1570630504 # 10.0.54.50
-
-2b7bed maxwatts 750 # 10.0.54.49
-2b7bed rebootasic 1570628688 # 10.0.54.49
-
-6d0544 maxwatts 1150 # 10.0.54.52
-6d0544 rebootasic 1570623286 # 10.0.54.52
-
-1a1611 maxwatts 1150 # 10.0.54.50
-1a1611 rebootasic 1570617939 # 10.0.54.50
-
-1a1611 maxwatts 1250 # 10.0.54.50
-1a1611 rebootasic 1570602126 # 10.0.54.50
-
-6d0544 maxwatts 1250 # 10.0.54.52
-6d0544 rebootasic 1570600340 # 10.0.54.52
-
-2b7bed maxwatts 850 # 10.0.54.49
-2b7bed rebootasic 1570566970 # 10.0.54.49
-
-bf9f18 maxwatts 1250 # 10.0.54.51
-bf9f18 rebootasic 1570455941 # 10.0.54.51
-
-2b7bed maxwatts 950 # 10.0.54.49
-2b7bed rebootasic 1570443873 # 10.0.54.49
-
-2b7bed maxwatts 1050 # 10.0.54.49
-2b7bed rebootasic 1568970847 # 10.0.54.49
-
-2b7bed maxwatts 1150 # 10.0.54.49
-2b7bed rebootasic 1568954945 # 10.0.54.49
-
-2b7bed maxwatts 1250 # 10.0.54.49
-2b7bed rebootasic 1568951466 # 10.0.54.49
 
 ## resets
-2b7bed resetasic 1569556229
-3a0cc0 resetasic 1569556229
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
