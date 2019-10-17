@@ -87,6 +87,9 @@ f729dc location RACAY00022
 70247c location RACAY00024
 
 ## tuning
+e98a1b maxwatts 1400 # 10.0.55.106
+e98a1b rebootasic 1571274428 # 10.0.55.106
+
 73d19d maxwatts 1300 # 10.0.54.152
 74a07a maxwatts 1300 # 10.0.55.146
 73d19d rebootasic 1571261612 # 10.0.54.152
@@ -110,6 +113,7 @@ c55a62 resetasic 1569556634
 
 ## asic password
 asicpass admin
+
 
 
 
