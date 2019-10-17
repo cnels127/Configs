@@ -29,8 +29,7 @@ global blinkgreen rapid
 
 global retune 1
 global rebootasic 1571340809
-global resetasic 1571159709 # 2
-global resetasic 1571272928
+global resetasic 1571341605 # 1571159709 # 2
 # global panelpass gj83Nkgikg
 
 # group=rowc rebootasic 1
@@ -119,52 +118,6 @@ ca6c85 location SRADO00038
 fb2a81 location SRADO00042
 
 ## tuning
-e3835b maxwatts 1300 # 10.0.63.110
-e3835b rebootasic 1571340040 # 10.0.63.110
-
-e3835b maxwatts 1400 # 10.0.63.110
-e3835b rebootasic 1571336253 # 10.0.63.110
-
-32d65b maxwatts 400 # 10.0.67.150
-32d65b rebootasic 1571293071 # 10.0.67.150
-
-32d65b maxwatts 500 # 10.0.67.150
-0f22cc maxwatts 1400 # 10.0.68.42
-32d65b rebootasic 1571291156 # 10.0.67.150
-0f22cc rebootasic 1571291156 # 10.0.68.42
-
-32d65b maxwatts 600 # 10.0.67.150
-32d65b rebootasic 1571289201 # 10.0.67.150
-
-32d65b maxwatts 700 # 10.0.67.150
-32d65b rebootasic 1571287306 # 10.0.67.150
-
-32d65b maxwatts 800 # 10.0.67.150
-32d65b rebootasic 1571285387 # 10.0.67.150
-
-32d65b maxwatts 900 # 10.0.67.150
-32d65b rebootasic 1571283554 # 10.0.67.150
-
-32d65b maxwatts 1000 # 10.0.67.150
-32d65b rebootasic 1571281752 # 10.0.67.150
-
-32d65b maxwatts 1100 # 10.0.67.150
-32d65b rebootasic 1571279960 # 10.0.67.150
-
-32d65b maxwatts 1200 # 10.0.67.150
-32d65b rebootasic 1571278163 # 10.0.67.150
-
-32d65b maxwatts 1300 # 10.0.67.150
-32d65b rebootasic 1571276330 # 10.0.67.150
-
-32d65b maxwatts 1400 # 10.0.67.150
-ca6c85 maxwatts 1400 # 10.0.67.159
-fb2a81 maxwatts 1400 # 10.0.68.3
-32d65b rebootasic 1571274510 # 10.0.67.150
-ca6c85 rebootasic 1571274510 # 10.0.67.159
-fb2a81 rebootasic 1571274510 # 10.0.68.3
-
-
 
 ## reboots
 
@@ -178,17 +131,3 @@ acd279 resetasic 1571269484
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
