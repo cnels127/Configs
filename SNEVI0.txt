@@ -18,7 +18,7 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1350
+global maxwatts 1400
 global autoupdate yes
 global allowed yes
 global maxtemp 90
@@ -46,71 +46,6 @@ b7e4cf location SNEVI00003
 d2fc8a location SNEVI00005
 
 ## tuning
-633e5b maxwatts 450 # 10.0.68.65
-633e5b rebootasic 1571148576 # 10.0.68.65
-
-42ac6f rebootasic 1571148025 # 10.0.68.64 snevi00001
- 
-
-633e5b maxwatts 550 # 10.0.68.65
-633e5b rebootasic 1571042347 # 10.0.68.65
-
-3ac65a maxwatts 550 # 10.0.68.67
-3ac65a rebootasic 1571023767 # 10.0.68.67
-
-3ac65a maxwatts 650 # 10.0.68.67
-3ac65a rebootasic 1571018941 # 10.0.68.67
-
-633e5b maxwatts 650 # 10.0.68.65
-633e5b rebootasic 1570993464 # 10.0.68.65
-
-633e5b maxwatts 750 # 10.0.68.65
-633e5b rebootasic 1570939789 # 10.0.68.65
-
-633e5b maxwatts 850 # 10.0.68.65
-633e5b rebootasic 1570710092 # 10.0.68.65
-
-3ac65a maxwatts 750 # 10.0.68.67
-3ac65a rebootasic 1570671618 # 10.0.68.67
-
-633e5b maxwatts 950 # 10.0.68.65
-633e5b rebootasic 1570669806 # 10.0.68.65
-
-633e5b maxwatts 1050 # 10.0.68.65
-3ac65a maxwatts 850 # 10.0.68.67
-633e5b rebootasic 1570666237 # 10.0.68.65
-3ac65a rebootasic 1570666237 # 10.0.68.67
-
-633e5b maxwatts 1150 # 10.0.68.65
-633e5b rebootasic 1570664396 # 10.0.68.65
-
-3ac65a maxwatts 950 # 10.0.68.67
-3ac65a rebootasic 1570662610 # 10.0.68.67
-
-3ac65a maxwatts 1050 # 10.0.68.67
-633e5b maxwatts 1250 # 10.0.68.65
-3ac65a rebootasic 1570660816 # 10.0.68.67
-633e5b rebootasic 1570660816 # 10.0.68.65
-
-b7e4cf maxwatts 1050 # 10.0.68.66
-b7e4cf rebootasic 1570636100 # 10.0.68.66
-
-3ac65a maxwatts 1150 # 10.0.68.67
-3ac65a rebootasic 1570600520 # 10.0.68.67
-
-b7e4cf maxwatts 1150 # 10.0.68.66
-b7e4cf rebootasic 1569402416 # 10.0.68.66
-
-42ac6f maxwatts 1150 # 10.0.68.64
-42ac6f rebootasic 1569315207 # 10.0.68.64
-
-42ac6f maxwatts 1250 # 10.0.68.64
-42ac6f rebootasic 1569290633 # 10.0.68.64
-
-b7e4cf maxwatts 1250 # 10.0.68.66
-3ac65a maxwatts 1250 # 10.0.68.67
-b7e4cf rebootasic 1568068063 # 10.0.68.66
-3ac65a rebootasic 1568068063 # 10.0.68.67
 
 
 ## asic password
