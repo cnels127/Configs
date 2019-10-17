@@ -73,6 +73,16 @@ dc7a56 location LMACK10013
 188204 location LMACK10017
 
 ## tuning
+# s_overheat generated on Oct 17 2019 20:06:28 utc: 1571342788
+66742c maxwatts 1200 # 10.10.126.19
+902dff maxwatts 1200 # 10.10.126.20
+e2b17a maxwatts 1200 # 10.10.126.22
+188204 maxwatts 1100 # 10.10.125.60
+66742c rebootasic 1571342788 # 10.10.126.19
+902dff rebootasic 1571342788 # 10.10.126.20
+e2b17a rebootasic 1571342788 # 10.10.126.22
+188204 rebootasic 1571342788 # 10.10.125.60
+
 be298d maxwatts 1100 # 10.10.126.17
 66742c maxwatts 1200 # 10.10.126.19
 fd5233 maxwatts 1200 # 10.10.126.21
