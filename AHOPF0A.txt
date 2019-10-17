@@ -800,6 +800,11 @@ d7d3e4 location AHOPF00455
 999c20 location AHOPF00456
 
 ## tuning
+49be6d maxwatts 700 # 10.0.118.79
+9ac0b4 maxwatts 1100 # 10.0.119.42
+49be6d rebootasic 1571302061 # 10.0.118.79
+9ac0b4 rebootasic 1571302061 # 10.0.119.42
+
 49be6d maxwatts 800 # 10.0.118.79
 49be6d rebootasic 1571298399 # 10.0.118.79
 
@@ -1028,6 +1033,7 @@ d317f1 rebootasic 1571145325 # 10.0.20.100
 
 ## asic password
 asicpass admin
+
 
 
 

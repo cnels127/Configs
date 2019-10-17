@@ -63,6 +63,9 @@ f764a5 location THORA00014
 
 ## tuning
 e3240c maxwatts -100 # 10.0.54.138
+e3240c rebootasic 1571302448 # 10.0.54.138
+
+e3240c maxwatts -100 # 10.0.54.138
 e3240c rebootasic 1571298661 # 10.0.54.138
 
 e3240c maxwatts -100 # 10.0.54.138
@@ -197,6 +200,7 @@ b916a9 rebootasic 1567539804 # 10.0.32.64
 
 ## asic password
 asicpass admin
+
 
 
 
