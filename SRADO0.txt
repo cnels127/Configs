@@ -118,6 +118,13 @@ ca6c85 location SRADO00038
 fb2a81 location SRADO00042
 
 ## tuning
+e3835b maxwatts 1400 # 10.0.63.110
+fb2a81 maxwatts 1400 # 10.0.68.3
+ca6c85 maxwatts 1400 # 10.0.67.159
+e3835b rebootasic 1571344014 # 10.0.63.110
+fb2a81 rebootasic 1571344014 # 10.0.68.3
+ca6c85 rebootasic 1571344014 # 10.0.67.159
+
 
 ## reboots
 
@@ -131,3 +138,4 @@ acd279 resetasic 1571269484
 
 ## asic password
 asicpass admin
+

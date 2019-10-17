@@ -73,6 +73,19 @@ dc7a56 location LMACK10013
 188204 location LMACK10017
 
 ## tuning
+66742c maxwatts 1100 # 10.10.126.19
+e2b17a maxwatts 1100 # 10.10.126.22
+fd5233 maxwatts 1100 # 10.10.126.21
+fc5728 maxwatts 1100 # 10.10.126.18
+be298d maxwatts 1000 # 10.10.126.17
+9be2e9 maxwatts 1000 # 10.10.126.118
+66742c rebootasic 1571343923 # 10.10.126.19
+e2b17a rebootasic 1571343923 # 10.10.126.22
+fd5233 rebootasic 1571343923 # 10.10.126.21
+fc5728 rebootasic 1571343923 # 10.10.126.18
+be298d rebootasic 1571343923 # 10.10.126.17
+9be2e9 rebootasic 1571343923 # 10.10.126.118
+
 # s_overheat generated on Oct 17 2019 20:06:28 utc: 1571342788
 66742c maxwatts 1200 # 10.10.126.19
 902dff maxwatts 1200 # 10.10.126.20
@@ -163,6 +176,7 @@ dc7a56 rebootasic 1570111062 # 172.16.203.133 lmack10013
 
 ## asic password
 asicpass admin
+
 
 
 
