@@ -88,6 +88,9 @@ d560da location FHOEF00039
 
 ## tuning
 84fddc maxwatts -100 # 10.0.55.85
+84fddc rebootasic 1571296629 # 10.0.55.85
+
+84fddc maxwatts -100 # 10.0.55.85
 84fddc rebootasic 1571292890 # 10.0.55.85
 
 84fddc maxwatts -100 # 10.0.55.85
@@ -159,6 +162,7 @@ d560da location FHOEF00039
 
 ## asic password
 asicpass admin
+
 
 
 
