@@ -22,7 +22,7 @@ global maxwatts 1500
 global autoupdate yes
 global allowed yes
 global maxtemp 90
-global fanspeed 100
+global fanspeed 65
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
@@ -50,9 +50,6 @@ b69144 location GBURR00004
 fb355a location GBURR00005
 
 ## tuning
-b69144 maxwatts 1400 # 10.0.56.107
-b69144 rebootasic 1571317156 # 10.0.56.107
-
 
 ## reboots
 
