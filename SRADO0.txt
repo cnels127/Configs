@@ -118,6 +118,11 @@ ca6c85 location SRADO00038
 fb2a81 location SRADO00042
 
 ## tuning
+3815f9 maxwatts 1500
+3815f9 rebootasic 1571347646
+e3835b maxwatts 1500
+e3835b rebootasic 1571347646
+
 3815f9 maxwatts 1400 # 10.0.67.161
 3815f9 rebootasic 1571345990 # 10.0.67.161
 
@@ -128,6 +133,9 @@ e3835b rebootasic 1571344014 # 10.0.63.110
 fb2a81 rebootasic 1571344014 # 10.0.68.3
 ca6c85 rebootasic 1571344014 # 10.0.67.159
 
+## fans
+3815f9 fanspeed 100
+e3835b fanspeed 100
 
 ## reboots
 
