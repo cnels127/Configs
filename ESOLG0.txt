@@ -36,9 +36,29 @@ global resetasic 1571237128 # 1571225465
 # group=rowc rebootasic 1
 # group=rowd allowed no
 
-## vlan
+## fans
+11aa26 fanspeed 100
+ae25a9 fanspeed 100
+ac2a48 fanspeed 100
+a7b5ce fanspeed 100
+7d4308 fanspeed 100
+bc91a2 fanspeed 100
+ffe40c fanspeed 100
+69f234 fanspeed 100
+0cc841 fanspeed 100
+f27232 fanspeed 100
 
 ## reboots
+# s_reboot generated on Oct 17 2019 21:52:18 utc: 1571349138
+11aa26 rebootasic 1571349138 # 10.0.30.154 esolg00078
+ae25a9 rebootasic 1571349138 # 10.0.50.7 esolg00271
+ac2a48 rebootasic 1571349138 # 10.0.31.146 esolg00230
+a7b5ce rebootasic 1571349138 # 10.0.31.153 esolg00237
+7d4308 rebootasic 1571349138 # 10.0.30.105 esolg00029
+bc91a2 rebootasic 1571349138 # 10.0.30.144 esolg00068
+ffe40c rebootasic 1571349138 # 10.0.31.116 esolg00200
+69f234 rebootasic 1571349138 # 10.0.50.59 esolg00323
+0cc841 rebootasic 1571349138 # 10.0.30.148 esolg00072
 
 ## resets
 37cf20 resetasic 1571346899 # 10.0.31.113 esolg00197
