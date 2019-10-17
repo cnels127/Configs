@@ -18,7 +18,7 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1350
+global maxwatts 1400
 global autoupdate yes
 global allowed yes
 global maxtemp 90
@@ -42,8 +42,7 @@ vlan 10.0.68.53-53
 a3d661 location SSAOU00001
 
 ## tuning
-a3d661 maxwatts 1250 # 10.0.68.53
-a3d661 rebootasic 1569320591 # 10.0.68.53
+
 
 ## reboots
 
