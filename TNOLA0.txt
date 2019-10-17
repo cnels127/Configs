@@ -18,7 +18,7 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1500
+global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90
@@ -30,6 +30,7 @@ global blinkgreen rapid
 # global retune 1
 # global rebootasic 1
 global resetasic 1571113675 # 1
+global resetasic 1571338890
 # global panelpass gj83Nkgikg
 
 # group=rowc rebootasic 1
@@ -46,68 +47,6 @@ f7deb6 location TNOLA00002
 be162a location TNOLA00005
 
 ## tuning
-be162a maxwatts 700 # 10.0.57.80
-be162a rebootasic 1571093562 # 10.0.57.80
-
-be162a maxwatts 800 # 10.0.57.80
-be162a rebootasic 1571084341 # 10.0.57.80
-
-f7deb6 maxwatts 1000 # 10.0.57.77
-f7deb6 rebootasic 1571000371 # 10.0.57.77
-
-be162a maxwatts 900 # 10.0.57.80
-be162a rebootasic 1570993598 # 10.0.57.80
-
-eaab57 maxwatts 1100 # 10.0.57.76
-eaab57 rebootasic 1570956956 # 10.0.57.76
-
-be162a maxwatts 1000 # 10.0.57.80
-be162a rebootasic 1570942027 # 10.0.57.80
-
-be162a maxwatts 1100 # 10.0.57.80
-be162a rebootasic 1570909775 # 10.0.57.80
-
-be162a maxwatts 1200 # 10.0.57.80
-be162a rebootasic 1570906178 # 10.0.57.80
-
-eaab57 maxwatts 1200 # 10.0.57.76
-eaab57 rebootasic 1570868589 # 10.0.57.76
-
-eaab57 maxwatts 1300 # 10.0.57.76
-eaab57 rebootasic 1570843547 # 10.0.57.76
-
-be162a maxwatts 1300 # 10.0.57.80
-be162a rebootasic 1570836681 # 10.0.57.80
-
-be162a maxwatts 1400 # 10.0.57.80
-be162a rebootasic 1570831555 # 10.0.57.80
-
-eaab57 maxwatts 1400 # 10.0.57.76
-eaab57 rebootasic 1570766632 # 10.0.57.76
-
-9e6254 maxwatts 1100 # 10.0.57.78
-9e6254 rebootasic 1570723624 # 10.0.57.78
-
-f7deb6 maxwatts 1100 # 10.0.57.77
-f7deb6 rebootasic 1570634347 # 10.0.57.77
-
-f7deb6 maxwatts 1200 # 10.0.57.77
-f7deb6 rebootasic 1570621715 # 10.0.57.77
-
-f7deb6 maxwatts 1300 # 10.0.57.77
-f7deb6 rebootasic 1570611088 # 10.0.57.77
-
-f7deb6 maxwatts 1400 # 10.0.57.77
-f7deb6 rebootasic 1570582911 # 10.0.57.77
-
-9e6254 maxwatts 1200 # 10.0.57.78
-9e6254 rebootasic 1568977812 # 10.0.57.78
-
-9e6254 maxwatts 1300 # 10.0.57.78
-9e6254 rebootasic 1568963962 # 10.0.57.78
-
-9e6254 maxwatts 1400 # 10.0.57.78
-9e6254 rebootasic 1568962184 # 10.0.57.78
 
 ## reboots
 
