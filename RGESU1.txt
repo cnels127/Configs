@@ -51,6 +51,9 @@ a8b8de location RGESU10003
 af9564 location RGESU10006
 
 ## tuning
+d360c8 maxwatts 1100 # 10.10.125.11
+d360c8 rebootasic 1571345935 # 10.10.125.11
+
 d360c8 maxwatts 1200 # 10.10.125.11
 d360c8 rebootasic 1571342047 # 10.10.125.11
 
@@ -73,6 +76,7 @@ af9564 retune 1
 
 ## asic password
 asicpass admin
+
 
 
 
