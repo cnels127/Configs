@@ -18,7 +18,7 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1350
+global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90
@@ -30,6 +30,7 @@ global blinkgreen rapid
 global retune 1
 # global rebootasic 1
 global resetasic 1571113675 # 1
+global resetasic 1571338302
 # global panelpass gj83Nkgikg
 
 # group=rowc rebootasic 1
@@ -66,12 +67,6 @@ a9f19e location THALL00024
 255a6b location THALL00025
 
 ## tuning
-82a2a7 maxwatts 1375
-c705d1 maxwatts 1375
-386253 maxwatts 1375
-c58079 maxwatts 1375
-3eebad maxwatts 1375
-c191c4 maxwatts 1375
 
 ## reboots
 
