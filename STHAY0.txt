@@ -30,6 +30,7 @@ global blinkgreen rapid
 # global retune 1
 # global rebootasic 1
 global resetasic 1571113675 # 1
+global resetasic 1571273207
 # global panelpass gj83Nkgikg
 
 # group=rowc rebootasic 1
@@ -46,8 +47,7 @@ f450a0 location STHAY00002
 546a5f location STHAY00003
 
 ## tuning
-546a5f maxwatts 1400 # 10.0.60.144
-546a5f rebootasic 1570838374 # 10.0.60.144
+
 
 
 ## reboots
