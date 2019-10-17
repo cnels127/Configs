@@ -28,7 +28,7 @@ global blinkgreen rapid
 
 # global retune 1
 # global rebootasic 1
-global resetasic 1571113675 # 1
+global resetasic 1571343476 # 1571113675 # 1
 # global panelpass gj83Nkgikg
 
 # group=rowc rebootasic 1
@@ -47,79 +47,6 @@ vlan 172.16.204.146-146
 8e86bb location 0005
 
 ## tuning
-8e86bb maxwatts -100 # 10.10.125.22
-8e86bb rebootasic 1571336189 # 10.10.125.22
-
-8e86bb maxwatts -100 # 172.16.201.92
-8e86bb rebootasic 1570906109 # 172.16.201.92
-
-8e86bb maxwatts -100 # 172.16.201.236
-8e86bb rebootasic 1570678856 # 172.16.201.236
-
-8e86bb maxwatts -100 # 172.16.201.236
-8e86bb rebootasic 1570602267 # 172.16.201.236
-
-8e86bb maxwatts -100 # 172.16.201.236
-8e86bb rebootasic 1570557422 # 172.16.201.236
-
-8e86bb maxwatts -100 # 172.16.201.236
-8e86bb rebootasic 1569536535 # 172.16.201.236
-
-8e86bb maxwatts 0 # 172.16.201.236
-8e86bb rebootasic 1569517089 # 172.16.201.236
-
-8e86bb maxwatts 100 # 172.16.201.236
-8e86bb rebootasic 1569502170 # 172.16.201.236
-
-8e86bb maxwatts 200 # 172.16.201.236
-8e86bb rebootasic 1569488443 # 172.16.201.236
-
-8e86bb maxwatts 300 # 172.16.201.236
-8e86bb rebootasic 1569441570 # 172.16.201.236
-
-8e86bb maxwatts 400 # 172.16.201.236
-8e86bb rebootasic 1569433563 # 172.16.201.236
-
-2d1b6f maxwatts 1000 # 172.16.202.55
-2d1b6f rebootasic 1569419839 # 172.16.202.55
-
-8e86bb maxwatts 500 # 172.16.201.236
-8e86bb rebootasic 1569315186 # 172.16.201.236
-
-8e86bb maxwatts 600 # 172.16.204.146
-8e86bb rebootasic 1568931001 # 172.16.204.146
-
-2d1b6f maxwatts 1100 # 172.16.202.55
-2d1b6f rebootasic 1568163476 # 172.16.202.55
-
-2d1b6f maxwatts 1200 # 172.16.202.55
-2d1b6f rebootasic 1568088924 # 172.16.202.55
-
-51a9ac maxwatts 1200 # 172.16.202.56
-51a9ac rebootasic 1567611848 # 172.16.202.56
-
-94f88a maxwatts 1000 # 172.16.200.93
-94f88a rebootasic 1566825679 # 172.16.200.93
-
-8e86bb maxwatts 700 # 172.16.204.146
-8e86bb rebootasic 1566660262 # 172.16.204.146
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
