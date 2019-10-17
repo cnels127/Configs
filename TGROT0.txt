@@ -20,7 +20,7 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1500
+global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90
@@ -32,6 +32,7 @@ global blinkgreen rapid
 # global retune 1
 # global rebootasic 1
 global resetasic 1571113675 # 1
+global resetasic 1571338001
 # global panelpass gj83Nkgikg
 
 # group=rowc rebootasic 1
@@ -68,23 +69,7 @@ a83fdc location TGROT00012
 3ec4f8 location TGROT00013
 
 ## tuning
-1ea527 maxwatts 1250 # 10.0.115.66
-1ea527 rebootasic 1571247035 # 10.0.115.66
 
-dae245 rebootasic 1571148044 # 10.0.61.157 tgrot00001
- 
-
-11a6fc maxwatts 1350
-48fe50 maxwatts 1350
-d664b7 maxwatts 1350
-56444d maxwatts 1350
-1ea527 maxwatts 1350
-a485fd maxwatts 1350
-052e16 maxwatts 1350
-cb7d1b maxwatts 1350
-a83fdc maxwatts 1350
-69f354 maxwatts 1350
-3ec4f8 maxwatts 1350
 
 ## resets
 48fe50 resetasic 1569453927
