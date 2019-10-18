@@ -46,6 +46,9 @@ b86fb1 location TWOJE00002
 b0ec6c location TWOJE00003
 
 ## tuning
+af01c7 maxwatts 1300 # 10.0.55.127
+af01c7 rebootasic 1571365151 # 10.0.55.127
+
 af01c7 maxwatts 1400
 
 ## reboots
@@ -54,5 +57,6 @@ af01c7 maxwatts 1400
 
 ## asic password
 asicpass admin
+
 
 
