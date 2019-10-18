@@ -2,12 +2,12 @@
 
 global custompanel TEST16bit049
 
-global poolname1 us.ss.btc.com:1800
-global username1 bit49US
+global poolname1 profit.pool.bitcoin.com:3333
+global username1 bit49
 global poolpass1 123
 global sendworker1 yes
-global poolname2 profit.pool.bitcoin.com:3333
-global username2 bit49
+global poolname2 us.ss.btc.com:1800
+global username2 bit49US
 global poolpass2 123
 global sendworker2 yes
 global poolname3 stratum.slushpool.com:3333
@@ -21,7 +21,7 @@ global maxwatts 1500
 global autoupdate yes
 global allowed yes
 global maxtemp 90
-global fanspeed 100
+global fanspeed 65
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
