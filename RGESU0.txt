@@ -29,7 +29,7 @@ global blinkgreen rapid
 
 global retune 1
 global rebootasic 7
-global resetasic 1571251831 # 3
+global resetasic 1571461866 # 1571251831 # 3
 # global panelpass gj83Nkgikg
 
 # group=rowc rebootasic 1
@@ -102,76 +102,6 @@ ff032f location RGESU00058
 75ef00 location RGESU00060
 
 ## tuning
-a02b78 maxwatts 1400 # 10.0.54.33
-a02b78 rebootasic 1571405476 # 10.0.54.33
-
-c1da37 maxwatts 1400 # 10.0.53.148
-c1da37 rebootasic 1571378937 # 10.0.53.148
-
-70adc2 maxwatts 1000 # 10.0.54.1
-70adc2 rebootasic 1571349770 # 10.0.54.1
-
-8883eb maxwatts 1300 # 10.0.54.7
-6073d8 maxwatts 1000 # 10.0.53.156
-8883eb rebootasic 1571326807 # 10.0.54.7
-6073d8 rebootasic 1571326807 # 10.0.53.156
-
-8883eb maxwatts 1400 # 10.0.54.7
-8883eb rebootasic 1571319226 # 10.0.54.7
-
-6073d8 maxwatts 1100 # 10.0.53.156
-6073d8 rebootasic 1571309781 # 10.0.53.156
-
-c3196d maxwatts 1400 # 10.0.53.145
-c3196d rebootasic 1571304202 # 10.0.53.145
-
-6073d8 maxwatts 1200 # 10.0.53.156
-6073d8 rebootasic 1571302395 # 10.0.53.156
-
-6073d8 maxwatts 1300 # 10.0.53.156
-6073d8 rebootasic 1571298610 # 10.0.53.156
-
-b65a11 maxwatts 900 # 10.0.53.155
-b65a11 rebootasic 1571281715 # 10.0.53.155
-
-b65a11 maxwatts 1000 # 10.0.53.155
-b65a11 rebootasic 1571279924 # 10.0.53.155
-
-b65a11 maxwatts 1100 # 10.0.53.155
-ff032f maxwatts 1400 # 10.0.54.36
-b65a11 rebootasic 1571278117 # 10.0.53.155
-ff032f rebootasic 1571278117 # 10.0.54.36
-
-6073d8 maxwatts 1400 # 10.0.53.156
-b65a11 maxwatts 1200 # 10.0.53.155
-6073d8 rebootasic 1571274456 # 10.0.53.156
-b65a11 rebootasic 1571274456 # 10.0.53.155
-
-70adc2 maxwatts 1100 # 10.0.54.1
-70adc2 rebootasic 1571268912 # 10.0.54.1
-
-b65a11 maxwatts 1300 # 10.0.53.155
-b65a11 rebootasic 1571265346 # 10.0.53.155
-
-70adc2 maxwatts 1200 # 10.0.54.1
-70adc2 rebootasic 1571263503 # 10.0.54.1
-
-70adc2 maxwatts 1300 # 10.0.54.1
-70adc2 rebootasic 1571259753 # 10.0.54.1
-
-6c3de0 maxwatts 1200 # 10.0.54.25
-6c3de0 rebootasic 1571257885 # 10.0.54.25
-
-6c3de0 maxwatts 1300 # 10.0.54.25
-b65a11 maxwatts 1400 # 10.0.53.155
-70adc2 maxwatts 1400 # 10.0.54.1
-6c3de0 rebootasic 1571256077 # 10.0.54.25
-b65a11 rebootasic 1571256077 # 10.0.53.155
-70adc2 rebootasic 1571256077 # 10.0.54.1
-
-6c3de0 maxwatts 1400 # 10.0.54.25
-6c3de0 rebootasic 1571254248 # 10.0.54.25
-
 
 ## fans
 
@@ -181,41 +111,3 @@ b65a11 rebootasic 1571256077 # 10.0.53.155
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
