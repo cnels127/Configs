@@ -18,7 +18,7 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1525
+global maxwatts 1500
 global autoupdate yes
 global allowed yes
 global maxtemp 90
@@ -29,7 +29,7 @@ global blinkgreen rapid
 
 # global retune 1
 # global rebootasic 1
-global resetasic 1571113675 # 1
+global resetasic 1571461618 # 1571113675 # 1
 # global panelpass gj83Nkgikg
 
 # group=rowc rebootasic 1
@@ -56,200 +56,10 @@ e02f4f location PMORG00007
 9057b2 location PMORG00010
 
 ## tuning
-332d51 maxwatts -75 # 10.0.61.93
-332d51 rebootasic 1571317271 # 10.0.61.93
 
-332d51 maxwatts -75 # 10.0.61.93
-332d51 rebootasic 1571315415 # 10.0.61.93
+## reboots
 
-332d51 maxwatts -75 # 10.0.61.93
-332d51 rebootasic 1571313503 # 10.0.61.93
-
-332d51 maxwatts -75 # 10.0.61.93
-332d51 rebootasic 1571309755 # 10.0.61.93
-
-332d51 maxwatts -75 # 10.0.61.93
-332d51 rebootasic 1571307894 # 10.0.61.93
-
-332d51 maxwatts -75 # 10.0.61.93
-332d51 rebootasic 1571302356 # 10.0.61.93
-
-332d51 maxwatts -75 # 10.0.61.93
-332d51 rebootasic 1571300408 # 10.0.61.93
-
-332d51 maxwatts -75 # 10.0.61.93
-332d51 rebootasic 1571296747 # 10.0.61.93
-
-332d51 maxwatts -75 # 10.0.61.93
-332d51 rebootasic 1571294880 # 10.0.61.93
-
-332d51 maxwatts -75 # 10.0.61.93
-332d51 rebootasic 1571293021 # 10.0.61.93
-
-332d51 maxwatts -75 # 10.0.61.93
-332d51 rebootasic 1571291098 # 10.0.61.93
-
-332d51 maxwatts -75 # 10.0.61.93
-332d51 rebootasic 1571287247 # 10.0.61.93
-
-35360b maxwatts 425 # 10.0.65.17
-35360b rebootasic 1571220375 # 10.0.65.17
-
-332d51 maxwatts -75 # 10.0.61.93
-332d51 rebootasic 1571218619 # 10.0.61.93
-
-332d51 maxwatts -75 # 10.0.61.93
-332d51 rebootasic 1571213343 # 10.0.61.93
-
-332d51 maxwatts -75 # 10.0.61.93
-332d51 rebootasic 1571211607 # 10.0.61.93
-
-332d51 maxwatts -75 # 10.0.61.93
-332d51 rebootasic 1571209840 # 10.0.61.93
-
-332d51 maxwatts -75 # 10.0.61.93
-332d51 rebootasic 1571208099 # 10.0.61.93
-
-35360b maxwatts 525 # 10.0.65.17
-35360b rebootasic 1571206368 # 10.0.65.17
-
-332d51 maxwatts -75 # 10.0.61.93
-332d51 rebootasic 1571204627 # 10.0.61.93
-
-332d51 maxwatts -75 # 10.0.61.93
-332d51 rebootasic 1571201187 # 10.0.61.93
-
-332d51 maxwatts -75 # 10.0.61.93
-332d51 rebootasic 1571166910 # 10.0.61.93
-
-332d51 maxwatts -75 # 10.0.61.93
-332d51 rebootasic 1571161957 # 10.0.61.93
-
-332d51 maxwatts -75 # 10.0.61.93
-332d51 rebootasic 1571158650 # 10.0.61.93
-
-332d51 maxwatts -75 # 10.0.61.93
-332d51 rebootasic 1571155288 # 10.0.61.93
-
-332d51 maxwatts 25 # 10.0.61.93
-37f1e2 maxwatts 1325 # 10.0.68.18
-35360b maxwatts 625 # 10.0.65.17
-332d51 rebootasic 1571148543 # 10.0.61.93
-37f1e2 rebootasic 1571148543 # 10.0.68.18
-35360b rebootasic 1571148543 # 10.0.65.17
-
-37f1e2 maxwatts 1425 # 10.0.68.18
-35360b maxwatts 725 # 10.0.65.17
-332d51 maxwatts 125 # 10.0.61.93
-37f1e2 rebootasic 1571145466 # 10.0.68.18
-35360b rebootasic 1571145466 # 10.0.65.17
-332d51 rebootasic 1571145466 # 10.0.61.93
-
-332d51 maxwatts 225 # 10.0.61.93
-332d51 rebootasic 1571109688 # 10.0.61.93
-
-332d51 maxwatts 325 # 10.0.61.93
-332d51 rebootasic 1571063448 # 10.0.61.93
-
-332d51 maxwatts 425 # 10.0.61.93
-332d51 rebootasic 1571044919 # 10.0.61.93
-
-332d51 maxwatts 525 # 10.0.61.93
-332d51 rebootasic 1571034150 # 10.0.61.93
-
-35360b maxwatts 825 # 10.0.65.17
-35360b rebootasic 1571004850 # 10.0.65.17
-
-35360b maxwatts 925 # 10.0.65.17
-35360b rebootasic 1571000184 # 10.0.65.17
-
-e02f4f maxwatts 825 # 10.0.61.150
-e02f4f rebootasic 1570969589 # 10.0.61.150
-
-332d51 maxwatts 625 # 10.0.61.93
-332d51 rebootasic 1570948191 # 10.0.61.93
-
-e02f4f maxwatts 925 # 10.0.61.150
-e02f4f rebootasic 1570941875 # 10.0.61.150
-
-332d51 maxwatts 725 # 10.0.61.93
-332d51 rebootasic 1570868494 # 10.0.61.93
-
-e02f4f maxwatts 1025 # 10.0.61.150
-e02f4f rebootasic 1570862970 # 10.0.61.150
-
-e02f4f maxwatts 1125 # 10.0.61.150
-e02f4f rebootasic 1570853963 # 10.0.61.150
-
-e02f4f maxwatts 1225 # 10.0.61.150
-e02f4f rebootasic 1570852197 # 10.0.61.150
-
-e02f4f maxwatts 1325 # 10.0.61.150
-e02f4f rebootasic 1570848694 # 10.0.61.150
-
-e02f4f maxwatts 1425 # 10.0.61.150
-e02f4f rebootasic 1570843479 # 10.0.61.150
-
-124035 maxwatts 1425 # 10.0.66.127
-124035 rebootasic 1570828111 # 10.0.66.127
-
-35360b maxwatts 1025 # 10.0.65.17
-35360b rebootasic 1570671560 # 10.0.65.17
-
-35360b maxwatts 1125 # 10.0.65.17
-35360b rebootasic 1570667990 # 10.0.65.17
-
-35360b maxwatts 1225 # 10.0.65.17
-35360b rebootasic 1570666189 # 10.0.65.17
-
-35360b maxwatts 1325 # 10.0.65.17
-35360b rebootasic 1570658938 # 10.0.65.17
-
-35360b maxwatts 1425 # 10.0.65.17
-35360b rebootasic 1570655394 # 10.0.65.17
-
-332d51 maxwatts 825 # 10.0.61.93
-332d51 rebootasic 1570639673 # 10.0.61.93
-
-332d51 maxwatts 925 # 10.0.61.93
-332d51 rebootasic 1570634262 # 10.0.61.93
-
-332d51 maxwatts 1025 # 10.0.61.93
-332d51 rebootasic 1570632452 # 10.0.61.93
-
-332d51 maxwatts 1125 # 10.0.61.93
-332d51 rebootasic 1570628837 # 10.0.61.93
-
-332d51 maxwatts 1225 # 10.0.61.93
-332d51 rebootasic 1570627020 # 10.0.61.93
-
-332d51 maxwatts 1325 # 10.0.61.93
-332d51 rebootasic 1570625202 # 10.0.61.93
-
-332d51 maxwatts 1425 # 10.0.61.93
-332d51 rebootasic 1570619856 # 10.0.61.93
-
-c29a91 maxwatts 1225 # 10.0.68.21
-c29a91 rebootasic 1569304547 # 10.0.68.21
-
-c29a91 maxwatts 1325 # 10.0.68.21
-c29a91 rebootasic 1569297556 # 10.0.68.21
-
-846595 maxwatts 1225 # 10.0.68.19
-846595 rebootasic 1568970987 # 10.0.68.19
-
-846595 maxwatts 1325 # 10.0.68.19
-846595 rebootasic 1568956795 # 10.0.68.19
-
-846595 maxwatts 1425 # 10.0.68.19
-846595 rebootasic 1568946380 # 10.0.68.19
-
-c29a91 maxwatts 1425 # 10.0.68.21
-c29a91 rebootasic 1568085439 # 10.0.68.21
-
-# generated on Sep 08 2019 03:28:44 utc: 1567913324: 1567913324
-9057b2 maxwatts 1425 # 10.0.68.16
-9057b2 rebootasic 1567913324 # 10.0.68.16
+## resets
 
 ## asic password
 asicpass admin
