@@ -29,7 +29,7 @@ global blinkgreen rapid
 
 # global retune 1
 # global rebootasic 1
-global resetasic 1571113675 # 1
+global resetasic 1571461210 # 1571113675 # 1
 # global panelpass gj83Nkgikg
 
 # group=rowc rebootasic 1
@@ -42,15 +42,6 @@ vlan 10.0.66.122-122
 fb574c location NSORE00001
 
 ## tuning
-fb574c maxwatts 1200 # 10.0.66.122
-fb574c rebootasic 1571170228 # 10.0.66.122
-
-fb574c maxwatts 1300 # 10.0.66.122
-fb574c rebootasic 1570843473 # 10.0.66.122
-
-fb574c maxwatts 1400 # 10.0.66.122
-fb574c rebootasic 1570824723 # 10.0.66.122
-
 
 ## reboots
 
@@ -58,7 +49,3 @@ fb574c rebootasic 1570824723 # 10.0.66.122
 
 ## asic password
 asicpass admin
-
-
-
-
