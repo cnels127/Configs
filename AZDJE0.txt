@@ -190,6 +190,35 @@ bf8fd2 location AZDJE00096
 0d929b location AZDJE00100
 
 ## tuning
+8ed68e maxwatts 1100 # 10.0.56.14
+c96ac2 maxwatts 1200 # 10.0.56.72
+0b6fa4 maxwatts 1300 # 10.0.56.31
+60ea4c maxwatts 1100 # 10.0.56.103
+457d60 maxwatts 1100 # 10.0.56.71
+85f927 maxwatts 1300 # 10.0.55.89
+56faaa maxwatts 1400 # 10.0.56.54
+5e6b13 maxwatts 1400 # 10.0.55.90
+d8b55c maxwatts 1100 # 10.0.55.95
+056e6f maxwatts 1300 # 10.0.56.22
+2a4578 maxwatts 1400 # 10.0.56.48
+f8714f maxwatts 1200 # 10.0.56.5
+bd96d6 maxwatts 1100 # 10.0.56.66
+9f340c maxwatts 1300 # 10.0.56.94
+8ed68e rebootasic 1571524636 # 10.0.56.14
+c96ac2 rebootasic 1571524636 # 10.0.56.72
+0b6fa4 rebootasic 1571524636 # 10.0.56.31
+60ea4c rebootasic 1571524636 # 10.0.56.103
+457d60 rebootasic 1571524636 # 10.0.56.71
+85f927 rebootasic 1571524636 # 10.0.55.89
+56faaa rebootasic 1571524636 # 10.0.56.54
+5e6b13 rebootasic 1571524636 # 10.0.55.90
+d8b55c rebootasic 1571524636 # 10.0.55.95
+056e6f rebootasic 1571524636 # 10.0.56.22
+2a4578 rebootasic 1571524636 # 10.0.56.48
+f8714f rebootasic 1571524636 # 10.0.56.5
+bd96d6 rebootasic 1571524636 # 10.0.56.66
+9f340c rebootasic 1571524636 # 10.0.56.94
+
 457d60 maxwatts 1200 # 10.0.56.71
 c96ac2 maxwatts 1300 # 10.0.56.72
 3b9218 maxwatts 1300 # 10.0.56.43
@@ -332,6 +361,7 @@ f026f7 rebootasic 1571251859 # 10.0.56.51
 
 ## asic password
 asicpass admin
+
 
 
 

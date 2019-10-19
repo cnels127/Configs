@@ -42,7 +42,11 @@ vlan 10.0.115.60-60
 cc5e00 location JREGU00001
 
 ## tuning
+cc5e00 maxwatts 1400 # 10.0.115.60
+cc5e00 rebootasic 1571526170 # 10.0.115.60
+
 
 ## asic password
 asicpass admin
+
 

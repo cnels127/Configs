@@ -50,6 +50,13 @@ df6f8a location ARAMA00004
 0a29cc location ARAMA00006
 
 ## tuning
+df6f8a maxwatts 1250 # 10.0.56.106
+44e8a9 maxwatts 1250 # 10.0.56.115
+0a29cc maxwatts 1250 # 10.0.56.117
+df6f8a rebootasic 1571524443 # 10.0.56.106
+44e8a9 rebootasic 1571524443 # 10.0.56.115
+0a29cc rebootasic 1571524443 # 10.0.56.117
+
 
 ## fans
 
@@ -63,4 +70,5 @@ df6f8a resetasic 1570735595
 
 ## asic password
 asicpass admin
+
 

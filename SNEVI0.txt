@@ -46,6 +46,9 @@ b7e4cf location SNEVI00003
 d2fc8a location SNEVI00005
 
 ## tuning
+b7e4cf maxwatts 1100 # 10.0.68.66
+b7e4cf rebootasic 1571527736 # 10.0.68.66
+
 b7e4cf maxwatts 1200 # 10.0.68.66
 b7e4cf rebootasic 1571521625 # 10.0.68.66
 
@@ -61,6 +64,7 @@ b7e4cf rebootasic 1571274494 # 10.0.68.66
 
 ## asic password
 asicpass admin
+
 
 
 
