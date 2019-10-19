@@ -37,6 +37,10 @@ global resetasic 1571427118 # 1571237128 # 1571225465
 # group=rowd allowed no
 
 ## fans
+0a2190 fanspeed 100
+e4b4e7 fanspeed 100
+27a764 fanspeed 100
+1ebecd fanspeed 100
 11aa26 fanspeed 100
 ae25a9 fanspeed 100
 ac2a48 fanspeed 100
@@ -49,6 +53,11 @@ ffe40c fanspeed 100
 f27232 fanspeed 100
 
 ## reboots
+# s_reboot generated on Oct 19 2019 08:00:42 utc: 1571472042
+0a2190 rebootasic 1571472042 # 10.0.50.160 esolg00424
+e4b4e7 rebootasic 1571472042 # 10.0.50.98 esolg00362
+27a764 rebootasic 1571472042 # 10.0.31.3 esolg00087
+1ebecd rebootasic 1571472042 # 10.0.30.87 esolg00011
 # s_reboot generated on Oct 19 2019 04:31:17 utc: 1571459477
 c9cde9 rebootasic 1571459477 # 10.0.50.156 esolg00420
 3c23e1 rebootasic 1571459477 # 10.0.55.78 esolg00495
