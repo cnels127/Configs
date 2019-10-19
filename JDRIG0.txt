@@ -29,7 +29,7 @@ global blinkgreen rapid
 
 global retune 2
 global rebootasic 1
-global resetasic 1571113675 # 1
+global resetasic 1571459554 # 1571113675 # 1
 # global panelpass gj83Nkgikg
 
 # group=rowc rebootasic 1
@@ -60,34 +60,6 @@ cffb6d location JDRIG00009
 e2fa14 location JDRIG00010
 
 ## tuning
-d55626 maxwatts 1400 # 10.0.67.156
-d55626 rebootasic 1571145396 # 10.0.67.156
-
-e2fa14 maxwatts 1200 # 10.0.66.22
-e2fa14 rebootasic 1570872101 # 10.0.66.22
-
-e2fa14 maxwatts 1300 # 10.0.66.22
-e2fa14 rebootasic 1570774875 # 10.0.66.22
-
-cffb6d maxwatts 1300 # 10.0.67.146
-cffb6d rebootasic 1570696928 # 10.0.67.146
-
-cffb6d maxwatts 1400 # 10.0.67.146
-cffb6d rebootasic 1570666107 # 10.0.67.146
-
-e2fa14 maxwatts 1400 # 10.0.66.22
-e2fa14 rebootasic 1570600397 # 10.0.66.22
-
-9b787e maxwatts 1200 # 10.0.55.145
-9b787e rebootasic 1568970906 # 10.0.55.145
-
-9b787e maxwatts 1300 # 10.0.55.145
-9b787e rebootasic 1568962018 # 10.0.55.145
-
-9b787e maxwatts 1400 # 10.0.55.145
-9b787e rebootasic 1568960234 # 10.0.55.145
-
-11bafe retune 1
 
 ## reboots
 
