@@ -29,7 +29,7 @@ global blinkgreen rapid
 
 # global retune 1
 # global rebootasic 1
-global resetasic 1571113675 # 1
+global resetasic 1571460958 # 1571113675 # 1
 # global panelpass gj83Nkgikg
 
 # group=rowc rebootasic 1
@@ -46,18 +46,6 @@ f0052b location MAVAK00001
 1e0fc5 location MAVAK00003
 
 ## tuning
-f0052b maxwatts 950 # 10.0.58.45
-f0052b rebootasic 1571145436 # 10.0.58.45
-
-f0052b maxwatts 1050 # 10.0.58.45
-f0052b rebootasic 1570717653 # 10.0.58.45
-
-f0052b maxwatts 1150 # 10.0.58.45
-f0052b rebootasic 1570702559 # 10.0.58.45
-
-f0052b maxwatts 1250 # 10.0.58.45
-f0052b rebootasic 1570619824 # 10.0.58.45
-
 
 ## reboots
 
