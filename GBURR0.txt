@@ -22,14 +22,14 @@ global maxwatts 1500
 global autoupdate no
 global allowed yes
 global maxtemp 90
-global fanspeed 65
+global fanspeed 100
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
 # global rebootasic 1
-global resetasic 1571355056 # 1571249126 # 1571113675
+global resetasic 1571457360 # 1571355056 # 1571249126 # 1571113675
 # global panelpass gj83Nkgikg
 
 # group=rowc rebootasic 1
@@ -50,14 +50,6 @@ b69144 location GBURR00004
 fb355a location GBURR00005
 
 ## tuning
-2d11cf maxwatts 1300 # 10.0.55.150
-2d11cf rebootasic 1571359298 # 10.0.55.150
-
-b69144 maxwatts 1400 # 10.0.56.107
-2d11cf maxwatts 1400 # 10.0.55.150
-b69144 rebootasic 1571357395 # 10.0.56.107
-2d11cf rebootasic 1571357395 # 10.0.55.150
-
 
 ## reboots
 
