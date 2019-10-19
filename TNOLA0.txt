@@ -29,8 +29,7 @@ global blinkgreen rapid
 
 # global retune 1
 # global rebootasic 1
-global resetasic 1571113675 # 1
-global resetasic 1571338890
+global resetasic 1571462568 # 1571338890 # 1571113675 # 1
 # global panelpass gj83Nkgikg
 
 # group=rowc rebootasic 1
@@ -47,19 +46,6 @@ f7deb6 location TNOLA00002
 be162a location TNOLA00005
 
 ## tuning
-eaab57 maxwatts 1150 # 10.0.57.76
-eaab57 rebootasic 1571460467 # 10.0.57.76
-
-eaab57 maxwatts 1250 # 10.0.57.76
-eaab57 rebootasic 1571457503 # 10.0.57.76
-
-eaab57 maxwatts 1350 # 10.0.57.76
-f7deb6 maxwatts 1350 # 10.0.57.77
-be162a maxwatts 1350 # 10.0.57.80
-eaab57 rebootasic 1571340166 # 10.0.57.76
-f7deb6 rebootasic 1571340166 # 10.0.57.77
-be162a rebootasic 1571340166 # 10.0.57.80
-
 
 ## reboots
 
@@ -67,25 +53,3 @@ be162a rebootasic 1571340166 # 10.0.57.80
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
