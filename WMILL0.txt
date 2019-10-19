@@ -29,8 +29,7 @@ global blinkgreen rapid
 
 # global retune 1
 global rebootasic 1
-global resetasic 1571113675 # 1
-global resetasic 1571339979
+global resetasic 1571462642 # 1571339979 # 1571113675 # 1
 # global panelpass gj83Nkgikg
 
 # group=rowc rebootasic 1
@@ -48,14 +47,6 @@ ed4012 location WMILL00003
 35740c retune 1
 
 ## tuning
-35740c maxwatts 1350 # 10.0.53.55
-ed4012 maxwatts 1350 # 10.0.53.57
-99707f maxwatts 1350 # 10.0.53.58
-35740c rebootasic 1571342189 # 10.0.53.55
-ed4012 rebootasic 1571342189 # 10.0.53.57
-99707f rebootasic 1571342189 # 10.0.53.58
-
-
 
 ## reboots
 
@@ -63,5 +54,3 @@ ed4012 rebootasic 1571342189 # 10.0.53.57
 
 ## asic password
 asicpass admin
-
-
