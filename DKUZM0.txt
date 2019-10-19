@@ -29,7 +29,7 @@ global blinkgreen rapid
 
 global retune 1
 # global rebootasic 1
-global resetasic 1571113675 # 1
+global resetasic 1571456913 # 1571113675 # 1
 # global panelpass gj83Nkgikg
 
 # group=rowc rebootasic 1
@@ -46,12 +46,6 @@ dcf994 location DKUZM00001
 e06e8a location DKUZM00003
 
 ## tuning
-dcf994 maxwatts 1300 # 10.0.61.133
-dcf994 rebootasic 1571438288 # 10.0.61.133
-
-dcf994 maxwatts 1400 # 10.0.61.133
-dcf994 rebootasic 1571414074 # 10.0.61.133
-
 
 ## resets
 dcf994 resetasic 1571247862
