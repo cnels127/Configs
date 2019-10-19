@@ -120,6 +120,11 @@ d13d9c location ATHOM00039
 31a7ae location ATHOM00040
 
 ## tuning
+f56d20 maxwatts 1250 # 10.0.61.145
+9be27b maxwatts 1250 # 10.0.63.106
+f56d20 rebootasic 1571443165 # 10.0.61.145
+9be27b rebootasic 1571443165 # 10.0.63.106
+
 eedbcd maxwatts 950 # 10.0.64.85
 fbf1ac maxwatts 950 # 10.0.65.22
 f9ca53 maxwatts 950 # 10.0.66.106
@@ -191,6 +196,7 @@ a1e438 resetasic 1569556282
 
 ## asic password
 asicpass admin
+
 
 
 
