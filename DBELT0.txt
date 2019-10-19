@@ -29,7 +29,7 @@ global blinkgreen rapid
 
 global retune 1
 global rebootasic 2
-global resetasic 1571245947 # 1571113675
+global resetasic 1571456707 # 1571245947 # 1571113675
 # global panelpass gj83Nkgikg
 
 # group=rowc rebootasic 1
@@ -54,27 +54,6 @@ e7a422 location DBELT00002
 056415 location DBELT00008
 
 ## tuning
-1667e2 maxwatts 1300 # 10.0.54.155
-1667e2 rebootasic 1571435701 # 10.0.54.155
-
-356422 maxwatts 1100 # 10.0.54.159
-356422 rebootasic 1571292853 # 10.0.54.159
-
-356422 maxwatts 1200 # 10.0.54.159
-356422 rebootasic 1571290898 # 10.0.54.159
-
-356422 maxwatts 1300 # 10.0.54.159
-356422 rebootasic 1571288970 # 10.0.54.159
-
-356422 maxwatts 1400 # 10.0.54.159
-356422 rebootasic 1571287044 # 10.0.54.159
-
-54750e maxwatts 1400 # 10.0.58.25
-54750e rebootasic 1571276162 # 10.0.58.25
-
-1667e2 maxwatts 1400 # 10.0.54.155
-1667e2 rebootasic 1571274248 # 10.0.54.155
-
 
 ## fans
 
