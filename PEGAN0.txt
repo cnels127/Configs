@@ -29,7 +29,7 @@ global blinkgreen rapid
 
 global retune 1
 global rebootasic 1
-global resetasic 1571113675 # 1
+global resetasic 1571461473 # 1571113675 # 1
 # global panelpass gj83Nkgikg
 
 # group=rowc rebootasic 1
@@ -70,41 +70,10 @@ f1ae88 location PEGAN00014
 4900fd location PEGAN00015
 
 ## tuning
-f1ae88 maxwatts 1250 # 10.0.120.92
-f1ae88 rebootasic 1571289139 # 10.0.120.92
 
-d20101 rebootasic 1571147985 # 10.0.118.48 pegan00007
- 
-
-4900fd maxwatts 1250 # 10.0.119.52
-4900fd rebootasic 1571075071 # 10.0.119.52
-
-ef1f6e maxwatts 1250 # 10.0.68.34
-ef1f6e rebootasic 1570662560 # 10.0.68.34
-
-4e0552 maxwatts 1250 # 10.0.115.2
-4e0552 rebootasic 1569497541 # 10.0.115.2
-
-63f1ab retune 1
-5a3dde retune 1
+## reboots
 
 ## resets
-f49c47 resetasic 2
-63f1ab resetasic 2
-4e0552 resetasic 2
-c1a1c1 resetasic 2
-d3efbf resetasic 2
-6c96dd resetasic 2
-b6ea4d resetasic 2
-0be583 resetasic 2
-9a258b resetasic 2
-f1ae88 resetasic 3
-c1a1c1 resetasic 2
-d20101 resetasic 2
-a03c97 resetasic 2
-d1c299 resetasic 2
-4900fd resetasic 2
-9373bb resetasic 2
 
 ## asic password
 asicpass admin
