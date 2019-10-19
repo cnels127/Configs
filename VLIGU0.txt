@@ -146,6 +146,43 @@ db2bbb location VLIGU00092
 430b5d location VLIGU00100
 
 ## tuning
+4dac09 maxwatts 200 # 10.0.51.42
+22122a maxwatts 1100 # 10.0.57.97
+7b1d13 maxwatts 1000 # 10.0.51.3
+d756d3 maxwatts 1200 # 10.0.51.35
+229e75 maxwatts 1100 # 10.0.57.116
+a6cb63 maxwatts 1400 # 10.0.51.45
+02d712 maxwatts 1200 # 10.0.51.44
+52051a maxwatts 900 # 10.0.51.14
+f41f50 maxwatts 1400 # 10.0.51.26
+7e0c44 maxwatts 1100 # 10.0.51.32
+6878ae maxwatts 1400 # 10.0.51.33
+81d214 maxwatts 1400 # 10.0.51.36
+7ad9c1 maxwatts 1200 # 10.0.51.41
+de8889 maxwatts 1400 # 10.0.51.48
+8ae513 maxwatts 1400 # 10.0.51.52
+ad13e2 maxwatts 1200 # 10.0.57.119
+db2bbb maxwatts 800 # 10.0.57.120
+6904ea maxwatts 700 # 10.0.57.122
+4dac09 rebootasic 1571522143 # 10.0.51.42
+22122a rebootasic 1571522143 # 10.0.57.97
+7b1d13 rebootasic 1571522143 # 10.0.51.3
+d756d3 rebootasic 1571522143 # 10.0.51.35
+229e75 rebootasic 1571522143 # 10.0.57.116
+a6cb63 rebootasic 1571522143 # 10.0.51.45
+02d712 rebootasic 1571522143 # 10.0.51.44
+52051a rebootasic 1571522143 # 10.0.51.14
+f41f50 rebootasic 1571522143 # 10.0.51.26
+7e0c44 rebootasic 1571522143 # 10.0.51.32
+6878ae rebootasic 1571522143 # 10.0.51.33
+81d214 rebootasic 1571522143 # 10.0.51.36
+7ad9c1 rebootasic 1571522143 # 10.0.51.41
+de8889 rebootasic 1571522143 # 10.0.51.48
+8ae513 rebootasic 1571522143 # 10.0.51.52
+ad13e2 rebootasic 1571522143 # 10.0.57.119
+db2bbb rebootasic 1571522143 # 10.0.57.120
+6904ea rebootasic 1571522143 # 10.0.57.122
+
 fa20ef maxwatts 1400 # 10.0.51.50
 fa20ef rebootasic 1571515944 # 10.0.51.50
 
@@ -396,6 +433,7 @@ df64b7 resetasic 1571432850
 
 ## asic password
 asicpass admin
+
 
 
 

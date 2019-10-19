@@ -62,6 +62,11 @@ e3af8a location LALBE00006
 4363c7 location LALBE00011
 
 ## tuning
+979f86 maxwatts 1100 # 10.0.67.6
+4363c7 maxwatts 1400 # 10.0.68.11
+979f86 rebootasic 1571520025 # 10.0.67.6
+4363c7 rebootasic 1571520025 # 10.0.68.11
+
 701541 maxwatts 1400 # 10.0.66.8
 701541 rebootasic 1571500115 # 10.0.66.8
 
@@ -81,6 +86,7 @@ e3af8a location LALBE00006
 
 ## asic password
 asicpass admin
+
 
 
 
