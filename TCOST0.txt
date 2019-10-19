@@ -29,7 +29,7 @@ global blinkgreen rapid
 
 # global retune 1
 # global rebootasic 1
-global resetasic 1571113675 # 1
+global resetasic 1571462414 # 1571113675 # 1
 # global panelpass gj83Nkgikg
 
 # group=rowc rebootasic 1
@@ -42,9 +42,6 @@ vlan 10.0.65.147-147
 faba2f location TCOST00001
 
 ## tuning
-faba2f maxwatts 1400 # 10.0.65.147
-faba2f rebootasic 1571185526 # 10.0.65.147
-
 
 ## reboots
 
@@ -52,5 +49,3 @@ faba2f rebootasic 1571185526 # 10.0.65.147
 
 ## asic password
 asicpass admin
-
-
