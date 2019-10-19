@@ -20,7 +20,7 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1350
+global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90
@@ -31,7 +31,7 @@ global blinkgreen rapid
 
 # global retune 1
 # global rebootasic 1
-global resetasic 1571251443  # 2
+global resetasic 1571461795 # 1571251443 # 2
 # global panelpass gj83Nkgikg
 
 # group=rowc rebootasic 1
@@ -61,32 +61,6 @@ a016c1 location RANDE00008
 636f5f location RANDE00010
 
 ## tuning
-1506ab maxwatts 1400 # 10.0.57.129
-1506ab rebootasic 1571436156 # 10.0.57.129
-
-679e5d maxwatts 1000 # 10.0.57.142
-679e5d rebootasic 1571361372 # 10.0.57.142
-
-679e5d maxwatts 1100 # 10.0.57.142
-679e5d rebootasic 1571359440 # 10.0.57.142
-
-679e5d maxwatts 1200 # 10.0.57.142
-679e5d rebootasic 1571355659 # 10.0.57.142
-
-679e5d maxwatts 1300 # 10.0.57.142
-679e5d rebootasic 1571342015 # 10.0.57.142
-
-679e5d maxwatts 1400 # 10.0.57.142
-679e5d rebootasic 1571276289 # 10.0.57.142
-
-1506ab maxwatts 1500
-174232 maxwatts 1500
-679e5d maxwatts 1500
-8a2820 maxwatts 1500
-005c5e maxwatts 1500
-a016c1 maxwatts 1500
-55019f maxwatts 1500
-636f5f maxwatts 1500
 
 ## reboots
 
@@ -94,28 +68,3 @@ a016c1 maxwatts 1500
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
