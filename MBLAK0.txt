@@ -29,7 +29,7 @@ global blinkgreen rapid
 
 # global retune 1
 global rebootasic 1
-global resetasic 1571113675 # 1
+global resetasic 1571461033 # 1571113675 # 1
 # global panelpass gj83Nkgikg
 
 # group=rowc rebootasic 1
@@ -53,115 +53,6 @@ dfb542 location MBLAK00010
 5d3f6c location MBLAK00012
 
 ## tuning
-abee59 maxwatts -50 # 10.0.56.149
-abee59 rebootasic 1571397407 # 10.0.56.149
-
-abee59 maxwatts -50 # 10.0.56.149
-abee59 rebootasic 1571393043 # 10.0.56.149
-
-abee59 maxwatts -50 # 10.0.56.149
-abee59 rebootasic 1571353717 # 10.0.56.149
-
-abee59 maxwatts -50 # 10.0.56.149
-abee59 rebootasic 1571345878 # 10.0.56.149
-
-abee59 maxwatts -50 # 10.0.56.149
-abee59 rebootasic 1571283481 # 10.0.56.149
-
-d448b3 maxwatts 1250 # 10.0.56.154
-d448b3 rebootasic 1571250544 # 10.0.56.154
-
-abee59 maxwatts -50 # 10.0.56.149
-abee59 rebootasic 1571245102 # 10.0.56.149
-
-abee59 maxwatts -50 # 10.0.56.149
-abee59 rebootasic 1571239717 # 10.0.56.149
-
-abee59 maxwatts -50 # 10.0.56.149
-abee59 rebootasic 1571236155 # 10.0.56.149
-
-abee59 maxwatts -50 # 10.0.56.149
-abee59 rebootasic 1571225590 # 10.0.56.149
-
-abee59 maxwatts -50 # 10.0.56.149
-abee59 rebootasic 1571220348 # 10.0.56.149
-
-3bd8d4 maxwatts 1250 # 10.0.56.151
-3bd8d4 rebootasic 1571218593 # 10.0.56.151
-
-abee59 maxwatts -50 # 10.0.56.149
-abee59 rebootasic 1571211585 # 10.0.56.149
-
-abee59 maxwatts -50 # 10.0.56.149
-abee59 rebootasic 1571206342 # 10.0.56.149
-
-abee59 maxwatts -50 # 10.0.56.149
-abee59 rebootasic 1571202888 # 10.0.56.149
-
-abee59 maxwatts -50 # 10.0.56.149
-abee59 rebootasic 1571199436 # 10.0.56.149
-
-ecd90f maxwatts 1150 # 10.0.56.155
-ecd90f rebootasic 1571195968 # 10.0.56.155
-
-5d3f6c maxwatts 1250 # 10.0.56.158
-5d3f6c rebootasic 1571185429 # 10.0.56.158
-
-abee59 maxwatts 50 # 10.0.56.149
-abee59 rebootasic 1571165244 # 10.0.56.149
-
-abee59 maxwatts 150 # 10.0.56.149
-abee59 rebootasic 1571145439 # 10.0.56.149
-
-abee59 maxwatts 250 # 10.0.56.149
-abee59 rebootasic 1571105856 # 10.0.56.149
-
-7583aa maxwatts 1250 # 10.0.56.150
-7583aa rebootasic 1571068959 # 10.0.56.150
-
-abee59 maxwatts 350 # 10.0.56.149
-abee59 rebootasic 1571066102 # 10.0.56.149
-
-abee59 maxwatts 450 # 10.0.56.149
-abee59 rebootasic 1571050004 # 10.0.56.149
-
-abee59 maxwatts 550 # 10.0.56.149
-abee59 rebootasic 1571042147 # 10.0.56.149
-
-abee59 maxwatts 650 # 10.0.56.149
-abee59 rebootasic 1570958955 # 10.0.56.149
-
-1e74b1 maxwatts 1150 # 10.0.56.157
-1e74b1 rebootasic 1570927789 # 10.0.56.157
-
-abee59 maxwatts 750 # 10.0.56.149
-abee59 rebootasic 1570874014 # 10.0.56.149
-
-1e74b1 maxwatts 1250 # 10.0.56.157
-1e74b1 rebootasic 1570840015 # 10.0.56.157
-
-61cbc7 maxwatts 1250 # 10.0.56.147
-61cbc7 rebootasic 1570769929 # 10.0.56.147
-
-ecd90f maxwatts 1250 # 10.0.56.155
-ecd90f rebootasic 1570709967 # 10.0.56.155
-
-abee59 maxwatts 850 # 10.0.56.149
-abee59 rebootasic 1570600448 # 10.0.56.149
-
-abee59 maxwatts 950 # 10.0.56.149
-abee59 rebootasic 1570576739 # 10.0.56.149
-
-abee59 maxwatts 1050 # 10.0.56.149
-abee59 rebootasic 1570574770 # 10.0.56.149
-
-abee59 maxwatts 1150 # 10.0.56.149
-abee59 rebootasic 1570565172 # 10.0.56.149
-
-abee59 maxwatts 1250 # 10.0.56.149
-abee59 rebootasic 1570561234 # 10.0.56.149
-
-ec382c retune 1
 
 ## reboots
 
@@ -169,40 +60,3 @@ ec382c retune 1
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
