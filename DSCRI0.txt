@@ -29,7 +29,7 @@ global blinkgreen rapid
 
 # global retune 1
 # global rebootasic 1
-global resetasic 1571248699 # 1571113675
+global resetasic 1571457039 # 1571248699 # 1571113675
 # global panelpass gj83Nkgikg
 
 # group=rowc rebootasic 1
@@ -45,9 +45,10 @@ vlan 10.0.60.58-58
 1c0d86 location DSCRI00003
 
 ## tuning
-309322 maxwatts 1250 # 10.0.60.10
-309322 rebootasic 1571288989 # 10.0.60.10
 
+## reboots
+
+## resets
 
 ## asic password
 asicpass admin
