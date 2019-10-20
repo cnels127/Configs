@@ -74,6 +74,11 @@ f46832 location RHUSK00029
 ## overheats
 
 ## tuning
+7b6cfa maxwatts 900 # 10.0.53.121
+e6077e maxwatts 1200 # 10.0.53.132
+7b6cfa rebootasic 1571551532 # 10.0.53.121
+e6077e rebootasic 1571551532 # 10.0.53.132
+
 45dadf maxwatts 1200 # 10.0.53.133
 7b6cfa maxwatts 1000 # 10.0.53.121
 45dadf rebootasic 1571546582 # 10.0.53.133
@@ -173,6 +178,7 @@ ba0308 retune 1
 
 ## asic password
 asicpass admin
+
 
 
 
