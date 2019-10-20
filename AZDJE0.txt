@@ -190,6 +190,9 @@ bf8fd2 location AZDJE00096
 0d929b location AZDJE00100
 
 ## tuning
+85f927 maxwatts 1000 # 10.0.55.89
+85f927 rebootasic 1571539873 # 10.0.55.89
+
 85f927 maxwatts 1100 # 10.0.55.89
 c96ac2 maxwatts 1000 # 10.0.56.72
 82bf37 maxwatts 1300 # 10.0.56.62
@@ -400,6 +403,7 @@ f026f7 rebootasic 1571251859 # 10.0.56.51
 
 ## asic password
 asicpass admin
+
 
 
 
