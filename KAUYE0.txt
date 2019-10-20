@@ -67,6 +67,9 @@ e6ca25 location KAUYE00013
 d87db4 location KAUYE00014
 
 ## tuning
+e6ca25 maxwatts 1400 # 10.0.56.108
+e6ca25 rebootasic 1571534902 # 10.0.56.108
+
 4d1860 maxwatts 1400 # 10.0.55.100
 02423d maxwatts 1400 # 10.0.55.135
 4d1860 rebootasic 1571519813 # 10.0.55.100
@@ -83,6 +86,7 @@ ddae42 resetasic 1571152973
 
 ## asic password
 asicpass admin
+
 
 
 

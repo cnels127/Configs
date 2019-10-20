@@ -800,6 +800,45 @@ d7d3e4 location AHOPF00455
 999c20 location AHOPF00456
 
 ## tuning
+bbc88e maxwatts 1300 # 10.0.116.140
+2b24e8 maxwatts 1200 # 10.0.120.21
+be62a6 maxwatts 1100 # 10.0.20.122
+71964f maxwatts 1300 # 10.0.120.18
+0b383f maxwatts 1200 # 10.0.57.42
+36a526 maxwatts 1300 # 10.0.120.45
+6f20ae maxwatts 1300 # 10.0.120.60
+107a3f maxwatts 1300 # 10.0.115.26
+80b6cc maxwatts 1200 # 10.0.57.12
+1da911 maxwatts 1400 # 10.0.121.87
+c6721f maxwatts 1200 # 10.0.120.136
+55b5cb maxwatts 1300 # 10.0.57.17
+283ff7 maxwatts 1300 # 10.0.119.44
+b79b7a maxwatts 1300 # 10.0.20.86
+9b356e maxwatts 1100 # 10.0.20.96
+d1027e maxwatts 1300 # 10.0.20.64
+be27de maxwatts 1100 # 10.0.120.89
+525871 maxwatts 1100 # 10.0.117.125
+f6b2c7 maxwatts 900 # 10.0.20.40
+bbc88e rebootasic 1571534812 # 10.0.116.140
+2b24e8 rebootasic 1571534812 # 10.0.120.21
+be62a6 rebootasic 1571534812 # 10.0.20.122
+71964f rebootasic 1571534812 # 10.0.120.18
+0b383f rebootasic 1571534812 # 10.0.57.42
+36a526 rebootasic 1571534812 # 10.0.120.45
+6f20ae rebootasic 1571534812 # 10.0.120.60
+107a3f rebootasic 1571534812 # 10.0.115.26
+80b6cc rebootasic 1571534812 # 10.0.57.12
+1da911 rebootasic 1571534812 # 10.0.121.87
+c6721f rebootasic 1571534812 # 10.0.120.136
+55b5cb rebootasic 1571534812 # 10.0.57.17
+283ff7 rebootasic 1571534812 # 10.0.119.44
+b79b7a rebootasic 1571534812 # 10.0.20.86
+9b356e rebootasic 1571534812 # 10.0.20.96
+d1027e rebootasic 1571534812 # 10.0.20.64
+be27de rebootasic 1571534812 # 10.0.120.89
+525871 rebootasic 1571534812 # 10.0.117.125
+f6b2c7 rebootasic 1571534812 # 10.0.20.40
+
 be62a6 maxwatts 1200 # 10.0.20.122
 7b5858 maxwatts 1300 # 10.0.20.19
 69272e maxwatts 1400 # 10.0.119.87
@@ -1302,6 +1341,7 @@ d317f1 rebootasic 1571145325 # 10.0.20.100
 
 ## asic password
 asicpass admin
+
 
 
 

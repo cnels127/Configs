@@ -455,6 +455,67 @@ f62743 location CRIBE00204
 19851e location CRIBE00206
 
 ## tuning
+d201ca maxwatts 1300 # 10.0.116.13
+48af58 maxwatts 1300 # 10.0.61.86
+9bb638 maxwatts 1000 # 10.0.63.57
+a3079e maxwatts 1100 # 10.0.61.21
+4eeab5 maxwatts 1300 # 10.0.62.13
+1162de maxwatts 1300 # 10.0.63.22
+eb763f maxwatts 1200 # 10.0.59.93
+42a51d maxwatts 900 # 10.0.63.20
+ceceac maxwatts 1200 # 10.0.59.57
+bbe496 maxwatts 1200 # 10.0.59.86
+e74b4f maxwatts 1200 # 10.0.59.75
+cc994a maxwatts 1200 # 10.0.63.47
+8ec32b maxwatts 500 # 10.0.61.92
+54b3e0 maxwatts 1200 # 10.0.62.21
+268669 maxwatts 1200 # 10.0.62.14
+cdce27 maxwatts 300 # 10.0.117.120
+87cfea maxwatts 1300 # 10.0.63.30
+2f0a33 maxwatts 800 # 10.0.60.112
+183f9e maxwatts 1300 # 10.0.115.52
+19851e maxwatts 1200 # 10.0.121.136
+0e5797 maxwatts 1100 # 10.0.119.109
+475791 maxwatts 1300 # 10.0.61.115
+d26a62 maxwatts 1200 # 10.0.61.69
+cd80a5 maxwatts 1300 # 10.0.59.99
+7a2e69 maxwatts 1400 # 10.0.61.119
+3b9f50 maxwatts 1200 # 10.0.59.76
+b43083 maxwatts 1400 # 10.0.62.11
+582c72 maxwatts 1400 # 10.0.62.22
+830d52 maxwatts 1400 # 10.0.63.48
+fc5018 maxwatts 1400 # 10.0.115.24
+d201ca rebootasic 1571534836 # 10.0.116.13
+48af58 rebootasic 1571534836 # 10.0.61.86
+9bb638 rebootasic 1571534836 # 10.0.63.57
+a3079e rebootasic 1571534836 # 10.0.61.21
+4eeab5 rebootasic 1571534836 # 10.0.62.13
+1162de rebootasic 1571534836 # 10.0.63.22
+eb763f rebootasic 1571534836 # 10.0.59.93
+42a51d rebootasic 1571534836 # 10.0.63.20
+ceceac rebootasic 1571534836 # 10.0.59.57
+bbe496 rebootasic 1571534836 # 10.0.59.86
+e74b4f rebootasic 1571534836 # 10.0.59.75
+cc994a rebootasic 1571534836 # 10.0.63.47
+8ec32b rebootasic 1571534836 # 10.0.61.92
+54b3e0 rebootasic 1571534836 # 10.0.62.21
+268669 rebootasic 1571534836 # 10.0.62.14
+cdce27 rebootasic 1571534836 # 10.0.117.120
+87cfea rebootasic 1571534836 # 10.0.63.30
+2f0a33 rebootasic 1571534836 # 10.0.60.112
+183f9e rebootasic 1571534836 # 10.0.115.52
+19851e rebootasic 1571534836 # 10.0.121.136
+0e5797 rebootasic 1571534836 # 10.0.119.109
+475791 rebootasic 1571534836 # 10.0.61.115
+d26a62 rebootasic 1571534836 # 10.0.61.69
+cd80a5 rebootasic 1571534836 # 10.0.59.99
+7a2e69 rebootasic 1571534836 # 10.0.61.119
+3b9f50 rebootasic 1571534836 # 10.0.59.76
+b43083 rebootasic 1571534836 # 10.0.62.11
+582c72 rebootasic 1571534836 # 10.0.62.22
+830d52 rebootasic 1571534836 # 10.0.63.48
+fc5018 rebootasic 1571534836 # 10.0.115.24
+
 a3079e maxwatts 1200 # 10.0.61.21
 c95115 maxwatts 900 # 10.0.116.5
 069b7d maxwatts 1200 # 10.0.59.85
@@ -689,6 +750,7 @@ cdce27 rebootasic 1571456707 # 10.0.117.120
 
 ## asic password
 asicpass admin
+
 
 
 
