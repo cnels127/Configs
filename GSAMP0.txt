@@ -101,6 +101,9 @@ f24571 location GSAMP00026
 d223ec location GSAMP00030
 
 ## tuning
+8a804d maxwatts 1400 # 10.0.59.54
+8a804d rebootasic 1571665668 # 10.0.59.54
+
 62bdc8 maxwatts 1400 # 10.0.58.70
 62bdc8 rebootasic 1571658694 # 10.0.58.70
 
@@ -172,6 +175,7 @@ d223ec resetasic 1570472391
 
 ## asic password
 asicpass admin
+
 
 
 
