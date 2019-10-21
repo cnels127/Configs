@@ -50,6 +50,9 @@ d9b3f8 location RHOLL00004
 434628 location RHOLL00006
 
 ## tuning
+425b29 maxwatts 1250 # 10.0.61.58
+425b29 rebootasic 1571699122 # 10.0.61.58
+
 396497 maxwatts 1150 # 10.0.61.59
 396497 rebootasic 1571558137 # 10.0.61.59
 
@@ -63,6 +66,7 @@ d9b3f8 location RHOLL00004
 
 ## asic password
 asicpass admin
+
 
 
 
