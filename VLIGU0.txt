@@ -147,6 +147,9 @@ db2bbb location VLIGU00092
 
 ## tuning
 4dac09 maxwatts -100 # 10.0.51.42
+4dac09 rebootasic 1571616817 # 10.0.51.42
+
+4dac09 maxwatts -100 # 10.0.51.42
 4dac09 rebootasic 1571606897 # 10.0.51.42
 
 4dac09 maxwatts -100 # 10.0.51.42
@@ -523,6 +526,7 @@ df64b7 resetasic 1571432850
 
 ## asic password
 asicpass admin
+
 
 
 
