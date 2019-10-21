@@ -464,6 +464,9 @@ a0cac7 location NBELL00204
 252f2b location NBELL00207
 
 ## tuning
+b9e56a maxwatts 1400 # 10.0.116.159
+b9e56a rebootasic 1571618417 # 10.0.116.159
+
 02713c maxwatts 1200 # 10.0.61.108
 02713c rebootasic 1571615107 # 10.0.61.108
 
@@ -784,6 +787,7 @@ b894e2 rebootasic 1571002514 # 10.0.118.110
 
 ## asic password
 asicpass admin
+
 
 
 
