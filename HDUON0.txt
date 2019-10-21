@@ -48,6 +48,9 @@ e18d51 location HDUON00003
 2e2f55 location HDUON00004
 
 ## tuning
+5a1fc0 maxwatts 1300 # 10.0.65.78
+5a1fc0 rebootasic 1571676426 # 10.0.65.78
+
 5a1fc0 maxwatts 1400 # 10.0.65.78
 5a1fc0 rebootasic 1571671063 # 10.0.65.78
 
@@ -60,5 +63,6 @@ e18d51 resetasic 1570471349
 
 ## asic password
 asicpass admin
+
 
 
