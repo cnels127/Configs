@@ -44,6 +44,9 @@ fae03c location IUSAK00001
 b65b8a location IUSAK00002
 
 ## tuning
+b65b8a maxwatts 1400 # 10.0.61.9
+b65b8a rebootasic 1571656980 # 10.0.61.9
+
 
 ## reboots
 
@@ -51,4 +54,5 @@ b65b8a location IUSAK00002
 
 ## asic password
 asicpass admin
+
 
