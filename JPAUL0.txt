@@ -49,6 +49,9 @@ a01578 location JPAUL00004
 9c326c location JPAUL00005
 
 ## tuning
+9c326c maxwatts 1250 # 10.0.59.91
+9c326c rebootasic 1571655266 # 10.0.59.91
+
 a7102e maxwatts 1150 # 10.0.55.128
 a7102e rebootasic 1571526100 # 10.0.55.128
 
@@ -66,6 +69,7 @@ b34b28 resetasic 1570802150
 
 ## asic password
 asicpass admin
+
 
 
 
