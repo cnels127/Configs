@@ -951,6 +951,35 @@ d7d3e4 location AHOPF00455
 999c20 location AHOPF00456
 
 ## tuning
+1fb534 maxwatts 1400 # 10.0.119.85
+525871 maxwatts 800 # 10.0.117.125
+cb7a3d maxwatts 1300 # 10.0.56.159
+c3c415 maxwatts 1300 # 10.0.57.13
+45ecb5 maxwatts 1100 # 10.0.20.51
+0697d7 maxwatts 1300 # 10.0.56.160
+47f0c6 maxwatts 1300 # 10.0.57.20
+17ce8c maxwatts 1300 # 10.0.20.119
+182fb6 maxwatts 1400 # 10.0.116.155
+62d6d0 maxwatts 1400 # 10.0.57.15
+72720b maxwatts 1400 # 10.0.57.47
+4fe0e1 maxwatts 1200 # 10.0.20.48
+8d788a maxwatts 1000 # 10.0.20.129
+5da055 maxwatts 900 # 10.0.20.144
+1fb534 rebootasic 1571693997 # 10.0.119.85
+525871 rebootasic 1571693997 # 10.0.117.125
+cb7a3d rebootasic 1571693997 # 10.0.56.159
+c3c415 rebootasic 1571693997 # 10.0.57.13
+45ecb5 rebootasic 1571693997 # 10.0.20.51
+0697d7 rebootasic 1571693997 # 10.0.56.160
+47f0c6 rebootasic 1571693997 # 10.0.57.20
+17ce8c rebootasic 1571693997 # 10.0.20.119
+182fb6 rebootasic 1571693997 # 10.0.116.155
+62d6d0 rebootasic 1571693997 # 10.0.57.15
+72720b rebootasic 1571693997 # 10.0.57.47
+4fe0e1 rebootasic 1571693997 # 10.0.20.48
+8d788a rebootasic 1571693997 # 10.0.20.129
+5da055 rebootasic 1571693997 # 10.0.20.144
+
 49be6d maxwatts -100 # 10.0.118.79
 525871 maxwatts 900 # 10.0.117.125
 e0d12f maxwatts 1400 # 10.0.20.126
@@ -2234,6 +2263,7 @@ c6cbe1 username3 GMTVILLA01
 
 ## asic password
 asicpass admin
+
 
 
 
