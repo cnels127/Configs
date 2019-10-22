@@ -23,7 +23,7 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-global fanspeed 75
+global fanspeed 100
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
@@ -37,22 +37,25 @@ global resetasic 1571427118 # 1571237128 # 1571225465
 # group=rowd allowed no
 
 ## fans
-0a2190 fanspeed 100
-e4b4e7 fanspeed 100
-27a764 fanspeed 100
-1ebecd fanspeed 100
-11aa26 fanspeed 100
-ae25a9 fanspeed 100
-ac2a48 fanspeed 100
-a7b5ce fanspeed 100
-7d4308 fanspeed 100
-bc91a2 fanspeed 100
-ffe40c fanspeed 100
-69f234 fanspeed 100
-0cc841 fanspeed 100
-f27232 fanspeed 100
 
 ## reboots
+e4b4e7 rebootasic 1571712179 # 10.0.50.98
+606c53 rebootasic 1571712179 # 10.0.50.61
+3eedee rebootasic 1571712179 # 10.0.50.62
+c9cde9 rebootasic 1571712179 # 10.0.50.156
+ab39de rebootasic 1571712179 # 10.0.50.94
+c256c3 rebootasic 1571712179 # 10.0.50.143
+34ac56 rebootasic 1571712179 # 10.0.50.33
+f22ee0 rebootasic 1571712179 # 10.0.55.40
+8e9351 rebootasic 1571712179 # 10.0.55.82
+305120 rebootasic 1571712179 # 10.0.55.39
+69f234 rebootasic 1571712179 # 10.0.50.59
+c5e28a rebootasic 1571712179 # 10.0.50.130
+a46da9 rebootasic 1571712179 # 10.0.50.148
+0b711d rebootasic 1571712179 # 10.0.55.14
+c2c61a rebootasic 1571712179 # 10.0.55.56
+3e829b rebootasic 1571712179 # 10.0.55.70
+
 # s_reboot generated on Oct 19 2019 08:00:42 utc: 1571472042
 0a2190 rebootasic 1571472042 # 10.0.50.160 esolg00424
 e4b4e7 rebootasic 1571472042 # 10.0.50.98 esolg00362
