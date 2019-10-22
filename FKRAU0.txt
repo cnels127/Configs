@@ -223,9 +223,7 @@ c899a0 location FKRAU00088
 
 ## tuning
 52a8ec maxwatts 1100 # 10.0.77.18
-6e8e93 maxwatts 1000 # 10.0.60.132
 52a8ec rebootasic 1571709487 # 10.0.77.18
-6e8e93 rebootasic 1571709487 # 10.0.60.132
 
 d81df4 maxwatts 1400 # 10.0.62.43
 d81df4 rebootasic 1571704017 # 10.0.62.43
@@ -253,32 +251,23 @@ ac4842 rebootasic 1571694035 # 10.0.54.44
 9c3c4b maxwatts 1200 # 10.0.62.78
 9c3c4b rebootasic 1571680757 # 10.0.62.78
 
-6e8e93 maxwatts 1100 # 10.0.60.132
-6e8e93 rebootasic 1571672857 # 10.0.60.132
-
 9c3c4b maxwatts 1300 # 10.0.62.78
 9c3c4b rebootasic 1571671050 # 10.0.62.78
 
-6e8e93 maxwatts 1200 # 10.0.60.132
 ac4842 maxwatts 1400 # 10.0.54.44
 74ebb2 maxwatts 1000 # 10.0.51.58
-6e8e93 rebootasic 1571669252 # 10.0.60.132
 ac4842 rebootasic 1571669252 # 10.0.54.44
 74ebb2 rebootasic 1571669252 # 10.0.51.58
 
-6e8e93 maxwatts 1300 # 10.0.60.132
 74ebb2 maxwatts 1100 # 10.0.51.58
-6e8e93 rebootasic 1571667457 # 10.0.60.132
 74ebb2 rebootasic 1571667457 # 10.0.51.58
 
 02c22d maxwatts 1300 # 10.0.54.39
 7c08b6 maxwatts 1400 # 10.0.62.50
 a88d52 maxwatts 1400 # 10.0.62.51
-6e8e93 maxwatts 1400 # 10.0.60.132
 02c22d rebootasic 1571665660 # 10.0.54.39
 7c08b6 rebootasic 1571665660 # 10.0.62.50
 a88d52 rebootasic 1571665660 # 10.0.62.51
-6e8e93 rebootasic 1571665660 # 10.0.60.132
 
 74ebb2 maxwatts 1200 # 10.0.51.58
 74ebb2 rebootasic 1571662157 # 10.0.51.58
@@ -498,6 +487,7 @@ e4749b rebootasic 1571250471 # 10.0.54.41
 
 
 ## resets
+6e8e93 resetasic 1571719957
 a8ee8a resetasic 1571718660
 3fd204 resetasic 1571718541
 7923ac resetasic 1571718209
