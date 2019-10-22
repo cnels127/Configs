@@ -62,56 +62,10 @@ e3af8a location LALBE00006
 4363c7 location LALBE00011
 
 ## tuning
-e3af8a maxwatts 1100 # 10.0.64.77
-e3af8a rebootasic 1571712965 # 10.0.64.77
-
-b49a7f maxwatts 1100 # 10.0.56.120
-b49a7f rebootasic 1571699087 # 10.0.56.120
-
-b49a7f maxwatts 1200 # 10.0.56.120
-b49a7f rebootasic 1571695777 # 10.0.56.120
-
-b49a7f maxwatts 1300 # 10.0.56.120
-b49a7f rebootasic 1571694083 # 10.0.56.120
-
-b49a7f maxwatts 1400 # 10.0.56.120
-b49a7f rebootasic 1571663939 # 10.0.56.120
-
-e3af8a maxwatts 1200 # 10.0.64.77
-e3af8a rebootasic 1571554798 # 10.0.64.77
-
-e3af8a maxwatts 1300 # 10.0.64.77
-e3af8a rebootasic 1571543239 # 10.0.64.77
-
 6eb9e6 maxwatts 1300 # 10.0.65.12
-4363c7 maxwatts 1200 # 10.0.68.11
-e3af8a maxwatts 1400 # 10.0.64.77
 6eb9e6 rebootasic 1571534913 # 10.0.65.12
-4363c7 rebootasic 1571534913 # 10.0.68.11
-e3af8a rebootasic 1571534913 # 10.0.64.77
-
-4363c7 maxwatts 1300 # 10.0.68.11
 6eb9e6 maxwatts 1400 # 10.0.65.12
-4363c7 rebootasic 1571526533 # 10.0.68.11
 6eb9e6 rebootasic 1571526533 # 10.0.65.12
-
-979f86 maxwatts 1100 # 10.0.67.6
-4363c7 maxwatts 1400 # 10.0.68.11
-979f86 rebootasic 1571520025 # 10.0.67.6
-4363c7 rebootasic 1571520025 # 10.0.68.11
-
-701541 maxwatts 1400 # 10.0.66.8
-701541 rebootasic 1571500115 # 10.0.66.8
-
-979f86 maxwatts 1200 # 10.0.67.6
-979f86 rebootasic 1571469268 # 10.0.67.6
-
-979f86 maxwatts 1300 # 10.0.67.6
-979f86 rebootasic 1571466186 # 10.0.67.6
-
-979f86 maxwatts 1400 # 10.0.67.6
-979f86 rebootasic 1571463148 # 10.0.67.6
-
 
 ## reboots
 
@@ -119,27 +73,3 @@ e3af8a rebootasic 1571534913 # 10.0.64.77
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
