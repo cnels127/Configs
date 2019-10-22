@@ -951,6 +951,17 @@ d7d3e4 location AHOPF00455
 999c20 location AHOPF00456
 
 ## tuning
+1fb534 maxwatts 1200 # 10.0.119.85
+72720b maxwatts 1000 # 10.0.57.47
+862df7 maxwatts 1300 # 10.0.116.35
+285eaa maxwatts 1300 # 10.0.20.18
+6f82b5 maxwatts 1200 # 10.0.20.10
+1fb534 rebootasic 1571716250 # 10.0.119.85
+72720b rebootasic 1571716250 # 10.0.57.47
+862df7 rebootasic 1571716250 # 10.0.116.35
+285eaa rebootasic 1571716250 # 10.0.20.18
+6f82b5 rebootasic 1571716250 # 10.0.20.10
+
 72720b maxwatts 1100 # 10.0.57.47
 be62a6 maxwatts 900 # 10.0.20.122
 72720b rebootasic 1571712878 # 10.0.57.47
@@ -2885,6 +2896,7 @@ c6cbe1 username3 GMTVILLA01
 
 ## asic password
 asicpass admin
+
 
 
 
