@@ -571,6 +571,9 @@ fdbabb location GWELT00296
 
 ## tuning
 b91d80 maxwatts -100 # 10.0.65.50
+b91d80 rebootasic 1571767874 # 10.0.65.50
+
+b91d80 maxwatts -100 # 10.0.65.50
 b91d80 rebootasic 1571762839 # 10.0.65.50
 
 b91d80 maxwatts -100 # 10.0.65.50
@@ -1365,6 +1368,7 @@ b91d80 rebootasic 1571259614 # 10.0.65.50
 
 ## asic password
 asicpass admin
+
 
 
 
