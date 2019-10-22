@@ -22,7 +22,7 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90
-global fanspeed 65
+global fanspeed 100
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
@@ -46,9 +46,11 @@ vlan 10.0.66.116-116
 551f73 location CCADR00003
 
 ## tuning
-551f73 maxwatts 1350 # 10.0.66.116
-551f73 rebootasic 1571665630 # 10.0.66.116
 
+## reboots
+
+## resets
+551f73 resetasic 1571730609
 
 ## asic password
 asicpass admin
