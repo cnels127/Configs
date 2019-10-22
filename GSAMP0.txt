@@ -129,30 +129,14 @@ d223ec location GSAMP00030
 3cd7e0 maxwatts 1300 # 10.0.59.66
 3cd7e0 rebootasic 1571643352 # 10.0.59.66
 
-3900a7 maxwatts 800 # 10.0.59.36
-3900a7 rebootasic 1571559721 # 10.0.59.36
-
-3900a7 maxwatts 900 # 10.0.59.36
-3900a7 rebootasic 1571556416 # 10.0.59.36
-
 8e284e maxwatts 1300 # 10.0.56.75
 8e284e rebootasic 1571543205 # 10.0.56.75
 
-3900a7 maxwatts 1000 # 10.0.59.36
-3900a7 rebootasic 1571541550 # 10.0.59.36
-
-3900a7 maxwatts 1100 # 10.0.59.36
-3900a7 rebootasic 1571538243 # 10.0.59.36
-
-3900a7 maxwatts 1200 # 10.0.59.36
 c02d51 maxwatts 1300 # 10.0.56.50
-3900a7 rebootasic 1571534863 # 10.0.59.36
 c02d51 rebootasic 1571534863 # 10.0.56.50
 
 c02d51 maxwatts 1400 # 10.0.56.50
-3900a7 maxwatts 1300 # 10.0.59.36
 c02d51 rebootasic 1571525530 # 10.0.56.50
-3900a7 rebootasic 1571525530 # 10.0.59.36
 
 a36e04 maxwatts 1400 # 10.0.59.37
 f71e65 maxwatts 1400 # 10.0.59.43
@@ -162,18 +146,17 @@ f71e65 rebootasic 1571518974 # 10.0.59.43
 3cd7e0 maxwatts 1400 # 10.0.59.66
 8e284e maxwatts 1400 # 10.0.56.75
 0101ec maxwatts 1400 # 10.0.56.78
-3900a7 maxwatts 1400 # 10.0.59.36
 e1c353 maxwatts 1400 # 10.0.59.60
 3cd7e0 rebootasic 1571252277 # 10.0.59.66
 8e284e rebootasic 1571252277 # 10.0.56.75
 0101ec rebootasic 1571252277 # 10.0.56.78
-3900a7 rebootasic 1571252277 # 10.0.59.36
 e1c353 rebootasic 1571252277 # 10.0.59.60
 
 
 ## reboots
 
 ## resets
+3900a7 resetasic 1571719809
 a7631d resetasic 1571718852
 0c9f37 resetasic 1571251200
 26be5d resetasic 1571251200
@@ -184,20 +167,3 @@ d223ec resetasic 1570472391
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
