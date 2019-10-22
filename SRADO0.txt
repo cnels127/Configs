@@ -175,11 +175,9 @@ bd2001 rebootasic 1571676574 # 10.0.54.141
 
 c8c8e3 maxwatts 1100 # 10.0.54.139
 e3835b maxwatts -100 # 10.0.63.110
-2bb22c maxwatts 900 # 10.0.64.69
 2385b5 maxwatts 1100 # 10.0.67.61
 c8c8e3 rebootasic 1571674794 # 10.0.54.139
 e3835b rebootasic 1571674794 # 10.0.63.110
-2bb22c rebootasic 1571674794 # 10.0.64.69
 2385b5 rebootasic 1571674794 # 10.0.67.61
 
 b128e8 maxwatts 1000 # 10.0.62.83
@@ -258,9 +256,7 @@ e3835b rebootasic 1571628403 # 10.0.63.110
 89611d rebootasic 1571620112 # 10.0.57.146
 
 e3835b maxwatts -100 # 10.0.63.110
-2bb22c maxwatts 1000 # 10.0.64.69
 e3835b rebootasic 1571618456 # 10.0.63.110
-2bb22c rebootasic 1571618456 # 10.0.64.69
 
 e3835b maxwatts -100 # 10.0.63.110
 89611d maxwatts -100 # 10.0.57.146
@@ -269,26 +265,16 @@ e3835b rebootasic 1571615147 # 10.0.63.110
 89611d rebootasic 1571615147 # 10.0.57.146
 9df692 rebootasic 1571615147 # 10.0.57.150
 
-2bb22c maxwatts 1100 # 10.0.64.69
-2bb22c rebootasic 1571613490 # 10.0.64.69
-
 e3835b maxwatts -100 # 10.0.63.110
 b128e8 maxwatts 1300 # 10.0.62.83
 e3835b rebootasic 1571611837 # 10.0.63.110
 b128e8 rebootasic 1571611837 # 10.0.62.83
 
-2bb22c maxwatts 1200 # 10.0.64.69
 65013e maxwatts 700 # 10.0.66.18
-2bb22c rebootasic 1571610184 # 10.0.64.69
 65013e rebootasic 1571610184 # 10.0.66.18
 
-2bb22c maxwatts 1300 # 10.0.64.69
-2bb22c rebootasic 1571606882 # 10.0.64.69
-
 e3835b maxwatts -100 # 10.0.63.110
-2bb22c maxwatts 1400 # 10.0.64.69
 e3835b rebootasic 1571603580 # 10.0.63.110
-2bb22c rebootasic 1571603580 # 10.0.64.69
 
 44a6c9 maxwatts -100 # 10.0.58.17
 44a6c9 rebootasic 1571601930 # 10.0.58.17
@@ -636,6 +622,7 @@ e3835b fanspeed 100
 ## reboots
 
 ## resets
+2bb22c resetasic 1571715223
 26db41 resetasic 1571714770
 bd2001 resetasic 1571269908
 b128e8 resetasic 1571269753
