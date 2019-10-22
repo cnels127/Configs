@@ -4,11 +4,11 @@
 global custompanel JKAHN0bit049
 
 global poolname1 us-east.stratum.slushpool.com:3333
-global username1 Sirjustin.Bit001
+global username1 Sirjustin
 global poolpass1 123
 global sendworker1 yes
 global poolname2 stratum.slushpool.com:3333
-global username2 Sirjustin.Bit001
+global username2 Sirjustin
 global poolpass2 123
 global sendworker2 yes
 global poolname3 
@@ -46,6 +46,7 @@ ef83d4 location JKAHN00001
 ## reboots
 
 ## resets
+ef83d4 resetasic 1571729637
 
 ## asic password
 asicpass admin
