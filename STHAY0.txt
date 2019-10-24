@@ -7,13 +7,13 @@ global poolname1 profit.pool.bitcoin.com:3333
 global username1 sthayer
 global poolpass1 123
 global sendworker1 yes
-global poolname2 stratum.slushpool.com:3333
-global username2 SThayer
+global poolname2 us.ss.btc.com:1800
+global username2 sthayer2
 global poolpass2 123
 global sendworker2 yes
-global poolname3 
-global username3 
-global poolpass3 
+global poolname3 stratum.slushpool.com:3333
+global username3 SThayer
+global poolpass3 123
 global sendworker3 yes
 
 global asicboost yes
@@ -28,8 +28,8 @@ global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
-# global rebootasic 1
-global resetasic 1571462337 # 1571273207 # 1571113675 # 1
+global rebootasic 1571938362
+global resetasic 1571462337 # 3
 # global panelpass gj83Nkgikg
 
 # group=rowc rebootasic 1
@@ -46,18 +46,6 @@ f450a0 location STHAY00002
 546a5f location STHAY00003
 
 ## tuning
-546a5f maxwatts 1100 # 10.0.60.144
-546a5f rebootasic 1571716400 # 10.0.60.144
-
-546a5f maxwatts 1200 # 10.0.60.144
-546a5f rebootasic 1571700799 # 10.0.60.144
-
-546a5f maxwatts 1300 # 10.0.60.144
-546a5f rebootasic 1571694167 # 10.0.60.144
-
-546a5f maxwatts 1400 # 10.0.60.144
-546a5f rebootasic 1571664045 # 10.0.60.144
-
 
 ## reboots
 
