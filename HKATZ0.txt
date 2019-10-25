@@ -56,6 +56,9 @@ ceac8d location HKATZ00005
 
 ## tuning
 7f79ef maxwatts -100 # 10.0.66.30
+7f79ef reboot 1571999425 # 10.0.66.30
+
+7f79ef maxwatts -100 # 10.0.66.30
 7f79ef reboot 1571996164 # 10.0.66.30
 
 7f79ef maxwatts -100 # 10.0.66.30
@@ -262,6 +265,7 @@ ceac8d resetasic 1570548319
 
 ## asic password
 asicpass admin
+
 
 
 
