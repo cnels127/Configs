@@ -193,6 +193,9 @@ d3cdf7 location LMACK00100
 
 ## tuning
 efd005 maxwatts -50 # 10.0.54.98
+efd005 reboot 1571993226 # 10.0.54.98
+
+efd005 maxwatts -50 # 10.0.54.98
 efd005 reboot 1571990095 # 10.0.54.98
 
 efd005 maxwatts -50 # 10.0.54.98
@@ -721,6 +724,7 @@ a708a6 rebootasic 1571463254 # 10.0.54.99
 
 ## asic password
 asicpass admin
+
 
 
 
