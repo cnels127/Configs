@@ -1,0 +1,62 @@
+## instructions available at: https://asicseer.com/page/kb#writing-config
+##  6 s9 @ 14.4 Th/s = 86.4 Th/s
+
+
+global custompanel AISOB0bit049
+
+global poolname1 us.ss.btc.com:1800
+global username1 strugsnugs
+global poolpass1 1234
+global sendworker1 yes
+global poolname2 us.ss.btc.com:443
+global username2 strugsnugs
+global poolpass2 1234
+global sendworker2 yes
+global poolname3 us-east.stratum.slushpool.com:3333
+global username3 strugsnugs
+global poolpass3 1234
+global sendworker3 yes
+
+global asicboost yes
+global autotune yes
+global maxwatts 1450
+global autoupdate yes
+global allowed yes
+global maxtemp 90 1
+global throttle 100
+global fanspeed 65
+global fansaver yes
+global blinkred idle
+global blinkgreen rapid
+
+global retune 1571266647
+global rebootasic 2
+global resetasic 1571113675 # 1
+# global panelpass gj83Nkgikg
+
+# group=rowc rebootasic 1
+# group=rowd allowed no
+
+## vlans
+vlan 10.0.58.157-157
+vlan 10.0.64.72-72
+vlan 10.0.115.17-17
+vlan 10.0.115.94-94
+vlan 10.0.116.48-48
+vlan 10.0.119.45-45
+
+## locations
+6db0b2 location AISOB0001
+e03581 location AISOB0002
+48080d location AISOB0003
+ef873d location AISOB0004
+7f4b2c location AISOB0005
+138188 location AISOB0006
+
+## reboots
+
+## resets
+
+## asic password
+asicpass admin
+
