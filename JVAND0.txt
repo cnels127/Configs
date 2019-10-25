@@ -200,6 +200,13 @@ b35ae4 location JVAND00078
 ## tuning
 6e866a maxwatts -50 # 10.0.118.63
 3ebf58 maxwatts -50 # 10.0.115.77
+381d25 maxwatts 1150 # 10.0.117.154
+6e866a reboot 1572029669 # 10.0.118.63
+3ebf58 reboot 1572029669 # 10.0.115.77
+381d25 reboot 1572029669 # 10.0.117.154
+
+6e866a maxwatts -50 # 10.0.118.63
+3ebf58 maxwatts -50 # 10.0.115.77
 381d25 maxwatts 1250 # 10.0.117.154
 6e866a reboot 1572026163 # 10.0.118.63
 3ebf58 reboot 1572026163 # 10.0.115.77
@@ -571,6 +578,7 @@ dacf42 resetasic 1570808833
 
 ## asic password
 asicpass admin
+
 
 
 
