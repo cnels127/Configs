@@ -48,6 +48,9 @@ vlan 10.0.61.17-17
 f5417d location SKOTR00004
 
 ## tuning
+031368 maxwatts 500 # 10.0.60.155
+031368 reboot 1571970289 # 10.0.60.155
+
 031368 maxwatts 600 # 10.0.60.155
 031368 reboot 1571967553 # 10.0.60.155
 
@@ -115,6 +118,7 @@ f5417d rebootasic 1571646820 # 10.0.61.17
 
 ## asic password
 asicpass admin
+
 
 
 
