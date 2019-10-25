@@ -324,24 +324,10 @@ e284f3 location scart0141
 7e183d location scart0142
 
 ## tuning
-2a7d01 maxwatts 1250 # 10.0.61.155
-2a7d01 rebootasic 1571664011 # 10.0.61.155
-
-2a7d01 maxwatts 1350 # 10.0.61.155
-2a7d01 rebootasic 1571610170 # 10.0.61.155
-
-66e562 maxwatts 1350 # 10.0.66.27
-66e562 rebootasic 1571538317 # 10.0.66.27
-
 
 ## reboots
 
 ## resets
-3fbe73 resetasic 1569969843
-2a7d01 resetasic 1571264508
-3fbe73 resetasic 1571264508
-66e562 resetasic 1571264508
-
 
 ## asic password
 asicpass admin
