@@ -234,12 +234,6 @@ b1937c rebootasic 1571884958 # 10.0.51.2
 9c3c4b maxwatts 1400 # 10.0.62.78
 9c3c4b rebootasic 1571781390 # 10.0.62.78
 
-6e8e93 maxwatts 1300 # 10.0.60.132
-6e8e93 rebootasic 1571776298 # 10.0.60.132
-
-6e8e93 maxwatts 1400 # 10.0.60.132
-6e8e93 rebootasic 1571764515 # 10.0.60.132
-
 d427dd maxwatts 1300 # 10.0.62.74
 d427dd rebootasic 1571744514 # 10.0.62.74
 
@@ -277,6 +271,7 @@ baefba rebootasic 1571721279 # 10.0.61.63
 137fd6 reboot 1571865746
 
 ## resets
+6e8e93 reset 1572009871
 a8ee8a reset 1571865746
 9c3c4b reset 1571865746
 e8c8c1 resetasic 1571720424
@@ -300,16 +295,3 @@ a8ee8a resetasic 1571718660
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
