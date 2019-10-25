@@ -46,6 +46,9 @@ vlan 172.16.204.223-223
 ## locations
 
 ## tuning
+7fe818 maxwatts 950 # 10.10.123.11
+7fe818 reboot 1571972228 # 10.10.123.11
+
 7fe818 maxwatts 1050 # 10.10.123.11
 7fe818 reboot 1571969495 # 10.10.123.11
 
@@ -58,6 +61,7 @@ vlan 172.16.204.223-223
 
 ## asic password
 asicpass admin
+
 
 
 
