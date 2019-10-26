@@ -101,6 +101,9 @@ f11c7d location KTAEY10028
 ef85ce location KTAEY10031
 
 ## tuning
+57f039 maxwatts 700 # 10.10.125.26
+57f039 reboot 1572050814 # 10.10.125.26
+
 57f039 maxwatts 800 # 10.10.125.26
 57f039 reboot 1572047214 # 10.10.125.26
 
@@ -193,6 +196,7 @@ bac719 resetasic 1
 
 ## asic password
 asicpass admin
+
 
 
 
