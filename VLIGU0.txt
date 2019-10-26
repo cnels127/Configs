@@ -150,6 +150,15 @@ db2bbb location VLIGU00092
 4dac09 maxwatts -100 # 10.0.51.42
 02d712 maxwatts -100 # 10.0.51.44
 5ad207 maxwatts -100 # 10.0.57.118
+4319ad reboot 1572047996 # 10.0.51.23
+4dac09 reboot 1572047996 # 10.0.51.42
+02d712 reboot 1572047996 # 10.0.51.44
+5ad207 reboot 1572047996 # 10.0.57.118
+
+4319ad maxwatts -100 # 10.0.51.23
+4dac09 maxwatts -100 # 10.0.51.42
+02d712 maxwatts -100 # 10.0.51.44
+5ad207 maxwatts -100 # 10.0.57.118
 4319ad reboot 1572044385 # 10.0.51.23
 4dac09 reboot 1572044385 # 10.0.51.42
 02d712 reboot 1572044385 # 10.0.51.44
@@ -965,6 +974,7 @@ df64b7 resetasic 1571432850
 
 ## asic password
 asicpass admin
+
 
 
 
