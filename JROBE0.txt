@@ -51,6 +51,9 @@ vlan 10.0.120.130-130
 
 ## tuning
 321a3a maxwatts -100 # 10.0.120.130
+321a3a reboot 1572153058 # 10.0.120.130
+
+321a3a maxwatts -100 # 10.0.120.130
 321a3a reboot 1572151408 # 10.0.120.130
 
 321a3a maxwatts -100 # 10.0.120.130
@@ -212,6 +215,7 @@ vlan 10.0.120.130-130
 
 ## asic password
 asicpass admin
+
 
 
 
