@@ -37,6 +37,18 @@ global blinkgreen rapid
 # group=rowd allowed no
 
 ## tuning
+
+# s_reboot generated on Oct 27 2019 02:13:14 utc: 1572142394
+1fb534 reboot 1572142394 # 10.0.119.85 ahopf00145
+38b6a2 reboot 1572142394 # 10.0.57.16 ahopf00019
+29f37a reboot 1572142394 # 10.0.57.44 ahopf00047
+0b195c reboot 1572142394 # 10.0.121.98 ahopf00177
+8c5e6a reboot 1572142394 # 10.0.116.127 ahopf00249
+212177 reboot 1572142394 # 10.0.117.149 ahopf00270
+e84233 reboot 1572142394 # 10.0.20.79 ahopf00375
+d9e3f4 reboot 1572142394 # 10.0.20.88 ahopf00384
+e0d12f reboot 1572142394 # 10.0.20.126 ahopf00422
+
 8c5e6a maxwatts -100 # 10.0.116.127
 8c5e6a reboot 1572141401 # 10.0.116.127
 
