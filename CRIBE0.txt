@@ -458,6 +458,21 @@ f62743 location CRIBE00204
 e74b4f maxwatts -100 # 10.0.59.75
 049bcf maxwatts -100 # 10.0.61.64
 8ec32b maxwatts -100 # 10.0.61.92
+4d8d44 maxwatts -100 # 10.0.61.95
+493278 maxwatts -100 # 10.0.61.132
+268669 maxwatts -100 # 10.0.62.14
+c120c5 maxwatts -100 # 10.0.62.25
+e74b4f reboot 1572217131 # 10.0.59.75
+049bcf reboot 1572217131 # 10.0.61.64
+8ec32b reboot 1572217131 # 10.0.61.92
+4d8d44 reboot 1572217131 # 10.0.61.95
+493278 reboot 1572217131 # 10.0.61.132
+268669 reboot 1572217131 # 10.0.62.14
+c120c5 reboot 1572217131 # 10.0.62.25
+
+e74b4f maxwatts -100 # 10.0.59.75
+049bcf maxwatts -100 # 10.0.61.64
+8ec32b maxwatts -100 # 10.0.61.92
 4d8d44 maxwatts 0 # 10.0.61.95
 493278 maxwatts -100 # 10.0.61.132
 268669 maxwatts -100 # 10.0.62.14
@@ -2583,6 +2598,7 @@ cdce27 rebootasic 1571456707 # 10.0.117.120
 
 ## asic password
 asicpass admin
+
 
 
 
