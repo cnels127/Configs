@@ -38,6 +38,9 @@ global blinkgreen rapid
 
 ## tuning
 47f0c6 maxwatts -100 # 10.0.57.20
+47f0c6 reboot 1572167876 # 10.0.57.20
+
+47f0c6 maxwatts -100 # 10.0.57.20
 47f0c6 reboot 1572166220 # 10.0.57.20
 
 ec49d0 maxwatts 1400 # 10.0.119.98
@@ -2237,6 +2240,7 @@ c6cbe1 username3 GMTVILLA01
 
 ## asic password
 asicpass admin
+
 
 
 
