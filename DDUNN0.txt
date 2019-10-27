@@ -22,14 +22,14 @@ global maxwatts 1350
 global autoupdate yes
 global allowed yes
 global maxtemp 90
-global fanspeed 65
+global fanspeed 100
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
-global retune 2
-global rebootasic 1
-global resetasic 1571456835 # 1571246179 # 1571169881
+# global retune 
+# global reboot 
+# global reset 
 # global panelpass gj83Nkgikg
 
 # group=rowc rebootasic 1
@@ -71,25 +71,16 @@ eef025 location DDUNN00016
 58df28 location DDUNN00018
 
 ## tuning
-ee9f37 maxwatts 1250 # 10.0.54.161
-ee9f37 rebootasic 1571894240 # 10.0.54.161
-
 
 ## reboots
+787c22 reboot 1572167955
 
 ## resets
-5594a0 resetasic 1571864828
-14da93 resetasic 1571864828
-9a204a resetasic 1571864828
-f5839e resetasic 1571864828
-947334 resetasic 1571864828
-46781e resetasic 1571864828
-968831 resetasic 1571864828
-787c22 resetasic 1571864828
-58df28 resetasic 1571864828
-13424f resetasic 1571864526
-ee9f37 resetasic 1571714516
-f5839e resetasic 1571169651
+ee9f37 reset 1572167955
+0f26d2 reset 1572167955
+14da93 reset 1572167955
+46781e reset 1572167955
+23c698 reset 1572167955
 
 ## asic password
 asicpass admin
