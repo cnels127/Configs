@@ -1,7 +1,6 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
 ##  6 s9 @ 14.4 Th/s = 86.4 Th/s
 
-
 global custompanel AISOB0bit049
 
 global poolname1 us.ss.btc.com:1800
@@ -24,14 +23,14 @@ global autoupdate yes
 global allowed yes
 global maxtemp 90 1
 global throttle 100
-global fanspeed 65
+global fanspeed 100
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
-global retune 1571266647
-global rebootasic 2
-global resetasic 1571113675 # 1
+# global retune 1571266647
+# global rebootasic 2
+# global resetasic 1571113675 # 1
 # global panelpass gj83Nkgikg
 
 # group=rowc rebootasic 1
@@ -46,12 +45,12 @@ vlan 10.0.116.48-48
 vlan 10.0.119.45-45
 
 ## locations
-6db0b2 location AISOB0001
-e03581 location AISOB0002
-48080d location AISOB0003
-ef873d location AISOB0004
-7f4b2c location AISOB0005
-138188 location AISOB0006
+6db0b2 location AISOB00001
+e03581 location AISOB00002
+48080d location AISOB00003
+ef873d location AISOB00004
+7f4b2c location AISOB00005
+138188 location AISOB00006
 
 ## reboots
 
@@ -59,4 +58,3 @@ ef873d location AISOB0004
 
 ## asic password
 asicpass admin
-
