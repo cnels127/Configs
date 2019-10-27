@@ -39,6 +39,9 @@ global resetasic 1571427118 # 1571237128 # 1571225465
 ## fans
 
 ## tuning
+2968f0 maxwatts 750 # 10.0.50.110
+2968f0 reboot 1572143114 # 10.0.50.110
+
 2968f0 maxwatts 850 # 10.0.50.110
 2968f0 reboot 1572141428 # 10.0.50.110
 
@@ -1438,6 +1441,7 @@ b972c8 location ESOLG00497
 
 ## asic password
 asicpass admin
+
 
 
 
