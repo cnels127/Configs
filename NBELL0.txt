@@ -29,7 +29,7 @@ global blinkgreen rapid
 
 # global retune 1
 # global rebootasic 1
-global resetasic 1571113675 # 1
+# global resetasic 1571113675 # 1
 # global panelpass gj83Nkgikg
 
 # group=rowc rebootasic 1
@@ -1123,7 +1123,8 @@ c27c44 rebootasic 1571724677 # 10.0.53.23
 ## reboots
 
 ## resets
-a83b78 reset 1572159692
+a83b78 reset 1572162098
+# a83b78 reset 1572159692
 8a141e resetasic 1572155614
 fe2944 resetasic 1572155614
 8a141e reset 1572154122
