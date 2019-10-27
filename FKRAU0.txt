@@ -29,9 +29,9 @@ global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
-global retune 2
-global rebootasic 6
-global resetasic 1571113675 # 1569988204
+# global retune 
+# global reboot 
+# global reset 
 # global panelpass gj83Nkgikg
 
 # group=rowc rebootasic 1
@@ -325,49 +325,11 @@ baefba maxwatts 1400 # 10.0.61.63
 baefba rebootasic 1571721279 # 10.0.61.63
 
 ## reboots
-137fd6 reboot 1571865746
 
 ## resets
-6e8e93 reset 1572009871
-a8ee8a reset 1571865746
-9c3c4b reset 1571865746
-e8c8c1 resetasic 1571720424
-9c37f8 resetasic 1571720424
-5af4ab resetasic 1571720424
-196328 resetasic 1571720424
-411cd1 resetasic 1571720424
-9c3c4b resetasic 1571720424
-746fbe resetasic 1571720424
-137fd6 resetasic 1571720424
-6e8e93 resetasic 1571719957
-a8ee8a resetasic 1571718660
-3fd204 resetasic 1571718541
-7923ac resetasic 1571718209
-360168 resetasic 1571718131
-0a9fbb resetasic 1571717906
-545150 resetasic 1571357149
-27b5a1 resetasic 1571357149
-9b8580 resetasic 1571357149
-9c3c4b resetasic 1571356978
+6e8e93 reset 1572168378
+a8ee8a reset 1572168378
+9c3c4b reset 1572168378
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
