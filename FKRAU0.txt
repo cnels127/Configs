@@ -222,45 +222,15 @@ c899a0 location FKRAU00088
 3ee8ed location FKRAU00090
 
 ## tuning
-b1937c maxwatts 1200 # 10.0.51.2
-b1937c rebootasic 1571894272 # 10.0.51.2
-
-b1937c maxwatts 1300 # 10.0.51.2
-b1937c rebootasic 1571886885 # 10.0.51.2
-
-b1937c maxwatts 1400 # 10.0.51.2
-b1937c rebootasic 1571884958 # 10.0.51.2
-
-9c3c4b maxwatts 1400 # 10.0.62.78
-9c3c4b rebootasic 1571781390 # 10.0.62.78
-
-d427dd maxwatts 1300 # 10.0.62.74
-d427dd rebootasic 1571744514 # 10.0.62.74
-
-411cd1 maxwatts 1300 # 10.0.62.91
-411cd1 rebootasic 1571734567 # 10.0.62.91
-
-6b2885 maxwatts 1400 # 10.0.62.71
-6b2885 rebootasic 1571732909 # 10.0.62.71
-
-f60107 maxwatts 1400 # 10.0.62.160
-f60107 rebootasic 1571727955 # 10.0.62.160
-
-02c22d maxwatts 1400 # 10.0.54.39
-d427dd maxwatts 1400 # 10.0.62.74
-411cd1 maxwatts 1400 # 10.0.62.91
-02c22d rebootasic 1571722949 # 10.0.54.39
-d427dd rebootasic 1571722949 # 10.0.62.74
-411cd1 rebootasic 1571722949 # 10.0.62.91
-
-94a3c3 maxwatts 1400 # 10.0.115.40
-baefba maxwatts 1400 # 10.0.61.63
-94a3c3 rebootasic 1571721279 # 10.0.115.40
-baefba rebootasic 1571721279 # 10.0.61.63
 
 ## reboots
+137fd6 reboot 1572169049
+0a9fbb reboot 1572169049
 
 ## resets
+9b8580 reset 1572169049
+386a2e reset 1572169049
+27b5a1 reset 1572169049
 7c08b6 reset 1572168565
 0a9fbb reset 1572168565
 545150 reset 1572168378
