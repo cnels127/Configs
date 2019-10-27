@@ -460,6 +460,17 @@ e74b4f maxwatts -100 # 10.0.59.75
 049bcf maxwatts -100 # 10.0.61.64
 268669 maxwatts -100 # 10.0.62.14
 c120c5 maxwatts -100 # 10.0.62.25
+ceceac reboot 1572196349 # 10.0.59.57
+e74b4f reboot 1572196349 # 10.0.59.75
+049bcf reboot 1572196349 # 10.0.61.64
+268669 reboot 1572196349 # 10.0.62.14
+c120c5 reboot 1572196349 # 10.0.62.25
+
+ceceac maxwatts -100 # 10.0.59.57
+e74b4f maxwatts -100 # 10.0.59.75
+049bcf maxwatts -100 # 10.0.61.64
+268669 maxwatts -100 # 10.0.62.14
+c120c5 maxwatts -100 # 10.0.62.25
 ceceac reboot 1572194650 # 10.0.59.57
 e74b4f reboot 1572194650 # 10.0.59.75
 049bcf reboot 1572194650 # 10.0.61.64
@@ -2435,6 +2446,7 @@ cdce27 rebootasic 1571456707 # 10.0.117.120
 
 ## asic password
 asicpass admin
+
 
 
 
