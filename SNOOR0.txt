@@ -170,6 +170,9 @@ a2153e username3 zoubrown
 5873d0 username3 zoubrown
 
 ## tuning
+504bf9 maxwatts 400 # 10.0.66.68
+504bf9 reboot 1572229735 # 10.0.66.68
+
 504bf9 maxwatts 500 # 10.0.66.68
 504bf9 reboot 1572227943 # 10.0.66.68
 
@@ -651,6 +654,7 @@ fe3f38 rebootasic 1571247003 # 10.0.67.15
 
 ## asic password
 asicpass admin
+
 
 
 
