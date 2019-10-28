@@ -47,48 +47,46 @@ vlan 10.0.30.83-83
 vlan 10.0.30.87-87
 vlan 10.0.30.88-88
 vlan 10.0.30.89-89
+vlan 10.0.30.90-90
 vlan 10.0.30.91-91
 vlan 10.0.30.92-92
-vlan 10.0.30.95-95
 vlan 10.0.30.98-98
+vlan 10.0.30.111-111
 vlan 10.0.30.113-113
 vlan 10.0.30.117-117
 vlan 10.0.30.118-118
-vlan 10.0.30.122-122
 vlan 10.0.30.123-123
 vlan 10.0.30.125-125
 vlan 10.0.30.128-128
 vlan 10.0.30.132-132
 vlan 10.0.30.133-133
+vlan 10.0.30.136-136
 vlan 10.0.30.139-139
+vlan 10.0.30.140-140
 vlan 10.0.30.141-141
 vlan 10.0.30.142-142
 vlan 10.0.30.143-143
+vlan 10.0.30.148-148
 vlan 10.0.30.159-159
 vlan 10.0.30.160-160
 vlan 10.0.31.1-1
+vlan 10.0.31.3-3
 vlan 10.0.31.5-5
 vlan 10.0.31.6-6
 vlan 10.0.31.9-9
-vlan 10.0.31.12-12
 vlan 10.0.31.13-13
 vlan 10.0.31.14-14
-vlan 10.0.31.18-18
-vlan 10.0.31.19-19
 vlan 10.0.31.32-32
 vlan 10.0.31.36-36
 vlan 10.0.31.37-37
 vlan 10.0.31.39-39
-vlan 10.0.31.40-40
 vlan 10.0.31.42-42
 vlan 10.0.31.44-44
 vlan 10.0.31.46-46
-vlan 10.0.31.49-49
 vlan 10.0.31.53-53
 vlan 10.0.31.57-57
 vlan 10.0.31.58-58
 vlan 10.0.31.63-63
-vlan 10.0.31.67-67
 vlan 10.0.31.68-68
 vlan 10.0.31.70-70
 vlan 10.0.31.72-72
@@ -102,68 +100,64 @@ vlan 10.0.31.98-98
 vlan 10.0.31.99-99
 vlan 10.0.31.106-106
 vlan 10.0.31.107-107
+vlan 10.0.31.110-110
 vlan 10.0.31.111-111
-vlan 10.0.31.113-113
 vlan 10.0.31.117-117
 vlan 10.0.31.118-118
 vlan 10.0.31.119-119
 vlan 10.0.31.122-122
 vlan 10.0.31.123-123
-vlan 10.0.31.125-125
 vlan 10.0.31.132-132
 vlan 10.0.31.136-136
 vlan 10.0.31.137-137
 vlan 10.0.31.141-141
 vlan 10.0.31.144-144
-vlan 10.0.31.148-148
 vlan 10.0.31.152-152
 vlan 10.0.31.155-155
 vlan 10.0.31.157-157
-
-vlan 10.0.50.33-33
-vlan 10.0.50.39-39
-vlan 10.0.50.61-61
-vlan 10.0.50.64-64
-vlan 10.0.50.82-82
-vlan 10.0.50.90-90
-vlan 10.0.50.120-120
-vlan 10.0.55.75-75
-
 vlan 10.0.50.2-2
 vlan 10.0.50.6-6
 vlan 10.0.50.7-7
 vlan 10.0.50.8-8
-vlan 10.0.50.9-9
 vlan 10.0.50.10-10
 vlan 10.0.50.11-11
+vlan 10.0.50.12-12
 vlan 10.0.50.15-15
 vlan 10.0.50.18-18
 vlan 10.0.50.19-19
-vlan 10.0.50.22-22
 vlan 10.0.50.27-27
+vlan 10.0.50.33-33
 vlan 10.0.50.37-37
 vlan 10.0.50.38-38
+vlan 10.0.50.39-39
 vlan 10.0.50.44-44
 vlan 10.0.50.51-51
+vlan 10.0.50.52-52
 vlan 10.0.50.53-53
-vlan 10.0.50.56-56
 vlan 10.0.50.58-58
+vlan 10.0.50.61-61
 vlan 10.0.50.63-63
+vlan 10.0.50.64-64
 vlan 10.0.50.66-66
 vlan 10.0.50.70-70
 vlan 10.0.50.72-72
 vlan 10.0.50.73-73
 vlan 10.0.50.75-75
 vlan 10.0.50.76-76
+vlan 10.0.50.77-77
 vlan 10.0.50.79-79
 vlan 10.0.50.80-80
+vlan 10.0.50.82-82
 vlan 10.0.50.88-88
+vlan 10.0.50.90-90
 vlan 10.0.50.91-91
-vlan 10.0.50.92-92
+vlan 10.0.50.94-94
 vlan 10.0.50.99-99
 vlan 10.0.50.108-108
+vlan 10.0.50.115-115
+vlan 10.0.50.120-120
+vlan 10.0.50.122-122
 vlan 10.0.50.128-128
-vlan 10.0.50.130-130
 vlan 10.0.50.131-131
 vlan 10.0.50.145-145
 vlan 10.0.55.12-12
@@ -171,7 +165,9 @@ vlan 10.0.55.14-14
 vlan 10.0.55.15-15
 vlan 10.0.55.16-16
 vlan 10.0.55.17-17
+vlan 10.0.55.18-18
 vlan 10.0.55.21-21
+vlan 10.0.55.22-22
 vlan 10.0.55.33-33
 vlan 10.0.55.34-34
 vlan 10.0.55.36-36
@@ -179,6 +175,8 @@ vlan 10.0.55.45-45
 vlan 10.0.55.51-51
 vlan 10.0.55.60-60
 vlan 10.0.55.63-63
+vlan 10.0.55.75-75
+vlan 10.0.55.76-76
 vlan 10.0.55.81-81
 
 ## locations
@@ -195,19 +193,19 @@ c0dcef location scart00007
 86ccad location scart00011
 4f72bb location scart00012
 f28e5e location scart00013
-e775a1 location scart00014
+2abd91 location scart00014
 b9832c location scart00015
 9d72da location scart00016
 6c7f54 location scart00017
 d5777d location scart00018
-2fce82 location scart00019
+520695 location scart00019
 c2b167 location scart00020
 36d47b location scart00021
 d095a0 location scart00022
 706b75 location scart00023
 ff7d35 location scart00024
 0fcecb location scart00025
-4a3fb3 location scart00026
+0cc841 location scart00026
 363997 location scart00027
 5af11a location scart00028
 047af0 location scart00029
@@ -216,25 +214,25 @@ ff7d35 location scart00024
 9b8b73 location scart00032
 c68ca4 location scart00033
 f6db5e location scart00034
-01507b location scart00035
+743bb2 location scart00035
 139a58 location scart00036
 112dcb location scart00037
-51f862 location scart00038
-0ae4fc location scart00039
+65f909 location scart00038
+13deaf location scart00039
 74577a location scart00040
 75e685 location scart00041
 b8c823 location scart00042
 e54e0a location scart00043
-37ba71 location scart00044
+396903 location scart00044
 c5ce9c location scart00045
 87c0f9 location scart00046
 b434f4 location scart00047
-0ebea3 location scart00048
+27a764 location scart00048
 4b9432 location scart00049
 771df9 location scart00050
 de1d19 location scart00051
 e5323c location scart00052
-a6beb2 location scart00053
+ff4f01 location scart00053
 637f46 location scart00054
 c60781 location scart00055
 7f3e08 location scart00056
@@ -249,23 +247,22 @@ cd47d8 location scart00062
 cefc09 location scart00065
 a5d526 location scart00066
 17611d location scart00067
-37cf20 location scart00068
+ab39de location scart00068
 ad8ef4 location scart00069
 0765c2 location scart00070
 b216a0 location scart00071
 716735 location scart00072
 f4e6f5 location scart00073
-09a6bc location scart00074
+1dfac7 location scart00074
 dd2856 location scart00075
 fdf08a location scart00076
 9b586c location scart00077
 ab0151 location scart00078
 963eab location scart00079
-75d9d8 location scart00080
+219faa location scart00080
 2fe5c2 location scart00081
 7115c6 location scart00082
 8bce91 location scart00083
-
 34ac56 location SCART00084
 d39dc1 location SCART00085
 606c53 location SCART00086
@@ -274,25 +271,24 @@ c1a8a9 location SCART00088
 1bb2af location SCART00089
 b0abe0 location SCART00090
 4efff4 location SCART00091
-
 e5abd1 location scart00092
 43c7db location scart00093
 ae25a9 location scart00094
 011e81 location scart00095
-c686a3 location scart00096
+d190c8 location scart00096
 04743e location scart00097
 cb4a49 location scart00098
 b45f14 location scart00099
 1faa55 location scart00100
 4fc4bf location scart00101
-7d081c location scart00102
+3e070f location scart00102
 083178 location scart00103
 230c72 location scart00104
 33d1f3 location scart00105
 439202 location scart00106
 d44702 location scart00107
 42e20d location scart00108
-5163c8 location scart00109
+a19ede location scart00109
 4281ec location scart00110
 fb174f location scart00111
 b186ce location scart00112
@@ -305,7 +301,7 @@ bd8087 location scart00118
 8574ff location scart00119
 812582 location scart00120
 aa7902 location scart00121
-9f0dc5 location scart00122
+d110a4 location scart00122
 05d232 location scart00123
 b3b42c location scart00124
 479987 location scart00125
@@ -328,27 +324,6 @@ e284f3 location scart00141
 7e183d location scart00142
 
 ## tuning
-75d9d8 maxwatts 1150 # 10.0.31.148
-75d9d8 reboot 1572295549 # 10.0.31.148
-
-5163c8 maxwatts 1050 # 10.0.50.56
-5163c8 reboot 1572281568 # 10.0.50.56
-
-75d9d8 maxwatts 1250 # 10.0.31.148
-75d9d8 reboot 1572277652 # 10.0.31.148
-
-5163c8 maxwatts 1150 # 10.0.50.56
-5163c8 reboot 1572143192 # 10.0.50.56
-
-5163c8 maxwatts 1250 # 10.0.50.56
-5163c8 reboot 1572141520 # 10.0.50.56
-
-5163c8 maxwatts 1350 # 10.0.50.56
-5163c8 reboot 1572132930 # 10.0.50.56
-
-75d9d8 maxwatts 1350 # 10.0.31.148
-75d9d8 reboot 1572088025 # 10.0.31.148
-
 
 ## reboots
 
@@ -356,16 +331,3 @@ e284f3 location scart00141
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
