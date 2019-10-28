@@ -193,6 +193,13 @@ bf8fd2 location AZDJE00096
 7a2044 maxwatts -100 # 10.0.55.84
 d8b55c maxwatts -100 # 10.0.55.95
 ed8842 maxwatts -100 # 10.0.56.32
+7a2044 reboot 1572303214 # 10.0.55.84
+d8b55c reboot 1572303214 # 10.0.55.95
+ed8842 reboot 1572303214 # 10.0.56.32
+
+7a2044 maxwatts -100 # 10.0.55.84
+d8b55c maxwatts -100 # 10.0.55.95
+ed8842 maxwatts -100 # 10.0.56.32
 7a2044 reboot 1572301197 # 10.0.55.84
 d8b55c reboot 1572301197 # 10.0.55.95
 ed8842 reboot 1572301197 # 10.0.56.32
@@ -1990,6 +1997,7 @@ f026f7 rebootasic 1571251859 # 10.0.56.51
 
 ## asic password
 asicpass admin
+
 
 
 
