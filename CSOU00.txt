@@ -1,0 +1,52 @@
+## instructions available at: https://asicseer.com/page/kb#writing-config
+##  2 s9 @ 16.0 Th/s = 32.0 Th/s
+
+global custompanel CSOU00bit049
+
+global poolname1 stratum.antpool.com:443
+global username1 lani
+global poolpass1 123
+global sendworker1 yes
+global poolname2 us.ss.btc.com:1800
+global username2 chhun
+global poolpass2 123
+global sendworker2 yes
+global poolname3 btc.ss.poolin.com:443
+global username3 chhun
+global poolpass3 123
+global sendworker3 yes
+
+global asicboost yes
+global autotune yes
+global maxwatts 1450
+global autoupdate yes
+global allowed yes
+global maxtemp 90 1
+global throttle 100
+global fanspeed 100
+global fansaver yes
+global blinkred idle
+global blinkgreen rapid
+
+# global retune 1571266647
+# global rebootasic 2
+# global resetasic 1571113675 # 1
+# global panelpass gj83Nkgikg
+
+# group=rowc rebootasic 1
+# group=rowd allowed no
+
+## vlans
+vlan 10.0.117.19-19
+vlan 10.0.117.21-21
+
+## locations
+1ff15c location CSOU0000001
+e9fdf8 location CSOU0000002
+
+## reboots
+
+## resets
+
+## asic password
+asicpass admin
