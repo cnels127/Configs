@@ -51,6 +51,9 @@ fb355a location GBURR00005
 
 ## tuning
 b69144 maxwatts -100 # 10.0.56.107
+b69144 reboot 1572297308 # 10.0.56.107
+
+b69144 maxwatts -100 # 10.0.56.107
 b69144 reboot 1572295346 # 10.0.56.107
 
 b69144 maxwatts -100 # 10.0.56.107
@@ -549,6 +552,7 @@ b69144 reboot 1572023239
 
 ## asic password
 asicpass admin
+
 
 
 
