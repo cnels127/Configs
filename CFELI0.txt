@@ -292,6 +292,9 @@ e352e4 location CFELI00124
 
 ## tuning
 311861 maxwatts -100 # 10.0.77.97
+311861 reboot 1572262705 # 10.0.77.97
+
+311861 maxwatts -100 # 10.0.77.97
 311861 reboot 1572260906 # 10.0.77.97
 
 311861 maxwatts -100 # 10.0.77.97
@@ -739,6 +742,7 @@ e352e4 resetasic 1
 
 ## asic password
 asicpass admin
+
 
 
 
