@@ -193,6 +193,41 @@ bf8fd2 location AZDJE00096
 ed8842 maxwatts -100 # 10.0.56.32
 d8b55c maxwatts -100 # 10.0.55.95
 bd96d6 maxwatts -100 # 10.0.56.66
+ed8842 reboot 1572391526 # 10.0.56.32
+d8b55c reboot 1572391526 # 10.0.55.95
+bd96d6 reboot 1572391526 # 10.0.56.66
+
+ed8842 maxwatts -100 # 10.0.56.32
+d8b55c maxwatts -100 # 10.0.55.95
+bd96d6 maxwatts -100 # 10.0.56.66
+ed8842 reboot 1572389869 # 10.0.56.32
+d8b55c reboot 1572389869 # 10.0.55.95
+bd96d6 reboot 1572389869 # 10.0.56.66
+
+ed8842 maxwatts -100 # 10.0.56.32
+d8b55c maxwatts -100 # 10.0.55.95
+bd96d6 maxwatts -100 # 10.0.56.66
+ed8842 reboot 1572389869 # 10.0.56.32
+d8b55c reboot 1572389869 # 10.0.55.95
+bd96d6 reboot 1572389869 # 10.0.56.66
+
+ed8842 maxwatts -100 # 10.0.56.32
+d8b55c maxwatts -100 # 10.0.55.95
+bd96d6 maxwatts -100 # 10.0.56.66
+ed8842 reboot 1572389869 # 10.0.56.32
+d8b55c reboot 1572389869 # 10.0.55.95
+bd96d6 reboot 1572389869 # 10.0.56.66
+
+ed8842 maxwatts -100 # 10.0.56.32
+d8b55c maxwatts -100 # 10.0.55.95
+bd96d6 maxwatts -100 # 10.0.56.66
+ed8842 reboot 1572389869 # 10.0.56.32
+d8b55c reboot 1572389869 # 10.0.55.95
+bd96d6 reboot 1572389869 # 10.0.56.66
+
+ed8842 maxwatts -100 # 10.0.56.32
+d8b55c maxwatts -100 # 10.0.55.95
+bd96d6 maxwatts -100 # 10.0.56.66
 ed8842 reboot 1572389869 # 10.0.56.32
 d8b55c reboot 1572389869 # 10.0.55.95
 bd96d6 reboot 1572389869 # 10.0.56.66
@@ -2049,6 +2084,11 @@ f026f7 rebootasic 1571251859 # 10.0.56.51
 
 ## asic password
 asicpass admin
+
+
+
+
+
 
 
 
