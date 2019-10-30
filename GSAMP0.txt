@@ -28,20 +28,20 @@ global blinkred idle
 global blinkgreen rapid
 
 global retune 2
-global rebootasic 1
-global resetasic 1571113675 # 1
+global reboot 1
+global reset 1571113675 # 1
 # global panelpass gj83Nkgikg
 
 ## reboots
-613a81 rebootasic 1
-1c0d86 rebootasic 1
-e2ac32 rebootasic 1
-c09684 rebootasic 1
-de1da0 rebootasic 1
-4ec51b rebootasic 1
-b4de4e rebootasic 1
+613a81 reboot 1
+1c0d86 reboot 1
+e2ac32 reboot 1
+c09684 reboot 1
+de1da0 reboot 1
+4ec51b reboot 1
+b4de4e reboot 1
 
-# group=rowc rebootasic 1
+# group=rowc reboot 1
 # group=rowd allowed no
 
 ## vlans
@@ -123,49 +123,37 @@ e61d93 maxwatts 1400 # 10.0.59.46
 e61d93 reboot 1571967027 # 10.0.59.46
 
 8e284e maxwatts 1300 # 10.0.56.75
-8e284e rebootasic 1571759487 # 10.0.56.75
+8e284e reboot 1571759487 # 10.0.56.75
 
 8e284e maxwatts 1400 # 10.0.56.75
-8e284e rebootasic 1571756149 # 10.0.56.75
+8e284e reboot 1571756149 # 10.0.56.75
 
 
 ## reboots
 
 ## resets
+3900a7 reset 1572475757
+
 a7631d reset 1572010155
 a7631d reset 1571925640
-62bdc8 resetasic 1571726924
-3cd7e0 resetasic 1571726924
-0101ec resetasic 1571726924
-8a804d resetasic 1571726924
-751610 resetasic 1571726924
-8e284e resetasic 1571726924
-c02d51 resetasic 1571726924
-a36e04 resetasic 1571726924
-f71e65 resetasic 1571726924
-e1c353 resetasic 1571726924
-3900a7 resetasic 1571726652
-a7631d resetasic 1571718852
-0c9f37 resetasic 1571251200
-26be5d resetasic 1571251200
-78cb4c resetasic 1570598317
-0101ec resetasic 1570472391
-d223ec resetasic 1570472391
-78cb4c resetasic 1570472391
+62bdc8 reset 1571726924
+3cd7e0 reset 1571726924
+0101ec reset 1571726924
+8a804d reset 1571726924
+751610 reset 1571726924
+8e284e reset 1571726924
+c02d51 reset 1571726924
+a36e04 reset 1571726924
+f71e65 reset 1571726924
+e1c353 reset 1571726924
+3900a7 reset 1571726652
+a7631d reset 1571718852
+0c9f37 reset 1571251200
+26be5d reset 1571251200
+78cb4c reset 1570598317
+0101ec reset 1570472391
+d223ec reset 1570472391
+78cb4c reset 1570472391
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
