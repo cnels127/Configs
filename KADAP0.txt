@@ -28,11 +28,11 @@ global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
-# global rebootasic 1
-global resetasic 1571460441 # 1571113675 # 1
+# global reboot 1
+global reset 1571460441 # 1571113675 # 1
 # global panelpass gj83Nkgikg
 
-# group=rowc rebootasic 1
+# group=rowc reboot 1
 # group=rowd allowed no
 
 ## vlans
@@ -47,34 +47,21 @@ e917af location KADAP00002
 
 ## tuning
 4c9876 maxwatts 1200 # 10.0.56.137
-4c9876 rebootasic 1571669310 # 10.0.56.137
+4c9876 reboot 1571669310 # 10.0.56.137
 
 4c9876 maxwatts 1300 # 10.0.56.137
-4c9876 rebootasic 1571665719 # 10.0.56.137
+4c9876 reboot 1571665719 # 10.0.56.137
 
 4c9876 maxwatts 1400 # 10.0.56.137
-4c9876 rebootasic 1571658734 # 10.0.56.137
+4c9876 reboot 1571658734 # 10.0.56.137
 
 e917af maxwatts 1400 # 10.0.56.136
-e917af rebootasic 1571463025 # 10.0.56.136
-
+e917af reboot 1571463025 # 10.0.56.136
 
 ## reboots
 
 ## resets
+4c9876 reset 1572475583
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
