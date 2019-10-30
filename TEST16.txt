@@ -124,6 +124,43 @@ vlan 10.0.50.130-130
 ## tuning
 a7849c maxwatts -50 # 10.0.66.23
 647daf maxwatts -50 # 10.0.77.23
+8a2cec maxwatts 550 # 10.0.117.23
+253114 maxwatts 550 # 10.0.117.24
+a7849c reboot 1572396611 # 10.0.66.23
+647daf reboot 1572396611 # 10.0.77.23
+8a2cec reboot 1572396611 # 10.0.117.23
+253114 reboot 1572396611 # 10.0.117.24
+
+a7849c maxwatts -50 # 10.0.66.23
+647daf maxwatts -50 # 10.0.77.23
+8a2cec maxwatts 650 # 10.0.117.23
+a7849c reboot 1572394956 # 10.0.66.23
+647daf reboot 1572394956 # 10.0.77.23
+8a2cec reboot 1572394956 # 10.0.117.23
+
+a7849c maxwatts -50 # 10.0.66.23
+647daf maxwatts -50 # 10.0.77.23
+8a2cec maxwatts 650 # 10.0.117.23
+a7849c reboot 1572394956 # 10.0.66.23
+647daf reboot 1572394956 # 10.0.77.23
+8a2cec reboot 1572394956 # 10.0.117.23
+
+a7849c maxwatts -50 # 10.0.66.23
+647daf maxwatts -50 # 10.0.77.23
+8a2cec maxwatts 650 # 10.0.117.23
+a7849c reboot 1572394956 # 10.0.66.23
+647daf reboot 1572394956 # 10.0.77.23
+8a2cec reboot 1572394956 # 10.0.117.23
+
+a7849c maxwatts -50 # 10.0.66.23
+647daf maxwatts -50 # 10.0.77.23
+8a2cec maxwatts 650 # 10.0.117.23
+a7849c reboot 1572394956 # 10.0.66.23
+647daf reboot 1572394956 # 10.0.77.23
+8a2cec reboot 1572394956 # 10.0.117.23
+
+a7849c maxwatts -50 # 10.0.66.23
+647daf maxwatts -50 # 10.0.77.23
 8a2cec maxwatts 650 # 10.0.117.23
 a7849c reboot 1572394956 # 10.0.66.23
 647daf reboot 1572394956 # 10.0.77.23
@@ -456,6 +493,11 @@ bd7794 resetasic 1570730224
 
 ## asic password
 asicpass admin
+
+
+
+
+
 
 
 
