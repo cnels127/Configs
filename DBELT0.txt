@@ -28,11 +28,11 @@ global blinkred idle
 global blinkgreen rapid
 
 global retune 1
-global rebootasic 2
-global resetasic 1571456707 # 1571245947 # 1571113675
+global reboot 2
+global reset 1571456707 # 1571245947 # 1571113675
 # global panelpass gj83Nkgikg
 
-# group=rowc rebootasic 1
+# group=rowc reboot 1
 # group=rowd allowed no
 
 ## vlans
@@ -70,25 +70,25 @@ e7a422 location DBELT00002
 356422 reboot 1572295309 # 10.0.54.159
 
 1667e2 maxwatts 1400 # 10.0.54.155
-1667e2 rebootasic 1571707698 # 10.0.54.155
+1667e2 reboot 1571707698 # 10.0.54.155
 
 1667e2 maxwatts 1400 # 10.0.54.155
-1667e2 rebootasic 1571707312 # 10.0.54.155
+1667e2 reboot 1571707312 # 10.0.54.155
 
 0747e2 maxwatts 1400 # 10.0.54.158
-0747e2 rebootasic 1571695730 # 10.0.54.158
+0747e2 reboot 1571695730 # 10.0.54.158
 
 54750e maxwatts 1400 # 10.0.58.25
-54750e rebootasic 1571658670 # 10.0.58.25
+54750e reboot 1571658670 # 10.0.58.25
 
 468aaf maxwatts 1400 # 10.0.62.101
-468aaf rebootasic 1571524989 # 10.0.62.101
+468aaf reboot 1571524989 # 10.0.62.101
 
 356422 maxwatts 1300 # 10.0.54.159
-356422 rebootasic 1571462747 # 10.0.54.159
+356422 reboot 1571462747 # 10.0.54.159
 
 356422 maxwatts 1400 # 10.0.54.159
-356422 rebootasic 1571459705 # 10.0.54.159
+356422 reboot 1571459705 # 10.0.54.159
 
 
 ## fans
@@ -96,25 +96,8 @@ e7a422 location DBELT00002
 ## reboots
 
 ## resets
+468aaf reset 1572475331
+179168 reset 1572475331
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
