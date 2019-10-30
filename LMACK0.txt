@@ -27,9 +27,9 @@ global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
-global retune 1
-global rebootasic 3
-global resetasic 1571460879 # 1571113675 # 1
+# global retune 1
+# global reboot 1
+# global reset 1
 # global panelpass gj83Nkgikg
 
 # group=rowc rebootasic 1
@@ -37,57 +37,56 @@ global resetasic 1571460879 # 1571113675 # 1
 
 ## vlans
 vlan 10.0.54.76-125
-
-# vlan 10.0.63.76-76
-# vlan 10.0.63.80-80
-# vlan 10.0.63.96-96
-# vlan 10.0.63.101-101
-# vlan 10.0.63.109-109
-# vlan 10.0.63.116-116
-# vlan 10.0.63.127-127
-# vlan 10.0.63.130-130
-# vlan 10.0.63.131-131
-# vlan 10.0.63.136-136
-# vlan 10.0.63.137-137
-# vlan 10.0.63.138-138
-# vlan 10.0.63.139-139
-# vlan 10.0.63.142-142
-# vlan 10.0.63.155-155
-# vlan 10.0.63.156-156
-# vlan 10.0.63.157-157
-# vlan 10.0.64.6-6
-# vlan 10.0.64.13-13
-# vlan 10.0.64.16-16
-# vlan 10.0.64.17-17
-# vlan 10.0.64.20-20
-# vlan 10.0.64.30-30
-# vlan 10.0.64.32-32
-# vlan 10.0.64.35-35
-# vlan 10.0.64.41-41
-# vlan 10.0.64.67-67
-# vlan 10.0.64.78-78
-# vlan 10.0.64.89-89
-# vlan 10.0.64.90-90
-# vlan 10.0.64.91-91
-# vlan 10.0.64.92-92
-# vlan 10.0.64.103-103
-# vlan 10.0.64.106-106
-# vlan 10.0.64.117-117
-# vlan 10.0.64.118-118
-# vlan 10.0.64.119-119
-# vlan 10.0.64.134-134
-# vlan 10.0.64.136-136
-# vlan 10.0.64.146-146
-# vlan 10.0.64.161-161
-# vlan 10.0.65.5-5
-# vlan 10.0.65.10-10
-# vlan 10.0.65.21-21
-# vlan 10.0.65.32-32
-# vlan 10.0.65.33-33
-# vlan 10.0.65.41-41
-# vlan 10.0.65.44-44
-# vlan 10.0.65.46-46
-# vlan 10.0.65.63-63
+vlan 10.0.63.76-76
+vlan 10.0.63.80-80
+vlan 10.0.63.96-96
+vlan 10.0.63.101-101
+vlan 10.0.63.109-109
+vlan 10.0.63.116-116
+vlan 10.0.63.127-127
+vlan 10.0.63.130-130
+vlan 10.0.63.131-131
+vlan 10.0.63.136-136
+vlan 10.0.63.137-137
+vlan 10.0.63.138-138
+vlan 10.0.63.139-139
+vlan 10.0.63.142-142
+vlan 10.0.63.155-155
+vlan 10.0.63.156-156
+vlan 10.0.63.157-157
+vlan 10.0.64.6-6
+vlan 10.0.64.13-13
+vlan 10.0.64.16-16
+vlan 10.0.64.17-17
+vlan 10.0.64.20-20
+vlan 10.0.64.30-30
+vlan 10.0.64.32-32
+vlan 10.0.64.35-35
+vlan 10.0.64.41-41
+vlan 10.0.64.67-67
+vlan 10.0.64.78-78
+vlan 10.0.64.89-89
+vlan 10.0.64.90-90
+vlan 10.0.64.91-91
+vlan 10.0.64.92-92
+vlan 10.0.64.103-103
+vlan 10.0.64.106-106
+vlan 10.0.64.117-117
+vlan 10.0.64.118-118
+vlan 10.0.64.119-119
+vlan 10.0.64.134-134
+vlan 10.0.64.136-136
+vlan 10.0.64.146-146
+vlan 10.0.64.161-161
+vlan 10.0.65.5-5
+vlan 10.0.65.10-10
+vlan 10.0.65.21-21
+vlan 10.0.65.32-32
+vlan 10.0.65.33-33
+vlan 10.0.65.41-41
+vlan 10.0.65.44-44
+vlan 10.0.65.46-46
+vlan 10.0.65.63-63
 
 ## locations
 b449ed location LMACK00001
@@ -192,117 +191,73 @@ bae0d7 location LMACK00096
 d3cdf7 location LMACK00100
 
 ## tuning
-5eb8bd maxwatts -50 # 10.0.54.108
 61a902 maxwatts -50 # 10.0.54.122
-5eb8bd reboot 1572403179 # 10.0.54.108
 61a902 reboot 1572403179 # 10.0.54.122
 
-5eb8bd maxwatts 50 # 10.0.54.108
 61a902 maxwatts 50 # 10.0.54.122
-5eb8bd reboot 1572401521 # 10.0.54.108
 61a902 reboot 1572401521 # 10.0.54.122
 
-5eb8bd maxwatts 150 # 10.0.54.108
 61a902 maxwatts 150 # 10.0.54.122
-5eb8bd reboot 1572399863 # 10.0.54.108
 61a902 reboot 1572399863 # 10.0.54.122
 
-5eb8bd maxwatts 250 # 10.0.54.108
 61a902 maxwatts 250 # 10.0.54.122
-5eb8bd reboot 1572398208 # 10.0.54.108
 61a902 reboot 1572398208 # 10.0.54.122
 
-5eb8bd maxwatts 350 # 10.0.54.108
 61a902 maxwatts 350 # 10.0.54.122
-5eb8bd reboot 1572396551 # 10.0.54.108
 61a902 reboot 1572396551 # 10.0.54.122
 
-5eb8bd maxwatts 450 # 10.0.54.108
 61a902 maxwatts 450 # 10.0.54.122
-5eb8bd reboot 1572394896 # 10.0.54.108
 61a902 reboot 1572394896 # 10.0.54.122
 
-5eb8bd maxwatts 450 # 10.0.54.108
 61a902 maxwatts 450 # 10.0.54.122
-5eb8bd reboot 1572394896 # 10.0.54.108
 61a902 reboot 1572394896 # 10.0.54.122
 
-5eb8bd maxwatts 450 # 10.0.54.108
 61a902 maxwatts 450 # 10.0.54.122
-5eb8bd reboot 1572394896 # 10.0.54.108
 61a902 reboot 1572394896 # 10.0.54.122
 
-5eb8bd maxwatts 450 # 10.0.54.108
 61a902 maxwatts 450 # 10.0.54.122
-5eb8bd reboot 1572394896 # 10.0.54.108
 61a902 reboot 1572394896 # 10.0.54.122
 
-5eb8bd maxwatts 450 # 10.0.54.108
 61a902 maxwatts 450 # 10.0.54.122
-5eb8bd reboot 1572394896 # 10.0.54.108
 61a902 reboot 1572394896 # 10.0.54.122
 
-5eb8bd maxwatts 550 # 10.0.54.108
 61a902 maxwatts 550 # 10.0.54.122
-5eb8bd reboot 1572393241 # 10.0.54.108
 61a902 reboot 1572393241 # 10.0.54.122
 
 61a902 maxwatts 650 # 10.0.54.122
-5eb8bd maxwatts 650 # 10.0.54.108
 61a902 reboot 1572391587 # 10.0.54.122
-5eb8bd reboot 1572391587 # 10.0.54.108
 
 61a902 maxwatts 750 # 10.0.54.122
-5eb8bd maxwatts 750 # 10.0.54.108
 61a902 reboot 1572389930 # 10.0.54.122
-5eb8bd reboot 1572389930 # 10.0.54.108
 
 61a902 maxwatts 750 # 10.0.54.122
-5eb8bd maxwatts 750 # 10.0.54.108
 61a902 reboot 1572389930 # 10.0.54.122
-5eb8bd reboot 1572389930 # 10.0.54.108
 
 61a902 maxwatts 750 # 10.0.54.122
-5eb8bd maxwatts 750 # 10.0.54.108
 61a902 reboot 1572389930 # 10.0.54.122
-5eb8bd reboot 1572389930 # 10.0.54.108
 
 61a902 maxwatts 750 # 10.0.54.122
-5eb8bd maxwatts 750 # 10.0.54.108
 61a902 reboot 1572389930 # 10.0.54.122
-5eb8bd reboot 1572389930 # 10.0.54.108
 
 61a902 maxwatts 750 # 10.0.54.122
-5eb8bd maxwatts 750 # 10.0.54.108
 61a902 reboot 1572389930 # 10.0.54.122
-5eb8bd reboot 1572389930 # 10.0.54.108
 
 61a902 maxwatts 850 # 10.0.54.122
-5eb8bd maxwatts 850 # 10.0.54.108
 61a902 reboot 1572388272 # 10.0.54.122
-5eb8bd reboot 1572388272 # 10.0.54.108
 
 61a902 maxwatts 950 # 10.0.54.122
-5eb8bd maxwatts 950 # 10.0.54.108
 61a902 reboot 1572386578 # 10.0.54.122
-5eb8bd reboot 1572386578 # 10.0.54.108
 
 61a902 maxwatts 1050 # 10.0.54.122
-5eb8bd maxwatts 1050 # 10.0.54.108
 61a902 reboot 1572384858 # 10.0.54.122
-5eb8bd reboot 1572384858 # 10.0.54.108
 
 61a902 maxwatts 1150 # 10.0.54.122
-5eb8bd maxwatts 1150 # 10.0.54.108
 61a902 reboot 1572383131 # 10.0.54.122
-5eb8bd reboot 1572383131 # 10.0.54.108
 
 1fc3d1 maxwatts 1250 # 10.0.63.127
 61a902 maxwatts 1250 # 10.0.54.122
-5eb8bd maxwatts 1250 # 10.0.54.108
 1fc3d1 reboot 1572379683 # 10.0.63.127
 61a902 reboot 1572379683 # 10.0.54.122
-5eb8bd reboot 1572379683 # 10.0.54.108
 
 a92994 maxwatts -50 # 10.0.54.96
 a92994 reboot 1572303428 # 10.0.54.96
@@ -734,272 +689,10 @@ f0956e reboot 1572019424 # 10.0.64.32
 
 
 ## reboots
+5eb8bd reboot 1572478420
 
 ## resets
-bf813c resetasic 1572014919
-efd005 resetasic 1572014919
-b449ed resetasic 1572014919
-95fe79 resetasic 1572014919
-a92994 resetasic 1572014919
-ff507b resetasic 1572014919
-9cbaab resetasic 1572014919
-32d8b5 resetasic 1572014919
-1fc3d1 resetasic 1572014919
-6ad3c0 resetasic 1572014919
-184ed5 resetasic 1572014919
-9cbbc0 resetasic 1572014919
-4d47c4 resetasic 1572014919
-eab061 resetasic 1572014919
-61a902 resetasic 1572014919
-68bff7 resetasic 1572014919
-6bb076 resetasic 1572014919
-9b0eee resetasic 1572014919
-0e7df6 resetasic 1572014919
-f0956e resetasic 1572014919
-8db22c resetasic 1572014919
-f82c5a resetasic 1572014919
-7c8c74 resetasic 1572014919
-3aa215 resetasic 1572014919
-7a6f07 resetasic 1572014919
-84cc12 resetasic 1572014919
-009b2a resetasic 1572014919
-4e22e3 resetasic 1572014919
-6f6bc5 resetasic 1572014919
-f3e559 resetasic 1572014919
-6ecc5b resetasic 1572014919
-01f0ee resetasic 1572014919
-5d4be9 resetasic 1572014919
-fa37c0 resetasic 1572014919
-f8f4e5 resetasic 1572014919
-a708a6 resetasic 1572014919
-28679c resetasic 1572014919
-09dacf resetasic 1572014919
-676c1a resetasic 1572014919
-aa901a resetasic 1572014919
-b3fa40 resetasic 1572014919
-f537f7 resetasic 1572014919
-b4364f resetasic 1572014919
-79af19 resetasic 1572014919
-0c44ff resetasic 1572014919
-233eab resetasic 1572014919
-5a0978 resetasic 1572014919
-ce7e25 resetasic 1572014919
-ba4916 resetasic 1572014919
-604d36 resetasic 1572014919
-0bfe76 resetasic 1572014919
-d3cdf7 resetasic 1572014919
-b362c2 resetasic 1572014919
+5eb8bd reset 1572478520
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
