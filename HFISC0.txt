@@ -23,57 +23,57 @@ global autotune yes
 global maxwatts 1350
 global autoupdate yes
 global allowed yes
-global maxtemp 90 1
-global throttle 100
+global maxtemp 90
+# global throttle 100
 global fanspeed 65
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
-global retune 1571266647
-global rebootasic 2
-global resetasic 1571113675 # 1
+# global retune 1
+# global reboot 1
+# global reset 1
 # global panelpass gj83Nkgikg
 
 # group=rowc rebootasic 1
 # group=rowd allowed no
 
 ## vlans
-# vlan 10.0.68.54-63
-# vlan 10.0.56.131-131
-# vlan 10.0.56.134-135
-# vlan 10.0.56.138-143
-# vlan 10.0.56.145-145
-# vlan 10.0.59.151-151
-# vlan 10.0.60.33-33
-# vlan 10.0.60.47-47
-# vlan 10.0.60.59-59
-# vlan 10.0.60.69-69
-# vlan 10.0.60.71-71
-# vlan 10.0.60.119-119
-# vlan 10.0.60.158-158
-# vlan 10.0.61.4-4
-# vlan 10.0.61.14-14
-# vlan 10.0.58.1-1
-# vlan 10.0.58.4-4
-# vlan 10.0.58.10-10
-# vlan 10.0.58.14-14
-# vlan 10.0.58.21-21
-# vlan 10.0.58.22-22
-# vlan 10.0.61.16-16
-# vlan 10.0.62.64-64
-# vlan 10.0.62.118-118
-# vlan 10.0.63.17-17
-# vlan 10.0.65.1-1
-# vlan 10.0.65.2-2
-# vlan 10.0.65.4-4
-# vlan 10.0.65.13-13
-# vlan 10.0.65.14-14
-# vlan 10.0.65.16-16
-# vlan 10.0.65.18-18
-# vlan 10.0.77.27-27
-# vlan 10.0.77.95-95
-# vlan 10.0.115.30-30
+vlan 10.0.68.54-63
+vlan 10.0.56.131-131
+vlan 10.0.56.134-135
+vlan 10.0.56.138-143
+vlan 10.0.56.145-145
+vlan 10.0.59.151-151
+vlan 10.0.60.33-33
+vlan 10.0.60.47-47
+vlan 10.0.60.59-59
+vlan 10.0.60.69-69
+vlan 10.0.60.71-71
+vlan 10.0.60.119-119
+vlan 10.0.60.158-158
+vlan 10.0.61.4-4
+vlan 10.0.61.14-14
+vlan 10.0.58.1-1
+vlan 10.0.58.4-4
+vlan 10.0.58.10-10
+vlan 10.0.58.14-14
+vlan 10.0.58.21-21
+vlan 10.0.58.22-22
+vlan 10.0.61.16-16
+vlan 10.0.62.64-64
+vlan 10.0.62.118-118
+vlan 10.0.63.17-17
+vlan 10.0.65.1-1
+vlan 10.0.65.2-2
+vlan 10.0.65.4-4
+vlan 10.0.65.13-13
+vlan 10.0.65.14-14
+vlan 10.0.65.16-16
+vlan 10.0.65.18-18
+vlan 10.0.77.27-27
+vlan 10.0.77.95-95
+vlan 10.0.115.30-30
 vlan 10.0.60.83-83
 vlan 10.0.61.44-44
 vlan 10.0.117.10-10
@@ -86,7 +86,6 @@ vlan 10.0.64.3-3
 vlan 10.0.64.107-107
 vlan 10.0.51.65-65
 vlan 10.0.51.61-61
-
 
 ## locations
 994f1c location HFISC00001
@@ -155,112 +154,7 @@ f2b75b location HFISC00056
 ## reboots
 
 ## resets
-2fd188 resetasic 1572014290
-cb9593 resetasic 1572014290
-e2ac32 resetasic 1572014290
-23b521 resetasic 1572014290
-1c50a6 resetasic 1572014290
-f0acc9 resetasic 1572014290
+32db9b reset 1572479245
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
