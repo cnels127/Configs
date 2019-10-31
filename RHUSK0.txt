@@ -75,6 +75,11 @@ f46832 location RHUSK00029
 
 ## tuning
 7b6cfa maxwatts -100 # 10.0.53.121
+3faa4c maxwatts 500 # 10.0.53.127
+7b6cfa reboot 1572549597 # 10.0.53.121
+3faa4c reboot 1572549597 # 10.0.53.127
+
+7b6cfa maxwatts -100 # 10.0.53.121
 3faa4c maxwatts 600 # 10.0.53.127
 7b6cfa reboot 1572547957 # 10.0.53.121
 3faa4c reboot 1572547957 # 10.0.53.127
@@ -720,6 +725,7 @@ ba0308 retune 1
 
 ## asic password
 asicpass admin
+
 
 
 
