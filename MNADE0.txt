@@ -56,6 +56,9 @@ e260d5 location MNADE00009
 
 ## tuning
 d89759 maxwatts -100 # 10.0.65.115
+d89759 reboot 1572585230 # 10.0.65.115
+
+d89759 maxwatts -100 # 10.0.65.115
 d89759 reboot 1572583565 # 10.0.65.115
 
 d89759 maxwatts -100 # 10.0.65.115
@@ -206,6 +209,7 @@ d89759 rebootasic 1571510751 # 10.0.65.115
 
 ## asic password
 asicpass admin
+
 
 
 
