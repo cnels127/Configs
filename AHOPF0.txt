@@ -37,6 +37,9 @@ global blinkgreen rapid
 # group=rowd allowed no
 
 ## tuning
+a47fd5 maxwatts 700 # 10.0.20.124
+a47fd5 reboot 1572588487 # 10.0.20.124
+
 afad02 maxwatts 1400 # 10.0.20.73
 afad02 reboot 1572585148 # 10.0.20.73
 
@@ -2704,6 +2707,7 @@ c6cbe1 username3 GMTVILLA01
 
 ## asic password
 asicpass admin
+
 
 
 
