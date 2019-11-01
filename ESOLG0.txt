@@ -41,6 +41,9 @@ global resetasic 1571427118 # 1571237128 # 1571225465
 ## fans
 
 ## tuning
+2968f0 maxwatts 350 # 10.0.50.110
+2968f0 reboot 1572608537 # 10.0.50.110
+
 # s_reboot generated on Nov 01 2019 04:44:24 utc: 1572583464
 6bfa85 reboot 1572583464 # 10.0.31.52 esolg00136
 1190c7 reboot 1572583464 # 10.0.31.69 esolg00153
@@ -1688,6 +1691,7 @@ b972c8 location ESOLG00497
 
 ## asic password
 asicpass admin
+
 
 
 
