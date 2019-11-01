@@ -5,15 +5,15 @@
 
 global custompanel RANDE0bit049
 
-global poolname1 us.ss.btc.com:1800
+global poolname1 stratum+tcp://connect.pool.bitcoin.com:3333 
 global username1 scracing
 global poolpass1 slobert13A$ 
 global sendworker1 yes
-global poolname2 us.ss.btc.com:443
+global poolname2 stratum+tcp://connect.pool.bitcoin.com:3333 
 global username2 scracing
 global poolpass2 slobert13A$ 
 global sendworker2 yes
-global poolname3 us.ss.btc.com:25
+global poolname3 stratum+tcp://connect.pool.bitcoin.com:3333 
 global username3 scracing
 global poolpass3 slobert13A$ 
 global sendworker3 yes
