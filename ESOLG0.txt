@@ -1088,6 +1088,8 @@ vlan 10.0.55.79-79
 vlan 10.0.55.80-80
 vlan 10.0.55.82-82
 vlan 10.0.55.83-83
+vlan 10.0.59.79-79
+vlan 10.0.59.84-84
 vlan 10.0.62.82-82
 vlan 10.0.62.95-95
 vlan 10.0.63.118-118
@@ -1110,6 +1112,7 @@ vlan 10.0.118.90-90
 vlan 10.0.118.97-97
 vlan 10.0.118.102-102
 vlan 10.0.119.16-16
+vlan 10.0.119.101-101
 vlan 10.0.120.5-5
 vlan 10.0.120.9-9
 vlan 10.0.120.17-17
@@ -1326,36 +1329,39 @@ f0a16a location ESOLG000360
 b972c8 location ESOLG000365
 8e9351 location ESOLG000366
 8f3359 location ESOLG000367
-57febf location ESOLG000368
-053bf9 location ESOLG000369
-eabba9 location ESOLG000370
-dd7088 location ESOLG000371
-1a0b83 location ESOLG000372
-f5acba location ESOLG000373
-8a4208 location ESOLG000374
-c047ef location ESOLG000375
-b1aa6a location ESOLG000376
-89ddd8 location ESOLG000377
-3d8077 location ESOLG000378
-23bea7 location ESOLG000379
-4c06b8 location ESOLG000380
-b6f985 location ESOLG000381
-bd7794 location ESOLG000382
-84f544 location ESOLG000383
-f7741a location ESOLG000384
-343162 location ESOLG000385
-e726c1 location ESOLG000386
-5ee74d location ESOLG000387
-ad20e2 location ESOLG000388
-b6fba8 location ESOLG000389
-ed8ef5 location ESOLG000390
-4142fa location ESOLG000391
-686f2e location ESOLG000392
-f6e3e0 location ESOLG000393
-5d2e09 location ESOLG000394
-29c099 location ESOLG000395
-0c3772 location ESOLG000396
-1c2eb6 location ESOLG000397
+42cbf5 location ESOLG000368
+dd35db location ESOLG000369
+57febf location ESOLG000370
+053bf9 location ESOLG000371
+eabba9 location ESOLG000372
+dd7088 location ESOLG000373
+1a0b83 location ESOLG000374
+f5acba location ESOLG000375
+8a4208 location ESOLG000376
+c047ef location ESOLG000377
+b1aa6a location ESOLG000378
+89ddd8 location ESOLG000379
+3d8077 location ESOLG000380
+23bea7 location ESOLG000381
+4c06b8 location ESOLG000382
+b6f985 location ESOLG000383
+bd7794 location ESOLG000384
+84f544 location ESOLG000385
+f7741a location ESOLG000386
+343162 location ESOLG000387
+e726c1 location ESOLG000388
+5ee74d location ESOLG000389
+ad20e2 location ESOLG000390
+b6fba8 location ESOLG000391
+bb1d90 location ESOLG000392
+ed8ef5 location ESOLG000393
+4142fa location ESOLG000394
+686f2e location ESOLG000395
+f6e3e0 location ESOLG000396
+5d2e09 location ESOLG000397
+29c099 location ESOLG000398
+0c3772 location ESOLG000399
+1c2eb6 location ESOLG000400
 
 ## asic password
 asicpass admin
