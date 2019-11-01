@@ -122,6 +122,11 @@ vlan 10.0.50.130-130
 ## locations
 
 ## tuning
+253114 maxwatts -50 # 10.0.117.24
+a7849c maxwatts -50 # 10.0.66.23
+253114 reboot 1572581964 # 10.0.117.24
+a7849c reboot 1572581964 # 10.0.66.23
+
 65c972 reboot 1572581438 # 10.0.117.26 set1
 84cd22 reboot 1572581438 # 10.0.64.139 set2
 b9ba02 reboot 1572581438 # 10.0.77.44 set3
@@ -644,6 +649,7 @@ bd7794 resetasic 1570730224
 
 ## asic password
 asicpass admin
+
 
 
 
