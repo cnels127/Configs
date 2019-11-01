@@ -80,6 +80,11 @@ bc5723 location LKLIN00019
 07a57a location LKLIN00020
 
 ## tuning
+fc23ff maxwatts -100 # 10.0.63.37
+ed846d maxwatts -100 # 10.0.63.107
+fc23ff reboot 1572606917 # 10.0.63.37
+ed846d reboot 1572606917 # 10.0.63.107
+
 fc23ff maxwatts 0 # 10.0.63.37
 ed846d maxwatts -100 # 10.0.63.107
 fc23ff reboot 1572605260 # 10.0.63.37
@@ -526,6 +531,7 @@ ed846d rebootasic 1571510536 # 10.0.63.107
 
 ## asic password
 asicpass admin
+
 
 
 
