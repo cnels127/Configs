@@ -42,9 +42,13 @@ vlan 10.0.116.30-30
 ab17e5 location JPOWE00001
 
 ## tuning
+ab17e5 reboot 1572581343 # 10.0.116.30 jpowe00001
+ 
+
 
 ## resets
 
 ## asic password
 asicpass admin
+
 

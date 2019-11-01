@@ -58,6 +58,10 @@ vlan 172.16.202.39-39
 vlan 172.16.202.96-96
 
 ## tuning
+a1dcce reboot 1572581303 # 10.10.125.224 droge10006
+2204ec reboot 1572581303 # 10.10.125.227 droge10008
+ 
+
 e1c572 maxwatts 1250 # 172.16.201.56
 e1c572 rebootasic 1570834816 # 172.16.201.56
 
@@ -67,5 +71,6 @@ asicpass admin
 
 ## resets
 ed1a27 asicreset 1570656476 
+
 
 

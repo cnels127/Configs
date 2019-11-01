@@ -43,6 +43,10 @@ bda117 location RANDE10001
 d8b0ee location RANDE10002
 
 ## tuning
+bda117 reboot 1572581391 # 10.10.126.123 rande10001
+d8b0ee reboot 1572581391 # 10.10.126.124 rande10002
+ 
+
 bda117 maxwatts 850 # 10.10.126.123
 d8b0ee maxwatts 1250 # 10.10.126.124
 bda117 rebootasic 1571446306 # 10.10.126.123
@@ -69,6 +73,7 @@ d8b0ee reboot 1572381539 # 10.10.126.124
 
 ## asic password
 asicpass admin
+
 
 
 
