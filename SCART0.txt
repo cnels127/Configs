@@ -36,9 +36,6 @@ global resetasic 1571113675 # 1
 # group=rowd allowed no
 
 ## vlans
-vlan 10.0.61.155-155
-vlan 10.0.65.26-26
-vlan 10.0.66.27-27
 vlan 10.0.30.78-78
 vlan 10.0.30.79-79
 vlan 10.0.30.80-80
@@ -51,7 +48,6 @@ vlan 10.0.30.90-90
 vlan 10.0.30.91-91
 vlan 10.0.30.92-92
 vlan 10.0.30.98-98
-vlan 10.0.30.111-111
 vlan 10.0.30.113-113
 vlan 10.0.30.117-117
 vlan 10.0.30.118-118
@@ -84,10 +80,7 @@ vlan 10.0.31.42-42
 vlan 10.0.31.44-44
 vlan 10.0.31.46-46
 vlan 10.0.31.53-53
-vlan 10.0.31.57-57
 vlan 10.0.31.58-58
-vlan 10.0.31.63-63
-vlan 10.0.31.68-68
 vlan 10.0.31.70-70
 vlan 10.0.31.72-72
 vlan 10.0.31.74-74
@@ -102,13 +95,11 @@ vlan 10.0.31.106-106
 vlan 10.0.31.107-107
 vlan 10.0.31.110-110
 vlan 10.0.31.111-111
-vlan 10.0.31.117-117
 vlan 10.0.31.118-118
 vlan 10.0.31.119-119
 vlan 10.0.31.122-122
 vlan 10.0.31.123-123
 vlan 10.0.31.132-132
-vlan 10.0.31.136-136
 vlan 10.0.31.137-137
 vlan 10.0.31.141-141
 vlan 10.0.31.144-144
@@ -116,13 +107,11 @@ vlan 10.0.31.152-152
 vlan 10.0.31.155-155
 vlan 10.0.31.157-157
 vlan 10.0.50.2-2
-vlan 10.0.50.6-6
 vlan 10.0.50.7-7
 vlan 10.0.50.8-8
 vlan 10.0.50.10-10
 vlan 10.0.50.11-11
 vlan 10.0.50.12-12
-vlan 10.0.50.15-15
 vlan 10.0.50.18-18
 vlan 10.0.50.19-19
 vlan 10.0.50.27-27
@@ -143,14 +132,12 @@ vlan 10.0.50.70-70
 vlan 10.0.50.72-72
 vlan 10.0.50.73-73
 vlan 10.0.50.75-75
-vlan 10.0.50.76-76
 vlan 10.0.50.77-77
 vlan 10.0.50.79-79
 vlan 10.0.50.80-80
-vlan 10.0.50.82-82
-vlan 10.0.50.88-88
 vlan 10.0.50.90-90
 vlan 10.0.50.91-91
+vlan 10.0.50.92-92
 vlan 10.0.50.94-94
 vlan 10.0.50.99-99
 vlan 10.0.50.108-108
@@ -178,150 +165,163 @@ vlan 10.0.55.63-63
 vlan 10.0.55.75-75
 vlan 10.0.55.76-76
 vlan 10.0.55.81-81
+vlan 10.0.56.44-44
+vlan 10.0.61.155-155
+vlan 10.0.63.43-43
+vlan 10.0.65.26-26
+vlan 10.0.66.27-27
+vlan 10.0.77.96-96
+vlan 10.0.117.69-69
+vlan 10.0.117.91-91
+vlan 10.0.117.97-97
+vlan 10.0.118.66-66
+vlan 10.0.118.70-70
+vlan 10.0.120.158-158
+vlan 10.0.121.29-29
 
 ## locations
-2a7d01 location SCART00001
-3fbe73 location SCART00002
-66e562 location SCART00003
-28f489 location scart00004
-80af65 location scart00005
-4a5ef0 location scart00006
-c0dcef location scart00007
-123c9c location scart00008
-1ebecd location scart00009
-168a85 location scart00010
-86ccad location scart00011
-4f72bb location scart00012
-f28e5e location scart00013
-2abd91 location scart00014
-b9832c location scart00015
-9d72da location scart00016
-6c7f54 location scart00017
-d5777d location scart00018
-520695 location scart00019
-c2b167 location scart00020
-36d47b location scart00021
-d095a0 location scart00022
-706b75 location scart00023
-ff7d35 location scart00024
-0fcecb location scart00025
-4a3fb3 location scart00026
-363997 location scart00027
-5af11a location scart00028
-047af0 location scart00029
-548bcf location scart00030
-4508c7 location scart00031
-9b8b73 location scart00032
-c68ca4 location scart00033
-f6db5e location scart00034
-743bb2 location scart00035
-139a58 location scart00036
-112dcb location scart00037
-65f909 location scart00038
-13deaf location scart00039
-74577a location scart00040
-75e685 location scart00041
-b8c823 location scart00042
-e54e0a location scart00043
-396903 location scart00044
-c5ce9c location scart00045
-87c0f9 location scart00046
-b434f4 location scart00047
-27a764 location scart00048
-4b9432 location scart00049
-771df9 location scart00050
-de1d19 location scart00051
-e5323c location scart00052
-ff4f01 location scart00053
-637f46 location scart00054
-c60781 location scart00055
-7f3e08 location scart00056
-7989cb location scart00057
-f0cff0 location scart00058
-70ca7a location scart00059
-8b7b26 location scart00060
-c9b5e7 location scart00061
-cd47d8 location scart00062
-09370c location scart00063
-002107 location scart00064
-cefc09 location scart00065
-a5d526 location scart00066
-17611d location scart00067
-ab39de location scart00068
-ad8ef4 location scart00069
-0765c2 location scart00070
-b216a0 location scart00071
-716735 location scart00072
-f4e6f5 location scart00073
-1dfac7 location scart00074
-dd2856 location scart00075
-fdf08a location scart00076
-9b586c location scart00077
-ab0151 location scart00078
-963eab location scart00079
-219faa location scart00080
-2fe5c2 location scart00081
-7115c6 location scart00082
-8bce91 location scart00083
-34ac56 location SCART00084
-d39dc1 location SCART00085
-606c53 location SCART00086
-649248 location SCART00087
-c1a8a9 location SCART00088
-1bb2af location SCART00089
-b0abe0 location SCART00090
-4efff4 location SCART00091
-e5abd1 location scart00092
-43c7db location scart00093
-ae25a9 location scart00094
-011e81 location scart00095
-d190c8 location scart00096
-04743e location scart00097
-cb4a49 location scart00098
-b45f14 location scart00099
-1faa55 location scart00100
-4fc4bf location scart00101
-3e070f location scart00102
-083178 location scart00103
-230c72 location scart00104
-33d1f3 location scart00105
-439202 location scart00106
-d44702 location scart00107
-42e20d location scart00108
-a19ede location scart00109
-4281ec location scart00110
-fb174f location scart00111
-b186ce location scart00112
-9dab91 location scart00113
-8c6210 location scart00114
-067cdd location scart00115
-ae2c80 location scart00116
-5a95dc location scart00117
-bd8087 location scart00118
-8574ff location scart00119
-812582 location scart00120
-aa7902 location scart00121
-d110a4 location scart00122
-05d232 location scart00123
-b3b42c location scart00124
-479987 location scart00125
-0cc841 location scart00126
-fc7cf8 location scart00127
-b68f59 location scart00128
-16808c location scart00129
-0b711d location scart00130
-db8872 location scart00131
-4a4af1 location scart00132
-5d0a3e location scart00133
-954d29 location scart00134
-07cece location scart00135
-b8aba7 location scart00136
-16d041 location scart00137
-f569ac location scart00138
-2b318e location scart00139
-1dce27 location scart00140
-e284f3 location scart00141
-7e183d location scart00142
+28f489 location SCART000001
+80af65 location SCART000002
+4a5ef0 location SCART000003
+c0dcef location SCART000004
+123c9c location SCART000005
+1ebecd location SCART000006
+168a85 location SCART000007
+86ccad location SCART000008
+219faa location SCART000009
+4f72bb location SCART000010
+f28e5e location SCART000011
+b9832c location SCART000012
+9d72da location SCART000013
+6c7f54 location SCART000014
+d5777d location SCART000015
+c2b167 location SCART000016
+36d47b location SCART000017
+d095a0 location SCART000018
+706b75 location SCART000019
+ff7d35 location SCART000020
+3e070f location SCART000021
+0fcecb location SCART000022
+743bb2 location SCART000023
+4a3fb3 location SCART000024
+363997 location SCART000025
+5af11a location SCART000026
+0cc841 location SCART000027
+047af0 location SCART000028
+548bcf location SCART000029
+4508c7 location SCART000030
+27a764 location SCART000031
+9b8b73 location SCART000032
+c68ca4 location SCART000033
+f6db5e location SCART000034
+139a58 location SCART000035
+112dcb location SCART000036
+74577a location SCART000037
+75e685 location SCART000038
+b8c823 location SCART000039
+e54e0a location SCART000040
+c5ce9c location SCART000041
+87c0f9 location SCART000042
+b434f4 location SCART000043
+4b9432 location SCART000044
+de1d19 location SCART000045
+c60781 location SCART000046
+7f3e08 location SCART000047
+7989cb location SCART000048
+f0cff0 location SCART000049
+70ca7a location SCART000050
+8b7b26 location SCART000051
+c9b5e7 location SCART000052
+cd47d8 location SCART000053
+09370c location SCART000054
+002107 location SCART000055
+cefc09 location SCART000056
+a5d526 location SCART000057
+13deaf location SCART000058
+17611d location SCART000059
+0765c2 location SCART000060
+b216a0 location SCART000061
+716735 location SCART000062
+f4e6f5 location SCART000063
+dd2856 location SCART000064
+9b586c location SCART000065
+ab0151 location SCART000066
+963eab location SCART000067
+2fe5c2 location SCART000068
+7115c6 location SCART000069
+8bce91 location SCART000070
+e5abd1 location SCART000071
+ae25a9 location SCART000072
+011e81 location SCART000073
+04743e location SCART000074
+cb4a49 location SCART000075
+2abd91 location SCART000076
+1faa55 location SCART000077
+4fc4bf location SCART000078
+083178 location SCART000079
+34ac56 location SCART000080
+230c72 location SCART000081
+33d1f3 location SCART000082
+d39dc1 location SCART000083
+439202 location SCART000084
+d44702 location SCART000085
+520695 location SCART000086
+42e20d location SCART000087
+4281ec location SCART000088
+606c53 location SCART000089
+fb174f location SCART000090
+649248 location SCART000091
+b186ce location SCART000092
+9dab91 location SCART000093
+8c6210 location SCART000094
+067cdd location SCART000095
+ae2c80 location SCART000096
+ff4f01 location SCART000097
+bd8087 location SCART000098
+8574ff location SCART000099
+1bb2af location SCART000100
+aa7902 location SCART000101
+9f0dc5 location SCART000102
+ab39de location SCART000103
+05d232 location SCART000104
+b3b42c location SCART000105
+1dfac7 location SCART000106
+b0abe0 location SCART000107
+a19ede location SCART000108
+479987 location SCART000109
+fc7cf8 location SCART000110
+b68f59 location SCART000111
+16808c location SCART000112
+0b711d location SCART000113
+db8872 location SCART000114
+4a4af1 location SCART000115
+5d0a3e location SCART000116
+d110a4 location SCART000117
+954d29 location SCART000118
+65f909 location SCART000119
+07cece location SCART000120
+b8aba7 location SCART000121
+16d041 location SCART000122
+f569ac location SCART000123
+2b318e location SCART000124
+1dce27 location SCART000125
+e284f3 location SCART000126
+4efff4 location SCART000127
+396903 location SCART000128
+7e183d location SCART000129
+609064 location SCART000130
+2a7d01 location SCART000131
+03c9af location SCART000132
+3fbe73 location SCART000133
+66e562 location SCART000134
+623b21 location SCART000135
+ad0b1f location SCART000136
+52e050 location SCART000137
+cab11f location SCART000138
+48e23e location SCART000139
+915c04 location SCART000140
+c99d5c location SCART000141
+63f265 location SCART000142
 
 ## tuning
 
