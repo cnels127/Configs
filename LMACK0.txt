@@ -192,6 +192,9 @@ d3cdf7 location LMACK00100
 
 ## tuning
 5eb8bd maxwatts -50 # 10.0.54.108
+5eb8bd reboot 1572705551 # 10.0.54.108
+
+5eb8bd maxwatts -50 # 10.0.54.108
 5eb8bd reboot 1572703874 # 10.0.54.108
 
 5eb8bd maxwatts -50 # 10.0.54.108
@@ -759,6 +762,7 @@ f0956e reboot 1572019424 # 10.0.64.32
 
 ## asic password
 asicpass admin
+
 
 
 
