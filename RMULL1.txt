@@ -47,6 +47,9 @@ vlan 172.16.204.146-146
 8e86bb location 0005
 
 ## tuning
+2d1b6f maxwatts -100 # 10.10.125.21
+2d1b6f reboot 1572688709 # 10.10.125.21
+
 2d1b6f maxwatts 0 # 10.10.125.21
 2d1b6f reboot 1572687014 # 10.10.125.21
 
@@ -104,6 +107,7 @@ vlan 172.16.204.146-146
 
 ## asic password
 asicpass admin
+
 
 
 
