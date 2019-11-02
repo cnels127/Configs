@@ -54,6 +54,9 @@ f6388e location MSETI00005
 35e5b2 location MSETI00006
 
 ## tuning
+7104a2 maxwatts 800 # 10.0.61.137
+7104a2 reboot 1572661848 # 10.0.61.137
+
 7104a2 maxwatts 900 # 10.0.61.137
 7104a2 reboot 1572660176 # 10.0.61.137
 
@@ -134,6 +137,7 @@ a22315 resetasic 1572527385
 
 ## asic password
 asicpass admin
+
 
 
 
