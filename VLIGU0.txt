@@ -147,6 +147,9 @@ db2bbb location VLIGU00092
 
 ## tuning
 02d712 maxwatts -100 # 10.0.51.44
+02d712 reboot 1572708992 # 10.0.51.44
+
+02d712 maxwatts -100 # 10.0.51.44
 02d712 reboot 1572707306 # 10.0.51.44
 
 02d712 maxwatts -100 # 10.0.51.44
@@ -2148,6 +2151,7 @@ df64b7 resetasic 1571432850
 
 ## asic password
 asicpass admin
+
 
 
 
