@@ -119,6 +119,9 @@ fb2a81 location SRADO00042
 
 ## tuning
 e3835b maxwatts -100 # 10.0.63.110
+e3835b reboot 1572903461 # 10.0.63.110
+
+e3835b maxwatts -100 # 10.0.63.110
 e3835b reboot 1572901796 # 10.0.63.110
 
 e3835b maxwatts -100 # 10.0.63.110
@@ -2020,6 +2023,7 @@ acd279 resetasic 1571269484
 
 ## asic password
 asicpass admin
+
 
 
 
