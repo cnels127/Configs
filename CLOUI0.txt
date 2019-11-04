@@ -52,6 +52,9 @@ df94bd location CLOUI00009
 
 ## tuning
 6cb55b maxwatts -50 # 10.0.54.58
+6cb55b reboot 1572868408 # 10.0.54.58
+
+6cb55b maxwatts -50 # 10.0.54.58
 6cb55b reboot 1572866258 # 10.0.54.58
 
 6cb55b maxwatts -50 # 10.0.54.58
@@ -149,6 +152,7 @@ bf9f18 rebootasic 1571518371 # 10.0.54.51
 
 ## asic password
 asicpass admin
+
 
 
 
