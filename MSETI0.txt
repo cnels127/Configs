@@ -54,85 +54,6 @@ f6388e location MSETI00005
 35e5b2 location MSETI00006
 
 ## tuning
-7104a2 maxwatts 600 # 10.0.61.137
-7104a2 reboot 1572665190 # 10.0.61.137
-
-7104a2 maxwatts 700 # 10.0.61.137
-7104a2 reboot 1572663521 # 10.0.61.137
-
-7104a2 maxwatts 800 # 10.0.61.137
-7104a2 reboot 1572661848 # 10.0.61.137
-
-7104a2 maxwatts 900 # 10.0.61.137
-7104a2 reboot 1572660176 # 10.0.61.137
-
-7104a2 maxwatts 1000 # 10.0.61.137
-7104a2 reboot 1572658505 # 10.0.61.137
-
-7104a2 maxwatts 1100 # 10.0.61.137
-7104a2 reboot 1572656837 # 10.0.61.137
-
-7104a2 maxwatts 1200 # 10.0.61.137
-7104a2 reboot 1572655168 # 10.0.61.137
-
-7104a2 maxwatts 1300 # 10.0.61.137
-7104a2 reboot 1572653481 # 10.0.61.137
-
-743db3 maxwatts 1400 # 10.0.63.160
-743db3 reboot 1572062414 # 10.0.63.160
-
-a22315 maxwatts 600 # 10.0.63.140
-a22315 rebootasic 1571520437 # 10.0.63.140
-
-f6388e maxwatts 1300 # 10.0.115.61
-f6388e rebootasic 1571156976 # 10.0.115.61
-
-f6388e maxwatts 1400 # 10.0.115.61
-f6388e rebootasic 1571145449 # 10.0.115.61
-
-a22315 maxwatts 700 # 10.0.63.140
-a22315 rebootasic 1571106020 # 10.0.63.140
-
-a22315 maxwatts 800 # 10.0.63.140
-a22315 rebootasic 1571044824 # 10.0.63.140
-
-a22315 maxwatts 900 # 10.0.63.140
-a22315 rebootasic 1570948127 # 10.0.63.140
-
-a22315 maxwatts 1000 # 10.0.63.140
-a22315 rebootasic 1570933547 # 10.0.63.140
-
-a22315 maxwatts 1100 # 10.0.63.140
-a22315 rebootasic 1570774908 # 10.0.63.140
-
-a22315 maxwatts 1200 # 10.0.63.140
-a22315 rebootasic 1570698830 # 10.0.63.140
-
-a22315 maxwatts 1300 # 10.0.63.140
-a22315 rebootasic 1570693284 # 10.0.63.140
-
-a22315 maxwatts 1400 # 10.0.63.140
-a22315 rebootasic 1570685978 # 10.0.63.140
-
-35e5b2 maxwatts 1200 # 10.0.117.155
-35e5b2 rebootasic 1570605751 # 10.0.117.155
-
-7104a2 maxwatts 1400 # 10.0.61.137
-7104a2 rebootasic 1570475199 # 10.0.61.137
-
-# generated on Oct 01 2019 21:08:01 utc: 1569964081: 1569964081
-35e5b2 maxwatts 1300 # 10.0.117.155
-35e5b2 rebootasic 1569964081 # 10.0.117.155
-# generated on Oct 01 2019 16:45:05 utc: 1569948305: 1569948305
-35e5b2 maxwatts 1400 # 10.0.117.155
-35e5b2 rebootasic 1569948305 # 10.0.117.155
-
-fc5018 maxwatts 1500 # TEMP SET TO 1500 TO MAKE UP FOR MACHINES NEEDING HASHBOARD REPAIR
-f6388e maxwatts 1500 # TEMP SET TO 1500 TO MAKE UP FOR MACHINES NEEDING HASHBOARD REPAIR
-35e5b2 maxwatts 1500 # TEMP SET TO 1500 TO MAKE UP FOR MACHINES NEEDING HASHBOARD REPAIR
-743db3 retune 1
-7104a2 retune 1
-a22315 retune 1
 
 ## resets
 a22315 resetasic 1572527385  
@@ -140,6 +61,12 @@ a22315 resetasic 1572527385
 
 7104a2 resetasic 1569948223
 743db3 resetasic 1569948223
+
+f6388e resetastic 1572923442
+7104a2 resetastic 1572923442
+a22315 resetastic 1572923442
+743db3 resetastic 1572923442
+35e5b2 resetastic 1572923442
 
 ## asic password
 asicpass admin
