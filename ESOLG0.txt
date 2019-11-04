@@ -943,7 +943,7 @@ dd258c username3 BitPlusCanada
 ffe40c username3 BitPlusCanada
 
 ## BitPlusBeckendorf
-## 20 machines in the vlan range 10.0.31.117-144
+## 28 machines in the vlan range 10.0.31.117-153
 ## Note: Not all machines in this vlan range belong on this panel.
 vlan 10.0.31.117-117
 vlan 10.0.31.120-120
@@ -965,6 +965,14 @@ vlan 10.0.31.139-139
 vlan 10.0.31.140-140
 vlan 10.0.31.142-142
 vlan 10.0.31.143-143
+vlan 10.0.31.145-145
+vlan 10.0.31.146-146
+vlan 10.0.31.147-147
+vlan 10.0.31.148-148
+vlan 10.0.31.149-149
+vlan 10.0.31.150-150
+vlan 10.0.31.151-151
+vlan 10.0.31.153-153
 
 ## BitPlusBeckendorf locations
 ad8ef4 location ESOLG000142
@@ -987,6 +995,14 @@ f5205c location ESOLG000158
 89b85e location ESOLG000159
 c22a6f location ESOLG000160
 c3ffd0 location ESOLG000161
+0de34a location ESOLG000162
+ac2a48 location ESOLG000163
+6ce009 location ESOLG000164
+75d9d8 location ESOLG000165
+07e5fd location ESOLG000166
+32dd13 location ESOLG000167
+4c52a9 location ESOLG000168
+a7b5ce location ESOLG000169
 
 ad8ef4 username1 BitPlusBeck
 c36ffa username1 BitPlusBeck
@@ -1008,6 +1024,14 @@ f5205c username1 BitPlusBeck
 89b85e username1 BitPlusBeck
 c22a6f username1 BitPlusBeck
 c3ffd0 username1 BitPlusBeck
+0de34a username1 BitPlusBeck
+ac2a48 username1 BitPlusBeck
+6ce009 username1 BitPlusBeck
+75d9d8 username1 BitPlusBeck
+07e5fd username1 BitPlusBeck
+32dd13 username1 BitPlusBeck
+4c52a9 username1 BitPlusBeck
+a7b5ce username1 BitPlusBeck
 
 ad8ef4 username2 BitPlusBeck
 c36ffa username2 BitPlusBeck
@@ -1029,6 +1053,14 @@ f5205c username2 BitPlusBeck
 89b85e username2 BitPlusBeck
 c22a6f username2 BitPlusBeck
 c3ffd0 username2 BitPlusBeck
+0de34a username2 BitPlusBeck
+ac2a48 username2 BitPlusBeck
+6ce009 username2 BitPlusBeck
+75d9d8 username2 BitPlusBeck
+07e5fd username2 BitPlusBeck
+32dd13 username2 BitPlusBeck
+4c52a9 username2 BitPlusBeck
+a7b5ce username2 BitPlusBeck
 
 ad8ef4 username3 BitPlusBeck
 c36ffa username3 BitPlusBeck
@@ -1050,23 +1082,24 @@ f5205c username3 BitPlusBeck
 89b85e username3 BitPlusBeck
 c22a6f username3 BitPlusBeck
 c3ffd0 username3 BitPlusBeck
+0de34a username3 BitPlusBeck
+ac2a48 username3 BitPlusBeck
+6ce009 username3 BitPlusBeck
+75d9d8 username3 BitPlusBeck
+07e5fd username3 BitPlusBeck
+32dd13 username3 BitPlusBeck
+4c52a9 username3 BitPlusBeck
+a7b5ce username3 BitPlusBeck
 
 
 ## bitplusmining1
-## 239 machines in the vlan ranges:
-## 10.0.31.145-160
+## 231 machines in the vlan ranges:
+## 10.0.31.154-160
 ## 10.0.32.1-20
 ## 10.0.50.1-160
 ## 10.0.55.8-83
 ## Note: Not all machines in these vlan ranges belong on this panel.
-vlan 10.0.31.145-145
-vlan 10.0.31.146-146
-vlan 10.0.31.147-147
-vlan 10.0.31.148-148
-vlan 10.0.31.149-149
-vlan 10.0.31.150-150
-vlan 10.0.31.151-151
-vlan 10.0.31.153-153
+
 vlan 10.0.31.154-154
 vlan 10.0.31.156-156
 vlan 10.0.31.158-158
@@ -1300,14 +1333,6 @@ vlan 10.0.121.105-105
 vlan 10.0.121.144-144
 
 ## bitplusmining1 locations
-0de34a location ESOLG000162
-ac2a48 location ESOLG000163
-6ce009 location ESOLG000164
-75d9d8 location ESOLG000165
-07e5fd location ESOLG000166
-32dd13 location ESOLG000167
-4c52a9 location ESOLG000168
-a7b5ce location ESOLG000169
 7ca1fd location ESOLG000170
 7a3f1b location ESOLG000171
 2c9456 location ESOLG000172
