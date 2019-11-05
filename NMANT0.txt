@@ -42,6 +42,9 @@ vlan 10.0.58.132-132
 30946f location NMANT00001
 
 ## tuning
+30946f maxwatts 1400 # 10.0.58.132
+30946f reboot 1572914915 # 10.0.58.132
+
 
 ## reboots
 
@@ -49,4 +52,5 @@ vlan 10.0.58.132-132
 
 ## asic password
 asicpass admin
+
 
