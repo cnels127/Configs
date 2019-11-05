@@ -1,0 +1,65 @@
+## instructions available at: https://asicseer.com/page/kb#writing-config
+##  7 s9 @ 16.0 Th/s = 112.0 Th/s
+
+global custompanel RWEAV0bit049
+global customer bit49
+
+global poolname1 connect.pool.bitcoin.com:3333
+global username1 cryptodad1972
+global poolpass1 123
+global sendworker1 yes
+global poolname2 eu.ss.btc.com:1800
+global username2 rodneyweaver1972
+global poolpass2 123
+global sendworker2 yes
+global poolname3 eu.ss.btc.com:443
+global username3 rodneyweaver1972
+global poolpass3 123
+global sendworker3 yes
+
+global asicboost yes
+global autotune yes
+global maxwatts 1450
+global autoupdate yes
+global allowed yes
+global maxtemp 90 1
+global throttle 100
+global fanspeed 100
+global fansaver yes
+global blinkred idle
+global blinkgreen rapid
+
+# global retune 1571266647
+# global rebootasic 2
+# global resetasic 1571113675 # 1
+# global panelpass gj83Nkgikg
+
+# group=rowc rebootasic 1
+# group=rowd allowed no
+
+## vlans
+vlan 10.0.55.5-5
+vlan 10.0.59.79-79
+vlan 10.0.115.76-76
+vlan 10.0.116.52-52
+vlan 10.0.117.20-20
+vlan 10.0.117.27-27
+vlan 10.0.118.51-51
+vlan 10.0.119.106-106
+
+## locations
+09cad2 location RWEAV000001
+364899 location RWEAV000002
+bbf6ce location RWEAV000003
+bfbee3 location RWEAV000004
+2f6996 location RWEAV000005
+b26fd7 location RWEAV000006
+54b1c1 location RWEAV000007
+e64930 location RWEAV000007
+
+## reboots
+
+## resets
+
+## asic password
+asicpass admin
