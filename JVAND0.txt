@@ -204,6 +204,11 @@ c55ec3 maxwatts 950 # 10.0.118.99
 ac4e9b reboot 1572996388 # 10.0.119.97
 c55ec3 reboot 1572996388 # 10.0.118.99
 
+ac4e9b maxwatts 850 # 10.0.119.97
+c55ec3 maxwatts 950 # 10.0.118.99
+ac4e9b reboot 1572996388 # 10.0.119.97
+c55ec3 reboot 1572996388 # 10.0.118.99
+
 ac4e9b maxwatts 950 # 10.0.119.97
 c55ec3 maxwatts 1050 # 10.0.118.99
 ac4e9b reboot 1572994679 # 10.0.119.97
@@ -437,6 +442,7 @@ dacf42 resetasic 1570808833
 
 ## asic password
 asicpass admin
+
 
 
 
