@@ -243,6 +243,9 @@ ef15e2 location ASMIT000097
 000122 location ASMIT000100
 
 ## tuning
+47bb2b maxwatts 900 # 10.0.66.101
+47bb2b reboot 1572996345 # 10.0.66.101
+
 47bb2b maxwatts 1000 # 10.0.66.101
 47bb2b reboot 1572994635 # 10.0.66.101
 
@@ -297,6 +300,7 @@ bed5d9 reboot 1572685196 # 10.0.120.76
 
 ## asic password
 asicpass admin
+
 
 
 
