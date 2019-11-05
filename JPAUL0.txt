@@ -19,7 +19,7 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1350
+global maxwatts 1500
 global autoupdate yes
 global allowed yes
 global maxtemp 90
@@ -56,11 +56,11 @@ a01578 location JPAUL00004
 ## reboots
 
 ## resets
-b34b28 resetasic 1572983580
-a39697 resetasic 1572983580
-a7102e resetasic 1572983580
-a01578 resetasic 1572983580
-9c326c resetasic 1572983580
+b34b28 resetasic 1572984000
+a39697 resetasic 1572984000
+a7102e resetasic 1572984000
+a01578 resetasic 1572984000
+9c326c resetasic 1572984000
 
 ## asic password
 asicpass admin
