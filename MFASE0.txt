@@ -43,6 +43,9 @@ vlan 10.0.66.56-56
 ede705 location MFASE00001
 
 ## tuning
+ede705 maxwatts 700 # 10.0.66.56
+ede705 reboot 1572937826 # 10.0.66.56
+
 ede705 maxwatts 800 # 10.0.66.56
 ede705 reboot 1572936185 # 10.0.66.56
 
@@ -74,6 +77,7 @@ ede705 resetasic 1572931694
 
 ## asic password
 asicpass admin
+
 
 
 
