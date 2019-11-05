@@ -64,6 +64,9 @@ f764a5 location THORA00014
 
 ## tuning
 f764a5 maxwatts -100 # 10.0.58.11
+f764a5 reboot 1572941172 # 10.0.58.11
+
+f764a5 maxwatts -100 # 10.0.58.11
 f764a5 reboot 1572939526 # 10.0.58.11
 
 f764a5 maxwatts -100 # 10.0.58.11
@@ -548,6 +551,7 @@ f764a5 rebootasic 1571340119 # 10.0.58.11
 
 ## asic password
 asicpass admin
+
 
 
 
