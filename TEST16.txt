@@ -123,11 +123,23 @@ vlan 10.0.50.130-130
 ## locations
 
 ## tuning
+b78fed maxwatts 1350 # 10.0.119.4
+647daf maxwatts 1350 # 10.0.77.23
+201341 maxwatts 1350 # 10.0.116.12
+253114 maxwatts 1350 # 10.0.117.24
+dc4996 maxwatts 1350 # 10.0.120.33
+b78fed reboot 1572993042 # 10.0.119.4
+647daf reboot 1572993042 # 10.0.77.23
+201341 reboot 1572993042 # 10.0.116.12
+253114 reboot 1572993042 # 10.0.117.24
+dc4996 reboot 1572993042 # 10.0.120.33
+
 
 ## resets
 
 ## asic password
 asicpass admin
+
 
 
 
