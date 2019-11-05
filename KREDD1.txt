@@ -1,6 +1,7 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
 
 global custompanel KREDD1bit049
+global customer bit49
 
 global poolname1 us-east.stratum.slushpool.com:3333
 global username1 kirankbit
@@ -18,7 +19,6 @@ global sendworker3 yes
 global asicboost yes
 global autotune yes
 global maxwatts 1300
-
 global autoupdate yes
 global allowed yes
 global maxtemp 90
