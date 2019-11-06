@@ -66,6 +66,9 @@ f2296d location TIMAT00021
 
 ## tuning
 7fc10f maxwatts -50 # 10.0.68.72
+7fc10f reboot 1573020355 # 10.0.68.72
+
+7fc10f maxwatts -50 # 10.0.68.72
 7fc10f reboot 1573018658 # 10.0.68.72
 
 7fc10f maxwatts -50 # 10.0.68.72
@@ -523,6 +526,7 @@ f2296d rebootasic 1571340142 # 10.0.68.89
 
 ## asic password
 asicpass admin
+
 
 
 
