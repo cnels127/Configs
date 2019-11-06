@@ -572,6 +572,13 @@ fdbabb location GWELT00296
 
 ## tuning
 df6891 maxwatts -100 # 10.0.67.81
+1e0c4a maxwatts 1300 # 10.0.65.62
+b3c764 maxwatts -100 # 10.0.67.87
+df6891 reboot 1573008355 # 10.0.67.81
+1e0c4a reboot 1573008355 # 10.0.65.62
+b3c764 reboot 1573008355 # 10.0.67.87
+
+df6891 maxwatts -100 # 10.0.67.81
 1e0c4a maxwatts 1400 # 10.0.65.62
 b3c764 maxwatts -100 # 10.0.67.87
 df6891 reboot 1573006630 # 10.0.67.81
@@ -3980,6 +3987,7 @@ b91d80 rebootasic 1571259614 # 10.0.65.50
 
 ## asic password
 asicpass admin
+
 
 
 
