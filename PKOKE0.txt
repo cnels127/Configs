@@ -55,6 +55,9 @@ bd9932 location PKOKE00005
 e5ba90 location PKOKE00009
 
 ## tuning
+f39f2b maxwatts 700 # 10.0.54.135
+f39f2b reboot 1573004940 # 10.0.54.135
+
 f39f2b maxwatts 800 # 10.0.54.135
 f39f2b reboot 1573003230 # 10.0.54.135
 
@@ -107,6 +110,7 @@ ae28ba	resetasic	1573017315
 
 ## asic password
 asicpass admin
+
 
 
 
