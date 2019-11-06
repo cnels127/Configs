@@ -84,6 +84,11 @@ eea5d2 maxwatts 1300 # 10.0.57.66
 eea5d2 reboot 1573008423 # 10.0.57.66
 4b3a51 reboot 1573008423 # 10.0.57.48
 
+eea5d2 maxwatts 1300 # 10.0.57.66
+4b3a51 maxwatts 1000 # 10.0.57.48
+eea5d2 reboot 1573008423 # 10.0.57.66
+4b3a51 reboot 1573008423 # 10.0.57.48
+
 eea5d2 maxwatts 1400 # 10.0.57.66
 4b3a51 maxwatts 1100 # 10.0.57.48
 eea5d2 reboot 1573006686 # 10.0.57.66
@@ -150,6 +155,7 @@ a81c86	resetasic	1573018253
 
 ## asic password
 asicpass admin
+
 
 
 
