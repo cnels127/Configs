@@ -51,6 +51,9 @@ a26081 location ABEAU00002
 64c124 reboot 1573047587 # 10.0.56.68
 
 64c124 maxwatts -100 # 10.0.56.68
+64c124 reboot 1573047587 # 10.0.56.68
+
+64c124 maxwatts -100 # 10.0.56.68
 64c124 reboot 1572924649 # 10.0.56.68
 
 64c124 maxwatts 0 # 10.0.56.68
@@ -152,6 +155,7 @@ a26081 resetasic 1572287800
 
 ## asic password
 asicpass admin
+
 
 
 
