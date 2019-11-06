@@ -132,6 +132,15 @@ b78fed reboot 1573013552 # 10.0.119.4
 647daf reboot 1573013552 # 10.0.77.23
 10992f reboot 1573013552 # 10.0.63.75
 
+b78fed maxwatts 150 # 10.0.119.4
+253114 maxwatts 150 # 10.0.117.24
+647daf maxwatts 150 # 10.0.77.23
+10992f maxwatts 450 # 10.0.63.75
+b78fed reboot 1573013552 # 10.0.119.4
+253114 reboot 1573013552 # 10.0.117.24
+647daf reboot 1573013552 # 10.0.77.23
+10992f reboot 1573013552 # 10.0.63.75
+
 b78fed maxwatts 250 # 10.0.119.4
 253114 maxwatts 250 # 10.0.117.24
 647daf maxwatts 250 # 10.0.77.23
@@ -367,6 +376,7 @@ dc4996 reboot 1572993042 # 10.0.120.33
 
 ## asic password
 asicpass admin
+
 
 
 
