@@ -196,11 +196,17 @@ ed8842 maxwatts -100 # 10.0.56.32
 d8b55c reboot 1573059509 # 10.0.55.95
 ed8842 reboot 1573059509 # 10.0.56.32
 
+d8b55c maxwatts 1400 # 10.0.55.95
+ed8842 maxwatts -100 # 10.0.56.32
+d8b55c reboot 1573059509 # 10.0.55.95
+ed8842 reboot 1573059509 # 10.0.56.32
+
 
 ## reboots
 
 ## asic password
 asicpass admin
+
 
 
 
