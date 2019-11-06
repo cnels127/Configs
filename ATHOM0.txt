@@ -128,6 +128,11 @@ eedbcd reboot 1573062986 # 10.0.64.85
 
 eedbcd maxwatts -50 # 10.0.64.85
 6d1dce maxwatts -50 # 10.0.65.30
+eedbcd reboot 1573062986 # 10.0.64.85
+6d1dce reboot 1573062986 # 10.0.65.30
+
+eedbcd maxwatts -50 # 10.0.64.85
+6d1dce maxwatts -50 # 10.0.65.30
 eedbcd reboot 1573061243 # 10.0.64.85
 6d1dce reboot 1573061243 # 10.0.65.30
 
@@ -1480,6 +1485,7 @@ a1e438 resetasic 1569556282
 
 ## asic password
 asicpass admin
+
 
 
 
