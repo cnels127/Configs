@@ -47,6 +47,9 @@ f726b1 location ZVORW00002
 c2ee95 location ZVORW00003
 
 ## tuning
+c2ee95 maxwatts 700 # 10.0.64.29
+c2ee95 reboot 1573044284 # 10.0.64.29
+
 c2ee95 maxwatts 800 # 10.0.64.29
 c2ee95 reboot 1573042563 # 10.0.64.29
 
@@ -104,6 +107,7 @@ f726b1 rebootasic 1572906832
 
 ## asic password
 asicpass admin
+
 
 
 
