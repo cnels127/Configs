@@ -123,6 +123,9 @@ e3835b maxwatts -100 # 10.0.63.110
 e3835b reboot 1573005001 # 10.0.63.110
 
 e3835b maxwatts -100 # 10.0.63.110
+e3835b reboot 1573005001 # 10.0.63.110
+
+e3835b maxwatts -100 # 10.0.63.110
 e3835b reboot 1573003263 # 10.0.63.110
 
 e3835b maxwatts -100 # 10.0.63.110
@@ -2156,6 +2159,7 @@ acd279 resetasic 1571269484
 
 ## asic password
 asicpass admin
+
 
 
 
