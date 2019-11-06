@@ -58,6 +58,9 @@ e5ba90 location PKOKE00009
 f39f2b maxwatts 400 # 10.0.54.135
 f39f2b reboot 1573010120 # 10.0.54.135
 
+f39f2b maxwatts 400 # 10.0.54.135
+f39f2b reboot 1573010120 # 10.0.54.135
+
 f39f2b maxwatts 500 # 10.0.54.135
 f39f2b reboot 1573008417 # 10.0.54.135
 
@@ -128,6 +131,7 @@ ae28ba	resetasic	1573017315
 
 ## asic password
 asicpass admin
+
 
 
 

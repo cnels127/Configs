@@ -43,6 +43,11 @@ global blinkgreen rapid
 47f0c6 reboot 1573010046 # 10.0.57.20
 8d788a reboot 1573010046 # 10.0.20.129
 
+47f0c6 maxwatts -100 # 10.0.57.20
+8d788a maxwatts 1400 # 10.0.20.129
+47f0c6 reboot 1573010046 # 10.0.57.20
+8d788a reboot 1573010046 # 10.0.20.129
+
 38b6a2 maxwatts 1200 # 10.0.57.16
 38b6a2 reboot 1573006601 # 10.0.57.16
 
@@ -2831,6 +2836,7 @@ c6cbe1 username3 GMTVILLA01
 
 ## asic password
 asicpass admin
+
 
 
 

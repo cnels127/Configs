@@ -69,6 +69,9 @@ ac80c9 maxwatts -50 # 10.0.61.142
 ac80c9 reboot 1573010163 # 10.0.61.142
 
 ac80c9 maxwatts -50 # 10.0.61.142
+ac80c9 reboot 1573010163 # 10.0.61.142
+
+ac80c9 maxwatts -50 # 10.0.61.142
 ac80c9 reboot 1573008464 # 10.0.61.142
 
 ac80c9 maxwatts -50 # 10.0.61.142
@@ -250,6 +253,7 @@ ac80c9 resetasic 1570387772
 
 ## asic password
 asicpass admin
+
 
 
 
