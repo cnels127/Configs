@@ -156,6 +156,15 @@ ad13e2 maxwatts 0 # 10.0.57.119
 d517e7 reboot 1573018662 # 10.0.57.106
 ad13e2 reboot 1573018662 # 10.0.57.119
 
+7b1d13 maxwatts 0 # 10.0.51.3
+9a8744 maxwatts -100 # 10.0.51.38
+d517e7 maxwatts 300 # 10.0.57.106
+ad13e2 maxwatts 0 # 10.0.57.119
+7b1d13 reboot 1573018662 # 10.0.51.3
+9a8744 reboot 1573018662 # 10.0.51.38
+d517e7 reboot 1573018662 # 10.0.57.106
+ad13e2 reboot 1573018662 # 10.0.57.119
+
 7b1d13 maxwatts 100 # 10.0.51.3
 9a8744 maxwatts 0 # 10.0.51.38
 4dac09 maxwatts 0 # 10.0.51.42
@@ -515,6 +524,7 @@ d239b9 reset 1572974200
 
 ## asic password
 asicpass admin
+
 
 
 
