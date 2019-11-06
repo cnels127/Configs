@@ -84,6 +84,9 @@ bc5723 location LKLIN00019
 fc23ff maxwatts 1300 # 10.0.63.37
 fc23ff reboot 1573040772 # 10.0.63.37
 
+fc23ff maxwatts 1300 # 10.0.63.37
+fc23ff reboot 1573040772 # 10.0.63.37
+
 ed846d maxwatts 900 # 10.0.63.107
 ed846d reboot 1573035637 # 10.0.63.107
 
@@ -148,6 +151,7 @@ a28737 resetasic 1572975600
 
 ## asic password
 asicpass admin
+
 
 
 

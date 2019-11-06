@@ -76,6 +76,9 @@ f0ed76 location JBETH00019
 b340b4 maxwatts 1000 # 10.0.68.52
 b340b4 reboot 1573040747 # 10.0.68.52
 
+b340b4 maxwatts 1000 # 10.0.68.52
+b340b4 reboot 1573040747 # 10.0.68.52
+
 b340b4 maxwatts 1100 # 10.0.68.52
 b340b4 reboot 1573039035 # 10.0.68.52
 
@@ -137,6 +140,7 @@ b340b4 reboot 1573033903 # 10.0.68.52
 
 ## asic password
 asicpass admin
+
 
 
 
