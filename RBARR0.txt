@@ -82,6 +82,9 @@ defa6a location RBARR00028
 eea5d2 maxwatts -100 # 10.0.57.66
 eea5d2 reboot 1573032240 # 10.0.57.66
 
+eea5d2 maxwatts -100 # 10.0.57.66
+eea5d2 reboot 1573032240 # 10.0.57.66
+
 eea5d2 maxwatts 0 # 10.0.57.66
 eea5d2 reboot 1573030527 # 10.0.57.66
 
@@ -268,6 +271,7 @@ a81c86	resetasic	1573018253
 
 ## asic password
 asicpass admin
+
 
 
 
