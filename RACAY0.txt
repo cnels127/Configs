@@ -94,6 +94,11 @@ ac1696 maxwatts 300 # 10.0.56.34
 ac1696 reboot 1573022018 # 10.0.56.34
 
 6c2312 maxwatts 0 # 10.0.55.126
+ac1696 maxwatts 300 # 10.0.56.34
+6c2312 reboot 1573022018 # 10.0.55.126
+ac1696 reboot 1573022018 # 10.0.56.34
+
+6c2312 maxwatts 0 # 10.0.55.126
 ac1696 maxwatts 400 # 10.0.56.34
 6c2312 reboot 1573020318 # 10.0.55.126
 ac1696 reboot 1573020318 # 10.0.56.34
@@ -729,6 +734,7 @@ c55a62 resetasic 1569556634
 
 ## asic password
 asicpass admin
+
 
 
 
