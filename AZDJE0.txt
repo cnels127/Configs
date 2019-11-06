@@ -198,6 +198,13 @@ d8b55c reboot 1573023646 # 10.0.55.95
 ed8842 reboot 1573023646 # 10.0.56.32
 5ff091 reboot 1573023646 # 10.0.56.76
 
+d8b55c maxwatts -100 # 10.0.55.95
+ed8842 maxwatts -100 # 10.0.56.32
+5ff091 maxwatts 500 # 10.0.56.76
+d8b55c reboot 1573023646 # 10.0.55.95
+ed8842 reboot 1573023646 # 10.0.56.32
+5ff091 reboot 1573023646 # 10.0.56.76
+
 ed8842 maxwatts -100 # 10.0.56.32
 5ff091 maxwatts 600 # 10.0.56.76
 ed8842 reboot 1573021944 # 10.0.56.32
@@ -3089,6 +3096,7 @@ f026f7 rebootasic 1571251859 # 10.0.56.51
 
 ## asic password
 asicpass admin
+
 
 
 
