@@ -460,6 +460,9 @@ c120c5 maxwatts -100 # 10.0.62.25
 c120c5 reboot 1573152539 # 10.0.62.25
 
 c120c5 maxwatts -100 # 10.0.62.25
+c120c5 reboot 1573152539 # 10.0.62.25
+
+c120c5 maxwatts -100 # 10.0.62.25
 c120c5 reboot 1573145720 # 10.0.62.25
 
 c120c5 maxwatts -100 # 10.0.62.25
@@ -2309,6 +2312,7 @@ b88126 reset 1572446837
 
 ## asic password
 asicpass admin
+
 
 
 
