@@ -28,13 +28,10 @@ global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
-global retune 1
-# global rebootasic 1
-global resetasic 1571113675 # 1
+# global retune 1
+# global reboot 1
+# global reset 1
 # global panelpass gj83Nkgikg
-
-# group=rowc rebootasic 1
-# group=rowd allowed no
 
 ## vlans
 vlan 10.0.66.56-56
@@ -44,13 +41,10 @@ ede705 location MFASE00001
 
 ## tuning
 
-
-
 ## reboots
 
 ## resets
-
-ede705 reset 1573156296
+ede705 reset 1573159405
 
 ## asic password
 asicpass admin
