@@ -28,13 +28,10 @@ global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
-global retune 1
-# global rebootasic 1
-global resetasic 1571461149 # 1571113675 # 1
+# global retune 1
+# global reboot 1
+# global reset 1
 # global panelpass gj83Nkgikg
-
-# group=rowc rebootasic 1
-# group=rowd allowed no
 
 ## vlans
 vlan 10.0.65.71-71
@@ -48,17 +45,10 @@ aa75d6 location NARMO00003
 
 ## tuning
 
-
 ## reboots
 
 ## resets
-
-76e85b resetasic 1572931694
-aa75d6 resetasic 1572931694
+aa75d6 reset 1573159170
 
 ## asic password
 asicpass admin
-
-
-
-
