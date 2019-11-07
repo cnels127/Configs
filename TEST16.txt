@@ -53,9 +53,23 @@ b78fed reboot 1573105942 # 10.0.119.4
 dc4996 reboot 1573105942 # 10.0.120.33
 8a2cec reboot 1573105942 # 10.0.117.23
 
+647daf maxwatts 1350 # 10.0.77.23
+201341 maxwatts 1350 # 10.0.116.12
+b78fed maxwatts 1350 # 10.0.119.4
+253114 maxwatts 1350 # 10.0.117.24
+dc4996 maxwatts 1350 # 10.0.120.33
+8a2cec maxwatts 1350 # 10.0.117.23
+647daf reboot 1573105942 # 10.0.77.23
+201341 reboot 1573105942 # 10.0.116.12
+b78fed reboot 1573105942 # 10.0.119.4
+253114 reboot 1573105942 # 10.0.117.24
+dc4996 reboot 1573105942 # 10.0.120.33
+8a2cec reboot 1573105942 # 10.0.117.23
+
 
 ## resets
 
 ## asic password
 asicpass admin
+
 

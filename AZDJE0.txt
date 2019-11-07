@@ -198,6 +198,13 @@ bd96d6 reboot 1573105825 # 10.0.56.66
 f8714f reboot 1573105825 # 10.0.56.5
 82bf37 reboot 1573105825 # 10.0.56.62
 
+bd96d6 maxwatts 1400 # 10.0.56.66
+f8714f maxwatts 1400 # 10.0.56.5
+82bf37 maxwatts 1400 # 10.0.56.62
+bd96d6 reboot 1573105825 # 10.0.56.66
+f8714f reboot 1573105825 # 10.0.56.5
+82bf37 reboot 1573105825 # 10.0.56.62
+
 
 ## reboots
 d8b55c reboot 1573077599
@@ -211,6 +218,7 @@ bd96d6 reboot 1573077599
 
 ## asic password
 asicpass admin
+
 
 
 
