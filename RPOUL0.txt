@@ -19,7 +19,7 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1350
+global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90
@@ -46,16 +46,14 @@ vlan 10.0.68.30-33
 ba1c4a location RPOUL00004
 
 ## tuning
-12c5ea maxwatts 1250 # 10.0.68.30
-12c5ea reboot 1573006698 # 10.0.68.30
 
-12c5ea maxwatts 1250 # 10.0.68.30
-12c5ea reboot 1573006698 # 10.0.68.30
 
 
 ## reboots
 
 ## resets
+12c5ea reset 1573169502
+256c44 reset 1573169502
 
 ## asic password
 asicpass admin
