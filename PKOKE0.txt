@@ -28,13 +28,10 @@ global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
-global retune 1
-global rebootasic 2
-global resetasic 1571461527 # 1571241400 # 2
+# global retune 1
+# global reboot 1
+# global reset 1
 # global panelpass gj83Nkgikg
-
-# group=rowc rebootasic 1
-# group=rowd allowed no
 
 ## vlans
 vlan 10.0.54.133-135
@@ -61,77 +58,7 @@ e5ba90 location PKOKE00009
 ## reboots
 
 ## resets
-
-f39f2b	resetasic	1573017315
-3bcc51	resetasic	1573017315
-2baaac	resetasic	1573017315
-17739c	resetasic	1573017315
-bcaed0	resetasic	1573017315
-ae28ba	resetasic	1573017315
-
+f39f2b reset 1573164454
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
