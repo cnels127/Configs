@@ -29,8 +29,8 @@ global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
-# global rebootasic 1
-global resetasic 1571113675 # 1
+# global reboot 1
+# global reset 1
 # global panelpass gj83Nkgikg
 
 # group=rowc rebootasic 1
@@ -47,6 +47,7 @@ c27ee4 location RGUME00003
 ## reboots
 
 ## resets
+df79d4 reset 1573160723
 
 ## asic password
 asicpass admin
