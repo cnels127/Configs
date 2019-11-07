@@ -158,6 +158,11 @@ e2ac32 maxwatts 1350 # 10.0.60.59
 b688aa reboot 1573167841 # 10.0.60.69
 e2ac32 reboot 1573167841 # 10.0.60.59
 
+b688aa maxwatts 1350 # 10.0.60.69
+e2ac32 maxwatts 1350 # 10.0.60.59
+b688aa reboot 1573167841 # 10.0.60.69
+e2ac32 reboot 1573167841 # 10.0.60.59
+
 
 ## reboots
 
@@ -165,6 +170,7 @@ e2ac32 reboot 1573167841 # 10.0.60.59
 
 ## asic password
 asicpass admin
+
 
 
 

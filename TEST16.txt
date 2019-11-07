@@ -43,6 +43,9 @@ global resetasic 1571113675 # 1
 647daf maxwatts 50 # 10.0.77.23
 647daf reboot 1573167922 # 10.0.77.23
 
+647daf maxwatts 50 # 10.0.77.23
+647daf reboot 1573167922 # 10.0.77.23
+
 647daf maxwatts 150 # 10.0.77.23
 647daf reboot 1573166224 # 10.0.77.23
 
@@ -274,6 +277,7 @@ dc4996 reboot 1573105942 # 10.0.120.33
 
 ## asic password
 asicpass admin
+
 
 
 
