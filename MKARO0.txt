@@ -19,7 +19,7 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1350
+global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90
@@ -29,8 +29,8 @@ global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
-# global rebootasic 1
-global resetasic 1571113675 # 1
+global reboot 1573165710 # 1
+global reset 1571113675 # 1
 # global panelpass gj83Nkgikg
 
 # group=rowc rebootasic 1
@@ -93,22 +93,8 @@ a53423 location MKARO00024
 ## tuning
 
 ## reboots
-000122 reboot 1573073968
-cd859b reboot 1573073968
-7f2285 reboot 1573073968
-15319a reboot 1573073968
-5ee162 reboot 1573073968
-742bc7 reboot 1573073968
-9851d4 reboot 1573073968
 
 ## resets
-cd859b resetasic 1570213416
-7f2285 resetasic 2
-5ee162 resetasic 2
-32b6d0 resetasic 1
-000122 resetasic 1
-f2e682 resetasic 1
-9851d4 resetasic 1
 
 ## asic password
 asicpass admin
