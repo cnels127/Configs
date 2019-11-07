@@ -459,6 +459,9 @@ f62743 location CRIBE00204
 cdce27 maxwatts -100 # 10.0.117.120
 cdce27 reboot 1573166124 # 10.0.117.120
 
+cdce27 maxwatts -100 # 10.0.117.120
+cdce27 reboot 1573166124 # 10.0.117.120
+
 d201ca maxwatts 1400 # 10.0.116.13
 d201ca reboot 1573164426 # 10.0.116.13
 
@@ -2333,6 +2336,7 @@ b88126 reset 1572446837
 
 ## asic password
 asicpass admin
+
 
 
 
