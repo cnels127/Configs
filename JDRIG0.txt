@@ -28,13 +28,10 @@ global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
-global retune 2
-global rebootasic 1
-global resetasic 1571459554 # 1571113675 # 1
+# global retune 2
+# global reboot 1
+# global reset 1
 # global panelpass gj83Nkgikg
-
-# group=rowc rebootasic 1
-# group=rowd allowed no
 
 ## vlans
 vlan 10.0.55.99-99
@@ -72,10 +69,11 @@ e2fa14 rebootasic 1571665696 # 10.0.66.22
 93e110 maxwatts 1400 # 10.0.56.104
 93e110 rebootasic 1571519445 # 10.0.56.104
 
-
 ## reboots
 
 ## resets
+11bafe reset 1573168318
+d55626 reset 1573168318
 
 ## asic password
 asicpass admin
