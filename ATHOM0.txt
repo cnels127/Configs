@@ -121,91 +121,7 @@ d13d9c location ATHOM00039
 31a7ae location ATHOM00040
 
 ## tuning
-fbf1ac maxwatts 850 # 10.0.65.22
-c2edd9 maxwatts 1050 # 10.0.65.159
-3b7299 maxwatts 750 # 10.0.66.11
-fbf1ac reboot 1573159326 # 10.0.65.22
-c2edd9 reboot 1573159326 # 10.0.65.159
-3b7299 reboot 1573159326 # 10.0.66.11
 
-fbf1ac maxwatts 850 # 10.0.65.22
-c2edd9 maxwatts 1050 # 10.0.65.159
-3b7299 maxwatts 750 # 10.0.66.11
-fbf1ac reboot 1573159326 # 10.0.65.22
-c2edd9 reboot 1573159326 # 10.0.65.159
-3b7299 reboot 1573159326 # 10.0.66.11
-
-fbf1ac maxwatts 950 # 10.0.65.22
-c2edd9 maxwatts 1150 # 10.0.65.159
-3b7299 maxwatts 850 # 10.0.66.11
-fbf1ac reboot 1573157630 # 10.0.65.22
-c2edd9 reboot 1573157630 # 10.0.65.159
-3b7299 reboot 1573157630 # 10.0.66.11
-
-fbf1ac maxwatts 950 # 10.0.65.22
-c2edd9 maxwatts 1150 # 10.0.65.159
-3b7299 maxwatts 850 # 10.0.66.11
-fbf1ac reboot 1573157630 # 10.0.65.22
-c2edd9 reboot 1573157630 # 10.0.65.159
-3b7299 reboot 1573157630 # 10.0.66.11
-
-fbf1ac maxwatts 1050 # 10.0.65.22
-c2edd9 maxwatts 1250 # 10.0.65.159
-3b7299 maxwatts 950 # 10.0.66.11
-fbf1ac reboot 1573155933 # 10.0.65.22
-c2edd9 reboot 1573155933 # 10.0.65.159
-3b7299 reboot 1573155933 # 10.0.66.11
-
-fbf1ac maxwatts 1050 # 10.0.65.22
-c2edd9 maxwatts 1250 # 10.0.65.159
-3b7299 maxwatts 950 # 10.0.66.11
-fbf1ac reboot 1573155933 # 10.0.65.22
-c2edd9 reboot 1573155933 # 10.0.65.159
-3b7299 reboot 1573155933 # 10.0.66.11
-
-fbf1ac maxwatts 1150 # 10.0.65.22
-c2edd9 maxwatts 1350 # 10.0.65.159
-3b7299 maxwatts 1050 # 10.0.66.11
-fbf1ac reboot 1573154233 # 10.0.65.22
-c2edd9 reboot 1573154233 # 10.0.65.159
-3b7299 reboot 1573154233 # 10.0.66.11
-
-fbf1ac maxwatts 1150 # 10.0.65.22
-c2edd9 maxwatts 1350 # 10.0.65.159
-3b7299 maxwatts 1050 # 10.0.66.11
-fbf1ac reboot 1573154233 # 10.0.65.22
-c2edd9 reboot 1573154233 # 10.0.65.159
-3b7299 reboot 1573154233 # 10.0.66.11
-
-3b7299 maxwatts 1150 # 10.0.66.11
-3b7299 reboot 1573152530 # 10.0.66.11
-
-3b7299 maxwatts 1150 # 10.0.66.11
-3b7299 reboot 1573152530 # 10.0.66.11
-
-d58ae6 maxwatts 1350 # 10.0.63.134
-fbf1ac maxwatts 1250 # 10.0.65.22
-3b7299 maxwatts 1250 # 10.0.66.11
-d58ae6 reboot 1573150821 # 10.0.63.134
-fbf1ac reboot 1573150821 # 10.0.65.22
-3b7299 reboot 1573150821 # 10.0.66.11
-
-d58ae6 maxwatts 1350 # 10.0.63.134
-fbf1ac maxwatts 1250 # 10.0.65.22
-3b7299 maxwatts 1250 # 10.0.66.11
-d58ae6 reboot 1573150821 # 10.0.63.134
-fbf1ac reboot 1573150821 # 10.0.65.22
-3b7299 reboot 1573150821 # 10.0.66.11
-
-fbf1ac maxwatts 1350 # 10.0.65.22
-3b7299 maxwatts 1350 # 10.0.66.11
-fbf1ac reboot 1573149116 # 10.0.65.22
-3b7299 reboot 1573149116 # 10.0.66.11
-
-fbf1ac maxwatts 1350 # 10.0.65.22
-3b7299 maxwatts 1350 # 10.0.66.11
-fbf1ac reboot 1573149116 # 10.0.65.22
-3b7299 reboot 1573149116 # 10.0.66.11
 
 
 
@@ -213,45 +129,7 @@ fbf1ac reboot 1573149116 # 10.0.65.22
 
 
 ## resets
-34f9ef resetasic 1573148280
-f9ca53 resetasic 1573148280
-ead461 resetasic 1573148280
-d58ae6 resetasic 1573148280
-acb675 resetasic 1573148280
-c2edd9 resetasic 1573148280
-fbf1ac resetasic 1573148280
-9be27b resetasic 1573148280
-794f98 resetasic 1573148280
-3b7299 resetasic 1573148280
-083c04 resetasic 1573148280
-de2039 resetasic 1573148280
-72e31f resetasic 1573148280
-bbe46f resetasic 1573148280
-f5e0ce resetasic 1573148280
-979a64 resetasic 1573148280
-65a8fa resetasic 1573148280
-882711 resetasic 1573148280
-756a0c resetasic 1573148280
-f56d20 resetasic 1573148280
-82bd69 resetasic 1573148280
-42f4ea resetasic 1573148280
-a1e438 resetasic 1573148280
-158ab6 resetasic 1573148280
-6704f5 resetasic 1573148280
-e1960a resetasic 1573148280
-94442a resetasic 1573148280
-ae4552 resetasic 1573148280
-d13d9c resetasic 1573148280
-6a323b resetasic 1573148280
-2bb6c8 resetasic 1573148280
-981425 resetasic 1573148280
-31a7ae resetasic 1573148280
-b2bd4a resetasic 1573148280
-952ba2 resetasic 1573148280
-9b3517 resetasic 1573148280
-eedbcd resetasic 1573148280
-6d1dce resetasic 1573148280
-67ef67 resetasic 1573148280
+
 
 
 ## asic password
