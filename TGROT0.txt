@@ -31,12 +31,9 @@ global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
-# global rebootasic 1
-global resetasic 1571462476 # 1571338001 # 1571113675 # 1
+# global reboot 1
+# global reset 1
 # global panelpass gj83Nkgikg
-
-# group=rowc rebootasic 1
-# group=rowd allowed no
 
 ## vlans
 vlan 10.0.61.157-157
@@ -87,49 +84,10 @@ a83fdc location TGROT00012
 052e16 maxwatts 1350 # 10.0.116.37
 052e16 reboot 1573105945 # 10.0.116.37
 
-
-
-
 ## reboots
 
 ## resets
-
-
-56444d	resetasic 1573019402
-a83fdc	resetasic 1573019402
-0040fc	resetasic 1573019402
-d664b7	resetasic 1573019402
-dae245	resetasic 1573019402
-a485fd	resetasic 1573019402
-f2dc4d	resetasic 1573019402
-1ea527	resetasic 1573019402
-052e16 resetasic 1573019402
+f2dc4d reset 1573151731
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
