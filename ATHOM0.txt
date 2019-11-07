@@ -124,6 +124,9 @@ d13d9c location ATHOM00039
 eedbcd maxwatts -50 # 10.0.64.85
 eedbcd reboot 1573107549 # 10.0.64.85
 
+eedbcd maxwatts -50 # 10.0.64.85
+eedbcd reboot 1573107549 # 10.0.64.85
+
 34f9ef maxwatts -50 # 10.0.54.132
 eedbcd maxwatts -50 # 10.0.64.85
 6d1dce maxwatts -50 # 10.0.65.30
@@ -1502,6 +1505,7 @@ a1e438 resetasic 1569556282
 
 ## asic password
 asicpass admin
+
 
 
 
