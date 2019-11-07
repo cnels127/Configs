@@ -19,7 +19,7 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1350
+global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90
@@ -29,7 +29,7 @@ global blinkred idle
 global blinkgreen rapid
 
 # global retune 
-# global reboot 
+global reboot 1573165426 # 1
 # global reset 
 # global panelpass gj83Nkgikg
 
@@ -72,26 +72,10 @@ eef025 location DDUNN00016
 58df28 location DDUNN00018
 
 ## tuning
-787c22 reboot 1572581298 # 10.0.56.112 ddunn00017
- 
-
-13424f maxwatts 1250 # 10.0.56.69
-13424f reboot 1572379609 # 10.0.56.69
-
-733b65 maxwatts 1250 # 10.0.55.119
-733b65 reboot 1572201479 # 10.0.55.119
-
 
 ## reboots
-787c22 reboot 1572167955
 
 ## resets
-9e76a6 reset 1573077158 
-ee9f37 reset 1572167955
-0f26d2 reset 1572167955
-14da93 reset 1572167955
-46781e reset 1572167955
-23c698 reset 1572167955
 
 ## asic password
 asicpass admin
