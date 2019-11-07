@@ -31,8 +31,8 @@ global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
-# global rebootasic 1
-global resetasic 1571113675 # 2
+# global reboot 1
+# global reset 1
 # global panelpass gj83Nkgikg
 
 # group=rowc rebootasic 1
@@ -55,65 +55,8 @@ f6388e location MSETI00005
 35e5b2 location MSETI00006
 
 ## tuning
-62c9b6 maxwatts 1300 # 10.0.63.140
-62c9b6 reboot 1573107624 # 10.0.63.140
-
-62c9b6 maxwatts 1300 # 10.0.63.140
-62c9b6 reboot 1573107624 # 10.0.63.140
-
-62c9b6 maxwatts 1400 # 10.0.63.140
-62c9b6 reboot 1573105895 # 10.0.63.140
-
-62c9b6 maxwatts 1400 # 10.0.63.140
-62c9b6 reboot 1573105895 # 10.0.63.140
-
-
-
 
 ## resets
-a22315 resetasic 1572527385  
-35e5b2 resetasic 1572527385  
-
-7104a2 resetasic 1569948223
-743db3 resetasic 1569948223
-
-f6388e resetasic 1572927017
-7104a2 resetasic 1572927017
-a22315 resetasic 1572927017
-743db3 resetasic 1572927017
-35e5b2 resetasic 1572927017
-
-a22315 resetasic 1573015844
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
