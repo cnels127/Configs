@@ -54,6 +54,9 @@ b70584 location RBARR10006 # thomas
 cfd708 location RBARR10007 # shadow
 
 ## tuning
+713952 maxwatts 100 # 10.10.125.241
+713952 reboot 1573236586 # 10.10.125.241
+
 713952 maxwatts 200 # 10.10.125.241
 713952 reboot 1573234892 # 10.10.125.241
 
@@ -139,6 +142,7 @@ cfd708 location RBARR10007 # shadow
 
 ## asic password
 asicpass admin
+
 
 
 
