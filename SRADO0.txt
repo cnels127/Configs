@@ -123,6 +123,9 @@ fb2a81 location SRADO00042
 26db41 reboot 1573184956 # 10.0.60.122
 
 26db41 maxwatts -100 # 10.0.60.122
+26db41 reboot 1573184956 # 10.0.60.122
+
+26db41 maxwatts -100 # 10.0.60.122
 26db41 reboot 1573183249 # 10.0.60.122
 
 26db41 maxwatts -100 # 10.0.60.122
@@ -2598,6 +2601,7 @@ acd279 resetasic 1571269484
 
 ## asic password
 asicpass admin
+
 
 
 
