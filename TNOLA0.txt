@@ -31,6 +31,9 @@ global blinkgreen rapid
 # global retune 1
 # global reboot 1
 # global reset 1
+
+global reset 1573239537
+
 # global panelpass gj83Nkgikg
 
 ## vlans
@@ -44,23 +47,6 @@ f7deb6 location TNOLA00002
 be162a location TNOLA00005
 
 ## tuning
-eaab57 maxwatts 1250 # 10.0.57.76
-eaab57 rebootasic 1571724734 # 10.0.57.76
-
-be162a maxwatts 1350 # 10.0.57.80
-be162a rebootasic 1571664065 # 10.0.57.80
-
-eaab57 maxwatts 1350 # 10.0.57.76
-eaab57 rebootasic 1571626756 # 10.0.57.76
-
-f7deb6 maxwatts 1150 # 10.0.57.77
-f7deb6 rebootasic 1571554866 # 10.0.57.77
-
-f7deb6 maxwatts 1250 # 10.0.57.77
-f7deb6 rebootasic 1571549912 # 10.0.57.77
-
-f7deb6 maxwatts 1350 # 10.0.57.77
-f7deb6 rebootasic 1571497536 # 10.0.57.77
 
 
 ## reboots
