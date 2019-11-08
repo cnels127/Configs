@@ -61,6 +61,11 @@ ceac8d location HKATZ00005
 44ba88 reboot 1573230045 # 10.0.68.39
 7f79ef reboot 1573230045 # 10.0.66.30
 
+44ba88 maxwatts 1100 # 10.0.68.39
+7f79ef maxwatts 1100 # 10.0.66.30
+44ba88 reboot 1573230045 # 10.0.68.39
+7f79ef reboot 1573230045 # 10.0.66.30
+
 44ba88 maxwatts 1200 # 10.0.68.39
 7f79ef maxwatts 1200 # 10.0.66.30
 44ba88 reboot 1573228259 # 10.0.68.39
@@ -111,6 +116,7 @@ fae301 resetasic 1572931694
 
 ## asic password
 asicpass admin
+
 
 
 

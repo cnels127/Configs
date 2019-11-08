@@ -298,6 +298,11 @@ d7ef39 maxwatts 700 # 10.0.77.116
 ef6a37 reboot 1573230005 # 10.0.77.61
 d7ef39 reboot 1573230005 # 10.0.77.116
 
+ef6a37 maxwatts 900 # 10.0.77.61
+d7ef39 maxwatts 700 # 10.0.77.116
+ef6a37 reboot 1573230005 # 10.0.77.61
+d7ef39 reboot 1573230005 # 10.0.77.116
+
 d7ef39 maxwatts 800 # 10.0.77.116
 d7ef39 reboot 1573228218 # 10.0.77.116
 
@@ -557,6 +562,7 @@ ef16b9	resetasic	1573012245
 
 ## asic password
 asicpass admin
+
 
 
 
