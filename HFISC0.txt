@@ -160,6 +160,13 @@ f2b75b location HFISC00056
 1cfdcb reboot 1573224647 # 10.0.68.61
 540742 reboot 1573224647 # 10.0.58.10
 
+1c50a6 maxwatts 1250 # 10.0.68.59
+1cfdcb maxwatts 1350 # 10.0.68.61
+540742 maxwatts 1350 # 10.0.58.10
+1c50a6 reboot 1573224647 # 10.0.68.59
+1cfdcb reboot 1573224647 # 10.0.68.61
+540742 reboot 1573224647 # 10.0.58.10
+
 6efefd maxwatts 1250 # 10.0.68.62
 6efefd reboot 1573217616 # 10.0.68.62
 
@@ -214,6 +221,7 @@ e2ac32 reboot 1573167841 # 10.0.60.59
 
 ## asic password
 asicpass admin
+
 
 
 
