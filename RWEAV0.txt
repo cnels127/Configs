@@ -39,28 +39,31 @@ global blinkgreen rapid
 
 ## vlans
 vlan 10.0.55.5-5
+vlan 10.0.63.3-3
+vlan 10.0.115.15-15
 vlan 10.0.116.52-52
 vlan 10.0.117.9-9
+## The next machine is the machine that should be replaced when we find a better machine that will bring the panel's total hash rate up to the expected value.
 vlan 10.0.117.20-20
-vlan 10.0.118.51-51
+## The next machine is the extra machine that should be removed when the other 7 are all hashing at the expected total hash rate.
 vlan 10.0.118.56-56
 vlan 10.0.119.8-8
-vlan 10.0.121.43-43
 
 ## locations
 09cad2 location RWEAV000001
-bfbee3 location RWEAV000002
-599752 location RWEAV000003
-2f6996 location RWEAV000004
-54b1c1 location RWEAV000005
-156f0f location RWEAV000006
+50c56b location RWEAV000002
+4c349f location RWEAV000003
+bfbee3 location RWEAV000004
+599752 location RWEAV000005
+## The next machine is the machine that should be replaced when we find a better machine that will bring the panel's total hash rate up to the expected value.
+2f6996 location RWEAV000006
+## The next machine is the extra machine that should be removed when the other 7 are all hashing at the expected total hash rate.
+156f0f location RWEAV000006  
 24884e location RWEAV000007
-b40f5a location RWEAV000007
 
 ## reboots
 
 ## resets
-
 
 ## asic password
 asicpass admin
