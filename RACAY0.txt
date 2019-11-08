@@ -91,6 +91,9 @@ f729dc location RACAY00022
 e98a1b maxwatts 1400 # 10.0.55.106
 e98a1b reboot 1573172988 # 10.0.55.106
 
+e98a1b maxwatts 1400 # 10.0.55.106
+e98a1b reboot 1573172988 # 10.0.55.106
+
 
 
 ## resets
@@ -99,6 +102,7 @@ c55a62 resetasic 1569556634
 
 ## asic password
 asicpass admin
+
 
 
 
