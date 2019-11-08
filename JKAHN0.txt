@@ -43,6 +43,9 @@ vlan 10.0.68.7-7
 ef83d4 location JKAHN00001
 
 ## tuning
+ef83d4 maxwatts 1400 # 10.0.68.5
+ef83d4 reboot 1573224668 # 10.0.68.5
+
 
 ## reboots
 
@@ -51,4 +54,5 @@ ef83d4 resetasic 1571729637
 
 ## asic password
 asicpass admin
+
 
