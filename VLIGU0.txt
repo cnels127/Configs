@@ -148,6 +148,11 @@ db2bbb location VLIGU00092
 
 ## tuning
 ad13e2 maxwatts -100 # 10.0.57.119
+a1b050 maxwatts 1200 # 10.0.32.83
+ad13e2 reboot 1573186677 # 10.0.57.119
+a1b050 reboot 1573186677 # 10.0.32.83
+
+ad13e2 maxwatts -100 # 10.0.57.119
 a1b050 maxwatts 1300 # 10.0.32.83
 ad13e2 reboot 1573184972 # 10.0.57.119
 a1b050 reboot 1573184972 # 10.0.32.83
@@ -677,6 +682,7 @@ d239b9 reset 1572974200
 
 ## asic password
 asicpass admin
+
 
 
 

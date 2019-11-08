@@ -74,6 +74,9 @@ f3c9af location HFAUS00012
 11d430 location HFAUS00013
 
 ## tuning
+737fce maxwatts 1350 # 10.0.61.109
+737fce reboot 1573186584 # 10.0.61.109
+
 fe7105 maxwatts 1150 # 10.0.65.112
 fe7105 reboot 1573184876 # 10.0.65.112
 
@@ -103,6 +106,7 @@ fe7105 reboot 1573181463 # 10.0.65.112
 
 ## asic password
 asicpass admin
+
 
 
 
