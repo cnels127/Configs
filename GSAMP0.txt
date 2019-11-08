@@ -28,9 +28,9 @@ global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
-global retune 2
-global reboot 1
-global reset 1571113675 # 1
+# global retune 2
+# global reboot 1
+# global reset 1
 # global panelpass gj83Nkgikg
 
 ## reboots
@@ -41,9 +41,6 @@ c09684 reboot 1
 de1da0 reboot 1
 4ec51b reboot 1
 b4de4e reboot 1
-
-# group=rowc reboot 1
-# group=rowd allowed no
 
 ## vlans
 vlan 10.0.56.40-41
@@ -102,19 +99,11 @@ f24571 location GSAMP00026
 d223ec location GSAMP00030
 
 ## tuning
-26be5d maxwatts 1400 # 10.0.59.41
-26be5d reboot 1572593548 # 10.0.59.41
-
-8e284e maxwatts 1300 # 10.0.56.75
-8e284e reboot 1571759487 # 10.0.56.75
-
-8e284e maxwatts 1400 # 10.0.56.75
-8e284e reboot 1571756149 # 10.0.56.75
-
 
 ## reboots
 
 ## resets
+8e284e reset 1573171719
 78cb4c reset 1573065305
 e61d93 reset 1572962260 # 10.0.59.46
 78cb4c reset 1572962260 # 10.0.59.49
