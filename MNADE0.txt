@@ -63,6 +63,13 @@ e8521d maxwatts 900 # 10.0.68.25
 4c4fe6 reboot 1573234877 # 10.0.68.23
 e8521d reboot 1573234877 # 10.0.68.25
 
+543775 maxwatts 900 # 10.0.68.22
+4c4fe6 maxwatts 900 # 10.0.68.23
+e8521d maxwatts 900 # 10.0.68.25
+543775 reboot 1573234877 # 10.0.68.22
+4c4fe6 reboot 1573234877 # 10.0.68.23
+e8521d reboot 1573234877 # 10.0.68.25
+
 543775 maxwatts 1000 # 10.0.68.22
 4c4fe6 maxwatts 1000 # 10.0.68.23
 e8521d maxwatts 1000 # 10.0.68.25
@@ -223,6 +230,7 @@ d89759 rebootasic 1573061775
 
 ## asic password
 asicpass admin
+
 
 
 

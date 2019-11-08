@@ -41,6 +41,9 @@ global blinkgreen rapid
 f1ead0 maxwatts 1300 # 10.0.120.93
 f1ead0 reboot 1573234814 # 10.0.120.93
 
+f1ead0 maxwatts 1300 # 10.0.120.93
+f1ead0 reboot 1573234814 # 10.0.120.93
+
 b5df40 maxwatts 1400 # 10.0.20.26
 fbac47 maxwatts 1400 # 10.0.20.43
 47f0c6 maxwatts -100 # 10.0.57.20
@@ -2887,6 +2890,7 @@ c6cbe1 username3 GMTVILLA01
 
 ## asic password
 asicpass admin
+
 
 
 
