@@ -153,6 +153,11 @@ ad13e2 reboot 1573183263 # 10.0.57.119
 a1b050 reboot 1573183263 # 10.0.32.83
 
 ad13e2 maxwatts -100 # 10.0.57.119
+a1b050 maxwatts 1400 # 10.0.32.83
+ad13e2 reboot 1573183263 # 10.0.57.119
+a1b050 reboot 1573183263 # 10.0.32.83
+
+ad13e2 maxwatts -100 # 10.0.57.119
 ad13e2 reboot 1573181558 # 10.0.57.119
 
 ad13e2 maxwatts -100 # 10.0.57.119
@@ -662,6 +667,7 @@ d239b9 reset 1572974200
 
 ## asic password
 asicpass admin
+
 
 
 
