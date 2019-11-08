@@ -68,49 +68,6 @@ e6ca25 location KAUYE00013
 d87db4 location KAUYE00014
 
 ## tuning
-9249ec maxwatts 800 # 10.0.56.11
-9249ec rebootasic 1571739568 # 10.0.56.11
-
-9249ec maxwatts 900 # 10.0.56.11
-9249ec rebootasic 1571646753 # 10.0.56.11
-
-9249ec maxwatts 1000 # 10.0.56.11
-9249ec rebootasic 1571638344 # 10.0.56.11
-
-9249ec maxwatts 1100 # 10.0.56.11
-9249ec rebootasic 1571636667 # 10.0.56.11
-
-9249ec maxwatts 1200 # 10.0.56.11
-9249ec rebootasic 1571626679 # 10.0.56.11
-
-9249ec maxwatts 1300 # 10.0.56.11
-9249ec rebootasic 1571606821 # 10.0.56.11
-
-9249ec maxwatts 1400 # 10.0.56.11
-9249ec rebootasic 1571603519 # 10.0.56.11
-
-4d1860 maxwatts 900 # 10.0.55.100
-4d1860 rebootasic 1571588642 # 10.0.55.100
-
-4d1860 maxwatts 1000 # 10.0.55.100
-4d1860 rebootasic 1571571320 # 10.0.55.100
-
-4d1860 maxwatts 1100 # 10.0.55.100
-4d1860 rebootasic 1571568014 # 10.0.55.100
-
-4d1860 maxwatts 1200 # 10.0.55.100
-4d1860 rebootasic 1571564707 # 10.0.55.100
-
-4d1860 maxwatts 1300 # 10.0.55.100
-4d1860 rebootasic 1571561402 # 10.0.55.100
-
-e6ca25 maxwatts 1400 # 10.0.56.108
-e6ca25 rebootasic 1571534902 # 10.0.56.108
-
-4d1860 maxwatts 1400 # 10.0.55.100
-02423d maxwatts 1400 # 10.0.55.135
-4d1860 rebootasic 1571519813 # 10.0.55.100
-02423d rebootasic 1571519813 # 10.0.55.135
 
 
 ## fans
@@ -118,8 +75,8 @@ e6ca25 rebootasic 1571534902 # 10.0.56.108
 ## reboots
 
 ## resets
-0a35cb resetasic 1571270056
-ddae42 resetasic 1571152973
+9249ec resetasic 1573177516
+4d1860 resetasic 1573177516
 
 ## asic password
 asicpass admin
