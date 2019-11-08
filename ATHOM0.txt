@@ -130,6 +130,15 @@ c2edd9 reboot 1573181436 # 10.0.65.159
 d58ae6 reboot 1573181436 # 10.0.63.134
 eedbcd reboot 1573181436 # 10.0.64.85
 
+3b7299 maxwatts 750 # 10.0.66.11
+c2edd9 maxwatts 750 # 10.0.65.159
+d58ae6 maxwatts 750 # 10.0.63.134
+eedbcd maxwatts 950 # 10.0.64.85
+3b7299 reboot 1573181436 # 10.0.66.11
+c2edd9 reboot 1573181436 # 10.0.65.159
+d58ae6 reboot 1573181436 # 10.0.63.134
+eedbcd reboot 1573181436 # 10.0.64.85
+
 3b7299 maxwatts 850 # 10.0.66.11
 c2edd9 maxwatts 850 # 10.0.65.159
 d58ae6 maxwatts 850 # 10.0.63.134
@@ -243,6 +252,7 @@ d58ae6 reboot 1573171212 # 10.0.63.134
 
 ## asic password
 asicpass admin
+
 
 
 
