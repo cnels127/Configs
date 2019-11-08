@@ -458,6 +458,11 @@ db1ede maxwatts 1400 # 10.0.117.141
 340637 reboot 1573217593 # 10.0.63.2
 db1ede reboot 1573217593 # 10.0.117.141
 
+340637 maxwatts 1300 # 10.0.63.2
+db1ede maxwatts 1400 # 10.0.117.141
+340637 reboot 1573217593 # 10.0.63.2
+db1ede reboot 1573217593 # 10.0.117.141
+
 340637 maxwatts 1400 # 10.0.63.2
 340637 reboot 1573210637 # 10.0.63.2
 
@@ -591,6 +596,7 @@ b88126 reset 1572446837
 
 ## asic password
 asicpass admin
+
 
 
 

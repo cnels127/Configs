@@ -136,6 +136,9 @@ a62f6a location KGRAF00045
 a62f6a maxwatts 1000 # 10.0.68.45
 a62f6a reboot 1573217645 # 10.0.68.45
 
+a62f6a maxwatts 1000 # 10.0.68.45
+a62f6a reboot 1573217645 # 10.0.68.45
+
 0f2dda maxwatts 1000 # 10.0.121.1
 0f2dda reboot 1573150869 # 10.0.121.1
 
@@ -402,6 +405,7 @@ a62f6a rebootasic 1571074789 # 10.0.68.45
 
 ## asic password
 asicpass admin
+
 
 
 
