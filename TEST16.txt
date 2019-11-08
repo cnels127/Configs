@@ -50,6 +50,15 @@ a7849c reboot 1573195233 # 10.0.66.23
 aa0224 reboot 1573195233 # 10.0.120.34
 
 647daf maxwatts -50 # 10.0.77.23
+dc4996 maxwatts 750 # 10.0.120.33
+a7849c maxwatts 450 # 10.0.66.23
+aa0224 maxwatts 950 # 10.0.120.34
+647daf reboot 1573195233 # 10.0.77.23
+dc4996 reboot 1573195233 # 10.0.120.33
+a7849c reboot 1573195233 # 10.0.66.23
+aa0224 reboot 1573195233 # 10.0.120.34
+
+647daf maxwatts -50 # 10.0.77.23
 dc4996 maxwatts 850 # 10.0.120.33
 a7849c maxwatts 550 # 10.0.66.23
 aa0224 maxwatts 1050 # 10.0.120.34
@@ -432,6 +441,7 @@ dc4996 reboot 1573105942 # 10.0.120.33
 
 ## asic password
 asicpass admin
+
 
 
 
