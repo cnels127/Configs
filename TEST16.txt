@@ -41,6 +41,11 @@ global resetasic 1571113675 # 1
 
 ## tuning
 647daf maxwatts -50 # 10.0.77.23
+a7849c maxwatts 1350 # 10.0.66.23
+647daf reboot 1573179842 # 10.0.77.23
+a7849c reboot 1573179842 # 10.0.66.23
+
+647daf maxwatts -50 # 10.0.77.23
 647daf reboot 1573178136 # 10.0.77.23
 
 647daf maxwatts -50 # 10.0.77.23
@@ -310,6 +315,7 @@ dc4996 reboot 1573105942 # 10.0.120.33
 
 ## asic password
 asicpass admin
+
 
 
 
