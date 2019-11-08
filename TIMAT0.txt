@@ -73,6 +73,13 @@ f2296d location TIMAT00021
 5d5985 reboot 1573240029 # 10.0.68.70
 
 7fc10f maxwatts -50 # 10.0.68.72
+151ac6 maxwatts 350 # 10.0.68.69
+5d5985 maxwatts 450 # 10.0.68.70
+7fc10f reboot 1573240029 # 10.0.68.72
+151ac6 reboot 1573240029 # 10.0.68.69
+5d5985 reboot 1573240029 # 10.0.68.70
+
+7fc10f maxwatts -50 # 10.0.68.72
 151ac6 maxwatts 450 # 10.0.68.69
 5d5985 maxwatts 550 # 10.0.68.70
 7fc10f reboot 1573238324 # 10.0.68.72
@@ -943,6 +950,7 @@ f2296d rebootasic 1571340142 # 10.0.68.89
 
 ## asic password
 asicpass admin
+
 
 
 

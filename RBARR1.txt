@@ -57,6 +57,9 @@ cfd708 location RBARR10007 # shadow
 713952 maxwatts -100 # 10.10.125.241
 713952 reboot 1573239994 # 10.10.125.241
 
+713952 maxwatts -100 # 10.10.125.241
+713952 reboot 1573239994 # 10.10.125.241
+
 713952 maxwatts 0 # 10.10.125.241
 713952 reboot 1573238290 # 10.10.125.241
 
@@ -154,6 +157,7 @@ cfd708 location RBARR10007 # shadow
 
 ## asic password
 asicpass admin
+
 
 
 
