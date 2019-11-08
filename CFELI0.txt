@@ -24,7 +24,7 @@ global maxwatts 1500
 global autoupdate yes
 global allowed yes
 global maxtemp 90
-global fanspeed 65
+global fanspeed 100
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
@@ -33,9 +33,6 @@ global blinkgreen rapid
 # global reboot 1
 # global reset 1
 # global panelpass gj83Nkgikg
-
-# group=rowc rebootasic 1
-# group=rowd allowed no
 
 ## vlans
 vlan 10.0.51.59-59
