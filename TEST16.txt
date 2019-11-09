@@ -42,6 +42,11 @@ global blinkgreen rapid
 647daf reboot 1573332165 # 10.0.77.23
 253114 reboot 1573332165 # 10.0.117.24
 
+647daf maxwatts 1050 # 10.0.77.23
+253114 maxwatts 1250 # 10.0.117.24
+647daf reboot 1573332165 # 10.0.77.23
+253114 reboot 1573332165 # 10.0.117.24
+
 647daf maxwatts 1150 # 10.0.77.23
 647daf reboot 1573330439 # 10.0.77.23
 
@@ -76,6 +81,7 @@ e9aa45 reset 1573274335
 
 ## asic password
 asicpass admin
+
 
 
 
