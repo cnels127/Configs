@@ -37,6 +37,11 @@ global blinkgreen rapid
 # group=rowd allowed no
 
 ## tuning
+e84233 reboot 1573339080 # 10.0.20.79 ahopf00375
+b5632a reboot 1573339080 # 10.0.116.22 ahopf00106
+d9e3f4 reboot 1573339080 # 10.0.20.88 ahopf00384
+ 
+
 b5632a reboot 1573337447 # 10.0.116.22 ahopf00106
 e84233 reboot 1573337447 # 10.0.20.79 ahopf00375
  
@@ -2615,6 +2620,7 @@ c6cbe1 username3 GMTVILLA01
 
 ## asic password
 asicpass admin
+
 
 
 

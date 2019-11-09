@@ -103,6 +103,12 @@ ff032f location RGESU00058
 75ef00 location RGESU00060
 
 ## tuning
+7bf34d reboot 1573339158 # 10.0.53.147 rgesu00008
+6073d8 reboot 1573339158 # 10.0.53.156 rgesu00017
+2402b8 reboot 1573339158 # 10.0.54.8 rgesu00030
+8ce706 reboot 1573339158 # 10.0.54.14 rgesu00036
+ 
+
 7bf34d reboot 1573337528 # 10.0.53.147 rgesu00008
 6073d8 reboot 1573337528 # 10.0.53.156 rgesu00017
 2402b8 reboot 1573337528 # 10.0.54.8 rgesu00030
@@ -170,6 +176,7 @@ ff032f location RGESU00058
 
 ## asic password
 asicpass admin
+
 
 
 
