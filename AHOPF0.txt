@@ -31,7 +31,6 @@ global blinkgreen rapid
 # global retune 1
 # global reboot 4
 # global reset 1571113675 
-# global reset 1571113675
 # global panelpass gj83Nkgikg
 
 # group=rowc reboot 1
@@ -1200,6 +1199,7 @@ a7a6fd reboot 1571739508 # 10.0.115.20
 ## reboots (chain ailment)
 
 ## resets (fixed machines)
+318543 reset 1573327014
 8c0b48 reset 1573326286
 e0d12f reset 1573325116
 2c8cd5 reset 1573325116
