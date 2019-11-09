@@ -30,11 +30,8 @@ global blinkgreen rapid
 
 # global retune 1
 # global reboot 1
-global reset 1571460441 # 1571113675 # 1
+# global reset 1
 # global panelpass gj83Nkgikg
-
-# group=rowc reboot 1
-# group=rowd allowed no
 
 ## vlans
 vlan 10.0.56.132-132
