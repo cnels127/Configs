@@ -19,7 +19,7 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1350
+global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90
@@ -30,7 +30,7 @@ global blinkgreen rapid
 
 # global retune 1
 # global rebootasic 1
-global resetasic 1571460958 # 1571113675 # 1
+global resetasic 1573276260 # 1
 # global panelpass gj83Nkgikg
 
 # group=rowc rebootasic 1
@@ -47,11 +47,6 @@ f0052b location MAVAK00001
 1e0fc5 location MAVAK00003
 
 ## tuning
-f0052b maxwatts 1250 # 10.0.58.45
-f0052b rebootasic 1571534920 # 10.0.58.45
-
-0cf97a maxwatts 1250 # 10.0.58.86
-0cf97a rebootasic 1571520172 # 10.0.58.86
 
 
 ## reboots
