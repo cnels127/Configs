@@ -91,6 +91,9 @@ a53423 location MKARO00024
 000122 location MKARO00025
 
 ## tuning
+7f2285 maxwatts 1250 # 10.0.66.135
+7f2285 reboot 1573328647 # 10.0.66.135
+
 7f2285 maxwatts 1350 # 10.0.66.135
 7f2285 reboot 1573326907 # 10.0.66.135
 
@@ -102,6 +105,7 @@ a53423 location MKARO00024
 
 ## asic password
 asicpass admin
+
 
 
 

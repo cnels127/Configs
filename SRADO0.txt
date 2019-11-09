@@ -116,6 +116,9 @@ ca6c85 location SRADO00038
 fb2a81 location SRADO00042
 
 ## tuning
+acd279 maxwatts 1400 # 10.0.58.16
+acd279 reboot 1573328695 # 10.0.58.16
+
 
 ## fans
 
@@ -126,3 +129,4 @@ fb2a81 location SRADO00042
 
 ## asic password
 asicpass admin
+
