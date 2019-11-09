@@ -19,7 +19,7 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1350
+global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90
@@ -30,7 +30,7 @@ global blinkgreen rapid
 
 # global retune 1
 # global rebootasic 1
-global resetasic 1571113675 # 1
+global resetasic 1573259580 # 1
 # global panelpass gj83Nkgikg
 
 # group=rowc rebootasic 1
@@ -51,35 +51,6 @@ d9b3f8 location RHOLL00004
 434628 location RHOLL00006
 
 ## tuning
-434628 maxwatts 850 # 10.0.77.105
-434628 reboot 1573008430 # 10.0.77.105
-
-434628 maxwatts 850 # 10.0.77.105
-434628 reboot 1573008430 # 10.0.77.105
-
-434628 maxwatts 950 # 10.0.77.105
-434628 reboot 1573004954 # 10.0.77.105
-
-434628 maxwatts 950 # 10.0.77.105
-434628 reboot 1573004954 # 10.0.77.105
-
-434628 maxwatts 1050 # 10.0.77.105
-434628 reboot 1572882048 # 10.0.77.105
-
-434628 maxwatts 1150 # 10.0.77.105
-434628 reboot 1572828054 # 10.0.77.105
-
-434628 maxwatts 1250 # 10.0.77.105
-434628 reboot 1572818863 # 10.0.77.105
-
-425b29 maxwatts 1250 # 10.0.61.58
-425b29 rebootasic 1571699122 # 10.0.61.58
-
-396497 maxwatts 1150 # 10.0.61.59
-396497 rebootasic 1571558137 # 10.0.61.59
-
-396497 maxwatts 1250 # 10.0.61.59
-396497 rebootasic 1570604017 # 10.0.61.59
 
 
 ## reboots
