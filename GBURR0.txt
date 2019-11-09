@@ -51,6 +51,9 @@ b69144 location GBURR00004
 fb355a location GBURR00005
 
 ## tuning
+b69144 reboot 1573335796 # 10.0.56.107 gburr00004
+ 
+
 
 ## reboots
 b69144 reboot 1572023239 
@@ -60,3 +63,4 @@ b69144 reset 1573137505
 
 ## asic password
 asicpass admin
+
