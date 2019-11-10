@@ -121,6 +121,11 @@ acd279 maxwatts 1300 # 10.0.58.16
 e3835b reboot 1573362763 # 10.0.63.110
 acd279 reboot 1573362763 # 10.0.58.16
 
+e3835b maxwatts 700 # 10.0.63.110
+acd279 maxwatts 1300 # 10.0.58.16
+e3835b reboot 1573362763 # 10.0.63.110
+acd279 reboot 1573362763 # 10.0.58.16
+
 e3835b maxwatts 800 # 10.0.63.110
 e3835b reboot 1573359352 # 10.0.63.110
 
@@ -228,6 +233,7 @@ acd279 reboot 1573328695 # 10.0.58.16
 
 ## asic password
 asicpass admin
+
 
 
 
