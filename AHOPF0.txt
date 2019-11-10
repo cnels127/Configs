@@ -40,6 +40,9 @@ global blinkgreen rapid
 cf8737 maxwatts 1400 # 10.0.20.97
 cf8737 reboot 1573366045 # 10.0.20.97
 
+cf8737 maxwatts 1400 # 10.0.20.97
+cf8737 reboot 1573366045 # 10.0.20.97
+
 afad02 maxwatts 1300 # 10.0.20.73
 8d7d97 maxwatts 1400 # 10.0.20.106
 afad02 reboot 1573359251 # 10.0.20.73
@@ -2639,6 +2642,7 @@ c6cbe1 username3 GMTVILLA01
 
 ## asic password
 asicpass admin
+
 
 
 
