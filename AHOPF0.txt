@@ -42,6 +42,11 @@ afad02 maxwatts 1300 # 10.0.20.73
 afad02 reboot 1573359251 # 10.0.20.73
 8d7d97 reboot 1573359251 # 10.0.20.106
 
+afad02 maxwatts 1300 # 10.0.20.73
+8d7d97 maxwatts 1400 # 10.0.20.106
+afad02 reboot 1573359251 # 10.0.20.73
+8d7d97 reboot 1573359251 # 10.0.20.106
+
 47f0c6 maxwatts -100 # 10.0.57.20
 47f0c6 reboot 1573352228 # 10.0.57.20
 
@@ -2631,6 +2636,7 @@ c6cbe1 username3 GMTVILLA01
 
 ## asic password
 asicpass admin
+
 
 
 

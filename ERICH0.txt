@@ -56,6 +56,11 @@ ea2b68 location ERICH00002
 81b66e reboot 1573359272 # 10.0.60.16
 5f07ce reboot 1573359272 # 10.0.60.80
 
+81b66e maxwatts 950 # 10.0.60.16
+5f07ce maxwatts 950 # 10.0.60.80
+81b66e reboot 1573359272 # 10.0.60.16
+5f07ce reboot 1573359272 # 10.0.60.80
+
 81b66e maxwatts 1050 # 10.0.60.16
 5f07ce maxwatts 1050 # 10.0.60.80
 81b66e reboot 1573357526 # 10.0.60.16
@@ -104,6 +109,7 @@ ea2b68 location ERICH00002
 
 ## asic password
 asicpass admin
+
 
 
 
