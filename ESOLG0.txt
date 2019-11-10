@@ -49,6 +49,13 @@ afd8a4 reboot 1573371140 # 10.0.31.108
 305120 reboot 1573371140 # 10.0.55.39
 f22ee0 reboot 1573371140 # 10.0.55.40
 
+afd8a4 maxwatts 1250 # 10.0.31.108
+305120 maxwatts 1050 # 10.0.55.39
+f22ee0 maxwatts 1050 # 10.0.55.40
+afd8a4 reboot 1573371140 # 10.0.31.108
+305120 reboot 1573371140 # 10.0.55.39
+f22ee0 reboot 1573371140 # 10.0.55.40
+
 afd8a4 maxwatts 1350 # 10.0.31.108
 305120 maxwatts 1150 # 10.0.55.39
 f22ee0 maxwatts 1150 # 10.0.55.40
@@ -2006,6 +2013,7 @@ f6e3e0 location ESOLG000396
 
 ## asic password
 asicpass admin
+
 
 
 
