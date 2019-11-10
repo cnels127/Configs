@@ -80,6 +80,11 @@ f46832 maxwatts 1000 # 10.0.53.138
 45dadf reboot 1573376279 # 10.0.53.133
 f46832 reboot 1573376279 # 10.0.53.138
 
+45dadf maxwatts 700 # 10.0.53.133
+f46832 maxwatts 1000 # 10.0.53.138
+45dadf reboot 1573376279 # 10.0.53.133
+f46832 reboot 1573376279 # 10.0.53.138
+
 45dadf maxwatts 800 # 10.0.53.133
 f46832 maxwatts 1100 # 10.0.53.138
 45dadf reboot 1573374585 # 10.0.53.133
@@ -242,6 +247,7 @@ ba0308 reboot 1573326943 # 10.0.53.136
 
 ## asic password
 asicpass admin
+
 
 
 
