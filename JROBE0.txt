@@ -54,6 +54,9 @@ vlan 10.0.120.130-130
 317af1 maxwatts 1100 # 10.0.68.9
 317af1 reboot 1573412081 # 10.0.68.9
 
+317af1 maxwatts 1100 # 10.0.68.9
+317af1 reboot 1573412081 # 10.0.68.9
+
 317af1 maxwatts 1200 # 10.0.68.9
 317af1 reboot 1573410354 # 10.0.68.9
 
@@ -227,6 +230,7 @@ vlan 10.0.120.130-130
 
 ## asic password
 asicpass admin
+
 
 
 
