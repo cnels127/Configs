@@ -92,6 +92,9 @@ e98a1b maxwatts -100 # 10.0.55.106
 e98a1b reboot 1573388145 # 10.0.55.106
 
 e98a1b maxwatts -100 # 10.0.55.106
+e98a1b reboot 1573388145 # 10.0.55.106
+
+e98a1b maxwatts -100 # 10.0.55.106
 e98a1b reboot 1573386438 # 10.0.55.106
 
 e98a1b maxwatts -100 # 10.0.55.106
@@ -361,6 +364,7 @@ c55a62 resetasic 1573272900
 
 ## asic password
 asicpass admin
+
 
 
 
