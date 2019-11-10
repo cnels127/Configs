@@ -126,6 +126,11 @@ fbf1ac maxwatts 1250 # 10.0.65.22
 34f9ef reboot 1573377889 # 10.0.54.132
 fbf1ac reboot 1573377889 # 10.0.65.22
 
+34f9ef maxwatts 50 # 10.0.54.132
+fbf1ac maxwatts 1250 # 10.0.65.22
+34f9ef reboot 1573377889 # 10.0.54.132
+fbf1ac reboot 1573377889 # 10.0.65.22
+
 34f9ef maxwatts 150 # 10.0.54.132
 fbf1ac maxwatts 1350 # 10.0.65.22
 34f9ef reboot 1573376198 # 10.0.54.132
@@ -638,6 +643,7 @@ d58ae6 reboot 1573171212 # 10.0.63.134
 
 ## asic password
 asicpass admin
+
 
 
 
