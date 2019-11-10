@@ -197,6 +197,11 @@ b449ed maxwatts 1350 # 10.0.54.76
 b449ed reboot 1573352314 # 10.0.54.76
 5eb8bd reboot 1573352314 # 10.0.54.108
 
+b449ed maxwatts 1350 # 10.0.54.76
+5eb8bd maxwatts 1350 # 10.0.54.108
+b449ed reboot 1573352314 # 10.0.54.76
+5eb8bd reboot 1573352314 # 10.0.54.108
+
 a92994 reboot 1573339135 # 10.0.54.96 lmack00021
 9d6e5b reboot 1573339135 # 10.0.54.103 lmack00028
 117c32 reboot 1573339135 # 10.0.63.116 lmack00056
@@ -232,6 +237,7 @@ f3e559 reboot 1573243375 # 10.0.63.96
 
 ## asic password
 asicpass admin
+
 
 
 

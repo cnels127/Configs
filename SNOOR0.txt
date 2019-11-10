@@ -173,6 +173,11 @@ fb8a3a maxwatts 1400 # 10.0.66.53
 ab2a55 reboot 1573352373 # 10.0.56.81
 fb8a3a reboot 1573352373 # 10.0.66.53
 
+ab2a55 maxwatts 1400 # 10.0.56.81
+fb8a3a maxwatts 1400 # 10.0.66.53
+ab2a55 reboot 1573352373 # 10.0.56.81
+fb8a3a reboot 1573352373 # 10.0.66.53
+
 fbfdea reboot 1573339175 # 10.0.56.99 set1
  
 
@@ -188,6 +193,7 @@ fbfdea reboot 1573335894 # 10.0.56.99 set2
 
 ## asic password
 asicpass admin
+
 
 
 
