@@ -105,6 +105,11 @@ fd676b maxwatts 1400 # 10.0.121.70
 e39d7c reboot 1573422544 # 10.0.60.87
 fd676b reboot 1573422544 # 10.0.121.70
 
+e39d7c maxwatts 1400 # 10.0.60.87
+fd676b maxwatts 1400 # 10.0.121.70
+e39d7c reboot 1573422544 # 10.0.60.87
+fd676b reboot 1573422544 # 10.0.121.70
+
 fe2dc8 maxwatts 1400 # 10.0.60.93
 fd676b maxwatts 1400 # 10.0.121.70
 fe2dc8 reboot 1573420805 # 10.0.60.93
@@ -158,6 +163,7 @@ b65856 reset 1573170791
 
 ## asic password
 asicpass admin
+
 
 
 
