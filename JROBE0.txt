@@ -51,6 +51,9 @@ vlan 10.0.120.130-130
 321a3a location JROBE00005
 
 ## tuning
+317af1 maxwatts 900 # 10.0.68.9
+317af1 reboot 1573415539 # 10.0.68.9
+
 317af1 maxwatts 1000 # 10.0.68.9
 317af1 reboot 1573413809 # 10.0.68.9
 
@@ -236,6 +239,7 @@ vlan 10.0.120.130-130
 
 ## asic password
 asicpass admin
+
 
 
 
