@@ -47,6 +47,11 @@ f89a8a maxwatts 1350 # 10.0.50.55
 5e2793 reboot 1573357529 # 10.0.31.129
 f89a8a reboot 1573357529 # 10.0.50.55
 
+5e2793 maxwatts -50 # 10.0.31.129
+f89a8a maxwatts 1350 # 10.0.50.55
+5e2793 reboot 1573357529 # 10.0.31.129
+f89a8a reboot 1573357529 # 10.0.50.55
+
 5e2793 maxwatts 50 # 10.0.31.129
 5e2793 reboot 1573355773 # 10.0.31.129
 
@@ -1936,6 +1941,7 @@ f6e3e0 location ESOLG000396
 
 ## asic password
 asicpass admin
+
 
 
 
