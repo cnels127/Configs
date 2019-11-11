@@ -52,15 +52,15 @@ e7a422 location DBELT00002
 056415 location DBELT00008
 
 ## tuning
-0747e2 reboot 1573489142 # 10.0.54.158 dbelt00004
- 
-
-0747e2 reboot 1573484124 # 10.0.54.158 dbelt00004
-468aaf reboot 1573484124 # 10.0.62.101 dbelt00003
 
 ## fans
 
 ## reboots
+
+# s_reboot generated on Nov 11 2019 18:41:55 utc: 1573497715
+0747e2 reboot 1573497715 # 10.0.54.158 dbelt00004
+1667e2 reboot 1573497715 # 10.0.54.155 dbelt00001
+356422 reboot 1573497715 # 10.0.54.159 dbelt00005
 
 ## resets
 468aaf reset 1572475331
