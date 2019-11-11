@@ -21,7 +21,8 @@ global autotune yes
 global maxwatts 1450
 global autoupdate yes
 global allowed yes
-global maxtemp 90
+global maxtemp 90 1
+# global throttle 100
 global fanspeed 100
 global fansaver yes
 global blinkred idle
@@ -113,60 +114,11 @@ bbf6ce reboot 1573394986 # 10.0.115.76
 
 b9ba02 reboot 1573339184 # 10.0.77.44 set1
 d46013 reboot 1573339184 # 10.0.120.114 set2
- 
 
 b9ba02 reboot 1573337554 # 10.0.77.44 set1
- 
 
 b9ba02 reboot 1573335908 # 10.0.77.44 set1
 d46013 reboot 1573335908 # 10.0.120.114 set2
- 
-
-647daf maxwatts 950 # 10.0.77.23
-dc4996 maxwatts 1250 # 10.0.120.33
-647daf reboot 1573333901 # 10.0.77.23
-dc4996 reboot 1573333901 # 10.0.120.33
-
-647daf maxwatts 950 # 10.0.77.23
-dc4996 maxwatts 1250 # 10.0.120.33
-647daf reboot 1573333901 # 10.0.77.23
-dc4996 reboot 1573333901 # 10.0.120.33
-
-647daf maxwatts 1050 # 10.0.77.23
-253114 maxwatts 1250 # 10.0.117.24
-647daf reboot 1573332165 # 10.0.77.23
-253114 reboot 1573332165 # 10.0.117.24
-
-647daf maxwatts 1050 # 10.0.77.23
-253114 maxwatts 1250 # 10.0.117.24
-647daf reboot 1573332165 # 10.0.77.23
-253114 reboot 1573332165 # 10.0.117.24
-
-647daf maxwatts 1150 # 10.0.77.23
-647daf reboot 1573330439 # 10.0.77.23
-
-647daf maxwatts 1150 # 10.0.77.23
-647daf reboot 1573330439 # 10.0.77.23
-
-647daf maxwatts 1250 # 10.0.77.23
-647daf reboot 1573328703 # 10.0.77.23
-
-647daf maxwatts 1250 # 10.0.77.23
-647daf reboot 1573328703 # 10.0.77.23
-
-201341 maxwatts 1350 # 10.0.116.12
-647daf maxwatts 1350 # 10.0.77.23
-253114 maxwatts 1350 # 10.0.117.24
-b78fed maxwatts 1350 # 10.0.119.4
-bbf6ce maxwatts 1350 # 10.0.115.76
-dc4996 maxwatts 1350 # 10.0.120.33
-201341 reboot 1573326968 # 10.0.116.12
-647daf reboot 1573326968 # 10.0.77.23
-253114 reboot 1573326968 # 10.0.117.24
-b78fed reboot 1573326968 # 10.0.119.4
-bbf6ce reboot 1573326968 # 10.0.115.76
-dc4996 reboot 1573326968 # 10.0.120.33
-
 
 ## reboots
 
