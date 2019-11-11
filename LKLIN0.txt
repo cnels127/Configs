@@ -12,9 +12,9 @@ global poolname2 stratum.slushpool.com:3333
 global username2 PGA
 global poolpass2 123
 global sendworker2 yes
-global poolname3 
-global username3 
-global poolpass3 
+global poolname3 profit.pool.bitcoin.com:3333
+global username3 bit49
+global poolpass3 123
 global sendworker3 yes
 
 global autoupdate yes
@@ -22,7 +22,7 @@ global allowed yes
 global asicboost yes
 global autotune yes
 global maxwatts 1500
-global maxtemp 90
+global maxtemp 90 1
 # global throttle 100
 global fanspeed 100
 global fansaver yes
@@ -30,8 +30,8 @@ global blinkred idle
 global blinkgreen rapid
 
 # global retune 2
-# global rebootasic 1
-# global resetasic 1
+# global reboot 1
+# global reset 1
 # global panelpass gj83Nkgikg
 
 ## vlans
@@ -102,6 +102,3 @@ ed846d reboot 1573493869 # 10.0.63.107 lklin00007
 
 ## asic password
 asicpass admin
-
-
-
