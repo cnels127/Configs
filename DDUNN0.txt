@@ -29,12 +29,9 @@ global blinkred idle
 global blinkgreen rapid
 
 # global retune 
-global reboot 1573165426 # 1
-# global reset 
+# global reboot 1
+# global reset 1
 # global panelpass gj83Nkgikg
-
-# group=rowc rebootasic 1
-# group=rowd allowed no
 
 ## vlans
 vlan 10.0.54.160-161
@@ -73,66 +70,12 @@ eef025 location DDUNN00016
 
 ## tuning
 f5839e reboot 1573487507 # 10.0.55.86 ddunn00007
- 
 
 f5839e reboot 1573485858 # 10.0.55.86 ddunn00007
- 
 
 5594a0 reboot 1573484127 # 10.0.54.160 ddunn00001
 968831 reboot 1573484127 # 10.0.56.86 ddunn00015
  
-
-23c698 maxwatts 1250 # 10.0.55.112
-5594a0 maxwatts 1250 # 10.0.54.160
-23c698 reboot 1573475132 # 10.0.55.112
-5594a0 reboot 1573475132 # 10.0.54.160
-
-23c698 maxwatts 1250 # 10.0.55.112
-5594a0 maxwatts 1250 # 10.0.54.160
-23c698 reboot 1573475132 # 10.0.55.112
-5594a0 reboot 1573475132 # 10.0.54.160
-
-58df28 maxwatts 1350 # 10.0.56.114
-58df28 reboot 1573468862 # 10.0.56.114
-
-58df28 maxwatts 1350 # 10.0.56.114
-58df28 reboot 1573468862 # 10.0.56.114
-
-947334 maxwatts 1350 # 10.0.55.139
-5594a0 maxwatts 1350 # 10.0.54.160
-23c698 maxwatts 1350 # 10.0.55.112
-0f26d2 maxwatts 1350 # 10.0.55.148
-947334 reboot 1573464614 # 10.0.55.139
-5594a0 reboot 1573464614 # 10.0.54.160
-23c698 reboot 1573464614 # 10.0.55.112
-0f26d2 reboot 1573464614 # 10.0.55.148
-
-947334 maxwatts 1350 # 10.0.55.139
-5594a0 maxwatts 1350 # 10.0.54.160
-23c698 maxwatts 1350 # 10.0.55.112
-0f26d2 maxwatts 1350 # 10.0.55.148
-947334 reboot 1573464614 # 10.0.55.139
-5594a0 reboot 1573464614 # 10.0.54.160
-23c698 reboot 1573464614 # 10.0.55.112
-0f26d2 reboot 1573464614 # 10.0.55.148
-
-f5839e maxwatts 1350 # 10.0.55.86
-f5839e reboot 1573458613 # 10.0.55.86
-
-f5839e maxwatts 1350 # 10.0.55.86
-f5839e reboot 1573458613 # 10.0.55.86
-
-968831 maxwatts 1350 # 10.0.56.86
-968831 reboot 1573454701 # 10.0.56.86
-
-968831 maxwatts 1350 # 10.0.56.86
-968831 reboot 1573454701 # 10.0.56.86
-
-4c1b54 reboot 1573335781 # 10.0.55.3 ddunn00005
-eef025 reboot 1573335781 # 10.0.56.110 ddunn00016
- 
-
-
 ## reboots
 
 ## resets
@@ -140,21 +83,3 @@ eef025 reboot 1573335781 # 10.0.56.110 ddunn00016
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
