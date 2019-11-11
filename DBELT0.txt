@@ -23,18 +23,15 @@ global maxwatts 1500
 global autoupdate yes
 global allowed yes
 global maxtemp 90
-global fanspeed 65
+global fanspeed 100
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
-global retune 1
-global reboot 2
-global reset 1571456707 # 1571245947 # 1571113675
+# global retune 1
+# global reboot 2
+# global reset 1
 # global panelpass gj83Nkgikg
-
-# group=rowc reboot 1
-# group=rowd allowed no
 
 ## vlans
 vlan 10.0.54.155-156
@@ -57,80 +54,6 @@ e7a422 location DBELT00002
 ## tuning
 0747e2 reboot 1573484124 # 10.0.54.158 dbelt00004
 468aaf reboot 1573484124 # 10.0.62.101 dbelt00003
- 
-
-1667e2 maxwatts 1200 # 10.0.54.155
-1667e2 reboot 1573473058 # 10.0.54.155
-
-1667e2 maxwatts 1200 # 10.0.54.155
-1667e2 reboot 1573473058 # 10.0.54.155
-
-0747e2 maxwatts 1300 # 10.0.54.158
-0747e2 reboot 1573471013 # 10.0.54.158
-
-0747e2 maxwatts 1300 # 10.0.54.158
-0747e2 reboot 1573471013 # 10.0.54.158
-
-356422 maxwatts 600 # 10.0.54.159
-356422 reboot 1573466711 # 10.0.54.159
-
-356422 maxwatts 600 # 10.0.54.159
-356422 reboot 1573466711 # 10.0.54.159
-
-1667e2 maxwatts 1300 # 10.0.54.155
-1667e2 reboot 1573464606 # 10.0.54.155
-
-1667e2 maxwatts 1300 # 10.0.54.155
-1667e2 reboot 1573464606 # 10.0.54.155
-
-468aaf maxwatts 1300 # 10.0.62.101
-468aaf reboot 1573460601 # 10.0.62.101
-
-468aaf maxwatts 1300 # 10.0.62.101
-468aaf reboot 1573460601 # 10.0.62.101
-
-356422 maxwatts 700 # 10.0.54.159
-356422 reboot 1573443698 # 10.0.54.159
-
-356422 maxwatts 700 # 10.0.54.159
-356422 reboot 1573443698 # 10.0.54.159
-
-356422 maxwatts 800 # 10.0.54.159
-356422 reboot 1572303252 # 10.0.54.159
-
-356422 maxwatts 900 # 10.0.54.159
-356422 reboot 1572301235 # 10.0.54.159
-
-356422 maxwatts 1000 # 10.0.54.159
-356422 reboot 1572299253 # 10.0.54.159
-
-356422 maxwatts 1100 # 10.0.54.159
-356422 reboot 1572297283 # 10.0.54.159
-
-356422 maxwatts 1200 # 10.0.54.159
-356422 reboot 1572295309 # 10.0.54.159
-
-1667e2 maxwatts 1400 # 10.0.54.155
-1667e2 reboot 1571707698 # 10.0.54.155
-
-1667e2 maxwatts 1400 # 10.0.54.155
-1667e2 reboot 1571707312 # 10.0.54.155
-
-0747e2 maxwatts 1400 # 10.0.54.158
-0747e2 reboot 1571695730 # 10.0.54.158
-
-54750e maxwatts 1400 # 10.0.58.25
-54750e reboot 1571658670 # 10.0.58.25
-
-468aaf maxwatts 1400 # 10.0.62.101
-468aaf reboot 1571524989 # 10.0.62.101
-
-356422 maxwatts 1300 # 10.0.54.159
-356422 reboot 1571462747 # 10.0.54.159
-
-356422 maxwatts 1400 # 10.0.54.159
-356422 reboot 1571459705 # 10.0.54.159
-
 
 ## fans
 
@@ -142,16 +65,3 @@ e7a422 location DBELT00002
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
