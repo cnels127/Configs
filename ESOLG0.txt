@@ -22,22 +22,19 @@ global sendworker3 yes
 global asicboost yes
 global autotune yes
 global maxwatts 1450
-# global throttle 100
 global autoupdate yes
 global allowed yes
-global maxtemp 90 1
+global maxtemp 90
+# global throttle 100
 global fanspeed 100
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
-global retune 1571336775
-global rebootasic 1571335330
-global resetasic 1571427118 # 1571237128 # 1571225465
+# global retune 1571336775
+# global reboot 1571335330
+# global reset 1
 # global panelpass gj83Nkgikg
-
-# group=rowc rebootasic 1
-# group=rowd allowed no
 
 ## fans
 
@@ -52,7 +49,6 @@ f5432f reboot 1573487513 # 10.0.50.96 esolg000254
 08c581 reboot 1573487513 # 10.0.50.154 esolg000304
 26b110 reboot 1573487513 # 10.0.50.157 esolg000307
 385e8f reboot 1573487513 # 10.0.51.85 esolg000311
- 
 
 e775a1 reboot 1573485866 # 10.0.30.95 esolg000008
 d371f5 reboot 1573485866 # 10.0.50.93 esolg000252
@@ -62,7 +58,6 @@ f5432f reboot 1573485866 # 10.0.50.96 esolg000254
 e4b4e7 reboot 1573485866 # 10.0.50.98 esolg000256
 2968f0 reboot 1573485866 # 10.0.50.110 esolg000266
 053bf9 reboot 1573485866 # 10.0.62.95 esolg000371
- 
 
 e775a1 reboot 1573484139 # 10.0.30.95 esolg000008
 f5432f reboot 1573484139 # 10.0.50.96 esolg000254
@@ -73,26 +68,6 @@ e4b4e7 reboot 1573484139 # 10.0.50.98 esolg000256
 3c8dcd reboot 1573484139 # 10.0.50.135 esolg000286
 deee7c reboot 1573484139 # 10.0.50.158 esolg000308
 053bf9 reboot 1573484139 # 10.0.62.95 esolg000371
- 
-
-812582 maxwatts 1150 # 10.0.50.88
-564bdb maxwatts 1250 # 10.0.50.136
-8f3359 maxwatts 950 # 10.0.55.83
-57febf maxwatts 950 # 10.0.62.82
-812582 reboot 1573477241 # 10.0.50.88
-564bdb reboot 1573477241 # 10.0.50.136
-8f3359 reboot 1573477241 # 10.0.55.83
-57febf reboot 1573477241 # 10.0.62.82
-
-812582 maxwatts 1150 # 10.0.50.88
-564bdb maxwatts 1250 # 10.0.50.136
-8f3359 maxwatts 950 # 10.0.55.83
-57febf maxwatts 950 # 10.0.62.82
-812582 reboot 1573477241 # 10.0.50.88
-564bdb reboot 1573477241 # 10.0.50.136
-8f3359 reboot 1573477241 # 10.0.55.83
-57febf reboot 1573477241 # 10.0.62.82
-
 
 ## reboots
 
