@@ -20,22 +20,19 @@ global sendworker3 yes
 global asicboost yes
 global autotune yes
 global maxwatts 1500
-
 global autoupdate yes
 global allowed yes
 global maxtemp 90
+# global throttle 100
 global fanspeed 100
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
-global retune 1
-# global rebootasic 1
-global resetasic 1571113675 # 1
+# global retune 1
+# global reboot 1
+# global reset 1
 # global panelpass gj83Nkgikg
-
-# group=rowc rebootasic 1
-# group=rowd allowed no
 
 ## vlans
 vlan 10.0.55.151-151
@@ -49,89 +46,6 @@ ffc9c8 location JGIBL00003
 
 ## tuning
 615313 reboot 1573484177 # 10.0.55.151 jgibl00001
- 
-
-b897c7 maxwatts 800 # 10.0.55.158
-b897c7 reboot 1573475267 # 10.0.55.158
-
-b897c7 maxwatts 800 # 10.0.55.158
-b897c7 reboot 1573475267 # 10.0.55.158
-
-b897c7 maxwatts 900 # 10.0.55.158
-b897c7 reboot 1573473184 # 10.0.55.158
-
-b897c7 maxwatts 900 # 10.0.55.158
-b897c7 reboot 1573473184 # 10.0.55.158
-
-615313 maxwatts 1300 # 10.0.55.151
-615313 reboot 1573471128 # 10.0.55.151
-
-615313 maxwatts 1300 # 10.0.55.151
-615313 reboot 1573471128 # 10.0.55.151
-
-615313 maxwatts 1400 # 10.0.55.151
-615313 reboot 1573468995 # 10.0.55.151
-
-615313 maxwatts 1400 # 10.0.55.151
-615313 reboot 1573468995 # 10.0.55.151
-
-b897c7 maxwatts 1000 # 10.0.55.158
-b897c7 reboot 1573466830 # 10.0.55.158
-
-b897c7 maxwatts 1000 # 10.0.55.158
-b897c7 reboot 1573466830 # 10.0.55.158
-
-b897c7 maxwatts 1100 # 10.0.55.158
-b897c7 reboot 1573458716 # 10.0.55.158
-
-b897c7 maxwatts 1100 # 10.0.55.158
-b897c7 reboot 1573458716 # 10.0.55.158
-
-b897c7 maxwatts 1200 # 10.0.55.158
-b897c7 reboot 1573449225 # 10.0.55.158
-
-b897c7 maxwatts 1200 # 10.0.55.158
-b897c7 reboot 1573449225 # 10.0.55.158
-
-b897c7 maxwatts 1300 # 10.0.55.158
-b897c7 reboot 1573443767 # 10.0.55.158
-
-b897c7 maxwatts 1300 # 10.0.55.158
-b897c7 reboot 1573443767 # 10.0.55.158
-
-b897c7 maxwatts 1400 # 10.0.55.158
-b897c7 reboot 1573438358 # 10.0.55.158
-
-b897c7 maxwatts 1400 # 10.0.55.158
-b897c7 reboot 1573438358 # 10.0.55.158
-
-ffc9c8 maxwatts 600 # 10.0.56.90
-ffc9c8 rebootasic 1571475427 # 10.0.56.90
-
-ffc9c8 maxwatts 700 # 10.0.56.90
-ffc9c8 rebootasic 1571086635 # 10.0.56.90
-
-ffc9c8 maxwatts 800 # 10.0.56.90
-ffc9c8 rebootasic 1570980256 # 10.0.56.90
-
-ffc9c8 maxwatts 900 # 10.0.56.90
-ffc9c8 rebootasic 1570864710 # 10.0.56.90
-
-ffc9c8 maxwatts 1000 # 10.0.56.90
-ffc9c8 rebootasic 1570852135 # 10.0.56.90
-
-ffc9c8 maxwatts 1100 # 10.0.56.90
-ffc9c8 rebootasic 1570850387 # 10.0.56.90
-
-ffc9c8 maxwatts 1200 # 10.0.56.90
-ffc9c8 rebootasic 1570846891 # 10.0.56.90
-
-ffc9c8 maxwatts 1300 # 10.0.56.90
-ffc9c8 rebootasic 1570841702 # 10.0.56.90
-
-ffc9c8 maxwatts 1400 # 10.0.56.90
-ffc9c8 rebootasic 1570836566 # 10.0.56.90
-
 
 ## reboots
 
@@ -139,32 +53,3 @@ ffc9c8 rebootasic 1570836566 # 10.0.56.90
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
