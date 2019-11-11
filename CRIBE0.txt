@@ -461,6 +461,13 @@ f62743 location CRIBE00204
 2a6f8a reboot 1573445535 # 10.0.58.93
 
 268669 maxwatts 1100 # 10.0.62.14
+069b7d maxwatts 1000 # 10.0.59.85
+2a6f8a maxwatts 1100 # 10.0.58.93
+268669 reboot 1573445535 # 10.0.62.14
+069b7d reboot 1573445535 # 10.0.59.85
+2a6f8a reboot 1573445535 # 10.0.58.93
+
+268669 maxwatts 1100 # 10.0.62.14
 e0b9e7 maxwatts 1400 # 10.0.62.1
 268669 reboot 1573443693 # 10.0.62.14
 e0b9e7 reboot 1573443693 # 10.0.62.1
@@ -1043,6 +1050,7 @@ b88126 reset 1572446837
 
 ## asic password
 asicpass admin
+
 
 
 
