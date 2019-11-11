@@ -25,18 +25,16 @@ global maxwatts 1500
 global autoupdate yes
 global allowed yes
 global maxtemp 90
+# global throttle 100
 global fanspeed 100
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
-# global rebootasic 1
-global resetasic 1571460637 # 1571113675 # 1571070997
+# global reboot 1
+# global reset 1
 # global panelpass gj83Nkgikg
-
-# group=rowc rebootasic 1
-# group=rowd allowed no
 
 ## vlans
 vlan 10.0.56.120-120
@@ -64,118 +62,11 @@ e3af8a location LALBE00006
 
 ## tuning
 701541 reboot 1573487546 # 10.0.66.8 lalbe00009
- 
-
 701541 reboot 1573484198 # 10.0.66.8 lalbe00009
- 
-
-b49a7f maxwatts 1300 # 10.0.56.120
-b49a7f reboot 1573475305 # 10.0.56.120
-
-b49a7f maxwatts 1300 # 10.0.56.120
-b49a7f reboot 1573475305 # 10.0.56.120
-
-b49a7f maxwatts 1400 # 10.0.56.120
-b49a7f reboot 1573466878 # 10.0.56.120
-
-b49a7f maxwatts 1400 # 10.0.56.120
-b49a7f reboot 1573466878 # 10.0.56.120
-
-e3af8a maxwatts 1300 # 10.0.64.77
-e3af8a reboot 1573425992 # 10.0.64.77
-
-e3af8a maxwatts 1300 # 10.0.64.77
-e3af8a reboot 1573425992 # 10.0.64.77
-
-e3af8a maxwatts 1400 # 10.0.64.77
-e3af8a reboot 1573364408 # 10.0.64.77
-
-e3af8a maxwatts 1400 # 10.0.64.77
-e3af8a reboot 1573364408 # 10.0.64.77
-
-4363c7 maxwatts 1200 # 10.0.68.11
-4363c7 reboot 1573226508 # 10.0.68.11
-
-4363c7 maxwatts 1200 # 10.0.68.11
-4363c7 reboot 1573226508 # 10.0.68.11
-
-979f86 maxwatts 1200 # 10.0.67.6
-979f86 reboot 1573224697 # 10.0.67.6
-
-979f86 maxwatts 1200 # 10.0.67.6
-979f86 reboot 1573224697 # 10.0.67.6
-
-4363c7 maxwatts 1300 # 10.0.68.11
-4363c7 reboot 1573030500 # 10.0.68.11
-
-4363c7 maxwatts 1300 # 10.0.68.11
-4363c7 reboot 1573030500 # 10.0.68.11
-
-4363c7 maxwatts 1400 # 10.0.68.11
-4363c7 reboot 1573011799 # 10.0.68.11
-
-4363c7 maxwatts 1400 # 10.0.68.11
-4363c7 reboot 1573011799 # 10.0.68.11
-
-979f86 maxwatts 1300 # 10.0.67.6
-979f86 reboot 1572998095 # 10.0.67.6
-
-979f86 maxwatts 1300 # 10.0.67.6
-979f86 reboot 1572998095 # 10.0.67.6
-
-979f86 maxwatts 1400 # 10.0.67.6
-979f86 reboot 1572994689 # 10.0.67.6
-
 
 ## reboots
 
 ## resets
-e3af8a reset 1572966168 #10.0.64.77
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
