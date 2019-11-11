@@ -117,6 +117,10 @@ ca6c85 location SRADO00038
 fb2a81 location SRADO00042
 
 ## tuning
+89611d reboot 1573498752 # 10.0.57.146 srado00007
+acd279 reboot 1573498752 # 10.0.58.16 srado00015
+ 
+
 fc9425 reboot 1573493923 # 10.0.68.44 srado00006
 89611d reboot 1573493923 # 10.0.57.146 srado00007
 44a6c9 reboot 1573493923 # 10.0.58.17 srado00016
@@ -147,3 +151,4 @@ c8c8e3 reboot 1573484285 # 10.0.54.139 srado00001
 
 ## asic password
 asicpass admin
+
