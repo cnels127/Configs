@@ -23,18 +23,16 @@ global maxwatts 1500
 global autoupdate yes
 global allowed yes
 global maxtemp 90
+# global throttle 100
 global fanspeed 100
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
-# global rebootasic 1
-global resetasic 1571113675 # 1
+# global reboot 1
+# global reset 1
 # global panelpass gj83Nkgikg
-
-# group=rowc rebootasic 1
-# group=rowd allowed no
 
 ## vlans
 vlan 10.0.59.69-69
@@ -43,9 +41,6 @@ vlan 10.0.59.69-69
 80218d location JLUI000001
 
 ## tuning
-80218d maxwatts 1400 # 10.0.59.69
-80218d rebootasic 1570650049 # 10.0.59.69
-
 
 ## reboots
 
@@ -53,5 +48,3 @@ vlan 10.0.59.69-69
 
 ## asic password
 asicpass admin
-
-
