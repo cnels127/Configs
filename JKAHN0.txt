@@ -23,18 +23,16 @@ global maxwatts 1500
 global autoupdate yes
 global allowed yes
 global maxtemp 90
+# global throttle 100
 global fanspeed 100
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
-global retune 1
-# global rebootasic 1
-global resetasic 1571459878 # 1571113675 # 1
+# global retune 1
+# global reboot 1
+# global reset 1
 # global panelpass gj83Nkgikg
-
-# group=rowc rebootasic 1
-# group=rowd allowed no
 
 ## vlans
 vlan 10.0.68.7-7
@@ -43,20 +41,10 @@ vlan 10.0.68.7-7
 ef83d4 location JKAHN00001
 
 ## tuning
-ef83d4 maxwatts 1400 # 10.0.68.5
-ef83d4 reboot 1573224668 # 10.0.68.5
-
-ef83d4 maxwatts 1400 # 10.0.68.5
-ef83d4 reboot 1573224668 # 10.0.68.5
-
 
 ## reboots
 
 ## resets
-ef83d4 resetasic 1571729637
 
 ## asic password
 asicpass admin
-
-
-
