@@ -23,18 +23,16 @@ global asicboost yes
 global autotune yes
 global maxwatts 1450
 global maxtemp 90
+# global throttle 100
 global fanspeed 100
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
-global rebootasic 1
-global reset 1573167900
+# global reboot 1
+# global reset 1
 # global panelpass gj83Nkgikg
-
-# group=rowc rebootasic 1
-# group=rowd allowed no
 
 ## vlans
 vlan 10.0.68.26-29
@@ -47,241 +45,11 @@ aab607 location DMCCL00004
 
 ## tuning
 aab607 reboot 1573485860 # 10.0.68.29 dmccl00004
- 
-
 aab607 reboot 1573484130 # 10.0.68.29 dmccl00004
- 
-
-aab607 maxwatts 850 # 10.0.68.29
-aab607 reboot 1573477221 # 10.0.68.29
-
-aab607 maxwatts 850 # 10.0.68.29
-aab607 reboot 1573477221 # 10.0.68.29
-
-aab607 maxwatts 950 # 10.0.68.29
-aab607 reboot 1573475141 # 10.0.68.29
-
-aab607 maxwatts 950 # 10.0.68.29
-aab607 reboot 1573475141 # 10.0.68.29
-
-aab607 maxwatts 1050 # 10.0.68.29
-aab607 reboot 1573473067 # 10.0.68.29
-
-aab607 maxwatts 1050 # 10.0.68.29
-aab607 reboot 1573473067 # 10.0.68.29
-
-aab607 maxwatts 1150 # 10.0.68.29
-aab607 reboot 1573471022 # 10.0.68.29
-
-aab607 maxwatts 1150 # 10.0.68.29
-aab607 reboot 1573471022 # 10.0.68.29
-
-aab607 maxwatts 1250 # 10.0.68.29
-aab607 reboot 1573468871 # 10.0.68.29
-
-aab607 maxwatts 1250 # 10.0.68.29
-aab607 reboot 1573468871 # 10.0.68.29
-
-aab607 maxwatts 1350 # 10.0.68.29
-aab607 reboot 1573466722 # 10.0.68.29
-
-aab607 maxwatts 1350 # 10.0.68.29
-aab607 reboot 1573466722 # 10.0.68.29
-
-97c2eb maxwatts -50 # 10.0.68.28
-97c2eb reboot 1573391486 # 10.0.68.28
-
-97c2eb maxwatts -50 # 10.0.68.28
-97c2eb reboot 1573391486 # 10.0.68.28
-
-97c2eb maxwatts -50 # 10.0.68.28
-97c2eb reboot 1573389787 # 10.0.68.28
-
-97c2eb maxwatts -50 # 10.0.68.28
-97c2eb reboot 1573389787 # 10.0.68.28
-
-97c2eb maxwatts -50 # 10.0.68.28
-97c2eb reboot 1573388077 # 10.0.68.28
-
-97c2eb maxwatts -50 # 10.0.68.28
-97c2eb reboot 1573388077 # 10.0.68.28
-
-97c2eb maxwatts 50 # 10.0.68.28
-97c2eb reboot 1573386377 # 10.0.68.28
-
-97c2eb maxwatts 50 # 10.0.68.28
-97c2eb reboot 1573386377 # 10.0.68.28
-
-97c2eb maxwatts 150 # 10.0.68.28
-97c2eb reboot 1573384681 # 10.0.68.28
-
-97c2eb maxwatts 150 # 10.0.68.28
-97c2eb reboot 1573384681 # 10.0.68.28
-
-97c2eb maxwatts 250 # 10.0.68.28
-97c2eb reboot 1573382986 # 10.0.68.28
-
-97c2eb maxwatts 250 # 10.0.68.28
-97c2eb reboot 1573382986 # 10.0.68.28
-
-97c2eb maxwatts 350 # 10.0.68.28
-97c2eb reboot 1573381285 # 10.0.68.28
-
-97c2eb maxwatts 350 # 10.0.68.28
-97c2eb reboot 1573381285 # 10.0.68.28
-
-97c2eb maxwatts 450 # 10.0.68.28
-97c2eb reboot 1573379592 # 10.0.68.28
-
-97c2eb maxwatts 450 # 10.0.68.28
-97c2eb reboot 1573379592 # 10.0.68.28
-
-97c2eb maxwatts 550 # 10.0.68.28
-97c2eb reboot 1573377902 # 10.0.68.28
-
-97c2eb maxwatts 550 # 10.0.68.28
-97c2eb reboot 1573377902 # 10.0.68.28
-
-97c2eb maxwatts 650 # 10.0.68.28
-97c2eb reboot 1573376211 # 10.0.68.28
-
-97c2eb maxwatts 650 # 10.0.68.28
-97c2eb reboot 1573376211 # 10.0.68.28
-
-97c2eb maxwatts 750 # 10.0.68.28
-97c2eb reboot 1573374518 # 10.0.68.28
-
-97c2eb maxwatts 750 # 10.0.68.28
-97c2eb reboot 1573374518 # 10.0.68.28
-
-97c2eb maxwatts 850 # 10.0.68.28
-97c2eb reboot 1573372829 # 10.0.68.28
-
-97c2eb maxwatts 850 # 10.0.68.28
-97c2eb reboot 1573372829 # 10.0.68.28
-
-97c2eb maxwatts 950 # 10.0.68.28
-97c2eb reboot 1573333788 # 10.0.68.28
-
-97c2eb maxwatts 950 # 10.0.68.28
-97c2eb reboot 1573333788 # 10.0.68.28
-
-97c2eb maxwatts 1050 # 10.0.68.28
-97c2eb reboot 1573332060 # 10.0.68.28
-
-97c2eb maxwatts 1050 # 10.0.68.28
-97c2eb reboot 1573332060 # 10.0.68.28
-
-97c2eb maxwatts 1150 # 10.0.68.28
-97c2eb reboot 1573330328 # 10.0.68.28
-
-97c2eb maxwatts 1150 # 10.0.68.28
-97c2eb reboot 1573330328 # 10.0.68.28
-
-97c2eb maxwatts 1250 # 10.0.68.28
-97c2eb reboot 1573328592 # 10.0.68.28
-
-97c2eb maxwatts 1250 # 10.0.68.28
-97c2eb reboot 1573328592 # 10.0.68.28
-
-97c2eb maxwatts 1350 # 10.0.68.28
-97c2eb reboot 1573326842 # 10.0.68.28
-
-
-
-
 
 ## reboots
 
 ## resets
-97c2eb resetasic 1571248369
-aab607 resetasic 1571248369
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
