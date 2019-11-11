@@ -54,6 +54,12 @@ dfb542 location MBLAK00010
 5d3f6c location MBLAK00012
 
 ## tuning
+61cbc7 reboot 1573489188 # 10.0.56.147 mblak00001
+ecd90f reboot 1573489188 # 10.0.56.155 mblak00009
+1e74b1 reboot 1573489188 # 10.0.56.157 mblak00011
+5d3f6c reboot 1573489188 # 10.0.56.158 mblak00012
+ 
+
 61cbc7 reboot 1573487552 # 10.0.56.147 mblak00001
 7583aa reboot 1573487552 # 10.0.56.150 mblak00004
 ecd90f reboot 1573487552 # 10.0.56.155 mblak00009
@@ -245,6 +251,7 @@ d448b3 reboot 1573464796 # 10.0.56.154
 
 ## asic password
 asicpass admin
+
 
 
 
