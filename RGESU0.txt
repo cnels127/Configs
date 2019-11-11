@@ -107,6 +107,9 @@ ff032f location RGESU00058
 8883eb reboot 1573456858 # 10.0.54.7
 
 8883eb maxwatts -100 # 10.0.54.7
+8883eb reboot 1573456858 # 10.0.54.7
+
+8883eb maxwatts -100 # 10.0.54.7
 8883eb reboot 1573454900 # 10.0.54.7
 
 8883eb maxwatts -100 # 10.0.54.7
@@ -479,6 +482,7 @@ ff032f location RGESU00058
 
 ## asic password
 asicpass admin
+
 
 
 

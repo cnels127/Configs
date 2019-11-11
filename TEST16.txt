@@ -40,6 +40,9 @@ global blinkgreen rapid
 10992f maxwatts 1250 # 10.0.63.75
 10992f reboot 1573456930 # 10.0.63.75
 
+10992f maxwatts 1250 # 10.0.63.75
+10992f reboot 1573456930 # 10.0.63.75
+
 b26fd7 maxwatts 1350 # 10.0.117.27
 b26fd7 reboot 1573431362 # 10.0.117.27
 
@@ -147,6 +150,7 @@ e9aa45 reset 1573274335
 
 ## asic password
 asicpass admin
+
 
 
 

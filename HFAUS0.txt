@@ -79,6 +79,11 @@ f3c9af maxwatts 1350 # 10.0.64.104
 a3883c reboot 1573456680 # 10.0.57.86
 f3c9af reboot 1573456680 # 10.0.64.104
 
+a3883c maxwatts 1250 # 10.0.57.86
+f3c9af maxwatts 1350 # 10.0.64.104
+a3883c reboot 1573456680 # 10.0.57.86
+f3c9af reboot 1573456680 # 10.0.64.104
+
 a3883c maxwatts 1350 # 10.0.57.86
 a3883c reboot 1573454746 # 10.0.57.86
 
@@ -162,6 +167,7 @@ fe7105 reboot 1573181463 # 10.0.65.112
 
 ## asic password
 asicpass admin
+
 
 
 
