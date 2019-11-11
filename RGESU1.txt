@@ -11,8 +11,8 @@ global poolname2 ca.stratum.slushpool.com:3333
 global username2 gesumari
 global poolpass2 123
 global sendworker2 yes
-global poolname3 stratum.slushpool.com:3333
-global username3 gesumari
+global poolname3 profit.pool.bitcoin.com:3333
+global username3 bit49
 global poolpass3 123
 global sendworker3 yes
 
@@ -21,19 +21,17 @@ global autotune yes
 global maxwatts 1300
 global autoupdate yes
 global allowed yes
-global maxtemp 90
+global maxtemp 90 1
+# global throttle 100
 global fanspeed 100
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
-global retune 1
-global rebootasic 7
-global resetasic 1571113675 # 1
+# global retune 1
+# global reboot 7
+# global reset 1
 # global panelpass gj83Nkgikg
-
-# group=rowc rebootasic 1
-# group=rowd allowed no
 
 ## vlans
 vlan 172.16.201.63-63
@@ -52,35 +50,10 @@ a8b8de location RGESU10003
 af9564 location RGESU10006
 
 ## tuning
-d360c8 maxwatts 1100 # 10.10.125.11
-d360c8 rebootasic 1571345935 # 10.10.125.11
 
-d360c8 maxwatts 1200 # 10.10.125.11
-d360c8 rebootasic 1571342047 # 10.10.125.11
+## reboots
 
-a8b8de maxwatts 1200 # 10.10.125.13
-a8b8de rebootasic 1571155302 # 10.10.125.13
-
-329fab rebootasic 1571148000 # 10.10.125.12 rgesu10004
- 
-
-329fab maxwatts 1200 # 10.10.125.12
-329fab rebootasic 1571145483 # 10.10.125.12
-
-904b7f maxwatts 1200 # 172.16.201.63
-904b7f rebootasic 1570766585 # 172.16.201.63
-
-d360c8 retune 1
-a8b8de retune 1
-329fab retune 1
-af9564 retune 1
+## resets
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
