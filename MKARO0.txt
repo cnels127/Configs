@@ -23,18 +23,16 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90
+# global throttle 100
 global fanspeed 100
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
-global reboot 1573165710 # 1
-global reset 1571113675 # 1
+# global reboot 1
+# global reset 1
 # global panelpass gj83Nkgikg
-
-# group=rowc rebootasic 1
-# group=rowd allowed no
 
 ## vlans
 vlan 10.0.63.89-89
@@ -93,119 +91,14 @@ a53423 location MKARO00024
 ## tuning
 742bc7 reboot 1573489190 # 10.0.63.89 mkaro00001
 cd859b reboot 1573489190 # 10.0.67.106 mkaro00017
- 
 
 742bc7 reboot 1573487554 # 10.0.63.89 mkaro00001
 55ac26 reboot 1573487554 # 10.0.66.89 mkaro00007
- 
 
 742bc7 reboot 1573485911 # 10.0.63.89 mkaro00001
- 
 
 742bc7 reboot 1573484214 # 10.0.63.89 mkaro00001
 c14399 reboot 1573484214 # 10.0.67.103 mkaro00016
- 
-
-742bc7 maxwatts 1250 # 10.0.63.89
-742bc7 reboot 1573477400 # 10.0.63.89
-
-742bc7 maxwatts 1250 # 10.0.63.89
-742bc7 reboot 1573477400 # 10.0.63.89
-
-742bc7 maxwatts 1250 # 10.0.63.89
-742bc7 reboot 1573475341 # 10.0.63.89
-
-742bc7 maxwatts 1250 # 10.0.63.89
-742bc7 reboot 1573475341 # 10.0.63.89
-
-f15e5f maxwatts 1150 # 10.0.66.94
-f15e5f reboot 1573473250 # 10.0.66.94
-
-f15e5f maxwatts 1150 # 10.0.66.94
-f15e5f reboot 1573473250 # 10.0.66.94
-
-742bc7 maxwatts 1350 # 10.0.63.89
-c14399 maxwatts 1350 # 10.0.67.103
-742bc7 reboot 1573471192 # 10.0.63.89
-c14399 reboot 1573471192 # 10.0.67.103
-
-742bc7 maxwatts 1350 # 10.0.63.89
-c14399 maxwatts 1350 # 10.0.67.103
-742bc7 reboot 1573471192 # 10.0.63.89
-c14399 reboot 1573471192 # 10.0.67.103
-
-f15e5f maxwatts 1250 # 10.0.66.94
-55ac26 maxwatts 1350 # 10.0.66.89
-2bd4e7 maxwatts 1350 # 10.0.67.77
-f15e5f reboot 1573469077 # 10.0.66.94
-55ac26 reboot 1573469077 # 10.0.66.89
-2bd4e7 reboot 1573469077 # 10.0.67.77
-
-f15e5f maxwatts 1250 # 10.0.66.94
-55ac26 maxwatts 1350 # 10.0.66.89
-2bd4e7 maxwatts 1350 # 10.0.67.77
-f15e5f reboot 1573469077 # 10.0.66.94
-55ac26 reboot 1573469077 # 10.0.66.89
-2bd4e7 reboot 1573469077 # 10.0.67.77
-
-5ee162 maxwatts 1250 # 10.0.67.112
-5ee162 reboot 1573466922 # 10.0.67.112
-
-5ee162 maxwatts 1250 # 10.0.67.112
-5ee162 reboot 1573466922 # 10.0.67.112
-
-409c17 maxwatts 1350 # 10.0.66.151
-409c17 reboot 1573464805 # 10.0.66.151
-
-409c17 maxwatts 1350 # 10.0.66.151
-409c17 reboot 1573464805 # 10.0.66.151
-
-f15e5f maxwatts 1350 # 10.0.66.94
-cd859b maxwatts 1350 # 10.0.67.106
-f15e5f reboot 1573458787 # 10.0.66.94
-cd859b reboot 1573458787 # 10.0.67.106
-
-f15e5f maxwatts 1350 # 10.0.66.94
-cd859b maxwatts 1350 # 10.0.67.106
-f15e5f reboot 1573458787 # 10.0.66.94
-cd859b reboot 1573458787 # 10.0.67.106
-
-5f3948 maxwatts 1350 # 10.0.66.134
-5f3948 reboot 1573415563 # 10.0.66.134
-
-5f3948 maxwatts 1350 # 10.0.66.134
-5f3948 reboot 1573415563 # 10.0.66.134
-
-5ee162 maxwatts 1350 # 10.0.67.112
-5ee162 reboot 1573406928 # 10.0.67.112
-
-5ee162 maxwatts 1350 # 10.0.67.112
-5ee162 reboot 1573406928 # 10.0.67.112
-
-7f2285 maxwatts 1050 # 10.0.66.135
-7f2285 reboot 1573369492 # 10.0.66.135
-
-7f2285 maxwatts 1050 # 10.0.66.135
-7f2285 reboot 1573369492 # 10.0.66.135
-
-7f2285 maxwatts 1150 # 10.0.66.135
-7f2285 reboot 1573362723 # 10.0.66.135
-
-7f2285 maxwatts 1150 # 10.0.66.135
-7f2285 reboot 1573362723 # 10.0.66.135
-
-7f2285 reboot 1573335849 # 10.0.66.135 mkaro00010
- 
-
-7f2285 maxwatts 1250 # 10.0.66.135
-7f2285 reboot 1573328647 # 10.0.66.135
-
-7f2285 maxwatts 1250 # 10.0.66.135
-7f2285 reboot 1573328647 # 10.0.66.135
-
-7f2285 maxwatts 1350 # 10.0.66.135
-7f2285 reboot 1573326907 # 10.0.66.135
-
 
 ## reboots
 
@@ -214,42 +107,3 @@ cd859b reboot 1573458787 # 10.0.67.106
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
