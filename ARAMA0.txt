@@ -23,18 +23,15 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90
-global fanspeed 65
+global fanspeed 100
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
-global reboot m1573165325 # 1
-global reset 1571113675 # 1
+# global reboot 1
+# global reset 1
 # global panelpass gj83Nkgikg
-
-# group=rowc rebootasic 1
-# group=rowd allowed no
 
 ## vlans
 vlan 10.0.54.142-144
@@ -52,29 +49,8 @@ df6f8a location ARAMA00004
 
 ## tuning
 c5f2b7 reboot 1573485844 # 10.0.54.143 arama00002
- 
 
 87a39c reboot 1573484099 # 10.0.54.144 arama00003
- 
-
-dc1171 maxwatts 1250 # 10.0.54.142
-dc1171 reboot 1573466648 # 10.0.54.142
-
-dc1171 maxwatts 1250 # 10.0.54.142
-dc1171 reboot 1573466648 # 10.0.54.142
-
-dc1171 maxwatts 1350 # 10.0.54.142
-dc1171 reboot 1573464540 # 10.0.54.142
-
-dc1171 maxwatts 1350 # 10.0.54.142
-dc1171 reboot 1573464540 # 10.0.54.142
-
-df6f8a maxwatts 1350 # 10.0.56.106
-df6f8a reboot 1573454663 # 10.0.56.106
-
-df6f8a maxwatts 1350 # 10.0.56.106
-df6f8a reboot 1573454663 # 10.0.56.106
-
 
 ## fans
 
@@ -84,16 +60,3 @@ df6f8a reboot 1573454663 # 10.0.56.106
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
