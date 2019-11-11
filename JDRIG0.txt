@@ -23,6 +23,7 @@ global maxwatts 1500
 global autoupdate yes
 global allowed yes
 global maxtemp 90
+# global throttle 100
 global fanspeed 100
 global fansaver yes
 global blinkred idle
@@ -59,78 +60,8 @@ e2fa14 location JDRIG00010
 
 ## tuning
 e2fa14 reboot 1573489164 # 10.0.66.22 jdrig00010
- 
-
 e2fa14 reboot 1573487527 # 10.0.66.22 jdrig00010
- 
-
 b3d12e reboot 1573484171 # 10.0.67.149 jdrig00006
- 
-
-11bafe maxwatts 1300 # 10.0.55.99
-11bafe reboot 1573477321 # 10.0.55.99
-
-11bafe maxwatts 1300 # 10.0.55.99
-11bafe reboot 1573477321 # 10.0.55.99
-
-cffb6d maxwatts 1300 # 10.0.67.146
-cffb6d reboot 1573475251 # 10.0.67.146
-
-cffb6d maxwatts 1300 # 10.0.67.146
-cffb6d reboot 1573475251 # 10.0.67.146
-
-9163e6 maxwatts 1200 # 10.0.67.148
-9163e6 reboot 1573473175 # 10.0.67.148
-
-9163e6 maxwatts 1200 # 10.0.67.148
-9163e6 reboot 1573473175 # 10.0.67.148
-
-9163e6 maxwatts 1300 # 10.0.67.148
-d55626 maxwatts 1400 # 10.0.67.156
-cffb6d maxwatts 1400 # 10.0.67.146
-9163e6 reboot 1573468980 # 10.0.67.148
-d55626 reboot 1573468980 # 10.0.67.156
-cffb6d reboot 1573468980 # 10.0.67.146
-
-9163e6 maxwatts 1300 # 10.0.67.148
-d55626 maxwatts 1400 # 10.0.67.156
-cffb6d maxwatts 1400 # 10.0.67.146
-9163e6 reboot 1573468980 # 10.0.67.148
-d55626 reboot 1573468980 # 10.0.67.156
-cffb6d reboot 1573468980 # 10.0.67.146
-
-9163e6 maxwatts 1400 # 10.0.67.148
-b3d12e maxwatts 1400 # 10.0.67.149
-9163e6 reboot 1573464712 # 10.0.67.148
-b3d12e reboot 1573464712 # 10.0.67.149
-
-9163e6 maxwatts 1400 # 10.0.67.148
-b3d12e maxwatts 1400 # 10.0.67.149
-9163e6 reboot 1573464712 # 10.0.67.148
-b3d12e reboot 1573464712 # 10.0.67.149
-
-11bafe maxwatts 1400 # 10.0.55.99
-11bafe reboot 1573454776 # 10.0.55.99
-
-11bafe maxwatts 1400 # 10.0.55.99
-11bafe reboot 1573454776 # 10.0.55.99
-
-9b787e maxwatts 1400 # 10.0.55.145
-9b787e reboot 1573214134 # 10.0.55.145
-
-9b787e maxwatts 1400 # 10.0.55.145
-9b787e reboot 1573214134 # 10.0.55.145
-
-e2fa14 maxwatts 1400 # 10.0.66.22
-e2fa14 rebootasic 1571665696 # 10.0.66.22
-
-33b5df maxwatts 1400 # 10.0.55.125
-93e110 maxwatts 1300 # 10.0.56.104
-33b5df rebootasic 1571534882 # 10.0.55.125
-93e110 rebootasic 1571534882 # 10.0.56.104
-
-93e110 maxwatts 1400 # 10.0.56.104
-93e110 rebootasic 1571519445 # 10.0.56.104
 
 ## reboots
 
@@ -140,30 +71,3 @@ d55626 reset 1573168318
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
