@@ -22,7 +22,8 @@ global autotune yes
 global maxwatts 1450
 global autoupdate yes
 global allowed yes
-global maxtemp 90
+global maxtemp 90 1
+# global throttle 100
 global fanspeed 100
 global fansaver yes
 global blinkred idle
@@ -31,9 +32,6 @@ global blinkgreen rapid
 # global retune 1
 # global reboot 1
 # global reset 1
-
-global reset 1573239537
-
 # global panelpass gj83Nkgikg
 
 ## vlans
@@ -47,45 +45,6 @@ f7deb6 location TNOLA00002
 be162a location TNOLA00005
 
 ## tuning
-8bbd8a maxwatts 1350 # 10.0.57.79
-8bbd8a reboot 1573469293 # 10.0.57.79
-
-8bbd8a maxwatts 1350 # 10.0.57.79
-8bbd8a reboot 1573469293 # 10.0.57.79
-
-be162a maxwatts 1350 # 10.0.57.80
-be162a reboot 1573467144 # 10.0.57.80
-
-be162a maxwatts 1350 # 10.0.57.80
-be162a reboot 1573467144 # 10.0.57.80
-
-9e6254 maxwatts 1150 # 10.0.57.78
-9e6254 reboot 1573464990 # 10.0.57.78
-
-9e6254 maxwatts 1150 # 10.0.57.78
-9e6254 reboot 1573464990 # 10.0.57.78
-
-9e6254 maxwatts 1250 # 10.0.57.78
-9e6254 reboot 1573460871 # 10.0.57.78
-
-9e6254 maxwatts 1250 # 10.0.57.78
-9e6254 reboot 1573460871 # 10.0.57.78
-
-eaab57 maxwatts 1350 # 10.0.57.76
-f7deb6 maxwatts 1350 # 10.0.57.77
-9e6254 maxwatts 1350 # 10.0.57.78
-eaab57 reboot 1573458936 # 10.0.57.76
-f7deb6 reboot 1573458936 # 10.0.57.77
-9e6254 reboot 1573458936 # 10.0.57.78
-
-eaab57 maxwatts 1350 # 10.0.57.76
-f7deb6 maxwatts 1350 # 10.0.57.77
-9e6254 maxwatts 1350 # 10.0.57.78
-eaab57 reboot 1573458936 # 10.0.57.76
-f7deb6 reboot 1573458936 # 10.0.57.77
-9e6254 reboot 1573458936 # 10.0.57.78
-
-
 
 ## reboots
 
@@ -94,13 +53,3 @@ f7deb6 reboot 1573458936 # 10.0.57.77
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
