@@ -23,18 +23,15 @@ global maxwatts 1500
 global autoupdate yes
 global allowed yes
 global maxtemp 90
-global fanspeed 65
+global fanspeed 100
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
-global retune 1
-# global rebootasic 1
-global resetasic 1571456434 # 1571244444 # 1571113675
+# global retune 1
+# global reboot 1
+# global reset 1
 # global panelpass gj83Nkgikg
-
-# group=rowc rebootasic 1
-# group=rowd allowed no
 
 ## vlans
 vlan 10.0.63.70-70
@@ -45,52 +42,10 @@ e234df location CGRUS00001
 522efd location CGRUS00002
 
 ## tuning
-e234df maxwatts 1300 # 10.0.64.123
-e234df reboot 1573470998 # 10.0.64.123
-
-e234df maxwatts 1300 # 10.0.64.123
-e234df reboot 1573470998 # 10.0.64.123
-
-e234df maxwatts 1400 # 10.0.64.123
-e234df reboot 1573466695 # 10.0.64.123
-
-e234df maxwatts 1400 # 10.0.64.123
-e234df reboot 1573466695 # 10.0.64.123
-
-522efd maxwatts 1400 # 10.0.63.70
-522efd reboot 1573464591 # 10.0.63.70
-
-522efd maxwatts 1400 # 10.0.63.70
-522efd reboot 1573464591 # 10.0.63.70
-
-
-
 
 ## reboots
 
 ## resets
-522efd resetasic 1573148460
-e234df resetasic 1573148460
-
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
