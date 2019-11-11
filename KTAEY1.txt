@@ -11,8 +11,8 @@ global poolname2 us.ss.btc.com:1800
 global username2 y7nhca3
 global poolpass2 123
 global sendworker2 yes
-global poolname3 us.ss.btc.com:443
-global username3 y7nhca3
+global poolname3 profit.pool.bitcoin.com:3333
+global username3 bit49
 global poolpass3 123
 global sendworker3 yes
 
@@ -21,19 +21,17 @@ global autotune yes
 global maxwatts 1300
 global autoupdate yes
 global allowed yes
-global maxtemp 90
+global maxtemp 90 1
+# global throttle 100
 global fanspeed 100
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
-global retune 1
-global rebootasic 4
-global resetasic 1571113675 # 1
+# global retune 1
+# global reboot 4
+# global reset 1
 # global panelpass gj83Nkgikg
-
-# group=rowc rebootasic 1
-# group=rowd allowed no
 
 ## vlans
 vlan 172.16.202.86-86
