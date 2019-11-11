@@ -57,8 +57,11 @@ af34c7 reboot 1573484248 # 10.0.62.36 rfran00001
 d54f75 reboot 1573484248 # 10.0.62.40 rfran00004
 
 ## reboots
+# s_reboot generated on Nov 11 2019 19:58:15 utc: 1573502295
+46bd22 reboot 1573502295 # 10.0.62.39 rfran00003
 
 ## resets
+d54f75 reset 1573502295
 
 ## asic password
 asicpass admin
