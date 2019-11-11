@@ -22,19 +22,17 @@ global autotune yes
 global maxwatts 1500
 global autoupdate yes
 global allowed yes
-global maxtemp 90
+global maxtemp 90 1
+# global throttle 100
 global fanspeed 100
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
-# global rebootasic 1
-global resetasic 1571462414 # 1571113675 # 1
+# global reboot 1
+# global reset 1
 # global panelpass gj83Nkgikg
-
-# group=rowc rebootasic 1
-# group=rowd allowed no
 
 ## vlans
 vlan 10.0.65.147-147
@@ -43,24 +41,6 @@ vlan 10.0.65.147-147
 faba2f location TCOST00001
 
 ## tuning
-faba2f maxwatts 1200 # 10.0.65.147
-faba2f reboot 1573467115 # 10.0.65.147
-
-faba2f maxwatts 1200 # 10.0.65.147
-faba2f reboot 1573467115 # 10.0.65.147
-
-faba2f maxwatts 1300 # 10.0.65.147
-faba2f reboot 1573464956 # 10.0.65.147
-
-faba2f maxwatts 1300 # 10.0.65.147
-faba2f reboot 1573464956 # 10.0.65.147
-
-faba2f maxwatts 1400 # 10.0.65.147
-faba2f reboot 1573420822 # 10.0.65.147
-
-faba2f maxwatts 1400 # 10.0.65.147
-faba2f reboot 1573420822 # 10.0.65.147
-
 
 ## reboots
 
@@ -68,9 +48,3 @@ faba2f reboot 1573420822 # 10.0.65.147
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
