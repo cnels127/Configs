@@ -49,6 +49,9 @@ aab607 location DMCCL00004
 aab607 maxwatts 1350 # 10.0.68.29
 aab607 reboot 1573466722 # 10.0.68.29
 
+aab607 maxwatts 1350 # 10.0.68.29
+aab607 reboot 1573466722 # 10.0.68.29
+
 97c2eb maxwatts -50 # 10.0.68.28
 97c2eb reboot 1573391486 # 10.0.68.28
 
@@ -160,6 +163,7 @@ aab607 resetasic 1571248369
 
 ## asic password
 asicpass admin
+
 
 
 

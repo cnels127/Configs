@@ -92,6 +92,13 @@ ae42ad maxwatts 1350 # 10.0.67.34
 bc2299 reboot 1573466750 # 10.0.65.34
 ae42ad reboot 1573466750 # 10.0.67.34
 
+99d76d maxwatts 1350 # 10.0.62.30
+bc2299 maxwatts 1350 # 10.0.65.34
+ae42ad maxwatts 1350 # 10.0.67.34
+99d76d reboot 1573466750 # 10.0.62.30
+bc2299 reboot 1573466750 # 10.0.65.34
+ae42ad reboot 1573466750 # 10.0.67.34
+
 e0ccfa maxwatts 1350 # 10.0.55.140
 de83b4 maxwatts 1350 # 10.0.55.157
 8342ab maxwatts 1350 # 10.0.65.148
@@ -334,6 +341,7 @@ d3176c reset 1573254670
 
 ## asic password
 asicpass admin
+
 
 
 

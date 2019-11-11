@@ -53,6 +53,13 @@ ba1c4a maxwatts 1350 # 10.0.68.33
 256c44 reboot 1573467034 # 10.0.68.32
 ba1c4a reboot 1573467034 # 10.0.68.33
 
+12c5ea maxwatts 1350 # 10.0.68.30
+256c44 maxwatts 1350 # 10.0.68.32
+ba1c4a maxwatts 1350 # 10.0.68.33
+12c5ea reboot 1573467034 # 10.0.68.30
+256c44 reboot 1573467034 # 10.0.68.32
+ba1c4a reboot 1573467034 # 10.0.68.33
+
 2e86e9 maxwatts 1350 # 10.0.68.31
 2e86e9 reboot 1573224762 # 10.0.68.31
 
@@ -70,6 +77,7 @@ ba1c4a reboot 1573467034 # 10.0.68.33
 
 ## asic password
 asicpass admin
+
 
 
 
