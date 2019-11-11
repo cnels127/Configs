@@ -66,6 +66,11 @@ cc96e4 maxwatts 700 # 10.0.67.107
 cc96e4 reboot 1573471305 # 10.0.67.107
 133b75 reboot 1573471305 # 10.0.67.153
 
+cc96e4 maxwatts 700 # 10.0.67.107
+133b75 maxwatts 1300 # 10.0.67.153
+cc96e4 reboot 1573471305 # 10.0.67.107
+133b75 reboot 1573471305 # 10.0.67.153
+
 cc96e4 maxwatts 800 # 10.0.67.107
 133b75 maxwatts 1400 # 10.0.67.153
 cc96e4 reboot 1573469202 # 10.0.67.107
@@ -123,6 +128,7 @@ cc96e4 rebootasic 1572973558
 
 ## asic password
 asicpass admin
+
 
 
 

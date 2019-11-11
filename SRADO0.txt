@@ -123,6 +123,13 @@ ee5d70 maxwatts 1200 # 10.0.65.114
 9df692 reboot 1573471323 # 10.0.57.150
 ee5d70 reboot 1573471323 # 10.0.65.114
 
+957edc maxwatts 1200 # 10.0.67.104
+9df692 maxwatts 1300 # 10.0.57.150
+ee5d70 maxwatts 1200 # 10.0.65.114
+957edc reboot 1573471323 # 10.0.67.104
+9df692 reboot 1573471323 # 10.0.57.150
+ee5d70 reboot 1573471323 # 10.0.65.114
+
 a23fe5 maxwatts 1300 # 10.0.68.43
 0f50f9 maxwatts 1200 # 10.0.66.100
 540807 maxwatts 1300 # 10.0.67.157
@@ -578,6 +585,7 @@ acd279 reboot 1573328695 # 10.0.58.16
 
 ## asic password
 asicpass admin
+
 
 
 

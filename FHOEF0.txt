@@ -90,6 +90,11 @@ a2cb7c maxwatts 1250 # 10.0.66.149
 a2cb7c reboot 1573471048 # 10.0.66.149
 64cc79 reboot 1573471048 # 10.0.67.136
 
+a2cb7c maxwatts 1250 # 10.0.66.149
+64cc79 maxwatts 1250 # 10.0.67.136
+a2cb7c reboot 1573471048 # 10.0.66.149
+64cc79 reboot 1573471048 # 10.0.67.136
+
 99d76d maxwatts 1250 # 10.0.62.30
 8342ab maxwatts 1250 # 10.0.65.148
 b3897a maxwatts 1150 # 10.0.66.93
@@ -372,6 +377,7 @@ d3176c reset 1573254670
 
 ## asic password
 asicpass admin
+
 
 
 
