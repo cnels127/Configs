@@ -21,7 +21,8 @@ global autotune yes
 global maxwatts 1500
 global autoupdate yes
 global allowed yes
-global maxtemp 90
+global maxtemp 90 1
+# global throttle 100
 global fanspeed 100
 global fansaver yes
 global blinkred idle
@@ -29,7 +30,7 @@ global blinkgreen rapid
 
 # global retune 1
 # global reboot 1
-global reset 1573257565
+# global reset 1573257565
 # global panelpass gj83Nkgikg
 
 ## SNOOR (300 machines @ 16 Th/s = 4,800 Th/s)
@@ -293,32 +294,3 @@ fbfdea reboot 1573335894 # 10.0.56.99 set2
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
