@@ -18,7 +18,7 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1500
+global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90
@@ -29,13 +29,13 @@ global blinkred idle
 global blinkgreen rapid
 # global panelpass gj83Nkgikg
 
-## LWENZ0 (9/17/19)
-vlan 10.0.55.5-5
-09cad2 location LWENZ00001
-09cad2 maxwatts 1350
+# global retune 1
+# global reboot 1
+# global reset 1
+# global panelpass gj83Nkgikg
 
 ## KREDD0 (10/4/19)
-vlan 10.0.54.145-147
+# vlan 10.0.54.145-147
 c94710 location KREDD00001
 934f82 location KREDD00002
 5d208b location KREDD00003
@@ -43,44 +43,193 @@ c94710 maxwatts 1350
 934f82 maxwatts 1350
 5d208b maxwatts 1350
 
-## ARAMA0 (10/4/19)
-vlan 10.0.54.142-144
-vlan 10.0.56.106-106
-vlan 10.0.56.115-115
-vlan 10.0.56.117-117
-dc1171 location ARAMA00001
-c5f2b7 location ARAMA00002
-87a39c location ARAMA00003
-df6f8a location ARAMA00004
-44e8a9 location ARAMA00005
-0a29cc location ARAMA00006
-dc1171 maxwatts 1350
-c5f2b7 maxwatts 1350
-87a39c maxwatts 1350
-df6f8a maxwatts 1350
-44e8a9 maxwatts 1350
-0a29cc maxwatts 1350
+## BBHAY0 (11/11/19)
+vlan 10.0.58.133-133
+vlan 10.0.63.28-28
+vlan 10.0.63.78-78
+vlan 10.0.63.81-81
+vlan 10.0.63.82-82
+vlan 10.0.63.83-83
+vlan 10.0.63.85-85
+vlan 10.0.63.86-86
+vlan 10.0.63.87-87
+vlan 10.0.63.88-88
+vlan 10.0.63.90-90
+vlan 10.0.63.92-92
+vlan 10.0.63.93-93
+vlan 10.0.63.94-94
+vlan 10.0.63.95-95
+vlan 10.0.63.97-97
+vlan 10.0.63.99-99
+vlan 10.0.63.108-108
+vlan 10.0.63.111-111
+vlan 10.0.63.114-114
+vlan 10.0.63.119-119
+vlan 10.0.63.120-120
+vlan 10.0.63.123-123
+vlan 10.0.63.124-124
+vlan 10.0.63.126-126
+vlan 10.0.63.128-128
+vlan 10.0.64.1-1
+vlan 10.0.64.39-39
+vlan 10.0.64.40-40
+vlan 10.0.64.43-43
+vlan 10.0.64.45-45
+vlan 10.0.64.47-47
+vlan 10.0.64.48-48
+vlan 10.0.64.49-49
+vlan 10.0.64.50-50
+vlan 10.0.64.52-52
+vlan 10.0.64.53-53
+vlan 10.0.64.54-54
+vlan 10.0.64.56-56
+vlan 10.0.64.57-57
+vlan 10.0.64.60-60
+vlan 10.0.64.62-62
+vlan 10.0.64.63-63
+vlan 10.0.64.64-64
+vlan 10.0.64.65-65
+vlan 10.0.64.68-68
+vlan 10.0.64.71-71
+vlan 10.0.64.73-73
+vlan 10.0.64.75-75
+vlan 10.0.64.76-76
+vlan 10.0.64.81-81
+vlan 10.0.64.82-82
+vlan 10.0.64.83-83
+vlan 10.0.64.86-86
+vlan 10.0.64.93-93
+vlan 10.0.64.94-94
+vlan 10.0.64.97-97
+vlan 10.0.64.98-98
+vlan 10.0.64.100-100
+vlan 10.0.64.101-101
+vlan 10.0.64.110-110
+vlan 10.0.64.111-111
+vlan 10.0.64.112-112
+vlan 10.0.64.114-114
+vlan 10.0.64.115-115
+vlan 10.0.64.120-120
+vlan 10.0.64.124-124
+vlan 10.0.64.125-125
+vlan 10.0.64.128-128
+vlan 10.0.64.129-129
+vlan 10.0.64.130-130
+vlan 10.0.64.135-135
+vlan 10.0.64.138-138
+vlan 10.0.64.140-140
+vlan 10.0.64.141-141
+vlan 10.0.64.142-142
+vlan 10.0.64.143-143
+vlan 10.0.64.147-147
+vlan 10.0.64.148-148
+vlan 10.0.64.149-149
+vlan 10.0.64.150-150
+vlan 10.0.64.152-152
+vlan 10.0.64.156-156
+vlan 10.0.64.158-158
+vlan 10.0.64.160-160
+vlan 10.0.65.6-6
+vlan 10.0.65.8-8
+vlan 10.0.65.9-9
+vlan 10.0.65.15-15
+vlan 10.0.65.19-19
+2ecd51 location BBHAY00001
+ce8824 location BBHAY00002
+0beffe location BBHAY00003
+ceb6d3 location BBHAY00004
+ba9633 location BBHAY00005
+ae0dc5 location BBHAY00006
+ef3cd3 location BBHAY00007
+5f83f2 location BBHAY00008
+ae0bc3 location BBHAY00009
+0ce813 location BBHAY00010
+c1e388 location BBHAY00011
+f8f07d location BBHAY00012
+1bcd84 location BBHAY00013
+5b204c location BBHAY00014
+ca3c40 location BBHAY00015
+a9f649 location BBHAY00016
+a18065 location BBHAY00017
+540a7e location BBHAY00018
+b8542a location BBHAY00019
+a1aa21 location BBHAY00020
+d22096 location BBHAY00021
+e97d51 location BBHAY00022
+6ccd23 location BBHAY00023
+19d5b1 location BBHAY00024
+25d9fe location BBHAY00025
+817b9d location BBHAY00026
+fac878 location BBHAY00027
+b96a71 location BBHAY00028
+86b052 location BBHAY00029
+4f98ad location BBHAY00030
+b00326 location BBHAY00031
+8a91d6 location BBHAY00032
+ae1e3e location BBHAY00033
+0296fb location BBHAY00034
+67b65e location BBHAY00035
+ca610b location BBHAY00036
+616ea8 location BBHAY00037
+fd0e9e location BBHAY00038
+0e4921 location BBHAY00039
+3aaaa4 location BBHAY00040
+753797 location BBHAY00041
+5d10c8 location BBHAY00042
+81f65a location BBHAY00043
+1681b2 location BBHAY00044
+8daaae location BBHAY00045
+0436dd location BBHAY00046
+777a69 location BBHAY00047
+f0188e location BBHAY00048
+344316 location BBHAY00049
+cd3f0b location BBHAY00050
+8d87ae location BBHAY00051
+5f85a0 location BBHAY00052
+34129a location BBHAY00053
+a51f98 location BBHAY00054
+88f593 location BBHAY00055
+4951af location BBHAY00056
+79eac2 location BBHAY00057
+658868 location BBHAY00058
+0646b0 location BBHAY00059
+4c657f location BBHAY00060
+cc3436 location BBHAY00061
+903ebf location BBHAY00062
+6cd6ec location BBHAY00063
+495ffc location BBHAY00064
+ff4881 location BBHAY00065
+46c17c location BBHAY00066
+ca1218 location BBHAY00067
+8fe290 location BBHAY00068
+a9d7ce location BBHAY00069
+47d2a2 location BBHAY00070
+5a29b1 location BBHAY00071
+f4a2d3 location BBHAY00072
+519929 location BBHAY00073
+df8e12 location BBHAY00074
+be11d6 location BBHAY00075
+d36be5 location BBHAY00076
+ac598c location BBHAY00077
+84b738 location BBHAY00078
+62a209 location BBHAY00079
+b5c8fc location BBHAY00080
+007425 location BBHAY00081
+291a0f location BBHAY00082
+420be9 location BBHAY00083
+3c611a location BBHAY00084
+af7328 location BBHAY00085
+9bf7ff location BBHAY00086
+1056fd location BBHAY00087
+19b781 location BBHAY00088
+18fff9 location BBHAY00089
+935b5a location BBHAY00090
 
 ## tuning
-5d208b reboot 1573502822 # 10.0.54.147 kredd00003
-c94710 reboot 1573502822 # 10.0.54.145 kredd00001
- 
 
-934f82 reboot 1573489160 # 10.0.54.146 kredd00002
-5d208b reboot 1573489160 # 10.0.54.147 kredd00003
- 
+## reboots
 
-934f82 reboot 1573487523 # 10.0.54.146 kredd00002
-5d208b reboot 1573487523 # 10.0.54.147 kredd00003
- 
-
-5d208b reboot 1573485876 # 10.0.54.147 kredd00003
-934f82 reboot 1573485876 # 10.0.54.146 kredd00002
- 
-
-5d208b reboot 1573484163 # 10.0.54.147 kredd00003
-c94710 reboot 1573484163 # 10.0.54.145 kredd00001
-934f82 reboot 1573484163 # 10.0.54.146 kredd00002
+## resets
 
 ## asic password
 asicpass admin
