@@ -24,7 +24,7 @@ global autoupdate yes
 global allowed yes
 global maxtemp 90
 # global throttle 100
-global fanspeed 50
+global fanspeed 100
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
@@ -120,7 +120,10 @@ e4b5b6 reboot 1573484142 # 10.0.64.157 fhoef00015
 d3176c reboot 1573484142 # 10.0.67.92 fhoef00025
 8d76ff reboot 1573484142 # 10.0.56.79 fhoef00008
 589176 reboot 1573484142 # 10.0.67.143 fhoef00028
- 
+
+## fans
+8342ab fanspeed 50
+
 ## reboots
 
 ## resets
