@@ -49,6 +49,9 @@ vlan 172.16.204.146-146
 
 ## tuning
 2d1b6f maxwatts -100 # 10.10.125.21
+2d1b6f reboot 1573475445 # 10.10.125.21
+
+2d1b6f maxwatts -100 # 10.10.125.21
 2d1b6f reboot 1573473351 # 10.10.125.21
 
 2d1b6f maxwatts -100 # 10.10.125.21
@@ -187,6 +190,7 @@ vlan 172.16.204.146-146
 
 ## asic password
 asicpass admin
+
 
 
 
