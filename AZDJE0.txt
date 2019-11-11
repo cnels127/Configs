@@ -191,6 +191,16 @@ bf8fd2 location AZDJE00096
 0d929b location AZDJE00100
 
 ## tuning
+c96ac2 reboot 1573484106 # 10.0.56.72 azdje00086
+8c8679 reboot 1573484106 # 10.0.56.95 azdje00098
+bf8fd2 reboot 1573484106 # 10.0.56.93 azdje00096
+0d929b reboot 1573484106 # 10.0.56.97 azdje00100
+457d60 reboot 1573484106 # 10.0.56.71 azdje00085
+3b9218 reboot 1573484106 # 10.0.56.43 azdje00065
+60ea4c reboot 1573484106 # 10.0.56.103 azdje00035
+9f340c reboot 1573484106 # 10.0.56.94 azdje00097
+ 
+
 
 ## reboots
 d8b55c reboot 1573077599
@@ -209,3 +219,4 @@ c96ac2 reset 1573482680
 
 ## asic password
 asicpass admin
+

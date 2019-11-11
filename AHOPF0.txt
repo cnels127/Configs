@@ -37,6 +37,17 @@ global blinkgreen rapid
 # group=rowd allowed no
 
 ## tuning
+b285f8 reboot 1573484092 # 10.0.57.33 ahopf00036
+a61391 reboot 1573484092 # 10.0.119.46 ahopf00076
+72720b reboot 1573484092 # 10.0.57.47 ahopf00050
+a66966 reboot 1573484092 # 10.0.57.38 ahopf00041
+75e651 reboot 1573484092 # 10.0.57.39 ahopf00042
+7c5703 reboot 1573484092 # 10.0.57.43 ahopf00046
+cb7a3d reboot 1573484092 # 10.0.56.159 ahopf00001
+8c0b48 reboot 1573484092 # 10.0.115.3 ahopf00149
+45ecb5 reboot 1573484092 # 10.0.20.51 ahopf00354
+ 
+
 # s_reboot generated on Nov 11 2019 13:35:15 utc: 1573479315
 41dd5d reboot 1573479315 # 10.0.119.93 ahopf00144
 72720b reboot 1573479315 # 10.0.57.47 ahopf00050
@@ -1440,6 +1451,7 @@ c6cbe1 username3 GMTVILLA01
 
 ## asic password
 asicpass admin
+
 
 
 

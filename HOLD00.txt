@@ -61,6 +61,11 @@ df6f8a maxwatts 1350
 0a29cc maxwatts 1350
 
 ## tuning
+5d208b reboot 1573484163 # 10.0.54.147 kredd00003
+c94710 reboot 1573484163 # 10.0.54.145 kredd00001
+934f82 reboot 1573484163 # 10.0.54.146 kredd00002
+ 
+
 5d208b maxwatts 1250 # 10.0.54.147
 c94710 maxwatts 1250 # 10.0.54.145
 934f82 maxwatts 1250 # 10.0.54.146
@@ -723,6 +728,7 @@ c94710 rebootasic 1570769889 # 10.0.54.145
 
 ## asic password
 asicpass admin
+
 
 
 
