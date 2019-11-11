@@ -45,6 +45,9 @@ b897c7 location JGIBL00002
 ffc9c8 location JGIBL00003
 
 ## tuning
+ffc9c8 reboot 1573504596 # 10.0.56.90 jgibl00003
+ 
+
 615313 reboot 1573502834 # 10.0.55.151 jgibl00001
 ffc9c8 reboot 1573502834 # 10.0.56.90 jgibl00003
  
@@ -57,4 +60,5 @@ ffc9c8 reboot 1573502834 # 10.0.56.90 jgibl00003
 
 ## asic password
 asicpass admin
+
 

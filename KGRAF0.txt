@@ -131,6 +131,9 @@ b6ea4d location KGRAF00043
 a62f6a location KGRAF00045
 
 ## tuning
+a62f6a reboot 1573504616 # 10.0.68.45 kgraf00045
+ 
+
 2371b0 reboot 1573502856 # 10.0.62.138 kgraf00020
 5c49bc reboot 1573502856 # 10.0.61.72 kgraf00001
 93c991 reboot 1573502856 # 10.0.65.7 kgraf00007
@@ -148,4 +151,5 @@ a62f6a reboot 1573502856 # 10.0.68.45 kgraf00045
 
 ## asic password
 asicpass admin
+
 
