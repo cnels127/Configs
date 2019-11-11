@@ -24,7 +24,8 @@ global autotune yes
 global maxwatts 1450
 global autoupdate yes
 global allowed yes
-global maxtemp 90
+global maxtemp 90 1
+# global throttle 100
 global fanspeed 100
 global fansaver yes
 global blinkred idle
@@ -68,67 +69,6 @@ a83fdc location TGROT00012
 ## tuning
 11a6fc reboot 1573493931 # 10.0.115.88 tgrot00004
 cb7d1b reboot 1573493931 # 10.0.116.68 tgrot00011
- 
-
-11a6fc maxwatts 1350 # 10.0.115.88
-11a6fc reboot 1573464966 # 10.0.115.88
-
-11a6fc maxwatts 1350 # 10.0.115.88
-11a6fc reboot 1573464966 # 10.0.115.88
-
-f2dc4d maxwatts 1150 # 10.0.63.84
-f2dc4d reboot 1573462873 # 10.0.63.84
-
-f2dc4d maxwatts 1150 # 10.0.63.84
-f2dc4d reboot 1573462873 # 10.0.63.84
-
-f2dc4d maxwatts 1250 # 10.0.63.84
-f2dc4d reboot 1573460854 # 10.0.63.84
-
-f2dc4d maxwatts 1250 # 10.0.63.84
-f2dc4d reboot 1573460854 # 10.0.63.84
-
-f2dc4d maxwatts 1350 # 10.0.63.84
-f2dc4d reboot 1573458920 # 10.0.63.84
-
-f2dc4d maxwatts 1350 # 10.0.63.84
-f2dc4d reboot 1573458920 # 10.0.63.84
-
-11a6fc reboot 1573337555 # 10.0.115.88 tgrot00004
- 
-
-052e16 maxwatts 850 # 10.0.116.37
-052e16 reboot 1573326971 # 10.0.116.37
-
-052e16 maxwatts 950 # 10.0.116.37
-052e16 reboot 1573236616 # 10.0.116.37
-
-052e16 maxwatts 950 # 10.0.116.37
-052e16 reboot 1573236616 # 10.0.116.37
-
-052e16 maxwatts 1050 # 10.0.116.37
-052e16 reboot 1573234920 # 10.0.116.37
-
-052e16 maxwatts 1050 # 10.0.116.37
-052e16 reboot 1573234920 # 10.0.116.37
-
-052e16 maxwatts 1150 # 10.0.116.37
-052e16 reboot 1573145822 # 10.0.116.37
-
-052e16 maxwatts 1150 # 10.0.116.37
-052e16 reboot 1573145822 # 10.0.116.37
-
-052e16 maxwatts 1250 # 10.0.116.37
-052e16 reboot 1573107678 # 10.0.116.37
-
-052e16 maxwatts 1250 # 10.0.116.37
-052e16 reboot 1573107678 # 10.0.116.37
-
-052e16 maxwatts 1350 # 10.0.116.37
-052e16 reboot 1573105945 # 10.0.116.37
-
-052e16 maxwatts 1350 # 10.0.116.37
-052e16 reboot 1573105945 # 10.0.116.37
 
 ## reboots
 
@@ -140,18 +80,3 @@ f2dc4d reset 1573151731
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
