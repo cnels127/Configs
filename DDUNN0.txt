@@ -77,6 +77,11 @@ eef025 location DDUNN00016
 23c698 reboot 1573475132 # 10.0.55.112
 5594a0 reboot 1573475132 # 10.0.54.160
 
+23c698 maxwatts 1250 # 10.0.55.112
+5594a0 maxwatts 1250 # 10.0.54.160
+23c698 reboot 1573475132 # 10.0.55.112
+5594a0 reboot 1573475132 # 10.0.54.160
+
 58df28 maxwatts 1350 # 10.0.56.114
 58df28 reboot 1573468862 # 10.0.56.114
 
@@ -125,6 +130,7 @@ eef025 reboot 1573335781 # 10.0.56.110 ddunn00016
 
 ## asic password
 asicpass admin
+
 
 
 
