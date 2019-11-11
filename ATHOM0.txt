@@ -128,6 +128,13 @@ f56d20 reboot 1573436523 # 10.0.61.145
 9be27b reboot 1573436523 # 10.0.63.106
 f9ca53 reboot 1573436523 # 10.0.66.106
 
+f56d20 maxwatts 350 # 10.0.61.145
+9be27b maxwatts 1150 # 10.0.63.106
+f9ca53 maxwatts 350 # 10.0.66.106
+f56d20 reboot 1573436523 # 10.0.61.145
+9be27b reboot 1573436523 # 10.0.63.106
+f9ca53 reboot 1573436523 # 10.0.66.106
+
 f56d20 maxwatts 450 # 10.0.61.145
 9be27b maxwatts 1250 # 10.0.63.106
 f9ca53 maxwatts 450 # 10.0.66.106
@@ -840,6 +847,7 @@ d58ae6 reboot 1573171212 # 10.0.63.134
 
 ## asic password
 asicpass admin
+
 
 
 
