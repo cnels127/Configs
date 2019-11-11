@@ -45,6 +45,9 @@ b7e4cf location SNEVI00003
 d2fc8a location SNEVI00005
 
 ## tuning
+3ac65a maxwatts 1350 # 10.0.68.67
+3ac65a reboot 1573515861 # 10.0.68.67
+
 
 ## reboots
 # s_reboot generated on Nov 11 2019 19:11:26 utc: 1573499486
@@ -55,3 +58,4 @@ b7e4cf reboot 1573499486 # 10.0.68.66 snevi00003
 
 ## asic password
 asicpass admin
+

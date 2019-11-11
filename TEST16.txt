@@ -38,6 +38,9 @@ global blinkgreen rapid
 ## locations
 
 ## tuning
+dc4996 maxwatts 1250 # 10.0.120.33
+dc4996 reboot 1573515872 # 10.0.120.33
+
 dc4996 maxwatts 1350 # 10.0.120.33
 364899 maxwatts 1350 # 10.0.59.79
 2385b5 maxwatts 1250 # 10.0.67.61
@@ -164,6 +167,7 @@ e9aa45 reset 1573274335
 
 ## asic password
 asicpass admin
+
 
 
 
