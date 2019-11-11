@@ -23,6 +23,7 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90
+# global throttle 100
 global fanspeed 100
 global fansaver yes
 global blinkred idle
@@ -70,29 +71,6 @@ f1ae88 location PEGAN00014
 ## tuning
 44c925 reboot 1573493886 # 10.0.55.142 pegan00002
 4e0552 reboot 1573493886 # 10.0.115.2 pegan00011
- 
-
-ef1f6e maxwatts 1350 # 10.0.68.34
-38d579 maxwatts 1350 # 10.0.68.35
-ef1f6e reboot 1573466956 # 10.0.68.34
-38d579 reboot 1573466956 # 10.0.68.35
-
-ef1f6e maxwatts 1350 # 10.0.68.34
-38d579 maxwatts 1350 # 10.0.68.35
-ef1f6e reboot 1573466956 # 10.0.68.34
-38d579 reboot 1573466956 # 10.0.68.35
-
-5a3dde maxwatts 1350 # 10.0.54.154
-5a3dde reboot 1573462752 # 10.0.54.154
-
-5a3dde maxwatts 1350 # 10.0.54.154
-5a3dde reboot 1573462752 # 10.0.54.154
-
-4e0552 reboot 1573337519 # 10.0.115.2 pegan00011
- 
-
-
-
 
 ## reboots
 
@@ -101,9 +79,3 @@ d20101 reset 1573254748
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
