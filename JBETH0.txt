@@ -25,18 +25,16 @@ global maxwatts 1500
 global autoupdate yes
 global allowed yes
 global maxtemp 90
+# global throttle 100
 global fanspeed 100
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
-global retune 2
-global rebootasic 1
-global resetasic 1571113675 # 1
+# global retune 2
+# global reboot 1
+# global reset 1
 # global panelpass gj83Nkgikg
-
-# group=rowc rebootasic 1
-# group=rowd allowed no
 
 ## vlans
 vlan 10.0.68.48-52
@@ -97,17 +95,10 @@ e67e88 reboot 1573489163 # 10.0.68.107 jbeth00011
 084a54 reboot 1573485879 # 10.0.68.51 jbeth00004
 45ff0c reboot 1573485879 # 10.0.59.129 jbeth00013
 95c235 reboot 1573485879 # 10.0.59.131 jbeth00014
- 
-
-
-
-
-
 
 ## fans
 
 ## reboots
-
 2462cd reboot 1573485676 # 10.0.68.48 jbeth00001
 966dd1 reboot 1573485676 # 10.0.68.49 jbeth00002
 37ffb3 reboot 1573485676 # 10.0.68.50 jbeth00003
@@ -117,11 +108,5 @@ e67e88 reboot 1573489163 # 10.0.68.107 jbeth00011
 
 ## resets
 
-
-
 ## asic password
 asicpass admin
-
-
-
-
