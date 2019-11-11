@@ -11,8 +11,8 @@ global poolname2 us.ss.btc.com:443
 global username2 xytgeist
 global poolpass2 123
 global sendworker2 yes
-global poolname3 us.ss.btc.com:25
-global username3 xytgeistch
+global poolname3 profit.pool.bitcoin.com:3333
+global username3 bit49
 global poolpass3 123
 global sendworker3 yes
 
@@ -21,14 +21,14 @@ global autotune yes
 global maxwatts 1300
 global autoupdate yes
 global allowed yes
-global maxtemp 90
+global maxtemp 90 1
 global fanspeed 100
 global fansaver yes
 global blinkgreen rapid
 
 # global retune 1
-# global rebootasic 1
-global resetasic 1571113675 # 1
+# global reboot 1
+# global reset 1
 # global panelpass gj83Nkgikg
 
 # group=rowc rebootasic 1
