@@ -23,6 +23,7 @@ global maxwatts 1500
 global autoupdate yes
 global allowed yes
 global maxtemp 90
+# global throttle 100
 global fanspeed 100
 global fansaver yes
 global blinkred idle
@@ -53,103 +54,14 @@ e5ba90 location PKOKE00009
 
 ## tuning
 2baaac reboot 1573489200 # 10.0.58.127 pkoke00008
- 
 
 f39f2b reboot 1573487564 # 10.0.54.135 pkoke00003
 3bcc51 reboot 1573487564 # 10.0.57.75 pkoke00007
- 
 
 3bcc51 reboot 1573485922 # 10.0.57.75 pkoke00007
- 
 
 3bcc51 reboot 1573484234 # 10.0.57.75 pkoke00007
 7ed10f reboot 1573484234 # 10.0.57.74 pkoke00006
- 
-
-3bcc51 maxwatts 1300 # 10.0.57.75
-3bcc51 reboot 1573477439 # 10.0.57.75
-
-3bcc51 maxwatts 1300 # 10.0.57.75
-3bcc51 reboot 1573477439 # 10.0.57.75
-
-3bcc51 maxwatts 1300 # 10.0.57.75
-3bcc51 reboot 1573475373 # 10.0.57.75
-
-3bcc51 maxwatts 1300 # 10.0.57.75
-3bcc51 reboot 1573475373 # 10.0.57.75
-
-3bcc51 maxwatts 1300 # 10.0.57.75
-3bcc51 reboot 1573473288 # 10.0.57.75
-
-3bcc51 maxwatts 1300 # 10.0.57.75
-3bcc51 reboot 1573473288 # 10.0.57.75
-
-3bcc51 maxwatts 1300 # 10.0.57.75
-3bcc51 reboot 1573471229 # 10.0.57.75
-
-3bcc51 maxwatts 1300 # 10.0.57.75
-3bcc51 reboot 1573471229 # 10.0.57.75
-
-3bcc51 maxwatts 1300 # 10.0.57.75
-3bcc51 reboot 1573469127 # 10.0.57.75
-
-3bcc51 maxwatts 1300 # 10.0.57.75
-3bcc51 reboot 1573469127 # 10.0.57.75
-
-17739c maxwatts 1300 # 10.0.54.133
-f39f2b maxwatts 1000 # 10.0.54.135
-17739c reboot 1573464851 # 10.0.54.133
-f39f2b reboot 1573464851 # 10.0.54.135
-
-17739c maxwatts 1300 # 10.0.54.133
-f39f2b maxwatts 1000 # 10.0.54.135
-17739c reboot 1573464851 # 10.0.54.133
-f39f2b reboot 1573464851 # 10.0.54.135
-
-3bcc51 maxwatts 1400 # 10.0.57.75
-3bcc51 reboot 1573456829 # 10.0.57.75
-
-3bcc51 maxwatts 1400 # 10.0.57.75
-3bcc51 reboot 1573456829 # 10.0.57.75
-
-17739c maxwatts 1400 # 10.0.54.133
-17739c reboot 1573438411 # 10.0.54.133
-
-17739c maxwatts 1400 # 10.0.54.133
-17739c reboot 1573438411 # 10.0.54.133
-
-bcaed0 maxwatts 1400 # 10.0.56.8
-bcaed0 reboot 1573391545 # 10.0.56.8
-
-bcaed0 maxwatts 1400 # 10.0.56.8
-bcaed0 reboot 1573391545 # 10.0.56.8
-
-f39f2b maxwatts 1100 # 10.0.54.135
-f39f2b reboot 1573366119 # 10.0.54.135
-
-f39f2b maxwatts 1100 # 10.0.54.135
-f39f2b reboot 1573366119 # 10.0.54.135
-
-f39f2b maxwatts 1200 # 10.0.54.135
-f39f2b reboot 1573361032 # 10.0.54.135
-
-f39f2b maxwatts 1200 # 10.0.54.135
-f39f2b reboot 1573361032 # 10.0.54.135
-
-f39f2b maxwatts 1300 # 10.0.54.135
-f39f2b reboot 1573357598 # 10.0.54.135
-
-f39f2b maxwatts 1300 # 10.0.54.135
-f39f2b reboot 1573357598 # 10.0.54.135
-
-f39f2b maxwatts 1400 # 10.0.54.135
-f39f2b reboot 1573352337 # 10.0.54.135
-
-f39f2b maxwatts 1400 # 10.0.54.135
-f39f2b reboot 1573352337 # 10.0.54.135
-
-
-
 
 ## reboots
 
@@ -159,33 +71,3 @@ f39f2b reset 1573164454
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
