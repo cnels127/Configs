@@ -22,19 +22,17 @@ global autotune yes
 global maxwatts 1500
 global autoupdate yes
 global allowed yes
-global maxtemp 90
+global maxtemp 90 1
+# global throttle 100
 global fanspeed 100
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
-global rebootasic 1571938362
-global resetasic 1571462337 # 3
+# global reboot 1
+# global reset 3
 # global panelpass gj83Nkgikg
-
-# group=rowc rebootasic 1
-# group=rowd allowed no
 
 ## vlans
 vlan 10.0.60.99-99
@@ -48,104 +46,6 @@ f450a0 location STHAY00002
 
 ## tuning
 546a5f reboot 1573484290 # 10.0.60.144 sthay00003
- 
-
-546a5f maxwatts 800 # 10.0.60.144
-546a5f reboot 1573477575 # 10.0.60.144
-
-546a5f maxwatts 800 # 10.0.60.144
-546a5f reboot 1573477575 # 10.0.60.144
-
-132245 maxwatts 400 # 10.0.60.99
-546a5f maxwatts 900 # 10.0.60.144
-132245 reboot 1573475498 # 10.0.60.99
-546a5f reboot 1573475498 # 10.0.60.144
-
-132245 maxwatts 400 # 10.0.60.99
-546a5f maxwatts 900 # 10.0.60.144
-132245 reboot 1573475498 # 10.0.60.99
-546a5f reboot 1573475498 # 10.0.60.144
-
-132245 maxwatts 500 # 10.0.60.99
-546a5f maxwatts 1000 # 10.0.60.144
-132245 reboot 1573473411 # 10.0.60.99
-546a5f reboot 1573473411 # 10.0.60.144
-
-132245 maxwatts 500 # 10.0.60.99
-546a5f maxwatts 1000 # 10.0.60.144
-132245 reboot 1573473411 # 10.0.60.99
-546a5f reboot 1573473411 # 10.0.60.144
-
-132245 maxwatts 600 # 10.0.60.99
-546a5f maxwatts 1100 # 10.0.60.144
-132245 reboot 1573471333 # 10.0.60.99
-546a5f reboot 1573471333 # 10.0.60.144
-
-132245 maxwatts 600 # 10.0.60.99
-546a5f maxwatts 1100 # 10.0.60.144
-132245 reboot 1573471333 # 10.0.60.99
-546a5f reboot 1573471333 # 10.0.60.144
-
-132245 maxwatts 700 # 10.0.60.99
-546a5f maxwatts 1200 # 10.0.60.144
-132245 reboot 1573469255 # 10.0.60.99
-546a5f reboot 1573469255 # 10.0.60.144
-
-132245 maxwatts 700 # 10.0.60.99
-546a5f maxwatts 1200 # 10.0.60.144
-132245 reboot 1573469255 # 10.0.60.99
-546a5f reboot 1573469255 # 10.0.60.144
-
-132245 maxwatts 800 # 10.0.60.99
-546a5f maxwatts 1300 # 10.0.60.144
-132245 reboot 1573467107 # 10.0.60.99
-546a5f reboot 1573467107 # 10.0.60.144
-
-132245 maxwatts 800 # 10.0.60.99
-546a5f maxwatts 1300 # 10.0.60.144
-132245 reboot 1573467107 # 10.0.60.99
-546a5f reboot 1573467107 # 10.0.60.144
-
-132245 maxwatts 900 # 10.0.60.99
-546a5f maxwatts 1400 # 10.0.60.144
-132245 reboot 1573464948 # 10.0.60.99
-546a5f reboot 1573464948 # 10.0.60.144
-
-132245 maxwatts 900 # 10.0.60.99
-546a5f maxwatts 1400 # 10.0.60.144
-132245 reboot 1573464948 # 10.0.60.99
-546a5f reboot 1573464948 # 10.0.60.144
-
-132245 maxwatts 1000 # 10.0.60.99
-132245 reboot 1573462861 # 10.0.60.99
-
-132245 maxwatts 1000 # 10.0.60.99
-132245 reboot 1573462861 # 10.0.60.99
-
-132245 maxwatts 1100 # 10.0.60.99
-132245 reboot 1573460843 # 10.0.60.99
-
-132245 maxwatts 1100 # 10.0.60.99
-132245 reboot 1573460843 # 10.0.60.99
-
-132245 maxwatts 1200 # 10.0.60.99
-132245 reboot 1573458909 # 10.0.60.99
-
-132245 maxwatts 1200 # 10.0.60.99
-132245 reboot 1573458909 # 10.0.60.99
-
-132245 maxwatts 1300 # 10.0.60.99
-132245 reboot 1573456921 # 10.0.60.99
-
-132245 maxwatts 1300 # 10.0.60.99
-132245 reboot 1573456921 # 10.0.60.99
-
-132245 maxwatts 1400 # 10.0.60.99
-132245 reboot 1573454962 # 10.0.60.99
-
-132245 maxwatts 1400 # 10.0.60.99
-132245 reboot 1573454962 # 10.0.60.99
-
 
 ## reboots
 
@@ -153,32 +53,3 @@ f450a0 location STHAY00002
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
