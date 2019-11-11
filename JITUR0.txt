@@ -23,18 +23,16 @@ global maxwatts 1350
 global autoupdate yes
 global allowed yes
 global maxtemp 90
+# global throttle 100
 global fanspeed 100
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
-global rebootasic 2
-global resetasic 1571113675 # 1
+# global reboot 2
+# global reset 1
 # global panelpass gj83Nkgikg
-
-# group=rowc rebootasic 1
-# group=rowd allowed no
 
 ## vlans
 vlan 10.0.116.96-96
@@ -47,49 +45,10 @@ fae9ca location JITUR00002
 262c0d location JITUR00003
 
 ## tuning
-fae9ca maxwatts 850 # 10.0.116.97
-fae9ca reboot 1573333815 # 10.0.116.97
 
-fae9ca maxwatts 850 # 10.0.116.97
-fae9ca reboot 1573333815 # 10.0.116.97
-
-fae9ca maxwatts 950 # 10.0.116.97
-fae9ca reboot 1573332085 # 10.0.116.97
-
-fae9ca maxwatts 950 # 10.0.116.97
-fae9ca reboot 1573332085 # 10.0.116.97
-
-fae9ca maxwatts 1050 # 10.0.116.97
-fae9ca reboot 1573330356 # 10.0.116.97
-
-fae9ca maxwatts 1050 # 10.0.116.97
-fae9ca reboot 1573330356 # 10.0.116.97
-
-fae9ca maxwatts 1150 # 10.0.116.97
-fae9ca reboot 1573328618 # 10.0.116.97
-
-fae9ca maxwatts 1150 # 10.0.116.97
-fae9ca reboot 1573328618 # 10.0.116.97
-
-fae9ca maxwatts 1250 # 10.0.116.97
-fae9ca rebootasic 1570872112 # 10.0.116.97
-
-1652a5 maxwatts 1250 # 10.0.116.96
-1652a5 rebootasic 1570801301 # 10.0.116.96
-
+## reboots
 
 ## resets
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
