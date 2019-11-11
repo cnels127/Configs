@@ -25,18 +25,16 @@ global maxwatts 1500
 global autoupdate yes
 global allowed yes
 global maxtemp 90
+# global throttle 100
 global fanspeed 100
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
-# global rebootasic 1
-global resetasic 1571461795 # 1571251443 # 2
+# global reboot 1
+# global reset 2
 # global panelpass gj83Nkgikg
-
-# group=rowc rebootasic 1
-# group=rowd allowed no
 
 ## vlans
 vlan 10.0.55.6-7
@@ -63,65 +61,17 @@ a016c1 location RANDE00008
 
 ## tuning
 1506ab reboot 1573489203 # 10.0.57.129 rande00003
- 
 
 1506ab reboot 1573487567 # 10.0.57.129 rande00003
- 
 
 1506ab reboot 1573485926 # 10.0.57.129 rande00003
- 
 
 1506ab reboot 1573484241 # 10.0.57.129 rande00003
- 
-
-679e5d maxwatts 1200 # 10.0.57.142
-1506ab maxwatts 1300 # 10.0.57.129
-679e5d reboot 1573477458 # 10.0.57.142
-1506ab reboot 1573477458 # 10.0.57.129
-
-679e5d maxwatts 1200 # 10.0.57.142
-1506ab maxwatts 1300 # 10.0.57.129
-679e5d reboot 1573477458 # 10.0.57.142
-1506ab reboot 1573477458 # 10.0.57.129
-
-1506ab maxwatts 1300 # 10.0.57.129
-8a2820 maxwatts 1400 # 10.0.57.157
-1506ab reboot 1573475398 # 10.0.57.129
-8a2820 reboot 1573475398 # 10.0.57.157
-
-1506ab maxwatts 1300 # 10.0.57.129
-8a2820 maxwatts 1400 # 10.0.57.157
-1506ab reboot 1573475398 # 10.0.57.129
-8a2820 reboot 1573475398 # 10.0.57.157
-
-1506ab maxwatts 1300 # 10.0.57.129
-1506ab reboot 1573473312 # 10.0.57.129
-
-1506ab maxwatts 1300 # 10.0.57.129
-1506ab reboot 1573473312 # 10.0.57.129
-
-679e5d maxwatts 1300 # 10.0.57.142
-679e5d reboot 1573471252 # 10.0.57.142
-
-679e5d maxwatts 1300 # 10.0.57.142
-679e5d reboot 1573471252 # 10.0.57.142
-
-679e5d maxwatts 1400 # 10.0.57.142
-679e5d reboot 1573466982 # 10.0.57.142
-
-679e5d maxwatts 1400 # 10.0.57.142
-679e5d reboot 1573466982 # 10.0.57.142
-
-1506ab maxwatts 1400 # 10.0.57.129
-1506ab reboot 1573454882 # 10.0.57.129
-
-1506ab maxwatts 1400 # 10.0.57.129
-1506ab reboot 1573454882 # 10.0.57.129
-
-
 
 ## reboots
 679e5d reboot 1573071802
+
+## resets
 8a2820 reset 1573071802
 1506ab reset 1573071802
 a016c1 reset 1573071802
@@ -129,35 +79,5 @@ a016c1 reset 1573071802
 679e5d reset 1573072500
 a016c1 reset 1573072500
 
-## resets
-
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
