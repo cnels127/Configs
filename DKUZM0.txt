@@ -23,18 +23,16 @@ global maxwatts 1500
 global autoupdate yes
 global allowed yes
 global maxtemp 90
-global fanspeed 65
+# global throttle 100
+global fanspeed 100
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
-global retune 1
-# global rebootasic 1
-global resetasic 1571456913 # 1571113675 # 1
+# global retune 1
+# global reboot 1
+# global reset 1
 # global panelpass gj83Nkgikg
-
-# group=rowc rebootasic 1
-# group=rowd allowed no
 
 ## vlans
 vlan 10.0.61.133-133
@@ -47,48 +45,8 @@ dcf994 location DKUZM00001
 e06e8a location DKUZM00003
 
 ## tuning
-dcf994 maxwatts 1400 # 10.0.61.133
-dcf994 reboot 1573464621 # 10.0.61.133
-
-dcf994 maxwatts 1400 # 10.0.61.133
-dcf994 reboot 1573464621 # 10.0.61.133
-
-e06e8a maxwatts 1300 # 10.0.65.75
-e06e8a reboot 1573462561 # 10.0.65.75
-
-e06e8a maxwatts 1300 # 10.0.65.75
-e06e8a reboot 1573462561 # 10.0.65.75
-
-e06e8a maxwatts 1400 # 10.0.65.75
-e06e8a reboot 1573458619 # 10.0.65.75
-
-e06e8a maxwatts 1400 # 10.0.65.75
-e06e8a reboot 1573458619 # 10.0.65.75
-
-
-
 
 ## resets
-dcf994 resetasic 1573070520
-e06e8a resetasic 1573070520
-596a83 resetasic 1573070520
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
