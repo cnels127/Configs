@@ -54,22 +54,14 @@ vlan 10.0.67.40-40
 ceac8d location HKATZ00005
 
 ## tuning
-7f79ef reboot 1573489159 # 10.0.66.30 hkatz00003
-ceac8d reboot 1573489159 # 10.0.67.40 hkatz00005
 
-ceac8d reboot 1573487522 # 10.0.67.40 hkatz00005
-
-fae301 reboot 1573485875 # 10.0.68.38 hkatz00001
-44ba88 reboot 1573485875 # 10.0.68.39 hkatz00002
-7f79ef reboot 1573485875 # 10.0.66.30 hkatz00003
-ceac8d reboot 1573485875 # 10.0.67.40 hkatz00005
-
-fae301 reboot 1573484161 # 10.0.68.38 hkatz00001
-44ba88 reboot 1573484161 # 10.0.68.39 hkatz00002
-7f79ef reboot 1573484161 # 10.0.66.30 hkatz00003
-ceac8d reboot 1573484161 # 10.0.67.40 hkatz00005
 
 ## reboots
+# s_reboot generated on Nov 11 2019 18:43:34 utc: 1573497814
+ceac8d reboot 1573497814 # 10.0.67.40 hkatz00005
+44ba88 reboot 1573497814 # 10.0.68.39 hkatz00002
+7f79ef reboot 1573497814 # 10.0.66.30 hkatz00003
+15e78d reboot 1573497814 # 10.0.65.61 hkatz00004
 
 ## resets
 
