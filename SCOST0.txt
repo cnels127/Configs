@@ -22,19 +22,17 @@ global autotune yes
 global maxwatts 1500
 global autoupdate yes
 global allowed yes
-global maxtemp 90
+global maxtemp 90 1
+# global throttle 100
 global fanspeed 100
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
-global retune 2
-global rebootasic 1
-global resetasic 1571461973 # 1571266929 # 1571243563 # 2
+# global retune 2
+# global reboot 1
+# global reset 2
 # global panelpass gj83Nkgikg
-
-# group=rowc rebootasic 1
-# group=rowd allowed no
 
 ## vlans
 vlan 10.0.115.32-32
@@ -62,8 +60,6 @@ cc96e4 location SCOST00010
 
 ## tuning
 
-
-
 ## reboots
 # s_reboot generated on Nov 11 2019 17:52:28 utc: 1573494748
 9b4848 reboot 1573494748 # 10.0.68.47 set1
@@ -73,4 +69,3 @@ cc96e4 location SCOST00010
 
 ## asic password
 asicpass admin
-
