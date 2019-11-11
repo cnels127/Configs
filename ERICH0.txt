@@ -54,6 +54,11 @@ cc79f4 maxwatts 1250 # 10.0.58.33
 cc79f4 reboot 1573515783 # 10.0.58.33
 5f07ce reboot 1573515783 # 10.0.60.80
 
+cc79f4 maxwatts 1250 # 10.0.58.33
+5f07ce maxwatts 1350 # 10.0.60.80
+cc79f4 reboot 1573515783 # 10.0.58.33
+5f07ce reboot 1573515783 # 10.0.60.80
+
 cc79f4 maxwatts 1350 # 10.0.58.33
 81b66e maxwatts 1350 # 10.0.60.16
 cc79f4 reboot 1573514075 # 10.0.58.33
@@ -86,6 +91,7 @@ cc79f4 reboot 1573498058 # 10.0.58.33 erich00001
 
 ## asic password
 asicpass admin
+
 
 
 

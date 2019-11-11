@@ -51,6 +51,9 @@ vlan 10.0.120.130-130
 321a3a maxwatts 1400 # 10.0.120.130
 321a3a reboot 1573515807 # 10.0.120.130
 
+321a3a maxwatts 1400 # 10.0.120.130
+321a3a reboot 1573515807 # 10.0.120.130
+
 317af1 reboot 1573489172 # 10.0.68.9 jrobe00003
 
 ## reboots
@@ -59,4 +62,5 @@ vlan 10.0.120.130-130
 
 ## asic password
 asicpass admin
+
 

@@ -56,6 +56,11 @@ efd6b3 maxwatts 1400 # 10.0.68.98
 0796c0 reboot 1573515763 # 10.0.68.97
 efd6b3 reboot 1573515763 # 10.0.68.98
 
+0796c0 maxwatts 1400 # 10.0.68.97
+efd6b3 maxwatts 1400 # 10.0.68.98
+0796c0 reboot 1573515763 # 10.0.68.97
+efd6b3 reboot 1573515763 # 10.0.68.98
+
 07c674 maxwatts 1400 # 10.0.68.93
 29b205 maxwatts 1400 # 10.0.68.92
 f5e34e maxwatts 1400 # 10.0.68.95
@@ -111,6 +116,7 @@ d0157c reboot 1573484097 # 10.0.68.96 anorc00005
 
 ## asic password
 asicpass admin
+
 
 
 
