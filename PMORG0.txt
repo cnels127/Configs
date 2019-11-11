@@ -57,6 +57,11 @@ e02f4f location PMORG00007
 9057b2 location PMORG00010
 
 ## tuning
+37f1e2 maxwatts 500 # 10.0.68.18
+e02f4f maxwatts 1200 # 10.0.61.150
+37f1e2 reboot 1573471236 # 10.0.68.18
+e02f4f reboot 1573471236 # 10.0.61.150
+
 37f1e2 maxwatts 600 # 10.0.68.18
 37f1e2 reboot 1573469135 # 10.0.68.18
 
@@ -167,6 +172,7 @@ c29a91 resetasic 1573078440
 
 ## asic password
 asicpass admin
+
 
 
 
