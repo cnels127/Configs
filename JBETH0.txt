@@ -73,6 +73,14 @@ f0ed76 location JBETH00019
 8f1d39 location JBETH00020
 
 ## tuning
+2462cd reboot 1573485879 # 10.0.68.48 jbeth00001
+966dd1 reboot 1573485879 # 10.0.68.49 jbeth00002
+37ffb3 reboot 1573485879 # 10.0.68.50 jbeth00003
+084a54 reboot 1573485879 # 10.0.68.51 jbeth00004
+45ff0c reboot 1573485879 # 10.0.59.129 jbeth00013
+95c235 reboot 1573485879 # 10.0.59.131 jbeth00014
+ 
+
 
 
 
@@ -95,6 +103,7 @@ f0ed76 location JBETH00019
 
 ## asic password
 asicpass admin
+
 
 
 

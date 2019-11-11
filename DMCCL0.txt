@@ -46,6 +46,9 @@ vlan 10.0.68.26-29
 aab607 location DMCCL00004
 
 ## tuning
+aab607 reboot 1573485860 # 10.0.68.29 dmccl00004
+ 
+
 aab607 reboot 1573484130 # 10.0.68.29 dmccl00004
  
 
@@ -196,6 +199,7 @@ aab607 resetasic 1571248369
 
 ## asic password
 asicpass admin
+
 
 
 

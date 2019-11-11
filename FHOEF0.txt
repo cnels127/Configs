@@ -85,6 +85,11 @@ d560da location FHOEF00039
 7fdd93 location FHOEF00037
 
 ## tuning
+84fddc reboot 1573485867 # 10.0.55.85 fhoef00001
+b3897a reboot 1573485867 # 10.0.66.93 fhoef00022
+67304d reboot 1573485867 # 10.0.67.132 fhoef00026
+ 
+
 e4b5b6 reboot 1573484142 # 10.0.64.157 fhoef00015
 d3176c reboot 1573484142 # 10.0.67.92 fhoef00025
 8d76ff reboot 1573484142 # 10.0.56.79 fhoef00008
@@ -433,6 +438,7 @@ d3176c reset 1573254670
 
 ## asic password
 asicpass admin
+
 
 
 

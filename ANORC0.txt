@@ -52,6 +52,10 @@ ce82d1 location ANORC00009
 88093b location ANORC00010
 
 ## tuning
+07c674 reboot 1573485843 # 10.0.68.93 anorc00002
+17fb06 reboot 1573485843 # 10.0.68.94 anorc00003
+ 
+
 d0157c reboot 1573484097 # 10.0.68.96 anorc00005
 07c674 reboot 1573484097 # 10.0.68.93 anorc00002
 17fb06 reboot 1573484097 # 10.0.68.94 anorc00003
@@ -233,6 +237,7 @@ efd6b3 rebootasic 1571298414 # 10.0.68.98
 
 ## asic password
 asicpass admin
+
 
 
 
