@@ -47,6 +47,9 @@ vlan 10.0.67.85-85
 1d58bd location LGARN00003
 
 ## tuning
+0fdb4f maxwatts 1400 # 10.0.65.102
+0fdb4f reboot 1573456756 # 10.0.65.102
+
 
 ## reboots
 
@@ -54,4 +57,5 @@ vlan 10.0.67.85-85
 
 ## asic password
 asicpass admin
+
 
