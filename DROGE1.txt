@@ -19,22 +19,19 @@ global sendworker3 yes
 global asicboost yes
 global autotune yes
 global maxwatts 1350
-
 global autoupdate yes
 global allowed yes
 global maxtemp 90
+# global throttle 100
 global fanspeed 100
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
-# global rebootasic 1
-global resetasic 1571113675 # 1
+# global reboot 1
+# global reset 1
 # global panelpass gj83Nkgikg
-
-# group=rowc rebootasic 1
-# group=rowd allowed no
 
 ## locations
 d5c809 location DROGE10001
@@ -60,22 +57,10 @@ vlan 172.16.202.96-96
 
 ## tuning
 a1dcce reboot 1573335786 # 10.10.125.224 droge10006
- 
-
 a1dcce reboot 1572581303 # 10.10.125.224 droge10006
 2204ec reboot 1572581303 # 10.10.125.227 droge10008
- 
 
-e1c572 maxwatts 1250 # 172.16.201.56
-e1c572 rebootasic 1570834816 # 172.16.201.56
-
+## resets
 
 ## asic password
 asicpass admin
-
-## resets
-ed1a27 asicreset 1570656476 
-
-
-
-
