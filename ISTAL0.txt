@@ -23,18 +23,16 @@ global maxwatts 1350
 global autoupdate yes
 global allowed yes
 global maxtemp 90
+# global throttle 100
 global fanspeed 100
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
-# global rebootasic 1
-global resetasic 1571457502 # 1571113675 # 1570036093
+# global reboot 1
+# global reset 1
 # global panelpass gj83Nkgikg
-
-# group=rowc rebootasic 1
-# group=rowd allowed no
 
 ## vlans
 vlan 10.0.120.127-127
@@ -44,10 +42,6 @@ e66eb3 location ISTAL00001
 
 ## tuning
 e66eb3 reboot 1572581329 # 10.0.120.127 istal00001
- 
-
 
 ## asic password
 asicpass admin
-
-
