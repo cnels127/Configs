@@ -21,15 +21,16 @@ global autotune yes
 global maxwatts 1300
 global autoupdate yes
 global allowed yes
-global maxtemp 90
+global maxtemp 90 1
+# global throttle 100
 global fanspeed 100
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
-# global rebootasic 1
-global resetasic 1571343476 # 1571113675 # 1
+# global reboot 1
+# global reset 1
 # global panelpass gj83Nkgikg
 
 # group=rowc rebootasic 1
