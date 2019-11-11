@@ -123,6 +123,13 @@ b128e8 reboot 1573462849 # 10.0.62.83
 bd2001 reboot 1573462849 # 10.0.54.141
 531bec reboot 1573462849 # 10.0.57.155
 
+b128e8 maxwatts 1200 # 10.0.62.83
+bd2001 maxwatts 1400 # 10.0.54.141
+531bec maxwatts 1400 # 10.0.57.155
+b128e8 reboot 1573462849 # 10.0.62.83
+bd2001 reboot 1573462849 # 10.0.54.141
+531bec reboot 1573462849 # 10.0.57.155
+
 b128e8 maxwatts 1300 # 10.0.62.83
 fc9425 maxwatts 1300 # 10.0.68.44
 2bb22c maxwatts 1400 # 10.0.64.69
@@ -442,6 +449,7 @@ acd279 reboot 1573328695 # 10.0.58.16
 
 ## asic password
 asicpass admin
+
 
 
 

@@ -474,6 +474,15 @@ ad4182 maxwatts 1400 # 10.0.59.26
 ad4182 reboot 1573462735 # 10.0.59.26
 042f1e reboot 1573462735 # 10.0.51.89
 
+45c2fd maxwatts 1300 # 10.0.65.82
+6b9725 maxwatts 1200 # 10.0.59.8
+ad4182 maxwatts 1400 # 10.0.59.26
+042f1e maxwatts 1400 # 10.0.51.89
+45c2fd reboot 1573462735 # 10.0.65.82
+6b9725 reboot 1573462735 # 10.0.59.8
+ad4182 reboot 1573462735 # 10.0.59.26
+042f1e reboot 1573462735 # 10.0.51.89
+
 ecd1ec maxwatts 1200 # 10.0.77.89
 a83b78 maxwatts 1300 # 10.0.77.90
 ecd1ec reboot 1573458808 # 10.0.77.89
@@ -874,6 +883,7 @@ f0f240 reset 1573070538
 
 ## asic password
 asicpass admin
+
 
 
 

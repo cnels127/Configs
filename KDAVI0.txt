@@ -51,6 +51,11 @@ cf1a34 location KDAVI00001
 312516 reboot 1573462669 # 10.0.54.149
 5f861d reboot 1573462669 # 10.0.54.150
 
+312516 maxwatts 1400 # 10.0.54.149
+5f861d maxwatts 1400 # 10.0.54.150
+312516 reboot 1573462669 # 10.0.54.149
+5f861d reboot 1573462669 # 10.0.54.150
+
 
 ## reboots
 
@@ -59,4 +64,5 @@ cf1a34 reset 1573168196
 
 ## asic password
 asicpass admin
+
 
