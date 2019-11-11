@@ -11,8 +11,8 @@ global poolname2 us.ss.btc.com:443
 global username2 3t6f929
 global poolpass2 123
 global sendworker2 yes
-global poolname3 us.ss.btc.com:25
-global username3 3t6f929
+global poolname3 profit.pool.bitcoin.com:3333
+global username3 bit49
 global poolpass3 123
 global sendworker3 yes
 
@@ -21,19 +21,17 @@ global autotune yes
 global maxwatts 1350
 global autoupdate yes
 global allowed yes
-global maxtemp 90
+global maxtemp 90 1
+# global throttle 100
 global fanspeed 100
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
-# global rebootasic 1
-global resetasic 1571113675 # 1
+# global reboot 1
+# global reset 1
 # global panelpass gj83Nkgikg
-
-# group=rowc rebootasic 1
-# group=rowd allowed no
 
 ## vlans
 vlan 172.16.200.236-236
@@ -81,267 +79,10 @@ ef8f42 location TEMP4
 5ab5f6 location TEMP5
 
 ## tuning
-8c9641 maxwatts -50 # 10.10.126.4
-8c9641 reboot 1573376232 # 10.10.126.4
-
-8c9641 maxwatts -50 # 10.10.126.4
-8c9641 reboot 1573376232 # 10.10.126.4
-
-8c9641 maxwatts -50 # 10.10.126.4
-8c9641 reboot 1573374539 # 10.10.126.4
-
-8c9641 maxwatts -50 # 10.10.126.4
-8c9641 reboot 1573374539 # 10.10.126.4
-
-8c9641 maxwatts 50 # 10.10.126.4
-8c9641 reboot 1573372850 # 10.10.126.4
-
-8c9641 maxwatts 50 # 10.10.126.4
-8c9641 reboot 1573372850 # 10.10.126.4
-
-8c9641 maxwatts 150 # 10.10.126.4
-8c9641 reboot 1573371157 # 10.10.126.4
-
-8c9641 maxwatts 150 # 10.10.126.4
-8c9641 reboot 1573371157 # 10.10.126.4
-
-8c9641 maxwatts 250 # 10.10.126.4
-8c9641 reboot 1573369468 # 10.10.126.4
-
-8c9641 maxwatts 250 # 10.10.126.4
-8c9641 reboot 1573369468 # 10.10.126.4
-
-8c9641 maxwatts 350 # 10.10.126.4
-8c9641 reboot 1573367777 # 10.10.126.4
-
-8c9641 maxwatts 350 # 10.10.126.4
-8c9641 reboot 1573367777 # 10.10.126.4
-
-8c9641 maxwatts 450 # 10.10.126.4
-8c9641 reboot 1573366085 # 10.10.126.4
-
-8c9641 maxwatts 450 # 10.10.126.4
-8c9641 reboot 1573366085 # 10.10.126.4
-
-8c9641 maxwatts 550 # 10.10.126.4
-8c9641 reboot 1573364392 # 10.10.126.4
-
-8c9641 maxwatts 550 # 10.10.126.4
-8c9641 reboot 1573364392 # 10.10.126.4
-
-8c9641 maxwatts 650 # 10.10.126.4
-8c9641 reboot 1573362699 # 10.10.126.4
-
-8c9641 maxwatts 650 # 10.10.126.4
-8c9641 reboot 1573362699 # 10.10.126.4
-
-8c9641 maxwatts 750 # 10.10.126.4
-8c9641 reboot 1573360994 # 10.10.126.4
-
-8c9641 maxwatts 750 # 10.10.126.4
-8c9641 reboot 1573360994 # 10.10.126.4
-
-8c9641 maxwatts 850 # 10.10.126.4
-8c9641 reboot 1573359289 # 10.10.126.4
-
-8c9641 maxwatts 850 # 10.10.126.4
-8c9641 reboot 1573359289 # 10.10.126.4
-
-8c9641 maxwatts 950 # 10.10.126.4
-8c9641 reboot 1573357553 # 10.10.126.4
-
-8c9641 maxwatts 950 # 10.10.126.4
-8c9641 reboot 1573357553 # 10.10.126.4
-
-6335e0 maxwatts 50 # 10.10.126.99
-6335e0 reboot 1573224663 # 10.10.126.99
-
-6335e0 maxwatts 50 # 10.10.126.99
-6335e0 reboot 1573224663 # 10.10.126.99
-
-6335e0 maxwatts 150 # 10.10.126.99
-6335e0 reboot 1573039040 # 10.10.126.99
-
-6335e0 maxwatts 150 # 10.10.126.99
-6335e0 reboot 1573039040 # 10.10.126.99
-
-6335e0 maxwatts 250 # 10.10.126.99
-6335e0 reboot 1573028778 # 10.10.126.99
-
-6335e0 maxwatts 250 # 10.10.126.99
-6335e0 reboot 1573028778 # 10.10.126.99
-
-6335e0 maxwatts 350 # 10.10.126.99
-6335e0 reboot 1572962630 # 10.10.126.99
-
-6335e0 maxwatts 450 # 10.10.126.99
-6335e0 reboot 1572959303 # 10.10.126.99
-
-6335e0 maxwatts 550 # 10.10.126.99
-6335e0 reboot 1572954310 # 10.10.126.99
-
-6335e0 maxwatts 650 # 10.10.126.99
-6335e0 reboot 1572946036 # 10.10.126.99
-
-6335e0 maxwatts 750 # 10.10.126.99
-6335e0 reboot 1572941093 # 10.10.126.99
-
-6335e0 maxwatts 850 # 10.10.126.99
-6335e0 reboot 1572936159 # 10.10.126.99
-
-6335e0 maxwatts 950 # 10.10.126.99
-6335e0 reboot 1572875214 # 10.10.126.99
-
-6335e0 maxwatts 1050 # 10.10.126.99
-6335e0 reboot 1572870848 # 10.10.126.99
-
-6335e0 maxwatts 1150 # 10.10.126.99
-6335e0 reboot 1572868630 # 10.10.126.99
-
-6335e0 maxwatts 1250 # 10.10.126.99
-6335e0 reboot 1572843300 # 10.10.126.99
-
-ef8f42 maxwatts 1100 # 172.16.104.196
-ef8f42 rebootasic 1571448829 # 172.16.104.196
-
-de765b maxwatts 950 # 10.10.126.6
-8c9641 maxwatts 1050 # 10.10.126.4
-f9b5b2 maxwatts 1250 # 10.10.126.5
-dbb7d4 maxwatts 1150 # 10.10.126.8
-64adf8 maxwatts 1150 # 10.10.126.9
-6ed6fc maxwatts 1050 # 10.10.126.10
-eeb8c9 maxwatts 1250 # 10.10.126.11
-de765b rebootasic 1571445861 # 10.10.126.6
-8c9641 rebootasic 1571445861 # 10.10.126.4
-f9b5b2 rebootasic 1571445861 # 10.10.126.5
-dbb7d4 rebootasic 1571445861 # 10.10.126.8
-64adf8 rebootasic 1571445861 # 10.10.126.9
-6ed6fc rebootasic 1571445861 # 10.10.126.10
-eeb8c9 rebootasic 1571445861 # 10.10.126.11
-
-de765b maxwatts 1050 # 10.10.126.6
-de765b rebootasic 1571435863 # 10.10.126.6
-
-5ab5f6 maxwatts 1100 # 172.16.104.202
-5ab5f6 rebootasic 1571359348 # 172.16.104.202
-
-8c9641 maxwatts 1150 # 10.10.126.4
-8c9641 rebootasic 1571345771 # 10.10.126.4
-
-64adf8 maxwatts 1250 # 10.10.126.9
-64adf8 rebootasic 1571341892 # 10.10.126.9
-
-2fbb7a maxwatts 1250 # 172.16.204.90
-6ed6fc maxwatts 1150 # 172.16.204.94
-de765b maxwatts 1150 # 172.16.204.146
-dbb7d4 maxwatts 1250 # 172.16.204.98
-2fbb7a rebootasic 1570826367 # 172.16.204.90
-6ed6fc rebootasic 1570826367 # 172.16.204.94
-de765b rebootasic 1570826367 # 172.16.204.146
-dbb7d4 rebootasic 1570826367 # 172.16.204.98
-
-abd2b0 maxwatts 750 # 172.16.200.236
-abd2b0 rebootasic 1570806273 # 172.16.200.236
-
-abd2b0 maxwatts 850 # 172.16.200.236
-abd2b0 rebootasic 1570793036 # 172.16.200.236
-
-abd2b0 maxwatts 950 # 172.16.200.236
-abd2b0 rebootasic 1570789735 # 172.16.200.236
-
-abd2b0 maxwatts 1050 # 172.16.200.236
-abd2b0 rebootasic 1570766512 # 172.16.200.236
-
-de765b maxwatts 1250 # 172.16.200.238
-de765b rebootasic 1570725447 # 172.16.200.238
-
-ef8f42 maxwatts 1200 # 172.16.100.126
-ef8f42 rebootasic 1570582603 # 172.16.100.126
-
-8c9641 maxwatts 1250 # 172.16.200.239
-d20dcf maxwatts 1250 # 172.16.200.192
-6ed6fc maxwatts 1250 # 172.16.200.148
-9e8492 maxwatts 1250 # 172.16.201.133
-8c9641 rebootasic 1569353795 # 172.16.200.239
-d20dcf rebootasic 1569353795 # 172.16.200.192
-6ed6fc rebootasic 1569353795 # 172.16.200.148
-9e8492 rebootasic 1569353795 # 172.16.201.133
-
-abd2b0 maxwatts 1150 # 172.16.200.236
-abd2b0 rebootasic 1568071442 # 172.16.200.236
-
-abd2b0 maxwatts 1250 # 172.16.200.236
-abd2b0 rebootasic 1568067950 # 172.16.200.236
-
-5ab5f6 maxwatts 1200 # 172.16.202.214
-5ab5f6 rebootasic 1568058906 # 172.16.202.214
-
-76cef8 maxwatts 1100
-ccf8bb maxwatts 1100
-8fee55 maxwatts 1200
-5ab5f6 maxwatts 1300
-ef8f42 maxwatts 1300
 
 ## reboots
-76cef8 rebootasic 1569607233
+
+## resets 
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
