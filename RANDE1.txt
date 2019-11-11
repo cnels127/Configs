@@ -3,17 +3,17 @@
 global custompanel RANDE1bit049
 global customer bit49
 
-global poolname1 stratum+tcp://connect.pool.bitcoin.com:3333 
+global poolname1 connect.pool.bitcoin.com:3333 
 global username1 scracing
-global poolpass1 slobert13A$ 
+global poolpass1 123
 global sendworker1 yes
-global poolname2 stratum+tcp://connect.pool.bitcoin.com:3333 
+global poolname2 us.ss.btc.com:1800 
 global username2 scracing
-global poolpass2 slobert13A$ 
+global poolpass2 123
 global sendworker2 yes
-global poolname3 us.ss.btc.com:1800 
-global username3 scracing
-global poolpass3 slobert13A$ 
+global poolname3 profit.pool.bitcoin.com:3333
+global username3 bit49
+global poolpass3 123
 global sendworker3 yes
 
 global asicboost yes
@@ -21,7 +21,8 @@ global autotune yes
 global maxwatts 1350
 global autoupdate yes
 global allowed yes
-global maxtemp 90
+global maxtemp 90 1
+# global throttle 100
 global fanspeed 100
 global fansaver yes
 global blinkred idle
