@@ -50,6 +50,11 @@ ffc9c8 maxwatts 1400 # 10.0.56.90
 b897c7 reboot 1573514093 # 10.0.55.158
 ffc9c8 reboot 1573514093 # 10.0.56.90
 
+b897c7 maxwatts 1400 # 10.0.55.158
+ffc9c8 maxwatts 1400 # 10.0.56.90
+b897c7 reboot 1573514093 # 10.0.55.158
+ffc9c8 reboot 1573514093 # 10.0.56.90
+
 ffc9c8 reboot 1573506322 # 10.0.56.90 jgibl00003
  
 
@@ -68,6 +73,7 @@ ffc9c8 reboot 1573502834 # 10.0.56.90 jgibl00003
 
 ## asic password
 asicpass admin
+
 
 
 

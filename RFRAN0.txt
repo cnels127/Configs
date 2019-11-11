@@ -50,6 +50,11 @@ af34c7 maxwatts 1400 # 10.0.62.36
 46bd22 reboot 1573514137 # 10.0.62.39
 af34c7 reboot 1573514137 # 10.0.62.36
 
+46bd22 maxwatts 1400 # 10.0.62.39
+af34c7 maxwatts 1400 # 10.0.62.36
+46bd22 reboot 1573514137 # 10.0.62.39
+af34c7 reboot 1573514137 # 10.0.62.36
+
 46bd22 reboot 1573504666 # 10.0.62.39 rfran00003
  
 
@@ -76,6 +81,7 @@ d54f75 reset 1573502295
 
 ## asic password
 asicpass admin
+
 
 
 

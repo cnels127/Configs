@@ -106,6 +106,11 @@ cc9cd4 location SLANG00025
 02a4cb reboot 1573514151 # 10.0.66.77
 866c28 reboot 1573514151 # 10.0.62.146
 
+02a4cb maxwatts 1400 # 10.0.66.77
+866c28 maxwatts 1400 # 10.0.62.146
+02a4cb reboot 1573514151 # 10.0.66.77
+866c28 reboot 1573514151 # 10.0.62.146
+
 15269c reboot 1573506412 # 10.0.64.74 slang00015
 e39d7c reboot 1573506412 # 10.0.60.87 slang00008
 fbf390 reboot 1573506412 # 10.0.65.42 slang00012
@@ -143,6 +148,7 @@ b65856 reset 1573170791
 
 ## asic password
 asicpass admin
+
 
 
 

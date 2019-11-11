@@ -59,6 +59,11 @@ e260d5 location MNADE00009
 8a919b reboot 1573514120 # 10.0.57.84
 2ecb70 reboot 1573514120 # 10.0.57.85
 
+8a919b maxwatts 1300 # 10.0.57.84
+2ecb70 maxwatts 1400 # 10.0.57.85
+8a919b reboot 1573514120 # 10.0.57.84
+2ecb70 reboot 1573514120 # 10.0.57.85
+
 8a919b reboot 1573506363 # 10.0.57.84 mnade00002
  
 
@@ -81,6 +86,7 @@ d89759 reset 1573257837
 
 ## asic password
 asicpass admin
+
 
 
 

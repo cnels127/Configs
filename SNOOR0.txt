@@ -178,6 +178,15 @@ fb62b2 reboot 1573514156 # 10.0.62.158
 fb8a3a reboot 1573514156 # 10.0.66.53
 280ed6 reboot 1573514156 # 10.0.67.76
 
+fb62b2 maxwatts 1400 # 10.0.62.158
+6f584d maxwatts 1400 # 10.0.66.157
+fb8a3a maxwatts 1100 # 10.0.66.53
+280ed6 maxwatts 1400 # 10.0.67.76
+fb62b2 reboot 1573514156 # 10.0.62.158
+6f584d reboot 1573514156 # 10.0.66.157
+fb8a3a reboot 1573514156 # 10.0.66.53
+280ed6 reboot 1573514156 # 10.0.67.76
+
 2f78ac reboot 1573506418 # 10.0.64.84 zbrow00003
 fb62b2 reboot 1573506418 # 10.0.62.158 zbrow00001
  
@@ -325,6 +334,7 @@ fbfdea reboot 1573335894 # 10.0.56.99 set2
 
 ## asic password
 asicpass admin
+
 
 
 
