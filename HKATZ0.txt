@@ -56,6 +56,9 @@ vlan 10.0.67.40-40
 ceac8d location HKATZ00005
 
 ## tuning
+15e78d maxwatts 1300 # 10.0.65.61
+15e78d reboot 1573445572 # 10.0.65.61
+
 15e78d maxwatts 1400 # 10.0.65.61
 15e78d reboot 1573443746 # 10.0.65.61
 
@@ -85,6 +88,7 @@ ceac8d location HKATZ00005
 
 ## asic password
 asicpass admin
+
 
 
 
