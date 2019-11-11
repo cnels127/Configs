@@ -48,6 +48,10 @@ a01578 location JPAUL00004
 9c326c location JPAUL00005
 
 ## tuning
+a01578 reboot 1573502840 # 10.0.56.83 jpaul00004
+9c326c reboot 1573502840 # 10.0.59.91 jpaul00005
+ 
+
 a01578 reboot 1573493847 # 10.0.56.83 jpaul00004
  
 
@@ -58,4 +62,5 @@ a01578 reboot 1573493847 # 10.0.56.83 jpaul00004
 
 ## asic password
 asicpass admin
+
 

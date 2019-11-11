@@ -50,6 +50,10 @@ df94bd location CLOUI00009
 6cb55b location CLOUI00010
 
 ## tuning
+2b7bed reboot 1573502777 # 10.0.54.49 cloui00001
+3a0cc0 reboot 1573502777 # 10.0.54.53 cloui00005
+ 
+
 6cb55b reboot 1573485856 # 10.0.54.58 cloui00010
 
 ## reboots
@@ -58,3 +62,4 @@ df94bd location CLOUI00009
 
 ## asic password
 asicpass admin
+

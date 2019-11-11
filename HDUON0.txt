@@ -47,6 +47,10 @@ e18d51 location HDUON00003
 2e2f55 location HDUON00004
 
 ## tuning
+2e2f55 reboot 1573502811 # 10.0.67.93 hduon00004
+5a1fc0 reboot 1573502811 # 10.0.65.78 hduon00002
+ 
+
 2e2f55 reboot 1573487520 # 10.0.67.93 hduon00004
 2e2f55 reboot 1573484154 # 10.0.67.93 hduon00004
 
@@ -56,3 +60,4 @@ e18d51 location HDUON00003
 
 ## asic password
 asicpass admin
+

@@ -53,6 +53,9 @@ bd9932 location PKOKE00005
 e5ba90 location PKOKE00009
 
 ## tuning
+bd9932 reboot 1573502907 # 10.0.57.73 pkoke00005
+ 
+
 
 ## reboots
 # s_reboot generated on Nov 11 2019 19:04:03 utc: 1573499043
@@ -64,3 +67,4 @@ f39f2b reset 1573164454
 
 ## asic password
 asicpass admin
+

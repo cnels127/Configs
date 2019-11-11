@@ -79,6 +79,10 @@ bc5723 location LKLIN00019
 07a57a location LKLIN00020
 
 ## tuning
+fc23ff reboot 1573502870 # 10.0.63.37 lklin00015
+5617cc reboot 1573502870 # 10.0.61.88 lklin00004
+ 
+
 7106b2 reboot 1573493869 # 10.0.67.145 lklin00010
 5351fb reboot 1573493869 # 10.0.66.161 lklin00009
 fc23ff reboot 1573493869 # 10.0.63.37 lklin00015
@@ -95,4 +99,5 @@ ed846d reboot 1573493869 # 10.0.63.107 lklin00007
 
 ## asic password
 asicpass admin
+
 

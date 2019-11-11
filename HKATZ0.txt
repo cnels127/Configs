@@ -54,6 +54,12 @@ vlan 10.0.67.40-40
 ceac8d location HKATZ00005
 
 ## tuning
+fae301 reboot 1573502819 # 10.0.68.38 hkatz00001
+44ba88 reboot 1573502819 # 10.0.68.39 hkatz00002
+15e78d reboot 1573502819 # 10.0.65.61 hkatz00004
+ceac8d reboot 1573502819 # 10.0.67.40 hkatz00005
+ 
+
 
 
 ## reboots
@@ -67,3 +73,4 @@ ceac8d reboot 1573497814 # 10.0.67.40 hkatz00005
 
 ## asic password
 asicpass admin
+

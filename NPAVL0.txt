@@ -52,6 +52,9 @@ fff476 location NPAVL00008
 570241 location NPAVL00010
 
 ## tuning
+370d4b reboot 1573502901 # 10.0.57.132 npavl00003
+ 
+
 
 ## reboots
 # s_reboot generated on Nov 11 2019 19:02:29 utc: 1573498949
@@ -66,3 +69,4 @@ a95ab0 reset 1573153456
 
 ## asic password
 asicpass admin
+
