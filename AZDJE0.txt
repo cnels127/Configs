@@ -198,6 +198,13 @@ ad9578 reboot 1573450978 # 10.0.56.23
 ca57a1 reboot 1573450978 # 10.0.56.24
 82bf37 reboot 1573450978 # 10.0.56.62
 
+ad9578 maxwatts 1400 # 10.0.56.23
+ca57a1 maxwatts 1400 # 10.0.56.24
+82bf37 maxwatts 1200 # 10.0.56.62
+ad9578 reboot 1573450978 # 10.0.56.23
+ca57a1 reboot 1573450978 # 10.0.56.24
+82bf37 reboot 1573450978 # 10.0.56.62
+
 5347e8 maxwatts 1400 # 10.0.55.88
 d683e1 maxwatts 1400 # 10.0.56.45
 5347e8 reboot 1573445516 # 10.0.55.88
@@ -500,6 +507,7 @@ bd96d6 reboot 1573077599
 
 ## asic password
 asicpass admin
+
 
 
 

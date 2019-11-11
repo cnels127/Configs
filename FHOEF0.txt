@@ -91,6 +91,11 @@ fe05ff reboot 1573451019 # 10.0.65.57
 a03b81 reboot 1573451019 # 10.0.121.81
 
 fe05ff maxwatts 850 # 10.0.65.57
+a03b81 maxwatts 1250 # 10.0.121.81
+fe05ff reboot 1573451019 # 10.0.65.57
+a03b81 reboot 1573451019 # 10.0.121.81
+
+fe05ff maxwatts 850 # 10.0.65.57
 fe05ff reboot 1573449190 # 10.0.65.57
 
 fe05ff maxwatts 850 # 10.0.65.57
@@ -236,6 +241,7 @@ d3176c reset 1573254670
 
 ## asic password
 asicpass admin
+
 
 
 
