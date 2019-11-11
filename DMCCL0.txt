@@ -46,6 +46,9 @@ vlan 10.0.68.26-29
 aab607 location DMCCL00004
 
 ## tuning
+aab607 maxwatts 1250 # 10.0.68.29
+aab607 reboot 1573468871 # 10.0.68.29
+
 aab607 maxwatts 1350 # 10.0.68.29
 aab607 reboot 1573466722 # 10.0.68.29
 
@@ -163,6 +166,7 @@ aab607 resetasic 1571248369
 
 ## asic password
 asicpass admin
+
 
 
 
