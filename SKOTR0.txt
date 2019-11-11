@@ -50,6 +50,11 @@ f5417d location SKOTR00004
 3c6a08 location SKOTR00003
 
 ## tuning
+6c2948 maxwatts 1350 # 10.0.58.136
+031368 maxwatts 1350 # 10.0.60.155
+6c2948 reboot 1573464915 # 10.0.58.136
+031368 reboot 1573464915 # 10.0.60.155
+
 
 ## reboots
 
@@ -57,3 +62,4 @@ f5417d location SKOTR00004
 
 ## asic password
 asicpass admin
+
