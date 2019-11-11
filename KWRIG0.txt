@@ -47,6 +47,9 @@ vlan 10.0.68.109-110
 2a7ac0 location KWRIG00004
 
 ## tuning
+97f21b reboot 1573487545 # 10.0.57.82 kwrig00002
+ 
+
 
 570c84 retune 1
 97f21b retune 1
@@ -63,3 +66,4 @@ vlan 10.0.68.109-110
 
 ## asic password
 asicpass admin
+

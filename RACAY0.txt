@@ -88,6 +88,10 @@ f729dc location RACAY00022
 70247c location RACAY00024
 
 ## tuning
+55ae8b reboot 1573487567 # 10.0.54.153 racay00003
+16ab24 reboot 1573487567 # 10.0.59.16 racay00016
+ 
+
 55ae8b reboot 1573485925 # 10.0.54.153 racay00003
 16ab24 reboot 1573485925 # 10.0.59.16 racay00016
 2c65da reboot 1573485925 # 10.0.60.53 racay00018
@@ -754,6 +758,7 @@ c55a62 resetasic 1573272900
 
 ## asic password
 asicpass admin
+
 
 
 
