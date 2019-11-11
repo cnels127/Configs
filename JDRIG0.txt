@@ -59,11 +59,14 @@ cffb6d location JDRIG00009
 e2fa14 location JDRIG00010
 
 ## tuning
-e2fa14 reboot 1573489164 # 10.0.66.22 jdrig00010
-e2fa14 reboot 1573487527 # 10.0.66.22 jdrig00010
-b3d12e reboot 1573484171 # 10.0.67.149 jdrig00006
 
 ## reboots
+# s_reboot generated on Nov 11 2019 18:45:00 utc: 1573497900
+b3d12e reboot 1573497900 # 10.0.67.149 jdrig00006
+11bafe reboot 1573497900 # 10.0.55.99 jdrig00001
+cffb6d reboot 1573497900 # 10.0.67.146 jdrig00009
+9163e6 reboot 1573497900 # 10.0.67.148 jdrig00005
+d55626 reboot 1573497900 # 10.0.67.156 jdrig00007
 
 ## resets
 11bafe reset 1573168318
