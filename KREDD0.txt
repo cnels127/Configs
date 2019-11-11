@@ -19,22 +19,20 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1350
+global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90
+# global throttle 100
 global fanspeed 100
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
-global retune 1
-# global rebootasic 1
-global resetasic 1571113675 # 1
+# global retune 1
+# global reboot 1
+# global reset 1
 # global panelpass gj83Nkgikg
-
-# group=rowc rebootasic 1
-# group=rowd allowed no
 
 ## vlans
 vlan 10.0.54.145-147
@@ -45,15 +43,10 @@ c94710 location KREDD00001
 5d208b location KREDD00003
 
 ## tuning
-c94710 maxwatts 1350
-934f82 maxwatts 1350
-5d208b maxwatts 1350
 
 ## reboots
 
 ## resets
-5d208b resetasic 1
 
 ## asic password
 asicpass admin
-
