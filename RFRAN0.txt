@@ -56,6 +56,15 @@ af34c7 reboot 1573473323 # 10.0.62.36
 46bd22 reboot 1573473323 # 10.0.62.39
 d54f75 reboot 1573473323 # 10.0.62.40
 
+af34c7 maxwatts 1000 # 10.0.62.36
+7f3717 maxwatts 1000 # 10.0.62.38
+46bd22 maxwatts 1000 # 10.0.62.39
+d54f75 maxwatts 1000 # 10.0.62.40
+af34c7 reboot 1573473323 # 10.0.62.36
+7f3717 reboot 1573473323 # 10.0.62.38
+46bd22 reboot 1573473323 # 10.0.62.39
+d54f75 reboot 1573473323 # 10.0.62.40
+
 af34c7 maxwatts 1100 # 10.0.62.36
 7f3717 maxwatts 1100 # 10.0.62.38
 46bd22 maxwatts 1100 # 10.0.62.39
@@ -131,6 +140,7 @@ d54f75 resetasic 1570472086
 
 ## asic password
 asicpass admin
+
 
 
 
