@@ -23,18 +23,16 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90
+# global throttle 100
 global fanspeed 100
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
-# global rebootasic 1
-global resetasic 1573259580 # 1
+# global reboot 1
+# global reset 1
 # global panelpass gj83Nkgikg
-
-# group=rowc rebootasic 1
-# group=rowd allowed no
 
 ## vlans
 vlan 10.0.61.58-60
@@ -52,27 +50,6 @@ d9b3f8 location RHOLL00004
 
 ## tuning
 434628 reboot 1573489212 # 10.0.77.105 rholl00006
- 
-
-434628 maxwatts 1150 # 10.0.77.105
-434628 reboot 1573369513 # 10.0.77.105
-
-434628 maxwatts 1150 # 10.0.77.105
-434628 reboot 1573369513 # 10.0.77.105
-
-434628 maxwatts 1250 # 10.0.77.105
-434628 reboot 1573357620 # 10.0.77.105
-
-434628 maxwatts 1250 # 10.0.77.105
-434628 reboot 1573357620 # 10.0.77.105
-
-434628 maxwatts 1350 # 10.0.77.105
-434628 reboot 1573352355 # 10.0.77.105
-
-434628 maxwatts 1350 # 10.0.77.105
-434628 reboot 1573352355 # 10.0.77.105
-
-
 
 ## reboots
 
@@ -80,21 +57,3 @@ d9b3f8 location RHOLL00004
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
