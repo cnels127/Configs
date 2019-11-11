@@ -33,9 +33,6 @@ global blinkgreen rapid
 # global reset 1
 # global panelpass gj83Nkgikg
 
-# group=rowc rebootasic 1
-# group=rowd allowed no
-
 ## vlans
 vlan 10.0.64.105-105
 vlan 10.0.64.153-153
@@ -48,44 +45,6 @@ vlan 10.0.66.116-116
 
 ## tuning
 1c6e2b reboot 1573484115 # 10.0.64.153 ccadr00002
- 
-
-1c6e2b maxwatts 1050 # 10.0.64.153
-1c6e2b reboot 1573477193 # 10.0.64.153
-
-1c6e2b maxwatts 1050 # 10.0.64.153
-1c6e2b reboot 1573477193 # 10.0.64.153
-
-1c6e2b maxwatts 1150 # 10.0.64.153
-1c6e2b reboot 1573473040 # 10.0.64.153
-
-1c6e2b maxwatts 1150 # 10.0.64.153
-1c6e2b reboot 1573473040 # 10.0.64.153
-
-1c6e2b maxwatts 1250 # 10.0.64.153
-1c6e2b reboot 1573468834 # 10.0.64.153
-
-1c6e2b maxwatts 1250 # 10.0.64.153
-1c6e2b reboot 1573468834 # 10.0.64.153
-
-1c6e2b maxwatts 1350 # 10.0.64.153
-1c6e2b reboot 1573464576 # 10.0.64.153
-
-1c6e2b maxwatts 1350 # 10.0.64.153
-1c6e2b reboot 1573464576 # 10.0.64.153
-
-551f73 maxwatts 1250 # 10.0.66.116
-551f73 reboot 1573412036 # 10.0.66.116
-
-551f73 maxwatts 1250 # 10.0.66.116
-551f73 reboot 1573412036 # 10.0.66.116
-
-551f73 maxwatts 1350 # 10.0.66.116
-551f73 reboot 1573408585 # 10.0.66.116
-
-551f73 maxwatts 1350 # 10.0.66.116
-551f73 reboot 1573408585 # 10.0.66.116
-
 
 ## reboots
 
@@ -94,18 +53,3 @@ vlan 10.0.66.116-116
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
