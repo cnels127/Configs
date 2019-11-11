@@ -6,15 +6,15 @@ global customer bit49
 
 global poolname1 us.ss.btc.com:1800
 global username1 strugsnugs
-global poolpass1 1234
+global poolpass1 123
 global sendworker1 yes
-global poolname2 us.ss.btc.com:443
+global poolname2 us-east.stratum.slushpool.com:3333
 global username2 strugsnugs
-global poolpass2 1234
+global poolpass2 123
 global sendworker2 yes
-global poolname3 us-east.stratum.slushpool.com:3333
-global username3 strugsnugs
-global poolpass3 1234
+global poolname3 profit.pool.bitcoin.com:3333
+global username3 bit49
+global poolpass3 123
 global sendworker3 yes
 
 global asicboost yes
