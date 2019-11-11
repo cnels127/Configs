@@ -34,9 +34,6 @@ global blinkgreen rapid
 # global reset 1
 # global panelpass gj83Nkgikg
 
-# group=rowc rebootasic 1
-# group=rowd allowed no
-
 ## vlans
 vlan 10.0.118.43-43
 vlan 10.0.118.45-45
