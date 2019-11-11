@@ -12,9 +12,9 @@ global poolname2 stratum.slushpool.com:3333
 global username2 dmwinland
 global poolpass2 123
 global sendworker2 yes
-global poolname3 
-global username3 
-global poolpass3 
+global poolname3 profit.pool.bitcoin.com:3333
+global username3 bit49
+global poolpass3 123
 global sendworker3 yes
 
 global asicboost yes
@@ -22,7 +22,7 @@ global autotune yes
 global maxwatts 1500
 global autoupdate yes
 global allowed yes
-global maxtemp 90
+global maxtemp 90 1
 # global throttle 100
 global fanspeed 100
 global fansaver yes
