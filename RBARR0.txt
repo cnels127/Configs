@@ -77,6 +77,10 @@ defa6a location RBARR00028
 894362 location RBARR00030
 
 ## tuning
+4b3a51 reboot 1573506390 # 10.0.57.48 rbarr00001
+693af5 reboot 1573506390 # 10.0.57.69 rbarr00022
+ 
+
 693af5 reboot 1573502918 # 10.0.57.69 rbarr00022
 4b3a51 reboot 1573502918 # 10.0.57.48 rbarr00001
 eea5d2 reboot 1573502918 # 10.0.57.66 rbarr00019
@@ -102,4 +106,5 @@ a81c86 reset 1573152016
 
 ## asic password
 asicpass admin
+
 

@@ -41,6 +41,9 @@ vlan 10.0.68.53-53
 a3d661 location SSAOU00001
 
 ## tuning
+a3d661 reboot 1573506427 # 10.0.68.53 ssaou00001
+ 
+
 a3d661 reboot 1573504697 # 10.0.68.53 ssaou00001
  
 
@@ -54,5 +57,6 @@ a3d661 reboot 1573502963 # 10.0.68.53 ssaou00001
 
 ## asic password
 asicpass admin
+
 
 

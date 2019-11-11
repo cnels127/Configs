@@ -52,6 +52,11 @@ fff476 location NPAVL00008
 570241 location NPAVL00010
 
 ## tuning
+821721 reboot 1573506377 # 10.0.57.130 npavl00001
+570241 reboot 1573506377 # 10.0.57.141 npavl00010
+3cfe14 reboot 1573506377 # 10.0.57.131 npavl00002
+ 
+
 370d4b reboot 1573502901 # 10.0.57.132 npavl00003
  
 
@@ -69,4 +74,5 @@ a95ab0 reset 1573153456
 
 ## asic password
 asicpass admin
+
 
