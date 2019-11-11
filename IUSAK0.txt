@@ -23,18 +23,16 @@ global maxwatts 1500
 global autoupdate yes
 global allowed yes
 global maxtemp 90
+# global throttle 100
 global fanspeed 100
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
-global retune 1
-# global rebootasic 1
-global resetasic 1571459160 # 1571113675 # 1
+# global retune 1
+# global reboot 1
+# global reset 1
 # global panelpass gj83Nkgikg
-
-# group=rowc rebootasic 1
-# group=rowd allowed no
 
 ## vlans
 vlan 10.0.61.1-1
@@ -45,9 +43,6 @@ fae03c location IUSAK00001
 b65b8a location IUSAK00002
 
 ## tuning
-b65b8a maxwatts 1400 # 10.0.61.9
-b65b8a rebootasic 1571656980 # 10.0.61.9
-
 
 ## reboots
 
@@ -55,5 +50,3 @@ b65b8a rebootasic 1571656980 # 10.0.61.9
 
 ## asic password
 asicpass admin
-
-
