@@ -196,6 +196,11 @@ bf8fd2 maxwatts 1100 # 10.0.56.93
 bf8fd2 reboot 1573477173 # 10.0.56.93
 1999e2 reboot 1573477173 # 10.0.56.89
 
+bf8fd2 maxwatts 1100 # 10.0.56.93
+1999e2 maxwatts 1400 # 10.0.56.89
+bf8fd2 reboot 1573477173 # 10.0.56.93
+1999e2 reboot 1573477173 # 10.0.56.89
+
 
 ## reboots
 d8b55c reboot 1573077599
@@ -213,6 +218,7 @@ bd96d6 reboot 1573077599
 
 ## asic password
 asicpass admin
+
 
 
 

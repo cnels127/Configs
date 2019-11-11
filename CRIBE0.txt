@@ -474,6 +474,27 @@ c120c5 reboot 1573477211 # 10.0.62.25
 a6f215 reboot 1573477211 # 10.0.58.90
 cc6ecd reboot 1573477211 # 10.0.58.143
 
+bd7bf8 maxwatts 1100 # 10.0.61.33
+b4aac6 maxwatts 1100 # 10.0.61.31
+ff69f4 maxwatts 1000 # 10.0.63.45
+8ec32b maxwatts 1200 # 10.0.61.92
+86677b maxwatts 1000 # 10.0.63.52
+cc994a maxwatts 1000 # 10.0.63.47
+bbe496 maxwatts 1100 # 10.0.59.86
+c120c5 maxwatts 800 # 10.0.62.25
+a6f215 maxwatts 1200 # 10.0.58.90
+cc6ecd maxwatts 1400 # 10.0.58.143
+bd7bf8 reboot 1573477211 # 10.0.61.33
+b4aac6 reboot 1573477211 # 10.0.61.31
+ff69f4 reboot 1573477211 # 10.0.63.45
+8ec32b reboot 1573477211 # 10.0.61.92
+86677b reboot 1573477211 # 10.0.63.52
+cc994a reboot 1573477211 # 10.0.63.47
+bbe496 reboot 1573477211 # 10.0.59.86
+c120c5 reboot 1573477211 # 10.0.62.25
+a6f215 reboot 1573477211 # 10.0.58.90
+cc6ecd reboot 1573477211 # 10.0.58.143
+
 8ec32b maxwatts 1200 # 10.0.61.92
 f870b1 maxwatts 1200 # 10.0.63.54
 830d52 maxwatts 1000 # 10.0.63.48
@@ -1593,6 +1614,7 @@ b88126 reset 1572446837
 
 ## asic password
 asicpass admin
+
 
 
 

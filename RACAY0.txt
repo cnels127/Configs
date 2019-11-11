@@ -99,6 +99,17 @@ c55a62 reboot 1573477449 # 10.0.54.151
 62dffd reboot 1573477449 # 10.0.55.105
 2c65da reboot 1573477449 # 10.0.60.53
 
+c55a62 maxwatts 700 # 10.0.54.151
+73d19d maxwatts 700 # 10.0.54.152
+55ae8b maxwatts 1300 # 10.0.54.153
+62dffd maxwatts 400 # 10.0.55.105
+2c65da maxwatts -100 # 10.0.60.53
+c55a62 reboot 1573477449 # 10.0.54.151
+73d19d reboot 1573477449 # 10.0.54.152
+55ae8b reboot 1573477449 # 10.0.54.153
+62dffd reboot 1573477449 # 10.0.55.105
+2c65da reboot 1573477449 # 10.0.60.53
+
 c55a62 maxwatts 800 # 10.0.54.151
 73d19d maxwatts 800 # 10.0.54.152
 55ae8b maxwatts 1400 # 10.0.54.153
@@ -731,6 +742,7 @@ c55a62 resetasic 1573272900
 
 ## asic password
 asicpass admin
+
 
 
 

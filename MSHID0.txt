@@ -71,6 +71,11 @@ bccae7 location MSHID00014
 96d39b reboot 1573477418 # 10.0.57.149
 749409 reboot 1573477418 # 10.0.58.9
 
+96d39b maxwatts 1100 # 10.0.57.149
+749409 maxwatts 500 # 10.0.58.9
+96d39b reboot 1573477418 # 10.0.57.149
+749409 reboot 1573477418 # 10.0.58.9
+
 96d39b maxwatts 1200 # 10.0.57.149
 96d39b reboot 1573473261 # 10.0.57.149
 
@@ -251,6 +256,7 @@ c842f9 reboot 1572379699 # 10.0.57.151
 
 ## asic password
 asicpass admin
+
 
 
 

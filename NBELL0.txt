@@ -470,6 +470,11 @@ fb1aea maxwatts 800 # 10.0.77.82
 1bd329 reboot 1573477428 # 10.0.58.139
 fb1aea reboot 1573477428 # 10.0.77.82
 
+1bd329 maxwatts 1300 # 10.0.58.139
+fb1aea maxwatts 800 # 10.0.77.82
+1bd329 reboot 1573477428 # 10.0.58.139
+fb1aea reboot 1573477428 # 10.0.77.82
+
 a83b78 maxwatts 1100 # 10.0.77.90
 86f503 maxwatts 1400 # 10.0.59.22
 45a510 maxwatts 1400 # 10.0.59.24
@@ -984,6 +989,7 @@ f0f240 reset 1573070538
 
 ## asic password
 asicpass admin
+
 
 
 
