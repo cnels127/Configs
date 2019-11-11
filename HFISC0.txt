@@ -150,6 +150,9 @@ f2b75b location HFISC00056
 000122 location HFISC00060
 
 ## tuning
+f0acc9 reboot 1573502021 # 10.0.60.83 hfisc00051
+ 
+
 994f1c reboot 1573489158 # 10.0.68.54 hfisc00001
 
 994f1c reboot 1573487521 # 10.0.68.54 hfisc00001
@@ -172,3 +175,4 @@ bca239 reset 1573237377
 
 ## asic password
 asicpass admin
+
