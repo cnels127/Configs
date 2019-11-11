@@ -22,19 +22,17 @@ global autotune yes
 global maxwatts 1500
 global autoupdate yes
 global allowed yes
-global maxtemp 90
+global maxtemp 90 1
+# global throttle 100
 global fanspeed 100
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
-# global rebootasic 1
-global resetasic 1571113675 # 1
+# global reboot 1
+# global reset 1
 # global panelpass gj83Nkgikg
-
-# group=rowc rebootasic 1
-# group=rowd allowed no
 
 ## vlans
 vlan 10.0.62.34-34
@@ -48,102 +46,11 @@ c2ee95 location ZVORW00003
 
 ## tuning
 3884fb reboot 1573485969 # 10.0.62.34 zvorw00001
- 
-
 3884fb reboot 1573484314 # 10.0.62.34 zvorw00001
- 
-
-3884fb maxwatts 900 # 10.0.62.34
-3884fb reboot 1573477625 # 10.0.62.34
-
-3884fb maxwatts 900 # 10.0.62.34
-3884fb reboot 1573477625 # 10.0.62.34
-
-3884fb maxwatts 1000 # 10.0.62.34
-3884fb reboot 1573475546 # 10.0.62.34
-
-3884fb maxwatts 1000 # 10.0.62.34
-3884fb reboot 1573475546 # 10.0.62.34
-
-3884fb maxwatts 1100 # 10.0.62.34
-3884fb reboot 1573473452 # 10.0.62.34
-
-3884fb maxwatts 1100 # 10.0.62.34
-3884fb reboot 1573473452 # 10.0.62.34
-
-3884fb maxwatts 1200 # 10.0.62.34
-3884fb reboot 1573471385 # 10.0.62.34
-
-3884fb maxwatts 1200 # 10.0.62.34
-3884fb reboot 1573471385 # 10.0.62.34
-
-3884fb maxwatts 1300 # 10.0.62.34
-3884fb reboot 1573469322 # 10.0.62.34
-
-3884fb maxwatts 1300 # 10.0.62.34
-3884fb reboot 1573469322 # 10.0.62.34
-
-3884fb maxwatts 1400 # 10.0.62.34
-3884fb reboot 1573467172 # 10.0.62.34
-
-3884fb maxwatts 1400 # 10.0.62.34
-3884fb reboot 1573467172 # 10.0.62.34
-
-
-
 
 ## reboots
-3884fb rebootasic 1572921463
-c2ee95 rebootasic 1572906832
-f726b1 rebootasic 1572906832
-c2ee95 rebootasic 1573446871 # 10.0.64.29 zvorw00003
 
 ## resets
-c2ee95 resetasic 1573080515 # 10.0.64.29 zvorw00003
-
-
-
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
