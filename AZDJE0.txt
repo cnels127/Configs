@@ -29,7 +29,7 @@ global blinkred idle
 global blinkgreen rapid
 
 # global retune 2
-# global reboot 1
+global reboot 1573482684
 # global reset 1
 # global panelpass gj83Nkgikg
 
@@ -191,16 +191,6 @@ bf8fd2 location AZDJE00096
 0d929b location AZDJE00100
 
 ## tuning
-bf8fd2 maxwatts 1100 # 10.0.56.93
-1999e2 maxwatts 1400 # 10.0.56.89
-bf8fd2 reboot 1573477173 # 10.0.56.93
-1999e2 reboot 1573477173 # 10.0.56.89
-
-bf8fd2 maxwatts 1100 # 10.0.56.93
-1999e2 maxwatts 1400 # 10.0.56.89
-bf8fd2 reboot 1573477173 # 10.0.56.93
-1999e2 reboot 1573477173 # 10.0.56.89
-
 
 ## reboots
 d8b55c reboot 1573077599
