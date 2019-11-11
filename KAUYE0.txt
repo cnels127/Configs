@@ -23,18 +23,16 @@ global maxwatts 1500
 global autoupdate yes
 global allowed yes
 global maxtemp 90
+# global throttle 100
 global fanspeed 100
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
-# global rebootasic 1
-global resetasic 1571113675 # 1
+# global reboot 1
+# global reset 1
 # global panelpass gj83Nkgikg
-
-# group=rowc rebootasic 1
-# group=rowd allowed no
 
 ## vlans
 vlan 10.0.55.96-97
@@ -68,59 +66,6 @@ e6ca25 location KAUYE00013
 d87db4 location KAUYE00014
 
 ## tuning
-4d1860 maxwatts 1100 # 10.0.55.100
-4d1860 reboot 1573473209 # 10.0.55.100
-
-4d1860 maxwatts 1100 # 10.0.55.100
-4d1860 reboot 1573473209 # 10.0.55.100
-
-184c88 maxwatts 1400 # 10.0.55.104
-184c88 reboot 1573471152 # 10.0.55.104
-
-184c88 maxwatts 1400 # 10.0.55.104
-184c88 reboot 1573471152 # 10.0.55.104
-
-4d1860 maxwatts 1200 # 10.0.55.100
-4d1860 reboot 1573469027 # 10.0.55.100
-
-4d1860 maxwatts 1200 # 10.0.55.100
-4d1860 reboot 1573469027 # 10.0.55.100
-
-4d1860 maxwatts 1300 # 10.0.55.100
-0a35cb maxwatts 1400 # 10.0.55.149
-4d1860 reboot 1573464752 # 10.0.55.100
-0a35cb reboot 1573464752 # 10.0.55.149
-
-4d1860 maxwatts 1300 # 10.0.55.100
-0a35cb maxwatts 1400 # 10.0.55.149
-4d1860 reboot 1573464752 # 10.0.55.100
-0a35cb reboot 1573464752 # 10.0.55.149
-
-4d1860 maxwatts 1400 # 10.0.55.100
-4d1860 reboot 1573456736 # 10.0.55.100
-
-4d1860 maxwatts 1400 # 10.0.55.100
-4d1860 reboot 1573456736 # 10.0.55.100
-
-ddae42 maxwatts 1400 # 10.0.55.97
-ddae42 reboot 1573454801 # 10.0.55.97
-
-ddae42 maxwatts 1400 # 10.0.55.97
-ddae42 reboot 1573454801 # 10.0.55.97
-
-49aee9 maxwatts 1400 # 10.0.55.130
-49aee9 reboot 1573214153 # 10.0.55.130
-
-49aee9 maxwatts 1400 # 10.0.55.130
-49aee9 reboot 1573214153 # 10.0.55.130
-
-9249ec maxwatts 1400 # 10.0.56.11
-9249ec reboot 1573178068 # 10.0.56.11
-
-9249ec maxwatts 1400 # 10.0.56.11
-9249ec reboot 1573178068 # 10.0.56.11
-
-
 
 ## fans
 
@@ -132,36 +77,3 @@ ddae42 reboot 1573454801 # 10.0.55.97
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
