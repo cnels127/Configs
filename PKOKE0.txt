@@ -53,17 +53,10 @@ bd9932 location PKOKE00005
 e5ba90 location PKOKE00009
 
 ## tuning
-2baaac reboot 1573489200 # 10.0.58.127 pkoke00008
-
-f39f2b reboot 1573487564 # 10.0.54.135 pkoke00003
-3bcc51 reboot 1573487564 # 10.0.57.75 pkoke00007
-
-3bcc51 reboot 1573485922 # 10.0.57.75 pkoke00007
-
-3bcc51 reboot 1573484234 # 10.0.57.75 pkoke00007
-7ed10f reboot 1573484234 # 10.0.57.74 pkoke00006
 
 ## reboots
+# s_reboot generated on Nov 11 2019 19:04:03 utc: 1573499043
+f39f2b reboot 1573499043 # 10.0.54.135 pkoke00003
 
 ## resets
 ae28ba reset 1573167471
