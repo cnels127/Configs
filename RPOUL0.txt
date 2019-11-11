@@ -23,18 +23,16 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90
+# global throttle 100
 global fanspeed 100
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
-# global rebootasic 1
-global resetasic 1571461924 # 1571252188  # 2
+# global reboot 1
+# global reset 2
 # global panelpass gj83Nkgikg
-
-# group=rowc rebootasic 1
-# group=rowd allowed no
 
 ## vlans
 vlan 10.0.68.30-33
@@ -47,33 +45,7 @@ ba1c4a location RPOUL00004
 
 ## tuning
 ba1c4a reboot 1573487579 # 10.0.68.33 rpoul00004
- 
-
 ba1c4a reboot 1573484264 # 10.0.68.33 rpoul00004
- 
-
-12c5ea maxwatts 1350 # 10.0.68.30
-256c44 maxwatts 1350 # 10.0.68.32
-ba1c4a maxwatts 1350 # 10.0.68.33
-12c5ea reboot 1573467034 # 10.0.68.30
-256c44 reboot 1573467034 # 10.0.68.32
-ba1c4a reboot 1573467034 # 10.0.68.33
-
-12c5ea maxwatts 1350 # 10.0.68.30
-256c44 maxwatts 1350 # 10.0.68.32
-ba1c4a maxwatts 1350 # 10.0.68.33
-12c5ea reboot 1573467034 # 10.0.68.30
-256c44 reboot 1573467034 # 10.0.68.32
-ba1c4a reboot 1573467034 # 10.0.68.33
-
-2e86e9 maxwatts 1350 # 10.0.68.31
-2e86e9 reboot 1573224762 # 10.0.68.31
-
-2e86e9 maxwatts 1350 # 10.0.68.31
-2e86e9 reboot 1573224762 # 10.0.68.31
-
-
-
 
 ## reboots
 
@@ -83,14 +55,3 @@ ba1c4a reboot 1573467034 # 10.0.68.33
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
