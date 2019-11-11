@@ -12,8 +12,8 @@ global poolname2 us.ss.btc.com:443
 global username2 t5n6597
 global poolpass2 123
 global sendworker2 yes
-global poolname3 us.ss.btc.com:25
-global username3 t5n6597
+global poolname3 profit.pool.bitcoin.com:3333
+global username3 bit49
 global poolpass3 123
 global sendworker3 yes
 
@@ -22,19 +22,17 @@ global autotune yes
 global maxwatts 1450
 global autoupdate yes
 global allowed yes
-global maxtemp 90
+global maxtemp 90 1
+# global throttle 100
 global fanspeed 100
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
-# global rebootasic 1
-global resetasic 1571113675 # 1
+# global reboot 1
+# global reset 1
 # global panelpass gj83Nkgikg
-
-# group=rowc rebootasic 1
-# group=rowd allowed no
 
 ## vlans
 vlan 172.16.200.49-49
@@ -63,29 +61,8 @@ f4d922 location HCRAI10006
 ## tuning
 
 ## reboots
-# s_reboot generated on Oct 10 2019 18:16:32 utc: 1570731392
-64addf rebootasic 1570731392 # 172.16.200.165 hcrai10001
-77b952 rebootasic 1570731392 # 172.16.200.50 hcrai10002
-4b09a0 rebootasic 1570731392 # 172.16.200.51 hcrai10003
-246602 rebootasic 1570731392 # 172.16.200.57 hcrai10004
-3441a8 rebootasic 1570731392 # 172.16.200.131 hcrai10005
-f4d922 rebootasic 1570731392 # 172.16.200.133 hcrai10006
-583419 rebootasic 1570731392 # 172.16.200.111 hcrai10007
-54ce08 rebootasic 1570731392 # 172.16.200.110 hcrai10008
-97de11 rebootasic 1570731392 # 172.16.201.223 hcrai10009
 
 ## resets
-583419 resetasic 1570725796
-3441a8 resetasic 1570725796
-77b952 resetasic 1570725796
-64addf resetasic 1570639777
-97de11 resetasic 1569973267
-246602 resetasic 1569973267
-64addf resetasic 1569973267
-54ce08 resetasic 1569973267
-64addf resetasic 1570812003   
 
 ## asic password
 asicpass admin
-
-
