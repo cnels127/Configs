@@ -51,10 +51,11 @@ f5417d location SKOTR00004
 3c6a08 location SKOTR00003
 
 ## tuning
-031368 reboot 1573487584 # 10.0.60.155 skotr00003
-3c6a08 reboot 1573487584 # 10.0.64.155 skotr00003
 
 ## reboots
+# s_reboot generated on Nov 11 2019 19:09:47 utc: 1573499387
+3c6a08 reboot 1573499387 # 10.0.64.155 skotr00003
+f5417d reboot 1573499387 # 10.0.61.17 skotr00004
 
 ## resets
 
