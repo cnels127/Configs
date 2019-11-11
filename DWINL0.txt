@@ -23,18 +23,16 @@ global maxwatts 1500
 global autoupdate yes
 global allowed yes
 global maxtemp 90
+# global throttle 100
 global fanspeed 100
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
-# global rebootasic 1
-global resetasic 1571457203 # 1571248734 # 1571113675
+# global reboot 1
+# global reset 1
 # global panelpass gj83Nkgikg
-
-# group=rowc rebootasic 1
-# group=rowd allowed no
 
 ## vlans
 vlan 10.0.63.91-91
@@ -47,10 +45,6 @@ bdc4b8 location DWINL00001
 c8aece location DWINL00003
 
 ## tuning
-bdc4b8 maxwatts 1400 # 10.0.63.91
-bdc4b8 reboot 1572181198 # 10.0.63.91
-
-bdc4b8 retune 1571681522 
 
 ## reboots
 
@@ -58,7 +52,3 @@ bdc4b8 retune 1571681522
 
 ## asic password
 asicpass admin
-
-
-
-
