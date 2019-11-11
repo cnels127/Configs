@@ -22,7 +22,8 @@ global autotune yes
 global maxwatts 1450
 global autoupdate yes
 global allowed yes
-global maxtemp 90
+global maxtemp 90 1
+# global throttle 100
 global fanspeed 100
 global fansaver yes
 global blinkred idle
@@ -52,24 +53,6 @@ f5417d location SKOTR00004
 ## tuning
 031368 reboot 1573487584 # 10.0.60.155 skotr00003
 3c6a08 reboot 1573487584 # 10.0.64.155 skotr00003
- 
-
-031368 maxwatts 1250 # 10.0.60.155
-031368 reboot 1573477533 # 10.0.60.155
-
-031368 maxwatts 1250 # 10.0.60.155
-031368 reboot 1573477533 # 10.0.60.155
-
-6c2948 maxwatts 1350 # 10.0.58.136
-031368 maxwatts 1350 # 10.0.60.155
-6c2948 reboot 1573464915 # 10.0.58.136
-031368 reboot 1573464915 # 10.0.60.155
-
-6c2948 maxwatts 1350 # 10.0.58.136
-031368 maxwatts 1350 # 10.0.60.155
-6c2948 reboot 1573464915 # 10.0.58.136
-031368 reboot 1573464915 # 10.0.60.155
-
 
 ## reboots
 
@@ -77,8 +60,3 @@ f5417d location SKOTR00004
 
 ## asic password
 asicpass admin
-
-
-
-
-
