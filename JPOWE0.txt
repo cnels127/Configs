@@ -23,18 +23,16 @@ global maxwatts 1500
 global autoupdate yes
 global allowed yes
 global maxtemp 90
+# global throttle 100
 global fanspeed 100
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
-# global rebootasic 1
-global resetasic 1571113675 # 1
+# global reboot 1
+# global reset 1
 # global panelpass gj83Nkgikg
-
-# group=rowc rebootasic 1
-# group=rowd allowed no
 
 ## vlans
 vlan 10.0.116.30-30
@@ -44,12 +42,8 @@ ab17e5 location JPOWE00001
 
 ## tuning
 ab17e5 reboot 1572581343 # 10.0.116.30 jpowe00001
- 
-
 
 ## resets
 
 ## asic password
 asicpass admin
-
-
