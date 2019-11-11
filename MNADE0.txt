@@ -54,17 +54,11 @@ e260d5 location MNADE00009
 6e6dd8 location MNADE00010
 
 ## tuning
-8a919b reboot 1573502885 # 10.0.57.84 mnade00002
-3bf939 reboot 1573502885 # 10.0.57.83 mnade00001
- 
-
-543775 reboot 1573493879 # 10.0.68.22 mnade00004
- 
-
-8a919b reboot 1573487555 # 10.0.57.84 mnade00002
-
-8a919b reboot 1573484218 # 10.0.57.84 mnade00002
-3bf939 reboot 1573484218 # 10.0.57.83 mnade00001
+# s_overheat generated on Nov 11 2019 20:14:47 utc: 1573503287
+8a919b maxwatts 1400 # 10.0.57.84
+3bf939 maxwatts 1400 # 10.0.57.83
+8a919b reboot 1573503287 # 10.0.57.84
+3bf939 reboot 1573503287 # 10.0.57.83
 
 ## reboots
 # s_reboot generated on Nov 11 2019 20:05:28 utc: 1573502728
