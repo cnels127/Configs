@@ -47,6 +47,9 @@ f450a0 location STHAY00002
 546a5f location STHAY00003
 
 ## tuning
+546a5f maxwatts 800 # 10.0.60.144
+546a5f reboot 1573477575 # 10.0.60.144
+
 132245 maxwatts 400 # 10.0.60.99
 546a5f maxwatts 900 # 10.0.60.144
 132245 reboot 1573475498 # 10.0.60.99
@@ -144,6 +147,7 @@ f450a0 location STHAY00002
 
 ## asic password
 asicpass admin
+
 
 
 
