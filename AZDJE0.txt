@@ -23,18 +23,15 @@ global maxwatts 1500
 global autoupdate yes
 global allowed yes
 global maxtemp 90
-global fanspeed 65
+global fanspeed 100
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
 # global retune 2
-global reboot 1573482684
+# global reboot 1
 # global reset 1
 # global panelpass gj83Nkgikg
-
-# group=rowc rebootasic 1
-# group=rowd allowed no
 
 ## vlans
 vlan 10.0.55.84-84
@@ -230,5 +227,3 @@ c96ac2 reset 1573482680
 
 ## asic password
 asicpass admin
-
-
