@@ -23,18 +23,16 @@ global maxwatts 1350
 global autoupdate yes
 global allowed yes
 global maxtemp 90
+# global throttle 100
 global fanspeed 100
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
-# global rebootasic 1
-global resetasic 1571113675 # 1
+# global reboot 1
+# global reset 1
 # global panelpass gj83Nkgikg
-
-# group=rowc rebootasic 1
-# group=rowd allowed no
 
 ## vlans
 vlan 10.0.57.81-82
@@ -48,22 +46,10 @@ vlan 10.0.68.109-110
 
 ## tuning
 97f21b reboot 1573487545 # 10.0.57.82 kwrig00002
- 
-
-
-570c84 retune 1
-97f21b retune 1
-29bca0 retune 1
 
 ## reboots
 
 ## resets
-97f21b reset 1572965157 
-29bca0 reset 1572965157 
-2a7ac0 reset 1572965157 
-2a7ac0 resetasic 1570471886
-29bca0 resetasic 1570212619
 
 ## asic password
 asicpass admin
-
