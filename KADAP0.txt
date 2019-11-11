@@ -45,6 +45,9 @@ e917af location KADAP00002
 4c9876 location KADAP00003
 
 ## tuning
+4c9876 maxwatts 1400 # 10.0.56.137
+4c9876 reboot 1573514103 # 10.0.56.137
+
 e917af reboot 1573502850 # 10.0.56.136 kadap00002
  
 
@@ -57,4 +60,5 @@ e917af reboot 1573502850 # 10.0.56.136 kadap00002
 
 ## asic password
 asicpass admin
+
 
