@@ -65,6 +65,11 @@ f2296d location TIMAT00021
 81a6b6 location TIMAT00023
 
 ## tuning
+41445f maxwatts 850 # 10.0.68.78
+12dafb maxwatts 350 # 10.0.68.90
+41445f reboot 1573473424 # 10.0.68.78
+12dafb reboot 1573473424 # 10.0.68.90
+
 41445f maxwatts 950 # 10.0.68.78
 12dafb maxwatts 450 # 10.0.68.90
 41445f reboot 1573471359 # 10.0.68.78
@@ -1054,6 +1059,7 @@ f2296d rebootasic 1571340142 # 10.0.68.89
 
 ## asic password
 asicpass admin
+
 
 
 
