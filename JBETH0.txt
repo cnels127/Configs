@@ -80,6 +80,13 @@ d549fd maxwatts 900 # 10.0.60.102
 e67e88 reboot 1573464705 # 10.0.68.107
 d549fd reboot 1573464705 # 10.0.60.102
 
+406249 maxwatts 1100 # 10.0.68.105
+e67e88 maxwatts 1100 # 10.0.68.107
+d549fd maxwatts 900 # 10.0.60.102
+406249 reboot 1573464705 # 10.0.68.105
+e67e88 reboot 1573464705 # 10.0.68.107
+d549fd reboot 1573464705 # 10.0.60.102
+
 406249 maxwatts 1200 # 10.0.68.105
 e67e88 maxwatts 1200 # 10.0.68.107
 d549fd maxwatts 1000 # 10.0.60.102
@@ -420,6 +427,7 @@ b340b4 rebootasic 1573063380
 
 ## asic password
 asicpass admin
+
 
 
 

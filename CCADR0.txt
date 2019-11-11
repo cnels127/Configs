@@ -50,6 +50,9 @@ vlan 10.0.66.116-116
 1c6e2b maxwatts 1350 # 10.0.64.153
 1c6e2b reboot 1573464576 # 10.0.64.153
 
+1c6e2b maxwatts 1350 # 10.0.64.153
+1c6e2b reboot 1573464576 # 10.0.64.153
+
 551f73 maxwatts 1250 # 10.0.66.116
 551f73 reboot 1573412036 # 10.0.66.116
 
@@ -70,6 +73,7 @@ vlan 10.0.66.116-116
 
 ## asic password
 asicpass admin
+
 
 
 

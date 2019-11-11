@@ -63,6 +63,11 @@ b3d12e maxwatts 1400 # 10.0.67.149
 9163e6 reboot 1573464712 # 10.0.67.148
 b3d12e reboot 1573464712 # 10.0.67.149
 
+9163e6 maxwatts 1400 # 10.0.67.148
+b3d12e maxwatts 1400 # 10.0.67.149
+9163e6 reboot 1573464712 # 10.0.67.148
+b3d12e reboot 1573464712 # 10.0.67.149
+
 11bafe maxwatts 1400 # 10.0.55.99
 11bafe reboot 1573454776 # 10.0.55.99
 
@@ -94,6 +99,7 @@ d55626 reset 1573168318
 
 ## asic password
 asicpass admin
+
 
 
 
