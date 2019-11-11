@@ -23,18 +23,16 @@ global maxwatts 1500
 global autoupdate yes
 global allowed yes
 global maxtemp 90
+# global throttle 100
 global fanspeed 100
-global fansaver 65
+global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
-# global rebootasic 1
-global resetasic 1571113675 # 1
+# global reboot 1
+# global reset 1
 # global panelpass gj83Nkgikg
-
-# group=rowc rebootasic 1
-# group=rowd allowed no
 
 ## vlans
 vlan 10.0.62.36-36
@@ -57,153 +55,10 @@ af34c7 reboot 1573484248 # 10.0.62.36 rfran00001
 7f3717 reboot 1573484248 # 10.0.62.38 rfran00002
 46bd22 reboot 1573484248 # 10.0.62.39 rfran00003
 d54f75 reboot 1573484248 # 10.0.62.40 rfran00004
- 
-
-af34c7 maxwatts 800 # 10.0.62.36
-7f3717 maxwatts 800 # 10.0.62.38
-46bd22 maxwatts 800 # 10.0.62.39
-d54f75 maxwatts 800 # 10.0.62.40
-af34c7 reboot 1573477476 # 10.0.62.36
-7f3717 reboot 1573477476 # 10.0.62.38
-46bd22 reboot 1573477476 # 10.0.62.39
-d54f75 reboot 1573477476 # 10.0.62.40
-
-af34c7 maxwatts 800 # 10.0.62.36
-7f3717 maxwatts 800 # 10.0.62.38
-46bd22 maxwatts 800 # 10.0.62.39
-d54f75 maxwatts 800 # 10.0.62.40
-af34c7 reboot 1573477476 # 10.0.62.36
-7f3717 reboot 1573477476 # 10.0.62.38
-46bd22 reboot 1573477476 # 10.0.62.39
-d54f75 reboot 1573477476 # 10.0.62.40
-
-af34c7 maxwatts 900 # 10.0.62.36
-7f3717 maxwatts 900 # 10.0.62.38
-46bd22 maxwatts 900 # 10.0.62.39
-d54f75 maxwatts 900 # 10.0.62.40
-af34c7 reboot 1573475416 # 10.0.62.36
-7f3717 reboot 1573475416 # 10.0.62.38
-46bd22 reboot 1573475416 # 10.0.62.39
-d54f75 reboot 1573475416 # 10.0.62.40
-
-af34c7 maxwatts 900 # 10.0.62.36
-7f3717 maxwatts 900 # 10.0.62.38
-46bd22 maxwatts 900 # 10.0.62.39
-d54f75 maxwatts 900 # 10.0.62.40
-af34c7 reboot 1573475416 # 10.0.62.36
-7f3717 reboot 1573475416 # 10.0.62.38
-46bd22 reboot 1573475416 # 10.0.62.39
-d54f75 reboot 1573475416 # 10.0.62.40
-
-af34c7 maxwatts 1000 # 10.0.62.36
-7f3717 maxwatts 1000 # 10.0.62.38
-46bd22 maxwatts 1000 # 10.0.62.39
-d54f75 maxwatts 1000 # 10.0.62.40
-af34c7 reboot 1573473323 # 10.0.62.36
-7f3717 reboot 1573473323 # 10.0.62.38
-46bd22 reboot 1573473323 # 10.0.62.39
-d54f75 reboot 1573473323 # 10.0.62.40
-
-af34c7 maxwatts 1000 # 10.0.62.36
-7f3717 maxwatts 1000 # 10.0.62.38
-46bd22 maxwatts 1000 # 10.0.62.39
-d54f75 maxwatts 1000 # 10.0.62.40
-af34c7 reboot 1573473323 # 10.0.62.36
-7f3717 reboot 1573473323 # 10.0.62.38
-46bd22 reboot 1573473323 # 10.0.62.39
-d54f75 reboot 1573473323 # 10.0.62.40
-
-af34c7 maxwatts 1100 # 10.0.62.36
-7f3717 maxwatts 1100 # 10.0.62.38
-46bd22 maxwatts 1100 # 10.0.62.39
-d54f75 maxwatts 1100 # 10.0.62.40
-af34c7 reboot 1573471268 # 10.0.62.36
-7f3717 reboot 1573471268 # 10.0.62.38
-46bd22 reboot 1573471268 # 10.0.62.39
-d54f75 reboot 1573471268 # 10.0.62.40
-
-af34c7 maxwatts 1100 # 10.0.62.36
-7f3717 maxwatts 1100 # 10.0.62.38
-46bd22 maxwatts 1100 # 10.0.62.39
-d54f75 maxwatts 1100 # 10.0.62.40
-af34c7 reboot 1573471268 # 10.0.62.36
-7f3717 reboot 1573471268 # 10.0.62.38
-46bd22 reboot 1573471268 # 10.0.62.39
-d54f75 reboot 1573471268 # 10.0.62.40
-
-af34c7 maxwatts 1200 # 10.0.62.36
-7f3717 maxwatts 1200 # 10.0.62.38
-46bd22 maxwatts 1200 # 10.0.62.39
-d54f75 maxwatts 1200 # 10.0.62.40
-af34c7 reboot 1573469165 # 10.0.62.36
-7f3717 reboot 1573469165 # 10.0.62.38
-46bd22 reboot 1573469165 # 10.0.62.39
-d54f75 reboot 1573469165 # 10.0.62.40
-
-af34c7 maxwatts 1200 # 10.0.62.36
-7f3717 maxwatts 1200 # 10.0.62.38
-46bd22 maxwatts 1200 # 10.0.62.39
-d54f75 maxwatts 1200 # 10.0.62.40
-af34c7 reboot 1573469165 # 10.0.62.36
-7f3717 reboot 1573469165 # 10.0.62.38
-46bd22 reboot 1573469165 # 10.0.62.39
-d54f75 reboot 1573469165 # 10.0.62.40
-
-af34c7 maxwatts 1300 # 10.0.62.36
-7f3717 maxwatts 1300 # 10.0.62.38
-46bd22 maxwatts 1300 # 10.0.62.39
-d54f75 maxwatts 1300 # 10.0.62.40
-af34c7 reboot 1573467001 # 10.0.62.36
-7f3717 reboot 1573467001 # 10.0.62.38
-46bd22 reboot 1573467001 # 10.0.62.39
-d54f75 reboot 1573467001 # 10.0.62.40
-
-af34c7 maxwatts 1300 # 10.0.62.36
-7f3717 maxwatts 1300 # 10.0.62.38
-46bd22 maxwatts 1300 # 10.0.62.39
-d54f75 maxwatts 1300 # 10.0.62.40
-af34c7 reboot 1573467001 # 10.0.62.36
-7f3717 reboot 1573467001 # 10.0.62.38
-46bd22 reboot 1573467001 # 10.0.62.39
-d54f75 reboot 1573467001 # 10.0.62.40
-
-af34c7 maxwatts 1400 # 10.0.62.36
-af34c7 rebootasic 1571663993 # 10.0.62.36
-
-d54f75 maxwatts 1400 # 10.0.62.40
-d54f75 rebootasic 1571648497 # 10.0.62.40
-
-7f3717 maxwatts 1400 # 10.0.62.38
-7f3717 rebootasic 1568969199 # 10.0.62.38
-
-46bd22 maxwatts 1400 # 10.0.62.39
-46bd22 rebootasic 1568951586 # 10.0.62.39
-
-d54f75 retune 1
 
 ## reboots
 
 ## resets
-d54f75 resetasic 1570472086
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
