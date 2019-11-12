@@ -78,6 +78,11 @@ d7ac75 maxwatts 1400 # 10.0.66.141
 95ae86 reboot 1573572290 # 10.0.66.131
 d7ac75 reboot 1573572290 # 10.0.66.141
 
+95ae86 maxwatts 1300 # 10.0.66.131
+d7ac75 maxwatts 1400 # 10.0.66.141
+95ae86 reboot 1573572290 # 10.0.66.131
+d7ac75 reboot 1573572290 # 10.0.66.141
+
 4df698 maxwatts 1100 # 10.0.66.139
 4df698 reboot 1573568798 # 10.0.66.139
 
@@ -231,6 +236,7 @@ a1dd12 reset 1573249872
 
 ## asic password
 asicpass admin
+
 
 
 
