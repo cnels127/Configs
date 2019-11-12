@@ -44,6 +44,11 @@ global blinkgreen rapid
 92d4a2 reboot 1573561897 # 10.0.50.49
 3c9a6e reboot 1573561897 # 10.0.50.50
 
+92d4a2 maxwatts 1150 # 10.0.50.49
+3c9a6e maxwatts 1250 # 10.0.50.50
+92d4a2 reboot 1573561897 # 10.0.50.49
+3c9a6e reboot 1573561897 # 10.0.50.50
+
 5e2793 reboot 1573561274 # 10.0.31.129 esolg000150
 abae36 reboot 1573561274 # 10.0.55.71 esolg000359
 447c81 reboot 1573561274 # 10.0.55.62 esolg000352
@@ -2300,6 +2305,7 @@ f6e3e0 location ESOLG000396
 
 ## asic password
 asicpass admin
+
 
 
 
