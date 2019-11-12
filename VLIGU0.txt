@@ -151,6 +151,13 @@ de8889 reboot 1573546720 # 10.0.51.48
 02d712 reboot 1573546720 # 10.0.51.44
 d59af9 reboot 1573546720 # 10.0.51.29
 
+de8889 maxwatts 800 # 10.0.51.48
+02d712 maxwatts 1100 # 10.0.51.44
+d59af9 maxwatts 1400 # 10.0.51.29
+de8889 reboot 1573546720 # 10.0.51.48
+02d712 reboot 1573546720 # 10.0.51.44
+d59af9 reboot 1573546720 # 10.0.51.29
+
 de8889 maxwatts 900 # 10.0.51.48
 b84091 maxwatts 1200 # 10.0.51.43
 22122a maxwatts 800 # 10.0.57.97
@@ -750,6 +757,7 @@ fde057 reboot 1573484307 # 10.0.57.95 vligu00067
 
 ## asic password
 asicpass admin
+
 
 
 

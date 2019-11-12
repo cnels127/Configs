@@ -155,6 +155,11 @@ e2ac32 maxwatts 1050 # 10.0.60.59
 e2ac32 reboot 1573546625 # 10.0.60.59
 26c95e reboot 1573546625 # 10.0.64.107
 
+e2ac32 maxwatts 1050 # 10.0.60.59
+26c95e maxwatts 1250 # 10.0.64.107
+e2ac32 reboot 1573546625 # 10.0.60.59
+26c95e reboot 1573546625 # 10.0.64.107
+
 267c54 maxwatts 950 # 10.0.61.16
 80a659 maxwatts 1050 # 10.0.68.57
 e2ac32 maxwatts 1150 # 10.0.60.59
@@ -487,6 +492,7 @@ bca239 reset 1573237377
 
 ## asic password
 asicpass admin
+
 
 
 
