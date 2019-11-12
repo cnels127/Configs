@@ -39,6 +39,19 @@ global blinkgreen rapid
 ## fans
 
 ## tuning
+5e2793 reboot 1573561274 # 10.0.31.129 esolg000150
+abae36 reboot 1573561274 # 10.0.55.71 esolg000359
+447c81 reboot 1573561274 # 10.0.55.62 esolg000352
+694670 reboot 1573561274 # 10.0.55.42 esolg000335
+55fe55 reboot 1573561274 # 10.0.55.44 esolg000337
+bb1d90 reboot 1573561274 # 10.0.119.101 esolg000392
+5d2e09 reboot 1573561274 # 10.0.120.39 esolg000397
+3132b1 reboot 1573561274 # 10.0.50.124 esolg000277
+9d2d3d reboot 1573561274 # 10.0.30.119 esolg000028
+c256c3 reboot 1573561274 # 10.0.50.143 esolg000294
+ad36be reboot 1573561274 # 10.0.50.151 esolg000301
+ 
+
 71e6fe maxwatts -50 # 10.0.50.29
 c22a6f maxwatts 1150 # 10.0.31.142
 305120 maxwatts 1150 # 10.0.55.39
@@ -2282,6 +2295,7 @@ f6e3e0 location ESOLG000396
 
 ## asic password
 asicpass admin
+
 
 
 
