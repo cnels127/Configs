@@ -21,19 +21,17 @@ global autotune yes
 global maxwatts 1350
 global autoupdate yes
 global allowed yes
-global maxtemp 90
+global maxtemp 90 1
+# global throttle 100
 global fanspeed 100
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
-global retune 1
-global rebootasic 2
-global resetasic 1571113675 # 1570655874
+# global retune 1
+# global reboot 2
+# global reset 1
 # global panelpass gj83Nkgikg
-
-# group=rowc rebootasic 1
-# group=rowd allowed no
 
 ## vlans
 vlan 172.16.202.72-72
