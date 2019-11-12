@@ -66,6 +66,11 @@ e3240c maxwatts 900 # 10.0.54.138
 0ef8df reboot 1573601318 # 10.0.57.87
 e3240c reboot 1573601318 # 10.0.54.138
 
+0ef8df maxwatts 1000 # 10.0.57.87
+e3240c maxwatts 900 # 10.0.54.138
+0ef8df reboot 1573601318 # 10.0.57.87
+e3240c reboot 1573601318 # 10.0.54.138
+
 e3240c maxwatts 900 # 10.0.54.138
 e3240c reboot 1573599610 # 10.0.54.138
 
@@ -225,6 +230,7 @@ e3240c reset 1573160169
 
 ## asic password
 asicpass admin
+
 
 
 

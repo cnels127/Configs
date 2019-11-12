@@ -576,6 +576,13 @@ df6891 maxwatts 400 # 10.0.67.81
 df6891 reboot 1573601226 # 10.0.67.81
 76bc9a reboot 1573601226 # 10.0.65.143
 
+165af1 maxwatts -100 # 10.0.64.9
+df6891 maxwatts 400 # 10.0.67.81
+76bc9a maxwatts 1400 # 10.0.65.143
+165af1 reboot 1573601226 # 10.0.64.9
+df6891 reboot 1573601226 # 10.0.67.81
+76bc9a reboot 1573601226 # 10.0.65.143
+
 109552 maxwatts 500 # 10.0.66.86
 c26b87 maxwatts 800 # 10.0.58.48
 9b26f7 maxwatts 1200 # 10.0.58.79
@@ -2849,6 +2856,7 @@ ce7138 reset 1573273407
 
 ## asic password
 asicpass admin
+
 
 
 
