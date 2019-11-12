@@ -97,6 +97,17 @@ a03b81 reboot 1573534450 # 10.0.121.81
 64cc79 reboot 1573534450 # 10.0.67.136
 8342ab reboot 1573534450 # 10.0.65.148
 
+e4b5b6 maxwatts 1050 # 10.0.64.157
+a03b81 maxwatts 1150 # 10.0.121.81
+84fddc maxwatts 950 # 10.0.55.85
+64cc79 maxwatts 1350 # 10.0.67.136
+8342ab maxwatts 1250 # 10.0.65.148
+e4b5b6 reboot 1573534450 # 10.0.64.157
+a03b81 reboot 1573534450 # 10.0.121.81
+84fddc reboot 1573534450 # 10.0.55.85
+64cc79 reboot 1573534450 # 10.0.67.136
+8342ab reboot 1573534450 # 10.0.65.148
+
 fe05ff maxwatts 1150 # 10.0.65.57
 e4b5b6 maxwatts 1150 # 10.0.64.157
 a03b81 maxwatts 1250 # 10.0.121.81
@@ -321,6 +332,7 @@ d3176c reset 1573254670
 
 ## asic password
 asicpass admin
+
 
 
 
