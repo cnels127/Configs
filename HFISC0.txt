@@ -150,6 +150,10 @@ f2b75b location HFISC00056
 000122 location HFISC00060
 
 ## tuning
+69c26c reboot 1573518125 # 10.0.61.44 hfisc00052
+f0acc9 reboot 1573518125 # 10.0.60.83 hfisc00051
+ 
+
 bca239 maxwatts 1250 # 10.0.60.33
 27398f maxwatts 1250 # 10.0.68.60
 424037 maxwatts 1350 # 10.0.59.151
@@ -294,6 +298,7 @@ bca239 reset 1573237377
 
 ## asic password
 asicpass admin
+
 
 
 
