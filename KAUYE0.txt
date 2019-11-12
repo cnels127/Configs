@@ -73,6 +73,13 @@ ddae42 maxwatts 1000 # 10.0.55.97
 ddae42 reboot 1573539825 # 10.0.55.97
 4d1860 reboot 1573539825 # 10.0.55.100
 
+184c88 maxwatts 1100 # 10.0.55.104
+ddae42 maxwatts 1000 # 10.0.55.97
+4d1860 maxwatts 1200 # 10.0.55.100
+184c88 reboot 1573539825 # 10.0.55.104
+ddae42 reboot 1573539825 # 10.0.55.97
+4d1860 reboot 1573539825 # 10.0.55.100
+
 184c88 maxwatts 1200 # 10.0.55.104
 ddae42 maxwatts 1100 # 10.0.55.97
 184c88 reboot 1573536310 # 10.0.55.104
@@ -148,6 +155,7 @@ ddae42 reboot 1573504613 # 10.0.55.97 kauye00002
 
 ## asic password
 asicpass admin
+
 
 
 

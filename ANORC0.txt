@@ -54,6 +54,9 @@ ce82d1 location ANORC00009
 f5e34e maxwatts 1100 # 10.0.68.95
 f5e34e reboot 1573539777 # 10.0.68.95
 
+f5e34e maxwatts 1100 # 10.0.68.95
+f5e34e reboot 1573539777 # 10.0.68.95
+
 ce82d1 maxwatts 1400 # 10.0.68.100
 ce82d1 reboot 1573538034 # 10.0.68.100
 
@@ -233,6 +236,7 @@ d0157c reboot 1573484097 # 10.0.68.96 anorc00005
 
 ## asic password
 asicpass admin
+
 
 
 

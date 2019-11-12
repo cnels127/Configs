@@ -68,6 +68,11 @@ f2296d location TIMAT00021
 81a6b6 reboot 1573539888 # 10.0.68.91
 1b0533 reboot 1573539888 # 10.0.68.83
 
+81a6b6 maxwatts 1250 # 10.0.68.91
+1b0533 maxwatts 1250 # 10.0.68.83
+81a6b6 reboot 1573539888 # 10.0.68.91
+1b0533 reboot 1573539888 # 10.0.68.83
+
 ec43b1 maxwatts 950 # 10.0.68.87
 308db8 maxwatts 1250 # 10.0.68.85
 12dafb maxwatts 1350 # 10.0.68.90
@@ -239,6 +244,7 @@ c1769c reboot 1573484302 # 10.0.68.86 timat00018
 
 ## asic password
 asicpass admin
+
 
 
 

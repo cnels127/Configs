@@ -41,6 +41,9 @@ global blinkgreen rapid
 dc4996 maxwatts 1150 # 10.0.120.33
 dc4996 reboot 1573539885 # 10.0.120.33
 
+dc4996 maxwatts 1150 # 10.0.120.33
+dc4996 reboot 1573539885 # 10.0.120.33
+
 364899 maxwatts 1150 # 10.0.59.79
 a7849c maxwatts 1350 # 10.0.66.23
 364899 reboot 1573532793 # 10.0.59.79
@@ -216,6 +219,7 @@ e9aa45 reset 1573274335
 
 ## asic password
 asicpass admin
+
 
 
 

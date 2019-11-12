@@ -122,6 +122,11 @@ a23fe5 maxwatts 1200 # 10.0.68.43
 a23fe5 reboot 1573539879 # 10.0.68.43
 71393e reboot 1573539879 # 10.0.54.140
 
+a23fe5 maxwatts 1200 # 10.0.68.43
+71393e maxwatts 1300 # 10.0.54.140
+a23fe5 reboot 1573539879 # 10.0.68.43
+71393e reboot 1573539879 # 10.0.54.140
+
 65013e maxwatts 1200 # 10.0.66.18
 bd2001 maxwatts 1100 # 10.0.54.141
 2bb22c maxwatts 1200 # 10.0.64.69
@@ -453,6 +458,7 @@ c8c8e3 reboot 1573484285 # 10.0.54.139 srado00001
 
 ## asic password
 asicpass admin
+
 
 
 
