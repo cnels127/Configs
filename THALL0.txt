@@ -24,7 +24,7 @@ global autoupdate yes
 global allowed yes
 global maxtemp 90 1
 # global throttle 100
-global fanspeed 100
+global fanspeed 80
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
@@ -65,44 +65,6 @@ a9f19e location THALL00024
 255a6b location THALL00025
 
 ## tuning
-845f77 maxwatts 1250 # 10.0.32.42
-845f77 reboot 1573543302 # 10.0.32.42
-
-845f77 maxwatts 1250 # 10.0.32.42
-845f77 reboot 1573543302 # 10.0.32.42
-
-f0c13e maxwatts 1250 # 10.0.32.43
-f0c13e reboot 1573534594 # 10.0.32.43
-
-f0c13e maxwatts 1250 # 10.0.32.43
-f0c13e reboot 1573534594 # 10.0.32.43
-
-a966ea maxwatts 1350 # 10.0.32.41
-845f77 maxwatts 1350 # 10.0.32.42
-a9f19e maxwatts 1350 # 10.0.32.44
-a966ea reboot 1573532799 # 10.0.32.41
-845f77 reboot 1573532799 # 10.0.32.42
-a9f19e reboot 1573532799 # 10.0.32.44
-
-a966ea maxwatts 1350 # 10.0.32.41
-845f77 maxwatts 1350 # 10.0.32.42
-a9f19e maxwatts 1350 # 10.0.32.44
-a966ea reboot 1573532799 # 10.0.32.41
-845f77 reboot 1573532799 # 10.0.32.42
-a9f19e reboot 1573532799 # 10.0.32.44
-
-1d29a7 maxwatts 1350 # 10.0.32.40
-1d29a7 reboot 1573527698 # 10.0.32.40
-
-1d29a7 maxwatts 1350 # 10.0.32.40
-1d29a7 reboot 1573527698 # 10.0.32.40
-
-f0c13e maxwatts 1350 # 10.0.32.43
-f0c13e reboot 1573517581 # 10.0.32.43
-
-f0c13e maxwatts 1350 # 10.0.32.43
-f0c13e reboot 1573517581 # 10.0.32.43
-
 
 ## reboots
 
@@ -113,13 +75,3 @@ f76afb reset 1573173881
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
