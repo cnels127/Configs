@@ -21,12 +21,12 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1500
+global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
 # global throttle 100
-global fanspeed 100
+global fanspeed 60
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
@@ -60,63 +60,7 @@ a016c1 location RANDE00008
 636f5f location RANDE00010
 
 ## tuning
-1506ab maxwatts 1100 # 10.0.57.129
-8a2820 maxwatts 1400 # 10.0.57.157
-1506ab reboot 1573550081 # 10.0.57.129
-8a2820 reboot 1573550081 # 10.0.57.157
 
-1506ab maxwatts 1100 # 10.0.57.129
-8a2820 maxwatts 1400 # 10.0.57.157
-1506ab reboot 1573550081 # 10.0.57.129
-8a2820 reboot 1573550081 # 10.0.57.157
-
-a016c1 maxwatts 1400 # 10.0.58.23
-a016c1 reboot 1573544968 # 10.0.58.23
-
-a016c1 maxwatts 1400 # 10.0.58.23
-a016c1 reboot 1573544968 # 10.0.58.23
-
-679e5d maxwatts 1200 # 10.0.57.142
-679e5d reboot 1573536363 # 10.0.57.142
-
-679e5d maxwatts 1200 # 10.0.57.142
-679e5d reboot 1573536363 # 10.0.57.142
-
-679e5d maxwatts 1300 # 10.0.57.142
-679e5d reboot 1573534542 # 10.0.57.142
-
-679e5d maxwatts 1300 # 10.0.57.142
-679e5d reboot 1573534542 # 10.0.57.142
-
-1506ab maxwatts 1200 # 10.0.57.129
-1506ab reboot 1573527633 # 10.0.57.129
-
-1506ab maxwatts 1200 # 10.0.57.129
-1506ab reboot 1573527633 # 10.0.57.129
-
-1506ab maxwatts 1300 # 10.0.57.129
-679e5d maxwatts 1400 # 10.0.57.142
-1506ab reboot 1573517547 # 10.0.57.129
-679e5d reboot 1573517547 # 10.0.57.142
-
-1506ab maxwatts 1300 # 10.0.57.129
-679e5d maxwatts 1400 # 10.0.57.142
-1506ab reboot 1573517547 # 10.0.57.129
-679e5d reboot 1573517547 # 10.0.57.142
-
-1506ab maxwatts 1400 # 10.0.57.129
-1506ab reboot 1573514133 # 10.0.57.129
-
-1506ab maxwatts 1400 # 10.0.57.129
-1506ab reboot 1573514133 # 10.0.57.129
-
-1506ab reboot 1573489203 # 10.0.57.129 rande00003
-
-1506ab reboot 1573487567 # 10.0.57.129 rande00003
-
-1506ab reboot 1573485926 # 10.0.57.129 rande00003
-
-1506ab reboot 1573484241 # 10.0.57.129 rande00003
 
 ## reboots
 679e5d reboot 1573071802
