@@ -19,12 +19,12 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1500
+global maxwatts 1450
 global autoupdate no
 global allowed yes
 global maxtemp 90
 # global throttle 100
-global fanspeed 100
+global fanspeed 80
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
@@ -49,51 +49,6 @@ b69144 location GBURR00004
 fb355a location GBURR00005
 
 ## tuning
-2d11cf maxwatts 1100 # 10.0.55.150
-2d11cf reboot 1573561901 # 10.0.55.150
-
-2d11cf maxwatts 1100 # 10.0.55.150
-2d11cf reboot 1573561901 # 10.0.55.150
-
-2d11cf maxwatts 1200 # 10.0.55.150
-2d11cf reboot 1573544915 # 10.0.55.150
-
-2d11cf maxwatts 1200 # 10.0.55.150
-2d11cf reboot 1573544915 # 10.0.55.150
-
-fb355a maxwatts 1400 # 10.0.56.113
-fb355a reboot 1573543216 # 10.0.56.113
-
-fb355a maxwatts 1400 # 10.0.56.113
-fb355a reboot 1573543216 # 10.0.56.113
-
-2d11cf maxwatts 1300 # 10.0.55.150
-2d11cf reboot 1573541507 # 10.0.55.150
-
-2d11cf maxwatts 1300 # 10.0.55.150
-2d11cf reboot 1573541507 # 10.0.55.150
-
-f0f798 maxwatts 1300 # 10.0.55.87
-f0f798 reboot 1573532650 # 10.0.55.87
-
-f0f798 maxwatts 1300 # 10.0.55.87
-f0f798 reboot 1573532650 # 10.0.55.87
-
-f0f798 maxwatts 1400 # 10.0.55.87
-f0f798 reboot 1573527513 # 10.0.55.87
-
-f0f798 maxwatts 1400 # 10.0.55.87
-f0f798 reboot 1573527513 # 10.0.55.87
-
-2d11cf maxwatts 1400 # 10.0.55.150
-2d11cf reboot 1573514079 # 10.0.55.150
-
-2d11cf maxwatts 1400 # 10.0.55.150
-2d11cf reboot 1573514079 # 10.0.55.150
-
-f0f798 reboot 1573506294 # 10.0.55.87 gburr00001
- 
-
 
 ## reboots
 b69144 reboot 1572023239 
@@ -103,18 +58,3 @@ b69144 reset 1573137505
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
