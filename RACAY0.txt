@@ -91,6 +91,11 @@ f729dc location RACAY00022
 65bbdb reboot 1573517546 # 10.0.60.127
 16ab24 reboot 1573517546 # 10.0.59.16
 
+65bbdb maxwatts 1300 # 10.0.60.127
+16ab24 maxwatts 1400 # 10.0.59.16
+65bbdb reboot 1573517546 # 10.0.60.127
+16ab24 reboot 1573517546 # 10.0.59.16
+
 053705 maxwatts 1400 # 10.0.60.115
 c55a62 maxwatts 1400 # 10.0.54.151
 65bbdb maxwatts 1400 # 10.0.60.127
@@ -155,6 +160,7 @@ c55a62 reboot 1573484238 # 10.0.54.151 racay00001
 
 ## asic password
 asicpass admin
+
 
 
 

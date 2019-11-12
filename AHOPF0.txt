@@ -48,6 +48,19 @@ a66966 reboot 1573517468 # 10.0.57.38
 d67876 reboot 1573517468 # 10.0.121.158
 0b383f reboot 1573517468 # 10.0.57.42
 
+5ac22f maxwatts 1200 # 10.0.57.41
+b46ce7 maxwatts 1200 # 10.0.57.40
+cb7a3d maxwatts 1300 # 10.0.56.159
+a66966 maxwatts 1400 # 10.0.57.38
+d67876 maxwatts 1400 # 10.0.121.158
+0b383f maxwatts 1400 # 10.0.57.42
+5ac22f reboot 1573517468 # 10.0.57.41
+b46ce7 reboot 1573517468 # 10.0.57.40
+cb7a3d reboot 1573517468 # 10.0.56.159
+a66966 reboot 1573517468 # 10.0.57.38
+d67876 reboot 1573517468 # 10.0.121.158
+0b383f reboot 1573517468 # 10.0.57.42
+
 b46ce7 maxwatts 1300 # 10.0.57.40
 c56a90 maxwatts 1300 # 10.0.57.25
 5ac22f maxwatts 1300 # 10.0.57.41
@@ -1574,6 +1587,7 @@ c6cbe1 username3 GMTVILLA01
 
 ## asic password
 asicpass admin
+
 
 
 
