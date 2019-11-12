@@ -463,6 +463,11 @@ a0cac7 location NBELL00204
 252f2b location NBELL00207
 
 ## tuning
+771e29 reboot 1573521444 # 10.0.120.123 nbell00127
+853e5d reboot 1573521444 # 10.0.118.120 nbell00153
+5534be reboot 1573521444 # 10.0.120.140 nbell00126
+ 
+
 5534be reboot 1573519806 # 10.0.120.140 nbell00126
 771e29 reboot 1573519806 # 10.0.120.123 nbell00127
 853e5d reboot 1573519806 # 10.0.118.120 nbell00153
@@ -622,6 +627,7 @@ f0f240 reset 1573070538
 
 ## asic password
 asicpass admin
+
 
 
 
