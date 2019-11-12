@@ -323,6 +323,11 @@ c99d5c location SCART000141
 63f265 location SCART000142
 
 ## tuning
+ab39de maxwatts 1050 # 10.0.50.94
+34ac56 maxwatts 1150 # 10.0.50.33
+ab39de reboot 1573555198 # 10.0.50.94
+34ac56 reboot 1573555198 # 10.0.50.33
+
 03c9af maxwatts 1250 # 10.0.63.43
 7e183d maxwatts 1150 # 10.0.55.81
 03c9af reboot 1573553496 # 10.0.63.43
@@ -560,6 +565,7 @@ ae2c80 reboot 1573502942 # 10.0.50.75 scart000096
 
 ## asic password
 asicpass admin
+
 
 
 
