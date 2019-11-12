@@ -155,6 +155,17 @@ da3f92 maxwatts 1000 # 10.0.57.88
 de8889 reboot 1573570630 # 10.0.51.48
 da3f92 reboot 1573570630 # 10.0.57.88
 
+4dac09 maxwatts 500 # 10.0.51.42
+02d712 maxwatts 900 # 10.0.51.44
+9b7ce8 maxwatts 1000 # 10.0.57.89
+de8889 maxwatts 500 # 10.0.51.48
+da3f92 maxwatts 1000 # 10.0.57.88
+4dac09 reboot 1573570630 # 10.0.51.42
+02d712 reboot 1573570630 # 10.0.51.44
+9b7ce8 reboot 1573570630 # 10.0.57.89
+de8889 reboot 1573570630 # 10.0.51.48
+da3f92 reboot 1573570630 # 10.0.57.88
+
 4dac09 maxwatts 600 # 10.0.51.42
 ad13e2 maxwatts 1200 # 10.0.57.119
 4dac09 reboot 1573568881 # 10.0.51.42
@@ -901,6 +912,7 @@ fde057 reboot 1573484307 # 10.0.57.95 vligu00067
 
 ## asic password
 asicpass admin
+
 
 
 

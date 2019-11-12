@@ -91,6 +91,11 @@ de83b4 maxwatts 1350 # 10.0.55.157
 fe05ff reboot 1573570510 # 10.0.65.57
 de83b4 reboot 1573570510 # 10.0.55.157
 
+fe05ff maxwatts 950 # 10.0.65.57
+de83b4 maxwatts 1350 # 10.0.55.157
+fe05ff reboot 1573570510 # 10.0.65.57
+de83b4 reboot 1573570510 # 10.0.55.157
+
 84fddc maxwatts 650 # 10.0.55.85
 fe05ff maxwatts 1050 # 10.0.65.57
 84fddc reboot 1573567074 # 10.0.55.85
@@ -475,6 +480,7 @@ d3176c reset 1573254670
 
 ## asic password
 asicpass admin
+
 
 
 
