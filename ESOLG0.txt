@@ -48,6 +48,15 @@ d371f5 maxwatts 1050 # 10.0.50.93
 d371f5 reboot 1573555127 # 10.0.50.93
 1a9fc6 reboot 1573555127 # 10.0.50.149
 
+71e6fe maxwatts -50 # 10.0.50.29
+086857 maxwatts 550 # 10.0.50.43
+d371f5 maxwatts 1050 # 10.0.50.93
+1a9fc6 maxwatts 950 # 10.0.50.149
+71e6fe reboot 1573555127 # 10.0.50.29
+086857 reboot 1573555127 # 10.0.50.43
+d371f5 reboot 1573555127 # 10.0.50.93
+1a9fc6 reboot 1573555127 # 10.0.50.149
+
 71e6fe maxwatts 50 # 10.0.50.29
 086857 maxwatts 650 # 10.0.50.43
 385e8f maxwatts 1050 # 10.0.51.85
@@ -2223,6 +2232,7 @@ f6e3e0 location ESOLG000396
 
 ## asic password
 asicpass admin
+
 
 
 

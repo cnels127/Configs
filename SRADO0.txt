@@ -120,6 +120,9 @@ fb2a81 location SRADO00042
 b128e8 maxwatts 800 # 10.0.62.83
 b128e8 reboot 1573555212 # 10.0.62.83
 
+b128e8 maxwatts 800 # 10.0.62.83
+b128e8 reboot 1573555212 # 10.0.62.83
+
 65013e maxwatts 1000 # 10.0.66.18
 b128e8 maxwatts 900 # 10.0.62.83
 65013e reboot 1573553509 # 10.0.66.18
@@ -559,6 +562,7 @@ c8c8e3 reboot 1573484285 # 10.0.54.139 srado00001
 
 ## asic password
 asicpass admin
+
 
 
 
