@@ -38,6 +38,11 @@ global blinkgreen rapid
 ## locations
 
 ## tuning
+d46013 reboot 1573519845 # 10.0.120.114 set1
+b9ba02 reboot 1573519845 # 10.0.77.44 set2
+84cd22 reboot 1573519845 # 10.0.64.139 set3
+ 
+
 d46013 reboot 1573518203 # 10.0.120.114 set1
 253114 reboot 1573518203 # 10.0.117.24 set2
 84cd22 reboot 1573518203 # 10.0.64.139 set3
@@ -182,6 +187,7 @@ e9aa45 reset 1573274335
 
 ## asic password
 asicpass admin
+
 
 
 

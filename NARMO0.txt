@@ -45,6 +45,9 @@ vlan 10.0.66.110-110
 aa75d6 location NARMO00003
 
 ## tuning
+76e85b reboot 1573519805 # 10.0.65.71 narmo00001
+ 
+
 
 ## reboots
 
@@ -54,3 +57,4 @@ aa75d6 reset 1573159170
 
 ## asic password
 asicpass admin
+
