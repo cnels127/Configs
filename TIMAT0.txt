@@ -70,6 +70,13 @@ ec43b1 maxwatts 1250 # 10.0.68.87
 41445f reboot 1573527702 # 10.0.68.78
 ec43b1 reboot 1573527702 # 10.0.68.87
 
+7fc10f maxwatts 1150 # 10.0.68.72
+41445f maxwatts 1350 # 10.0.68.78
+ec43b1 maxwatts 1250 # 10.0.68.87
+7fc10f reboot 1573527702 # 10.0.68.72
+41445f reboot 1573527702 # 10.0.68.78
+ec43b1 reboot 1573527702 # 10.0.68.87
+
 f2296d reboot 1573526594 # 10.0.68.89 timat00021
  
 
@@ -167,6 +174,7 @@ c1769c reboot 1573484302 # 10.0.68.86 timat00018
 
 ## asic password
 asicpass admin
+
 
 
 
