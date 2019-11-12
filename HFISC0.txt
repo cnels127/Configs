@@ -153,6 +153,9 @@ f2b75b location HFISC00056
 267c54 maxwatts 1050 # 10.0.61.16
 267c54 reboot 1573543221 # 10.0.61.16
 
+267c54 maxwatts 1050 # 10.0.61.16
+267c54 reboot 1573543221 # 10.0.61.16
+
 994f1c maxwatts 850 # 10.0.68.54
 c899f8 maxwatts 1250 # 10.0.60.47
 994f1c reboot 1573541513 # 10.0.68.54
@@ -453,6 +456,7 @@ bca239 reset 1573237377
 
 ## asic password
 asicpass admin
+
 
 
 
