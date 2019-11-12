@@ -66,6 +66,11 @@ b49a7f maxwatts 1300 # 10.0.56.120
 701541 reboot 1573532702 # 10.0.66.8
 b49a7f reboot 1573532702 # 10.0.56.120
 
+701541 maxwatts 1400 # 10.0.66.8
+b49a7f maxwatts 1300 # 10.0.56.120
+701541 reboot 1573532702 # 10.0.66.8
+b49a7f reboot 1573532702 # 10.0.56.120
+
 b49a7f maxwatts 1400 # 10.0.56.120
 b49a7f reboot 1573517524 # 10.0.56.120
 
@@ -97,6 +102,7 @@ b49a7f reboot 1573502864 # 10.0.56.120 lalbe00001
 
 ## asic password
 asicpass admin
+
 
 
 

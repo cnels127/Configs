@@ -57,6 +57,13 @@ bf9f18 reboot 1573532622 # 10.0.54.51
 6cb55b reboot 1573532622 # 10.0.54.58
 6d0544 reboot 1573532622 # 10.0.54.52
 
+bf9f18 maxwatts 1300 # 10.0.54.51
+6cb55b maxwatts 1400 # 10.0.54.58
+6d0544 maxwatts 1400 # 10.0.54.52
+bf9f18 reboot 1573532622 # 10.0.54.51
+6cb55b reboot 1573532622 # 10.0.54.58
+6d0544 reboot 1573532622 # 10.0.54.52
+
 2b7bed maxwatts 1400 # 10.0.54.49
 3a0cc0 maxwatts 1400 # 10.0.54.53
 1a1611 maxwatts 1400 # 10.0.54.50
@@ -94,6 +101,7 @@ bf9f18 reboot 1573527484 # 10.0.54.51
 
 ## asic password
 asicpass admin
+
 
 
 

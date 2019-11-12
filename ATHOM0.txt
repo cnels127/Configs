@@ -130,6 +130,17 @@ eedbcd reboot 1573532608 # 10.0.64.85
 fbf1ac reboot 1573532608 # 10.0.65.22
 42f4ea reboot 1573532608 # 10.0.65.97
 
+9be27b maxwatts 1150 # 10.0.63.106
+158ab6 maxwatts 1250 # 10.0.63.141
+eedbcd maxwatts 1050 # 10.0.64.85
+fbf1ac maxwatts 1150 # 10.0.65.22
+42f4ea maxwatts 1350 # 10.0.65.97
+9be27b reboot 1573532608 # 10.0.63.106
+158ab6 reboot 1573532608 # 10.0.63.141
+eedbcd reboot 1573532608 # 10.0.64.85
+fbf1ac reboot 1573532608 # 10.0.65.22
+42f4ea reboot 1573532608 # 10.0.65.97
+
 eedbcd maxwatts 1150 # 10.0.64.85
 9be27b maxwatts 1250 # 10.0.63.106
 f56d20 maxwatts 1250 # 10.0.61.145
@@ -286,6 +297,7 @@ d13d9c reboot 1573484103 # 10.0.67.54 athom00039
 
 ## asic password
 asicpass admin
+
 
 
 

@@ -48,6 +48,9 @@ vlan 10.0.68.109-110
 97f21b maxwatts 1150 # 10.0.57.82
 97f21b reboot 1573532702 # 10.0.57.82
 
+97f21b maxwatts 1150 # 10.0.57.82
+97f21b reboot 1573532702 # 10.0.57.82
+
 97f21b maxwatts 1250 # 10.0.57.82
 97f21b reboot 1573515816 # 10.0.57.82
 
@@ -65,6 +68,7 @@ vlan 10.0.68.109-110
 
 ## asic password
 asicpass admin
+
 
 
 

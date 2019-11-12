@@ -48,6 +48,9 @@ a26081 location ABEAU00002
 a26081 maxwatts 1400 # 10.0.55.137
 a26081 reboot 1573532592 # 10.0.55.137
 
+a26081 maxwatts 1400 # 10.0.55.137
+a26081 reboot 1573532592 # 10.0.55.137
+
 
 ## reboots
 
@@ -58,4 +61,5 @@ a26081 resetasic 1573069560
 
 ## asic password
 asicpass admin
+
 

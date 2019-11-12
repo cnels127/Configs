@@ -50,6 +50,11 @@ be162a maxwatts 1250 # 10.0.57.80
 be162a reboot 1573532805 # 10.0.57.80
 9e6254 reboot 1573532805 # 10.0.57.78
 
+be162a maxwatts 1250 # 10.0.57.80
+9e6254 maxwatts 1150 # 10.0.57.78
+be162a reboot 1573532805 # 10.0.57.80
+9e6254 reboot 1573532805 # 10.0.57.78
+
 8bbd8a maxwatts 1250 # 10.0.57.79
 8bbd8a reboot 1573527703 # 10.0.57.79
 
@@ -99,6 +104,7 @@ be162a reboot 1573499694 # 10.0.57.80 tnola00005
 
 ## asic password
 asicpass admin
+
 
 
 

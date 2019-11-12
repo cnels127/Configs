@@ -59,6 +59,13 @@ f5425c maxwatts 1250 # 10.0.56.152
 23acb0 reboot 1573532714 # 10.0.56.148
 f5425c reboot 1573532714 # 10.0.56.152
 
+5d3f6c maxwatts 1350 # 10.0.56.158
+23acb0 maxwatts 1150 # 10.0.56.148
+f5425c maxwatts 1250 # 10.0.56.152
+5d3f6c reboot 1573532714 # 10.0.56.158
+23acb0 reboot 1573532714 # 10.0.56.148
+f5425c reboot 1573532714 # 10.0.56.152
+
 23acb0 maxwatts 1250 # 10.0.56.148
 f5425c maxwatts 1350 # 10.0.56.152
 23acb0 reboot 1573527590 # 10.0.56.148
@@ -154,6 +161,7 @@ ecd90f reboot 1573484211 # 10.0.56.155 mblak00009
 
 ## asic password
 asicpass admin
+
 
 
 

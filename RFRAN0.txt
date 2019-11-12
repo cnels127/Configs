@@ -48,6 +48,9 @@ d54f75 location RFRAN00004
 af34c7 maxwatts 1300 # 10.0.62.36
 af34c7 reboot 1573532746 # 10.0.62.36
 
+af34c7 maxwatts 1300 # 10.0.62.36
+af34c7 reboot 1573532746 # 10.0.62.36
+
 d54f75 reboot 1573524767 # 10.0.62.40 rfran00004
  
 
@@ -87,6 +90,7 @@ d54f75 reset 1573502295
 
 ## asic password
 asicpass admin
+
 
 
 

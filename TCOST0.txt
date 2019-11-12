@@ -44,6 +44,9 @@ faba2f location TCOST00001
 faba2f maxwatts 1400 # 10.0.65.147
 faba2f reboot 1573532790 # 10.0.65.147
 
+faba2f maxwatts 1400 # 10.0.65.147
+faba2f reboot 1573532790 # 10.0.65.147
+
 
 ## reboots
 
@@ -51,4 +54,5 @@ faba2f reboot 1573532790 # 10.0.65.147
 
 ## asic password
 asicpass admin
+
 

@@ -47,6 +47,9 @@ vlan 10.0.60.58-58
 1c0d86 maxwatts 1250 # 10.0.60.58
 1c0d86 reboot 1573532639 # 10.0.60.58
 
+1c0d86 maxwatts 1250 # 10.0.60.58
+1c0d86 reboot 1573532639 # 10.0.60.58
+
 
 ## reboots
 
@@ -54,4 +57,5 @@ vlan 10.0.60.58-58
 
 ## asic password
 asicpass admin
+
 

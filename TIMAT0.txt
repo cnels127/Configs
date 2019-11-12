@@ -76,6 +76,19 @@ bc8e6c reboot 1573532802 # 10.0.68.80
 f74d6d reboot 1573532802 # 10.0.68.88
 8f0d5d reboot 1573532802 # 10.0.68.77
 
+ec43b1 maxwatts 1150 # 10.0.68.87
+bc8e6c maxwatts 1350 # 10.0.68.80
+308db8 maxwatts 1350 # 10.0.68.85
+151ac6 maxwatts 1350 # 10.0.68.69
+f74d6d maxwatts 1250 # 10.0.68.88
+8f0d5d maxwatts 1350 # 10.0.68.77
+ec43b1 reboot 1573532802 # 10.0.68.87
+bc8e6c reboot 1573532802 # 10.0.68.80
+308db8 reboot 1573532802 # 10.0.68.85
+151ac6 reboot 1573532802 # 10.0.68.69
+f74d6d reboot 1573532802 # 10.0.68.88
+8f0d5d reboot 1573532802 # 10.0.68.77
+
 7fc10f maxwatts 1150 # 10.0.68.72
 41445f maxwatts 1350 # 10.0.68.78
 ec43b1 maxwatts 1250 # 10.0.68.87
@@ -187,6 +200,7 @@ c1769c reboot 1573484302 # 10.0.68.86 timat00018
 
 ## asic password
 asicpass admin
+
 
 
 
