@@ -53,6 +53,9 @@ f6388e location MSETI00005
 35e5b2 location MSETI00006
 
 ## tuning
+a22315 maxwatts 1350 # 10.0.63.140
+a22315 reboot 1573587388 # 10.0.63.140
+
 
 ## reboots
 # s_reboot generated on Nov 11 2019 19:00:23 utc: 1573498823
@@ -66,3 +69,4 @@ f6388e reset 1573172973
 
 ## asic password
 asicpass admin
+
