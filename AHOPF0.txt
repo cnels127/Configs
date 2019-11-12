@@ -35,6 +35,9 @@ global blinkgreen rapid
 # global panelpass gj83Nkgikg
 
 ## tuning
+2a0ab5 maxwatts 1400 # 10.0.57.24
+2a0ab5 reboot 1573544889 # 10.0.57.24
+
 75e651 maxwatts 1200 # 10.0.57.39
 d56eaf maxwatts 1100 # 10.0.57.35
 a66966 maxwatts 1200 # 10.0.57.38
@@ -1878,6 +1881,7 @@ c6cbe1 username3 GMTVILLA01
 
 ## asic password
 asicpass admin
+
 
 
 

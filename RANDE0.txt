@@ -60,6 +60,9 @@ a016c1 location RANDE00008
 636f5f location RANDE00010
 
 ## tuning
+a016c1 maxwatts 1400 # 10.0.58.23
+a016c1 reboot 1573544968 # 10.0.58.23
+
 679e5d maxwatts 1200 # 10.0.57.142
 679e5d reboot 1573536363 # 10.0.57.142
 
@@ -115,6 +118,7 @@ a016c1 reset 1573072500
 
 ## asic password
 asicpass admin
+
 
 
 

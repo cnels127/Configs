@@ -100,6 +100,19 @@ f24571 location GSAMP00026
 d223ec location GSAMP00030
 
 ## tuning
+0101ec maxwatts 1200 # 10.0.56.78
+62bdc8 maxwatts 1100 # 10.0.58.70
+3cd7e0 maxwatts 1100 # 10.0.59.66
+271937 maxwatts 1100 # 10.0.56.41
+f24571 maxwatts 1200 # 10.0.59.73
+4fb133 maxwatts 1300 # 10.0.59.44
+0101ec reboot 1573544916 # 10.0.56.78
+62bdc8 reboot 1573544916 # 10.0.58.70
+3cd7e0 reboot 1573544916 # 10.0.59.66
+271937 reboot 1573544916 # 10.0.56.41
+f24571 reboot 1573544916 # 10.0.59.73
+4fb133 reboot 1573544916 # 10.0.59.44
+
 3900a7 maxwatts 1000 # 10.0.59.36
 86c9c7 maxwatts 1200 # 10.0.59.45
 0101ec maxwatts 1300 # 10.0.56.78
@@ -365,6 +378,7 @@ d223ec reset 1570472391
 
 ## asic password
 asicpass admin
+
 
 
 
