@@ -19,12 +19,12 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1350
+global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
 # global throttle 100
-global fanspeed 100
+global fanspeed 80
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
@@ -45,25 +45,6 @@ vlan 10.0.68.109-110
 2a7ac0 location KWRIG00004
 
 ## tuning
-97f21b maxwatts 1050 # 10.0.57.82
-97f21b reboot 1573565399 # 10.0.57.82
-
-97f21b maxwatts 1150 # 10.0.57.82
-97f21b reboot 1573532702 # 10.0.57.82
-
-97f21b maxwatts 1150 # 10.0.57.82
-97f21b reboot 1573532702 # 10.0.57.82
-
-97f21b maxwatts 1250 # 10.0.57.82
-97f21b reboot 1573515816 # 10.0.57.82
-
-97f21b maxwatts 1250 # 10.0.57.82
-97f21b reboot 1573515816 # 10.0.57.82
-
-97f21b reboot 1573502862 # 10.0.57.82 kwrig00002
- 
-
-97f21b reboot 1573487545 # 10.0.57.82 kwrig00002
 
 ## reboots
 
@@ -71,9 +52,3 @@ vlan 10.0.68.109-110
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
