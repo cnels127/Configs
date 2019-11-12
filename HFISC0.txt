@@ -155,6 +155,11 @@ f2b75b location HFISC00056
 424037 reboot 1573585568 # 10.0.59.151
 2020a9 reboot 1573585568 # 10.0.56.142
 
+424037 maxwatts 1350 # 10.0.59.151
+2020a9 maxwatts 1350 # 10.0.56.142
+424037 reboot 1573585568 # 10.0.59.151
+2020a9 reboot 1573585568 # 10.0.56.142
+
 
 ## reboots
 
@@ -162,6 +167,7 @@ f2b75b location HFISC00056
 
 ## asic password
 asicpass admin
+
 
 
 

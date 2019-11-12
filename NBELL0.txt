@@ -470,6 +470,13 @@ a0cac7 location NBELL00204
 503b9a reboot 1573585619 # 10.0.65.96
 219af2 reboot 1573585619 # 10.0.51.104
 
+620f30 maxwatts 1350 # 10.0.65.92
+503b9a maxwatts 1350 # 10.0.65.96
+219af2 maxwatts 1350 # 10.0.51.104
+620f30 reboot 1573585619 # 10.0.65.92
+503b9a reboot 1573585619 # 10.0.65.96
+219af2 reboot 1573585619 # 10.0.51.104
+
 
 
 ## fans
@@ -490,4 +497,5 @@ f0f240 reset 1573070538
 
 ## asic password
 asicpass admin
+
 
