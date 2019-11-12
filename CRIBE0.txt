@@ -461,6 +461,13 @@ eb763f reboot 1573577519 # 10.0.59.93
 48af58 reboot 1573577519 # 10.0.61.86
 03791c reboot 1573577519 # 10.0.62.26
 
+eb763f maxwatts 1200 # 10.0.59.93
+48af58 maxwatts 1400 # 10.0.61.86
+03791c maxwatts 1400 # 10.0.62.26
+eb763f reboot 1573577519 # 10.0.59.93
+48af58 reboot 1573577519 # 10.0.61.86
+03791c reboot 1573577519 # 10.0.62.26
+
 eb763f maxwatts 1300 # 10.0.59.93
 d201ca maxwatts 1200 # 10.0.116.13
 4a89fe maxwatts 1300 # 10.0.59.100
@@ -564,6 +571,7 @@ b88126 reset 1572446837
 
 ## asic password
 asicpass admin
+
 
 
 
