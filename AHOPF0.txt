@@ -30,38 +30,11 @@ global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
-# global reboot 4
+global reboot 1573583438 # 4
 # global reset 1571113675 
 # global panelpass gj83Nkgikg
 
 ## tuning
-aa49d8 maxwatts 1350 # 10.0.57.37
-4121df maxwatts 1350 # 10.0.120.14
-80b6cc maxwatts 1350 # 10.0.57.12
-8c0b48 maxwatts 1350 # 10.0.115.3
-79c07f maxwatts 1350 # 10.0.116.138
-aa49d8 reboot 1573577501 # 10.0.57.37
-4121df reboot 1573577501 # 10.0.120.14
-80b6cc reboot 1573577501 # 10.0.57.12
-8c0b48 reboot 1573577501 # 10.0.115.3
-79c07f reboot 1573577501 # 10.0.116.138
-
-aa49d8 maxwatts 1350 # 10.0.57.37
-4121df maxwatts 1350 # 10.0.120.14
-80b6cc maxwatts 1350 # 10.0.57.12
-8c0b48 maxwatts 1350 # 10.0.115.3
-79c07f maxwatts 1350 # 10.0.116.138
-aa49d8 reboot 1573577501 # 10.0.57.37
-4121df reboot 1573577501 # 10.0.120.14
-80b6cc reboot 1573577501 # 10.0.57.12
-8c0b48 reboot 1573577501 # 10.0.115.3
-79c07f reboot 1573577501 # 10.0.116.138
-
-a61391 maxwatts 1200 # 10.0.119.46
-c606e7 maxwatts 1400 # 10.0.56.161
-a61391 reboot 1573575741 # 10.0.119.46
-c606e7 reboot 1573575741 # 10.0.56.161
-
 
 ## reboots (chain ailment)
 
