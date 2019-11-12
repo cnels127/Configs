@@ -103,6 +103,9 @@ d223ec location GSAMP00030
 a36e04 maxwatts 1200 # 10.0.59.37
 a36e04 reboot 1573560240 # 10.0.59.37
 
+a36e04 maxwatts 1200 # 10.0.59.37
+a36e04 reboot 1573560240 # 10.0.59.37
+
 5aa9d6 maxwatts 1300 # 10.0.59.48
 5aa9d6 reboot 1573556834 # 10.0.59.48
 
@@ -440,6 +443,7 @@ d223ec reset 1570472391
 
 ## asic password
 asicpass admin
+
 
 
 
