@@ -107,6 +107,13 @@ a36e04 maxwatts 1350 # 10.0.59.37
 f71e65 reboot 1573599517 # 10.0.59.43
 a36e04 reboot 1573599517 # 10.0.59.37
 
+0c9f37 maxwatts 1150 # 10.0.59.90
+f71e65 maxwatts 1250 # 10.0.59.43
+a36e04 maxwatts 1350 # 10.0.59.37
+0c9f37 reboot 1573599517 # 10.0.59.90
+f71e65 reboot 1573599517 # 10.0.59.43
+a36e04 reboot 1573599517 # 10.0.59.37
+
 62bdc8 maxwatts 1350 # 10.0.58.70
 62bdc8 reboot 1573597804 # 10.0.58.70
 
@@ -174,6 +181,7 @@ ff488e reboot 1573589106 # 10.0.59.52
 
 ## asic password
 asicpass admin
+
 
 
 
