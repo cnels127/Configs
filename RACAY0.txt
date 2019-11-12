@@ -86,6 +86,9 @@ f729dc location RACAY00022
 70247c location RACAY00024
 
 ## tuning
+65bbdb maxwatts 1100 # 10.0.60.127
+65bbdb reboot 1573567128 # 10.0.60.127
+
 9f942d maxwatts 1400 # 10.0.56.100
 9f942d reboot 1573565421 # 10.0.56.100
 
@@ -411,6 +414,7 @@ c55a62 reboot 1573484238 # 10.0.54.151 racay00001
 
 ## asic password
 asicpass admin
+
 
 
 
