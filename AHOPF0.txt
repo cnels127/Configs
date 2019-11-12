@@ -40,6 +40,11 @@ d56eaf maxwatts 1350 # 10.0.57.35
 aa49d8 reboot 1573589059 # 10.0.57.37
 d56eaf reboot 1573589059 # 10.0.57.35
 
+aa49d8 maxwatts 1150 # 10.0.57.37
+d56eaf maxwatts 1350 # 10.0.57.35
+aa49d8 reboot 1573589059 # 10.0.57.37
+d56eaf reboot 1573589059 # 10.0.57.35
+
 a61391 maxwatts 1250 # 10.0.119.46
 aa49d8 maxwatts 1250 # 10.0.57.37
 02e7da maxwatts 1350 # 10.0.121.126
@@ -1470,6 +1475,7 @@ c6cbe1 username3 GMTVILLA01
 
 ## asic password
 asicpass admin
+
 
 
 
