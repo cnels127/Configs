@@ -45,6 +45,9 @@ vlan 10.0.66.116-116
 551f73 location CCADR00003
 
 ## tuning
+1c6e2b maxwatts 1250 # 10.0.64.153
+1c6e2b reboot 1573517478 # 10.0.64.153
+
 1c6e2b maxwatts 1350 # 10.0.64.153
 1c6e2b reboot 1573514064 # 10.0.64.153
 
@@ -66,6 +69,7 @@ vlan 10.0.66.116-116
 
 ## asic password
 asicpass admin
+
 
 
 
