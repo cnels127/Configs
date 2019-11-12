@@ -24,7 +24,7 @@ global autoupdate yes
 global allowed yes
 global maxtemp 90 1
 # global throttle 100
-global fanspeed 100
+global fanspeed 80
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
@@ -197,114 +197,6 @@ b35ae4 location JVAND00078
 ## fans
 
 ## tuning
-8dd5c8 maxwatts 1250 # 10.0.59.78
-8dd5c8 reboot 1573572301 # 10.0.59.78
-
-8dd5c8 maxwatts 1250 # 10.0.59.78
-8dd5c8 reboot 1573572301 # 10.0.59.78
-
-d22225 maxwatts 1350 # 10.0.116.101
-d22225 reboot 1573563672 # 10.0.116.101
-
-d22225 maxwatts 1350 # 10.0.116.101
-d22225 reboot 1573563672 # 10.0.116.101
-
-af0fab reboot 1573561310 # 10.0.116.54 jvand00023
-189393 reboot 1573561310 # 10.0.120.108 jvand00069
-bfb2ab reboot 1573561310 # 10.0.121.45 jvand00072
- 
-
-994f74 maxwatts 1150 # 10.0.66.155
-8dd5c8 maxwatts 1350 # 10.0.59.78
-994f74 reboot 1573544937 # 10.0.66.155
-8dd5c8 reboot 1573544937 # 10.0.59.78
-
-994f74 maxwatts 1150 # 10.0.66.155
-8dd5c8 maxwatts 1350 # 10.0.59.78
-994f74 reboot 1573544937 # 10.0.66.155
-8dd5c8 reboot 1573544937 # 10.0.59.78
-
-994f74 maxwatts 1250 # 10.0.66.155
-994f74 reboot 1573536305 # 10.0.66.155
-
-994f74 maxwatts 1250 # 10.0.66.155
-994f74 reboot 1573536305 # 10.0.66.155
-
-a93cc1 maxwatts 1350 # 10.0.67.100
-994f74 maxwatts 1350 # 10.0.66.155
-3d85a8 maxwatts 1250 # 10.0.116.20
-a93cc1 reboot 1573534493 # 10.0.67.100
-994f74 reboot 1573534493 # 10.0.66.155
-3d85a8 reboot 1573534493 # 10.0.116.20
-
-a93cc1 maxwatts 1350 # 10.0.67.100
-994f74 maxwatts 1350 # 10.0.66.155
-3d85a8 maxwatts 1250 # 10.0.116.20
-a93cc1 reboot 1573534493 # 10.0.67.100
-994f74 reboot 1573534493 # 10.0.66.155
-3d85a8 reboot 1573534493 # 10.0.116.20
-
-54bcb8 maxwatts 1350 # 10.0.66.36
-54bcb8 reboot 1573532688 # 10.0.66.36
-
-54bcb8 maxwatts 1350 # 10.0.66.36
-54bcb8 reboot 1573532688 # 10.0.66.36
-
-3d85a8 maxwatts 1350 # 10.0.116.20
-3d85a8 reboot 1573527563 # 10.0.116.20
-
-3d85a8 maxwatts 1350 # 10.0.116.20
-3d85a8 reboot 1573527563 # 10.0.116.20
-
-af0fab reboot 1573526450 # 10.0.116.54 jvand00023
-189393 reboot 1573526450 # 10.0.120.108 jvand00069
-bfb2ab reboot 1573526450 # 10.0.121.45 jvand00072
- 
-
-af0fab reboot 1573524732 # 10.0.116.54 jvand00023
-189393 reboot 1573524732 # 10.0.120.108 jvand00069
-bfb2ab reboot 1573524732 # 10.0.121.45 jvand00072
- 
-
-189393 reboot 1573523065 # 10.0.120.108 jvand00069
-bfb2ab reboot 1573523065 # 10.0.121.45 jvand00072
-af0fab reboot 1573523065 # 10.0.116.54 jvand00023
- 
-
-189393 reboot 1573521422 # 10.0.120.108 jvand00069
-bfb2ab reboot 1573521422 # 10.0.121.45 jvand00072
-af0fab reboot 1573521422 # 10.0.116.54 jvand00023
- 
-
-af0fab reboot 1573519782 # 10.0.116.54 jvand00023
-189393 reboot 1573519782 # 10.0.120.108 jvand00069
-bfb2ab reboot 1573519782 # 10.0.121.45 jvand00072
- 
-
-af0fab reboot 1573518141 # 10.0.116.54 jvand00023
-189393 reboot 1573518141 # 10.0.120.108 jvand00069
-bfb2ab reboot 1573518141 # 10.0.121.45 jvand00072
- 
-
-a93cc1 reboot 1573504608 # 10.0.67.100 jvand00009
- 
-
-994f74 reboot 1573502846 # 10.0.66.155 jvand00008
-a93cc1 reboot 1573502846 # 10.0.67.100 jvand00009
- 
-
-af0fab reboot 1573502039 # 10.0.116.54 jvand00023
- 
-
-af0fab reboot 1573498684 # 10.0.116.54 jvand00023
-68a150 reboot 1573498684 # 10.0.54.60 jvand00002
- 
-
-af0fab reboot 1573493855 # 10.0.116.54 jvand00023
-6cec70 reboot 1573493855 # 10.0.120.44 jvand00061
-dfd1e4 reboot 1573493855 # 10.0.120.98 jvand00066
- 
-
 
 ## reboots
 
@@ -323,29 +215,3 @@ d22225 reset 1572964672
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
