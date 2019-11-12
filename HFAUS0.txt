@@ -72,6 +72,11 @@ f3c9af location HFAUS00012
 11d430 location HFAUS00013
 
 ## tuning
+11d430 maxwatts 1350 # 10.0.64.70
+a7fca0 maxwatts 1350 # 10.0.62.37
+11d430 reboot 1573527526 # 10.0.64.70
+a7fca0 reboot 1573527526 # 10.0.62.37
+
 a072b9 maxwatts 1250 # 10.0.67.95
 335e38 maxwatts 1250 # 10.0.62.81
 50ff88 maxwatts 1350 # 10.0.61.105
@@ -125,6 +130,7 @@ d51a5c reboot 1573493742 # 10.0.59.161 hfaus00011
 
 ## asic password
 asicpass admin
+
 
 
 

@@ -39,6 +39,43 @@ global blinkgreen rapid
 ## fans
 
 ## tuning
+fbddb7 maxwatts 1250 # 10.0.50.89
+053bf9 maxwatts 1250 # 10.0.62.95
+8f3359 maxwatts 1250 # 10.0.55.83
+a6ea5c maxwatts 1250 # 10.0.50.87
+8e9351 maxwatts 1250 # 10.0.55.82
+b72b2e maxwatts 1250 # 10.0.31.92
+92d4a2 maxwatts 1350 # 10.0.50.49
+deee7c maxwatts 1350 # 10.0.50.158
+3c9a6e maxwatts 1350 # 10.0.50.50
+ef88d6 maxwatts 1350 # 10.0.55.61
+a88603 maxwatts 1350 # 10.0.50.16
+71e6fe maxwatts 1350 # 10.0.50.29
+efdabe maxwatts 1350 # 10.0.50.40
+086857 maxwatts 1350 # 10.0.50.43
+305120 maxwatts 1350 # 10.0.55.39
+f22ee0 maxwatts 1350 # 10.0.55.40
+a1179d maxwatts 1350 # 10.0.55.52
+1aeaf3 maxwatts 1350 # 10.0.55.53
+fbddb7 reboot 1573527504 # 10.0.50.89
+053bf9 reboot 1573527504 # 10.0.62.95
+8f3359 reboot 1573527504 # 10.0.55.83
+a6ea5c reboot 1573527504 # 10.0.50.87
+8e9351 reboot 1573527504 # 10.0.55.82
+b72b2e reboot 1573527504 # 10.0.31.92
+92d4a2 reboot 1573527504 # 10.0.50.49
+deee7c reboot 1573527504 # 10.0.50.158
+3c9a6e reboot 1573527504 # 10.0.50.50
+ef88d6 reboot 1573527504 # 10.0.55.61
+a88603 reboot 1573527504 # 10.0.50.16
+71e6fe reboot 1573527504 # 10.0.50.29
+efdabe reboot 1573527504 # 10.0.50.40
+086857 reboot 1573527504 # 10.0.50.43
+305120 reboot 1573527504 # 10.0.55.39
+f22ee0 reboot 1573527504 # 10.0.55.40
+a1179d reboot 1573527504 # 10.0.55.52
+1aeaf3 reboot 1573527504 # 10.0.55.53
+
 5d2e09 reboot 1573526394 # 10.0.120.39 esolg000397
 447c81 reboot 1573526394 # 10.0.55.62 esolg000352
 55fe55 reboot 1573526394 # 10.0.55.44 esolg000337
@@ -1654,6 +1691,7 @@ f6e3e0 location ESOLG000396
 
 ## asic password
 asicpass admin
+
 
 
 

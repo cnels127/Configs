@@ -45,6 +45,9 @@ vlan 10.0.60.161-161
 6364b7 location MWAGE00003
 
 ## tuning
+9b0fa1 maxwatts 1350 # 10.0.60.68
+9b0fa1 reboot 1573527607 # 10.0.60.68
+
 9b0fa1 reboot 1573506371 # 10.0.60.68 mwage00001
  
 
@@ -58,5 +61,6 @@ vlan 10.0.60.161-161
 
 ## asic password
 asicpass admin
+
 
 
