@@ -465,6 +465,17 @@ e46a8f maxwatts 1400 # 10.0.59.108
 ff69f4 reboot 1573553416 # 10.0.63.45
 e46a8f reboot 1573553416 # 10.0.59.108
 
+830d52 maxwatts 800 # 10.0.63.48
+86677b maxwatts 1200 # 10.0.63.52
+536fa0 maxwatts 1100 # 10.0.59.58
+ff69f4 maxwatts 1400 # 10.0.63.45
+e46a8f maxwatts 1400 # 10.0.59.108
+830d52 reboot 1573553416 # 10.0.63.48
+86677b reboot 1573553416 # 10.0.63.52
+536fa0 reboot 1573553416 # 10.0.59.58
+ff69f4 reboot 1573553416 # 10.0.63.45
+e46a8f reboot 1573553416 # 10.0.59.108
+
 cc994a maxwatts 800 # 10.0.63.47
 830d52 maxwatts 900 # 10.0.63.48
 48af58 maxwatts 1000 # 10.0.61.86
@@ -1438,6 +1449,7 @@ b88126 reset 1572446837
 
 ## asic password
 asicpass admin
+
 
 
 

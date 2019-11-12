@@ -149,6 +149,11 @@ f4ba29 maxwatts 1300 # 10.0.51.54
 6878ae reboot 1573553522 # 10.0.51.33
 f4ba29 reboot 1573553522 # 10.0.51.54
 
+6878ae maxwatts 1000 # 10.0.51.33
+f4ba29 maxwatts 1300 # 10.0.51.54
+6878ae reboot 1573553522 # 10.0.51.33
+f4ba29 reboot 1573553522 # 10.0.51.54
+
 8e1779 maxwatts 900 # 10.0.57.99
 eabd2c maxwatts 1400 # 10.0.51.28
 8e1779 reboot 1573551820 # 10.0.57.99
@@ -804,6 +809,7 @@ fde057 reboot 1573484307 # 10.0.57.95 vligu00067
 
 ## asic password
 asicpass admin
+
 
 
 
