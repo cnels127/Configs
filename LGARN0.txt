@@ -45,6 +45,11 @@ vlan 10.0.67.85-85
 1d58bd location LGARN00003
 
 ## tuning
+0fdb4f reboot 1573523075 # 10.0.65.102 lgarn00002
+1d58bd reboot 1573523075 # 10.0.67.85 lgarn00003
+0aaeb9 reboot 1573523075 # 10.0.65.60 lgarn00001
+ 
+
 0fdb4f reboot 1573521431 # 10.0.65.102 lgarn00002
 1d58bd reboot 1573521431 # 10.0.67.85 lgarn00003
 0aaeb9 reboot 1573521431 # 10.0.65.60 lgarn00001
@@ -79,6 +84,7 @@ vlan 10.0.67.85-85
 
 ## asic password
 asicpass admin
+
 
 
 
