@@ -65,6 +65,13 @@ a9f19e location THALL00024
 255a6b location THALL00025
 
 ## tuning
+a966ea maxwatts 1350 # 10.0.32.41
+845f77 maxwatts 1350 # 10.0.32.42
+a9f19e maxwatts 1350 # 10.0.32.44
+a966ea reboot 1573532799 # 10.0.32.41
+845f77 reboot 1573532799 # 10.0.32.42
+a9f19e reboot 1573532799 # 10.0.32.44
+
 1d29a7 maxwatts 1350 # 10.0.32.40
 1d29a7 reboot 1573527698 # 10.0.32.40
 
@@ -87,6 +94,7 @@ f76afb reset 1573173881
 
 ## asic password
 asicpass admin
+
 
 
 
