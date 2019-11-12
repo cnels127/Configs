@@ -74,6 +74,9 @@ f0ed76 location JBETH00019
 8f1d39 maxwatts 1000 # 10.0.60.143
 8f1d39 reboot 1573544926 # 10.0.60.143
 
+8f1d39 maxwatts 1000 # 10.0.60.143
+8f1d39 reboot 1573544926 # 10.0.60.143
+
 8f1d39 maxwatts 1100 # 10.0.60.143
 e67e88 maxwatts 1400 # 10.0.68.107
 8f1d39 reboot 1573539811 # 10.0.60.143
@@ -289,6 +292,7 @@ f0ed76 reset 1573492171
 
 ## asic password
 asicpass admin
+
 
 
 
