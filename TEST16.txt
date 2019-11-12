@@ -38,6 +38,9 @@ global blinkgreen rapid
 ## locations
 
 ## tuning
+364899 maxwatts 950 # 10.0.59.79
+364899 reboot 1573551813 # 10.0.59.79
+
 364899 maxwatts 1050 # 10.0.59.79
 364899 reboot 1573546712 # 10.0.59.79
 
@@ -225,6 +228,7 @@ e9aa45 reset 1573274335
 
 ## asic password
 asicpass admin
+
 
 
 
