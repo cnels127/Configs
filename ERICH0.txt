@@ -30,7 +30,7 @@ global blinkred idle
 global blinkgreen rapid
 
 # global retune 2
-# global reboot 1
+global reboot 1573583908 # 1
 # global reset 1
 # global panelpass gj83Nkgikg
 
@@ -49,110 +49,6 @@ ea2b68 location ERICH00002
 5f07ce location ERICH00005
 
 ## tuning
-81b66e maxwatts 950 # 10.0.60.16
-81b66e reboot 1573574017 # 10.0.60.16
-
-81b66e maxwatts 950 # 10.0.60.16
-81b66e reboot 1573574017 # 10.0.60.16
-
-81b66e maxwatts 1050 # 10.0.60.16
-81b66e reboot 1573568782 # 10.0.60.16
-
-81b66e maxwatts 1050 # 10.0.60.16
-81b66e reboot 1573568782 # 10.0.60.16
-
-81b66e maxwatts 1150 # 10.0.60.16
-81b66e reboot 1573565367 # 10.0.60.16
-
-81b66e reboot 1573561271 # 10.0.60.16 erich00003
- 
-
-5f07ce maxwatts 850 # 10.0.60.80
-5f07ce reboot 1573556829 # 10.0.60.80
-
-5f07ce maxwatts 850 # 10.0.60.80
-5f07ce reboot 1573556829 # 10.0.60.80
-
-5f07ce maxwatts 950 # 10.0.60.80
-5f07ce reboot 1573555126 # 10.0.60.80
-
-5f07ce maxwatts 950 # 10.0.60.80
-5f07ce reboot 1573555126 # 10.0.60.80
-
-84441a maxwatts 1350 # 10.0.60.78
-84441a reboot 1573544911 # 10.0.60.78
-
-84441a maxwatts 1350 # 10.0.60.78
-84441a reboot 1573544911 # 10.0.60.78
-
-cc79f4 maxwatts 1050 # 10.0.58.33
-cc79f4 reboot 1573543212 # 10.0.58.33
-
-cc79f4 maxwatts 1050 # 10.0.58.33
-cc79f4 reboot 1573543212 # 10.0.58.33
-
-5f07ce maxwatts 1050 # 10.0.60.80
-5f07ce reboot 1573538070 # 10.0.60.80
-
-5f07ce maxwatts 1050 # 10.0.60.80
-5f07ce reboot 1573538070 # 10.0.60.80
-
-5f07ce maxwatts 1150 # 10.0.60.80
-5f07ce reboot 1573534444 # 10.0.60.80
-
-5f07ce maxwatts 1150 # 10.0.60.80
-5f07ce reboot 1573534444 # 10.0.60.80
-
-81b66e maxwatts 1250 # 10.0.60.16
-81b66e reboot 1573532642 # 10.0.60.16
-
-81b66e maxwatts 1250 # 10.0.60.16
-81b66e reboot 1573532642 # 10.0.60.16
-
-5f07ce maxwatts 1250 # 10.0.60.80
-cc79f4 maxwatts 1150 # 10.0.58.33
-5f07ce reboot 1573527503 # 10.0.60.80
-cc79f4 reboot 1573527503 # 10.0.58.33
-
-5f07ce maxwatts 1250 # 10.0.60.80
-cc79f4 maxwatts 1150 # 10.0.58.33
-5f07ce reboot 1573527503 # 10.0.60.80
-cc79f4 reboot 1573527503 # 10.0.58.33
-
-81b66e reboot 1573524705 # 10.0.60.16 erich00003
- 
-
-5f07ce reboot 1573521397 # 10.0.60.80 erich00005
- 
-
-cc79f4 maxwatts 1250 # 10.0.58.33
-5f07ce maxwatts 1350 # 10.0.60.80
-cc79f4 reboot 1573515783 # 10.0.58.33
-5f07ce reboot 1573515783 # 10.0.60.80
-
-cc79f4 maxwatts 1250 # 10.0.58.33
-5f07ce maxwatts 1350 # 10.0.60.80
-cc79f4 reboot 1573515783 # 10.0.58.33
-5f07ce reboot 1573515783 # 10.0.60.80
-
-cc79f4 maxwatts 1350 # 10.0.58.33
-81b66e maxwatts 1350 # 10.0.60.16
-cc79f4 reboot 1573514075 # 10.0.58.33
-81b66e reboot 1573514075 # 10.0.60.16
-
-cc79f4 maxwatts 1350 # 10.0.58.33
-81b66e maxwatts 1350 # 10.0.60.16
-cc79f4 reboot 1573514075 # 10.0.58.33
-81b66e reboot 1573514075 # 10.0.60.16
-
-5f07ce reboot 1573506283 # 10.0.60.80 erich00005
- 
-
-84441a reboot 1573489149 # 10.0.60.78 erich00004
-cc79f4 reboot 1573487513 # 10.0.58.33 erich00001
-84441a reboot 1573487513 # 10.0.60.78 erich00004
-cc79f4 reboot 1573485864 # 10.0.58.33 erich00001
-cc79f4 reboot 1573484136 # 10.0.58.33 erich00001
 
 ## reboots
 # s_reboot generated on Nov 11 2019 18:47:38 utc: 1573498058
