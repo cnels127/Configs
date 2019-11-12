@@ -12,9 +12,9 @@ global poolname2 us-east.stratum.slushpool.com:3333
 global username2 grmining
 global poolpass2 123
 global sendworker2 yes
-global poolname3 
-global username3 
-global poolpass3 
+global poolname3 profit.pool.bitcoin.com:3333
+global username3 bit49
+global poolpass3 123
 global sendworker3 yes
 
 global asicboost yes
@@ -30,8 +30,8 @@ global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
-# global rebootasic 8
-# global resetasic 1
+# global reboot 8
+# global reset 1
 # global panelpass gj83Nkgikg
 
 ## vlans
