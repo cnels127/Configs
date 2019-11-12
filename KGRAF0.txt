@@ -136,6 +136,11 @@ a62f6a maxwatts 1100 # 10.0.68.45
 a62f6a reboot 1573536313 # 10.0.68.45
 7adae2 reboot 1573536313 # 10.0.61.106
 
+a62f6a maxwatts 1100 # 10.0.68.45
+7adae2 maxwatts 1200 # 10.0.61.106
+a62f6a reboot 1573536313 # 10.0.68.45
+7adae2 reboot 1573536313 # 10.0.61.106
+
 a62f6a maxwatts 1200 # 10.0.68.45
 1d3229 maxwatts 1300 # 10.0.64.61
 701564 maxwatts 1400 # 10.0.65.127
@@ -244,6 +249,7 @@ a62f6a reboot 1573502856 # 10.0.68.45 kgraf00045
 
 ## asic password
 asicpass admin
+
 
 
 

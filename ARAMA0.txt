@@ -52,6 +52,9 @@ df6f8a location ARAMA00004
 df6f8a maxwatts 1250 # 10.0.56.106
 df6f8a reboot 1573536212 # 10.0.56.106
 
+df6f8a maxwatts 1250 # 10.0.56.106
+df6f8a reboot 1573536212 # 10.0.56.106
+
 dc1171 maxwatts 1150 # 10.0.54.142
 dc1171 reboot 1573534415 # 10.0.54.142
 
@@ -118,6 +121,7 @@ c5f2b7 reboot 1573485844 # 10.0.54.143 arama00002
 
 ## asic password
 asicpass admin
+
 
 
 

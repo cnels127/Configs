@@ -97,6 +97,17 @@ d6136a maxwatts 1400 # 10.0.56.42
 65bbdb reboot 1573536360 # 10.0.60.127
 d6136a reboot 1573536360 # 10.0.56.42
 
+497b40 maxwatts 1300 # 10.0.60.86
+095c6d maxwatts 1200 # 10.0.56.36
+57c2bb maxwatts 1300 # 10.0.55.94
+65bbdb maxwatts 1200 # 10.0.60.127
+d6136a maxwatts 1400 # 10.0.56.42
+497b40 reboot 1573536360 # 10.0.60.86
+095c6d reboot 1573536360 # 10.0.56.36
+57c2bb reboot 1573536360 # 10.0.55.94
+65bbdb reboot 1573536360 # 10.0.60.127
+d6136a reboot 1573536360 # 10.0.56.42
+
 ac1696 maxwatts 1200 # 10.0.56.34
 e98a1b maxwatts 1200 # 10.0.55.106
 62dffd maxwatts 1400 # 10.0.55.105
@@ -241,6 +252,7 @@ c55a62 reboot 1573484238 # 10.0.54.151 racay00001
 
 ## asic password
 asicpass admin
+
 
 
 

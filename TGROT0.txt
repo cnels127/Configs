@@ -70,6 +70,9 @@ a83fdc location TGROT00012
 0040fc maxwatts 1350 # 10.0.65.68
 0040fc reboot 1573536413 # 10.0.65.68
 
+0040fc maxwatts 1350 # 10.0.65.68
+0040fc reboot 1573536413 # 10.0.65.68
+
 052e16 maxwatts 1250 # 10.0.116.37
 f2dc4d maxwatts 1350 # 10.0.63.84
 052e16 reboot 1573532796 # 10.0.116.37
@@ -99,6 +102,7 @@ f2dc4d reset 1573151731
 
 ## asic password
 asicpass admin
+
 
 
 
