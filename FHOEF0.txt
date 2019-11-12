@@ -86,6 +86,9 @@ d560da location FHOEF00039
 7fdd93 location FHOEF00037
 
 ## tuning
+8342ab maxwatts 950 # 10.0.65.148
+8342ab reboot 1573560237 # 10.0.65.148
+
 9c860e maxwatts 1350 # 10.0.120.128
 9c860e reboot 1573558534 # 10.0.120.128
 
@@ -448,6 +451,7 @@ d3176c reset 1573254670
 
 ## asic password
 asicpass admin
+
 
 
 
