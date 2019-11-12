@@ -106,6 +106,11 @@ b65a11 maxwatts 900 # 10.0.53.155
 6c3de0 reboot 1573556892 # 10.0.54.25
 b65a11 reboot 1573556892 # 10.0.53.155
 
+6c3de0 maxwatts 1300 # 10.0.54.25
+b65a11 maxwatts 900 # 10.0.53.155
+6c3de0 reboot 1573556892 # 10.0.54.25
+b65a11 reboot 1573556892 # 10.0.53.155
+
 6c3de0 maxwatts 1400 # 10.0.54.25
 6c3de0 reboot 1573555190 # 10.0.54.25
 
@@ -414,6 +419,7 @@ d92dc2 reboot 1573484252 # 10.0.53.150 rgesu00011
 
 ## asic password
 asicpass admin
+
 
 
 

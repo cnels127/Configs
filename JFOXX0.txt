@@ -78,6 +78,11 @@ bb71c7 maxwatts 1200 # 10.0.65.64
 4df698 reboot 1573556846 # 10.0.66.139
 bb71c7 reboot 1573556846 # 10.0.65.64
 
+4df698 maxwatts 1200 # 10.0.66.139
+bb71c7 maxwatts 1200 # 10.0.65.64
+4df698 reboot 1573556846 # 10.0.66.139
+bb71c7 reboot 1573556846 # 10.0.65.64
+
 95ae86 maxwatts 1400 # 10.0.66.131
 95ae86 reboot 1573555143 # 10.0.66.131
 
@@ -197,6 +202,7 @@ a1dd12 reset 1573249872
 
 ## asic password
 asicpass admin
+
 
 
 

@@ -245,6 +245,25 @@ ae0bc3 reboot 1573556841 # 10.0.63.87
 a9d7ce reboot 1573556841 # 10.0.64.128
 a18065 reboot 1573556841 # 10.0.63.99
 
+ef3cd3 maxwatts 950 # 10.0.63.85
+0beffe maxwatts 850 # 10.0.63.78
+c94710 maxwatts 1250 # 10.0.54.145
+1bcd84 maxwatts 950 # 10.0.63.93
+a9f649 maxwatts 950 # 10.0.63.97
+5d208b maxwatts 1250 # 10.0.54.147
+ae0bc3 maxwatts 1050 # 10.0.63.87
+a9d7ce maxwatts 1350 # 10.0.64.128
+a18065 maxwatts 1250 # 10.0.63.99
+ef3cd3 reboot 1573556841 # 10.0.63.85
+0beffe reboot 1573556841 # 10.0.63.78
+c94710 reboot 1573556841 # 10.0.54.145
+1bcd84 reboot 1573556841 # 10.0.63.93
+a9f649 reboot 1573556841 # 10.0.63.97
+5d208b reboot 1573556841 # 10.0.54.147
+ae0bc3 reboot 1573556841 # 10.0.63.87
+a9d7ce reboot 1573556841 # 10.0.64.128
+a18065 reboot 1573556841 # 10.0.63.99
+
 777a69 maxwatts 850 # 10.0.64.71
 0ce813 maxwatts 1050 # 10.0.63.88
 ef3cd3 maxwatts 1050 # 10.0.63.85
@@ -881,6 +900,7 @@ a9f649 reboot 1573514086 # 10.0.63.97
 
 ## asic password
 asicpass admin
+
 
 
 
