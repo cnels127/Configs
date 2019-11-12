@@ -21,12 +21,12 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1500
+global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
 # global throttle 100
-global fanspeed 100
+global fanspeed 60
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
@@ -71,24 +71,7 @@ f0ed76 location JBETH00019
 8f1d39 location JBETH00020
 
 ## tuning
-b340b4 maxwatts 900 # 10.0.68.52
-b340b4 reboot 1573574044 # 10.0.68.52
 
-b340b4 maxwatts 900 # 10.0.68.52
-b340b4 reboot 1573574044 # 10.0.68.52
-
-b340b4 maxwatts 1000 # 10.0.68.52
-4db5d3 maxwatts 1400 # 10.0.60.35
-b340b4 reboot 1573567087 # 10.0.68.52
-4db5d3 reboot 1573567087 # 10.0.60.35
-
-b340b4 maxwatts 1000 # 10.0.68.52
-4db5d3 maxwatts 1400 # 10.0.60.35
-b340b4 reboot 1573567087 # 10.0.68.52
-4db5d3 reboot 1573567087 # 10.0.60.35
-
-b340b4 maxwatts 1100 # 10.0.68.52
-b340b4 reboot 1573565381 # 10.0.68.52
 
 
 ## fans
