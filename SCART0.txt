@@ -328,6 +328,11 @@ ab39de maxwatts 1150 # 10.0.50.94
 ab39de reboot 1573551794 # 10.0.50.94
 03c9af reboot 1573551794 # 10.0.63.43
 
+ab39de maxwatts 1150 # 10.0.50.94
+03c9af maxwatts 1350 # 10.0.63.43
+ab39de reboot 1573551794 # 10.0.50.94
+03c9af reboot 1573551794 # 10.0.63.43
+
 16d041 maxwatts 750 # 10.0.55.36
 b8aba7 maxwatts 1350 # 10.0.55.34
 16d041 reboot 1573550095 # 10.0.55.36
@@ -545,6 +550,7 @@ ae2c80 reboot 1573502942 # 10.0.50.75 scart000096
 
 ## asic password
 asicpass admin
+
 
 
 

@@ -195,6 +195,11 @@ ce7e25 maxwatts 1150 # 10.0.54.84
 6ad3c0 reboot 1573551762 # 10.0.65.32
 ce7e25 reboot 1573551762 # 10.0.54.84
 
+6ad3c0 maxwatts 850 # 10.0.65.32
+ce7e25 maxwatts 1150 # 10.0.54.84
+6ad3c0 reboot 1573551762 # 10.0.65.32
+ce7e25 reboot 1573551762 # 10.0.54.84
+
 0e7df6 maxwatts 950 # 10.0.64.41
 5ad8ba maxwatts 950 # 10.0.65.44
 426735 maxwatts 1050 # 10.0.54.105
@@ -996,6 +1001,7 @@ d3cdf7 reboot 1573501012 # 10.0.65.63 lmack00100
 
 ## asic password
 asicpass admin
+
 
 
 
