@@ -23,7 +23,7 @@ global autoupdate yes
 global allowed yes
 global asicboost yes
 global autotune yes
-global maxwatts 1500
+global maxwatts 1450
 global maxtemp 90 1
 # global throttle 100
 global fanspeed 100
@@ -53,64 +53,6 @@ f6388e location MSETI00005
 35e5b2 location MSETI00006
 
 ## tuning
-a22315 maxwatts 900 # 10.0.63.140
-a22315 reboot 1573565411 # 10.0.63.140
-
-a22315 maxwatts 1000 # 10.0.63.140
-a22315 reboot 1573544957 # 10.0.63.140
-
-a22315 maxwatts 1000 # 10.0.63.140
-a22315 reboot 1573544957 # 10.0.63.140
-
-a22315 maxwatts 1100 # 10.0.63.140
-a22315 reboot 1573543257 # 10.0.63.140
-
-a22315 maxwatts 1100 # 10.0.63.140
-a22315 reboot 1573543257 # 10.0.63.140
-
-743db3 maxwatts 1200 # 10.0.63.160
-743db3 reboot 1573536338 # 10.0.63.160
-
-743db3 maxwatts 1200 # 10.0.63.160
-743db3 reboot 1573536338 # 10.0.63.160
-
-743db3 maxwatts 1300 # 10.0.63.160
-743db3 reboot 1573534524 # 10.0.63.160
-
-743db3 maxwatts 1300 # 10.0.63.160
-743db3 reboot 1573534524 # 10.0.63.160
-
-a22315 maxwatts 1200 # 10.0.63.140
-a22315 reboot 1573527601 # 10.0.63.140
-
-a22315 maxwatts 1200 # 10.0.63.140
-a22315 reboot 1573527601 # 10.0.63.140
-
-a22315 maxwatts 1300 # 10.0.63.140
-a22315 reboot 1573515828 # 10.0.63.140
-
-a22315 maxwatts 1300 # 10.0.63.140
-a22315 reboot 1573515828 # 10.0.63.140
-
-a22315 maxwatts 1400 # 10.0.63.140
-743db3 maxwatts 1400 # 10.0.63.160
-a22315 reboot 1573514121 # 10.0.63.140
-743db3 reboot 1573514121 # 10.0.63.160
-
-a22315 maxwatts 1400 # 10.0.63.140
-743db3 maxwatts 1400 # 10.0.63.160
-a22315 reboot 1573514121 # 10.0.63.140
-743db3 reboot 1573514121 # 10.0.63.160
-
-a22315 reboot 1573506366 # 10.0.63.140 mseti00003
- 
-
-743db3 reboot 1573504643 # 10.0.63.160 mseti00004
- 
-
-a22315 reboot 1573502888 # 10.0.63.140 mseti00003
- 
-
 
 ## reboots
 # s_reboot generated on Nov 11 2019 19:00:23 utc: 1573498823
@@ -124,21 +66,3 @@ f6388e reset 1573172973
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
