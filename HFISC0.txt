@@ -155,6 +155,11 @@ c899f8 maxwatts 1250 # 10.0.60.47
 994f1c reboot 1573541513 # 10.0.68.54
 c899f8 reboot 1573541513 # 10.0.60.47
 
+994f1c maxwatts 850 # 10.0.68.54
+c899f8 maxwatts 1250 # 10.0.60.47
+994f1c reboot 1573541513 # 10.0.68.54
+c899f8 reboot 1573541513 # 10.0.60.47
+
 994f1c maxwatts 950 # 10.0.68.54
 2020a9 maxwatts 1250 # 10.0.56.142
 994f1c reboot 1573539806 # 10.0.68.54
@@ -445,6 +450,7 @@ bca239 reset 1573237377
 
 ## asic password
 asicpass admin
+
 
 
 
