@@ -136,6 +136,11 @@ d3efbf maxwatts 1400 # 10.0.120.112
 d3efbf reboot 1573587370 # 10.0.120.112
 0f2dda reboot 1573587370 # 10.0.121.1
 
+d3efbf maxwatts 1400 # 10.0.120.112
+0f2dda maxwatts 1400 # 10.0.121.1
+d3efbf reboot 1573587370 # 10.0.120.112
+0f2dda reboot 1573587370 # 10.0.121.1
+
 
 ## fans
 
@@ -145,6 +150,7 @@ d3efbf reboot 1573587370 # 10.0.120.112
 
 ## asic password
 asicpass admin
+
 
 
 

@@ -200,6 +200,17 @@ d8b55c maxwatts 1400 # 10.0.55.95
 d8b55c reboot 1573587300 # 10.0.55.95
 5e6b13 reboot 1573587300 # 10.0.55.90
 
+60ea4c maxwatts 1400 # 10.0.56.103
+07f9ea maxwatts 1400 # 10.0.56.87
+1999e2 maxwatts 1400 # 10.0.56.89
+d8b55c maxwatts 1400 # 10.0.55.95
+5e6b13 maxwatts 1400 # 10.0.55.90
+60ea4c reboot 1573587300 # 10.0.56.103
+07f9ea reboot 1573587300 # 10.0.56.87
+1999e2 reboot 1573587300 # 10.0.56.89
+d8b55c reboot 1573587300 # 10.0.55.95
+5e6b13 reboot 1573587300 # 10.0.55.90
+
 
 ## reboots
 
@@ -207,6 +218,7 @@ d8b55c reboot 1573587300 # 10.0.55.95
 
 ## asic password
 asicpass admin
+
 
 
 
