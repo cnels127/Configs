@@ -461,6 +461,13 @@ c29aa8 reboot 1573596087 # 10.0.58.95
 577f14 reboot 1573596087 # 10.0.59.68
 cd80a5 reboot 1573596087 # 10.0.59.99
 
+c29aa8 maxwatts 1250 # 10.0.58.95
+577f14 maxwatts 1300 # 10.0.59.68
+cd80a5 maxwatts 1350 # 10.0.59.99
+c29aa8 reboot 1573596087 # 10.0.58.95
+577f14 reboot 1573596087 # 10.0.59.68
+cd80a5 reboot 1573596087 # 10.0.59.99
+
 344d03 maxwatts 1150 # 10.0.62.84
 c95115 maxwatts 1250 # 10.0.116.5
 be6e5c maxwatts 1350 # 10.0.58.36
@@ -798,6 +805,7 @@ b88126 reset 1572446837
 
 ## asic password
 asicpass admin
+
 
 
 

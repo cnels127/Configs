@@ -124,6 +124,11 @@ d13d9c location ATHOM00039
 34f9ef reboot 1573596078 # 10.0.54.132
 083c04 reboot 1573596078 # 10.0.54.128
 
+34f9ef maxwatts 850 # 10.0.54.132
+083c04 maxwatts 1150 # 10.0.54.128
+34f9ef reboot 1573596078 # 10.0.54.132
+083c04 reboot 1573596078 # 10.0.54.128
+
 de2039 maxwatts 1050 # 10.0.54.127
 de2039 reboot 1573587298 # 10.0.54.127
 
@@ -519,6 +524,7 @@ d13d9c reboot 1573484103 # 10.0.67.54 athom00039
 
 ## asic password
 asicpass admin
+
 
 
 
