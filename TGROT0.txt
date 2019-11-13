@@ -67,6 +67,9 @@ a83fdc location TGROT00012
 3ec4f8 location TGROT00013
 
 ## tuning
+052e16 maxwatts 950 # 10.0.116.37
+052e16 reboot 1573606460 # 10.0.116.37
+
 f2dc4d maxwatts 850 # 10.0.63.84
 f2dc4d reboot 1573603031 # 10.0.63.84
 
@@ -141,6 +144,7 @@ f2dc4d reset 1573151731
 
 ## asic password
 asicpass admin
+
 
 
 
