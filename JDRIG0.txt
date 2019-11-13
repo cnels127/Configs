@@ -32,6 +32,8 @@ global blinkgreen rapid
 # global retune 2
 # global reboot 1
 # global reset 1
+global reset 1573678506
+
 # global panelpass gj83Nkgikg
 
 ## vlans
@@ -59,88 +61,6 @@ cffb6d location JDRIG00009
 e2fa14 location JDRIG00010
 
 ## tuning
-33b5df maxwatts 1050 # 10.0.55.125
-33b5df reboot 1573672990 # 10.0.55.125
-
-33b5df maxwatts 1050 # 10.0.55.125
-33b5df reboot 1573672990 # 10.0.55.125
-
-33b5df maxwatts 1150 # 10.0.55.125
-33b5df reboot 1573667875 # 10.0.55.125
-
-33b5df reboot 1573663131 # 10.0.55.125 jdrig00002
- 
-
-33b5df reboot 1573656573 # 10.0.55.125 jdrig00002
- 
-
-33b5df reboot 1573654926 # 10.0.55.125 jdrig00002
- 
-
-33b5df reboot 1573653274 # 10.0.55.125 jdrig00002
- 
-
-33b5df maxwatts 1250 # 10.0.55.125
-33b5df reboot 1573636481 # 10.0.55.125
-
-33b5df maxwatts 1250 # 10.0.55.125
-33b5df reboot 1573636481 # 10.0.55.125
-
-33b5df maxwatts 1350 # 10.0.55.125
-33b5df reboot 1573633094 # 10.0.55.125
-
-33b5df maxwatts 1350 # 10.0.55.125
-33b5df reboot 1573633094 # 10.0.55.125
-
-11bafe maxwatts 1150 # 10.0.55.99
-d55626 maxwatts 1350 # 10.0.67.156
-11bafe reboot 1573626307 # 10.0.55.99
-d55626 reboot 1573626307 # 10.0.67.156
-
-11bafe maxwatts 1150 # 10.0.55.99
-d55626 maxwatts 1350 # 10.0.67.156
-11bafe reboot 1573626307 # 10.0.55.99
-d55626 reboot 1573626307 # 10.0.67.156
-
-11bafe maxwatts 1250 # 10.0.55.99
-11bafe reboot 1573615295 # 10.0.55.99
-
-11bafe maxwatts 1250 # 10.0.55.99
-11bafe reboot 1573615295 # 10.0.55.99
-
-11bafe maxwatts 1350 # 10.0.55.99
-11bafe reboot 1573611818 # 10.0.55.99
-
-11bafe maxwatts 1350 # 10.0.55.99
-11bafe reboot 1573611818 # 10.0.55.99
-
-b3d12e maxwatts 1250 # 10.0.67.149
-b3d12e reboot 1573604662 # 10.0.67.149
-
-b3d12e maxwatts 1250 # 10.0.67.149
-b3d12e reboot 1573604662 # 10.0.67.149
-
-b3d12e maxwatts 1350 # 10.0.67.149
-cffb6d maxwatts 1250 # 10.0.67.146
-b3d12e reboot 1573602947 # 10.0.67.149
-cffb6d reboot 1573602947 # 10.0.67.146
-
-9163e6 maxwatts 1250 # 10.0.67.148
-cffb6d maxwatts 1350 # 10.0.67.146
-9163e6 reboot 1573597815 # 10.0.67.148
-cffb6d reboot 1573597815 # 10.0.67.146
-
-9163e6 maxwatts 1250 # 10.0.67.148
-cffb6d maxwatts 1350 # 10.0.67.146
-9163e6 reboot 1573597815 # 10.0.67.148
-cffb6d reboot 1573597815 # 10.0.67.146
-
-9163e6 maxwatts 1350 # 10.0.67.148
-9163e6 reboot 1573594399 # 10.0.67.148
-
-9163e6 maxwatts 1350 # 10.0.67.148
-9163e6 reboot 1573594399 # 10.0.67.148
-
 
 ## reboots
 # s_reboot generated on Nov 11 2019 18:45:00 utc: 1573497900
