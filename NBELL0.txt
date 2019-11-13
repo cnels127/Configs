@@ -468,6 +468,11 @@ a0cac7 location NBELL00204
 9fd4e8 reboot 1573683150 # 10.0.77.102
 175b59 reboot 1573683150 # 10.0.59.33
 
+9fd4e8 maxwatts 950 # 10.0.77.102
+175b59 maxwatts 1350 # 10.0.59.33
+9fd4e8 reboot 1573683150 # 10.0.77.102
+175b59 reboot 1573683150 # 10.0.59.33
+
 fb1aea maxwatts 950 # 10.0.77.82
 9fd4e8 maxwatts 1050 # 10.0.77.102
 fb1aea reboot 1573681462 # 10.0.77.82
@@ -565,6 +570,7 @@ f0f240 reset 1573070538
 
 ## asic password
 asicpass admin
+
 
 
 
