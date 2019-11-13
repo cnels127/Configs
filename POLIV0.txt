@@ -26,7 +26,7 @@ global autoupdate yes
 global allowed yes
 global maxtemp 90 1
 # global throttle 100
-global fanspeed 100
+global fanspeed 80
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
@@ -34,6 +34,8 @@ global blinkgreen rapid
 # global retune 1
 # global reboot 1
 # global reset 1
+global reset 1573677695
+
 # global panelpass gj83Nkgikg
 
 ## vlans
@@ -49,16 +51,7 @@ vlan 10.0.117.17-17
 88d995 location POLIV00004
 
 ## tuning
-4fc5e3 maxwatts 1400 # 10.0.116.79
-4fc5e3 reboot 1573636522 # 10.0.116.79
 
-4fc5e3 maxwatts 1400 # 10.0.116.79
-4fc5e3 reboot 1573636522 # 10.0.116.79
-
-4fc5e3 reboot 1573613880 # 10.0.116.79 poliv00002
- 
-
-4fc5e3 reboot 1573335864 # 10.0.116.79 poliv00002
 
 ## reboots
 
