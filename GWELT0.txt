@@ -576,6 +576,13 @@ dc1da5 maxwatts 1400 # 10.0.62.77
 13fd9c reboot 1573627998 # 10.0.58.98
 dc1da5 reboot 1573627998 # 10.0.62.77
 
+1301f9 maxwatts 1200 # 10.0.58.159
+13fd9c maxwatts 1300 # 10.0.58.98
+dc1da5 maxwatts 1400 # 10.0.62.77
+1301f9 reboot 1573627998 # 10.0.58.159
+13fd9c reboot 1573627998 # 10.0.58.98
+dc1da5 reboot 1573627998 # 10.0.62.77
+
 165af1 maxwatts -100 # 10.0.64.9
 909fe4 maxwatts 1200 # 10.0.58.72
 165af1 reboot 1573626298 # 10.0.64.9
@@ -3120,6 +3127,7 @@ ce7138 reset 1573273407
 
 ## asic password
 asicpass admin
+
 
 
 

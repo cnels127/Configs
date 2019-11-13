@@ -49,6 +49,11 @@ ba1c4a location RPOUL00004
 2e86e9 reboot 1573628060 # 10.0.68.31
 12c5ea reboot 1573628060 # 10.0.68.30
 
+2e86e9 maxwatts 1050 # 10.0.68.31
+12c5ea maxwatts 1350 # 10.0.68.30
+2e86e9 reboot 1573628060 # 10.0.68.31
+12c5ea reboot 1573628060 # 10.0.68.30
+
 2e86e9 maxwatts 1150 # 10.0.68.31
 2e86e9 reboot 1573615432 # 10.0.68.31
 
@@ -79,6 +84,7 @@ ba1c4a reboot 1573613923 # 10.0.68.33 rpoul00004
 
 ## asic password
 asicpass admin
+
 
 
 
