@@ -190,6 +190,9 @@ bae0d7 location LMACK00096
 d3cdf7 location LMACK00100
 
 ## tuning
+ff507b maxwatts 1350 # 10.0.54.104
+ff507b reboot 1573667896 # 10.0.54.104
+
 426735 maxwatts 1250 # 10.0.54.105
 426735 reboot 1573666167 # 10.0.54.105
 
@@ -638,6 +641,7 @@ c807d9 reboot 1573584884 # 10.0.65.21 lmack00094
 
 ## asic password
 asicpass admin
+
 
 
 
