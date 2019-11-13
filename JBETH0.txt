@@ -26,7 +26,7 @@ global autoupdate yes
 global allowed yes
 global maxtemp 90 1
 # global throttle 100
-global fanspeed 60
+global fanspeed 80
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
@@ -71,9 +71,6 @@ f0ed76 location JBETH00019
 8f1d39 location JBETH00020
 
 ## tuning
-4db5d3 maxwatts 1150 # 10.0.60.35
-4db5d3 reboot 1573602946 # 10.0.60.35
-
 8f1d39 maxwatts 1250 # 10.0.60.143
 8f1d39 reboot 1573601235 # 10.0.60.143
 
@@ -202,6 +199,7 @@ aba209 reboot 1573589127 # 10.0.60.100
 
 
 ## resets
+a3883c reset 1573603345
 8f1d39 reset 1573492171
 d549fd reset 1573492171
 406249 reset 1573492171
@@ -211,7 +209,6 @@ f0ed76 reset 1573492171
 
 ## asic password
 asicpass admin
-
 
 
 
