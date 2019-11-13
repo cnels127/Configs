@@ -21,10 +21,10 @@ global autoupdate yes
 global allowed yes
 global asicboost yes
 global autotune yes
-global maxwatts 1500
-global maxtemp 90 1
+global maxwatts 1450
+global maxtemp 90
 # global throttle 100
-global fanspeed 100
+global fanspeed 80
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
@@ -32,6 +32,7 @@ global blinkgreen rapid
 # global retune 2
 # global reboot 1
 # global reset 1
+resetasic 1573666200
 # global panelpass gj83Nkgikg
 
 ## vlans
