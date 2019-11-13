@@ -4,7 +4,7 @@ global custompanel HOLD00bit049
 global customer bit49
 
 global poolname1 profit.pool.bitcoin.com:3333
-global username1 bit49
+global username1 bit49xHOLD00
 global poolpass1 123
 global sendworker1 yes
 global poolname2 us.ss.btc.com:1800
@@ -315,6 +315,9 @@ c94710 location KREDD00001
 c94710 maxwatts 1350
 934f82 maxwatts 1350
 5d208b maxwatts 1350
+c94710 username1 bit49
+934f82 username1 bit49
+5d208b username1 bit49
 
 ## C4053 15 s9s (11/13/19)
 vlan 10.0.63.103-103
