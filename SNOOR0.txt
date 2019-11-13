@@ -174,6 +174,11 @@ a2153e username3 zoubrown
 7ac78e reboot 1573626369 # 10.0.56.91
 002190 reboot 1573626369 # 10.0.67.55
 
+7ac78e maxwatts 1000 # 10.0.56.91
+002190 maxwatts 1100 # 10.0.67.55
+7ac78e reboot 1573626369 # 10.0.56.91
+002190 reboot 1573626369 # 10.0.67.55
+
 7ac78e maxwatts 1100 # 10.0.56.91
 012910 maxwatts 1100 # 10.0.55.108
 ac1644 maxwatts 1300 # 10.0.55.160
@@ -562,6 +567,7 @@ fbfdea reboot 1573335894 # 10.0.56.99 set2
 
 ## asic password
 asicpass admin
+
 
 
 

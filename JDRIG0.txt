@@ -64,6 +64,11 @@ d55626 maxwatts 1350 # 10.0.67.156
 11bafe reboot 1573626307 # 10.0.55.99
 d55626 reboot 1573626307 # 10.0.67.156
 
+11bafe maxwatts 1150 # 10.0.55.99
+d55626 maxwatts 1350 # 10.0.67.156
+11bafe reboot 1573626307 # 10.0.55.99
+d55626 reboot 1573626307 # 10.0.67.156
+
 11bafe maxwatts 1250 # 10.0.55.99
 11bafe reboot 1573615295 # 10.0.55.99
 
@@ -119,6 +124,7 @@ cffb6d reset 1573501002
 
 ## asic password
 asicpass admin
+
 
 
 

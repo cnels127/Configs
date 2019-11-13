@@ -468,6 +468,11 @@ afc1b4 maxwatts 1350 # 10.0.64.46
 048fc1 reboot 1573626340 # 10.0.77.14
 afc1b4 reboot 1573626340 # 10.0.64.46
 
+048fc1 maxwatts 1050 # 10.0.77.14
+afc1b4 maxwatts 1350 # 10.0.64.46
+048fc1 reboot 1573626340 # 10.0.77.14
+afc1b4 reboot 1573626340 # 10.0.64.46
+
 01759f maxwatts 850 # 10.0.60.52
 01759f reboot 1573624638 # 10.0.60.52
 
@@ -919,6 +924,7 @@ f0f240 reset 1573070538
 
 ## asic password
 asicpass admin
+
 
 
 
