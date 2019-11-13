@@ -190,6 +190,12 @@ bae0d7 location LMACK00096
 d3cdf7 location LMACK00100
 
 ## tuning
+ff507b reboot 1573663155 # 10.0.54.104 lmack00029
+5eb8bd reboot 1573663155 # 10.0.54.108 lmack00033
+4d47c4 reboot 1573663155 # 10.0.54.90 lmack00015
+6ad3c0 reboot 1573663155 # 10.0.65.32 lmack00095
+ 
+
 5eb8bd reboot 1573658229 # 10.0.54.108 lmack00033
 4d47c4 reboot 1573658229 # 10.0.54.90 lmack00015
 ff507b reboot 1573658229 # 10.0.54.104 lmack00029
@@ -626,6 +632,7 @@ c807d9 reboot 1573584884 # 10.0.65.21 lmack00094
 
 ## asic password
 asicpass admin
+
 
 
 
