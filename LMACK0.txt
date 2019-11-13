@@ -197,6 +197,13 @@ bf813c maxwatts 1350 # 10.0.54.93
 6d21ad reboot 1573674701 # 10.0.63.101
 bf813c reboot 1573674701 # 10.0.54.93
 
+671310 maxwatts 1050 # 10.0.64.106
+6d21ad maxwatts 1350 # 10.0.63.101
+bf813c maxwatts 1350 # 10.0.54.93
+671310 reboot 1573674701 # 10.0.64.106
+6d21ad reboot 1573674701 # 10.0.63.101
+bf813c reboot 1573674701 # 10.0.54.93
+
 671310 maxwatts 1150 # 10.0.64.106
 5eb8bd maxwatts 1250 # 10.0.54.108
 ff507b maxwatts 1350 # 10.0.54.104
@@ -258,6 +265,7 @@ aa901a reboot 1573671305 # 10.0.64.13
 
 ## asic password
 asicpass admin
+
 
 
 
