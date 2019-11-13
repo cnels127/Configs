@@ -56,6 +56,11 @@ f5e34e maxwatts 1350 # 10.0.68.95
 29b205 reboot 1573617115 # 10.0.68.92
 f5e34e reboot 1573617115 # 10.0.68.95
 
+29b205 maxwatts 1150 # 10.0.68.92
+f5e34e maxwatts 1350 # 10.0.68.95
+29b205 reboot 1573617115 # 10.0.68.92
+f5e34e reboot 1573617115 # 10.0.68.95
+
 3b0926 maxwatts 1150 # 10.0.68.99
 ce82d1 maxwatts 950 # 10.0.68.100
 0796c0 maxwatts 1250 # 10.0.68.97
@@ -171,6 +176,7 @@ ce82d1 reboot 1573585523 # 10.0.68.100
 
 ## asic password
 asicpass admin
+
 
 
 
