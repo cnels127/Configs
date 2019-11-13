@@ -54,6 +54,9 @@ f5417d location SKOTR00004
 6c2948 maxwatts -50 # 10.0.58.136
 6c2948 reboot 1573673042 # 10.0.58.136
 
+6c2948 maxwatts -50 # 10.0.58.136
+6c2948 reboot 1573673042 # 10.0.58.136
+
 6c2948 reboot 1573663191 # 10.0.58.136 skotr00002
  
 
@@ -215,6 +218,7 @@ f5417d reboot 1573499387 # 10.0.61.17 skotr00004
 
 ## asic password
 asicpass admin
+
 
 
 
