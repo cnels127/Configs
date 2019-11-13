@@ -193,6 +193,9 @@ d3cdf7 location LMACK00100
 f51c4d maxwatts 1250 # 10.0.64.161
 f51c4d reboot 1573676393 # 10.0.64.161
 
+f51c4d maxwatts 1250 # 10.0.64.161
+f51c4d reboot 1573676393 # 10.0.64.161
+
 671310 maxwatts 1050 # 10.0.64.106
 6d21ad maxwatts 1350 # 10.0.63.101
 bf813c maxwatts 1350 # 10.0.54.93
@@ -268,6 +271,7 @@ aa901a reboot 1573671305 # 10.0.64.13
 
 ## asic password
 asicpass admin
+
 
 
 

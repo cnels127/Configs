@@ -78,6 +78,11 @@ d31afd location JFOXX00022
 25f83c reboot 1573676374 # 10.0.66.132
 763ea8 reboot 1573676374 # 10.0.66.136
 
+25f83c maxwatts 1350 # 10.0.66.132
+763ea8 maxwatts 1350 # 10.0.66.136
+25f83c reboot 1573676374 # 10.0.66.132
+763ea8 reboot 1573676374 # 10.0.66.136
+
 6957e3 maxwatts 1250 # 10.0.66.140
 6957e3 reboot 1573671283 # 10.0.66.140
 
@@ -114,6 +119,7 @@ a1dd12 reset 1573249872
 
 ## asic password
 asicpass admin
+
 
 
 
