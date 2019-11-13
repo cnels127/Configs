@@ -91,6 +91,11 @@ de83b4 maxwatts 950 # 10.0.55.157
 9c860e reboot 1573638171 # 10.0.120.128
 de83b4 reboot 1573638171 # 10.0.55.157
 
+9c860e maxwatts 1250 # 10.0.120.128
+de83b4 maxwatts 950 # 10.0.55.157
+9c860e reboot 1573638171 # 10.0.120.128
+de83b4 reboot 1573638171 # 10.0.55.157
+
 8342ab maxwatts 650 # 10.0.65.148
 b6e889 maxwatts 1250 # 10.0.63.144
 9c860e maxwatts 1350 # 10.0.120.128
@@ -355,6 +360,7 @@ d3176c reset 1573254670
 
 ## asic password
 asicpass admin
+
 
 
 

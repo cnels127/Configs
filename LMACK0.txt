@@ -201,6 +201,17 @@ f8f4e5 reboot 1573638205 # 10.0.63.136
 bae0d7 reboot 1573638205 # 10.0.65.33
 4e22e3 reboot 1573638205 # 10.0.65.41
 
+6ad3c0 maxwatts 1250 # 10.0.65.32
+9b0eee maxwatts 1250 # 10.0.63.142
+f8f4e5 maxwatts 1150 # 10.0.63.136
+bae0d7 maxwatts 1250 # 10.0.65.33
+4e22e3 maxwatts 1250 # 10.0.65.41
+6ad3c0 reboot 1573638205 # 10.0.65.32
+9b0eee reboot 1573638205 # 10.0.63.142
+f8f4e5 reboot 1573638205 # 10.0.63.136
+bae0d7 reboot 1573638205 # 10.0.65.33
+4e22e3 reboot 1573638205 # 10.0.65.41
+
 6ad3c0 maxwatts 1350 # 10.0.65.32
 4d47c4 maxwatts 1350 # 10.0.54.90
 5eb8bd maxwatts 950 # 10.0.54.108
@@ -571,6 +582,7 @@ c807d9 reboot 1573584884 # 10.0.65.21 lmack00094
 
 ## asic password
 asicpass admin
+
 
 
 
