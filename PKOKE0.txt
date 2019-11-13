@@ -24,7 +24,7 @@ global autoupdate yes
 global allowed yes
 global maxtemp 90 1
 # global throttle 100
-global fanspeed 100
+global fanspeed 80
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
@@ -32,6 +32,8 @@ global blinkgreen rapid
 # global retune 1
 # global reboot 1
 # global reset 1
+global reset 1573677903
+
 # global panelpass gj83Nkgikg
 
 ## vlans
@@ -53,114 +55,6 @@ bd9932 location PKOKE00005
 e5ba90 location PKOKE00009
 
 ## tuning
-f39f2b reboot 1573650015 # 10.0.54.135 pkoke00003
- 
-
-3bcc51 reboot 1573649324 # 10.0.57.75 pkoke00007
- 
-
-3bcc51 reboot 1573618429 # 10.0.57.75 pkoke00007
- 
-
-f39f2b maxwatts 800 # 10.0.54.135
-f39f2b reboot 1573601277 # 10.0.54.135
-
-f39f2b maxwatts 800 # 10.0.54.135
-f39f2b reboot 1573601277 # 10.0.54.135
-
-f39f2b maxwatts 900 # 10.0.54.135
-f39f2b reboot 1573568843 # 10.0.54.135
-
-f39f2b maxwatts 900 # 10.0.54.135
-f39f2b reboot 1573568843 # 10.0.54.135
-
-f39f2b maxwatts 1000 # 10.0.54.135
-f39f2b reboot 1573565418 # 10.0.54.135
-
-3bcc51 reboot 1573561357 # 10.0.57.75 pkoke00007
- 
-
-ae28ba maxwatts 1400 # 10.0.54.134
-ae28ba reboot 1573546675 # 10.0.54.134
-
-ae28ba maxwatts 1400 # 10.0.54.134
-ae28ba reboot 1573546675 # 10.0.54.134
-
-f39f2b maxwatts 1100 # 10.0.54.135
-f39f2b reboot 1573544965 # 10.0.54.135
-
-f39f2b maxwatts 1100 # 10.0.54.135
-f39f2b reboot 1573544965 # 10.0.54.135
-
-f39f2b maxwatts 1200 # 10.0.54.135
-f39f2b reboot 1573543265 # 10.0.54.135
-
-f39f2b maxwatts 1200 # 10.0.54.135
-f39f2b reboot 1573543265 # 10.0.54.135
-
-f39f2b maxwatts 1300 # 10.0.54.135
-f39f2b reboot 1573541557 # 10.0.54.135
-
-f39f2b maxwatts 1300 # 10.0.54.135
-f39f2b reboot 1573541557 # 10.0.54.135
-
-2baaac maxwatts 1300 # 10.0.58.127
-2baaac reboot 1573538141 # 10.0.58.127
-
-2baaac maxwatts 1300 # 10.0.58.127
-2baaac reboot 1573538141 # 10.0.58.127
-
-7ed10f maxwatts 1300 # 10.0.57.74
-7ed10f reboot 1573536355 # 10.0.57.74
-
-7ed10f maxwatts 1300 # 10.0.57.74
-7ed10f reboot 1573536355 # 10.0.57.74
-
-f39f2b maxwatts 1400 # 10.0.54.135
-f39f2b reboot 1573534537 # 10.0.54.135
-
-f39f2b maxwatts 1400 # 10.0.54.135
-f39f2b reboot 1573534537 # 10.0.54.135
-
-17739c maxwatts 1400 # 10.0.54.133
-17739c reboot 1573527622 # 10.0.54.133
-
-17739c maxwatts 1400 # 10.0.54.133
-17739c reboot 1573527622 # 10.0.54.133
-
-3bcc51 reboot 1573526508 # 10.0.57.75 pkoke00007
- 
-
-3bcc51 reboot 1573524759 # 10.0.57.75 pkoke00007
- 
-
-3bcc51 reboot 1573523095 # 10.0.57.75 pkoke00007
- 
-
-3bcc51 reboot 1573521448 # 10.0.57.75 pkoke00007
- 
-
-3bcc51 reboot 1573519810 # 10.0.57.75 pkoke00007
- 
-
-3bcc51 reboot 1573518168 # 10.0.57.75 pkoke00007
- 
-
-2baaac maxwatts 1400 # 10.0.58.127
-2baaac reboot 1573517543 # 10.0.58.127
-
-2baaac maxwatts 1400 # 10.0.58.127
-2baaac reboot 1573517543 # 10.0.58.127
-
-7ed10f maxwatts 1400 # 10.0.57.74
-7ed10f reboot 1573514129 # 10.0.57.74
-
-7ed10f maxwatts 1400 # 10.0.57.74
-7ed10f reboot 1573514129 # 10.0.57.74
-
-bd9932 reboot 1573502907 # 10.0.57.73 pkoke00005
- 
-
 
 ## reboots
 # s_reboot generated on Nov 11 2019 19:04:03 utc: 1573499043
