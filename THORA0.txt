@@ -24,7 +24,7 @@ global autoupdate yes
 global allowed yes
 global maxtemp 90 1
 # global throttle 100
-global fanspeed 100
+global fanspeed 80
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
@@ -32,6 +32,8 @@ global blinkgreen rapid
 # global retune 1
 # global reboot 1
 # global reset 1
+global reset 1573675682
+
 # global panelpass gj83Nkgikg
 
 ## vlans
@@ -61,168 +63,6 @@ f764a5 location THORA00014
 13d4e9 location THORA00015
 
 ## tuning
-b916a9 reboot 1573649380 # 10.0.32.64 thora00001
- 
-
-e3240c reboot 1573618486 # 10.0.54.138 thora00009
- 
-
-0ef8df maxwatts 1000 # 10.0.57.87
-e3240c maxwatts 900 # 10.0.54.138
-0ef8df reboot 1573601318 # 10.0.57.87
-e3240c reboot 1573601318 # 10.0.54.138
-
-0ef8df maxwatts 1000 # 10.0.57.87
-e3240c maxwatts 900 # 10.0.54.138
-0ef8df reboot 1573601318 # 10.0.57.87
-e3240c reboot 1573601318 # 10.0.54.138
-
-e3240c maxwatts 900 # 10.0.54.138
-e3240c reboot 1573599610 # 10.0.54.138
-
-e3240c maxwatts 900 # 10.0.54.138
-e3240c reboot 1573599610 # 10.0.54.138
-
-190eef maxwatts 600 # 10.0.54.136
-190eef reboot 1573585684 # 10.0.54.136
-
-190eef maxwatts 600 # 10.0.54.136
-190eef reboot 1573585684 # 10.0.54.136
-
-e3240c maxwatts 1000 # 10.0.54.138
-0ef8df maxwatts 1100 # 10.0.57.87
-e3240c reboot 1573577652 # 10.0.54.138
-0ef8df reboot 1573577652 # 10.0.57.87
-
-e3240c maxwatts 1000 # 10.0.54.138
-0ef8df maxwatts 1100 # 10.0.57.87
-e3240c reboot 1573577652 # 10.0.54.138
-0ef8df reboot 1573577652 # 10.0.57.87
-
-190eef maxwatts 700 # 10.0.54.136
-190eef reboot 1573575902 # 10.0.54.136
-
-e3240c maxwatts 1100 # 10.0.54.138
-e3240c reboot 1573574141 # 10.0.54.138
-
-e3240c maxwatts 1100 # 10.0.54.138
-e3240c reboot 1573574141 # 10.0.54.138
-
-815cec maxwatts 1300 # 10.0.54.137
-815cec reboot 1573565455 # 10.0.54.137
-
-190eef maxwatts 800 # 10.0.54.136
-190eef reboot 1573556922 # 10.0.54.136
-
-190eef maxwatts 800 # 10.0.54.136
-190eef reboot 1573556922 # 10.0.54.136
-
-190eef maxwatts 900 # 10.0.54.136
-190eef reboot 1573555221 # 10.0.54.136
-
-190eef maxwatts 900 # 10.0.54.136
-190eef reboot 1573555221 # 10.0.54.136
-
-190eef maxwatts 1000 # 10.0.54.136
-190eef reboot 1573548415 # 10.0.54.136
-
-190eef maxwatts 1000 # 10.0.54.136
-190eef reboot 1573548415 # 10.0.54.136
-
-0ef8df maxwatts 1200 # 10.0.57.87
-0ef8df reboot 1573546714 # 10.0.57.87
-
-0ef8df maxwatts 1200 # 10.0.57.87
-0ef8df reboot 1573546714 # 10.0.57.87
-
-190eef maxwatts 1100 # 10.0.54.136
-e3240c maxwatts 1200 # 10.0.54.138
-190eef reboot 1573545003 # 10.0.54.136
-e3240c reboot 1573545003 # 10.0.54.138
-
-190eef maxwatts 1100 # 10.0.54.136
-e3240c maxwatts 1200 # 10.0.54.138
-190eef reboot 1573545003 # 10.0.54.136
-e3240c reboot 1573545003 # 10.0.54.138
-
-190eef maxwatts 1200 # 10.0.54.136
-190eef reboot 1573539888 # 10.0.54.136
-
-190eef maxwatts 1200 # 10.0.54.136
-190eef reboot 1573539888 # 10.0.54.136
-
-190eef maxwatts 1300 # 10.0.54.136
-190eef reboot 1573538180 # 10.0.54.136
-
-190eef maxwatts 1300 # 10.0.54.136
-190eef reboot 1573538180 # 10.0.54.136
-
-190eef maxwatts 1400 # 10.0.54.136
-815cec maxwatts 1400 # 10.0.54.137
-190eef reboot 1573534597 # 10.0.54.136
-815cec reboot 1573534597 # 10.0.54.137
-
-190eef maxwatts 1400 # 10.0.54.136
-815cec maxwatts 1400 # 10.0.54.137
-190eef reboot 1573534597 # 10.0.54.136
-815cec reboot 1573534597 # 10.0.54.137
-
-658700 maxwatts 1300 # 10.0.57.154
-b916a9 maxwatts 1400 # 10.0.32.64
-056132 maxwatts 1400 # 10.0.32.66
-658700 reboot 1573532802 # 10.0.57.154
-b916a9 reboot 1573532802 # 10.0.32.64
-056132 reboot 1573532802 # 10.0.32.66
-
-658700 maxwatts 1300 # 10.0.57.154
-b916a9 maxwatts 1400 # 10.0.32.64
-056132 maxwatts 1400 # 10.0.32.66
-658700 reboot 1573532802 # 10.0.57.154
-b916a9 reboot 1573532802 # 10.0.32.64
-056132 reboot 1573532802 # 10.0.32.66
-
-b042b3 maxwatts 1300 # 10.0.57.152
-b042b3 reboot 1573517582 # 10.0.57.152
-
-b042b3 maxwatts 1300 # 10.0.57.152
-b042b3 reboot 1573517582 # 10.0.57.152
-
-e3240c maxwatts 1300 # 10.0.54.138
-0ef8df maxwatts 1300 # 10.0.57.87
-e3240c reboot 1573515874 # 10.0.54.138
-0ef8df reboot 1573515874 # 10.0.57.87
-
-e3240c maxwatts 1300 # 10.0.54.138
-0ef8df maxwatts 1300 # 10.0.57.87
-e3240c reboot 1573515874 # 10.0.54.138
-0ef8df reboot 1573515874 # 10.0.57.87
-
-e3240c maxwatts 1400 # 10.0.54.138
-b042b3 maxwatts 1400 # 10.0.57.152
-0ef8df maxwatts 1400 # 10.0.57.87
-658700 maxwatts 1400 # 10.0.57.154
-e3240c reboot 1573514169 # 10.0.54.138
-b042b3 reboot 1573514169 # 10.0.57.152
-0ef8df reboot 1573514169 # 10.0.57.87
-658700 reboot 1573514169 # 10.0.57.154
-
-e3240c maxwatts 1400 # 10.0.54.138
-b042b3 maxwatts 1400 # 10.0.57.152
-0ef8df maxwatts 1400 # 10.0.57.87
-658700 maxwatts 1400 # 10.0.57.154
-e3240c reboot 1573514169 # 10.0.54.138
-b042b3 reboot 1573514169 # 10.0.57.152
-0ef8df reboot 1573514169 # 10.0.57.87
-658700 reboot 1573514169 # 10.0.57.154
-
-e3240c reboot 1573506439 # 10.0.54.138 thora00009
-b042b3 reboot 1573506439 # 10.0.57.152 thora00011
- 
-
-b042b3 reboot 1573502977 # 10.0.57.152 thora00011
-e3240c reboot 1573502977 # 10.0.54.138 thora00009
- 
-
 
 ## reboots
 # s_reboot generated on Nov 11 2019 19:13:35 utc: 1573499615
