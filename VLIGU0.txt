@@ -149,6 +149,11 @@ f7dadf maxwatts 1250 # 10.0.57.105
 89d0d8 reboot 1573608268 # 10.0.57.91
 f7dadf reboot 1573608268 # 10.0.57.105
 
+89d0d8 maxwatts 1250 # 10.0.57.91
+f7dadf maxwatts 1250 # 10.0.57.105
+89d0d8 reboot 1573608268 # 10.0.57.91
+f7dadf reboot 1573608268 # 10.0.57.105
+
 e29028 maxwatts 1250 # 10.0.51.53
 bc004c maxwatts 1250 # 10.0.57.104
 de6bea maxwatts 1250 # 10.0.57.94
@@ -400,6 +405,7 @@ da3f92 reboot 1573577661 # 10.0.57.88
 
 ## asic password
 asicpass admin
+
 
 
 
