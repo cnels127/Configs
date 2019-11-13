@@ -56,6 +56,11 @@ efd6b3 maxwatts 1350 # 10.0.68.98
 07c674 reboot 1573636443 # 10.0.68.93
 efd6b3 reboot 1573636443 # 10.0.68.98
 
+07c674 maxwatts 1050 # 10.0.68.93
+efd6b3 maxwatts 1350 # 10.0.68.98
+07c674 reboot 1573636443 # 10.0.68.93
+efd6b3 reboot 1573636443 # 10.0.68.98
+
 07c674 maxwatts 1150 # 10.0.68.93
 07c674 reboot 1573633060 # 10.0.68.93
 
@@ -212,6 +217,7 @@ ce82d1 reboot 1573585523 # 10.0.68.100
 
 ## asic password
 asicpass admin
+
 
 
 

@@ -52,6 +52,9 @@ vlan 10.0.117.17-17
 4fc5e3 maxwatts 1400 # 10.0.116.79
 4fc5e3 reboot 1573636522 # 10.0.116.79
 
+4fc5e3 maxwatts 1400 # 10.0.116.79
+4fc5e3 reboot 1573636522 # 10.0.116.79
+
 4fc5e3 reboot 1573613880 # 10.0.116.79 poliv00002
  
 
@@ -64,5 +67,6 @@ vlan 10.0.117.17-17
 
 ## asic password
 asicpass admin
+
 
 
