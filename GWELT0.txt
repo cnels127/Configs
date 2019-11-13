@@ -574,6 +574,11 @@ d02def maxwatts 1100 # 10.0.58.156
 0325b4 reboot 1573624596 # 10.0.58.160
 d02def reboot 1573624596 # 10.0.58.156
 
+0325b4 maxwatts 1100 # 10.0.58.160
+d02def maxwatts 1100 # 10.0.58.156
+0325b4 reboot 1573624596 # 10.0.58.160
+d02def reboot 1573624596 # 10.0.58.156
+
 165af1 maxwatts -100 # 10.0.64.9
 7d38ef maxwatts 900 # 10.0.67.88
 165af1 reboot 1573622897 # 10.0.64.9
@@ -3098,6 +3103,7 @@ ce7138 reset 1573273407
 
 ## asic password
 asicpass admin
+
 
 
 
