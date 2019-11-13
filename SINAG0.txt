@@ -47,35 +47,6 @@ db9779 location SINAG00003
 d3a31d location SINAG00004
 
 ## tuning
-db9779 reboot 1573618459 # 10.0.65.130 sinag00003
- 
-
-d3a31d maxwatts 1250 # 10.0.65.146
-d3a31d reboot 1573592727 # 10.0.65.146
-
-d3a31d maxwatts 1250 # 10.0.65.146
-d3a31d reboot 1573592727 # 10.0.65.146
-
-db9779 reboot 1573561383 # 10.0.65.130 sinag00003
- 
-
-d3a31d maxwatts 1350 # 10.0.65.146
-d3a31d reboot 1573560311 # 10.0.65.146
-
-d3a31d maxwatts 1350 # 10.0.65.146
-d3a31d reboot 1573560311 # 10.0.65.146
-
-db9779 maxwatts 1350 # 10.0.65.130
-db9779 reboot 1573536388 # 10.0.65.130
-
-db9779 maxwatts 1350 # 10.0.65.130
-db9779 reboot 1573536388 # 10.0.65.130
-
-db9779 maxwatts 1350 # 10.0.65.130
-db9779 reboot 1573534567 # 10.0.65.130
-
-db9779 maxwatts 1350 # 10.0.65.130
-db9779 reboot 1573534567 # 10.0.65.130
 
 
 ## reboots
