@@ -24,7 +24,7 @@ global autoupdate yes
 global allowed yes
 global maxtemp 90 1
 # global throttle 100
-global fanspeed 100
+global fanspeed 80
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
@@ -32,6 +32,8 @@ global blinkgreen rapid
 # global retune 1
 # global reboot 1
 # global reset 1
+global reset 1573679782
+
 # global panelpass gj83Nkgikg
 
 ## vlans
@@ -45,52 +47,6 @@ vlan 10.0.66.116-116
 551f73 location CCADR00003
 
 ## tuning
-549631 maxwatts 1250 # 10.0.64.105
-549631 reboot 1573615224 # 10.0.64.105
-
-549631 maxwatts 1250 # 10.0.64.105
-549631 reboot 1573615224 # 10.0.64.105
-
-549631 maxwatts 1350 # 10.0.64.105
-549631 reboot 1573611742 # 10.0.64.105
-
-549631 maxwatts 1350 # 10.0.64.105
-549631 reboot 1573611742 # 10.0.64.105
-
-551f73 maxwatts 1350 # 10.0.66.116
-551f73 reboot 1573567061 # 10.0.66.116
-
-551f73 maxwatts 1350 # 10.0.66.116
-551f73 reboot 1573567061 # 10.0.66.116
-
-1c6e2b maxwatts 1050 # 10.0.64.153
-1c6e2b reboot 1573550012 # 10.0.64.153
-
-1c6e2b maxwatts 1050 # 10.0.64.153
-1c6e2b reboot 1573550012 # 10.0.64.153
-
-1c6e2b maxwatts 1150 # 10.0.64.153
-1c6e2b reboot 1573527476 # 10.0.64.153
-
-1c6e2b maxwatts 1150 # 10.0.64.153
-1c6e2b reboot 1573527476 # 10.0.64.153
-
-1c6e2b maxwatts 1250 # 10.0.64.153
-1c6e2b reboot 1573517478 # 10.0.64.153
-
-1c6e2b maxwatts 1250 # 10.0.64.153
-1c6e2b reboot 1573517478 # 10.0.64.153
-
-1c6e2b maxwatts 1350 # 10.0.64.153
-1c6e2b reboot 1573514064 # 10.0.64.153
-
-1c6e2b maxwatts 1350 # 10.0.64.153
-1c6e2b reboot 1573514064 # 10.0.64.153
-
-1c6e2b reboot 1573502770 # 10.0.64.153 ccadr00002
- 
-
-
 
 ## reboots
 # s_reboot generated on Nov 11 2019 18:37:49 utc: 1573497469
