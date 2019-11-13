@@ -59,6 +59,9 @@ a43fe6 location SCOST00006
 cc96e4 location SCOST00010
 
 ## tuning
+133b75 maxwatts 250 # 10.0.67.153
+133b75 reboot 1573678110 # 10.0.67.153
+
 133b75 maxwatts 350 # 10.0.67.153
 133b75 reboot 1573676424 # 10.0.67.153
 
@@ -192,6 +195,7 @@ cee4db reboot 1573618457 # 10.0.115.32 scost00001
 
 ## asic password
 asicpass admin
+
 
 
 
