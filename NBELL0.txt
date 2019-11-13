@@ -470,6 +470,13 @@ ecde5a maxwatts 1350 # 10.0.121.153
 dd72ac reboot 1573610016 # 10.0.77.55
 ecde5a reboot 1573610016 # 10.0.121.153
 
+503b9a maxwatts 1050 # 10.0.65.96
+dd72ac maxwatts 1350 # 10.0.77.55
+ecde5a maxwatts 1350 # 10.0.121.153
+503b9a reboot 1573610016 # 10.0.65.96
+dd72ac reboot 1573610016 # 10.0.77.55
+ecde5a reboot 1573610016 # 10.0.121.153
+
 620f30 maxwatts 1050 # 10.0.65.92
 503b9a maxwatts 1150 # 10.0.65.96
 1713c8 maxwatts 1350 # 10.0.65.138
@@ -741,6 +748,7 @@ f0f240 reset 1573070538
 
 ## asic password
 asicpass admin
+
 
 
 
