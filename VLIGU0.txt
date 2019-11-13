@@ -144,6 +144,19 @@ db2bbb location VLIGU00092
 430b5d location VLIGU00100
 
 ## tuning
+d517e7 maxwatts 1050 # 10.0.57.106
+de6bea maxwatts 950 # 10.0.57.94
+89fcd2 maxwatts 1150 # 10.0.57.92
+093dac maxwatts 1150 # 10.0.57.90
+8e1779 maxwatts 1050 # 10.0.57.99
+2c95c4 maxwatts 1350 # 10.0.57.107
+d517e7 reboot 1573626385 # 10.0.57.106
+de6bea reboot 1573626385 # 10.0.57.94
+89fcd2 reboot 1573626385 # 10.0.57.92
+093dac reboot 1573626385 # 10.0.57.90
+8e1779 reboot 1573626385 # 10.0.57.99
+2c95c4 reboot 1573626385 # 10.0.57.107
+
 d517e7 maxwatts 1150 # 10.0.57.106
 bc004c maxwatts 1050 # 10.0.57.104
 d517e7 reboot 1573624684 # 10.0.57.106
@@ -555,6 +568,7 @@ da3f92 reboot 1573577661 # 10.0.57.88
 
 ## asic password
 asicpass admin
+
 
 
 
