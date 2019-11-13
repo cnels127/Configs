@@ -24,7 +24,7 @@ global autoupdate yes
 global allowed yes
 global maxtemp 90 1
 # global throttle 100
-global fanspeed 100
+global fanspeed 80
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
@@ -32,6 +32,8 @@ global blinkgreen rapid
 # global retune 1
 # global reboot 1
 # global reset 1
+global reset 1573677282
+
 # global panelpass gj83Nkgikg
 
 ## vlans
@@ -45,59 +47,6 @@ b7e4cf location SNEVI00003
 d2fc8a location SNEVI00005
 
 ## tuning
-b7e4cf maxwatts 1150 # 10.0.68.66
-b7e4cf reboot 1573676431 # 10.0.68.66
-
-b7e4cf maxwatts 1150 # 10.0.68.66
-b7e4cf reboot 1573676431 # 10.0.68.66
-
-b7e4cf maxwatts 1250 # 10.0.68.66
-b7e4cf reboot 1573666219 # 10.0.68.66
-
-b7e4cf maxwatts 1250 # 10.0.68.66
-b7e4cf reboot 1573666219 # 10.0.68.66
-
-b7e4cf reboot 1573663195 # 10.0.68.66 snevi00003
- 
-
-b7e4cf reboot 1573658268 # 10.0.68.66 snevi00003
- 
-
-b7e4cf reboot 1573654993 # 10.0.68.66 snevi00003
- 
-
-3ac65a reboot 1573650055 # 10.0.68.67 snevi00004
-b7e4cf reboot 1573650055 # 10.0.68.66 snevi00003
- 
-
-3ac65a maxwatts 1250 # 10.0.68.67
-b7e4cf maxwatts 1350 # 10.0.68.66
-3ac65a reboot 1573636547 # 10.0.68.67
-b7e4cf reboot 1573636547 # 10.0.68.66
-
-3ac65a maxwatts 1250 # 10.0.68.67
-b7e4cf maxwatts 1350 # 10.0.68.66
-3ac65a reboot 1573636547 # 10.0.68.67
-b7e4cf reboot 1573636547 # 10.0.68.66
-
-42ac6f maxwatts 1250 # 10.0.68.64
-42ac6f reboot 1573617260 # 10.0.68.64
-
-42ac6f maxwatts 1250 # 10.0.68.64
-42ac6f reboot 1573617260 # 10.0.68.64
-
-42ac6f maxwatts 1350 # 10.0.68.64
-42ac6f reboot 1573606447 # 10.0.68.64
-
-42ac6f maxwatts 1350 # 10.0.68.64
-42ac6f reboot 1573606447 # 10.0.68.64
-
-3ac65a maxwatts 1350 # 10.0.68.67
-3ac65a reboot 1573515861 # 10.0.68.67
-
-3ac65a maxwatts 1350 # 10.0.68.67
-3ac65a reboot 1573515861 # 10.0.68.67
-
 
 ## reboots
 # s_reboot generated on Nov 11 2019 19:11:26 utc: 1573499486
