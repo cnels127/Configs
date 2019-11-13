@@ -574,6 +574,11 @@ ebe3ba maxwatts 1200 # 10.0.67.110
 ebe3ba reboot 1573688174 # 10.0.67.110
 81760c reboot 1573688174 # 10.0.58.119
 
+ebe3ba maxwatts 1200 # 10.0.67.110
+81760c maxwatts 1400 # 10.0.58.119
+ebe3ba reboot 1573688174 # 10.0.67.110
+81760c reboot 1573688174 # 10.0.58.119
+
 ebe3ba maxwatts 1300 # 10.0.67.110
 96cc66 maxwatts 1400 # 10.0.58.148
 93a8f8 maxwatts 1400 # 10.0.66.33
@@ -860,6 +865,7 @@ ce7138 reset 1573273407
 
 ## asic password
 asicpass admin
+
 
 
 
