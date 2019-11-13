@@ -45,6 +45,9 @@ bdc4b8 location DWINL00001
 c8aece location DWINL00003
 
 ## tuning
+bdc4b8 maxwatts 1100 # 10.0.63.91
+bdc4b8 reboot 1573638169 # 10.0.63.91
+
 bdc4b8 maxwatts 1200 # 10.0.63.91
 bdc4b8 reboot 1573626292 # 10.0.63.91
 
@@ -70,6 +73,7 @@ bdc4b8 reboot 1573594383 # 10.0.63.91
 
 ## asic password
 asicpass admin
+
 
 
 
