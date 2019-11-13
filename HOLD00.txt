@@ -226,6 +226,15 @@ af7328 location BBHAY00085
 935b5a location BBHAY00090
 
 ## tuning
+0646b0 maxwatts 750 # 10.0.64.100
+4c657f maxwatts 1250 # 10.0.64.101
+34129a maxwatts 1150 # 10.0.64.83
+4951af maxwatts 1350 # 10.0.64.94
+0646b0 reboot 1573611805 # 10.0.64.100
+4c657f reboot 1573611805 # 10.0.64.101
+34129a reboot 1573611805 # 10.0.64.83
+4951af reboot 1573611805 # 10.0.64.94
+
 0646b0 maxwatts 850 # 10.0.64.100
 ae0bc3 maxwatts 850 # 10.0.63.87
 34129a maxwatts 1150 # 10.0.64.83
@@ -688,6 +697,7 @@ ce8824 reboot 1573585570 # 10.0.63.28
 
 ## asic password
 asicpass admin
+
 
 
 
