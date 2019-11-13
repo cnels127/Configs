@@ -24,7 +24,7 @@ global autoupdate yes
 global allowed yes
 global maxtemp 90 1
 # global throttle 100
-global fanspeed 100
+global fanspeed 80
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
@@ -32,6 +32,8 @@ global blinkgreen rapid
 # global retune 1
 # global reboot 1
 # global reset 1
+global reset 1573675268
+
 # global panelpass gj83Nkgikg
 
 ## vlans
@@ -45,95 +47,6 @@ f7deb6 location TNOLA00002
 be162a location TNOLA00005
 
 ## tuning
-9e6254 maxwatts 850 # 10.0.57.78
-9e6254 reboot 1573674752 # 10.0.57.78
-
-9e6254 maxwatts 850 # 10.0.57.78
-9e6254 reboot 1573674752 # 10.0.57.78
-
-be162a maxwatts 950 # 10.0.57.80
-be162a reboot 1573574147 # 10.0.57.80
-
-be162a maxwatts 950 # 10.0.57.80
-be162a reboot 1573574147 # 10.0.57.80
-
-f7deb6 maxwatts 1150 # 10.0.57.77
-f7deb6 reboot 1573563744 # 10.0.57.77
-
-f7deb6 maxwatts 1150 # 10.0.57.77
-f7deb6 reboot 1573563744 # 10.0.57.77
-
-9e6254 maxwatts 950 # 10.0.57.78
-be162a maxwatts 1050 # 10.0.57.80
-9e6254 reboot 1573541598 # 10.0.57.78
-be162a reboot 1573541598 # 10.0.57.80
-
-9e6254 maxwatts 950 # 10.0.57.78
-be162a maxwatts 1050 # 10.0.57.80
-9e6254 reboot 1573541598 # 10.0.57.78
-be162a reboot 1573541598 # 10.0.57.80
-
-9e6254 maxwatts 1050 # 10.0.57.78
-9e6254 reboot 1573536421 # 10.0.57.78
-
-9e6254 maxwatts 1050 # 10.0.57.78
-9e6254 reboot 1573536421 # 10.0.57.78
-
-be162a maxwatts 1150 # 10.0.57.80
-be162a reboot 1573534601 # 10.0.57.80
-
-be162a maxwatts 1150 # 10.0.57.80
-be162a reboot 1573534601 # 10.0.57.80
-
-be162a maxwatts 1250 # 10.0.57.80
-9e6254 maxwatts 1150 # 10.0.57.78
-be162a reboot 1573532805 # 10.0.57.80
-9e6254 reboot 1573532805 # 10.0.57.78
-
-be162a maxwatts 1250 # 10.0.57.80
-9e6254 maxwatts 1150 # 10.0.57.78
-be162a reboot 1573532805 # 10.0.57.80
-9e6254 reboot 1573532805 # 10.0.57.78
-
-8bbd8a maxwatts 1250 # 10.0.57.79
-8bbd8a reboot 1573527703 # 10.0.57.79
-
-8bbd8a maxwatts 1250 # 10.0.57.79
-8bbd8a reboot 1573527703 # 10.0.57.79
-
-9e6254 maxwatts 1250 # 10.0.57.78
-be162a maxwatts 1350 # 10.0.57.80
-9e6254 reboot 1573517584 # 10.0.57.78
-be162a reboot 1573517584 # 10.0.57.80
-
-9e6254 maxwatts 1250 # 10.0.57.78
-be162a maxwatts 1350 # 10.0.57.80
-9e6254 reboot 1573517584 # 10.0.57.78
-be162a reboot 1573517584 # 10.0.57.80
-
-f7deb6 maxwatts 1250 # 10.0.57.77
-f7deb6 reboot 1573515876 # 10.0.57.77
-
-f7deb6 maxwatts 1250 # 10.0.57.77
-f7deb6 reboot 1573515876 # 10.0.57.77
-
-9e6254 maxwatts 1350 # 10.0.57.78
-f7deb6 maxwatts 1350 # 10.0.57.77
-8bbd8a maxwatts 1350 # 10.0.57.79
-9e6254 reboot 1573514170 # 10.0.57.78
-f7deb6 reboot 1573514170 # 10.0.57.77
-8bbd8a reboot 1573514170 # 10.0.57.79
-
-9e6254 maxwatts 1350 # 10.0.57.78
-f7deb6 maxwatts 1350 # 10.0.57.77
-8bbd8a maxwatts 1350 # 10.0.57.79
-9e6254 reboot 1573514170 # 10.0.57.78
-f7deb6 reboot 1573514170 # 10.0.57.77
-8bbd8a reboot 1573514170 # 10.0.57.79
-
-be162a reboot 1573502983 # 10.0.57.80 tnola00005
- 
-
 
 ## reboots
 # s_reboot generated on Nov 11 2019 19:14:54 utc: 1573499694
