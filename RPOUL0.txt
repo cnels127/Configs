@@ -24,7 +24,7 @@ global autoupdate yes
 global allowed yes
 global maxtemp 90 1
 # global throttle 100
-global fanspeed 60
+global fanspeed 80
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
@@ -44,54 +44,6 @@ vlan 10.0.68.30-33
 ba1c4a location RPOUL00004
 
 ## tuning
-2e86e9 reboot 1573650040 # 10.0.68.31 rpoul00002
-12c5ea reboot 1573650040 # 10.0.68.30 rpoul00001
- 
-
-2e86e9 maxwatts 950 # 10.0.68.31
-2e86e9 reboot 1573631451 # 10.0.68.31
-
-2e86e9 maxwatts 950 # 10.0.68.31
-2e86e9 reboot 1573631451 # 10.0.68.31
-
-12c5ea maxwatts 1250 # 10.0.68.30
-12c5ea reboot 1573629759 # 10.0.68.30
-
-12c5ea maxwatts 1250 # 10.0.68.30
-12c5ea reboot 1573629759 # 10.0.68.30
-
-2e86e9 maxwatts 1050 # 10.0.68.31
-12c5ea maxwatts 1350 # 10.0.68.30
-2e86e9 reboot 1573628060 # 10.0.68.31
-12c5ea reboot 1573628060 # 10.0.68.30
-
-2e86e9 maxwatts 1050 # 10.0.68.31
-12c5ea maxwatts 1350 # 10.0.68.30
-2e86e9 reboot 1573628060 # 10.0.68.31
-12c5ea reboot 1573628060 # 10.0.68.30
-
-2e86e9 maxwatts 1150 # 10.0.68.31
-2e86e9 reboot 1573615432 # 10.0.68.31
-
-2e86e9 maxwatts 1150 # 10.0.68.31
-2e86e9 reboot 1573615432 # 10.0.68.31
-
-ba1c4a reboot 1573613923 # 10.0.68.33 rpoul00004
- 
-
-2e86e9 maxwatts 1250 # 10.0.68.31
-2e86e9 reboot 1573606438 # 10.0.68.31
-
-2e86e9 maxwatts 1250 # 10.0.68.31
-2e86e9 reboot 1573606438 # 10.0.68.31
-
-2e86e9 maxwatts 1350 # 10.0.68.31
-2e86e9 reboot 1573599587 # 10.0.68.31
-
-2e86e9 maxwatts 1350 # 10.0.68.31
-2e86e9 reboot 1573599587 # 10.0.68.31
-
-
 
 ## reboots
 
@@ -100,21 +52,3 @@ ba1c4a reboot 1573613923 # 10.0.68.33 rpoul00004
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
