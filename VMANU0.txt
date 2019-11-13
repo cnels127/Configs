@@ -19,7 +19,7 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1400
+global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
@@ -31,7 +31,7 @@ global blinkgreen rapid
 
 # global retune 1
 # global reboot 1
-# global reset 1
+global reset 1573660124
 # global panelpass gj83Nkgikg
 
 ## vlans
