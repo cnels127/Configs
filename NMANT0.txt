@@ -41,6 +41,9 @@ vlan 10.0.58.132-132
 30946f location NMANT00001
 
 ## tuning
+30946f reboot 1573649317 # 10.0.58.132 nmant00001
+ 
+
 30946f reboot 1573561350 # 10.0.58.132 nmant00001
  
 
@@ -57,6 +60,7 @@ vlan 10.0.58.132-132
 
 ## asic password
 asicpass admin
+
 
 
 
