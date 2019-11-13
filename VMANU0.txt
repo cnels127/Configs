@@ -31,7 +31,9 @@ global blinkgreen rapid
 
 # global retune 1
 # global reboot 1
-global reset 1573660124
+# global reset 1
+global reset 1573675268
+
 # global panelpass gj83Nkgikg
 
 ## vlans
@@ -109,18 +111,6 @@ c6bede location VMANU00034
 5f0304 location VMANU00035
 
 ## tuning
-e1abed maxwatts 1350 # 10.0.65.39
-e1abed reboot 1573669659 # 10.0.65.39
-
-e1abed maxwatts 1350 # 10.0.65.39
-e1abed reboot 1573669659 # 10.0.65.39
-
-8e887d maxwatts 1350 # 10.0.66.31
-8e887d reboot 1573667954 # 10.0.66.31
-
-8e887d reboot 1573663213 # 10.0.66.31 vmanu00021
- 
-
 
 ## reboots
 # s_reboot generated on Nov 11 2019 19:16:19 utc: 1573499779
