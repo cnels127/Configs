@@ -59,6 +59,10 @@ a43fe6 location SCOST00006
 cc96e4 location SCOST00010
 
 ## tuning
+133b75 reboot 1573650045 # 10.0.67.153 scost00009
+9b4848 reboot 1573650045 # 10.0.68.47 set2
+ 
+
 cc96e4 reboot 1573649352 # 10.0.67.107 scost00010
 7462ce reboot 1573649352 # 10.0.120.65 scost00002
  
@@ -151,6 +155,7 @@ cee4db reboot 1573618457 # 10.0.115.32 scost00001
 
 ## asic password
 asicpass admin
+
 
 
 

@@ -42,6 +42,9 @@ vlan 10.0.68.40-41
 f69de1 location BBENS00002
 
 ## tuning
+815d57 reboot 1573649911 # 10.0.68.40 bbens00001
+ 
+
 f69de1 maxwatts 1200 # 10.0.68.41
 f69de1 reboot 1573629677 # 10.0.68.41
 
@@ -77,6 +80,7 @@ f69de1 reboot 1573497332 # 10.0.68.41 bbens00002
 
 ## asic password
 asicpass admin
+
 
 
 

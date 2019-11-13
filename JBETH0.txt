@@ -71,6 +71,12 @@ f0ed76 location JBETH00019
 8f1d39 location JBETH00020
 
 ## tuning
+2462cd reboot 1573649963 # 10.0.68.48 jbeth00001
+4db5d3 reboot 1573649963 # 10.0.60.35 jbeth00016
+966dd1 reboot 1573649963 # 10.0.68.49 jbeth00002
+37ffb3 reboot 1573649963 # 10.0.68.50 jbeth00003
+ 
+
 8f1d39 maxwatts 1350 # 10.0.60.143
 b340b4 maxwatts 1350 # 10.0.68.52
 8f1d39 reboot 1573636480 # 10.0.60.143
@@ -158,6 +164,7 @@ f0ed76 reset 1573492171
 
 ## asic password
 asicpass admin
+
 
 
 
