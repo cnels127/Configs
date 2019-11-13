@@ -24,7 +24,7 @@ global autoupdate yes
 global allowed yes
 global maxtemp 90 1
 # global throttle 100
-global fanspeed 100
+global fanspeed 80
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
@@ -32,6 +32,8 @@ global blinkgreen rapid
 # global retune 2
 global reboot 1573498204
 # global reset 1
+global reset 1573678506
+
 # global panelpass gj83Nkgikg
 
 ## 2 s9 on 1BcvWti9xXcgPooyDsy4SesR98g1HvBkYo
@@ -54,51 +56,6 @@ vlan 10.0.67.40-40
 ceac8d location HKATZ00005
 
 ## tuning
-fae301 reboot 1573649955 # 10.0.68.38 hkatz00001
-44ba88 reboot 1573649955 # 10.0.68.39 hkatz00002
- 
-
-ceac8d maxwatts 1050 # 10.0.67.40
-ceac8d reboot 1573629702 # 10.0.67.40
-
-ceac8d maxwatts 1050 # 10.0.67.40
-ceac8d reboot 1573629702 # 10.0.67.40
-
-ceac8d maxwatts 1150 # 10.0.67.40
-ceac8d reboot 1573628002 # 10.0.67.40
-
-ceac8d maxwatts 1150 # 10.0.67.40
-ceac8d reboot 1573628002 # 10.0.67.40
-
-ceac8d maxwatts 1250 # 10.0.67.40
-ceac8d reboot 1573626302 # 10.0.67.40
-
-ceac8d maxwatts 1250 # 10.0.67.40
-ceac8d reboot 1573626302 # 10.0.67.40
-
-ceac8d maxwatts 1350 # 10.0.67.40
-ceac8d reboot 1573622901 # 10.0.67.40
-
-ceac8d maxwatts 1350 # 10.0.67.40
-ceac8d reboot 1573622901 # 10.0.67.40
-
-fae301 maxwatts 1250 # 10.0.68.38
-fae301 reboot 1573615280 # 10.0.68.38
-
-fae301 maxwatts 1250 # 10.0.68.38
-fae301 reboot 1573615280 # 10.0.68.38
-
-15e78d maxwatts 1350 # 10.0.65.61
-15e78d reboot 1573599522 # 10.0.65.61
-
-15e78d maxwatts 1350 # 10.0.65.61
-15e78d reboot 1573599522 # 10.0.65.61
-
-fae301 maxwatts 1350 # 10.0.68.38
-fae301 reboot 1573589119 # 10.0.68.38
-
-fae301 maxwatts 1350 # 10.0.68.38
-fae301 reboot 1573589119 # 10.0.68.38
 
 
 ## reboots
