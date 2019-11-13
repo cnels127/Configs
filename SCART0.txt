@@ -328,6 +328,11 @@ ab39de maxwatts 1250 # 10.0.50.94
 9f0dc5 reboot 1573615436 # 10.0.50.92
 ab39de reboot 1573615436 # 10.0.50.94
 
+9f0dc5 maxwatts 1350 # 10.0.50.92
+ab39de maxwatts 1250 # 10.0.50.94
+9f0dc5 reboot 1573615436 # 10.0.50.92
+ab39de reboot 1573615436 # 10.0.50.94
+
 047af0 maxwatts 1050 # 10.0.30.159
 047af0 reboot 1573611967 # 10.0.30.159
 
@@ -433,6 +438,7 @@ d44702 reboot 1573587424 # 10.0.50.51
 
 ## asic password
 asicpass admin
+
 
 
 
