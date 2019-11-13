@@ -40,6 +40,11 @@ c4ce2d maxwatts 1150 # 10.0.121.82
 5ac22f reboot 1573681397 # 10.0.57.41
 c4ce2d reboot 1573681397 # 10.0.121.82
 
+5ac22f maxwatts 1150 # 10.0.57.41
+c4ce2d maxwatts 1150 # 10.0.121.82
+5ac22f reboot 1573681397 # 10.0.57.41
+c4ce2d reboot 1573681397 # 10.0.121.82
+
 d56eaf maxwatts 1050 # 10.0.57.35
 d56eaf reboot 1573679712 # 10.0.57.35
 
@@ -1804,6 +1809,7 @@ c6cbe1 username3 GMTVILLA01
 
 ## asic password
 asicpass admin
+
 
 
 

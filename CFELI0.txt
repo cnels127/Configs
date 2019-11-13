@@ -295,6 +295,9 @@ e352e4 location CFELI00124
 e2c47c maxwatts 1400 # 10.0.116.43
 e2c47c reboot 1573681408 # 10.0.116.43
 
+e2c47c maxwatts 1400 # 10.0.116.43
+e2c47c reboot 1573681408 # 10.0.116.43
+
 
 ## reboot
 # s_reboot generated on Nov 11 2019 18:39:41 utc: 1573497581
@@ -316,6 +319,7 @@ b8511f reset 1573247814
 
 ## asic password
 asicpass admin
+
 
 
 
