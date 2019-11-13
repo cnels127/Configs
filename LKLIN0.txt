@@ -57,6 +57,16 @@ vlan 10.0.115.48-48
 vlan 10.0.115.98-98
 vlan 10.0.116.15-15
 
+## Temporary extar machines, added 2019-11-13
+vlan 10.0.59.156-156
+vlan 10.0.64.4-4
+vlan 10.0.117.20-20
+vlan 10.0.117.23-23
+vlan 10.0.117.27-27
+vlan 10.0.118.51-51
+vlan 10.0.119.106-106
+vlan 10.0.120.105-105
+
 ## locations
 16d3c8 location LKLIN00001
 16da58 location LKLIN00002
@@ -78,23 +88,17 @@ a28737 location LKLIN00016
 e97769 location LKLIN00018
 bc5723 location LKLIN00019
 07a57a location LKLIN00020
+## Temporary extar machines, added 2019-11-13
+4447ae location EXTRA00001
+e9aa45 location EXTRA00002
+2f6996 location EXTRA00003
+8a2cec location EXTRA00004
+b26fd7 location EXTRA00005
+54b1c1 location EXTRA00006
+e64930 location EXTRA00007
+67a2f3 location EXTRA00008
 
 ## tuning
-07a57a maxwatts 1150 # 10.0.116.15
-07a57a reboot 1573671304 # 10.0.116.15
-
-07a57a maxwatts 1150 # 10.0.116.15
-07a57a reboot 1573671304 # 10.0.116.15
-
-07a57a maxwatts 1250 # 10.0.116.15
-07a57a reboot 1573669600 # 10.0.116.15
-
-07a57a maxwatts 1250 # 10.0.116.15
-07a57a reboot 1573669600 # 10.0.116.15
-
-07a57a maxwatts 1350 # 10.0.116.15
-07a57a reboot 1573667895 # 10.0.116.15
-
 
 ## reboots
 
@@ -102,33 +106,3 @@ bc5723 location LKLIN00019
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
