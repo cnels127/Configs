@@ -107,6 +107,13 @@ f71e65 maxwatts 1350 # 10.0.59.43
 f71e65 reboot 1573671272 # 10.0.59.43
 4fb133 reboot 1573671272 # 10.0.59.44
 
+8a804d maxwatts 1350 # 10.0.59.54
+f71e65 maxwatts 1350 # 10.0.59.43
+4fb133 maxwatts 1350 # 10.0.59.44
+8a804d reboot 1573671272 # 10.0.59.54
+f71e65 reboot 1573671272 # 10.0.59.43
+4fb133 reboot 1573671272 # 10.0.59.44
+
 ff488e maxwatts 1350 # 10.0.59.52
 ff488e reboot 1573669569 # 10.0.59.52
 
@@ -121,6 +128,7 @@ ff488e reboot 1573669569 # 10.0.59.52
 
 ## asic password
 asicpass admin
+
 
 
 
