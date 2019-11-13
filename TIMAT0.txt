@@ -70,6 +70,13 @@ ec43b1 maxwatts 1350 # 10.0.68.87
 308db8 reboot 1573669654 # 10.0.68.85
 ec43b1 reboot 1573669654 # 10.0.68.87
 
+1b0533 maxwatts 1150 # 10.0.68.83
+308db8 maxwatts 1150 # 10.0.68.85
+ec43b1 maxwatts 1350 # 10.0.68.87
+1b0533 reboot 1573669654 # 10.0.68.83
+308db8 reboot 1573669654 # 10.0.68.85
+ec43b1 reboot 1573669654 # 10.0.68.87
+
 1b0533 maxwatts 1250 # 10.0.68.83
 308db8 maxwatts 1250 # 10.0.68.85
 81a6b6 maxwatts 1350 # 10.0.68.91
@@ -106,6 +113,7 @@ d92393 reboot 1573666235 # 10.0.68.84
 
 ## asic password
 asicpass admin
+
 
 
 

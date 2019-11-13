@@ -195,6 +195,11 @@ d3cdf7 location LMACK00100
 671310 reboot 1573669601 # 10.0.64.106
 7c8c74 reboot 1573669601 # 10.0.64.103
 
+671310 maxwatts 1350 # 10.0.64.106
+7c8c74 maxwatts 1350 # 10.0.64.103
+671310 reboot 1573669601 # 10.0.64.106
+7c8c74 reboot 1573669601 # 10.0.64.103
+
 
 ## reboots
 
@@ -202,4 +207,5 @@ d3cdf7 location LMACK00100
 
 ## asic password
 asicpass admin
+
 
