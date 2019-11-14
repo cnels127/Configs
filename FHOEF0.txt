@@ -24,7 +24,7 @@ global autoupdate yes
 global allowed yes
 global maxtemp 90 1
 # global throttle 100
-global fanspeed 100
+global fanspeed 80
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
@@ -332,170 +332,13 @@ e4b5b6 reboot 1573671269 # 10.0.64.157
 
 
 ## fans
-8342ab fanspeed 50
 
 ## reboots
 
 ## resets
+bc2299 reset 1573766700
 d3176c reset 1573254670
 c16782 reset 1573669390 
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
