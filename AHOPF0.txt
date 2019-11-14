@@ -42,6 +42,13 @@ d67876 reboot 1573717636 # 10.0.121.158
 d3bb55 reboot 1573717636 # 10.0.120.6
 d56eaf reboot 1573717636 # 10.0.57.35
 
+d67876 maxwatts 1250 # 10.0.121.158
+d3bb55 maxwatts 950 # 10.0.120.6
+d56eaf maxwatts 950 # 10.0.57.35
+d67876 reboot 1573717636 # 10.0.121.158
+d3bb55 reboot 1573717636 # 10.0.120.6
+d56eaf reboot 1573717636 # 10.0.57.35
+
 d67876 maxwatts 1350 # 10.0.121.158
 d67876 reboot 1573715919 # 10.0.121.158
 
@@ -1902,6 +1909,7 @@ c6cbe1 username3 GMTVILLA01
 
 ## asic password
 asicpass admin
+
 
 
 
