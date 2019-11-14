@@ -44,6 +44,15 @@ e04134 maxwatts 1050 # 10.0.63.149
 e04134 reboot 1573703969 # 10.0.63.149
 03ee8e reboot 1573703969 # 10.0.62.29
 
+9b8cfa maxwatts 1150 # 10.0.60.51
+956bc8 maxwatts 1050 # 10.0.63.104
+e04134 maxwatts 1050 # 10.0.63.149
+03ee8e maxwatts 1350 # 10.0.62.29
+9b8cfa reboot 1573703969 # 10.0.60.51
+956bc8 reboot 1573703969 # 10.0.63.104
+e04134 reboot 1573703969 # 10.0.63.149
+03ee8e reboot 1573703969 # 10.0.62.29
+
 bef7dd maxwatts 950 # 10.0.60.124
 c94710 maxwatts 850 # 10.0.54.145
 7a8009 maxwatts 1050 # 10.0.63.46
@@ -1432,6 +1441,7 @@ af7328 location BBHAY00085
 
 ## asic password
 asicpass admin
+
 
 
 
