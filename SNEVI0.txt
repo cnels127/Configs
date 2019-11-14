@@ -31,9 +31,7 @@ global blinkgreen rapid
 
 # global retune 1
 # global reboot 1
-# global reset 1
-global reset 1573677282
-
+# global reset 1573677282
 # global panelpass gj83Nkgikg
 
 ## vlans
@@ -46,59 +44,6 @@ b7e4cf location SNEVI00003
 3ac65a location SNEVI00004
 d2fc8a location SNEVI00005
 
-## tuning
-42ac6f reboot 1573745633 # 10.0.68.64 snevi00001
- 
-
-42ac6f reboot 1573742358 # 10.0.68.64 snevi00001
- 
-
-42ac6f reboot 1573740729 # 10.0.68.64 snevi00001
- 
-
-42ac6f reboot 1573739079 # 10.0.68.64 snevi00001
- 
-
-42ac6f maxwatts 1250 # 10.0.68.64
-42ac6f reboot 1573721205 # 10.0.68.64
-
-42ac6f maxwatts 1250 # 10.0.68.64
-42ac6f reboot 1573721205 # 10.0.68.64
-
-42ac6f maxwatts 1250 # 10.0.68.64
-42ac6f reboot 1573719480 # 10.0.68.64
-
-42ac6f maxwatts 1250 # 10.0.68.64
-42ac6f reboot 1573719480 # 10.0.68.64
-
-b7e4cf maxwatts 1050 # 10.0.68.66
-b7e4cf reboot 1573714316 # 10.0.68.66
-
-b7e4cf maxwatts 1050 # 10.0.68.66
-b7e4cf reboot 1573714316 # 10.0.68.66
-
-b7e4cf maxwatts 1150 # 10.0.68.66
-b7e4cf reboot 1573704047 # 10.0.68.66
-
-b7e4cf maxwatts 1150 # 10.0.68.66
-b7e4cf reboot 1573704047 # 10.0.68.66
-
-b7e4cf maxwatts 1250 # 10.0.68.66
-b7e4cf reboot 1573695044 # 10.0.68.66
-
-b7e4cf maxwatts 1250 # 10.0.68.66
-b7e4cf reboot 1573695044 # 10.0.68.66
-
-b7e4cf maxwatts 1350 # 10.0.68.66
-b7e4cf reboot 1573681489 # 10.0.68.66
-
-b7e4cf maxwatts 1350 # 10.0.68.66
-b7e4cf reboot 1573681489 # 10.0.68.66
-
-42ac6f maxwatts 1350 # 10.0.68.64
-42ac6f reboot 1573679802 # 10.0.68.64
-
-
 ## reboots
 # s_reboot generated on Nov 11 2019 19:11:26 utc: 1573499486
 b7e4cf reboot 1573499486 # 10.0.68.66 snevi00003
@@ -108,36 +53,3 @@ b7e4cf reboot 1573499486 # 10.0.68.66 snevi00003
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
