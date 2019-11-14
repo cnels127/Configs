@@ -196,6 +196,13 @@ f026f7 maxwatts 1200 # 10.0.56.51
 848aa3 reboot 1573705660 # 10.0.56.39
 f026f7 reboot 1573705660 # 10.0.56.51
 
+7a2044 maxwatts 900 # 10.0.55.84
+848aa3 maxwatts 900 # 10.0.56.39
+f026f7 maxwatts 1200 # 10.0.56.51
+7a2044 reboot 1573705660 # 10.0.55.84
+848aa3 reboot 1573705660 # 10.0.56.39
+f026f7 reboot 1573705660 # 10.0.56.51
+
 7a2044 maxwatts 1000 # 10.0.55.84
 fc9a2f maxwatts 1200 # 10.0.56.70
 86b92d maxwatts 1400 # 10.0.56.61
@@ -884,6 +891,7 @@ d8b55c reboot 1573587300 # 10.0.55.95
 
 ## asic password
 asicpass admin
+
 
 
 
