@@ -199,6 +199,15 @@ baa645 reboot 1573707422 # 10.0.54.77
 f51c4d reboot 1573707422 # 10.0.64.161
 9cbaab reboot 1573707422 # 10.0.54.79
 
+bf813c maxwatts 1150 # 10.0.54.93
+baa645 maxwatts 1350 # 10.0.54.77
+f51c4d maxwatts 1050 # 10.0.64.161
+9cbaab maxwatts 1350 # 10.0.54.79
+bf813c reboot 1573707422 # 10.0.54.93
+baa645 reboot 1573707422 # 10.0.54.77
+f51c4d reboot 1573707422 # 10.0.64.161
+9cbaab reboot 1573707422 # 10.0.54.79
+
 4e22e3 maxwatts 1250 # 10.0.65.41
 4e22e3 reboot 1573705717 # 10.0.65.41
 
@@ -384,6 +393,7 @@ aa901a reboot 1573671305 # 10.0.64.13
 
 ## asic password
 asicpass admin
+
 
 
 
