@@ -569,6 +569,11 @@ fdbabb location GWELT00296
 989b0b location GWELT00300
 
 ## tuning
+31a25b reboot 1573748832 # 10.0.58.146 gwelt00088
+73b928 reboot 1573748832 # 10.0.58.39 gwelt00007
+a29dfd reboot 1573748832 # 10.0.58.38 gwelt00006
+ 
+
 73b928 reboot 1573745564 # 10.0.58.39 gwelt00007
 31a25b reboot 1573745564 # 10.0.58.146 gwelt00088
 9a50ee reboot 1573745564 # 10.0.58.145 gwelt00087
@@ -1317,6 +1322,7 @@ ce7138 reset 1573273407
 
 ## asic password
 asicpass admin
+
 
 
 
