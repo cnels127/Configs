@@ -26,7 +26,7 @@ global autoupdate yes
 global allowed yes
 global maxtemp 90 1
 # global throttle 100
-global fanspeed 100
+global fanspeed 80
 global fansaver no
 global blinkred idle
 global blinkgreen rapid
@@ -71,19 +71,9 @@ f0ed76 location JBETH00019
 8f1d39 location JBETH00020
 
 ## fans
+2462cd fanspeed 100
 
 ## reboots
- s_reboot generated on Nov 12 2019 23:08:08 utc: 1573600088
-4db5d3 reboot 1573600088 # 10.0.60.35 jbeth00016
-8f1d39 reboot 1573600088 # 10.0.60.143 jbeth00020
-434e7d reboot 1573600088 # 10.0.68.102 jbeth00006
-690f5d reboot 1573600088 # 10.0.68.104 jbeth00008
-2462cd reboot 1573600088 # 10.0.68.48 jbeth00001
-# s_reboot generated on Nov 11 2019 19:40:11 utc: 1573501211
-690f5d reboot 1573501211 # 10.0.68.104 jbeth00008
-8f1d39 reboot 1573501211 # 10.0.60.143 jbeth00020
-406249 reboot 1573501211 # 10.0.68.105 jbeth00009
-39be0c reboot 1573501211 # 10.0.68.106 jbeth00010
 
 ## resets
 a3883c reset 1573603345
@@ -96,129 +86,4 @@ f0ed76 reset 1573492171
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
