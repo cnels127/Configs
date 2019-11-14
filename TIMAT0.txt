@@ -25,7 +25,7 @@ global allowed yes
 global maxtemp 90 1
 # global throttle 100
 global fanspeed 80
-global fansaver no
+global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
@@ -62,18 +62,7 @@ f2296d location TIMAT00021
 12dafb location TIMAT00022
 81a6b6 location TIMAT00023
 
-## tuning
-f2296d reboot 1573763596 # 10.0.68.89 timat00021
-c3f792 reboot 1573763596 # 10.0.68.82 timat00014
- 
-
-f2296d reboot 1573761963 # 10.0.68.89 timat00021
- 
-
-d92393 reboot 1573748912 # 10.0.68.84 timat00016
-2665f7 reboot 1573748912 # 10.0.68.76 timat00008
- 
-
+## 
 
 ## reboots
 
