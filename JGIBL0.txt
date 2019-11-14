@@ -50,6 +50,11 @@ ffc9c8 maxwatts 900 # 10.0.56.90
 b897c7 reboot 1573728047 # 10.0.55.158
 ffc9c8 reboot 1573728047 # 10.0.56.90
 
+b897c7 maxwatts 600 # 10.0.55.158
+ffc9c8 maxwatts 900 # 10.0.56.90
+b897c7 reboot 1573728047 # 10.0.55.158
+ffc9c8 reboot 1573728047 # 10.0.56.90
+
 b897c7 maxwatts 700 # 10.0.55.158
 b897c7 reboot 1573715967 # 10.0.55.158
 
@@ -131,6 +136,7 @@ ffc9c8 reboot 1573669581 # 10.0.56.90
 
 ## asic password
 asicpass admin
+
 
 
 
