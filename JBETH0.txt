@@ -6,15 +6,15 @@
 global custompanel JBETH0bit049
 global customer bit49
 
-poolname1 stratum+tcp://btc.ss.poolin.com:443
-username1 johnbeth
-poolpass1 123
-poolname2 stratum+tcp://btc.ss.poolin.com:1883
-username2 johnbeth
-poolpass2 123
-poolname3 eu.ss.btc.com:1800
-username3 johnbeth
-poolpass4 123
+global poolname1 stratum+tcp://btc.ss.poolin.com:443
+global username1 johnbeth
+global poolpass1 123
+global poolname2 stratum+tcp://btc.ss.poolin.com:1883
+global username2 johnbeth
+global poolpass2 123
+global poolname3 eu.ss.btc.com:1800
+global username3 johnbeth
+global poolpass4 123
 
 global asicboost yes
 global autotune yes
