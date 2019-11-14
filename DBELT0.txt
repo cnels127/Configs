@@ -56,6 +56,9 @@ e7a422 location DBELT00002
 
 ## tuning
 356422 maxwatts -100 # 10.0.54.159
+356422 reboot 1573731475 # 10.0.54.159
+
+356422 maxwatts -100 # 10.0.54.159
 356422 reboot 1573729749 # 10.0.54.159
 
 356422 maxwatts -100 # 10.0.54.159
@@ -198,6 +201,7 @@ e7a422 location DBELT00002
 
 ## asic password
 asicpass admin
+
 
 
 
