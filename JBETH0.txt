@@ -26,7 +26,7 @@ global autoupdate yes
 global allowed yes
 global maxtemp 90 1
 # global throttle 100
-global fanspeed 60
+global fanspeed 80
 global fansaver no
 global blinkred idle
 global blinkgreen rapid
@@ -71,9 +71,6 @@ f0ed76 location JBETH00019
 8f1d39 location JBETH00020
 
 ## fans
-aba209 fanspeed 80
-d549fd fanspeed 80
-2462cd fanspeed 80
 
 ## reboots
 
