@@ -69,6 +69,10 @@ f1ae88 location PEGAN00014
 4900fd location PEGAN00015
 
 ## tuning
+ef1f6e reboot 1573752141 # 10.0.68.34 pegan00004
+4e0552 reboot 1573752141 # 10.0.115.2 pegan00011
+ 
+
 ef1f6e reboot 1573750507 # 10.0.68.34 pegan00004
 4e0552 reboot 1573750507 # 10.0.115.2 pegan00011
  
@@ -161,6 +165,7 @@ d20101 reset 1573254748
 
 ## asic password
 asicpass admin
+
 
 
 
