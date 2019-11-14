@@ -580,6 +580,17 @@ e9f5d8 reboot 1573726296 # 10.0.58.41
 ebe3ba reboot 1573726296 # 10.0.67.110
 9a50ee reboot 1573726296 # 10.0.58.145
 
+df6891 maxwatts 700 # 10.0.67.81
+80d217 maxwatts 900 # 10.0.58.40
+e9f5d8 maxwatts 600 # 10.0.58.41
+ebe3ba maxwatts 1100 # 10.0.67.110
+9a50ee maxwatts 1400 # 10.0.58.145
+df6891 reboot 1573726296 # 10.0.67.81
+80d217 reboot 1573726296 # 10.0.58.40
+e9f5d8 reboot 1573726296 # 10.0.58.41
+ebe3ba reboot 1573726296 # 10.0.67.110
+9a50ee reboot 1573726296 # 10.0.58.145
+
 df6891 maxwatts 800 # 10.0.67.81
 80d217 maxwatts 1000 # 10.0.58.40
 df6891 reboot 1573724570 # 10.0.67.81
@@ -1258,6 +1269,7 @@ ce7138 reset 1573273407
 
 ## asic password
 asicpass admin
+
 
 
 

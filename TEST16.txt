@@ -44,6 +44,11 @@ a7849c maxwatts 850 # 10.0.66.23
 a7849c reboot 1573726396 # 10.0.66.23
 
 647daf maxwatts -50 # 10.0.77.23
+a7849c maxwatts 850 # 10.0.66.23
+647daf reboot 1573726396 # 10.0.77.23
+a7849c reboot 1573726396 # 10.0.66.23
+
+647daf maxwatts -50 # 10.0.77.23
 647daf reboot 1573724668 # 10.0.77.23
 
 647daf maxwatts -50 # 10.0.77.23
@@ -537,6 +542,7 @@ e9aa45 reset 1573274335
 
 ## asic password
 asicpass admin
+
 
 
 
