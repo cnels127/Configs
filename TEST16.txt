@@ -39,6 +39,9 @@ global blinkgreen rapid
 
 ## tuning
 647daf maxwatts -50 # 10.0.77.23
+647daf reboot 1573724668 # 10.0.77.23
+
+647daf maxwatts -50 # 10.0.77.23
 647daf reboot 1573722946 # 10.0.77.23
 
 647daf maxwatts -50 # 10.0.77.23
@@ -526,6 +529,7 @@ e9aa45 reset 1573274335
 
 ## asic password
 asicpass admin
+
 
 
 
