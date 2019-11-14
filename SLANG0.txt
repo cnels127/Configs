@@ -4,12 +4,12 @@
 global custompanel SLANG0bit049
 global customer bit49
 
-global poolname1 us-east.stratum.slushpool.com:3333
-global username1 gameseb
+global poolname1 profit.pool.bitcoin.com:3333
+global username1 sebmedia
 global poolpass1 123
 global sendworker1 yes
-global poolname2 profit.pool.bitcoin.com:3333
-global username2 sebmedia
+global poolname2 us-east.stratum.slushpool.com:3333
+global username2 gameseb
 global poolpass2 123
 global sendworker2 yes
 global poolname3 us.ss.btc.com:1800
@@ -107,7 +107,8 @@ cc9cd4 location SLANG00025
 ## reboots
 
 ## resets
-
+3c8ba2 reset 1573746896
+15269c reset 1573746896
 ## asic password
 asicpass admin
 
