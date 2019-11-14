@@ -61,6 +61,11 @@ fae301 maxwatts 950 # 10.0.68.38
 fae301 reboot 1573719404 # 10.0.68.38
 7f79ef reboot 1573719404 # 10.0.66.30
 
+fae301 maxwatts 950 # 10.0.68.38
+7f79ef maxwatts 1350 # 10.0.66.30
+fae301 reboot 1573719404 # 10.0.68.38
+7f79ef reboot 1573719404 # 10.0.66.30
+
 fae301 maxwatts 1050 # 10.0.68.38
 44ba88 maxwatts 1250 # 10.0.68.39
 ceac8d maxwatts 1150 # 10.0.67.40
@@ -123,6 +128,7 @@ ceac8d reboot 1573497814 # 10.0.67.40 hkatz00005
 
 ## asic password
 asicpass admin
+
 
 
 
