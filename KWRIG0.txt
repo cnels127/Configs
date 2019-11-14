@@ -45,6 +45,10 @@ vlan 10.0.68.109-110
 2a7ac0 location KWRIG00004
 
 ## tuning
+29bca0 reboot 1573739009 # 10.0.68.109 kwrig00003
+2a7ac0 reboot 1573739009 # 10.0.68.110 kwrig00004
+ 
+
 29bca0 maxwatts 1250 # 10.0.68.109
 29bca0 reboot 1573728068 # 10.0.68.109
 
@@ -70,6 +74,7 @@ vlan 10.0.68.109-110
 
 ## asic password
 asicpass admin
+
 
 
 

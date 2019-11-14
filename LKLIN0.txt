@@ -99,6 +99,11 @@ e64930 location EXTRA00007
 67a2f3 location EXTRA00008
 
 ## tuning
+2b0498 reboot 1573739013 # 10.0.65.43 lklin00008
+7106b2 reboot 1573739013 # 10.0.67.145 lklin00010
+ed846d reboot 1573739013 # 10.0.63.107 lklin00007
+ 
+
 2b0498 maxwatts 1350 # 10.0.65.43
 2b0498 reboot 1573719433 # 10.0.65.43
 
@@ -130,6 +135,7 @@ e64930 location EXTRA00007
 
 ## asic password
 asicpass admin
+
 
 
 
