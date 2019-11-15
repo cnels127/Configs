@@ -202,6 +202,11 @@ c55ec3 maxwatts 1250 # 10.0.118.99
 6ef7cf reboot 1573852286 # 10.0.120.102
 c55ec3 reboot 1573852286 # 10.0.118.99
 
+6ef7cf maxwatts 1150 # 10.0.120.102
+c55ec3 maxwatts 1250 # 10.0.118.99
+6ef7cf reboot 1573852286 # 10.0.120.102
+c55ec3 reboot 1573852286 # 10.0.118.99
+
 994f74 maxwatts 1150 # 10.0.66.155
 994f74 reboot 1573850598 # 10.0.66.155
 
@@ -579,6 +584,7 @@ d22225 reset 1572964672
 
 ## asic password
 asicpass admin
+
 
 
 
