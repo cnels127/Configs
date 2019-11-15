@@ -84,6 +84,13 @@ e83b5d reboot 1573860767 # 10.0.57.52
 7e7d0e reboot 1573860767 # 10.0.57.54
 3ff0b0 reboot 1573860767 # 10.0.57.70
 
+e83b5d maxwatts 800 # 10.0.57.52
+7e7d0e maxwatts 1300 # 10.0.57.54
+3ff0b0 maxwatts 1400 # 10.0.57.70
+e83b5d reboot 1573860767 # 10.0.57.52
+7e7d0e reboot 1573860767 # 10.0.57.54
+3ff0b0 reboot 1573860767 # 10.0.57.70
+
 e83b5d maxwatts 900 # 10.0.57.52
 411421 maxwatts 1300 # 10.0.57.62
 e83b5d reboot 1573859076 # 10.0.57.52
@@ -399,6 +406,7 @@ a81c86 reset 1573152016
 
 ## asic password
 asicpass admin
+
 
 
 

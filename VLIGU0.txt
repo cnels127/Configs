@@ -149,6 +149,11 @@ b6e3fd maxwatts 1250 # 10.0.51.39
 8e1779 reboot 1573860803 # 10.0.57.99
 b6e3fd reboot 1573860803 # 10.0.51.39
 
+8e1779 maxwatts -50 # 10.0.57.99
+b6e3fd maxwatts 1250 # 10.0.51.39
+8e1779 reboot 1573860803 # 10.0.57.99
+b6e3fd reboot 1573860803 # 10.0.51.39
+
 093dac maxwatts 450 # 10.0.57.90
 093dac reboot 1573850662 # 10.0.57.90
 
@@ -1046,6 +1051,7 @@ da3f92 reboot 1573577661 # 10.0.57.88
 
 ## asic password
 asicpass admin
+
 
 
 
