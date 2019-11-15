@@ -202,6 +202,11 @@ b35ae4 location JVAND00078
 6e866a reboot 1573788925 # 10.0.118.63
 2ab52d reboot 1573788925 # 10.0.121.88
 
+6e866a maxwatts 1150 # 10.0.118.63
+2ab52d maxwatts 1350 # 10.0.121.88
+6e866a reboot 1573788925 # 10.0.118.63
+2ab52d reboot 1573788925 # 10.0.121.88
+
 6e866a maxwatts 1250 # 10.0.118.63
 93620c maxwatts 1150 # 10.0.120.152
 68a150 maxwatts 1350 # 10.0.54.60
@@ -497,6 +502,7 @@ d22225 reset 1572964672
 
 ## asic password
 asicpass admin
+
 
 
 

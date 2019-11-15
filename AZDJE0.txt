@@ -194,6 +194,11 @@ ca57a1 maxwatts 1400 # 10.0.56.24
 ca57a1 reboot 1573788822 # 10.0.56.24
 69acbc reboot 1573788822 # 10.0.56.27
 
+ca57a1 maxwatts 1400 # 10.0.56.24
+69acbc maxwatts 1400 # 10.0.56.27
+ca57a1 reboot 1573788822 # 10.0.56.24
+69acbc reboot 1573788822 # 10.0.56.27
+
 af16ee maxwatts 1000 # 10.0.55.159
 86b92d maxwatts 1300 # 10.0.56.61
 5347e8 maxwatts 1400 # 10.0.55.88
@@ -1081,6 +1086,7 @@ d8b55c reboot 1573587300 # 10.0.55.95
 
 ## asic password
 asicpass admin
+
 
 
 
