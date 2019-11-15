@@ -42,6 +42,13 @@ global blinkgreen rapid
 07fdfa reboot 1573807684 # 10.0.60.108
 32c15c reboot 1573807684 # 10.0.60.152
 
+956bc8 maxwatts 50 # 10.0.63.104
+07fdfa maxwatts 1150 # 10.0.60.108
+32c15c maxwatts 1350 # 10.0.60.152
+956bc8 reboot 1573807684 # 10.0.63.104
+07fdfa reboot 1573807684 # 10.0.60.108
+32c15c reboot 1573807684 # 10.0.60.152
+
 d064ff maxwatts 850 # 10.0.60.28
 d064ff reboot 1573805995 # 10.0.60.28
 
@@ -2297,6 +2304,7 @@ af7328 location BBHAY00085
 
 ## asic password
 asicpass admin
+
 
 
 
