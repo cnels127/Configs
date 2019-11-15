@@ -36,6 +36,9 @@ global reboot 1573583438 # 4
 
 ## tuning
 5ac22f maxwatts -50 # 10.0.57.41
+5ac22f reboot 1573799216 # 10.0.57.41
+
+5ac22f maxwatts -50 # 10.0.57.41
 5ac22f reboot 1573794141 # 10.0.57.41
 
 5ac22f maxwatts -50 # 10.0.57.41
@@ -2137,6 +2140,7 @@ c6cbe1 username3 GMTVILLA01
 
 ## asic password
 asicpass admin
+
 
 
 
