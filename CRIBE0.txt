@@ -460,6 +460,11 @@ cbc7c5 maxwatts 1350 # 10.0.62.103
 02e716 reboot 1573842112 # 10.0.61.147
 cbc7c5 reboot 1573842112 # 10.0.62.103
 
+02e716 maxwatts 1250 # 10.0.61.147
+cbc7c5 maxwatts 1350 # 10.0.62.103
+02e716 reboot 1573842112 # 10.0.61.147
+cbc7c5 reboot 1573842112 # 10.0.62.103
+
 02e716 maxwatts 1350 # 10.0.61.147
 03791c maxwatts 1350 # 10.0.62.26
 02e716 reboot 1573840413 # 10.0.61.147
@@ -1040,6 +1045,7 @@ b88126 reset 1572446837
 
 ## asic password
 asicpass admin
+
 
 
 
