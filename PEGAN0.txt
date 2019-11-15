@@ -24,14 +24,14 @@ global autoupdate yes
 global allowed yes
 global maxtemp 90 1
 # global throttle 100
-global fanspeed 60
+global fanspeed 80
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
 # global reboot 1
-# global reset 1
+global reset 1573847406
 # global panelpass gj83Nkgikg
 
 ## vlans
@@ -68,133 +68,7 @@ a03c97 location PEGAN00013
 f1ae88 location PEGAN00014
 4900fd location PEGAN00015
 
-## tuning
-38d579 maxwatts 1150 # 10.0.68.35
-38d579 reboot 1573840468 # 10.0.68.35
-
-38d579 maxwatts 1150 # 10.0.68.35
-38d579 reboot 1573840468 # 10.0.68.35
-
-4e0552 reboot 1573766832 # 10.0.115.2 pegan00011
-ef1f6e reboot 1573766832 # 10.0.68.34 pegan00004
- 
-
-ef1f6e reboot 1573765192 # 10.0.68.34 pegan00004
-4e0552 reboot 1573765192 # 10.0.115.2 pegan00011
- 
-
-4e0552 reboot 1573763557 # 10.0.115.2 pegan00011
-ef1f6e reboot 1573763557 # 10.0.68.34 pegan00004
- 
-
-4e0552 reboot 1573761924 # 10.0.115.2 pegan00011
-ef1f6e reboot 1573761924 # 10.0.68.34 pegan00004
- 
-
-4e0552 reboot 1573760292 # 10.0.115.2 pegan00011
-ef1f6e reboot 1573760292 # 10.0.68.34 pegan00004
- 
-
-4e0552 reboot 1573757028 # 10.0.115.2 pegan00011
-ef1f6e reboot 1573757028 # 10.0.68.34 pegan00004
- 
-
-ef1f6e reboot 1573755398 # 10.0.68.34 pegan00004
-4e0552 reboot 1573755398 # 10.0.115.2 pegan00011
- 
-
-4e0552 reboot 1573753770 # 10.0.115.2 pegan00011
-ef1f6e reboot 1573753770 # 10.0.68.34 pegan00004
- 
-
-ef1f6e reboot 1573752141 # 10.0.68.34 pegan00004
-4e0552 reboot 1573752141 # 10.0.115.2 pegan00011
- 
-
-ef1f6e reboot 1573750507 # 10.0.68.34 pegan00004
-4e0552 reboot 1573750507 # 10.0.115.2 pegan00011
- 
-
-ef1f6e reboot 1573748875 # 10.0.68.34 pegan00004
-4e0552 reboot 1573748875 # 10.0.115.2 pegan00011
- 
-
-4e0552 reboot 1573745609 # 10.0.115.2 pegan00011
-ef1f6e reboot 1573745609 # 10.0.68.34 pegan00004
- 
-
-ef1f6e reboot 1573742334 # 10.0.68.34 pegan00004
-4e0552 reboot 1573742334 # 10.0.115.2 pegan00011
- 
-
-ef1f6e reboot 1573740706 # 10.0.68.34 pegan00004
-4e0552 reboot 1573740706 # 10.0.115.2 pegan00011
- 
-
-ef1f6e reboot 1573739035 # 10.0.68.34 pegan00004
-4e0552 reboot 1573739035 # 10.0.115.2 pegan00011
- 
-
-ef1f6e reboot 1573649321 # 10.0.68.34 pegan00004
-4e0552 reboot 1573649321 # 10.0.115.2 pegan00011
-d20101 reboot 1573649321 # 10.0.118.48 pegan00007
- 
-
-38d579 maxwatts 1250 # 10.0.68.35
-38d579 reboot 1573634821 # 10.0.68.35
-
-38d579 maxwatts 1250 # 10.0.68.35
-38d579 reboot 1573634821 # 10.0.68.35
-
-4e0552 reboot 1573618426 # 10.0.115.2 pegan00011
- 
-
-4e0552 reboot 1573613870 # 10.0.115.2 pegan00011
- 
-
-5a3dde maxwatts 1050 # 10.0.54.154
-5a3dde reboot 1573596149 # 10.0.54.154
-
-5a3dde maxwatts 1050 # 10.0.54.154
-5a3dde reboot 1573596149 # 10.0.54.154
-
-5a3dde maxwatts 1150 # 10.0.54.154
-5a3dde reboot 1573590943 # 10.0.54.154
-
-5a3dde maxwatts 1150 # 10.0.54.154
-5a3dde reboot 1573590943 # 10.0.54.154
-
-5a3dde maxwatts 1150 # 10.0.54.154
-5a3dde reboot 1573590943 # 10.0.54.154
-
-5a3dde maxwatts 1150 # 10.0.54.154
-5a3dde reboot 1573590943 # 10.0.54.154
-
-5a3dde maxwatts 1150 # 10.0.54.154
-5a3dde reboot 1573590943 # 10.0.54.154
-
-5a3dde maxwatts 1150 # 10.0.54.154
-5a3dde reboot 1573590943 # 10.0.54.154
-
-38d579 maxwatts 1350 # 10.0.68.35
-38d579 reboot 1573589178 # 10.0.68.35
-
-38d579 maxwatts 1350 # 10.0.68.35
-38d579 reboot 1573589178 # 10.0.68.35
-
-5a3dde maxwatts 1250 # 10.0.54.154
-5a3dde reboot 1573587401 # 10.0.54.154
-
-5a3dde maxwatts 1250 # 10.0.54.154
-5a3dde reboot 1573587401 # 10.0.54.154
-
-5a3dde maxwatts 1350 # 10.0.54.154
-5a3dde reboot 1573585625 # 10.0.54.154
-
-5a3dde maxwatts 1350 # 10.0.54.154
-5a3dde reboot 1573585625 # 10.0.54.154
-
-
+##
 
 ## reboots
 
@@ -203,61 +77,3 @@ d20101 reset 1573254748
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
