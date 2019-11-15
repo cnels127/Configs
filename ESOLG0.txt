@@ -47,6 +47,13 @@ b8dc4a reboot 1573822919 # 10.0.55.57
 bc3585 reboot 1573822919 # 10.0.50.107
 
 71e6fe maxwatts -50 # 10.0.50.29
+b8dc4a maxwatts 850 # 10.0.55.57
+bc3585 maxwatts 1150 # 10.0.50.107
+71e6fe reboot 1573822919 # 10.0.50.29
+b8dc4a reboot 1573822919 # 10.0.55.57
+bc3585 reboot 1573822919 # 10.0.50.107
+
+71e6fe maxwatts -50 # 10.0.50.29
 deee7c maxwatts 1050 # 10.0.50.158
 ffa316 maxwatts 750 # 10.0.55.32
 8ed5ee maxwatts 1350 # 10.0.55.31
@@ -2449,6 +2456,7 @@ f6e3e0 location ESOLG000396
 
 ## asic password
 asicpass admin
+
 
 
 
