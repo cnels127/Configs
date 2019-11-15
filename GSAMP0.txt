@@ -94,6 +94,9 @@ d223ec location GSAMP00030
 
 ## tuning
 c5496d maxwatts 1250 # 10.0.56.40
+c5496d reboot 1573830999 # 10.0.56.40
+
+c5496d maxwatts 1250 # 10.0.56.40
 26be5d maxwatts 1150 # 10.0.59.41
 c5496d reboot 1573829252 # 10.0.56.40
 26be5d reboot 1573829252 # 10.0.59.41
@@ -368,6 +371,7 @@ a7631d reset 1573747385
 
 ## asic password
 asicpass admin
+
 
 
 
