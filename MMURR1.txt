@@ -18,7 +18,7 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1300
+global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
@@ -45,10 +45,7 @@ vlan 172.16.202.57-57
 c7c4b4 location MMURR10002
 
 ## tuning
-6be331 maxwatts 1200 # 172.16.204.145
-c7c4b4 maxwatts 1200 # 172.16.202.57
-6be331 rebootasic 1568168832 # 172.16.204.145
-c7c4b4 rebootasic 1568168832 # 172.16.202.57
+
 
 
 ## asic password
