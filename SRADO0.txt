@@ -122,6 +122,11 @@ d992bc maxwatts 1150 # 10.0.67.141
 354bd0 reboot 1573829355 # 10.0.67.142
 d992bc reboot 1573829355 # 10.0.67.141
 
+354bd0 maxwatts 1050 # 10.0.67.142
+d992bc maxwatts 1150 # 10.0.67.141
+354bd0 reboot 1573829355 # 10.0.67.142
+d992bc reboot 1573829355 # 10.0.67.141
+
 fc9425 maxwatts 1150 # 10.0.68.44
 fc9425 reboot 1573823610 # 10.0.68.44
 
@@ -610,6 +615,7 @@ ca6c85 reboot 1573577640 # 10.0.67.159
 
 ## asic password
 asicpass admin
+
 
 
 
