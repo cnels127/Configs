@@ -38,6 +38,9 @@ global blinkgreen rapid
 ad5506 maxwatts 1150 # 10.0.60.88
 ad5506 reboot 1573850584 # 10.0.60.88
 
+ad5506 maxwatts 1150 # 10.0.60.88
+ad5506 reboot 1573850584 # 10.0.60.88
+
 290d45 maxwatts 950 # 10.0.61.43
 9724ec maxwatts 1050 # 10.0.59.147
 290d45 reboot 1573848897 # 10.0.61.43
@@ -2605,6 +2608,7 @@ af7328 location BBHAY00085
 
 ## asic password
 asicpass admin
+
 
 
 
