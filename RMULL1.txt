@@ -18,7 +18,7 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1300
+global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
@@ -49,14 +49,11 @@ vlan 172.16.204.146-146
 8e86bb location 0005
 
 ## tuning
-8e86bb reboot 1573748890 # 10.10.125.22 0005
- 
 
-8e86bb reboot 1573742349 # 10.10.125.22 0005
- 
 
-8e86bb reboot 1573739062 # 10.10.125.22 0005
- 
+## reset
+8e86bb resetasic 1573847640
+2d1b6f resetasic 1573847640
 
 
 ## asic password
