@@ -64,6 +64,9 @@ cc96e4 location SCOST00010
 133b75 reboot 1573794227 # 10.0.67.153
 
 133b75 maxwatts -50 # 10.0.67.153
+133b75 reboot 1573794227 # 10.0.67.153
+
+133b75 maxwatts -50 # 10.0.67.153
 6da085 maxwatts 1350 # 10.0.56.130
 133b75 reboot 1573789027 # 10.0.67.153
 6da085 reboot 1573789027 # 10.0.56.130
@@ -228,6 +231,7 @@ a43fe6 reset 1573689097
 
 ## asic password
 asicpass admin
+
 
 
 
