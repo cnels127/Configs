@@ -116,6 +116,11 @@ c6bede location VMANU00034
 8e887d reboot 1573785225 # 10.0.66.31
 0d2787 reboot 1573785225 # 10.0.60.44
 
+8e887d maxwatts 1350 # 10.0.66.31
+0d2787 maxwatts 1350 # 10.0.60.44
+8e887d reboot 1573785225 # 10.0.66.31
+0d2787 reboot 1573785225 # 10.0.60.44
+
 
 ## reboots
 # s_reboot generated on Nov 11 2019 19:16:19 utc: 1573499779
@@ -142,4 +147,5 @@ f4b34b reboot 1573499779 # 10.0.65.144 vmanu00020
 
 ## asic password 
 asicpass admin
+
 

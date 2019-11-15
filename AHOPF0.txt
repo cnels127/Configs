@@ -46,6 +46,17 @@ b46ce7 maxwatts 1350 # 10.0.57.40
 47f0c6 reboot 1573784894 # 10.0.57.20
 b46ce7 reboot 1573784894 # 10.0.57.40
 
+9a17ab maxwatts 1350 # 10.0.120.132
+6956cf maxwatts 1350 # 10.0.121.112
+5ac22f maxwatts -50 # 10.0.57.41
+47f0c6 maxwatts 550 # 10.0.57.20
+b46ce7 maxwatts 1350 # 10.0.57.40
+9a17ab reboot 1573784894 # 10.0.120.132
+6956cf reboot 1573784894 # 10.0.121.112
+5ac22f reboot 1573784894 # 10.0.57.41
+47f0c6 reboot 1573784894 # 10.0.57.20
+b46ce7 reboot 1573784894 # 10.0.57.40
+
 4ec743 reboot 1573766757 # 10.0.120.149 ahopf00194
 b5632a reboot 1573766757 # 10.0.116.22 ahopf00106
  
@@ -2053,6 +2064,7 @@ c6cbe1 username3 GMTVILLA01
 
 ## asic password
 asicpass admin
+
 
 
 
