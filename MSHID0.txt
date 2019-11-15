@@ -69,6 +69,11 @@ bccae7 maxwatts 1250 # 10.0.58.24
 749409 reboot 1573845558 # 10.0.58.9
 bccae7 reboot 1573845558 # 10.0.58.24
 
+749409 maxwatts 750 # 10.0.58.9
+bccae7 maxwatts 1250 # 10.0.58.24
+749409 reboot 1573845558 # 10.0.58.9
+bccae7 reboot 1573845558 # 10.0.58.24
+
 304296 maxwatts 1150 # 10.0.57.156
 304296 reboot 1573843859 # 10.0.57.156
 
@@ -218,6 +223,7 @@ bccae7 reboot 1573494497 # 10.0.58.24 mshid00014
 
 ## asic password
 asicpass admin
+
 
 
 
