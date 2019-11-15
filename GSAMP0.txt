@@ -98,6 +98,11 @@ f71e65 maxwatts 1150 # 10.0.59.43
 78cb4c reboot 1573799240 # 10.0.59.49
 f71e65 reboot 1573799240 # 10.0.59.43
 
+78cb4c maxwatts 1150 # 10.0.59.49
+f71e65 maxwatts 1150 # 10.0.59.43
+78cb4c reboot 1573799240 # 10.0.59.49
+f71e65 reboot 1573799240 # 10.0.59.43
+
 4fb133 maxwatts 1350 # 10.0.59.44
 86c9c7 maxwatts 1350 # 10.0.59.45
 4fb133 reboot 1573797551 # 10.0.59.44
@@ -205,6 +210,7 @@ a7631d reset 1573747385
 
 ## asic password
 asicpass admin
+
 
 
 

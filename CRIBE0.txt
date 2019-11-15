@@ -462,6 +462,13 @@ f4bea2 maxwatts 1150 # 10.0.59.101
 f4bea2 reboot 1573799229 # 10.0.59.101
 5433d7 reboot 1573799229 # 10.0.59.92
 
+117b72 maxwatts 950 # 10.0.115.132
+f4bea2 maxwatts 1150 # 10.0.59.101
+5433d7 maxwatts 1350 # 10.0.59.92
+117b72 reboot 1573799229 # 10.0.115.132
+f4bea2 reboot 1573799229 # 10.0.59.101
+5433d7 reboot 1573799229 # 10.0.59.92
+
 117b72 maxwatts 1050 # 10.0.115.132
 117b72 maxwatts 1050 # 10.0.115.132
 f4bea2 maxwatts 1250 # 10.0.59.101
@@ -835,6 +842,7 @@ b88126 reset 1572446837
 
 ## asic password
 asicpass admin
+
 
 
 
