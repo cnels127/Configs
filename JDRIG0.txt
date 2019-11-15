@@ -61,14 +61,10 @@ cffb6d location JDRIG00009
 e2fa14 location JDRIG00010
 
 ## tuning
-cffb6d maxwatts 1350 # 10.0.67.146
 9163e6 maxwatts 1150 # 10.0.67.148
-cffb6d reboot 1573786951 # 10.0.67.146
 9163e6 reboot 1573786951 # 10.0.67.148
 
-cffb6d maxwatts 1350 # 10.0.67.146
 9163e6 maxwatts 1150 # 10.0.67.148
-cffb6d reboot 1573786951 # 10.0.67.146
 9163e6 reboot 1573786951 # 10.0.67.148
 
 b3d12e maxwatts 1350 # 10.0.67.149
@@ -108,44 +104,10 @@ cffb6d reboot 1573497900 # 10.0.67.146 jdrig00009
 d55626 reboot 1573497900 # 10.0.67.156 jdrig00007
 
 ## resets
+cffb6d reset 1573790214
 cffb6d reset 1573501002
 11bafe reset 1573501002
 11bafe reset 1573168318
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
