@@ -455,6 +455,11 @@ f62743 location CRIBE00204
 19851e location CRIBE00206
 
 ## tuning
+02e716 maxwatts 1350 # 10.0.61.147
+03791c maxwatts 1350 # 10.0.62.26
+02e716 reboot 1573840413 # 10.0.61.147
+03791c reboot 1573840413 # 10.0.62.26
+
 4a7ac4 maxwatts 1250 # 10.0.62.35
 286418 maxwatts 950 # 10.0.59.40
 4a7ac4 reboot 1573838716 # 10.0.62.35
@@ -1025,6 +1030,7 @@ b88126 reset 1572446837
 
 ## asic password
 asicpass admin
+
 
 
 
