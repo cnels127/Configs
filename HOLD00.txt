@@ -35,6 +35,37 @@ global blinkgreen rapid
 # global panelpass gj83Nkgikg
 
 ## tuning
+4951af maxwatts 1250 # 10.0.64.94
+b486dc maxwatts 1250 # 10.0.64.36
+956bc8 maxwatts 250 # 10.0.63.104
+1c8b88 maxwatts 1350 # 10.0.62.55
+ceb6d3 maxwatts 1350 # 10.0.63.81
+19b781 maxwatts 1350 # 10.0.65.9
+addc57 maxwatts 1350 # 10.0.63.143
+b57c98 maxwatts 1350 # 10.0.60.32
+3f93ef maxwatts 1350 # 10.0.60.63
+e65f7f maxwatts 1350 # 10.0.60.139
+566f03 maxwatts 1350 # 10.0.60.147
+46d9bd maxwatts 1350 # 10.0.62.58
+1a3c16 maxwatts 1350 # 10.0.62.100
+d0fc49 maxwatts 1350 # 10.0.62.19
+7d38fc maxwatts 1250 # 10.0.63.36
+4951af reboot 1573786938 # 10.0.64.94
+b486dc reboot 1573786938 # 10.0.64.36
+956bc8 reboot 1573786938 # 10.0.63.104
+1c8b88 reboot 1573786938 # 10.0.62.55
+ceb6d3 reboot 1573786938 # 10.0.63.81
+19b781 reboot 1573786938 # 10.0.65.9
+addc57 reboot 1573786938 # 10.0.63.143
+b57c98 reboot 1573786938 # 10.0.60.32
+3f93ef reboot 1573786938 # 10.0.60.63
+e65f7f reboot 1573786938 # 10.0.60.139
+566f03 reboot 1573786938 # 10.0.60.147
+46d9bd reboot 1573786938 # 10.0.62.58
+1a3c16 reboot 1573786938 # 10.0.62.100
+d0fc49 reboot 1573786938 # 10.0.62.19
+7d38fc reboot 1573786938 # 10.0.63.36
+
 0646b0 maxwatts 1350 # 10.0.64.100
 1c8b88 maxwatts 1350 # 10.0.62.55
 1d5db9 maxwatts 1050 # 10.0.59.53
@@ -2042,6 +2073,7 @@ af7328 location BBHAY00085
 
 ## asic password
 asicpass admin
+
 
 
 
