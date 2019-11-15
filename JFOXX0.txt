@@ -23,7 +23,7 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-# global throttle 100
+global throttle 100
 global fanspeed 80
 global fansaver yes
 global blinkred idle
@@ -88,9 +88,3 @@ a1dd12 reset 1573249872
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
