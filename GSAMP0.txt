@@ -98,6 +98,11 @@ d223ec location GSAMP00030
 5aa9d6 reboot 1573819530 # 10.0.59.48
 8a804d reboot 1573819530 # 10.0.59.54
 
+5aa9d6 maxwatts 1250 # 10.0.59.48
+8a804d maxwatts 850 # 10.0.59.54
+5aa9d6 reboot 1573819530 # 10.0.59.48
+8a804d reboot 1573819530 # 10.0.59.54
+
 3900a7 maxwatts 950 # 10.0.59.36
 78cb4c maxwatts 850 # 10.0.59.49
 644746 maxwatts 1050 # 10.0.59.39
@@ -325,6 +330,7 @@ a7631d reset 1573747385
 
 ## asic password
 asicpass admin
+
 
 
 
