@@ -195,6 +195,11 @@ f82c5a maxwatts 850 # 10.0.54.83
 f82c5a reboot 1573859055 # 10.0.54.83
 98b693 reboot 1573859055 # 10.0.54.78
 
+f82c5a maxwatts 850 # 10.0.54.83
+98b693 maxwatts 1250 # 10.0.54.78
+f82c5a reboot 1573859055 # 10.0.54.83
+98b693 reboot 1573859055 # 10.0.54.78
+
 811edf maxwatts 1350 # 10.0.54.81
 811edf reboot 1573855673 # 10.0.54.81
 
@@ -583,6 +588,7 @@ aa901a reset 1573767000
 
 ## asic password
 asicpass admin
+
 
 
 
