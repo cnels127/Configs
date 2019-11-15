@@ -51,6 +51,9 @@ vlan 10.0.117.17-17
 88d995 location POLIV00004
 
 ## tuning
+4fc5e3 maxwatts 1400 # 10.0.116.79
+4fc5e3 reboot 1573788991 # 10.0.116.79
+
 88d995 reboot 1573766836 # 10.0.117.17 poliv00004
  
 
@@ -105,6 +108,7 @@ vlan 10.0.117.17-17
 
 ## asic password
 asicpass admin
+
 
 
 
