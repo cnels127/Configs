@@ -45,6 +45,11 @@ fbddb7 maxwatts 1250 # 10.0.50.89
 fbddb7 reboot 1573811057 # 10.0.50.89
 
 71e6fe maxwatts -50 # 10.0.50.29
+fbddb7 maxwatts 1250 # 10.0.50.89
+71e6fe reboot 1573811057 # 10.0.50.29
+fbddb7 reboot 1573811057 # 10.0.50.89
+
+71e6fe maxwatts -50 # 10.0.50.29
 3eedee maxwatts 1150 # 10.0.50.62
 71e6fe reboot 1573809366 # 10.0.50.29
 3eedee reboot 1573809366 # 10.0.50.62
@@ -2365,6 +2370,7 @@ f6e3e0 location ESOLG000396
 
 ## asic password
 asicpass admin
+
 
 
 
