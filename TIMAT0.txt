@@ -19,18 +19,19 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1400
+global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-# global throttle 100
+global throttle 100
 global fanspeed 80
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
+
 # global retune 1
 # global reboot 1
-# global reset 1
+global reset 1573861886
 # global panelpass gj83Nkgikg
 
 ## vlans
@@ -64,95 +65,8 @@ f2296d location TIMAT00021
 ## 
 
 ## reboots
-global reboot 1 1573846171 
+
 ## resets
-global retune 1 1573845306 
+
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
