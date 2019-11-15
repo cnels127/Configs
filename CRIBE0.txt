@@ -460,6 +460,11 @@ cdce27 maxwatts 1050 # 10.0.117.120
 286418 reboot 1573825231 # 10.0.59.40
 cdce27 reboot 1573825231 # 10.0.117.120
 
+286418 maxwatts 1050 # 10.0.59.40
+cdce27 maxwatts 1050 # 10.0.117.120
+286418 reboot 1573825231 # 10.0.59.40
+cdce27 reboot 1573825231 # 10.0.117.120
+
 b169bf maxwatts 1050 # 10.0.59.47
 b169bf reboot 1573819517 # 10.0.59.47
 
@@ -965,6 +970,7 @@ b88126 reset 1572446837
 
 ## asic password
 asicpass admin
+
 
 
 
