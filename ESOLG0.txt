@@ -43,6 +43,9 @@ global reboot 1573584011 # 2
 71e6fe reboot 1573814440 # 10.0.50.29
 
 71e6fe maxwatts -50 # 10.0.50.29
+71e6fe reboot 1573814440 # 10.0.50.29
+
+71e6fe maxwatts -50 # 10.0.50.29
 b8dc4a maxwatts 950 # 10.0.55.57
 71e6fe reboot 1573812749 # 10.0.50.29
 b8dc4a reboot 1573812749 # 10.0.55.57
@@ -2383,6 +2386,7 @@ f6e3e0 location ESOLG000396
 
 ## asic password
 asicpass admin
+
 
 
 
