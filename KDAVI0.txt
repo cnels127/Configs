@@ -52,6 +52,11 @@ cf1a34 location KDAVI00001
 0819f9 reboot 1573786994 # 10.0.56.128
 8ef4ad reboot 1573786994 # 10.0.56.129
 
+0819f9 maxwatts 1350 # 10.0.56.128
+8ef4ad maxwatts 1350 # 10.0.56.129
+0819f9 reboot 1573786994 # 10.0.56.128
+8ef4ad reboot 1573786994 # 10.0.56.129
+
 
 ## fans
 
@@ -66,4 +71,5 @@ cf1a34 reset 1573168196
 
 ## asic password
 asicpass admin
+
 
