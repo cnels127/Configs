@@ -195,6 +195,11 @@ fdf9e1 maxwatts 1250 # 10.0.63.80
 fdf9e1 reboot 1573837030 # 10.0.63.80
 638ba3 reboot 1573837030 # 10.0.64.146
 
+fdf9e1 maxwatts 1250 # 10.0.63.80
+638ba3 maxwatts 1150 # 10.0.64.146
+fdf9e1 reboot 1573837030 # 10.0.63.80
+638ba3 reboot 1573837030 # 10.0.64.146
+
 ba4916 maxwatts 1250 # 10.0.64.89
 3631fd maxwatts 1350 # 10.0.54.85
 7a6f07 maxwatts 1350 # 10.0.54.95
@@ -472,6 +477,7 @@ aa901a reset 1573767000
 
 ## asic password
 asicpass admin
+
 
 
 
