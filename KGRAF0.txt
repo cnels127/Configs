@@ -131,6 +131,9 @@ b6ea4d location KGRAF00043
 a62f6a location KGRAF00045
 
 ## tuning
+68eecb maxwatts 1200 # 10.0.117.118
+68eecb reboot 1573862434 # 10.0.117.118
+
 d3efbf maxwatts 1200 # 10.0.120.112
 d3efbf reboot 1573845544 # 10.0.120.112
 
@@ -396,6 +399,7 @@ d3efbf reboot 1573587370 # 10.0.120.112
 
 ## asic password
 asicpass admin
+
 
 
 
