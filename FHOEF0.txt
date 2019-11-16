@@ -91,6 +91,11 @@ d2d829 maxwatts 1150 # 10.0.56.88
 167d2c reboot 1573869190 # 10.0.56.59
 d2d829 reboot 1573869190 # 10.0.56.88
 
+167d2c maxwatts 1150 # 10.0.56.59
+d2d829 maxwatts 1150 # 10.0.56.88
+167d2c reboot 1573869190 # 10.0.56.59
+d2d829 reboot 1573869190 # 10.0.56.88
+
 d2d829 maxwatts 1250 # 10.0.56.88
 d2d829 reboot 1573865796 # 10.0.56.88
 
@@ -384,6 +389,7 @@ c16782 reset 1573669390
 
 ## asic password
 asicpass admin
+
 
 
 
