@@ -577,6 +577,13 @@ ebe3ba reboot 1573907261 # 10.0.67.110
 df6891 reboot 1573907261 # 10.0.67.81
 
 165af1 maxwatts -100 # 10.0.64.9
+ebe3ba maxwatts 700 # 10.0.67.110
+df6891 maxwatts 0 # 10.0.67.81
+165af1 reboot 1573907261 # 10.0.64.9
+ebe3ba reboot 1573907261 # 10.0.67.110
+df6891 reboot 1573907261 # 10.0.67.81
+
+165af1 maxwatts -100 # 10.0.64.9
 3649ed maxwatts 700 # 10.0.58.116
 165af1 reboot 1573905520 # 10.0.64.9
 3649ed reboot 1573905520 # 10.0.58.116
@@ -2394,6 +2401,7 @@ ce7138 reset 1573273407
 
 ## asic password
 asicpass admin
+
 
 
 
