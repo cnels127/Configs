@@ -19,18 +19,18 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1500
+global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-# global throttle 100
+global throttle 100
 global fanspeed 100
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
-global reboot 1573583855 # 1
+# global reboot 1573583855 # 1
 # global reset 1
 # global panelpass gj83Nkgikg
 
@@ -44,34 +44,9 @@ bdc4b8 location DWINL00001
 764024 location DWINL00002
 c8aece location DWINL00003
 
-## tuning
-c8aece reboot 1573918206 # 10.0.67.82 dwinl00003
- 
+##
 
-bdc4b8 maxwatts 1100 # 10.0.63.91
-bdc4b8 reboot 1573638169 # 10.0.63.91
-
-bdc4b8 maxwatts 1100 # 10.0.63.91
-bdc4b8 reboot 1573638169 # 10.0.63.91
-
-bdc4b8 maxwatts 1200 # 10.0.63.91
-bdc4b8 reboot 1573626292 # 10.0.63.91
-
-bdc4b8 maxwatts 1200 # 10.0.63.91
-bdc4b8 reboot 1573626292 # 10.0.63.91
-
-bdc4b8 maxwatts 1300 # 10.0.63.91
-bdc4b8 reboot 1573608088 # 10.0.63.91
-
-bdc4b8 maxwatts 1300 # 10.0.63.91
-bdc4b8 reboot 1573608088 # 10.0.63.91
-
-bdc4b8 maxwatts 1400 # 10.0.63.91
-bdc4b8 reboot 1573594383 # 10.0.63.91
-
-bdc4b8 maxwatts 1400 # 10.0.63.91
-bdc4b8 reboot 1573594383 # 10.0.63.91
-
+## fans
 
 ## reboots
 
@@ -79,16 +54,3 @@ bdc4b8 reboot 1573594383 # 10.0.63.91
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
