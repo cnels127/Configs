@@ -40,6 +40,11 @@ d064ff maxwatts 550 # 10.0.60.28
 7d38fc reboot 1573889876 # 10.0.63.36
 d064ff reboot 1573889876 # 10.0.60.28
 
+7d38fc maxwatts 750 # 10.0.63.36
+d064ff maxwatts 550 # 10.0.60.28
+7d38fc reboot 1573889876 # 10.0.63.36
+d064ff reboot 1573889876 # 10.0.60.28
+
 10eadb maxwatts 1250 # 10.0.60.85
 10eadb reboot 1573886410 # 10.0.60.85
 
@@ -2715,6 +2720,7 @@ af7328 location BBHAY00085
 
 ## asic password
 asicpass admin
+
 
 
 
