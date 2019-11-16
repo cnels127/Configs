@@ -226,6 +226,11 @@ c899a0 location FKRAU00088
 7ef3f6 reboot 1573948066 # 10.0.67.130
 0a9fbb reboot 1573948066 # 10.0.116.69
 
+7ef3f6 maxwatts 850 # 10.0.67.130
+0a9fbb maxwatts -50 # 10.0.116.69
+7ef3f6 reboot 1573948066 # 10.0.67.130
+0a9fbb reboot 1573948066 # 10.0.116.69
+
 7ef3f6 maxwatts 950 # 10.0.67.130
 7ef3f6 reboot 1573946133 # 10.0.67.130
 
@@ -1173,6 +1178,7 @@ a8ee8a reset 1572168378
 
 ## asic password
 asicpass admin
+
 
 
 

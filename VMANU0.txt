@@ -116,6 +116,11 @@ c6bede location VMANU00034
 9beb97 reboot 1573948166 # 10.0.66.41
 698d83 reboot 1573948166 # 10.0.58.82
 
+9beb97 maxwatts 1250 # 10.0.66.41
+698d83 maxwatts 1350 # 10.0.58.82
+9beb97 reboot 1573948166 # 10.0.66.41
+698d83 reboot 1573948166 # 10.0.58.82
+
 8e887d reboot 1573947713 # 10.0.66.31 vmanu00021
  
 
@@ -280,6 +285,7 @@ f4b34b reboot 1573499779 # 10.0.65.144 vmanu00020
 
 ## asic password 
 asicpass admin
+
 
 
 
