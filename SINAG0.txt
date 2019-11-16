@@ -23,8 +23,8 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-# global throttle 100
-global fanspeed 100
+global throttle 100
+global fanspeed 80
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
@@ -46,74 +46,14 @@ f60318 location SINAG00002
 db9779 location SINAG00003
 d3a31d location SINAG00004
 
-## tuning
-db9779 maxwatts 850 # 10.0.65.130
-db9779 reboot 1573916150 # 10.0.65.130
+## 
 
-db9779 maxwatts 850 # 10.0.65.130
-db9779 reboot 1573916150 # 10.0.65.130
-
-db9779 maxwatts 950 # 10.0.65.130
-db9779 reboot 1573800989 # 10.0.65.130
-
-db9779 maxwatts 950 # 10.0.65.130
-db9779 reboot 1573800989 # 10.0.65.130
-
-db9779 maxwatts 1050 # 10.0.65.130
-db9779 reboot 1573707458 # 10.0.65.130
-
-db9779 maxwatts 1050 # 10.0.65.130
-db9779 reboot 1573707458 # 10.0.65.130
-
-db9779 maxwatts 1150 # 10.0.65.130
-db9779 reboot 1573704040 # 10.0.65.130
-
-db9779 maxwatts 1150 # 10.0.65.130
-db9779 reboot 1573704040 # 10.0.65.130
-
-db9779 maxwatts 1250 # 10.0.65.130
-db9779 reboot 1573700479 # 10.0.65.130
-
-db9779 maxwatts 1250 # 10.0.65.130
-db9779 reboot 1573700479 # 10.0.65.130
-
-db9779 maxwatts 1350 # 10.0.65.130
-db9779 reboot 1573691617 # 10.0.65.130
-
-db9779 maxwatts 1350 # 10.0.65.130
-db9779 reboot 1573691617 # 10.0.65.130
-
-db9779 reboot 1573663189 # 10.0.65.130 sinag00003
- 
-
-
+## fans
 
 ## reboots
 
 ## resets
+db9779 reset 1573938296
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
