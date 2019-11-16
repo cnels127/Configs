@@ -193,6 +193,9 @@ d3cdf7 location LMACK00100
 f82c5a maxwatts 550 # 10.0.54.83
 f82c5a reboot 1573900340 # 10.0.54.83
 
+f82c5a maxwatts 550 # 10.0.54.83
+f82c5a reboot 1573900340 # 10.0.54.83
+
 f82c5a maxwatts 650 # 10.0.54.83
 f82c5a reboot 1573898598 # 10.0.54.83
 
@@ -709,6 +712,7 @@ aa901a reset 1573767000
 
 ## asic password
 asicpass admin
+
 
 
 
