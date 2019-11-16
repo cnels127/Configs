@@ -23,7 +23,7 @@ global maxwatts 1450
 global autoupdate no
 global allowed yes
 global maxtemp 90
-# global throttle 100
+global throttle 100
 global fanspeed 80
 global fansaver yes
 global blinkred idle
@@ -48,73 +48,7 @@ e2c6fd location GBURR00002
 b69144 location GBURR00004
 fb355a location GBURR00005
 
-## tuning
-b69144 reboot 1573929738 # 10.0.56.107 gburr00004
- 
-
-b69144 reboot 1573928101 # 10.0.56.107 gburr00004
- 
-
-b69144 reboot 1573926462 # 10.0.56.107 gburr00004
- 
-
-b69144 reboot 1573924827 # 10.0.56.107 gburr00004
- 
-
-b69144 reboot 1573923192 # 10.0.56.107 gburr00004
- 
-
-b69144 reboot 1573919927 # 10.0.56.107 gburr00004
- 
-
-b69144 reboot 1573918218 # 10.0.56.107 gburr00004
- 
-
-fb355a maxwatts 1350 # 10.0.56.113
-fb355a reboot 1573694949 # 10.0.56.113
-
-fb355a maxwatts 1350 # 10.0.56.113
-fb355a reboot 1573694949 # 10.0.56.113
-
-f0f798 reboot 1573649255 # 10.0.55.87 gburr00001
- 
-
-2d11cf maxwatts 1150 # 10.0.55.150
-2d11cf reboot 1573619465 # 10.0.55.150
-
-2d11cf maxwatts 1150 # 10.0.55.150
-2d11cf reboot 1573619465 # 10.0.55.150
-
-2d11cf maxwatts 1250 # 10.0.55.150
-2d11cf reboot 1573617150 # 10.0.55.150
-
-2d11cf maxwatts 1250 # 10.0.55.150
-2d11cf reboot 1573617150 # 10.0.55.150
-
-f0f798 maxwatts 1150 # 10.0.55.87
-f0f798 reboot 1573604649 # 10.0.55.87
-
-f0f798 maxwatts 1150 # 10.0.55.87
-f0f798 reboot 1573604649 # 10.0.55.87
-
-f0f798 maxwatts 1250 # 10.0.55.87
-f0f798 reboot 1573596099 # 10.0.55.87
-
-f0f798 maxwatts 1250 # 10.0.55.87
-f0f798 reboot 1573596099 # 10.0.55.87
-
-f0f798 maxwatts 1350 # 10.0.55.87
-f0f798 reboot 1573585559 # 10.0.55.87
-
-f0f798 maxwatts 1350 # 10.0.55.87
-f0f798 reboot 1573585559 # 10.0.55.87
-
-2d11cf maxwatts 1350 # 10.0.55.150
-2d11cf reboot 1573577540 # 10.0.55.150
-
-2d11cf maxwatts 1350 # 10.0.55.150
-2d11cf reboot 1573577540 # 10.0.55.150
-
+## 
 
 ## fans
 2d11cf fanspeed 100
@@ -123,29 +57,10 @@ f0f798 reboot 1573585559 # 10.0.55.87
 b69144 reboot 1572023239 
 
 ## resets
+f0f798 reset 1573933478
+2d11cf reset 1573933478
+fb355a reset 1573933478
 b69144 reset 1573137505
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
