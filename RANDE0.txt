@@ -25,8 +25,8 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-# global throttle 100
-global fanspeed 60
+global throttle 100
+global fanspeed 80
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
@@ -59,65 +59,20 @@ a016c1 location RANDE00008
 55019f location RANDE00009
 636f5f location RANDE00010
 
-## tuning
-679e5d maxwatts 1250 # 10.0.57.142
-679e5d reboot 1573854003 # 10.0.57.142
+##
 
-679e5d maxwatts 1250 # 10.0.57.142
-679e5d reboot 1573854003 # 10.0.57.142
-
-55019f maxwatts 1350 # 10.0.58.26
-55019f reboot 1573850627 # 10.0.58.26
-
-55019f maxwatts 1350 # 10.0.58.26
-55019f reboot 1573850627 # 10.0.58.26
-
-1506ab maxwatts 1150 # 10.0.57.129
-1506ab reboot 1573837055 # 10.0.57.129
-
-1506ab maxwatts 1150 # 10.0.57.129
-1506ab reboot 1573837055 # 10.0.57.129
-
-8a2820 maxwatts 1250 # 10.0.57.157
-8a2820 reboot 1573825298 # 10.0.57.157
-
-8a2820 maxwatts 1250 # 10.0.57.157
-8a2820 reboot 1573825298 # 10.0.57.157
-
-1506ab maxwatts 1250 # 10.0.57.129
-1506ab reboot 1573788998 # 10.0.57.129
-
-1506ab maxwatts 1250 # 10.0.57.129
-1506ab reboot 1573788998 # 10.0.57.129
-
-1506ab maxwatts 1350 # 10.0.57.129
-1506ab reboot 1573787076 # 10.0.57.129
-
-1506ab maxwatts 1350 # 10.0.57.129
-1506ab reboot 1573787076 # 10.0.57.129
-
-8a2820 maxwatts 1350 # 10.0.57.157
-636f5f maxwatts 1350 # 10.0.57.143
-8a2820 reboot 1573617229 # 10.0.57.157
-636f5f reboot 1573617229 # 10.0.57.143
-
-8a2820 maxwatts 1350 # 10.0.57.157
-636f5f maxwatts 1350 # 10.0.57.143
-8a2820 reboot 1573617229 # 10.0.57.157
-636f5f reboot 1573617229 # 10.0.57.143
-
-679e5d maxwatts 1350 # 10.0.57.142
-679e5d reboot 1573589185 # 10.0.57.142
-
-679e5d maxwatts 1350 # 10.0.57.142
-679e5d reboot 1573589185 # 10.0.57.142
-
-
+## fans
 
 ## reboots
 679e5d reboot 1573071802
 
 ## resets
+1506ab reset 1573945759
+8a2820 reset 1573945759
+679e5d reset 1573945759
+55019f reset 1573945759
+636f5f reset 1573945759
+
 8a2820 reset 1573071802
 1506ab reset 1573071802
 a016c1 reset 1573071802
@@ -127,33 +82,3 @@ a016c1 reset 1573072500
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
