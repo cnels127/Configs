@@ -78,6 +78,11 @@ e6077e maxwatts 1400 # 10.0.53.132
 e6077e reboot 1573888206 # 10.0.53.132
 
 7b6cfa maxwatts 1200 # 10.0.53.121
+e6077e maxwatts 1400 # 10.0.53.132
+7b6cfa reboot 1573888206 # 10.0.53.121
+e6077e reboot 1573888206 # 10.0.53.132
+
+7b6cfa maxwatts 1200 # 10.0.53.121
 2fb4f0 maxwatts 1000 # 10.0.53.139
 943135 maxwatts 1300 # 10.0.53.128
 45dadf maxwatts 1300 # 10.0.53.133
@@ -254,6 +259,7 @@ ba0308 reboot 1573663183 # 10.0.53.136 rhusk00027
 
 ## asic password
 asicpass admin
+
 
 
 
