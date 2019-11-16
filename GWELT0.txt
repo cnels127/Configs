@@ -578,6 +578,15 @@ a410fb reboot 1573865800 # 10.0.65.141
 e9f5d8 reboot 1573865800 # 10.0.58.41
 df6891 reboot 1573865800 # 10.0.67.81
 
+a410fb maxwatts 900 # 10.0.65.141
+3649ed maxwatts 1200 # 10.0.58.116
+e9f5d8 maxwatts -100 # 10.0.58.41
+df6891 maxwatts 100 # 10.0.67.81
+a410fb reboot 1573865800 # 10.0.65.141
+3649ed reboot 1573865800 # 10.0.58.116
+e9f5d8 reboot 1573865800 # 10.0.58.41
+df6891 reboot 1573865800 # 10.0.67.81
+
 a410fb maxwatts 1000 # 10.0.65.141
 e9f5d8 maxwatts -100 # 10.0.58.41
 3c164a maxwatts 1100 # 10.0.65.53
@@ -2086,6 +2095,7 @@ ce7138 reset 1573273407
 
 ## asic password
 asicpass admin
+
 
 
 
