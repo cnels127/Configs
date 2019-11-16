@@ -153,6 +153,15 @@ fe82d8 reboot 1573910871 # 10.0.51.47
 02d712 reboot 1573910871 # 10.0.51.44
 3fb0a7 reboot 1573910871 # 10.0.51.46
 
+8ae513 maxwatts 750 # 10.0.51.52
+fe82d8 maxwatts 1050 # 10.0.51.47
+02d712 maxwatts 550 # 10.0.51.44
+3fb0a7 maxwatts 950 # 10.0.51.46
+8ae513 reboot 1573910871 # 10.0.51.52
+fe82d8 reboot 1573910871 # 10.0.51.47
+02d712 reboot 1573910871 # 10.0.51.44
+3fb0a7 reboot 1573910871 # 10.0.51.46
+
 688790 maxwatts 1150 # 10.0.51.37
 7e0c44 maxwatts 1050 # 10.0.51.32
 7ad9c1 maxwatts 950 # 10.0.51.41
@@ -1248,6 +1257,7 @@ da3f92 reboot 1573577661 # 10.0.57.88
 
 ## asic password
 asicpass admin
+
 
 
 

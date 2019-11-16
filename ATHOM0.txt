@@ -122,6 +122,9 @@ d13d9c location ATHOM00039
 fbf1ac maxwatts 1250 # 10.0.65.22
 fbf1ac reboot 1573910720 # 10.0.65.22
 
+fbf1ac maxwatts 1250 # 10.0.65.22
+fbf1ac reboot 1573910720 # 10.0.65.22
+
 de2039 maxwatts 850 # 10.0.54.127
 de2039 reboot 1573900268 # 10.0.54.127
 
@@ -420,6 +423,7 @@ eedbcd reboot 1573686463 # 10.0.64.85
 
 ## asic password
 asicpass admin
+
 
 
 
