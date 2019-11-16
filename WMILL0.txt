@@ -23,8 +23,8 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-# global throttle 100
-global fanspeed 100
+global throttle 100
+global fanspeed 80
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
@@ -44,40 +44,9 @@ ed4012 location WMILL00003
 99707f location WMILL00004
 582483 location WMILL00005
 
-## tuning
-99707f maxwatts 1050 # 10.0.53.58
-99707f reboot 1573852353 # 10.0.53.58
+## 
 
-99707f maxwatts 1050 # 10.0.53.58
-99707f reboot 1573852353 # 10.0.53.58
-
-99707f maxwatts 1150 # 10.0.53.58
-99707f reboot 1573850664 # 10.0.53.58
-
-99707f maxwatts 1150 # 10.0.53.58
-99707f reboot 1573850664 # 10.0.53.58
-
-99707f maxwatts 1250 # 10.0.53.58
-99707f reboot 1573835354 # 10.0.53.58
-
-99707f maxwatts 1250 # 10.0.53.58
-99707f reboot 1573835354 # 10.0.53.58
-
-99707f maxwatts 1350 # 10.0.53.58
-99707f reboot 1573789084 # 10.0.53.58
-
-99707f maxwatts 1350 # 10.0.53.58
-99707f reboot 1573789084 # 10.0.53.58
-
-99707f maxwatts 1350 # 10.0.53.58
-99707f reboot 1573787198 # 10.0.53.58
-
-99707f maxwatts 1350 # 10.0.53.58
-99707f reboot 1573787198 # 10.0.53.58
-
-
- 
-
+## fans
 
 ## reboots
 
