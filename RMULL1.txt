@@ -49,6 +49,9 @@ vlan 172.16.204.146-146
 8e86bb location 0005
 
 ## tuning
+8e86bb reboot 1573924888 # 10.10.125.22 0005
+ 
+
 8e86bb reboot 1573923252 # 10.10.125.22 0005
  
 
@@ -67,6 +70,7 @@ vlan 172.16.204.146-146
 
 ## asic password
 asicpass admin
+
 
 
 
