@@ -19,19 +19,19 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1350
+global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-# global throttle 100
-global fanspeed 100
+global throttle 100
+global fanspeed 80
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
 # global reboot 2
-# global reset 1
+global reset 1573937986
 # global panelpass gj83Nkgikg
 
 ## vlans
@@ -44,7 +44,9 @@ vlan 10.0.116.98-98
 fae9ca location JITUR00002
 262c0d location JITUR00003
 
-## tuning
+## 
+
+## fans
 
 ## reboots
 
