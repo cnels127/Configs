@@ -35,6 +35,11 @@ global reboot 1573583438 # 4
 # global panelpass gj83Nkgikg
 
 ## tuning
+4ec743 reboot 1573945584 # 10.0.120.149 ahopf00194
+b5632a reboot 1573945584 # 10.0.116.22 ahopf00106
+8d7d97 reboot 1573945584 # 10.0.20.106 ahopf00402
+ 
+
 9b356e maxwatts 1150 # 10.0.20.96
 3fc24e maxwatts 1350 # 10.0.20.117
 5da055 maxwatts 1350 # 10.0.20.144
@@ -2605,6 +2610,7 @@ c6cbe1 username3 GMTVILLA01
 
 ## asic password
 asicpass admin
+
 
 
 
