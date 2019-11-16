@@ -25,14 +25,14 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-# global throttle 100
-global fanspeed 100
+global throttle 100
+global fanspeed 80
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
-global reboot 1573583357 # 1
+# global reboot 1573583357 # 1
 # global reset 1
 # global panelpass gj83Nkgikg
 
@@ -62,87 +62,17 @@ c55b18 location VDUBO00008
 33ab1b location VDUBO00010
 215267 location VDUBO00011
 
-## tuning
-ac80c9 reboot 1573929825 # 10.0.61.142 vdubo00001
- 
+## overheats
+c55b18 maxwatts 1350
+215267 maxwatts 1350
 
-ac80c9 reboot 1573928187 # 10.0.61.142 vdubo00001
- 
-
-ac80c9 reboot 1573926551 # 10.0.61.142 vdubo00001
- 
-
-ac80c9 reboot 1573924913 # 10.0.61.142 vdubo00001
- 
-
-ac80c9 reboot 1573923276 # 10.0.61.142 vdubo00001
- 
-
-ac80c9 reboot 1573921643 # 10.0.61.142 vdubo00001
- 
-
-ac80c9 reboot 1573920011 # 10.0.61.142 vdubo00001
- 
-
-ac80c9 reboot 1573918369 # 10.0.61.142 vdubo00001
- 
-
-c55b18 maxwatts 1350 # 10.0.77.131
-c55b18 reboot 1573787186 # 10.0.77.131
-
-c55b18 maxwatts 1350 # 10.0.77.131
-c55b18 reboot 1573787186 # 10.0.77.131
-
-ac80c9 reboot 1573766877 # 10.0.61.142 vdubo00001
- 
-
-ac80c9 reboot 1573765236 # 10.0.61.142 vdubo00001
- 
-
-ac80c9 reboot 1573763599 # 10.0.61.142 vdubo00001
- 
-
-ac80c9 reboot 1573761966 # 10.0.61.142 vdubo00001
- 
-
-ac80c9 reboot 1573760334 # 10.0.61.142 vdubo00001
- 
-
-ac80c9 reboot 1573753811 # 10.0.61.142 vdubo00001
- 
-
-ac80c9 reboot 1573752183 # 10.0.61.142 vdubo00001
- 
-
-ac80c9 reboot 1573750550 # 10.0.61.142 vdubo00001
- 
-
-ac80c9 reboot 1573748914 # 10.0.61.142 vdubo00001
- 
-
-ac80c9 reboot 1573739104 # 10.0.61.142 vdubo00001
- 
-
-ac80c9 reboot 1573649383 # 10.0.61.142 vdubo00001
- 
-
-ac80c9 reboot 1573618493 # 10.0.61.142 vdubo00001
- 
-
-ac80c9 reboot 1573613994 # 10.0.61.142 vdubo00001
- 
-
-215267 maxwatts 1350 # 10.0.77.88
-215267 reboot 1573587457 # 10.0.77.88
-
-215267 maxwatts 1350 # 10.0.77.88
-215267 reboot 1573587457 # 10.0.77.88
-
+## fans
 
 ## reboots
 ac80c9 reboot 1573503004
 
 ## resets
+ac80c9 reset 1573942105
 175f83 reset 1573503004
 6fc701 reset 1573503004
 c6a34d reset 1573503004
@@ -150,47 +80,3 @@ c55b18 reset 1573586688
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
