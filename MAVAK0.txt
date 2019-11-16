@@ -48,6 +48,9 @@ f0052b location MAVAK00001
 0cf97a maxwatts 550 # 10.0.58.86
 0cf97a reboot 1573884723 # 10.0.58.86
 
+0cf97a maxwatts 550 # 10.0.58.86
+0cf97a reboot 1573884723 # 10.0.58.86
+
 0cf97a maxwatts 650 # 10.0.58.86
 0cf97a reboot 1573874432 # 10.0.58.86
 
@@ -115,6 +118,7 @@ f0052b resetasic 1573847460
 
 ## asic password
 asicpass admin
+
 
 
 

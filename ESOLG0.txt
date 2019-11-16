@@ -56,6 +56,23 @@ d371f5 reboot 1573884676 # 10.0.50.93
 564bdb reboot 1573884676 # 10.0.50.136
 305120 reboot 1573884676 # 10.0.55.39
 
+f5432f maxwatts 950 # 10.0.50.96
+8ed5ee maxwatts 1150 # 10.0.55.31
+e27620 maxwatts 950 # 10.0.55.43
+c88f61 maxwatts 1250 # 10.0.50.150
+ef88d6 maxwatts 1150 # 10.0.55.61
+d371f5 maxwatts 1350 # 10.0.50.93
+564bdb maxwatts 1250 # 10.0.50.136
+305120 maxwatts 350 # 10.0.55.39
+f5432f reboot 1573884676 # 10.0.50.96
+8ed5ee reboot 1573884676 # 10.0.55.31
+e27620 reboot 1573884676 # 10.0.55.43
+c88f61 reboot 1573884676 # 10.0.50.150
+ef88d6 reboot 1573884676 # 10.0.55.61
+d371f5 reboot 1573884676 # 10.0.50.93
+564bdb reboot 1573884676 # 10.0.50.136
+305120 reboot 1573884676 # 10.0.55.39
+
 71e6fe maxwatts -50 # 10.0.50.29
 afd8a4 maxwatts 550 # 10.0.31.108
 b72b2e maxwatts 750 # 10.0.31.92
@@ -2959,6 +2976,7 @@ f6e3e0 location ESOLG000396
 
 ## asic password
 asicpass admin
+
 
 
 
