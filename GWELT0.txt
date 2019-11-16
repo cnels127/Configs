@@ -573,6 +573,9 @@ fdbabb location GWELT00296
 165af1 reboot 1573909009 # 10.0.64.9
 
 165af1 maxwatts -100 # 10.0.64.9
+165af1 reboot 1573909009 # 10.0.64.9
+
+165af1 maxwatts -100 # 10.0.64.9
 ebe3ba maxwatts 700 # 10.0.67.110
 df6891 maxwatts 0 # 10.0.67.81
 165af1 reboot 1573907261 # 10.0.64.9
@@ -2404,6 +2407,7 @@ ce7138 reset 1573273407
 
 ## asic password
 asicpass admin
+
 
 
 
