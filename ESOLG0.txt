@@ -47,6 +47,13 @@ e775a1 reboot 1573872616 # 10.0.30.95
 ede199 reboot 1573872616 # 10.0.55.50
 
 71e6fe maxwatts -50 # 10.0.50.29
+e775a1 maxwatts 1050 # 10.0.30.95
+ede199 maxwatts 750 # 10.0.55.50
+71e6fe reboot 1573872616 # 10.0.50.29
+e775a1 reboot 1573872616 # 10.0.30.95
+ede199 reboot 1573872616 # 10.0.55.50
+
+71e6fe maxwatts -50 # 10.0.50.29
 2968f0 maxwatts 450 # 10.0.50.110
 71e6fe reboot 1573870893 # 10.0.50.29
 2968f0 reboot 1573870893 # 10.0.50.110
@@ -2823,6 +2830,7 @@ f6e3e0 location ESOLG000396
 
 ## asic password
 asicpass admin
+
 
 
 
