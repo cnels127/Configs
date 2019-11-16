@@ -35,14 +35,15 @@ global blinkgreen rapid
 # global panelpass gj83Nkgikg
 
 ## vlans
-vlan 10.0.58.132-132
+## vlan 10.0.58.132-132
 ## The next row is the extra machine, added on 2019-11-15
 vlan 10.0.117.5-5
 
 ## locations
-30946f location NMANT00001
+## 30946f location NMANT00001
 ## The next row is the extra machine, added on 2019-11-15
-5a85bf location NMANT0EXTRA
+## 5a85bf location NMANT0EXTRA
+5a85bf location NMANT00001
 
 ## tuning
 
