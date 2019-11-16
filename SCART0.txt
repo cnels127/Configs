@@ -328,6 +328,11 @@ c99d5c location SCART000141
 34ac56 reboot 1573912591 # 10.0.50.33
 067cdd reboot 1573912591 # 10.0.50.73
 
+34ac56 maxwatts 1250 # 10.0.50.33
+067cdd maxwatts 1350 # 10.0.50.73
+34ac56 reboot 1573912591 # 10.0.50.33
+067cdd reboot 1573912591 # 10.0.50.73
+
 ab39de maxwatts 850 # 10.0.50.94
 ab39de reboot 1573895166 # 10.0.50.94
 
@@ -831,6 +836,7 @@ d44702 reboot 1573587424 # 10.0.50.51
 
 ## asic password
 asicpass admin
+
 
 
 
