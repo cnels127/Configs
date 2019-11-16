@@ -460,6 +460,11 @@ dd601e maxwatts 950 # 10.0.115.7
 a6f215 reboot 1573898537 # 10.0.58.90
 dd601e reboot 1573898537 # 10.0.115.7
 
+a6f215 maxwatts 1150 # 10.0.58.90
+dd601e maxwatts 950 # 10.0.115.7
+a6f215 reboot 1573898537 # 10.0.58.90
+dd601e reboot 1573898537 # 10.0.115.7
+
 8df680 maxwatts 1250 # 10.0.53.29
 8df680 reboot 1573895062 # 10.0.53.29
 
@@ -1192,6 +1197,7 @@ b88126 reset 1572446837
 
 ## asic password
 asicpass admin
+
 
 
 
