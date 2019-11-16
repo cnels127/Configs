@@ -19,19 +19,19 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1500
+global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-# global throttle 100
-global fanspeed 100
+global throttle 100
+global fanspeed 80
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
 # global reboot 1
-# global reset 1
+global reset 1573924095
 # global panelpass gj83Nkgikg
 
 ## vlans
@@ -65,118 +65,7 @@ f371c7 location KAUYE00011
 e6ca25 location KAUYE00013
 d87db4 location KAUYE00014
 
-## tuning
-184c88 maxwatts 700 # 10.0.55.104
-184c88 reboot 1573889898 # 10.0.55.104
-
-184c88 maxwatts 700 # 10.0.55.104
-184c88 reboot 1573889898 # 10.0.55.104
-
-184c88 maxwatts 800 # 10.0.55.104
-184c88 reboot 1573882989 # 10.0.55.104
-
-184c88 maxwatts 800 # 10.0.55.104
-184c88 reboot 1573882989 # 10.0.55.104
-
-ddae42 maxwatts 700 # 10.0.55.97
-ddae42 reboot 1573879565 # 10.0.55.97
-
-ddae42 maxwatts 700 # 10.0.55.97
-ddae42 reboot 1573879565 # 10.0.55.97
-
-e6ca25 maxwatts 1200 # 10.0.56.108
-e6ca25 reboot 1573864127 # 10.0.56.108
-
-e6ca25 maxwatts 1200 # 10.0.56.108
-e6ca25 reboot 1573864127 # 10.0.56.108
-
-e6ca25 maxwatts 1300 # 10.0.56.108
-e6ca25 reboot 1573845542 # 10.0.56.108
-
-e6ca25 maxwatts 1300 # 10.0.56.108
-e6ca25 reboot 1573845542 # 10.0.56.108
-
-ddae42 maxwatts 800 # 10.0.55.97
-ddae42 reboot 1573829283 # 10.0.55.97
-
-ddae42 maxwatts 800 # 10.0.55.97
-ddae42 reboot 1573829283 # 10.0.55.97
-
-184c88 maxwatts 900 # 10.0.55.104
-184c88 reboot 1573817858 # 10.0.55.104
-
-184c88 maxwatts 900 # 10.0.55.104
-184c88 reboot 1573817858 # 10.0.55.104
-
-ddae42 maxwatts 900 # 10.0.55.97
-ddae42 reboot 1573809392 # 10.0.55.97
-
-ddae42 maxwatts 900 # 10.0.55.97
-ddae42 reboot 1573809392 # 10.0.55.97
-
-ddae42 maxwatts 1000 # 10.0.55.97
-184c88 maxwatts 1000 # 10.0.55.104
-ddae42 reboot 1573806012 # 10.0.55.97
-184c88 reboot 1573806012 # 10.0.55.104
-
-ddae42 maxwatts 1000 # 10.0.55.97
-184c88 maxwatts 1000 # 10.0.55.104
-ddae42 reboot 1573806012 # 10.0.55.97
-184c88 reboot 1573806012 # 10.0.55.104
-
-ddae42 maxwatts 1100 # 10.0.55.97
-ddae42 reboot 1573802637 # 10.0.55.97
-
-ddae42 maxwatts 1100 # 10.0.55.97
-ddae42 reboot 1573802637 # 10.0.55.97
-
-184c88 maxwatts 1100 # 10.0.55.104
-184c88 reboot 1573790754 # 10.0.55.104
-
-184c88 maxwatts 1100 # 10.0.55.104
-184c88 reboot 1573790754 # 10.0.55.104
-
-ddae42 maxwatts 1200 # 10.0.55.97
-184c88 maxwatts 1200 # 10.0.55.104
-ddae42 reboot 1573785032 # 10.0.55.97
-184c88 reboot 1573785032 # 10.0.55.104
-
-ddae42 maxwatts 1200 # 10.0.55.97
-184c88 maxwatts 1200 # 10.0.55.104
-ddae42 reboot 1573785032 # 10.0.55.97
-184c88 reboot 1573785032 # 10.0.55.104
-
-ddae42 maxwatts 1300 # 10.0.55.97
-ddae42 reboot 1573712547 # 10.0.55.97
-
-ddae42 maxwatts 1300 # 10.0.55.97
-ddae42 reboot 1573712547 # 10.0.55.97
-
-184c88 maxwatts 1300 # 10.0.55.104
-184c88 reboot 1573707413 # 10.0.55.104
-
-184c88 maxwatts 1300 # 10.0.55.104
-184c88 reboot 1573707413 # 10.0.55.104
-
-184c88 maxwatts 1400 # 10.0.55.104
-184c88 reboot 1573696735 # 10.0.55.104
-
-184c88 maxwatts 1400 # 10.0.55.104
-184c88 reboot 1573696735 # 10.0.55.104
-
-e6ca25 maxwatts 1400 # 10.0.56.108
-e6ca25 reboot 1573693272 # 10.0.56.108
-
-e6ca25 maxwatts 1400 # 10.0.56.108
-e6ca25 reboot 1573693272 # 10.0.56.108
-
-ddae42 maxwatts 1400 # 10.0.55.97
-ddae42 reboot 1573671296 # 10.0.55.97
-
-ddae42 maxwatts 1400 # 10.0.55.97
-ddae42 reboot 1573671296 # 10.0.55.97
-
-
+## 
 
 ## fans
 
@@ -188,72 +77,3 @@ ddae42 reboot 1573671296 # 10.0.55.97
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
