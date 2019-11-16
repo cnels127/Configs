@@ -40,6 +40,11 @@ da7641 maxwatts 1350 # 10.0.115.128
 da7641 reboot 1573877798 # 10.0.115.128
 9a17ab reboot 1573877798 # 10.0.120.132
 
+da7641 maxwatts 1350 # 10.0.115.128
+9a17ab maxwatts 1250 # 10.0.120.132
+da7641 reboot 1573877798 # 10.0.115.128
+9a17ab reboot 1573877798 # 10.0.120.132
+
 5ac22f maxwatts -50 # 10.0.57.41
 7e2767 maxwatts 1150 # 10.0.121.64
 5ac22f reboot 1573872581 # 10.0.57.41
@@ -2354,6 +2359,7 @@ c6cbe1 username3 GMTVILLA01
 
 ## asic password
 asicpass admin
+
 
 
 
