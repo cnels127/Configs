@@ -24,7 +24,7 @@ global autoupdate yes
 global allowed yes
 global maxtemp 90 1
 # global throttle 100
-global fanspeed 100
+global fanspeed 80
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
@@ -50,30 +50,6 @@ ce82d1 location ANORC00009
 88093b location ANORC00010
 
 ## tuning
-ce82d1 maxwatts 1150 # 10.0.68.100
-ce82d1 reboot 1573800906 # 10.0.68.100
-
-ce82d1 maxwatts 1150 # 10.0.68.100
-ce82d1 reboot 1573800906 # 10.0.68.100
-
-ce82d1 maxwatts 1250 # 10.0.68.100
-ce82d1 reboot 1573786845 # 10.0.68.100
-
-ce82d1 maxwatts 1250 # 10.0.68.100
-ce82d1 reboot 1573786845 # 10.0.68.100
-
-ce82d1 maxwatts 1350 # 10.0.68.100
-ce82d1 reboot 1573784898 # 10.0.68.100
-
-ce82d1 maxwatts 1350 # 10.0.68.100
-ce82d1 reboot 1573784898 # 10.0.68.100
-
-29b205 reboot 1573752069 # 10.0.68.92 anorc00001
- 
-
-efd6b3 reboot 1573748808 # 10.0.68.98 anorc00007
- 
-
 
 ## fans
 
@@ -83,11 +59,3 @@ efd6b3 reboot 1573748808 # 10.0.68.98 anorc00007
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
