@@ -40,6 +40,11 @@ ce8824 maxwatts 1250 # 10.0.63.28
 ce8824 reboot 1573902052 # 10.0.63.28
 7c13b1 reboot 1573902052 # 10.0.62.145
 
+ce8824 maxwatts 1250 # 10.0.63.28
+7c13b1 maxwatts 1050 # 10.0.62.145
+ce8824 reboot 1573902052 # 10.0.63.28
+7c13b1 reboot 1573902052 # 10.0.62.145
+
 956bc8 maxwatts -50 # 10.0.63.104
 4a6f13 maxwatts 1350 # 10.0.62.96
 d5dd04 maxwatts 1350 # 10.0.63.51
@@ -2771,6 +2776,7 @@ af7328 location BBHAY00085
 
 ## asic password
 asicpass admin
+
 
 
 
