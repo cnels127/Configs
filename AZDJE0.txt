@@ -194,6 +194,11 @@ cb14ff maxwatts 1100 # 10.0.55.152
 2a4578 reboot 1573870874 # 10.0.56.48
 cb14ff reboot 1573870874 # 10.0.55.152
 
+2a4578 maxwatts 800 # 10.0.56.48
+cb14ff maxwatts 1100 # 10.0.55.152
+2a4578 reboot 1573870874 # 10.0.56.48
+cb14ff reboot 1573870874 # 10.0.55.152
+
 0b6fa4 maxwatts 1200 # 10.0.56.31
 0b6fa4 reboot 1573865778 # 10.0.56.31
 
@@ -1288,6 +1293,7 @@ d8b55c reboot 1573587300 # 10.0.55.95
 
 ## asic password
 asicpass admin
+
 
 
 
