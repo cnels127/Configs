@@ -24,7 +24,7 @@ global autoupdate yes
 global allowed yes
 global maxtemp 90 1
 # global throttle 100
-global fanspeed 80
+global fanspeed 100
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
@@ -56,6 +56,7 @@ ce82d1 location ANORC00009
 ## reboots
 
 ## resets
+ce82d1 reset 1573863025
 
 ## asic password
 asicpass admin
