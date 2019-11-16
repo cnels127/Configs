@@ -19,12 +19,12 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1500
+global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-# global throttle 100
-global fanspeed 100
+global throttle 100
+global fanspeed 80
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
@@ -45,38 +45,8 @@ e917af location KADAP00002
 4c9876 location KADAP00003
 
 ## tuning
-4c9876 maxwatts 1200 # 10.0.56.137
-4c9876 reboot 1573891634 # 10.0.56.137
 
-4c9876 maxwatts 1200 # 10.0.56.137
-4c9876 reboot 1573891634 # 10.0.56.137
-
-e917af maxwatts 1300 # 10.0.56.136
-e917af reboot 1573816163 # 10.0.56.136
-
-e917af maxwatts 1300 # 10.0.56.136
-e917af reboot 1573816163 # 10.0.56.136
-
-4c9876 maxwatts 1300 # 10.0.56.137
-4c9876 reboot 1573806011 # 10.0.56.137
-
-4c9876 maxwatts 1300 # 10.0.56.137
-4c9876 reboot 1573806011 # 10.0.56.137
-
-4c9876 maxwatts 1400 # 10.0.56.137
-4c9876 reboot 1573785028 # 10.0.56.137
-
-4c9876 maxwatts 1400 # 10.0.56.137
-4c9876 reboot 1573785028 # 10.0.56.137
-
-e917af maxwatts 1400 # 10.0.56.136
-e917af reboot 1573700377 # 10.0.56.136
-
-e917af maxwatts 1400 # 10.0.56.136
-e917af reboot 1573700377 # 10.0.56.136
-
-
-
+## fans
 
 ## reboots
 
@@ -86,24 +56,3 @@ e917af reboot 1573700377 # 10.0.56.136
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
