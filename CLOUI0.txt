@@ -55,6 +55,11 @@ df94bd location CLOUI00009
 3a0cc0 reboot 1574006514 # 10.0.54.53
 49ba28 reboot 1574006514 # 10.0.54.54
 
+3a0cc0 maxwatts 1300 # 10.0.54.53
+49ba28 maxwatts 1400 # 10.0.54.54
+3a0cc0 reboot 1574006514 # 10.0.54.53
+49ba28 reboot 1574006514 # 10.0.54.54
+
 2b7bed maxwatts 1000 # 10.0.54.49
 2b7bed reboot 1573907238 # 10.0.54.49
 
@@ -124,6 +129,7 @@ df94bd location CLOUI00009
 
 ## asic password
 asicpass admin
+
 
 
 
