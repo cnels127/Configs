@@ -54,6 +54,9 @@ e260d5 location MNADE00009
 6e6dd8 location MNADE00010
 
 ## tuning
+e8521d maxwatts 1400 # 10.0.68.25
+e8521d reboot 1574006585 # 10.0.68.25
+
 543775 reboot 1574005205 # 10.0.68.22 mnade00004
  
 
@@ -179,6 +182,7 @@ d89759 reboot 1573618415 # 10.0.65.115 mnade00008
 
 ## asic password
 asicpass admin
+
 
 
 
