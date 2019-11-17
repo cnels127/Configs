@@ -151,6 +151,13 @@ b6e3fd maxwatts 1050 # 10.0.51.39
 6878ae reboot 1574001035 # 10.0.51.33
 b6e3fd reboot 1574001035 # 10.0.51.39
 
+688790 maxwatts 750 # 10.0.51.37
+6878ae maxwatts 650 # 10.0.51.33
+b6e3fd maxwatts 1050 # 10.0.51.39
+688790 reboot 1574001035 # 10.0.51.37
+6878ae reboot 1574001035 # 10.0.51.33
+b6e3fd reboot 1574001035 # 10.0.51.39
+
 268467 reboot 1573999677 # 10.0.57.101 vligu00073
  
 
@@ -1517,6 +1524,7 @@ da3f92 reboot 1573577661 # 10.0.57.88
 
 ## asic password
 asicpass admin
+
 
 
 
