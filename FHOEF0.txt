@@ -91,6 +91,11 @@ d560da location FHOEF00039
 88775f reboot 1573984149 # 10.0.121.159
 84fddc reboot 1573984149 # 10.0.55.85
 
+88775f maxwatts 150 # 10.0.121.159
+84fddc maxwatts 350 # 10.0.55.85
+88775f reboot 1573984149 # 10.0.121.159
+84fddc reboot 1573984149 # 10.0.55.85
+
 be5d42 reboot 1573982722 # 10.0.120.83 fhoef00033
 9c860e reboot 1573982722 # 10.0.120.128 fhoef00040
  
@@ -693,6 +698,7 @@ c16782 reset 1573669390
 
 ## asic password
 asicpass admin
+
 
 
 
