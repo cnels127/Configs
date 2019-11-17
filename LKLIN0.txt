@@ -99,6 +99,11 @@ e64930 location LKLIN0XTRA
 67a2f3 location LKLIN0XTRA
 
 ## tuning
+ed846d reboot 1573977037 # 10.0.63.107 lklin00007
+a28737 reboot 1573977037 # 10.0.77.117 lklin00016
+07a57a reboot 1573977037 # 10.0.116.15 lklin00020
+ 
+
 e9aa45 maxwatts -50 # 10.0.64.4
 596464 maxwatts 1250 # 10.0.61.138
 8a2cec maxwatts 1150 # 10.0.117.23
@@ -421,6 +426,7 @@ ed846d reboot 1573739013 # 10.0.63.107 lklin00007
 
 ## asic password
 asicpass admin
+
 
 
 
