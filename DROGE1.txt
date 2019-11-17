@@ -61,6 +61,11 @@ ed1a27 maxwatts 1250 # 10.10.125.228
 ed1a27 reboot 1574016604 # 10.10.125.228
 90c89e reboot 1574016604 # 10.10.125.220
 
+ed1a27 maxwatts 1250 # 10.10.125.228
+90c89e maxwatts 1250 # 10.10.125.220
+ed1a27 reboot 1574016604 # 10.10.125.228
+90c89e reboot 1574016604 # 10.10.125.220
+
 9f4edd reboot 1574012552 # 10.10.125.91 droge10009
  
 
@@ -257,6 +262,7 @@ a1dcce reboot 1572581303 # 10.10.125.224 droge10006
 
 ## asic password
 asicpass admin
+
 
 
 
