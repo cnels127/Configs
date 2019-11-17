@@ -41,6 +41,9 @@ vlan 10.0.120.127-127
 e66eb3 location ISTAL00001
 
 ## tuning
+e66eb3 reboot 1573956867 # 10.0.120.127 istal00001
+ 
+
 e66eb3 reboot 1573954005 # 10.0.120.127 istal00001
  
 
@@ -49,4 +52,5 @@ e66eb3 reboot 1573954005 # 10.0.120.127 istal00001
 
 ## asic password
 asicpass admin
+
 
