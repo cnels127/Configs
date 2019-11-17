@@ -35,6 +35,9 @@ global blinkgreen rapid
 # global panelpass gj83Nkgikg
 
 ## tuning
+f4d41f maxwatts 1250 # 10.0.63.40
+f4d41f reboot 1573987029 # 10.0.63.40
+
 7a8009 reboot 1573985619 # 10.0.63.46 cp40520097
 0843d8 reboot 1573985619 # 10.0.63.39 cp40520093
 a484b8 reboot 1573985619 # 10.0.61.49 cp40520033
@@ -4251,6 +4254,7 @@ af7328 location BBHAY00085
 
 ## asic password
 asicpass admin
+
 
 
 
