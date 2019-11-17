@@ -50,6 +50,11 @@ d54f75 location RFRAN00004
 46bd22 reboot 1573972730 # 10.0.62.39
 7f3717 reboot 1573972730 # 10.0.62.38
 
+46bd22 maxwatts 1100 # 10.0.62.39
+7f3717 maxwatts 1000 # 10.0.62.38
+46bd22 reboot 1573972730 # 10.0.62.39
+7f3717 reboot 1573972730 # 10.0.62.38
+
 46bd22 maxwatts 1200 # 10.0.62.39
 46bd22 reboot 1573969862 # 10.0.62.39
 
@@ -117,6 +122,7 @@ af34c7 reboot 1573785116 # 10.0.62.36
 
 ## asic password
 asicpass admin
+
 
 
 
