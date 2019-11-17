@@ -99,6 +99,10 @@ e64930 location LKLIN0XTRA
 67a2f3 location LKLIN0XTRA
 
 ## tuning
+fc23ff reboot 1573996818 # 10.0.63.37 lklin00015
+07a57a reboot 1573996818 # 10.0.116.15 lklin00020
+ 
+
 fc23ff reboot 1573994054 # 10.0.63.37 lklin00015
 ed846d reboot 1573994054 # 10.0.63.107 lklin00007
 07a57a reboot 1573994054 # 10.0.116.15 lklin00020
@@ -476,6 +480,7 @@ ed846d reboot 1573739013 # 10.0.63.107 lklin00007
 
 ## asic password
 asicpass admin
+
 
 
 
