@@ -43,6 +43,9 @@ vlan 10.0.66.148-148
 658bd9 location 132139
 
 ## tuning
+658bd9 reboot 1573962778 # 10.0.66.148 132139
+ 
+
 658bd9 maxwatts 1400 # 10.0.66.148
 658bd9 reboot 1573961319 # 10.0.66.148
 
@@ -56,5 +59,6 @@ vlan 10.0.66.148-148
 
 ## asic password
 asicpass admin
+
 
 
