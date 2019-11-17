@@ -332,6 +332,15 @@ b434f4 maxwatts 1350 # 10.0.31.46
 b434f4 reboot 1573964183 # 10.0.31.46
 4b9432 reboot 1573964183 # 10.0.31.53
 
+4fc4bf maxwatts 1050 # 10.0.50.19
+548bcf maxwatts 1350 # 10.0.30.160
+b434f4 maxwatts 1350 # 10.0.31.46
+4b9432 maxwatts 1350 # 10.0.31.53
+4fc4bf reboot 1573964183 # 10.0.50.19
+548bcf reboot 1573964183 # 10.0.30.160
+b434f4 reboot 1573964183 # 10.0.31.46
+4b9432 reboot 1573964183 # 10.0.31.53
+
 4fc4bf maxwatts 1150 # 10.0.50.19
 4fc4bf reboot 1573961329 # 10.0.50.19
 
@@ -906,6 +915,7 @@ d44702 reboot 1573587424 # 10.0.50.51
 
 ## asic password
 asicpass admin
+
 
 
 
