@@ -83,6 +83,9 @@ ef8f42 location TEMP4
 6335e0 reboot 1574019330 # 10.10.126.99
 
 6335e0 maxwatts -50 # 10.10.126.99
+6335e0 reboot 1574019330 # 10.10.126.99
+
+6335e0 maxwatts -50 # 10.10.126.99
 6335e0 reboot 1574009385 # 10.10.126.99
 
 6335e0 maxwatts -50 # 10.10.126.99
@@ -210,6 +213,7 @@ ef8f42 reboot 1573519774 # 172.16.104.196 temp4
 
 ## asic password
 asicpass admin
+
 
 
 
