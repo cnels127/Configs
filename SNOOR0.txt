@@ -172,6 +172,11 @@ e06ea6 maxwatts 1200 # 10.0.56.146
 e06ea6 reboot 1573955485 # 10.0.56.146
 4d4439 reboot 1573955485 # 10.0.56.52
 
+e06ea6 maxwatts 1200 # 10.0.56.146
+4d4439 maxwatts 800 # 10.0.56.52
+e06ea6 reboot 1573955485 # 10.0.56.146
+4d4439 reboot 1573955485 # 10.0.56.52
+
 6161ba reboot 1573954098 # 10.0.56.15 set1
 fbfdea reboot 1573954098 # 10.0.56.99 set2
  
@@ -475,6 +480,7 @@ fb8a3a reboot 1573693320 # 10.0.66.53
 
 ## asic password
 asicpass admin
+
 
 
 
