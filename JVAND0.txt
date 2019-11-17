@@ -202,6 +202,11 @@ e3ebf1 maxwatts 1150 # 10.0.121.13
 e3ebf1 reboot 1574011187 # 10.0.121.13
 6cec70 reboot 1574011187 # 10.0.120.44
 
+e3ebf1 maxwatts 1150 # 10.0.121.13
+6cec70 maxwatts 1050 # 10.0.120.44
+e3ebf1 reboot 1574011187 # 10.0.121.13
+6cec70 reboot 1574011187 # 10.0.120.44
+
 189393 reboot 1574009815 # 10.0.120.108 jvand00069
 bfb2ab reboot 1574009815 # 10.0.121.45 jvand00072
 ca8c7a reboot 1574009815 # 10.0.115.53 jvand00012
@@ -1075,6 +1080,7 @@ d22225 reset 1572964672
 
 ## asic password
 asicpass admin
+
 
 
 
