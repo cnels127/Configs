@@ -55,6 +55,11 @@ ce82d1 location ANORC00009
 07c674 reboot 1573969755 # 10.0.68.93
 17fb06 reboot 1573969755 # 10.0.68.94
 
+07c674 maxwatts 1050 # 10.0.68.93
+17fb06 maxwatts 1350 # 10.0.68.94
+07c674 reboot 1573969755 # 10.0.68.93
+17fb06 reboot 1573969755 # 10.0.68.94
+
 07c674 maxwatts 1150 # 10.0.68.93
 ce82d1 maxwatts 950 # 10.0.68.100
 07c674 reboot 1573966906 # 10.0.68.93
@@ -111,6 +116,7 @@ ce82d1 reset 1573863025
 
 ## asic password
 asicpass admin
+
 
 
 

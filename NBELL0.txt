@@ -468,6 +468,11 @@ fb1aea maxwatts 150 # 10.0.77.82
 ecd1ec reboot 1573969844 # 10.0.77.89
 fb1aea reboot 1573969844 # 10.0.77.82
 
+ecd1ec maxwatts 250 # 10.0.77.89
+fb1aea maxwatts 150 # 10.0.77.82
+ecd1ec reboot 1573969844 # 10.0.77.89
+fb1aea reboot 1573969844 # 10.0.77.82
+
 771e29 reboot 1573968448 # 10.0.120.123 nbell00127
 460f86 reboot 1573968448 # 10.0.61.24 nbell00032
 22c41f reboot 1573968448 # 10.0.77.143 nbell00116
@@ -1299,6 +1304,7 @@ f0f240 reset 1573070538
 
 ## asic password
 asicpass admin
+
 
 
 
