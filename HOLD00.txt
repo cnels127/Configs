@@ -40,6 +40,11 @@ global blinkgreen rapid
 0843d8 reboot 1573989873 # 10.0.63.39
 2a214f reboot 1573989873 # 10.0.63.38
 
+0843d8 maxwatts 1150 # 10.0.63.39
+2a214f maxwatts 1150 # 10.0.63.38
+0843d8 reboot 1573989873 # 10.0.63.39
+2a214f reboot 1573989873 # 10.0.63.38
+
 7a8009 reboot 1573988472 # 10.0.63.46 cp40520097
 f4d41f reboot 1573988472 # 10.0.63.40 cp40520094
 5d208b reboot 1573988472 # 10.0.54.147 kredd00003
@@ -4308,6 +4313,7 @@ af7328 location BBHAY00085
 
 ## asic password
 asicpass admin
+
 
 
 
