@@ -48,6 +48,9 @@ vlan 10.0.120.130-130
 321a3a location JROBE00005
 
 ## tuning
+9b2f7a reboot 1574018016 # 10.0.119.71 jrobe00004
+ 
+
 9b2f7a reboot 1574015302 # 10.0.119.71 jrobe00004
  
 
@@ -210,6 +213,7 @@ vlan 10.0.120.130-130
 
 ## asic password
 asicpass admin
+
 
 
 
