@@ -60,6 +60,11 @@ e02f4f location PMORG00007
 332d51 reboot 1573961305 # 10.0.61.93
 35360b reboot 1573961305 # 10.0.65.17
 
+332d51 maxwatts 1400 # 10.0.61.93
+35360b maxwatts 900 # 10.0.65.17
+332d51 reboot 1573961305 # 10.0.61.93
+35360b reboot 1573961305 # 10.0.65.17
+
 332d51 reboot 1573959886 # 10.0.61.93 pmorg00006
  
 
@@ -202,6 +207,7 @@ c29a91 reboot 1573926512 # 10.0.68.21 pmorg00005
 
 ## asic password
 asicpass admin
+
 
 
 

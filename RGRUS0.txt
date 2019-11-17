@@ -46,6 +46,9 @@ vlan 10.0.66.148-148
 658bd9 maxwatts 1400 # 10.0.66.148
 658bd9 reboot 1573961319 # 10.0.66.148
 
+658bd9 maxwatts 1400 # 10.0.66.148
+658bd9 reboot 1573961319 # 10.0.66.148
+
 
 ## reboots
 
@@ -53,4 +56,5 @@ vlan 10.0.66.148-148
 
 ## asic password
 asicpass admin
+
 
