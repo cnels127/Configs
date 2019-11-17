@@ -221,6 +221,10 @@ c899a0 location FKRAU00088
 3ee8ed location FKRAU00090
 
 ## tuning
+f88d80 reboot 1574023396 # 10.0.62.47 fkrau00016
+d934fc reboot 1574023396 # 10.0.62.52 fkrau00020
+ 
+
 d934fc reboot 1574020697 # 10.0.62.52 fkrau00020
  
 
@@ -1536,6 +1540,7 @@ a8ee8a reset 1572168378
 
 ## asic password
 asicpass admin
+
 
 
 
