@@ -48,6 +48,15 @@ global reboot 1573584011 # 2
 812582 reboot 1573981272 # 10.0.50.88
 8ce465 reboot 1573981272 # 10.0.50.102
 
+71e6fe maxwatts -50 # 10.0.50.29
+63cfad maxwatts 550 # 10.0.50.119
+812582 maxwatts 1250 # 10.0.50.88
+8ce465 maxwatts 850 # 10.0.50.102
+71e6fe reboot 1573981272 # 10.0.50.29
+63cfad reboot 1573981272 # 10.0.50.119
+812582 reboot 1573981272 # 10.0.50.88
+8ce465 reboot 1573981272 # 10.0.50.102
+
 6bfa85 reboot 1573979865 # 10.0.31.52 esolg000093
 6ec60f reboot 1573979865 # 10.0.55.35 esolg000329
 447c81 reboot 1573979865 # 10.0.55.62 esolg000352
@@ -4171,6 +4180,7 @@ f6e3e0 location ESOLG000396
 
 ## asic password
 asicpass admin
+
 
 
 
