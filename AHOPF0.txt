@@ -40,6 +40,11 @@ be62a6 maxwatts 1350 # 10.0.20.122
 5da055 reboot 1573978365 # 10.0.20.144
 be62a6 reboot 1573978365 # 10.0.20.122
 
+5da055 maxwatts 1150 # 10.0.20.144
+be62a6 maxwatts 1350 # 10.0.20.122
+5da055 reboot 1573978365 # 10.0.20.144
+be62a6 reboot 1573978365 # 10.0.20.122
+
 e84233 reboot 1573976936 # 10.0.20.79 ahopf00375
 4ec743 reboot 1573976936 # 10.0.120.149 ahopf00194
 b5632a reboot 1573976936 # 10.0.116.22 ahopf00106
@@ -2940,6 +2945,7 @@ c6cbe1 username3 GMTVILLA01
 
 ## asic password
 asicpass admin
+
 
 
 

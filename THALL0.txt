@@ -72,6 +72,13 @@ a9f19e reboot 1573978535 # 10.0.32.44
 b62e9a reboot 1573978535 # 10.0.32.39
 845f77 reboot 1573978535 # 10.0.32.42
 
+a9f19e maxwatts 950 # 10.0.32.44
+b62e9a maxwatts 1150 # 10.0.32.39
+845f77 maxwatts 1050 # 10.0.32.42
+a9f19e reboot 1573978535 # 10.0.32.44
+b62e9a reboot 1573978535 # 10.0.32.39
+845f77 reboot 1573978535 # 10.0.32.42
+
 c191c4 maxwatts 1050 # 10.0.32.38
 a9f19e maxwatts 1050 # 10.0.32.44
 a966ea maxwatts 1150 # 10.0.32.41
@@ -244,6 +251,7 @@ f76afb reset 1573173881
 
 ## asic password
 asicpass admin
+
 
 
 
