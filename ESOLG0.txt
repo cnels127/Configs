@@ -39,6 +39,16 @@ global reboot 1573584011 # 2
 ## fans
 
 ## tuning
+5d2e09 reboot 1573971222 # 10.0.120.39 esolg000397
+bb1d90 reboot 1573971222 # 10.0.119.101 esolg000392
+6ec60f reboot 1573971222 # 10.0.55.35 esolg000329
+c22a6f reboot 1573971222 # 10.0.31.142 esolg000160
+55fe55 reboot 1573971222 # 10.0.55.44 esolg000337
+447c81 reboot 1573971222 # 10.0.55.62 esolg000352
+44c35f reboot 1573971222 # 10.0.30.100 esolg000012
+4c2b76 reboot 1573971222 # 10.0.30.103 esolg000015
+ 
+
 b8dc4a maxwatts 550 # 10.0.55.57
 71e6fe maxwatts -50 # 10.0.50.29
 26b110 maxwatts 950 # 10.0.50.157
@@ -3725,6 +3735,7 @@ f6e3e0 location ESOLG000396
 
 ## asic password
 asicpass admin
+
 
 
 
