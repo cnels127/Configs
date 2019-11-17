@@ -44,6 +44,9 @@ vlan 10.0.68.30-33
 ba1c4a location RPOUL00004
 
 ## tuning
+12c5ea maxwatts 1250 # 10.0.68.30
+12c5ea reboot 1574003801 # 10.0.68.30
+
 2e86e9 maxwatts 1250 # 10.0.68.31
 2e86e9 reboot 1573978504 # 10.0.68.31
 
@@ -69,6 +72,7 @@ ba1c4a reset 1573666738
 
 ## asic password
 asicpass admin
+
 
 
 
