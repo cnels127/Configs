@@ -49,6 +49,11 @@ f69de1 maxwatts 700 # 10.0.68.41
 f69de1 reboot 1573975486 # 10.0.68.41
 815d57 reboot 1573975486 # 10.0.68.40
 
+f69de1 maxwatts 700 # 10.0.68.41
+815d57 maxwatts 1200 # 10.0.68.40
+f69de1 reboot 1573975486 # 10.0.68.41
+815d57 reboot 1573975486 # 10.0.68.40
+
 f69de1 maxwatts 800 # 10.0.68.41
 f69de1 reboot 1573966914 # 10.0.68.41
 
@@ -165,6 +170,7 @@ f69de1 reboot 1573497332 # 10.0.68.41 bbens00002
 
 ## asic password
 asicpass admin
+
 
 
 
