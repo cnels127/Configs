@@ -81,6 +81,9 @@ defa6a location RBARR00028
 5478c2 reboot 1574047214 # 10.0.57.63
 
 5478c2 maxwatts -100 # 10.0.57.63
+5478c2 reboot 1574047214 # 10.0.57.63
+
+5478c2 maxwatts -100 # 10.0.57.63
 5478c2 reboot 1574044207 # 10.0.57.63
 
 5478c2 maxwatts -100 # 10.0.57.63
@@ -662,6 +665,7 @@ a81c86 reset 1573152016
 
 ## asic password
 asicpass admin
+
 
 
 
