@@ -51,6 +51,9 @@ vlan 10.0.117.17-17
 88d995 location POLIV00004
 
 ## tuning
+88d995 reboot 1574054222 # 10.0.117.17 poliv00004
+ 
+
 88d995 reboot 1574051443 # 10.0.117.17 poliv00004
  
 
@@ -259,6 +262,7 @@ vlan 10.0.117.17-17
 
 ## asic password
 asicpass admin
+
 
 
 
