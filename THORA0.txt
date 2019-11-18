@@ -63,6 +63,11 @@ f764a5 location THORA00014
 13d4e9 location THORA00015
 
 ## tuning
+e3240c reboot 1574104101 # 10.0.54.138 thora00009
+13d4e9 reboot 1574104101 # 10.0.58.12 thora00015
+056132 reboot 1574104101 # 10.0.32.66 thora00003
+ 
+
 13d4e9 reboot 1574100987 # 10.0.58.12 thora00015
 e3240c reboot 1574100987 # 10.0.54.138 thora00009
 c38cc0 reboot 1574100987 # 10.0.32.69 thora00006
@@ -347,6 +352,7 @@ e3240c reset 1573160169
 
 ## asic password
 asicpass admin
+
 
 
 
