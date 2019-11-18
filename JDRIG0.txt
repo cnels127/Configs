@@ -66,6 +66,11 @@ e2fa14 location JDRIG00010
 11bafe reboot 1574066782 # 10.0.55.99
 33b5df reboot 1574066782 # 10.0.55.125
 
+11bafe maxwatts 950 # 10.0.55.99
+33b5df maxwatts 1150 # 10.0.55.125
+11bafe reboot 1574066782 # 10.0.55.99
+33b5df reboot 1574066782 # 10.0.55.125
+
 33b5df maxwatts 1250 # 10.0.55.125
 11bafe maxwatts 1050 # 10.0.55.99
 33b5df reboot 1574061136 # 10.0.55.125
@@ -216,6 +221,7 @@ cffb6d reset 1573501002
 
 ## asic password
 asicpass admin
+
 
 
 
