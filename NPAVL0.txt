@@ -59,6 +59,11 @@ fff476 location NPAVL00008
 370d4b reboot 1574050020 # 10.0.57.132
 821721 reboot 1574050020 # 10.0.57.130
 
+370d4b maxwatts 450 # 10.0.57.132
+821721 maxwatts -50 # 10.0.57.130
+370d4b reboot 1574050020 # 10.0.57.132
+821721 reboot 1574050020 # 10.0.57.130
+
 370d4b maxwatts 550 # 10.0.57.132
 370d4b reboot 1574047198 # 10.0.57.132
 
@@ -379,6 +384,7 @@ a95ab0 reset 1573153456
 
 ## asic password
 asicpass admin
+
 
 
 
