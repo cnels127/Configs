@@ -149,6 +149,11 @@ c05b10 maxwatts 450 # 10.0.51.55
 6878ae reboot 1574102496 # 10.0.51.33
 c05b10 reboot 1574102496 # 10.0.51.55
 
+6878ae maxwatts -50 # 10.0.51.33
+c05b10 maxwatts 450 # 10.0.51.55
+6878ae reboot 1574102496 # 10.0.51.33
+c05b10 reboot 1574102496 # 10.0.51.55
+
 6878ae reboot 1574097895 # 10.0.51.33 vligu00036
  
 
@@ -1901,6 +1906,7 @@ da3f92 reboot 1573577661 # 10.0.57.88
 
 ## asic password
 asicpass admin
+
 
 
 
