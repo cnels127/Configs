@@ -43,6 +43,9 @@ vlan 10.0.65.147-147
 faba2f location TCOST00001
 
 ## tuning
+faba2f maxwatts 600 # 10.0.65.147
+faba2f reboot 1574078344 # 10.0.65.147
+
 faba2f maxwatts 700 # 10.0.65.147
 faba2f reboot 1574072574 # 10.0.65.147
 
@@ -98,6 +101,7 @@ faba2f reboot 1573676439 # 10.0.65.147
 
 ## asic password
 asicpass admin
+
 
 
 
