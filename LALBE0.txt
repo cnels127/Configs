@@ -62,6 +62,9 @@ e3af8a location LALBE00006
 
 ## tuning
 979f86 maxwatts -50 # 10.0.67.6
+979f86 reboot 1574105436 # 10.0.67.6
+
+979f86 maxwatts -50 # 10.0.67.6
 e3af8a maxwatts 1150 # 10.0.64.77
 979f86 reboot 1574099248 # 10.0.67.6
 e3af8a reboot 1574099248 # 10.0.64.77
@@ -290,6 +293,7 @@ c935fd reboot 1573872670 # 10.0.56.124
 
 ## asic password
 asicpass admin
+
 
 
 

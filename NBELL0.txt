@@ -463,6 +463,11 @@ a0cac7 location NBELL00204
 252f2b location NBELL00207
 
 ## tuning
+334b70 maxwatts 750 # 10.0.53.6
+1bd329 maxwatts 950 # 10.0.58.139
+334b70 reboot 1574105462 # 10.0.53.6
+1bd329 reboot 1574105462 # 10.0.58.139
+
 334b70 reboot 1574104012 # 10.0.53.6 nbell00076
 38ca89 reboot 1574104012 # 10.0.121.123 nbell00128
 460f86 reboot 1574104012 # 10.0.61.24 nbell00032
@@ -2119,6 +2124,7 @@ f0f240 reset 1573070538
 
 ## asic password
 asicpass admin
+
 
 
 
