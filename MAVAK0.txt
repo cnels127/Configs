@@ -46,6 +46,9 @@ f0052b location MAVAK00001
 
 ## tuning
 0cf97a maxwatts -50 # 10.0.58.86
+0cf97a reboot 1574099265 # 10.0.58.86
+
+0cf97a maxwatts -50 # 10.0.58.86
 0cf97a reboot 1574069652 # 10.0.58.86
 
 0cf97a maxwatts -50 # 10.0.58.86
@@ -157,6 +160,7 @@ f0052b resetasic 1573847460
 
 ## asic password
 asicpass admin
+
 
 
 
