@@ -195,6 +195,11 @@ ba4916 maxwatts 1050 # 10.0.64.89
 ba4916 reboot 1574052778 # 10.0.64.89
 9b0eee reboot 1574052778 # 10.0.63.142
 
+ba4916 maxwatts 1050 # 10.0.64.89
+9b0eee maxwatts 1350 # 10.0.63.142
+ba4916 reboot 1574052778 # 10.0.64.89
+9b0eee reboot 1574052778 # 10.0.63.142
+
 2f0c3e reboot 1574051421 # 10.0.54.80 lmack00005
 b449ed reboot 1574051421 # 10.0.54.76 lmack00001
 bf813c reboot 1574051421 # 10.0.54.93 lmack00018
@@ -1309,6 +1314,7 @@ aa901a reset 1573767000
 
 ## asic password
 asicpass admin
+
 
 
 
