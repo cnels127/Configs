@@ -195,6 +195,11 @@ baa645 maxwatts 950 # 10.0.54.77
 5ad8ba reboot 1574072504 # 10.0.65.44
 baa645 reboot 1574072504 # 10.0.54.77
 
+5ad8ba maxwatts 450 # 10.0.65.44
+baa645 maxwatts 950 # 10.0.54.77
+5ad8ba reboot 1574072504 # 10.0.65.44
+baa645 reboot 1574072504 # 10.0.54.77
+
 b449ed reboot 1574071102 # 10.0.54.76 lmack00001
 117c32 reboot 1574071102 # 10.0.63.116 lmack00056
 9cbaab reboot 1574071102 # 10.0.54.79 lmack00004
@@ -1433,6 +1438,7 @@ aa901a reset 1573767000
 
 ## asic password
 asicpass admin
+
 
 
 
