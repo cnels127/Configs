@@ -569,6 +569,17 @@ fdbabb location GWELT00296
 989b0b location GWELT00300
 
 ## tuning
+7620af reboot 1574073920 # 10.0.65.139 gwelt00150
+d9af93 reboot 1574073920 # 10.0.66.4 gwelt00161
+b91d80 reboot 1574073920 # 10.0.65.50 gwelt00124
+fddff5 reboot 1574073920 # 10.0.66.42 gwelt00178
+31a25b reboot 1574073920 # 10.0.58.146 gwelt00088
+73b928 reboot 1574073920 # 10.0.58.39 gwelt00007
+6700fb reboot 1574073920 # 10.0.67.86 gwelt00225
+7d38ef reboot 1574073920 # 10.0.67.88 gwelt00227
+2e7b4a reboot 1574073920 # 10.0.66.111 gwelt00209
+ 
+
 a2131a maxwatts 950 # 10.0.121.111
 4d2178 maxwatts 850 # 10.0.63.79
 109552 maxwatts 850 # 10.0.66.86
@@ -1507,6 +1518,7 @@ ce7138 reset 1573273407
 
 ## asic password
 asicpass admin
+
 
 
 
