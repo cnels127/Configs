@@ -45,6 +45,10 @@ vlan 10.0.117.5-5
 5a85bf location NMANT0XTRA
 
 ## tuning
+30946f reboot 1574091651 # 10.0.58.132 nmant00001
+5a85bf reboot 1574091651 # 10.0.117.5 nmant0xtra
+ 
+
 30946f reboot 1574088635 # 10.0.58.132 nmant00001
  
 
@@ -73,6 +77,7 @@ vlan 10.0.117.5-5
 
 ## asic password
 asicpass admin
+
 
 
 
