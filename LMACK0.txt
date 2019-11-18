@@ -195,6 +195,11 @@ d3cdf7 location LMACK00100
 5ad8ba reboot 1574087090 # 10.0.65.44
 612b06 reboot 1574087090 # 10.0.63.138
 
+5ad8ba maxwatts -50 # 10.0.65.44
+612b06 maxwatts 1050 # 10.0.63.138
+5ad8ba reboot 1574087090 # 10.0.65.44
+612b06 reboot 1574087090 # 10.0.63.138
+
 2f0c3e reboot 1574085627 # 10.0.54.80 lmack00005
 b449ed reboot 1574085627 # 10.0.54.76 lmack00001
 bf813c reboot 1574085627 # 10.0.54.93 lmack00018
@@ -1528,6 +1533,7 @@ aa901a reset 1573767000
 
 ## asic password
 asicpass admin
+
 
 
 

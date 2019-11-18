@@ -93,6 +93,13 @@ fe05ff reboot 1574087027 # 10.0.65.57
 88775f reboot 1574087027 # 10.0.121.159
 a2cb7c reboot 1574087027 # 10.0.66.149
 
+fe05ff maxwatts 950 # 10.0.65.57
+88775f maxwatts -50 # 10.0.121.159
+a2cb7c maxwatts 1050 # 10.0.66.149
+fe05ff reboot 1574087027 # 10.0.65.57
+88775f reboot 1574087027 # 10.0.121.159
+a2cb7c reboot 1574087027 # 10.0.66.149
+
 9c860e reboot 1574085555 # 10.0.120.128 fhoef00040
 be5d42 reboot 1574085555 # 10.0.120.83 fhoef00033
  
@@ -1090,6 +1097,7 @@ c16782 reset 1573669390
 
 ## asic password
 asicpass admin
+
 
 
 
