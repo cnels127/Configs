@@ -297,6 +297,11 @@ e352e4 location CFELI00124
 507799 reboot 1574055504 # 10.0.118.135
 34dc74 reboot 1574055504 # 10.0.53.7
 
+507799 maxwatts -100 # 10.0.118.135
+34dc74 maxwatts 700 # 10.0.53.7
+507799 reboot 1574055504 # 10.0.118.135
+34dc74 reboot 1574055504 # 10.0.53.7
+
 5aad6c reboot 1574054138 # 10.0.119.146 cfeli00119
 a6dc9b reboot 1574054138 # 10.0.117.143 cfeli00090
  
@@ -1097,6 +1102,7 @@ b8511f reset 1573247814
 
 ## asic password
 asicpass admin
+
 
 
 
