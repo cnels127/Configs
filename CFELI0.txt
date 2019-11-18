@@ -297,6 +297,11 @@ e2c47c maxwatts 200 # 10.0.116.43
 e2c47c reboot 1574120469 # 10.0.116.43
 68c1ad reboot 1574120469 # 10.0.51.97
 
+e2c47c maxwatts 200 # 10.0.116.43
+68c1ad maxwatts 1100 # 10.0.51.97
+e2c47c reboot 1574120469 # 10.0.116.43
+68c1ad reboot 1574120469 # 10.0.51.97
+
 5aad6c reboot 1574119113 # 10.0.119.146 cfeli00119
  
 
@@ -1217,6 +1222,7 @@ b8511f reset 1573247814
 
 ## asic password
 asicpass admin
+
 
 
 
