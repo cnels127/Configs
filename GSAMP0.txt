@@ -93,6 +93,10 @@ f24571 location GSAMP00026
 d223ec location GSAMP00030
 
 ## tuning
+8a804d reboot 1574100754 # 10.0.59.54 gsamp00023
+ff488e reboot 1574100754 # 10.0.59.52 gsamp00022
+ 
+
 e61d93 reboot 1574097653 # 10.0.59.46 gsamp00018
  
 
@@ -643,6 +647,7 @@ a7631d reset 1573747385
 
 ## asic password
 asicpass admin
+
 
 
 
