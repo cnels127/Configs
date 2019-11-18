@@ -77,6 +77,9 @@ defa6a location RBARR00028
 894362 location RBARR00030
 
 ## tuning
+6ba6a0 maxwatts 700 # 10.0.57.71
+6ba6a0 reboot 1574072533 # 10.0.57.71
+
 6ba6a0 maxwatts 800 # 10.0.57.71
 693af5 maxwatts 900 # 10.0.57.69
 6ba6a0 reboot 1574069678 # 10.0.57.71
@@ -721,6 +724,7 @@ a81c86 reset 1573152016
 
 ## asic password
 asicpass admin
+
 
 
 
