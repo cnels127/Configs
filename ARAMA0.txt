@@ -54,6 +54,11 @@ dc1171 maxwatts 850 # 10.0.54.142
 dc1171 reboot 1574117678 # 10.0.54.142
 87a39c reboot 1574117678 # 10.0.54.144
 
+dc1171 maxwatts 850 # 10.0.54.142
+87a39c maxwatts 1250 # 10.0.54.144
+dc1171 reboot 1574117678 # 10.0.54.142
+87a39c reboot 1574117678 # 10.0.54.144
+
 df6f8a reboot 1574103816 # 10.0.56.106 arama00004
  
 
@@ -133,6 +138,7 @@ c5f2b7 reset 1573945010
 
 ## asic password
 asicpass admin
+
 
 
 
