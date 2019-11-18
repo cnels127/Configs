@@ -38,6 +38,9 @@ global blinkgreen rapid
 b73fb2 maxwatts 1350 # 10.0.61.151
 b73fb2 reboot 1574099206 # 10.0.61.151
 
+b73fb2 maxwatts 1350 # 10.0.61.151
+b73fb2 reboot 1574099206 # 10.0.61.151
+
 b18d0c reboot 1574097671 # 10.0.62.150 c405260063
 f4d41f reboot 1574097671 # 10.0.63.40 cp40520094
 be11d6 reboot 1574097671 # 10.0.64.141 bbhay00075
@@ -7822,6 +7825,7 @@ af7328 location BBHAY00085
 
 ## asic password
 asicpass admin
+
 
 
 
