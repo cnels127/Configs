@@ -221,6 +221,11 @@ c899a0 location FKRAU00088
 3ee8ed location FKRAU00090
 
 ## tuning
+df6e3e maxwatts 1250 # 10.0.77.1
+9c3c4b maxwatts 1050 # 10.0.62.78
+df6e3e reboot 1574047103 # 10.0.77.1
+9c3c4b reboot 1574047103 # 10.0.62.78
+
 d934fc reboot 1574045631 # 10.0.62.52 fkrau00020
  
 
@@ -1564,6 +1569,7 @@ a8ee8a reset 1572168378
 
 ## asic password
 asicpass admin
+
 
 
 
