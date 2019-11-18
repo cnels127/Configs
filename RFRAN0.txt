@@ -45,6 +45,9 @@ af34c7 location RFRAN00001
 d54f75 location RFRAN00004
 
 ## tuning
+d54f75 reboot 1574071138 # 10.0.62.40 rfran00004
+ 
+
 7f3717 reboot 1574068291 # 10.0.62.38 rfran00002
  
 
@@ -242,6 +245,7 @@ af34c7 reboot 1573785116 # 10.0.62.36
 
 ## asic password
 asicpass admin
+
 
 
 
