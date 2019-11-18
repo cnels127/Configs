@@ -124,6 +124,11 @@ f56d20 maxwatts 1150 # 10.0.61.145
 acb675 reboot 1574061093 # 10.0.64.137
 f56d20 reboot 1574061093 # 10.0.61.145
 
+acb675 maxwatts 950 # 10.0.64.137
+f56d20 maxwatts 1150 # 10.0.61.145
+acb675 reboot 1574061093 # 10.0.64.137
+f56d20 reboot 1574061093 # 10.0.61.145
+
 67ef67 reboot 1574059717 # 10.0.64.59 athom00024
 34f9ef reboot 1574059717 # 10.0.54.132 athom00007
  
@@ -838,6 +843,7 @@ d58ae6 reset 1573931515
 
 ## asic password
 asicpass admin
+
 
 
 

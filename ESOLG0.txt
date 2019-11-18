@@ -44,6 +44,11 @@ c88f61 maxwatts -50 # 10.0.50.150
 c88f61 reboot 1574061115 # 10.0.50.150
 71e6fe reboot 1574061115 # 10.0.50.29
 
+c88f61 maxwatts -50 # 10.0.50.150
+71e6fe maxwatts -50 # 10.0.50.29
+c88f61 reboot 1574061115 # 10.0.50.150
+71e6fe reboot 1574061115 # 10.0.50.29
+
 447c81 reboot 1574059742 # 10.0.55.62 esolg000352
 e4b4e7 reboot 1574059742 # 10.0.50.98 esolg000256
 6ec60f reboot 1574059742 # 10.0.55.35 esolg000329
@@ -5398,6 +5403,7 @@ f6e3e0 location ESOLG000396
 
 ## asic password
 asicpass admin
+
 
 
 

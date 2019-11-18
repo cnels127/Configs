@@ -54,6 +54,11 @@ df6f8a maxwatts 1250 # 10.0.56.106
 dc1171 reboot 1574061091 # 10.0.54.142
 df6f8a reboot 1574061091 # 10.0.56.106
 
+dc1171 maxwatts 1050 # 10.0.54.142
+df6f8a maxwatts 1250 # 10.0.56.106
+dc1171 reboot 1574061091 # 10.0.54.142
+df6f8a reboot 1574061091 # 10.0.56.106
+
 dc1171 maxwatts 1150 # 10.0.54.142
 dc1171 reboot 1574058290 # 10.0.54.142
 
@@ -93,6 +98,7 @@ c5f2b7 reset 1573945010
 
 ## asic password
 asicpass admin
+
 
 
 
