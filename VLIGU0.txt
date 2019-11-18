@@ -149,6 +149,11 @@ de8889 maxwatts 450 # 10.0.51.48
 8ae513 reboot 1574058432 # 10.0.51.52
 de8889 reboot 1574058432 # 10.0.51.48
 
+8ae513 maxwatts 350 # 10.0.51.52
+de8889 maxwatts 450 # 10.0.51.48
+8ae513 reboot 1574058432 # 10.0.51.52
+de8889 reboot 1574058432 # 10.0.51.48
+
 c05b10 maxwatts 850 # 10.0.51.55
 688790 maxwatts 250 # 10.0.51.37
 ad13e2 maxwatts 650 # 10.0.57.119
@@ -1767,6 +1772,7 @@ da3f92 reboot 1573577661 # 10.0.57.88
 
 ## asic password
 asicpass admin
+
 
 
 

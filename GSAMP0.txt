@@ -96,6 +96,9 @@ d223ec location GSAMP00030
 ff488e maxwatts 1050 # 10.0.59.52
 ff488e reboot 1574058320 # 10.0.59.52
 
+ff488e maxwatts 1050 # 10.0.59.52
+ff488e reboot 1574058320 # 10.0.59.52
+
 3900a7 maxwatts 350 # 10.0.59.36
 3900a7 reboot 1574055523 # 10.0.59.36
 
@@ -600,6 +603,7 @@ a7631d reset 1573747385
 
 ## asic password
 asicpass admin
+
 
 
 

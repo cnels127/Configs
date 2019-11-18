@@ -126,6 +126,13 @@ acb675 reboot 1574058292 # 10.0.64.137
 fbf1ac reboot 1574058292 # 10.0.65.22
 42f4ea reboot 1574058292 # 10.0.65.97
 
+acb675 maxwatts 1050 # 10.0.64.137
+fbf1ac maxwatts 650 # 10.0.65.22
+42f4ea maxwatts 750 # 10.0.65.97
+acb675 reboot 1574058292 # 10.0.64.137
+fbf1ac reboot 1574058292 # 10.0.65.22
+42f4ea reboot 1574058292 # 10.0.65.97
+
 67ef67 reboot 1574056921 # 10.0.64.59 athom00024
 34f9ef reboot 1574056921 # 10.0.54.132 athom00007
  
@@ -822,6 +829,7 @@ d58ae6 reset 1573931515
 
 ## asic password
 asicpass admin
+
 
 
 
