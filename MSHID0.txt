@@ -64,6 +64,13 @@ c842f9 location MSHID00007
 bccae7 location MSHID00014
 
 ## tuning
+749409 reboot 1574085643 # 10.0.58.9 mshid00011
+bccae7 reboot 1574085643 # 10.0.58.24 mshid00014
+46bae8 reboot 1574085643 # 10.0.57.145 mshid00003
+304296 reboot 1574085643 # 10.0.57.156 mshid00008
+7bbb90 reboot 1574085643 # 10.0.57.144 mshid00002
+ 
+
 9d84e2 reboot 1574082699 # 10.0.57.148 mshid00005
 0e1ddf reboot 1574082699 # 10.0.58.2 mshid00009
 304296 reboot 1574082699 # 10.0.57.156 mshid00008
@@ -476,6 +483,7 @@ bccae7 reboot 1573494497 # 10.0.58.24 mshid00014
 
 ## asic password
 asicpass admin
+
 
 
 
