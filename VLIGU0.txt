@@ -147,6 +147,9 @@ db2bbb location VLIGU00092
 6878ae maxwatts -50 # 10.0.51.33
 6878ae reboot 1574178997 # 10.0.51.33
 
+6878ae maxwatts -50 # 10.0.51.33
+6878ae reboot 1574178997 # 10.0.51.33
+
 02d712 reboot 1574177615 # 10.0.51.44 vligu00047
 182773 reboot 1574177615 # 10.0.51.27 vligu00030
 a6cb63 reboot 1574177615 # 10.0.51.45 vligu00048
@@ -2143,6 +2146,7 @@ da3f92 reboot 1573577661 # 10.0.57.88
 
 ## asic password
 asicpass admin
+
 
 
 
