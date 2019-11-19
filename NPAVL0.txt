@@ -57,6 +57,9 @@ fff476 location NPAVL00008
 d42111 maxwatts 650 # 10.0.57.136
 d42111 reboot 1574206081 # 10.0.57.136
 
+d42111 maxwatts 650 # 10.0.57.136
+d42111 reboot 1574206081 # 10.0.57.136
+
 821721 maxwatts -50 # 10.0.57.130
 d42111 maxwatts 750 # 10.0.57.136
 821721 reboot 1574203321 # 10.0.57.130
@@ -556,6 +559,7 @@ a95ab0 reset 1573153456
 
 ## asic password
 asicpass admin
+
 
 
 

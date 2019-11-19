@@ -153,6 +153,15 @@ eabd2c maxwatts 1350 # 10.0.51.28
 de8889 reboot 1574206132 # 10.0.51.48
 eabd2c reboot 1574206132 # 10.0.51.28
 
+182773 maxwatts -50 # 10.0.51.27
+6878ae maxwatts -50 # 10.0.51.33
+de8889 maxwatts 50 # 10.0.51.48
+eabd2c maxwatts 1350 # 10.0.51.28
+182773 reboot 1574206132 # 10.0.51.27
+6878ae reboot 1574206132 # 10.0.51.33
+de8889 reboot 1574206132 # 10.0.51.48
+eabd2c reboot 1574206132 # 10.0.51.28
+
 430b5d reboot 1574204787 # 10.0.57.160 vligu00100
  
 
@@ -2242,6 +2251,7 @@ da3f92 reboot 1573577661 # 10.0.57.88
 
 ## asic password
 asicpass admin
+
 
 
 
