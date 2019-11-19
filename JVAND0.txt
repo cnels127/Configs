@@ -197,6 +197,13 @@ b35ae4 location JVAND00078
 ## fans
 
 ## tuning
+93620c reboot 1574180362 # 10.0.120.152 jvand00070
+ca8c7a reboot 1574180362 # 10.0.115.53 jvand00012
+bfb2ab reboot 1574180362 # 10.0.121.45 jvand00072
+189393 reboot 1574180362 # 10.0.120.108 jvand00069
+b5522d reboot 1574180362 # 10.0.118.65 jvand00031
+ 
+
 ca8c7a reboot 1574177508 # 10.0.115.53 jvand00012
 93620c reboot 1574177508 # 10.0.120.152 jvand00070
 bfb2ab reboot 1574177508 # 10.0.121.45 jvand00072
@@ -1586,6 +1593,7 @@ d22225 reset 1572964672
 
 ## asic password
 asicpass admin
+
 
 
 
