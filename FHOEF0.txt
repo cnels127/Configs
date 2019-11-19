@@ -89,6 +89,9 @@ d560da location FHOEF00039
 99d76d maxwatts 550 # 10.0.62.30
 99d76d reboot 1574197740 # 10.0.62.30
 
+99d76d maxwatts 550 # 10.0.62.30
+99d76d reboot 1574197740 # 10.0.62.30
+
 99d76d maxwatts 650 # 10.0.62.30
 9c860e maxwatts 250 # 10.0.120.128
 88775f maxwatts -50 # 10.0.121.159
@@ -1382,6 +1385,7 @@ c16782 reset 1573669390
 
 ## asic password
 asicpass admin
+
 
 
 
