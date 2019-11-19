@@ -19,19 +19,19 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1500
+global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-# global throttle 100
-global fanspeed 100
+global throttle 100
+global fanspeed 80
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
-global reboot 1573584429 # 1
-global reset 1573494607
+# global reboot 1573584429 # 1
+# global reset 1573494607
 # global panelpass gj83Nkgikg
 
 ## vlans
@@ -45,289 +45,13 @@ af34c7 location RFRAN00001
 d54f75 location RFRAN00004
 
 ## tuning
-d54f75 reboot 1574071138 # 10.0.62.40 rfran00004
- 
 
-7f3717 reboot 1574068291 # 10.0.62.38 rfran00002
- 
-
-af34c7 maxwatts 1200 # 10.0.62.36
-af34c7 reboot 1574066840 # 10.0.62.36
-
-af34c7 maxwatts 1200 # 10.0.62.36
-af34c7 reboot 1574066840 # 10.0.62.36
-
-7f3717 reboot 1574065458 # 10.0.62.38 rfran00002
- 
-
-7f3717 reboot 1574062634 # 10.0.62.38 rfran00002
- 
-
-7f3717 reboot 1574059821 # 10.0.62.38 rfran00002
- 
-
-7f3717 reboot 1574057024 # 10.0.62.38 rfran00002
- 
-
-7f3717 reboot 1574054229 # 10.0.62.38 rfran00002
- 
-
-7f3717 reboot 1574051450 # 10.0.62.38 rfran00002
- 
-
-7f3717 reboot 1574048679 # 10.0.62.38 rfran00002
- 
-
-7f3717 reboot 1574045755 # 10.0.62.38 rfran00002
- 
-
-7f3717 reboot 1574042732 # 10.0.62.38 rfran00002
- 
-
-7f3717 reboot 1574039792 # 10.0.62.38 rfran00002
- 
-
-7f3717 reboot 1574037015 # 10.0.62.38 rfran00002
- 
-
-7f3717 reboot 1574034287 # 10.0.62.38 rfran00002
- 
-
-7f3717 reboot 1574031573 # 10.0.62.38 rfran00002
- 
-
-7f3717 reboot 1574028862 # 10.0.62.38 rfran00002
- 
-
-7f3717 reboot 1574026156 # 10.0.62.38 rfran00002
- 
-
-7f3717 reboot 1574023450 # 10.0.62.38 rfran00002
- 
-
-7f3717 reboot 1574020750 # 10.0.62.38 rfran00002
- 
-
-7f3717 reboot 1574018049 # 10.0.62.38 rfran00002
- 
-
-7f3717 reboot 1574015335 # 10.0.62.38 rfran00002
- 
-
-7f3717 reboot 1574012613 # 10.0.62.38 rfran00002
- 
-
-7f3717 reboot 1574009861 # 10.0.62.38 rfran00002
- 
-
-7f3717 reboot 1574008052 # 10.0.62.38 rfran00002
- 
-
-46bd22 maxwatts 900 # 10.0.62.39
-46bd22 reboot 1574006606 # 10.0.62.39
-
-46bd22 maxwatts 900 # 10.0.62.39
-46bd22 reboot 1574006606 # 10.0.62.39
-
-7f3717 reboot 1574005226 # 10.0.62.38 rfran00002
- 
-
-7f3717 reboot 1574002421 # 10.0.62.38 rfran00002
- 
-
-7f3717 reboot 1573999629 # 10.0.62.38 rfran00002
- 
-
-7f3717 reboot 1573996848 # 10.0.62.38 rfran00002
- 
-
-7f3717 reboot 1573994083 # 10.0.62.38 rfran00002
- 
-
-7f3717 reboot 1573991329 # 10.0.62.38 rfran00002
- 
-
-7f3717 reboot 1573988551 # 10.0.62.38 rfran00002
- 
-
-7f3717 reboot 1573985701 # 10.0.62.38 rfran00002
- 
-
-7f3717 reboot 1573982824 # 10.0.62.38 rfran00002
- 
-
-7f3717 maxwatts 900 # 10.0.62.38
-7f3717 reboot 1573978492 # 10.0.62.38
-
-7f3717 maxwatts 900 # 10.0.62.38
-7f3717 reboot 1573978492 # 10.0.62.38
-
-46bd22 maxwatts 1000 # 10.0.62.39
-46bd22 reboot 1573975597 # 10.0.62.39
-
-46bd22 maxwatts 1000 # 10.0.62.39
-46bd22 reboot 1573975597 # 10.0.62.39
-
-46bd22 maxwatts 1100 # 10.0.62.39
-7f3717 maxwatts 1000 # 10.0.62.38
-46bd22 reboot 1573972730 # 10.0.62.39
-7f3717 reboot 1573972730 # 10.0.62.38
-
-46bd22 maxwatts 1100 # 10.0.62.39
-7f3717 maxwatts 1000 # 10.0.62.38
-46bd22 reboot 1573972730 # 10.0.62.39
-7f3717 reboot 1573972730 # 10.0.62.38
-
-46bd22 maxwatts 1200 # 10.0.62.39
-46bd22 reboot 1573969862 # 10.0.62.39
-
-46bd22 maxwatts 1200 # 10.0.62.39
-46bd22 reboot 1573969862 # 10.0.62.39
-
-46bd22 maxwatts 1300 # 10.0.62.39
-46bd22 reboot 1573967017 # 10.0.62.39
-
-46bd22 maxwatts 1300 # 10.0.62.39
-46bd22 reboot 1573967017 # 10.0.62.39
-
-46bd22 maxwatts 1400 # 10.0.62.39
-46bd22 reboot 1573964170 # 10.0.62.39
-
-46bd22 maxwatts 1400 # 10.0.62.39
-46bd22 reboot 1573964170 # 10.0.62.39
-
-af34c7 maxwatts 1300 # 10.0.62.36
-af34c7 reboot 1573881307 # 10.0.62.36
-
-af34c7 maxwatts 1300 # 10.0.62.36
-af34c7 reboot 1573881307 # 10.0.62.36
-
-d54f75 maxwatts 1400 # 10.0.62.40
-d54f75 reboot 1573787087 # 10.0.62.40
-
-d54f75 maxwatts 1400 # 10.0.62.40
-d54f75 reboot 1573787087 # 10.0.62.40
-
-af34c7 maxwatts 1400 # 10.0.62.36
-af34c7 reboot 1573785116 # 10.0.62.36
-
-af34c7 maxwatts 1400 # 10.0.62.36
-af34c7 reboot 1573785116 # 10.0.62.36
-
-7f3717 maxwatts 1100 # 10.0.62.38
-7f3717 reboot 1573617235 # 10.0.62.38
-
-7f3717 maxwatts 1100 # 10.0.62.38
-7f3717 reboot 1573617235 # 10.0.62.38
-
-7f3717 maxwatts 1200 # 10.0.62.38
-7f3717 reboot 1573615410 # 10.0.62.38
-
-7f3717 maxwatts 1200 # 10.0.62.38
-7f3717 reboot 1573615410 # 10.0.62.38
-
-7f3717 maxwatts 1300 # 10.0.62.38
-7f3717 reboot 1573606428 # 10.0.62.38
-
-7f3717 maxwatts 1300 # 10.0.62.38
-7f3717 reboot 1573606428 # 10.0.62.38
-
-7f3717 maxwatts 1400 # 10.0.62.38
-7f3717 reboot 1573601285 # 10.0.62.38
-
-7f3717 maxwatts 1400 # 10.0.62.38
-7f3717 reboot 1573601285 # 10.0.62.38
-
+## fans
 
 ## reboots
 
 ## resets
+7f3717 reset 1574123798
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
