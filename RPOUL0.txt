@@ -44,6 +44,9 @@ vlan 10.0.68.30-33
 ba1c4a location RPOUL00004
 
 ## tuning
+12c5ea reboot 1574124839 # 10.0.68.30 rpoul00001
+ 
+
 
 ## fans
 
@@ -56,3 +59,4 @@ ba1c4a reset 1573666738
 
 ## asic password
 asicpass admin
+
