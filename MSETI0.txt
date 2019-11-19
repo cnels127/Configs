@@ -53,6 +53,9 @@ f6388e location MSETI00005
 35e5b2 location MSETI00006
 
 ## tuning
+f6388e reboot 1574196402 # 10.0.115.61 mseti00005
+ 
+
 f6388e reboot 1574194254 # 10.0.115.61 mseti00005
  
 
@@ -310,6 +313,7 @@ f6388e reset 1573172973
 
 ## asic password
 asicpass admin
+
 
 
 
