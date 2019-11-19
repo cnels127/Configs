@@ -230,6 +230,15 @@ b66a48 maxwatts 650 # 10.0.62.49
 7ef3f6 reboot 1574140112 # 10.0.67.130
 b66a48 reboot 1574140112 # 10.0.62.49
 
+4112bb maxwatts 1150 # 10.0.54.48
+8605af maxwatts 350 # 10.0.51.92
+7ef3f6 maxwatts -50 # 10.0.67.130
+b66a48 maxwatts 650 # 10.0.62.49
+4112bb reboot 1574140112 # 10.0.54.48
+8605af reboot 1574140112 # 10.0.51.92
+7ef3f6 reboot 1574140112 # 10.0.67.130
+b66a48 reboot 1574140112 # 10.0.62.49
+
 df6e3e reboot 1574138715 # 10.0.77.1 fkrau00074
  
 
@@ -1906,6 +1915,7 @@ a8ee8a reset 1572168378
 
 ## asic password
 asicpass admin
+
 
 
 
