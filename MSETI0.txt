@@ -56,6 +56,9 @@ f6388e location MSETI00005
 7efb10 maxwatts 1350 # 10.0.58.19
 7efb10 reboot 1574145595 # 10.0.58.19
 
+7efb10 maxwatts 1350 # 10.0.58.19
+7efb10 reboot 1574145595 # 10.0.58.19
+
 743db3 reboot 1574144263 # 10.0.63.160 mseti00004
 a22315 reboot 1574144263 # 10.0.63.140 mseti00003
 f6388e reboot 1574144263 # 10.0.115.61 mseti00005
@@ -265,6 +268,7 @@ f6388e reset 1573172973
 
 ## asic password
 asicpass admin
+
 
 
 
