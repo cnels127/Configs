@@ -243,6 +243,9 @@ ef15e2 location ASMIT000097
 d6d15f maxwatts 1400 # 10.0.117.13
 d6d15f reboot 1574200485 # 10.0.117.13
 
+d6d15f maxwatts 1400 # 10.0.117.13
+d6d15f reboot 1574200485 # 10.0.117.13
+
 23551c reboot 1574199125 # 10.0.119.119 asmit000073
 57db56 reboot 1574199125 # 10.0.66.91 asmit000046
 47bb2b reboot 1574199125 # 10.0.66.101 asmit000051
@@ -1286,6 +1289,7 @@ d1959f reset 1573271431
 
 ## asic password
 asicpass admin
+
 
 
 

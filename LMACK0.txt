@@ -195,6 +195,11 @@ b4364f maxwatts -50 # 10.0.54.118
 5ad8ba reboot 1574200546 # 10.0.65.44
 b4364f reboot 1574200546 # 10.0.54.118
 
+5ad8ba maxwatts -50 # 10.0.65.44
+b4364f maxwatts -50 # 10.0.54.118
+5ad8ba reboot 1574200546 # 10.0.65.44
+b4364f reboot 1574200546 # 10.0.54.118
+
 117c32 reboot 1574199185 # 10.0.63.116 lmack00056
 2f0c3e reboot 1574199185 # 10.0.54.80 lmack00005
 a92994 reboot 1574199185 # 10.0.54.96 lmack00021
@@ -2203,6 +2208,7 @@ aa901a reset 1573767000
 
 ## asic password
 asicpass admin
+
 
 
 
