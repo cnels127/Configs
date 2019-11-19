@@ -4,16 +4,16 @@
 global custompanel TIMAT0bit049
 global customer bit49-Russia
 
-global poolname1 us-east.stratum.slushpool.com:3333
+global poolname1 b4c.f2pool.com:1228
 global username1 148eSzEPqqjERfpvXabuen84WXZP2KCfnu
 global poolpass1 123
 global sendworker1 yes
-global poolname2 prohashing.com:3335
+global poolname2 eu.stratum.slushpool.com:3333
 global username2 cosbeni
 global poolpass2 123
 global sendworker2 yes
-global poolname3 profit.pool.bitcoin.com:3333
-global username3 bit49
+global poolname3 prohashing.com:3335
+global username3 cosbeni
 global poolpass3 123
 global sendworker3 yes
 
@@ -30,9 +30,9 @@ global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
-# global reboot 1
+global reboot 1574142593
 # global reset 1573861886
-global uncork 1574139669
+# global uncork 1574139669
 # global panelpass gj83Nkgikg
 
 ## vlans
