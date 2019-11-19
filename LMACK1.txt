@@ -72,6 +72,9 @@ dc7a56 location LMACK10013
 188204 location LMACK10017
 
 ## tuning
+66742c reboot 1574199186 # 10.10.126.19 lmack10006
+ 
+
 697be7 reboot 1574188473 # 10.10.126.121 lmack10015
  
 
@@ -144,6 +147,7 @@ dc7a56 rebootasic 1570111062 # 172.16.203.133 lmack10013
 
 ## asic password
 asicpass admin
+
 
 
 
