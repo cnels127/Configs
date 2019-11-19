@@ -296,6 +296,9 @@ e2c47c maxwatts -100 # 10.0.116.43
 e2c47c reboot 1574162011 # 10.0.116.43
 
 e2c47c maxwatts -100 # 10.0.116.43
+e2c47c reboot 1574162011 # 10.0.116.43
+
+e2c47c maxwatts -100 # 10.0.116.43
 e2c47c reboot 1574159247 # 10.0.116.43
 
 e2c47c maxwatts -100 # 10.0.116.43
@@ -1405,6 +1408,7 @@ b8511f reset 1573247814
 
 ## asic password
 asicpass admin
+
 
 
 

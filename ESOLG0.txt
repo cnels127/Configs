@@ -48,6 +48,15 @@ ffa316 reboot 1574162023 # 10.0.55.32
 92d4a2 reboot 1574162023 # 10.0.50.49
 6d2f1f reboot 1574162023 # 10.0.50.113
 
+71e6fe maxwatts 750 # 10.0.50.29
+ffa316 maxwatts 1250 # 10.0.55.32
+92d4a2 maxwatts 750 # 10.0.50.49
+6d2f1f maxwatts 1350 # 10.0.50.113
+71e6fe reboot 1574162023 # 10.0.50.29
+ffa316 reboot 1574162023 # 10.0.55.32
+92d4a2 reboot 1574162023 # 10.0.50.49
+6d2f1f reboot 1574162023 # 10.0.50.113
+
 bb1d90 reboot 1574160668 # 10.0.119.101 esolg000392
 e1804e reboot 1574160668 # 10.0.50.83 esolg000245
 c22a6f reboot 1574160668 # 10.0.31.142 esolg000160
@@ -1945,6 +1954,7 @@ f6e3e0 location ESOLG000396
 
 ## asic password
 asicpass admin
+
 
 
 

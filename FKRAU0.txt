@@ -228,6 +228,13 @@ e4749b reboot 1574162026 # 10.0.54.41
 d379c4 reboot 1574162026 # 10.0.62.53
 d156c9 reboot 1574162026 # 10.0.63.49
 
+e4749b maxwatts -50 # 10.0.54.41
+d379c4 maxwatts 150 # 10.0.62.53
+d156c9 maxwatts 650 # 10.0.63.49
+e4749b reboot 1574162026 # 10.0.54.41
+d379c4 reboot 1574162026 # 10.0.62.53
+d156c9 reboot 1574162026 # 10.0.63.49
+
 df6e3e reboot 1574160671 # 10.0.77.1 fkrau00074
  
 
@@ -2009,6 +2016,7 @@ a8ee8a reset 1572168378
 
 ## asic password
 asicpass admin
+
 
 
 
