@@ -23,8 +23,8 @@ global maxwatts 1350
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-# global throttle 100
-global fanspeed 100
+global throttle 100
+global fanspeed 80
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
@@ -44,46 +44,12 @@ vlan 10.0.60.58-58
 1c0d86 location DSCRI00003
 
 ## tuning
-309322 maxwatts 950 # 10.0.60.10
-309322 reboot 1574090015 # 10.0.60.10
-
-309322 maxwatts 950 # 10.0.60.10
-309322 reboot 1574090015 # 10.0.60.10
-
-309322 maxwatts 1050 # 10.0.60.10
-309322 reboot 1574075325 # 10.0.60.10
-
-309322 maxwatts 1050 # 10.0.60.10
-309322 reboot 1574075325 # 10.0.60.10
-
-309322 maxwatts 1150 # 10.0.60.10
-309322 reboot 1574072450 # 10.0.60.10
-
-309322 maxwatts 1150 # 10.0.60.10
-309322 reboot 1574072450 # 10.0.60.10
-
-309322 maxwatts 1250 # 10.0.60.10
-309322 reboot 1573788856 # 10.0.60.10
-
-309322 maxwatts 1250 # 10.0.60.10
-309322 reboot 1573788856 # 10.0.60.10
-
-
-
 
 ## reboots
 
 ## resets
+1c0d86 reset 1574122168
+309322 reset 1574122168
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
