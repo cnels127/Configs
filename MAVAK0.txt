@@ -44,10 +44,8 @@ f0052b location MAVAK00001
 0cf97a location MAVAK00002
 1e0fc5 location MAVAK00003
 
-## tuning
-0cf97a reboot 1574155200 # 10.0.58.86 mavak00002
- 
-
+## throttle
+f0052b uncork 1574204597
 
 ## fans
 
