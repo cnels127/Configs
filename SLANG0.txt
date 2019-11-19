@@ -101,6 +101,14 @@ a3c9ac location SLANG00024
 cc9cd4 location SLANG00025
 
 ## tuning
+bf1870 reboot 1574136053 # 10.0.60.6 slang00001
+435798 reboot 1574136053 # 10.0.60.11 slang00002
+8c8868 reboot 1574136053 # 10.0.60.13 slang00003
+e1bef3 reboot 1574136053 # 10.0.60.104 slang00010
+15269c reboot 1574136053 # 10.0.64.74 slang00015
+02a4cb reboot 1574136053 # 10.0.66.77 slang00018
+ 
+
 435798 reboot 1574133286 # 10.0.60.11 slang00002
 e2c4c8 reboot 1574133286 # 10.0.60.34 slang00005
 bf1870 reboot 1574133286 # 10.0.60.6 slang00001
@@ -735,6 +743,7 @@ e1bef3 reset 1573789399
 
 ## asic password
 asicpass admin
+
 
 
 
