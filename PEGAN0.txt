@@ -23,7 +23,7 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-# global throttle 100
+global throttle 100
 global fanspeed 80
 global fansaver yes
 global blinkred idle
@@ -68,7 +68,7 @@ a03c97 location PEGAN00013
 f1ae88 location PEGAN00014
 4900fd location PEGAN00015
 
-##
+## throttle
 
 ## reboots
 
@@ -79,142 +79,3 @@ d20101 reset 1573254748
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
