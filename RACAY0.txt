@@ -91,6 +91,11 @@ ac1696 maxwatts -100 # 10.0.56.34
 ac1696 reboot 1574173268 # 10.0.56.34
 095c6d reboot 1574173268 # 10.0.56.36
 
+ac1696 maxwatts -100 # 10.0.56.34
+095c6d maxwatts 600 # 10.0.56.36
+ac1696 reboot 1574173268 # 10.0.56.34
+095c6d reboot 1574173268 # 10.0.56.36
+
 6c2312 reboot 1574171897 # 10.0.55.126 racay00008
 095c6d reboot 1574171897 # 10.0.56.36 racay00013
 ec8ea7 reboot 1574171897 # 10.0.55.144 racay00009
@@ -740,6 +745,7 @@ ac1696 reboot 1573676410 # 10.0.56.34
 
 ## asic password
 asicpass admin
+
 
 
 
