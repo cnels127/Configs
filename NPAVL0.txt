@@ -54,6 +54,9 @@ fff476 location NPAVL00008
 570241 location NPAVL00010
 
 ## tuning
+11a5c9 reboot 1574133244 # 10.0.57.133 npavl00004
+ 
+
 821721 maxwatts -50 # 10.0.57.130
 821721 reboot 1574131808 # 10.0.57.130
 
@@ -480,6 +483,7 @@ a95ab0 reset 1573153456
 
 ## asic password
 asicpass admin
+
 
 
 
