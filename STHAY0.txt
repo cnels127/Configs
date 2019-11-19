@@ -45,6 +45,11 @@ f450a0 location STHAY00002
 546a5f location STHAY00003
 
 ## tuning
+132245 reboot 1574122002 # 10.0.60.99 sthay00001
+546a5f reboot 1574122002 # 10.0.60.144 sthay00003
+f450a0 reboot 1574122002 # 10.0.60.111 sthay00002
+ 
+
 132245 reboot 1574119223 # 10.0.60.99 sthay00001
 546a5f reboot 1574119223 # 10.0.60.144 sthay00003
 f450a0 reboot 1574119223 # 10.0.60.111 sthay00002
@@ -156,6 +161,7 @@ f450a0 reboot 1574116428 # 10.0.60.111 sthay00002
 
 ## asic password
 asicpass admin
+
 
 
 
