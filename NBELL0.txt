@@ -468,6 +468,11 @@ b894e2 maxwatts 150 # 10.0.118.110
 ecd1ec reboot 1574131806 # 10.0.77.89
 b894e2 reboot 1574131806 # 10.0.118.110
 
+ecd1ec maxwatts -50 # 10.0.77.89
+b894e2 maxwatts 150 # 10.0.118.110
+ecd1ec reboot 1574131806 # 10.0.77.89
+b894e2 reboot 1574131806 # 10.0.118.110
+
 22c41f reboot 1574130458 # 10.0.77.143 nbell00116
 771e29 reboot 1574130458 # 10.0.120.123 nbell00127
 5534be reboot 1574130458 # 10.0.120.140 nbell00126
@@ -2250,6 +2255,7 @@ f0f240 reset 1573070538
 
 ## asic password
 asicpass admin
+
 
 
 
