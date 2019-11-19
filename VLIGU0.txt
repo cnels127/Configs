@@ -149,6 +149,11 @@ ad13e2 maxwatts 550 # 10.0.57.119
 6878ae reboot 1574126277 # 10.0.51.33
 ad13e2 reboot 1574126277 # 10.0.57.119
 
+6878ae maxwatts -50 # 10.0.51.33
+ad13e2 maxwatts 550 # 10.0.57.119
+6878ae reboot 1574126277 # 10.0.51.33
+ad13e2 reboot 1574126277 # 10.0.57.119
+
 7eea51 reboot 1574124878 # 10.0.51.20 vligu00023
  
 
@@ -1953,6 +1958,7 @@ da3f92 reboot 1573577661 # 10.0.57.88
 
 ## asic password
 asicpass admin
+
 
 
 
