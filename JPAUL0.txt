@@ -19,12 +19,12 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1500
+global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-# global throttle 100
-global fanspeed 100
+global throttle 100
+global fanspeed 85
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
@@ -47,34 +47,9 @@ a7102e location JPAUL00003
 a01578 location JPAUL00004
 9c326c location JPAUL00005
 
-## tuning
-a39697 maxwatts 1200 # 10.0.68.37
-a39697 reboot 1574006556 # 10.0.68.37
+## throttle
 
-a39697 maxwatts 1200 # 10.0.68.37
-a39697 reboot 1574006556 # 10.0.68.37
-
-a39697 maxwatts 1300 # 10.0.68.37
-a39697 reboot 1573978436 # 10.0.68.37
-
-a39697 maxwatts 1300 # 10.0.68.37
-a39697 reboot 1573978436 # 10.0.68.37
-
-a39697 maxwatts 1400 # 10.0.68.37
-a39697 reboot 1573972676 # 10.0.68.37
-
-a39697 maxwatts 1400 # 10.0.68.37
-a39697 reboot 1573972676 # 10.0.68.37
-
-a01578 maxwatts 1400 # 10.0.56.83
-a01578 reboot 1573788916 # 10.0.56.83
-
-a01578 maxwatts 1400 # 10.0.56.83
-a01578 reboot 1573788916 # 10.0.56.83
-
-
-
-
+## fans
 
 ## reboots
 
@@ -82,37 +57,3 @@ a01578 reboot 1573788916 # 10.0.56.83
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
