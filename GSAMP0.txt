@@ -94,6 +94,9 @@ d223ec location GSAMP00030
 
 ## tuning
 78cb4c maxwatts -50 # 10.0.59.49
+78cb4c reboot 1574203271 # 10.0.59.49
+
+78cb4c maxwatts -50 # 10.0.59.49
 78cb4c reboot 1574200511 # 10.0.59.49
 
 78cb4c maxwatts -50 # 10.0.59.49
@@ -705,6 +708,7 @@ a7631d reset 1573747385
 
 ## asic password
 asicpass admin
+
 
 
 
