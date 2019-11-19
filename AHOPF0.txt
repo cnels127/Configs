@@ -38,6 +38,9 @@ global reboot 1573583438 # 4
 aa49d8 maxwatts -50 # 10.0.57.37
 aa49d8 reboot 1574164777 # 10.0.57.37
 
+aa49d8 maxwatts -50 # 10.0.57.37
+aa49d8 reboot 1574164777 # 10.0.57.37
+
 62e3a0 reboot 1574163407 # 10.0.20.45 ahopf00348
 b79b7a reboot 1574163407 # 10.0.20.86 ahopf00382
 38b6a2 reboot 1574163407 # 10.0.57.16 ahopf00019
@@ -4199,6 +4202,7 @@ c6cbe1 username3 GMTVILLA01
 
 ## asic password
 asicpass admin
+
 
 
 
