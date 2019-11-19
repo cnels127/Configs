@@ -19,12 +19,12 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1500
+global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-# global throttle 100
-global fanspeed 100
+global throttle 100
+global fanspeed 85
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
@@ -49,154 +49,9 @@ f60679 location CLOUI00008
 df94bd location CLOUI00009
 6cb55b location CLOUI00010
 
-## tuning
-3a0cc0 maxwatts 700 # 10.0.54.53
-3a0cc0 reboot 1574120470 # 10.0.54.53
+## overheats
 
-3a0cc0 maxwatts 700 # 10.0.54.53
-3a0cc0 reboot 1574120470 # 10.0.54.53
-
-6d0544 maxwatts 700 # 10.0.54.52
-6d0544 reboot 1574087008 # 10.0.54.52
-
-6d0544 maxwatts 700 # 10.0.54.52
-6d0544 reboot 1574087008 # 10.0.54.52
-
-6d0544 maxwatts 800 # 10.0.54.52
-6d0544 reboot 1574084052 # 10.0.54.52
-
-6d0544 maxwatts 800 # 10.0.54.52
-6d0544 reboot 1574084052 # 10.0.54.52
-
-6d0544 maxwatts 900 # 10.0.54.52
-6d0544 reboot 1574078201 # 10.0.54.52
-
-6d0544 maxwatts 900 # 10.0.54.52
-6d0544 reboot 1574078201 # 10.0.54.52
-
-3a0cc0 maxwatts 800 # 10.0.54.53
-6d0544 maxwatts 1000 # 10.0.54.52
-3a0cc0 reboot 1574072439 # 10.0.54.53
-6d0544 reboot 1574072439 # 10.0.54.52
-
-3a0cc0 maxwatts 800 # 10.0.54.53
-6d0544 maxwatts 1000 # 10.0.54.52
-3a0cc0 reboot 1574072439 # 10.0.54.53
-6d0544 reboot 1574072439 # 10.0.54.52
-
-6cb55b maxwatts 1100 # 10.0.54.58
-6cb55b reboot 1574063921 # 10.0.54.58
-
-6cb55b maxwatts 1100 # 10.0.54.58
-6cb55b reboot 1574063921 # 10.0.54.58
-
-3a0cc0 maxwatts 900 # 10.0.54.53
-3a0cc0 reboot 1574016598 # 10.0.54.53
-
-3a0cc0 maxwatts 900 # 10.0.54.53
-3a0cc0 reboot 1574016598 # 10.0.54.53
-
-3a0cc0 maxwatts 1000 # 10.0.54.53
-bf9f18 maxwatts 1300 # 10.0.54.51
-3a0cc0 reboot 1574013880 # 10.0.54.53
-bf9f18 reboot 1574013880 # 10.0.54.51
-
-3a0cc0 maxwatts 1000 # 10.0.54.53
-bf9f18 maxwatts 1300 # 10.0.54.51
-3a0cc0 reboot 1574013880 # 10.0.54.53
-bf9f18 reboot 1574013880 # 10.0.54.51
-
-3a0cc0 maxwatts 1100 # 10.0.54.53
-6d0544 maxwatts 1100 # 10.0.54.52
-3a0cc0 reboot 1574011156 # 10.0.54.53
-6d0544 reboot 1574011156 # 10.0.54.52
-
-3a0cc0 maxwatts 1100 # 10.0.54.53
-6d0544 maxwatts 1100 # 10.0.54.52
-3a0cc0 reboot 1574011156 # 10.0.54.53
-6d0544 reboot 1574011156 # 10.0.54.52
-
-3a0cc0 maxwatts 1200 # 10.0.54.53
-49ba28 maxwatts 1300 # 10.0.54.54
-bf9f18 maxwatts 1400 # 10.0.54.51
-6d0544 maxwatts 1200 # 10.0.54.52
-3a0cc0 reboot 1574009345 # 10.0.54.53
-49ba28 reboot 1574009345 # 10.0.54.54
-bf9f18 reboot 1574009345 # 10.0.54.51
-6d0544 reboot 1574009345 # 10.0.54.52
-
-3a0cc0 maxwatts 1300 # 10.0.54.53
-49ba28 maxwatts 1400 # 10.0.54.54
-3a0cc0 reboot 1574006514 # 10.0.54.53
-49ba28 reboot 1574006514 # 10.0.54.54
-
-3a0cc0 maxwatts 1300 # 10.0.54.53
-49ba28 maxwatts 1400 # 10.0.54.54
-3a0cc0 reboot 1574006514 # 10.0.54.53
-49ba28 reboot 1574006514 # 10.0.54.54
-
-2b7bed maxwatts 1000 # 10.0.54.49
-2b7bed reboot 1573907238 # 10.0.54.49
-
-2b7bed maxwatts 1000 # 10.0.54.49
-2b7bed reboot 1573907238 # 10.0.54.49
-
-6cb55b maxwatts 1200 # 10.0.54.58
-6cb55b reboot 1573882942 # 10.0.54.58
-
-6cb55b maxwatts 1200 # 10.0.54.58
-6cb55b reboot 1573882942 # 10.0.54.58
-
-6d0544 maxwatts 1300 # 10.0.54.52
-3a0cc0 maxwatts 1400 # 10.0.54.53
-6d0544 reboot 1573877813 # 10.0.54.52
-3a0cc0 reboot 1573877813 # 10.0.54.53
-
-6d0544 maxwatts 1300 # 10.0.54.52
-3a0cc0 maxwatts 1400 # 10.0.54.53
-6d0544 reboot 1573877813 # 10.0.54.52
-3a0cc0 reboot 1573877813 # 10.0.54.53
-
-2b7bed maxwatts 1100 # 10.0.54.49
-2b7bed reboot 1573870883 # 10.0.54.49
-
-2b7bed maxwatts 1100 # 10.0.54.49
-2b7bed reboot 1573870883 # 10.0.54.49
-
-2b7bed maxwatts 1200 # 10.0.54.49
-2b7bed reboot 1573847194 # 10.0.54.49
-
-2b7bed maxwatts 1300 # 10.0.54.49
-2b7bed reboot 1573819516 # 10.0.54.49
-
-2b7bed maxwatts 1300 # 10.0.54.49
-2b7bed reboot 1573819516 # 10.0.54.49
-
-6d0544 maxwatts 1400 # 10.0.54.52
-6d0544 reboot 1573786877 # 10.0.54.52
-
-6d0544 maxwatts 1400 # 10.0.54.52
-6d0544 reboot 1573786877 # 10.0.54.52
-
-2b7bed maxwatts 1400 # 10.0.54.49
-2b7bed reboot 1573784927 # 10.0.54.49
-
-2b7bed maxwatts 1400 # 10.0.54.49
-2b7bed reboot 1573784927 # 10.0.54.49
-
-6cb55b maxwatts 1300 # 10.0.54.58
-6cb55b reboot 1573710793 # 10.0.54.58
-
-6cb55b maxwatts 1300 # 10.0.54.58
-6cb55b reboot 1573710793 # 10.0.54.58
-
-6cb55b maxwatts 1400 # 10.0.54.58
-6cb55b reboot 1573696673 # 10.0.54.58
-
-6cb55b maxwatts 1400 # 10.0.54.58
-6cb55b reboot 1573696673 # 10.0.54.58
-
-
+## fans
 
 ## reboots
 
@@ -204,67 +59,3 @@ bf9f18 reboot 1574009345 # 10.0.54.51
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
