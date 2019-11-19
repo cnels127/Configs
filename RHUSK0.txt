@@ -77,6 +77,11 @@ f46832 location RHUSK00029
 06988e reboot 1574192798 # 10.0.53.135
 2fb4f0 reboot 1574192798 # 10.0.53.139
 
+06988e maxwatts 1000 # 10.0.53.135
+2fb4f0 maxwatts 100 # 10.0.53.139
+06988e reboot 1574192798 # 10.0.53.135
+2fb4f0 reboot 1574192798 # 10.0.53.139
+
 7b6cfa reboot 1574188520 # 10.0.53.121 rhusk00012
  
 
@@ -966,6 +971,7 @@ ba0308 reboot 1573663183 # 10.0.53.136 rhusk00027
 
 ## asic password
 asicpass admin
+
 
 
 
