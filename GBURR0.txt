@@ -31,6 +31,7 @@ global blinkgreen rapid
 
 # global retune 1
 # global reboot 1
+# global uncork 1
 # global reset 1
 # global panelpass gj83Nkgikg
 
@@ -48,7 +49,7 @@ e2c6fd location GBURR00002
 b69144 location GBURR00004
 fb355a location GBURR00005
 
-## 
+## throttle
 
 ## fans
 2d11cf fanspeed 100
@@ -64,90 +65,3 @@ b69144 reset 1573137505
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
