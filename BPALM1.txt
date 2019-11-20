@@ -18,12 +18,12 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1250
+global maxwatts 1350
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-# global throttle 100
-global fanspeed 100
+global throttle 100
+global fanspeed 85
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
@@ -57,10 +57,9 @@ f60fb2 location BPALM10008
 a007c8 location BPALM10009
 95cae1 location BPALM10010
 
-## tuning
-5dd9d9 reboot 1574103840 # 10.10.125.7 bpalm10007
- 
+## throttle
 
+## fans
 
 ## reboots
 
@@ -68,4 +67,3 @@ a007c8 location BPALM10009
 
 ## asic password
 asicpass admin
-
