@@ -33,6 +33,7 @@ global blinkgreen rapid
 
 # global retune 1
 # global reboot 1
+# global uncork 1
 # global reset 2
 # global panelpass gj83Nkgikg
 
@@ -59,7 +60,7 @@ a016c1 location RANDE00008
 55019f location RANDE00009
 636f5f location RANDE00010
 
-##
+## throttle
 
 ## fans
 
@@ -72,7 +73,6 @@ a016c1 location RANDE00008
 679e5d reset 1573945759
 55019f reset 1573945759
 636f5f reset 1573945759
-
 8a2820 reset 1573071802
 1506ab reset 1573071802
 a016c1 reset 1573071802
@@ -82,4 +82,3 @@ a016c1 reset 1573072500
 
 ## asic password
 asicpass admin
-
