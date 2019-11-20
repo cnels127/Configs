@@ -31,7 +31,8 @@ global blinkgreen rapid
 
 # global retune 1
 # global reboot 1
-global reset 1573924095
+# global uncork 1
+# global reset 1573924095
 # global panelpass gj83Nkgikg
 
 ## vlans
@@ -65,7 +66,7 @@ f371c7 location KAUYE00011
 e6ca25 location KAUYE00013
 d87db4 location KAUYE00014
 
-## 
+## throttle
 
 ## fans
 
@@ -77,61 +78,3 @@ d87db4 location KAUYE00014
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
