@@ -22,8 +22,8 @@ global maxwatts 1350
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-# global throttle 100
-global fanspeed 100
+global throttle 100
+global fanspeed 80
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
@@ -37,7 +37,9 @@ global blinkgreen rapid
 
 ## locations
 
-## tuning
+## throttle
+
+## fans
 
 ## reboots
 
@@ -45,4 +47,3 @@ global blinkgreen rapid
 
 ## asic password
 asicpass admin
-
