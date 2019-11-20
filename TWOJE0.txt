@@ -23,14 +23,15 @@ global maxwatts 1500
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-# global throttle 100
-global fanspeed 100
+global throttle 100
+global fanspeed 80
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
 # global reboot 1
+# global uncork 1
 # global reset 1
 # global panelpass gj83Nkgikg
 
@@ -44,49 +45,9 @@ af01c7 location TWOJE00001
 b86fb1 location TWOJE00002
 b0ec6c location TWOJE00003
 
-## tuning
-af01c7 maxwatts 1100 # 10.0.55.127
-af01c7 reboot 1573992706 # 10.0.55.127
+## throttle
 
-af01c7 maxwatts 1100 # 10.0.55.127
-af01c7 reboot 1573992706 # 10.0.55.127
-
-af01c7 maxwatts 1200 # 10.0.55.127
-af01c7 reboot 1573989959 # 10.0.55.127
-
-af01c7 maxwatts 1200 # 10.0.55.127
-af01c7 reboot 1573989959 # 10.0.55.127
-
-af01c7 maxwatts 1300 # 10.0.55.127
-af01c7 reboot 1573987127 # 10.0.55.127
-
-af01c7 maxwatts 1300 # 10.0.55.127
-af01c7 reboot 1573987127 # 10.0.55.127
-
-af01c7 maxwatts 1400 # 10.0.55.127
-af01c7 reboot 1573978540 # 10.0.55.127
-
-af01c7 maxwatts 1400 # 10.0.55.127
-af01c7 reboot 1573978540 # 10.0.55.127
-
-b86fb1 maxwatts 1400 # 10.0.55.161
-b86fb1 reboot 1573787183 # 10.0.55.161
-
-b86fb1 maxwatts 1400 # 10.0.55.161
-b86fb1 reboot 1573787183 # 10.0.55.161
-
-b0ec6c maxwatts 1300 # 10.0.56.98
-b0ec6c reboot 1573695065 # 10.0.56.98
-
-b0ec6c maxwatts 1300 # 10.0.56.98
-b0ec6c reboot 1573695065 # 10.0.56.98
-
-b0ec6c maxwatts 1400 # 10.0.56.98
-b0ec6c reboot 1573669656 # 10.0.56.98
-
-b0ec6c maxwatts 1400 # 10.0.56.98
-b0ec6c reboot 1573669656 # 10.0.56.98
-
+## fans
 
 ## reboots
 
@@ -95,27 +56,3 @@ af01c7 reset 1572456987
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
