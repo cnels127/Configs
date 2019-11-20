@@ -23,7 +23,7 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-# global throttle 100
+global throttle 100
 global fanspeed 80
 global fansaver yes
 global blinkred idle
@@ -31,6 +31,7 @@ global blinkgreen rapid
 
 # global retune 1
 # global reboot 1
+# global uncork 1
 # global reset 1
 # global panelpass gj83Nkgikg
 
@@ -46,69 +47,7 @@ cf1a34 location KDAVI00001
 0819f9 location KDAVI00005
 8ef4ad location KDAVI00006
 
-## tuning
-312516 maxwatts 950 # 10.0.54.149
-312516 reboot 1574131787 # 10.0.54.149
-
-312516 maxwatts 950 # 10.0.54.149
-312516 reboot 1574131787 # 10.0.54.149
-
-cf1a34 maxwatts 950 # 10.0.54.148
-cf1a34 reboot 1574126178 # 10.0.54.148
-
-cf1a34 maxwatts 950 # 10.0.54.148
-cf1a34 reboot 1574126178 # 10.0.54.148
-
-cf1a34 maxwatts 1050 # 10.0.54.148
-cf1a34 reboot 1574123306 # 10.0.54.148
-
-cf1a34 maxwatts 1150 # 10.0.54.148
-cf1a34 reboot 1574111906 # 10.0.54.148
-
-cf1a34 maxwatts 1250 # 10.0.54.148
-cf1a34 reboot 1573912536 # 10.0.54.148
-
-cf1a34 maxwatts 1250 # 10.0.54.148
-cf1a34 reboot 1573912536 # 10.0.54.148
-
-312516 maxwatts 1050 # 10.0.54.149
-cf1a34 maxwatts 1350 # 10.0.54.148
-312516 reboot 1573893371 # 10.0.54.149
-cf1a34 reboot 1573893371 # 10.0.54.148
-
-312516 maxwatts 1050 # 10.0.54.149
-cf1a34 maxwatts 1350 # 10.0.54.148
-312516 reboot 1573893371 # 10.0.54.149
-cf1a34 reboot 1573893371 # 10.0.54.148
-
-312516 maxwatts 1150 # 10.0.54.149
-312516 reboot 1573865824 # 10.0.54.149
-
-312516 maxwatts 1150 # 10.0.54.149
-312516 reboot 1573865824 # 10.0.54.149
-
-312516 maxwatts 1250 # 10.0.54.149
-312516 reboot 1573835256 # 10.0.54.149
-
-312516 maxwatts 1250 # 10.0.54.149
-312516 reboot 1573835256 # 10.0.54.149
-
-312516 maxwatts 1350 # 10.0.54.149
-312516 reboot 1573800951 # 10.0.54.149
-
-312516 maxwatts 1350 # 10.0.54.149
-312516 reboot 1573800951 # 10.0.54.149
-
-0819f9 maxwatts 1350 # 10.0.56.128
-8ef4ad maxwatts 1350 # 10.0.56.129
-0819f9 reboot 1573786994 # 10.0.56.128
-8ef4ad reboot 1573786994 # 10.0.56.129
-
-0819f9 maxwatts 1350 # 10.0.56.128
-8ef4ad maxwatts 1350 # 10.0.56.129
-0819f9 reboot 1573786994 # 10.0.56.128
-8ef4ad reboot 1573786994 # 10.0.56.129
-
+## throttle
 
 ## fans
 
@@ -123,21 +62,3 @@ cf1a34 reset 1573168196
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
