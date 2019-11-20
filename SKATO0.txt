@@ -23,14 +23,15 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-# global throttle 100
-global fanspeed 100
+global throttle 100
+global fanspeed 80
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
 # global reboot 1
+# global uncork 1
 # global reset 1
 # global panelpass gj83Nkgikg
 
@@ -58,30 +59,13 @@ bc50a4 location SKATO00006
 af5ca2 location SKATO00009
 054826 location SKATO00010
 
-## tuning
-054826 maxwatts 1350 # 10.0.119.51
-054826 reboot 1574208853 # 10.0.119.51
+## throttle
 
-054826 maxwatts 1350 # 10.0.119.51
-054826 reboot 1574208853 # 10.0.119.51
-
-054826 reboot 1572581414 # 10.0.119.51 skato00010
-602346 rebootasic 1571148015 # 10.0.120.118 skato00003
+## fans
 
 ## reboots
 
 ## resets
-3dc5cb resetasic 1571267612
-fb347a resetasic 1571267612
-602346 resetasic 1571267612
-9a1f51 resetasic 1571267612
-5fb768 resetasic 1571267612
-bc50a4 resetasic 1571267612
-03c926 resetasic 1571267612
-5a5d0e resetasic 1571267612
-af5ca2 resetasic 1571267612
 
 ## asic password
 asicpass admin
-
-
