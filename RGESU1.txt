@@ -22,14 +22,15 @@ global maxwatts 1300
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-# global throttle 100
-global fanspeed 100
+global throttle 100
+global fanspeed 85
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
 # global reboot 7
+# global uncork 1
 # global reset 1
 # global panelpass gj83Nkgikg
 
@@ -49,19 +50,9 @@ a8b8de location RGESU10003
 828235 location RGESU10005
 af9564 location RGESU10006
 
-## tuning
-828235 maxwatts 1100 # 10.10.125.15
-828235 reboot 1573837063 # 10.10.125.15
+## throttle
 
-828235 maxwatts 1100 # 10.10.125.15
-828235 reboot 1573837063 # 10.10.125.15
-
-828235 maxwatts 1200 # 10.10.125.15
-828235 reboot 1573835306 # 10.10.125.15
-
-828235 maxwatts 1200 # 10.10.125.15
-828235 reboot 1573835306 # 10.10.125.15
-
+## fans
 
 ## reboots
 
@@ -69,7 +60,3 @@ af9564 location RGESU10006
 
 ## asic password
 asicpass admin
-
-
-
-
