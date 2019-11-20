@@ -23,14 +23,15 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-# global throttle 100
-global fanspeed 100
+global throttle 100
+global fanspeed 80
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
 # global reboot 1
+# global uncork 1
 # global reset 1
 # global panelpass gj83Nkgikg
 
@@ -48,13 +49,7 @@ d9b3f8 location RHOLL00004
 1c76d5 location RHOLL00005
 434628 location RHOLL00006
 
-## tuning
-396497 maxwatts 1350 # 10.0.61.59
-396497 reboot 1574058395 # 10.0.61.59
-
-396497 maxwatts 1350 # 10.0.61.59
-396497 reboot 1574058395 # 10.0.61.59
-
+## throttle
 
 ## fans
 
@@ -64,5 +59,3 @@ d9b3f8 location RHOLL00004
 
 ## asic password
 asicpass admin
-
-
