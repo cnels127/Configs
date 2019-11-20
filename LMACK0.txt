@@ -190,23 +190,14 @@ bae0d7 location LMACK00096
 0c44ff location LMACK00099
 d3cdf7 location LMACK00100
 
-## tuning
-9cbaab reboot 1574266726 # 10.0.54.79 lmack00004
-efd005 reboot 1574266726 # 10.0.54.98 lmack00023
-117c32 reboot 1574266726 # 10.0.63.116 lmack00056
-b449ed reboot 1574266726 # 10.0.54.76 lmack00001
-a92994 reboot 1574266726 # 10.0.54.96 lmack00021
-2f0c3e reboot 1574266726 # 10.0.54.80 lmack00005
-bf813c reboot 1574266726 # 10.0.54.93 lmack00018
-4e22e3 reboot 1574266726 # 10.0.65.41 lmack00097
- 
-
+## throttle
 
 ## fans
 
 ## reboots
 
 ## resets
+5ad8ba reset 1574271022
 612b06 reset 1573767000
 eab061 reset 1573767000
 baa645 reset 1573767000
