@@ -23,7 +23,7 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-# global throttle 100
+global throttle 100
 global fanspeed 80
 global fansaver yes
 global blinkred idle
@@ -31,9 +31,8 @@ global blinkgreen rapid
 
 # global retune 2
 # global reboot 1
+# global uncork 1
 # global reset 1
-global reset 1573678506
-
 # global panelpass gj83Nkgikg
 
 ## vlans
@@ -61,200 +60,8 @@ cffb6d location JDRIG00009
 e2fa14 location JDRIG00010
 
 ## tuning
-33b5df reboot 1574207448 # 10.0.55.125 jdrig00002
- 
 
-33b5df maxwatts 750 # 10.0.55.125
-33b5df reboot 1574206042 # 10.0.55.125
-
-33b5df maxwatts 750 # 10.0.55.125
-33b5df reboot 1574206042 # 10.0.55.125
-
-9163e6 maxwatts 1050 # 10.0.67.148
-9163e6 reboot 1574111890 # 10.0.67.148
-
-e2fa14 reboot 1574100786 # 10.0.66.22 jdrig00010
- 
-
-33b5df maxwatts 850 # 10.0.55.125
-33b5df reboot 1574093072 # 10.0.55.125
-
-33b5df maxwatts 850 # 10.0.55.125
-33b5df reboot 1574093072 # 10.0.55.125
-
-cffb6d maxwatts 1350 # 10.0.67.146
-cffb6d reboot 1574084095 # 10.0.67.146
-
-cffb6d maxwatts 1350 # 10.0.67.146
-cffb6d reboot 1574084095 # 10.0.67.146
-
-93e110 maxwatts 1250 # 10.0.56.104
-93e110 reboot 1574078242 # 10.0.56.104
-
-93e110 maxwatts 1250 # 10.0.56.104
-93e110 reboot 1574078242 # 10.0.56.104
-
-33b5df maxwatts 950 # 10.0.55.125
-33b5df reboot 1574075352 # 10.0.55.125
-
-33b5df maxwatts 950 # 10.0.55.125
-33b5df reboot 1574075352 # 10.0.55.125
-
-33b5df maxwatts 1050 # 10.0.55.125
-33b5df reboot 1574072475 # 10.0.55.125
-
-33b5df maxwatts 1050 # 10.0.55.125
-33b5df reboot 1574072475 # 10.0.55.125
-
-11bafe maxwatts 850 # 10.0.55.99
-11bafe reboot 1574069621 # 10.0.55.99
-
-11bafe maxwatts 850 # 10.0.55.99
-11bafe reboot 1574069621 # 10.0.55.99
-
-11bafe maxwatts 950 # 10.0.55.99
-33b5df maxwatts 1150 # 10.0.55.125
-11bafe reboot 1574066782 # 10.0.55.99
-33b5df reboot 1574066782 # 10.0.55.125
-
-11bafe maxwatts 950 # 10.0.55.99
-33b5df maxwatts 1150 # 10.0.55.125
-11bafe reboot 1574066782 # 10.0.55.99
-33b5df reboot 1574066782 # 10.0.55.125
-
-33b5df maxwatts 1250 # 10.0.55.125
-11bafe maxwatts 1050 # 10.0.55.99
-33b5df reboot 1574061136 # 10.0.55.125
-11bafe reboot 1574061136 # 10.0.55.99
-
-33b5df maxwatts 1250 # 10.0.55.125
-11bafe maxwatts 1050 # 10.0.55.99
-33b5df reboot 1574061136 # 10.0.55.125
-11bafe reboot 1574061136 # 10.0.55.99
-
-b3d12e reboot 1574056966 # 10.0.67.149 jdrig00006
- 
-
-d55626 maxwatts 1350 # 10.0.67.156
-d55626 reboot 1574052752 # 10.0.67.156
-
-d55626 maxwatts 1350 # 10.0.67.156
-d55626 reboot 1574052752 # 10.0.67.156
-
-33b5df maxwatts 1350 # 10.0.55.125
-33b5df reboot 1574049980 # 10.0.55.125
-
-33b5df maxwatts 1350 # 10.0.55.125
-33b5df reboot 1574049980 # 10.0.55.125
-
-e2fa14 maxwatts 1050 # 10.0.66.22
-e2fa14 reboot 1574013903 # 10.0.66.22
-
-e2fa14 maxwatts 1050 # 10.0.66.22
-e2fa14 reboot 1574013903 # 10.0.66.22
-
-e2fa14 maxwatts 1150 # 10.0.66.22
-e2fa14 reboot 1574009381 # 10.0.66.22
-
-e2fa14 maxwatts 1250 # 10.0.66.22
-e2fa14 reboot 1574006548 # 10.0.66.22
-
-e2fa14 maxwatts 1250 # 10.0.66.22
-e2fa14 reboot 1574006548 # 10.0.66.22
-
-e2fa14 maxwatts 1350 # 10.0.66.22
-e2fa14 reboot 1574003734 # 10.0.66.22
-
-e2fa14 maxwatts 1350 # 10.0.66.22
-e2fa14 reboot 1574003734 # 10.0.66.22
-
-9b787e maxwatts 1150 # 10.0.55.145
-9b787e reboot 1573975537 # 10.0.55.145
-
-9b787e maxwatts 1150 # 10.0.55.145
-9b787e reboot 1573975537 # 10.0.55.145
-
-9b787e maxwatts 1250 # 10.0.55.145
-9b787e reboot 1573972668 # 10.0.55.145
-
-9b787e maxwatts 1250 # 10.0.55.145
-9b787e reboot 1573972668 # 10.0.55.145
-
-9b787e maxwatts 1350 # 10.0.55.145
-9b787e reboot 1573969805 # 10.0.55.145
-
-9b787e maxwatts 1350 # 10.0.55.145
-9b787e reboot 1573969805 # 10.0.55.145
-
-11bafe maxwatts 1150 # 10.0.55.99
-11bafe reboot 1573882974 # 10.0.55.99
-
-11bafe maxwatts 1150 # 10.0.55.99
-11bafe reboot 1573882974 # 10.0.55.99
-
-b3d12e maxwatts 1050 # 10.0.67.149
-b3d12e reboot 1573877841 # 10.0.67.149
-
-b3d12e maxwatts 1050 # 10.0.67.149
-b3d12e reboot 1573877841 # 10.0.67.149
-
-b3d12e maxwatts 1150 # 10.0.67.149
-b3d12e reboot 1573853965 # 10.0.67.149
-
-b3d12e maxwatts 1150 # 10.0.67.149
-b3d12e reboot 1573853965 # 10.0.67.149
-
-11bafe maxwatts 1250 # 10.0.55.99
-11bafe reboot 1573840434 # 10.0.55.99
-
-11bafe maxwatts 1250 # 10.0.55.99
-11bafe reboot 1573840434 # 10.0.55.99
-
-b3d12e maxwatts 1250 # 10.0.67.149
-b3d12e reboot 1573835241 # 10.0.67.149
-
-b3d12e maxwatts 1250 # 10.0.67.149
-b3d12e reboot 1573835241 # 10.0.67.149
-
-93e110 maxwatts 1350 # 10.0.56.104
-93e110 reboot 1573817845 # 10.0.56.104
-
-93e110 maxwatts 1350 # 10.0.56.104
-93e110 reboot 1573817845 # 10.0.56.104
-
-9163e6 maxwatts 1150 # 10.0.67.148
-9163e6 reboot 1573786951 # 10.0.67.148
-
-9163e6 maxwatts 1150 # 10.0.67.148
-9163e6 reboot 1573786951 # 10.0.67.148
-
-b3d12e maxwatts 1350 # 10.0.67.149
-b3d12e reboot 1573784994 # 10.0.67.149
-
-b3d12e maxwatts 1350 # 10.0.67.149
-b3d12e reboot 1573784994 # 10.0.67.149
-
-11bafe reboot 1573763521 # 10.0.55.99 jdrig00001
- 
-
-11bafe maxwatts 1350 # 10.0.55.99
-11bafe reboot 1573702198 # 10.0.55.99
-
-11bafe maxwatts 1350 # 10.0.55.99
-11bafe reboot 1573702198 # 10.0.55.99
-
-9163e6 maxwatts 1250 # 10.0.67.148
-9163e6 reboot 1573700349 # 10.0.67.148
-
-9163e6 maxwatts 1250 # 10.0.67.148
-9163e6 reboot 1573700349 # 10.0.67.148
-
-9163e6 maxwatts 1350 # 10.0.67.148
-9163e6 reboot 1573688183 # 10.0.67.148
-
-9163e6 maxwatts 1350 # 10.0.67.148
-9163e6 reboot 1573688183 # 10.0.67.148
-
+## fans
 
 ## reboots
 # s_reboot generated on Nov 11 2019 18:45:00 utc: 1573497900
@@ -272,54 +79,3 @@ cffb6d reset 1573501002
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
