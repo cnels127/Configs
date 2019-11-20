@@ -22,14 +22,15 @@ global maxwatts 1350
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-# global throttle 100
-global fanspeed 100
+global throttle 100
+global fanspeed 80
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
 # global reboot 2
+# global uncork 1
 # global reset 1
 # global panelpass gj83Nkgikg
 
@@ -68,17 +69,9 @@ f913d1 location 18A31
 306978 location 18A34
 94e47a location 18B34
 	
-## tuning
-f913d1 reboot 1574191412 # 10.10.125.208 18a31
- 
+## throttle
 
-460df4 maxwatts 1150 # 172.16.202.70
-460df4 rebootasic 1570660806 # 172.16.202.70
-
-460df4 maxwatts 1250 # 172.16.202.70
-460df4 rebootasic 1570657195 # 172.16.202.70
-
-d8d329 retune 1
+## fans
 
 ## reboots
 
@@ -86,10 +79,3 @@ d8d329 retune 1
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
