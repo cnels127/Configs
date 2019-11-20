@@ -18,23 +18,21 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1450
+global maxwatts 1350
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-# global throttle 100
-global fanspeed 100
+global throttle 100
+global fanspeed 85
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
 # global reboot 1
+# global uncork 1
 # global reset 1
 # global panelpass gj83Nkgikg
-
-# group=rowc rebootasic 1
-# group=rowd allowed no
 
 ## vlans
 vlan 172.16.200.93-93
@@ -48,128 +46,15 @@ vlan 172.16.204.146-146
 2d1b6f location 0004
 8e86bb location 0005
 
-## tuning
-8e86bb reboot 1574174734 # 10.10.125.22 0005
- 
+## throttle
 
-8e86bb reboot 1574042750 # 10.10.125.22 0005
- 
+## fans
 
-8e86bb reboot 1574037024 # 10.10.125.22 0005
- 
-
-8e86bb reboot 1574034295 # 10.10.125.22 0005
- 
-
-8e86bb maxwatts 1350 # 10.10.125.22
-8e86bb reboot 1574030193 # 10.10.125.22
-
-8e86bb maxwatts 1350 # 10.10.125.22
-8e86bb reboot 1574030193 # 10.10.125.22
-
-51a9ac reboot 1573979976 # 10.10.125.20 0003
- 
-
-8e86bb reboot 1573931435 # 10.10.125.22 0005
- 
-
-8e86bb reboot 1573929797 # 10.10.125.22 0005
- 
-
-8e86bb reboot 1573928162 # 10.10.125.22 0005
- 
-
-8e86bb reboot 1573926525 # 10.10.125.22 0005
- 
-
-8e86bb reboot 1573924888 # 10.10.125.22 0005
- 
-
-8e86bb reboot 1573923252 # 10.10.125.22 0005
- 
-
-8e86bb reboot 1573919985 # 10.10.125.22 0005
- 
-
-8e86bb reboot 1573918324 # 10.10.125.22 0005
- 
-
-
+## reboots
 
 ## reset
 8e86bb resetasic 1573847640
 2d1b6f resetasic 1573847640
 
-
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
