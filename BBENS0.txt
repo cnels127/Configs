@@ -23,7 +23,7 @@ global maxwatts 1500
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-# global throttle 100
+global throttle 100
 global fanspeed 80
 global fansaver yes
 global blinkred idle
@@ -32,8 +32,6 @@ global blinkgreen rapid
 # global retune 1
 # global reboot 1
 # global reset 1
-global reset 1573679782
-
 # global panelpass gj83Nkgikg
 
 ## vlans
@@ -43,227 +41,13 @@ vlan 10.0.68.40-41
 815d57 location BBENS00001
 f69de1 location BBENS00002
 
-## tuning
-f69de1 maxwatts 200 # 10.0.68.41
-f69de1 reboot 1574208756 # 10.0.68.41
+## throttle
 
-f69de1 maxwatts 200 # 10.0.68.41
-f69de1 reboot 1574208756 # 10.0.68.41
-
-f69de1 maxwatts 300 # 10.0.68.41
-f69de1 reboot 1574206008 # 10.0.68.41
-
-f69de1 maxwatts 300 # 10.0.68.41
-f69de1 reboot 1574206008 # 10.0.68.41
-
-f69de1 maxwatts 400 # 10.0.68.41
-f69de1 reboot 1574203248 # 10.0.68.41
-
-f69de1 maxwatts 400 # 10.0.68.41
-f69de1 reboot 1574203248 # 10.0.68.41
-
-f69de1 maxwatts 500 # 10.0.68.41
-f69de1 reboot 1574200488 # 10.0.68.41
-
-f69de1 maxwatts 500 # 10.0.68.41
-f69de1 reboot 1574200488 # 10.0.68.41
-
-f69de1 maxwatts 600 # 10.0.68.41
-f69de1 reboot 1574170371 # 10.0.68.41
-
-f69de1 maxwatts 600 # 10.0.68.41
-f69de1 reboot 1574170371 # 10.0.68.41
-
-815d57 maxwatts 1100 # 10.0.68.40
-815d57 reboot 1573981252 # 10.0.68.40
-
-815d57 maxwatts 1100 # 10.0.68.40
-815d57 reboot 1573981252 # 10.0.68.40
-
-f69de1 maxwatts 700 # 10.0.68.41
-815d57 maxwatts 1200 # 10.0.68.40
-f69de1 reboot 1573975486 # 10.0.68.41
-815d57 reboot 1573975486 # 10.0.68.40
-
-f69de1 maxwatts 700 # 10.0.68.41
-815d57 maxwatts 1200 # 10.0.68.40
-f69de1 reboot 1573975486 # 10.0.68.41
-815d57 reboot 1573975486 # 10.0.68.40
-
-f69de1 maxwatts 800 # 10.0.68.41
-f69de1 reboot 1573966914 # 10.0.68.41
-
-f69de1 maxwatts 800 # 10.0.68.41
-f69de1 reboot 1573966914 # 10.0.68.41
-
-815d57 maxwatts 1300 # 10.0.68.40
-815d57 reboot 1573964072 # 10.0.68.40
-
-815d57 maxwatts 1300 # 10.0.68.40
-815d57 reboot 1573964072 # 10.0.68.40
-
-f69de1 reboot 1573923175 # 10.0.68.41 bbens00002
- 
-
-815d57 maxwatts 1400 # 10.0.68.40
-815d57 reboot 1573882934 # 10.0.68.40
-
-815d57 maxwatts 1400 # 10.0.68.40
-815d57 reboot 1573882934 # 10.0.68.40
-
-f69de1 maxwatts 900 # 10.0.68.41
-f69de1 reboot 1573807659 # 10.0.68.41
-
-f69de1 maxwatts 900 # 10.0.68.41
-f69de1 reboot 1573807659 # 10.0.68.41
-
-f69de1 reboot 1573766764 # 10.0.68.41 bbens00002
- 
-
-f69de1 reboot 1573765124 # 10.0.68.41 bbens00002
- 
-
-f69de1 reboot 1573763490 # 10.0.68.41 bbens00002
- 
-
-f69de1 reboot 1573761858 # 10.0.68.41 bbens00002
- 
-
-f69de1 reboot 1573760227 # 10.0.68.41 bbens00002
- 
-
-f69de1 reboot 1573756962 # 10.0.68.41 bbens00002
- 
-
-f69de1 reboot 1573755334 # 10.0.68.41 bbens00002
- 
-
-f69de1 reboot 1573753707 # 10.0.68.41 bbens00002
- 
-
-f69de1 reboot 1573752074 # 10.0.68.41 bbens00002
- 
-
-f69de1 reboot 1573750442 # 10.0.68.41 bbens00002
- 
-
-f69de1 reboot 1573748812 # 10.0.68.41 bbens00002
- 
-
-f69de1 reboot 1573745544 # 10.0.68.41 bbens00002
- 
-
-f69de1 reboot 1573742273 # 10.0.68.41 bbens00002
- 
-
-f69de1 reboot 1573740644 # 10.0.68.41 bbens00002
- 
-
-f69de1 reboot 1573738938 # 10.0.68.41 bbens00002
- 
-
-f69de1 maxwatts 1000 # 10.0.68.41
-f69de1 reboot 1573715927 # 10.0.68.41
-
-f69de1 maxwatts 1000 # 10.0.68.41
-f69de1 reboot 1573715927 # 10.0.68.41
-
-f69de1 maxwatts 1000 # 10.0.68.41
-f69de1 reboot 1573714211 # 10.0.68.41
-
-f69de1 maxwatts 1000 # 10.0.68.41
-f69de1 reboot 1573714211 # 10.0.68.41
-
-f69de1 maxwatts 1100 # 10.0.68.41
-f69de1 reboot 1573710785 # 10.0.68.41
-
-f69de1 maxwatts 1100 # 10.0.68.41
-f69de1 reboot 1573710785 # 10.0.68.41
-
-f69de1 maxwatts 1200 # 10.0.68.41
-f69de1 reboot 1573702139 # 10.0.68.41
-
-f69de1 maxwatts 1200 # 10.0.68.41
-f69de1 reboot 1573702139 # 10.0.68.41
-
-f69de1 maxwatts 1300 # 10.0.68.41
-f69de1 reboot 1573683090 # 10.0.68.41
-
-f69de1 maxwatts 1300 # 10.0.68.41
-f69de1 reboot 1573683090 # 10.0.68.41
-
-f69de1 maxwatts 1400 # 10.0.68.41
-f69de1 reboot 1573681403 # 10.0.68.41
-
-f69de1 maxwatts 1400 # 10.0.68.41
-f69de1 reboot 1573681403 # 10.0.68.41
-
+## fans
 
 ## reboot
-# s_reboot generated on Nov 11 2019 18:35:32 utc: 1573497332
-f69de1 reboot 1573497332 # 10.0.68.41 bbens00002
 
+## reset
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
