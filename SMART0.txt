@@ -23,8 +23,8 @@ global maxwatts 1500
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-# global throttle 100
-global fanspeed 100
+global throttle 100
+global fanspeed 80
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
@@ -40,7 +40,9 @@ vlan 10.0.53.18-18
 ## locations
 616f22 location SMART00001
 
-## tuning
+## throttle
+
+## fans
 
 ## reboots
 
