@@ -23,14 +23,15 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-# global throttle 100
-global fanspeed 100
+global throttle 100
+global fanspeed 80
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
 # global reboot 1
+# global uncork 1
 # global reset 1
 # global panelpass gj83Nkgikg
 
@@ -44,76 +45,9 @@ vlan 10.0.117.5-5
 ## The next row is the extra machine, added on 2019-11-15
 5a85bf location NMANT0XTRA
 
-## tuning
-30946f reboot 1574207486 # 10.0.58.132 nmant00001
- 
+## throttle
 
-30946f reboot 1574199199 # 10.0.58.132 nmant00001
- 
-
-30946f reboot 1574196413 # 10.0.58.132 nmant00001
- 
-
-30946f reboot 1574180401 # 10.0.58.132 nmant00001
-5a85bf reboot 1574180401 # 10.0.117.5 nmant0xtra
- 
-
-30946f maxwatts 1350 # 10.0.58.132
-30946f reboot 1574173260 # 10.0.58.132
-
-30946f maxwatts 1350 # 10.0.58.132
-30946f reboot 1574173260 # 10.0.58.132
-
-5a85bf reboot 1574163500 # 10.0.117.5 nmant0xtra
- 
-
-5a85bf reboot 1574157965 # 10.0.117.5 nmant0xtra
-30946f reboot 1574157965 # 10.0.58.132 nmant00001
- 
-
-5a85bf reboot 1574144268 # 10.0.117.5 nmant0xtra
- 
-
-30946f reboot 1574138792 # 10.0.58.132 nmant00001
- 
-
-30946f reboot 1574136029 # 10.0.58.132 nmant00001
- 
-
-30946f reboot 1574124803 # 10.0.58.132 nmant00001
- 
-
-30946f reboot 1574116391 # 10.0.58.132 nmant00001
- 
-
-5a85bf reboot 1574094688 # 10.0.117.5 nmant0xtra
- 
-
-30946f reboot 1574091651 # 10.0.58.132 nmant00001
-5a85bf reboot 1574091651 # 10.0.117.5 nmant0xtra
- 
-
-30946f reboot 1574088635 # 10.0.58.132 nmant00001
- 
-
-30946f reboot 1574062617 # 10.0.58.132 nmant00001
- 
-
-30946f reboot 1574037002 # 10.0.58.132 nmant00001
- 
-
-5a85bf reboot 1573994070 # 10.0.117.5 nmant0xtra
- 
-
-5a85bf reboot 1573988530 # 10.0.117.5 nmant0xtra
- 
-
-30946f reboot 1573929780 # 10.0.58.132 nmant00001
- 
-
-30946f reboot 1573918286 # 10.0.58.132 nmant00001
- 
-
+## fans
 
 ## reboots
 
@@ -121,25 +55,3 @@ vlan 10.0.117.5-5
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
