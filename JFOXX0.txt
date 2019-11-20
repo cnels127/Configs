@@ -30,7 +30,8 @@ global blinkred idle
 global blinkgreen rapid
 
 # global retune 2
-global reboot 1573770720
+# global reboot 1573770720
+# global uncork 1
 # global reset 1
 # global panelpass gj83Nkgikg
 
@@ -72,7 +73,7 @@ d31afd location JFOXX00022
 2287f8 location JFOXX00023
 6f1b5d location JFOXX00024
 
-## 
+## throttle
 
 ## reboots
 
@@ -91,74 +92,3 @@ a1dd12 reset 1573249872
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
