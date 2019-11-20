@@ -23,14 +23,15 @@ global maxwatts 1500
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-# global throttle 100
-global fanspeed 100
+global throttle 100
+global fanspeed 80
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
 # global reboot 1
+# global uncork 1
 # global reset 1
 # global panelpass gj83Nkgikg
 
@@ -40,67 +41,9 @@ vlan 10.0.59.69-69
 ## locations
 80218d location JLUI000001
 
-## tuning
-80218d reboot 1574138741 # 10.0.59.69 jlui000001
+## throttle
  
-
-80218d reboot 1574136000 # 10.0.59.69 jlui000001
- 
-
-80218d reboot 1574130424 # 10.0.59.69 jlui000001
- 
-
-80218d reboot 1574127635 # 10.0.59.69 jlui000001
- 
-
-80218d reboot 1574121931 # 10.0.59.69 jlui000001
- 
-
-80218d reboot 1574119148 # 10.0.59.69 jlui000001
- 
-
-80218d reboot 1574100798 # 10.0.59.69 jlui000001
- 
-
-80218d reboot 1574097691 # 10.0.59.69 jlui000001
- 
-
-80218d reboot 1574094616 # 10.0.59.69 jlui000001
- 
-
-80218d reboot 1573618384 # 10.0.59.69 jlui000001
- 
-
-80218d maxwatts 1300 # 10.0.59.69
-80218d reboot 1573563664 # 10.0.59.69
-
-80218d maxwatts 1300 # 10.0.59.69
-80218d reboot 1573563664 # 10.0.59.69
-
-80218d maxwatts 1400 # 10.0.59.69
-80218d reboot 1573541524 # 10.0.59.69
-
-80218d maxwatts 1400 # 10.0.59.69
-80218d reboot 1573541524 # 10.0.59.69
-
-80218d reboot 1573526439 # 10.0.59.69 jlui000001
- 
-
-80218d reboot 1573524727 # 10.0.59.69 jlui000001
- 
-
-80218d reboot 1573523060 # 10.0.59.69 jlui000001
- 
-
-80218d reboot 1573521416 # 10.0.59.69 jlui000001
- 
-
-80218d reboot 1573519777 # 10.0.59.69 jlui000001
- 
-
-80218d reboot 1573518136 # 10.0.59.69 jlui000001
- 
-
+## fans
 
 ## reboots
 
@@ -108,23 +51,3 @@ vlan 10.0.59.69-69
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
