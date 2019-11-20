@@ -23,8 +23,8 @@ global asicboost yes
 global autotune yes
 global maxwatts 1450
 global maxtemp 90 1
-# global throttle 100
-global fanspeed 100
+global throttle 100
+global fanspeed 80
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
@@ -43,10 +43,9 @@ vlan 10.0.68.26-29
 97c2eb location DMCCL00003
 aab607 location DMCCL00004
 
-## tuning
-6a1571 reboot 1574121904 # 10.0.68.27 dmccl00002
- 
+## throttle
 
+## fans
 
 ## reboots
 
@@ -54,10 +53,3 @@ aab607 location DMCCL00004
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
