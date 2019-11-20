@@ -23,7 +23,7 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-# global throttle 100
+global throttle 100
 global fanspeed 85
 global fansaver yes
 global blinkred idle
@@ -31,6 +31,7 @@ global blinkgreen rapid
 
 # global retune 1
 # global reboot 1
+# global uncork 1
 # global reset 1
 # global panelpass gj83Nkgikg
 
@@ -51,35 +52,9 @@ dfb542 location MBLAK00010
 1e74b1 location MBLAK00011
 5d3f6c location MBLAK00012
 
-## tuning
-1e74b1 maxwatts 1250 # 10.0.56.157
-1e74b1 reboot 1574208818 # 10.0.56.157
+## throttle
 
-1e74b1 maxwatts 1250 # 10.0.56.157
-1e74b1 reboot 1574208818 # 10.0.56.157
-
-1e74b1 maxwatts 1350 # 10.0.56.157
-1e74b1 reboot 1574206070 # 10.0.56.157
-
-1e74b1 maxwatts 1350 # 10.0.56.157
-1e74b1 reboot 1574206070 # 10.0.56.157
-
-5d3f6c maxwatts 1250 # 10.0.56.158
-5d3f6c reboot 1574195668 # 10.0.56.158
-
-5d3f6c maxwatts 1250 # 10.0.56.158
-5d3f6c reboot 1574195668 # 10.0.56.158
-
-5d3f6c maxwatts 1350 # 10.0.56.158
-5d3f6c reboot 1574192764 # 10.0.56.158
-
-5d3f6c maxwatts 1350 # 10.0.56.158
-5d3f6c reboot 1574192764 # 10.0.56.158
-
-1e74b1 reboot 1574169069 # 10.0.56.157 mblak00011
-7583aa reboot 1574169069 # 10.0.56.150 mblak00004
- 
-
+## fans
 
 ## reboots
 
@@ -93,12 +68,3 @@ d448b3 reset 1574168724
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
