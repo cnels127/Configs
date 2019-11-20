@@ -31,6 +31,7 @@ global blinkgreen rapid
 
 # global retune 1
 # global reboot 1573584429 # 1
+# global uncork 1
 # global reset 1573494607
 # global panelpass gj83Nkgikg
 
@@ -44,10 +45,7 @@ af34c7 location RFRAN00001
 46bd22 location RFRAN00003
 d54f75 location RFRAN00004
 
-## tuning
-46bd22 reboot 1574207498 # 10.0.62.39 rfran00003
- 
-
+## throttle
 
 ## fans
 
@@ -58,4 +56,3 @@ d54f75 location RFRAN00004
 
 ## asic password
 asicpass admin
-
