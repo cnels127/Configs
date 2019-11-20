@@ -22,8 +22,8 @@ global maxwatts 1350
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-# global throttle 100
-global fanspeed 100
+global throttle 100
+global fanspeed 85
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
@@ -34,17 +34,12 @@ global blinkgreen rapid
 # global panelpass gj83Nkgikg
 
 ## vlans
-vlan 172.16.204.46-47
-vlan 172.16.204.62-63
-vlan 172.16.202.153-153
-vlan 172.16.204.223-223
 
 ## locations
 
-## tuning
-7f14db reboot 1574177444 # 10.10.123.1 set1
+## throttle
  
-
+## fans
 
 ## reboots
 
@@ -52,4 +47,3 @@ vlan 172.16.204.223-223
 
 ## asic password
 asicpass admin
-
