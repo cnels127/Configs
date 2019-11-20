@@ -31,7 +31,8 @@ global blinkgreen rapid
 
 # global retune 1
 # global reboot 2
-global reset 1573937986
+# global uncork 1
+# global reset 1573937986
 # global panelpass gj83Nkgikg
 
 ## vlans
@@ -44,7 +45,7 @@ vlan 10.0.116.98-98
 fae9ca location JITUR00002
 262c0d location JITUR00003
 
-## 
+## throttle
 
 ## fans
 
@@ -54,4 +55,3 @@ fae9ca location JITUR00002
 
 ## asic password
 asicpass admin
-
