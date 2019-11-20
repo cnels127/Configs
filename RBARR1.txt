@@ -22,14 +22,15 @@ global maxwatts 1500
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-# global throttle 100
-global fanspeed 100
+global throttle 100
+global fanspeed 85
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
 # global reboot 1
+# global uncork 1
 # global reset 2
 # global panelpass gj83Nkgikg
 
@@ -51,62 +52,14 @@ b4de9a location RBARR10005 # jay1
 b70584 location RBARR10006 # thomas
 cfd708 location RBARR10007 # shadow
 
-## tuning
-713952 reboot 1574188509 # 10.10.125.241 rbarr10003
- 
+## throttle
 
-713952 reboot 1574169097 # 10.10.125.241 rbarr10003
- 
+## fans
 
-713952 reboot 1574166302 # 10.10.125.241 rbarr10003
- 
-
-713952 reboot 1574163513 # 10.10.125.241 rbarr10003
- 
-
-713952 reboot 1574160740 # 10.10.125.241 rbarr10003
- 
-
-713952 reboot 1574157978 # 10.10.125.241 rbarr10003
- 
-
-713952 reboot 1574155224 # 10.10.125.241 rbarr10003
- 
-
-713952 reboot 1574023449 # 10.10.125.241 rbarr10003
- 
-
-713952 reboot 1573918308 # 10.10.125.241 rbarr10003
- 
-
-713952 maxwatts 1400 # 10.10.125.241
-713952 reboot 1573686535 # 10.10.125.241
-
-713952 maxwatts 1400 # 10.10.125.241
-713952 reboot 1573686535 # 10.10.125.241
-
-43345a reboot 1573649332 # 10.10.125.236 rbarr10002
- 
-
-43345a reboot 1573518174 # 10.10.125.236 rbarr10002
- 
-
+## reboots
 
 ## resets
 713952 resetasic 1570656697 
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
