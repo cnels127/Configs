@@ -23,14 +23,15 @@ global maxwatts 1500
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-# global throttle 100
-global fanspeed 100
+global throttle 100
+global fanspeed 80
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
 # global reboot 1
+# global uncork 1
 # global reset 3
 # global panelpass gj83Nkgikg
 
@@ -44,154 +45,9 @@ vlan 10.0.60.144-144
 f450a0 location STHAY00002
 546a5f location STHAY00003
 
-## tuning
-546a5f reboot 1574204776 # 10.0.60.144 sthay00003
- 
+## throttle
 
-546a5f reboot 1574202012 # 10.0.60.144 sthay00003
- 
-
-546a5f reboot 1574196469 # 10.0.60.144 sthay00003
- 
-
-f450a0 reboot 1574144305 # 10.0.60.111 sthay00002
- 
-
-f450a0 reboot 1574141582 # 10.0.60.111 sthay00002
- 
-
-132245 reboot 1574138846 # 10.0.60.99 sthay00001
-f450a0 reboot 1574138846 # 10.0.60.111 sthay00002
- 
-
-132245 reboot 1574136064 # 10.0.60.99 sthay00001
- 
-
-f450a0 reboot 1574133306 # 10.0.60.111 sthay00002
- 
-
-132245 reboot 1574130508 # 10.0.60.99 sthay00001
-546a5f reboot 1574130508 # 10.0.60.144 sthay00003
-f450a0 reboot 1574130508 # 10.0.60.111 sthay00002
- 
-
-f450a0 reboot 1574127738 # 10.0.60.111 sthay00002
-132245 reboot 1574127738 # 10.0.60.99 sthay00001
-546a5f reboot 1574127738 # 10.0.60.144 sthay00003
- 
-
-f450a0 reboot 1574124863 # 10.0.60.111 sthay00002
- 
-
-132245 reboot 1574122002 # 10.0.60.99 sthay00001
-546a5f reboot 1574122002 # 10.0.60.144 sthay00003
-f450a0 reboot 1574122002 # 10.0.60.111 sthay00002
- 
-
-132245 reboot 1574119223 # 10.0.60.99 sthay00001
-546a5f reboot 1574119223 # 10.0.60.144 sthay00003
-f450a0 reboot 1574119223 # 10.0.60.111 sthay00002
- 
-
-132245 reboot 1574116428 # 10.0.60.99 sthay00001
-546a5f reboot 1574116428 # 10.0.60.144 sthay00003
-f450a0 reboot 1574116428 # 10.0.60.111 sthay00002
- 
-
-546a5f reboot 1574110608 # 10.0.60.144 sthay00003
-132245 reboot 1574110608 # 10.0.60.99 sthay00001
- 
-
-132245 reboot 1574104086 # 10.0.60.99 sthay00001
-546a5f reboot 1574104086 # 10.0.60.144 sthay00003
- 
-
-546a5f reboot 1574100972 # 10.0.60.144 sthay00003
-132245 reboot 1574100972 # 10.0.60.99 sthay00001
- 
-
-546a5f maxwatts 1100 # 10.0.60.144
-546a5f reboot 1574099357 # 10.0.60.144
-
-546a5f maxwatts 1100 # 10.0.60.144
-546a5f reboot 1574099357 # 10.0.60.144
-
-132245 reboot 1574097865 # 10.0.60.99 sthay00001
- 
-
-132245 reboot 1574094784 # 10.0.60.99 sthay00001
- 
-
-132245 reboot 1574091741 # 10.0.60.99 sthay00001
- 
-
-132245 reboot 1574088720 # 10.0.60.99 sthay00001
- 
-
-132245 reboot 1574085730 # 10.0.60.99 sthay00001
- 
-
-132245 reboot 1574018073 # 10.0.60.99 sthay00001
- 
-
-132245 reboot 1574015359 # 10.0.60.99 sthay00001
- 
-
-132245 reboot 1574012637 # 10.0.60.99 sthay00001
- 
-
-132245 reboot 1573929816 # 10.0.60.99 sthay00001
- 
-
-132245 reboot 1573928179 # 10.0.60.99 sthay00001
- 
-
-132245 reboot 1573926543 # 10.0.60.99 sthay00001
- 
-
-132245 reboot 1573924905 # 10.0.60.99 sthay00001
- 
-
-132245 reboot 1573923268 # 10.0.60.99 sthay00001
- 
-
-546a5f maxwatts 1200 # 10.0.60.144
-546a5f reboot 1573854030 # 10.0.60.144
-
-546a5f maxwatts 1200 # 10.0.60.144
-546a5f reboot 1573854030 # 10.0.60.144
-
-546a5f maxwatts 1300 # 10.0.60.144
-546a5f reboot 1573842196 # 10.0.60.144
-
-546a5f maxwatts 1300 # 10.0.60.144
-546a5f reboot 1573842196 # 10.0.60.144
-
-546a5f maxwatts 1400 # 10.0.60.144
-546a5f reboot 1573831097 # 10.0.60.144
-
-132245 reboot 1573766867 # 10.0.60.99 sthay00001
-546a5f reboot 1573766867 # 10.0.60.144 sthay00003
- 
-
-132245 reboot 1573765226 # 10.0.60.99 sthay00001
- 
-
-132245 maxwatts 1300 # 10.0.60.99
-132245 reboot 1573691631 # 10.0.60.99
-
-132245 maxwatts 1300 # 10.0.60.99
-132245 reboot 1573691631 # 10.0.60.99
-
-132245 maxwatts 1400 # 10.0.60.99
-132245 reboot 1573678124 # 10.0.60.99
-
-132245 maxwatts 1400 # 10.0.60.99
-132245 reboot 1573678124 # 10.0.60.99
-
-132245 reboot 1573664839 # 10.0.60.99 sthay00001
- 
-
+## fans
 
 ## reboots
 
@@ -199,66 +55,3 @@ f450a0 reboot 1574116428 # 10.0.60.111 sthay00002
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
