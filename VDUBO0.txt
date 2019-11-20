@@ -33,6 +33,7 @@ global blinkgreen rapid
 
 # global retune 1
 # global reboot 1573583357 # 1
+# global uncork 1
 # global reset 1
 # global panelpass gj83Nkgikg
 
@@ -62,7 +63,7 @@ c55b18 location VDUBO00008
 33ab1b location VDUBO00010
 215267 location VDUBO00011
 
-## overheats
+## throttle
 c55b18 maxwatts 1350
 
 ## fans
