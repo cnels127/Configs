@@ -104,6 +104,9 @@ ff032f location RGESU00058
 4b6238 maxwatts 100 # 10.0.54.34
 4b6238 reboot 1574208841 # 10.0.54.34
 
+4b6238 maxwatts 100 # 10.0.54.34
+4b6238 reboot 1574208841 # 10.0.54.34
+
 b65a11 reboot 1574207500 # 10.0.53.155 rgesu00016
 6073d8 reboot 1574207500 # 10.0.53.156 rgesu00017
 8ce706 reboot 1574207500 # 10.0.54.14 rgesu00036
@@ -1479,6 +1482,7 @@ d92dc2 reboot 1573484252 # 10.0.53.150 rgesu00011
 
 ## asic password
 asicpass admin
+
 
 
 
