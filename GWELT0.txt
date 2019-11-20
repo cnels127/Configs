@@ -33,6 +33,7 @@ global blinkgreen rapid
 
 # global retune 1
 # global reboot 7
+# global uncork 1
 # global reset 1
 # global panelpass gj83Nkgikg
 
@@ -364,7 +365,6 @@ d02def location GWELT00096
 1301f9 location GWELT00098
 0325b4 location GWELT00099
 8472ef location GWELT00100
-# 2nd Batch
 5653f6 location GWELT00101
 d1f52e location GWELT00102
 dc1da5 location GWELT00103
@@ -613,27 +613,3 @@ ce7138 reset 1573273407
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
