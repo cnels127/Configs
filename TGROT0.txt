@@ -25,7 +25,7 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-# global throttle 100
+global throttle 100
 global fanspeed 80
 global fansaver yes
 global blinkred idle
@@ -33,9 +33,8 @@ global blinkgreen rapid
 
 # global retune 1
 # global reboot 1
+# global uncork 1
 # global reset 1
-global reset 1573675682
-
 # global panelpass gj83Nkgikg
 
 ## vlans
@@ -68,133 +67,9 @@ cb7d1b location TGROT00011
 a83fdc location TGROT00012
 3ec4f8 location TGROT00013
 
-## tuning
-052e16 maxwatts 250 # 10.0.116.37
-052e16 reboot 1574208872 # 10.0.116.37
+## throttle
 
-052e16 maxwatts 250 # 10.0.116.37
-052e16 reboot 1574208872 # 10.0.116.37
-
-052e16 maxwatts 350 # 10.0.116.37
-052e16 reboot 1574206125 # 10.0.116.37
-
-052e16 maxwatts 350 # 10.0.116.37
-052e16 reboot 1574206125 # 10.0.116.37
-
-dae245 reboot 1574094795 # 10.0.61.157 tgrot00001
- 
-
-dae245 reboot 1574091751 # 10.0.61.157 tgrot00001
- 
-
-dae245 reboot 1574088729 # 10.0.61.157 tgrot00001
- 
-
-dae245 reboot 1574085739 # 10.0.61.157 tgrot00001
- 
-
-dae245 reboot 1574082790 # 10.0.61.157 tgrot00001
- 
-
-dae245 reboot 1574079854 # 10.0.61.157 tgrot00001
- 
-
-dae245 reboot 1574076943 # 10.0.61.157 tgrot00001
- 
-
-dae245 reboot 1574074063 # 10.0.61.157 tgrot00001
- 
-
-dae245 reboot 1574071187 # 10.0.61.157 tgrot00001
- 
-
-dae245 reboot 1574068338 # 10.0.61.157 tgrot00001
- 
-
-dae245 reboot 1574065503 # 10.0.61.157 tgrot00001
- 
-
-dae245 reboot 1574062677 # 10.0.61.157 tgrot00001
- 
-
-dae245 reboot 1574059862 # 10.0.61.157 tgrot00001
- 
-
-dae245 reboot 1574057063 # 10.0.61.157 tgrot00001
- 
-
-dae245 reboot 1574054266 # 10.0.61.157 tgrot00001
- 
-
-dae245 maxwatts 1350 # 10.0.61.157
-dae245 reboot 1574050065 # 10.0.61.157
-
-dae245 maxwatts 1350 # 10.0.61.157
-dae245 reboot 1574050065 # 10.0.61.157
-
-052e16 maxwatts 450 # 10.0.116.37
-052e16 reboot 1574009485 # 10.0.116.37
-
-052e16 maxwatts 550 # 10.0.116.37
-052e16 reboot 1574006646 # 10.0.116.37
-
-052e16 maxwatts 550 # 10.0.116.37
-052e16 reboot 1574006646 # 10.0.116.37
-
-052e16 maxwatts 650 # 10.0.116.37
-052e16 reboot 1573972770 # 10.0.116.37
-
-052e16 maxwatts 650 # 10.0.116.37
-052e16 reboot 1573972770 # 10.0.116.37
-
-052e16 reboot 1573968515 # 10.0.116.37 tgrot00010
- 
-
-052e16 maxwatts 750 # 10.0.116.37
-052e16 reboot 1573961354 # 10.0.116.37
-
-052e16 maxwatts 750 # 10.0.116.37
-052e16 reboot 1573961354 # 10.0.116.37
-
-052e16 maxwatts 850 # 10.0.116.37
-052e16 reboot 1573948158 # 10.0.116.37
-
-052e16 maxwatts 850 # 10.0.116.37
-052e16 reboot 1573948158 # 10.0.116.37
-
-3ec4f8 maxwatts 1350 # 10.0.68.6
-3ec4f8 reboot 1573787167 # 10.0.68.6
-
-3ec4f8 maxwatts 1350 # 10.0.68.6
-3ec4f8 reboot 1573787167 # 10.0.68.6
-
-052e16 maxwatts 950 # 10.0.116.37
-052e16 reboot 1573704061 # 10.0.116.37
-
-052e16 maxwatts 950 # 10.0.116.37
-052e16 reboot 1573704061 # 10.0.116.37
-
-052e16 maxwatts 1050 # 10.0.116.37
-052e16 reboot 1573683187 # 10.0.116.37
-
-052e16 maxwatts 1050 # 10.0.116.37
-052e16 reboot 1573683187 # 10.0.116.37
-
-052e16 maxwatts 1150 # 10.0.116.37
-052e16 reboot 1573681500 # 10.0.116.37
-
-052e16 maxwatts 1150 # 10.0.116.37
-052e16 reboot 1573681500 # 10.0.116.37
-
-052e16 maxwatts 1250 # 10.0.116.37
-052e16 reboot 1573679813 # 10.0.116.37
-
-052e16 maxwatts 1350 # 10.0.116.37
-052e16 reboot 1573678127 # 10.0.116.37
-
-052e16 maxwatts 1350 # 10.0.116.37
-052e16 reboot 1573678127 # 10.0.116.37
-
+## fans
 
 ## reboots
 
@@ -206,66 +81,3 @@ f2dc4d reset 1573151731
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
