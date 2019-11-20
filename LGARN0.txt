@@ -23,14 +23,15 @@ global maxwatts 1500
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-# global throttle 100
-global fanspeed 100
+global throttle 100
+global fanspeed 80
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
 # global reboot 1
+# global uncork 1
 # global reset 1
 # global panelpass gj83Nkgikg
 
@@ -44,42 +45,9 @@ vlan 10.0.67.85-85
 0fdb4f location LGARN00002
 1d58bd location LGARN00003
 
-## tuning
-0aaeb9 reboot 1574144253 # 10.0.65.60 lgarn00001
- 
+## throttle
 
-0fdb4f reboot 1574136014 # 10.0.65.102 lgarn00002
- 
-
-0fdb4f reboot 1574133219 # 10.0.65.102 lgarn00002
- 
-
-0fdb4f reboot 1574119165 # 10.0.65.102 lgarn00002
- 
-
-0fdb4f reboot 1574116373 # 10.0.65.102 lgarn00002
- 
-
-1d58bd reboot 1574110560 # 10.0.67.85 lgarn00003
- 
-
-0fdb4f reboot 1574103976 # 10.0.65.102 lgarn00002
- 
-
-0fdb4f reboot 1574100835 # 10.0.65.102 lgarn00002
- 
-
-0fdb4f reboot 1574088602 # 10.0.65.102 lgarn00002
- 
-
-0fdb4f maxwatts 1400 # 10.0.65.102
-0fdb4f reboot 1574087085 # 10.0.65.102
-
-0fdb4f maxwatts 1400 # 10.0.65.102
-0fdb4f reboot 1574087085 # 10.0.65.102
-
-
-
+## fans
 
 ## reboots
 
@@ -87,25 +55,3 @@ vlan 10.0.67.85-85
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
