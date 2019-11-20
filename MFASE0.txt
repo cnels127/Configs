@@ -19,11 +19,11 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1500
+global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-# global throttle 100
+global throttle 100
 global fanspeed 80
 global fansaver yes
 global blinkred idle
@@ -31,9 +31,8 @@ global blinkgreen rapid
 
 # global retune 1
 # global reboot 1
+# global uncork 1
 # global reset 1
-global reset 1573678209
-
 # global panelpass gj83Nkgikg
 
 ## vlans
@@ -42,10 +41,9 @@ vlan 10.0.66.56-56
 ## locations
 ede705 location MFASE00001
 
-## tuning
-ede705 reboot 1574130449 # 10.0.66.56 mfase00001
- 
+## throttle
 
+## fans
 
 ## reboots
 # s_reboot generated on Nov 11 2019 18:58:58 utc: 1573498738
@@ -56,4 +54,3 @@ ede705 reset 1573159405
 
 ## asic password
 asicpass admin
-
