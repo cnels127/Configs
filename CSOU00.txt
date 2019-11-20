@@ -23,8 +23,8 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-# global throttle 100
-global fanspeed 100
+global throttle 100
+global fanspeed 80
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
@@ -42,7 +42,7 @@ vlan 10.0.117.21-21
 1ff15c location CSOU0000001
 e9fdf8 location CSOU0000002
 
-## tuning
+## throttle
 
 ## reboots
 
