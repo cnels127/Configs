@@ -31,7 +31,8 @@ global blinkgreen rapid
 
 # global retune 1
 # global reboot 1
-global reset 1573847406
+# global uncork 1
+# global reset 1573847406
 # global panelpass gj83Nkgikg
 
 ## vlans
@@ -79,5 +80,3 @@ d20101 reset 1573254748
 
 ## asic password
 asicpass admin
-
-
