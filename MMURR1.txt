@@ -22,19 +22,17 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-# global throttle 100
-global fanspeed 100
+global throttle 100
+global fanspeed 85
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
-# global rebootasic 1
-global resetasic 1573847100 # 1
+# global reboot 1
+# global uncork 1
+# global reset 1573847100 # 1
 # global panelpass gj83Nkgikg
-
-# group=rowc rebootasic 1
-# group=rowd allowed no
 
 ## vlans
 vlan 172.16.204.145-145
@@ -44,11 +42,13 @@ vlan 172.16.202.57-57
 6be331 location MMURR10001
 c7c4b4 location MMURR10002
 
-## tuning
+## throttle
 
+## fans
 
+## reboots
+
+## resets
 
 ## asic password
 asicpass admin
-
-
