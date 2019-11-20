@@ -18,18 +18,19 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1300
+global maxwatts 1350
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-# global throttle 100
-global fanspeed 100
+global throttle 100
+global fanspeed 85
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
 # global reboot 2
+# global uncork 1
 # global reset 1
 # global panelpass gj83Nkgikg
 
@@ -71,68 +72,9 @@ dc7a56 location LMACK10013
 3b93f0 location LMACK10016
 188204 location LMACK10017
 
-## tuning
-66742c reboot 1574199186 # 10.10.126.19 lmack10006
- 
+## throttle
 
-697be7 reboot 1574188473 # 10.10.126.121 lmack10015
- 
-
-dc7a56 reboot 1574152450 # 10.10.126.119 lmack10013
- 
-
-697be7 reboot 1574144256 # 10.10.126.121 lmack10015
- 
-
-697be7 maxwatts 1100 # 10.10.126.121
-3b93f0 maxwatts 900 # 10.10.126.122
-697be7 reboot 1573891649 # 10.10.126.121
-3b93f0 reboot 1573891649 # 10.10.126.122
-
-697be7 maxwatts 1100 # 10.10.126.121
-3b93f0 maxwatts 900 # 10.10.126.122
-697be7 reboot 1573891649 # 10.10.126.121
-3b93f0 reboot 1573891649 # 10.10.126.122
-
-697be7 maxwatts 1200 # 10.10.126.121
-3b93f0 maxwatts 1000 # 10.10.126.122
-697be7 reboot 1573889912 # 10.10.126.121
-3b93f0 reboot 1573889912 # 10.10.126.122
-
-697be7 maxwatts 1200 # 10.10.126.121
-3b93f0 maxwatts 1000 # 10.10.126.122
-697be7 reboot 1573889912 # 10.10.126.121
-3b93f0 reboot 1573889912 # 10.10.126.122
-
-178cf9 maxwatts 1100 # 10.10.126.120
-3b93f0 maxwatts 1100 # 10.10.126.122
-178cf9 reboot 1573837033 # 10.10.126.120
-3b93f0 reboot 1573837033 # 10.10.126.122
-
-178cf9 maxwatts 1100 # 10.10.126.120
-3b93f0 maxwatts 1100 # 10.10.126.122
-178cf9 reboot 1573837033 # 10.10.126.120
-3b93f0 reboot 1573837033 # 10.10.126.122
-
-178cf9 maxwatts 1200 # 10.10.126.120
-3b93f0 maxwatts 1200 # 10.10.126.122
-178cf9 reboot 1573835271 # 10.10.126.120
-3b93f0 reboot 1573835271 # 10.10.126.122
-
-178cf9 maxwatts 1200 # 10.10.126.120
-3b93f0 maxwatts 1200 # 10.10.126.122
-178cf9 reboot 1573835271 # 10.10.126.120
-3b93f0 reboot 1573835271 # 10.10.126.122
-
-9be2e9 reboot 1573526476 # 10.10.126.118 lmack10012
- 
-
-b06f2f maxwatts 1200 # 10.10.126.117
-b06f2f reboot 1573514114 # 10.10.126.117
-
-b06f2f maxwatts 1200 # 10.10.126.117
-b06f2f reboot 1573514114 # 10.10.126.117
-
+## fans
 
 ## reboots
 # s_reboot generated on Oct 03 2019 13:57:42 utc: 1570111062
@@ -147,18 +89,3 @@ dc7a56 rebootasic 1570111062 # 172.16.203.133 lmack10013
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
