@@ -18,18 +18,19 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1300
+global maxwatts 1350
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-# global throttle 100
-global fanspeed 100
+global throttle 100
+global fanspeed 85
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
 # global reboot 4
+# global uncork 1
 # global reset 1
 # global panelpass gj83Nkgikg
 
@@ -99,109 +100,9 @@ f11c7d location KTAEY10028
 05de13 location KTAEY10030
 ef85ce location KTAEY10031
 
-## tuning
-4753df reboot 1574196380 # 10.10.125.42 ktaey10020
- 
+## throttle
 
-5d74b2 reboot 1574146977 # 10.10.125.68 ktaey10015
- 
-
-eb6467 reboot 1573985653 # 10.10.125.31 ktaey10008
- 
-
-3c87aa reboot 1573502050 # 10.10.125.32 ktaey10009
- 
-
-3c87aa reboot 1573498694 # 10.10.125.32 ktaey10009
- 
-
-3c87aa reboot 1573493864 # 10.10.125.32 ktaey10009
- 
-
-3c87aa reboot 1573339130 # 10.10.125.32 ktaey10009
- 
-
-3c87aa reboot 1573337500 # 10.10.125.32 ktaey10009
- 
-
-3c87aa reboot 1573335834 # 10.10.125.32 ktaey10009
- 
-
-3c87aa reboot 1572581357 # 10.10.125.32 ktaey10009
- 
-
-57f039 maxwatts 700 # 10.10.125.26
-57f039 reboot 1572050814 # 10.10.125.26
-
-57f039 maxwatts 800 # 10.10.125.26
-57f039 reboot 1572047214 # 10.10.125.26
-
-80297d maxwatts 700 # 10.10.125.23
-57f039 maxwatts 900 # 10.10.125.26
-80297d reboot 1572043664 # 10.10.125.23
-57f039 reboot 1572043664 # 10.10.125.26
-
-80297d maxwatts 800 # 10.10.125.23
-57f039 maxwatts 1000 # 10.10.125.26
-80297d reboot 1572040161 # 10.10.125.23
-57f039 reboot 1572040161 # 10.10.125.26
-
-80297d maxwatts 900 # 10.10.125.23
-57f039 maxwatts 1100 # 10.10.125.26
-80297d reboot 1572036748 # 10.10.125.23
-57f039 reboot 1572036748 # 10.10.125.26
-
-80297d maxwatts 1000 # 10.10.125.23
-57f039 maxwatts 1200 # 10.10.125.26
-80297d reboot 1572033246 # 10.10.125.23
-57f039 reboot 1572033246 # 10.10.125.26
-
-80297d maxwatts 1100 # 10.10.125.23
-80297d reboot 1572029739 # 10.10.125.23
-
-80297d maxwatts 1200 # 10.10.125.23
-80297d reboot 1572026232 # 10.10.125.23
-
-ab09dd maxwatts 1200 # 10.10.125.34
-bb6c13 maxwatts 1200 # 10.10.125.35
-ab09dd rebootasic 1571445999 # 10.10.125.34
-bb6c13 rebootasic 1571445999 # 10.10.125.35
-
-320c94 maxwatts 1000 # 10.10.125.38
-320c94 rebootasic 1571211564 # 10.10.125.38
-
-320c94 maxwatts 1100 # 10.10.125.38
-320c94 rebootasic 1571187159 # 10.10.125.38
-
-320c94 maxwatts 1200 # 10.10.125.38
-320c94 rebootasic 1570929647 # 10.10.125.38
-
-05de13 maxwatts 1200 # 172.16.204.127
-05de13 rebootasic 1570906018 # 172.16.204.127
-
-bac719 maxwatts 1100 # 172.16.201.23
-5a6128 maxwatts 1200 # 172.16.200.183
-6639db maxwatts 1200 # 172.16.200.21
-bac719 rebootasic 1570725505 # 172.16.201.23
-5a6128 rebootasic 1570725505 # 172.16.200.183
-6639db rebootasic 1570725505 # 172.16.200.21
-
-bac719 maxwatts 1200 # 172.16.201.23
-bac719 rebootasic 1570721498 # 172.16.201.23
-
-4b62dd maxwatts 1200 # 172.16.200.156
-4b62dd rebootasic 1570628786 # 172.16.200.156
-
-0c7167 maxwatts 1200 # 172.16.200.157
-0c7167 rebootasic 1570542485 # 172.16.200.157
-
-5a6128 retune 1
-80297d retune 1
-6639db retune 1
-6eddf3 retune 1
-9f4edd retune 1
-5e6e74 retune 1
-2009e5 retune 1
+## fans
 
 ## reboots
 80297d rebootasic 1
@@ -225,34 +126,5 @@ bac719 resetasic 1
 3c87aa resetasic 1573081651
 eb6467 resetasic 1573081695
 
-
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
