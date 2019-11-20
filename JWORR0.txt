@@ -23,14 +23,15 @@ global maxwatts 1525
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-# global throttle 100
-global fanspeed 100
+global throttle 100
+global fanspeed 80
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
 # global reboot 1
+# global uncork 1
 # global reset 1
 # global panelpass gj83Nkgikg
 
@@ -50,15 +51,8 @@ b7cd11 location JWORR00007
 564c64 location JWORR00010
 
 ## tuning
-6659c1 reboot 1574183235 # 10.0.32.70 jworr00001
- 
 
-8f312b maxwatts 1425 # 10.0.32.71
-8f312b reboot 1573786987 # 10.0.32.71
-
-8f312b maxwatts 1425 # 10.0.32.71
-8f312b reboot 1573786987 # 10.0.32.71
-
+## fans
 
 ## reboots
 
@@ -66,7 +60,3 @@ b7cd11 location JWORR00007
 
 ## asic password
 asicpass admin
-
-
-
-
