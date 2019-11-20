@@ -31,6 +31,7 @@ global blinkgreen rapid
 
 # global retune 1
 # global reboot 1
+# global uncork 1
 # global reset 2
 # global panelpass gj83Nkgikg
 
@@ -43,10 +44,7 @@ vlan 10.0.68.30-33
 256c44 location RPOUL00003
 ba1c4a location RPOUL00004
 
-## tuning
-12c5ea reboot 1574124839 # 10.0.68.30 rpoul00001
- 
-
+## throttle
 
 ## fans
 
@@ -59,4 +57,3 @@ ba1c4a reset 1573666738
 
 ## asic password
 asicpass admin
-
