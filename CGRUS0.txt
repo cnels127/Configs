@@ -19,12 +19,12 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1500
+global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-# global throttle 100
-global fanspeed 100
+global throttle 100
+global fanspeed 80
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
@@ -42,12 +42,9 @@ vlan 10.0.64.123-123
 e234df location CGRUS00001
 522efd location CGRUS00002
 
-## tuning
-e234df reboot 1574079673 # 10.0.64.123 cgrus00001
- 
+## throttle
 
-
-
+## fans
 
 ## reboots
 
@@ -55,9 +52,3 @@ e234df reboot 1574079673 # 10.0.64.123 cgrus00001
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
