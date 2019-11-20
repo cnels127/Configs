@@ -30,8 +30,9 @@ global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
-# global rebootasic 1
-# global resetasic 1
+# global reboot 1
+# global uncork 1
+# global reset 1
 # global panelpass gj83Nkgikg
 
 ## vlans
@@ -44,7 +45,7 @@ ed4012 location WMILL00003
 99707f location WMILL00004
 582483 location WMILL00005
 
-## 
+## throttle
 
 ## fans
 
@@ -57,4 +58,3 @@ cb178d reset 1574125039
 
 ## asic password
 asicpass admin
-
