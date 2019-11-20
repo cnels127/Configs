@@ -18,21 +18,20 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1300
+global maxwatts 1350
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-global fanspeed 100
+global throttle 100
+global fanspeed 85
 global fansaver yes
 global blinkgreen rapid
 
 # global retune 1
 # global reboot 1
+# global uncork 1
 # global reset 1
 # global panelpass gj83Nkgikg
-
-# group=rowc rebootasic 1
-# group=rowd allowed no
 
 ## vlans
 vlan 172.16.202.174-174
@@ -40,8 +39,13 @@ vlan 172.16.202.174-174
 ## locations
 4fde10 location RFRANCOS0001
 
-## tuning
+## throttle
+
+## fans
+
+## reboots
+
+## resets
 
 ## asic password
 asicpass admin
-
