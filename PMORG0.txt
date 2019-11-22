@@ -42,6 +42,10 @@ vlan 10.0.61.150-150
 vlan 10.0.65.17-17
 vlan 10.0.66.126-126
 vlan 10.0.68.16-16
+# extra machines added 11/22/19
+vlan 10.0.53.140-140
+vlan 10.0.53.143-143
+vlan 10.0.53.146-146
 
 ## locations
 81b475 location PMORG00001
@@ -54,6 +58,10 @@ e02f4f location PMORG00007
 35360b location PMORG00008
 124035 location PMORG00009
 9057b2 location PMORG00010
+# extra machines added 11/22/19
+37c8cd location PMORG0XTRA
+e4a1aa location PMORG0XTRA
+866b96 location PMORG0XTRA
 
 ## throttle
 
