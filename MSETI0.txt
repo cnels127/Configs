@@ -6,7 +6,7 @@
 global custompanel MSETI0bit049
 global customer bit49-Russia
 
-global poolname1 profit.pool.bitcoin.com:3333
+global poolname1 47.254.140.162:3333 # (profit.pool.bitcoin.com:3333)
 global username1 rstiad888
 global poolpass1 12345
 global sendworker1 yes
@@ -14,7 +14,7 @@ global poolname2 sha256.usa.nicehash.com:3334
 global username2 3HorDMDdLWBgZ7hnqFzPRnQUtG5XVjSkTQ
 global poolpass2 12345
 global sendworker2 yes
-global poolname3 us.ss.btc.com:1800
+global poolname3 47.89.179.40:1800 # (VIP us.ss.btc.com:1800)
 global username3 p5prfy4
 global poolpass3 12345
 global sendworker3 yes
@@ -44,6 +44,9 @@ vlan 10.0.63.140-140
 vlan 10.0.63.160-160
 vlan 10.0.115.61-61
 vlan 10.0.117.155-155
+# extra machines added 11/23/19
+vlan 10.0.54.16-16
+vlan 10.0.54.18-18
 
 ## locations
 7efb10 location MSETI00001
@@ -52,6 +55,9 @@ a22315 location MSETI00003
 743db3 location MSETI00004
 f6388e location MSETI00005
 35e5b2 location MSETI00006
+# extra machines added 11/23/19
+0b0610 location MSETI0XTRA
+d66f6b location MSETI0XTRA
 
 ## tuning
 
