@@ -4,15 +4,15 @@
 global custompanel ERICH0bit049
 global customer bit49-Russia
 
-global poolname1 us-east.stratum.slushpool.com:3333
+global poolname1 18.184.127.10:3333 # (eu.stratum.slushpool.com:3333)
 global username1 edodgexige
 global poolpass1 123
 global sendworker1 yes
-global poolname2 stratum.slushpool.com:3333
+global poolname2 18.197.228.56:3333 # (stratum.slushpool.com:3333)
 global username2 edodgexige
 global poolpass2 123
 global sendworker2 yes
-global poolname3 profit.pool.bitcoin.com:3333
+global poolname3 47.254.140.162:3333 # (profit.pool.bitcoin.com:3333)
 global username3 bit49
 global poolpass3 123
 global sendworker3 yes
@@ -31,6 +31,7 @@ global blinkgreen rapid
 
 # global retune 2
 # global reboot 1573583908 # 1
+# global uncork 1
 # global reset 1
 # global panelpass gj83Nkgikg
 
@@ -40,6 +41,10 @@ vlan 10.0.58.142-142
 vlan 10.0.60.16-16
 vlan 10.0.60.78-78
 vlan 10.0.60.80-80
+# extra machines added 11/23/19
+vlan 10.0.54.6-6
+vlan 10.0.53.147-147
+vlan 10.0.53.151-151
 
 ## locations
 cc79f4 location ERICH00001
@@ -47,6 +52,10 @@ ea2b68 location ERICH00002
 81b66e location ERICH00003
 84441a location ERICH00004
 5f07ce location ERICH00005
+# extra machines added 11/23/19
+52a31b location ERICH0XTRA
+7bf34d location ERICH0XTRA
+7a36b9 location ERICH0XTRA
 
 ## throttle
 
@@ -69,19 +78,3 @@ cc79f4 reset 1573940787
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
