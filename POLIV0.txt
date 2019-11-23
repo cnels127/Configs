@@ -42,12 +42,18 @@ vlan 10.0.120.99-99
 vlan 10.0.116.79-79
 vlan 10.0.116.83-83
 vlan 10.0.117.17-17
+# extra machines added 11/23/19
+vlan 10.0.53.150-150
+vlan 10.0.53.154-154
 
 ## locations
 1d229c location POLIV00001
 4fc5e3 location POLIV00002
 136cc9 location POLIV00003
 88d995 location POLIV00004
+# extra machines added 11/23/19
+d92dc2 location POLIV0XTRA
+dc8a14 location POLIV0XTRA
 
 ## throttle
 
