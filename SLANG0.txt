@@ -71,6 +71,10 @@ vlan 10.0.226.113-113
 vlan 10.0.53.141-141
 vlan 10.0.53.144-144
 vlan 10.0.53.145-145
+# extra machines added 11/23/19
+vlan 10.0.54.36-36
+vlan 10.0.54.37-37
+vlan 10.0.54.38-38
 
 ## locations
 bf1870 location SLANG00001
@@ -108,6 +112,10 @@ cc9cd4 location SLANG00025
 afb5e3 location SLANG0XTRA
 6f1bef location SLANG0XTRA
 c3196d location SLANG0XTRA
+# extra machines added 11/23/19
+ff032f location SLANG0XTRA
+4f826d location SLANG0XTRA
+75ef00 location SLANG0XTRA
 
 ## throttle
 
@@ -131,26 +139,3 @@ e1bef3 reset 1573789399
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
