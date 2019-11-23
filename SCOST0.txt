@@ -46,6 +46,10 @@ vlan 10.0.56.130-130
 vlan 10.0.67.20-20
 vlan 10.0.67.153-153
 vlan 10.0.67.107-107
+# extra machines added 11/23/19
+vlan 10.0.53.158-158
+vlan 10.0.53.159-159
+vlan 10.0.53.160-160
 
 ## locations
 cee4db location SCOST00001
@@ -58,7 +62,12 @@ a43fe6 location SCOST00006
 4363d5 location SCOST00008
 133b75 location SCOST00009
 cc96e4 location SCOST00010
+# extra machine
 9b4848 location SCOST0XTRA
+# extra machines added 11/23/19
+35f34a location SCOST0XTRA
+753f7e location SCOST0XTRA
+a4164a location SCOST0XTRA
 
 ## throttle
 
