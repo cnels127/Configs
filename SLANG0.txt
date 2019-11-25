@@ -1,5 +1,5 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
-## TOTAL EXP HASHRATE 25 s9 @ 16 Th/s = 400 Th/s
+## TOTAL EXP HASHRATE 28 s9 @ 16 Th/s = 448 Th/s
 
 global custompanel SLANG0bit049
 global customer bit49-Russia
@@ -67,6 +67,11 @@ vlan 10.0.226.102-102
 vlan 10.0.226.107-107
 vlan 10.0.226.109-109
 vlan 10.0.226.113-113
+# machines purchased from DKUZM0 transferred over 11/25/19
+vlan 10.0.61.133-133
+vlan 10.0.65.54-54
+vlan 10.0.65.75-75
+vlan 10.0.59.79-79 #extra
 # extra machines added 11/22/19
 vlan 10.0.53.141-141
 vlan 10.0.53.144-144
@@ -108,6 +113,10 @@ b65856 location SLANG00022
 fd676b location SLANG00023
 a3c9ac location SLANG00024
 cc9cd4 location SLANG00025
+dcf994 location SLANG00026
+596a83 location SLANG00027
+e06e8a location SLANG00028
+364899 location DKUZM0XTRA
 # extra machines added 11/22/19
 afb5e3 location SLANG0XTRA
 6f1bef location SLANG0XTRA
