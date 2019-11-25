@@ -53,9 +53,19 @@ da7d9d location NARMO0XTRA
 
 ## throttle
 
+3518c2 uncork 1574717999 # 10.0.116.49 narmo0xtra
+da7d9d uncork 1574717999 # 10.0.53.142 narmo0xtra
+76e85b uncork 1574717999 # 10.0.65.71 narmo00001
+aa75d6 uncork 1574717999 # 10.0.66.110 narmo00003
+
 ## fans
 
 ## reboots
+
+3518c2 reboot 1574717999 # 10.0.116.49 narmo0xtra
+da7d9d reboot 1574717999 # 10.0.53.142 narmo0xtra
+76e85b reboot 1574717999 # 10.0.65.71 narmo00001
+aa75d6 reboot 1574717999 # 10.0.66.110 narmo00003
 
 ## resets
 76e85b reset 1573248116
