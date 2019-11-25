@@ -42,6 +42,7 @@ vlan 10.0.66.56-56
 ede705 location MFASE00001
 
 ## throttle
+ede705 uncork 1574717882 # 10.0.66.56 mfase00001
 
 ## fans
 
