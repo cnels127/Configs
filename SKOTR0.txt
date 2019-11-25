@@ -58,11 +58,18 @@ f5417d location SKOTR00004
 d9dc85 location SKOTR0XTRA
 
 ## throttle
+d9dc85 uncork 1574718179 # 10.0.65.88 skotr0xtra
+f5417d uncork 1574718179 # 10.0.61.17 skotr00004
+031368 uncork 1574718179 # 10.0.60.155 skotr00003
 
 ## fans
 
 ## reboots
 # s_reboot generated on Nov 11 2019 19:09:47 utc: 1573499387
+d9dc85 reboot 1574718179 # 10.0.65.88 skotr0xtra
+f5417d reboot 1574718179 # 10.0.61.17 skotr00004
+031368 reboot 1574718179 # 10.0.60.155 skotr00003
+
 d9dc85 reboot 1574288901 # 10.0.65.88 skotr0xtra
 3c6a08 reboot 1574288901 # 10.0.64.155 skotr0xtra
 6dd1ab reboot 1574288901 # 10.0.56.144 skotr00001
