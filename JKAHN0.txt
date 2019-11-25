@@ -37,9 +37,13 @@ global blinkgreen rapid
 
 ## vlans
 vlan 10.0.68.7-7
+# extra machine added 11/25/19
+vlan 10.0.116.27-27
 
 ## locations
 ef83d4 location JKAHN00001
+# extra machine added 11/25/19
+81d744 location JKAHN0XTRA
 
 ## throttle
 
