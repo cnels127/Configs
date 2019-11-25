@@ -38,11 +38,17 @@ global blinkgreen rapid
 vlan 10.0.55.120-120
 vlan 10.0.55.137-137
 vlan 10.0.56.68-68
+# extra machines added 11/25/19
+vlan 10.0.53.161-161
+vlan 10.0.54.2-2
 
 ## locations
 35cf73 location ABEAU00001
 a26081 location ABEAU00002
 64c124 location ABEAU00003
+# extra machines added 11/25/19
+123f64 location ABEAU0XTRA
+2e3c21 location ABEAU0XTRA
 
 ## throttle
 
