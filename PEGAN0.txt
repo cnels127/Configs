@@ -51,6 +51,14 @@ vlan 10.0.115.96-96
 vlan 10.0.118.49-49
 vlan 10.0.120.92-92
 vlan 10.0.119.52-52
+# extra machines added 11/25/19
+vlan 10.0.54.7-7
+vlan 10.0.54.27-27
+vlan 10.0.115.76-76
+vlan 10.0.54.19-19
+vlan 10.0.54.21-21
+vlan 10.0.54.6-6
+vlan 10.0.54.35-35
 
 ## locations
 5a3dde location PEGAN00001
@@ -68,6 +76,14 @@ e6d42b location PEGAN00010
 a03c97 location PEGAN00013
 f1ae88 location PEGAN00014
 4900fd location PEGAN00015
+# extra machines added 11/25/19
+8883eb location PEGAN0XTRA
+1a4852 location PEGAN0XTRA
+bbf6ce location PEGAN0XTRA
+45099f location PEGAN0XTRA
+0884bf location PEGAN0XTRA
+52a31b location PEGAN0XTRA
+870cd5 location PEGAN0XTRA
 
 ## throttle
 
@@ -80,26 +96,3 @@ d20101 reset 1573254748
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
