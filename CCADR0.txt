@@ -45,6 +45,8 @@ vlan 10.0.66.116-116
 551f73 location CCADR00003
 
 ## throttle
+1c6e2b uncork 1574717407 # 10.0.64.153 ccadr00002
+551f73 uncork 1574717407 # 10.0.66.116 ccadr00003
 
 ## fans
 
