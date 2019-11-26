@@ -3,11 +3,11 @@
 global custompanel KREDD1bit049
 global customer bit49-Colorado
 
-global poolname1 us-east.stratum.slushpool.com:3333
+global poolname1 18.197.228.56:3333 # (stratum.slushpool.com:3333)
 global username1 kirankbit
 global poolpass1 123
 global sendworker1 yes
-global poolname2 stratum.slushpool.com:3333
+global poolname2 18.197.228.56:3333 # (stratum.slushpool.com:3333)
 global username2 kirankbit
 global poolpass2 x
 global sendworker2 yes
