@@ -4,12 +4,12 @@
 global custompanel NBELL0bit049
 global customer bit49-Russia
 
-global poolname1 47.91.89.176:1800 # (EU VIP eu.ss.btc.com:1800)
-global username1 unocomm001
+global poolname1 us.ss.btc.com:1800 # (USA 47.89.133.88:1800)
+global username1 BIT4920 # (changed from unocomm002)
 global poolpass1 123
 global sendworker1 yes
-global poolname2 47.89.179.40:1800 # (USA VIP us.ss.btc.com:1800)
-global username2 BIT4920 # (changed from unocomm002)
+global poolname2 us.ss.btc.com:443 # (US 47.89.179.40:443)
+global username2 BIT4920 # (Changed from unocomm001 on EU server)
 global poolpass2 123
 global sendworker2 yes
 global poolname3 47.254.140.162:3333 # (profit.pool.bitcoin.com:3333)
