@@ -23,7 +23,7 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-global throttle 100
+global throttle 50
 global fanspeed 80
 global fansaver yes
 global blinkred idle
@@ -48,7 +48,7 @@ f726b1 location ZVORW00002
 c2ee95 location ZVORW00003
 
 ## throttle
-
+c2ee95 uncork 1574978404
 ## fans
 
 ## reboots
