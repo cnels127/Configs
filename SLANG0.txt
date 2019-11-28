@@ -23,7 +23,7 @@ global maxwatts 1500
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-global throttle 100
+global throttle 50
 global fanspeed 80
 global fansaver yes
 global blinkred idle
@@ -31,7 +31,7 @@ global blinkgreen rapid
 
 # global retune 1
 # global reboot 1573584581 # 1
-# global uncork 1
+global uncork 1574964310
 # global reset 1
 # global panelpass gj83Nkgikg
 
@@ -144,6 +144,34 @@ bf1870 uncork 1574793295
 ## reboots
 
 ## resets
+c7c75f reset 1574964310
+bf1870 reset 1574964310
+f30ccf reset 1574964310
+618b1a reset 1574964310
+b65856 reset 1574964310
+cc9cd4 reset 1574964310
+596a83 reset 1574964310
+435798 reset 1574964310
+e39d7c reset 1574964310
+ff032f reset 1574964310
+e06e8a reset 1574964310
+3c8ba2 reset 1574964310
+d09da5 reset 1574964310
+866c28 reset 1574964310
+e1bef3 reset 1574964310
+fbf390 reset 1574964310
+42cbf5 reset 1574964310
+15269c reset 1574964310
+fd676b reset 1574964310
+939070 reset 1574964310
+c44e97 reset 1574964310
+364899 reset 1574964310
+c3196d reset 1574964310
+8aca82 reset 1574964310
+dcf994 reset 1574964310
+afb5e3 reset 1574964310
+4d2038 reset 1574964310
+e2c4c8 reset 1574964310
 bf1870 reset 1574435352
 435798 reset 1574435352
 e2c4c8 reset 1574435352
