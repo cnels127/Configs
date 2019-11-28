@@ -23,7 +23,7 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-global throttle 100
+global throttle 50
 global fanspeed 80
 global fansaver yes
 global blinkred idle
@@ -80,6 +80,10 @@ d9dc85 reboot 1574288901 # 10.0.65.88 skotr0xtra
 f5417d reboot 1573499387 # 10.0.61.17 skotr00004
 
 ## resets
+d9dc85 reset 1574964244
+6c2948 reset 1574964244
+031368 reset 1574964244
+f5417d reset 1574964244
 d9dc85 reset 1574402390
 3c6a08 reset 1574402390
 6c2948 reset 1574402390
@@ -92,17 +96,3 @@ f5417d reset 1574402390
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
