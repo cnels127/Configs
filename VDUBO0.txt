@@ -25,7 +25,7 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-global throttle 100
+global throttle 50
 global fanspeed 80
 global fansaver yes
 global blinkred idle
@@ -72,6 +72,11 @@ c55b18 maxwatts 1350
 ac80c9 reboot 1573503004
 
 ## resets
+edcb66 reset 1574978009
+bc84e4 reset 1574978009
+c55b18 reset 1574978009
+33ab1b reset 1574978009
+215267 reset 1574978009
 215267 reset 1574124954
 c55b18 reset 1573942105
 215267 reset 1573942105
@@ -83,26 +88,3 @@ c55b18 reset 1573586688
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
