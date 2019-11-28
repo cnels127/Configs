@@ -23,7 +23,7 @@ global maxwatts 1500
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-global throttle 100
+global throttle 50
 global fanspeed 80
 global fansaver yes
 global blinkred idle
@@ -73,6 +73,17 @@ e4a1aa maxwatts 1450
 ## reboots
 
 ## resets
+124035 reset 1574962037
+332d51 reset 1574962037
+37c8cd reset 1574962037
+846595 reset 1574962037
+866b96 reset 1574962037
+9057b2 reset 1574962037
+c29a91 reset 1574962037
+e02f4f reset 1574962037
+35360b reset 1574962037
+e4a1aa reset 1574962037
+81b475 reset 1574962037
 37f1e2 reset 1574527569
 35360b reset 1574527569
 
