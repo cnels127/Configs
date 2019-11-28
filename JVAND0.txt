@@ -23,7 +23,7 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-global throttle 100
+global throttle 50
 global fanspeed 80
 global fansaver yes
 global blinkred idle
@@ -196,6 +196,8 @@ b35ae4 location JVAND00078
 8d9cd3 location JVAND00080
 
 ## throttle
+519b76 uncork 1574928103
+133149 uncork 1574928103
 6e866a uncork 1574796356
 1cbe40 uncork 1574796356
 133149 uncork 1574796356
@@ -226,6 +228,10 @@ b35ae4 uncork 1574796356
 ## reboots
 
 ## resets
+c55ec3 reset 1574928103
+381d25 reset 1574928103
+6138b0 reset 1574928103
+50f5c9 reset 1574928103
 9b70e9 reset 1574914516
 d7a2fa reset 1574914516
 031b4b reset 1574914516
