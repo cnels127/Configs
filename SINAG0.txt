@@ -23,7 +23,7 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-global throttle 100
+global throttle 50
 global fanspeed 80
 global fansaver yes
 global blinkred idle
@@ -54,6 +54,9 @@ d3a31d location SINAG00004
 ## reboots
 
 ## resets
+db9779 reset 1574964144
+7bfb2c reset 1574964144
+d3a31d reset 1574964144
 db9779 reset 1573938296
 
 ## asic password
