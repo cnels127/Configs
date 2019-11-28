@@ -4,7 +4,7 @@
 global custompanel PKOKE0bit049
 global customer bit49-Russia
 
-global poolname1 3.81.208.7:3333 # (us-east.stratum.slushpool.com:3333)
+global poolname1 us-east.stratum.slushpool.com:3333
 global username1 ivanrk
 global poolpass1 123
 global sendworker1 yes
@@ -54,6 +54,9 @@ bd9932 location PKOKE00005
 e5ba90 location PKOKE00009
 
 ## throttle
+ae28ba uncork 1574967765 # 10.0.54.134 pkoke00002
+e5ba90 uncork 1574967765 # 10.0.61.2 pkoke00009
+
 f39f2b uncork 1574718703 # 10.0.54.135 pkoke00003
 17739c uncork 1574718703 # 10.0.54.133 pkoke00001
 e5ba90 uncork 1574718703 # 10.0.61.2 pkoke00009
