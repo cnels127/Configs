@@ -27,7 +27,7 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-global throttle 100
+global throttle 50
 global fanspeed 80
 global fansaver yes
 global blinkred idle
@@ -75,32 +75,29 @@ f2296d location TIMAT00021
 ## reboots
 
 ## resets
+7fc10f reset 1574977755
+308db8 reset 1574977755
+f2296d reset 1574977755
+af4344 reset 1574977755
+d92393 reset 1574977755
+151ac6 reset 1574977755
+81a6b6 reset 1574977755
+f74d6d reset 1574977755
+e292bd reset 1574977755
+c3f792 reset 1574977755
+4c42a8 reset 1574977755
+5d5985 reset 1574977755
+41445f reset 1574977755
+c1769c reset 1574977755
+ec43b1 reset 1574977755
+1b0533 reset 1574977755
+bc8e6c reset 1574977755
+8f0d5d reset 1574977755
+2665f7 reset 1574977755
+603f6f reset 1574977755
 f74d6d reset 1574394509
 81a6b6 reset 1574394509
 1b0533 reset 1574124841
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
