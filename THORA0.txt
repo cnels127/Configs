@@ -23,7 +23,7 @@ global maxwatts 1500
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-global throttle 100
+global throttle 50
 global fanspeed 80
 global fansaver yes
 global blinkred idle
@@ -97,31 +97,18 @@ b042b3 reboot 1573499615 # 10.0.57.152 thora00011
 e3240c reboot 1573499615 # 10.0.54.138 thora00009
 
 ## resets
+456621 reset 1574977617
+190eef reset 1574977617
+815cec reset 1574977617
+e3240c reset 1574977617
+0ef8df reset 1574977617
+b042b3 reset 1574977617
+658700 reset 1574977617
+a7869e reset 1574977617
+f764a5 reset 1574977617
+13d4e9 reset 1574977617
 f764a5 reset 1573160169
 e3240c reset 1573160169
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
