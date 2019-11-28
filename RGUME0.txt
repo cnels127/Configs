@@ -23,7 +23,7 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-global throttle 100
+global throttle 50
 global fanspeed 80
 global fansaver yes
 global blinkred idle
@@ -50,6 +50,7 @@ c27ee4 location RGUME00003
 ## reboots
 
 ## resets
+df79d4 reset 1574963340
 df79d4 reset 1573482528
 df79d4 reset 1573160723
 
