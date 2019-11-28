@@ -25,7 +25,7 @@ global maxwatts 1500
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-global throttle 100
+global throttle 50
 global fanspeed 80
 global fansaver yes
 global blinkred idle
@@ -93,28 +93,24 @@ f729dc location RACAY00022
 ## reboots
  
 ## resets
+6c2312 reset 1574962372
+74a07a reset 1574962372
+053705 reset 1574962372
+73d19d reset 1574962372
+70247c reset 1574962372
+e98a1b reset 1574962372
+d6136a reset 1574962372
+095c6d reset 1574962372
+9938b8 reset 1574962372
+ac1696 reset 1574962372
+2c65da reset 1574962372
+c55a62 reset 1574962372
+55ae8b reset 1574962372
+9f942d reset 1574962372
+ec8ea7 reset 1574962372
+5645bb reset 1574962372
+5b26a0 reset 1574962372
+62dffd reset 1574962372
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
