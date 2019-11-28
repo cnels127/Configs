@@ -42,7 +42,6 @@ vlan 10.0.65.147-147
 faba2f location TCOST00001
 
 ## throttle
-
 faba2f uncork 1574719075 # 10.0.65.147 tcost00001
 
 ## fans
@@ -50,6 +49,7 @@ faba2f uncork 1574719075 # 10.0.65.147 tcost00001
 ## reboots
 
 ## resets
+faba2f reset 1574977223
 
 ## asic password
 asicpass admin
