@@ -23,7 +23,7 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-global throttle 100
+global throttle 50
 global fanspeed 80
 global fansaver yes
 global blinkred idle
@@ -56,6 +56,11 @@ d9b3f8 location RHOLL00004
 ## reboots
 
 ## resets
+434628 reset 1574963494
+425b29 reset 1574963494
+fc92a5 reset 1574963494
+d9b3f8 reset 1574963494
+1c76d5 reset 1574963494
 
 ## asic password
 asicpass admin
