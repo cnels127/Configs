@@ -23,7 +23,7 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-global throttle 100
+global throttle 50
 global fanspeed 80
 global fansaver yes
 global blinkred idle
@@ -118,6 +118,22 @@ c6bede location VMANU00034
 ## reboots
 
 ## resets
+689c52 reset 1574978295
+b3a56f reset 1574978295
+183877 reset 1574978295
+6ee7a2 reset 1574978295
+545c77 reset 1574978295
+b56664 reset 1574978295
+698e7c reset 1574978295
+89473a reset 1574978295
+08c55f reset 1574978295
+2687fa reset 1574978295
+698d83 reset 1574978295
+e1abed reset 1574978295
+6571e1 reset 1574978295
+110033 reset 1574978295
+9beb97 reset 1574978295
+91e17b reset 1574978295
 8e887d reset 1573769700
 8e887d reset 1573686450
 43d9af reset 1573686450
@@ -128,26 +144,3 @@ c6bede location VMANU00034
 
 ## asic password 
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
