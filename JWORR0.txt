@@ -19,7 +19,7 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1525
+global maxwatts 1500
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
@@ -57,6 +57,10 @@ b7cd11 location JWORR00007
 ## reboots
 
 ## resets
+a1c0cf reset 1574925292
+eaee2e reset 1574925292
+362e0a reset 1574925292
+6659c1 reset 1574925292
 
 ## asic password
 asicpass admin
