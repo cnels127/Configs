@@ -23,7 +23,7 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-global throttle 100
+global throttle 50
 global fanspeed 80
 global fansaver yes
 global blinkred idle
@@ -52,15 +52,12 @@ ed4012 location WMILL00003
 ## reboots
 
 ## resets
+35740c reset 1574978347
+cb178d reset 1574978347
+99707f reset 1574978347
 cb178d reset 1574125039
 35740c reset 1574125039
 99707f reset 1573940666
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
