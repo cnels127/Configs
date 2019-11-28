@@ -25,7 +25,7 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-global throttle 100
+global throttle 50
 global fanspeed 80
 global fansaver yes
 global blinkred idle
@@ -68,6 +68,10 @@ a016c1 location RANDE00008
 679e5d reboot 1573071802
 
 ## resets
+1506ab reset 1574968148
+679e5d reset 1574968148
+a016c1 reset 1574968148
+55019f reset 1574968148
 1506ab reset 1573945759
 8a2820 reset 1573945759
 679e5d reset 1573945759
@@ -82,15 +86,3 @@ a016c1 reset 1573072500
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
