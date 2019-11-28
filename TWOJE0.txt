@@ -23,7 +23,7 @@ global maxwatts 1500
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-global throttle 100
+global throttle 50
 global fanspeed 80
 global fansaver yes
 global blinkred idle
@@ -53,6 +53,7 @@ b0ec6c uncork 1574907206
 ## reboots
 
 ## resets
+af01c7 reset 1574977834
 af01c7 reset 1572456987
 
 ## asic password
