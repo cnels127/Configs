@@ -23,7 +23,7 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-global throttle 100
+global throttle 50
 global fanspeed 80
 global fansaver yes
 global blinkred idle
@@ -62,6 +62,13 @@ ada517 location RWEAV0XTRA
 ## reboots
 
 ## resets
+e94ba6 reset 1574963700
+24884e reset 1574963700
+09cad2 reset 1574963700
+ada517 reset 1574963700
+599752 reset 1574963700
+26e074 reset 1574963700
+50c56b reset 1574963700
 599752 reset 1573495197
 
 ## asic password
