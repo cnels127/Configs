@@ -32,7 +32,7 @@ global blinkgreen rapid
 
 # global retune 1
 # global reboot 1574269559
-# global uncork 1574812162
+global uncork 1575050688
 # global reset 1
 # global panelpass gj83Nkgikg
 
@@ -247,49 +247,51 @@ ef15e2 location ASMIT000097
 ## reboots
 
 ## resets
-000122 reset 1575009897
-ef15e2 reset 1575009897
-0de45b reset 1575009897
-ebac3f reset 1575009897
-5c3a63 reset 1575009897
-1b4b3a reset 1575009897
-d14995 reset 1575009897
-08e3f8 reset 1575009897
-f6e78f reset 1575009897
-311b99 reset 1575009897
-a6d314 reset 1575009897
-634028 reset 1575009897
-f74045 reset 1575009897
-d6d15f reset 1575009897
-a7b6db reset 1575009897
-031d29 reset 1575009897
-f5ddbb reset 1575009897
-e42129 reset 1575009897
-dd8320 reset 1575009897
-e12ce5 reset 1575009897
-683bb6 reset 1575009897
-989ff6 reset 1575009897
-5b0fa5 reset 1575009897
-b506b4 reset 1575009897
-0b9d8d reset 1575009897
-ac5f4f reset 1575009897
-83bf48 reset 1575009897
-9af0af reset 1575009897
-e98842 reset 1575009897
-719b5e reset 1575009897
-e73231 reset 1575009897
-e3414b reset 1575009897
-546516 reset 1575009897
-4ef268 reset 1574872044
-e8355a reset 1574872044
-51345d reset 1574872044
-f6f5cd reset 1574872044
-d1959f reset 1574811156
-d5888b reset 1574693159
-7eae90 reset 1573272600
-45bf53 reset 1573272600
-85332c reset 1573272600
-d1959f reset 1573271431
+
+## maxwatts
+10335b maxwatts 1450
+f5ddbb maxwatts 1450
+eff346 maxwatts 1450
+c81b30 maxwatts 1450
+1b4b3a maxwatts 1450
+12853f maxwatts 1450
+dd8320 maxwatts 1450
+2c2665 maxwatts 1450
+42d422 maxwatts 1450
+47bb2b maxwatts 1450
+871acb maxwatts 1450
+524b81 maxwatts 1450
+0de45b maxwatts 1450
+d14995 maxwatts 1450
+3bc058 maxwatts 1450
+e42129 maxwatts 1450
+b6dc9b maxwatts 1450
+e73231 maxwatts 1450
+634028 maxwatts 1450
+e3ad88 maxwatts 1450
+9c6854 maxwatts 1450
+dcb3fe maxwatts 1450
+f6e78f maxwatts 1450
+ebac3f maxwatts 1450
+9a2fce maxwatts 1450
+f74045 maxwatts 1450
+9cf57d maxwatts 1450
+6fe983 maxwatts 1450
+0025f7 maxwatts 1450
+b187aa maxwatts 1450
+12da9b maxwatts 1450
+85ec4c maxwatts 1450
+aa7b11 maxwatts 1450
+a9900e maxwatts 1450
+546516 maxwatts 1450
+031d29 maxwatts 1450
+23551c maxwatts 1450
+08e3f8 maxwatts 1450
+613041 maxwatts 1450
+83aafe maxwatts 1450
+719b5e maxwatts 1450
+a6d314 maxwatts 1450
+989ff6 maxwatts 1450
 
 ## asic password
 asicpass admin
