@@ -23,7 +23,7 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-global throttle 100
+global throttle 50
 global fanspeed 85
 global fansaver yes
 global blinkred idle
@@ -31,6 +31,7 @@ global blinkgreen rapid
 
 # global retune 2
 # global reboot 1573583604 # 1
+global uncork 1575008958
 # global reset 1
 # global panelpass gj83Nkgikg
 
@@ -195,6 +196,12 @@ bf8fd2 location AZDJE00096
 ## reboots
 
 ## resets
+5347e8 reset 1575008958
+85f927 reset 1575008958
+c96ac2 reset 1575008958
+5ff091 reset 1575008958
+bf8fd2 reset 1575008958
+9f340c reset 1575008958
 db9eac reset 1574693210
 176368 reset 1574693210
 514e9f reset 1574693210
