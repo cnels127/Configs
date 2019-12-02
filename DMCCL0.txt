@@ -45,10 +45,14 @@ vlan 10.0.68.26-29
 aab607 location DMCCL00004
 
 ## throttle
+97c2eb uncork 1575317305 # 10.0.68.28 dmccl00003
+aab607 uncork 1575317305 # 10.0.68.29 dmccl00004
 
 ## fans
 
 ## reboots
+97c2eb reboot 1575317305 # 10.0.68.28 dmccl00003
+aab607 reboot 1575317305 # 10.0.68.29 dmccl00004
 
 ## resets
 
