@@ -75,10 +75,20 @@ c64ec9 location KAUYE0XTRA
 a25bea location KAUYE0XTRA
 
 ## throttle
+4f4ae6 uncork 1575319468 # 10.0.55.113 kauye00005
+ddae42 uncork 1575319468 # 10.0.55.97 kauye00002
+4d1860 uncork 1575319468 # 10.0.55.100 kauye00003
+9249ec uncork 1575319468 # 10.0.56.11 kauye00010
+4996aa uncork 1575319468 # 10.0.56.65 kauye00012
 
 ## fans
 
 ## reboots
+4f4ae6 reboot 1575319468 # 10.0.55.113 kauye00005
+ddae42 reboot 1575319468 # 10.0.55.97 kauye00002
+4d1860 reboot 1575319468 # 10.0.55.100 kauye00003
+9249ec reboot 1575319468 # 10.0.56.11 kauye00010
+4996aa reboot 1575319468 # 10.0.56.65 kauye00012
 
 ## resets
 ddae42 reset 1574928188
