@@ -90,10 +90,16 @@ a53423 location MKARO00024
 000122 location MKARO00025
 
 ## throttle
+7f2285 uncork 1575314289 # 10.0.66.135 mkaro00010
+a1a798 uncork 1575314289 # 10.0.67.1 mkaro00012
+9851d4 uncork 1575314289 # 10.0.67.27 mkaro00014
 
 ## fans
 
 ## reboots
+7f2285 reboot 1575314289 # 10.0.66.135 mkaro00010
+a1a798 reboot 1575314289 # 10.0.67.1 mkaro00012
+9851d4 reboot 1575314289 # 10.0.67.27 mkaro00014
 
 ## resets
 15319a reset 1574928775
