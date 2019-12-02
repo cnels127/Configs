@@ -35,7 +35,42 @@ global reboot 1574301169
 # global reset 1
 # global panelpass gj83Nkgikg
 
+
 #retune
+
+#retune machines 7:42 AM EST 12.2.19
+a57a15 retune 1575290470 # 1382/1450, 0 TH/s
+5ee953 retune 1575290470 # 1360/1450, 0 TH/s
+916893 retune 1575290470 # 1268/1350, 0 TH/s
+77a941 retune 1575290470 # 844/967, 9.1 TH/s
+fd0e9e retune 1575290470 # 1126/1200, 13.4 TH/s
+0beffe retune 1575290470 # 1374/1450, 16.3 TH/s
+e97d51 retune 1575290470 # 1338/1450, 0 TH/s
+817b9d retune 1575290470 # 1344/1450, 0 TH/s
+0296fb retune 1575290470 # 1384/1450, 0 TH/s
+3aaaa4 retune 1575290470 # 1358/1450, 14.7 TH/s
+5d10c8 retune 1575290470 # 1310/1450, 0 TH/s
+cd3f0b retune 1575290470 # 1384/1450, 16.1 TH/s
+8fe290 retune 1575290470 # 1198/1450, 0 TH/s
+291a0f retune 1575290470 # 1382/1450, 15.5 TH/s
+935b5a retune 1575290470 # 1348/1450, 11.3 TH/s
+952fb1 retune 1575290470 # 1380/1450, 0 TH/s
+1603af retune 1575290470 # 1370/1450, 0 TH/s
+be8567 retune 1575290470 # 1234/1300, 0 TH/s
+a82ce7 retune 1575290470 # 1284/1350, 14.6 TH/s
+daa5c3 retune 1575290470 # 1382/1450, 16 TH/s
+de91a0 retune 1575290470 # 1260/1350, 14.9 TH/s
+a976d3 retune 1575290470 # 1382/1450, 16 TH/s
+57591e retune 1575290470 # 1384/1450, 15.8 TH/s
+ef6de1 retune 1575290470 # 1378/1450, 0 TH/s
+389f09 retune 1575290470 # 1378/1450, 16.3 TH/s
+59da1a retune 1575290470 # 1380/1450, 0 TH/s
+f4d41f retune 1575290470 # 1179/1250, 0 TH/s
+e513cb retune 1575290470 # 1314/1450, 14.8 TH/s
+4b2265 retune 1575290470 # 1278/1450, 14.4 TH/s
+
+
+#machines retuned at ???
 d36be5 retune 1575157397 # 1323/1450, 15.9 TH/s
 84b738 retune 1575157397 # 1335/1450, 15 TH/s
 3c611a retune 1575157397 # 1341/1450, 15 TH/s
@@ -86,7 +121,7 @@ c84687 retune 1575157397 # 1295/1450, 14.5 TH/s
 5f24f6 retune 1575157397 # 1347/1450, 15.5 TH/s
 07fdfa retune 1575157397 # 1325/1450, 14.6 TH/s
 
-#retune machines 9:15 PM EST
+#machines retuned at 9:15 PM EST
 3e1dda retune 1575166478 # 1317/1450, 14.6 TH/s
 fd4339 retune 1575166478 # 1365/1450, 15 TH/s
 57bfcd retune 1575166478 # 1303/1450, 15.1 TH/s
@@ -192,6 +227,72 @@ e513cb retune 1575166478 # 1314/1450, 14.8 TH/s
 
 
 ## throttle
+# 7:40AM EST 12.2.19 
+6cd6ec maxwatts 1450
+6cd6ec uncork 1575290470
+319c01 maxwatts 1450
+319c01 uncork 1575290470
+ab9437 maxwatts 700
+ab9437 uncork 1575290470
+e490c1 maxwatts 1450
+e490c1 uncork 1575290470
+45bf53 maxwatts 1450
+45bf53 uncork 1575290470
+055faf maxwatts 1450
+055faf uncork 1575290470
+41b74f maxwatts 1000
+41b74f uncork 1575290470
+599d99 maxwatts 1450
+599d99 uncork 1575290470
+c47d1c maxwatts 1450
+c47d1c uncork 1575290470
+1f4c9e maxwatts 1350
+1f4c9e uncork 1575290470
+a04539 maxwatts 1400
+a04539 uncork 1575290470
+fd0e9e maxwatts 1400
+fd0e9e uncork 1575290470
+86b052 maxwatts 1300
+86b052 uncork 1575290470
+6eb2b2 maxwatts 1450
+6eb2b2 uncork 1575290470
+3f93ef maxwatts 1450
+3f93ef uncork 1575290470
+8cb7f6 maxwatts 1350
+8cb7f6 uncork 1575290470
+621b00 maxwatts 1350
+621b00 uncork 1575290470
+1c8b88 maxwatts 1450
+1c8b88 uncork 1575290470
+be8567 maxwatts 1450
+be8567 uncork 1575290470
+d7a370 maxwatts 1450
+d7a370 uncork 1575290470
+39e6c4 maxwatts 1350
+39e6c4 uncork 1575290470
+c7d26d maxwatts 1450
+c7d26d uncork 1575290470
+e96240 maxwatts 1450
+e96240 uncork 1575290470
+b486dc maxwatts 1450
+b486dc uncork 1575290470
+de91a0 maxwatts 1450
+de91a0 uncork 1575290470
+3ae6f5 maxwatts 1400
+3ae6f5 uncork 1575290470
+1de177 maxwatts 1450
+1de177 uncork 1575290470
+54cb78 maxwatts 1250
+54cb78 uncork 1575290470
+7d38fc maxwatts 1350
+7d38fc uncork 1575290470
+f4d41f maxwatts 1350
+f4d41f uncork 1575290470
+4b4f52 maxwatts 1100
+4b4f52 uncork 1575290470
+f4d41f maxwatts 1350
+f4d41f uncork 1575290470
+
 # 2:30PM EST 11.29.19 
 5d208b maxwatts 1300
 5d208b uncork 1575055747
