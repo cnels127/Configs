@@ -76,6 +76,8 @@ f3c9af location HFAUS00012
 
 
 ## fans
+9157ba fansaver no
+9157ba fanspeed 100
 
 ## reboots
 # s_reboot generated on Nov 25 2019 20:33:11 utc: 1574713991
@@ -104,6 +106,7 @@ f3c9af reboot 1573582768 # 10.0.64.104 hfaus00012
 fe7105 reboot 1573582768 # 10.0.65.112 hfaus00010
 
 ## resets
+9157ba reset 1575402912
 # After cleanout reset 12-3-19 JB
 d51a5c reset 1575394250 # 10.0.69.161 hfaus00011
 fe7105 reset 1575394050 # 10.0.65.112 hfaus00010
