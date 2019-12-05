@@ -42,6 +42,11 @@ global blinkgreen rapid
 
 ## resets
 
+## RFRAN1
+vlan 10.10.126.232-232
+4fde10 location rfrancos0001
+4fde10 maxwatts 1350
+
 ## JROBE1
 vlan 172.16.202.58-58
 vlan 172.16.202.59-59
