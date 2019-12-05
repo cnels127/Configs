@@ -190,6 +190,9 @@ bae0d7 location LMACK00096
 0c44ff location LMACK00099
 d3cdf7 location LMACK00100
 
+## tuning
+0c44ff retune 1575574955
+
 ## throttle
 
 ## fans
@@ -238,6 +241,8 @@ fdf9e1 reboot 1574714749 # 10.0.63.80 lmack00052
 f51c4d reboot 1574714749 # 10.0.64.161 lmack00091
 
 ## resets
+5d4be9 reset 1575574955
+8db22c reset 1575574955
 # resets after cleanout 12-5-2019 JB
 57fe8f reset 1575562864
 9cbbc0 reset 1575562864
