@@ -76,6 +76,10 @@ a83fdc location TGROT00012
 ## reboots
 
 ## resets
+f2dc4d reset 1575662745 # 10.0.63.84 tgrot00002
+48fe50 reset 1575662745 # 10.0.115.104 tgrot00005
+d664b7 reset 1575662745 # 10.0.115.106 tgrot00006
+
 48fe50 reset 1574977440
 dae245 reset 1574977440
 f2dc4d reset 1574977440
