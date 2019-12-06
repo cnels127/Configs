@@ -31,7 +31,7 @@ global blinkgreen rapid
 
 # global retune 2
 # global reboot 1573498204
-global uncork 1574921606
+global uncork 1575654696
 # global reset 1574284478
 # global panelpass gj83Nkgikg
 
@@ -45,6 +45,8 @@ fae301 username3 1BcvWti9xXcgPooyDsy4SesR98g1HvBkYo
 44ba88 username1 1BcvWti9xXcgPooyDsy4SesR98g1HvBkYo
 44ba88 username2 1BcvWti9xXcgPooyDsy4SesR98g1HvBkYo
 44ba88 username3 1BcvWti9xXcgPooyDsy4SesR98g1HvBkYo
+# extra machines added 12/6/19 (11 Th needed)
+60ea91 location HKATZ0XTRA # 10.0.54.31
 
 ## 3 s9 on 14g9byTqAYT8UgrTWdkbZcEaRDC9r6CpsE
 vlan 10.0.66.30-30
@@ -53,6 +55,8 @@ vlan 10.0.67.40-40
 7f79ef location HKATZ00003
 15e78d location HKATZ00004
 ceac8d location HKATZ00005
+# extra machines added 12/6/19 (13.9 Th needed)
+4b6238 location HKATZ0XTRA # 10.0.54.34
 
 ## throttle
 
