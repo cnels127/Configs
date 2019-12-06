@@ -46,6 +46,8 @@ vlan 10.0.65.146-146
 f60318 location SINAG00002
 db9779 location SINAG00003
 d3a31d location SINAG00004
+# extra machine added 12/6/19
+9a8142 location SINAG0XTRA # 10.0.54.29
 
 ## throttle
 db9779 uncork 1575318040 # 10.0.65.130 sinag00003
