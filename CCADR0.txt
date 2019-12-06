@@ -44,6 +44,9 @@ vlan 10.0.66.116-116
 549631 location CCADR00001
 1c6e2b location CCADR00002
 551f73 location CCADR00003
+# extra machine added 12/6/19
+3c6a08 location CCADR0XTRA # 10.0.64.155
+2385b5 location CCADR0XTRA # 10.0.67.61
 
 ## throttle
 1c6e2b uncork 1574717407 # 10.0.64.153 ccadr00002
