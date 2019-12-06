@@ -43,6 +43,8 @@ vlan 10.0.68.26-29
 6a1571 location DMCCL00002
 97c2eb location DMCCL00003
 aab607 location DMCCL00004
+# extra machine added 12/6/19
+97c2eb location DMCCL0XTRA # 10.0.54.24
 
 ## throttle
 97c2eb uncork 1575317305 # 10.0.68.28 dmccl00003
