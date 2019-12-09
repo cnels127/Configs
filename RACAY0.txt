@@ -38,27 +38,34 @@ global blinkgreen rapid
 # global panelpass gj83Nkgikg
 
 ## vlans
-vlan 10.0.54.151-153
-vlan 10.0.55.94-94
-vlan 10.0.55.105-106
-vlan 10.0.55.115-115
-vlan 10.0.55.126-126
-vlan 10.0.55.144-144
-vlan 10.0.55.146-146
-vlan 10.0.56.17-17
-vlan 10.0.56.34-34
-vlan 10.0.56.36-36
-vlan 10.0.56.42-42
-vlan 10.0.56.100-100
-vlan 10.0.59.16-16
-vlan 10.0.60.38-38
-vlan 10.0.60.53-53
-vlan 10.0.60.86-86
-vlan 10.0.60.115-115
-vlan 10.0.60.127-127
-vlan 10.0.77.68-68
-vlan 10.0.77.76-76
-vlan 10.0.77.141-141
+# vlan 10.0.54.151-153
+# vlan 10.0.55.94-94
+# vlan 10.0.55.105-106
+# vlan 10.0.55.115-115
+# vlan 10.0.55.126-126
+# vlan 10.0.55.144-144
+# vlan 10.0.55.146-146
+# vlan 10.0.56.17-17
+# vlan 10.0.56.34-34
+# vlan 10.0.56.36-36
+# vlan 10.0.56.42-42
+# vlan 10.0.56.100-100
+# vlan 10.0.59.16-16
+# vlan 10.0.60.38-38
+# vlan 10.0.60.53-53
+# vlan 10.0.60.86-86
+# vlan 10.0.60.115-115
+# vlan 10.0.60.127-127
+# vlan 10.0.77.68-68
+# vlan 10.0.77.76-76
+# vlan 10.0.77.141-141
+# extra machines added 12/9/19
+vlan 10.0.117.157-157
+vlan 10.0.117.161-161
+vlan 10.0.118.15-15
+vlan 10.0.118.64-64
+vlan 10.0.118.67-67
+vlan 10.0.118.71-71
 
 ## locations
 c55a62 location RACAY00001
@@ -85,6 +92,13 @@ d6136a location RACAY00014
 f729dc location RACAY00022
 9938b8 location RACAY00023
 70247c location RACAY00024
+# extra machines added 12/9/19
+93e5b2 location RACAY0XTRA # 10.0.117.157
+0b0bff location RACAY0XTRA # 10.0.117.161
+2ff049 location RACAY0XTRA # 10.0.118.15
+69dd49 location RACAY0XTRA # 10.0.118.64
+244ed6 location RACAY0XTRA # 10.0.118.67
+c1a324 location RACAY0XTRA # 10.0.118.71
 
 ## throttle
 
