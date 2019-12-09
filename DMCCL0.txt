@@ -44,7 +44,7 @@ vlan 10.0.68.26-29
 97c2eb location DMCCL00003
 aab607 location DMCCL00004
 # extra machine added 12/6/19
-4055c4 location DMCCL0XTRA # 10.0.54.24
+f0f51a location DMCCL0XTRA # 10.0.116.23
 
 ## throttle
 97c2eb uncork 1575317305 # 10.0.68.28 dmccl00003
@@ -57,6 +57,9 @@ aab607 uncork 1575317305 # 10.0.68.29 dmccl00004
 aab607 reboot 1575317305 # 10.0.68.29 dmccl00004
 
 ## resets
+
+# s_remove generated on Dec 09 2019 20:01:04 utc: 1575921664
+global remove 4055c4
 
 ## asic password
 asicpass admin
