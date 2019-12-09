@@ -36,7 +36,20 @@ global reset 1574963530
 # global panelpass gj83Nkgikg
 
 ## vlans
-vlan 10.0.53.110-139
+# vlan 10.0.53.110-139
+# extra machines added 12/9/19
+vlan 10.0.116.32-32
+vlan 10.0.116.47-47
+vlan 10.0.116.60-60
+vlan 10.0.116.72-72
+vlan 10.0.116.74-74
+vlan 10.0.116.81-81
+vlan 10.0.116.82-82
+vlan 10.0.116.86-86
+vlan 10.0.116.90-90
+vlan 10.0.116.92-92
+vlan 10.0.116.95-95
+
 
 ## locations
 78202a location RHUSK00001
@@ -69,6 +82,18 @@ ba0308 location RHUSK00027
 534814 location RHUSK00028
 f46832 location RHUSK00029
 2fb4f0 location RHUSK00030
+# extra machines added 12/9/19
+d13f5e location RHUSK0XTRA # 10.0.116.32
+e89cef location RHUSK0XTRA # 10.0.116.47
+9ed844 location RHUSK0XTRA # 10.0.116.60
+72f74e location RHUSK0XTRA # 10.0.116.72
+1a4212 location RHUSK0XTRA # 10.0.116.74
+86ed06 location RHUSK0XTRA # 10.0.116.81
+937fb9 location RHUSK0XTRA # 10.0.116.82
+440f84 location RHUSK0XTRA # 10.0.116.86
+8d46c5 location RHUSK0XTRA # 10.0.116.90
+3a5486 location RHUSK0XTRA # 10.0.116.92
+77730e location RHUSK0XTRA # 10.0.116.95
 
 ## throttle
 e6077e reset 1575656210
