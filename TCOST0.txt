@@ -41,7 +41,7 @@ vlan 10.0.65.147-147
 ## locations
 faba2f location TCOST00001
 # extra machine added 
-10992f location TCOSTXTRA # 10.0.63.75
+10992f location TCOST0XTRA # 10.0.63.75
 
 ## throttle
 faba2f uncork 1574719075 # 10.0.65.147 tcost00001
