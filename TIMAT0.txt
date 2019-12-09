@@ -41,7 +41,14 @@ global uncork 1574719687
 # global panelpass gj83Nkgikg
 
 ## vlans
-vlan 10.0.68.69-91
+# vlan 10.0.68.69-91
+# extra machines added 12/9/19
+vlan 10.0.118.115-115
+vlan 10.0.118.127-127
+vlan 10.0.118.156-156
+vlan 10.0.119.23-23
+vlan 10.0.119.49-49
+vlan 10.0.119.53-53
 
 ## locations
 151ac6 location TIMAT00001
@@ -67,6 +74,13 @@ f74d6d location TIMAT00020
 f2296d location TIMAT00021
 12dafb location TIMAT00022
 81a6b6 location TIMAT00023
+# extra machines added 12/9/19
+937ce5 location TIMAT0XTRA # 10.0.118.115
+27a545 location TIMAT0XTRA # 10.0.118.127
+9dd370 location TIMAT0XTRA # 10.0.118.156
+c16639 location TIMAT0XTRA # 10.0.119.23
+7d8a4c location TIMAT0XTRA # 10.0.119.49
+7bb0bc location TIMAT0XTRA # 10.0.119.53
 
 ## throttle
 
