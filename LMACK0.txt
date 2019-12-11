@@ -24,7 +24,7 @@ global autoupdate yes
 global allowed yes
 global maxtemp 90 1
 global throttle 50
-global fanspeed 80
+global fanspeed 85
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
@@ -194,6 +194,22 @@ d3cdf7 location LMACK00100
 0c44ff retune 1575574955
 
 ## throttle
+# s_uncork generated on Dec 11 2019 23:33:26 utc: 1576107206
+baa645 uncork 1576107206 # 10.0.54.77 lmack00002
+28679c uncork 1576107206 # 10.0.54.87 lmack00012
+b3fa40 uncork 1576107206 # 10.0.54.91 lmack00016
+7b29e7 uncork 1576107206 # 10.0.54.94 lmack00019
+194a3d uncork 1576107206 # 10.0.54.101 lmack00026
+5eb8bd uncork 1576107206 # 10.0.54.108 lmack00033
+b8a2e8 uncork 1576107206 # 10.0.54.116 lmack00041
+f8f4e5 uncork 1576107206 # 10.0.63.136 lmack00060
+b362c2 uncork 1576107206 # 10.0.63.155 lmack00065
+01f0ee uncork 1576107206 # 10.0.64.6 lmack00068
+5d4be9 uncork 1576107206 # 10.0.64.20 lmack00072
+8db22c uncork 1576107206 # 10.0.64.35 lmack00075
+f51c4d uncork 1576107206 # 10.0.64.161 lmack00091
+d8ce86 uncork 1576107206 # 10.0.65.10 lmack00093
+0c44ff uncork 1576107206 # 10.0.65.46 lmack00099
 
 ## fans
 
