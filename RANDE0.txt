@@ -26,7 +26,7 @@ global autoupdate yes
 global allowed yes
 global maxtemp 90 1
 global throttle 50
-global fanspeed 80
+global fanspeed 85
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
@@ -64,6 +64,10 @@ a016c1 location RANDE00008
 99187c location RANDE0XTRA # 10.0.54.28
 
 ## throttle
+# s_uncork generated on Dec 11 2019 23:42:41 utc: 1576107761
+99187c uncork 1576107761 # 10.0.54.28 rande0xtra
+679e5d uncork 1576107761 # 10.0.57.142 rande00005
+55019f uncork 1576107761 # 10.0.58.26 rande00009
 
 ## fans
 
