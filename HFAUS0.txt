@@ -26,7 +26,7 @@ global autoupdate yes
 global allowed yes
 global maxtemp 90 1
 global throttle 50
-global fanspeed 80
+global fanspeed 85
 global fansaver yes
 global blinkgreen rapid
 
@@ -73,7 +73,14 @@ f3c9af location HFAUS00012
 11d430 location HFAUS00013
 
 ## throttle
-
+# s_uncork generated on Dec 11 2019 23:28:47 utc: 1576106927
+a7fca0 uncork 1576106927 # 10.0.62.37 hfaus00001
+335e38 uncork 1576106927 # 10.0.62.81 hfaus00002
+f3bb3d uncork 1576106927 # 10.0.65.124 hfaus00006
+9157ba uncork 1576106927 # 10.0.63.34 hfaus00009
+fe7105 uncork 1576106927 # 10.0.65.112 hfaus00010
+d51a5c uncork 1576106927 # 10.0.59.161 hfaus00011
+f3c9af uncork 1576106927 # 10.0.64.104 hfaus00012
 
 ## fans
 9157ba fansaver no
