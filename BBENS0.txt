@@ -43,9 +43,6 @@ vlan 10.0.68.40-41
 ## locations
 815d57 location BBENS00001
 f69de1 location BBENS00002
-# extra machines added 12/11/19
-b126f7 location BBENS0XTRA # 10.0.115.59
-eba0c1 location BBENS0XTRA # 10.0.115.124
 
 ## throttle
 
@@ -55,6 +52,9 @@ eba0c1 location BBENS0XTRA # 10.0.115.124
 f69de1 reboot 1574280045
 
 ## reset
+
+# s_remove generated on Dec 11 2019 21:17:27 utc: 1576099047
+global remove eba0c1,815d57,f69de1,b126f7
 
 ## asic password
 asicpass admin
