@@ -24,7 +24,7 @@ global autoupdate yes
 global allowed yes
 global maxtemp 90 1
 global throttle 50
-global fanspeed 80
+global fanspeed 85
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
@@ -70,6 +70,13 @@ cc96e4 location SCOST00010
 a4164a location SCOST0XTRA
 
 ## throttle
+# s_uncork generated on Dec 11 2019 23:32:16 utc: 1576107136
+753f7e uncork 1576107136 # 10.0.53.159 scost0xtra
+a4164a uncork 1576107136 # 10.0.53.160 scost0xtra
+35f34a uncork 1576107136 # 10.0.53.158 scost0xtra
+cee4db uncork 1576107136 # 10.0.115.32 scost00001
+4363d5 uncork 1576107136 # 10.0.67.20 scost00008
+133b75 uncork 1576107136 # 10.0.67.153 scost00009
 
 ## fans
 
