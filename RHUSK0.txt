@@ -4,16 +4,16 @@
 global custompanel RHUSK0bit049
 global customer bit49-Russia
 
-global poolname1 35.177.197.177:3333 # (stratum.antpool.com:3333)
-global username1 Bakken
+global poolname1 47.91.65.135:1800 # (eu.ss.btc.com:1800)
+global username1 30s9sEU
 global poolpass1 123
 global sendworker1 yes
-global poolname2 35.177.197.177:443 # (stratum.antpool.com:443)
+global poolname2 35.177.197.177:3333 # (stratum.antpool.com:3333)
 global username2 Bakken
 global poolpass2 123
 global sendworker2 yes
-global poolname3 203.107.46.175:1800 # (cn.ss.btc.com:1800)
-global username3 30S9s
+global poolname3 47.91.65.91:3333 # (connect.pool.bitcoin.com:3333)
+global username3 Grandmaspb
 global poolpass3 123
 global sendworker3 yes
 
@@ -24,7 +24,7 @@ global autoupdate yes
 global allowed yes
 global maxtemp 90 1
 global throttle 50
-global fanspeed 80
+global fanspeed 85
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
