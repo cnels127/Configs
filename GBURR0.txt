@@ -24,7 +24,7 @@ global autoupdate yes
 global allowed yes
 global maxtemp 90
 global throttle 50
-global fanspeed 80
+global fanspeed 85
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
@@ -52,6 +52,8 @@ fb355a location GBURR00005
 599752 location GBURR0XTRA # 10.0.117.9
 
 ## throttle
+2d11cf uncork 1576162737
+b69144 uncork 1576162737
 
 ## fans
 
