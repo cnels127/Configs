@@ -42,6 +42,8 @@ vlan 10.0.115.17-17
 vlan 10.0.115.94-94
 vlan 10.0.116.48-48
 vlan 10.0.119.45-45
+# extra machine added 12/12/19
+vlan 10.0.77.7-7
 
 ## locations
 6db0b2 location AISOB00001
@@ -50,6 +52,8 @@ e03581 location AISOB00002
 ef873d location AISOB00004
 7f4b2c location AISOB00005
 138188 location AISOB00006
+# extra machine added 12/12/19
+62c02a location AISOB0XTRA # 10.0.77.7
 
 ## throttle
 48080d uncork 1574890668
