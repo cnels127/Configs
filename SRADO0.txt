@@ -24,7 +24,7 @@ global autoupdate yes
 global allowed yes
 global maxtemp 90 1
 global throttle 50
-global fanspeed 80
+global fanspeed 85
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
@@ -118,6 +118,17 @@ ca6c85 location SRADO00038
 fb2a81 location SRADO00042
 
 ## throttle
+fc9425 uncork 1576164374
+0f50f9 uncork 1576164374
+31d8e9 uncork 1576164374
+bd2001 uncork 1576164374
+a23fe5 uncork 1576164374
+89611d uncork 1576164374
+acd279 uncork 1576164374
+1319ac uncork 1576164374
+9e09fc uncork 1576164374
+fb2a81 uncork 1576164374
+
 ca6c85 uncork 1575388036
 354bd0 uncork 1575388036
 ee5d70 uncork 1575388036
