@@ -24,14 +24,14 @@ global autoupdate yes
 global allowed yes
 global maxtemp 90 1
 global throttle 50
-global fanspeed 80
+global fanspeed 85
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
 # global reboot 2
-global uncork 1574923605
+# global uncork 1574923605
 # global reset 1573937986
 # global panelpass gj83Nkgikg
 
@@ -46,6 +46,8 @@ fae9ca location JITUR00002
 262c0d location JITUR00003
 # extra machine added 12/9/19
 9d7456 location JITUR0XTRA # 10.0.51.125
+# extra machine added 12/12/19
+ed783e location JITUR0XTRA # 10.0.77.148
 
 ## throttle
 
