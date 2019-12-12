@@ -36,8 +36,10 @@ global uncork 1574904247
 # global panelpass gj83Nkgikg
 
 ## vlans
-vlan 10.0.54.148-150
-vlan 10.0.56.127-129
+# vlan 10.0.54.148-150
+# vlan 10.0.56.127-129
+# extra machines added 12/12/19
+vlan 10.0.118.26-26
 
 ## locations
 cf1a34 location KDAVI00001
@@ -46,6 +48,8 @@ cf1a34 location KDAVI00001
 6f3c8b location KDAVI00004
 0819f9 location KDAVI00005
 8ef4ad location KDAVI00006
+# extra machines added 12/12/19
+7ba11d location KDAVI0XTRA # 10.0.118.26
 
 ## throttle
 
