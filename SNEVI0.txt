@@ -36,7 +36,9 @@ global blinkgreen rapid
 # global panelpass gj83Nkgikg
 
 ## vlans
-vlan 10.0.68.64-68
+# vlan 10.0.68.64-68
+# extra machine added 12/12/19
+vlan 10.0.121.47-47
 
 ## location
 42ac6f location SNEVI00001
@@ -44,6 +46,8 @@ vlan 10.0.68.64-68
 b7e4cf location SNEVI00003
 3ac65a location SNEVI00004
 d2fc8a location SNEVI00005
+# extra machine added 12/12/19
+26e08b location SNEVI0XTRA # 10.0.121.47
 
 ## throttle
 633e5b uncork 1574719769 # 10.0.68.65 snevi00002
