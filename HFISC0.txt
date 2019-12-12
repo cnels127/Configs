@@ -38,53 +38,66 @@ global uncork 1574921528
 # global panelpass gj83Nkgikg
 
 ## vlans
-vlan 10.0.68.54-63
-vlan 10.0.56.131-131
-vlan 10.0.56.134-135
-vlan 10.0.56.138-143
-vlan 10.0.56.145-145
-vlan 10.0.59.151-151
-vlan 10.0.60.33-33
-vlan 10.0.60.47-47
-vlan 10.0.60.59-59
-vlan 10.0.60.69-69
-vlan 10.0.60.71-71
-vlan 10.0.60.119-119
-vlan 10.0.60.158-158
-vlan 10.0.61.4-4
-vlan 10.0.61.14-14
-vlan 10.0.58.1-1
-vlan 10.0.58.4-4
-vlan 10.0.58.10-10
-vlan 10.0.58.14-14
-vlan 10.0.58.21-21
-vlan 10.0.58.22-22
-vlan 10.0.61.16-16
-vlan 10.0.62.64-64
-vlan 10.0.62.118-118
-vlan 10.0.63.17-17
-vlan 10.0.65.1-1
-vlan 10.0.65.2-2
-vlan 10.0.65.4-4
-vlan 10.0.65.13-13
-vlan 10.0.65.14-14
-vlan 10.0.65.16-16
-vlan 10.0.65.18-18
-vlan 10.0.77.27-27
-vlan 10.0.77.95-95
-vlan 10.0.115.30-30
-vlan 10.0.60.83-83
-vlan 10.0.61.44-44
-vlan 10.0.117.10-10
-vlan 10.0.117.15-15
-vlan 10.0.118.28-28
-vlan 10.0.118.54-54
-vlan 10.0.119.125-125
-vlan 10.0.121.68-68
-vlan 10.0.64.3-3
-vlan 10.0.64.107-107
-vlan 10.0.51.65-65
-vlan 10.0.51.61-61
+# vlan 10.0.68.54-63
+# vlan 10.0.56.131-131
+# vlan 10.0.56.134-135
+# vlan 10.0.56.138-143
+# vlan 10.0.56.145-145
+# vlan 10.0.59.151-151
+# vlan 10.0.60.33-33
+# vlan 10.0.60.47-47
+# vlan 10.0.60.59-59
+# vlan 10.0.60.69-69
+# vlan 10.0.60.71-71
+# vlan 10.0.60.119-119
+# vlan 10.0.60.158-158
+# vlan 10.0.61.4-4
+# vlan 10.0.61.14-14
+# vlan 10.0.58.1-1
+# vlan 10.0.58.4-4
+# vlan 10.0.58.10-10
+# vlan 10.0.58.14-14
+# vlan 10.0.58.21-21
+# vlan 10.0.58.22-22
+# vlan 10.0.61.16-16
+# vlan 10.0.62.64-64
+# vlan 10.0.62.118-118
+# vlan 10.0.63.17-17
+# vlan 10.0.65.1-1
+# vlan 10.0.65.2-2
+# vlan 10.0.65.4-4
+# vlan 10.0.65.13-13
+# vlan 10.0.65.14-14
+# vlan 10.0.65.16-16
+# vlan 10.0.65.18-18
+# vlan 10.0.77.27-27
+# vlan 10.0.77.95-95
+# vlan 10.0.115.30-30
+# vlan 10.0.60.83-83
+# vlan 10.0.61.44-44
+# vlan 10.0.117.10-10
+# vlan 10.0.117.15-15
+# vlan 10.0.118.28-28
+# vlan 10.0.118.54-54
+# vlan 10.0.119.125-125
+# vlan 10.0.121.68-68
+# vlan 10.0.64.3-3
+# vlan 10.0.64.107-107
+# vlan 10.0.51.65-65
+# vlan 10.0.51.61-61
+# extra machines added 12/12/19
+vlan 10.0.51.74-74
+vlan 10.0.120.80-80
+vlan 10.0.54.39-39
+vlan 10.0.62.67-67
+vlan 10.0.62.71-71
+vlan 10.0.62.160-160
+vlan 10.0.77.129-129
+vlan 10.0.62.42-42
+vlan 10.0.115.81-81
+vlan 10.0.121.139-139
+vlan 10.0.51.129-129
+
 
 ## locations
 994f1c location HFISC00001
@@ -146,9 +159,21 @@ f2b75b location HFISC00056
 77f6c4 location HFISC00057
 9373bb location HFISC00058
 4c84d0 location HFISC00059
-26c95e location HFISC00059
-227281 location HFISC00060
 000122 location HFISC00060
+26c95e location HFISC0XTRA
+227281 location HFISC0XTRA
+# extra machines added 12/12/19
+7c3b2a location HFISC0XTRA # 10.0.51.74
+e9c1a4 location HFISC0XTRA # 10.0.120.80
+02c22d location HFISC0XTRA # 10.0.54.39
+12a96e location HFISC0XTRA # 10.0.62.67
+6b2885 location HFISC0XTRA # 10.0.62.71
+f60107 location HFISC0XTRA # 10.0.62.160
+58d6e6 location HFISC0XTRA # 10.0.77.129
+6d6f15 location HFISC0XTRA # 10.0.62.42
+084f48 location HFISC0XTRA # 10.0.115.81
+3fd204 location HFISC0XTRA # 10.0.121.139
+a8ee8a location HFISC0XTRA # 10.0.51.129
 
 ## fans
 
