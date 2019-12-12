@@ -32,17 +32,21 @@ global blinkgreen rapid
 # global retune 1
 # global reboot 1
 # global uncork 1
-global reset 1574963681
+# global reset 1574963681
 # global panelpass gj83Nkgikg
 
 ## vlans
-vlan 10.0.68.30-33
+# vlan 10.0.68.30-33
+# extra machine added 12/12/19
+vlan 10.0.62.49-49
 
 ## locations
 12c5ea location RPOUL00001
 2e86e9 location RPOUL00002
 256c44 location RPOUL00003
 ba1c4a location RPOUL00004
+# extra machine added 12/12/19
+b66a48 location RPOUL0XTRA # 10.0.62.49
 
 ## throttle
 
