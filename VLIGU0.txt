@@ -24,7 +24,7 @@ global autoupdate yes
 global allowed yes
 global maxtemp 90 1
 global throttle 100
-global fanspeed 80
+global fanspeed 85
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
@@ -163,6 +163,30 @@ a2affe location VLIGU0XTRA # 10.0.116.24
 bd2d70 location VLIGU0XTRA # 10.0.116.31
 
 ## throttle
+02d712 uncork 1576164900
+bd2d70 uncork 1576164900
+a2affe uncork 1576164900
+392b95 uncork 1576164900
+43f6d9 uncork 1576164900
+a1b050 uncork 1576164900
+7b1d13 uncork 1576164900
+a4acde uncork 1576164900
+db4dc1 uncork 1576164900
+27300f uncork 1576164900
+1be66b uncork 1576164900
+aaf208 uncork 1576164900
+e4561d uncork 1576164900
+4319ad uncork 1576164900
+ab7297 uncork 1576164900
+f41f50 uncork 1576164900
+d756d3 uncork 1576164900
+a6cb63 uncork 1576164900
+c05b10 uncork 1576164900
+093dac uncork 1576164900
+ac0a46 uncork 1576164900
+a8f303 uncork 1576164900
+430b5d uncork 1576164900
+
 588b28 uncork 1575736419
 43f6d9 uncork 1575736419
 a1b050 uncork 1575736419
