@@ -24,7 +24,7 @@ global autoupdate yes
 global allowed yes
 global maxtemp 90 1
 global throttle 50
-global fanspeed 80
+global fanspeed 85
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
@@ -40,12 +40,16 @@ vlan 10.0.63.74-74
 vlan 10.0.65.78-78
 vlan 10.0.65.129-129
 vlan 10.0.67.93-93
+# extra machine added 12/12/19
+vlan 10.0.62.75-75
 
 ## locations
 55fb45 location HDUON00001
 5a1fc0 location HDUON00002
 e18d51 location HDUON00003
 2e2f55 location HDUON00004
+# extra machine added 12/12/19
+31940f location HDUON0XTRA # 10.0.62.75
 
 ## tuning
 
