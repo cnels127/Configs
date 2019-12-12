@@ -32,9 +32,7 @@ global blinkred idle
 global blinkgreen rapid
 
 # global retune 1
-# global reboot 1
-global reboot 1574799411
-
+# global reboot 1574799411
 # global uncork 1
 # global reset 1
 # global panelpass gj83Nkgikg
@@ -71,6 +69,8 @@ a83fdc location TGROT00012
 # extra machines added 12/6/19
 45099f location TGROT0XTRA # 10.0.54.19
 24884e location TGROT0XTRA # 10.0.119.8
+# extra machine added 12/12/19
+313029 location TGROT0XTRA # 10.0.120.8
 
 ## throttle
 
