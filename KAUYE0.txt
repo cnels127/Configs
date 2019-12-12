@@ -24,7 +24,7 @@ global autoupdate yes
 global allowed yes
 global maxtemp 90 1
 global throttle 50
-global fanspeed 80
+global fanspeed 85
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
@@ -32,7 +32,7 @@ global blinkgreen rapid
 # global retune 1
 # global reboot 1
 global uncork 1574925476
-# global reset 1573924095
+# global reset 1576176168
 # global panelpass gj83Nkgikg
 
 ## vlans
@@ -84,19 +84,10 @@ ddae42 uncork 1575319468 # 10.0.55.97 kauye00002
 ## fans
 
 ## reboots
-4f4ae6 reboot 1575319468 # 10.0.55.113 kauye00005
-ddae42 reboot 1575319468 # 10.0.55.97 kauye00002
-4d1860 reboot 1575319468 # 10.0.55.100 kauye00003
-9249ec reboot 1575319468 # 10.0.56.11 kauye00010
-4996aa reboot 1575319468 # 10.0.56.65 kauye00012
+
 
 ## resets
-4f4ae6 reset 1576033076
-ddae42 reset 1574928188
-7e18e7 reset 1574928188
-184c88 reset 1574928188
-9249ec reset 1573177516
-4d1860 reset 1573177516
+
 
 ## asic password
 asicpass admin
