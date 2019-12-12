@@ -24,13 +24,14 @@ global autoupdate yes
 global allowed yes
 global maxtemp 90 1
 global throttle 50
-global fanspeed 80
+global fanspeed 85
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 
 # global retune 
 # global reboot # 1
+global uncork 1576119740
 # global reset 1
 # global panelpass gj83Nkgikg
 
@@ -92,25 +93,3 @@ f5839e reset 1575670470 # 10.0.55.86 ddunn00007
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
