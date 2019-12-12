@@ -26,7 +26,7 @@ global autoupdate yes
 global allowed yes
 global maxtemp 90 1
 global throttle 50
-global fanspeed 80
+global fanspeed 85
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
@@ -68,6 +68,11 @@ e3af8a location LALBE00006
 a02b78 location LALBE0XTRA
 
 ## throttle
+59a9ba uncork 1576163398
+a02b78 uncork 1576163398
+6eb9e6 uncork 1576163398
+4363c7 uncork 1576163398
+
 a9cee7 reset 1575045116
 979f86 reset 1575045116
 6eb9e6 uncork 1575044434
