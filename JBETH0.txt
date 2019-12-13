@@ -51,8 +51,6 @@ vlan 10.0.60.143-143
 # extra machines added 11/22/19
 vlan 10.0.54.10-10
 vlan 10.0.54.11-11
-# extra machines added 11/23/19
-vlan 10.0.54.13-13
 
 ## locations
 2462cd location JBETH00001
@@ -78,7 +76,6 @@ f0ed76 location JBETH00019
 # extra machines
 9b0135 location JBETH0XTRA
 2ffd90 location JBETH0XTRA
-b004dc location JBETH0XTRA
 
 ## throttle
 
