@@ -36,10 +36,14 @@ global uncork 1574924983
 # global panelpass gj83Nkgikg
 
 ## vlans
-vlan 10.0.116.30-30
+# vlan 10.0.116.30-30
+# extra machine added 12/13/19
+vlan 10.0.115.1-1
 
 ## locations
 ab17e5 location JPOWE00001
+# extra machine added 12/13/19
+4f7d59 location JPOWE0XTRA # 10.0.115.1
 
 ## throttle
 
