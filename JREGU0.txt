@@ -36,12 +36,14 @@ global blinkgreen rapid
 # global panelpass gj83Nkgikg
 
 ## vlans
-vlan 10.0.115.60-60
+# vlan 10.0.115.60-60
+# extra machine added 12/13/19
+vlan 10.0.62.78-78
 
 ## locations
 cc5e00 location JREGU00001
-# extra machine added 12/9/19
-568737 location JREGU0XTRA # 10.0.118.55
+# extra machine added 12/13/19
+9c3c4b location JREGU0XTRA # 10.0.62.78
 
 ## throttle
 
