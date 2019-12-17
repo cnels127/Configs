@@ -46,8 +46,8 @@ fae9ca location JITUR00002
 262c0d location JITUR00003
 # extra machine added 12/9/19
 9d7456 location JITUR0XTRA # 10.0.51.125
-# extra machine added 12/12/19
-ed783e location JITUR0XTRA # 10.0.77.148
+# extra machine added 12/17/19
+18eee0 location JITUR0XTRA # 10.0.66.103
 
 ## throttle
 
@@ -57,6 +57,9 @@ ed783e location JITUR0XTRA # 10.0.77.148
 
 ## resets
 9d7456 reset 1575927348
+
+# s_remove generated on Dec 17 2019 21:51:14 utc: 1576619474
+global remove ed783e
 
 ## asic password
 asicpass admin
