@@ -30,12 +30,13 @@ global fanspeed 80
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
+global panelclear 999
+# global panelpass gj83Nkgikg
 
 # global retune 2
 # global reboot 1573745849
 global uncork 1576121390
 # global reset 1573742480
-# global panelpass gj83Nkgikg
 
 ## vlans
 vlan 10.0.68.48-52
