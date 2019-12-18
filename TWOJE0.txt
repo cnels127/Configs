@@ -19,21 +19,22 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1500
+global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
 global throttle 50
-global fanspeed 80
+global fanspeed 85
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
+global panelclear 999
+# global panelpass gj83Nkgikg
 
 # global retune 1
 # global reboot 1
 # global uncork 1
 # global reset 1
-# global panelpass gj83Nkgikg
 
 ## vlans
 vlan 10.0.55.127-127
@@ -44,6 +45,8 @@ vlan 10.0.56.98-98
 af01c7 location TWOJE00001
 b86fb1 location TWOJE00002
 b0ec6c location TWOJE00003
+# extra machine added 12/17/19
+2be5f5 location TWOJE0XTRA # 10.0.119.70
 
 ## throttle
 b0ec6c uncork 1574907206
