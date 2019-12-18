@@ -51,28 +51,34 @@ e1c353 reboot 1575316781 # 10.0.59.60 gsamp00024
 d223ec reboot 1575316781 # 10.0.67.79 gsamp00030
 
 ## vlans
-vlan 10.0.56.40-41
-vlan 10.0.56.47-47
-vlan 10.0.56.50-50
-vlan 10.0.56.56-56
-vlan 10.0.56.67-67
-vlan 10.0.56.75-75
-vlan 10.0.56.77-78
-vlan 10.0.58.70-70
-vlan 10.0.59.36-37
-vlan 10.0.59.39-39
-vlan 10.0.59.41-41
-vlan 10.0.59.43-46
-vlan 10.0.59.48-50
-vlan 10.0.59.52-52
-vlan 10.0.59.54-54
-vlan 10.0.59.60-60
-vlan 10.0.59.66-66
-vlan 10.0.59.73-73
-vlan 10.0.59.80-80
-vlan 10.0.59.90-90
-vlan 10.0.61.6-6
-vlan 10.0.67.79-79
+# vlan 10.0.56.40-41
+# vlan 10.0.56.47-47
+# vlan 10.0.56.50-50
+# vlan 10.0.56.56-56
+# vlan 10.0.56.67-67
+# vlan 10.0.56.75-75
+# vlan 10.0.56.77-78
+# vlan 10.0.58.70-70
+# vlan 10.0.59.36-37
+# vlan 10.0.59.39-39
+# vlan 10.0.59.41-41
+# vlan 10.0.59.43-46
+# vlan 10.0.59.48-50
+# vlan 10.0.59.52-52
+# vlan 10.0.59.54-54
+# vlan 10.0.59.60-60
+# vlan 10.0.59.66-66
+# vlan 10.0.59.73-73
+# vlan 10.0.59.80-80
+# vlan 10.0.59.90-90
+# vlan 10.0.61.6-6
+# vlan 10.0.67.79-79
+vlan 10.0.117.66-66
+vlan 10.0.118.85-85
+vlan 10.0.118.80-80
+vlan 10.0.121.134-134
+vlan 10.0.117.114-114
+vlan 10.0.121.90-90
 
 ## locations
 c5496d location GSAMP00001
@@ -105,6 +111,13 @@ f24571 location GSAMP00026
 0c9f37 location GSAMP00028
 27a7bc location GSAMP00029
 d223ec location GSAMP00030
+# extra machines added 12/18/19
+7923ac location GSAMP0XTRA # 10.0.117.66
+266066 location GSAMP0XTRA # 10.0.118.85
+5feaaf location GSAMP0XTRA # 10.0.118.80
+74e424 location GSAMP0XTRA # 10.0.121.134
+2638fe location GSAMP0XTRA # 10.0.117.114
+f86022 location GSAMP0XTRA # 10.0.121.90
 
 ## throttle
 3900a7 uncork 1575656011 # 10.0.59.36 gsamp00011
