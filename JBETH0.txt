@@ -38,6 +38,9 @@ global panelclear 999
 global uncork 1576121390
 # global reset 1573742480
 
+## removed
+global remove b004dc
+
 ## vlans
 vlan 10.0.68.48-52
 vlan 10.0.68.102-108
