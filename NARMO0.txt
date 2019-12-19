@@ -49,8 +49,9 @@ vlan 10.0.53.142-142
 8bdc72 location NARMO00002
 aa75d6 location NARMO00003
 # extra machines added 11/23/19
-3518c2 location NARMO0XTRA
-da7d9d location NARMO0XTRA
+3518c2 location NARMO0XTRA # 10.0.116.49
+a1f2ff location NARMO0XTRA # 10.0.117.93
+a1f2ff maxwatts 1050
 
 ## throttle
 8bdc72 uncork 1576789031
