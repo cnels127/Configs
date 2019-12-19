@@ -59,6 +59,7 @@ ea2b68 location ERICH00002
 c1da37 location ERICH0XTRA
 
 ## throttle
+5f07ce uncork 1576784002
 
 ## fans
 
@@ -81,8 +82,8 @@ cc79f4 reset 1573940787
 5f07ce reset 1573940787
 84441a reset 1573940787
 
-# s_remove generated on Nov 27 2019 22:18:16 utc: 1574893096
-global remove 52a31b
+## removals
+global remove c1da37
 
 ## asic password
 asicpass admin
