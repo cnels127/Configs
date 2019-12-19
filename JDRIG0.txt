@@ -61,14 +61,10 @@ cffb6d location JDRIG00009
 e2fa14 location JDRIG00010
 
 ## tuning
-cffb6d reboot 1574508116 # 10.0.67.146 jdrig00009
- 
-
-cffb6d reboot 1574496800 # 10.0.67.146 jdrig00009
- 
  
 ## throttle
-
+d55626 uncork 1576789089
+11bafe unocrk 1576789089
 9b787e uncork 1574719606 # 10.0.55.145 jdrig00003
 e2fa14 uncork 1574719606 # 10.0.66.22 jdrig00010
 b3d12e uncork 1574719606 # 10.0.67.149 jdrig00006
@@ -76,6 +72,8 @@ b3d12e uncork 1574719606 # 10.0.67.149 jdrig00006
 ## fans
 
 ## reboots
+cffb6d reboot 1574508116 # 10.0.67.146 jdrig00009
+cffb6d reboot 1574496800 # 10.0.67.146 jdrig00009
 # s_reboot generated on Nov 11 2019 18:45:00 utc: 1573497900
 b3d12e reboot 1573497900 # 10.0.67.149 jdrig00006
 11bafe reboot 1573497900 # 10.0.55.99 jdrig00001
