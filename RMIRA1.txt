@@ -60,6 +60,13 @@ a0e30f location RMIRA10010
 ## reboots
 
 ## resets
+b95dbf reset 1576778190 # 10.10.125.177 rmira10001
+5cd170 reset 1576778190 # 10.10.125.153 rmira10003
+b95dbf resetasic 1576778190 # 10.10.125.177 rmira10001
+5cd170 resetasic 1576778190 # 10.10.125.153 rmira10003
+
+
+
 
 ## asic password
 asicpass admin
