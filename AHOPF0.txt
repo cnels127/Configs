@@ -24,7 +24,7 @@ global autoupdate yes
 global allowed yes
 global maxtemp 90 1
 global throttle 50
-global fanspeed 80
+global fanspeed 85
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
@@ -37,978 +37,984 @@ global uncork 1575645905
 # global panelpass gj83Nkgikg
 
 # vlans
-# vlan 10.0.115.3-3
-# vlan 10.0.115.4-4
-# vlan 10.0.115.9-9
-# vlan 10.0.115.16-16
-# vlan 10.0.115.20-20
-# vlan 10.0.115.22-22
-# vlan 10.0.115.23-23
-# vlan 10.0.115.26-26
-# vlan 10.0.115.27-27
-# vlan 10.0.115.28-28
-# vlan 10.0.115.37-37
-# vlan 10.0.115.57-57
-# vlan 10.0.115.58-58
-# vlan 10.0.115.68-68
-# vlan 10.0.115.69-69
-# vlan 10.0.115.70-70
-# vlan 10.0.115.73-73
-# vlan 10.0.115.74-74
-# vlan 10.0.115.75-75
-# vlan 10.0.115.79-79
-# vlan 10.0.115.82-82
-# vlan 10.0.115.89-89
-# vlan 10.0.115.97-97
-# vlan 10.0.115.99-99
-# vlan 10.0.115.109-109
-# vlan 10.0.115.110-110
-# vlan 10.0.115.115-115
-# vlan 10.0.115.118-118
-# vlan 10.0.115.119-119
-# vlan 10.0.115.121-121
-# vlan 10.0.115.123-123
-# vlan 10.0.115.125-125
-# vlan 10.0.115.128-128
-# vlan 10.0.115.130-130
-# vlan 10.0.115.131-131
-# vlan 10.0.115.134-134
-# vlan 10.0.115.136-136
-# vlan 10.0.115.137-137
-# vlan 10.0.115.144-144
-# vlan 10.0.115.146-146
-# vlan 10.0.115.150-150
-# vlan 10.0.115.151-151
-# vlan 10.0.115.158-158
-# vlan 10.0.115.159-159
-# vlan 10.0.115.160-160
-# vlan 10.0.116.1-1
-# vlan 10.0.116.3-3
-# vlan 10.0.116.4-4
-# vlan 10.0.116.19-19
-# vlan 10.0.116.22-22
-# vlan 10.0.116.25-25
-# vlan 10.0.116.26-26
-# vlan 10.0.116.28-28
-# vlan 10.0.116.29-29
-# vlan 10.0.116.35-35
-# vlan 10.0.116.36-36
-# vlan 10.0.116.39-39
-# vlan 10.0.116.42-42
-# vlan 10.0.116.45-45
-# vlan 10.0.116.46-46
-# vlan 10.0.116.56-56
-# vlan 10.0.116.59-59
-# vlan 10.0.116.63-63
-# vlan 10.0.116.64-64
-# vlan 10.0.116.66-66
-# vlan 10.0.116.76-76
-# vlan 10.0.116.78-78
-# vlan 10.0.116.89-89
-# vlan 10.0.116.102-102
-# vlan 10.0.116.109-109
-# vlan 10.0.116.111-111
-# vlan 10.0.116.113-113
-# vlan 10.0.116.119-119
-# vlan 10.0.116.123-123
-# vlan 10.0.116.125-125
-# vlan 10.0.116.127-127
-# vlan 10.0.116.133-133
-# vlan 10.0.116.138-138
-# vlan 10.0.116.140-140
-# vlan 10.0.116.143-143
-# vlan 10.0.116.146-146
-# vlan 10.0.116.148-148
-# vlan 10.0.116.155-155
-# vlan 10.0.116.156-156
-# vlan 10.0.116.158-158
-# vlan 10.0.117.61-61
-# vlan 10.0.117.67-67
-# vlan 10.0.117.72-72
-# vlan 10.0.117.73-73
-# vlan 10.0.117.86-86
-# vlan 10.0.117.87-87
-# vlan 10.0.117.98-98
-# vlan 10.0.117.101-101
-# vlan 10.0.117.111-111
-# vlan 10.0.117.112-112
-# vlan 10.0.117.115-115
-# vlan 10.0.117.123-123
-# vlan 10.0.117.125-125
-# vlan 10.0.117.126-126
-# vlan 10.0.117.130-130
-# vlan 10.0.117.132-132
-# vlan 10.0.117.137-137
-# vlan 10.0.117.138-138
-# vlan 10.0.117.142-142
-# vlan 10.0.117.148-148
-# vlan 10.0.117.149-149
-# vlan 10.0.117.153-153
-# vlan 10.0.117.156-156
-# vlan 10.0.117.159-159
-# vlan 10.0.117.160-160
-# vlan 10.0.118.3-3
-# vlan 10.0.118.11-11
-# vlan 10.0.118.16-16
-# vlan 10.0.118.20-20
-# vlan 10.0.118.25-25
-# vlan 10.0.118.58-58
-# vlan 10.0.118.74-74
-# vlan 10.0.118.79-79
-# vlan 10.0.118.82-82
-# vlan 10.0.118.84-84
-# vlan 10.0.118.93-93
-# vlan 10.0.118.105-105
-# vlan 10.0.118.116-116
-# vlan 10.0.118.117-117
-# vlan 10.0.118.119-119
-# vlan 10.0.118.132-132
-# vlan 10.0.118.133-133
-# vlan 10.0.118.136-136
-# vlan 10.0.118.137-137
-# vlan 10.0.118.141-141
-# vlan 10.0.118.145-145
-# vlan 10.0.118.154-154
-# vlan 10.0.118.160-160
-# vlan 10.0.118.161-161
-# vlan 10.0.119.11-11
-# vlan 10.0.119.14-14
-# vlan 10.0.119.20-20
-# vlan 10.0.119.26-26
-# vlan 10.0.119.32-32
-# vlan 10.0.119.38-38
-# vlan 10.0.119.42-42
-# vlan 10.0.119.43-43
-# vlan 10.0.119.46-46
-# vlan 10.0.119.54-54
-# vlan 10.0.119.57-57
-# vlan 10.0.119.64-64
-# vlan 10.0.119.65-65
-# vlan 10.0.119.67-67
-# vlan 10.0.119.68-68
-# vlan 10.0.119.69-69
-# vlan 10.0.119.80-80
-# vlan 10.0.119.85-85
-# vlan 10.0.119.87-87
-# vlan 10.0.119.91-91
-# vlan 10.0.119.93-93
-# vlan 10.0.119.95-95
-# vlan 10.0.119.98-98
-# vlan 10.0.119.102-102
-# vlan 10.0.119.120-120
-# vlan 10.0.119.121-121
-# vlan 10.0.119.149-149
-# vlan 10.0.119.152-152
-# vlan 10.0.119.158-158
-# vlan 10.0.119.163-163
-# vlan 10.0.120.2-2
-# vlan 10.0.120.25-25
-# vlan 10.0.120.30-30
-# vlan 10.0.120.35-35
-# vlan 10.0.120.57-57
-# vlan 10.0.120.62-62
-# vlan 10.0.120.74-74
-# vlan 10.0.120.79-79
-# vlan 10.0.120.109-109
-# vlan 10.0.120.124-124
-# vlan 10.0.120.125-125
-# vlan 10.0.120.126-126
-# vlan 10.0.120.132-132
-# vlan 10.0.120.134-134
-# vlan 10.0.120.136-136
-# vlan 10.0.120.139-139
-# vlan 10.0.120.145-145
-# vlan 10.0.120.149-149
-# vlan 10.0.120.150-150
-# vlan 10.0.120.155-155
-# vlan 10.0.120.157-157
-# vlan 10.0.120.161-161
-# vlan 10.0.121.9-9
-# vlan 10.0.121.17-17
-# vlan 10.0.121.37-37
-# vlan 10.0.121.48-48
-# vlan 10.0.121.56-56
-# vlan 10.0.121.57-57
-# vlan 10.0.121.60-60
-# vlan 10.0.121.61-61
-# vlan 10.0.121.66-66
-# vlan 10.0.121.67-67
-# vlan 10.0.121.87-87
-# vlan 10.0.121.97-97
-# vlan 10.0.121.98-98
-# vlan 10.0.121.99-99
-# vlan 10.0.121.104-104
-# vlan 10.0.121.112-112
-# vlan 10.0.121.115-115
-# vlan 10.0.121.117-117
-# vlan 10.0.121.118-118
-# vlan 10.0.121.126-126
-# vlan 10.0.121.127-127
-# vlan 10.0.121.129-129
-# vlan 10.0.121.130-130
-# vlan 10.0.121.141-141
-# vlan 10.0.121.146-146
-# vlan 10.0.121.148-148
-# vlan 10.0.121.149-149
-# vlan 10.0.121.151-151
-# vlan 10.0.121.154-154
-# vlan 10.0.121.155-155
-# vlan 10.0.121.156-156
-# vlan 10.0.121.158-158
-# vlan 10.0.223.110-110
-# vlan 10.0.224.44-44
-# vlan 10.0.224.171-171
-# vlan 10.0.226.68-68
-# vlan 10.0.226.69-69
-# vlan 10.0.226.80-80
-# vlan 10.0.229.13-13
-# vlan 10.0.20.1-1
-# vlan 10.0.20.2-2
-# vlan 10.0.20.3-3
-# vlan 10.0.20.4-4
-# vlan 10.0.20.5-5
-# vlan 10.0.20.6-6
-# vlan 10.0.20.7-7
-# vlan 10.0.20.8-8
-# vlan 10.0.20.9-9
-# vlan 10.0.20.10-10
-# vlan 10.0.20.11-11
-# vlan 10.0.20.12-12
-# vlan 10.0.20.13-13
-# vlan 10.0.20.14-14
-# vlan 10.0.20.15-15
-# vlan 10.0.20.16-16
-# vlan 10.0.20.17-17
-# vlan 10.0.20.18-18
-# vlan 10.0.20.19-19
-# vlan 10.0.20.20-20
-# vlan 10.0.20.21-21
-# vlan 10.0.20.22-22
-# vlan 10.0.20.23-23
-# vlan 10.0.20.24-24
-# vlan 10.0.20.25-25
-# vlan 10.0.20.26-26
-# vlan 10.0.20.27-27
-# vlan 10.0.20.28-28
-# vlan 10.0.20.29-29
-# vlan 10.0.20.30-30
-# vlan 10.0.20.31-31
-# vlan 10.0.20.32-32
-# vlan 10.0.20.33-33
-# vlan 10.0.20.34-34
-# vlan 10.0.20.35-35
-# vlan 10.0.20.36-36
-# vlan 10.0.20.37-37
-# vlan 10.0.20.38-38
-# vlan 10.0.20.39-39
-# vlan 10.0.20.40-40
-# vlan 10.0.20.41-41
-# vlan 10.0.20.42-42
-# vlan 10.0.20.43-43
-# vlan 10.0.20.44-44
-# vlan 10.0.20.45-45
-# vlan 10.0.20.46-46
-# vlan 10.0.20.47-47
-# vlan 10.0.20.48-48
-# vlan 10.0.20.49-49
-# vlan 10.0.20.50-50
-# vlan 10.0.20.51-51
-# vlan 10.0.20.52-52
-# vlan 10.0.20.53-53
-# vlan 10.0.20.54-54
-# vlan 10.0.20.62-62
-# vlan 10.0.20.63-63
-# vlan 10.0.20.64-64
-# vlan 10.0.20.65-65
-# vlan 10.0.20.66-66
-# vlan 10.0.20.67-67
-# vlan 10.0.20.68-68
-# vlan 10.0.20.69-69
-# vlan 10.0.20.70-70
-# vlan 10.0.20.71-71
-# vlan 10.0.20.72-72
-# vlan 10.0.20.73-73
-# vlan 10.0.20.74-74
-# vlan 10.0.20.75-75
-# vlan 10.0.20.76-76
-# vlan 10.0.20.77-77
-# vlan 10.0.20.78-78
-# vlan 10.0.20.79-79
-# vlan 10.0.20.80-80
-# vlan 10.0.20.81-81
-# vlan 10.0.20.82-82
-# vlan 10.0.20.83-83
-# vlan 10.0.20.84-84
-# vlan 10.0.20.85-85
-# vlan 10.0.20.86-86
-# vlan 10.0.20.87-87
-# vlan 10.0.20.88-88
-# vlan 10.0.20.89-89
-# vlan 10.0.20.90-90
-# vlan 10.0.20.91-91
-# vlan 10.0.20.92-92
-# vlan 10.0.20.93-93
-# vlan 10.0.20.94-94
-# vlan 10.0.20.95-95
-# vlan 10.0.20.96-96
-# vlan 10.0.20.97-97
-# vlan 10.0.20.98-98
-# vlan 10.0.20.99-99
-# vlan 10.0.20.100-100
-# vlan 10.0.20.101-101
-# vlan 10.0.20.102-102
-# vlan 10.0.20.103-103
-# vlan 10.0.20.104-104
-# vlan 10.0.20.105-105
-# vlan 10.0.20.106-106
-# vlan 10.0.20.107-107
-# vlan 10.0.20.108-108
-# vlan 10.0.20.109-109
-# vlan 10.0.20.110-110
-# vlan 10.0.20.111-111
-# vlan 10.0.20.112-112
-# vlan 10.0.20.113-113
-# vlan 10.0.20.114-114
-# vlan 10.0.20.115-115
-# vlan 10.0.20.116-116
-# vlan 10.0.20.117-117
-# vlan 10.0.20.118-118
-# vlan 10.0.20.119-119
-# vlan 10.0.20.120-120
-# vlan 10.0.20.121-121
-# vlan 10.0.20.122-122
-# vlan 10.0.20.123-123
-# vlan 10.0.20.124-124
-# vlan 10.0.20.125-125
-# vlan 10.0.20.126-126
-# vlan 10.0.20.127-127
-# vlan 10.0.20.128-128
-# vlan 10.0.20.129-129
-# vlan 10.0.20.130-130
-# vlan 10.0.20.131-131
-# vlan 10.0.20.132-132
-# vlan 10.0.20.133-133
-# vlan 10.0.20.134-134
-# vlan 10.0.20.135-135
-# vlan 10.0.20.136-136
-# vlan 10.0.20.137-137
-# vlan 10.0.20.138-138
-# vlan 10.0.20.139-139
-# vlan 10.0.20.140-140
-# vlan 10.0.20.141-141
-# vlan 10.0.20.142-142
-# vlan 10.0.20.143-143
-# vlan 10.0.20.144-144
-# vlan 10.0.20.145-145
-# vlan 10.0.20.146-146
-# vlan 10.0.20.147-147
-# vlan 10.0.20.148-148
-# vlan 10.0.20.149-149
-# vlan 10.0.20.150-150
-# vlan 10.0.20.151-151
-# vlan 10.0.20.152-152
-# vlan 10.0.20.153-153
-# vlan 10.0.20.154-154
-# vlan 10.0.20.155-155
-# vlan 10.0.20.156-156
-# vlan 10.0.20.157-157
-# vlan 10.0.20.158-158
-# vlan 10.0.20.159-159
-# vlan 10.0.20.160-160
-# vlan 10.0.56.159-159
-# vlan 10.0.56.160-160
-# vlan 10.0.56.161-161
-# vlan 10.0.57.1-1
-# vlan 10.0.57.2-2
-# vlan 10.0.57.3-3
-# vlan 10.0.57.4-4
-# vlan 10.0.57.5-5
-# vlan 10.0.57.6-6
-# vlan 10.0.57.7-7
-# vlan 10.0.57.8-8
-# vlan 10.0.57.9-9
-# vlan 10.0.57.10-10
-# vlan 10.0.57.11-11
-# vlan 10.0.57.12-12
-# vlan 10.0.57.13-13
-# vlan 10.0.57.14-14
-# vlan 10.0.57.15-15
-# vlan 10.0.57.16-16
-# vlan 10.0.57.17-17
-# vlan 10.0.57.18-18
-# vlan 10.0.57.19-19
-# vlan 10.0.57.20-20
-# vlan 10.0.57.21-21
-# vlan 10.0.57.22-22
-# vlan 10.0.57.23-23
-# vlan 10.0.57.24-24
-# vlan 10.0.57.26-26
-# vlan 10.0.57.27-27
-# vlan 10.0.57.28-28
-# vlan 10.0.57.29-29
-# vlan 10.0.57.30-30
-# vlan 10.0.57.31-31
-# vlan 10.0.57.32-32
-# vlan 10.0.57.33-33
-# vlan 10.0.57.34-34
-# vlan 10.0.57.35-35
-# vlan 10.0.57.36-36
-# vlan 10.0.57.37-37
-# vlan 10.0.57.38-38
-# vlan 10.0.57.39-39
-# vlan 10.0.57.40-40
-# vlan 10.0.57.41-41
-# vlan 10.0.57.42-42
-# vlan 10.0.57.43-43
-# vlan 10.0.57.44-44
-# vlan 10.0.57.45-45
-# vlan 10.0.57.46-46
-# vlan 10.0.57.47-47
-# vlan 10.0.118.35-35
-# vlan 10.0.119.29-29
-# vlan 10.0.119.44-44
-# vlan 10.0.120.6-6
-# vlan 10.0.120.10-10
-# vlan 10.0.120.13-13
-# vlan 10.0.120.14-14
-# vlan 10.0.120.15-15
-# vlan 10.0.120.18-18
-# vlan 10.0.120.20-20
-# vlan 10.0.120.21-21
-# vlan 10.0.120.22-22
-# vlan 10.0.120.36-36
-# vlan 10.0.120.45-45
-# vlan 10.0.120.60-60
-# vlan 10.0.120.89-89
-# vlan 10.0.120.93-93
-# vlan 10.0.120.94-94
-# vlan 10.0.120.97-97
-# vlan 10.0.120.148-148
-# vlan 10.0.120.244-244
-# vlan 10.0.121.21-21
-# vlan 10.0.121.64-64
-# vlan 10.0.121.82-82
-# vlan 10.0.121.83-83
-# extra machines added 12/9/19
-vlan 10.0.51.79-79
-vlan 10.0.51.81-81
-vlan 10.0.51.86-86
-vlan 10.0.51.101-101
-vlan 10.0.51.113-113
-vlan 10.0.53.15-15
-vlan 10.0.53.21-21
-vlan 10.0.53.60-60
-vlan 10.0.53.61-61
-vlan 10.0.53.62-62
-vlan 10.0.53.63-63
-vlan 10.0.53.64-64
-vlan 10.0.53.65-65
-vlan 10.0.53.67-67
-vlan 10.0.53.68-68
-vlan 10.0.53.69-69
-vlan 10.0.53.70-70
-vlan 10.0.53.72-72
-vlan 10.0.53.73-73
-vlan 10.0.53.74-74
-vlan 10.0.53.75-75
-vlan 10.0.53.76-76
-vlan 10.0.53.77-77
-vlan 10.0.53.78-78
-vlan 10.0.53.79-79
-vlan 10.0.53.80-80
-vlan 10.0.53.81-81
-vlan 10.0.53.82-82
-vlan 10.0.53.86-86
-vlan 10.0.53.90-90
-vlan 10.0.53.91-91
-vlan 10.0.53.92-92
-vlan 10.0.53.97-97
-vlan 10.0.53.99-99
-vlan 10.0.53.101-101
-vlan 10.0.53.108-108
-vlan 10.0.53.109-109
-vlan 10.0.61.38-38
-vlan 10.0.61.65-65
-vlan 10.0.61.120-120
-vlan 10.0.61.144-144
-vlan 10.0.62.94-94
-vlan 10.0.63.33-33
-vlan 10.0.63.56-56
-vlan 10.0.63.98-98
-vlan 10.0.63.122-122
-vlan 10.0.64.42-42
-vlan 10.0.64.88-88
-vlan 10.0.64.116-116
-vlan 10.0.64.133-133
-vlan 10.0.64.144-144
-vlan 10.0.64.154-154
-vlan 10.0.65.29-29
-vlan 10.0.65.40-40
-vlan 10.0.65.80-80
-vlan 10.0.65.117-117
-vlan 10.0.65.120-120
-
+vlan 10.0.56.159-159 # cb7a3d
+vlan 10.0.56.160-160 # 0697d7
+vlan 10.0.56.161-161 # c606e7
+vlan 10.0.57.1-1 # b63fb1
+vlan 10.0.57.2-2 # 6e7701
+vlan 10.0.57.3-3 # d8e7a3
+vlan 10.0.57.4-4 # 9715d4
+vlan 10.0.57.5-5 # a43819
+vlan 10.0.57.6-6 # b99abe
+vlan 10.0.57.7-7 # a4a691
+vlan 10.0.57.8-8 # 103e5c
+vlan 10.0.57.9-9 # 5680b4
+vlan 10.0.57.10-10 # abb6f3
+vlan 10.0.57.11-11 # d22a39
+vlan 10.0.57.12-12 # 80b6cc
+vlan 10.0.57.13-13 # c3c415
+vlan 10.0.57.14-14 # c123c8
+vlan 10.0.57.15-15 # 62d6d0
+vlan 10.0.57.16-16 # 38b6a2
+vlan 10.0.57.17-17 # 55b5cb
+vlan 10.0.57.18-18 # 84794b
+vlan 10.0.57.19-19 # 768cf3
+vlan 10.0.57.20-20 # 47f0c6
+vlan 10.0.57.21-21 # b93f22
+vlan 10.0.57.22-22 # 1f71ad
+vlan 10.0.57.23-23 # b38e61
+vlan 10.0.57.24-24 # 2a0ab5
+vlan 10.0.57.25-25 # c56a90
+vlan 10.0.57.26-26 # 4a8cc9
+vlan 10.0.57.27-27 # ae711c
+vlan 10.0.57.28-28 # 888f80
+vlan 10.0.57.29-29 # 6b4731
+vlan 10.0.57.30-30 # 2b10a0
+vlan 10.0.57.31-31 # e886b1
+vlan 10.0.57.32-32 # 296c61
+vlan 10.0.57.33-33 # b285f8
+vlan 10.0.57.34-34 # 4bdbe0
+vlan 10.0.57.35-35 # d56eaf
+vlan 10.0.57.36-36 # d415da
+vlan 10.0.57.37-37 # aa49d8
+vlan 10.0.57.38-38 # a66966
+vlan 10.0.57.39-39 # 75e651
+vlan 10.0.57.40-40 # b46ce7
+vlan 10.0.57.41-41 # 5ac22f
+vlan 10.0.57.42-42 # 0b383f
+vlan 10.0.57.43-43 # 7c5703
+vlan 10.0.57.44-44 # 29f37a
+vlan 10.0.57.45-45 # f5fdc7
+vlan 10.0.57.46-46 # 94a27d
+vlan 10.0.57.47-47 # 72720b
+vlan 10.0.120.36-36 # e3daaa
+vlan 10.0.121.82-82 # c4ce2d
+vlan 10.0.120.93-93 # f1ead0
+vlan 10.0.119.29-29 # cd3638
+vlan 10.0.120.6-6 # d3bb55
+vlan 10.0.121.83-83 # 08c7c6
+vlan 10.0.120.148-148 # 93a040
+vlan 10.0.120.60-60 # 6f20ae
+vlan 10.0.120.21-21 # 2b24e8
+vlan 10.0.121.21-21 # 8812ce
+vlan 10.0.120.22-22 # e595de
+vlan 10.0.118.35-35 # 0adba5
+vlan 10.0.121.64-64 # 7e2767
+vlan 10.0.120.45-45 # 36a526
+vlan 10.0.120.15-15 # 029eb6
+vlan 10.0.120.14-14 # 4121df
+vlan 10.0.120.18-18 # 71964f
+vlan 10.0.120.20-20 # db1480
+vlan 10.0.119.44-44 # 283ff7
+vlan 10.0.120.97-97 # 620567
+vlan 10.0.120.89-89 # be27de
+vlan 10.0.120.94-94 # 658caa
+vlan 10.0.120.1-1 # 0fc1a9
+vlan 10.0.120.13-13 # 1680e1
+vlan 10.0.120.10-10 # c6cbe1
+vlan 10.0.115.118-118 # 2e67dc
+vlan 10.0.120.35-35 # 26fe6a
+vlan 10.0.120.25-25 # ddb214
+vlan 10.0.120.30-30 # aa775d
+vlan 10.0.121.104-104 # e97edc
+vlan 10.0.120.2-2 # 4d79ed
+vlan 10.0.117.72-72 # b8ef7f
+vlan 10.0.116.89-89 # 6296be
+vlan 10.0.115.79-79 # 761064
+vlan 10.0.116.78-78 # 2c72ed
+vlan 10.0.115.57-57 # ac9e3b
+vlan 10.0.116.76-76 # 9f2cc0
+vlan 10.0.116.64-64 # b78cd3
+vlan 10.0.117.25-25 # b97aec
+vlan 10.0.116.45-45 # 1ec256
+vlan 10.0.116.63-63 # 9ea85e
+vlan 10.0.116.26-26 # 7a4cbf
+vlan 10.0.116.39-39 # 8338dc
+vlan 10.0.116.46-46 # a5e807
+vlan 10.0.118.93-93 # e51438
+vlan 10.0.118.84-84 # cbc634
+vlan 10.0.119.67-67 # 73d5cd
+vlan 10.0.118.79-79 # 49be6d
+vlan 10.0.118.106-106 # cbc77e
+vlan 10.0.119.57-57 # 9c7529
+vlan 10.0.117.98-98 # 79abef
+vlan 10.0.116.59-59 # 162760
+vlan 10.0.115.97-97 # a7f562
+vlan 10.0.116.4-4 # 1151fd
+vlan 10.0.117.156-156 # 918961
+vlan 10.0.116.22-22 # b5632a
+vlan 10.0.117.67-67 # 6241c4
+vlan 10.0.118.105-105 # e5de91
+vlan 10.0.115.28-28 # 06043c
+vlan 10.0.116.42-42 # 4ce146
+vlan 10.0.116.28-28 # aa104f
+vlan 10.0.115.39-39 # 8cd4b8
+vlan 10.0.116.25-25 # 45e374
+vlan 10.0.118.74-74 # f35825
+vlan 10.0.119.102-102 # 377938
+vlan 10.0.119.64-64 # fb97b4
+vlan 10.0.119.80-80 # 49bc94
+vlan 10.0.118.82-82 # dbd805
+vlan 10.0.118.58-58 # e18f8f
+vlan 10.0.117.101-101 # 5924ed
+vlan 10.0.116.35-35 # 862df7
+vlan 10.0.115.89-89 # b621e4
+vlan 10.0.115.73-73 # 14f506
+vlan 10.0.121.17-17 # 11e15c
+vlan 10.0.119.98-98 # ec49d0
+vlan 10.0.121.48-48 # bc1f98
+vlan 10.0.116.56-56 # 98d6ae
+vlan 10.0.115.9-9 # 70245b
+vlan 10.0.116.66-66 # 1fe9d4
+vlan 10.0.116.143-143 # b5cf99
+vlan 10.0.119.68-68 # 3f4abe
+vlan 10.0.119.65-65 # 42ba91
+vlan 10.0.117.2-2 # 9da4e2
+vlan 10.0.115.99-99 # c5dfea
+vlan 10.0.116.153-153 # f01d71
+vlan 10.0.115.4-4 # 1f2763
+vlan 10.0.119.87-87 # 69272e
+vlan 10.0.116.102-102 # d5f0df
+vlan 10.0.115.23-23 # 5f63c0
+vlan 10.0.116.1-1 # e3558c
+vlan 10.0.116.113-113 # dbec2a
+vlan 10.0.115.69-69 # c97eeb
+vlan 10.0.117.61-61 # fc42af
+vlan 10.0.119.93-93 # 41dd5d
+vlan 10.0.119.85-85 # 1fb534
+vlan 10.0.115.16-16 # 96b4d0
+vlan 10.0.117.73-73 # ebbec9
+vlan 10.0.117.86-86 # 49f59c
+vlan 10.0.115.3-3 # 8c0b48
+vlan 10.0.119.95-95 # f4edef
+vlan 10.0.115.74-74 # 67ad2b
+vlan 10.0.116.19-19 # 756c72
+vlan 10.0.115.82-82 # f01cc1
+vlan 10.0.117.159-159 # 91b80f
+vlan 10.0.115.22-22 # b99f63
+vlan 10.0.115.68-68 # 81e8ca
+vlan 10.0.119.105-105 # 063844
+vlan 10.0.115.27-27 # 013fb7
+vlan 10.0.115.20-20 # a7a6fd
+vlan 10.0.115.58-58 # d2f90b
+vlan 10.0.119.69-69 # 43dfaa
+vlan 10.0.117.160-160 # 954d6b
+vlan 10.0.116.29-29 # f9f468
+vlan 10.0.115.37-37 # 1bf925
+vlan 10.0.115.70-70 # 4e7242
+vlan 10.0.119.91-91 # 0ed7c3
+vlan 10.0.115.26-26 # 107a3f
+vlan 10.0.116.3-3 # a28e76
+vlan 10.0.115.75-75 # 680629
+vlan 10.0.117.87-87 # 907d41
+vlan 10.0.116.36-36 # f73afd
+vlan 10.0.117.3-3 # 5d3a76
+vlan 10.0.121.61-61 # d7e7c1
+vlan 10.0.121.99-99 # a4a384
+vlan 10.0.121.56-56 # 325536
+vlan 10.0.120.79-79 # 538782
+vlan 10.0.121.98-98 # 0b195c
+vlan 10.0.121.97-97 # ed93d9
+vlan 10.0.121.60-60 # 2c8cd5
+vlan 10.0.118.3-3 # 8ce0da
+vlan 10.0.119.38-38 # 9b627a
+vlan 10.0.119.26-26 # 7db077
+vlan 10.0.121.57-57 # cb2ee7
+vlan 10.0.119.54-54 # 95c8c3
+vlan 10.0.119.11-11 # 251427
+vlan 10.0.120.157-157 # 3e45c9
+vlan 10.0.120.132-132 # 9a17ab
+vlan 10.0.121.66-66 # b8e18b
+vlan 10.0.121.126-126 # 02e7da
+vlan 10.0.119.32-32 # c7d88a
+vlan 10.0.120.161-161 # fbfc4b
+vlan 10.0.119.43-43 # 4f54c6
+vlan 10.0.120.150-150 # e3ec19
+vlan 10.0.120.149-149 # 4ec743
+vlan 10.0.118.20-20 # 48deba
+vlan 10.0.120.110-110 # d0f1c5
+vlan 10.0.121.154-154 # 083967
+vlan 10.0.118.16-16 # bda514
+vlan 10.0.118.25-25 # ae4e94
+vlan 10.0.118.30-30 # 7ace88
+vlan 10.0.120.119-119 # 92e8df
+vlan 10.0.120.134-134 # 361299
+vlan 10.0.120.124-124 # 38f67d
+vlan 10.0.120.117-117 # e8b482
+vlan 10.0.121.117-117 # 5b0b0f
+vlan 10.0.121.151-151 # 2c38f0
+vlan 10.0.120.154-154 # 7f4c05
+vlan 10.0.121.9-9 # 6d6ee5
+vlan 10.0.121.130-130 # b06869
+vlan 10.0.120.136-136 # c6721f
+vlan 10.0.118.11-11 # 1abfaa
+vlan 10.0.120.139-139 # 291e6a
+vlan 10.0.120.126-126 # 3f1222
+vlan 10.0.120.125-125 # 453434
+vlan 10.0.121.67-67 # 81ceb2
+vlan 10.0.119.42-42 # 9ac0b4
+vlan 10.0.121.141-141 # 439e29
+vlan 10.0.121.127-127 # 98a4dc
+vlan 10.0.121.118-118 # dbf995
+vlan 10.0.119.20-20 # e705e2
+vlan 10.0.115.158-158 # a41d98
+vlan 10.0.117.123-123 # 9c3f82
+vlan 10.0.115.109-109 # f4803e
+vlan 10.0.115.125-125 # aef536
+vlan 10.0.121.129-129 # 36138b
+vlan 10.0.121.149-149 # ebfae9
+vlan 10.0.121.112-112 # 6956cf
+vlan 10.0.121.87-87 # 1da911
+vlan 10.0.115.137-137 # 1d0081
+vlan 10.0.115.123-123 # 30a113
+vlan 10.0.120.145-145 # 6462f9
+vlan 10.0.120.62-62 # 511c0f
+vlan 10.0.120.109-109 # 6eb571
+vlan 10.0.121.148-148 # c3e42b
+vlan 10.0.119.14-14 # 909f42
+vlan 10.0.120.57-57 # f77c16
+vlan 10.0.121.37-37 # 231e10
+vlan 10.0.121.155-155 # 319daa
+vlan 10.0.121.115-115 # 9350c9
+vlan 10.0.120.74-74 # ffbd34
+vlan 10.0.121.158-158 # d67876
+vlan 10.0.121.156-156 # c3ca0b
+vlan 10.0.121.146-146 # 6e9d31
+vlan 10.0.116.119-119 # 58d134
+vlan 10.0.115.121-121 # 0f40ca
+vlan 10.0.115.150-150 # a3b0e2
+vlan 10.0.116.156-156 # b39993
+vlan 10.0.116.130-130 # 611b3a
+vlan 10.0.116.127-127 # 8c5e6a
+vlan 10.0.117.138-138 # 050e35
+vlan 10.0.115.136-136 # 10c92c
+vlan 10.0.116.158-158 # f643d6
+vlan 10.0.115.110-110 # fe9dbc
+vlan 10.0.116.155-155 # 182fb6
+vlan 10.0.116.125-125 # 8060b1
+vlan 10.0.115.134-134 # 49d54c
+vlan 10.0.115.130-130 # feb499
+vlan 10.0.115.151-151 # bf93f7
+vlan 10.0.115.144-144 # 4be16a
+vlan 10.0.115.159-159 # 974b8e
+vlan 10.0.116.148-148 # d086cc
+vlan 10.0.116.111-111 # 7bd54d
+vlan 10.0.117.132-132 # 683eaf
+vlan 10.0.115.131-131 # 47f82c
+vlan 10.0.117.137-137 # cc0723
+vlan 10.0.117.111-111 # 2c336c
+vlan 10.0.117.142-142 # 3b56cc
+vlan 10.0.115.146-146 # ede1d7
+vlan 10.0.116.109-109 # 25ab47
+vlan 10.0.117.149-149 # 212177
+vlan 10.0.118.137-137 # 7401f4
+vlan 10.0.118.141-141 # 7c7fa9
+vlan 10.0.117.126-126 # e249c4
+vlan 10.0.118.136-136 # 25c894
+vlan 10.0.118.132-132 # da40e8
+vlan 10.0.119.152-152 # ee2a52
+vlan 10.0.119.158-158 # 80a3e3
+vlan 10.0.118.154-154 # 0763a7
+vlan 10.0.119.121-121 # b188c8
+vlan 10.0.118.116-116 # c1e884
+vlan 10.0.119.120-120 # 8daee1
+vlan 10.0.118.133-133 # 1369fd
+vlan 10.0.117.112-112 # 0d3787
+vlan 10.0.118.145-145 # a19897
+vlan 10.0.117.125-125 # 525871
+vlan 10.0.118.161-161 # 318543
+vlan 10.0.118.160-160 # 0676bb
+vlan 10.0.119.149-149 # 0c978c
+vlan 10.0.118.119-119 # 8744d5
+vlan 10.0.117.148-148 # e219fe
+vlan 10.0.117.115-115 # 6254a4
+vlan 10.0.117.130-130 # e8a87c
+vlan 10.0.115.128-128 # da7641
+vlan 10.0.116.140-140 # bbc88e
+vlan 10.0.115.115-115 # 4b0c05
+vlan 10.0.116.123-123 # cb5f83
+vlan 10.0.115.160-160 # 7a1dba
+vlan 10.0.117.153-153 # 59b276
+vlan 10.0.116.146-146 # 4ee240
+vlan 10.0.115.119-119 # 3b5e37
+vlan 10.0.116.133-133 # 64e8d9
+vlan 10.0.118.117-117 # cc9fd9
+vlan 10.0.116.138-138 # 79c07f
+vlan 10.0.20.1-1 # fd2246
+vlan 10.0.20.2-2 # 7590b3
+vlan 10.0.20.3-3 # 010ecd
+vlan 10.0.20.4-4 # bfd0a3
+vlan 10.0.20.5-5 # 77253f
+vlan 10.0.20.6-6 # 952620
+vlan 10.0.20.7-7 # 02ed3b
+vlan 10.0.20.8-8 # 02e78e
+vlan 10.0.20.9-9 # 23a3fb
+vlan 10.0.20.10-10 # 6f82b5
+vlan 10.0.20.11-11 # e09d11
+vlan 10.0.20.12-12 # 519e2d
+vlan 10.0.20.13-13 # a3fe0e
+vlan 10.0.20.14-14 # d9cb06
+vlan 10.0.20.15-15 # 93ba23
+vlan 10.0.20.16-16 # 2639b1
+vlan 10.0.20.17-17 # 0e7129
+vlan 10.0.20.18-18 # 285eaa
+vlan 10.0.20.19-19 # 7b5858
+vlan 10.0.20.20-20 # 3b82a6
+vlan 10.0.20.21-21 # f73f65
+vlan 10.0.20.22-22 # 80e1a3
+vlan 10.0.20.23-23 # 73b3d8
+vlan 10.0.20.24-24 # e43500
+vlan 10.0.20.25-25 # a27a14
+vlan 10.0.20.26-26 # b5df40
+vlan 10.0.20.27-27 # 5142da
+vlan 10.0.20.28-28 # 330ac8
+vlan 10.0.20.29-29 # c6eb8f
+vlan 10.0.20.30-30 # 77f364
+vlan 10.0.20.31-31 # f476f8
+vlan 10.0.20.32-32 # 746d1e
+vlan 10.0.20.33-33 # fd9612
+vlan 10.0.20.34-34 # 253618
+vlan 10.0.20.35-35 # b262c5
+vlan 10.0.20.36-36 # 3e7458
+vlan 10.0.20.37-37 # ef5d97
+vlan 10.0.20.38-38 # 04790f
+vlan 10.0.20.39-39 # a2b940
+vlan 10.0.20.40-40 # f6b2c7
+vlan 10.0.20.41-41 # 389091
+vlan 10.0.20.42-42 # ebad13
+vlan 10.0.20.43-43 # fbac47
+vlan 10.0.20.44-44 # 3a2f7e
+vlan 10.0.20.45-45 # 62e3a0
+vlan 10.0.20.46-46 # ea8118
+vlan 10.0.20.47-47 # 83eb7f
+vlan 10.0.20.48-48 # 4fe0e1
+vlan 10.0.20.49-49 # cd37f8
+vlan 10.0.20.50-50 # eaa7bc
+vlan 10.0.20.51-51 # 45ecb5
+vlan 10.0.20.52-52 # b7ee47
+vlan 10.0.20.53-53 # af594a
+vlan 10.0.20.54-54 # 267ad2
+vlan 10.0.20.62-62 # 08ac34
+vlan 10.0.20.63-63 # e467c5
+vlan 10.0.20.64-64 # d1027e
+vlan 10.0.20.65-65 # 367c9d
+vlan 10.0.20.66-66 # f7b0fc
+vlan 10.0.20.67-67 # 5c5d11
+vlan 10.0.20.68-68 # a2affd
+vlan 10.0.20.69-69 # a6565f
+vlan 10.0.20.70-70 # e31317
+vlan 10.0.20.71-71 # 2c024b
+vlan 10.0.20.72-72 # 855e55
+vlan 10.0.20.73-73 # afad02
+vlan 10.0.20.74-74 # 17ea41
+vlan 10.0.20.75-75 # 24273b
+vlan 10.0.20.76-76 # 480a1a
+vlan 10.0.20.77-77 # 4ed093
+vlan 10.0.20.78-78 # 08ef17
+vlan 10.0.20.79-79 # e84233
+vlan 10.0.20.80-80 # bac4af
+vlan 10.0.20.81-81 # c29470
+vlan 10.0.20.82-82 # 8e9026
+vlan 10.0.20.83-83 # 1f4a0d
+vlan 10.0.20.84-84 # 0fc9a9
+vlan 10.0.20.85-85 # a64893
+vlan 10.0.20.86-86 # b79b7a
+vlan 10.0.20.87-87 # 308614
+vlan 10.0.20.88-88 # d9e3f4
+vlan 10.0.20.89-89 # 4a2a17
+vlan 10.0.20.90-90 # 72109e
+vlan 10.0.20.91-91 # 3a6a42
+vlan 10.0.20.92-92 # 8189d5
+vlan 10.0.20.93-93 # 93663e
+vlan 10.0.20.94-94 # a7f120
+vlan 10.0.20.95-95 # 76dfa0
+vlan 10.0.20.96-96 # 9b356e
+vlan 10.0.20.97-97 # cf8737
+vlan 10.0.20.98-98 # b5232f
+vlan 10.0.20.99-99 # 212810
+vlan 10.0.20.100-100 # d317f1
+vlan 10.0.20.101-101 # 9c071b
+vlan 10.0.20.102-102 # faaab4
+vlan 10.0.20.103-103 # aab92e
+vlan 10.0.20.104-104 # 2efa3c
+vlan 10.0.20.105-105 # 42bd7e
+vlan 10.0.20.106-106 # 8d7d97
+vlan 10.0.20.107-107 # 59141e
+vlan 10.0.20.108-108 # 8c9189
+vlan 10.0.20.109-109 # 469251
+vlan 10.0.20.110-110 # 5783fe
+vlan 10.0.20.111-111 # 6b9f94
+vlan 10.0.20.112-112 # 8da327
+vlan 10.0.20.113-113 # 
+vlan 10.0.20.114-114 # e549f5
+vlan 10.0.20.115-115 # 218527
+vlan 10.0.20.116-116 # bc472e
+vlan 10.0.20.117-117 # 3fc24e
+vlan 10.0.20.118-118 # 19756a
+vlan 10.0.20.119-119 # 17ce8c
+vlan 10.0.20.120-120 # 8afb1b
+vlan 10.0.20.121-121 # 37d5ce
+vlan 10.0.20.122-122 # be62a6
+vlan 10.0.20.123-123 # 3e5528
+vlan 10.0.20.124-124 # a47fd5
+vlan 10.0.20.125-125 # ca77dd
+vlan 10.0.20.126-126 # e0d12f
+vlan 10.0.20.127-127 # bcb08b
+vlan 10.0.20.128-128 # 22f5be
+vlan 10.0.20.129-129 # 8d788a
+vlan 10.0.20.130-130 # 0a5ffb
+vlan 10.0.20.131-131 # dc6882
+vlan 10.0.20.132-132 # dfa90f
+vlan 10.0.20.133-133 # d162e2
+vlan 10.0.20.134-134 # 638597
+vlan 10.0.20.135-135 # 055a7f
+vlan 10.0.20.136-136 # 93db98
+vlan 10.0.20.137-137 # 204b63
+vlan 10.0.20.138-138 # a8b74f
+vlan 10.0.20.139-139 # 29c5a2
+vlan 10.0.20.140-140 # 12e887
+vlan 10.0.20.141-141 # dd9d7b
+vlan 10.0.20.142-142 # 8ffbc2
+vlan 10.0.20.143-143 # 03e6c8
+vlan 10.0.20.144-144 # 5da055
+vlan 10.0.20.145-145 # 069009
+vlan 10.0.20.146-146 # 0f6f9a
+vlan 10.0.20.147-147 # 3d6ba7
+vlan 10.0.20.148-148 # 48ae69
+vlan 10.0.20.149-149 # e1ebc9
+vlan 10.0.20.150-150 # 07a03a
+vlan 10.0.20.151-151 # 0dfa04
+vlan 10.0.20.152-152 # 47be03
+vlan 10.0.20.153-153 # 7be20a
+vlan 10.0.20.154-154 # 333438
+vlan 10.0.20.155-155 # d7ca01
+vlan 10.0.20.156-156 # 028d18
+vlan 10.0.20.157-157 # 95f51f
+vlan 10.0.20.158-158 # 662be7
+vlan 10.0.20.159-159 # d7d3e4
+vlan 10.0.20.160-160 # 999c20
+# 60 extra machines added 12/9/19
+vlan 10.0.119.81-81 # b8f620
+vlan 10.0.120.115-115 # 168c5c
+vlan 10.0.51.79-79 # 5f8428
+vlan 10.0.51.81-81 # 485d51
+vlan 10.0.51.86-86 # d2c781
+vlan 10.0.51.101-101 # c7c6cb
+vlan 10.0.51.113-113 # 5cddf1
+vlan 10.0.53.15-15 # ac686d
+vlan 10.0.53.21-21 # c3ad8c
+vlan 10.0.53.60-60 # 0224c1
+vlan 10.0.53.61-61 # ca8594
+vlan 10.0.53.62-62 # 6eab2c
+vlan 10.0.53.63-63 # 71707d
+vlan 10.0.53.64-64 # cb9a02
+vlan 10.0.53.65-65 # b8e4ff
+vlan 10.0.53.67-67 # 258e1f
+vlan 10.0.53.68-68 # 43f181
+vlan 10.0.53.69-69 # cc3dc5
+vlan 10.0.53.70-70 # 3f8464
+vlan 10.0.53.72-72 # eab665
+vlan 10.0.53.73-73 # bde5f4
+vlan 10.0.53.74-74 # fe6f79
+vlan 10.0.53.75-75 # 963726
+vlan 10.0.53.76-76 # 9d9c35
+vlan 10.0.53.77-77 # e98efc
+vlan 10.0.53.78-78 # 4a573e
+vlan 10.0.53.79-79 # e8189e
+vlan 10.0.53.80-80 # 46d9a3
+vlan 10.0.53.81-81 # de8d9d
+vlan 10.0.53.82-82 # 8d875a
+vlan 10.0.53.86-86 # ea2e9e
+vlan 10.0.53.90-90 # 08f7ea
+vlan 10.0.53.91-91 # ab2884
+vlan 10.0.53.92-92 # 5ed367
+vlan 10.0.53.97-97 # 65ebd2
+vlan 10.0.53.99-99 # aabf8d
+vlan 10.0.53.101-101 # 36cef8
+vlan 10.0.53.108-108 # 8ae7c8
+vlan 10.0.53.109-109 # 3d682e
+vlan 10.0.61.38-38 # ccf206
+vlan 10.0.61.65-65 # 804026
+vlan 10.0.61.120-120 # 5b14ee
+vlan 10.0.61.144-144 # f9b7ed
+vlan 10.0.62.94-94 # a6e971
+vlan 10.0.63.33-33 # 54f071
+vlan 10.0.63.56-56 # 679440
+vlan 10.0.63.98-98 # b66076
+vlan 10.0.63.122-122 # cd3283
+vlan 10.0.64.42-42 # 30160c
+vlan 10.0.64.88-88 # 3ed3dd
+vlan 10.0.64.116-116 # 2ddca2
+vlan 10.0.64.133-133 # d5754d
+vlan 10.0.64.144-144 # eb89a3
+vlan 10.0.64.154-154 # 860aa3
+vlan 10.0.65.29-29 # c80a8e
+vlan 10.0.65.40-40 # 92fc06
+vlan 10.0.65.80-80 # 29a2d1
+vlan 10.0.65.117-117 # 1d7e09
+vlan 10.0.65.120-120 # 35a425
+vlan 10.0.119.46-46 # a61391
 
 # locations
-cb7a3d location AHOPF00001
-0697d7 location AHOPF00002
-c606e7 location AHOPF00003
-b63fb1 location AHOPF00004
-6e7701 location AHOPF00005
-d8e7a3 location AHOPF00006
-9715d4 location AHOPF00007
-a43819 location AHOPF00008
-b99abe location AHOPF00009
-a4a691 location AHOPF00010
-103e5c location AHOPF00011
-5680b4 location AHOPF00012
-abb6f3 location AHOPF00013
-d22a39 location AHOPF00014
-80b6cc location AHOPF00015
-c3c415 location AHOPF00016
-c123c8 location AHOPF00017
-62d6d0 location AHOPF00018
-38b6a2 location AHOPF00019
-55b5cb location AHOPF00020
-84794b location AHOPF00021
-768cf3 location AHOPF00022
-47f0c6 location AHOPF00023
-b93f22 location AHOPF00024
-1f71ad location AHOPF00025
-b38e61 location AHOPF00026
-2a0ab5 location AHOPF00027
-c56a90 location AHOPF00028
-4a8cc9 location AHOPF00029
-ae711c location AHOPF00030
-888f80 location AHOPF00031
-6b4731 location AHOPF00032
-2b10a0 location AHOPF00033
-e886b1 location AHOPF00034
-296c61 location AHOPF00035
-b285f8 location AHOPF00036
-4bdbe0 location AHOPF00037
-d56eaf location AHOPF00038
-d415da location AHOPF00039
-aa49d8 location AHOPF00040
-a66966 location AHOPF00041
-75e651 location AHOPF00042
-b46ce7 location AHOPF00043
-5ac22f location AHOPF00044
-0b383f location AHOPF00045
-7c5703 location AHOPF00046
-29f37a location AHOPF00047
-f5fdc7 location AHOPF00048
-94a27d location AHOPF00049
-72720b location AHOPF00050
-e3daaa location AHOPF00051
-c4ce2d location AHOPF00052
-f1ead0 location AHOPF00053
-cd3638 location AHOPF00054
-d3bb55 location AHOPF00055
-08c7c6 location AHOPF00056
-93a040 location AHOPF00057
-6f20ae location AHOPF00058
-2b24e8 location AHOPF00059
-8812ce location AHOPF00060
-e595de location AHOPF00061
-0adba5 location AHOPF00062
-7e2767 location AHOPF00063
-36a526 location AHOPF00064
-029eb6 location AHOPF00065
-4121df location AHOPF00066
-71964f location AHOPF00067
-db1480 location AHOPF00068
-283ff7 location AHOPF00069
-620567 location AHOPF00070
-be27de location AHOPF00071
-658caa location AHOPF00072
-0fc1a9 location AHOPF00073
-1680e1 location AHOPF00074
-c6cbe1 location AHOPF00075
-
-a61391 location AHOPF00076
-2e67dc location AHOPF00076
-26fe6a location AHOPF00077
-ddb214 location AHOPF00078
-aa775d location AHOPF00079
-e97edc location AHOPF00080
-4d79ed location AHOPF00081
-b8ef7f location AHOPF00082
-6296be location AHOPF00083
-761064 location AHOPF00084
-2c72ed location AHOPF00085
-ac9e3b location AHOPF00086
-9f2cc0 location AHOPF00087
-b78cd3 location AHOPF00088
-b97aec location AHOPF00089
-1ec256 location AHOPF00090
-9ea85e location AHOPF00091
-7a4cbf location AHOPF00092
-8338dc location AHOPF00093
-a5e807 location AHOPF00094
-e51438 location AHOPF00095
-cbc634 location AHOPF00096
-73d5cd location AHOPF00097
-49be6d location AHOPF00098
-cbc77e location AHOPF00099
-9c7529 location AHOPF00100
-79abef location AHOPF00101
-162760 location AHOPF00102
-a7f562 location AHOPF00103
-1151fd location AHOPF00104
-918961 location AHOPF00105
-b5632a location AHOPF00106
-6241c4 location AHOPF00107
-e5de91 location AHOPF00108
-06043c location AHOPF00109
-4ce146 location AHOPF00110
-aa104f location AHOPF00111
-8cd4b8 location AHOPF00112
-45e374 location AHOPF00113
-f35825 location AHOPF00114
-377938 location AHOPF00115
-fb97b4 location AHOPF00116
-49bc94 location AHOPF00117
-dbd805 location AHOPF00118
-e18f8f location AHOPF00119
-5924ed location AHOPF00120
-862df7 location AHOPF00121
-b621e4 location AHOPF00122
-14f506 location AHOPF00123
-11e15c location AHOPF00124
-ec49d0 location AHOPF00125
-bc1f98 location AHOPF00126
-98d6ae location AHOPF00127
-70245b location AHOPF00128
-1fe9d4 location AHOPF00129
-b5cf99 location AHOPF00130
-3f4abe location AHOPF00131
-42ba91 location AHOPF00132
-9da4e2 location AHOPF00133
-c5dfea location AHOPF00134
-f01d71 location AHOPF00135
-1f2763 location AHOPF00136
-69272e location AHOPF00137
-d5f0df location AHOPF00138
-5f63c0 location AHOPF00139
-e3558c location AHOPF00140
-dbec2a location AHOPF00141
-c97eeb location AHOPF00142
-fc42af location AHOPF00143
-41dd5d location AHOPF00144
-1fb534 location AHOPF00145
-96b4d0 location AHOPF00146
-ebbec9 location AHOPF00147
-49f59c location AHOPF00148
-8c0b48 location AHOPF00149
-f4edef location AHOPF00150
-67ad2b location AHOPF00151
-756c72 location AHOPF00152
-f01cc1 location AHOPF00153
-91b80f location AHOPF00154
-b99f63 location AHOPF00155
-81e8ca location AHOPF00156
-063844 location AHOPF00157
-013fb7 location AHOPF00158
-a7a6fd location AHOPF00159
-d2f90b location AHOPF00160
-43dfaa location AHOPF00161
-954d6b location AHOPF00162
-f9f468 location AHOPF00163
-1bf925 location AHOPF00164
-4e7242 location AHOPF00165
-0ed7c3 location AHOPF00166
-107a3f location AHOPF00167
-a28e76 location AHOPF00168
-680629 location AHOPF00169
-907d41 location AHOPF00170
-f73afd location AHOPF00171
-5d3a76 location AHOPF00172
-d7e7c1 location AHOPF00173
-a4a384 location AHOPF00174
-325536 location AHOPF00175
-538782 location AHOPF00176
-0b195c location AHOPF00177
-ed93d9 location AHOPF00178
-2c8cd5 location AHOPF00179
-8ce0da location AHOPF00180
-9b627a location AHOPF00181
-7db077 location AHOPF00182
-cb2ee7 location AHOPF00183
-95c8c3 location AHOPF00184
-251427 location AHOPF00185
-3e45c9 location AHOPF00186
-9a17ab location AHOPF00187
-b8e18b location AHOPF00188
-02e7da location AHOPF00189
-c7d88a location AHOPF00190
-fbfc4b location AHOPF00191
-4f54c6 location AHOPF00192
-e3ec19 location AHOPF00193
-4ec743 location AHOPF00194
-48deba location AHOPF00195
-d0f1c5 location AHOPF00196
-083967 location AHOPF00197
-bda514 location AHOPF00198
-ae4e94 location AHOPF00199
-7ace88 location AHOPF00200
-92e8df location AHOPF00201
-361299 location AHOPF00202
-38f67d location AHOPF00203
-e8b482 location AHOPF00204
-5b0b0f location AHOPF00205
-2c38f0 location AHOPF00206
-7f4c05 location AHOPF00207
-6d6ee5 location AHOPF00208
-b06869 location AHOPF00209
-c6721f location AHOPF00210
-1abfaa location AHOPF00211
-291e6a location AHOPF00212
-3f1222 location AHOPF00213
-453434 location AHOPF00214
-81ceb2 location AHOPF00215
-9ac0b4 location AHOPF00216
-439e29 location AHOPF00217
-98a4dc location AHOPF00218
-dbf995 location AHOPF00219
-e705e2 location AHOPF00220
-a41d98 location AHOPF00221
-9c3f82 location AHOPF00222
-f4803e location AHOPF00223
-aef536 location AHOPF00224
-36138b location AHOPF00225
-ebfae9 location AHOPF00226
-6956cf location AHOPF00227
-1da911 location AHOPF00228
-1d0081 location AHOPF00229
-30a113 location AHOPF00230
-6462f9 location AHOPF00231
-511c0f location AHOPF00232
-6eb571 location AHOPF00233
-c3e42b location AHOPF00234
-909f42 location AHOPF00235
-f77c16 location AHOPF00236
-231e10 location AHOPF00237
-319daa location AHOPF00238
-9350c9 location AHOPF00239
-ffbd34 location AHOPF00240
-d67876 location AHOPF00241
-c3ca0b location AHOPF00242
-6e9d31 location AHOPF00243
-58d134 location AHOPF00244
-0f40ca location AHOPF00245
-a3b0e2 location AHOPF00246
-b39993 location AHOPF00247
-611b3a location AHOPF00248
-8c5e6a location AHOPF00249
-050e35 location AHOPF00250
-10c92c location AHOPF00251
-f643d6 location AHOPF00252
-fe9dbc location AHOPF00253
-182fb6 location AHOPF00254
-8060b1 location AHOPF00255
-49d54c location AHOPF00256
-feb499 location AHOPF00257
-bf93f7 location AHOPF00258
-4be16a location AHOPF00259
-974b8e location AHOPF00260
-d086cc location AHOPF00261
-7bd54d location AHOPF00262
-683eaf location AHOPF00263
-47f82c location AHOPF00264
-cc0723 location AHOPF00265
-2c336c location AHOPF00266
-3b56cc location AHOPF00267
-ede1d7 location AHOPF00268
-25ab47 location AHOPF00269
-212177 location AHOPF00270
-7401f4 location AHOPF00271
-7c7fa9 location AHOPF00272
-e249c4 location AHOPF00273
-25c894 location AHOPF00274
-da40e8 location AHOPF00275
-ee2a52 location AHOPF00276
-80a3e3 location AHOPF00277
-0763a7 location AHOPF00278
-b188c8 location AHOPF00279
-c1e884 location AHOPF00280
-8daee1 location AHOPF00281
-1369fd location AHOPF00282
-0d3787 location AHOPF00283
-a19897 location AHOPF00284
-525871 location AHOPF00285
-318543 location AHOPF00286
-0676bb location AHOPF00287
-0c978c location AHOPF00288
-8744d5 location AHOPF00289
-e219fe location AHOPF00290
-6254a4 location AHOPF00291
-e8a87c location AHOPF00292
-da7641 location AHOPF00293
-bbc88e location AHOPF00294
-4b0c05 location AHOPF00295
-cb5f83 location AHOPF00296
-7a1dba location AHOPF00297
-59b276 location AHOPF00298
-4ee240 location AHOPF00299
-3b5e37 location AHOPF00300
-64e8d9 location AHOPF00301
-cc9fd9 location AHOPF00302
-79c07f location AHOPF00303
-fd2246 location AHOPF00304
-7590b3 location AHOPF00305
-010ecd location AHOPF00306
-bfd0a3 location AHOPF00307
-77253f location AHOPF00308
-952620 location AHOPF00309
-02ed3b location AHOPF00310
-02e78e location AHOPF00311
-23a3fb location AHOPF00312
-6f82b5 location AHOPF00313
-e09d11 location AHOPF00314
-519e2d location AHOPF00315
-a3fe0e location AHOPF00316
-d9cb06 location AHOPF00317
-93ba23 location AHOPF00318
-2639b1 location AHOPF00319
-0e7129 location AHOPF00320
-285eaa location AHOPF00321
-7b5858 location AHOPF00322
-3b82a6 location AHOPF00323
-f73f65 location AHOPF00324
-80e1a3 location AHOPF00325
-73b3d8 location AHOPF00326
-e43500 location AHOPF00327
-a27a14 location AHOPF00328
-b5df40 location AHOPF00329
-5142da location AHOPF00330
-330ac8 location AHOPF00331
-c6eb8f location AHOPF00332
-77f364 location AHOPF00333
-f476f8 location AHOPF00334
-746d1e location AHOPF00335
-fd9612 location AHOPF00336
-253618 location AHOPF00337
-b262c5 location AHOPF00338
-3e7458 location AHOPF00339
-ef5d97 location AHOPF00340
-04790f location AHOPF00341
-a2b940 location AHOPF00342
-f6b2c7 location AHOPF00343
-389091 location AHOPF00344
-ebad13 location AHOPF00345
-fbac47 location AHOPF00346
-3a2f7e location AHOPF00347
-62e3a0 location AHOPF00348
-ea8118 location AHOPF00349
-83eb7f location AHOPF00350
-4fe0e1 location AHOPF00351
-cd37f8 location AHOPF00352
-eaa7bc location AHOPF00353
-45ecb5 location AHOPF00354
-b7ee47 location AHOPF00355
-af594a location AHOPF00356
-267ad2 location AHOPF00357
-08ac34 location AHOPF00358
-e467c5 location AHOPF00359
-d1027e location AHOPF00360
-367c9d location AHOPF00361
-f7b0fc location AHOPF00362
-5c5d11 location AHOPF00363
-a2affd location AHOPF00364
-a6565f location AHOPF00365
-e31317 location AHOPF00366
-2c024b location AHOPF00367
-855e55 location AHOPF00368
-afad02 location AHOPF00369
-17ea41 location AHOPF00370
-24273b location AHOPF00371
-480a1a location AHOPF00372
-4ed093 location AHOPF00373
-08ef17 location AHOPF00374
-e84233 location AHOPF00375
-bac4af location AHOPF00376
-c29470 location AHOPF00377
-8e9026 location AHOPF00378
-1f4a0d location AHOPF00379
-0fc9a9 location AHOPF00380
-a64893 location AHOPF00381
-b79b7a location AHOPF00382
-308614 location AHOPF00383
-d9e3f4 location AHOPF00384
-4a2a17 location AHOPF00385
-72109e location AHOPF00386
-3a6a42 location AHOPF00387
-8189d5 location AHOPF00388
-93663e location AHOPF00389
-a7f120 location AHOPF00390
-76dfa0 location AHOPF00391
-9b356e location AHOPF00392
-cf8737 location AHOPF00393
-b5232f location AHOPF00394
-212810 location AHOPF00395
-d317f1 location AHOPF00396
-9c071b location AHOPF00397
-faaab4 location AHOPF00398
-aab92e location AHOPF00399
-2efa3c location AHOPF00400
-42bd7e location AHOPF00401
-8d7d97 location AHOPF00402
-59141e location AHOPF00403
-8c9189 location AHOPF00404
-469251 location AHOPF00405
-5783fe location AHOPF00406
-6b9f94 location AHOPF00407
-8da327 location AHOPF00408
- location AHOPF00409
-e549f5 location AHOPF00410
-218527 location AHOPF00411
-bc472e location AHOPF00412
-3fc24e location AHOPF00413
-19756a location AHOPF00414
-17ce8c location AHOPF00415
-8afb1b location AHOPF00416
-37d5ce location AHOPF00417
-be62a6 location AHOPF00418
-3e5528 location AHOPF00419
-a47fd5 location AHOPF00420
-ca77dd location AHOPF00421
-e0d12f location AHOPF00422
-bcb08b location AHOPF00423
-22f5be location AHOPF00424
-8d788a location AHOPF00425
-0a5ffb location AHOPF00426
-dc6882 location AHOPF00427
-dfa90f location AHOPF00428
-d162e2 location AHOPF00429
-638597 location AHOPF00430
-055a7f location AHOPF00431
-93db98 location AHOPF00432
-204b63 location AHOPF00433
-a8b74f location AHOPF00434
-29c5a2 location AHOPF00435
-12e887 location AHOPF00436
-dd9d7b location AHOPF00437
-8ffbc2 location AHOPF00438
-03e6c8 location AHOPF00439
-5da055 location AHOPF00440
-069009 location AHOPF00441
-0f6f9a location AHOPF00442
-3d6ba7 location AHOPF00443
-48ae69 location AHOPF00444
-e1ebc9 location AHOPF00445
-07a03a location AHOPF00446
-0dfa04 location AHOPF00447
-47be03 location AHOPF00448
-7be20a location AHOPF00449
-333438 location AHOPF00450
-d7ca01 location AHOPF00451
-028d18 location AHOPF00452
-95f51f location AHOPF00453
-662be7 location AHOPF00454
-d7d3e4 location AHOPF00455
-999c20 location AHOPF00456
-# extra machines added 12/9/19
+cb7a3d location AHOPF00001 # 10.0.56.159
+0697d7 location AHOPF00002 # 10.0.56.160
+c606e7 location AHOPF00003 # 10.0.56.161
+b63fb1 location AHOPF00004 # 10.0.57.1
+6e7701 location AHOPF00005 # 10.0.57.2
+d8e7a3 location AHOPF00006 # 10.0.57.3
+9715d4 location AHOPF00007 # 10.0.57.4
+a43819 location AHOPF00008 # 10.0.57.5
+b99abe location AHOPF00009 # 10.0.57.6
+a4a691 location AHOPF00010 # 10.0.57.7
+103e5c location AHOPF00011 # 10.0.57.8
+5680b4 location AHOPF00012 # 10.0.57.9
+abb6f3 location AHOPF00013 # 10.0.57.10
+d22a39 location AHOPF00014 # 10.0.57.11
+80b6cc location AHOPF00015 # 10.0.57.12
+c3c415 location AHOPF00016 # 10.0.57.13
+c123c8 location AHOPF00017 # 10.0.57.14
+62d6d0 location AHOPF00018 # 10.0.57.15
+38b6a2 location AHOPF00019 # 10.0.57.16
+55b5cb location AHOPF00020 # 10.0.57.17
+84794b location AHOPF00021 # 10.0.57.18
+768cf3 location AHOPF00022 # 10.0.57.19
+47f0c6 location AHOPF00023 # 10.0.57.20
+b93f22 location AHOPF00024 # 10.0.57.21
+1f71ad location AHOPF00025 # 10.0.57.22
+b38e61 location AHOPF00026 # 10.0.57.23
+2a0ab5 location AHOPF00027 # 10.0.57.24
+c56a90 location AHOPF00028 # 10.0.57.25
+4a8cc9 location AHOPF00029 # 10.0.57.26
+ae711c location AHOPF00030 # 10.0.57.27
+888f80 location AHOPF00031 # 10.0.57.28
+6b4731 location AHOPF00032 # 10.0.57.29
+2b10a0 location AHOPF00033 # 10.0.57.30
+e886b1 location AHOPF00034 # 10.0.57.31
+296c61 location AHOPF00035 # 10.0.57.32
+b285f8 location AHOPF00036 # 10.0.57.33
+4bdbe0 location AHOPF00037 # 10.0.57.34
+d56eaf location AHOPF00038 # 10.0.57.35
+d415da location AHOPF00039 # 10.0.57.36
+aa49d8 location AHOPF00040 # 10.0.57.37
+a66966 location AHOPF00041 # 10.0.57.38
+75e651 location AHOPF00042 # 10.0.57.39
+b46ce7 location AHOPF00043 # 10.0.57.40
+5ac22f location AHOPF00044 # 10.0.57.41
+0b383f location AHOPF00045 # 10.0.57.42
+7c5703 location AHOPF00046 # 10.0.57.43
+29f37a location AHOPF00047 # 10.0.57.44
+f5fdc7 location AHOPF00048 # 10.0.57.45
+94a27d location AHOPF00049 # 10.0.57.46
+72720b location AHOPF00050 # 10.0.57.47
+e3daaa location AHOPF00051 # 10.0.120.36
+c4ce2d location AHOPF00052 # 10.0.121.82
+f1ead0 location AHOPF00053 # 10.0.120.93
+cd3638 location AHOPF00054 # 10.0.119.29
+d3bb55 location AHOPF00055 # 10.0.120.6
+08c7c6 location AHOPF00056 # 10.0.121.83
+93a040 location AHOPF00057 # 10.0.120.148
+6f20ae location AHOPF00058 # 10.0.120.60
+2b24e8 location AHOPF00059 # 10.0.120.21
+8812ce location AHOPF00060 # 10.0.121.21
+e595de location AHOPF00061 # 10.0.120.22
+0adba5 location AHOPF00062 # 10.0.118.35
+7e2767 location AHOPF00063 # 10.0.121.64
+36a526 location AHOPF00064 # 10.0.120.45
+029eb6 location AHOPF00065 # 10.0.120.15
+4121df location AHOPF00066 # 10.0.120.14
+71964f location AHOPF00067 # 10.0.120.18
+db1480 location AHOPF00068 # 10.0.120.20
+283ff7 location AHOPF00069 # 10.0.119.44
+620567 location AHOPF00070 # 10.0.120.97
+be27de location AHOPF00071 # 10.0.120.89
+658caa location AHOPF00072 # 10.0.120.94
+0fc1a9 location AHOPF00073 # 10.0.120.1
+1680e1 location AHOPF00074 # 10.0.120.13
+c6cbe1 location AHOPF00075 # 10.0.120.10
+2e67dc location AHOPF00076 # 10.0.115.118
+26fe6a location AHOPF00077 # 10.0.120.35
+ddb214 location AHOPF00078 # 10.0.120.25
+aa775d location AHOPF00079 # 10.0.120.30
+e97edc location AHOPF00080 # 10.0.121.104
+4d79ed location AHOPF00081 # 10.0.120.2
+b8ef7f location AHOPF00082 # 10.0.117.72
+6296be location AHOPF00083 # 10.0.116.89
+761064 location AHOPF00084 # 10.0.115.79
+2c72ed location AHOPF00085 # 10.0.116.78
+ac9e3b location AHOPF00086 # 10.0.115.57
+9f2cc0 location AHOPF00087 # 10.0.116.76
+b78cd3 location AHOPF00088 # 10.0.116.64
+b97aec location AHOPF00089 # 10.0.117.25
+1ec256 location AHOPF00090 # 10.0.116.45
+9ea85e location AHOPF00091 # 10.0.116.63
+7a4cbf location AHOPF00092 # 10.0.116.26
+8338dc location AHOPF00093 # 10.0.116.39
+a5e807 location AHOPF00094 # 10.0.116.46
+e51438 location AHOPF00095 # 10.0.118.93
+cbc634 location AHOPF00096 # 10.0.118.84
+73d5cd location AHOPF00097 # 10.0.119.67
+49be6d location AHOPF00098 # 10.0.118.79
+cbc77e location AHOPF00099 # 10.0.118.106
+9c7529 location AHOPF00100 # 10.0.119.57
+79abef location AHOPF00101 # 10.0.117.98
+162760 location AHOPF00102 # 10.0.116.59
+a7f562 location AHOPF00103 # 10.0.115.97
+1151fd location AHOPF00104 # 10.0.116.4
+918961 location AHOPF00105 # 10.0.117.156
+b5632a location AHOPF00106 # 10.0.116.22
+6241c4 location AHOPF00107 # 10.0.117.67
+e5de91 location AHOPF00108 # 10.0.118.105
+06043c location AHOPF00109 # 10.0.115.28
+4ce146 location AHOPF00110 # 10.0.116.42
+aa104f location AHOPF00111 # 10.0.116.28
+8cd4b8 location AHOPF00112 # 10.0.115.39
+45e374 location AHOPF00113 # 10.0.116.25
+f35825 location AHOPF00114 # 10.0.118.74
+377938 location AHOPF00115 # 10.0.119.102
+fb97b4 location AHOPF00116 # 10.0.119.64
+49bc94 location AHOPF00117 # 10.0.119.80
+dbd805 location AHOPF00118 # 10.0.118.82
+e18f8f location AHOPF00119 # 10.0.118.58
+5924ed location AHOPF00120 # 10.0.117.101
+862df7 location AHOPF00121 # 10.0.116.35
+b621e4 location AHOPF00122 # 10.0.115.89
+14f506 location AHOPF00123 # 10.0.115.73
+11e15c location AHOPF00124 # 10.0.121.17
+ec49d0 location AHOPF00125 # 10.0.119.98
+bc1f98 location AHOPF00126 # 10.0.121.48
+98d6ae location AHOPF00127 # 10.0.116.56
+70245b location AHOPF00128 # 10.0.115.9
+1fe9d4 location AHOPF00129 # 10.0.116.66
+b5cf99 location AHOPF00130 # 10.0.116.143
+3f4abe location AHOPF00131 # 10.0.119.68
+42ba91 location AHOPF00132 # 10.0.119.65
+9da4e2 location AHOPF00133 # 10.0.117.2
+c5dfea location AHOPF00134 # 10.0.115.99
+f01d71 location AHOPF00135 # 10.0.116.153
+1f2763 location AHOPF00136 # 10.0.115.4
+69272e location AHOPF00137 # 10.0.119.87
+d5f0df location AHOPF00138 # 10.0.116.102
+5f63c0 location AHOPF00139 # 10.0.115.23
+e3558c location AHOPF00140 # 10.0.116.1
+dbec2a location AHOPF00141 # 10.0.116.113
+c97eeb location AHOPF00142 # 10.0.115.69
+fc42af location AHOPF00143 # 10.0.117.61
+41dd5d location AHOPF00144 # 10.0.119.93
+1fb534 location AHOPF00145 # 10.0.119.85
+96b4d0 location AHOPF00146 # 10.0.115.16
+ebbec9 location AHOPF00147 # 10.0.117.73
+49f59c location AHOPF00148 # 10.0.117.86
+8c0b48 location AHOPF00149 # 10.0.115.3
+f4edef location AHOPF00150 # 10.0.119.95
+67ad2b location AHOPF00151 # 10.0.115.74
+756c72 location AHOPF00152 # 10.0.116.19
+f01cc1 location AHOPF00153 # 10.0.115.82
+91b80f location AHOPF00154 # 10.0.117.159
+b99f63 location AHOPF00155 # 10.0.115.22
+81e8ca location AHOPF00156 # 10.0.115.68
+063844 location AHOPF00157 # 10.0.119.105
+013fb7 location AHOPF00158 # 10.0.115.27
+a7a6fd location AHOPF00159 # 10.0.115.20
+d2f90b location AHOPF00160 # 10.0.115.58
+43dfaa location AHOPF00161 # 10.0.119.69
+954d6b location AHOPF00162 # 10.0.117.160
+f9f468 location AHOPF00163 # 10.0.116.29
+1bf925 location AHOPF00164 # 10.0.115.37
+4e7242 location AHOPF00165 # 10.0.115.70
+0ed7c3 location AHOPF00166 # 10.0.119.91
+107a3f location AHOPF00167 # 10.0.115.26
+a28e76 location AHOPF00168 # 10.0.116.3
+680629 location AHOPF00169 # 10.0.115.75
+907d41 location AHOPF00170 # 10.0.117.87
+f73afd location AHOPF00171 # 10.0.116.36
+5d3a76 location AHOPF00172 # 10.0.117.3
+d7e7c1 location AHOPF00173 # 10.0.121.61
+a4a384 location AHOPF00174 # 10.0.121.99
+325536 location AHOPF00175 # 10.0.121.56
+538782 location AHOPF00176 # 10.0.120.79
+0b195c location AHOPF00177 # 10.0.121.98
+ed93d9 location AHOPF00178 # 10.0.121.97
+2c8cd5 location AHOPF00179 # 10.0.121.60
+8ce0da location AHOPF00180 # 10.0.118.3
+9b627a location AHOPF00181 # 10.0.119.38
+7db077 location AHOPF00182 # 10.0.119.26
+cb2ee7 location AHOPF00183 # 10.0.121.57
+95c8c3 location AHOPF00184 # 10.0.119.54
+251427 location AHOPF00185 # 10.0.119.11
+3e45c9 location AHOPF00186 # 10.0.120.157
+9a17ab location AHOPF00187 # 10.0.120.132
+b8e18b location AHOPF00188 # 10.0.121.66
+02e7da location AHOPF00189 # 10.0.121.126
+c7d88a location AHOPF00190 # 10.0.119.32
+fbfc4b location AHOPF00191 # 10.0.120.161
+4f54c6 location AHOPF00192 # 10.0.119.43
+e3ec19 location AHOPF00193 # 10.0.120.150
+4ec743 location AHOPF00194 # 10.0.120.149
+48deba location AHOPF00195 # 10.0.118.20
+d0f1c5 location AHOPF00196 # 10.0.120.110
+083967 location AHOPF00197 # 10.0.121.154
+bda514 location AHOPF00198 # 10.0.118.16
+ae4e94 location AHOPF00199 # 10.0.118.25
+7ace88 location AHOPF00200 # 10.0.118.30
+92e8df location AHOPF00201 # 10.0.120.119
+361299 location AHOPF00202 # 10.0.120.134
+38f67d location AHOPF00203 # 10.0.120.124
+e8b482 location AHOPF00204 # 10.0.120.117
+5b0b0f location AHOPF00205 # 10.0.121.117
+2c38f0 location AHOPF00206 # 10.0.121.151
+7f4c05 location AHOPF00207 # 10.0.120.154
+6d6ee5 location AHOPF00208 # 10.0.121.9
+b06869 location AHOPF00209 # 10.0.121.130
+c6721f location AHOPF00210 # 10.0.120.136
+1abfaa location AHOPF00211 # 10.0.118.11
+291e6a location AHOPF00212 # 10.0.120.139
+3f1222 location AHOPF00213 # 10.0.120.126
+453434 location AHOPF00214 # 10.0.120.125
+81ceb2 location AHOPF00215 # 10.0.121.67
+9ac0b4 location AHOPF00216 # 10.0.119.42
+439e29 location AHOPF00217 # 10.0.121.141
+98a4dc location AHOPF00218 # 10.0.121.127
+dbf995 location AHOPF00219 # 10.0.121.118
+e705e2 location AHOPF00220 # 10.0.119.20
+a41d98 location AHOPF00221 # 10.0.115.158
+9c3f82 location AHOPF00222 # 10.0.117.123
+f4803e location AHOPF00223 # 10.0.115.109
+aef536 location AHOPF00224 # 10.0.115.125
+36138b location AHOPF00225 # 10.0.121.129
+ebfae9 location AHOPF00226 # 10.0.121.149
+6956cf location AHOPF00227 # 10.0.121.112
+1da911 location AHOPF00228 # 10.0.121.87
+1d0081 location AHOPF00229 # 10.0.115.137
+30a113 location AHOPF00230 # 10.0.115.123
+6462f9 location AHOPF00231 # 10.0.120.145
+511c0f location AHOPF00232 # 10.0.120.62
+6eb571 location AHOPF00233 # 10.0.120.109
+c3e42b location AHOPF00234 # 10.0.121.148
+909f42 location AHOPF00235 # 10.0.119.14
+f77c16 location AHOPF00236 # 10.0.120.57
+231e10 location AHOPF00237 # 10.0.121.37
+319daa location AHOPF00238 # 10.0.121.155
+9350c9 location AHOPF00239 # 10.0.121.115
+ffbd34 location AHOPF00240 # 10.0.120.74
+d67876 location AHOPF00241 # 10.0.121.158
+c3ca0b location AHOPF00242 # 10.0.121.156
+6e9d31 location AHOPF00243 # 10.0.121.146
+58d134 location AHOPF00244 # 10.0.116.119
+0f40ca location AHOPF00245 # 10.0.115.121
+a3b0e2 location AHOPF00246 # 10.0.115.150
+b39993 location AHOPF00247 # 10.0.116.156
+611b3a location AHOPF00248 # 10.0.116.130
+8c5e6a location AHOPF00249 # 10.0.116.127
+050e35 location AHOPF00250 # 10.0.117.138
+10c92c location AHOPF00251 # 10.0.115.136
+f643d6 location AHOPF00252 # 10.0.116.158
+fe9dbc location AHOPF00253 # 10.0.115.110
+182fb6 location AHOPF00254 # 10.0.116.155
+8060b1 location AHOPF00255 # 10.0.116.125
+49d54c location AHOPF00256 # 10.0.115.134
+feb499 location AHOPF00257 # 10.0.115.130
+bf93f7 location AHOPF00258 # 10.0.115.151
+4be16a location AHOPF00259 # 10.0.115.144
+974b8e location AHOPF00260 # 10.0.115.159
+d086cc location AHOPF00261 # 10.0.116.148
+7bd54d location AHOPF00262 # 10.0.116.111
+683eaf location AHOPF00263 # 10.0.117.132
+47f82c location AHOPF00264 # 10.0.115.131
+cc0723 location AHOPF00265 # 10.0.117.137
+2c336c location AHOPF00266 # 10.0.117.111
+3b56cc location AHOPF00267 # 10.0.117.142
+ede1d7 location AHOPF00268 # 10.0.115.146
+25ab47 location AHOPF00269 # 10.0.116.109
+212177 location AHOPF00270 # 10.0.117.149
+7401f4 location AHOPF00271 # 10.0.118.137
+7c7fa9 location AHOPF00272 # 10.0.118.141
+e249c4 location AHOPF00273 # 10.0.117.126
+25c894 location AHOPF00274 # 10.0.118.136
+da40e8 location AHOPF00275 # 10.0.118.132
+ee2a52 location AHOPF00276 # 10.0.119.152
+80a3e3 location AHOPF00277 # 10.0.119.158
+0763a7 location AHOPF00278 # 10.0.118.154
+b188c8 location AHOPF00279 # 10.0.119.121
+c1e884 location AHOPF00280 # 10.0.118.116
+8daee1 location AHOPF00281 # 10.0.119.120
+1369fd location AHOPF00282 # 10.0.118.133
+0d3787 location AHOPF00283 # 10.0.117.112
+a19897 location AHOPF00284 # 10.0.118.145
+525871 location AHOPF00285 # 10.0.117.125
+318543 location AHOPF00286 # 10.0.118.161
+0676bb location AHOPF00287 # 10.0.118.160
+0c978c location AHOPF00288 # 10.0.119.149
+8744d5 location AHOPF00289 # 10.0.118.119
+e219fe location AHOPF00290 # 10.0.117.148
+6254a4 location AHOPF00291 # 10.0.117.115
+e8a87c location AHOPF00292 # 10.0.117.130
+da7641 location AHOPF00293 # 10.0.115.128
+bbc88e location AHOPF00294 # 10.0.116.140
+4b0c05 location AHOPF00295 # 10.0.115.115
+cb5f83 location AHOPF00296 # 10.0.116.123
+7a1dba location AHOPF00297 # 10.0.115.160
+59b276 location AHOPF00298 # 10.0.117.153
+4ee240 location AHOPF00299 # 10.0.116.146
+3b5e37 location AHOPF00300 # 10.0.115.119
+64e8d9 location AHOPF00301 # 10.0.116.133
+cc9fd9 location AHOPF00302 # 10.0.118.117
+79c07f location AHOPF00303 # 10.0.116.138
+fd2246 location AHOPF00304 # 10.0.20.1
+7590b3 location AHOPF00305 # 10.0.20.2
+010ecd location AHOPF00306 # 10.0.20.3
+bfd0a3 location AHOPF00307 # 10.0.20.4
+77253f location AHOPF00308 # 10.0.20.5
+952620 location AHOPF00309 # 10.0.20.6
+02ed3b location AHOPF00310 # 10.0.20.7
+02e78e location AHOPF00311 # 10.0.20.8
+23a3fb location AHOPF00312 # 10.0.20.9
+6f82b5 location AHOPF00313 # 10.0.20.10
+e09d11 location AHOPF00314 # 10.0.20.11
+519e2d location AHOPF00315 # 10.0.20.12
+a3fe0e location AHOPF00316 # 10.0.20.13
+d9cb06 location AHOPF00317 # 10.0.20.14
+93ba23 location AHOPF00318 # 10.0.20.15
+2639b1 location AHOPF00319 # 10.0.20.16
+0e7129 location AHOPF00320 # 10.0.20.17
+285eaa location AHOPF00321 # 10.0.20.18
+7b5858 location AHOPF00322 # 10.0.20.19
+3b82a6 location AHOPF00323 # 10.0.20.20
+f73f65 location AHOPF00324 # 10.0.20.21
+80e1a3 location AHOPF00325 # 10.0.20.22
+73b3d8 location AHOPF00326 # 10.0.20.23
+e43500 location AHOPF00327 # 10.0.20.24
+a27a14 location AHOPF00328 # 10.0.20.25
+b5df40 location AHOPF00329 # 10.0.20.26
+5142da location AHOPF00330 # 10.0.20.27
+330ac8 location AHOPF00331 # 10.0.20.28
+c6eb8f location AHOPF00332 # 10.0.20.29
+77f364 location AHOPF00333 # 10.0.20.30
+f476f8 location AHOPF00334 # 10.0.20.31
+746d1e location AHOPF00335 # 10.0.20.32
+fd9612 location AHOPF00336 # 10.0.20.33
+253618 location AHOPF00337 # 10.0.20.34
+b262c5 location AHOPF00338 # 10.0.20.35
+3e7458 location AHOPF00339 # 10.0.20.36
+ef5d97 location AHOPF00340 # 10.0.20.37
+04790f location AHOPF00341 # 10.0.20.38
+a2b940 location AHOPF00342 # 10.0.20.39
+f6b2c7 location AHOPF00343 # 10.0.20.40
+389091 location AHOPF00344 # 10.0.20.41
+ebad13 location AHOPF00345 # 10.0.20.42
+fbac47 location AHOPF00346 # 10.0.20.43
+3a2f7e location AHOPF00347 # 10.0.20.44
+62e3a0 location AHOPF00348 # 10.0.20.45
+ea8118 location AHOPF00349 # 10.0.20.46
+83eb7f location AHOPF00350 # 10.0.20.47
+4fe0e1 location AHOPF00351 # 10.0.20.48
+cd37f8 location AHOPF00352 # 10.0.20.49
+eaa7bc location AHOPF00353 # 10.0.20.50
+45ecb5 location AHOPF00354 # 10.0.20.51
+b7ee47 location AHOPF00355 # 10.0.20.52
+af594a location AHOPF00356 # 10.0.20.53
+267ad2 location AHOPF00357 # 10.0.20.54
+08ac34 location AHOPF00358 # 10.0.20.62
+e467c5 location AHOPF00359 # 10.0.20.63
+d1027e location AHOPF00360 # 10.0.20.64
+367c9d location AHOPF00361 # 10.0.20.65
+f7b0fc location AHOPF00362 # 10.0.20.66
+5c5d11 location AHOPF00363 # 10.0.20.67
+a2affd location AHOPF00364 # 10.0.20.68
+a6565f location AHOPF00365 # 10.0.20.69
+e31317 location AHOPF00366 # 10.0.20.70
+2c024b location AHOPF00367 # 10.0.20.71
+855e55 location AHOPF00368 # 10.0.20.72
+afad02 location AHOPF00369 # 10.0.20.73
+17ea41 location AHOPF00370 # 10.0.20.74
+24273b location AHOPF00371 # 10.0.20.75
+480a1a location AHOPF00372 # 10.0.20.76
+4ed093 location AHOPF00373 # 10.0.20.77
+08ef17 location AHOPF00374 # 10.0.20.78
+e84233 location AHOPF00375 # 10.0.20.79
+bac4af location AHOPF00376 # 10.0.20.80
+c29470 location AHOPF00377 # 10.0.20.81
+8e9026 location AHOPF00378 # 10.0.20.82
+1f4a0d location AHOPF00379 # 10.0.20.83
+0fc9a9 location AHOPF00380 # 10.0.20.84
+a64893 location AHOPF00381 # 10.0.20.85
+b79b7a location AHOPF00382 # 10.0.20.86
+308614 location AHOPF00383 # 10.0.20.87
+d9e3f4 location AHOPF00384 # 10.0.20.88
+4a2a17 location AHOPF00385 # 10.0.20.89
+72109e location AHOPF00386 # 10.0.20.90
+3a6a42 location AHOPF00387 # 10.0.20.91
+8189d5 location AHOPF00388 # 10.0.20.92
+93663e location AHOPF00389 # 10.0.20.93
+a7f120 location AHOPF00390 # 10.0.20.94
+76dfa0 location AHOPF00391 # 10.0.20.95
+9b356e location AHOPF00392 # 10.0.20.96
+cf8737 location AHOPF00393 # 10.0.20.97
+b5232f location AHOPF00394 # 10.0.20.98
+212810 location AHOPF00395 # 10.0.20.99
+d317f1 location AHOPF00396 # 10.0.20.100
+9c071b location AHOPF00397 # 10.0.20.101
+faaab4 location AHOPF00398 # 10.0.20.102
+aab92e location AHOPF00399 # 10.0.20.103
+2efa3c location AHOPF00400 # 10.0.20.104
+42bd7e location AHOPF00401 # 10.0.20.105
+8d7d97 location AHOPF00402 # 10.0.20.106
+59141e location AHOPF00403 # 10.0.20.107
+8c9189 location AHOPF00404 # 10.0.20.108
+469251 location AHOPF00405 # 10.0.20.109
+5783fe location AHOPF00406 # 10.0.20.110
+6b9f94 location AHOPF00407 # 10.0.20.111
+8da327 location AHOPF00408 # 10.0.20.112
+ location AHOPF00409 # 10.0.20.113
+e549f5 location AHOPF00410 # 10.0.20.114
+218527 location AHOPF00411 # 10.0.20.115
+bc472e location AHOPF00412 # 10.0.20.116
+3fc24e location AHOPF00413 # 10.0.20.117
+19756a location AHOPF00414 # 10.0.20.118
+17ce8c location AHOPF00415 # 10.0.20.119
+8afb1b location AHOPF00416 # 10.0.20.120
+37d5ce location AHOPF00417 # 10.0.20.121
+be62a6 location AHOPF00418 # 10.0.20.122
+3e5528 location AHOPF00419 # 10.0.20.123
+a47fd5 location AHOPF00420 # 10.0.20.124
+ca77dd location AHOPF00421 # 10.0.20.125
+e0d12f location AHOPF00422 # 10.0.20.126
+bcb08b location AHOPF00423 # 10.0.20.127
+22f5be location AHOPF00424 # 10.0.20.128
+8d788a location AHOPF00425 # 10.0.20.129
+0a5ffb location AHOPF00426 # 10.0.20.130
+dc6882 location AHOPF00427 # 10.0.20.131
+dfa90f location AHOPF00428 # 10.0.20.132
+d162e2 location AHOPF00429 # 10.0.20.133
+638597 location AHOPF00430 # 10.0.20.134
+055a7f location AHOPF00431 # 10.0.20.135
+93db98 location AHOPF00432 # 10.0.20.136
+204b63 location AHOPF00433 # 10.0.20.137
+a8b74f location AHOPF00434 # 10.0.20.138
+29c5a2 location AHOPF00435 # 10.0.20.139
+12e887 location AHOPF00436 # 10.0.20.140
+dd9d7b location AHOPF00437 # 10.0.20.141
+8ffbc2 location AHOPF00438 # 10.0.20.142
+03e6c8 location AHOPF00439 # 10.0.20.143
+5da055 location AHOPF00440 # 10.0.20.144
+069009 location AHOPF00441 # 10.0.20.145
+0f6f9a location AHOPF00442 # 10.0.20.146
+3d6ba7 location AHOPF00443 # 10.0.20.147
+48ae69 location AHOPF00444 # 10.0.20.148
+e1ebc9 location AHOPF00445 # 10.0.20.149
+07a03a location AHOPF00446 # 10.0.20.150
+0dfa04 location AHOPF00447 # 10.0.20.151
+47be03 location AHOPF00448 # 10.0.20.152
+7be20a location AHOPF00449 # 10.0.20.153
+333438 location AHOPF00450 # 10.0.20.154
+d7ca01 location AHOPF00451 # 10.0.20.155
+028d18 location AHOPF00452 # 10.0.20.156
+95f51f location AHOPF00453 # 10.0.20.157
+662be7 location AHOPF00454 # 10.0.20.158
+d7d3e4 location AHOPF00455 # 10.0.20.159
+999c20 location AHOPF00456 # 10.0.20.160
+# 60 extra machines added 12/9/19
+b8f620 location AHOPF0XTRA # 10.0.119.81
+168c5c location AHOPF0XTRA # 10.0.120.115
 5f8428 location AHOPF0XTRA # 10.0.51.79
 485d51 location AHOPF0XTRA # 10.0.51.81
 d2c781 location AHOPF0XTRA # 10.0.51.86
@@ -1066,6 +1072,7 @@ c80a8e location AHOPF0XTRA # 10.0.65.29
 29a2d1 location AHOPF0XTRA # 10.0.65.80
 1d7e09 location AHOPF0XTRA # 10.0.65.117
 35a425 location AHOPF0XTRA # 10.0.65.120
+a61391 location AHOPF00076 # 10.0.119.46
 
 ## throttle
 #12:08 AM 12.04.19 - exp increase from 5700 to 5856 TH/s
@@ -1268,8 +1275,6 @@ f6b2c7 uncork 1574994295
 267ad2 uncork 1574994295
 8d7d97 maxwatts 1450
 8d7d97 uncork 1574994295
-
-
 a27a14 uncork 1574890630
 253618 uncork 1574890630
 fbac47 uncork 1574890630
@@ -1290,7 +1295,6 @@ dc6882 uncork 1574890630
 93db98 uncork 1574890630
 069009 uncork 1574890630
 0f6f9a uncork 1574890630
-
 519e2d uncork 1574888185
 
 ## fans
@@ -1514,172 +1518,9 @@ d7ca01 retune 1575436242 # 1366/1450, 16.6 TH/s
 d7d3e4 retune 1575436242 # 1382/1450, 16.2 TH/s
 999c20 retune 1575436242 # 1314/1450, 15.5 TH/s
 
-
-
 ## resets
-0ed7c3 reset 1574876305
-291e6a reset 1574876305
-8afb1b reset 1574876305
-ac9e3b reset 1574876305
-fd9612 reset 1574876305
-855e55 reset 1574876305
-3b82a6 reset 1574876305
-fbac47 reset 1574876305
-283ff7 reset 1574876305
-9ac0b4 reset 1574876305
-95c8c3 reset 1574876305
-0dfa04 reset 1574876305
-cd3638 reset 1574876305
-45ecb5 reset 1574876305
-48deba reset 1574876305
-f476f8 reset 1574876305
-49be6d reset 1574876305
-a41d98 reset 1574876305
-b8ef7f reset 1574876305
-37d5ce reset 1574876305
-7a1dba reset 1574876305
-b06869 reset 1574876305
-5ac22f reset 1574876305
-0a5ffb reset 1574876305
-4b0c05 reset 1574876305
-cb7a3d reset 1574876305
-0697d7 reset 1574876305
-b63fb1 reset 1574876305
-6e7701 reset 1574876305
-d8e7a3 reset 1574876305
-5680b4 reset 1574876305
-abb6f3 reset 1574876305
-d22a39 reset 1574876305
-80b6cc reset 1574876305
-c123c8 reset 1574876305
-55b5cb reset 1574876305
-84794b reset 1574876305
-768cf3 reset 1574876305
-b93f22 reset 1574876305
-c56a90 reset 1574876305
-e886b1 reset 1574876305
-4bdbe0 reset 1574876305
-d56eaf reset 1574876305
-aa49d8 reset 1574876305
-b46ce7 reset 1574876305
-7c5703 reset 1574876305
-f5fdc7 reset 1574876305
-d3bb55 reset 1574876305
-8812ce reset 1574876305
-e595de reset 1574876305
-0adba5 reset 1574876305
-7e2767 reset 1574876305
-36a526 reset 1574876305
-029eb6 reset 1574876305
-4121df reset 1574876305
-71964f reset 1574876305
-db1480 reset 1574876305
-620567 reset 1574876305
-0fc1a9 reset 1574876305
-1680e1 reset 1574876305
-c6cbe1 reset 1574876305
-2e67dc reset 1574876305
-26fe6a reset 1574876305
-4d79ed reset 1574876305
-6296be reset 1574876305
-761064 reset 1574876305
-7a4cbf reset 1574876305
-8338dc reset 1574876305
-cbc77e reset 1574876305
-9c7529 reset 1574876305
-e5de91 reset 1574876305
-4ce146 reset 1574876305
-42ba91 reset 1574876305
-5f63c0 reset 1574876305
-e3558c reset 1574876305
-dbec2a reset 1574876305
-fc42af reset 1574876305
-96b4d0 reset 1574876305
-013fb7 reset 1574876305
-d2f90b reset 1574876305
-f9f468 reset 1574876305
-1bf925 reset 1574876305
-f73afd reset 1574876305
-5d3a76 reset 1574876305
-8ce0da reset 1574876305
-7db077 reset 1574876305
-4f54c6 reset 1574876305
-bda514 reset 1574876305
-ae4e94 reset 1574876305
-92e8df reset 1574876305
-6d6ee5 reset 1574876305
-1abfaa reset 1574876305
-6956cf reset 1574876305
-1da911 reset 1574876305
-f77c16 reset 1574876305
-ffbd34 reset 1574876305
-58d134 reset 1574876305
-0f40ca reset 1574876305
-182fb6 reset 1574876305
-7401f4 reset 1574876305
-0763a7 reset 1574876305
-4ee240 reset 1574876305
-79c07f reset 1574876305
-7590b3 reset 1574876305
-6f82b5 reset 1574876305
-a3fe0e reset 1574876305
-285eaa reset 1574876305
-7b5858 reset 1574876305
-73b3d8 reset 1574876305
-b5df40 reset 1574876305
-c6eb8f reset 1574876305
-746d1e reset 1574876305
-04790f reset 1574876305
-f6b2c7 reset 1574876305
-ebad13 reset 1574876305
-62e3a0 reset 1574876305
-267ad2 reset 1574876305
-2c024b reset 1574876305
-24273b reset 1574876305
-a64893 reset 1574876305
-4a2a17 reset 1574876305
-3a6a42 reset 1574876305
-93663e reset 1574876305
-76dfa0 reset 1574876305
-9b356e reset 1574876305
-cf8737 reset 1574876305
-d317f1 reset 1574876305
-2efa3c reset 1574876305
-8d7d97 reset 1574876305
-59141e reset 1574876305
-6b9f94 reset 1574876305
-3fc24e reset 1574876305
-17ce8c reset 1574876305
-3e5528 reset 1574876305
-a47fd5 reset 1574876305
-22f5be reset 1574876305
-8d788a reset 1574876305
-dfa90f reset 1574876305
-d162e2 reset 1574876305
-638597 reset 1574876305
-055a7f reset 1574876305
-93db98 reset 1574876305
-29c5a2 reset 1574876305
-12e887 reset 1574876305
-dd9d7b reset 1574876305
-8ffbc2 reset 1574876305
-03e6c8 reset 1574876305
-5da055 reset 1574876305
-0f6f9a reset 1574876305
-48ae69 reset 1574876305
-e1ebc9 reset 1574876305
-47be03 reset 1574876305
-d7ca01 reset 1574876305
-d7d3e4 reset 1574876305
 
-8c0b48 reset 1573789137
-318543 reset 1573327014
-8c0b48 reset 1573326286
-e0d12f reset 1573325116
-2c8cd5 reset 1573325116
-4f54c6 reset 1573325116
+## removals
 
 ## asic password
 asicpass admin
-
-
