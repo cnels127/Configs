@@ -45,10 +45,11 @@ vlan 10.0.68.109-110
 97f21b location KWRIG00002
 29bca0 location KWRIG00003
 2a7ac0 location KWRIG00004
+# extra machines added 12/19/19
+2930ca location KWRIG0XTRA # 10.0.118.1
 
 ## throttle
 29bca0 uncork 1576590388
-
 29bca0 uncork 1575736383
 
 ## fans
