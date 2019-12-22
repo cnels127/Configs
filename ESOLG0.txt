@@ -38,8 +38,6 @@ global uncork 1574918149
 # global reset 1
 # global panelpass gj83Nkgikg
 
-329e8a allowed no
-
 ## throttle
 # 12:41 AM EST 12.4.19 update
 c4aa6b maxwatts 1450
@@ -262,6 +260,9 @@ b6fba8 retune 1575438034 # 1388/1450, 16.2 TH/s
 0c3772 retune 1575438034 # 876/967, 9.1 TH/s
 
 ## resets
+33e99b reset 1577054041
+71e6fe reset 1577054041
+329e8a reset 1577054041
 # throttled machines
 a47932 reset 1575047711
 a7b5ce reset 1575047711
