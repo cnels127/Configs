@@ -21,7 +21,7 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1500
+global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
@@ -108,6 +108,7 @@ c1a324 location RACAY0XTRA # 10.0.118.71
 ## reboots
  
 ## resets
+095c6d reset 1577083317
 2c65da reset 1574968127
 6c2312 reset 1574962372
 74a07a reset 1574962372
