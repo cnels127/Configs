@@ -23,19 +23,18 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-global throttle 50
+global throttle 25
 global fanspeed 85
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 global panelclear 999
+# global panelpass gj83Nkgikg
 
 # global retune 1
-# global reboot 1
 # global reboot 1574881590
-global uncork 1576096182
+global uncork 1577137204
 # global reset 1574882053
-# global panelpass gj83Nkgikg
 
 ## vlans
 # vlan 10.0.54.126-126
