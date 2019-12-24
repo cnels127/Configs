@@ -23,7 +23,7 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-global throttle 50
+global throttle 25
 global fanspeed 85
 global fansaver yes
 global blinkred idle
@@ -84,6 +84,7 @@ fcb53d location DDUNN0XTRA # 10.0.51.76
 ## reboots
 
 ## resets
+968831 reset 1577217344
 787c22 reset 1576120909
 0f26d2 reset 1576120909
 968831 reset 1575670470 # 10.0.56.86 ddunn00015
