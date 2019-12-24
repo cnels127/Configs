@@ -25,7 +25,7 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-global throttle 50
+global throttle 25
 global fanspeed 85
 global fansaver yes
 global blinkred idle
@@ -181,6 +181,7 @@ a8ee8a location HFISC0XTRA # 10.0.51.129
 ## reboots
 
 ## resets
+084f48 reset 1577173554
 69c26c reset 1577170255
 32db9b reset 1575585562 # 10.0.77.95 hfisc00049
 f0acc9 reset 1575585562 # 10.0.60.83 hfisc00051
