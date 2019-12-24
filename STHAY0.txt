@@ -23,7 +23,7 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-global throttle 50
+global throttle 25
 global fanspeed 85
 global fansaver yes
 global blinkred idle
@@ -47,6 +47,7 @@ f450a0 location STHAY00002
 546a5f location STHAY00003
 
 ## throttle
+132245 uncork 1577216845
 
 ## fans
 
