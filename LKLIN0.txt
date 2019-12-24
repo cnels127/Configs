@@ -23,7 +23,7 @@ global asicboost yes
 global autotune yes
 global maxwatts 1450
 global maxtemp 90
-global throttle 50
+global throttle 25
 global fanspeed 85
 global fansaver yes
 global blinkred idle
@@ -116,6 +116,7 @@ e4749b location LKLIN0XTRA # 10.0.54.41
 ## reboots
 
 ## resets
+67a2f3 reset 1577172109
 54b1c1 reset 1577170874
 
 ## asic password
