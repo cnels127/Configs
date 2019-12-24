@@ -23,7 +23,7 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-global throttle 50
+global throttle 25
 global fanspeed 85
 global fansaver yes
 global blinkred idle
@@ -145,6 +145,7 @@ bf1870 uncork 1574793295
 ## reboots
 
 ## resets
+364899 reset 1577216951
 c7c75f reset 1574964310
 bf1870 reset 1574964310
 f30ccf reset 1574964310
