@@ -23,7 +23,7 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-global throttle 50
+global throttle 25
 global fanspeed 85
 global fansaver yes
 global blinkred idle
@@ -51,7 +51,7 @@ aa75d6 location NARMO00003
 # extra machines added 11/23/19
 3518c2 location NARMO0XTRA # 10.0.116.49
 a1f2ff location NARMO0XTRA # 10.0.117.93
-a1f2ff maxwatts 1050
+
 
 ## throttle
 8bdc72 uncork 1576789031
@@ -70,6 +70,7 @@ da7d9d reboot 1574717999 # 10.0.53.142 narmo0xtra
 aa75d6 reboot 1574717999 # 10.0.66.110 narmo00003
 
 ## resets
+a1f2ff reset 1577173413
 76e85b reset 1573248116
 aa75d6 reset 1573159170
 
