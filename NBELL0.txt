@@ -23,7 +23,7 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-global throttle 50
+global throttle 25
 global fanspeed 85
 global fansaver yes
 global blinkred idle
@@ -670,6 +670,7 @@ f0f240 reboot 1573874758 # 10.0.118.121 nbell00197
 a0cac7 reboot 1573874758 # 10.0.119.160 nbell00204
 
 ## resets
+620f30 reset 1577174474
 ded003 reset 1577172310
 368765 reset 1577172310
 721b4c reset 1577118145
