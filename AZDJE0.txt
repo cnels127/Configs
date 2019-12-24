@@ -23,7 +23,7 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-global throttle 50
+global throttle 25
 global fanspeed 85
 global fansaver yes
 global blinkred idle
@@ -253,6 +253,8 @@ c02053 location AZDJE0XTRA # 10.0.117.83
 ## reboots
 
 ## resets
+60ea4c reset 1577217198
+2e1f23 reset 1577217198
 8ed68e reset 1577128112
 f8714f reset 1577083014
 23b826 reset 1577083014
