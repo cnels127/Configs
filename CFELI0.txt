@@ -24,7 +24,7 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-global throttle 50
+global throttle 25
 global fanspeed 85
 global fansaver yes
 global blinkred idle
@@ -299,6 +299,7 @@ global uncork 1574719344
 ## reboots
 
 ## resets
+4f3500 reset 1577168739
 adb2fe reset 1577117030
 e2c47c reset 1577117030
 05e2d1 reset 1573744048
