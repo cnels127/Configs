@@ -23,7 +23,7 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-global throttle 50
+global throttle 25
 global fanspeed 85
 global fansaver yes
 global blinkred idle
@@ -59,6 +59,7 @@ d9b3f8 location RHOLL00004
 ## reboots
 
 ## resets
+425b29 reset 1577216763
 434628 reset 1575933014
 434628 reset 1574963494
 425b29 reset 1574963494
