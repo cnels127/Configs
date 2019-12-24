@@ -22,7 +22,7 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-global throttle 50
+global throttle 25
 global fanspeed 85
 global fansaver yes
 global blinkred idle
@@ -1024,6 +1024,7 @@ c899a0 location FKRAU00088
 ## reboots
 
 ## resets
+ec6e17 reset 1577173038
 2cb81a reset 1577118297
 d156c9 reset 1577084982
 3c6a08 reset 1575601531
