@@ -22,7 +22,7 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-global throttle 50
+global throttle 25
 global fanspeed 85
 global fansaver yes
 global blinkred idle
@@ -175,6 +175,8 @@ a2153e username3 zoubrown
 ## reboots
 
 ## resets
+9751c0 reset 1577172951
+38f9db reset 1577172951
 fe3f38 reset 1577117861
 a2153e reset 1577117861
 002190 reset 1573669190
