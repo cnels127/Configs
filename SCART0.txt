@@ -23,7 +23,7 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-global throttle 50
+global throttle 25
 global fanspeed 85
 global fansaver yes
 global blinkred idle
@@ -331,6 +331,7 @@ c99d5c location SCART00141 # 10.0.120.158
 ## reboots
 
 ## resets
+05d232 reset 1577247618
 03c9af reset 1577085056
 b8aba7 reset 1577082743
 1ebecd reset 1574970715
