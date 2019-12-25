@@ -23,7 +23,7 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-global throttle 50
+global throttle 25
 global fanspeed 85
 global fansaver yes
 global blinkred idle
@@ -60,6 +60,7 @@ b7cd11 location JWORR00007
 ## reboots
 
 ## resets
+362e0a reset 1577247504
 a1c0cf reset 1574925292
 eaee2e reset 1574925292
 362e0a reset 1574925292
