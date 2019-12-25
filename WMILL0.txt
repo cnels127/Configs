@@ -23,7 +23,7 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-global throttle 50
+global throttle 25
 global fanspeed 85
 global fansaver yes
 global blinkred idle
@@ -49,12 +49,15 @@ ed4012 location WMILL00003
 0ae6b9 location WMILL0XTRA # 10.0.118.8
 
 ## throttle
+582483 uncork 1577247422
+582483 uncork 1577247422
 
 ## fans
 
 ## reboots
 
 ## resets
+35740c reset 1577247422
 99707f reset 1575004101
 35740c reset 1574978347
 cb178d reset 1574978347
