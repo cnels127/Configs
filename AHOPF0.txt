@@ -1075,7 +1075,6 @@ c80a8e location AHOPF0XTRA # 10.0.65.29
 a61391 location AHOPF00076 # 10.0.119.46
 
 ## throttle
-fbac47 throttle 25
 
 ## fans
 
@@ -1084,6 +1083,9 @@ fbac47 throttle 25
 ## retunes
 
 ## resets
+8c9189 reset 1577247668
+a7f120 reset 1577247668
+d9e3f4 reset 1577247668
 a61391 reset 1577171177
 d3bb55 reset 1577171177
 c5dfea reset 1577171177
