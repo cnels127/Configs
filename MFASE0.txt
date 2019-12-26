@@ -23,7 +23,7 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-global throttle 50
+global throttle 25
 global fanspeed 85
 global fansaver yes
 global blinkred idle
@@ -43,8 +43,11 @@ vlan 10.0.54.1-1 # extra machine added 11/28/19
 ## locations
 ede705 location MFASE00001
 70adc2 location MFASE0XTRA # extra machine added 11/28/19
+af78ba location MFASE0XTRA # 10.0.120.40 extra machine added 12/26/19
 
 ## throttle
+ede705 uncork 1577385391
+70adc2 uncork 1577385391
 ede705 uncork 1574717882 # 10.0.66.56 mfase00001
 
 ## fans
