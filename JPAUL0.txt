@@ -23,7 +23,7 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-global throttle 50
+global throttle 25
 global fanspeed 85
 global fansaver yes
 global blinkred idle
@@ -56,6 +56,7 @@ a01578 location JPAUL00004
 ## reboots
 
 ## resets
+9c326c reset 1577398813
 b34b28 reset 1574924911
 
 ## asic password
