@@ -23,7 +23,7 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-global throttle 50
+global throttle 25
 global fanspeed 85
 global fansaver yes
 global blinkred idle
@@ -52,6 +52,7 @@ faba2f uncork 1574719075 # 10.0.65.147 tcost00001
 ## reboots
 
 ## resets
+faba2f reset 1577403443
 faba2f reset 1574977223
 
 ## asic password
