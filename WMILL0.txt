@@ -45,8 +45,6 @@ cb178d location WMILL00002
 ed4012 location WMILL00003
 99707f location WMILL00004
 582483 location WMILL00005
-# extra machine added 12/19/19
-0ae6b9 location WMILL0XTRA # 10.0.118.8
 
 ## throttle
 582483 uncork 1577247422
@@ -65,6 +63,9 @@ cb178d reset 1574978347
 cb178d reset 1574125039
 35740c reset 1574125039
 99707f reset 1573940666
+
+## removals
+global remove 0ae6b9
 
 ## asic password
 asicpass admin
