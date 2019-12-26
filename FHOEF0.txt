@@ -23,7 +23,7 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-global throttle 50
+global throttle 25
 global fanspeed 85
 global fansaver yes
 global blinkred idle
@@ -161,6 +161,7 @@ d560da uncork 1576788052
 ## reboots
 
 ## resets
+99d76d reset 1577388344
 d2d829 reset 1573856949
 8342ab reset 1573856949
 bc2299 reset 1573766700
@@ -169,26 +170,3 @@ c16782 reset 1573669390
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
