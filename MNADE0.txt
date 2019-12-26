@@ -23,7 +23,7 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-global throttle 50
+global throttle 25
 global fanspeed 85
 global fansaver yes
 global blinkred idle
@@ -57,6 +57,9 @@ e260d5 location MNADE00009
 # extra machines added 12/6/19
 15891f location MNADE0XTRA # 10.0.54.23
 4055c4 location MNADE0XTRA # 10.0.54.24
+# extra machines added 12/26/19
+location MNADE0XTRA # 10.0.121.152
+location MNADE0XTRA # 10.0.115.1
 
 ## throttle
 15891f uncork 1576799124
