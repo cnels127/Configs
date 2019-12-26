@@ -25,7 +25,7 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-global throttle 50
+global throttle 25
 global fanspeed 85
 global fansaver yes
 global blinkgreen rapid
@@ -74,75 +74,22 @@ f3c9af location HFAUS00012
 11d430 location HFAUS00013
 
 ## throttle
-# s_uncork generated on Dec 18 2019 20:13:30 utc: 1576700010 JB
-335e38 uncork 1576700010 # 10.0.62.81 hfaus00002
-fe7105 uncork 1576700010 # 10.0.65.112 hfaus00010
-d51a5c uncork 1576700010 # 10.0.59.161 hfaus00011
-f3c9af uncork 1576700010 # 10.0.64.104 hfaus00012
-
-# s_uncork generated on Dec 11 2019 23:28:47 utc: 1576106927
-a7fca0 uncork 1576106927 # 10.0.62.37 hfaus00001
-335e38 uncork 1576106927 # 10.0.62.81 hfaus00002
-f3bb3d uncork 1576106927 # 10.0.65.124 hfaus00006
-9157ba uncork 1576106927 # 10.0.63.34 hfaus00009
-fe7105 uncork 1576106927 # 10.0.65.112 hfaus00010
-d51a5c uncork 1576106927 # 10.0.59.161 hfaus00011
-f3c9af uncork 1576106927 # 10.0.64.104 hfaus00012
+6192a4 uncork 1577388277
+fe7105 uncork 1577388277
+d51a5c uncork 1577388277
+11d430 uncork 1577388277
+9157ba uncork 1577388277
+485e13 uncork 1577388277
+a3883c uncork 1577388277
 
 ## fans
 9157ba fansaver no
-9157ba fanspeed 100
+9157ba fanspeed 85
 
 ## reboots
-# s_reboot generated on Nov 25 2019 20:33:11 utc: 1574713991
-a7fca0 reboot 1574713991 # 10.0.62.37 hfaus00001
-335e38 reboot 1574713991 # 10.0.62.81 hfaus00002
-50ff88 reboot 1574713991 # 10.0.61.105 hfaus00008
-f3bb3d reboot 1574713991 # 10.0.65.124 hfaus00006
-6192a4 reboot 1574713991 # 10.0.63.42 hfaus00007
-d51a5c reboot 1574713991 # 10.0.59.161 hfaus00011
-
-# s_reboot generated on Nov 12 2019 18:19:28 utc: 1573582768
-11d430 reboot 1573582768 # 10.0.64.70 hfaus00013
-6192a4 reboot 1573582768 # 10.0.63.42 hfaus00007
-9157ba reboot 1573582768 # 10.0.63.34 hfaus00009
-a3883c reboot 1573582768 # 10.0.57.86 hfaus00002
-f3bb3d reboot 1573582768 # 10.0.65.124 hfaus00006
-d51a5c reboot 1573582768 # 10.0.59.161 hfaus00011
-a072b9 reboot 1573582768 # 10.0.67.95 hfaus00010
-c7c8e8 reboot 1573582768 # 10.0.65.11 hfaus00004
-a7fca0 reboot 1573582768 # 10.0.62.37 hfaus00001
-50ff88 reboot 1573582768 # 10.0.61.105 hfaus00008
-335e38 reboot 1573582768 # 10.0.62.81 hfaus00002
-f3c9af reboot 1573582768 # 10.0.64.104 hfaus00012
-485e13 reboot 1573582768 # 10.0.62.32 hfaus00003
-737fce reboot 1573582768 # 10.0.61.109 hfaus00005
-fe7105 reboot 1573582768 # 10.0.65.112 hfaus00010
 
 ## resets
 f3c9af reset 1577173972
-
-# After cleanout reset 12-6-19 JB
-9157ba reset 1575654168
-
-9157ba reset 1575402912
-# After cleanout reset 12-3-19 JB
-d51a5c reset 1575394250 # 10.0.69.161 hfaus00011
-fe7105 reset 1575394050 # 10.0.65.112 hfaus00010
-
-a072b9 reset 1575307182
-11d430 reset 1574811196
-6192a4 reset 1574811196
-6192a4 reset 1574726501 # 10.0.63.42
-
-# s_reset generated on Nov 22 2019 19:44:33 utc: 1574451873
-335e38 reset 1574451873 # 10.0.62.81 hfaus00002
-6192a4 reset 1574451873 # 10.0.63.42 hfaus00007
-50ff88 reset 1574451873 # 10.0.61.105 hfaus00008
-9157ba reset 1574451873 # 10.0.63.34 hfaus00009
-fe7105 reset 1574451873 # 10.0.65.112 hfaus00010
-f3c9af reset 1574451873 # 10.0.64.104 hfaus00012
-11d430 reset 1574451873 # 10.0.64.70 hfaus00013
 
 ## asic password
 asicpass admin
