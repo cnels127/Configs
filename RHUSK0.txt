@@ -23,7 +23,7 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-global throttle 50
+global throttle 25
 global fanspeed 85
 global fansaver yes
 global blinkred idle
@@ -97,17 +97,19 @@ e89cef location RHUSK0XTRA # 10.0.116.47
 77730e location RHUSK0XTRA # 10.0.116.95
 
 ## throttle
-e6077e reset 1575656210
-7b6cfa reset 1575656210
-45dadf reset 1575656210
-4c87c5 reset 1575656210 
-79541e reset 1575656210
 
 ## fans
 
 ## reboots
 
 ## resets
+ba0308 reset 1577472361
+534814 reset 1577472361
+e6077e reset 1575656210
+7b6cfa reset 1575656210
+45dadf reset 1575656210
+4c87c5 reset 1575656210
+79541e reset 1575656210
 
 ## asic password
 asicpass admin
