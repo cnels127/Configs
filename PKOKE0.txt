@@ -23,7 +23,7 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-global throttle 50
+global throttle 25
 global fanspeed 85
 global fansaver yes
 global blinkred idle
@@ -81,6 +81,7 @@ bcaed0 uncork 1574718703 # 10.0.56.8 pkoke00004
 f39f2b reboot 1573499043 # 10.0.54.135 pkoke00003
 
 ## resets
+ae28ba reset 1577471957
 d379c4 reset 1577084856
 ae28ba reset 1574965806
 f39f2b reset 1574965806
