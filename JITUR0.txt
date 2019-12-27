@@ -4,7 +4,7 @@
 global custompanel JITUR0bit049
 global customer bit49-Russia
 
-global poolname1 47.91.89.176:1800 # (VIP eu.ss.btc.com:1800)
+global poolname1 47.91.65.135:1800 # (eu.ss.btc.com:1800)
 global username1 e2ru2pr
 global poolpass1 123
 global sendworker1 yes
@@ -23,7 +23,7 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-global throttle 50
+global throttle 25
 global fanspeed 85
 global fansaver yes
 global blinkred idle
