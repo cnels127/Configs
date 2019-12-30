@@ -25,7 +25,7 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-global throttle 50
+global throttle 25
 global fanspeed 85
 global fansaver yes
 global blinkred idle
@@ -55,6 +55,8 @@ vlan 10.0.53.154-154
 # extra machines added 11/23/19
 d92dc2 location POLIV0XTRA
 dc8a14 location POLIV0XTRA
+# extra machine added 12/30/19
+797077 location POLIV0XTRA # 10.0.118.69
 
 ## throttle
 
