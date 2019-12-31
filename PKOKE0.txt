@@ -63,6 +63,8 @@ c1da37 location PKOKE0XTRA # 10.0.53.148
 1e7afa location PKOKE0XTRA # 10.0.119.62
 
 ## throttle
+e5ba90 uncork 1577825499 # 10.0.61.2 pkoke00009
+d379c4 uncork 1577825499 # 10.0.62.53 pkoke0xtra
 bcaed0 uncork 1576188421
 e5ba90 uncork 1576188421
 
@@ -79,6 +81,10 @@ bcaed0 uncork 1574718703 # 10.0.56.8 pkoke00004
 ## fans
 
 ## reboots
+ae28ba reboot 1577825454 # 10.0.54.134 pkoke00002
+f39f2b reboot 1577825454 # 10.0.54.135 pkoke00003
+c1da37 reboot 1577825454 # 10.0.53.148 pkoke0xtra
+bd9932 reboot 1577825454 # 10.0.57.73 pkoke00005
 # s_reboot generated on Nov 11 2019 19:04:03 utc: 1573499043
 f39f2b reboot 1573499043 # 10.0.54.135 pkoke00003
 
