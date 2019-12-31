@@ -23,7 +23,7 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-global throttle 50
+global throttle 25
 global fanspeed 85
 global fansaver yes
 global blinkred idle
@@ -57,6 +57,8 @@ e7a422 location DBELT00002
 bfbee3 location DBELT0XTRA # 10.0.116.52
 
 ## throttle
+0747e2 uncork 1577820167
+54750e uncork 1577820167
 54750e uncork 1576786728
 0747e2 uncork 1576786728
 e7a422 uncork 1576786728
