@@ -23,7 +23,7 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-global throttle 50
+global throttle 25
 global fanspeed 85
 global fansaver yes
 global blinkred idle
@@ -51,6 +51,7 @@ b65b8a location IUSAK00002
 ## reboots
 
 ## resets
+fae03c reset 1577766010
 
 ## asic password
 asicpass admin
