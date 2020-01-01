@@ -23,7 +23,7 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-global throttle 50
+global throttle 25
 global fanspeed 85
 global fansaver yes
 global blinkred idle
@@ -102,6 +102,13 @@ bbf6ce location PEGAN0XTRA
 ## reboots
 
 ## resets
+9a258b reset 1577904567
+f49c47 reset 1577904567
+6c96dd reset 1577904567
+38d579 reset 1577904567
+1a4852 reset 1577904567
+1a4852 reset 1577904567
+44c925 reset 1577904567
 5a3dde reset 1575933887
 ef1f6e reset 1575933887
 1a4852 reset 1575933887
