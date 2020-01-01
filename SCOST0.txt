@@ -23,7 +23,7 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-global throttle 50
+global throttle 25
 global fanspeed 85
 global fansaver yes
 global blinkred idle
@@ -94,6 +94,7 @@ cee4db uncork 1576107136 # 10.0.115.32 scost00001
 445700 reboot 1574114524 # 10.0.115.44 scost00005
 
 ## resets
+a4164a reset 1577909864
 # reset 12-27-19 JB
 a4164a reset 1577481251
 753f7e reset 1577481251
