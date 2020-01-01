@@ -23,7 +23,7 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-global throttle 50
+global throttle 25
 global fanspeed 85
 global fansaver yes
 global blinkred idle
@@ -51,6 +51,7 @@ f5417d location SKOTR00004
 132edf location SKOTR0XTRA # 10.0.120.107
 
 ## throttle
+6c2948 uncork 1577903550
 031368 uncork 1577903550
 f5417d uncork 1574718179 # 10.0.61.17 skotr00004
 031368 uncork 1574718179 # 10.0.60.155 skotr00003
