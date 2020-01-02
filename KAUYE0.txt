@@ -23,7 +23,7 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-global throttle 50
+global throttle 25
 global fanspeed 85
 global fansaver yes
 global blinkred idle
@@ -101,6 +101,18 @@ e6ca25 reboot 1577210385 # 10.0.56.108 kauye00013
 
 
 ## resets
+c64ec9 reset 1577949355
+213829 reset 1577949355
+ddae42 reset 1577949355
+4f4ae6 reset 1577949355
+49aee9 reset 1577949355
+02423d reset 1577949355
+0a35cb reset 1577949355
+b408fe reset 1577949355
+9249ec reset 1577949355
+4996aa reset 1577949355
+e6ca25 reset 1577949355
+d87db4 reset 1577949355
 184c88 reset 1577305485 # 10.0.55.104 kauye00004
 4d1860 reset 1577305485 # 10.0.55.100 kauye00003
 f371c7 reset 1577305485 # 10.0.56.20 kauye00011
