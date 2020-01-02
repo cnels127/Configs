@@ -6,7 +6,7 @@
 global custompanel TGROT0bit049
 global customer bit49-Russia
 
-global poolname1 47.91.89.176:1800 # (VIP eu.ss.btc.com:1800)
+global poolname1 47.91.65.135:1800 # (eu.ss.btc.com:1800)
 global username1 tomxster
 global poolpass1 123
 global sendworker1 yes
@@ -25,7 +25,7 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-global throttle 100
+global throttle 25
 global fanspeed 85
 global fansaver yes
 global blinkred idle
@@ -78,6 +78,17 @@ affb58 location TGROT0XTRA # 10.0.121.10
 593230 location TGROT0XTRA # 10.0.117.84
 
 ## throttle
+48fe50 uncork 1577990460
+d664b7 uncork 1577990460
+593230 uncork 1577990460
+391b81 uncork 1577990460
+24884e uncork 1577990460
+0040fc uncork 1577990460
+11a6fc uncork 1577990460
+1ea527 uncork 1577990460
+a485fd uncork 1577990460
+052e16 uncork 1577990460
+a83fdc uncork 1577990460
 
 ## fans
 
