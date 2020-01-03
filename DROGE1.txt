@@ -22,7 +22,7 @@ global maxwatts 1350
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-global throttle 50
+global throttle 25
 global fanspeed 85
 global fansaver yes
 global blinkred idle
@@ -64,26 +64,8 @@ vlan 172.16.202.96-96
 ## reboots
 
 ## resets
+ed1a27 reset 1578069803
+a1dcce reset 1578069803
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
