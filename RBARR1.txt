@@ -55,6 +55,7 @@ cfd708 location RBARR10007 # shadow
 
 ## throttle
 713952 uncork 1578066365 # 192.168.0.100 rbarr10003
+fe5a04 uncork 1578066467 # 172.16.102.3 rbarr10005
 
 ## fans
 
@@ -64,6 +65,8 @@ cfd708 location RBARR10007 # shadow
 713952 resetasic 1570656697 # 10.10.126.228 rbarr10003
 713952 resetsaic 1575396880 # 10.10.126.228 rbarr10003
 713952 resetasic 1578066365 # 192.168.0.100 rbarr10003
+fe5a04 resetasic 1578066467 # 172.16.102.3 rbarr10005
+
 
 ## asic password
 asicpass admin
