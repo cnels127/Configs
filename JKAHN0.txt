@@ -23,7 +23,7 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-global throttle 50
+global throttle 25
 global fanspeed 80
 global fansaver yes
 global blinkred idle
@@ -43,7 +43,7 @@ vlan 10.0.68.7-7
 ef83d4 location JKAHN00001
 
 ## throttle
-ef83d4 uncork 1574898128
+ef83d4 uncork 1578090207
 
 ## fans
 
