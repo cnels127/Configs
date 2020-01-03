@@ -23,7 +23,7 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-global throttle 50
+global throttle 25
 global fanspeed 85
 global fansaver yes
 global blinkred idle
@@ -43,12 +43,15 @@ vlan 10.0.117.21-21
 ## locations
 1ff15c location CSOU0000001
 e9fdf8 location CSOU0000002
+# extra machine added 1/3/20
+bcb846 location CSOU0000003# 10.0.121.38
 
 ## throttle
 
 ## reboots
 
 ## resets
+1ff15c reset 1578087154
 
 ## asic password
 asicpass admin
