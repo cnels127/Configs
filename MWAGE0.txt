@@ -23,7 +23,7 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-global throttle 50
+global throttle 25
 global fanspeed 85
 global fansaver yes
 global blinkred idle
@@ -47,13 +47,13 @@ vlan 10.0.60.161-161
 6364b7 location MWAGE00003
 
 ## throttle
-6364b7 uncork 1576603479
 
 ## fans
 
 ## reboots
 
 ## resets
+6364b7 reset 1578096854
 
 ## asic password
 asicpass admin
