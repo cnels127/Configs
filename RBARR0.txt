@@ -25,7 +25,7 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-global throttle 50
+global throttle 25
 global fanspeed 85
 global fansaver yes
 global blinkred idle
@@ -140,8 +140,8 @@ eea5d2 reboot 1573499263 # 10.0.57.66 rbarr00019
 693af5 reboot 1573673315 # 10.0.57.69 rbarr00022
 
 ## resets
+0be34f reset 1578097768
 693af5 reset 1578075078 # 10.0.57.69 rbarr00022
-0be34f reset 1578075078 # 10.0.57.50 rbarr00003
 4b3a51 reset 1578075078 # 10.0.57.48 rbarr00001
 639689 reset 1578075078 # 10.0.115.34 rbarr00029
 71df4f reset 1578075078 # 10.0.57.51 rbarr00004
