@@ -4,8 +4,8 @@
 global custompanel IUSAK0bit049
 global customer bit49-Russia
 
-global poolname1 3.81.208.7:3333 # (us-east.stratum.slushpool.com:3333)
-global username1 ushkin
+global poolname1 3.81.208.7:3333 # (stratum+tcp://gate.emcd.io:3333)
+global username1 ushkin.worker
 global poolpass1 123
 global sendworker1 yes
 global poolname2 47.91.89.176:1800 # (VIP eu.ss.btc.com:1800)
