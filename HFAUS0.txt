@@ -77,6 +77,14 @@ f8bd59 location HFAUS0XTRA # 10.0.119.24
 79293a location HFAUS0XTRA # 10.0.120.55
 
 ## throttle
+# s_uncork generated on Jan 06 2020 15:06:42 utc: 1578323202
+9157ba uncork 1578323202 # 10.0.63.34 hfaus00009
+335e38 uncork 1578323202 # 10.0.62.81 hfaus00002
+737fce uncork 1578323202 # 10.0.61.109 hfaus00005
+f3bb3d uncork 1578323202 # 10.0.65.124 hfaus00006
+d51a5c uncork 1578323202 # 10.0.59.161 hfaus00011
+f3c9af uncork 1578323202 # 10.0.64.104 hfaus00012
+
 6192a4 uncork 1577388277
 fe7105 uncork 1577388277
 d51a5c uncork 1577388277
@@ -92,6 +100,8 @@ a3883c uncork 1577388277
 ## reboots
 
 ## resets
+f8bd59 reset 1578323202
+
 fe7105 reset 1577486289
 f3c9af reset 1577173972
 
