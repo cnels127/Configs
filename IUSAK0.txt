@@ -4,7 +4,7 @@
 global custompanel IUSAK0bit049
 global customer bit49-Russia
 
-global poolname1 3.81.208.7:3333 # (stratum+tcp://gate.emcd.io:3333)
+global poolname1 # (stratum+tcp://gate.emcd.io:3333)
 global username1 ushkin.worker
 global poolpass1 123
 global sendworker1 yes
