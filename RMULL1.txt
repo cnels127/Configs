@@ -3,13 +3,13 @@
 global custompanel RMULL1bit049
 global customer bit49-Colorado
 
-global poolname1 47.252.102.16:3333 # (connect.pool.bitcoin.com:3333)
-global username1 bob4ari
+global poolname1 47.89.133.88:1800 #(stratum+tcp://btc.ss.poolin.com:443)
+global username1 bmullen
 global poolpass1 123
 global sendworker1 yes
-global poolname2 
-global username2 
-global poolpass2 
+global poolname2 47.89.133.88:1800 #(stratum+tcp://btc.ss.poolin.com:443)
+global username2 bmullen
+global poolpass2 123
 global sendworker2 yes
 global poolname3 47.252.102.17:3333 # (USA-NC profit.pool.bitcoin.com:3333)
 global username3 bit49
@@ -54,6 +54,7 @@ global uncork 1577981636
 
 ## reboots
 global reboot 1578065737
+global reboot 1578328764
 ## reset
 8e86bb resetasic 1573847640
 2d1b6f resetasic 1573847640
