@@ -6,15 +6,15 @@
 global custompanel GWELT0bit049
 global customer bit49-Russia
 
-global poolname1 192.168.77.12:1239
+global poolname1 192.168.77.12:1239 # (stratum+tcp://eu2.btc.bitriver.farm:)
 global username1 venarimining
 global poolpass1 123
 global sendworker1 yes
-global poolname2 192.168.77.13:1239
+global poolname2 192.168.77.13:1239 # (stratum+tcp://eu2.btc.bitriver.farm:)
 global username2 venarimining
 global poolpass2 123
 global sendworker2 yes
-global poolname3 91.221.41.35:7913
+global poolname3 91.221.41.35:7913 # (stratum+tcp://eu1.btc.bitriver.farm:)
 global username3 venarimining
 global poolpass3 123
 global sendworker3 yes
