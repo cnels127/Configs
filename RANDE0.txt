@@ -65,6 +65,12 @@ a016c1 location RANDE00008
 99187c location RANDE0XTRA # 10.0.54.28
 
 ## throttle
+# s_uncork generated on Jan 07 2020 22:27:27 utc: 1578436047
+99187c uncork 1578436047 # 10.0.54.28 rande0xtra
+1506ab uncork 1578436047 # 10.0.57.129 rande00003
+174232 uncork 1578436047 # 10.0.57.134 rande00004
+8a2820 uncork 1578436047 # 10.0.57.157 rande00006
+
 # s_uncork generated on Dec 27 2019 21:40:30 utc: 1577482830 JB
 99187c uncork 1577482830 # 10.0.54.28 rande0xtra
 174232 uncork 1577482830 # 10.0.57.134 rande00004
