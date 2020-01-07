@@ -45,11 +45,13 @@ faba2f location TCOST00001
 10992f location TCOST0XTRA # 10.0.63.75
 
 ## throttle
+faba2f reboot 1578429391 # 10.0.65.147 tcost00001
 faba2f uncork 1574719075 # 10.0.65.147 tcost00001
 
 ## fans
 
 ## reboots
+10992f reboot 1578429336 # 10.0.63.75 tcost0xtra
 
 ## resets
 faba2f reset 1577403443
