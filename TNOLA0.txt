@@ -23,7 +23,7 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-global throttle 50
+global throttle 25
 global fanspeed 85
 global fansaver yes
 global blinkred idle
@@ -69,6 +69,8 @@ be162a reboot 1578353190 # 10.0.57.80 tnola00005
 be162a reboot 1573499694 # 10.0.57.80 tnola00005
 
 ## resets
+be162a reset 1578947530
+ee64d3 reset 1578947530
 9e6254 reset 1573159953
 
 ## asic password
