@@ -25,7 +25,7 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-global throttle 50
+global throttle 25
 global fanspeed 85
 global fansaver yes
 global blinkred idle
@@ -93,6 +93,7 @@ a016c1 location RANDE00008
 679e5d reboot 1573071802
 
 ## resets
+8a2820 reset 1579021571
 55019f reset 1576121244
 679e5d reset 1576121244
 1506ab reset 1574968148
