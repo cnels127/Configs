@@ -22,7 +22,7 @@ global maxwatts 1350
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-global throttle 50
+global throttle 25
 global fanspeed 85
 global fansaver yes
 global blinkred idle
@@ -46,6 +46,7 @@ global panelclear 999
 ## reboots
 
 ## resets
+bb43ef reset 1579033025
 
 ## asic password
 asicpass admin
