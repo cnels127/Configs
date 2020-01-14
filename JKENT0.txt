@@ -1,0 +1,220 @@
+## instructions available at: https://asicseer.com/page/kb#writing-config
+## TOTAL EXP HASHRATE 82 s9 @ 14.4 Th/s = 1180.8 Th/s
+
+global custompanel JKENT0bit049
+global customer bit49-Russia
+
+global poolname1 47.91.65.135:1800 # (eu.ss.btc.com:1800)
+global username1 BillionaireBTC1
+global poolpass1 123
+global sendworker1 yes
+global poolname2 47.91.65.91:3333 # (connect.pool.bitcoin.com:3333)
+global username2 jdkent
+global poolpass2 123
+global sendworker2 yes
+global poolname3 47.254.146.77:3333 # (btc-eu.f2pool.com:3333)
+global username3 jdkent
+global poolpass3 123
+global sendworker3 yes
+
+global asicboost yes
+global autotune yes
+global maxwatts 1450
+global autoupdate yes
+global allowed yes
+global maxtemp 90 1
+global throttle 25
+global fanspeed 85
+global fansaver yes
+global blinkred idle
+global blinkgreen rapid
+global panelclear 999
+
+# global retune 1
+# global reboot 1
+# global uncork 1
+# global reset 1
+# global panelpass gj83Nkgikg
+
+## vlans
+vlan 10.0.59.6-6 # 6ad806
+vlan 10.0.59.10-10 # 3d2252
+vlan 10.0.59.11-11 # fdb239
+vlan 10.0.60.151-151 # 3812f9
+vlan 10.0.60.152-152 # 32c15c
+vlan 10.0.60.153-153 # 4f5b96
+vlan 10.0.60.154-154 # a6fc8d
+vlan 10.0.61.3-3 # 091799
+vlan 10.0.61.7-7 # 5b4180
+vlan 10.0.61.11-11 # d5b013
+vlan 10.0.62.29-29 # 03ee8e
+vlan 10.0.62.31-31 # 0735b0
+vlan 10.0.62.54-54 # 621b00
+vlan 10.0.62.55-55 # 1c8b88
+vlan 10.0.62.56-56 # 965250
+vlan 10.0.62.57-57 # be8567
+vlan 10.0.62.58-58 # 46d9bd
+vlan 10.0.62.59-59 # a2e43b
+vlan 10.0.62.61-61 # e490c1
+vlan 10.0.62.62-62 # 4b97c1
+vlan 10.0.62.63-63 # 1dbb41
+vlan 10.0.62.65-65 # 24c735
+vlan 10.0.62.79-79 # 677a7d
+vlan 10.0.62.80-80 # 242283
+vlan 10.0.62.87-87 # a82ce7
+vlan 10.0.62.88-88 # 3b1a36
+vlan 10.0.62.89-89 # 12ca54
+vlan 10.0.62.90-90 # d60e3c
+vlan 10.0.62.92-92 # d5de9e
+vlan 10.0.62.93-93 # e56cd3
+vlan 10.0.62.96-96 # 4a6f13
+vlan 10.0.62.97-97 # c6e922
+vlan 10.0.62.98-98 # a759be
+vlan 10.0.62.99-99 # 79e2ea
+vlan 10.0.62.100-100 # 1a3c16
+vlan 10.0.62.105-105 # 0740da
+vlan 10.0.62.106-106 # 427276
+vlan 10.0.62.107-107 # 4dc4f1
+vlan 10.0.62.109-109 # c4c92f
+vlan 10.0.62.113-113 # 2f9a0b
+vlan 10.0.62.114-114 # f8e794
+vlan 10.0.62.116-116 # 7c9430
+vlan 10.0.62.119-119 # 1faa81
+vlan 10.0.62.120-120 # 055faf
+vlan 10.0.62.121-121 # 1720f3
+vlan 10.0.62.127-127 # ab6e7b
+vlan 10.0.62.128-128 # 9bd94f
+vlan 10.0.62.129-129 # eefeb1
+vlan 10.0.62.130-130 # dc83d8
+vlan 10.0.62.132-132 # 319c01
+vlan 10.0.62.133-133 # 082c5c
+vlan 10.0.62.135-135 # c28889
+vlan 10.0.62.137-137 # b1914b
+vlan 10.0.62.139-139 # 599d99
+vlan 10.0.62.140-140 # d2e4d6
+vlan 10.0.62.141-141 # 96a470
+vlan 10.0.62.142-142 # b8d362
+vlan 10.0.62.143-143 # a018a4
+vlan 10.0.62.144-144 # 6017b2
+vlan 10.0.62.145-145 # 7c13b1
+vlan 10.0.62.148-148 # 6268aa
+vlan 10.0.62.149-149 # 423257
+vlan 10.0.62.150-150 # b18d0c
+vlan 10.0.62.151-151 # 33ba5e
+vlan 10.0.62.152-152 # c5f63a
+vlan 10.0.62.155-155 # 06a09f
+vlan 10.0.62.156-156 # c1a654
+vlan 10.0.63.1-1 # f7aecd
+vlan 10.0.63.4-4 # e06fec
+vlan 10.0.63.5-5 # 952220
+vlan 10.0.63.6-6 # fad216
+vlan 10.0.63.7-7 # d7a370
+vlan 10.0.63.8-8 # 8c6846
+vlan 10.0.63.11-11 # 39e6c4
+vlan 10.0.63.12-12 # 5868c9
+vlan 10.0.63.13-13 # efeb44
+vlan 10.0.63.14-14 # 83e89f
+vlan 10.0.63.18-18 # c7d26d
+vlan 10.0.63.19-19 # 8b483b
+vlan 10.0.63.25-25 # 294ca8
+vlan 10.0.63.26-26 # ce8642
+vlan 10.0.63.27-27 # 439c15
+
+## locations
+6ad806 location JKENT00001 # 10.0.59.6
+3d2252 location JKENT00002 # 10.0.59.10
+fdb239 location JKENT00003 # 10.0.59.11
+3812f9 location JKENT00004 # 10.0.60.151
+32c15c location JKENT00005 # 10.0.60.152
+4f5b96 location JKENT00006 # 10.0.60.153
+a6fc8d location JKENT00007 # 10.0.60.154
+091799 location JKENT00008 # 10.0.61.3
+5b4180 location JKENT00009 # 10.0.61.7
+d5b013 location JKENT00010 # 10.0.61.11
+03ee8e location JKENT00011 # 10.0.62.29
+0735b0 location JKENT00012 # 10.0.62.31
+621b00 location JKENT00013 # 10.0.62.54
+1c8b88 location JKENT00014 # 10.0.62.55
+965250 location JKENT00015 # 10.0.62.56
+be8567 location JKENT00016 # 10.0.62.57
+46d9bd location JKENT00017 # 10.0.62.58
+a2e43b location JKENT00018 # 10.0.62.59
+e490c1 location JKENT00019 # 10.0.62.61
+4b97c1 location JKENT00020 # 10.0.62.62
+1dbb41 location JKENT00021 # 10.0.62.63
+24c735 location JKENT00022 # 10.0.62.65
+677a7d location JKENT00023 # 10.0.62.79
+242283 location JKENT00024 # 10.0.62.80
+a82ce7 location JKENT00025 # 10.0.62.87
+3b1a36 location JKENT00026 # 10.0.62.88
+12ca54 location JKENT00027 # 10.0.62.89
+d60e3c location JKENT00028 # 10.0.62.90
+d5de9e location JKENT00029 # 10.0.62.92
+e56cd3 location JKENT00030 # 10.0.62.93
+4a6f13 location JKENT00031 # 10.0.62.96
+c6e922 location JKENT00032 # 10.0.62.97
+a759be location JKENT00033 # 10.0.62.98
+79e2ea location JKENT00034 # 10.0.62.99
+1a3c16 location JKENT00035 # 10.0.62.100
+0740da location JKENT00036 # 10.0.62.105
+427276 location JKENT00037 # 10.0.62.106
+4dc4f1 location JKENT00038 # 10.0.62.107
+c4c92f location JKENT00039 # 10.0.62.109
+2f9a0b location JKENT00040 # 10.0.62.113
+f8e794 location JKENT00041 # 10.0.62.114
+7c9430 location JKENT00042 # 10.0.62.116
+1faa81 location JKENT00043 # 10.0.62.119
+055faf location JKENT00044 # 10.0.62.120
+1720f3 location JKENT00045 # 10.0.62.121
+ab6e7b location JKENT00046 # 10.0.62.127
+9bd94f location JKENT00047 # 10.0.62.128
+eefeb1 location JKENT00048 # 10.0.62.129
+dc83d8 location JKENT00049 # 10.0.62.130
+319c01 location JKENT00050 # 10.0.62.132
+082c5c location JKENT00051 # 10.0.62.133
+c28889 location JKENT00052 # 10.0.62.135
+b1914b location JKENT00053 # 10.0.62.137
+599d99 location JKENT00054 # 10.0.62.139
+d2e4d6 location JKENT00055 # 10.0.62.140
+96a470 location JKENT00056 # 10.0.62.141
+b8d362 location JKENT00057 # 10.0.62.142
+a018a4 location JKENT00058 # 10.0.62.143
+6017b2 location JKENT00059 # 10.0.62.144
+7c13b1 location JKENT00060 # 10.0.62.145
+6268aa location JKENT00061 # 10.0.62.148
+423257 location JKENT00062 # 10.0.62.149
+b18d0c location JKENT00063 # 10.0.62.150
+33ba5e location JKENT00064 # 10.0.62.151
+c5f63a location JKENT00065 # 10.0.62.152
+06a09f location JKENT00066 # 10.0.62.155
+c1a654 location JKENT00067 # 10.0.62.156
+f7aecd location JKENT00068 # 10.0.63.1
+e06fec location JKENT00069 # 10.0.63.4
+952220 location JKENT00070 # 10.0.63.5
+fad216 location JKENT00071 # 10.0.63.6
+d7a370 location JKENT00072 # 10.0.63.7
+8c6846 location JKENT00073 # 10.0.63.8
+39e6c4 location JKENT00074 # 10.0.63.11
+5868c9 location JKENT00075 # 10.0.63.12
+efeb44 location JKENT00076 # 10.0.63.13
+83e89f location JKENT00077 # 10.0.63.14
+c7d26d location JKENT00078 # 10.0.63.18
+8b483b location JKENT00079 # 10.0.63.19
+294ca8 location JKENT00080 # 10.0.63.25
+ce8642 location JKENT00081 # 10.0.63.26
+439c15 location JKENT00082 # 10.0.63.27
+
+## tuning
+
+## throttle
+
+## fans
+
+## reboots
+
+## resets
+
+## removals
+
+## asic password
+asicpass admin
