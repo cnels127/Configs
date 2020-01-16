@@ -60,12 +60,14 @@ a007c8 location BPALM10009
 95cae1 location BPALM10010
 
 ## throttle
+2c4326 uncork 1579201350 # 172.16.101.145 bpalm10004
 
 ## fans
 
 ## reboots
 
 ## resets
+2c4326 reset 1579201344 # 172.16.101.145 bpalm10004
 
 ## asic password
 asicpass admin
