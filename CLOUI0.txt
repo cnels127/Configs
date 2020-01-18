@@ -23,7 +23,7 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-global throttle 50
+global throttle 25
 global fanspeed 85
 global fansaver yes
 global blinkred idle
@@ -56,6 +56,15 @@ c47181 location CLOUI0XTRA # 10.0.118.142
 f88d80 location CLOUI0XTRA # 10.0.62.47
 
 ## throttle
+1a1611 uncork 1579308332
+6d0544 uncork 1579308332
+3a0cc0 uncork 1579308332
+49ba28 uncork 1579308332
+df94bd uncork 1579308332
+6cb55b uncork 1579308332
+2b7bed uncork 1579308332
+f88d80 uncork 1579308332
+3664fa uncork 1579308332
 
 ## fans
 
