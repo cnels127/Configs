@@ -38,26 +38,21 @@ global panelclear 999
 
 ## vlans
 # vlan 10.0.115.60-60
-# extra machine added 12/13/19
-vlan 10.0.62.78-78
 
 ## locations
 cc5e00 location JREGU00001
-# extra machine added 12/13/19
-9c3c4b location JREGU0XTRA # 10.0.62.78
 
 ## throttle
-9c3c4b uncork 1577119379
 
 ## fans
 
 ## reboots
 
 ## resets
-9c3c4b reset 1577385749
 
 ## removals
 global remove 568737
+global remove 9c3c4b
 
 ## asic password
 asicpass admin
