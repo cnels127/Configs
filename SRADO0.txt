@@ -23,7 +23,7 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-global throttle 50
+global throttle 25
 global fanspeed 85
 global fansaver yes
 global blinkred idle
@@ -284,6 +284,7 @@ d427dd retune 1578684494
 4d7ab5 retune 1578684494
 
 ## resets
+5f49b0 reset 1579538962
 0f22cc reset 1578768073
 
 a23fe5 reset 1576972796
