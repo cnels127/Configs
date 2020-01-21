@@ -22,7 +22,7 @@ global maxwatts 1350
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-global throttle 50
+global throttle 25
 global fanspeed 85
 global fansaver yes
 global blinkred idle
@@ -53,7 +53,10 @@ d8b0ee rebootasic 1567914791 # 172.16.203.232
 bda117 reboot 1572381539 # 10.10.126.123 
 d8b0ee reboot 1572381539 # 10.10.126.124
 global reboot 1578591406
+
 ## resets
+bda117 reset 1579623646
+d8b0ee reset 1579623646
 
 ## asic password
 asicpass admin
