@@ -18,11 +18,11 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1350
+global maxwatts 1400
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-global throttle 50
+global throttle 25
 global fanspeed 85
 global fansaver yes
 global blinkred idle
@@ -54,21 +54,21 @@ vlan 172.16.204.223-223
 vlan 172.16.204.95-95
 
 ## locations
-b0864d location 18A21
-0e1be6 location 18A22
-460df4 location 18A23
-c0fbe7 location 18A24
-d0f794 location 18A25
-a39906 location 18A26
-d8d329 location 18A27
-e10e52 location 18A28
-7b3bc6 location 18A29
-36b10e location 18A30
-f913d1 location 18A31
-3812df location 18A32
-5a808d location 18A33
-306978 location 18A34
-94e47a location 18B34
+b0864d location SLEE0118A21
+0e1be6 location SLEE0118A22
+460df4 location SLEE0118A23
+c0fbe7 location SLEE0118A24
+d0f794 location SLEE0118A25
+a39906 location SLEE0118A26
+d8d329 location SLEE0118A27
+e10e52 location SLEE0118A28
+7b3bc6 location SLEE0118A29
+36b10e location SLEE0118A30
+f913d1 location SLEE0118A31
+3812df location SLEE0118A32
+5a808d location SLEE0118A33
+306978 location SLEE0118A34
+94e47a location SLEE0118B34
 	
 ## throttle
 f913d1 uncork 1578418347 # 172.16.100.172 18a31
@@ -82,14 +82,3 @@ d8d329 uncork 1578418347 # 172.16.101.87 18a27
 
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
-
