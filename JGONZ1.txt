@@ -18,11 +18,11 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1350
+global maxwatts 1400
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-global throttle 50
+global throttle 25
 global fanspeed 85
 global fansaver yes
 global blinkred idle
@@ -58,26 +58,26 @@ vlan 172.16.202.214-214
 vlan 172.16.202.149-149
 
 ## locations
-abd2b0 location 18E01
-8c9641 location 18E02
-f9b5b2 location 18E03
-de765b location 18E04
-d20dcf location 18E05
-dbb7d4 location 18E06
-64adf8 location 18E07
-6ed6fc location 18E08
-eeb8c9 location 18E09
-9e8492 location 18E10
-2fbb7a location 18E11
-6335e0 location 18E12
-a4716c location 18E13
-31f908 location 18E14
-e8f4a0 location 18E15
-ccf8bb location TEMP1
-76cef8 location TEMP2
-8fee55 location TEMP3
-ef8f42 location TEMP4
-5ab5f6 location TEMP5
+abd2b0 location JGONZ118E01
+8c9641 location JGONZ118E02
+f9b5b2 location JGONZ118E03
+de765b location JGONZ118E04
+d20dcf location JGONZ118E05
+dbb7d4 location JGONZ118E06
+64adf8 location JGONZ118E07
+6ed6fc location JGONZ118E08
+eeb8c9 location JGONZ118E09
+9e8492 location JGONZ118E10
+2fbb7a location JGONZ118E11
+6335e0 location JGONZ118E12
+a4716c location JGONZ118E13
+31f908 location JGONZ118E14
+e8f4a0 location JGONZ118E15
+ccf8bb location JGONZ1TEMP1
+76cef8 location JGONZ1TEMP2
+8fee55 location JGONZ1TEMP3
+ef8f42 location JGONZ1TEMP4
+5ab5f6 location JGONZ1TEMP5
 
 ## throttle
 global uncork 1578337542
