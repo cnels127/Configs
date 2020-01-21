@@ -18,11 +18,11 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1350
+global maxwatts 1400
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-global throttle 50
+global throttle 25
 global fanspeed 85
 global fansaver yes
 global blinkred idle
@@ -61,14 +61,11 @@ b95dbf uncork 1579201904 # 172.16.101.201 rmira10001
 d2b82c uncork 1579201904 # 172.16.100.251 rmira10008
 5cd170 uncork 1579184115
 
-
-
 ## reboots
 4423f1 reboot 1578338087 # 172.16.101.232 rmira10004
 5cd170 reboot 1579201806 # 172.16.101.51 rmira10003
 4423f1 reboot 1579201806 # 172.16.101.34 rmira10004
 4423f1 reboot 1579281033 # 172.16.101.34 rmira10004
-
 
 ## resets
 b95dbf reset 1576778190 # 10.10.125.177 rmira10001
@@ -77,11 +74,5 @@ b95dbf resetasic 1576778190 # 10.10.125.177 rmira10001
 5cd170 resetasic 1576778190 # 10.10.125.153 rmira10003
 4423f1 reset 1576785004 # 10.10.125.151 rmira10004
 
-
-
-
-
 ## asic password
 asicpass admin
-
-
