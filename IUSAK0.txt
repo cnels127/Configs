@@ -45,6 +45,7 @@ fae03c location IUSAK00001
 b65b8a location IUSAK00002
 
 ## throttle
+fae03c uncork 1579725538 # 10.0.61.1 iusak00001
 
 ## fans
 
@@ -52,6 +53,8 @@ b65b8a location IUSAK00002
 
 ## resets
 fae03c reset 1578682776
+fae03c reset 1579725514 # 10.0.61.1 iusak00001
+
 
 ## asic password
 asicpass admin
