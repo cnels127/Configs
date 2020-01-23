@@ -4,12 +4,12 @@
 global custompanel RGESU0bit049
 global customer bit49-Russia
 
-global poolname1 3.81.208.7:3333 # (us-east.stratum.slushpool.com:3333)
+global poolname1 91.237.249.93:3333 # (ru-west.stratum.slushpool.com:3333)
 global username1 gesumari
 global poolpass1 123
 global sendworker1 yes
-global poolname2 stratum.slushpool.com:3333 # (18.197.228.56:3333)
-global username2 gesumari
+global poolname2 172.65.223.147:3368 # (sha256asicboost.usa-new.nicehash.com:3368)
+global username2 3EErT2PyMH97bgfpmKpfXZVB9j4E5YNyc5
 global poolpass2 123
 global sendworker2 yes
 global poolname3 18.197.228.56:3333 # (profit.pool.bitcoin.com:3333)
@@ -23,7 +23,7 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-global throttle 50
+global throttle 25
 global fanspeed 85
 global fansaver yes
 global blinkred idle
@@ -47,10 +47,6 @@ global panelclear 999
 ## reboots
 
 ## resets
-6073d8 reset 1573255878
 
 ## asic password
 asicpass admin
-
-
-
