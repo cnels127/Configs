@@ -1,5 +1,6 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
-## TOTAL EXP HASHRATE 207 s9 @ 14.4 Th/s = 2,980.8 Th/s
+## 60 T17 @ 40 Th/s =   2,400 Th/s
+## 207 s9 @ 14.4 Th/s = 2,980.8 Th/s
 
 global custompanel NBELL0bit049
 global customer bit49-Russia
@@ -281,6 +282,67 @@ vlan 10.0.121.18-18
 vlan 10.0.121.20-20
 vlan 10.0.121.22-22
 vlan 10.0.121.25-25
+# 60 T17
+vlan 10.3.87.21-21 # df8681
+vlan 10.3.87.22-22 # be76a0
+vlan 10.3.87.23-23 # fa4121
+vlan 10.3.87.24-24 # eb4b5c
+vlan 10.3.87.25-25 # 6ad2f1
+vlan 10.3.87.26-26 # 25dd9c
+vlan 10.3.87.31-31 # 3947de
+vlan 10.3.87.32-32 # 54bfe3
+vlan 10.3.87.33-33 # 5a90c8
+vlan 10.3.87.34-34 # a5c9ff
+vlan 10.3.87.35-35 # d194a6
+vlan 10.3.87.36-36 # 17b45c
+vlan 10.3.87.41-41 # b82f24
+vlan 10.3.87.42-42 # f7f77a
+vlan 10.3.87.43-43 # 00cb27
+vlan 10.3.87.44-44 # a22f0c
+vlan 10.3.87.45-45 # 3aac21
+vlan 10.3.87.46-46 # fd343d
+vlan 10.3.87.51-51 # ac9cc4
+vlan 10.3.87.52-52 # 0c10a1
+vlan 10.3.87.53-53 # cac2db
+vlan 10.3.87.54-54 # 555b9f
+vlan 10.3.87.55-55 # 300971
+vlan 10.3.87.56-56 # 2d5c3b
+vlan 10.3.87.61-61 # e1831e
+vlan 10.3.87.62-62 # 10bb5e
+vlan 10.3.87.63-63 # 909cff
+vlan 10.3.87.64-64 # 7f7e87
+vlan 10.3.87.65-65 # 03486d
+vlan 10.3.87.71-71 # bde1ee
+vlan 10.3.87.72-72 # ae6163
+vlan 10.3.87.73-73 # b49905
+vlan 10.3.87.74-74 # 1b0373
+vlan 10.3.87.75-75 # 5b934b
+vlan 10.3.87.76-76 # 75f179
+vlan 10.3.87.81-81 # be5e9a
+vlan 10.3.87.82-82 # 10a611
+vlan 10.3.87.83-83 # c6fe69
+vlan 10.3.87.84-84 # 38dbe1
+vlan 10.3.87.85-85 # 4d3181
+vlan 10.3.87.86-86 # 182e47
+vlan 10.3.87.91-91 # b873f1
+vlan 10.3.87.92-92 # d3ff61
+vlan 10.3.87.93-93 # db3103
+vlan 10.3.87.94-94 # 5200ef
+vlan 10.3.87.95-95 # 30a990
+vlan 10.3.87.96-96 # 37ea88
+vlan 10.3.87.101-101 # 83dd3c
+vlan 10.3.87.102-102 # 6c67cb
+vlan 10.3.87.103-103 # 2f5e7b
+vlan 10.3.87.104-104 # dd0c10
+vlan 10.3.87.105-105 # 132a9b
+vlan 10.3.87.106-106 # d368d4
+vlan 10.3.87.111-111 # c60753
+vlan 10.3.87.112-112 # f109af
+vlan 10.3.87.113-113 # 458a34
+vlan 10.3.87.114-114 # e73da4
+vlan 10.3.87.115-115 # b04ec4
+vlan 10.3.87.116-116 # 6e9b6f
+vlan 10.3.88.61-61 # 177881
 
 ## location
 1d8df2 location NBELL00001
@@ -515,7 +577,67 @@ ad914a location NBELL0XTRA # 10.0.121.7
 c7156e location NBELL0XTRA # 10.0.121.20
 d7cd4b location NBELL0XTRA # 10.0.121.22
 e82075 location NBELL0XTRA # 10.0.121.25
-
+# 60 T17
+df8681 location 87x21 # 10.3.87.21
+be76a0 location 87x22 # 10.3.87.22
+fa4121 location 87x23 # 10.3.87.23
+eb4b5c location 87x24 # 10.3.87.24
+6ad2f1 location 87x25 # 10.3.87.25
+25dd9c location 87x26 # 10.3.87.26
+3947de location 87x31 # 10.3.87.31
+54bfe3 location 87x32 # 10.3.87.32
+5a90c8 location 87x33 # 10.3.87.33
+a5c9ff location 87x34 # 10.3.87.34
+d194a6 location 87x35 # 10.3.87.35
+17b45c location 87x36 # 10.3.87.36
+b82f24 location 87x41 # 10.3.87.41
+f7f77a location 87x42 # 10.3.87.42
+00cb27 location 87x43 # 10.3.87.43
+a22f0c location 87x44 # 10.3.87.44
+3aac21 location 87x45 # 10.3.87.45
+fd343d location 87x46 # 10.3.87.46
+ac9cc4 location 87x51 # 10.3.87.51
+0c10a1 location 87x52 # 10.3.87.52
+cac2db location 87x53 # 10.3.87.53
+555b9f location 87x54 # 10.3.87.54
+300971 location 87x55 # 10.3.87.55
+2d5c3b location 87x56 # 10.3.87.56
+e1831e location 87x61 # 10.3.87.61
+10bb5e location 87x62 # 10.3.87.62
+909cff location 87x63 # 10.3.87.63
+7f7e87 location 87x64 # 10.3.87.64
+03486d location 87x65 # 10.3.87.65
+bde1ee location 87x71 # 10.3.87.71
+ae6163 location 87x72 # 10.3.87.72
+b49905 location 87x73 # 10.3.87.73
+1b0373 location 87x74 # 10.3.87.74
+5b934b location 87x75 # 10.3.87.75
+75f179 location 87x76 # 10.3.87.76
+be5e9a location 87x81 # 10.3.87.81
+10a611 location 87x82 # 10.3.87.82
+c6fe69 location 87x83 # 10.3.87.83
+38dbe1 location 87x84 # 10.3.87.84
+4d3181 location 87x85 # 10.3.87.85
+182e47 location 87x86 # 10.3.87.86
+b873f1 location 87x91 # 10.3.87.91
+d3ff61 location 87x92 # 10.3.87.92
+db3103 location 87x93 # 10.3.87.93
+5200ef location 87x94 # 10.3.87.94
+30a990 location 87x95 # 10.3.87.95
+37ea88 location 87x96 # 10.3.87.96
+83dd3c location 87x101 # 10.3.87.101
+6c67cb location 87x102 # 10.3.87.102
+2f5e7b location 87x103 # 10.3.87.103
+dd0c10 location 87x104 # 10.3.87.104
+132a9b location 87x105 # 10.3.87.105
+d368d4 location 87x106 # 10.3.87.106
+c60753 location 87x111 # 10.3.87.111
+f109af location 87x112 # 10.3.87.112
+458a34 location 87x113 # 10.3.87.113
+e73da4 location 87x114 # 10.3.87.114
+b04ec4 location 87x115 # 10.3.87.115
+6e9b6f location 87x116 # 10.3.87.116
+177881 location 88x61 # 10.3.88.61
 
 ## throttle
 # s_uncork generated on Jan 09 2020 21:28:16 utc: 1578605296
