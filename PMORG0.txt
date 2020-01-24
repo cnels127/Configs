@@ -47,6 +47,9 @@ vlan 10.0.68.16-16
 vlan 10.0.53.140-140
 vlan 10.0.53.143-143
 vlan 10.0.53.146-146
+# extra machines added 01/24/20
+vlan 10.0.119.9-9
+vlan 10.0.59.149-149
 
 ## locations
 81b475 location PMORG00001
@@ -63,6 +66,9 @@ e02f4f location PMORG00007
 37c8cd location PMORG0XTRA
 e4a1aa location PMORG0XTRA
 866b96 location PMORG0XTRA
+# extra machines added 01/24/20
+cdb81f location PMORG0XTRA
+c26b40 location PMORG0XTRA
 37c8cd maxwatts 1450
 e4a1aa maxwatts 1450
 866b96 maxwatts 1450
