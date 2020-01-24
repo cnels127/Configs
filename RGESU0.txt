@@ -1,5 +1,5 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
-## CUSTOMER CONVERTING TO T17s, 60 s9 deployed elsewhere
+## 5 T17 40 Th/s = 200 Th/s
 
 global custompanel RGESU0bit049
 global customer bit49-Russia
@@ -8,14 +8,18 @@ global poolname1 91.237.249.93:3333 # (ru-west.stratum.slushpool.com:3333)
 global username1 gesumari
 global poolpass1 123
 global sendworker1 yes
-global poolname2 172.65.223.147:3368 # (sha256asicboost.usa-new.nicehash.com:3368)
-global username2 3EErT2PyMH97bgfpmKpfXZVB9j4E5YNyc5
+global poolname2 47.91.65.91:3333 # (connect.pool.bitcoin.com:3333)
+global username2 gesumari
 global poolpass2 123
 global sendworker2 yes
-global poolname3 18.197.228.56:3333 # (profit.pool.bitcoin.com:3333)
-global username3 bit49
+global poolname3 47.91.65.135:1800 # (eu.ss.btc.com:1800)
+global username3 gesumari
 global poolpass3 123
 global sendworker3 yes
+# global poolname4 172.65.223.147:3368 # (sha256asicboost.usa-new.nicehash.com:3368)
+# global username4 3EErT2PyMH97bgfpmKpfXZVB9j4E5YNyc5
+# global poolpass4 123
+# global sendworker4 yes
 
 global asicboost yes
 global autotune yes
@@ -37,8 +41,18 @@ global panelclear 999
 # global reset 3
 
 ## vlans
+vlan 10.3.85.61-61 # eae0d6
+vlan 10.3.85.62-62 # 4fdf43
+vlan 10.3.85.63-63 # b56ee3
+vlan 10.3.85.64-64 # b63286
+vlan 10.3.85.65-65 # b8522c
 
 ## locations
+eae0d6 location 85x61
+4fdf43 location 85x62
+b56ee3 location 85x63
+b63286 location 85x64
+b8522c location 85x65
 
 ## throttle
  
