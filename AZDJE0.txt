@@ -137,6 +137,34 @@ vlan 10.0.56.103-103 # 60ea4c
 vlan 10.0.56.105-105 # 990e69
 vlan 10.0.56.109-109 # c82f26
 vlan 10.0.56.116-116 # 74306d
+# extra machines added 12/9/19
+vlan 10.0.115.113-113 # db2219
+vlan 10.0.115.126-126 # e62ca7
+vlan 10.0.115.41-41 # 710634
+vlan 10.0.116.114-114 # 566a7a
+vlan 10.0.116.18-18 # 8f7b97
+vlan 10.0.117.83-83 # c02053
+vlan 10.0.62.159-159 # ce5ec8
+vlan 10.0.64.8-8 # 60d60f
+vlan 10.0.65.137-137 # 291c29
+vlan 10.0.65.157-157 # c5778c
+vlan 10.0.65.161-161 # 3547ed
+vlan 10.0.65.24-24 # 760580
+vlan 10.0.65.3-3 # e8d1b8
+vlan 10.0.65.35-35 # 7e8a4e
+vlan 10.0.65.79-79 # 9939f8
+vlan 10.0.66.34-34 # d7f7b7
+vlan 10.0.67.131-131 # 458b26
+vlan 10.0.67.140-140 # 604f77
+vlan 10.0.67.46-46 # 6ab1be
+vlan 10.0.67.84-84 # f4be62
+vlan 10.0.67.89-89 # 9b49dc
+vlan 10.0.68.4-4 # adb2fe
+vlan 10.0.77.127-127 # 9ba057
+vlan 10.0.77.152-152 # e19a40
+vlan 10.0.77.35-35 # 450cbc
+vlan 10.0.77.66-66 # 853a92
+vlan 10.0.77.72-72 # c22860
 7a2044 location AZDJE00001 # 10.0.55.84
 5347e8 location AZDJE00002 # 10.0.55.88
 85f927 location AZDJE00003 # 10.0.55.89
@@ -267,15 +295,15 @@ c02053 location AZDJE0XTRA # 10.0.117.83
 
 ## 25 T17 40 Th/s = 1,000 Th/s
 # sigrist (1 s9 @ 14.4 Th/s & 8 T17 @ 40 Th/s = 334.4 Th/s)
-vlan 10.3.86.76-76 # 2875f0
-vlan 10.3.86.81-81 # 48d714
-vlan 10.3.86.82-82 # 66ab2c
-vlan 10.3.86.83-83 # 20f931
-vlan 10.3.86.84-84 # 75a493
-vlan 10.3.86.85-85 # 169df2
-vlan 10.3.86.86-86 # 460221
-vlan 10.3.86.91-91 # 7e36c6
-vlan 10.0.56.111-111 # fcd298
+# vlan 10.3.86.76-76 # 2875f0
+# vlan 10.3.86.81-81 # 48d714
+# vlan 10.3.86.82-82 # 66ab2c
+# vlan 10.3.86.83-83 # 20f931
+# vlan 10.3.86.84-84 # 75a493
+# vlan 10.3.86.85-85 # 169df2
+# vlan 10.3.86.86-86 # 460221
+# vlan 10.3.86.91-91 # 7e36c6
+# vlan 10.0.56.111-111 # fcd298
 2875f0 location 86x76 # 10.3.86.76
 48d714 location 86x81 # 10.3.86.81
 66ab2c location 86x82 # 10.3.86.82
@@ -304,17 +332,17 @@ fcd298 username1 sigrist
 7e36c6 username2 sigrist
 fcd298 username2 sigrist
 # hahner (11 T17 @ 40 Th/s = 440 Th/s)
-vlan 10.3.86.92-92 # cf201a
-vlan 10.3.86.93-93 # a95da7
-vlan 10.3.86.94-94 # 7f1f9c
-vlan 10.3.86.95-95 # 9d77c4
-vlan 10.3.86.96-96 # 466e31
-vlan 10.3.86.101-101 # 497066
-vlan 10.3.86.102-102 # 2598dc
-vlan 10.3.86.103-103 # 8ddfdf
-vlan 10.3.86.104-104 # bc1d23
-vlan 10.3.86.105-105 # 5031a9
-vlan 10.3.86.106-106 # dc2535
+# vlan 10.3.86.92-92 # cf201a
+# vlan 10.3.86.93-93 # a95da7
+# vlan 10.3.86.94-94 # 7f1f9c
+# vlan 10.3.86.95-95 # 9d77c4
+# vlan 10.3.86.96-96 # 466e31
+# vlan 10.3.86.101-101 # 497066
+# vlan 10.3.86.102-102 # 2598dc
+# vlan 10.3.86.103-103 # 8ddfdf
+# vlan 10.3.86.104-104 # bc1d23
+# vlan 10.3.86.105-105 # 5031a9
+# vlan 10.3.86.106-106 # dc2535
 cf201a location 86x92 # 10.3.86.92
 a95da7 location 86x93 # 10.3.86.93
 7f1f9c location 86x94 # 10.3.86.94
@@ -349,12 +377,12 @@ bc1d23 username2 hahner
 5031a9 username2 hahner
 dc2535 username2 hahner
 # brunohugin (6 T17 @ 40 Th/s = 240 Th/s)
-vlan 10.3.86.111-111 # eeff2f
-vlan 10.3.86.112-112 # cc527c
-vlan 10.3.86.113-113 # 954739
-vlan 10.3.86.114-114 # 79510d
-vlan 10.3.86.115-115 # ad2dcb
-vlan 10.3.86.116-116 # 9890c4
+# vlan 10.3.86.111-111 # eeff2f
+# vlan 10.3.86.112-112 # cc527c
+# vlan 10.3.86.113-113 # 954739
+# vlan 10.3.86.114-114 # 79510d
+# vlan 10.3.86.115-115 # ad2dcb
+# vlan 10.3.86.116-116 # 9890c4
 eeff2f location 86x111 # 10.3.86.111
 cc527c location 86x112 # 10.3.86.112
 954739 location 86x113 # 10.3.86.113
@@ -373,7 +401,6 @@ cc527c username2 brunohugin
 79510d username2 brunohugin
 ad2dcb username2 brunohugin
 9890c4 username2 brunohugin
-
 
 ## throttle
 
