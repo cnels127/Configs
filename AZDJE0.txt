@@ -1,5 +1,6 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
-## TOTAL EXP HASHRATE 100 s9 @ 16 Th/s = 1,600 Th/s
+## 25 T17 @ 40 Th/s = 1,000 Th/s
+## 100 s9 @ 16 Th/s = 1,600 Th/s
 
 global custompanel AZDJE0bit049
 global customer bit49-Russia
@@ -29,12 +30,12 @@ global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 global panelclear 999
+# global panelpass gj83Nkgikg
 
 # global retune 2
 # global reboot 1573583604 # 1
 global uncork 1576096706
 # global reset 1
-# global panelpass gj83Nkgikg
 
 ## vlans
 # vlan 10.0.55.84-84
@@ -324,6 +325,113 @@ cbdf69 reset 1574693210
 3b9218 reset 1574693210
 f026f7 reset 1574693210
 9c7897 reset 1573768000
+
+## 25 T17 40 Th/s = 1,000 Th/s
+# sigrist (8 T17 @ 40 Th/s = 320 Th/s)
+vlan 10.3.86.76-76 # 2875f0
+vlan 10.3.86.81-81 # 48d714
+vlan 10.3.86.82-82 # 66ab2c
+vlan 10.3.86.83-83 # 20f931
+vlan 10.3.86.84-84 # 75a493
+vlan 10.3.86.85-85 # 169df2
+vlan 10.3.86.86-86 # 460221
+vlan 10.3.86.91-91 # 7e36c6
+2875f0 location 86x76 # 10.3.86.76
+48d714 location 86x81 # 10.3.86.81
+66ab2c location 86x82 # 10.3.86.82
+20f931 location 86x83 # 10.3.86.83
+75a493 location 86x84 # 10.3.86.84
+169df2 location 86x85 # 10.3.86.85
+460221 location 86x86 # 10.3.86.86
+7e36c6 location 86x91 # 10.3.86.91
+2875f0 username1 sigrist
+48d714 username1 sigrist
+66ab2c username1 sigrist
+20f931 username1 sigrist
+75a493 username1 sigrist
+169df2 username1 sigrist
+460221 username1 sigrist
+7e36c6 username1 sigrist
+2875f0 username2 sigrist
+48d714 username2 sigrist
+66ab2c username2 sigrist
+20f931 username2 sigrist
+75a493 username2 sigrist
+169df2 username2 sigrist
+460221 username2 sigrist
+7e36c6 username2 sigrist
+
+# hahner (11 T17 @ 40 Th/s = 440 Th/s)
+vlan 10.3.86.92-92 # cf201a
+vlan 10.3.86.93-93 # a95da7
+vlan 10.3.86.94-94 # 7f1f9c
+vlan 10.3.86.95-95 # 9d77c4
+vlan 10.3.86.96-96 # 466e31
+vlan 10.3.86.101-101 # 497066
+vlan 10.3.86.102-102 # 2598dc
+vlan 10.3.86.103-103 # 8ddfdf
+vlan 10.3.86.104-104 # bc1d23
+vlan 10.3.86.105-105 # 5031a9
+vlan 10.3.86.106-106 # dc2535
+cf201a location 86x92 # 10.3.86.92
+a95da7 location 86x93 # 10.3.86.93
+7f1f9c location 86x94 # 10.3.86.94
+9d77c4 location 86x95 # 10.3.86.95
+466e31 location 86x96 # 10.3.86.96
+497066 location 86x101 # 10.3.86.101
+2598dc location 86x102 # 10.3.86.102
+8ddfdf location 86x103 # 10.3.86.103
+bc1d23 location 86x104 # 10.3.86.104
+5031a9 location 86x105 # 10.3.86.105
+dc2535 location 86x106 # 10.3.86.106
+cf201a username1 hahner
+a95da7 username1 hahner
+7f1f9c username1 hahner
+9d77c4 username1 hahner
+466e31 username1 hahner
+497066 username1 hahner
+2598dc username1 hahner
+8ddfdf username1 hahner
+bc1d23 username1 hahner
+5031a9 username1 hahner
+dc2535 username1 hahner
+cf201a username2 hahner
+a95da7 username2 hahner
+7f1f9c username2 hahner
+9d77c4 username2 hahner
+466e31 username2 hahner
+497066 username2 hahner
+2598dc username2 hahner
+8ddfdf username2 hahner
+bc1d23 username2 hahner
+5031a9 username2 hahner
+dc2535 username2 hahner
+
+# brunohugin (6 T17 @ 40 Th/s = 240 Th/s)
+vlan 10.3.86.111-111 # eeff2f
+vlan 10.3.86.112-112 # cc527c
+vlan 10.3.86.113-113 # 954739
+vlan 10.3.86.114-114 # 79510d
+vlan 10.3.86.115-115 # ad2dcb
+vlan 10.3.86.116-116 # 9890c4
+eeff2f location 86x111 # 10.3.86.111
+cc527c location 86x112 # 10.3.86.112
+954739 location 86x113 # 10.3.86.113
+79510d location 86x114 # 10.3.86.114
+ad2dcb location 86x115 # 10.3.86.115
+9890c4 location 86x116 # 10.3.86.116
+eeff2f username1 brunohugin
+cc527c username1 brunohugin
+954739 username1 brunohugin
+79510d username1 brunohugin
+ad2dcb username1 brunohugin
+9890c4 username1 brunohugin
+eeff2f username2 brunohugin
+cc527c username2 brunohugin
+954739 username2 brunohugin
+79510d username2 brunohugin
+ad2dcb username2 brunohugin
+9890c4 username2 brunohugin
 
 ## asic password
 asicpass admin
