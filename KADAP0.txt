@@ -19,7 +19,7 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1450
+global maxwatts 1475
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
@@ -47,7 +47,8 @@ e917af location KADAP00002
 4c9876 location KADAP00003
 
 ## throttle
-e917af uncork 1574928139
+2a4b43 uncork 1579901306
+4c9876 uncork 1579901306
 
 ## fans
 
