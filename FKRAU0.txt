@@ -1,10 +1,10 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
-## 90 s9s traded for T17
+## 26 T17 @ 40 Th/s = 1,040 Th/s
 
 global custompanel FKRAU0bit049
 global customer bit49-Russia
 
-global poolname1 47.91.89.176:1800 # (VIP eu.ss.btc.com:1800)
+global poolname1 47.91.89.176:1800 # (eu.ss.btc.com:1800)
 global username1 fastfred02
 global poolpass1 123
 global sendworker1 yes
@@ -23,20 +23,74 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-global throttle 50
+global throttle 25
 global fanspeed 85
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 global panelclear 999
+# global panelpass gj83Nkgikg
 
 # global retune 1
 # global reboot 1
 # global uncork 1574918803
 # global reset 1
-# global panelpass gj83Nkgikg
 
 ## vlans
+vlan 10.3.85.71-71 # 141a54
+vlan 10.3.85.72-72 # f76c0b
+vlan 10.3.85.73-73 # aa9e8a
+vlan 10.3.85.74-74 # fc2a31
+vlan 10.3.85.75-75 # 5a8dcc
+vlan 10.3.85.76-76 # 3214af
+vlan 10.3.85.81-81 # 9ef1f9
+vlan 10.3.85.82-82 # fad541
+vlan 10.3.85.83-83 # 3bb98c
+vlan 10.3.85.84-84 # ed2293
+vlan 10.3.85.85-85 # 1faffc
+vlan 10.3.85.86-86 # f2e332
+vlan 10.3.85.91-91 # 921385
+vlan 10.3.85.92-92 # b8a0bb
+vlan 10.3.85.93-93 # 0e5596
+vlan 10.3.85.94-94 # 75d917
+vlan 10.3.85.95-95 # 3c2d82
+vlan 10.3.85.96-96 # 013956
+vlan 10.3.85.101-01 # cf9362
+vlan 10.3.85.102-02 # cf170d
+vlan 10.3.85.103-03 # ee9b5c
+vlan 10.3.85.104-04 # a3df5b
+vlan 10.3.85.105-05 # 43dcaf
+vlan 10.3.85.106-06 # 9cbf61
+vlan 10.3.85.111-11 # 8145d9
+vlan 10.3.85.112-12 # b73c96
+
+## locations
+141a54 location 85x71 # 10.3.85.71
+f76c0b location 85x72 # 10.3.85.72
+aa9e8a location 85x73 # 10.3.85.73
+fc2a31 location 85x74 # 10.3.85.74
+5a8dcc location 85x75 # 10.3.85.75
+3214af location 85x76 # 10.3.85.76
+9ef1f9 location 85x81 # 10.3.85.81
+fad541 location 85x82 # 10.3.85.82
+3bb98c location 85x83 # 10.3.85.83
+ed2293 location 85x84 # 10.3.85.84
+1faffc location 85x85 # 10.3.85.85
+f2e332 location 85x86 # 10.3.85.86
+921385 location 85x91 # 10.3.85.91
+b8a0bb location 85x92 # 10.3.85.92
+0e5596 location 85x93 # 10.3.85.93
+75d917 location 85x94 # 10.3.85.94
+3c2d82 location 85x95 # 10.3.85.95
+013956 location 85x96 # 10.3.85.96
+cf9362 location 85x101 # 10.3.85.101
+cf170d location 85x102 # 10.3.85.102
+ee9b5c location 85x103 # 10.3.85.103
+a3df5b location 85x104 # 10.3.85.104
+43dcaf location 85x105 # 10.3.85.105
+9cbf61 location 85x106 # 10.3.85.106
+8145d9 location 85x111 # 10.3.85.111
+b73c96 location 85x112 # 10.3.85.112
 
 ## throttle
 
