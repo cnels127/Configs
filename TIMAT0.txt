@@ -1,5 +1,6 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
-## TOTAL EXP HASHRATE 23 s9 @ 14.4 Th/s = 331.2 Th/s
+## 3 T17 @ 40 Th/s = 120 Th/s
+## 23 s9 @ 14.4 Th/s = 331.2 Th/s
 
 global custompanel TIMAT0bit049
 global customer bit49-Russia
@@ -27,7 +28,7 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-global throttle 50
+global throttle 25
 global fanspeed 85
 global fansaver yes
 global blinkred idle
@@ -41,7 +42,7 @@ global uncork 1575930950
 # global reset 1573861886
 
 ## vlans
-# vlan 10.0.68.69-91
+vlan 10.0.68.69-91
 # extra machines added 12/9/19
 vlan 10.0.118.115-115
 vlan 10.0.118.127-127
@@ -49,6 +50,10 @@ vlan 10.0.118.156-156
 vlan 10.0.119.23-23
 vlan 10.0.119.49-49
 vlan 10.0.119.53-53
+# 3 T17s
+vlan 10.3.85.113-113 # 468dfc
+vlan 10.3.85.114-114 # 40ff30
+vlan 10.3.85.115-115 # db2514
 
 ## locations
 151ac6 location TIMAT00001
@@ -81,6 +86,10 @@ f2296d location TIMAT00021
 c16639 location TIMAT0XTRA # 10.0.119.23
 7d8a4c location TIMAT0XTRA # 10.0.119.49
 7bb0bc location TIMAT0XTRA # 10.0.119.53
+# 3 T17s
+468dfc location 85x113 # 10.3.85.113
+40ff30 location 85x114 # 10.3.85.114
+db2514 location 85x115 # 10.3.85.115
 
 ## throttle
 
