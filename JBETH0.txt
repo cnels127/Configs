@@ -53,7 +53,8 @@ vlan 10.0.60.102-102
 vlan 10.0.60.131-131
 vlan 10.0.60.143-143
 # extra machines added 11/22/19
-vlan 10.0.54.10-10
+# Moved the extra machine 10.0.54.10 back to TEST16 on 01/25/20. The panel will still
+# Hash above the total expectected hash rate with the one extra machine.
 vlan 10.0.54.11-11
 
 ## locations
@@ -78,7 +79,6 @@ d549fd location JBETH00018
 f0ed76 location JBETH00019
 8f1d39 location JBETH00020
 # extra machines
-9b0135 location JBETH0XTRA
 2ffd90 location JBETH0XTRA
 
 ## throttle
