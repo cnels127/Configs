@@ -19,7 +19,7 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1475
+global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
@@ -45,7 +45,7 @@ vlan 10.0.56.137-137
 2a4b43 location KADAP00001
 e917af location KADAP00002
 4c9876 location KADAP00003
-4c9876 maxwatts 1450
+e917af maxwatts 1475
 
 ## throttle
 2a4b43 uncork 1579901306
