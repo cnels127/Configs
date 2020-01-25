@@ -53,8 +53,8 @@ vlan 10.0.60.102-102
 vlan 10.0.60.131-131
 vlan 10.0.60.143-143
 # extra machines added 11/22/19
-# Moved the extra machine 10.0.54.10 back to TEST16 on 01/25/20. The panel will still
-# Hash above the total expectected hash rate with the one extra machine.
+# Moved the extra machine 10.0.54.10 back to TEST16 on 01/25/20. The panel is currently hashing at 328.9 Th, 
+# well above the expected 307.2 Th. The panel will still hash above the total expectected hash rate with the one remaining extra machine.
 vlan 10.0.54.11-11
 
 ## locations
