@@ -14,7 +14,7 @@ global poolname2 8.209.72.236:443 # (btc.ss.poolin.com:443)
 global username2 johnbeth
 global poolpass2 123
 global sendworker2 yes
-global poolname3 18.184.127.10:3333 # (eu.stratum.slushpool.com)
+global poolname3 ru-west.stratum.slushpool.com:3333 # (91.237.249.93:3333)
 global username3 johnbeth
 global poolpass3 123
 global sendworker3 yes
@@ -25,8 +25,8 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-global throttle 50
-global fanspeed 80
+global throttle 25
+global fanspeed 85
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
