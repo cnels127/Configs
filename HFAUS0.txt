@@ -38,21 +38,29 @@ global uncork 1574921337
 # global reset 1573933663
 
 ## vlans
-vlan 10.0.62.37-37
-vlan 10.0.62.81-81
-vlan 10.0.57.86-86
-vlan 10.0.62.32-32
-vlan 10.0.65.11-11
-vlan 10.0.61.109-109
-vlan 10.0.65.124-124
-vlan 10.0.63.42-42
-vlan 10.0.61.105-105
-vlan 10.0.63.34-34
-vlan 10.0.65.112-112
-vlan 10.0.67.95-95
-vlan 10.0.59.161-161
-vlan 10.0.64.104-104
-vlan 10.0.64.70-70
+# vlan 10.0.62.37-37
+# vlan 10.0.62.81-81
+# vlan 10.0.57.86-86
+# vlan 10.0.62.32-32
+# vlan 10.0.65.11-11
+# vlan 10.0.61.109-109
+# vlan 10.0.65.124-124
+# vlan 10.0.63.42-42
+# vlan 10.0.61.105-105
+# vlan 10.0.63.34-34
+# vlan 10.0.65.112-112
+# vlan 10.0.67.95-95
+# vlan 10.0.59.161-161
+# vlan 10.0.64.104-104
+# vlan 10.0.64.70-70
+# extra machines added 1/28/20
+vlan 10.0.119.36-36 # 5d25fd
+vlan 10.0.115.91-91 # 3e769e
+vlan 10.0.118.127-127 # 27a545
+vlan 10.0.68.80-80 # bc8e6c
+vlan 10.0.119.21-21 # 8f4a03
+vlan 10.0.119.25-25 # ee1c21
+vlan 10.0.121.39-39 # 0365f7
 
 ## locations
 a7fca0 location HFAUS00001
@@ -75,6 +83,14 @@ f3c9af location HFAUS00012
 # extra machines added 12/26/19
 f8bd59 location HFAUS0XTRA # 10.0.119.24
 79293a location HFAUS0XTRA # 10.0.120.55
+# extra machines added 1/28/20
+5d25fd location HFAUS0XTRA # 10.0.119.36
+3e769e location HFAUS0XTRA # 10.0.115.91
+27a545 location HFAUS0XTRA # 10.0.118.127
+bc8e6c location HFAUS0XTRA # 10.0.68.80
+8f4a03 location HFAUS0XTRA # 10.0.119.21
+ee1c21 location HFAUS0XTRA # 10.0.119.25
+0365f7 location HFAUS0XTRA # 10.0.121.39
 
 ## throttle
 # s_uncork generated on Jan 07 2020 21:45:21 utc: 1578433521
