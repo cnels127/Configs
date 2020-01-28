@@ -38,9 +38,13 @@ global panelclear 999
 
 ## vlans
 vlan 10.0.59.69-69
+# extra machine added 1/28/20
+vlan 10.0.120.61-61 # e94a20
 
 ## locations
 80218d location JLUI000001
+# extra machine added 1/28/20
+e94a20 location JLUI00XTRA # 10.0.120.61
 
 ## throttle
 80218d uncork 1577132625
