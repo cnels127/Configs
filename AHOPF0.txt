@@ -2,6 +2,8 @@
 ## TOTAL EXP HASHRATE 453 s9 @ 14.4 Th/s = 6,568.5 Th/s (3 extra machines were sent with the sale/shipment of 150 machines)
 
 global custompanel AHOPF0bit049
+# global panelpass gj83Nkgikg
+global panelclear 999
 global customer bit49-Russia
 
 global poolname1 47.91.89.176:1800 # (VIP eu.ss.btc.com:1800)
@@ -28,13 +30,11 @@ global fanspeed 85
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
-global panelclear 999
 
 # global retune 1
 # global reboot 1573583438 # 4
-global uncork 1579295871
+global uncork 1580254028
 # global reset 1571113675 
-# global panelpass gj83Nkgikg
 
 # vlans
 vlan 10.0.56.159-159 # cb7a3d
