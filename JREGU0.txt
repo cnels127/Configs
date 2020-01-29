@@ -37,10 +37,12 @@ global panelclear 999
 # global reset 1
 
 ## vlans
-# vlan 10.0.115.60-60
+vlan 10.0.115.60-60
 
 ## locations
 cc5e00 location JREGU00001
+# extra machine added 1/29/20
+4c42a8 location JREGU0XTRA # 10.0.68.71
 
 ## throttle
 
@@ -49,11 +51,8 @@ cc5e00 location JREGU00001
 ## reboots
 
 ## resets
-9c3c4b reset 1580252542
 
 ## removals
-global remove 568737
-global remove 9c3c4b
 
 ## asic password
 asicpass admin
