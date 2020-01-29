@@ -1114,6 +1114,9 @@ d92393 location AHOPF0XTRA # 10.0.68.84
 af4344 location AHOPF0XTRA # 10.0.68.74
 
 ## throttle
+37d5ce uncork 1580308389
+47be03 uncork 1580308389
+028d18 uncork 1580308389
 1fb534 uncork 1580249342
 41dd5d uncork 1580249342
 e97edc uncork 1580249342
@@ -1222,6 +1225,12 @@ a47fd5 uncork 1579296328
 48ae69 uncork 1579296328
 7be20a uncork 1579296328
 d7d3e4 uncork 1579296328
+
+## tuning
+17ce8c maxwatts 1400
+6167d2 maxwatts 1425
+c56a90 maxwatts 1425
+308614 maxwatts 1425
 
 ## fans
 
@@ -1446,6 +1455,7 @@ c56a90 reboot 1577470303 # 10.0.57.25 ahopf00028
 ## retunes
 
 ## resets
+c3ad8c reset 1580308389
 e3daaa reset 1579842487
 f1ead0 reset 1579842487
 3a6a42 reset 1579536244
