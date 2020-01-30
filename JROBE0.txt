@@ -23,7 +23,7 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-global throttle 50
+global throttle 25
 global fanspeed 85
 global fansaver yes
 global blinkgreen idle
@@ -45,6 +45,9 @@ vlan 10.0.120.130-130
 # extra machines added 11/23/19
 vlan 10.0.53.152-152
 vlan 10.0.53.153-153
+# extra machines added 1/30/20
+vlan 10.0.68.70-70 # 5d5985
+vlan 10.0.68.89-89 # f2296d
 
 ## locations
 1565d6 location JROBE00001
@@ -57,7 +60,9 @@ vlan 10.0.53.153-153
 79e1ed location JROBE0XTRA
 29ece6 maxwatts 1450
 79e1ed maxwatts 1450
-
+# extra machines added 1/30/20
+5d5985 location JROBE0XTRA # 10.0.68.70
+f2296d location JROBE0XTRA # 10.0.68.89
 
 ## throttle
 29ece6 uncork 1579330772
