@@ -81,6 +81,9 @@ f0ed76 location JBETH00019
 # extra machines
 2ffd90 location JBETH0XTRA
 
+## removed
+global remove 9b0135 #10.0.54.10
+
 ## throttle
 95c235 uncork 1580141584
 f9164a uncork 1580141584
