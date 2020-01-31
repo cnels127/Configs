@@ -78,6 +78,12 @@ a58136 location DDUNN0XTRA # 10.0.51.69
 fcb53d location DDUNN0XTRA # 10.0.51.76
 
 ## throttle
+13424f uncork 1580501205
+787c22 uncork 1580501205
+a58136 uncork 1580501205
+5594a0 uncork 1580501205
+733b65 uncork 1580501205
+968831 uncork 1580501205
 # s_uncork generated on Jan 10 2020 22:36:33 utc: 1578695793
 733b65 uncork 1578695793 # 10.0.55.119 ddunn00009
 f5839e uncork 1578695793 # 10.0.55.86 ddunn00007
@@ -91,6 +97,7 @@ a58136 uncork 1578695793 # 10.0.51.69 ddunn0xtra
 ## reboots
 
 ## resets
+ee9f37 reset 1580501205
 ee9f37 reset 1579536570
 62c412 reset 1579308847
 fcb53d reset 1579308847
