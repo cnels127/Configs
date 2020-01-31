@@ -23,7 +23,7 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-global throttle 50
+global throttle 25
 global fanspeed 85
 global fansaver yes
 global blinkred idle
@@ -32,7 +32,7 @@ global panelclear 999
 
 # global retune 2
 # global reboot 1573498204
-global uncork 1575654696
+global uncork 1580497915
 # global reset 1574284478
 # global panelpass gj83Nkgikg
 
