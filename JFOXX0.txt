@@ -17,6 +17,7 @@ global username3 bit49
 global poolpass3 123
 global sendworker3 yes
 
+
 global asicboost yes
 global autotune yes
 global maxwatts 1450
@@ -110,6 +111,9 @@ a1dd12 reboot 1580752511
 2287f8 reboot 1580752511
 
 ## resets
+b40d2b reset 1580770675
+3ce1a0 reset 1580770675
+6957e3 reset 1580770675
 a1dd12 reset 1580756109
 763ea8 reset 1580756109
 95ae86 reset 1580755090
