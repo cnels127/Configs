@@ -1,7 +1,6 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
-##    12 s9 @ 16 Th/s = 192 Th/s
-##   8 s9 @ 14.4 Th/s = 115.2 Th/s
-## TOTAL EXP HASHRATE = 307.2 Th/s
+##   10 s9 @ 14.4 Th/s = 144 Th/s
+## customer decommissioned 10 s9s on 2/4/20
 
 global custompanel JBETH0bit049
 global customer bit49-Russia
@@ -38,87 +37,40 @@ global panelclear 999
 global uncork 1576121390
 # global reset 1573742480
 
-## removed
-global remove 9b0135 #10.0.54.10
-
 ## vlans
-vlan 10.0.68.48-52
-vlan 10.0.68.102-108
-vlan 10.0.59.129-129
-vlan 10.0.59.131-131
-vlan 10.0.60.18-18
-vlan 10.0.60.35-35
-vlan 10.0.60.100-100
-vlan 10.0.60.102-102
-vlan 10.0.60.131-131
-vlan 10.0.60.143-143
-# extra machines added 11/22/19
-# Moved the extra machine 10.0.54.10 back to TEST16 on 01/25/20. The panel is currently hashing at 328.9 Th, 
-# well above the expected 307.2 Th. The panel will still hash above the total expectected hash rate with the one remaining extra machine.
-vlan 10.0.54.11-11
+vlan 10.0.68.104-104 # 690f5d
+vlan 10.0.68.108-108 # 6c73b3
+vlan 10.0.68.49-49 # 966dd1
+vlan 10.0.60.131-131 # f0ed76
+vlan 10.0.68.106-106 # 39be0c
+vlan 10.0.68.103-103 # 2c969d
+vlan 10.0.68.107-107 # e67e88
+vlan 10.0.60.100-100 # aba209
+vlan 10.0.68.50-50 # 37ffb3
+vlan 10.0.60.18-18 # f9164a
 
 ## locations
-2462cd location JBETH00001
-966dd1 location JBETH00002
-37ffb3 location JBETH00003
-084a54 location JBETH00004
-b340b4 location JBETH00005
-434e7d location JBETH00006
-2c969d location JBETH00007
-690f5d location JBETH00008
-406249 location JBETH00009
-39be0c location JBETH00010
-e67e88 location JBETH00011
-6c73b3 location JBETH00012
-45ff0c location JBETH00013
-95c235 location JBETH00014
-f9164a location JBETH00015
-4db5d3 location JBETH00016
-aba209 location JBETH00017
-d549fd location JBETH00018
-f0ed76 location JBETH00019
-8f1d39 location JBETH00020
-# extra machines
-2ffd90 location JBETH0XTRA
-
-## removed
-global remove 9b0135 #10.0.54.10
+690f5d location JBETH00001 # 10.0.68.104
+6c73b3 location JBETH00002 # 10.0.68.108
+966dd1 location JBETH00003 # 10.0.68.49
+f0ed76 location JBETH00004 # 10.0.60.131
+39be0c location JBETH00005 # 10.0.68.106
+2c969d location JBETH00006 # 10.0.68.103
+e67e88 location JBETH00007 # 10.0.68.107
+aba209 location JBETH00008 # 10.0.60.100
+37ffb3 location JBETH00009 # 10.0.68.50
+f9164a location JBETH00010 # 10.0.60.18
 
 ## throttle
-95c235 uncork 1580141584
-f9164a uncork 1580141584
-434e7d uncork 1580141584
-2c969d uncork 1580141584
 
 ## fans
 
 ## reboots
-aba209 reboot 1580141584
-d549fd reboot 1580141584
 
 ## resets
-39be0c reset 1579917654
-4db5d3 reset 1579917654
-2ffd90 reset 1579917654
-9b0135 reset 1579917654
-2462cd reset 1579917654
-966dd1 reset 1579917654
-37ffb3 reset 1579917654
-084a54 reset 1579917654
-b340b4 reset 1579917654
-434e7d reset 1579917654
-2c969d reset 1579917654
-690f5d reset 1579917654
-406249 reset 1579917654
-e67e88 reset 1579917654
-6c73b3 reset 1579917654
-45ff0c reset 1579917654
-95c235 reset 1579917654
-f9164a reset 1579917654
-aba209 reset 1579917654
-d549fd reset 1579917654
-f0ed76 reset 1579917654
-8f1d39 reset 1579917654
+
+## removals
+global remove 2462cd,b340b4,406249,45ff0c,8f1d39,4db5d3,434e7d,95c235,d549fd,084a54,2ffd90
 
 ## asic password
 asicpass admin
