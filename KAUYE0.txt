@@ -54,6 +54,10 @@ vlan 10.0.56.133-133
 vlan 10.0.54.3-3
 vlan 10.0.54.4-4
 vlan 10.0.54.5-5
+# extra machines added 2020-02-04
+vlan 10.0.68.88-88
+vlan 10.0.68.102-102
+vlan 10.0.60.143-143
 
 ## locations
 213829 location KAUYE00001
@@ -74,6 +78,9 @@ d87db4 location KAUYE00014
 c64ec9 location KAUYE0XTRA
 7e18e7 location KAUYE0XTRA
 a25bea location KAUYE0XTRA
+f74d6d location KAUYE0XTRA
+434e7d location KAUYE0XTRA
+8f1d39 location KAUYE0XTRA
 
 ## throttle
 e6ca25 uncork 1580751155
