@@ -37,55 +37,37 @@ global panelclear 999
 # global panelpass gj83Nkgikg
 
 ## vlans
-vlan 10.0.118.43-43
-vlan 10.0.118.45-45
-vlan 10.0.118.77-77
+# vlan 10.0.118.43-43 # 65ebd5 # POWERED DOWN - NO WORKING HASHBOARDS
+vlan 10.0.118.45-45 # ae8e9d
+# vlan 10.0.118.77-77 # 25569b # POWERED DOWN - NO WORKING HASHBOARDS
 
 ## locations
-65ebd5 location DMIYA00001
+# 65ebd5 location DMIYA00001 # POWERED DOWN - NO WORKING HASHBOARDS
 ae8e9d location DMIYA00002
-25569b location DMIYA00003
-# extra machine added 1/15/20
-b4e11c location DMIYA0XTRA # 10.0.60.137
+# 25569b location DMIYA00003 # POWERED DOWN - NO WORKING HASHBOARDS
+# extra machine added 1/15/20 # 9 Th/s
+b4e11c location DMIYA0XTRA # 10.0.60.137 # 9 Th/s
 b4e11c maxwatts 1350
+# extra machines added 2/5/20 # 26.9 Th/s
+c44fd0 location DMIYA0XTRA # 10.0.121.106 # 5.1 Th/s
+45ff0c location DMIYA0XTRA # 10.0.59.129 # 10.7 Th/s
+937ce5 location DMIYA0XTRA # 10.0.118.115 # 11.1 Th/s
 
 ## throttle
-# 1/11/20
 25569b uncork 1578767458
-
-# 1/10/20
-25569b uncork 1578681271
-
 ae8e9d uncork 1577466463
-
 ae8e9d uncork 1576590300
-25569b uncork 1576590300
-
-65ebd5 uncork 1575562181
 
 ## fans
 
 ## reboots
-# 2/3/20
-65ebd5 reboot 1580753286
 ae8e9d reboot 1580753286
-
-# 1/29/20
-65ebd5 reboot 1580321102
-
-# 1/14/20
 ae8e9d reboot 1579027719
-
 ae8e9d reboot 1578940593
 
 ## resets
-# 1/30/20
-65ebd5 reset 1580408692
-
-25569b reset 1579020601
 ae8e9d reset 1578338701
 ae8e9d reset 1574871945
-65ebd5 reset 1572456575
 
 ## asic password
 asicpass admin
