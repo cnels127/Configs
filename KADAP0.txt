@@ -41,17 +41,14 @@ vlan 10.0.56.132-132
 vlan 10.0.56.136-136
 vlan 10.0.56.137-137
 # extra machine added 2020-02-05
-vlan 10.0.68.82-82
-vlan 10.0.116.27-27
-vlan 10.0.68.82-82
+vlan 10.0.121.133-133
 
 ## location
 2a4b43 location KADAP00001
 e917af location KADAP00002
 4c9876 location KADAP00003
 # extra machine added 2020-02-05
-81d744 location KADAP0EXTRA
-c3f792 location KADAP0EXTRA
+156e90 location KADAP0EXTRA
 
 ## throttle
 4c9876 uncork 1580499073
