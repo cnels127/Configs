@@ -40,12 +40,15 @@ global uncork 1574925437
 vlan 10.0.56.132-132
 vlan 10.0.56.136-136
 vlan 10.0.56.137-137
+# extra machine added 2020-02-04
+vlan 10.0.54.11-11
 
 ## location
 2a4b43 location KADAP00001
 e917af location KADAP00002
 4c9876 location KADAP00003
-e917af maxwatts 1475
+# extra machine added 2020-02-04
+2ffd90 location KADAP0EXTRA
 
 ## throttle
 4c9876 uncork 1580499073
