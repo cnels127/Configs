@@ -65,6 +65,10 @@ vlan 10.0.68.89-89 # f2296d
 f2296d location JROBE0XTRA # 10.0.68.89
 
 ## throttle
+29ece6 uncork 1581007970
+1565d6 uncork 1581007970
+555712 uncork 1581007970
+5d5985 uncork 1581007970
 79e1ed uncork 1580486100
 555712 uncork 1580486100
 29ece6 uncork 1579330772
@@ -74,6 +78,7 @@ f2296d location JROBE0XTRA # 10.0.68.89
 ## reboots
 
 ## resets
+321a3a reset 1581007970
 555712 reset 1580939049
 5d5985 reset 1580939049
 9b2f7a reset 1580939049
