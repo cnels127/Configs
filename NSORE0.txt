@@ -42,7 +42,8 @@ vlan 10.0.66.122-122
 ## locations
 fb574c location NSORE00001
 
-## tuning
+## throttle
+fb574c uncork 1581037289
 fb574c uncork 1577132076
 
 ## fans
