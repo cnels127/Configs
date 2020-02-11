@@ -42,12 +42,6 @@ vlan 10.0.56.136-136
 vlan 10.0.56.137-137
 # extra machine added 2020-02-05
 vlan 10.0.121.133-133
-# extra machines added 2020-02-06. To be removed on 2020-02-10
-vlan 10.0.119.53-53
-vlan 10.0.60.150-150
-vlan 10.0.54.48-48
-vlan 10.0.67.160-160
-vlan 10.0.120.3-3
 
 ## location
 2a4b43 location KADAP00001
@@ -55,12 +49,6 @@ e917af location KADAP00002
 4c9876 location KADAP00003
 # extra machine added 2020-02-05
 156e90 location KADAP0EXTRA
-# extra machines added 2020-02-06. To be removed on 2020-02-10
-7bb0bc location KADAP0EXTRA
-c1769c location KADAP0EXTRA
-4112bb location KADAP0EXTRA
-5fa3f6 location KADAP0EXTRA
-e1a2b1 location KADAP0EXTRA
 
 ## throttle
 c1769c uncork 1581119250
