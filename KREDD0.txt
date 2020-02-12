@@ -1,6 +1,5 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
 ## 1 T17 @ 40 Th/s  = 40 Th/s
-## 3 s9 @ 14.4 Th/s = 43.2 Th/s
 
 global custompanel KREDD0bit049
 global customer bit49-Russia
@@ -38,16 +37,10 @@ global panelclear 999
 # global reset 1
 
 ## vlans
-vlan 10.0.54.145-147 # c94710
-vlan 10.0.54.146-146 # 934f82
-vlan 10.0.54.147-147 # 5d208b
-# 1 T17
+# 1 T17 40 Th/s
 vlan 10.3.85.116-116 # 563556
 
 ## locations
-c94710 location KREDD00001 # 10.0.54.145
-934f82 location KREDD00002 # 10.0.54.146
-5d208b location KREDD00003 # 10.0.54.147
 # 1 T17
 563556 location 85x116 # 10.3.85.116
 
