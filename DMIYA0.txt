@@ -36,6 +36,10 @@ global panelclear 999
 # global reset 1
 # global panelpass gj83Nkgikg
 
+## removals
+global remove 65ebd5
+global remove 25569b
+
 ## vlans
 # vlan 10.0.118.43-43 # 65ebd5 # POWERED DOWN - NO WORKING HASHBOARDS
 vlan 10.0.118.45-45 # ae8e9d
