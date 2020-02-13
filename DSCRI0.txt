@@ -1,5 +1,5 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
-## TOTAL EXP HASHRATE 3 s9 @ 14.4 Th/s = 43.2 Th/s
+## Customer requested end of mining at the end of contract 12/13/19
 
 global custompanel DSCRI0bit049
 global customer bit49-Russia
@@ -32,41 +32,23 @@ global panelclear 999
 
 # global retune 1
 # global reboot 1
-global uncork 1579290572
-global reset 1575654232
-global reset 1580946257
+# global uncork 1579290572
+# global reset 1580946257
 # global panelpass gj83Nkgikg
 
 ## vlans
-vlan 10.0.60.9-10
-vlan 10.0.60.58-58
 
 ## locations
-85ae8d location DSCRI00001
-309322 location DSCRI00002
-1c0d86 location DSCRI00003
 
 ## throttle
-85ae8d uncork 1581354590
-309322 uncork 1581007654
 
 ## fans
 
 ## retunes
-85ae8d retune 1581007654
 
 ## reboots
 
 ## resets
-85ae8d reset 1581029726
-309322 reset 1580850134
-1c0d86 reset 1580401868
-85ae8d reset 1580327138
-85ae8d reset 1580244770
-1c0d86 reset 1580231544
-1c0d86 reset 1575933653
-1c0d86 reset 1574122168
-309322 reset 1574122168
 
 ## asic password
 asicpass admin
