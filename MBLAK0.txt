@@ -66,6 +66,10 @@ f3393d location MBLAK0XTRA # 10.0.54.9 15.7
 d6a99c location MBLAK0XTRA # 10.0.118.37
 0a9fbb location MBLAK0XTRA # 10.0.116.69
 
+## removed
+# ed92f7 was a ASICseer ID given to mblak0001 after a reset. Removing ed92f7 from the panel after restoring the machine's original mac address
+global remove ed92f7
+
 ## throttle
 3bd8d4 uncork 1581700344
 0a9fbb uncork 1581700344
