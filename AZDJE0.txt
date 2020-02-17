@@ -315,24 +315,24 @@ c02053 location AZDJE0XTRA # 10.0.117.83
 460221 location 86x86 # 10.3.86.86
 7e36c6 location 86x91 # 10.3.86.91
 fcd298 location 56x111 # 10.0.56.111
-2875f0 username1 sigrist
-48d714 username1 sigrist
-66ab2c username1 sigrist
-20f931 username1 sigrist
-75a493 username1 sigrist
-169df2 username1 sigrist
-460221 username1 sigrist
-7e36c6 username1 sigrist
-fcd298 username1 sigrist
-2875f0 username2 sigrist
-48d714 username2 sigrist
-66ab2c username2 sigrist
-20f931 username2 sigrist
-75a493 username2 sigrist
-169df2 username2 sigrist
-460221 username2 sigrist
-7e36c6 username2 sigrist
-fcd298 username2 sigrist
+2875f0 username1 sigrist1
+48d714 username1 sigrist1
+66ab2c username1 sigrist1
+20f931 username1 sigrist1
+75a493 username1 sigrist1
+169df2 username1 sigrist1
+460221 username1 sigrist1
+7e36c6 username1 sigrist1
+fcd298 username1 sigrist1
+2875f0 username2 sigrist1
+48d714 username2 sigrist1
+66ab2c username2 sigrist1
+20f931 username2 sigrist1
+75a493 username2 sigrist1
+169df2 username2 sigrist1
+460221 username2 sigrist1
+7e36c6 username2 sigrist1
+fcd298 username2 sigrist1
 # hahner (11 T17 @ 40 Th/s = 440 Th/s)
 # vlan 10.3.86.92-92 # cf201a
 # vlan 10.3.86.93-93 # a95da7
@@ -356,28 +356,28 @@ a95da7 location 86x93 # 10.3.86.93
 bc1d23 location 86x104 # 10.3.86.104
 5031a9 location 86x105 # 10.3.86.105
 dc2535 location 86x106 # 10.3.86.106
-cf201a username1 hahner
-a95da7 username1 hahner
-7f1f9c username1 hahner
-9d77c4 username1 hahner
-466e31 username1 hahner
-497066 username1 hahner
-2598dc username1 hahner
-8ddfdf username1 hahner
-bc1d23 username1 hahner
-5031a9 username1 hahner
-dc2535 username1 hahner
-cf201a username2 hahner
-a95da7 username2 hahner
-7f1f9c username2 hahner
-9d77c4 username2 hahner
-466e31 username2 hahner
-497066 username2 hahner
-2598dc username2 hahner
-8ddfdf username2 hahner
-bc1d23 username2 hahner
-5031a9 username2 hahner
-dc2535 username2 hahner
+cf201a username1 hahner1
+a95da7 username1 hahner1
+7f1f9c username1 hahner1
+9d77c4 username1 hahner1
+466e31 username1 hahner1
+497066 username1 hahner1
+2598dc username1 hahner1
+8ddfdf username1 hahner1
+bc1d23 username1 hahner1
+5031a9 username1 hahner1
+dc2535 username1 hahner1
+cf201a username2 hahner1
+a95da7 username2 hahner1
+7f1f9c username2 hahner1
+9d77c4 username2 hahner1
+466e31 username2 hahner1
+497066 username2 hahner1
+2598dc username2 hahner1
+8ddfdf username2 hahner1
+bc1d23 username2 hahner1
+5031a9 username2 hahner1
+dc2535 username2 hahner1
 # brunohugin (6 T17 @ 40 Th/s = 240 Th/s)
 # vlan 10.3.86.111-111 # eeff2f
 # vlan 10.3.86.112-112 # cc527c
@@ -391,18 +391,18 @@ cc527c location 86x112 # 10.3.86.112
 79510d location 86x114 # 10.3.86.114
 ad2dcb location 86x115 # 10.3.86.115
 9890c4 location 86x116 # 10.3.86.116
-eeff2f username1 brunohugin
-cc527c username1 brunohugin
-954739 username1 brunohugin
-79510d username1 brunohugin
-ad2dcb username1 brunohugin
-9890c4 username1 brunohugin
-eeff2f username2 brunohugin
-cc527c username2 brunohugin
-954739 username2 brunohugin
-79510d username2 brunohugin
-ad2dcb username2 brunohugin
-9890c4 username2 brunohugin
+eeff2f username1 brunohugin1
+cc527c username1 brunohugin1
+954739 username1 brunohugin1
+79510d username1 brunohugin1
+ad2dcb username1 brunohugin1
+9890c4 username1 brunohugin1
+eeff2f username2 brunohugin1
+cc527c username2 brunohugin1
+954739 username2 brunohugin1
+79510d username2 brunohugin1
+ad2dcb username2 brunohugin1
+9890c4 username2 brunohugin1
 
 ## throttle
 db2219 uncork 1580746874
