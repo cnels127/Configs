@@ -176,13 +176,15 @@ f60107 location HFISC0XTRA # 10.0.62.160
 3fd204 location HFISC0XTRA # 10.0.121.139
 a8ee8a location HFISC0XTRA # 10.0.51.129
 
+## retune
 #2/17/20
-540742 retune 
+540742 retune 1582218117
 
 ## fans
 
 ## throttle
 #2/20/20
+3fd204 uncork 1582218117
 f60107 uncork 1582216420
 6b2885 uncork 1582216420
 #2/18/20
