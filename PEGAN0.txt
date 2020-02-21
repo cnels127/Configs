@@ -55,7 +55,6 @@ vlan 10.0.119.52-52
 # extra machines added 11/25/19
 vlan 10.0.54.7-7
 vlan 10.0.54.27-27
-vlan 10.0.115.76-76
 vlan 10.0.54.19-19
 vlan 10.0.54.21-21
 vlan 10.0.54.6-6
@@ -80,7 +79,6 @@ f1ae88 location PEGAN00014
 # extra machines added 11/25/19
 8883eb location PEGAN0XTRA
 1a4852 location PEGAN0XTRA
-bbf6ce location PEGAN0XTRA
 45099f location PEGAN0XTRA
 0884bf location PEGAN0XTRA
 52a31b location PEGAN0XTRA
@@ -135,7 +133,7 @@ e6d42b retune 1581706474
 f1ae88 retune 1581706474
 
 # s_remove generated on Dec 07 2019 01:26:01 utc: 1575681961
-global remove 45099f,0884bf
+global remove 45099f,0884bf,bbf6ce
 
 ## asic password
 asicpass admin
