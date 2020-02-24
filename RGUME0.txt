@@ -49,10 +49,13 @@ c27ee4 location RGUME00003
 27b5a1 location RGUME0XTRA # 10.0.53.12
 
 ## throttle
+b2e414 uncork 1582572904 # 10.0.32.61 rgume00001
 
 ## fans
 
 ## reboots
+27b5a1 reboot 1582572963 # 10.0.53.12 rgume0xtra
+df79d4 reboot 1582572963 # 10.0.32.62 rgume00002
 27b5a1 reboot 1582160164 # 10.0.53.12 rgume0xtra
 df79d4 reboot 1582160164 # 10.0.32.62 rgume00002
 b2e414 reboot 1582160164 # 10.0.32.61 rgume00001
