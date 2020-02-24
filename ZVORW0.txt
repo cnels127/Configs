@@ -23,7 +23,7 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-global throttle 50
+global throttle 25
 global fanspeed 85
 global fansaver yes
 global blinkred idle
@@ -63,6 +63,8 @@ f726b1 reboot 1578429114 # 10.0.63.55 zvorw00002
 f726b1 reboot 1573499856 # 10.0.63.55 zvorw00002
 
 ## resets
+3884fb reset 1582553583
+c2ee95 reset 1582553583
 c2ee95 reset 1577085552
 3884fb reset 1574400367
 f726b1 reset 1574400367
