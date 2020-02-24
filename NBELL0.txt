@@ -40,6 +40,7 @@ global uncork 1574929337
 ## removed
 global remove 13571e
 global remove e82075
+global remove 636e64 # this appeared after removing e82075
 
 ## vlans
 # vlan 10.0.58.75-75
@@ -282,7 +283,7 @@ vlan 10.0.121.7-7
 vlan 10.0.121.18-18
 vlan 10.0.121.20-20
 vlan 10.0.121.22-22
-vlan 10.0.121.25-25
+vlan 10.0.121.25-25 # POWERED OFF
 # 60 T17
 vlan 10.3.87.21-21 # df8681
 vlan 10.3.87.22-22 # be76a0
@@ -577,7 +578,7 @@ ad914a location NBELL0XTRA # 10.0.121.7
 629744 location NBELL0XTRA # 10.0.121.18
 c7156e location NBELL0XTRA # 10.0.121.20
 d7cd4b location NBELL0XTRA # 10.0.121.22
-e82075 location NBELL0XTRA # 10.0.121.25
+e82075 location NBELL0XTRA # 10.0.121.25 # POWERED OFF
 # 60 T17
 df8681 location 87x21 # 10.3.87.21
 be76a0 location 87x22 # 10.3.87.22
