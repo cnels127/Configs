@@ -435,5 +435,8 @@ f2b75b reset 1575585562 # 10.0.118.54 hfisc00056
 26c95e reset 1575585562 # 10.0.64.107 hfisc00059
 4c84d0 reset 1575585562 # 10.0.64.3 hfisc00059
 
+## removals
+global remove 227281,2fd188
+
 ## asic password
 asicpass admin
