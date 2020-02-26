@@ -37,11 +37,6 @@ global panelclear 999
 global uncork 1574929337
 # global reset 1
 
-## removed
-global remove 13571e
-global remove e82075
-global remove 636e64 # this appeared after removing e82075
-
 ## vlans
 # vlan 10.0.58.75-75
 # vlan 10.0.58.139-139
@@ -640,6 +635,10 @@ e73da4 location 87x114 # 10.3.87.114
 b04ec4 location 87x115 # 10.3.87.115
 6e9b6f location 87x116 # 10.3.87.116
 177881 location 88x61 # 10.3.88.61
+
+## removed
+global remove e82075
+global remove 636e64
 
 ## throttle
 # 2/18/20
