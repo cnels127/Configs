@@ -36,14 +36,14 @@ global panelclear 999
 global reset 1580151563
 
 ## TIMAT0 23/26+extras s9s
-vlan 10.0.68.69-91
+# vlan 10.0.68.69-91
 # extra machines added 12/9/19
-vlan 10.0.118.115-115
-vlan 10.0.118.127-127
-vlan 10.0.118.156-156
-vlan 10.0.119.23-23
-vlan 10.0.119.49-49
-vlan 10.0.119.53-53
+# vlan 10.0.118.115-115 # extra machine
+# vlan 10.0.118.127-127 # extra machine
+# vlan 10.0.118.156-156 # extra machine
+# vlan 10.0.119.23-23 # extra machine
+# vlan 10.0.119.49-49 # extra machine
+# vlan 10.0.119.53-53 # extra machine
 151ac6 location TIMAT00001
 5d5985 location TIMAT00002
 4c42a8 location TIMAT00003
@@ -68,12 +68,12 @@ f2296d location TIMAT00021
 12dafb location TIMAT00022
 81a6b6 location TIMAT00023
 # extra machines added 12/9/19
-937ce5 location TIMAT0XTRA # 10.0.118.115
-27a545 location TIMAT0XTRA # 10.0.118.127
-9dd370 location TIMAT0XTRA # 10.0.118.156
-c16639 location TIMAT0XTRA # 10.0.119.23
-7d8a4c location TIMAT0XTRA # 10.0.119.49
-7bb0bc location TIMAT0XTRA # 10.0.119.53
+# 937ce5 location TIMAT0XTRA # 10.0.118.115
+# 27a545 location TIMAT0XTRA # 10.0.118.127
+# 9dd370 location TIMAT0XTRA # 10.0.118.156
+# c16639 location TIMAT0XTRA # 10.0.119.23
+# 7d8a4c location TIMAT0XTRA # 10.0.119.49
+# 7bb0bc location TIMAT0XTRA # 10.0.119.53
 
 ## RGESU0 60 s9s
 # vlan 10.0.53.140-161
@@ -1056,6 +1056,73 @@ ed783e location FKRAU00087
 c899a0 location FKRAU00088
 1bae03 location FKRAU00089
 3ee8ed location FKRAU00090
+
+## GSAMP0 30 s9
+vlan 10.0.56.40-41
+vlan 10.0.56.47-47
+vlan 10.0.56.50-50
+vlan 10.0.56.56-56
+vlan 10.0.56.67-67
+vlan 10.0.56.75-75
+vlan 10.0.56.77-78
+vlan 10.0.58.70-70
+vlan 10.0.59.36-37
+vlan 10.0.59.39-39
+vlan 10.0.59.41-41
+vlan 10.0.59.43-46
+vlan 10.0.59.48-50
+vlan 10.0.59.52-52
+vlan 10.0.59.54-54
+vlan 10.0.59.60-60
+vlan 10.0.59.66-66
+vlan 10.0.59.73-73
+vlan 10.0.59.80-80
+vlan 10.0.59.90-90
+vlan 10.0.61.6-6
+vlan 10.0.67.79-79
+vlan 10.0.117.66-66 # extra machine
+vlan 10.0.118.85-85 # extra machine
+vlan 10.0.118.80-80 # extra machine
+vlan 10.0.121.134-134 # extra machine
+vlan 10.0.117.114-114 # extra machine
+vlan 10.0.121.90-90 # extra machine
+c5496d location GSAMP00001
+271937 location GSAMP00002
+ca177b location GSAMP00003
+c02d51 location GSAMP00004
+41be8a location GSAMP00005
+751610 location GSAMP00006
+8e284e location GSAMP00007
+a7631d location GSAMP00008
+0101ec location GSAMP00009
+62bdc8 location GSAMP00010
+3900a7 location GSAMP00011
+a36e04 location GSAMP00012
+644746 location GSAMP00013
+26be5d location GSAMP00014
+f71e65 location GSAMP00015
+4fb133 location GSAMP00016
+86c9c7 location GSAMP00017
+e61d93 location GSAMP00018
+5aa9d6 location GSAMP00019
+78cb4c location GSAMP00020
+3fb821 location GSAMP00021
+ff488e location GSAMP00022
+8a804d location GSAMP00023
+e1c353 location GSAMP00024
+3cd7e0 location GSAMP00025
+f24571 location GSAMP00026
+2d2f66 location GSAMP00027
+0c9f37 location GSAMP00028
+27a7bc location GSAMP00029
+d223ec location GSAMP00030
+# extra machines added 12/18/19
+# 7923ac location GSAMP0XTRA # 10.0.117.66
+# 266066 location GSAMP0XTRA # 10.0.118.85
+# 5feaaf location GSAMP0XTRA # 10.0.118.80
+# 74e424 location GSAMP0XTRA # 10.0.121.134
+# 2638fe location GSAMP0XTRA # 10.0.117.114
+# f86022 location GSAMP0XTRA # 10.0.121.90
 
 ## throttle
 
