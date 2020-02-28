@@ -1,5 +1,6 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
-## TOTAL EXP HASHRATE 30 s9 @ 16 Th/s = 480 Th/s
+## 30 s9 turned over to Bit 49 2/28/20
+## 3 T17 @ 40 Th/s = 120 Th/s
 
 global custompanel GSAMP0bit049
 global customer bit49-Russia
@@ -36,236 +37,23 @@ global uncork 1579619530
 # global reset 1
 # global panelpass gj83Nkgikg
 
-## reboots
-e1c353 reboot 1582744619 # 10.0.59.60 gsamp00024
-0c9f37 reboot 1582744619 # 10.0.59.90 gsamp00028
-78cb4c reboot 1582744619 # 10.0.59.49 gsamp00020
-d223ec reboot 1582744619 # 10.0.67.79 gsamp00030
-2638fe reboot 1582744619 # 10.0.117.114 gsamp0xtra
-74e424 reboot 1582744619 # 10.0.121.134 gsamp0xtra
-7923ac reboot 1582744619 # 10.0.117.66 gsamp0xtra
-5feaaf reboot 1582744619 # 10.0.118.80 gsamp0xtra
-a7631d reboot 1582744619 # 10.0.56.77 gsamp00008
-3900a7 reboot 1582744619 # 10.0.59.36 gsamp00011
-f71e65 reboot 1582744619 # 10.0.59.43 gsamp00015
-4fb133 reboot 1582744619 # 10.0.59.44 gsamp00016
-86c9c7 reboot 1582744619 # 10.0.59.45 gsamp00017
-ff488e reboot 1582744619 # 10.0.59.52 gsamp00022
-f86022 reboot 1582139959 # 10.0.121.90 gsamp0xtra
-c5496d reboot 1582139959 # 10.0.56.40 gsamp00001
-e1c353 reboot 1582139959 # 10.0.59.60 gsamp00024
-78cb4c reboot 1582139959 # 10.0.59.49 gsamp00020
-d223ec reboot 1582139959 # 10.0.67.79 gsamp00030
-a7631d reboot 1582139959 # 10.0.56.77 gsamp00008
-86c9c7 reboot 1582139959 # 10.0.59.45 gsamp00017
-74e424 reboot 1582139959 # 10.0.121.134 gsamp0xtra
-5feaaf reboot 1582139959 # 10.0.118.80 gsamp0xtra
-7923ac reboot 1582139959 # 10.0.117.66 gsamp0xtra
-2638fe reboot 1582139959 # 10.0.117.114 gsamp0xtra
-0101ec reboot 1582139959 # 10.0.56.78 gsamp00009
-3900a7 reboot 1582139959 # 10.0.59.36 gsamp00011
-4fb133 reboot 1582139959 # 10.0.59.44 gsamp00016
-ff488e reboot 1582139959 # 10.0.59.52 gsamp00022
-5feaaf reboot 1581973466 # 10.0.118.80 gsamp0xtra
-d223ec reboot 1581973466 # 10.0.67.79 gsamp00030
-78cb4c reboot 1581973466 # 10.0.59.49 gsamp00020
-7923ac reboot 1581973466 # 10.0.117.66 gsamp0xtra
-2638fe reboot 1581973466 # 10.0.117.114 gsamp0xtra
-74e424 reboot 1581973466 # 10.0.121.134 gsamp0xtra
-a7631d reboot 1581973466 # 10.0.56.77 gsamp00008
-4fb133 reboot 1581973466 # 10.0.59.44 gsamp00016
-86c9c7 reboot 1581973466 # 10.0.59.45 gsamp00017
-ff488e reboot 1581973466 # 10.0.59.52 gsamp00022
-e1c353 reboot 1581973466 # 10.0.59.60 gsamp00024
-a22315 reboot 1581105595 # 10.0.63.140 mseti00003
-7efb10 reboot 1581105595 # 10.0.58.19 mseti00001
-0b0610 reboot 1581105595 # 10.0.54.16 mseti0xtra
-d66f6b reboot 1581105595 # 10.0.54.18 mseti0xtra
-3900a7 reboot 1580840244 # 10.0.59.36 gsamp00011
-266066 reboot 1580840244 # 10.0.118.85 gsamp0xtra
-d223ec reboot 1580840244 # 10.0.67.79 gsamp00030
-78cb4c reboot 1580840244 # 10.0.59.49 gsamp00020
-5feaaf reboot 1580840244 # 10.0.118.80 gsamp0xtra
-2638fe reboot 1580840244 # 10.0.117.114 gsamp0xtra
-7923ac reboot 1580840244 # 10.0.117.66 gsamp0xtra
-74e424 reboot 1580840244 # 10.0.121.134 gsamp0xtra
-a7631d reboot 1580840244 # 10.0.56.77 gsamp00008
-a36e04 reboot 1580840244 # 10.0.59.37 gsamp00012
-4fb133 reboot 1580840244 # 10.0.59.44 gsamp00016
-86c9c7 reboot 1580840244 # 10.0.59.45 gsamp00017
-ff488e reboot 1580840244 # 10.0.59.52 gsamp00022
-e1c353 reboot 1580840244 # 10.0.59.60 gsamp00024
-3900a7 reboot 1580322307 # 10.0.59.36 gsamp00011
-78cb4c reboot 1580322307 # 10.0.59.49 gsamp00020
-266066 reboot 1580322307 # 10.0.118.85 gsamp0xtra
-5feaaf reboot 1580322307 # 10.0.118.80 gsamp0xtra
-d223ec reboot 1580322307 # 10.0.67.79 gsamp00030
-7923ac reboot 1580322307 # 10.0.117.66 gsamp0xtra
-2638fe reboot 1580322307 # 10.0.117.114 gsamp0xtra
-74e424 reboot 1580322307 # 10.0.121.134 gsamp0xtra
-a7631d reboot 1580322307 # 10.0.56.77 gsamp00008
-a36e04 reboot 1580322307 # 10.0.59.37 gsamp00012
-4fb133 reboot 1580322307 # 10.0.59.44 gsamp00016
-e1c353 reboot 1580322307 # 10.0.59.60 gsamp00024
-d223ec reboot 1580148621 # 10.0.67.79 gsamp00030
-3900a7 reboot 1580148621 # 10.0.59.36 gsamp00011
-78cb4c reboot 1580148621 # 10.0.59.49 gsamp00020
-266066 reboot 1580148621 # 10.0.118.85 gsamp0xtra
-5feaaf reboot 1580148621 # 10.0.118.80 gsamp0xtra
-2638fe reboot 1580148621 # 10.0.117.114 gsamp0xtra
-a7631d reboot 1580148621 # 10.0.56.77 gsamp00008
-a36e04 reboot 1580148621 # 10.0.59.37 gsamp00012
-4fb133 reboot 1580148621 # 10.0.59.44 gsamp00016
-86c9c7 reboot 1580148621 # 10.0.59.45 gsamp00017
-ff488e reboot 1580148621 # 10.0.59.52 gsamp00022
-e1c353 reboot 1580148621 # 10.0.59.60 gsamp00024
-d223ec reboot 1579894236 # 10.0.67.79 gsamp00030
-5feaaf reboot 1579894236 # 10.0.118.80 gsamp0xtra
-78cb4c reboot 1579894236 # 10.0.59.49 gsamp00020
-266066 reboot 1579894236 # 10.0.118.85 gsamp0xtra
-74e424 reboot 1579894236 # 10.0.121.134 gsamp0xtra
-7923ac reboot 1579894236 # 10.0.117.66 gsamp0xtra
-3900a7 reboot 1579894236 # 10.0.59.36 gsamp00011
-4fb133 reboot 1579894236 # 10.0.59.44 gsamp00016
-ff488e reboot 1579894236 # 10.0.59.52 gsamp00022
-e1c353 reboot 1579894236 # 10.0.59.60 gsamp00024
-5feaaf reboot 1578682292 # 10.0.118.80 gsamp0xtra
-d223ec reboot 1578682292 # 10.0.67.79 gsamp00030
-e1c353 reboot 1578682292 # 10.0.59.60 gsamp00024
-4fb133 reboot 1578682292 # 10.0.59.44 gsamp00016
-78cb4c reboot 1578682292 # 10.0.59.49 gsamp00020
-3900a7 reboot 1578682292 # 10.0.59.36 gsamp00011
-74e424 reboot 1578682292 # 10.0.121.134 gsamp0xtra
-266066 reboot 1578682292 # 10.0.118.85 gsamp0xtra
-7923ac reboot 1578682292 # 10.0.117.66 gsamp0xtra
-2638fe reboot 1578682292 # 10.0.117.114 gsamp0xtra
-3900a7 reboot 1575656011 # 10.0.59.36 gsamp00011
-4fb133 reboot 1575656011 # 10.0.59.44 gsamp00016
-78cb4c reboot 1575656011 # 10.0.59.49 gsamp00020
-3fb821 reboot 1575656011 # 10.0.59.50 gsamp00021
-ff488e reboot 1575656011 # 10.0.59.52 gsamp00022
-e1c353 reboot 1575656011 # 10.0.59.60 gsamp00024
-
-3900a7 reboot 1575316781 # 10.0.59.36 gsamp00011
-4fb133 reboot 1575316781 # 10.0.59.44 gsamp00016
-78cb4c reboot 1575316781 # 10.0.59.49 gsamp00020
-e1c353 reboot 1575316781 # 10.0.59.60 gsamp00024
-d223ec reboot 1575316781 # 10.0.67.79 gsamp00030
-
 ## vlans
-# vlan 10.0.56.40-41
-# vlan 10.0.56.47-47
-# vlan 10.0.56.50-50
-# vlan 10.0.56.56-56
-# vlan 10.0.56.67-67
-# vlan 10.0.56.75-75
-# vlan 10.0.56.77-78
-# vlan 10.0.58.70-70
-# vlan 10.0.59.36-37
-# vlan 10.0.59.39-39
-# vlan 10.0.59.41-41
-# vlan 10.0.59.43-46
-# vlan 10.0.59.48-50
-# vlan 10.0.59.52-52
-# vlan 10.0.59.54-54
-# vlan 10.0.59.60-60
-# vlan 10.0.59.66-66
-# vlan 10.0.59.73-73
-# vlan 10.0.59.80-80
-# vlan 10.0.59.90-90
-# vlan 10.0.61.6-6
-# vlan 10.0.67.79-79
-vlan 10.0.117.66-66
-vlan 10.0.118.85-85
-vlan 10.0.118.80-80
-vlan 10.0.121.134-134
-vlan 10.0.117.114-114
-vlan 10.0.121.90-90
+# vlan 10.3.87.11-11 # GSAMP00001
+# vlan 10.3.87.12-12 # GSAMP00002
+# vlan 10.3.87.13-13 # GSAMP00003
 
 ## locations
-c5496d location GSAMP00001
-271937 location GSAMP00002
-ca177b location GSAMP00003
-c02d51 location GSAMP00004
-41be8a location GSAMP00005
-751610 location GSAMP00006
-8e284e location GSAMP00007
-a7631d location GSAMP00008
-0101ec location GSAMP00009
-62bdc8 location GSAMP00010
-3900a7 location GSAMP00011
-a36e04 location GSAMP00012
-644746 location GSAMP00013
-26be5d location GSAMP00014
-f71e65 location GSAMP00015
-4fb133 location GSAMP00016
-86c9c7 location GSAMP00017
-e61d93 location GSAMP00018
-5aa9d6 location GSAMP00019
-78cb4c location GSAMP00020
-3fb821 location GSAMP00021
-ff488e location GSAMP00022
-8a804d location GSAMP00023
-e1c353 location GSAMP00024
-3cd7e0 location GSAMP00025
-f24571 location GSAMP00026
-2d2f66 location GSAMP00027
-0c9f37 location GSAMP00028
-27a7bc location GSAMP00029
-d223ec location GSAMP00030
-# extra machines added 12/18/19
-7923ac location GSAMP0XTRA # 10.0.117.66
-266066 location GSAMP0XTRA # 10.0.118.85
-5feaaf location GSAMP0XTRA # 10.0.118.80
-74e424 location GSAMP0XTRA # 10.0.121.134
-2638fe location GSAMP0XTRA # 10.0.117.114
-f86022 location GSAMP0XTRA # 10.0.121.90
+# 3e00d4 location GSAMP00001 # 10.3.87.11
+# 901a9b location GSAMP00002 # 10.3.87.12
+# 5d94fd location GSAMP00003 # 10.3.87.13
 
 ##remove
 global remove 266066
-
 ## throttle
-
-#2/17/20
-c5496d uncork 1581976682
-
-c5496d uncork 1581710113
-f71e65 uncork 1581113089
-c5496d uncork 1581113089
-a36e04 uncork 1581113089
-74e424 uncork 1580750638
-a36e04 uncork 1580750638
-c5496d uncork 1580750638
-f71e65 uncork 1580750638
-
 ## retunes
-#2/21/20
-ff488e retune 1582312181
-
-3900a7 retune 1581711626
-
 ## fans
-
 ## reboots
-266066 reboot 1580750482
-d223ec reboot 1580750482
-78cb4c reboot 1580750482
-
 ## resets
-#2/20/20
-c5496d reset 1582218990
-
-c5496d reset 1581124044
-d223ec reset 1581034175
-78cb4c reset 1581034175
-266066 reset 1581034175
-ff488e reset 1581034175
-a36e04 reset 1581034175
-f71e65 reset 1581034175
-c5496d reset 1581034175
-266066 reset 1579979915
-78cb4c reset 1579979915
-d223ec reset 1579979915
 
 ## asic password
 asicpass admin
