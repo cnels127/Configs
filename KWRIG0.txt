@@ -52,10 +52,11 @@ vlan 10.0.20.55-55 # 29bca0
 # extra machine added 2/6/20
 4db5d3 location KWRIG0XTRA # 10.0.60.35 # 14.2 Th/s
 # extra machine added 2/11/20
-568737 location KWRIG0XTRA # 10.0.118.55 # 10.0 Th/s
+#568737 location KWRIG0XTRA # 10.0.118.55 # 10.0 Th/s #disassembled for parts
 
 ## remove
 global remove 4db5d3
+global remove 568737
 
 ## throttle
 # 2/13/20
