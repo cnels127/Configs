@@ -55,13 +55,13 @@ vlan 10.0.20.55-55 # 29bca0
 #568737 location KWRIG0XTRA # 10.0.118.55 # 10.0 Th/s #disassembled for parts
 
 ## remove
-global remove 4db5d3
 global remove 568737
+global remove 4db5d3
 
 ## throttle
 # 2/13/20
 4db5d3 uncork 1581619298
-568737 uncork 1581619298
+#568737 uncork 1581619298
 
 #1/10/20
 29bca0 uncork 1578682197
@@ -72,8 +72,8 @@ global remove 568737
 ## fans
 
 ## reboots
-@ 2/21/20
-568737 reboot 1582313879
+# 2/21/20
+#568737 reboot 1582313879
 29bca0 reboot 1582313879
 
 # 2/18/20
@@ -115,7 +115,7 @@ global remove 568737
 
 ## resets
 # 2/27/20
-568737 reset 1582829039
+# 568737 reset 1582829039
 
 # 2/20/20
 29bca0 reset 1582222228
