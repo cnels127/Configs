@@ -38,9 +38,13 @@ global panelclear 999
 
 ## vlans
 vlan 10.0.66.148-148
+# extra machine added 3/3/20
+vlan 10.0.59.45-45 # 86c9c7
 
 ## locations
 658bd9 location 132139
+# extra machine added 3/3/20
+86c9c7 location RGRUS0XTRA # 10.0.59.45 # 5.2 Th/s
 
 ## throttle
 
