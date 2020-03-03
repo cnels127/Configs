@@ -37,50 +37,59 @@ global uncork 1574964310
 # global reset 1
 
 ## vlans
-vlan 10.0.60.6-6
-vlan 10.0.60.11-11
-vlan 10.0.60.13-13
-vlan 10.0.60.29-29
-vlan 10.0.60.34-34
-vlan 10.0.60.42-42
-vlan 10.0.60.56-56
-vlan 10.0.60.87-87
-vlan 10.0.60.93-93
-vlan 10.0.60.104-104
-vlan 10.0.64.155-155
-vlan 10.0.65.42-42
-vlan 10.0.62.76-76
-vlan 10.0.64.139-139
-vlan 10.0.61.75-75
-vlan 10.0.67.30-30
-vlan 10.0.62.125-125
-vlan 10.0.63.53-53
-vlan 10.0.63.10-10
-vlan 10.0.65.59-59
-vlan 10.0.61.161-161
-vlan 10.0.64.74-74
-vlan 10.0.61.53-53
-vlan 10.0.66.77-77
-vlan 10.0.61.77-77
-vlan 10.0.62.146-146
-vlan 10.0.226.73-73
-vlan 10.0.226.102-102
-vlan 10.0.226.107-107
-vlan 10.0.226.109-109
-vlan 10.0.226.113-113
+# vlan 10.0.60.6-6
+# vlan 10.0.60.11-11
+# vlan 10.0.60.13-13
+# vlan 10.0.60.29-29
+# vlan 10.0.60.34-34
+# vlan 10.0.60.42-42
+# vlan 10.0.60.56-56
+# vlan 10.0.60.87-87
+# vlan 10.0.60.93-93
+# vlan 10.0.60.104-104
+# vlan 10.0.64.155-155
+# vlan 10.0.65.42-42
+# vlan 10.0.62.76-76
+# vlan 10.0.64.139-139
+# vlan 10.0.61.75-75
+# vlan 10.0.67.30-30
+# vlan 10.0.62.125-125
+# vlan 10.0.63.53-53
+# vlan 10.0.63.10-10
+# vlan 10.0.65.59-59
+# vlan 10.0.61.161-161
+# vlan 10.0.64.74-74
+# vlan 10.0.61.53-53
+# vlan 10.0.66.77-77
+# vlan 10.0.61.77-77
+# vlan 10.0.62.146-146
+# vlan 10.0.226.73-73
+# vlan 10.0.226.102-102
+# vlan 10.0.226.107-107
+# vlan 10.0.226.109-109
+# vlan 10.0.226.113-113
 # machines purchased from DKUZM0 transferred over 11/25/19
-vlan 10.0.61.133-133
-vlan 10.0.65.54-54
-vlan 10.0.65.75-75
-vlan 10.0.59.79-79 #extra
+# vlan 10.0.61.133-133
+# vlan 10.0.65.54-54
+# vlan 10.0.65.75-75
+# vlan 10.0.59.79-79 #extra
 # extra machines added 11/22/19
-vlan 10.0.53.141-141
-vlan 10.0.53.144-144
-vlan 10.0.53.145-145
+# vlan 10.0.53.141-141
+# vlan 10.0.53.144-144
+# vlan 10.0.53.145-145
 # extra machines added 11/23/19
-vlan 10.0.54.36-36
-vlan 10.0.54.37-37
-vlan 10.0.54.38-38
+# vlan 10.0.54.36-36
+# vlan 10.0.54.37-37
+# vlan 10.0.54.38-38
+#extra machines added 3/3/20
+vlan 10.0.59.80-80 # 2d2f66
+vlan 10.0.54.31-31 # 60ea91
+vlan 10.0.56.47-47 # ca177b
+vlan 10.0.56.67-67 # 751610
+vlan 10.0.56.75-75 # 8e284e
+vlan 10.0.56.56-56 # 41be8a
+vlan 10.0.56.50-50 # c02d51
+vlan 10.0.59.50-50 # 3fb821
 
 ## locations
 bf1870 location SLANG00001
@@ -127,6 +136,15 @@ c3196d location SLANG0XTRA
 ff032f location SLANG0XTRA
 4f826d location SLANG0XTRA
 75ef00 location SLANG0XTRA
+#extra machines added 3/3/20
+2d2f66 location SLANG0XTRA # 10.0.59.80
+60ea91 location SLANG0XTRA # 10.0.54.31
+ca177b location SLANG0XTRA # 10.0.56.47
+751610 location SLANG0XTRA # 10.0.56.67
+8e284e location SLANG0XTRA # 10.0.56.75
+41be8a location SLANG0XTRA # 10.0.56.56
+c02d51 location SLANG0XTRA # 10.0.56.50
+3fb821 location SLANG0XTRA # 10.0.59.50
 
 ## throttle
 #2/24/20
