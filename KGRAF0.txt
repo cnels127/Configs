@@ -85,14 +85,26 @@ global uncork 1574925843
 # vlan 10.0.121.1-1
 # vlan 10.0.68.45-45
 # extra machines added 12/9/19
-vlan 10.0.119.58-58
-vlan 10.0.119.74-74
-vlan 10.0.119.76-76
-vlan 10.0.119.77-77
-vlan 10.0.119.86-86
-vlan 10.0.119.130-130
-vlan 10.0.119.145-145
-vlan 10.0.119.19-19
+# vlan 10.0.119.58-58
+# vlan 10.0.119.74-74
+# vlan 10.0.119.76-76
+# vlan 10.0.119.77-77
+# vlan 10.0.119.86-86
+# vlan 10.0.119.130-130
+# vlan 10.0.119.145-145
+# vlan 10.0.119.19-19
+# extra machines added 3/4/20
+vlan 10.0.59.66-66 # 3cd7e0
+vlan 10.0.61.6-6 # 27a7bc
+vlan 10.0.121.90-90 # f86022
+vlan 10.0.56.40-40 # c5496d
+vlan 10.0.59.54-54 # 8a804d
+vlan 10.0.59.73-73 # f24571
+vlan 10.0.59.41-41 # 26be5d
+vlan 10.0.120.87-87 # cafe14
+vlan 10.0.118.38-38 # 64e53f
+vlan 10.0.54.146-146 # 934f82
+vlan 10.0.59.90-90 # 0c9f37
 
 ## locations
 5c49bc location KGRAF00001
@@ -149,6 +161,19 @@ d2338b location KGRAF0XTRA # 10.0.119.77
 53bae5 location KGRAF0XTRA # 10.0.119.130
 485111 location KGRAF0XTRA # 10.0.119.145
 eb16ee location KGRAF0XTRA # 10.0.119.19
+# extra machines added 3/4/20 # 175.3 Th/s
+3cd7e0 location KGRAF0XTRA # 10.0.59.66 # 16.3 Th/s
+27a7bc location KGRAF0XTRA # 10.0.61.6 # 16.3 Th/s
+f86022 location KGRAF0XTRA # 10.0.121.90 # 16.1 Th/s
+c5496d location KGRAF0XTRA # 10.0.56.40 # 16.1 Th/s
+8a804d location KGRAF0XTRA # 10.0.59.54 # 16.1 Th/s
+f24571 location KGRAF0XTRA # 10.0.59.73 # 16.1 Th/s
+26be5d location KGRAF0XTRA # 10.0.59.41 # 16 Th/s
+cafe14 location KGRAF0XTRA # 10.0.120.87 # 16 Th/s
+64e53f location KGRAF0XTRA # 10.0.118.38 # 15.8 Th/s
+934f82 location KGRAF0XTRA # 10.0.54.146 # 15.8 Th/s
+0c9f37 location KGRAF0XTRA # 10.0.59.90 # 14.7 Th/s
+
 
 ## throttle
 5c49bc uncork 1580754418
