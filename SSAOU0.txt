@@ -37,13 +37,14 @@ global panelclear 999
 # global reset 1574964750
 
 ## vlans
-vlan 10.0.68.53-53
+# vlan 10.0.68.53-53
 
 ## locations
 a3d661 location SSAOU00001
 # extra machine added 12/9/19
-a7849c location SSAOU0XTRA # 10.0.66.23
 9abe3b location SSAOU0XTRA # 10.0.53.24
+# extra machine added 3/5/20
+5feaaf location SSAOU0XTRA # 10.0.118.80
 
 ## throttle
 9abe3b uncork 1581007437
