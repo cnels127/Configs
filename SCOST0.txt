@@ -49,7 +49,6 @@ vlan 10.0.67.153-153
 vlan 10.0.67.107-107
 # extra machines added 11/23/19
 vlan 10.0.53.158-158
-vlan 10.0.53.159-159
 vlan 10.0.53.160-160
 
 ## locations
@@ -67,7 +66,6 @@ cc96e4 location SCOST00010
 9b4848 location SCOST0XTRA
 # extra machines added 11/23/19
 35f34a location SCOST0XTRA
-753f7e location SCOST0XTRA
 a4164a location SCOST0XTRA
 
 ## throttle
@@ -123,7 +121,7 @@ a43fe6 reset 1581033778
 6da085 reset 1581033778
 
 # s_remove generated on Dec 02 2019 17:01:18 utc: 1575306078
-global remove 9b4848
+global remove 9b4848,753f7e
 
 ## asic password
 asicpass admin
