@@ -55,6 +55,13 @@ vlan 10.0.63.55-55
 vlan 10.0.64.29-29
 # extra machine added 12/19/19
 vlan 10.0.115.141-141
+# Temporary extra machines added 2020-03-05 to compensate for 10 days of down time due to the IP addresses for the mining pool not being updated. To be removed on 2020-03-16
+vlan 10.0.53.32-32
+vlan 10.0.59.36-36
+vlan 10.0.117.66-66
+vlan 10.0.117.114-114
+vlan 10.0.121.75-75
+vlan 10.0.121.134-134
 
 ## locations
 3884fb location ZVORW00001
@@ -62,6 +69,13 @@ f726b1 location ZVORW00002
 c2ee95 location ZVORW00003
 # extra machine added 12/19/19
 2c294b location ZVORW0XTRA # 10.0.115.141
+# Temporary extra machines added 2020-03-05 to compensate for 10 days of down time due to the IP addresses for the mining pool not being updated. To be removed on 2020-03-16
+7923ac location ZVORW0XTRA
+2638fe location ZVORW0XTRA
+74e424 location ZVORW0XTRA
+3900a7 location ZVORW0XTRA
+839e1f location ZVORW0XTRA
+b340b4 location ZVORW0XTRA
 
 ## throttle
 f726b1 uncork 1583342234
