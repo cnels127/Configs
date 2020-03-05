@@ -41,8 +41,8 @@ vlan 10.0.61.58-60
 vlan 10.0.77.91-91
 vlan 10.0.77.93-93
 vlan 10.0.77.105-105
-# extra machine added 2020-02-04
-vlan 10.0.68.73-73
+# replaced the previous extra machine added 2020-03-05
+vlan 10.0.121.75
 
 ## locations
 425b29 location RHOLL00001
@@ -52,9 +52,8 @@ d9b3f8 location RHOLL00004
 1c76d5 location RHOLL00005
 434628 location RHOLL00006
 # extra machine added 12/17/19
-64e53f location RHOLL0XTRA # 10.0.118.38
-# Replaced the previous extra machine on 2020-02-04
-e292bd location RHOLL0XTRA # 10.0.68.73
+# Replaced the previous extra machine on 2020-03-05
+839e1f location RHOLL0XTRA # 10.0.121.75
 
 ## throttle
 396497 uncork 1581118475
