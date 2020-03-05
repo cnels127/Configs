@@ -55,5 +55,8 @@ vlan 10.0.59.69-69
 ## resets
 e94a20 reset 1581715756
 
+## removals
+global remove e94a20
+
 ## asic password
 asicpass admin
