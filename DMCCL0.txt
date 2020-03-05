@@ -4,11 +4,11 @@
 global custompanel DMCCL0bit049
 global customer bit49-Russia
 
-global poolname1 sha256asicboost.eu-new.nicehash.com:3368
+global poolname1 sha256asicboost.eu.nicehash.com:3368
 global username1 3Es7SJBnYWyj3JPRRL5dpkouqnh89X4EmS
 global poolpass1 x
 global sendworker1 yes
-global poolname2 sha256asicboost.usa-new.nicehash.com:3368
+global poolname2 sha256asicboost.usa.nicehash.com:3368
 global username2 3Es7SJBnYWyj3JPRRL5dpkouqnh89X4EmS
 global poolpass2 x
 global sendworker2 yes
@@ -23,7 +23,7 @@ global asicboost yes
 global autotune yes
 global maxwatts 1450
 global maxtemp 90 1
-global throttle 50
+global throttle 25
 global fanspeed 85
 global fansaver yes
 global blinkred idle
