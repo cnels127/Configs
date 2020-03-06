@@ -4,17 +4,17 @@
 global custompanel JPAUL0bit049
 global customer bit49-Russia
 
-global poolname1 47.91.89.176:1800 # (VIP eu.ss.btc.com:1800)
+global poolname1 eu.ss.btc.com:1800
 global username1 JoeDirt07
 global poolpass1 123
 global sendworker1 yes
-global poolname2 47.89.179.40:1800 # (VIP us.ss.btc.com:1800)
+global poolname2 us.ss.btc.com:1800
 global username2 Joedirt007
 global poolpass2 123
 global sendworker2 yes
-global poolname3 47.254.140.162:3333 # (profit.pool.bitcoin.com:3333)
+global poolname3 profit.pool.bitcoin.com:3333
 global username3 Joedirt007 
-global poolpass3 1Hounddog!!!
+global poolpass3 123
 global sendworker3 yes
 
 global asicboost yes
@@ -50,6 +50,8 @@ a01578 location JPAUL00004
 9c326c location JPAUL00005
 # extra machine added 1/3/20
 1b2eaf location JPAUL0XTRA # 10.0.119.156
+# extra machine added 3/6/20
+8fdf36 location JPAUL0XTRA # 10.0.30.121 # 16.3 Th/s
 
 ## throttle
 #2/17/20
