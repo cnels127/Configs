@@ -102,12 +102,17 @@ f729dc location RACAY00022
 c1a324 location RACAY0XTRA # 10.0.118.71
 
 ##retune
+# 3/6/20
+c55a62 retune 1583515597
 # 3/2/20
 c55a62 retune 1583170853
 
 9f942d retune 1581123688
 
 ## throttle
+# 3/6/20
+497b40 uncork 1583515597
+70247c uncork 1583515597
 # 3/2/20
 497b40 uncork 1583170853
 70247c uncork 1583170853
@@ -186,7 +191,7 @@ d6136a reboot 1580754257
 c55a62 reboot 1578438300
 0b0bff reboot 1578438300
 6c2312 reboot 1579182015
-74a07a reboot 1579182015
+74a07a reboot 157918201
  
 ## resets
 # 3/2/20
