@@ -38,58 +38,37 @@ global reset 1574961848
 
 ## vlans
 vlan 10.0.54.154-154
-vlan 10.0.55.142-142
+# vlan 10.0.55.142-142 # SCRAPPED
 vlan 10.0.62.27-27
-vlan 10.0.68.34-34
-vlan 10.0.68.35-35
+# vlan 10.0.117.38-38 # SCRAPPED
+vlan 10.0.117.39-39
 vlan 10.0.118.5-5
-vlan 10.0.118.48-48
+# vlan 10.0.118.48-48 # SCRAPPED
 vlan 10.0.115.21-21
 vlan 10.0.115.100-100
 vlan 10.0.117.4-4
-vlan 10.0.115.2-2
+# vlan 10.0.115.2-2 # SCRAPPED
 vlan 10.0.115.96-96
 vlan 10.0.118.49-49
 vlan 10.0.120.92-92
 vlan 10.0.119.52-52
-# extra machines added 11/25/19
-vlan 10.0.54.7-7
-vlan 10.0.54.27-27
-vlan 10.0.54.6-6
-vlan 10.0.54.35-35
-# These machines were listed as extras added on 11/25/19, but are no longer in the panel.
-# vlan 10.0.54.27-27
-# vlan 10.0.54.19-19
-# vlan 10.0.54.21-21
-# extra machines added 2020-02-21
-vlan 10.0.60.10-10
-10.0.119.53-53
-10.0.120.3-3
 
-## locations-
+## locations
 5a3dde location PEGAN00001
-44c925 location PEGAN00002
+44c925 location PEGAN00002 # SCRAPPED
 63f1ab location PEGAN00003
-ef1f6e location PEGAN00004
+ef1f6e location PEGAN00004 # SCRAPPED
 38d579 location PEGAN00005
 c1a1c1 location PEGAN00006
-d20101 location PEGAN00007
+d20101 location PEGAN00007 # SCRAPPED
 6c96dd location PEGAN00008
 f49c47 location PEGAN00009
 e6d42b location PEGAN00010
-4e0552 location PEGAN00011
+4e0552 location PEGAN00011 # SCRAPPED
 9a258b location PEGAN00012
 a03c97 location PEGAN00013
 f1ae88 location PEGAN00014
 4900fd location PEGAN00015
-# extra machines added 11/25/19
-8883eb location PEGAN0XTRA
-52a31b location PEGAN0XTRA
-870cd5 location PEGAN0XTRA
-# extra machines added 2020-02-21
-309322 location PEGAN0XTRA
-7bb0bc location PEGAN0XTRA
-e1a2b1 location PEGAN0XTRA
 
 ## throttle
 63f1ab uncork 1581983513
@@ -143,7 +122,7 @@ e6d42b retune 1581706474
 f1ae88 retune 1581706474
 
 # s_remove generated on Dec 07 2019 01:26:01 utc: 1575681961
-global remove 45099f,0884bf,bbf6ce,1a4852
+global remove 45099f,0884bf,bbf6ce,1a4852,e1a2b1,7bb0bc,52a31b,870cd5,309322,8883eb
 
 ## asic password
 asicpass admin
