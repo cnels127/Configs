@@ -4,7 +4,7 @@
 global custompanel RGUME0bit049
 global customer bit49-Russia
 
-global poolname1 47.91.89.176:1800 # (VIP eu.ss.btc.com:1800)
+global poolname1 eu.ss.btc.com:1800
 global username1 Bit49Antminer
 global poolpass1 123
 global sendworker1 yes
@@ -12,7 +12,7 @@ global poolname2 sha256.mining-dutch.nl:9996
 global username2 Sanya77
 global poolpass2 d=33992
 global sendworker2 yes
-global poolname3 8.209.72.236:443 # (btc.ss.poolin.com:443)
+global poolname3 btc.ss.poolin.com:443
 global username3 bit49antminer
 global poolpass3 x
 global sendworker3 yes
