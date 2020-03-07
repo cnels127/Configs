@@ -4,11 +4,11 @@
 global custompanel TWOJE0bit049
 global customer bit49-Russia
 
-global poolname1 35.177.197.177:3333 # (stratum.antpool.com:3333)
+global poolname1 stratum.antpool.com:3333
 global username1 TomekGroup
 global poolpass1 123
 global sendworker1 yes
-global poolname2 35.177.197.177:443 # (stratum.antpool.com:443)
+global poolname2 stratum.antpool.com:443
 global username2 TomekGroup
 global poolpass2 123
 global sendworker2 yes
@@ -23,7 +23,7 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-global throttle 50
+global throttle 25
 global fanspeed 85
 global fansaver yes
 global blinkred idle
