@@ -4,11 +4,11 @@
 global custompanel TIMAT0bit049
 global customer bit49-Russia
 
-global poolname1 47.254.140.162:3333 # (profit.pool.bitcoin.com:3333)
+global poolname1 profit.pool.bitcoin.com:3333
 global username1 cosbeni
 global poolpass1 123
 global sendworker1 yes
-global poolname2 ru-west.stratum.slushpool.com:3333 # (91.237.249.93:3333)
+global poolname2 ru-west.stratum.slushpool.com:3333
 global username2 cosbeni
 global poolpass2 123
 global sendworker2 yes
@@ -16,7 +16,7 @@ global poolname3 prohashing.com:3335
 global username3 cosbeni
 global poolpass3 123
 global sendworker3 yes
-# global poolname4 47.110.187.27:1228 #(b4c.f2pool.com:1228)
+# global poolname4 b4c.f2pool.com:1228
 # global username4 148eSzEPqqjERfpvXabuen84WXZP2KCfnu
 # global poolpass4 123
 # global sendworker4 yes
