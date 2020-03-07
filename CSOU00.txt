@@ -4,15 +4,15 @@
 global custompanel CSOU00bit049
 global customer bit49-Russia
 
-global poolname1 35.177.197.177:443 # (stratum.antpool.com:443)
+global poolname1 stratum.antpool.com:443
 global username1 lani
 global poolpass1 123
 global sendworker1 yes
-global poolname2 47.89.133.88:1800 # (us.ss.btc.com:1800)
+global poolname2 us.ss.btc.com:1800
 global username2 chhun
 global poolpass2 123
 global sendworker2 yes
-global poolname3 8.209.72.236:443 # (btc.ss.poolin.com:443)
+global poolname3 btc.ss.poolin.com:443
 global username3 chhun
 global poolpass3 123
 global sendworker3 yes
