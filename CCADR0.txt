@@ -4,7 +4,7 @@
 global custompanel CCADR0bit049
 global customer bit49-Russia
 
-global poolname1 47.91.65.135:1800 # (eu.ss.btc.com:1800)
+global poolname1 eu.ss.btc.com:1800
 global username1 wzzjxj2
 global poolpass1 123
 global sendworker1 yes
@@ -12,7 +12,7 @@ global poolname2 eu.multipool.us:3332
 global username2 alexander101
 global poolpass2 123
 global sendworker2 yes
-global poolname3 47.91.65.135:443 # (eu.ss.btc.com:443)
+global poolname3 eu.ss.btc.com:443
 global username3 wzzjxj2
 global poolpass3 123
 global sendworker3 yes
@@ -23,7 +23,7 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-global throttle 50
+global throttle 25
 global fanspeed 85
 global fansaver yes
 global blinkred idle
