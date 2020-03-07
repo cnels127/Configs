@@ -49,6 +49,8 @@ vlan 10.0.117.155-155
 vlan 10.0.54.18-18
 # extra machine added 12/12/19
 vlan 10.0.61.63-63
+# extra machine added 2020-03-06 -> Replaces one of the extra machines added 2019-11-23 that was scrapped
+10.0.31.149-149
 
 ## locations
 7efb10 location MSETI00001
@@ -61,6 +63,8 @@ f6388e location MSETI00005
 d66f6b location MSETI0XTRA
 # extra machine added 12/12/19
 baefba location MSETI0XTRA # 10.0.61.63
+# extra machine added 2020-03-06 -> Replaces one of the extra machines added 2019-11-23 that was scrapped
+location MSETI0XTRA 07e5fd
 
 ## tuning
 
