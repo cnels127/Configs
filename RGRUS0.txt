@@ -4,18 +4,31 @@
 global custompanel RGRUS0bit049
 global customer bit49-Russia
 
-global poolname1 eu-ru01.miningrigrentals.com:3311
-global username1 andruscrypto
-global poolpass1 x
+global poolname1 eu.ss.btc.com:1800
+global username1 ru55ellbtc
+global poolpass1 123
 global sendworker1 yes
-global poolname2 eu-ru01.miningrigrentals.com:50028
-global username2 andruscrypto
-global poolpass2 x
+global poolname2 btc-eu.f2pool.com:3333
+global username2 ruscrypto1
+global poolpass2 d=65536
 global sendworker2 yes
-global poolname3 172.65.201.122:3333 # (bsv.svpool.com:3333)
-global username3 ru55ell
+global poolname3 91.210.105.199:3311 # (eu-ru01.miningrigrentals.com:3311)
+global username3 andruscrypto
 global poolpass3 d=65536
 global sendworker3 yes
+
+# global poolname1 eu-ru01.miningrigrentals.com:3311
+# global username1 andruscrypto
+# global poolpass1 x
+# global sendworker1 yes
+# global poolname2 eu-ru01.miningrigrentals.com:50028
+# global username2 andruscrypto
+# global poolpass2 x
+# global sendworker2 yes
+# global poolname3 172.65.201.122:3333 # (bsv.svpool.com:3333)
+# global username3 ru55ell
+# global poolpass3 d=65536
+# global sendworker3 yes
 
 global asicboost yes
 global autotune yes
