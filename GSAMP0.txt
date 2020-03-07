@@ -5,15 +5,15 @@
 global custompanel GSAMP0bit049
 global customer bit49-Russia
 
-global poolname1 47.91.89.176:1800 # (VIP eu.ss.btc.com:1800)
+global poolname1 eu.ss.btc.com:1800
 global username1 CryptoHayekEU
 global poolpass1 123
 global sendworker1 yes
-global poolname2 47.91.65.91:3333 # (connect.pool.bitcoin.com:3333)
+global poolname2 connect.pool.bitcoin.com:3333
 global username2 cryptohayek
 global poolpass2 123
 global sendworker2 yes
-global poolname3 47.254.146.77:3333 # (btc-eu.f2pool.com:3333)
+global poolname3 btc-eu.f2pool.com:3333
 global username3 16EN2ur3p1HqToqZWnmPT3E93ibSvm9Qns
 global poolpass3 123
 global sendworker3 yes
