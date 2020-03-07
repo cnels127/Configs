@@ -46,7 +46,6 @@ vlan 10.0.63.160-160
 vlan 10.0.115.61-61
 vlan 10.0.117.155-155
 # extra machines added 11/23/19
-vlan 10.0.54.16-16
 vlan 10.0.54.18-18
 # extra machine added 12/12/19
 vlan 10.0.61.63-63
@@ -59,7 +58,6 @@ a22315 location MSETI00003
 f6388e location MSETI00005
 35e5b2 location MSETI00006
 # extra machines added 11/23/19
-0b0610 location MSETI0XTRA
 d66f6b location MSETI0XTRA
 # extra machine added 12/12/19
 baefba location MSETI0XTRA # 10.0.61.63
@@ -84,6 +82,9 @@ a22315 reboot 1583543317
 d66f6b reset 1574929075
 f6388e reset 1573172973
 7104a2 reset 1573172973
+
+## removed
+global remove 0b0610
 
 ## asic password
 asicpass admin
