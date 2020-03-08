@@ -48,6 +48,10 @@ vlan 10.0.62.49-49
 ba1c4a location RPOUL00004
 # extra machine added 12/12/19
 b66a48 location RPOUL0XTRA # 10.0.62.49
+# extra machines added 3/7/20 # 48.8 Th/s
+32e9a1 location RPOUL0XTRA # 10.0.50.4 # 16.3 Th/s
+23bea7 location RPOUL0XTRA # 10.0.117.62 # 16.3 Th/s
+f0a16a location RPOUL0XTRA # 10.0.55.72 # 16.2 Th/s
 
 ## throttle
 2e86e9 uncork 1583450291
