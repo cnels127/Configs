@@ -37,6 +37,73 @@ global uncork 1574883197
 # global panelpass gj83Nkgikg
 
 ## vlans
+# vlan 10.0.55.85-85 # 84fddc
+# vlan 10.0.55.101-101 # 7e7126
+# vlan 10.0.55.107-107 # 1a7d47
+# vlan 10.0.55.140-140 # e0ccfa
+# vlan 10.0.55.153-153 # 0faa22
+# vlan 10.0.55.157-157 # de83b4
+# vlan 10.0.56.59-59 # 167d2c
+# vlan 10.0.56.79-79 # 8d76ff
+# vlan 10.0.56.85-85 # 17e1e7
+# vlan 10.0.56.88-88 # d2d829
+# vlan 10.0.62.30-30 # 99d76d
+# vlan 10.0.63.144-144 # b6e889
+# vlan 10.0.64.58-58 # dcbbe1
+# vlan 10.0.64.126-126 # ed92f7
+# vlan 10.0.64.157-157 # e4b5b6
+# vlan 10.0.65.25-25 # a3e024
+# vlan 10.0.65.34-34 # bc2299
+# vlan 10.0.65.57-57 # fe05ff
+# vlan 10.0.65.74-74 # e8cf8b
+# vlan 10.0.65.95-95 # e7f1a9
+# vlan 10.0.65.148-148 # 8342ab
+# vlan 10.0.66.93-93 # b3897a
+# vlan 10.0.66.149-149 # a2cb7c
+# vlan 10.0.67.34-34 # ae42ad
+# vlan 10.0.67.92-92 # d3176c
+# vlan 10.0.67.132-132 # 67304d
+# vlan 10.0.67.136-136 # 64cc79
+# vlan 10.0.67.143-143 # 589176
+# vlan 10.0.60.5-5 # e3f444
+# vlan 10.0.61.8-8 # 73ee2e
+# vlan 10.0.118.18-18 # 4ffb50
+# vlan 10.0.119.2-2 # e2c437
+# vlan 10.0.121.8-8 # 584490
+# vlan 10.0.121.159-159 # 88775f
+# vlan 10.0.120.83-83 # be5d42
+# vlan 10.0.121.81-81 # a03b81
+# vlan 10.0.121.58-58 # c71a7f
+# vlan 10.0.121.76-76 # bad6b7
+# vlan 10.0.118.24-24 # 2bf2a8
+# vlan 10.0.121.23-23 # 1444fa
+# vlan 10.0.118.41-41 # 873362
+# vlan 10.0.120.48-48 # 9e743b
+# vlan 10.0.121.145-145 # c16782
+# vlan 10.0.121.5-5 # 752979
+# vlan 10.0.120.84-84 # d560da
+# vlan 10.0.120.128-128 # 9c860e
+# extra machines added 12/26/19
+# vlan 10.0.121.116-116 # eb51ca
+# vlan 10.0.117.71-71 # ce9ea0
+# vlan 10.0.51.2-2 # b1937c
+# vlan 10.0.116.11-11 # 1a5616
+# vlan 10.0.121.14-14 # 97782a
+# vlan 10.0.62.134-134 # 0baec4
+# vlan 10.0.121.34-34 # dd84fc
+# extra machines added 3/9/20
+vlan 10.0.30.102-102 # c4aa6b
+vlan 10.0.30.116-116 # 4f22fd
+vlan 10.0.30.122-122 # 2fce82
+vlan 10.0.30.137-137 # 458508
+vlan 10.0.30.145-145 # 9feac3
+vlan 10.0.30.151-151 # 3241ed
+vlan 10.0.31.8-8 # 121b5d
+vlan 10.0.31.10-10 # 586985
+vlan 10.0.31.18-18 # 51f862
+vlan 10.0.31.29-29 # 6a9e49
+vlan 10.0.31.40-40 # 37ba71
+vlan 10.0.31.43-43 # 82c5ca
 
 ## locations
 84fddc location FHOEF00001
@@ -94,6 +161,19 @@ b1937c location FHOEF0XTRA # 10.0.51.2
 97782a location FHOEF0XTRA # 10.0.121.14
 0baec4 location FHOEF0XTRA # 10.0.62.134
 dd84fc location FHOEF0XTRA # 10.0.121.34
+# extra machines added 3/9/20 # 184.8 Th/s
+c4aa6b location FHOEF0XTRA # 10.0.30.102 # 15.4 Th/s
+4f22fd location FHOEF0XTRA # 10.0.30.116 # 15.4 Th/s
+2fce82 location FHOEF0XTRA # 10.0.30.122 # 15.4 Th/s
+458508 location FHOEF0XTRA # 10.0.30.137 # 15.4 Th/s
+9feac3 location FHOEF0XTRA # 10.0.30.145 # 15.4 Th/s
+3241ed location FHOEF0XTRA # 10.0.30.151 # 15.4 Th/s
+121b5d location FHOEF0XTRA # 10.0.31.8 # 15.4 Th/s
+586985 location FHOEF0XTRA # 10.0.31.10 # 15.4 Th/s
+51f862 location FHOEF0XTRA # 10.0.31.18 # 15.4 Th/s
+6a9e49 location FHOEF0XTRA # 10.0.31.29 # 15.4 Th/s
+37ba71 location FHOEF0XTRA # 10.0.31.40 # 15.4 Th/s
+82c5ca location FHOEF0XTRA # 10.0.31.43 # 15.4 Th/s
 
 ## tuning
 84fddc retune 1576788417
