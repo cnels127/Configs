@@ -21,7 +21,7 @@ global autoupdate yes
 global allowed yes
 global asicboost yes
 global autotune yes
-global maxwatts 1400
+global maxwatts 1450
 global maxtemp 90
 global throttle 25
 global fanspeed 85
@@ -57,8 +57,7 @@ global uncork 1576172898
 # vlan 10.0.115.48-48
 # vlan 10.0.115.98-98
 # vlan 10.0.116.15-15
-
-## Temporary extra machines, added 2019-11-13
+## extra machines added 11/13/19
 # vlan 10.0.59.156-156
 # vlan 10.0.64.4-4
 # vlan 10.0.117.20-20
@@ -67,11 +66,16 @@ global uncork 1576172898
 # vlan 10.0.118.51-51
 # vlan 10.0.119.106-106
 # vlan 10.0.120.105-105
-vlan 10.0.115.92-92
-vlan 10.0.115.59-59
-vlan 10.0.51.102-102
-vlan 10.0.54.41-41
-
+# extra machines added 12/12/19
+# vlan 10.0.115.92-92
+# vlan 10.0.115.59-59
+# vlan 10.0.51.102-102
+# vlan 10.0.54.41-41
+# extra machines added 3/9/20
+vlan 10.0.30.99-99 # f1c18a
+vlan 10.0.31.16-16 # e45b18
+vlan 10.0.50.78-78 # f510d5
+vlan 10.0.50.97-97 # 2d1f93
 
 ## locations
 16d3c8 location LKLIN00001
@@ -108,6 +112,11 @@ e64930 location LKLIN0XTRA
 b126f7 location LKLIN0XTRA # 10.0.115.59
 daed2a location LKLIN0XTRA # 10.0.51.102
 e4749b location LKLIN0XTRA # 10.0.54.41
+# extra machines added 3/9/20 # 40.8 Th/s
+f1c18a location LKILN0XTRA # 10.0.30.99 # 10.2 Th/s
+e45b18 location LKILN0XTRA # 10.0.31.16 # 10.2 Th/s
+f510d5 location LKILN0XTRA # 10.0.50.78 # 10.2 Th/s
+2d1f93 location LKILN0XTRA # 10.0.50.97 # 10.2 Th/s
 
 ## throttle
 #2/21/20
