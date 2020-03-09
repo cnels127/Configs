@@ -46,21 +46,27 @@ global uncork 1580497915
 # global panelpass gj83Nkgikg
 
 ## 2 s9 on 1BcvWti9xXcgPooyDsy4SesR98g1HvBkYo
-vlan 10.0.68.38-39
+## 3 s9 on 14g9byTqAYT8UgrTWdkbZcEaRDC9r6CpsE
+## vlans
+vlan 10.0.68.38-38 # fae301
+vlan 10.0.68.39-39 # 44ba88
+vlan 10.0.66.30-30 # 7f79ef
+vlan 10.0.65.61-61 # 15e78d
+vlan 10.0.67.40-40 # ceac8d
+
+## locations
 fae301 location HKATZ00001
 44ba88 location HKATZ00002
-# extra machines added 12/6/19 (11 Th needed)
-60ea91 location HKATZ0XTRA # 10.0.54.31
-
-## 3 s9 on 14g9byTqAYT8UgrTWdkbZcEaRDC9r6CpsE
-vlan 10.0.66.30-30
-vlan 10.0.65.61-61
-vlan 10.0.67.40-40
 7f79ef location HKATZ00003
 15e78d location HKATZ00004
 ceac8d location HKATZ00005
-# extra machines added 12/6/19 (13.9 Th needed)
+# extra machines added 12/6/19
+60ea91 location HKATZ0XTRA # 10.0.54.31
 4b6238 location HKATZ0XTRA # 10.0.54.34
+# extra machines added 3/9/20 # 46.2 Th/s
+c24766 location HKATZ0XTRA # 10.0.31.45 # 15.4 Th/s
+c5da9f location HKATZ0XTRA # 10.0.31.55 # 15.4 Th/s
+771df9 location HKATZ0XTRA # 10.0.31.57 # 15.4 Th/s
 
 ## throttle
 ceac8d uncork 1576786129
