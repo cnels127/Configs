@@ -49,17 +49,8 @@ global uncork 1580497915
 vlan 10.0.68.38-39
 fae301 location HKATZ00001
 44ba88 location HKATZ00002
-fae301 username1 1BcvWti9xXcgPooyDsy4SesR98g1HvBkYo
-fae301 username2 1BcvWti9xXcgPooyDsy4SesR98g1HvBkYo
-fae301 username3 1BcvWti9xXcgPooyDsy4SesR98g1HvBkYo
-44ba88 username1 1BcvWti9xXcgPooyDsy4SesR98g1HvBkYo
-44ba88 username2 1BcvWti9xXcgPooyDsy4SesR98g1HvBkYo
-44ba88 username3 1BcvWti9xXcgPooyDsy4SesR98g1HvBkYo
 # extra machines added 12/6/19 (11 Th needed)
 60ea91 location HKATZ0XTRA # 10.0.54.31
-60ea91 username1 1BcvWti9xXcgPooyDsy4SesR98g1HvBkYo
-60ea91 username2 1BcvWti9xXcgPooyDsy4SesR98g1HvBkYo
-60ea91 username3 1BcvWti9xXcgPooyDsy4SesR98g1HvBkYo
 
 ## 3 s9 on 14g9byTqAYT8UgrTWdkbZcEaRDC9r6CpsE
 vlan 10.0.66.30-30
