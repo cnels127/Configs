@@ -43,14 +43,27 @@ global panelclear 999
 # vlan 10.0.57.88-127
 # vlan 10.0.57.160
 # extra machines added 12/9/19
-vlan 10.0.115.62-62
-vlan 10.0.115.72-72
-vlan 10.0.115.111-111
-vlan 10.0.115.116-116
-vlan 10.0.115.161-161
-vlan 10.0.116.8-8
-vlan 10.0.116.24-24
-vlan 10.0.116.31-31
+# vlan 10.0.115.62-62
+# vlan 10.0.115.72-72
+# vlan 10.0.115.111-111
+# vlan 10.0.115.116-116
+# vlan 10.0.115.161-161
+# vlan 10.0.116.8-8
+# vlan 10.0.116.24-24
+# vlan 10.0.116.31-31
+# extra machines added 3/9/20
+vlan 10.0.31.156-156 # 7a3f1b
+vlan 10.0.50.59-59 # 69f234
+vlan 10.0.50.74-74 # 31a3b4
+vlan 10.0.50.109-109 # 6140f0
+vlan 10.0.30.124-124 # 2d4ed1
+vlan 10.0.30.131-131 # 5d61db
+vlan 10.0.31.24-24 # 2ce9d3
+vlan 10.0.50.45-45 # 9cd2d8
+vlan 10.0.50.81-81 # a3f926
+vlan 10.0.50.146-146 # 910fab
+vlan 10.0.55.56-56 # c2c61a
+
 
 ## locations
 392b95 location VLIGU00001
@@ -162,6 +175,19 @@ c96974 location VLIGU0XTRA # 10.0.115.116
 1c5497 location VLIGU0XTRA # 10.0.116.8
 a2affe location VLIGU0XTRA # 10.0.116.24
 bd2d70 location VLIGU0XTRA # 10.0.116.31
+# extra machines added 3/9/20 # 164.3 Th/s
+7a3f1b location VLIGU0XTRA # 10.0.31.156 # 15 Th/s
+69f234 location VLIGU0XTRA # 10.0.50.59 # 15 Th/s
+31a3b4 location VLIGU0XTRA # 10.0.50.74 # 15 Th/s
+6140f0 location VLIGU0XTRA # 10.0.50.109 # 15 Th/s
+2d4ed1 location VLIGU0XTRA # 10.0.30.124 # 14.9 Th/s
+5d61db location VLIGU0XTRA # 10.0.30.131 # 14.9 Th/s
+2ce9d3 location VLIGU0XTRA # 10.0.31.24 # 14.9 Th/s
+9cd2d8 location VLIGU0XTRA # 10.0.50.45 # 14.9 Th/s
+a3f926 location VLIGU0XTRA # 10.0.50.81 # 14.9 Th/s
+910fab location VLIGU0XTRA # 10.0.50.146 # 14.9 Th/s
+c2c61a location VLIGU0XTRA # 10.0.55.56 # 14.9 Th/s
+
 
 ## throttle
 # 3/2/20
