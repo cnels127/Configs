@@ -56,7 +56,6 @@ fff476 location NPAVL00008
 09cad2 location NPAVL0XTRA # 10.0.55.5
 4c349f location NPAVL0XTRA # 10.0.115.15
 50c56b location NPAVL0XTRA # 10.0.63.3
-65c972 location NPAVL0XTRA # 10.0.117.26
 # extra machines added 3/9/20 # 37.6 Th/s
 2cf166 location NPAVL0XTRA # 10.0.55.77 # 13 Th/s
 cf61df location NPAVL0XTRA # 10.0.55.28 # 12.7 Th/s
@@ -84,7 +83,6 @@ f0c17e reboot 1578597005 # 10.0.57.135 npavl00005
 a95ab0 reboot 1578597005 # 10.0.57.137 npavl00007
 11a5c9 reboot 1578597005 # 10.0.57.133 npavl00004
 50c56b reboot 1578597005 # 10.0.63.3 npavl0xtra
-65c972 reboot 1578597005 # 10.0.117.26 npavl0xtra
 # s_reboot generated on Nov 11 2019 19:02:29 utc: 1573498949
 a95ab0 reboot 1573498949 # 10.0.57.137 npavl00007
 d42111 reboot 1573498949 # 10.0.57.136 npavl00006
@@ -101,6 +99,9 @@ a95ab0 reset 1578598806 # 10.0.57.137 npavl00007
 d42111 reset 1576033947
 a95ab0 reset 1576033180
 a95ab0 reset 1573153456
+
+## removals
+global remove 65c972
 
 ## asic password
 asicpass admin
