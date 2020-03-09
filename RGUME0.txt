@@ -41,10 +41,6 @@ global reset 1582572963
 # vlan 10.0.32.61-63
 # extra machine added 12/12/19
 vlan 10.0.53.12-12
-# Temporary extra machines added 2020-03-08. To be removed 2020-03-09
-vlan 10.0.32.15-15
-vlan 10.0.50.54-54
-vlan 10.0.50.158-158
 
 ## locations
 b2e414 location RGUME00001
@@ -52,10 +48,6 @@ df79d4 location RGUME00002
 c27ee4 location RGUME00003
 # extra machine added 12/12/19
 27b5a1 location RGUME0XTRA # 10.0.53.12
-# Temporary extra machines added 2020-03-08. To be removed 2020-03-09
-5db8fa location RGUME0XTRA # 10.0.32.15
-26c5ab location RGUME0XTRA # 10.0.50.54
-deee7c location RGUME0XTRA # 10.0.50.158
 
 ## throttle
 27b5a1 uncork 1583447856
