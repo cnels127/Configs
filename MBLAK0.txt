@@ -44,12 +44,14 @@ global uncork 1574797077
 ## vlans
 vlan 10.0.56.147-158
 # extra machines added 12/6/19
-10.0.66.54 15.3-3
-10.0.54.9 15.7-7
-10.0.54.15 15.8-8
+vlan 10.0.66.54 15.3-3
+vlan 10.0.54.9 15.7-7
+vlan 10.0.54.15 15.8-8
 # extra machines added 1/4/20
-10.0.118.37-37
-10.0.116.69-69
+vlan 10.0.118.37-37
+vlan 10.0.116.69-69
+# extra machine added 3/9/20
+vlan 10.0.50.85-85 # 3e3e0f
 
 ## locations
 61cbc7 location MBLAK00001
@@ -71,6 +73,8 @@ f3393d location MBLAK0XTRA # 10.0.54.9 15.7
 # extra machines added 1/4/20
 d6a99c location MBLAK0XTRA # 10.0.118.37
 0a9fbb location MBLAK0XTRA # 10.0.116.69
+# extra machine added 3/9/20
+3e3e0f location MBLAK0XTRA # 10.0.50.85 # 6.2 Th/s
 
 ## removed
 # ed92f7 was an ASICseer ID given to mblak0001 after it was reset. Removing ed92f7 from the panel after restoring the machine's original mac address
