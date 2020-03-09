@@ -39,18 +39,22 @@ global panelclear 999
 ## vlans
 # vlan 10.0.53.110-139
 # extra machines added 12/9/19
-vlan 10.0.116.32-32
-vlan 10.0.116.47-47
-vlan 10.0.116.60-60
-vlan 10.0.116.72-72
-vlan 10.0.116.74-74
-vlan 10.0.116.81-81
-vlan 10.0.116.82-82
-vlan 10.0.116.86-86
-vlan 10.0.116.90-90
-vlan 10.0.116.92-92
-vlan 10.0.116.95-95
-
+# vlan 10.0.116.32-32
+# vlan 10.0.116.47-47
+# vlan 10.0.116.60-60
+# vlan 10.0.116.72-72
+# vlan 10.0.116.74-74
+# vlan 10.0.116.81-81
+# vlan 10.0.116.82-82
+# vlan 10.0.116.86-86
+# vlan 10.0.116.90-90
+# vlan 10.0.116.92-92
+# vlan 10.0.116.95-95
+# extra machines added 3/9/20
+vlan 10.0.115.83-83 # c047ef
+vlan 10.0.31.22-22 # a0586c
+vlan 10.0.32.19-19 # 55bff4
+vlan 10.0.50.88-88 # 812582
 
 ## locations
 78202a location RHUSK00001
@@ -95,6 +99,11 @@ e89cef location RHUSK0XTRA # 10.0.116.47
 8d46c5 location RHUSK0XTRA # 10.0.116.90
 3a5486 location RHUSK0XTRA # 10.0.116.92
 77730e location RHUSK0XTRA # 10.0.116.95
+# extra machines added 3/9/20 # 59.2 Th/s
+c047ef location RHUSK0XTRA # 10.0.115.83 # 14.8 Th/s
+a0586c location RHUSK0XTRA # 10.0.31.22 # 14.8 Th/s
+55bff4 location RHUSK0XTRA # 10.0.32.19 # 14.8 Th/s
+812582 location RHUSK0XTRA # 10.0.50.88 # 14.8 Th/s
 
 ## throttle
 #2/24/20
