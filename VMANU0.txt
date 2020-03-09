@@ -75,13 +75,22 @@ global uncork 1576177695
 # vlan 10.0.116.154-154
 # vlan 10.0.115.108-108
 # extra machines added 12/12/19
-vlan 10.0.62.51-51
-vlan 10.0.62.52-52
-vlan 10.0.77.110-110
-vlan 10.0.64.155-155
-vlan 10.0.62.72-72
-vlan 10.0.77.119-119
-vlan 10.0.77.144-144
+# vlan 10.0.62.51-51
+# vlan 10.0.62.52-52
+# vlan 10.0.77.110-110
+# vlan 10.0.64.155-155
+# vlan 10.0.62.72-72
+# vlan 10.0.77.119-119
+# vlan 10.0.77.144-144
+# extra machines added 3/9/20
+vlan 10.0.50.148-148 # a46da9
+vlan 10.0.55.27-27 # f99d9d
+vlan 10.0.31.31-31 # 94a97e
+vlan 10.0.31.158-158 # 2c9456
+vlan 10.0.50.30-30 # 5aad48
+vlan 10.0.50.136-136 # 564bdb
+vlan 10.0.50.155-155 # 4b1240
+
 
 ## locations
 698d83 location VMANU00001
@@ -127,6 +136,14 @@ d934fc location VMANU0XTRA # 10.0.62.52
 23178f location VMANU0XTRA # 10.0.62.72
 9c37f8 location VMANU0XTRA # 10.0.77.119
 59acb5 location VMANU0XTRA # 10.0.77.144
+# extra machines added 3/9/20 # 70.9 Th/s
+a46da9 location VMANU0XTRA # 10.0.50.148 # 10.2 Th/s
+f99d9d location VMANU0XTRA # 10.0.55.27 # 10.2 Th/s
+94a97e location VMANU0XTRA # 10.0.31.31 # 10.1 Th/s
+2c9456 location VMANU0XTRA # 10.0.31.158 # 10.1 Th/s
+5aad48 location VMANU0XTRA # 10.0.50.30 # 10.1 Th/s
+564bdb location VMANU0XTRA # 10.0.50.136 # 10.1 Th/s
+4b1240 location VMANU0XTRA # 10.0.50.155 # 10.1 Th/s
 
 ## throttle
 b3a56f uncork 1581975117
