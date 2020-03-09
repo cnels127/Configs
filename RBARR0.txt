@@ -39,12 +39,27 @@ global uncork 1574905040
 # global reset 1574279872
 
 ## vlans
-vlan 10.0.57.48-72
-vlan 10.0.115.13-13
-vlan 10.0.115.14-14
-vlan 10.0.115.33-33
-vlan 10.0.115.34-34
-vlan 10.0.115.71-71
+# vlan 10.0.57.48-72
+# vlan 10.0.115.13-13
+# vlan 10.0.115.14-14
+# vlan 10.0.115.33-33
+# vlan 10.0.115.34-34
+# vlan 10.0.115.71-71
+# extra machines added 2/10/20
+# vlan 10.0.54.11-11 # 2ffd90
+# vlan 10.0.53.31-31 # 084a54
+# vlan 10.0.59.131-131 # 95c235
+# vlan 10.0.60.102-102 # d549fd
+# vlan 10.0.60.150-150 # c1769c
+# vlan 10.0.53.35-35 # 406249
+# vlan 10.0.67.160-160 # 5fa3f6
+# extra machines added 3/9/20
+vlan 10.0.55.20-20 # fb6775
+vlan 10.0.55.29-29 # c02a2d
+vlan 10.0.55.64-64 # 871727
+vlan 10.0.55.66-66 # 4476be
+vlan 10.0.55.73-73 # f584b2
+vlan 10.0.55.79-79 # 02ef83
 
 ## locations
 4b3a51 location RBARR00001
@@ -85,6 +100,14 @@ d549fd location RBARR0XTRA # 10.0.60.102 # 15.1 Th/s
 c1769c location RBARR0XTRA # 10.0.60.150 # 14.9 Th/s
 406249 location RBARR0XTRA # 10.0.53.35 # 14.0 Th/s
 5fa3f6 location RBARR0XTRA # 10.0.67.160 # 10.0 Th/s
+# 6 extra machines added 3/9/20 # 93 Th/s
+fb6775 location RBARR0XTRA # 10.0.55.20 # 15.5 Th/s
+c02a2d location RBARR0XTRA # 10.0.55.29 # 15.5 Th/s
+871727 location RBARR0XTRA # 10.0.55.64 # 15.5 Th/s
+4476be location RBARR0XTRA # 10.0.55.66 # 15.5 Th/s
+f584b2 location RBARR0XTRA # 10.0.55.73 # 15.5 Th/s
+02ef83 location RBARR0XTRA # 10.0.55.79 # 15.5 Th/s
+
 
 ## throttle
 e83b5d uncork 1580255278
