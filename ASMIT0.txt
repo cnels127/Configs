@@ -34,8 +34,8 @@ global panelclear 999
 
 # global retune 1
 # global reboot 1574269559
-global uncork 1575673273
-global reset 1578088675
+# global uncork 1575673273
+# global reset 1578088675
 # global panelpass gj83Nkgikg
 
 ## vlans
@@ -167,6 +167,27 @@ global reset 1578088675
 # vlan 10.0.62.44-44 # e7867c
 # vlan 10.0.62.86-86 # 8c847a
 # vlan 10.0.62.115-115 # ccd17b
+# extra machines added 3/9/20
+vlan 10.0.31.20-20 # 7f3032
+vlan 10.0.31.78-78 # fb68fa
+vlan 10.0.31.91-91 # e7ff4f
+vlan 10.0.31.112-112 # 5687a8
+vlan 10.0.31.127-127 # 736160
+vlan 10.0.31.139-139 # f5205c
+vlan 10.0.31.154-154 # 7ca1fd
+vlan 10.0.31.159-159 # ee4ce6
+vlan 10.0.32.1-1 # 29b4bf
+vlan 10.0.50.144-144 # 75697f
+vlan 10.0.31.21-21 # 6d3452
+vlan 10.0.31.60-60 # 002240
+vlan 10.0.31.73-73 # ff3702
+vlan 10.0.31.77-77 # 628082
+vlan 10.0.31.84-84 # c99e2f
+vlan 10.0.31.120-120 # c36ffa
+vlan 10.0.31.121-121 # e56347
+vlan 10.0.32.11-11 # daf117
+vlan 10.0.50.34-34 # 579d9f
+vlan 10.0.119.108-108 # 41445f
 
 ## locations
 83bf48 location ASMIT00001 # 10.0.63.23
@@ -311,6 +332,28 @@ eba0c1 location ASMIT0XTRA # 10.0.115.124
 aa0224 location ASMIT0XTRA # 10.0.120.34
 5a17ee location ASMIT0XTRA # 10.0.54.47
 3003ef location ASMIT0XTRA # 10.0.68.10
+# extra machines added 3/9/20 # 303 Th/s
+7f3032 location ASMIT0XTRA # 10.0.31.20 # 15.2 Th/s
+fb68fa location ASMIT0XTRA # 10.0.31.78 # 15.2 Th/s
+e7ff4f location ASMIT0XTRA # 10.0.31.91 # 15.2 Th/s
+5687a8 location ASMIT0XTRA # 10.0.31.112 # 15.2 Th/s
+736160 location ASMIT0XTRA # 10.0.31.127 # 15.2 Th/s
+f5205c location ASMIT0XTRA # 10.0.31.139 # 15.2 Th/s
+7ca1fd location ASMIT0XTRA # 10.0.31.154 # 15.2 Th/s
+ee4ce6 location ASMIT0XTRA # 10.0.31.159 # 15.2 Th/s
+29b4bf location ASMIT0XTRA # 10.0.32.1 # 15.2 Th/s
+75697f location ASMIT0XTRA # 10.0.50.144 # 15.2 Th/s
+6d3452 location ASMIT0XTRA # 10.0.31.21 # 15.1 Th/s
+002240 location ASMIT0XTRA # 10.0.31.60 # 15.1 Th/s
+ff3702 location ASMIT0XTRA # 10.0.31.73 # 15.1 Th/s
+628082 location ASMIT0XTRA # 10.0.31.77 # 15.1 Th/s
+c99e2f location ASMIT0XTRA # 10.0.31.84 # 15.1 Th/s
+c36ffa location ASMIT0XTRA # 10.0.31.120 # 15.1 Th/s
+e56347 location ASMIT0XTRA # 10.0.31.121 # 15.1 Th/s
+daf117 location ASMIT0XTRA # 10.0.32.11 # 15.1 Th/s
+579d9f location ASMIT0XTRA # 10.0.50.34 # 15.1 Th/s
+41445f location ASMIT0XTRA # 10.0.119.108 # 15.1 Th/s
+
 
 
 ## tuning
@@ -374,37 +417,6 @@ d9e963 reset 1579813381
 e7867c reset 1579813381
 
 ## removals
-
-## reinstallations
-vlan 10.0.115.35-35
-vlan 10.0.118.39-39
-vlan 10.0.118.134-134
-vlan 10.0.119.119-119
-vlan 10.0.117.1-1
-vlan 10.0.121.3-3
-vlan 10.0.117.11-11
-vlan 10.0.117.12-12
-vlan 10.0.118.32-32
-vlan 10.0.120.142-142
-vlan 10.0.120.121-121
-vlan 10.0.116.152-152
-vlan 10.0.115.133-133
-vlan 10.0.118.59-59
-vlan 10.0.115.42-42
-vlan 10.0.118.29-29
-vlan 10.0.116.132-132
-vlan 10.0.118.33-33
-vlan 10.0.116.55-55
-vlan 10.0.64.95-95
-vlan 10.0.54.157-157
-vlan 10.0.115.112-112
-vlan 10.0.120.153-153
-vlan 10.0.117.89-89
-vlan 10.0.118.19-19
-vlan 10.0.120.28-28
-vlan 10.0.116.58-58
-vlan 10.0.61.32-32
-vlan 10.0.116.160-160
 
 ## asic password
 asicpass admin
