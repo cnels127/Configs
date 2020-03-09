@@ -63,8 +63,7 @@ ceac8d location HKATZ00005
 # extra machines added 12/6/19
 60ea91 location HKATZ0XTRA # 10.0.54.31
 4b6238 location HKATZ0XTRA # 10.0.54.34
-# extra machines added 3/9/20 # 46.2 Th/s
-c24766 location HKATZ0XTRA # 10.0.31.45 # 15.4 Th/s
+# extra machines added 3/9/20 # 30.8 Th/s
 c5da9f location HKATZ0XTRA # 10.0.31.55 # 15.4 Th/s
 771df9 location HKATZ0XTRA # 10.0.31.57 # 15.4 Th/s
 
@@ -100,7 +99,7 @@ fae301 reset 1576886792
 15e78d reset 1573586786
 
 ## removals
-global remove 4b6238,60ea91
+global remove 4b6238,60ea91,c24766
 
 ## asic password
 asicpass admin
