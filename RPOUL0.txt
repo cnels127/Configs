@@ -47,7 +47,7 @@ vlan 10.0.62.49-49
 vlan 10.0.55.72-72
 vlan 10.0.117.62-62
 # extra machine added 2020-03-09
-vlan 10.0.50.65-65
+vlan 10.0.31.50-50
 
 ## locations
 12c5ea location RPOUL00001
@@ -60,7 +60,7 @@ b66a48 location RPOUL0XTRA # 10.0.62.49
 23bea7 location RPOUL0XTRA # 10.0.117.62 # 16.3 Th/s
 f0a16a location RPOUL0XTRA # 10.0.55.72 # 16.2 Th/s
 # extra machine added 2020-03-09
-a286c5 location RPOUL0XTRA # 10.0.50.65 11 Th/s
+e566c2 location RPOUL0XTRA # 10.0.31.50 10.6 Th/s
 
 ## throttle
 f0a16a uncork 1583771193
