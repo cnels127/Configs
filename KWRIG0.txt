@@ -49,18 +49,13 @@ vlan 10.0.20.55-55 # 29bca0
 # 2a7ac0 location KWRIG00004 # POWERED DOWN - NO WORKING HASHBOARDS
 # extra machines added 12/19/19
 2930ca location KWRIG0XTRA # 10.0.118.1
-# extra machine added 2/6/20
-4db5d3 location KWRIG0XTRA # 10.0.60.35 # 14.2 Th/s
-# extra machine added 2/11/20
-#568737 location KWRIG0XTRA # 10.0.118.55 # 10.0 Th/s #disassembled for parts
+# extra machine added 3/9/20
+fc1948 location KWRIG0XTRA # 10.0.50.106 # 14.3 Th/s
 
 ## remove
-global remove 568737
-global remove 4db5d3
 
 ## throttle
 # 2/13/20
-4db5d3 uncork 1581619298
 #568737 uncork 1581619298
 
 #1/10/20
@@ -75,9 +70,6 @@ global remove 4db5d3
 # 2/21/20
 #568737 reboot 1582313879
 29bca0 reboot 1582313879
-
-# 2/18/20
-4db5d3 reboot 1582053427
 
 # 2/6/20
 29bca0 reboot 1581014766
@@ -120,14 +112,15 @@ global remove 4db5d3
 # 2/20/20
 29bca0 reset 1582222228
 
-# 2/19/20
-4db5d3 reset 1582135447
-
 # 2/6/20
 2a7ac0 reset 1581014686
 
 2a7ac0 reset 1575933160
 2a7ac0 reset 1574953703
+
+## removals
+global remove 568737
+global remove 4db5d3
 
 ## asic password
 asicpass admin
