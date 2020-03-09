@@ -43,8 +43,13 @@ global panelclear 999
 # vlan 10.0.58.127-127
 # vlan 10.0.61.2-2
 # extra machines added 12/12/19
-vlan 10.0.62.53-53
-vlan 10.0.53.148-148
+# vlan 10.0.62.53-53 # d379c4
+# vlan 10.0.53.148-148 # c1da37
+# extra machines added 12/30/19
+# vlan 10.0.119.62-62 # 1e7afa
+# extra machines added 3/9/20
+vlan 10.0.50.65-65 # a286c5
+vlan 10.0.118.13-13 # bd7794
 
 ## locations
 17739c location PKOKE00001
@@ -61,6 +66,10 @@ d379c4 location PKOKE0XTRA # 10.0.62.53
 c1da37 location PKOKE0XTRA # 10.0.53.148
 # extra machine added 12/30/19
 1e7afa location PKOKE0XTRA # 10.0.119.62
+# extra machines added 3/9/20
+a286c5 location PKOKE0XTRA # 10.0.50.65 # 11 Th/s
+bd7794 location PKOKE0XTRA # 10.0.118.13 # 10.9 Th/s
+
 
 ## throttle
 e5ba90 uncork 1577825499 # 10.0.61.2 pkoke00009
