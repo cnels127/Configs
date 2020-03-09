@@ -61,12 +61,20 @@ global panelclear 999
 # vlan 10.0.77.76-76
 # vlan 10.0.77.141-141
 # extra machines added 12/9/19
-vlan 10.0.117.157-157
-vlan 10.0.117.161-161
-vlan 10.0.118.15-15
-vlan 10.0.118.64-64
-vlan 10.0.118.67-67
-vlan 10.0.118.71-71
+# vlan 10.0.117.157-157
+# vlan 10.0.117.161-161
+# vlan 10.0.118.15-15
+# vlan 10.0.118.64-64
+# vlan 10.0.118.67-67
+# vlan 10.0.118.71-71
+# extra machines added 3/9/20
+vlan 10.0.30.95-95 # e775a1
+vlan 10.0.30.109-109 # 93d91c
+vlan 10.0.31.79-79 # c6a6bf
+vlan 10.0.31.80-80 # da000d
+vlan 10.0.31.104-104 # 06bc48
+vlan 10.0.50.24-24 # 33e99b
+vlan 10.0.30.150-150 # a2bd60
 
 ## locations
 c55a62 location RACAY00001
@@ -100,6 +108,14 @@ f729dc location RACAY00022
 69dd49 location RACAY0XTRA # 10.0.118.64
 244ed6 location RACAY0XTRA # 10.0.118.67
 c1a324 location RACAY0XTRA # 10.0.118.71
+# extra machines added 3/9/20 # 104.1 Th/s
+e775a1 location RACAY0XTRA # 10.0.30.95 # 15 Th/s
+93d91c location RACAY0XTRA # 10.0.30.109 # 15 Th/s
+c6a6bf location RACAY0XTRA # 10.0.31.79 # 15 Th/s
+da000d location RACAY0XTRA # 10.0.31.80 # 15 Th/s
+06bc48 location RACAY0XTRA # 10.0.31.104 # 15 Th/s
+33e99b location RACAY0XTRA # 10.0.50.24 # 14.6 Th/s
+a2bd60 location RACAY0XTRA # 10.0.30.150 # 14.5 Th/s
 
 ##retune
 # 3/6/20
