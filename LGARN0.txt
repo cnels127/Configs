@@ -40,11 +40,15 @@ global reset 1574926120
 vlan 10.0.65.60-60
 vlan 10.0.65.102-102
 vlan 10.0.67.85-85
+# extra machine added 3/9/20
+vlan 10.0.115.11-11 # 8a4208
 
 ## locations
 0aaeb9 location LGARN00001
 0fdb4f location LGARN00002
 1d58bd location LGARN00003
+# extra machine added 3/9/20
+8a4208 location LGARN0XTRA # 10.0.115.11 # 12.5 Th/s
 
 ## throttle
 0aaeb9 uncork 1580320163
