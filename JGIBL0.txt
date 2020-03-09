@@ -23,7 +23,7 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-global throttle 50
+global throttle 25
 global fanspeed 85
 global fansaver yes
 global blinkred idle
@@ -40,11 +40,15 @@ global uncork 1574923372
 vlan 10.0.55.151-151
 vlan 10.0.55.158-158
 vlan 10.0.56.90-90
+# extra machine added 3/9/20
+vlan 10.0.50.62-62 # 3eedee
 
 ## locations
 615313 location JGIBL00001
 b897c7 location JGIBL00002
 ffc9c8 location JGIBL00003
+# extra machine added 3/9/20
+3eedee location JGIBL0XTRA # 10.0.50.62 # 11.8 Th/s
 
 ## throttle
 b897c7 uncork 1580752532
