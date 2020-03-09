@@ -37,9 +37,16 @@ global panelclear 999
 # global reset 1574963681
 
 ## vlans
-# vlan 10.0.68.30-33
+vlan 10.0.117.34-34
+vlan 10.0.117.35-35
+vlan 10.0.117.36-36
+vlan 10.0.117.37-37
 # extra machine added 12/12/19
 vlan 10.0.62.49-49
+# extram machines added 2020-03-07
+vlan 10.0.50.4-4
+vlan 10.0.55.72-72
+vlan 10.0.117.62-62
 
 ## locations
 12c5ea location RPOUL00001
