@@ -53,10 +53,6 @@ global uncork 1574720425
 vlan 10.0.62.34-34
 vlan 10.0.63.55-55
 vlan 10.0.64.29-29
-# extra machine added 12/19/19
-vlan 10.0.115.141-141
-# Temporary extra machines added 2020-03-05 to compensate for 10 days of down time due to the IP addresses for the mining pool not being updated. To be removed on 2020-03-16
-vlan 10.0.117.114-114
 # extra machine added 2020-03-16. Replaced the extra machine added 2019-12-19
 vlan 10.0.59.52-52
 
@@ -64,10 +60,6 @@ vlan 10.0.59.52-52
 3884fb location ZVORW00001
 f726b1 location ZVORW00002
 c2ee95 location ZVORW00003
-# extra machine added 12/19/19
-2c294b location ZVORW0XTRA # 10.0.115.141
-# Temporary extra machines added 2020-03-05 to compensate for 10 days of down time due to the IP addresses for the mining pool not being updated. To be removed on 2020-03-16
-2638fe location ZVORW0XTRA
 # extra machine added 2020-03-16. Replaced the extra machine added 2019-12-19
 ff488e location ZVORW0XTRA # 10.0.59.52
 
@@ -87,7 +79,7 @@ c2ee95 reset 1577085552
 f726b1 reset 1574400367
 
 ## removals
-global remove 839e1f,ff488e,3900a7,2c294b,7923ac,b340b4,74e424
+global remove 839e1f,ff488e,3900a7,2c294b,7923ac,b340b4,74e424,2638fe
 
 ## asic password
 asicpass admin
