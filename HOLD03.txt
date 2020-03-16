@@ -1,0 +1,285 @@
+## instructions available at: https://asicseer.com/page/kb#writing-config
+
+global custompanel HOLD03bit049
+global customer bit49-Russia
+
+global poolname1 profit.pool.bitcoin.com:3333
+global username1 bit49xHOLD03
+global poolpass1 123
+global sendworker1 yes
+global poolname2 eu.ss.btc.com:1800
+global username2 bit49euro
+global poolpass2 123
+global sendworker2 yes
+global poolname3 ru-west.stratum.slushpool.com:3333
+global username3 bit49
+global poolpass3 123
+global sendworker3 yes
+
+global asicboost yes
+global autotune yes
+global maxwatts 1450
+global autoupdate yes
+global allowed yes
+global maxtemp 90 1
+global throttle 25
+global fanspeed 85
+global fansaver yes
+global blinkred idle
+global blinkgreen rapid
+global panelclear 999
+# global panelpass gj83Nkgikg
+
+# global retune 1
+# global reboot 1
+# global uncork 1
+# global reset 1
+
+# JFIED0 (CP4052) (107 machines)
+vlan 10.0.57.161-161
+vlan 10.0.58.3-3
+vlan 10.0.58.35-35
+vlan 10.0.58.55-55
+vlan 10.0.58.57-57
+vlan 10.0.58.58-58
+vlan 10.0.58.112-112
+vlan 10.0.58.154-154
+vlan 10.0.59.53-53
+vlan 10.0.59.88-88
+vlan 10.0.60.65-65
+vlan 10.0.60.66-66
+vlan 10.0.60.120-120
+vlan 10.0.60.157-157
+vlan 10.0.60.159-159
+# vlan 10.0.61.19-19 # BROKEN
+vlan 10.0.61.20-20
+vlan 10.0.61.25-25
+vlan 10.0.61.27-27
+vlan 10.0.61.28-28
+vlan 10.0.61.29-29
+vlan 10.0.61.30-30
+vlan 10.0.61.34-34
+# vlan 10.0.61.36-36 # BROKEN
+vlan 10.0.61.37-37
+# vlan 10.0.61.39-39 # BROKEN
+vlan 10.0.61.40-40
+vlan 10.0.61.41-41
+vlan 10.0.61.42-42
+vlan 10.0.61.43-43
+vlan 10.0.61.46-46
+vlan 10.0.61.48-48
+vlan 10.0.61.49-49
+vlan 10.0.61.50-50
+vlan 10.0.61.51-51
+vlan 10.0.61.54-54
+vlan 10.0.61.62-62
+# vlan 10.0.61.66-66 # BROKEN
+vlan 10.0.61.68-68
+# vlan 10.0.61.70-70 # BROKEN
+vlan 10.0.61.71-71
+vlan 10.0.61.73-73
+vlan 10.0.61.74-74
+vlan 10.0.61.76-76
+vlan 10.0.61.78-78
+vlan 10.0.61.79-79
+vlan 10.0.61.81-81
+vlan 10.0.61.82-82
+vlan 10.0.61.83-83
+vlan 10.0.61.85-85
+vlan 10.0.61.87-87
+vlan 10.0.61.89-89
+vlan 10.0.61.91-91
+vlan 10.0.61.96-96
+# vlan 10.0.61.97-97 # BROKEN
+vlan 10.0.61.98-98
+# vlan 10.0.61.99-99 # BROKEN
+vlan 10.0.61.100-100
+vlan 10.0.61.101-101
+vlan 10.0.61.102-102
+vlan 10.0.61.103-103
+vlan 10.0.61.104-104
+vlan 10.0.61.107-107
+vlan 10.0.61.110-110
+vlan 10.0.61.113-113
+vlan 10.0.61.114-114
+vlan 10.0.61.116-116
+vlan 10.0.61.117-117
+vlan 10.0.61.121-121
+vlan 10.0.61.122-122
+vlan 10.0.61.123-123
+vlan 10.0.61.124-124
+vlan 10.0.61.125-125
+vlan 10.0.61.126-126
+vlan 10.0.61.127-127
+vlan 10.0.61.128-128
+vlan 10.0.61.131-131
+vlan 10.0.61.136-136
+# vlan 10.0.61.139-139 # BROKEN
+vlan 10.0.61.140-140
+vlan 10.0.61.146-146
+# vlan 10.0.61.148-148 # BROKEN
+vlan 10.0.61.149-149
+vlan 10.0.61.151-151
+vlan 10.0.61.152-152
+vlan 10.0.61.153-153
+vlan 10.0.61.159-159
+vlan 10.0.62.19-19
+vlan 10.0.63.31-31
+vlan 10.0.63.35-35
+vlan 10.0.63.36-36
+vlan 10.0.63.38-38
+vlan 10.0.63.39-39
+vlan 10.0.63.40-40
+vlan 10.0.63.41-41
+vlan 10.0.63.44-44
+# vlan 10.0.63.46-46 # BROKEN
+vlan 10.0.63.50-50
+vlan 10.0.63.51-51
+vlan 10.0.63.58-58
+vlan 10.0.63.59-59
+vlan 10.0.63.60-60
+vlan 10.0.63.61-61
+vlan 10.0.63.62-62
+vlan 10.0.63.67-67
+vlan 10.0.63.69-69
+vlan 10.0.63.71-71
+550b63 location JFIED00001
+fa71b6 location JFIED00002
+de91a0 location JFIED00003
+be35a4 location JFIED00004
+bf5d9e location JFIED00005
+14ccc9 location JFIED00006
+e45e37 location JFIED00007
+9eab49 location JFIED00008
+1d5db9 location JFIED00009
+e82795 location JFIED00010
+b96448 location JFIED00011
+a976d3 location JFIED00012
+9d7383 location JFIED00013
+3ae6f5 location JFIED00014
+9c64d4 location JFIED00015
+db20c6 location JFIED00016
+5dd689 location JFIED00017
+a13f47 location JFIED00018
+b4039e location JFIED00019
+931e66 location JFIED00020
+9f7bf1 location JFIED00021
+b1e369 location JFIED00022
+c4c801 location JFIED00023
+2d21b9 location JFIED00024
+5b64f1 location JFIED00025
+a43607 location JFIED00026
+a1e51e location JFIED00027
+527e85 location JFIED00028
+7b8d08 location JFIED00029
+290d45 location JFIED00030
+1de177 location JFIED00031
+448ccd location JFIED00032
+a484b8 location JFIED00033
+92be3e location JFIED00034
+57591e location JFIED00035
+3fa514 location JFIED00036
+ef6de1 location JFIED00037
+85332c location JFIED00038
+1f4c9e location JFIED00039
+ebdd42 location JFIED00040
+6306f6 location JFIED00041
+9f81be location JFIED00042
+5af10d location JFIED00043
+d2eabd location JFIED00044
+9e2df5 location JFIED00045
+e76055 location JFIED00046
+3e1e9a location JFIED00047
+7647eb location JFIED00048
+b98f42 location JFIED00049
+a45573 location JFIED00050
+75bbae location JFIED00051
+389f09 location JFIED00052
+59da1a location JFIED00053
+ab47ef location JFIED00054
+4ea862 location JFIED00055
+e81797 location JFIED00056
+a8b013 location JFIED00057
+78b6fa location JFIED00058
+c9ee5f location JFIED00059
+38b416 location JFIED00060
+e5eb65 location JFIED00061
+177af9 location JFIED00062
+c8c200 location JFIED00063
+67f2e3 location JFIED00064
+c46dfb location JFIED00065
+a04539 location JFIED00066
+c5b070 location JFIED00067
+62cc5e location JFIED00068
+dcebd6 location JFIED00069
+f7b757 location JFIED00070
+5b5575 location JFIED00071
+998c4a location JFIED00072
+aaf4a2 location JFIED00073
+5ee953 location JFIED00074
+ceb9c2 location JFIED00075
+da25b6 location JFIED00076
+58df4f location JFIED00077
+6ebf46 location JFIED00078
+681b12 location JFIED00079
+12dfa3 location JFIED00080
+f6a0d2 location JFIED00081
+db2b04 location JFIED00082
+170545 location JFIED00083
+b73fb2 location JFIED00084
+24b794 location JFIED00085
+e8da52 location JFIED00086
+022072 location JFIED00087
+d0fc49 location JFIED00088
+54cb78 location JFIED00089
+796536 location JFIED00090
+7d38fc location JFIED00091
+2a214f location JFIED00092
+0843d8 location JFIED00093
+f4d41f location JFIED00094
+4cd89d location JFIED00095
+4b4f52 location JFIED00096
+7a8009 location JFIED00097
+1d7ef6 location JFIED00098
+d5dd04 location JFIED00099
+1b70b0 location JFIED00100
+7e1b58 location JFIED00101
+e513cb location JFIED00102
+4b2265 location JFIED00103
+d3611d location JFIED00104
+528df3 location JFIED00105
+d710e7 location JFIED00106
+274432 location JFIED00107
+# 27 extra machines added 12/5/19
+2ecd51 location JFIED0XTRA # 10.0.58.133
+ce8824 location JFIED0XTRA # 10.0.63.28
+0beffe location JFIED0XTRA # 10.0.63.78
+ceb6d3 location JFIED0XTRA # 10.0.63.81
+ba9633 location JFIED0XTRA # 10.0.63.82
+ef3cd3 location JFIED0XTRA # 10.0.63.85
+5f83f2 location JFIED0XTRA # 10.0.63.86
+ae0bc3 location JFIED0XTRA # 10.0.63.87
+0ce813 location JFIED0XTRA # 10.0.63.88
+f8f07d location JFIED0XTRA # 10.0.63.92
+1bcd84 location JFIED0XTRA # 10.0.63.93
+5b204c location JFIED0XTRA # 10.0.63.94
+ca3c40 location JFIED0XTRA # 10.0.63.95
+a9f649 location JFIED0XTRA # 10.0.63.97
+a18065 location JFIED0XTRA # 10.0.63.99
+540a7e location JFIED0XTRA # 10.0.63.108
+b8542a location JFIED0XTRA # 10.0.63.111
+a1aa21 location JFIED0XTRA # 10.0.63.114
+d22096 location JFIED0XTRA # 10.0.63.119
+e97d51 location JFIED0XTRA # 10.0.63.120
+6ccd23 location JFIED0XTRA # 10.0.63.123
+19d5b1 location JFIED0XTRA # 10.0.63.124
+25d9fe location JFIED0XTRA # 10.0.63.126
+817b9d location JFIED0XTRA # 10.0.63.128
+fac878 location JFIED0XTRA # 10.0.64.1
+
+## tuning
+
+## resets
+
+## asic password
+asicpass admin
