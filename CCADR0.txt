@@ -40,14 +40,15 @@ global panelclear 999
 vlan 10.0.64.105-105
 vlan 10.0.64.153-153
 vlan 10.0.66.116-116
+# extra machine added 2020-03-17
+vlan 10.0.53.32-32
 
 ## locations
 549631 location CCADR00001
 1c6e2b location CCADR00002
 551f73 location CCADR00003
-# extra machine added 12/6/19
-3c6a08 location CCADR0XTRA # 10.0.64.155
-2385b5 location CCADR0XTRA # 10.0.67.61
+# extra machine added 2020-03-17
+b340b4 location CCADR0XTRA # 10.0.53.32
 
 ## throttle
 1c6e2b uncork 1584025050
