@@ -1,0 +1,341 @@
+## instructions available at: https://asicseer.com/page/kb#writing-config
+
+global custompanel HOLD04bit049
+global customer bit49-Russia
+
+global poolname1 profit.pool.bitcoin.com:3333
+global username1 bit49xHOLD04
+global poolpass1 123
+global sendworker1 yes
+global poolname2 eu.ss.btc.com:1800
+global username2 bit49euro
+global poolpass2 123
+global sendworker2 yes
+global poolname3 ru-west.stratum.slushpool.com:3333
+global username3 bit49
+global poolpass3 123
+global sendworker3 yes
+
+global asicboost yes
+global autotune yes
+global maxwatts 1450
+global autoupdate yes
+global allowed yes
+global maxtemp 90 1
+global throttle 25
+global fanspeed 85
+global fansaver yes
+global blinkred idle
+global blinkgreen rapid
+global panelclear 999
+# global panelpass gj83Nkgikg
+
+# global retune 1
+# global reboot 1
+# global uncork 1
+# global reset 1
+
+## ASMIT0 (100 s9)
+vlan 10.0.63.23-23 # 83bf48
+vlan 10.0.115.31-31 # 839650
+vlan 10.0.115.133-133 # b6dc9b
+vlan 10.0.115.135-135 # e73231
+vlan 10.0.62.110-110 # eff346
+# vlan 10.0.116.160-160 # 9a2fce # BROKEN
+vlan 10.0.117.1-1 # e1c210
+vlan 10.0.116.157-157 # e3414b
+vlan 10.0.117.12-12 # ac5f4f
+vlan 10.0.117.16-16 # 4ef268
+vlan 10.0.117.18-18 # 3f6300
+vlan 10.0.117.88-88 # 1b1f44
+vlan 10.0.117.92-92 # e98842
+vlan 10.0.117.116-116 # 0b9d8d
+vlan 10.0.117.121-121 # 11d7bd
+vlan 10.0.117.158-158 # b506b4
+vlan 10.0.118.6-6 # b187aa
+vlan 10.0.118.39-39 # 56c483
+vlan 10.0.118.59-59 # d9e316
+vlan 10.0.118.76-76 # 7d610a
+vlan 10.0.119.5-5 # 9af0af
+vlan 10.0.120.76-76 # bed5d9
+vlan 10.0.120.96-96 # 613041
+vlan 10.0.115.112-112 # 059330
+vlan 10.0.121.150-150 # b92ebe
+vlan 10.0.121.3-3 # b258fe
+vlan 10.0.118.33-33 # aa7b11
+vlan 10.0.116.124-124 # 9c6854
+vlan 10.0.121.80-80 # 5b0fa5
+vlan 10.0.121.62-62 # 8a3c89
+vlan 10.0.61.32-32 # d1959f
+vlan 10.0.118.17-17 # 85ec4c
+vlan 10.0.121.79-79 # 989ff6
+vlan 10.0.117.89-89 # 6fe983
+vlan 10.0.67.83-83 # 683bb6
+vlan 10.0.116.132-132 # dcb3fe
+vlan 10.0.67.30-30 # 1df8f9
+vlan 10.0.62.157-157 # e12ce5
+vlan 10.0.118.34-34 # a9900e
+vlan 10.0.120.121-121 # 03495a
+vlan 10.0.66.20-20 # 42d422
+vlan 10.0.118.19-19 # e8355a
+vlan 10.0.64.55-55 # d94043
+vlan 10.0.118.10-10 # 12da9b
+vlan 10.0.121.30-30 # bd7f48
+vlan 10.0.66.91-91 # 57db56
+vlan 10.0.64.145-145 # dd8320
+# vlan 10.0.115.42-42 # e42129 # BROKEN
+# vlan 10.0.54.157-157 # f5ddbb # BROKEN
+vlan 10.0.65.99-99 # 2c2665
+vlan 10.0.66.101-101 # 47bb2b
+vlan 10.0.61.75-75 # d34135
+vlan 10.0.115.35-35 # 3bc058
+vlan 10.0.119.17-17 # 031d29
+vlan 10.0.62.76-76 # a7b6db
+vlan 10.0.117.13-13 # d6d15f
+vlan 10.0.117.11-11 # 9cf57d
+vlan 10.0.77.3-3 # 524b81
+vlan 10.0.117.8-8 # f74045
+vlan 10.0.118.32-32 # d65343
+vlan 10.0.118.21-21 # 69dd11
+vlan 10.0.67.69-69 # 871acb
+# vlan 10.0.116.55-55 # 634028 # BROKEN
+vlan 10.0.119.31-31 # f6f5cd
+vlan 10.0.120.137-137 # 83aafe
+# vlan 10.0.120.153-153 # a6d314 # BROKEN
+# vlan 10.0.64.95-95 # 12853f # BROKEN
+vlan 10.0.118.29-29 # 1ee0e9
+vlan 10.0.118.114-114 # a19b63
+vlan 10.0.66.146-146 # d9e963
+vlan 10.0.118.152-152 # 50aace
+vlan 10.0.67.115-115 # 311b99
+vlan 10.0.119.119-119 # 23551c
+vlan 10.0.118.134-134 # 546516
+vlan 10.0.51.84-84 # da3e46
+vlan 10.0.116.142-142 # f6e78f
+vlan 10.0.66.87-87 # eb31e9
+vlan 10.0.77.43-43 # 926931
+vlan 10.0.63.10-10 # 56b43e
+vlan 10.0.119.123-123 # 08e3f8
+vlan 10.0.53.25-25 # d5888b
+vlan 10.0.51.66-66 # 98a188
+vlan 10.0.120.142-142 # 719b5e
+vlan 10.0.77.159-159 # d14995
+vlan 10.0.64.14-14 # 1b4b3a
+vlan 10.0.118.42-42 # 5c3a63
+vlan 10.0.51.106-106 # 017eb1
+# vlan 10.0.116.152-152 # ebac3f # BROKEN
+vlan 10.0.63.77-77 # c81b30
+vlan 10.0.53.14-14 # 10335b
+vlan 10.0.77.64-64 # 0de45b
+vlan 10.0.77.156-156 # ea2105
+vlan 10.0.120.151-151 # 2b2c57
+vlan 10.0.118.27-27 # 1c635d
+vlan 10.0.77.37-37 # e56295
+vlan 10.0.116.58-58 # e3ad88
+vlan 10.0.62.131-131 # ef15e2
+vlan 10.0.117.133-133 # 0025f7
+vlan 10.0.119.22-22 # 51345d
+vlan 10.0.120.56-56 # 000122
+# extra machines added 12/9/19
+vlan 10.0.117.75-75 # a85379
+vlan 10.0.117.95-95 # ff34d1
+vlan 10.0.51.77-77 # f748a3
+vlan 10.0.53.95-95 # e3ee27
+vlan 10.0.61.52-52 # bff875
+vlan 10.0.116.93-93 # 78575d
+vlan 10.0.116.104-104 # aae851
+vlan 10.0.117.59-59 # 6f32de
+vlan 10.0.117.96-96 # a5f77c
+vlan 10.0.118.68-68 # 9d4af9
+vlan 10.0.51.82-82 # 92a009
+vlan 10.0.51.110-110 # 3c6c89
+vlan 10.0.53.20-20 # 904f34
+vlan 10.0.53.66-66 # a3aec5
+vlan 10.0.53.85-85 # d522d3
+vlan 10.0.53.103-103 # 2931cf
+vlan 10.0.53.107-107 # fa91cc
+vlan 10.0.61.130-130 # 4b653b
+vlan 10.0.62.44-44 # e7867c
+vlan 10.0.62.86-86 # 8c847a
+# extra machines added 3/9/20
+vlan 10.0.31.20-20 # 7f3032
+vlan 10.0.31.78-78 # fb68fa
+vlan 10.0.31.91-91 # e7ff4f
+vlan 10.0.31.112-112 # 5687a8
+vlan 10.0.31.127-127 # 736160
+vlan 10.0.31.139-139 # f5205c
+vlan 10.0.31.154-154 # 7ca1fd
+vlan 10.0.31.159-159 # ee4ce6
+vlan 10.0.32.1-1 # 29b4bf
+vlan 10.0.50.144-144 # 75697f
+vlan 10.0.31.21-21 # 6d3452
+vlan 10.0.31.60-60 # 002240
+vlan 10.0.31.73-73 # ff3702
+vlan 10.0.31.77-77 # 628082
+vlan 10.0.31.84-84 # c99e2f
+vlan 10.0.31.120-120 # c36ffa
+vlan 10.0.31.121-121 # e56347
+vlan 10.0.32.11-11 # daf117
+vlan 10.0.50.34-34 # 579d9f
+vlan 10.0.119.108-108 # 41445f
+83bf48 location ASMIT00001 # 10.0.63.23
+839650 location ASMIT00002 # 10.0.115.31
+b6dc9b location ASMIT00003 # 10.0.115.133
+e73231 location ASMIT00004 # 10.0.115.135
+eff346 location ASMIT00005 # 10.0.62.110
+# 9a2fce location ASMIT00006 # 10.0.116.160 # BROKEN
+e1c210 location ASMIT00007 # 10.0.117.1
+e3414b location ASMIT00008 # 10.0.116.157
+ac5f4f location ASMIT00009 # 10.0.117.12
+4ef268 location ASMIT00010 # 10.0.117.16
+3f6300 location ASMIT00011 # 10.0.117.18
+1b1f44 location ASMIT00012 # 10.0.117.88
+e98842 location ASMIT00013 # 10.0.117.92
+0b9d8d location ASMIT00014 # 10.0.117.116
+11d7bd location ASMIT00015 # 10.0.117.121
+b506b4 location ASMIT00016 # 10.0.117.158
+b187aa location ASMIT00017 # 10.0.118.6
+56c483 location ASMIT00018 # 10.0.118.39
+d9e316 location ASMIT00019 # 10.0.118.59
+7d610a location ASMIT00020 # 10.0.118.76
+9af0af location ASMIT00021 # 10.0.119.5
+bed5d9 location ASMIT00022 # 10.0.120.76
+613041 location ASMIT00023 # 10.0.120.96
+059330 location ASMIT00024 # 10.0.115.112
+b92ebe location ASMIT00025 # 10.0.121.150
+b258fe location ASMIT00026 # 10.0.121.3
+aa7b11 location ASMIT00027 # 10.0.118.33
+9c6854 location ASMIT00028 # 10.0.116.124
+5b0fa5 location ASMIT00029 # 10.0.121.80
+8a3c89 location ASMIT00030 # 10.0.121.62
+d1959f location ASMIT00031 # 10.0.61.32
+85ec4c location ASMIT00032 # 10.0.118.17
+989ff6 location ASMIT00033 # 10.0.121.79
+6fe983 location ASMIT00034 # 10.0.117.89
+683bb6 location ASMIT00035 # 10.0.67.83
+dcb3fe location ASMIT00036 # 10.0.116.132
+1df8f9 location ASMIT00037 # 10.0.67.30
+e12ce5 location ASMIT00038 # 10.0.62.157
+a9900e location ASMIT00039 # 10.0.118.34
+03495a location ASMIT00040 # 10.0.120.121
+42d422 location ASMIT00041 # 10.0.66.20
+e8355a location ASMIT00042 # 10.0.118.19
+d94043 location ASMIT00043 # 10.0.64.55
+12da9b location ASMIT00044 # 10.0.118.10
+bd7f48 location ASMIT00045 # 10.0.121.30
+57db56 location ASMIT00046 # 10.0.66.91
+dd8320 location ASMIT00047 # 10.0.64.145
+# e42129 location ASMIT00048 # 10.0.115.42 # BROKEN
+# f5ddbb location ASMIT00049 # 10.0.54.157 # BROKEN
+2c2665 location ASMIT00050 # 10.0.65.99
+47bb2b location ASMIT00051 # 10.0.66.101
+d34135 location ASMIT00052 # 10.0.61.75
+3bc058 location ASMIT00053 # 10.0.115.35
+031d29 location ASMIT00054 # 10.0.119.17
+a7b6db location ASMIT00055 # 10.0.62.76
+d6d15f location ASMIT00056 # 10.0.117.13
+9cf57d location ASMIT00057 # 10.0.117.11
+524b81 location ASMIT00058 # 10.0.77.3
+f74045 location ASMIT00059 # 10.0.117.8
+d65343 location ASMIT00060 # 10.0.118.32
+69dd11 location ASMIT00061 # 10.0.118.21
+871acb location ASMIT00062 # 10.0.67.69
+# 634028 location ASMIT00063 # 10.0.116.55 # BROKEN
+f6f5cd location ASMIT00064 # 10.0.119.31
+83aafe location ASMIT00065 # 10.0.120.137
+a6d314 location ASMIT00066 # 10.0.120.153
+# 12853f location ASMIT00067 # 10.0.64.95 # BROKEN
+1ee0e9 location ASMIT00068 # 10.0.118.29
+a19b63 location ASMIT00069 # 10.0.118.114
+d9e963 location ASMIT00070 # 10.0.66.146
+50aace location ASMIT00071 # 10.0.118.152
+311b99 location ASMIT00072 # 10.0.67.115
+23551c location ASMIT00073 # 10.0.119.119
+546516 location ASMIT00074 # 10.0.118.134
+da3e46 location ASMIT00075 # 10.0.51.84
+f6e78f location ASMIT00076 # 10.0.116.142
+eb31e9 location ASMIT00077 # 10.0.66.87
+926931 location ASMIT00078 # 10.0.77.43
+56b43e location ASMIT00079 # 10.0.63.10
+08e3f8 location ASMIT00080 # 10.0.119.123
+d5888b location ASMIT00081 # 10.0.53.25
+98a188 location ASMIT00082 # 10.0.51.66
+719b5e location ASMIT00083 # 10.0.120.142
+d14995 location ASMIT00084 # 10.0.77.159
+1b4b3a location ASMIT00085 # 10.0.64.14
+5c3a63 location ASMIT00086 # 10.0.118.42
+017eb1 location ASMIT00087 # 10.0.51.106
+# ebac3f location ASMIT00088 # 10.0.116.152 # BROKEN
+c81b30 location ASMIT00089 # 10.0.63.77
+10335b location ASMIT00090 # 10.0.53.14
+0de45b location ASMIT00091 # 10.0.77.64
+ea2105 location ASMIT00092 # 10.0.77.156
+2b2c57 location ASMIT00093 # 10.0.120.151
+1c635d location ASMIT00094 # 10.0.118.27
+e56295 location ASMIT00095 # 10.0.77.37
+e3ad88 location ASMIT00096 # 10.0.116.58
+ef15e2 location ASMIT00097 # 10.0.62.131
+0025f7 location ASMIT00098 # 10.0.117.133
+51345d location ASMIT00099 # 10.0.119.22
+000122 location ASMIT00100 # 10.0.120.56
+# extra machines added 12/9/19
+a85379 location ASMIT0XTRA # 10.0.117.75
+ff34d1 location ASMIT0XTRA # 10.0.117.95
+f748a3 location ASMIT0XTRA # 10.0.51.77
+e3ee27 location ASMIT0XTRA # 10.0.53.95
+bff875 location ASMIT0XTRA # 10.0.61.52
+78575d location ASMIT0XTRA # 10.0.116.93
+aae851 location ASMIT0XTRA # 10.0.116.104
+6f32de location ASMIT0XTRA # 10.0.117.59
+a5f77c location ASMIT0XTRA # 10.0.117.96
+9d4af9 location ASMIT0XTRA # 10.0.118.68
+92a009 location ASMIT0XTRA # 10.0.51.82
+3c6c89 location ASMIT0XTRA # 10.0.51.110
+904f34 location ASMIT0XTRA # 10.0.53.20
+a3aec5 location ASMIT0XTRA # 10.0.53.66
+d522d3 location ASMIT0XTRA # 10.0.53.85
+2931cf location ASMIT0XTRA # 10.0.53.103
+fa91cc location ASMIT0XTRA # 10.0.53.107
+4b653b location ASMIT0XTRA # 10.0.61.130
+e7867c location ASMIT0XTRA # 10.0.62.44
+8c847a location ASMIT0XTRA # 10.0.62.86
+# extra machines added 1/3/20
+3cd09f location ASMIT0XTRA # 10.0.61.47
+3ee8ed location ASMIT0XTRA # 10.0.116.44
+3ebff0 location ASMIT0XTRA # 10.0.115.85
+b40f5a location ASMIT0XTRA # 10.0.121.43
+8549c6 location ASMIT0XTRA # 10.0.117.106
+eba0c1 location ASMIT0XTRA # 10.0.115.124
+3976e4 location ASMIT0XTRA # 10.0.120.43
+21b0ce location ASMIT0XTRA # 10.0.116.145
+aa0224 location ASMIT0XTRA # 10.0.120.34
+5a17ee location ASMIT0XTRA # 10.0.54.47
+3003ef location ASMIT0XTRA # 10.0.68.10
+# extra machines added 3/9/20 # 303 Th/s
+7f3032 location ASMIT0XTRA # 10.0.31.20 # 15.2 Th/s
+fb68fa location ASMIT0XTRA # 10.0.31.78 # 15.2 Th/s
+e7ff4f location ASMIT0XTRA # 10.0.31.91 # 15.2 Th/s
+5687a8 location ASMIT0XTRA # 10.0.31.112 # 15.2 Th/s
+736160 location ASMIT0XTRA # 10.0.31.127 # 15.2 Th/s
+f5205c location ASMIT0XTRA # 10.0.31.139 # 15.2 Th/s
+7ca1fd location ASMIT0XTRA # 10.0.31.154 # 15.2 Th/s
+ee4ce6 location ASMIT0XTRA # 10.0.31.159 # 15.2 Th/s
+29b4bf location ASMIT0XTRA # 10.0.32.1 # 15.2 Th/s
+75697f location ASMIT0XTRA # 10.0.50.144 # 15.2 Th/s
+6d3452 location ASMIT0XTRA # 10.0.31.21 # 15.1 Th/s
+002240 location ASMIT0XTRA # 10.0.31.60 # 15.1 Th/s
+ff3702 location ASMIT0XTRA # 10.0.31.73 # 15.1 Th/s
+628082 location ASMIT0XTRA # 10.0.31.77 # 15.1 Th/s
+c99e2f location ASMIT0XTRA # 10.0.31.84 # 15.1 Th/s
+c36ffa location ASMIT0XTRA # 10.0.31.120 # 15.1 Th/s
+e56347 location ASMIT0XTRA # 10.0.31.121 # 15.1 Th/s
+daf117 location ASMIT0XTRA # 10.0.32.11 # 15.1 Th/s
+579d9f location ASMIT0XTRA # 10.0.50.34 # 15.1 Th/s
+41445f location ASMIT0XTRA # 10.0.119.108 # 15.1 Th/s
+
+## tuning
+
+## resets
+
+## asic password
+asicpass admin
