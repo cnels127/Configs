@@ -43,6 +43,8 @@ vlan 10.0.58.18-18
 vlan 10.0.58.25-25
 vlan 10.0.58.27-27
 vlan 10.0.62.101-101
+# extra machine added 2020-03-17 
+vlan 10.0.120.100-100 # 5.4 Th
 
 ## locations
 1667e2 location DBELT00001
@@ -58,6 +60,8 @@ bfbee3 location DBELT0XTRA # 10.0.116.52
 # extra machines added 3/7/20 # 31.8 Th/s
 11aa26 location DBELT0XTRA # 10.0.30.154 # 15.9 Th/s
 b5c0ce location DBELT0XTRA # 10.0.32.2 # 15.9 Th/s
+# extra machine added 2020-03-17
+33c1ae location DBELT0XTRA # 10.0.120.100 5.4 Th
 
 ## throttle
 bfbee3 uncork 1584029738
