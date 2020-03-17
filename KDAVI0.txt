@@ -41,8 +41,6 @@ global uncork 1574904247
 # vlan 10.0.56.127-129
 # extra machines added 12/12/19
 vlan 10.0.118.26-26
-# extra machine added 3/9/20
-vlan 10.0.118.60-60 # 343162
 
 ## locations
 cf1a34 location KDAVI00001
@@ -53,8 +51,6 @@ cf1a34 location KDAVI00001
 8ef4ad location KDAVI00006
 # extra machines added 12/12/19
 7ba11d location KDAVI0XTRA # 10.0.118.26
-# extra machine added 3/9/20
-343162 location KDAVI0XTRA # 10.0.118.60 # 10.5 Th/s
 
 ## throttle
 5f861d uncork 1584038512
