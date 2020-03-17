@@ -44,7 +44,6 @@ vlan 10.0.58.25-25
 vlan 10.0.58.27-27
 vlan 10.0.62.101-101
 # extra machine added 2020-03-17 
-vlan 10.0.120.100-100 # 5.4 Th
 
 ## locations
 1667e2 location DBELT00001
@@ -61,7 +60,6 @@ bfbee3 location DBELT0XTRA # 10.0.116.52
 11aa26 location DBELT0XTRA # 10.0.30.154 # 15.9 Th/s
 b5c0ce location DBELT0XTRA # 10.0.32.2 # 15.9 Th/s
 # extra machine added 2020-03-17
-33c1ae location DBELT0XTRA # 10.0.120.100 5.4 Th
 
 ## throttle
 bfbee3 uncork 1584029738
@@ -100,7 +98,7 @@ e7a422 reset 1575683616
 179168 reset 1572475331
 
 ## removed
-global remove bfbee3
+global remove bfbee3,33c1ae
 
 ## asic password
 asicpass admin
