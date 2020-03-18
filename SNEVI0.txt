@@ -51,19 +51,15 @@ d2fc8a location SNEVI00005
 006c9e location SNEVI0XTRA # 10.0.118.52
 
 ## throttle
-006c9e uncork 1584109596
-26e08b uncork 1584109596
-42ac6f uncork 1584109596
-633e5b uncork 1584109596
-b7e4cf uncork 1584109596
-3ac65a uncork 1584109596
-d2fc8a uncork 1584109596
+633e5b uncork 1584569586
 
 ## fans
 
 ## reboots
-# s_reboot generated on Nov 11 2019 19:11:26 utc: 1573499486
-b7e4cf reboot 1573499486 # 10.0.68.66 snevi00003
+006c9e reboot 1584569586
+26e08b reboot 1584569586
+b7e4cf reboot 1584569586
+3ac65a reboot 1584569586
 
 ## resets
 42ac6f reset 1577172912
