@@ -400,6 +400,8 @@ global uncork 1583791586
 # vlan 10.0.121.55-55 # 74b647
 # vlan 10.0.120.38-38 # 3e5976
 # vlan 10.0.121.53-53 # cefbab
+## extra machines added 2020-03-18
+vlan 10.0.120.27-27
 
 ## locations
 164b1f location GWELT00001 # 10.0.58.28
@@ -762,7 +764,8 @@ ceba7d location gwelt0xtra # 10.0.121.36
 74b647 location gwelt0xtra # 10.0.121.55
 3e5976 location gwelt0xtra # 10.0.120.38
 cefbab location gwelt0xtra # 10.0.121.53
-
+## extra machines added 2020-03-18
+d7a2fa location gwelt0xtra # 10.0.120.27
 
 ## global remove
 global remove d7cd4b ## found on GWELT0's panel, but is listed in NBELL0's config file
