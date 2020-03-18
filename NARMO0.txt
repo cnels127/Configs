@@ -40,18 +40,11 @@ global reset 1574929280
 vlan 10.0.65.71-71
 vlan 10.0.65.134-134
 vlan 10.0.66.110-110
-# extra machines added 11/23/19
-vlan 10.0.116.49-49
-vlan 10.0.53.142-142
 
 ## locations
 76e85b location NARMO00001
 8bdc72 location NARMO00002
 aa75d6 location NARMO00003
-# extra machines added 11/23/19
-3518c2 location NARMO0XTRA # 10.0.116.49
-a1f2ff location NARMO0XTRA # 10.0.117.93
-
 
 ## throttle
 a1f2ff uncork 1584043533
