@@ -763,6 +763,10 @@ ceba7d location gwelt0xtra # 10.0.121.36
 3e5976 location gwelt0xtra # 10.0.120.38
 cefbab location gwelt0xtra # 10.0.121.53
 
+
+## global remove
+global remove d7cd4b ## found on GWELT0's panel, but is listed in NBELL0's config file
+
 ## throttle
 1 R b482 uncork 1584385156
 1 R b482 uncork 1584385156
