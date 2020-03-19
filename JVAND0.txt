@@ -221,7 +221,7 @@ b7b010 location JVAND0XTRA # 10.0.67.101
 ab6a45 location JVAND0XTRA # 10.0.62.45
 5b475d location JVAND0XTRA # 10.0.62.69
 0ca5a4 location JVAND0XTRA # 10.0.62.73
-7ef3f6 location JVAND0XTRA # 10.0.67.130
+# 7ef3f6 location JVAND0XTRA # 10.0.67.130 ## SCRAPPED
 ae4cbd location JVAND0XTRA # 10.0.115.67
 aee689 location JVAND0XTRA # 10.0.62.41
 892d41 location JVAND0XTRA # 10.0.62.70
@@ -232,6 +232,9 @@ ac4842 location JVAND0XTRA # 10.0.54.44
 ed783e location JVAND0XTRA # 10.0.77.148
 061acb location JVAND0XTRA # 10.0.51.105
 9b8580 location JVAND0XTRA # 10.0.77.71
+
+## removed
+global remove 7ef3f6
 
 ## throttle
 # 3/18/20
