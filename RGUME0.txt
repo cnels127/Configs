@@ -38,9 +38,11 @@ global panelclear 999
 global reset 1582572963
 
 ## vlans
-# vlan 10.0.32.61-63
+vlan 10.0.32.61-63
 # extra machine added 12/12/19
 vlan 10.0.53.12-12
+# extra machine added 3/20/20
+vlan 10.0.116.93-93
 
 ## locations
 b2e414 location RGUME00001
@@ -48,6 +50,8 @@ df79d4 location RGUME00002
 c27ee4 location RGUME00003
 # extra machine added 12/12/19
 27b5a1 location RGUME0XTRA # 10.0.53.12
+# extra machine added 3/20/20
+78575d location RGUME0XTRA # 10.0.116.93
 
 ## throttle
 b2e414 uncork 1584569412
