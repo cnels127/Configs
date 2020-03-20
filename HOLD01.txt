@@ -42,18 +42,11 @@ global panelclear 999
 ## reboots
 
 ## resets
-be602c reset 1584372131
-7cc8a1 reset 1584372131
-
-## RFRAN1
-vlan 10.10.126.232-232
-4fde10 location rfrancos0001
-4fde10 maxwatts 1350
 
 ## JROBE1
-vlan 172.16.202.58-58
-vlan 172.16.202.59-59
-vlan 172.16.204.147-147
+vlan 172.16.101.98-98
+vlan 172.16.100.18-18
+vlan 172.16.100.84-84
 7cc8a1 location JROBE10001
 be602c location JROBE10002
 fbb341 location JROBE10003
@@ -61,15 +54,8 @@ fbb341 location JROBE10003
 be602c maxwatts 1300
 fbb341 maxwatts 1300
 
+## removals
+global remove 4fde10
+
 ## asic password
 asicpass admin
-
-
-
-
-
-
-
-
-
-
