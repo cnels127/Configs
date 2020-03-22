@@ -1,7 +1,7 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
 
 global custompanel HOLD01bit049
-global customer bit49-Colorado
+global customer bit49-Russia
 
 global poolname1 profit.pool.bitcoin.com:3333
 global username1 bit49
@@ -11,7 +11,7 @@ global poolname2 us.ss.btc.com:1800
 global username2 bit49US
 global poolpass2 123
 global sendworker2 yes
-global poolname3 stratum.slushpool.com:3333
+global poolname3 ru-west.stratum.slushpool.com:3333
 global username3 bit49
 global poolpass3 123
 global sendworker3 yes
@@ -35,6 +35,420 @@ global panelclear 999
 # global uncork 1
 # global reset 1
 
+## CRIBE0 (206 s9)
+vlan 10.0.51.131-131
+vlan 10.0.53.27-27
+vlan 10.0.53.29-29
+vlan 10.0.57.138-138
+vlan 10.0.58.36-36
+vlan 10.0.58.60-60
+vlan 10.0.58.90-90
+vlan 10.0.58.93-93
+vlan 10.0.58.95-95
+vlan 10.0.58.107-107
+vlan 10.0.58.113-113
+vlan 10.0.58.117-117
+vlan 10.0.58.143-143
+vlan 10.0.58.155-155
+vlan 10.0.59.5-5
+vlan 10.0.59.12-12
+vlan 10.0.59.20-20
+vlan 10.0.59.34-34
+vlan 10.0.59.38-38
+vlan 10.0.59.40-40
+vlan 10.0.59.47-47
+vlan 10.0.59.55-55
+vlan 10.0.59.56-56
+vlan 10.0.59.57-57
+vlan 10.0.59.58-58
+vlan 10.0.59.59-59
+vlan 10.0.59.61-61
+vlan 10.0.59.62-62
+vlan 10.0.59.63-63
+vlan 10.0.59.64-64
+vlan 10.0.59.65-65
+vlan 10.0.59.67-67
+vlan 10.0.59.68-68
+vlan 10.0.59.70-70
+vlan 10.0.59.72-72
+vlan 10.0.59.74-74
+vlan 10.0.59.75-75
+vlan 10.0.59.76-76
+vlan 10.0.59.81-81
+vlan 10.0.59.82-82
+vlan 10.0.59.83-83
+vlan 10.0.59.85-85
+vlan 10.0.59.86-86
+vlan 10.0.59.87-87
+vlan 10.0.59.89-89
+vlan 10.0.59.92-92
+vlan 10.0.59.93-93
+vlan 10.0.59.94-94
+vlan 10.0.59.95-95
+vlan 10.0.59.96-96
+vlan 10.0.59.97-97
+vlan 10.0.59.98-98
+vlan 10.0.59.99-99
+vlan 10.0.59.100-100
+vlan 10.0.59.101-101
+vlan 10.0.59.102-102
+vlan 10.0.59.105-105
+vlan 10.0.59.108-108
+vlan 10.0.59.136-136
+vlan 10.0.60.37-37
+vlan 10.0.60.43-43
+vlan 10.0.60.112-112
+vlan 10.0.60.148-148
+vlan 10.0.61.21-21
+vlan 10.0.61.22-22
+vlan 10.0.61.23-23
+vlan 10.0.61.31-31
+vlan 10.0.61.33-33
+vlan 10.0.61.55-55
+vlan 10.0.61.57-57
+vlan 10.0.61.64-64
+vlan 10.0.61.69-69
+vlan 10.0.61.80-80
+vlan 10.0.61.84-84
+vlan 10.0.61.86-86
+vlan 10.0.61.90-90
+vlan 10.0.61.92-92
+vlan 10.0.61.94-94
+vlan 10.0.61.95-95
+vlan 10.0.61.111-111
+vlan 10.0.61.115-115
+vlan 10.0.61.118-118
+vlan 10.0.61.119-119
+vlan 10.0.61.129-129
+vlan 10.0.61.132-132
+vlan 10.0.61.141-141
+vlan 10.0.61.147-147
+vlan 10.0.61.154-154
+vlan 10.0.61.156-156
+vlan 10.0.62.1-1
+vlan 10.0.62.2-2
+vlan 10.0.62.3-3
+vlan 10.0.62.4-4
+vlan 10.0.62.5-5
+vlan 10.0.62.6-6
+vlan 10.0.62.7-7
+vlan 10.0.62.8-8
+vlan 10.0.62.9-9
+vlan 10.0.62.10-10
+vlan 10.0.62.11-11
+vlan 10.0.62.12-12
+vlan 10.0.62.13-13
+vlan 10.0.62.14-14
+vlan 10.0.62.15-15
+vlan 10.0.62.16-16
+vlan 10.0.62.17-17
+vlan 10.0.62.18-18
+vlan 10.0.62.20-20
+vlan 10.0.62.21-21
+vlan 10.0.62.22-22
+vlan 10.0.62.23-23
+vlan 10.0.62.24-24
+vlan 10.0.62.25-25
+vlan 10.0.62.26-26
+vlan 10.0.62.28-28
+vlan 10.0.62.35-35
+vlan 10.0.62.60-60
+vlan 10.0.62.84-84
+vlan 10.0.62.103-103
+vlan 10.0.62.104-104
+vlan 10.0.62.108-108
+vlan 10.0.62.112-112
+vlan 10.0.62.117-117
+vlan 10.0.62.122-122
+vlan 10.0.62.126-126
+vlan 10.0.62.153-153
+vlan 10.0.62.154-154
+vlan 10.0.63.2-2
+vlan 10.0.63.9-9
+vlan 10.0.63.15-15
+vlan 10.0.63.16-16
+vlan 10.0.63.20-20
+vlan 10.0.63.22-22
+vlan 10.0.63.24-24
+vlan 10.0.63.30-30
+vlan 10.0.63.32-32
+vlan 10.0.63.45-45
+vlan 10.0.63.47-47
+vlan 10.0.63.48-48
+vlan 10.0.63.52-52
+vlan 10.0.63.54-54
+vlan 10.0.63.57-57
+vlan 10.0.63.65-65
+vlan 10.0.77.22-22
+vlan 10.0.77.83-83
+vlan 10.0.77.124-124
+vlan 10.0.77.132-132
+vlan 10.0.115.117-117
+vlan 10.0.115.132-132
+vlan 10.0.115.149-149
+vlan 10.0.116.115-115
+vlan 10.0.116.118-118
+vlan 10.0.116.122-122
+vlan 10.0.116.144-144
+vlan 10.0.117.110-110
+vlan 10.0.117.127-127
+vlan 10.0.117.136-136
+vlan 10.0.117.139-139
+vlan 10.0.117.141-141
+vlan 10.0.117.147-147
+vlan 10.0.118.2-2
+vlan 10.0.118.4-4
+vlan 10.0.118.140-140
+vlan 10.0.118.149-149
+vlan 10.0.118.153-153
+vlan 10.0.119.1-1
+vlan 10.0.119.109-109
+vlan 10.0.119.127-127
+vlan 10.0.119.129-129
+vlan 10.0.119.143-143
+vlan 10.0.119.147-147
+vlan 10.0.119.161-161
+vlan 10.0.120.49-49
+vlan 10.0.121.140-140
+vlan 10.0.115.5-5
+vlan 10.0.115.7-7
+vlan 10.0.115.24-24
+vlan 10.0.115.43-43
+vlan 10.0.115.50-50
+vlan 10.0.115.52-52
+vlan 10.0.115.55-55
+vlan 10.0.117.90-90
+vlan 10.0.115.78-78
+vlan 10.0.115.87-87
+vlan 10.0.115.90-90
+vlan 10.0.115.103-103
+vlan 10.0.116.2-2
+vlan 10.0.116.5-5
+vlan 10.0.116.13-13
+vlan 10.0.116.38-38
+vlan 10.0.116.73-73
+vlan 10.0.116.99-99
+vlan 10.0.116.103-103
+vlan 10.0.117.58-58
+vlan 10.0.117.65-65
+vlan 10.0.117.74-74
+vlan 10.0.117.76-76
+vlan 10.0.117.79-79
+vlan 10.0.117.120-120
+vlan 10.0.117.140-140
+vlan 10.0.118.9-9
+vlan 10.0.118.22-22
+vlan 10.0.118.50-50
+vlan 10.0.118.62-62
+vlan 10.0.120.106-106
+vlan 10.0.121.136-136
+30f3ce location CRIBE00001
+5226b6 location CRIBE00002
+8df680 location CRIBE00003
+e1f51e location CRIBE00004
+be6e5c location CRIBE00005
+b78f54 location CRIBE00006
+a6f215 location CRIBE00007
+2a6f8a location CRIBE00008
+c29aa8 location CRIBE00009
+8b69b8 location CRIBE00010
+667bbe location CRIBE00011
+c3fecd location CRIBE00012
+cc6ecd location CRIBE00013
+002a63 location CRIBE00014
+aca1f9 location CRIBE00015
+e6dc44 location CRIBE00016
+37c28b location CRIBE00017
+e71503 location CRIBE00018
+55c85a location CRIBE00019
+286418 location CRIBE00020
+b169bf location CRIBE00021
+5eb2e0 location CRIBE00022
+7a6e47 location CRIBE00023
+ceceac location CRIBE00024
+536fa0 location CRIBE00025
+893a70 location CRIBE00026
+b42546 location CRIBE00027
+3ed79a location CRIBE00028
+4b299e location CRIBE00029
+fecc4d location CRIBE00030
+e7af56 location CRIBE00031
+e4cbc8 location CRIBE00032
+577f14 location CRIBE00033
+0068f5 location CRIBE00034
+4ae145 location CRIBE00035
+eac263 location CRIBE00036
+e74b4f location CRIBE00037
+3b9f50 location CRIBE00038
+02e802 location CRIBE00039
+830b49 location CRIBE00040
+b9362e location CRIBE00041
+069b7d location CRIBE00042
+bbe496 location CRIBE00043
+b88126 location CRIBE00044
+d3941f location CRIBE00045
+5433d7 location CRIBE00046
+eb763f location CRIBE00047
+333095 location CRIBE00048
+cdc7b1 location CRIBE00049
+5efe33 location CRIBE00050
+74b1a1 location CRIBE00051
+78c1d7 location CRIBE00052
+cd80a5 location CRIBE00053
+4a89fe location CRIBE00054
+f4bea2 location CRIBE00055
+fdfb5f location CRIBE00056
+e40534 location CRIBE00057
+e46a8f location CRIBE00058
+1b2b69 location CRIBE00059
+1f3926 location CRIBE00060
+9c7ef0 location CRIBE00061
+2f0a33 location CRIBE00062
+d6daa1 location CRIBE00063
+a3079e location CRIBE00064
+05e91c location CRIBE00065
+1afe8c location CRIBE00066
+b4aac6 location CRIBE00067
+bd7bf8 location CRIBE00068
+d70d1e location CRIBE00069
+8c008f location CRIBE00070
+049bcf location CRIBE00071
+d26a62 location CRIBE00072
+55ef04 location CRIBE00073
+722dbe location CRIBE00074
+48af58 location CRIBE00075
+bd5aa0 location CRIBE00076
+8ec32b location CRIBE00077
+8e819a location CRIBE00078
+4d8d44 location CRIBE00079
+240df8 location CRIBE00080
+475791 location CRIBE00081
+c1a0b5 location CRIBE00082
+7a2e69 location CRIBE00083
+668f87 location CRIBE00084
+493278 location CRIBE00085
+1c16ee location CRIBE00086
+02e716 location CRIBE00087
+72cf2d location CRIBE00088
+78a6ea location CRIBE00089
+e0b9e7 location CRIBE00090
+64e334 location CRIBE00091
+bb3eb8 location CRIBE00092
+923afa location CRIBE00093
+e004c5 location CRIBE00094
+04ba06 location CRIBE00095
+3fda51 location CRIBE00096
+4020bb location CRIBE00097
+138ef0 location CRIBE00098
+4b06d3 location CRIBE00099
+b43083 location CRIBE00100
+f6994a location CRIBE00101
+4eeab5 location CRIBE00102
+268669 location CRIBE00103
+c49427 location CRIBE00104
+5e59a2 location CRIBE00105
+442360 location CRIBE00106
+f9cc31 location CRIBE00107
+31e054 location CRIBE00108
+54b3e0 location CRIBE00109
+582c72 location CRIBE00110
+e18884 location CRIBE00111
+4593d4 location CRIBE00112
+c120c5 location CRIBE00113
+03791c location CRIBE00114
+904a48 location CRIBE00115
+4a7ac4 location CRIBE00116
+7a6fcf location CRIBE00117
+344d03 location CRIBE00118
+cbc7c5 location CRIBE00119
+739ff9 location CRIBE00120
+2e9762 location CRIBE00121
+bda134 location CRIBE00122
+0df44a location CRIBE00123
+aadd03 location CRIBE00124
+d9ebb6 location CRIBE00125
+0a48d9 location CRIBE00126
+9f8b8f location CRIBE00127
+340637 location CRIBE00128
+96ad80 location CRIBE00129
+bfcdc1 location CRIBE00130
+edb8c4 location CRIBE00131
+42a51d location CRIBE00132
+1162de location CRIBE00133
+e73ffc location CRIBE00134
+87cfea location CRIBE00135
+a7f5e0 location CRIBE00136
+ff69f4 location CRIBE00137
+cc994a location CRIBE00138
+830d52 location CRIBE00139
+86677b location CRIBE00140
+f870b1 location CRIBE00141
+9bb638 location CRIBE00142
+e64f0a location CRIBE00143
+451534 location CRIBE00144
+9f6d83 location CRIBE00145
+4b4ce5 location CRIBE00146
+7f6f52 location CRIBE00147
+b5c8cd location CRIBE00148
+117b72 location CRIBE00149
+eddea6 location CRIBE00150
+c7b8fd location CRIBE00151
+51e88c location CRIBE00152
+c53edf location CRIBE00153
+7afa35 location CRIBE00154
+28042e location CRIBE00155
+dc3dd7 location CRIBE00156
+63120e location CRIBE00157
+bfb2c5 location CRIBE00158
+db1ede location CRIBE00159
+6aa96b location CRIBE00160
+aff36d location CRIBE00161
+9cd1b6 location CRIBE00162
+d1328c location CRIBE00163
+5fa246 location CRIBE00164
+765ec0 location CRIBE00165
+4f7457 location CRIBE00166
+0e5797 location CRIBE00167
+70afe2 location CRIBE00168
+6654f1 location CRIBE00169
+a4bf15 location CRIBE00170
+aee61e location CRIBE00171
+e67735 location CRIBE00172
+ac469a location CRIBE00173
+eb5256 location CRIBE00174
+d723bc location CRIBE00175
+dd601e location CRIBE00176
+fc5018 location CRIBE00177
+fbed7a location CRIBE00178
+5a3ea6 location CRIBE00179
+183f9e location CRIBE00180
+e7f17f location CRIBE00181
+1ff17d location CRIBE00182
+4d41a8 location CRIBE00183
+512376 location CRIBE00184
+7db9db location CRIBE00185
+eac317 location CRIBE00186
+615e72 location CRIBE00187
+c95115 location CRIBE00188
+d201ca location CRIBE00189
+25e2ce location CRIBE00190
+775417 location CRIBE00191
+3094d0 location CRIBE00192
+a04740 location CRIBE00193
+e832ef location CRIBE00194
+865095 location CRIBE00195
+d254d2 location CRIBE00196
+bc29e2 location CRIBE00197
+61f63e location CRIBE00198
+cdce27 location CRIBE00199
+3b84a1 location CRIBE00200
+445a87 location CRIBE00201
+7a0133 location CRIBE00202
+825d48 location CRIBE00203
+f62743 location CRIBE00204
+82124e location CRIBE00205
+19851e location CRIBE00206
+
 ## throttle
 
 ## fans
@@ -43,19 +457,9 @@ global panelclear 999
 
 ## resets
 
-## JROBE1
-vlan 172.16.101.98-98
-vlan 172.16.100.18-18
-vlan 172.16.100.84-84
-7cc8a1 location JROBE10001
-be602c location JROBE10002
-fbb341 location JROBE10003
-7cc8a1 maxwatts 1300
-be602c maxwatts 1300
-fbb341 maxwatts 1300
-
 ## removals
-global remove 4fde10
+# s_remove generated on Mar 22 2020 03:27:33 utc: 1584847653
+global remove 7cc8a1,be602c,fbb341,4fde10
 
 ## asic password
 asicpass admin
