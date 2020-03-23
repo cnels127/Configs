@@ -51,6 +51,10 @@ vlan 10.0.115.11-11 # 8a4208
 8a4208 location LGARN0XTRA # 10.0.115.11 # 12.5 Th/s
 
 ## throttle
+# 3/23/20
+0aaeb9 uncork 1585003258
+0fdb4f uncork 1585003258
+
 0aaeb9 uncork 1580320163
 
 ## fans
