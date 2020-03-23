@@ -41,8 +41,8 @@ vlan 10.0.65.147-147
 
 ## locations
 faba2f location TCOST00001
-# extra machine added 
-10992f location TCOST0XTRA # 10.0.63.75
+# extra machine added 3/23/20
+3c6c89 location TCOST0XTRA # 10.0.51.110 # 5.5 Th/s
 
 ## throttle
 
@@ -56,6 +56,9 @@ faba2f reboot 1584574281
 faba2f reset 1578429754 # 10.0.65.147 tcost00001
 faba2f reset 1577403443
 faba2f reset 1574977223
+
+## removals
+global remove 10992f
 
 ## asic password
 asicpass admin
