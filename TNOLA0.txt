@@ -45,8 +45,9 @@ f7deb6 location TNOLA00002
 9e6254 location TNOLA00003
 8bbd8a location TNOLA00004
 be162a location TNOLA00005
-# extra machine added 12/23/19
-ee64d3 location TNOLA0XTRA # 10.0.59.156
+# extra machine added 3/23/20
+89b85e location TNOLA0XTRA # 10.0.31.140 # 15.4 Th/s
+94a3c3 location TNOLA0XTRA # 10.0.115.40 # 10.8 Th/s
 
 ## throttle
 be162a uncork 1584139842
@@ -63,9 +64,14 @@ eaab57 reboot 1584631633
 9e6254 reboot 1584631633
 
 ## resets
+eaab57 reset 1584970999
+8bbd8a reset 1584970999
 be162a reset 1578947530
 ee64d3 reset 1578947530
 9e6254 reset 1573159953
+
+## removals
+global remove ee64d3
 
 ## asic password
 asicpass admin
