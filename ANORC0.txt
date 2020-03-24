@@ -50,9 +50,9 @@ efd6b3 location ANORC00007
 3b0926 location ANORC00008
 ce82d1 location ANORC00009
 88093b location ANORC00010
-# extra machine added 3/23/20 # 20.9 Th/s
-194547 location ANORC0XTRA # 10.0.31.25 # 15.7 Th/s
-d471c4 location ANORC0XTRA # 10.0.50.134 # 5.2 Th/s
+# extra machine added 3/24/20 # 
+75f914 location ANORC0XTRA # 10.0.32.12 # 15.8 Th/s
+0de34a location ANORC0XTRA # 10.0.31.145 # 5.0 Th/s
 
 ## throttle
 # 3/17/20
@@ -245,6 +245,9 @@ f5e34e reset 1574894837
 07c674 reset 1574894837
 efd6b3 reset 1574894837
 ce82d1 reset 1573863025
+
+## removals
+global remove 194547,d471c4
 
 ## asic password
 asicpass admin
