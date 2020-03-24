@@ -71,7 +71,6 @@ d471c4 location JDRIG0XTRA # 10.0.50.134 # 5.2 Th/s
  
 ## throttle
 11bafe retune 1584477571
-1cb0b8 retune 1584477571
 cffb6d retune 1584477571
 e2fa14 retune 1584477571
 
@@ -96,7 +95,7 @@ cffb6d reset 1585021777
 e2fa14 reset 1585021777
 
 ## removals
-global remove f4e8ee
+global remove f4e8ee,1cb0b8
 
 ## asic password
 asicpass admin
