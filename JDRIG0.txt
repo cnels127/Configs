@@ -61,8 +61,10 @@ cffb6d location JDRIG00009
 e2fa14 location JDRIG00010
 # extra machines added 12/19/19
 2b6c79 location JDRIG0XTRA # 10.0.118.157
-f4e8ee location JDRIG0XTRA # 10.0.117.102
-1cb0b8 location JDRIG0XTRA # 10.0.118.36
+# extra machines added 3/23/20 # 36.6 Th/s
+194547 location JDRIG0XTRA # 10.0.31.25 # 15.7 Th/s
+e5323c location JDRIG0XTRA # 10.0.31.63 # 15.7 Th/s
+d471c4 location JDRIG0XTRA # 10.0.50.134 # 5.2 Th/s
 
 ## tuning
  
@@ -86,14 +88,12 @@ cffb6d reboot 1573497900 # 10.0.67.146 jdrig00009
 d55626 reboot 1573497900 # 10.0.67.156 jdrig00007
 
 ## resets
-9b787e reset 1578680163
-e2fa14 reset 1576972949
-9b787e reset 1574927658
-e2fa14 reset 1574927658
-cffb6d reset 1573790214
-cffb6d reset 1573501002
-11bafe reset 1573501002
-11bafe reset 1573168318
+11bafe reset 1585021777
+33b5df reset 1585021777
+93e110 reset 1585021777
+b3d12e reset 1585021777
+cffb6d reset 1585021777
+e2fa14 reset 1585021777
 
 ## removals
 global remove f4e8ee
