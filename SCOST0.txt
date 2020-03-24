@@ -73,7 +73,6 @@ cc8999 retune 1584454933
 
 ## reboots
 cee4db reboot 1583339378
-a4164a reboot 1583339378
 cc8999 reboot 1583339378
 753f7e reboot 1583339378
 7462ce reboot 1583339378
@@ -100,7 +99,7 @@ a43fe6 reset 1581033778
 6da085 reset 1581033778
 
 # s_remove generated on Dec 02 2019 17:01:18 utc: 1575306078
-global remove 9b4848,753f7e
+global remove 9b4848,753f7e,a4164a
 
 ## asic password
 asicpass admin
