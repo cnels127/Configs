@@ -45,6 +45,8 @@ vlan 10.0.66.110-110
 76e85b location NARMO00001
 8bdc72 location NARMO00002
 aa75d6 location NARMO00003
+# extra machine added 3/23/20
+0cfe82 location NARMO0XTRA # 10.0.65.133 # 15.5 Th/s
 
 ## throttle
 8bdc72 uncork 1584551975
