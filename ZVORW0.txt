@@ -69,9 +69,11 @@ ff488e location ZVORW0XTRA # 10.0.59.52
 ## fans
 
 ## reboots
-ff488e reboot 1584631904
-3884fb reboot 1584631904
-f726b1 reboot 1584631904
+# s_reboot generated on Mar 26 2020 19:45:39 utc: 1585251939
+c2ee95 reboot 1585251939 # 10.0.64.29 zvorw00003
+ff488e reboot 1585251939 # 10.0.59.52 zvorw0xtra
+3884fb reboot 1585251939 # 10.0.62.34 zvorw00001
+f726b1 reboot 1585251939 # 10.0.63.55 zvorw00002
 
 ## resets
 3884fb reset 1582553583
