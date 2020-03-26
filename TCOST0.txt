@@ -49,8 +49,9 @@ faba2f location TCOST00001
 ## fans
 
 ## reboots
-10992f reboot 1584574281
-faba2f reboot 1584574281
+# s_reboot generated on Mar 26 2020 19:41:11 utc: 1585251671
+3c6c89 reboot 1585251671 # 10.0.51.110 tcost0xtra
+faba2f reboot 1585251671 # 10.0.65.147 tcost00001
 
 ## resets
 faba2f reset 1578429754 # 10.0.65.147 tcost00001
