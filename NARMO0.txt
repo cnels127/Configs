@@ -54,11 +54,9 @@ aa75d6 location NARMO00003
 ## fans
 
 ## reboots
-
-3518c2 reboot 1574717999 # 10.0.116.49 narmo0xtra
-da7d9d reboot 1574717999 # 10.0.53.142 narmo0xtra
-76e85b reboot 1574717999 # 10.0.65.71 narmo00001
-aa75d6 reboot 1574717999 # 10.0.66.110 narmo00003
+# s_reboot generated on Mar 26 2020 19:29:55 utc: 1585250995
+76e85b reboot 1585250995 # 10.0.65.71 narmo00001
+8bdc72 reboot 1585250995 # 10.0.65.134 narmo00002
 
 ## resets
 0cfe82 reset 1585025333
