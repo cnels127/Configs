@@ -52,11 +52,11 @@ vlan 10.0.60.161-161
 
 9b0fa1 uncork 1581038329
 96ae02 uncork 1581038329
-
+96ae02 uncork 1585238550 # 10.0.60.129 mwage00002
 ## fans
 
 ## reboots
-
+96ae02 reboot 1585238528 # 10.0.60.129 mwage00002
 ## resets
 6364b7 reset 1578096854
 
