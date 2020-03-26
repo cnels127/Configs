@@ -1,0 +1,77 @@
+## instructions available at: https://asicseer.com/page/kb#writing-config
+
+global custompanel HOLD05bit049
+global customer bit49-Russia
+
+global poolname1 profit.pool.bitcoin.com:3333
+global username1 bit49xHOLD05
+global poolpass1 123
+global sendworker1 yes
+global poolname2 eu.ss.btc.com:1800
+global username2 bit49euro
+global poolpass2 123
+global sendworker2 yes
+global poolname3 ru-west.stratum.slushpool.com:3333
+global username3 bit49
+global poolpass3 123
+global sendworker3 yes
+
+global asicboost yes
+global autotune yes
+global maxwatts 1450
+global autoupdate yes
+global allowed yes
+global maxtemp 90 1
+global throttle 25
+global fanspeed 85
+global fansaver yes
+global blinkred idle
+global blinkgreen rapid
+global panelclear 999
+# global panelpass gj83Nkgikg
+
+# global retune 1
+# global reboot 1
+# global uncork 1
+# global reset 1
+
+## THALL0 (25 s9)
+vlan 10.0.32.21-45
+
+## locations
+ee2241 location THALL00001
+82a2a7 location THALL00002
+138707 location THALL00003
+9c07f5 location THALL00004
+95c8d4 location THALL00005
+b28347 location THALL00006
+2f1687 location THALL00007
+f76afb location THALL00008
+c705d1 location THALL00009
+386253 location THALL00010
+3bb8ac location THALL00011
+85ba2c location THALL00012
+c58079 location THALL00013
+3eebad location THALL00014
+349aad location THALL00015
+3ca507 location THALL00016
+830c66 location THALL00017
+c191c4 location THALL00018
+b62e9a location THALL00019
+1d29a7 location THALL00020
+a966ea location THALL00021
+845f77 location THALL00022
+f0c13e location THALL00023
+a9f19e location THALL00024
+255a6b location THALL00025
+
+## tuning
+
+## throttle
+
+## reset
+
+## reboot
+
+## asic password
+asicpass admin
