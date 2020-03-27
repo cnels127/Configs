@@ -51,9 +51,9 @@ d2fc8a location SNEVI00005
 006c9e location SNEVI0XTRA # 10.0.118.52
 
 ## throttle
-d2fc8a reboot 158532623
-b7e4cf reboot 158532623
-42ac6f reboot 158532623
+d2fc8a uncork 158532623
+b7e4cf uncork 158532623
+42ac6f uncork 158532623
 
 ## fans
 
