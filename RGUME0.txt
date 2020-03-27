@@ -54,15 +54,13 @@ c27ee4 location RGUME00003
 78575d location RGUME0XTRA # 10.0.116.93
 
 ## throttle
-b2e414 uncork 1584569412
+27b5a1 uncork 1585325661
 
 ## fans
 
 ## reboots
-# s_reboot generated on Mar 26 2020 19:36:26 utc: 1585251386
-78575d reboot 1585251386 # 10.0.116.93 rgume0xtra
-27b5a1 reboot 1585251386 # 10.0.53.12 rgume0xtra
-df79d4 reboot 1585251386 # 10.0.32.62 rgume00002
+df79d4 reboot 1585325661
+78575d reboot 1585325661
 
 ## resets
 df79d4 reset 1574963340
