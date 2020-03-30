@@ -53,8 +53,6 @@ global uncork 1574720425
 vlan 10.0.62.34-34
 vlan 10.0.63.55-55
 vlan 10.0.64.29-29
-# extra machine added 2020-03-16. Replaced the extra machine added 2019-12-19
-vlan 10.0.59.52-52
 
 ## locations
 3884fb location ZVORW00001
@@ -62,6 +60,8 @@ f726b1 location ZVORW00002
 c2ee95 location ZVORW00003
 # extra machine added 2020-03-16. Replaced the extra machine added 2019-12-19
 ff488e location ZVORW0XTRA # 10.0.59.52
+# extra machine added 3/30/20
+b1aa6a location ZVORW0XTRA # 10.0.115.142 # 9.0 Th/s
 
 ## throttle
 3884fb uncork 1585326763
