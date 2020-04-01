@@ -1,5 +1,5 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
-## TOTAL EXP HASHRATE 10 @ 16 Th/s = 160 Th/s
+## 10 s9s TURNED OVER TO HOLD06 4/1/20
 
 global custompanel MSHID0bit049
 global customer bit49-Russia
@@ -37,58 +37,18 @@ global panelclear 999
 global reset 1574927240
 
 ## vlans
-vlan 10.0.57.128-128
-vlan 10.0.57.144-145
-vlan 10.0.57.147-149
-vlan 10.0.57.151-151
-vlan 10.0.57.156-156
-vlan 10.0.58.2-2
-vlan 10.0.58.6-6
-vlan 10.0.58.9-9
-vlan 10.0.58.13-13
-vlan 10.0.58.20-20
-vlan 10.0.58.24-24
 
 ## locations
-7f85b2 location MSHID00001
-7bbb90 location MSHID00002
-46bae8 location MSHID00003
-117c61 location MSHID00004
-9d84e2 location MSHID00005
-96d39b location MSHID00006
-c842f9 location MSHID00007
-304296 location MSHID00008
-0e1ddf location MSHID00009
-80596d location MSHID00010
-749409 location MSHID00011
-7f889a location MSHID00012
-6a9f03 location MSHID00013
-bccae7 location MSHID00014
-# extra machines added 12/19/19
-2e02d9 location MSHID0XTRA # 10.0.65.151
-f85611 location MSHID0XTRA # 10.0.66.39
-b004dc location MSHID0XTRA # 10.0.54.13
 
 ## throttle
-f85611 uncork 1585347933
 
 ## fans
 
 ## reboots
-749409 reboot 1585347933
-bccae7 reboot 1585347933
 
 ## resets
-bccae7 uncork 1585260236
-b004dc uncork 1585260236
-f85611 uncork 1585260236
-7bbb90 uncork 1585260236
-80596d uncork 1585260236
 
 ## retunes
-b004dc retune 1582747918
-7bbb90 retune 1582747918
-80596d retune 1582747918
 
 ## asic password
 asicpass admin
