@@ -1,5 +1,5 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
-## TOTAL EXP HASHRATE 1 s9 @ 16 Th/s = 16 Th/s
+## 1 s9 moved to HOLD09 due to non-payment
 
 global custompanel MFASE0bit049
 global customer bit49-Russia
@@ -37,28 +37,16 @@ global panelclear 999
 # global reset 1
 
 ## vlans
-vlan 10.0.66.56-56
-vlan 10.0.54.1-1 # extra machine added 11/28/19
 
 ## locations
-ede705 location MFASE00001
-70adc2 location MFASE0XTRA # extra machine added 11/28/19
-af78ba location MFASE0XTRA # 10.0.120.40 extra machine added 12/26/19
 
 ## throttle
-ede705 uncork 1585323783
 
 ## fans
 
 ## reboots
-70adc2 reboot 1578338522 # 10.0.54.1 mfase0xtra
-ede705 reboot 1578338522 # 10.0.66.56 mfase00001
-# s_reboot generated on Nov 11 2019 18:58:58 utc: 1573498738
-ede705 reboot 1573498738 # 10.0.66.56 mfase00001
 
 ## resets
-ede705 reset 1575933607
-ede705 reset 1573159405
 
 ## asic password
 asicpass admin
