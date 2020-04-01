@@ -1,5 +1,5 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
-## TOTAL EXP HASHRATE 4 s9 @ 14.4 Th/s = 57.6 Th/s
+## 4 s9s to HOLD08 due to non-payment
 
 global custompanel SINAG0bit049
 global customer bit49-Russia
@@ -37,50 +37,16 @@ global panelclear 999
 # global reset 1
 
 ## vlans
-vlan 10.0.65.28-28
-vlan 10.0.65.56-56
-vlan 10.0.65.130-130
-vlan 10.0.65.146-146
 
 ## locations
-7bfb2c location SINAG00001
-f60318 location SINAG00002
-db9779 location SINAG00003
-d3a31d location SINAG00004
-# extra machine added 12/6/19
-9a8142 location SINAG0XTRA # 10.0.54.29
 
 ## throttle
-# 3/23/20
-7bfb2c uncork 1585009027
-d3a31d uncork 1585009027
-
-9a8142 uncork 1580839631
-7bfb2c uncork 1580839631
-d3a31d uncork 1580839631
-db9779 uncork 1575318040 # 10.0.65.130 sinag00003
 
 ## fans
 
 ## reboots
-db9779 reboot 1575318040 # 10.0.65.130 sinag00003
-7bfb2c reboot 1585238323 # 10.0.65.28 sinag00001
-db9779 reboot 1585238323 # 10.0.65.130 sinag00003
 
 ## resets
-# 3/26/20
-7bfb2c reset 1585257287
-
-db9779 reset 1585082657
-db9779 reset 1575933266
-db9779 reset 1574964144
-7bfb2c reset 1574964144
-d3a31d reset 1574964144
-db9779 reset 1573938296
 
 ## asic password
 asicpass admin
-
-
-
-
