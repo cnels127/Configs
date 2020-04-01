@@ -1,5 +1,5 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
-## TOTAL EXP HASHRATE 10 s9 @ 14.4 Th/s = 144 Th/s
+## 10 s9 to HOLD07 due to non-payment
 
 global custompanel NPAVL0bit049
 global customer bit49-Russia
@@ -37,65 +37,18 @@ global panelclear 999
 global reset 1574929441
 
 ## vlans
-vlan 10.0.57.130-133
-vlan 10.0.57.135-137
-vlan 10.0.57.139-141
 
 ## locations
-821721 location NPAVL00001
-3cfe14 location NPAVL00002
-370d4b location NPAVL00003
-11a5c9 location NPAVL00004
-f0c17e location NPAVL00005
-d42111 location NPAVL00006
-a95ab0 location NPAVL00007
-fff476 location NPAVL00008
-41e2b7 location NPAVL00009
-570241 location NPAVL00010
-# extra machines added 12/6/19
-09cad2 location NPAVL0XTRA # 10.0.55.5
-4c349f location NPAVL0XTRA # 10.0.115.15
-50c56b location NPAVL0XTRA # 10.0.63.3
-# extra machines added 3/9/20 # 37.6 Th/s
-2cf166 location NPAVL0XTRA # 10.0.55.77 # 13 Th/s
-cf61df location NPAVL0XTRA # 10.0.55.28 # 12.7 Th/s
-be8e6c location NPAVL0XTRA # 10.0.32.17 # 11.9 Th/s
 
 ## throttle
-570241 uncork 1585324126
-50c56b uncork 1585324126
-2cf166 uncork 1585324126
-821721 uncork 1585324126
-d42111 uncork 1585324126
 
 ## fans
 
 ## reboots
-# s_reboot generated on Mar 26 2020 19:30:52 utc: 1585251052
-370d4b reboot 1585251052 # 10.0.57.132 npavl00003
-2cf166 reboot 1585251052 # 10.0.55.77 npavl0xtra
-09cad2 reboot 1585251052 # 10.0.55.5 npavl0xtra
-50c56b reboot 1585251052 # 10.0.63.3 npavl0xtra
-4c349f reboot 1585251052 # 10.0.115.15 npavl0xtra
-be8e6c reboot 1585251052 # 10.0.32.17 npavl0xtra
-821721 reboot 1585251052 # 10.0.57.130 npavl00001
-d42111 reboot 1585251052 # 10.0.57.136 npavl00006
-a95ab0 reboot 1585251052 # 10.0.57.137 npavl00007
-fff476 reboot 1585251052 # 10.0.57.139 npavl00008
-570241 reboot 1585251052 # 10.0.57.141 npavl00010
 
 ## resets
-570241 reset 1578598806 # 10.0.57.141 npavl00010
-3cfe14 reset 1578598806 # 10.0.57.131 npavl00002
-a95ab0 reset 1578598806 # 10.0.57.137 npavl00007
-41e2b7 reset 1578598806 # 10.0.57.140 npavl00009
-821721 reset 1577471957
-d42111 reset 1576033947
-a95ab0 reset 1576033180
-a95ab0 reset 1573153456
 
 ## removals
-global remove 65c972
 
 ## asic password
 asicpass admin
