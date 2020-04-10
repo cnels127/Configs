@@ -1,5 +1,6 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
-## 1 s9 moved to HOLD09 due to non-payment
+## 1 s9 @ 16 Th/s
+## was on HOLD09 due to non-payment 4/1/20 20:35 UTC to 4/10/20 16:20
 
 global custompanel MFASE0bit049
 global customer bit49-Russia
@@ -37,8 +38,12 @@ global panelclear 999
 # global reset 1
 
 ## vlans
+vlan 10.0.66.56-56
+vlan 10.0.118.36-36 # 1cb0b8
 
 ## locations
+ede705 location MFASE00001
+1cb0b8 location MFASE0XTRA # 10.0.118.36 # 5.4 Th/s
 
 ## throttle
 
