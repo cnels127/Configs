@@ -573,7 +573,7 @@ ad914a location NBELL0XTRA # 10.0.121.7
 629744 location NBELL0XTRA # 10.0.121.18
 c7156e location NBELL0XTRA # 10.0.121.20
 d7cd4b location NBELL0XTRA # 10.0.121.22
-# e82075 location NBELL0XTRA # 10.0.121.25 # POWERED OFF
+
 # 60 T17
 df8681 location 87x21 # 10.3.87.21
 be76a0 location 87x22 # 10.3.87.22
@@ -635,10 +635,6 @@ e73da4 location 87x114 # 10.3.87.114
 b04ec4 location 87x115 # 10.3.87.115
 6e9b6f location 87x116 # 10.3.87.116
 177881 location 88x61 # 10.3.88.61
-
-## removed
-global remove e82075
-global remove 636e64
 
 ## throttle
 18ae66 uncork 1585260236
@@ -769,11 +765,6 @@ d3f312 reset 1585083866
 
 # 3/20/20
 8395a9 reset 1584724359
-
-# 2/20/20
-e82075 reset 1582221631
-
-e82075 reset 1581956855
 49f3a7 reset 1581715563
 3b94ed reset 1581715385
 fa790a reset 1580928907
@@ -850,6 +841,10 @@ e4f4da retune 1581621097
 b9e56a retune 1581621097
 5e91db retune 1581621097
 9c462c retune 1581621097
+
+## removed
+global remove e82075
+global remove 636e64
 
 ## asic password
 asicpass admin
