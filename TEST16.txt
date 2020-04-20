@@ -35,6 +35,28 @@ global panelclear 999
 # global uncork 1574977288
 global reset 1580151563
 
+## JBETH 10 s9s
+vlan 10.0.60.18-18
+vlan 10.0.60.100-100
+vlan 10.0.60.131-131
+vlan 10.0.117.53-53
+vlan 10.0.117.54-54
+vlan 10.0.77.155-155
+vlan 10.0.77.161-161
+vlan 10.0.53.36-36
+vlan 10.0.53.37-37
+vlan 10.0.53.38-38
+f9164a location JBETH00001 # 10.0.60.18
+aba209 location JBETH00002 # 10.0.60.100
+f0ed76 location JBETH00003 # 10.0.60.131
+966dd1 location JBETH00004 # 10.0.117.53
+37ffb3 location JBETH00005 # 10.0.117.54
+2c969d location JBETH00006 # 10.0.77.155
+690f5d location JBETH00007 # 10.0.77.161
+39be0c location JBETH00008 # 10.0.53.36
+e67e88 location JBETH00009 # 10.0.53.37
+6c73b3 location JBETH00010 # 10.0.53.38
+
 ## TIMAT0 23/26+extras s9s
 # vlan 10.0.68.69-91
 # extra machines added 12/9/19
