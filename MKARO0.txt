@@ -1,5 +1,6 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
-## TOTAL EXP HASHRATE 25 s9 @ 14.4 Th/s = 360 Th/s
+## TOTAL EXP HASHRATE 19 s9 @ 14.4 Th/s = 273.6 Th/s
+## 6 s9s decommissioned 4/20/20
 
 global custompanel MKARO0bit049
 global customer bit49-Russia
@@ -38,34 +39,34 @@ global uncork 1574926979
 
 ## vlans
 vlan 10.0.63.89-89
-vlan 10.0.66.25-25
+# vlan 10.0.66.25-25 # SCRAPPED 4/20/20
 vlan 10.0.66.38-38
 vlan 10.0.66.46-46
 vlan 10.0.66.61-61
 vlan 10.0.66.83-83
 vlan 10.0.66.89-89
 vlan 10.0.66.94-94
-vlan 10.0.66.133-133
 vlan 10.0.66.134-134
-vlan 10.0.66.150-150
+# vlan 10.0.66.135-135 # SCRAPPED 4/20/20
+vlan 10.0.66.151-151
 vlan 10.0.67.1-1
 vlan 10.0.67.22-22
 vlan 10.0.67.27-27
 vlan 10.0.67.77-77
 vlan 10.0.67.103-103
-vlan 10.0.67.106-106
+# vlan 10.0.67.106-106 # SCRAPPED 4/20/20
 vlan 10.0.67.112-112
 vlan 10.0.67.113-113
 vlan 10.0.67.120-120
-vlan 10.0.226.79-79
-vlan 10.0.228.115-115
-vlan 10.0.228.118-118
-vlan 10.0.228.133-133
-vlan 10.0.229.195-195
+vlan 10.0.115.64-64
+# vlan 10.0.116.67-67 # SCRAPPED 4/20/20
+# vlan 10.0.116.126-126 # SCRAPPED 4/20/20
+# vlan 10.0.119.110-110 # SCRAPPED 4/20/20
+vlan 10.0.121.121-121
 
 ## locations
 742bc7 location MKARO00001
-754d9b location MKARO00002
+# 754d9b location MKARO00002 # SCRAPPED 4/20/20
 fc1a3a location MKARO00003
 324b65 location MKARO00004
 f2d5d3 location MKARO00005
@@ -73,205 +74,52 @@ f2d5d3 location MKARO00005
 55ac26 location MKARO00007
 f15e5f location MKARO00008
 5f3948 location MKARO00009
-7f2285 location MKARO00010
+# 7f2285 location MKARO00010 # SCRAPPED 4/20/20
 409c17 location MKARO00011
 a1a798 location MKARO00012
 76d9af location MKARO00013
 9851d4 location MKARO00014
 2bd4e7 location MKARO00015
 c14399 location MKARO00016
-cd859b location MKARO00017
+# cd859b location MKARO00017 # SCRAPPED 4/20/20
 5ee162 location MKARO00018
 eb4720 location MKARO00019
 6dbea7 location MKARO00020
 f2e682 location MKARO00021
-32b6d0 location MKARO00022
+# 32b6d0 location MKARO00022 # SCRAPPED 4/20/20
 6955e8 location MKARO00023
-a53423 location MKARO00024
-000122 location MKARO00025
+# a53423 location MKARO00024 # SCRAPPED 4/20/20
+# 000122 location MKARO00025 # SCRAPPED 4/20/20
 # extra machines added 12/6/19
 dc4996 location MARKO0XTRA # 10.0.120.33
-081fad location MARKO0XTRA # 10.0.54.12
-8ce706 location MARKO0XTRA # 10.0.54.14
 e94ba6 location MARKO0XTRA # 10.0.54.17
-0884bf location MARKO0XTRA # 10.0.54.21
-6c3de0 location MARKO0XTRA # 10.0.54.25
 # extra machines added 3/9/20 # 23 Th/s
-4f615d location MKARO0XTRA # 10.0.55.59 # 11.7 Th/s
 cdcba9 location MKARO0XTRA # 10.0.50.1 # 11.3 Th/s
 
-
 ## throttle
-# 3/26/20
-f2d5d3 uncork 1585252166
-742bc7 uncork 1585252166
-# 3/25/20
-0884bf uncork 1585160357
-081fad uncork 1585160357
-e94ba6 uncork 1585160357
-76d9af uncork 1585160357
-9851d4 uncork 1585160357
-2bd4e7 uncork 1585160357
-c14399 uncork 1585160357
-cd859b uncork 1585160357
-# 3/23/20
-fc1a3a uncork 1585004657
-55ac26 uncork 1585004657
-f15e5f uncork 1585004657
-76d9af uncork 1585004657
-9851d4 uncork 1585004657
-eb4720 uncork 1585004657
-081fad uncork 1585004657
-742bc7 uncork 1585004657
-cd859b uncork 1585004657
-# 3/17/20
-754d9b uncork 1584480056
-# 3/16/20
-6c3de0 uncork 1584380575
-# 3/14/20
-6c3de0 uncork 1584250593
-# 3/12/20
-fc1a3a uncork 1584040778
-a1a798 uncork 1584040778
-# 3/10/20
-4f615d uncork 1583857291
-cdcba9 uncork 1583857291
-fc1a3a uncork 1583857291
-a1a798 uncork 1583857291
-
-a1a798 uncork 1581709836
-000122 uncork 1581709836
-8ce706 uncork 1581709836
-85ae8d uncork 1581354590
-000122 uncork 1581122617
-754d9b uncork 1581113545
-0884bf uncork 1580422962
-fc1a3a uncork 1580422962
-dc4996 uncork 1580422962
-fc1a3a uncork 1580422962
-15319a uncork 1580422962
-409c17 uncork 1580422962
-76d9af uncork 1580422962
-9851d4 uncork 1580422962
-000122 uncork 1580422962
-081fad uncork 1580422962
-742bc7 uncork 1580422962
-324b65 uncork 1580422962
-081fad uncork 1578683017 # 10.0.54.12 marko0xtra
-a1a798 uncork 1578683017 # 10.0.67.1 mkaro00012
-76d9af uncork 1578683017 # 10.0.67.22 mkaro00013
-15319a uncork 1578683017 # 10.0.66.83 mkaro00006
-fc1a3a uncork 1578683017 # 10.0.66.38 mkaro00003
-55ac26 uncork 1578683017 # 10.0.66.89 mkaro00007
-dc4996 uncork 1578683017 # 10.0.120.33 marko0xtra
-0884bf uncork 1577823577 # 10.0.54.21 marko0xtra
-dc4996 uncork 1577823577 # 10.0.120.33 marko0xtra
-fc1a3a uncork 1577823577 # 10.0.66.38 mkaro00003
-15319a uncork 1577823577 # 10.0.66.83 mkaro00006
-55ac26 uncork 1577823577 # 10.0.66.89 mkaro00007
-a1a798 uncork 1577823577 # 10.0.67.1 mkaro00012
-76d9af uncork 1577823577 # 10.0.67.22 mkaro00013
-9851d4 uncork 1577823577 # 10.0.67.27 mkaro00014
-6955e8 uncork 1577823577 # 10.0.115.64 mkaro00023
-000122 uncork 1577823577 # 10.0.116.126 mkaro00025
-
-7f2285 uncork 1575314289 # 10.0.66.135 mkaro00010
-a1a798 uncork 1575314289 # 10.0.67.1 mkaro00012
-9851d4 uncork 1575314289 # 10.0.67.27 mkaro00014
 
 ## fans
 
 ## reboots
-e94ba6 reboot 1578682862 # 10.0.54.17 marko0xtra
-8ce706 reboot 1578682862 # 10.0.54.14 marko0xtra
-000122 reboot 1578682862 # 10.0.116.126 mkaro00025
-5ee162 reboot 1578682862 # 10.0.67.112 mkaro00018
-cd859b reboot 1578682862 # 10.0.67.106 mkaro00017
-409c17 reboot 1578682862 # 10.0.66.151 mkaro00011
-754d9b reboot 1578682862 # 10.0.66.25 mkaro00002
-7f2285 reboot 1578682862 # 10.0.66.135 mkaro00010
-324b65 reboot 1578682862 # 10.0.66.46 mkaro00004
-742bc7 reboot 1578682862 # 10.0.63.89 mkaro00001
-f2e682 reboot 1578682862 # 10.0.121.121 mkaro00021
-a53423 reboot 1578682862 # 10.0.119.110 mkaro00024
-7f2285 reboot 1577823518 # 10.0.66.135 mkaro00010
-081fad reboot 1577823518 # 10.0.54.12 marko0xtra
-8ce706 reboot 1577823518 # 10.0.54.14 marko0xtra
-742bc7 reboot 1577823518 # 10.0.63.89 mkaro00001
-324b65 reboot 1577823518 # 10.0.66.46 mkaro00004
-cd859b reboot 1577823518 # 10.0.67.106 mkaro00017
-5ee162 reboot 1577823518 # 10.0.67.112 mkaro00018
-f2e682 reboot 1577823518 # 10.0.121.121 mkaro00021
-a53423 reboot 1577823518 # 10.0.119.110 mkaro00024
-
-7f2285 reboot 1575314289 # 10.0.66.135 mkaro00010
-a1a798 reboot 1575314289 # 10.0.67.1 mkaro00012
-9851d4 reboot 1575314289 # 10.0.67.27 mkaro00014
-32b6d0 reboot 1585238622 # 10.0.116.67 mkaro00022
-7f2285 reboot 1585238622 # 10.0.66.135 mkaro00010
-000122 reboot 1585238622 # 10.0.116.126 mkaro00025
-f2d5d3 reboot 1585238622 # 10.0.66.61 mkaro00005
-8ce706 reboot 1585238622 # 10.0.54.14 marko0xtra
-dc4996 reboot 1585238622 # 10.0.120.33 marko0xtra
-4f615d reboot 1585238622 # 10.0.55.59 mkaro0xtra
-6c3de0 reboot 1585238622 # 10.0.54.25 marko0xtra
-f2e682 reboot 1585238622 # 10.0.121.121 mkaro00021
-a53423 reboot 1585238622 # 10.0.119.110 mkaro00024
-0884bf reboot 1585238622 # 10.0.54.21 marko0xtra
-742bc7 reboot 1585238622 # 10.0.63.89 mkaro00001
-081fad reboot 1585238622 # 10.0.54.12 marko0xtra
-cdcba9 reboot 1585238622 # 10.0.50.1 mkaro0xtra
-754d9b reboot 1585238622 # 10.0.66.25 mkaro00002
-324b65 reboot 1585238622 # 10.0.66.46 mkaro00004
-2bd4e7 reboot 1585238622 # 10.0.67.77 mkaro00015
-c14399 reboot 1585238622 # 10.0.67.103 mkaro00016
-cd859b reboot 1585238622 # 10.0.67.106 mkaro00017
-5ee162 reboot 1585238622 # 10.0.67.112 mkaro00018
 
 ## resets
-# 3/23/20
-a1a798 reset 1584982120
-# 3/19/20
-7f2285 reset 1584657119
-32b6d0 reset 1584657119
-000122 reset 1584657119
-# 3/5/20
-a53423 reset 1583459275
-7f2285 reset 1583458630
-# 2/19/20
-a1a798 reset 1582143926
-# 2/17/20
-2bd4e7 reset 1581978867
-
-000122 reset 1581124118
-15319a reset 1581113545
-fc1a3a reset 1581041275
-7f2285 reset 1581035773
-15319a reset 1581035773
-cd859b reset 1581035773
-6dbea7 reset 1581035773
-a1a798 reset 1580422962
-cd859b reset 1580422962
-081fad reset 1576973204
-15319a reset 1574928775
-409c17 reset 1574928775
-a53423 reset 1574928775
-f15e5f reset 1574928775
-5f3948 reset 1574928775
-eb4720 reset 1574928775
-2bd4e7 reset 1574928775
-9851d4 reset 1574928775
-a1a798 reset 1574928775
-f2d5d3 reset 1574928775
-55ac26 reset 1574928775
-324b65 reset 1574928775
-32b6d0 reset 1574928775
 
 ## retunes
 dc4996 retune 1586842377
 
 # s_remove generated on Dec 13 2019 21:04:45 utc: 1576271085
 global remove c5778c
+global remove 6c3de0
+global remove 0884bf
+global remove 8ce706
+global remove 081fad
+global remove 4f615d
+global remove 754d9b
+global remove 7f2285
+global remove cd859b
+global remove 32b6d0
+global remove 000122
+global remove a53423
 
 ## asic password
 asicpass admin
