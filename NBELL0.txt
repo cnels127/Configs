@@ -1,7 +1,7 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
-## 60 T17 @ 40 Th/s =   2,400 Th/s
-## 55 s9 consolidated 4/15/20
-## 152 s9 @ 14.4 Th/s = 2,188.8 Th/s
+## 207 s9s purchased 
+## 57 s9 consolidated 4/15/20
+## 150 s9 @ 14.4 Th/s = 2,160 Th/s
 
 global custompanel NBELL0bit049
 global customer bit49-Russia
@@ -39,431 +39,308 @@ global uncork 1574929337
 # global reset 1
 
 ## vlans
-# vlan 10.0.58.75-75
-# vlan 10.0.58.139-139
-# vlan 10.0.59.2-2
-# vlan 10.0.59.3-3
-# vlan 10.0.59.4-4
-# vlan 10.0.59.7-7
-# vlan 10.0.59.8-8
-# vlan 10.0.59.9-9
-# vlan 10.0.59.13-13
-# vlan 10.0.59.14-14
-# vlan 10.0.59.15-15
-# vlan 10.0.59.17-17
-# vlan 10.0.59.19-19
-# vlan 10.0.59.21-21
-# vlan 10.0.59.22-22
-# vlan 10.0.59.23-23
-# vlan 10.0.59.24-24
-# vlan 10.0.59.25-25
-# vlan 10.0.59.26-26
-# vlan 10.0.59.27-27
-# vlan 10.0.59.28-28
-# vlan 10.0.59.29-29
-# vlan 10.0.59.30-30
-# vlan 10.0.59.31-31
-# vlan 10.0.59.32-32
-# vlan 10.0.59.33-33
-# vlan 10.0.59.35-35
-# vlan 10.0.59.71-71
-# vlan 10.0.59.124-124
-# vlan 10.0.60.25-25
-# vlan 10.0.60.52-52
-# vlan 10.0.61.24-24
-# vlan 10.0.61.108-108
-# vlan 10.0.61.158-158
-# vlan 10.0.62.33-33
-# vlan 10.0.63.29-29
-# vlan 10.0.64.44-44
-# vlan 10.0.64.46-46
-# vlan 10.0.65.67-67
-# vlan 10.0.65.72-72
-# vlan 10.0.65.82-82
-# vlan 10.0.65.91-91
-# vlan 10.0.65.92-92
-# vlan 10.0.65.96-96
-# vlan 10.0.65.108-108
-# vlan 10.0.65.121-121
-# vlan 10.0.65.126-126
-# vlan 10.0.65.135-135
-# vlan 10.0.65.136-136
-# vlan 10.0.65.138-138
-# vlan 10.0.226.93-93
-# vlan 10.0.226.105-105
-# vlan 10.0.229.14-14
-# vlan 10.0.229.99-99
-# vlan 10.0.229.107-107
-# vlan 10.0.51.57-57
-# vlan 10.0.51.60-60
-# vlan 10.0.51.67-67
-# vlan 10.0.51.72-72
-# vlan 10.0.51.75-75
-# vlan 10.0.51.78-78
-# vlan 10.0.51.83-83
-# vlan 10.0.51.89-89
-# vlan 10.0.51.95-95
-# vlan 10.0.51.103-103
-# vlan 10.0.51.104-104
-# vlan 10.0.51.108-108
-# vlan 10.0.51.109-109
-# vlan 10.0.51.119-119
-# vlan 10.0.51.121-121
-# vlan 10.0.51.122-122
-# vlan 10.0.51.123-123
-# vlan 10.0.51.126-126
-# vlan 10.0.51.135-135
-# vlan 10.0.53.3-3
-# vlan 10.0.53.6-6
-# vlan 10.0.53.17-17
-# vlan 10.0.53.23-23
-# vlan 10.0.53.28-28
-# vlan 10.0.77.14-14
-# vlan 10.0.77.15-15
-# vlan 10.0.77.17-17
-# vlan 10.0.77.19-19
-# vlan 10.0.77.20-20
-# vlan 10.0.77.21-21
-# vlan 10.0.77.24-24
-# vlan 10.0.77.39-39
-# vlan 10.0.77.42-42
-# vlan 10.0.77.45-45
-# vlan 10.0.77.46-46
-# vlan 10.0.77.47-47
-# vlan 10.0.77.52-52
-# vlan 10.0.77.55-55
-# vlan 10.0.77.56-56
-# vlan 10.0.77.59-59
-# vlan 10.0.77.60-60
-# vlan 10.0.77.63-63
-# vlan 10.0.77.74-74
-# vlan 10.0.77.75-75
-# vlan 10.0.77.77-77
-# vlan 10.0.77.79-79
-# vlan 10.0.77.82-82
-# vlan 10.0.77.84-84
-# vlan 10.0.77.89-89
-# vlan 10.0.77.90-90
-# vlan 10.0.77.92-92
-# vlan 10.0.77.100-100
-# vlan 10.0.77.102-102
-# vlan 10.0.77.103-103
-# vlan 10.0.77.114-114
-# vlan 10.0.77.115-115
-# vlan 10.0.77.121-121
-# vlan 10.0.77.126-126
-# vlan 10.0.77.133-133
-# vlan 10.0.77.137-137
-# vlan 10.0.77.143-143
-# vlan 10.0.77.145-145
-# vlan 10.0.77.146-146
-# vlan 10.0.77.150-150
-# vlan 10.0.77.153-153
-# vlan 10.0.77.158-158
-# vlan 10.0.220.1-1
-# vlan 10.0.221.129-129
-# vlan 10.0.221.134-134
-# vlan 10.0.226.121-121
-# vlan 10.0.226.133-133
-# vlan 10.0.226.138-138
-# vlan 10.0.226.139-139
-# vlan 10.0.226.142-142
-# vlan 10.0.226.143-143
-# vlan 10.0.226.147-147
-# vlan 10.0.226.148-148
-# vlan 10.0.226.150-150
-# vlan 10.0.226.153-153
-# vlan 10.0.226.156-156
-# vlan 10.0.226.159-159
-# vlan 10.0.227.4-4
-# vlan 10.0.227.5-5
-# vlan 10.0.227.30-30
-# vlan 10.0.227.31-31
-# vlan 10.0.227.33-33
-# vlan 10.0.227.37-37
-# vlan 10.0.227.38-38
-# vlan 10.0.227.39-39
-# vlan 10.0.227.40-40
-# vlan 10.0.227.73-73
-# vlan 10.0.227.74-74
-# vlan 10.0.227.75-75
-# vlan 10.0.227.108-108
-# vlan 10.0.227.110-110
-# vlan 10.0.227.143-143
-# vlan 10.0.227.144-144
-# vlan 10.0.228.39-39
-# vlan 10.0.228.42-42
-# vlan 10.0.228.78-78
-# vlan 10.0.228.88-88
-# vlan 10.0.228.91-91
-# vlan 10.0.228.96-96
-# vlan 10.0.228.97-97
-# vlan 10.0.228.100-100
-# vlan 10.0.228.106-106
-# vlan 10.0.228.107-107
-# vlan 10.0.228.112-112
-# vlan 10.0.228.113-113
-# vlan 10.0.228.114-114
-# vlan 10.0.228.120-120
-# vlan 10.0.228.122-122
-# vlan 10.0.228.129-129
-# vlan 10.0.228.132-132
-# vlan 10.0.228.134-134
-# vlan 10.0.228.139-139
-# vlan 10.0.228.141-141
-# vlan 10.0.228.143-143
-# vlan 10.0.228.144-144
-# vlan 10.0.228.147-147
-# vlan 10.0.228.154-154
-# vlan 10.0.228.162-162
-# vlan 10.0.228.166-166
-# vlan 10.0.228.169-169
-# vlan 10.0.228.171-171
-# vlan 10.0.228.177-177
-# vlan 10.0.228.178-178
-# vlan 10.0.228.187-187
-# vlan 10.0.228.193-193
-# vlan 10.0.228.194-194
-# vlan 10.0.228.197-197
-# vlan 10.0.229.2-2
-# vlan 10.0.229.15-15
-# vlan 10.0.229.19-19
-# vlan 10.0.229.22-22
-# vlan 10.0.229.54-54
-# vlan 10.0.229.57-57
-# vlan 10.0.229.59-59
-# vlan 10.0.229.71-71
-# vlan 10.0.229.72-72
-# vlan 10.0.229.86-86
-# vlan 10.0.229.92-92
-# vlan 10.0.229.100-100
-# vlan 10.0.229.112-112
-# vlan 10.0.229.114-114
-# vlan 10.0.229.133-133
-# vlan 10.0.229.139-139
-# vlan 10.0.229.140-140
-# vlan 10.0.229.142-142
-# vlan 10.0.229.144-144
-# vlan 10.0.229.151-151
-# vlan 10.0.229.172-172
-# vlan 10.0.116.159-159
-# vlan 10.0.115.120-120
-# vlan 10.0.115.138-138
-# vlan 10.0.115.154-154
-# vlan 10.0.115.156-156
-# vlan 10.0.116.112-112
-# vlan 10.0.116.129-129
-# vlan 10.0.116.144-144
-# vlan 10.0.116.147-147
+vlan 10.0.51.57-57 # f53f62
+vlan 10.0.51.72-72 # 78f63b
+vlan 10.0.51.75-75 # df4406
+vlan 10.0.51.78-78 # e3b4ed
+vlan 10.0.51.95-95 # 39d807
+vlan 10.0.51.104-104 # 219af2
+vlan 10.0.51.108-108 # e31f5f
+vlan 10.0.51.119-119 # 89c9cf
+vlan 10.0.51.121-121 # 18ae66
+vlan 10.0.51.122-122 # 58b603
+vlan 10.0.51.123-123 # 5acbb3
+vlan 10.0.51.126-126 # d3f312
+vlan 10.0.51.135-135 # 7a732f
+vlan 10.0.53.3-3 # 34d6a2
+vlan 10.0.53.6-6 # 334b70
+vlan 10.0.53.17-17 # 955d85
+vlan 10.0.53.23-23 # c27c44
+vlan 10.0.53.28-28 # 091081
+vlan 10.0.58.75-75 # 1d8df2
+vlan 10.0.58.139-139 # 1bd329
+vlan 10.0.59.2-2 # ab23b0
+vlan 10.0.59.4-4 # 436682
+vlan 10.0.59.7-7 # b1c903
+vlan 10.0.59.8-8 # 6b9725
+vlan 10.0.59.9-9 # 77f955
+vlan 10.0.59.14-14 # 6de4d3
+vlan 10.0.59.15-15 # cce51b
+vlan 10.0.59.19-19 # e9f501
+vlan 10.0.59.21-21 # 76718e
+vlan 10.0.59.22-22 # 86f503
+vlan 10.0.59.23-23 # ca9e8f
+vlan 10.0.59.24-24 # 45a510
+vlan 10.0.59.25-25 # 376191
+vlan 10.0.59.26-26 # ad4182
+vlan 10.0.59.27-27 # 0b5a11
+vlan 10.0.59.28-28 # 8395a9
+vlan 10.0.59.29-29 # ee2ea7
+vlan 10.0.59.30-30 # 8f1c0f
+vlan 10.0.59.31-31 # ed0dd2
+vlan 10.0.59.32-32 # 9ce455
+vlan 10.0.59.33-33 # 175b59
+vlan 10.0.59.35-35 # 69459c
+vlan 10.0.59.71-71 # fbb0c3
+vlan 10.0.59.124-124 # 38c3b9
+vlan 10.0.60.25-25 # d70df1
+vlan 10.0.60.52-52 # 01759f
+vlan 10.0.61.108-108 # 02713c
+vlan 10.0.61.158-158 # 07377c
+vlan 10.0.63.29-29 # 44346f
+vlan 10.0.64.44-44 # d99589
+vlan 10.0.64.46-46 # afc1b4
+vlan 10.0.65.67-67 # 3b94ed
+vlan 10.0.65.72-72 # 44ec81
+vlan 10.0.65.91-91 # f139c9
+vlan 10.0.65.92-92 # 620f30
+vlan 10.0.65.96-96 # 503b9a
+vlan 10.0.65.135-135 # 862736
+vlan 10.0.65.138-138 # 1713c8
+vlan 10.0.77.14-14 # 048fc1
+vlan 10.0.77.15-15 # 7e89cb
+vlan 10.0.77.17-17 # e62e18
+vlan 10.0.77.19-19 # a07290
+vlan 10.0.77.20-20 # 000122
+vlan 10.0.77.21-21 # 372b4e
+vlan 10.0.77.24-24 # bf0e66
+vlan 10.0.77.39-39 # 830969
+vlan 10.0.77.42-42 # 721b4c
+vlan 10.0.77.45-45 # fa790a
+vlan 10.0.77.46-46 # 0ec49c
+vlan 10.0.77.47-47 # 83ab8b
+vlan 10.0.77.52-52 # 450730
+vlan 10.0.77.55-55 # dd72ac
+vlan 10.0.77.56-56 # b2a21c
+vlan 10.0.77.59-59 # 49f3a7
+vlan 10.0.77.60-60 # 03b3b0
+vlan 10.0.77.74-74 # 78f183
+vlan 10.0.77.75-75 # 8a141e
+vlan 10.0.77.77-77 # 4f5a45
+vlan 10.0.77.79-79 # 2cbc74
+vlan 10.0.77.89-89 # ecd1ec
+vlan 10.0.77.100-100 # 0a8f50
+vlan 10.0.77.103-103 # 01f5b4
+vlan 10.0.77.114-114 # 255b83
+vlan 10.0.77.115-115 # 2c490f
+vlan 10.0.77.121-121 # 8b3852
+vlan 10.0.77.126-126 # 65b3c0
+vlan 10.0.77.133-133 # f3b4f8
+vlan 10.0.77.137-137 # ef4cf0
+vlan 10.0.77.146-146 # fe2944
+vlan 10.0.77.150-150 # 5cd8f5
+vlan 10.0.77.153-153 # f627ae
+vlan 10.0.77.158-158 # c225b7
+vlan 10.0.115.38-38 # d45bd4
+vlan 10.0.115.65-65 # bb37e5
+vlan 10.0.115.129-129 # 04d915
+vlan 10.0.116.9-6.9 # 5d7f9b
+vlan 10.0.116.65-65 # c80cc2
+vlan 10.0.116.80-80 # 2cdff1
+vlan 10.0.116.84-84 # eab21e
+vlan 10.0.116.87-87 # ba2141
+vlan 10.0.116.88-88 # b137f1
+vlan 10.0.116.116-116 # 045655
+vlan 10.0.116.159-159 # b9e56a
+vlan 10.0.117.81-81 # 96b7fb
+vlan 10.0.117.104-104 # f94276
+vlan 10.0.117.105-105 # 578490
+vlan 10.0.117.109-109 # e4f4da
+vlan 10.0.117.122-122 # 9c462c
+vlan 10.0.117.146-146 # a5a3bb
+vlan 10.0.117.152-152 # eeed9c
+vlan 10.0.118.12-12 # b4e5e6
+vlan 10.0.118.14-14 # 54b829
+vlan 10.0.118.89-89 # aeb9d7
+vlan 10.0.118.109-109 # 68b158
+vlan 10.0.118.110-110 # b894e2
+vlan 10.0.118.113-113 # 13e5c6
+vlan 10.0.118.120-120 # a0cac7
+vlan 10.0.118.121-121 # 9ce38b
+vlan 10.0.118.122-122 # 32c864
+vlan 10.0.118.124-124 # c5c750
+vlan 10.0.118.125-125 # f7dd52
+vlan 10.0.118.126-126 # f0f240
+vlan 10.0.118.131-131 # df39bb
+vlan 10.0.118.138-138 # 9815af
+vlan 10.0.118.144-144 # eb8b62
+vlan 10.0.118.148-148 # 8aa248
+vlan 10.0.118.150-150 # 05409c
+vlan 10.0.118.155-155 # f1eb8a
+vlan 10.0.118.159-159 # 44d2ce
+vlan 10.0.119.6-6 # 598dde
+vlan 10.0.119.48-48 # 2354fd
+vlan 10.0.119.55-55 # ded003
+vlan 10.0.119.111-111 # 39c402
+vlan 10.0.119.114-114 # b97a6e
+vlan 10.0.119.124-124 # 6e9536
+vlan 10.0.119.131-131 # 7f4c6f
+vlan 10.0.119.132-132 # f721ea
+vlan 10.0.119.134-134 # 25e556
+vlan 10.0.119.136-136 # bf65a5
+vlan 10.0.119.144-144 # 733404
+vlan 10.0.119.148-148 # e3b679
+vlan 10.0.119.150-150 # e07578
+vlan 10.0.119.153-153 # 703ae9
+vlan 10.0.119.155-155 # a39fa3
+vlan 10.0.119.157-157 # c3af1f
+vlan 10.0.120.135-135 # a23bc8
+vlan 10.0.121.114-114 # 263d1d
+vlan 10.0.121.119-119 # 0eaecb
+vlan 10.0.121.137-137 # 3deb9a
+vlan 10.0.121.143-143 # 369a1c
 
 ## location
-1d8df2 location NBELL00001
-1bd329 location NBELL00002
-ab23b0 location NBELL00003
-c1e4ca location NBELL00004
-436682 location NBELL00005
-b1c903 location NBELL00006
-6b9725 location NBELL00007
-77f955 location NBELL00008
-25c8f1 location NBELL00009
-6de4d3 location NBELL00010
-cce51b location NBELL00011
-56415a location NBELL00012
-e9f501 location NBELL00013
-76718e location NBELL00014
-86f503 location NBELL00015
-ca9e8f location NBELL00016
-45a510 location NBELL00017
-376191 location NBELL00018
-ad4182 location NBELL00019
-0b5a11 location NBELL00020
-8395a9 location NBELL00021
-ee2ea7 location NBELL00022
-8f1c0f location NBELL00023
-ed0dd2 location NBELL00024
-9ce455 location NBELL00025
-175b59 location NBELL00026
-69459c location NBELL00027
-fbb0c3 location NBELL00028
-38c3b9 location NBELL00029
-d70df1 location NBELL00030
-01759f location NBELL00031
-460f86 location NBELL00032
-02713c location NBELL00033
-07377c location NBELL00034
-5ef933 location NBELL00035
-44346f location NBELL00036
-d99589 location NBELL00037
-afc1b4 location NBELL00038
-3b94ed location NBELL00039
-44ec81 location NBELL00040
-45c2fd location NBELL00041
-f139c9 location NBELL00042
-620f30 location NBELL00043
-503b9a location NBELL00044
-7d6154 location NBELL00045
-2fe93e location NBELL00046
-523bf3 location NBELL00047
-862736 location NBELL00048
-f76f7f location NBELL00049
-1713c8 location NBELL00050
-54b829 location NBELL00051
-b4e5e6 location NBELL00052
-8e49a5 location NBELL00053
-e07578 location NBELL00054
-9ce38b location NBELL00055
-f53f62 location NBELL00056
-c06f9f location NBELL00057
-559680 location NBELL00058
-78f63b location NBELL00059
-df4406 location NBELL00060
-e3b4ed location NBELL00061
-302257 location NBELL00062
-042f1e location NBELL00063
-39d807 location NBELL00064
-0c8fd8 location NBELL00065
-219af2 location NBELL00066
-e31f5f location NBELL00067
-0a9fce location NBELL00068
-89c9cf location NBELL00069
-18ae66 location NBELL00070
-58b603 location NBELL00071
-5acbb3 location NBELL00072
-d3f312 location NBELL00073
-7a732f location NBELL00074
-34d6a2 location NBELL00075
-334b70 location NBELL00076
-955d85 location NBELL00077
-c27c44 location NBELL00078
-091081 location NBELL00079
-048fc1 location NBELL00080
-7e89cb location NBELL00081
-e62e18 location NBELL00082
-a07290 location NBELL00083
-000122 location NBELL00084
-372b4e location NBELL00085
-bf0e66 location NBELL00086
-830969 location NBELL00087
-721b4c location NBELL00088
-fa790a location NBELL00089
-0ec49c location NBELL00090
-83ab8b location NBELL00091
-450730 location NBELL00092
-dd72ac location NBELL00093
-b2a21c location NBELL00094
-49f3a7 location NBELL00095
-03b3b0 location NBELL00096
-984118 location NBELL00097
-78f183 location NBELL00098
-8a141e location NBELL00099
-4f5a45 location NBELL00100
-2cbc74 location NBELL00101
-fb1aea location NBELL00102
-368765 location NBELL00103
-ecd1ec location NBELL00104
-a83b78 location NBELL00105
-9dd012 location NBELL00106
-0a8f50 location NBELL00107
-9fd4e8 location NBELL00108
-01f5b4 location NBELL00109
-255b83 location NBELL00110
-2c490f location NBELL00111
-8b3852 location NBELL00112
-65b3c0 location NBELL00113
-f3b4f8 location NBELL00114
-ef4cf0 location NBELL00115
-22c41f location NBELL00116
-65e35f location NBELL00117
-fe2944 location NBELL00118
-5cd8f5 location NBELL00119
-f627ae location NBELL00120
-c225b7 location NBELL00121
-369a1c location NBELL00122
-a23bc8 location NBELL00123
-3deb9a location NBELL00124
-0eaecb location NBELL00125
-5534be location NBELL00126
-771e29 location NBELL00127
-38ca89 location NBELL00128
-2354fd location NBELL00129
-598dde location NBELL00130
-f7dd52 location NBELL00131
-1d5775 location NBELL00132
-b03069 location NBELL00133
-ecde5a location NBELL00134
-263d1d location NBELL00135
-84f34c location NBELL00136
-60fbf5 location NBELL00137
-25e556 location NBELL00138
-bf65a5 location NBELL00139
-9815af location NBELL00140
-733404 location NBELL00141
-2d2ba1 location NBELL00142
-a39fa3 location NBELL00143
-c5c750 location NBELL00144
-39c402 location NBELL00145
-32c864 location NBELL00146
-f721ea location NBELL00147
-703ae9 location NBELL00148
-e3b679 location NBELL00149
-b894e2 location NBELL00150
-a5a3bb location NBELL00151
-df39bb location NBELL00152
-853e5d location NBELL00153
-13e5c6 location NBELL00154
-201a71 location NBELL00155
-1385af location NBELL00156
-2cdff1 location NBELL00157
-16df7e location NBELL00158
-2365b7 location NBELL00159
-96b7fb location NBELL00160
-c80cc2 location NBELL00161
-bb37e5 location NBELL00162
-eab21e location NBELL00163
-d45bd4 location NBELL00164
-ba2141 location NBELL00165
-920bc4 location NBELL00166
-7f4c6f location NBELL00167
-6e9536 location NBELL00168
-055005 location NBELL00169
-d560ca location NBELL00170
-b97a6e location NBELL00171
-05409c location NBELL00172
-f1eb8a location NBELL00173
-eb8b62 location NBELL00174
-c3af1f location NBELL00175
-e4f4da location NBELL00176
-44d2ce location NBELL00177
-5d7f9b location NBELL00178
-5288c8 location NBELL00179
-b137f1 location NBELL00180
-405f5b location NBELL00181
-ded003 location NBELL00182
-aeb9d7 location NBELL00183
-578490 location NBELL00184
-e95fcc location NBELL00185
-f94276 location NBELL00186
-9d6f23 location NBELL00187
-c98fa4 location NBELL00188
-04d915 location NBELL00189
-045655 location NBELL00190
-45e595 location NBELL00191
-0df28d location NBELL00192
-2c8034 location NBELL00193
-b3b6d1 location NBELL00194
-1345e0 location NBELL00195
-cecef4 location NBELL00196
-f0f240 location NBELL00197
-1fe000 location NBELL00198
-b9e56a location NBELL00199
-5e91db location NBELL00200
-68b158 location NBELL00201
-8aa248 location NBELL00202
-eeed9c location NBELL00203
-a0cac7 location NBELL00204
-694a29 location NBELL00205
-9c462c location NBELL00206
-252f2b location NBELL00207
+f53f62 location NBELL00001 # 10.0.51.57
+78f63b location NBELL00002 # 10.0.51.72
+df4406 location NBELL00003 # 10.0.51.75
+e3b4ed location NBELL00004 # 10.0.51.78
+39d807 location NBELL00005 # 10.0.51.95
+219af2 location NBELL00006 # 10.0.51.104
+e31f5f location NBELL00007 # 10.0.51.108
+89c9cf location NBELL00008 # 10.0.51.119
+18ae66 location NBELL00009 # 10.0.51.121
+58b603 location NBELL00010 # 10.0.51.122
+5acbb3 location NBELL00011 # 10.0.51.123
+d3f312 location NBELL00012 # 10.0.51.126
+7a732f location NBELL00013 # 10.0.51.135
+34d6a2 location NBELL00014 # 10.0.53.3
+334b70 location NBELL00015 # 10.0.53.6
+955d85 location NBELL00016 # 10.0.53.17
+c27c44 location NBELL00017 # 10.0.53.23
+091081 location NBELL00018 # 10.0.53.28
+1d8df2 location NBELL00019 # 10.0.58.75
+1bd329 location NBELL00020 # 10.0.58.139
+ab23b0 location NBELL00021 # 10.0.59.2
+436682 location NBELL00022 # 10.0.59.4
+b1c903 location NBELL00023 # 10.0.59.7
+6b9725 location NBELL00024 # 10.0.59.8
+77f955 location NBELL00025 # 10.0.59.9
+6de4d3 location NBELL00026 # 10.0.59.14
+cce51b location NBELL00027 # 10.0.59.15
+e9f501 location NBELL00028 # 10.0.59.19
+76718e location NBELL00029 # 10.0.59.21
+86f503 location NBELL00030 # 10.0.59.22
+ca9e8f location NBELL00031 # 10.0.59.23
+45a510 location NBELL00032 # 10.0.59.24
+376191 location NBELL00033 # 10.0.59.25
+ad4182 location NBELL00034 # 10.0.59.26
+0b5a11 location NBELL00035 # 10.0.59.27
+8395a9 location NBELL00036 # 10.0.59.28
+ee2ea7 location NBELL00037 # 10.0.59.29
+8f1c0f location NBELL00038 # 10.0.59.30
+ed0dd2 location NBELL00039 # 10.0.59.31
+9ce455 location NBELL00040 # 10.0.59.32
+175b59 location NBELL00041 # 10.0.59.33
+69459c location NBELL00042 # 10.0.59.35
+fbb0c3 location NBELL00043 # 10.0.59.71
+38c3b9 location NBELL00044 # 10.0.59.124
+d70df1 location NBELL00045 # 10.0.60.25
+01759f location NBELL00046 # 10.0.60.52
+02713c location NBELL00047 # 10.0.61.108
+07377c location NBELL00048 # 10.0.61.158
+44346f location NBELL00049 # 10.0.63.29
+d99589 location NBELL00050 # 10.0.64.44
+afc1b4 location NBELL00051 # 10.0.64.46
+3b94ed location NBELL00052 # 10.0.65.67
+44ec81 location NBELL00053 # 10.0.65.72
+f139c9 location NBELL00054 # 10.0.65.91
+620f30 location NBELL00055 # 10.0.65.92
+503b9a location NBELL00056 # 10.0.65.96
+862736 location NBELL00057 # 10.0.65.135
+1713c8 location NBELL00058 # 10.0.65.138
+048fc1 location NBELL00059 # 10.0.77.14
+7e89cb location NBELL00060 # 10.0.77.15
+e62e18 location NBELL00061 # 10.0.77.17
+a07290 location NBELL00062 # 10.0.77.19
+000122 location NBELL00063 # 10.0.77.20
+372b4e location NBELL00064 # 10.0.77.21
+bf0e66 location NBELL00065 # 10.0.77.24
+830969 location NBELL00066 # 10.0.77.39
+721b4c location NBELL00067 # 10.0.77.42
+fa790a location NBELL00068 # 10.0.77.45
+0ec49c location NBELL00069 # 10.0.77.46
+83ab8b location NBELL00070 # 10.0.77.47
+450730 location NBELL00071 # 10.0.77.52
+dd72ac location NBELL00072 # 10.0.77.55
+b2a21c location NBELL00073 # 10.0.77.56
+49f3a7 location NBELL00074 # 10.0.77.59
+03b3b0 location NBELL00075 # 10.0.77.60
+78f183 location NBELL00076 # 10.0.77.74
+8a141e location NBELL00077 # 10.0.77.75
+4f5a45 location NBELL00078 # 10.0.77.77
+2cbc74 location NBELL00079 # 10.0.77.79
+ecd1ec location NBELL00080 # 10.0.77.89
+0a8f50 location NBELL00081 # 10.0.77.100
+01f5b4 location NBELL00082 # 10.0.77.103
+255b83 location NBELL00083 # 10.0.77.114
+2c490f location NBELL00084 # 10.0.77.115
+8b3852 location NBELL00085 # 10.0.77.121
+65b3c0 location NBELL00086 # 10.0.77.126
+f3b4f8 location NBELL00087 # 10.0.77.133
+ef4cf0 location NBELL00088 # 10.0.77.137
+fe2944 location NBELL00089 # 10.0.77.146
+5cd8f5 location NBELL00090 # 10.0.77.150
+f627ae location NBELL00091 # 10.0.77.153
+c225b7 location NBELL00092 # 10.0.77.158
+d45bd4 location NBELL00093 # 10.0.115.38
+bb37e5 location NBELL00094 # 10.0.115.65
+04d915 location NBELL00095 # 10.0.115.129
+5d7f9b location NBELL00096 # 10.0.116.9
+c80cc2 location NBELL00097 # 10.0.116.65
+2cdff1 location NBELL00098 # 10.0.116.80
+eab21e location NBELL00099 # 10.0.116.84
+ba2141 location NBELL00100 # 10.0.116.87
+b137f1 location NBELL00101 # 10.0.116.88
+045655 location NBELL00102 # 10.0.116.116
+b9e56a location NBELL00103 # 10.0.116.159
+96b7fb location NBELL00104 # 10.0.117.81
+f94276 location NBELL00105 # 10.0.117.104
+578490 location NBELL00106 # 10.0.117.105
+e4f4da location NBELL00107 # 10.0.117.109
+9c462c location NBELL00108 # 10.0.117.122
+a5a3bb location NBELL00109 # 10.0.117.146
+eeed9c location NBELL00110 # 10.0.117.152
+b4e5e6 location NBELL00111 # 10.0.118.12
+54b829 location NBELL00112 # 10.0.118.14
+aeb9d7 location NBELL00113 # 10.0.118.89
+68b158 location NBELL00114 # 10.0.118.109
+b894e2 location NBELL00115 # 10.0.118.110
+13e5c6 location NBELL00116 # 10.0.118.113
+a0cac7 location NBELL00117 # 10.0.118.120
+9ce38b location NBELL00118 # 10.0.118.121
+32c864 location NBELL00119 # 10.0.118.122
+c5c750 location NBELL00120 # 10.0.118.124
+f7dd52 location NBELL00121 # 10.0.118.125
+f0f240 location NBELL00122 # 10.0.118.126
+df39bb location NBELL00123 # 10.0.118.131
+9815af location NBELL00124 # 10.0.118.138
+eb8b62 location NBELL00125 # 10.0.118.144
+8aa248 location NBELL00126 # 10.0.118.148
+05409c location NBELL00127 # 10.0.118.150
+f1eb8a location NBELL00128 # 10.0.118.155
+44d2ce location NBELL00129 # 10.0.118.159
+598dde location NBELL00130 # 10.0.119.6
+2354fd location NBELL00131 # 10.0.119.48
+ded003 location NBELL00132 # 10.0.119.55
+39c402 location NBELL00133 # 10.0.119.111
+b97a6e location NBELL00134 # 10.0.119.114
+6e9536 location NBELL00135 # 10.0.119.124
+7f4c6f location NBELL00136 # 10.0.119.131
+f721ea location NBELL00137 # 10.0.119.132
+25e556 location NBELL00138 # 10.0.119.134
+bf65a5 location NBELL00139 # 10.0.119.136
+733404 location NBELL00140 # 10.0.119.144
+e3b679 location NBELL00141 # 10.0.119.148
+e07578 location NBELL00142 # 10.0.119.150
+703ae9 location NBELL00143 # 10.0.119.153
+a39fa3 location NBELL00144 # 10.0.119.155
+c3af1f location NBELL00145 # 10.0.119.157
+a23bc8 location NBELL00146 # 10.0.120.135
+263d1d location NBELL00147 # 10.0.121.114
+0eaecb location NBELL00148 # 10.0.121.119
+3deb9a location NBELL00149 # 10.0.121.137
+369a1c location NBELL00150 # 10.0.121.143
 
 ## throttle
 5d7f9b uncork 1587422642
