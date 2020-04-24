@@ -1,5 +1,6 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
-## 10 s9s TURNED OVER TO HOLD06 4/1/20
+## 14 s9s @ 14.4 Th/s = 201.6 Th/s
+## 14 s9s TURNED OVER TO HOLD06 4/1/20, 14 s9s TURNED BACK OVER TO MSHID0 4/24/20
 
 global custompanel MSHID0bit049
 global customer bit49-Russia
@@ -34,11 +35,39 @@ global panelclear 999
 # global retune 1
 # global reboot 1
 # global uncork 1
-global reset 1574927240
+# global reset 1574927240
 
 ## vlans
+vlan 10.0.57.128-128 # 7f85b2
+vlan 10.0.57.144-144 # 7bbb90
+vlan 10.0.57.145-145 # 46bae8
+vlan 10.0.57.147-147 # 117c61
+vlan 10.0.57.148-148 # 9d84e2
+vlan 10.0.57.149-149 # 96d39b
+vlan 10.0.57.151-151 # c842f9
+vlan 10.0.57.156-156 # 304296
+vlan 10.0.58.2-2 # 0e1ddf
+vlan 10.0.58.6-6 # 80596d
+vlan 10.0.58.9-9 # 749409
+vlan 10.0.58.13-13 # 7f889a
+vlan 10.0.58.20-20 # 6a9f03
+vlan 10.0.58.24-24 # bccae7
 
 ## locations
+7f85b2 location MSHID00001
+7bbb90 location MSHID00002
+46bae8 location MSHID00003
+117c61 location MSHID00004
+9d84e2 location MSHID00005
+96d39b location MSHID00006
+c842f9 location MSHID00007
+304296 location MSHID00008
+0e1ddf location MSHID00009
+80596d location MSHID00010
+749409 location MSHID00011
+7f889a location MSHID00012
+6a9f03 location MSHID00013
+bccae7 location MSHID00014
 
 ## throttle
 
