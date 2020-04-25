@@ -35,37 +35,9 @@ global panelclear 999
 # global uncork 1
 # global reset 1
 
-## MSHID0 (10 s9)
-vlan 10.0.57.128-128
-vlan 10.0.57.144-145
-vlan 10.0.57.147-149
-vlan 10.0.57.151-151
-vlan 10.0.57.156-156
-vlan 10.0.58.2-2
-vlan 10.0.58.6-6
-vlan 10.0.58.9-9
-vlan 10.0.58.13-13
-vlan 10.0.58.20-20
-vlan 10.0.58.24-24
-7f85b2 location MSHID00001
-7bbb90 location MSHID00002
-46bae8 location MSHID00003
-117c61 location MSHID00004
-9d84e2 location MSHID00005
-96d39b location MSHID00006
-c842f9 location MSHID00007
-304296 location MSHID00008
-0e1ddf location MSHID00009
-80596d location MSHID00010
-749409 location MSHID00011
-7f889a location MSHID00012
-6a9f03 location MSHID00013
-bccae7 location MSHID00014
-
 ## reboots
 
 ## resets
-7f889a reset 1586236858
 
 ## asic password
 asicpass admin
