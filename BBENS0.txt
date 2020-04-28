@@ -32,22 +32,19 @@ global panelclear 999
 
 # global retune 1
 # global reboot 1
-global uncork 1576096742
+global uncork 1588100175
 # global reset 1
 # global reset 1574280045
 
 # global panelpass gj83Nkgikg
 
 ## vlans
-# vlan 10.0.68.40-41
-# extra machine added 3/9/20
-vlan 10.0.50.96-96 # f5432f
+# vlan 10.0.68.40-40
+# vlan 10.0.68.41-41
 
 ## locations
 815d57 location BBENS00001
 f69de1 location BBENS00002
-# extra machine added 3/9/20
-f5432f location BBENS0XTRA # 10.0.50.96 # 4.1 Th/s
 
 ## throttle
 f69de1 uncork 1584025050
