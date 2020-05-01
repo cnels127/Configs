@@ -1,6 +1,5 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
-## TOTAL EXP HASHRATE 12 s9 @ 14.4 Th/s = 172.8 Th/s
-## EXPECTED AVERAGE HASHRATE PER MACHINE: 14.4 Th/s
+## Customer ended hosting services 5/1/20 and transferred ownership of 12 s9s to Bit 49
 
 global custompanel MBLAK0bit049
 global customer bit49-Russia
@@ -38,96 +37,23 @@ global panelclear 999
 
 # global retune 1
 # global reboot 1
-global uncork 1574797077
+# global uncork 1574797077
 # global reset 1
 
 ## vlans
-vlan 10.0.56.147-158
-# extra machines added 12/6/19
-vlan 10.0.66.54 15.3-3
-vlan 10.0.54.9 15.7-7
-vlan 10.0.54.15 15.8-8
-# extra machines added 1/4/20
-vlan 10.0.118.37-37
-vlan 10.0.116.69-69
-# extra machine added 3/9/20
-vlan 10.0.50.85-85 # 3e3e0f
-
-## locations
-61cbc7 location MBLAK00001
-23acb0 location MBLAK00002
-abee59 location MBLAK00003
-7583aa location MBLAK00004
-3bd8d4 location MBLAK00005
-f5425c location MBLAK00006
-e27d2f location MBLAK00007
-d448b3 location MBLAK00008
-ecd90f location MBLAK00009
-dfb542 location MBLAK00010
-1e74b1 location MBLAK00011
-5d3f6c location MBLAK00012
-# extra machines added 12/6/19
-a1ec5c location MBLAK0XTRA # 10.0.66.54 15.3
-f3393d location MBLAK0XTRA # 10.0.54.9 15.7
-102b68 location MBLAK0XTRA # 10.0.54.15 15.8
-# extra machines added 1/4/20
-d6a99c location MBLAK0XTRA # 10.0.118.37
-0a9fbb location MBLAK0XTRA # 10.0.116.69
-# extra machine added 3/9/20
-3e3e0f location MBLAK0XTRA # 10.0.50.85 # 6.2 Th/s
-
-## removed
-# ed92f7 was an ASICseer ID given to mblak0001 after it was reset. Removing ed92f7 from the panel after restoring the machine's original mac address
-global remove ed92f7,d9dc85
 
 ## throttle
-23acb0 uncork 1585322784
-7583aa uncork 1585322784
-3bd8d4 uncork 1585322784
-5d3f6c uncork 1585322784
-abee59 uncork 1585322784
 
 ## fans
 
 ## reboots
-dfb542 reboot 1585323868
-3bd8d4 reboot 1585323868
-abee59 reboot 1585323868
-d448b3 reboot 1585323868
-f5425c reboot 1585323868
-1e74b1 reboot 1585323868
-e27d2f reboot 1585323868
-3e3e0f reboot 1585323868
-d6a99c reboot 1585323868
-0a9fbb reboot 1585323868
 
 ## resets
-dfb542 reset 1586140161
-3bd8d4 reset 1578203421
-0a9fbb reset 1578193392
-f5425c reset 1578193392
-1e74b1 reset 1578193392
-ecd90f reset 1578193392
-7583aa reset 1578193392
-23acb0 reset 1578193392
-abee59 reset 1577471957
 
 ## retunes
-61cbc7 retune 1582318569
-3bd8d4 retune 1582318569
-5d3f6c retune 1582318569
-f5425c retune 1582318569
-d448b3 retune 1582318569
-7583aa retune 1582318569
-d6a99c retune 1582318569
-abee59 retune 1582318569
-e27d2f retune 1582318569
-1e74b1 retune 1582318569
-0a9fbb retune 1582318569
-23acb0 retune 1582318569
 
 ## removals
-global remove d9dc85
+global remove d9dc85,ed92f7,d9dc85,ed92f7
 
 ## asic password
 asicpass admin
