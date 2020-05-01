@@ -1,5 +1,6 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
 ## TOTAL EXP HASHRATE 10 s9 @ 14.4 Th/s = 144 Th/s
+## CLOUI0 moved to HOLD10 due to non-payment 5/1/20
 
 global custompanel CLOUI0bit049
 global customer bit49-Russia
@@ -37,100 +38,16 @@ global uncork 1576101237
 # global panelpass gj83Nkgikg
 
 ## vlans
-vlan 10.0.54.49-58
 
 ## locations
-2b7bed location CLOUI00001
-1a1611 location CLOUI00002
-bf9f18 location CLOUI00003
-6d0544 location CLOUI00004
-3a0cc0 location CLOUI00005
-49ba28 location CLOUI00006
-e2c89b location CLOUI00007
-f60679 location CLOUI00008
-df94bd location CLOUI00009
-6cb55b location CLOUI00010
-# extra machines added 12/19/19
-c47181 location CLOUI0XTRA # 10.0.118.142
-3664fa location CLOUI0XTRA # 10.0.64.131
-f88d80 location CLOUI0XTRA # 10.0.62.47
-# extra machines added 3/9/20 # 19 Th/s
-3b2351 location CLOUI0XTRA # 10.0.31.47 # 9.5 Th/s
-0ac223 location CLOUI0XTRA # 10.0.55.9 # 9.5 Th/s
 
 ## throttle
-# 3/27/20
-6d0544 uncork 1585341763
-1a1611 uncork 1585341763
-# 3/23/20
-df94bd uncork 1584996547
-6cb55b uncork 1584996547
-# 3/10/30
-bf9f18 uncork 1583857657
-3664fa uncork 1583857657
-# 2/20/20
-3a0cc0 uncork 1582215631
-# 2/17/20
-2b7bed uncork 1581976550
-1a1611 uncork 1581976550
-
-3a0cc0 uncork 1581114622
-f88d80 uncork 1581114622
-c1769c uncork 1581041955
-df94bd uncork 1581041618
-2b7bed uncork 1581041618
-1a1611 uncork 1581037066
-6d0544 uncork 1581037066
-3a0cc0 uncork 1581037066
-1a1611 uncork 1579308332
-6d0544 uncork 1579308332
-3a0cc0 uncork 1579308332
-49ba28 uncork 1579308332
-df94bd uncork 1579308332
-6cb55b uncork 1579308332
-2b7bed uncork 1579308332
-f88d80 uncork 1579308332
-3664fa uncork 1579308332
-1a1611 uncork 1585245102 # 10.0.54.50 cloui00002
-6d0544 uncork 1585245102 # 10.0.54.52 cloui00004
 
 ## fans
 
 ## reboots
-6cb55b reboot 1585237512 # 10.0.54.58 cloui00010
-2b7bed reboot 1585237512 # 10.0.54.49 cloui00001
-bf9f18 reboot 1585237512 # 10.0.54.51 cloui00003
-1a1611 reboot 1585237512 # 10.0.54.50 cloui00002
-6d0544 reboot 1585237512 # 10.0.54.52 cloui00004
-c47181 reboot 1585237512 # 10.0.118.142 cloui0xtra
-49ba28 reboot 1585237512 # 10.0.54.54 cloui00006
 
 ## resets
-2b7bed reset 1586236259
-# 2/28/20
-2b7bed reset 1582928951
-49ba28 reset 1582928951
-
-df94bd reset 1581037066
-49ba28 reset 1581037066
-e2c89b reset 1574915707
-1a1611 reset 1574915707
-6d0544 reset 1574915707
-3a0cc0 reset 1574915707
-49ba28 reset 1574915707
-df94bd reset 1574915707
-6cb55b reset 1574915707
-2b7bed reset 1574915707
-bf9f18 reset 1574915707
-
-e2c89b reset 1574277905
-2b7bed reset 1574277905
-6cb55b reset 1574277905
-1a1611 reset 1574277905
-6d0544 reset 1574276956
-3a0cc0 reset 1574276956
-49ba28 reset 1574276956
-6cb55b reset 1574150293
 
 ## asic password
 asicpass admin
