@@ -35,6 +35,21 @@ global panelclear 999
 # global uncork 1574977288
 global reset 1580151563
 
+# MBLAK0 (12 s9)
+vlan 10.0.56.147-158
+61cbc7 location MBLAK00001
+23acb0 location MBLAK00002
+abee59 location MBLAK00003
+7583aa location MBLAK00004
+3bd8d4 location MBLAK00005
+f5425c location MBLAK00006
+e27d2f location MBLAK00007
+d448b3 location MBLAK00008
+ecd90f location MBLAK00009
+dfb542 location MBLAK00010
+1e74b1 location MBLAK00011
+5d3f6c location MBLAK00012
+
 ## JBETH 10 s9s
 vlan 10.0.60.18-18
 vlan 10.0.60.100-100
