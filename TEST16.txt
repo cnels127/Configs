@@ -33,10 +33,21 @@ global panelclear 999
 # global retune 1
 # global reboot 1573772711
 # global uncork 1574977288
-global reset 1580151563
+# global reset 1580151563
 
+## GBURR0 (5 s9) hosting paused 5/1/20
+vlan 10.0.55.87-87 # f0f798
+vlan 10.0.55.117-117 # e2c6fd
+vlan 10.0.55.150-150 # 2d11cf
+vlan 10.0.56.107-107 # b69144
+vlan 10.0.56.113-113 # fb355a
+f0f798 location GBURR00001
+e2c6fd location GBURR00002
+2d11cf location GBURR00003
+b69144 location GBURR00004
+fb355a location GBURR00005
 
-## KWRIG (3 s9) turned over 5/1/20
+## KWRIG0 (3 s9) turned over 5/1/20
 vlan 10.0.57.81-81 # 570c84
 vlan 10.0.57.82-82 # 97f21b
 vlan 10.0.20.55-55 # 29bca0
