@@ -1,4 +1,5 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
+## KAUYE0 moved to HOLD09 5/1/20 due to non-payment
 
 global custompanel HOLD09bit049
 global customer bit49-Russia
@@ -34,6 +35,32 @@ global panelclear 999
 # global reboot 1
 # global uncork 1
 # global reset 1
+
+## KAUYE (14 s9s) 5/1/20
+vlan 10.0.55.96-96 # 213829
+vlan 10.0.55.97-97 # ddae42
+vlan 10.0.55.113-113 # 4f4ae6
+vlan 10.0.55.130-130 # 49aee9
+vlan 10.0.55.135-135 # 02423d
+vlan 10.0.55.149-149 # 0a35cb
+vlan 10.0.56.3-3 # b408fe
+vlan 10.0.56.11-11 # 9249ec
+vlan 10.0.56.20-20 # f371c7
+vlan 10.0.56.65-65 # 4996aa
+vlan 10.0.56.108-108 # e6ca25
+vlan 10.0.56.133-133 # d87db4
+213829 location KAUYE00001 # 10.0.55.96
+ddae42 location KAUYE00002 # 10.0.55.97
+4f4ae6 location KAUYE00005 # 10.0.55.113
+49aee9 location KAUYE00006 # 10.0.55.130
+02423d location KAUYE00007 # 10.0.55.135
+0a35cb location KAUYE00008 # 10.0.55.149
+b408fe location KAUYE00009 # 10.0.56.3
+9249ec location KAUYE00010 # 10.0.56.11
+f371c7 location KAUYE00011 # 10.0.56.20
+4996aa location KAUYE00012 # 10.0.56.65
+e6ca25 location KAUYE00013 # 10.0.56.108
+d87db4 location KAUYE00014 # 10.0.56.133
 
 ## asic password
 asicpass admin
