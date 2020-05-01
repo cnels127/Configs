@@ -1,5 +1,6 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
 ## TOTAL EXP HASHRATE 14 s9 @ 16 Th/s = 224 Th/s
+## KAUYE0 moved to HOLD09 due to non-payment 5/1/20
 
 global custompanel KAUYE0bit049
 global customer bit49-Russia
@@ -33,123 +34,23 @@ global panelclear 999
 
 # global retune 1
 # global reboot 1
-global uncork 1576269552
+# global uncork 1576269552
 # global reset 1576176168
 
 ## vlans
-vlan 10.0.55.96-97
-vlan 10.0.55.100-100
-vlan 10.0.55.104-104
-vlan 10.0.55.113-113
-vlan 10.0.55.130-130
-vlan 10.0.55.135-135
-vlan 10.0.55.149-149
-vlan 10.0.56.3-3
-vlan 10.0.56.11-11
-vlan 10.0.56.20-20
-vlan 10.0.56.65-65
-vlan 10.0.56.108-108
-vlan 10.0.56.133-133
-# extra machines added 11/25/19
-vlan 10.0.54.3-3
-vlan 10.0.54.4-4
-vlan 10.0.54.5-5
-# extra machines added 2020-02-04
-vlan 10.0.68.88-88
-vlan 10.0.77.154-154 # 434e7d
-vlan 10.0.60.143-143
 
 ## locations
-213829 location KAUYE00001
-ddae42 location KAUYE00002
-4d1860 location KAUYE00003
-184c88 location KAUYE00004
-4f4ae6 location KAUYE00005
-49aee9 location KAUYE00006
-02423d location KAUYE00007
-0a35cb location KAUYE00008
-b408fe location KAUYE00009
-9249ec location KAUYE00010
-f371c7 location KAUYE00011
-4996aa location KAUYE00012
-e6ca25 location KAUYE00013
-d87db4 location KAUYE00014
-# extra machines added 11/25/19
-c64ec9 location KAUYE0XTRA
-7e18e7 location KAUYE0XTRA
-a25bea location KAUYE0XTRA
-f74d6d location KAUYE0XTRA
-434e7d location KAUYE0XTRA
-8f1d39 location KAUYE0XTRA
-
-##remove
-global remove c965a8
 
 ## throttle
-# 3/23/20
-213829 uncork 1585002996
-49aee9 uncork 1585002996
-b408fe uncork 1585002996
-d87db4 uncork 1585002996
-a25bea uncork 1585002996
-e6ca25 uncork 1585002996
-# 3/16/20
-e6ca25 uncork 1584380224
-# 3/12/20
-49aee9 uncork 1584042136
-e6ca25 uncork 1584042136
-# 3/10/20
-f74d6d uncork 1583857803
-b408fe uncork 1583857803
-e6ca25 uncork 1583857803
-# 2/21/20
-434e7d uncork 1582313893
-
-8f1d39 uncork 1581037415
-e6ca25 uncork 1580751155
-a25bea uncork 1580751155
-9249ec uncork 1580751155
-4996aa uncork 1580751155
-213829 uncork 1580751155
-49aee9 uncork 1580751155
-7e18e7 uncork 1580751155
 
 ## fans
 
 ## reboots
-434e7d reboot 1581633939
-434e7d reboot 1581632184
-4d1860 reboot 1580750903
-184c88 reboot 1580750903
-4f4ae6 reboot 1580750903
 
 ## resets
-e6ca25 reset 1586844317
-# 3/13/20
-b408fe reset 1584116578
-# 2/27/20
-02423d reset 1582830114
 
-434e7d reset 1581632538
-434e7d reset 1581539646
-c64ec9 reset 1577949355
-213829 reset 1577949355
-ddae42 reset 1577949355
-4f4ae6 reset 1577949355
-49aee9 reset 1577949355
-02423d reset 1577949355
-0a35cb reset 1577949355
-b408fe reset 1577949355
-9249ec reset 1577949355
-4996aa reset 1577949355
-e6ca25 reset 1577949355
-d87db4 reset 1577949355
-184c88 reset 1577305495 # 10.0.55.104 kauye00004
-4d1860 reset 1577305495 # 10.0.55.100 kauye00003
-f371c7 reset 1577305485 # 10.0.56.20 kauye00011
-4d1860 reset 1579731995 # 10.0.55.100 kauye00003
-184c88 reset 1579731995 # 10.0.55.104 kauye00004
-
+## removals
+global remove c965a8
 
 ## asic password
 asicpass admin
