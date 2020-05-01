@@ -1,5 +1,6 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
 ## TOTAL EXP HASHRATE 3 s9 @ 16 Th/s = 48 Th/s
+## JGIBL0 to HOLD12 5/1/20 due to non-payment
 
 global custompanel JGIBL0bit049
 global customer bit49-Russia
@@ -33,39 +34,20 @@ global panelclear 999
 
 # global retune 1
 # global reboot 1
-global uncork 1574923372
+# global uncork 1574923372
 # global reset 1
 
 ## vlans
-vlan 10.0.55.151-151
-vlan 10.0.55.158-158
-vlan 10.0.56.90-90
-# extra machine added 3/9/20
-vlan 10.0.50.62-62 # 3eedee
 
 ## locations
-615313 location JGIBL00001
-b897c7 location JGIBL00002
-ffc9c8 location JGIBL00003
-# extra machine added 3/9/20
-3eedee location JGIBL0XTRA # 10.0.50.62 # 11.8 Th/s
 
 ## throttle
-#3/14/20
-b897c7 uncork 1584249794
-
-b897c7 uncork 1580752532
-b897c7 uncork 1580230568
-b897c7 uncork 1579237980
-ffc9c8 uncork 1579292012
 
 ## fans
 
 ## reboots
 
 ## resets
-b897c7 reset 1580485598
-ffc9c8 reset 1579293032
 
 ## asic password
 asicpass admin
