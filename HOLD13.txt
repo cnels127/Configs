@@ -1,4 +1,5 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
+## JKAHN0 to HOLD13 5/1/20 due to non-payment
 
 global custompanel HOLD13bit049
 global customer bit49-Russia
@@ -34,6 +35,10 @@ global panelclear 999
 # global reboot 1
 # global uncork 1
 # global reset 1
+
+## JKAHN0 (1 s9) 5/1/20
+vlan 10.0.68.7-7 # ef83d4
+ef83d4 location JKAHN00001 # 10.0.68.7
 
 ## asic password
 asicpass admin
