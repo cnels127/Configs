@@ -1,5 +1,6 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
 ## TOTAL EXP HASHRATE 5 s9 @ 16 Th/s = 80 Th/s
+## Customer-requested hosting service pause 5/1/20
 
 global custompanel GBURR0bit049
 global customer bit49-Russia
@@ -33,122 +34,22 @@ global panelclear 999
 
 # global retune 1
 # global reboot 1
-global uncork 1574919998
+# global uncork 1574919998
 # global reset 1
 
 ## vlans
-vlan 10.0.55.87-87
-vlan 10.0.55.117-117
-vlan 10.0.55.150-150
-vlan 10.0.56.107-107
-vlan 10.0.56.113-113
 
 ## locations
-f0f798 location GBURR00001
-e2c6fd location GBURR00002
-2d11cf location GBURR00003
-b69144 location GBURR00004
-fb355a location GBURR00005
-# extra machine added 12/6/19
-599752 location GBURR0XTRA # 10.0.117.9
-# extra machine added 3/23/20
-0f5fcd location GBURR0XTRA # 10.0.67.58 # 10.7 Th/s
 
 ## throttle
-# 3/25/20
-0f5fcd uncork 1585159202
-
-# 2/29/20
-2d11cf uncork 1582905154
-b69144 uncork 1582905154
-
-# 1/27/20
-f0f798 uncork 1580149620
-b69144 uncork 1580149620
-fb355a uncork 1580149620
-
-# 1/10/20
-b69144 uncork 1578681318
-f0f798 uncork 1578681318
-
-# 1/8/20
-2d11cf uncork 1578511714
-
-b69144 uncork 1577904701
-f0f798 uncork 1577904701
-2d11cf uncork 1577904701
-
-b69144 uncork 1577466920
-2d11cf uncork 1576162737
-b69144 uncork 1576162737
 
 ## fans
 
 ## reboots
-# 3/17/20
-b69144 reboot 1584461890
-
-# 2/13/20
-e2c6fd reboot 1581619648
-
-# 1/27/20
-f0f798 reboot 1580150921
-
-# 1/21/20
-e2c6fd reboot 1579634219
-b69144 reboot 1579634219
-
-# 1/17/20
-f0f798 reboot 1579287662
-b69144 reboot 1579287662
-
-# 1/11/20
-b69144 reboot 1578767768
-
-# 1/8/20
-b69144 reboot 1578511767
-
-b69144 reboot 1572023239 
 
 ## resets
-# 3/18/20
-b69144 reset 1584557184
-
-# 2/27/20
-e2c6fd reset 1582829454
-
-# 2/21/20
-b69144 reset 1582315261
-f0f798 reset 1582315261
-
-# 2/3/20
-b69144 reset 1580754308
-f0f798 reset 1580754308
-e2c6fd reset 1580754308
-
-fb355a reset 1575990149
-
-b69144 reset 1575933194
-2d11cf reset 1575737193
-fb355a reset 1575737193
-
-f0f798 reset 1573933478
-2d11cf reset 1573933478
-fb355a reset 1573933478
-b69144 reset 1573137505
 
 ## retunes
-# 2/21/20
-e2c6fd retune 1582315595
-
-# 2/10/20
-e2c6fd retune 1581372458
-2d11cf retune 1581372458
-fb355a retune 1581372458
-
-2d11cf retune 1579634435
-fb355a retune 1579634435
-
 
 ## asic password
 asicpass admin
