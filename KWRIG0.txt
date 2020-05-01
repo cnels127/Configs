@@ -1,5 +1,5 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
-## TOTAL EXP HASHRATE 4 s9 @ 14.4 Th/s = 57.6 Th/s
+## 3 s9s transferred possessino to Bit 49 to be disposed of 5/1/20
 
 global custompanel KWRIG0bit049
 global customer bit49-Russia
@@ -23,7 +23,7 @@ global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
-global throttle 25
+global throttle 25s
 global fanspeed 85
 global fansaver yes
 global blinkred idle
@@ -37,96 +37,21 @@ global panelclear 999
 # global reset 1574926031
 
 ## vlans
-vlan 10.0.57.81-81 # 570c84
-vlan 10.0.57.82-82 # 97f21b
-vlan 10.0.20.55-55 # 29bca0
-# vlan 10.0.20.56-56 # 2a7ac0 # POWERED DOWN - NO WORKING HASHBOARDS
-
-## locations
-570c84 location KWRIG00001 # 10.0.57.81
-97f21b location KWRIG00002 # 10.0.57.82
-29bca0 location KWRIG00003 # 10.0.20.55
-# 2a7ac0 location KWRIG00004 # POWERED DOWN - NO WORKING HASHBOARDS
-# extra machines added 12/19/19
-2930ca location KWRIG0XTRA # 10.0.118.1
-# extra machine added 3/9/20
-fc1948 location KWRIG0XTRA # 10.0.50.106 # 14.3 Th/s
 
 ## remove
 
 ## throttle
-# 3/23/20
-570c84 uncork 1584989815
-
-# 2/13/20
-#568737 uncork 1581619298
-
-#1/10/20
-29bca0 uncork 1578682197
-
-29bca0 uncork 1576590388
-29bca0 uncork 1575736383
 
 ## fans
 
 ## reboots
-# 2/21/20
-#568737 reboot 1582313879
-29bca0 reboot 1582313879
-
-# 2/6/20
-29bca0 reboot 1581014766
-
-# 1/28/20
-29bca0 reboot 1580235321
-
-# 1/27/20
-2a7ac0 reboot 1580148751
-
-# 1/22/20
-29bca0 reboot 1579720313
-
-# 1/18/20
-2930ca reboot 1579368035
-
-# 1/17/20
-29bca0 reboot 1579285046
-2a7ac0 reboot 1579285046
-
-# 1/11/20
-570c84 reboot 1578767687
 
 ## retune
-# 2/26/20
-97f21b retune 1582744790
-
-# 2/13/20
-570c84 retune 1581619582
-97f21b retune 1581619582
-
-# 1/11/20
-97f21b retune 1578767596
-2a7ac0 retune 1578767596
 
 ## resets
-# 3/24/20
-97f21b reset 1585082482
-
-# 2/27/20
-# 568737 reset 1582829039
-
-# 2/20/20
-29bca0 reset 1582222228
-
-# 2/6/20
-2a7ac0 reset 1581014686
-
-2a7ac0 reset 1575933160
-2a7ac0 reset 1574953703
 
 ## removals
-global remove 568737
-global remove 4db5d3
+global remove 568737,4db5d3
 
 ## asic password
 asicpass admin
