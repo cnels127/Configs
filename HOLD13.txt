@@ -37,8 +37,8 @@ global panelclear 999
 # global reset 1
 
 ## JKAHN0 (1 s9) 5/1/20
-vlan 10.0.68.7-7 # ef83d4
-ef83d4 location JKAHN00001 # 10.0.68.7
+vlan 10.0.60.1-1 # ef83d4
+ef83d4 location JKAHN00001 # 10.0.60.1
 
 ## asic password
 asicpass admin
