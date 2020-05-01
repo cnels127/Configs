@@ -1,5 +1,6 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
 ## TOTAL EXP HASHRATE 20 s9 @ 16 Th/s = 320 Th/s
+## ON HOLD06 beginning 5/1/20 due to non-payment
 
 global custompanel LKLIN0bit049
 global customer bit49-Russia
@@ -37,201 +38,21 @@ global uncork 1576172898
 # global reset 1
 
 ## vlans
-# vlan 10.0.32.60-60
-# vlan 10.0.59.157-157
-# vlan 10.0.61.18-18
-# vlan 10.0.61.88-88
-# vlan 10.0.61.138-138
-# vlan 10.0.77.28-28
-# vlan 10.0.63.107-107
-# vlan 10.0.65.43-43
-# vlan 10.0.66.161-161
-# vlan 10.0.67.145-145
-# vlan 10.0.68.12-12
-# vlan 10.0.121.125-125
-# vlan 10.0.77.34-34
-# vlan 10.0.77.11-11
-# vlan 10.0.63.37-37
-# vlan 10.0.77.117-117
-# vlan 10.0.59.120-120
-# vlan 10.0.115.48-48
-# vlan 10.0.115.98-98
-# vlan 10.0.116.15-15
-## extra machines added 11/13/19
-# vlan 10.0.59.156-156
-# vlan 10.0.64.4-4
-# vlan 10.0.117.20-20
-# vlan 10.0.117.23-23
-# vlan 10.0.117.27-27
-# vlan 10.0.118.51-51
-# vlan 10.0.119.106-106
-# vlan 10.0.120.105-105
-# extra machines added 12/12/19
-# vlan 10.0.115.92-92
-# vlan 10.0.115.59-59
-# vlan 10.0.51.102-102
-# vlan 10.0.54.41-41
-# extra machines added 3/9/20
-vlan 10.0.30.99-99 # f1c18a
-vlan 10.0.31.16-16 # e45b18
-vlan 10.0.50.78-78 # f510d5
-vlan 10.0.50.97-97 # 2d1f93
 
 ## locations
-16d3c8 location LKLIN00001
-16da58 location LKLIN00002
-b3ad3a location LKLIN00003
-5617cc location LKLIN00004
-596464 location LKLIN00005
-8d08ea location LKLIN00006
-ed846d location LKLIN00007
-2b0498 location LKLIN00008
-5351fb location LKLIN00009
-7106b2 location LKLIN00010
-a410f2 location LKLIN00011
-64c473 location LKLIN00012
-788a72 location LKLIN00013
-5ad5c7 location LKLIN00014
-fc23ff location LKLIN00015
-a28737 location LKLIN00016
-287685 location LKLIN00017
-e97769 location LKLIN00018
-bc5723 location LKLIN00019
-07a57a location LKLIN00020
-# extra machines added 11/13/19
-4447ae location LKLIN0XTRA
-e9aa45 location LKLIN0XTRA
-2f6996 location LKLIN0XTRA
-8a2cec location LKLIN0XTRA
-b26fd7 location LKLIN0XTRA
-54b1c1 location LKLIN0XTRA
-e64930 location LKLIN0XTRA
-67a2f3 location LKLIN0XTRA
-# extra machines added 12/12/19
-7a172b location LKLIN0XTRA # 10.0.115.92
-b126f7 location LKLIN0XTRA # 10.0.115.59
-daed2a location LKLIN0XTRA # 10.0.51.102
-e4749b location LKLIN0XTRA # 10.0.54.41
-# extra machines added 3/9/20 # 40.8 Th/s
-f1c18a location LKILN0XTRA # 10.0.30.99 # 10.2 Th/s
-e45b18 location LKILN0XTRA # 10.0.31.16 # 10.2 Th/s
-f510d5 location LKILN0XTRA # 10.0.50.78 # 10.2 Th/s
-2d1f93 location LKILN0XTRA # 10.0.50.97 # 10.2 Th/s
 
 ## throttle
-# 3/26/20
-788a72 uncork 1585251427
-596464 uncork 1585251427
-# 3/23/20
-f510d5 uncork 1585012370
-# 3/18/20
-f510d5 uncork 1584547436
-# 3/14/20
-07a57a uncork 1584250094
-16d3c8 uncork 1584250094
-# 3/13/20
-5351fb uncork 1584120240
-# 3/12/20
-e97769 uncork 1584040542
-a410f2 uncork 1584040542
-# 3/10/20
-daed2a uncork 1583857152
-b3ad3a uncork 1583857152
-5351fb uncork 1583857152
-e4749b uncork 1583857152
-# 2/21/20
-07a57a uncork 1582313271
-#2/19/20
-07a57a uncork 1582143948
-8d08ea uncork 1582143948
-# 2/18/20
-bc5723 uncork 1582054444
-a410f2 uncork 1582054444
-64c473 uncork 1582054444
-
-fd676b uncork 1581548236
-2b0498 uncork 1581122312
-07a57a uncork 1580929820
-bc5723 uncork 1580929820
-5617cc uncork 1580929820
-bc5723 uncork 1579724985 # 10.0.115.98 lklin00019
-7a172b uncork 1579724985 # 10.0.115.92 lklin0xtra
-64c473 uncork 1579724985 # 10.0.121.125 lklin00012
-54b1c1 uncork 1579724985 # 10.0.118.51 lklin0xtra
-7106b2 uncork 1579724985 # 10.0.67.145 lklin00010
-596464 uncork 1579724985 # 10.0.61.138 lklin00005
-07a57a uncork 1579724985 # 10.0.116.15 lklin00020
 
 ## retunes
-#2/20/20
-8a2cec retune 1582217768
-
-67a2f3 retune 1581548080
 
 ## fans
 
 ## reboots
-54b1c1 reboot 1579726024 # 10.0.118.51 lklin0xtra
-788a72 reboot 1585238685 # 10.0.77.34 lklin00013
-a28737 reboot 1585238685 # 10.0.77.117 lklin00016
-16d3c8 reboot 1585238685 # 10.0.32.60 lklin00001
-16da58 reboot 1585238685 # 10.0.59.157 lklin00002
-b126f7 reboot 1585238685 # 10.0.115.59 lklin0xtra
-8d08ea reboot 1585238685 # 10.0.77.28 lklin00006
-8a2cec reboot 1585238685 # 10.0.117.23 lklin0xtra
-b26fd7 reboot 1585238685 # 10.0.117.27 lklin0xtra
-2f6996 reboot 1585238685 # 10.0.117.20 lklin0xtra
-e64930 reboot 1585238685 # 10.0.119.106 lklin0xtra
-596464 reboot 1585238685 # 10.0.61.138 lklin00005
-2b0498 reboot 1585238685 # 10.0.65.43 lklin00008
-e45b18 reboot 1585238685 # 10.0.31.16 lkiln0xtra
-a410f2 reboot 1585238685 # 10.0.60.50 lklin00011
-f1c18a reboot 1585238685 # 10.0.30.99 lkiln0xtra
-f510d5 reboot 1585238685 # 10.0.50.78 lkiln0xtra
-7a172b reboot 1585238685 # 10.0.115.92 lklin0xtra
-ed846d reboot 1585238685 # 10.0.63.107 lklin00007
-5351fb reboot 1585238685 # 10.0.66.161 lklin00009
-7106b2 reboot 1585238685 # 10.0.67.145 lklin00010
-64c473 reboot 1585238685 # 10.0.121.125 lklin00012
-fc23ff reboot 1585238685 # 10.0.63.37 lklin00015
-287685 reboot 1585238685 # 10.0.59.120 lklin00017
 
 ## resets
-8a2cec reset 1586885180
-# 3/19/20
-b126f7 reset 1584656275
-#2/26/20
-67a2f3 reset 1582746166
-#2/24/20
-07a57a reset 1582566729
-#2/20/20
-07a57a reset 1582217768
 
-b26fd7 reset 1581536616
-e9aa45 reset 1581032634
-a28737 reset 1581032634
-54b1c1 reset 1581032634
-e64930 reset 1581032634
-8a2cec reset 1581032634
-a410f2 reset 1581032634
-ed846d reset 1580940570
-e64930 reset 1580940570
-67a2f3 reset 1580940570
-b26fd7 reset 1580940570
-a410f2 reset 1580940570
-8a2cec reset 1580940570
-67a2f3 reset 1577172109
-54b1c1 reset 1577170874
-bc5723 reset 1579724955 # 10.0.115.98 lklin00019
-7a172b reset 1579724955 # 10.0.115.92 lklin0xtra
-64c473 reset 1579724955 # 10.0.121.125 lklin00012
-54b1c1 reset 1579724955 # 10.0.118.51 lklin0xtra
-7106b2 reset 1579724955 # 10.0.67.145 lklin00010
-596464 reset 1579724955 # 10.0.61.138 lklin00005
-07a57a reset 1579724955 # 10.0.116.15 lklin00020
+## removals
+global remove 54b1c1,e9aa45,67a2f3
 
 ## asic password
 asicpass admin
-
-##remove
-global remove 54b1c1,e9aa45,67a2f3
