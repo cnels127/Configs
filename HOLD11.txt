@@ -1,0 +1,39 @@
+## instructions available at: https://asicseer.com/page/kb#writing-config
+
+global custompanel HOLD11bit049
+global customer bit49-Russia
+
+global poolname1 profit.pool.bitcoin.com:3333
+global username1 bit49xHOLD11
+global poolpass1 123
+global sendworker1 yes
+global poolname2 eu.ss.btc.com:1800
+global username2 bit49euro
+global poolpass2 123
+global sendworker2 yes
+global poolname3 ru-west.stratum.slushpool.com:3333
+global username3 bit49
+global poolpass3 123
+global sendworker3 yes
+
+global asicboost yes
+global autotune yes
+global maxwatts 1450
+global autoupdate yes
+global allowed yes
+global maxtemp 90 1
+global throttle 25
+global fanspeed 85
+global fansaver yes
+global blinkred idle
+global blinkgreen rapid
+global panelclear 999
+# global panelpass gj83Nkgikg
+
+# global retune 1
+# global reboot 1
+# global uncork 1
+# global reset 1
+
+## asic password
+asicpass admin
