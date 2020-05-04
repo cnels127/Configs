@@ -1,6 +1,5 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
 ##  2 s9 @ 16.0 Th/s = 32.0 Th/s
-## CSOU00 moved to HOLD11 5/1/20 due to non-payment
 
 global custompanel CSOU00bit049
 global customer bit49-Russia
@@ -38,8 +37,12 @@ global panelclear 999
 # global panelpass gj83Nkgikg
 
 ## vlans
+vlan 10.0.117.19-19 # 1ff15c
+vlan 10.0.117.21-21 # e9fdf8
 
 ## locations
+1ff15c location CSOU000001 # 10.0.117.19
+e9fdf8 location CSOU000002 # 10.0.117.21
 
 ## retune
 
@@ -48,6 +51,9 @@ global panelclear 999
 ## reboots
 
 ## resets
+
+## removals
+global remove fd3880,bcb846,4f86dd
 
 ## asic password
 asicpass admin
