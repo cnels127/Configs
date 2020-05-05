@@ -34,53 +34,44 @@ global panelclear 999
 # global reboot 1573583520 # 1
 global uncork 1577119673
 # global reset 1
-# global panelpass gj83Nkgikg
 
 ## vlans
-vlan 10.0.54.142-144
-vlan 10.0.56.106-106
-vlan 10.0.56.115-115
-vlan 10.0.56.117-117
+vlan 10.0.54.142-142 # dc1171
+vlan 10.0.54.143-143 # c5f2b7
+vlan 10.0.54.144-144 # 87a39c
+vlan 10.0.56.106-106 # df6f8a
+vlan 10.0.56.115-115 # 44e8a9
+vlan 10.0.56.117-117 # 0a29cc
+vlan 10.0.50.6-6 # 43c7db
+vlan 10.0.63.49-49 # d156c9
 
 ## locations
-dc1171 location ARAMA00001
-c5f2b7 location ARAMA00002
-87a39c location ARAMA00003
-df6f8a location ARAMA00004
-44e8a9 location ARAMA00005
-0a29cc location ARAMA00006
-# extra machine added 12/23/19
-d156c9 location ARAMA0XTRA # 10.0.63.49
-# extra machine added 3/24/20
-43c7db location ARAMA0XTRA # 10.0.50.6 # 5.1 Th/s
+dc1171 location ARAMA00001 # 10.0.54.142
+c5f2b7 location ARAMA00002 # 10.0.54.143
+87a39c location ARAMA00003 # 10.0.54.144
+df6f8a location ARAMA00004 # 10.0.56.106
+44e8a9 location ARAMA00005 # 10.0.56.115
+0a29cc location ARAMA00006 # 10.0.56.117
+# extra machines
+d156c9 location ARAMA0XTRA # 10.0.63.49 # 12/23/19 # 
+43c7db location ARAMA0XTRA # 10.0.50.6 # 3/24/20 # 5.1 Th/s
+
+## tuning
 
 ## throttle
-# 3/25/20
-87a39c uncork 1585182280
-c5f2b7 uncork 1585182280
-# 3/24/20
-dc1171 uncork 1585066152
-d156c9 uncork 1585066152
-# 3/17/20
-87a39c uncork 1584479207
-
-87a39c uncork 1583258042
-dc1171 uncork 1579307751
-c5f2b7 uncork 1579307751
-87a39c uncork 1579307751
-87a39c uncork 1577125207
-dc1171 uncork 1577125207
 
 ## fans
 
 ## reboots
 
 ## resets
-0a29cc reset 1579538892
-d156c9 reset 1579307751
-dc1171 reset 1574118867
-87a39c reset 1574118867
-c5f2b7 reset 1573945010
 
-## asic password
+## removals
+
+## VPS pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
+## Remote pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCovql1bo+pkGUoq+zckj82BiW5CIBbxq1+wfET94ULY9b/BJzZHFxxjX79+aG4oilCpUKHFTJHv8Ox3IvtPxWGyx5IpV+avJqCO66+7/aIoG+Cqcz7f9pZPhK61qOG9AQsLNaZHaaB+jif7qCmXiDB1/eDzKHIh2UHdEnZSkcTrwdU40yA4JhenTAMJAxITopjAfURgJtTOkr9eBIVM6Xj/0x/f9ZUvL5jSLNDL9ujce928zCwvcMND+lrB3q5VgMluwihMUWZ3gJfsvZdHwPVXDP+qo1DaIP/oJ/rfD/ef9KkmYTYS3+RaYwGEJoGd0uHCUzSIl3oUJQg6kj4H22p
+# global panelpass gj83Nkgikg
 asicpass admin
+global logo https://raw.githubusercontent.com/cnels127/Configs/master/Bit49(2).png
