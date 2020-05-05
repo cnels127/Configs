@@ -36,35 +36,31 @@ global uncork 1588100175
 # global reset 1
 # global reset 1574280045
 
-# global panelpass gj83Nkgikg
-
 ## vlans
-# vlan 10.0.68.40-40
-# vlan 10.0.68.41-41
+vlan 10.0.117.44-44 # 815d57
+vlan 10.0.117.45-45 # f69de1
 
 ## locations
-815d57 location BBENS00001
-f69de1 location BBENS00002
+815d57 location BBENS00001 # 10.0.117.44
+f69de1 location BBENS00002 # 10.0.117.45
 
 ## throttle
-f69de1 uncork 1584025050
-f5432f uncork 1584025050
 
 ## tuning
-f69de1 retune 1583796437
 
 ## fans
 
 ## reboot
-f69de1 reboot 1585247948
-f5432f reboot 1585247948
 
 ## reset
-f69de1 reset 1583446849
-815d57 reset 1583446849
 
-# s_remove generated on Dec 11 2019 21:17:27 utc: 1576099047
-global remove eba0c1,b126f7
+## removals
+global remove eba0c1,b126f7,f5432f
 
-## asic password
+## VPS pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
+## Remote pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCovql1bo+pkGUoq+zckj82BiW5CIBbxq1+wfET94ULY9b/BJzZHFxxjX79+aG4oilCpUKHFTJHv8Ox3IvtPxWGyx5IpV+avJqCO66+7/aIoG+Cqcz7f9pZPhK61qOG9AQsLNaZHaaB+jif7qCmXiDB1/eDzKHIh2UHdEnZSkcTrwdU40yA4JhenTAMJAxITopjAfURgJtTOkr9eBIVM6Xj/0x/f9ZUvL5jSLNDL9ujce928zCwvcMND+lrB3q5VgMluwihMUWZ3gJfsvZdHwPVXDP+qo1DaIP/oJ/rfD/ef9KkmYTYS3+RaYwGEJoGd0uHCUzSIl3oUJQg6kj4H22p
+# global panelpass gj83Nkgikg
 asicpass admin
+global logo https://raw.githubusercontent.com/cnels127/Configs/master/Bit49(2).png
