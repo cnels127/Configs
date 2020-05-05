@@ -3,6 +3,7 @@
 
 global custompanel ABEAU0bit049
 global customer bit49-Russia
+global panelpass gj83Nkgikg
 
 global poolname1 connect.pool.bitcoin.com:3333
 global username1 utbeauchamp
@@ -31,28 +32,23 @@ global blinkgreen rapid
 global panelclear 999
 
 # global retune 2
-# global reboot 1
-global reboot 1579028689
-global uncork 1579029558
-global uncork 1575405242
+# global reboot 1579028689
+# global uncork 1579029558
 # global reset 1
-# global panelpass gj83Nkgikg
 
 ## vlans
-vlan 10.0.55.120-120
-vlan 10.0.55.137-137
-vlan 10.0.56.68-68
+vlan 10.0.55.120-120 # 35cf73
+vlan 10.0.55.137-137 # a26081
+vlan 10.0.56.68-68 # 64c124
 # extra machines added 11/25/19
-vlan 10.0.53.161-161
-vlan 10.0.54.2-2
+vlan 10.0.53.161-161 # 123f64
 
 ## locations
-35cf73 location ABEAU00001
-a26081 location ABEAU00002
-64c124 location ABEAU00003
+35cf73 location ABEAU00001 # 10.0.55.120
+a26081 location ABEAU00002 # 10.0.55.137
+64c124 location ABEAU00003 # 10.0.56.68
 # extra machines added 11/25/19
 123f64 location ABEAU0XTRA
-2e3c21 location ABEAU0XTRA
 
 ## throttle
 35cf73 uncork 1585266154
@@ -72,5 +68,5 @@ a26081 reset 1575933354
 # 2e3c21 scrapped for parts
 global remove 2e3c21
 
-## asic password
-asicpass admin
+## ssh pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
