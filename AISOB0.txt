@@ -34,112 +34,48 @@ global panelclear 999
 # global reboot 2
 # global uncork 1
 # global reset 1573575813
-# global panelpass gj83Nkgikg
 
 ## vlans
-vlan 10.0.58.157-157
-vlan 10.0.64.72-72
-vlan 10.0.115.17-17
-vlan 10.0.115.94-94
-#vlan 10.0.116.48-48 # POWERED DOWN - NO WORKING HASHBOARDS
-vlan 10.0.119.45-45
+vlan 10.0.58.157-157 # 6db0b2
+vlan 10.0.64.72-72 # e03581
+vlan 10.0.115.17-17 # 48080d
+vlan 10.0.115.94-94 # ef873d
+# vlan 10.0.116.48-48 # 7f4b2c # POWERED DOWN - NO WORKING HASHBOARDS
+vlan 10.0.119.45-45 # 138188
+# extra machines
+vlan 10.0.50.9-9 # c686a3
+vlan 10.0.77.7-7 # 62c02a
+vlan 10.0.121.26-26 # 112bcf
 
 ## locations
-6db0b2 location AISOB00001
-e03581 location AISOB00002
-48080d location AISOB00003
-ef873d location AISOB00004
-7f4b2c location AISOB00005
-138188 location AISOB00006
-# extra machine added 12/12/19
+6db0b2 location AISOB00001 # 10.0.58.157
+e03581 location AISOB00002 # 10.0.64.72
+48080d location AISOB00003 # 10.0.115.17
+ef873d location AISOB00004 # 10.0.115.94
+# 7f4b2c location AISOB00005 # 10.0.116.48 # POWERED DOWN - NO WORKING HASHBOARDS
+138188 location AISOB00006 # 10.0.119.45
+# extra machines
+c686a3 location AISOB0XTRA # 10.0.50.9
 62c02a location AISOB0XTRA # 10.0.77.7
 112bcf location AISOB0XTRA # 10.0.121.26
-# extra machine added 3/9/20
-b6d960 location AISOB0XTRA # 10.0.50.140 # 7.9 Th/s
-# extra machine added 3/24/20
-c686a3 location AISOB0XTRA # 10.0.50.9 # 16.0 Th/s
 
 ## throttle
-# 3/25/20
-112bcf uncork 1585159244
-c686a3 uncork 1585159244
-
-# 2/18/20
-112bcf uncork 1582053490
-7f4b2c uncork 1582053490
-
-# 1/31/20
-ef873d uncork 1580494736
-e03581 uncork 1580494736
-
-# 1/21/20
-e03581 uncork 1579634638
-112bcf uncork 1579634638
-138188 uncork 1579634638
-
-# 1/10/20
-7f4b2c uncork 1578681357
-
-138188 uncork 1577904701
-
-7f4b2c uncork 1577381993
-138188 uncork 1577381993
-
-ef873d uncork 1576685714
-48080d uncork 1574890668
-6db0b2 uncork 1574887541
-e03581 uncork 1574887541
-7f4b2c uncork 1574887541
 
 ## fans
 
 ## reboots
-# 3/3/20
-48080d reboot 1583261489
-
-# 1/30/20
-ef873d reboot 1580408999
-
-# 1/17/20
-112bcf reboot 1579289297
-
-# 1/10/20
-138188 reboot 1578682282
 
 ## retune
-# 2/24/20
-62c02a retune 1582574137
-
-# 2/19/20
-62c02a retune 1582135625
-
-# 1/28/20
-62c02a retune 1580235033
-
-# 1/22/20
-ef873d retune 1579719985
-62c02a retune 1579719985
-6db0b2 retune 1579719985
-
-62c02a retune 1578769042
-ef873d retune 1578769042
-6db0b2 retune 1578769042
-e03581 retune 1578769042
 
 ## resets
-# 3/24/20
-112bcf reset 1585083060
 
-# 2/21/20
-62c02a reset 1582315099
+## removals
+global remove b6d960
 
-112bcf reset 1579307338
-62c02a reset 1577381993
-e03581 reset 1577381993
-ef873d reset 1577381993
-
-6db0b2 reset 1575588847
-138188 reset 1574872111
-
-## asic password
+## VPS pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
+## Remote pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCovql1bo+pkGUoq+zckj82BiW5CIBbxq1+wfET94ULY9b/BJzZHFxxjX79+aG4oilCpUKHFTJHv8Ox3IvtPxWGyx5IpV+avJqCO66+7/aIoG+Cqcz7f9pZPhK61qOG9AQsLNaZHaaB+jif7qCmXiDB1/eDzKHIh2UHdEnZSkcTrwdU40yA4JhenTAMJAxITopjAfURgJtTOkr9eBIVM6Xj/0x/f9ZUvL5jSLNDL9ujce928zCwvcMND+lrB3q5VgMluwihMUWZ3gJfsvZdHwPVXDP+qo1DaIP/oJ/rfD/ef9KkmYTYS3+RaYwGEJoGd0uHCUzSIl3oUJQg6kj4H22p
+# global panelpass gj83Nkgikg
 asicpass admin
+global logo https://raw.githubusercontent.com/cnels127/Configs/master/Bit49(2).png
