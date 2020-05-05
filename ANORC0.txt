@@ -37,226 +37,52 @@ global uncork 1576094866
 # global reset 1
 
 ## vlans
-vlan 10.0.68.92-101
+vlan 10.0.62.136-136 # 29b205
+vlan 10.0.63.145-145 # 07c674
+vlan 10.0.64.109-109 # 17fb06
+vlan 10.0.64.113-113 # f5e34e
+vlan 10.0.64.122-122 # d0157c
+# vlan 10.0.64.132-132 # 0796c0 # POWERED DOWN - NO WORKING HASHBOARDS
+vlan 10.0.65.110-110 # efd6b3
+vlan 10.0.65.160-160 # 3b0926
+vlan 10.0.67.152-152 # ce82d1
+vlan 10.0.67.154-154 # 88093b
+# extra machines
+vlan 10.3.22.17-17 # 0de34a
+vlan 10.3.21.86-86 # 75f914
 
 ## locations
-29b205 location ANORC00001
-07c674 location ANORC00002
-17fb06 location ANORC00003
-f5e34e location ANORC00004
-d0157c location ANORC00005
-0796c0 location ANORC00006
-efd6b3 location ANORC00007
-3b0926 location ANORC00008
-ce82d1 location ANORC00009
-88093b location ANORC00010
-# extra machine added 3/24/20 # 
-75f914 location ANORC0XTRA # 10.0.32.12 # 15.8 Th/s
-0de34a location ANORC0XTRA # 10.0.31.145 # 5.0 Th/s
+29b205 location ANORC00001 # 10.0.62.136
+07c674 location ANORC00002 # 10.0.63.145
+17fb06 location ANORC00003 # 10.0.64.109
+f5e34e location ANORC00004 # 10.0.64.113
+d0157c location ANORC00005 # 10.0.64.122
+# 0796c0 location ANORC00006 # 10.0.64.132 # POWERED DOWN - NO WORKING HASHBOARDS
+efd6b3 location ANORC00007 # 10.0.65.110
+3b0926 location ANORC00008 # 10.0.65.160
+ce82d1 location ANORC00009 # 10.0.67.152
+88093b location ANORC00010 # 10.0.67.154
+# extra machines added 3/24/20 # 20.8 Th/s
+0de34a location ANORC0XTRA # 10.3.22.17 # 15.8 Th/s
+75f914 location ANORC0XTRA # 10.3.21.86 # 5.0 Th/s
 
 ## throttle
-# 3/25/20
-3b0926 uncork 1585159299
-
-# 3/17/20
-ce82d1 uncork 1584461182
-
-# 3/16/20
-d0157c uncork 1584376556
-efd6b3 uncork 1584376556
-
-# 2/28/20
-0796c0 uncork 1582905975
-efd6b3 uncork 1582905975
-
-# 2/27/20
-17fb06 uncork 1582827282
-29b205 uncork 1582827282
-efd6b3 uncork 1582827282
-0796c0 uncork 1582827282
-
-# 2/18/20
-0796c0 uncork 1582053602
-3b0926 uncork 1582053602
-
-# 2/14/20
-3b0926 uncork 1581705514
-
-# 2/13/20
-29b205 uncork 1581617989
-
-# 2/12/20
-07c674 uncork 1581530744
-efd6b3 uncork 1581530744
-ce82d1 uncork 1581530744
-
-# 2/10/20
-efd6b3 uncork 1581373781
-
-# 2/7/20
-07c674 uncork 1581098952
-17fb06 uncork 1581098952
-
-# 2/6/20
-0796c0 uncork 1581014508
-
-# 2/3/20
-29b205 uncork 1580755168
-0796c0 uncork 1580755168
-
-# 2/1/20
-07c674 uncork 1580575649
-17fb06 uncork 1580575649
-
-# 1/28/20
-29b205 uncork 1580237858
-07c674 uncork 1580237858
-0796c0 uncork 1580237858
-
-# 1/23/20
-17fb06 uncork 1579805120
-
-# 1/17/20
-29b205 uncork 1579289383
-17fb06 uncork 1579289383
-0796c0 uncork 1579289383
-
-# 1/13/20
-3b0926 uncork 1578941296
-
-# 1/10/20
-17fb06 uncork 1578681390
-3b0926 uncork 1578681390
-efd6b3 uncork 1578681390
-29b205 uncork 1578681390
-88093b uncork 1578681390
-
-# 1/8/20
-17fb06 uncork 1578511887
-
-07c674 uncork 1577382484
-
-17fb06 uncork 1576684196
-0796c0 uncork 1576684196
-3b0926 uncork 1576684196
 
 ## fans
 
 ## reboots
-# 3/11/20
-17fb06 reboot 1583948797
-
-# 3/2/20
-0796c0 reboot 1583173904
-
-# 2/14/20
-0796c0 reboot 1581705479
-
-# 2/13/20
-88093b reboot 1581618052
-
-# 2/4/20
-88093b reboot 1580841487
-
-# 2/3/20
-07c674 reboot 1580756388
-
-# 1/18/20
-88093b reboot 1579368724
-
-# 1/17/20
-07c674 reboot 1579289457
-
-# 1/15/20
-17fb06 reboot 1579116125
-
-# 1/14/20
-07c674 reboot 1579028988
-0796c0 reboot 1579028988
-29b205 reboot 1579028988
-
-# 1/13/20
-88093b reboot 1578941360
-
-# 1/8/20
-88093b reboot 1578511929
 
 ## retune
-# 3/27/20
-3b0926 retune 1585332147
-f5e34e retune 1585332147
-88093b retune 1585332147
-17fb06 retune 1585332147
-
-# 2/28/20
-f5e34e retune 1582906021
-
-# 2/24/20
-0796c0 retune 1582574081
-
-# 2/21/20
-f5e34e retune 1582316322
-
-# 2/14/20
-f5e34e retune 1581705554
-
-# 2/13/20
-efd6b3 retune 1581618120
-3b0926 retune 1581618120
-
-# 2/12/20
-0796c0 retune 1581530801
-29b205 retune 1581530801
-f5e34e retune 1581530801
-
-# 1/22/20
-3b0926 retune 1579720146
-
-# 1/11/20
-88093b retune 1578768194
-ce82d1 retune 1578768194
-07c674 retune 1578768194
-f5e34e retune 1578768194
-0796c0 retune 1578768194
-3b0926 retune 1578768194
 
 ## resets
-# 3/23/20
-ce82d1 reset 1584978753
-
-# 3/6/20
-0796c0 reset 1583507721
-
-# 3/3/20
-d0157c reset 1583261919
-07c674 reset 1583261919
-efd6b3 reset 1583261919
-0796c0 reset 1583261919
-
-# 2/21/20
-3b0926 reset 1582316241
-
-# 1/15/20
-f5e34e reset 1579114494
-07c674 reset 1579114494
-
-efd6b3 reset 1577171398
-3b0926 reset 1577171398
-0796c0 reset 1577171398
-17fb06 reset 1577171398
-07c674 reset 1575306755
-3b0926 reset 1574954015
-0796c0 reset 1574894837
-d0157c reset 1574894837
-3b0926 reset 1574894837
-f5e34e reset 1574894837
-88093b reset 1574894837
-07c674 reset 1574894837
-efd6b3 reset 1574894837
-ce82d1 reset 1573863025
 
 ## removals
 global remove 194547,d471c4
 
-## asic password
+## VPS pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
+## Remote pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCovql1bo+pkGUoq+zckj82BiW5CIBbxq1+wfET94ULY9b/BJzZHFxxjX79+aG4oilCpUKHFTJHv8Ox3IvtPxWGyx5IpV+avJqCO66+7/aIoG+Cqcz7f9pZPhK61qOG9AQsLNaZHaaB+jif7qCmXiDB1/eDzKHIh2UHdEnZSkcTrwdU40yA4JhenTAMJAxITopjAfURgJtTOkr9eBIVM6Xj/0x/f9ZUvL5jSLNDL9ujce928zCwvcMND+lrB3q5VgMluwihMUWZ3gJfsvZdHwPVXDP+qo1DaIP/oJ/rfD/ef9KkmYTYS3+RaYwGEJoGd0uHCUzSIl3oUJQg6kj4H22p
+# global panelpass gj83Nkgikg
 asicpass admin
+global logo https://raw.githubusercontent.com/cnels127/Configs/master/Bit49(2).png
