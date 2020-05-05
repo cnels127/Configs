@@ -3,7 +3,6 @@
 
 global custompanel ABEAU0bit049
 global customer bit49-Russia
-global panelpass gj83Nkgikg
 
 global poolname1 connect.pool.bitcoin.com:3333
 global username1 utbeauchamp
@@ -29,7 +28,6 @@ global fanspeed 85
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
-global panelclear 999
 
 # global retune 2
 # global reboot 1579028689
@@ -70,3 +68,7 @@ global remove 2e3c21
 
 ## ssh pubkey
 pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
+
+# global panelpass gj83Nkgikg
+global panelclear 999
+global logo https://raw.githubusercontent.com/cnels127/Configs/master/Bit49.png
