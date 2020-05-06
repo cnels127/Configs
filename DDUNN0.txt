@@ -34,130 +34,72 @@ global panelclear 999
 # global reboot # 1
 global uncork 1576167431
 # global reset 1
-# global panelpass gj83Nkgikg
 
 ## vlans
-vlan 10.0.54.160-161
-vlan 10.0.55.1-4
-vlan 10.0.55.86-86
-vlan 10.0.55.112-112
-vlan 10.0.55.119-119
-vlan 10.0.55.139-139
-vlan 10.0.55.147-148
-vlan 10.0.56.53-53
-vlan 10.0.56.69-69
-vlan 10.0.56.86-86
-vlan 10.0.56.110-110
-vlan 10.0.56.112-112
-vlan 10.0.56.114-114
+vlan 10.0.54.160-160 # 5594a0
+vlan 10.0.54.161-161 # ee9f37
+vlan 10.0.55.1-1 # 14da93
+vlan 10.0.55.2-2 # 9a204a
+vlan 10.0.55.3-3 # 4c1b54
+vlan 10.0.55.4-4 # 9da716
+vlan 10.0.55.86-86 # f5839e
+vlan 10.0.55.112-112 # 23c698
+vlan 10.0.55.119-119 # 733b65
+vlan 10.0.55.139-139 # 947334
+vlan 10.0.55.147-147 # 15a0ef
+vlan 10.0.55.148-148 # 0f26d2
+vlan 10.0.56.53-53 # 46781e
+vlan 10.0.56.86-86 # 968831
+vlan 10.0.56.110-110 # eef025
+vlan 10.0.56.112-112 # 787c22
+vlan 10.0.56.114-114 # 58df28
+vlan 10.3.22.93-93 # 669175 # extra added
+vlan 10.0.50.161-161 # 140b62 # extra added
+vlan 10.0.51.71-71 # 153e95 # extra added
+vlan 10.0.51.76-76 # fcb53d # extra added
+vlan 10.0.51.69-69 # a58136 # extra added
 
 ## locations
-5594a0 location DDUNN00001
-ee9f37 location DDUNN00002
-14da93 location DDUNN00003
-9a204a location DDUNN00004
-4c1b54 location DDUNN00005
-9da716 location DDUNN00006
-f5839e location DDUNN00007
-23c698 location DDUNN00008
-733b65 location DDUNN00009
-947334 location DDUNN00010
-15a0ef location DDUNN00011
-0f26d2 location DDUNN00012
-46781e location DDUNN00013
-13424f location DDUNN00014
-968831 location DDUNN00015
-eef025 location DDUNN00016
-787c22 location DDUNN00017
-58df28 location DDUNN00018
-# extra machines added 12/9/19
-140b62 location DDUNN0XTRA # 10.0.50.161
-62c412 location DDUNN0XTRA # 10.0.51.64
-a58136 location DDUNN0XTRA # 10.0.51.69
-153e95 location DDUNN0XTRA # 10.0.51.71
-fcb53d location DDUNN0XTRA # 10.0.51.76
-# extra machine added 3/9/20
-669175 location DDUNN0XTRA # 10.0.31.11 # 15.2 Th/s
+5594a0 location DDUNN00001 # 10.0.54.160
+ee9f37 location DDUNN00002 # 10.0.54.161
+14da93 location DDUNN00003 # 10.0.55.1
+9a204a location DDUNN00004 # 10.0.55.2
+4c1b54 location DDUNN00005 # 10.0.55.3
+9da716 location DDUNN00006 # 10.0.55.4
+f5839e location DDUNN00007 # 10.0.55.86
+23c698 location DDUNN00008 # 10.0.55.112
+733b65 location DDUNN00009 # 10.0.55.119
+947334 location DDUNN00010 # 10.0.55.139
+15a0ef location DDUNN00011 # 10.0.55.147
+0f26d2 location DDUNN00012 # 10.0.55.148
+46781e location DDUNN00013 # 10.0.56.53
+968831 location DDUNN00015 # 10.0.56.86
+eef025 location DDUNN00016 # 10.0.56.110
+787c22 location DDUNN00017 # 10.0.56.112
+58df28 location DDUNN00018 # 10.0.56.114
+669175 location DDUNN0XTRA # 10.3.22.93 # extra added
+140b62 location DDUNN0XTRA # 10.0.50.161 # extra added
+153e95 location DDUNN0XTRA # 10.0.51.71 # extra added
+fcb53d location DDUNN0XTRA # 10.0.51.76 # extra added
+a58136 location DDUNN0XTRA # 10.0.51.69 # extra added
 
-##remove
-global remove 62c412
+## tuning
 
 ## throttle
-# 3/26/20
-a58136 uncork 1585242653
-58df28 uncork 1585242653
-# 3/23/20
-a58136 uncork 1584996964
-f5839e uncork 1584996964
-787c22 uncork 1584996964
-968831 uncork 1584996964
-# 3/12/20
-968831 uncork 1584039301
-ee9f37 uncork 1584039301
-787c22 uncork 1584039301
-# 3/10/20
-733b65 uncork 1583856389
-ee9f37 uncork 1583856389
-# 2/26/20
-153e95 uncork 1582751732
-
-ee9f37 uncork 1581709693
-000122 uncork 1581446652
-ee9f37 uncork 1581031386
-e234df uncork 1580946088
-a58136 uncork 1580837413
-5594a0 uncork 1580837413
-13424f uncork 1580501205
-787c22 uncork 1580501205
-a58136 uncork 1580501205
-5594a0 uncork 1580501205
-733b65 uncork 1580501205
-968831 uncork 1580501205
-# s_uncork generated on Jan 10 2020 22:36:33 utc: 1578695793
-733b65 uncork 1578695793 # 10.0.55.119 ddunn00009
-f5839e uncork 1578695793 # 10.0.55.86 ddunn00007
-947334 uncork 1578695793 # 10.0.55.139 ddunn00010
-5594a0 uncork 1578695793 # 10.0.54.160 ddunn00001
-a58136 uncork 1578695793 # 10.0.51.69 ddunn0xtra
-153e95 uncork 1578695793 # 10.0.51.71 ddunn0xtra
 
 ## fans
 
 ## reboots
-13424f reboot 1585237597 # 10.0.56.69 ddunn00014
-58df28 reboot 1585237597 # 10.0.56.114 ddunn00018
-46781e reboot 1585237597 # 10.0.56.53 ddunn00013
-ee9f37 reboot 1585237597 # 10.0.54.161 ddunn00002
-fcb53d reboot 1585237597 # 10.0.51.76 ddunn0xtra
-eef025 reboot 1585237597 # 10.0.56.110 ddunn00016
-0f26d2 reboot 1585237597 # 10.0.55.148 ddunn00012
-a58136 reboot 1585237597 # 10.0.51.69 ddunn0xtra
-23c698 reboot 1585237597 # 10.0.55.112 ddunn00008
-787c22 reboot 1585237597 # 10.0.56.112 ddunn00017
 
 ## resets
-ee9f37 reset 1581446527
-46781e reset 1581031862
-14da93 reset 1581031862
-13424f reset 1581031708
-62c412 reset 1581031708
-46781e reset 1580946088
-ee9f37 reset 1580838152
-23c698 reset 1580837413
-ee9f37 reset 1580501205
-ee9f37 reset 1579536570
-62c412 reset 1579308847
-fcb53d reset 1579308847
-968831 reset 1577217344
-787c22 reset 1576120909
-0f26d2 reset 1576120909
-968831 reset 1575670470 # 10.0.56.86 ddunn00015
-58df28 reset 1575670470 # 10.0.56.114 ddunn00018
-733b65 reset 1575670470 # 10.0.55.119 ddunn00009
-ee9f37 reset 1575670470 # 10.0.54.161 ddunn00002
-f5839e reset 1575670470 # 10.0.55.86 ddunn00007
-15a0ef reset 1575670470 # 10.0.55.147 ddunn00011
-5594a0 reset 1575670470 # 10.0.54.160 ddunn00001
 
-## asic password
+## removals
+global remove 62c412
+
+## VPS pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
+## Remote pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCovql1bo+pkGUoq+zckj82BiW5CIBbxq1+wfET94ULY9b/BJzZHFxxjX79+aG4oilCpUKHFTJHv8Ox3IvtPxWGyx5IpV+avJqCO66+7/aIoG+Cqcz7f9pZPhK61qOG9AQsLNaZHaaB+jif7qCmXiDB1/eDzKHIh2UHdEnZSkcTrwdU40yA4JhenTAMJAxITopjAfURgJtTOkr9eBIVM6Xj/0x/f9ZUvL5jSLNDL9ujce928zCwvcMND+lrB3q5VgMluwihMUWZ3gJfsvZdHwPVXDP+qo1DaIP/oJ/rfD/ef9KkmYTYS3+RaYwGEJoGd0uHCUzSIl3oUJQg6kj4H22p
+# global panelpass gj83Nkgikg
 asicpass admin
+global logo https://raw.githubusercontent.com/cnels127/Configs/master/Bit49(2).png
