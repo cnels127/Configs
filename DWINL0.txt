@@ -29,83 +29,40 @@ global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 global panelclear 999
-# global panelpass gj83Nkgikg
 
 # global retune 1
-# global reboot 1573583855 # 1
+# global reboot 1573583855
 # global uncork 1
-global reset 1579201827
+# global reset 1579201827
 
 ## vlans
-vlan 10.0.63.91-91
+# vlan 10.0.63.91-91 # bdc4b8 # POWERED DOWN - NO WORKING HASHBOARDS
 vlan 10.0.66.161-161
-vlan 10.0.67.82-82
+# vlan 10.0.67.82-82 # POWERED DOWN - NO WORKING HASHBOARDS
+vlan 10.0.56.41-41 # 271937 # extra added 3/6/20 # 16.3 Th/s
+vlan 10.0.53.157-157 # 13b57d # extra added 11/23/19
 
 ## locations
-bdc4b8 location DWINL00001
-764024 location DWINL00002
-c8aece location DWINL00003
-# extra machine added 11/23/19
-13b57d location DWINL0XTRA
-# extra machine added 3/6/20
-271937 location DWINL0XTRA # 10.0.56.41 # 16.3 Th/s
+# bdc4b8 location DWINL00001 # 10.0.63.91 # POWERED DOWN - NO WORKING HASHBOARDS
+764024 location DWINL00002 # 10.0.66.162
+# c8aece location DWINL00003 # 10.0.67.82 # POWERED DOWN - NO WORKING HASHBOARDS
+271937 location DWINL0XTRA # 10.0.56.41 # extra added 3/6/20 # 16.3 Th/s
+13b57d location DWINL0XTRA # 10.0.53.157 # extra added 11/23/19 # 
+
+## tuning
 
 ## throttle
-# 3/12/20
-764024 uncork 1584043236
-# 3/10/20
-764024 uncork 1583858569
-# 3/5/20
-764024 uncork 1583464436
-# 2/18/20
-cc79f4 uncork 1582053751
-5f07ce uncork 1582053751
-# 2/18/20
-764024 uncork 1582053653
-
-bdc4b8 uncork 1581036169
-764024 uncork 1581036169
-c8aece uncork 1579201690 # 10.0.67.82 dwinl00003
-13b57d uncork 1579201690 # 10.0.53.157 dwinl0xtra
-bdc4b8 uncork 1579201690 # 10.0.63.91 dwinl00001
-764024 uncork 1579201690 # 10.0.66.162 dwinl00002
-c8aece uncork 1577823808 # 10.0.67.82 dwinl00003
-13b57d uncork 1577823808 # 10.0.53.157 dwinl0xtra
-bdc4b8 uncork 1577823808 # 10.0.63.91 dwinl00001
-764024 uncork 1577823808 # 10.0.66.162 dwinl00002
-
-80a659 uncork 1575315172 # 10.0.68.57 hfisc00004
-424037 uncork 1575315172 # 10.0.59.151 hfisc00021
-bca239 uncork 1575315172 # 10.0.60.33 hfisc00022
-c8c445 uncork 1575315172 # 10.0.61.4 hfisc00029
-540742 uncork 1575315172 # 10.0.58.10 hfisc00033
-267c54 uncork 1575315172 # 10.0.61.16 hfisc00037
-bf90a6 uncork 1575315172 # 10.0.65.13 hfisc00044
-c8aece uncork 1575314498 # 10.0.67.82 dwinl00003
-bdc4b8 uncork 1575314498 # 10.0.63.91 dwinl00001
-764024 uncork 1575314498 # 10.0.66.162 dwinl00002
 
 ## fans
 
 ## reboots
-80a659 reboot 1575315172 # 10.0.68.57 hfisc00004
-424037 reboot 1575315172 # 10.0.59.151 hfisc00021
-bca239 reboot 1575315172 # 10.0.60.33 hfisc00022
-c8c445 reboot 1575315172 # 10.0.61.4 hfisc00029
-540742 reboot 1575315172 # 10.0.58.10 hfisc00033
-267c54 reboot 1575315172 # 10.0.61.16 hfisc00037
-bf90a6 reboot 1575315172 # 10.0.65.13 hfisc00044
-c8aece reboot 1580118600
-13b57d reboot 1580144086
 
 ## resets
-# 3/2/20
-c8aece reset 1583170532
-bdc4b8 reset 1583170532
 
-bdc4b8 reset 1581113716
-764024 reset 1581113716
-
-## asic password
+## VPS pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
+## Remote pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCovql1bo+pkGUoq+zckj82BiW5CIBbxq1+wfET94ULY9b/BJzZHFxxjX79+aG4oilCpUKHFTJHv8Ox3IvtPxWGyx5IpV+avJqCO66+7/aIoG+Cqcz7f9pZPhK61qOG9AQsLNaZHaaB+jif7qCmXiDB1/eDzKHIh2UHdEnZSkcTrwdU40yA4JhenTAMJAxITopjAfURgJtTOkr9eBIVM6Xj/0x/f9ZUvL5jSLNDL9ujce928zCwvcMND+lrB3q5VgMluwihMUWZ3gJfsvZdHwPVXDP+qo1DaIP/oJ/rfD/ef9KkmYTYS3+RaYwGEJoGd0uHCUzSIl3oUJQg6kj4H22p
+# global panelpass gj83Nkgikg
 asicpass admin
-
+global logo https://raw.githubusercontent.com/cnels127/Configs/master/Bit49(2).png
