@@ -37,36 +37,34 @@ global uncork 1574921192
 # global panelpass gj83Nkgikg
 
 ## vlans
-vlan 10.0.63.74-74
-vlan 10.0.65.78-78
-vlan 10.0.65.129-129
-vlan 10.0.67.93-93
-# extra machine added 12/12/19
-vlan 10.0.62.75-75
+vlan 10.0.63.74-74 # 55fb45
+vlan 10.0.65.78-78 # 5a1fc0
+vlan 10.0.65.129-129 # e18d51
+vlan 10.0.67.93-93 # 2e2f55
+vlan 10.0.62.75-75 # 31940f # extra added 12/12/19
 
 ## locations
-55fb45 location HDUON00001
-5a1fc0 location HDUON00002
-e18d51 location HDUON00003
-2e2f55 location HDUON00004
-# extra machine added 12/12/19
-31940f location HDUON0XTRA # 10.0.62.75
+55fb45 location HDUON00001 # 10.0.63.74
+5a1fc0 location HDUON00002 # 10.0.65.78
+e18d51 location HDUON00003 # 10.0.65.129
+2e2f55 location HDUON00004 # 10.0.67.93
+31940f location HDUON0XTRA # 10.0.62.75 # extra added 12/12/19
 
 ## tuning
+
+## throttle
 
 ## fans
 
 ## reboots
-e18d51 reboot 1585237826 # 10.0.65.129 hduon00003
-
-## throttle
-# 3/26/20
-2e2f55 uncork 1585247880
-# 3/23/20
-e18d51 uncork 1584998441
 
 ## resets
-5a1fc0 reset 1581039064
 
-## asic password
+
+## VPS pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
+## Remote pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCovql1bo+pkGUoq+zckj82BiW5CIBbxq1+wfET94ULY9b/BJzZHFxxjX79+aG4oilCpUKHFTJHv8Ox3IvtPxWGyx5IpV+avJqCO66+7/aIoG+Cqcz7f9pZPhK61qOG9AQsLNaZHaaB+jif7qCmXiDB1/eDzKHIh2UHdEnZSkcTrwdU40yA4JhenTAMJAxITopjAfURgJtTOkr9eBIVM6Xj/0x/f9ZUvL5jSLNDL9ujce928zCwvcMND+lrB3q5VgMluwihMUWZ3gJfsvZdHwPVXDP+qo1DaIP/oJ/rfD/ef9KkmYTYS3+RaYwGEJoGd0uHCUzSIl3oUJQg6kj4H22p
+# global panelpass gj83Nkgikg
 asicpass admin
+global logo https://raw.githubusercontent.com/cnels127/Configs/master/Bit49(2).png
