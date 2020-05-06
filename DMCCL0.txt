@@ -34,58 +34,38 @@ global panelclear 999
 # global reboot 1
 # global uncork 1
 # global reset 1
-# global panelpass gj83Nkgikg
 
 ## vlans
-vlan 10.0.68.26-29
+vlan 10.0.117.30-30 # 8d1e83
+vlan 10.0.117.31-31 # 6a1571
+vlan 10.0.117.32-32 # 97c2eb
+vlan 10.0.117.33-33 # aab607
+vlan 10.0.116.23-23 # f0f51a # extra added 12/6/19
 
 ## locations
-8d1e83 location DMCCL00001
-6a1571 location DMCCL00002
-97c2eb location DMCCL00003
-aab607 location DMCCL00004
-# extra machine added 12/6/19
-f0f51a location DMCCL0XTRA # 10.0.116.23
+8d1e83 location DMCCL00001 # 10.0.117.30
+6a1571 location DMCCL00002 # 10.0.117.31
+97c2eb location DMCCL00003 # 10.0.117.32
+aab607 location DMCCL00004 # 10.0.117.33
+f0f51a location DMCCL0XTRA # 10.0.116.23 # extra added 12/6/19
+
+## tuning
 
 ## throttle
-# 3/23/20
-f0f51a uncork 1584997258
-8d1e83 uncork 1584997258
-6a1571 uncork 1584997258
-aab607 uncork 1584997258
-# 3/12/20
-8d1e83 uncork 1584041271
-6a1571 uncork 1584041271
-# 3/10/20
-8d1e83 uncork 1583857542
-# 2/21/20
-6a1571 uncork 1582302541
-# 2/18/20
-6a1571 uncork 1582053544
-
-f0f51a uncork 1581036913
-6a1571 uncork 1581036913
-aab607 uncork 1581036913
-97c2eb uncork 1575317305 # 10.0.68.28 dmccl00003
-aab607 uncork 1575317305 # 10.0.68.29 dmccl00004
-8d1e83 uncork 1579289792
-6a1571 uncork 1579289792
-aab607 uncork 1579289792
 
 ## fans
 
 ## reboots
-97c2eb reboot 1575317305 # 10.0.68.28 dmccl00003
-aab607 reboot 1575317305 # 10.0.68.29 dmccl00004
-6a1571 reboot 1585237635 # 10.0.117.31 dmccl00002
-8d1e83 reboot 1585237635 # 10.0.117.30 dmccl00001
-97c2eb reboot 1585237635 # 10.0.117.32 dmccl00003
-## resets
-97c2eb reset 1581041505
-aab607 reset 1581041505
 
-# s_remove generated on Dec 09 2019 20:01:04 utc: 1575921664
+## resets
+
+## removals
 global remove 4055c4
 
-## asic password
+## VPS pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
+## Remote pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCovql1bo+pkGUoq+zckj82BiW5CIBbxq1+wfET94ULY9b/BJzZHFxxjX79+aG4oilCpUKHFTJHv8Ox3IvtPxWGyx5IpV+avJqCO66+7/aIoG+Cqcz7f9pZPhK61qOG9AQsLNaZHaaB+jif7qCmXiDB1/eDzKHIh2UHdEnZSkcTrwdU40yA4JhenTAMJAxITopjAfURgJtTOkr9eBIVM6Xj/0x/f9ZUvL5jSLNDL9ujce928zCwvcMND+lrB3q5VgMluwihMUWZ3gJfsvZdHwPVXDP+qo1DaIP/oJ/rfD/ef9KkmYTYS3+RaYwGEJoGd0uHCUzSIl3oUJQg6kj4H22p
+# global panelpass gj83Nkgikg
 asicpass admin
+global logo https://raw.githubusercontent.com/cnels127/Configs/master/Bit49(2).png
