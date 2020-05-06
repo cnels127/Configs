@@ -34,37 +34,34 @@ global panelclear 999
 # global reboot 1
 # global uncork 1
 # global reset 1
-# global panelpass gj83Nkgikg
 
 ## vlans
-vlan 10.0.64.105-105
-vlan 10.0.64.153-153
-vlan 10.0.66.116-116
-# extra machine added 2020-03-17
-vlan 10.0.53.32-32 # 5.3 Th
+vlan 10.0.64.105-105 # 549631
+vlan 10.0.64.153-153 # 1c6e2b
+vlan 10.0.66.116-116 # 551f73
 
 ## locations
-549631 location CCADR00001
-1c6e2b location CCADR00002
-551f73 location CCADR00003
-# extra machine added 2020-03-17
-b340b4 location CCADR0XTRA # 10.0.53.32 5.3 Th
+549631 location CCADR00001 # 10.0.64.105
+1c6e2b location CCADR00002 # 10.0.65.153
+551f73 location CCADR00003 # 10.0.66.116
+
+## tuning
 
 ## throttle
-551f73 uncork 1585266154
 
 ## fans
 
 ## reboots
-b340b4 reboot 1585248146
-551f73 reboot 1585248146
 
 ## resets
-551f73 reset 1573776549
-1c6e2b reset 1572167307
 
-# s_remove generated on Dec 11 2019 21:01:47 utc: 1576098107
-global remove 2385b5,3c6a08
+## removals
+global remove 2385b5,3c6a08,b340b4
 
-## asic password
+## VPS pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
+## Remote pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCovql1bo+pkGUoq+zckj82BiW5CIBbxq1+wfET94ULY9b/BJzZHFxxjX79+aG4oilCpUKHFTJHv8Ox3IvtPxWGyx5IpV+avJqCO66+7/aIoG+Cqcz7f9pZPhK61qOG9AQsLNaZHaaB+jif7qCmXiDB1/eDzKHIh2UHdEnZSkcTrwdU40yA4JhenTAMJAxITopjAfURgJtTOkr9eBIVM6Xj/0x/f9ZUvL5jSLNDL9ujce928zCwvcMND+lrB3q5VgMluwihMUWZ3gJfsvZdHwPVXDP+qo1DaIP/oJ/rfD/ef9KkmYTYS3+RaYwGEJoGd0uHCUzSIl3oUJQg6kj4H22p
+# global panelpass gj83Nkgikg
 asicpass admin
+global logo https://raw.githubusercontent.com/cnels127/Configs/master/Bit49(2).png
