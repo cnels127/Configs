@@ -29,7 +29,6 @@ global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 global panelclear 999
-# global panelpass gj83Nkgikg
 
 # global retune 1
 # global reboot 1
@@ -37,213 +36,23 @@ global panelclear 999
 # global reset 1
 
 ## vlans
-vlan 10.0.32.21-45
 
 ## locations
-ee2241 location THALL00001
-82a2a7 location THALL00002
-138707 location THALL00003
-9c07f5 location THALL00004
-95c8d4 location THALL00005
-b28347 location THALL00006
-2f1687 location THALL00007
-f76afb location THALL00008
-c705d1 location THALL00009
-386253 location THALL00010
-3bb8ac location THALL00011
-85ba2c location THALL00012
-c58079 location THALL00013
-3eebad location THALL00014
-349aad location THALL00015
-3ca507 location THALL00016
-830c66 location THALL00017
-c191c4 location THALL00018
-b62e9a location THALL00019
-1d29a7 location THALL00020
-a966ea location THALL00021
-845f77 location THALL00022
-f0c13e location THALL00023
-a9f19e location THALL00024
-255a6b location THALL00025
+
+## tuning
 
 ## throttle
-# 3/25/20
-386253 uncork 1585157852
-a9f19e uncork 1585157852
-82a2a7 uncork 1585157852
-b28347 uncork 1585157852
-f76afb uncork 1585157852
-386253 uncork 1585157852
-c58079 uncork 1585157852
-349aad uncork 1585157852
-3ca507 uncork 1585157852
-830c66 uncork 1585157852
-1d29a7 uncork 1585157852
-a966ea uncork 1585157852
-f0c13e uncork 1585157852
-
-# 3/11/20
-386253 uncork 1583948963
-a9f19e uncork 1583948963
-
-# 3/2/20
-f0c13e uncork 1583174095
-
-# 2/27/20
-830c66 uncork 1582827420
-
-# 2/18/20
-1d29a7 uncork 1582052794
-f0c13e uncork 1582052794
-
-# 2/13/20
-f0c13e uncork 1581618527
-3bb8ac uncork 1581618527
-845f77 uncork 1581618527
-255a6b uncork 1581618527
-
-# 2/4/20
-386253 uncork 1580841916
-830c66 uncork 1580841916
-f0c13e uncork 1580841916
-
-# 2/1/20
-386253 uncork 1580575802
-
-# 1/27/20
-82a2a7 uncork 1580150103
-386253 uncork 1580150103
-a9f19e uncork 1580150103
-255a6b uncork 1580150103
-
-# 1/22/20
-2f1687 uncork 1579718965
-3eebad uncork 1579718965
-349aad uncork 1579718965
-830c66 uncork 1579718965
-1d29a7 uncork 1579718965
-845f77 uncork 1579718965
-a9f19e uncork 1579718965
-
-# 1/17/20
-386253 uncork 1579289534
-3eebad uncork 1579289534
-830c66 uncork 1579289534
-845f77 uncork 1579289534
-f0c13e uncork 1579289534
-a9f19e uncork 1579289534
-
-# 1/11/20
-3eebad uncork 1578769278
-
-1d29a7 uncork 1578681480
-255a6b uncork 1578681480
-845f77 uncork 1578681480
-2f1687 uncork 1578681480
-f0c13e uncork 1578681480
-386253 uncork 1578681480
-
-f76afb uncork 1577905064
-386253 uncork 1577905064
-85ba2c uncork 1577905064
-c58079 uncork 1577905064
-b62e9a uncork 1577905064
-1d29a7 uncork 1577905064
-845f77 uncork 1577905064
-255a6b uncork 1577905064
-
-386253 uncork 1577383126
-3bb8ac uncork 1577383126
-f0c13e uncork 1577383126
-
-a966ea uncork 1576649795
-349aad uncork 1576163684
-845f77 uncork 1576163684
-830c66 uncork 1576163684
-a9f19e uncork 1576163684
-82a2a7 uncork 1576163684
-c705d1 uncork 1576163684
-386253 uncork 1576163684
-c191c4 uncork 1576163684
-b62e9a uncork 1576163684
-1d29a7 uncork 1576163684
-a966ea uncork 1576163684
-f0c13e uncork 1576163684
-255a6b uncork 1576163684
-
-c191c4 uncork 1574784886
-845f77 uncork 1574784886
-a9f19e uncork 1574784886
-b62e9a uncork 1574784886
-f0c13e uncork 1574784886
-a966ea uncork 1574784886
 
 ## fans
 
 ## reboots
-# 3/25/20
-c705d1 reboot 1585157965
-
-# 1/14/20
-386253 reboot 1579029570
-3eebad reboot 1579029570
-
-## retunes
-# 3/2/20
-2f1687 retune 1583174139
-a9f19e retune 1583174139
-b28347 retune 1583174139
-c705d1 retune 1583174139
-c58079 retune 1583174139
-845f77 retune 1583174139
-
-# 2/24/20
-b28347 retune 1582574725
-2f1687 retune 1582574725
-c705d1 retune 1582574725
-c58079 retune 1582574725
-b62e9a retune 1582574725
-
-# 2/21/20
-b28347 retune 1582314828
-b62e9a retune 1582314828
-f0c13e retune 1582314828
-a9f19e retune 1582314828
-
-# 2/14/20
-3bb8ac retune 1581706051
-f0c13e retune 1581706051
-
-# 2/13/20
-349aad retune 1581618709
-a9f19e retune 1581618709
-b28347 retune 1581618709
-c705d1 retune 1581618709
-c58079 retune 1581618709
-386253 retune 1581618709
-b62e9a retune 1581618709
-3eebad retune 1581618709
-
-# 1/29/20
-c58079 retune 1580321457
-f0c13e retune 1580321457
-
-# 1/11/20
-b28347 retune 1578769373
-f0c13e retune 1578769373
 
 ## resets
-ee2241 reset 1586275134
-2f1687 reset 1586275134
-1d29a7 reset 1584984267
-82a2a7 reset 1584984267
-255a6b reset 1578948540
-386253 reset 1576973314
-b62e9a reset 1574977596
-a9f19e reset 1574977596
-138707 reset 1573173881 
-f76afb reset 1573173881 
-3bb8ac reset 1573173881 
 
-## asic password
+## VPS pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
+## Remote pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCovql1bo+pkGUoq+zckj82BiW5CIBbxq1+wfET94ULY9b/BJzZHFxxjX79+aG4oilCpUKHFTJHv8Ox3IvtPxWGyx5IpV+avJqCO66+7/aIoG+Cqcz7f9pZPhK61qOG9AQsLNaZHaaB+jif7qCmXiDB1/eDzKHIh2UHdEnZSkcTrwdU40yA4JhenTAMJAxITopjAfURgJtTOkr9eBIVM6Xj/0x/f9ZUvL5jSLNDL9ujce928zCwvcMND+lrB3q5VgMluwihMUWZ3gJfsvZdHwPVXDP+qo1DaIP/oJ/rfD/ef9KkmYTYS3+RaYwGEJoGd0uHCUzSIl3oUJQg6kj4H22p
+# global panelpass gj83Nkgikg
 asicpass admin
+global logo https://raw.githubusercontent.com/cnels127/Configs/master/Bit49(2).png
