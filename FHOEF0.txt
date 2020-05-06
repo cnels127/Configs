@@ -34,354 +34,159 @@ global panelclear 999
 # global reboot 1573584090 # 2
 global uncork 1574883197
 # global reset 1
-# global panelpass gj83Nkgikg
 
 ## vlans
-# vlan 10.0.55.85-85 # 84fddc
-# vlan 10.0.55.101-101 # 7e7126
-# vlan 10.0.55.107-107 # 1a7d47
-# vlan 10.0.55.140-140 # e0ccfa
-# vlan 10.0.55.153-153 # 0faa22
-# vlan 10.0.55.157-157 # de83b4
-# vlan 10.0.56.59-59 # 167d2c
-# vlan 10.0.56.79-79 # 8d76ff
-# vlan 10.0.56.85-85 # 17e1e7
-# vlan 10.0.56.88-88 # d2d829
-# vlan 10.0.62.30-30 # 99d76d
-# vlan 10.0.63.144-144 # b6e889
-# vlan 10.0.64.58-58 # dcbbe1
-# vlan 10.0.64.126-126 # ed92f7
-# vlan 10.0.64.157-157 # e4b5b6
-# vlan 10.0.65.25-25 # a3e024
-# vlan 10.0.65.34-34 # bc2299
-# vlan 10.0.65.57-57 # fe05ff
-# vlan 10.0.65.74-74 # e8cf8b
-# vlan 10.0.65.95-95 # e7f1a9
-# vlan 10.0.65.148-148 # 8342ab
-# vlan 10.0.66.93-93 # b3897a
-# vlan 10.0.66.149-149 # a2cb7c
-# vlan 10.0.67.34-34 # ae42ad
-# vlan 10.0.67.92-92 # d3176c
-# vlan 10.0.67.132-132 # 67304d
-# vlan 10.0.67.136-136 # 64cc79
-# vlan 10.0.67.143-143 # 589176
-# vlan 10.0.60.5-5 # e3f444
-# vlan 10.0.61.8-8 # 73ee2e
-# vlan 10.0.118.18-18 # 4ffb50
-# vlan 10.0.119.2-2 # e2c437
-# vlan 10.0.121.8-8 # 584490
-# vlan 10.0.121.159-159 # 88775f
-# vlan 10.0.120.83-83 # be5d42
-# vlan 10.0.121.81-81 # a03b81
-# vlan 10.0.121.58-58 # c71a7f
-# vlan 10.0.121.76-76 # bad6b7
-# vlan 10.0.118.24-24 # 2bf2a8
-# vlan 10.0.121.23-23 # 1444fa
-# vlan 10.0.118.41-41 # 873362
-# vlan 10.0.120.48-48 # 9e743b
-# vlan 10.0.121.145-145 # c16782
-# vlan 10.0.121.5-5 # 752979
-# vlan 10.0.120.84-84 # d560da
-# vlan 10.0.120.128-128 # 9c860e
-# extra machines added 12/26/19
-# vlan 10.0.121.116-116 # eb51ca
-# vlan 10.0.117.71-71 # ce9ea0
-# vlan 10.0.51.2-2 # b1937c
-# vlan 10.0.116.11-11 # 1a5616
-# vlan 10.0.121.14-14 # 97782a
-# vlan 10.0.62.134-134 # 0baec4
-# vlan 10.0.121.34-34 # dd84fc
-# extra machines added 3/9/20
-vlan 10.0.30.102-102 # c4aa6b
-vlan 10.0.30.116-116 # 4f22fd
-vlan 10.0.30.122-122 # 2fce82
-vlan 10.0.30.137-137 # 458508
-vlan 10.0.30.145-145 # 9feac3
-vlan 10.0.30.151-151 # 3241ed
-vlan 10.0.31.8-8 # 121b5d
-vlan 10.0.31.10-10 # 586985
-vlan 10.0.31.18-18 # 51f862
-vlan 10.0.31.29-29 # 6a9e49
-vlan 10.0.31.40-40 # 37ba71
-vlan 10.0.31.43-43 # 82c5ca
+# vlan 10.0.55.85-85 # 84fddc # POWERED DOWN - NO WORKING HASHBOARDS
+vlan 10.0.55.101-101 # 7e7126
+vlan 10.0.55.107-107 # 1a7d47
+vlan 10.0.55.140-140 # e0ccfa
+vlan 10.0.55.153-153 # 0faa22
+vlan 10.0.55.157-157 # de83b4
+vlan 10.0.56.59-59 # 167d2c
+vlan 10.0.56.79-79 # 8d76ff
+vlan 10.0.56.85-85 # 17e1e7
+vlan 10.0.56.88-88 # d2d829
+vlan 10.0.62.30-30 # 99d76d
+vlan 10.0.63.144-144 # b6e889
+vlan 10.0.64.58-58 # dcbbe1
+# vlan 10.0.64.126-126 # ed92f7 # POWERED DOWN - NO WORKING HASHBOARDS
+vlan 10.0.64.157-157 # e4b5b6
+vlan 10.0.65.25-25 # a3e024
+vlan 10.0.65.34-34 # bc2299
+vlan 10.0.65.57-57 # fe05ff
+vlan 10.0.65.74-74 # e8cf8b
+vlan 10.0.65.95-95 # e7f1a9
+vlan 10.0.65.148-148 # 8342ab
+vlan 10.0.66.93-93 # b3897a
+vlan 10.0.66.149-149 # a2cb7c
+vlan 10.0.67.34-34 # ae42ad
+vlan 10.0.67.92-92 # d3176c
+# vlan 10.0.67.132-132 # 67304d # POWERED DOWN - NO WORKING HASHBOARDS
+vlan 10.0.67.136-136 # 64cc79
+vlan 10.0.67.143-143 # 589176
+vlan 10.0.60.5-5 # e3f444
+vlan 10.0.61.8-8 # 73ee2e
+vlan 10.0.118.18-18 # 4ffb50
+vlan 10.0.119.2-2 # e2c437
+vlan 10.0.121.8-8 # 584490
+vlan 10.0.121.159-159 # 88775f
+vlan 10.0.120.83-83 # be5d42
+vlan 10.0.121.81-81 # a03b81
+vlan 10.0.121.58-58 # c71a7f
+vlan 10.0.121.76-76 # bad6b7
+vlan 10.0.118.24-24 # 2bf2a8
+vlan 10.0.121.23-23 # 1444fa
+# extra machines
+vlan 10.0.118.41-41 # 873362 # extra added
+vlan 10.0.120.48-48 # 9e743b # extra added
+vlan 10.0.121.145-145 # c16782 # extra added
+vlan 10.0.121.5-5 # 752979 # extra added
+vlan 10.0.120.84-84 # d560da # extra added
+vlan 10.0.51.2-2 # b1937c # extra added 12/26/19
+vlan 10.0.121.34-34 # dd84fc # extra added 12/26/19
+vlan 10.0.121.14-14 # 97782a # extra added 12/26/19
+vlan 10.0.117.71-71 # ce9ea0 # extra added 12/26/19
+vlan 10.0.116.11-11 # 1a5616 # extra added 12/26/19
+vlan 10.0.62.134-134 # 0baec4 # extra added 12/26/19
+vlan 10.0.121.116-116 # eb51ca # extra added 12/26/19
+vlan 10.3.22.108-108 # c4aa6b # extra added 3/9/20
+vlan 10.3.23.33-33 # 4f22fd # extra added 3/9/20
+vlan 10.3.21.18-18 # 2fce82 # extra added 3/9/20
+vlan 10.3.21.14-14 # 458508 # extra added 3/9/20
+vlan 10.3.22.32-32 # 9feac3 # extra added 3/9/20
+vlan 10.3.21.17-17 # 3241ed # extra added 3/9/20
+vlan 10.3.22.97-97 # 121b5d # extra added 3/9/20
+vlan 10.3.21.91-91 # 586985 # extra added 3/9/20
+vlan 10.3.23.93-93 # 51f862 # extra added 3/9/20
+vlan 10.3.21.106-106 # 6a9e49 # extra added 3/9/20
+vlan 10.3.22.92-92 # 37ba71 # extra added 3/9/20
+vlan 10.3.21.105-105 # 82c5ca # extra added 3/9/20
 
 ## locations
-84fddc location FHOEF00001
-7e7126 location FHOEF00002
-1a7d47 location FHOEF00003
-e0ccfa location FHOEF00004
-0faa22 location FHOEF00005
-de83b4 location FHOEF00006
-167d2c location FHOEF00007
-8d76ff location FHOEF00008
-17e1e7 location FHOEF00009
-d2d829 location FHOEF00010
-99d76d location FHOEF00011
-b6e889 location FHOEF00012
-dcbbe1 location FHOEF00013
-ed92f7 location FHOEF00014
-e4b5b6 location FHOEF00015
-a3e024 location FHOEF00016
-bc2299 location FHOEF00017
-fe05ff location FHOEF00018
-e8cf8b location FHOEF00019
-e7f1a9 location FHOEF00020
-8342ab location FHOEF00021
-b3897a location FHOEF00022
-a2cb7c location FHOEF00023
-ae42ad location FHOEF00024
-d3176c location FHOEF00025
-67304d location FHOEF00026
-64cc79 location FHOEF00027
-589176 location FHOEF00028
-e3f444 location FHOEF00029
-73ee2e location FHOEF00030
-4ffb50 location FHOEF00031
-584490 location FHOEF00032
-be5d42 location FHOEF00033
-bad6b7 location FHOEF00034
-1444fa location FHOEF00035
-e2c437 location FHOEF00031
-a03b81 location FHOEF00033
-873362 location FHOEF00036
-9c860e location FHOEF00040
-c16782 location FHOEF00037
-c71a7f location FHOEF00034
-2bf2a8 location FHOEF00035
-d560da location FHOEF00039
-9e743b location FHOEF00036
-752979 location FHOEF00038
-88775f location FHOEF00032
-7fdd93 location FHOEF00037
-# extra machines added 12/26/19
-eb51ca location FHOEF0XTRA # 10.0.121.116
-ce9ea0 location FHOEF0XTRA # 10.0.117.71
-b1937c location FHOEF0XTRA # 10.0.51.2
-1a5616 location FHOEF0XTRA # 10.0.116.11
-97782a location FHOEF0XTRA # 10.0.121.14
-0baec4 location FHOEF0XTRA # 10.0.62.134
-dd84fc location FHOEF0XTRA # 10.0.121.34
+# 84fddc location FHOEF00001 # POWERED DOWN - NO WORKING HASHBOARDS
+7e7126 location FHOEF00002 # 10.0.55.101
+1a7d47 location FHOEF00003 # 10.0.55.107
+e0ccfa location FHOEF00004 # 10.0.55.140
+0faa22 location FHOEF00005 # 10.0.55.153
+de83b4 location FHOEF00006 # 10.0.55.157
+167d2c location FHOEF00007 # 10.0.56.59
+8d76ff location FHOEF00008 # 10.0.56.79
+17e1e7 location FHOEF00009 # 10.0.56.85
+d2d829 location FHOEF00010 # 10.0.56.88
+99d76d location FHOEF00011 # 10.0.62.30
+b6e889 location FHOEF00012 # 10.0.63.144
+dcbbe1 location FHOEF00013 # 10.0.64.58
+# ed92f7 location FHOEF00014 # POWERED DOWN - NO WORKING HASHBOARDS
+e4b5b6 location FHOEF00015 # 10.0.64.157
+a3e024 location FHOEF00016 # 10.0.65.25
+bc2299 location FHOEF00017 # 10.0.65.34
+fe05ff location FHOEF00018 # 10.0.65.57
+e8cf8b location FHOEF00019 # 10.0.65.74
+e7f1a9 location FHOEF00020 # 10.0.65.95
+8342ab location FHOEF00021 # 10.0.65.148
+b3897a location FHOEF00022 # 10.0.66.93
+a2cb7c location FHOEF00023 # 10.0.66.149
+ae42ad location FHOEF00024 # 10.0.67.34
+d3176c location FHOEF00025 # 10.0.67.92
+# 67304d location FHOEF00026 # POWERED DOWN - NO WORKING HASHBOARDS
+64cc79 location FHOEF00027 # 10.0.67.136
+589176 location FHOEF00028 # 10.0.67.143
+e3f444 location FHOEF00029 # 10.0.60.5
+73ee2e location FHOEF00030 # 10.0.61.8
+4ffb50 location FHOEF00031 # 10.0.118.18
+e2c437 location FHOEF00032 # 10.0.119.2
+584490 location FHOEF00033 # 10.0.121.8
+88775f location FHOEF00034 # 10.0.121.159
+be5d42 location FHOEF00035 # 10.0.120.83
+a03b81 location FHOEF00036 # 10.0.121.81
+c71a7f location FHOEF00037 # 10.0.121.58
+bad6b7 location FHOEF00038 # 10.0.121.76
+2bf2a8 location FHOEF00039 # 10.0.118.24
+1444fa location FHOEF00040 # 10.0.121.23
+# extra machines
+873362 location FHOEF0XTRA # 10.0.118.41 # extra added
+9e743b location FHOEF0XTRA # 10.0.120.48 # extra added
+c16782 location FHOEF0XTRA # 10.0.121.145 # extra added
+752979 location FHOEF0XTRA # 10.0.121.5 # extra added
+d560da location FHOEF0XTRA # 10.0.120.84 # extra added
+b1937c location FHOEF0XTRA # 10.0.51.2 # extra added 12/26/19
+dd84fc location FHOEF0XTRA # 10.0.121.34 # extra added 12/26/19
+97782a location FHOEF0XTRA # 10.0.121.14 # extra added 12/26/19
+ce9ea0 location FHOEF0XTRA # 10.0.117.71 # extra added 12/26/19
+1a5616 location FHOEF0XTRA # 10.0.116.11 # extra added 12/26/19
+0baec4 location FHOEF0XTRA # 10.0.62.134 # extra added 12/26/19
+eb51ca location FHOEF0XTRA # 10.0.121.116 # extra added 12/26/19
 # extra machines added 3/9/20 # 184.8 Th/s
-c4aa6b location FHOEF0XTRA # 10.0.30.102 # 15.4 Th/s
-4f22fd location FHOEF0XTRA # 10.0.30.116 # 15.4 Th/s
-2fce82 location FHOEF0XTRA # 10.0.30.122 # 15.4 Th/s
-458508 location FHOEF0XTRA # 10.0.30.137 # 15.4 Th/s
-9feac3 location FHOEF0XTRA # 10.0.30.145 # 15.4 Th/s
-3241ed location FHOEF0XTRA # 10.0.30.151 # 15.4 Th/s
-121b5d location FHOEF0XTRA # 10.0.31.8 # 15.4 Th/s
-586985 location FHOEF0XTRA # 10.0.31.10 # 15.4 Th/s
-51f862 location FHOEF0XTRA # 10.0.31.18 # 15.4 Th/s
-6a9e49 location FHOEF0XTRA # 10.0.31.29 # 15.4 Th/s
-37ba71 location FHOEF0XTRA # 10.0.31.40 # 15.4 Th/s
-82c5ca location FHOEF0XTRA # 10.0.31.43 # 15.4 Th/s
+c4aa6b location FHOEF0XTRA # 10.3.22.108 # extra added 3/9/20 # 15.4 Th/s
+4f22fd location FHOEF0XTRA # 10.3.23.33 # extra added 3/9/20 # 15.4 Th/s
+2fce82 location FHOEF0XTRA # 10.3.21.18 # extra added 3/9/20 # 15.4 Th/s
+458508 location FHOEF0XTRA # 10.3.21.14 # extra added 3/9/20 # 15.4 Th/s
+9feac3 location FHOEF0XTRA # 10.3.22.32 # extra added 3/9/20 # 15.4 Th/s
+3241ed location FHOEF0XTRA # 10.3.21.17 # extra added 3/9/20 # 15.4 Th/s
+121b5d location FHOEF0XTRA # 10.3.22.97 # extra added 3/9/20 # 15.4 Th/s
+586985 location FHOEF0XTRA # 10.3.21.91 # extra added 3/9/20 # 15.4 Th/s
+51f862 location FHOEF0XTRA # 10.3.23.93 # extra added 3/9/20 # 15.4 Th/s
+6a9e49 location FHOEF0XTRA # 10.3.21.106 # extra added 3/9/20 # 15.4 Th/s
+37ba71 location FHOEF0XTRA # 10.3.22.92 # extra added 3/9/20 # 15.4 Th/s
+82c5ca location FHOEF0XTRA # 10.3.21.105 # extra added 3/9/20 # 15.4 Th/s
 
 ## tuning
-84fddc retune 1576788417
-7e7126 retune 1576788417
-1a7d47 retune 1576788417
-e0ccfa retune 1576788417
-0faa22 retune 1576788417
-de83b4 retune 1576788417
-167d2c retune 1576788417
-8d76ff retune 1576788417
-17e1e7 retune 1576788417
-d2d829 retune 1576788417
-99d76d retune 1576788417
-b6e889 retune 1576788417
-dcbbe1 retune 1576788417
-ed92f7 retune 1576788417
-e4b5b6 retune 1576788417
-a3e024 retune 1576788417
-bc2299 retune 1576788417
-fe05ff retune 1576788417
-e8cf8b retune 1576788417
-e7f1a9 retune 1576788417
-8342ab retune 1576788417
-b3897a retune 1576788417
-a2cb7c retune 1576788417
-ae42ad retune 1576788417
-d3176c retune 1576788417
-67304d retune 1576788417
-64cc79 retune 1576788417
-589176 retune 1576788417
-e3f444 retune 1576788417
-73ee2e retune 1576788417
-e2c437 retune 1576788417
-4ffb50 retune 1576788417
-88775f retune 1576788417
-584490 retune 1576788417
-a03b81 retune 1576788417
-be5d42 retune 1576788417
-bad6b7 retune 1576788417
-c71a7f retune 1576788417
-1444fa retune 1576788417
-2bf2a8 retune 1576788417
-9e743b retune 1576788417
-873362 retune 1576788417
-c16782 retune 1576788417
-752979 retune 1576788417
-d560da retune 1576788417
-9c860e retune 1576788417
 
 ## throttle
-# 3/26/20
-dcbbe1 uncork 1585247608
-0faa22 uncork 1585247608
-ae42ad uncork 1585247608
-82c5ca uncork 1585247608
-4f22fd uncork 1585247608
-51f862 uncork 1585247608
-b1937c uncork 1585247608
-be5d42 uncork 1585247608
-# 3/24/20
-589176 uncork 1585092363
-# 3/23/20
-b6e889 uncork 1585011728
-17e1e7 uncork 1585011728
-1a5616 uncork 1585011728
-a3e024 uncork 1585011728
-e4b5b6 uncork 1585011728
-589176 uncork 1585011728
-73ee2e uncork 1585011728
-e7f1a9 uncork 1584998171
-a2cb7c uncork 1584998171
-ae42ad uncork 1584998171
-e3f444 uncork 1584998171
-b1937c uncork 1584998171
-# 3/12/20
-17e1e7 uncork 1584039476
-b1937c uncork 1584039476
-752979 uncork 1584039476
-# 3/10/20
-a3e024 uncork 1583856836
-a03b81 uncork 1583856836
-be5d42 uncork 1583856836
-c16782 uncork 1583856836
-b1937c uncork 1583856836
-# 3/3/20
-de83b4 uncork 1583281328
-a3e024 uncork 1583281328
-99d76d uncork 1583281328
-1a7d47 uncork 1583281328
-# 2/28/20
-167d2c uncork 1582932154
-99d76d uncork 1582932154
-a3e024 uncork 1582932154
-# 2/18/20
-a03b81 uncork 1582053874
-ae42ad uncork 1582053874
-e3f444 uncork 1582053874
-a3e024 uncork 1582053874
-d3176c uncork 1582053874
-# 2/17/20
-e3f444 uncork 1581966703
-a3e024 uncork 1581966703
-99d76d uncork 1581966703
-
-99d76d uncork 1581709183
-a3e024 uncork 1581709183
-be5d42 uncork 1581105087
-a3e024 uncork 1581105087
-8342ab uncork 1581040459
-a3e024 uncork 1581040459
-752979 uncork 1581008853
-a3e024 uncork 1581008688
-752979 uncork 1580846841
-bad6b7 uncork 1580846841
-8342ab uncork 1580846841
 
 ## fans
 
 ## reboots
-ce9ea0 reboot 1580753823
-1a7d47 reboot 1580753823
-b3897a reboot 1580753823
-a03b81 reboot 1580753823
-be5d42 reboot 1580753823
-9e743b reboot 1585237716 # 10.0.120.48 fhoef00036
-2bf2a8 reboot 1585237716 # 10.0.118.24 fhoef00035
-67304d reboot 1585237716 # 10.0.67.132 fhoef00026
-84fddc reboot 1585237716 # 10.0.55.85 fhoef00001
-0faa22 reboot 1585237716 # 10.0.55.153 fhoef00005
-de83b4 reboot 1585237716 # 10.0.55.157 fhoef00006
-99d76d reboot 1585237716 # 10.0.62.30 fhoef00011
-dcbbe1 reboot 1585237716 # 10.0.64.58 fhoef00013
-bad6b7 reboot 1585237716 # 10.0.121.76 fhoef00034
-ae42ad reboot 1585237716 # 10.0.67.34 fhoef00024
-82c5ca reboot 1585237716 # 10.0.31.43 fhoef0xtra
-dd84fc reboot 1585237716 # 10.0.121.34 fhoef0xtra
-3241ed reboot 1585237716 # 10.0.30.151 fhoef0xtra
-b1937c reboot 1585237716 # 10.0.51.2 fhoef0xtra
-4f22fd reboot 1585237716 # 10.0.30.116 fhoef0xtra
-d560da reboot 1585237716 # 10.0.120.84 fhoef00039
-584490 reboot 1585237716 # 10.0.121.8 fhoef00032
-d3176c reboot 1585237716 # 10.0.67.92 fhoef00025
-752979 reboot 1585237716 # 10.0.121.5 fhoef00038
-c16782 reboot 1585237716 # 10.0.121.145 fhoef00037
-97782a reboot 1585237716 # 10.0.121.14 fhoef0xtra
-be5d42 reboot 1585237716 # 10.0.120.83 fhoef00033
-e2c437 reboot 1585237716 # 10.0.119.2 fhoef00031
-873362 reboot 1585237716 # 10.0.118.41 fhoef00036
-4ffb50 reboot 1585237716 # 10.0.118.18 fhoef00031
-ce9ea0 reboot 1585237716 # 10.0.117.71 fhoef0xtra
-1a5616 reboot 1585237716 # 10.0.116.11 fhoef0xtra
-8342ab reboot 1585237716 # 10.0.65.148 fhoef00021
-a3e024 reboot 1585237716 # 10.0.65.25 fhoef00016
-0baec4 reboot 1585237716 # 10.0.62.134 fhoef0xtra
-17e1e7 reboot 1585237716 # 10.0.56.85 fhoef00009
-51f862 reboot 1585237716 # 10.0.31.18 fhoef0xtra
-1a7d47 reboot 1585237716 # 10.0.55.107 fhoef00003
-8d76ff reboot 1585237716 # 10.0.56.79 fhoef00008
-d2d829 reboot 1585237716 # 10.0.56.88 fhoef00010
-ed92f7 reboot 1585237716 # 10.0.64.126 fhoef00014
-bc2299 reboot 1585237716 # 10.0.65.34 fhoef00017
-fe05ff reboot 1585237716 # 10.0.65.57 fhoef00018
-64cc79 reboot 1585237716 # 10.0.67.136 fhoef00027
-88775f reboot 1585237716 # 10.0.121.159 fhoef00032
-1444fa reboot 1585237716 # 10.0.121.23 fhoef00035
-9c860e reboot 1585237716 # 10.0.120.128 fhoef00040
 
 ## resets
-b1937c reset 1586236410
-# 3/24/20
-589176 reset 1585091906
-# 3/3/20
-1444fa reset 1583250801
-# 2/28/20
-1444fa reset 1582932154
-# 2/27/20
-bad6b7 reset 1582830326
-# 2/20/20
-a3e024 reset 1582218040
 
-be5d42 reset 1581461480
-8342ab reset 1581008976
-88775f reset 1581008976
-a3e024 reset 1580934245
-1a7d47 reset 1580934245
-8342ab reset 1580934245
-be5d42 reset 1580934245
-ce9ea0 reset 1580934245
-de83b4 reset 1580934245
-e4b5b6 reset 1580934245
-d3176c reset 1580934245
-873362 reset 1580934245
-bc2299 reset 1580933009
-a3e024 reset 1580929673
-fe05ff reset 1580929673
-a3e024 reset 1580837934
-b3897a reset 1580771501
-a03b81 reset 1580771501
-9c860e reset 1580771501
-84fddc reset 1580771501
-e4b5b6 reset 1577486169
-8342ab reset 1577486169
-99d76d reset 1577388344
-d2d829 reset 1573856949
-8342ab reset 1573856949
-bc2299 reset 1573766700
-d3176c reset 1573254670
-c16782 reset 1573669390 
+## removals
+global remove 9c860e
 
-## asic password
+## VPS pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
+## Remote pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCovql1bo+pkGUoq+zckj82BiW5CIBbxq1+wfET94ULY9b/BJzZHFxxjX79+aG4oilCpUKHFTJHv8Ox3IvtPxWGyx5IpV+avJqCO66+7/aIoG+Cqcz7f9pZPhK61qOG9AQsLNaZHaaB+jif7qCmXiDB1/eDzKHIh2UHdEnZSkcTrwdU40yA4JhenTAMJAxITopjAfURgJtTOkr9eBIVM6Xj/0x/f9ZUvL5jSLNDL9ujce928zCwvcMND+lrB3q5VgMluwihMUWZ3gJfsvZdHwPVXDP+qo1DaIP/oJ/rfD/ef9KkmYTYS3+RaYwGEJoGd0uHCUzSIl3oUJQg6kj4H22p
+# global panelpass gj83Nkgikg
 asicpass admin
+global logo https://raw.githubusercontent.com/cnels127/Configs/master/Bit49(2).png
