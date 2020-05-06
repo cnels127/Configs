@@ -37,7 +37,6 @@ global panelclear 999
 # global reboot 1
 global uncork 1576101299
 # global reset 1
-# global panelpass gj83Nkgikg
 
 ## vlans
 # vlan 10.0.51.131-131
@@ -536,193 +535,22 @@ da1b68 location CRIBE0XTRA # 10.0.77.138
 25f767 location CRIBE0XTRA # 10.0.115.56
 
 ## throttle
-d3941f uncork 1584642777
-72cf2d uncork 1584642777
 
 ## fans
 
 ## reboots
-86677b reboot 1584642777
-765ec0 reboot 1584642777
-445a87 reboot 1584642777
-be6e5c reboot 1584642777
-a6f215 reboot 1584642777
-ceceac reboot 1584642777
-536fa0 reboot 1584642777
-e7af56 reboot 1584642777
-0068f5 reboot 1584642777
-eac263 reboot 1584642777
-069b7d reboot 1584642777
-b88126 reboot 1584642777
-333095 reboot 1584642777
-cdc7b1 reboot 1584642777
-74b1a1 reboot 1584642777
-d70d1e reboot 1584642777
-049bcf reboot 1584642777
-55ef04 reboot 1584642777
-f9cc31 reboot 1584642777
-c120c5 reboot 1584642777
-904a48 reboot 1584642777
-830d52 reboot 1584642777
-70afe2 reboot 1584642777
-ac469a reboot 1584642777
-615e72 reboot 1584642777
-3b84a1 reboot 1584642777
-d201ca reboot 1584642777
-923afa reboot 1584642777
-e004c5 reboot 1584642777
-a4bf15 reboot 1584642777
-eb5256 reboot 1584642777
-0e5797 reboot 1584642777
-dd601e reboot 1584642777
-eddea6 reboot 1584642777
-a04740 reboot 1584642777
-442360 reboot 1584642777
-e0b9e7 reboot 1584642777
-344d03 reboot 1584642777
-268669 reboot 1584642777
-7a2e69 reboot 1584642777
-8c008f reboot 1584642777
-7a6e47 reboot 1584642777
-fdfb5f reboot 1584642777
-e74b4f reboot 1584642777
-4a89fe reboot 1584642777
-002a63 reboot 1584642777
-30f3ce reboot 1584642777
-577f14 reboot 1584642777
-54b3e0 reboot 1584642777
-9f6d83 reboot 1584642777
-f62743 reboot 1584642777
-6aa96b reboot 1584642777
-aff36d reboot 1584642777
-7db9db reboot 1584642777
-28042e reboot 1584642777
-512376 reboot 1584642777
-cdce27 reboot 1584642777
-117b72 reboot 1584642777
-d254d2 reboot 1584642777
-775417 reboot 1584642777
-4d8d44 reboot 1584642777
-e64f0a reboot 1584642777
-183f9e reboot 1584642777
-5a3ea6 reboot 1584642777
-1e557e reboot 1584642777
-1e0d19 reboot 1584642777
-10bf66 reboot 1584642777
-1b91e2 reboot 1584642777
-8df680 reboot 1584642777
-2a6f8a reboot 1584642777
-c3fecd reboot 1584642777
-5433d7 reboot 1584642777
-cd80a5 reboot 1584642777
-48af58 reboot 1584642777
-8ec32b reboot 1584642777
-493278 reboot 1584642777
-02e716 reboot 1584642777
-4b06d3 reboot 1584642777
-4593d4 reboot 1584642777
-aadd03 reboot 1584642777
-0a48d9 reboot 1584642777
-7f6f52 reboot 1584642777
-c7b8fd reboot 1584642777
-dc3dd7 reboot 1584642777
-fbed7a reboot 1584642777
-c95115 reboot 1584642777
-3094d0 reboot 1584642777
-61f63e reboot 1584642777
-db1ede reboot 1584642777
-8071a5 reboot 1584642777
-11b3e7 reboot 1584642777
-4d41a8 reboot 1584642777
-825d48 reboot 1584642777
-82124e reboot 1584642777
-c53edf reboot 1584642777
-67d9d4 reboot 1584642777
-2b8af5 reboot 1584642777
-0f5fcd reboot 1584642777
-c4f1dc reboot 1584642777
-fc35ef reboot 1584642777
-509988 reboot 1584642777
-2d257b reboot 1584642777
-5f1a6a reboot 1584642777
-c29aa8 reboot 1584642777
-667bbe reboot 1584642777
-aca1f9 reboot 1584642777
-b169bf reboot 1584642777
-893a70 reboot 1584642777
-e4cbc8 reboot 1584642777
-eb763f reboot 1584642777
-5efe33 reboot 1584642777
-9c7ef0 reboot 1584642777
-2f0a33 reboot 1584642777
-bd7bf8 reboot 1584642777
-bd5aa0 reboot 1584642777
-240df8 reboot 1584642777
-668f87 reboot 1584642777
-78a6ea reboot 1584642777
-64e334 reboot 1584642777
-3fda51 reboot 1584642777
-7a6fcf reboot 1584642777
-cbc7c5 reboot 1584642777
-340637 reboot 1584642777
-edb8c4 reboot 1584642777
-e73ffc reboot 1584642777
-a7f5e0 reboot 1584642777
-ff69f4 reboot 1584642777
-9bb638 reboot 1584642777
-451534 reboot 1584642777
-51e88c reboot 1584642777
-e7f17f reboot 1584642777
-eac317 reboot 1584642777
-7a0133 reboot 1584642777
-96ad80 reboot 1584642777
 
 ## retunes
 
 ## resets
-f9cc31 reset 1582734665
-7a0133 reset 1582734665
-4b4ce5 reset 1578679206
-333095 reset 1577910733
-b6ea66 reset 1577486684
-667bbe reset 1577471957
-78a6ea reset 1577471957
-340637 reset 1577085140
-a7f5e0 reset 1577085140
-830d52 reset 1577085140
-4b06d3 reset 1577084010
-4eeab5 reset 1577084010
-268669 reset 1577084010
-117b72 reset 1574121632
-ceceac reset 1574121632
-b42546 reset 1574121632
-eb763f reset 1574121632
-54b3e0 reset 1574121632
-4a7ac4 reset 1574121632
-445a87 reset 1574121632
 
 ## removed
 global remove 000122
 
-## flashed to stock OS
-vlan 10.0.58.36-36
-vlan 10.0.58.90-90
-vlan 10.0.59.57-57
-vlan 10.0.59.58-58
-vlan 10.0.59.65-65
-vlan 10.0.59.74-74
-vlan 10.0.59.85-85
-vlan 10.0.59.87-87
-vlan 10.0.59.94-94
-vlan 10.0.59.97-97
-vlan 10.0.61.55-55
-vlan 10.0.61.64-64
-vlan 10.0.61.80-80
-vlan 10.0.62.25-25
-vlan 10.0.62.28-28
-vlan 10.0.63.48-48
-vlan 10.0.117.140-140
-vlan 10.0.119.127-127
-
-## asic password
+## VPS pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
+## Remote pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCovql1bo+pkGUoq+zckj82BiW5CIBbxq1+wfET94ULY9b/BJzZHFxxjX79+aG4oilCpUKHFTJHv8Ox3IvtPxWGyx5IpV+avJqCO66+7/aIoG+Cqcz7f9pZPhK61qOG9AQsLNaZHaaB+jif7qCmXiDB1/eDzKHIh2UHdEnZSkcTrwdU40yA4JhenTAMJAxITopjAfURgJtTOkr9eBIVM6Xj/0x/f9ZUvL5jSLNDL9ujce928zCwvcMND+lrB3q5VgMluwihMUWZ3gJfsvZdHwPVXDP+qo1DaIP/oJ/rfD/ef9KkmYTYS3+RaYwGEJoGd0uHCUzSIl3oUJQg6kj4H22p
+# global panelpass gj83Nkgikg
 asicpass admin
+global logo https://raw.githubusercontent.com/cnels127/Configs/master/Bit49(2).png
