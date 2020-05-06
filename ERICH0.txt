@@ -29,7 +29,6 @@ global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 global panelclear 999
-# global panelpass gj83Nkgikg
 
 # global retune 2
 # global reboot 1573583908 # 1
@@ -37,78 +36,40 @@ global panelclear 999
 # global reset 1
 
 ## vlans
-vlan 10.0.58.33-33
-vlan 10.0.58.142-142
-vlan 10.0.60.16-16
-vlan 10.0.60.78-78
-vlan 10.0.60.80-80
-# extra machines added 11/23/19
-vlan 10.0.53.147-147
-vlan 10.0.53.151-151
-vlan 10.0.53.148-148
+vlan 10.0.58.33-33 # cc79f4
+vlan 10.0.58.142-142 # ea2b68
+vlan 10.0.60.16-16 # 81b66e
+vlan 10.0.60.78-78 # 84441a
+vlan 10.0.60.80-80 # 5f07ce
+vlan 10.0.53.147-147 # 7bf34d # extra added 11/23/19
+vlan 10.0.53.151-151 # 7a36b9 # extra added 11/23/19
 
 ## locations
-cc79f4 location ERICH00001
-ea2b68 location ERICH00002
-81b66e location ERICH00003
-84441a location ERICH00004
-5f07ce location ERICH00005
-# extra machines added 11/23/19
-7bf34d location ERICH0XTRA
-7a36b9 location ERICH0XTRA
-c1da37 location ERICH0XTRA
+cc79f4 location ERICH00001 # 10.0.58.33
+ea2b68 location ERICH00002 # 10.0.58.142
+81b66e location ERICH00003 # 10.0.60.16
+84441a location ERICH00004 # 10.0.60.78
+5f07ce location ERICH00005 # 10.0.60.80
+7bf34d location ERICH0XTRA # 10.0.53.147 # extra added 11/23/19
+7a36b9 location ERICH0XTRA # 10.0.53.151 # extra added 11/23/19
+
+## tuning
 
 ## throttle
-# 3/26/20
-84441a uncork 1585246915
-ea2b68 uncork 1585246915
-# 3/23/20
-5f07ce uncork 1585011183
-ea2b68 uncork 1584997544
-# 2/21/20
-cc79f4 uncork 1582307742
-5f07ce uncork 1582307742
-
-7a36b9 uncork 1581113411
-5f07ce uncork 1581113411
-5f07ce uncork 1581034441
-7bf34d uncork 1581034441
-7a36b9 uncork 1581034441
-cc79f4 uncork 1581034441
-5f07ce uncork 1576784002
 
 ## fans
 
 ## reboots
-# s_reboot generated on Nov 11 2019 18:47:38 utc: 1573498058
-5f07ce reboot 1573498058 # 10.0.60.80 erich00005
-81b66e reboot 1573498058 # 10.0.60.16 erich00003
-cc79f4 reboot 1573498058 # 10.0.58.33 erich00001
-81b66e reboot 1585237673 # 10.0.60.16 erich00003
-84441a reboot 1585237673 # 10.0.60.78 erich00004
-5f07ce reboot 1585237673 # 10.0.60.80 erich00005
-cc79f4 reboot 1585237673 # 10.0.58.33 erich00001
-ea2b68 reboot 1585237673 # 10.0.58.142 erich00002
-
-5f07ce reboot 1573073020 
-81b66e reboot 1573073020 
 
 ## resets
-# 3/27/20
-5f07ce reset 1585329504
-
-5f07ce reset 1584121250
-81b66e reset 1574916706
-7a36b9 reset 1574916706
-cc79f4 reset 1574916706
-5f07ce reset 1574916706
-81b66e reset 1573940787
-cc79f4 reset 1573940787
-5f07ce reset 1573940787
-84441a reset 1573940787
 
 ## removals
 global remove c1da37
 
-## asic password
+## VPS pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
+## Remote pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCovql1bo+pkGUoq+zckj82BiW5CIBbxq1+wfET94ULY9b/BJzZHFxxjX79+aG4oilCpUKHFTJHv8Ox3IvtPxWGyx5IpV+avJqCO66+7/aIoG+Cqcz7f9pZPhK61qOG9AQsLNaZHaaB+jif7qCmXiDB1/eDzKHIh2UHdEnZSkcTrwdU40yA4JhenTAMJAxITopjAfURgJtTOkr9eBIVM6Xj/0x/f9ZUvL5jSLNDL9ujce928zCwvcMND+lrB3q5VgMluwihMUWZ3gJfsvZdHwPVXDP+qo1DaIP/oJ/rfD/ef9KkmYTYS3+RaYwGEJoGd0uHCUzSIl3oUJQg6kj4H22p
+# global panelpass gj83Nkgikg
 asicpass admin
+global logo https://raw.githubusercontent.com/cnels127/Configs/master/Bit49(2).png
