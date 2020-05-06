@@ -30,7 +30,6 @@ global fanspeed 85
 global fansaver yes
 global blinkgreen rapid
 global panelclear 999
-# global panelpass gj83Nkgikg
 
 # global retune 1
 # global reboot 1
@@ -38,119 +37,73 @@ global uncork 1574921337
 # global reset 1573933663
 
 ## vlans
-# vlan 10.0.62.37-37
-# vlan 10.0.62.81-81
-# vlan 10.0.57.86-86
-# vlan 10.0.62.32-32
-# vlan 10.0.65.11-11
-# vlan 10.0.61.109-109
-# vlan 10.0.65.124-124
-# vlan 10.0.63.42-42
-# vlan 10.0.61.105-105
-# vlan 10.0.63.34-34
-# vlan 10.0.65.112-112
-# vlan 10.0.67.95-95
-# vlan 10.0.59.161-161
-# vlan 10.0.64.104-104
-# vlan 10.0.64.70-70
-# extra machines added 1/28/20
-vlan 10.0.119.36-36 # 5d25fd
-vlan 10.0.115.91-91 # 3e769e
-vlan 10.0.118.127-127 # 27a545
-vlan 10.0.68.80-80 # bc8e6c
-vlan 10.0.119.21-21 # 8f4a03
-vlan 10.0.119.25-25 # ee1c21
-vlan 10.0.121.39-39 # 0365f7
+vlan 10.0.62.37-37 # a7fca0
+vlan 10.0.62.81-81 # 335e38
+vlan 10.0.62.32-32 # 485e13
+vlan 10.0.65.11-11 # c7c8e8
+vlan 10.0.61.109-109 # 737fce
+vlan 10.0.65.124-124 # f3bb3d
+vlan 10.0.63.42-42 # 6192a4
+vlan 10.0.61.105-105 # 50ff88
+vlan 10.0.63.34-34 # 9157ba
+vlan 10.0.65.112-112 # fe7105
+# vlan 10.0.57.86-86 # a3883c # POWERED DOWN - NO WORKING HASHBOARDS
+# vlan 10.0.67.95-95 # a072b9 # POWERED DOWN - NO WORKING HASHBOARDS
+# vlan 10.0.59.161-161 # d51a5c # POWERED DOWN - NO WORKING HASHBOARDS
+# vlan 10.0.64.104-104 # f3c9af # POWERED DOWN - NO WORKING HASHBOARDS
+# vlan 10.0.64.70-70 # 11d430 # POWERED DOWN - NO WORKING HASHBOARDS
+vlan 10.3.22.12-12 # 9813c6 # extra added 3/7/20
+vlan 10.0.50.104-104 # ac0008 # extra added 3/7/20
+vlan 10.0.55.13-13 # 3ca1f0 # extra added 3/7/20
+vlan 10.0.55.26-26 # 930d98 # extra added 3/7/20
+vlan 10.0.55.48-48 # ed5948 # extra added 3/7/20
+vlan 10.0.115.91-91 # 3e769e # extra added 1/28/20
+vlan 10.0.121.39-39 # 0365f7 # extra added 1/28/20
+vlan 10.0.117.108-108 # bc8e6c # extra added 1/28/20
+vlan 10.0.119.24-24 # f8bd59 # extra added 12/26/19
+vlan 10.0.119.25-25 # ee1c21  # extra added 1/28/20
 
 ## locations
-a7fca0 location HFAUS00001
-335e38 location HFAUS00002
-a3883c location HFAUS00002
-485e13 location HFAUS00003
-c7c8e8 location HFAUS00004
-737fce location HFAUS00005
-f3bb3d location HFAUS00006
-6192a4 location HFAUS00007
-50ff88 location HFAUS00008
-9157ba location HFAUS00009
-4c84d0 location HFAUS00009
-683bb6 location HFAUS00009
-a072b9 location HFAUS00010
-fe7105 location HFAUS00010
-d51a5c location HFAUS00011
-f3c9af location HFAUS00012
-11d430 location HFAUS00013
-# extra machines added 12/26/19
-f8bd59 location HFAUS0XTRA # 10.0.119.24
-79293a location HFAUS0XTRA # 10.0.120.55
-# extra machines added 1/28/20
-5d25fd location HFAUS0XTRA # 10.0.119.36
-3e769e location HFAUS0XTRA # 10.0.115.91
-27a545 location HFAUS0XTRA # 10.0.118.127
-bc8e6c location HFAUS0XTRA # 10.0.68.80
-8f4a03 location HFAUS0XTRA # 10.0.119.21
-ee1c21 location HFAUS0XTRA # 10.0.119.25
-0365f7 location HFAUS0XTRA # 10.0.121.39
-# extra machines added 3/7/20
-930d98 location HFAUS0XTRA # 10.0.55.26 # 15.9 Th/s
-ac0008 location HFAUS0XTRA # 10.0.50.104 # 15.8 Th/s
-3cd509 location HFAUS0XTRA # 10.0.50.112 # 15.8 Th/s
-3ca1f0 location HFAUS0XTRA # 10.0.55.13 # 15.8 Th/s
-ed5948 location HFAUS0XTRA # 10.0.55.48 # 15.8 Th/s
-9813c6 location HFAUS0XTRA # 10.0.30.94 # 15.7 Th/s
+a7fca0 location HFAUS00001 # 10.0.62.37
+335e38 location HFAUS00002 # 10.0.62.81
+485e13 location HFAUS00003 # 10.0.62.32
+c7c8e8 location HFAUS00004 # 10.0.65.11
+737fce location HFAUS00005 # 10.0.61.109
+f3bb3d location HFAUS00006 # 10.0.65.124
+6192a4 location HFAUS00007 # 10.0.63.42
+50ff88 location HFAUS00008 # 10.0.61.105
+9157ba location HFAUS00009 # 10.0.63.34
+fe7105 location HFAUS00010 # 10.0.65.112
+# a3883c location HFAUS00002 # POWERED DOWN - NO WORKING HASHBOARDS
+# a072b9 location HFAUS00010 # POWERED DOWN - NO WORKING HASHBOARDS
+# d51a5c location HFAUS00011 # POWERED DOWN - NO WORKING HASHBOARDS
+# f3c9af location HFAUS00012 # POWERED DOWN - NO WORKING HASHBOARDS
+# 11d430 location HFAUS00013 # POWERED DOWN - NO WORKING HASHBOARDS
+9813c6 location HFAUS0XTRA # 10.0.30.94 # extra added 3/7/20 # 15.7 Th/s
+ac0008 location HFAUS0XTRA # 10.0.50.104 # extra added 3/7/20 # 15.8 Th/s
+3ca1f0 location HFAUS0XTRA # 10.0.55.13 # extra added 3/7/20 # 15.8 Th/s
+930d98 location HFAUS0XTRA # 10.0.55.26 # extra added 3/7/20 # 15.9 Th/s
+ed5948 location HFAUS0XTRA # 10.0.55.48 # extra added 3/7/20 # 15.8 Th/s
+3e769e location HFAUS0XTRA # 10.0.115.91 # extra added 1/28/20
+0365f7 location HFAUS0XTRA # 10.0.121.39 # extra added 1/28/20
+bc8e6c location HFAUS0XTRA # 10.0.68.80 # extra added 1/28/20
+f8bd59 location HFAUS0XTRA # 10.0.119.24 # extra added 12/26/19
+ee1c21 location HFAUS0XTRA # 10.0.119.25 # extra added 1/28/20
+
+## tuning
 
 ## throttle
-ac0008 uncork 1584712562
 
 ## fans
-9157ba fansaver no
-9157ba fanspeed 85
 
 ## reboots
-a072b9 reboot 1585345274
-f3bb3d reboot 1585345274
-a7fca0 reboot 1585345274
-8f4a03 reboot 1585345274
-5d25fd reboot 1585345274
-27a545 reboot 1585345274
-79293a reboot 1585345274
-a3883c reboot 1585345274
-d51a5c reboot 1585345274
-f3c9af reboot 1585345274
-11d430 reboot 1585345274
-
-## retunes
-# 3/26/20
-335e38 retune 1585246317
-c7c8e8 retune 1585246317
-9157ba retune 1585246317
-9813c6 retune 1585246317
-3ca1f0 retune 1585246317
-# 2/20/20
-27a545 retune 1582225996
-335e38 retune 1582225996
 
 ## resets
-79293a reset 1586355744
-# 3/3/20
-f3bb3d reset 1583264186
-a072b9 reset 1583264186
-a7fca0 reset 1583264186
-27a545 reset 1583264186
-f3c9af reset 1583264186
-11d430 reset 1583264186
-d51a5c reset 1583264186
-79293a reset 1583264186
 
-485e13 reset 1580256519
-9157ba reset 1580256519
-f3c9af reset 1580256349
-f8bd59 reset 1580256349
-f3c9af reset 1578433521
-f8bd59 reset 1578323202
-
-fe7105 reset 1577486289
-f3c9af reset 1577173972
-
-## asic password
+## VPS pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
+## Remote pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCovql1bo+pkGUoq+zckj82BiW5CIBbxq1+wfET94ULY9b/BJzZHFxxjX79+aG4oilCpUKHFTJHv8Ox3IvtPxWGyx5IpV+avJqCO66+7/aIoG+Cqcz7f9pZPhK61qOG9AQsLNaZHaaB+jif7qCmXiDB1/eDzKHIh2UHdEnZSkcTrwdU40yA4JhenTAMJAxITopjAfURgJtTOkr9eBIVM6Xj/0x/f9ZUvL5jSLNDL9ujce928zCwvcMND+lrB3q5VgMluwihMUWZ3gJfsvZdHwPVXDP+qo1DaIP/oJ/rfD/ef9KkmYTYS3+RaYwGEJoGd0uHCUzSIl3oUJQg6kj4H22p
+# global panelpass gj83Nkgikg
 asicpass admin
+global logo https://raw.githubusercontent.com/cnels127/Configs/master/Bit49(2).png
