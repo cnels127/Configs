@@ -4,31 +4,18 @@
 global custompanel RGRUS0bit049
 global customer bit49-Russia
 
-global poolname1 eu.ss.btc.com:1800
-global username1 ru55ellbtc
-global poolpass1 123
+global poolname1 eu-ru01.miningrigrentals.com:50028
+global username1 andruscrypto.132139
+global poolpass1 x
 global sendworker1 yes
-global poolname2 btc-eu.f2pool.com:3333
-global username2 ruscrypto1
+global poolname2 eu.ss.btc.com:1800
+global username2 ru55ellbtc
 global poolpass2 d=65536
 global sendworker2 yes
-global poolname3 eu-ru01.miningrigrentals.com:3311
-global username3 andruscrypto
+global poolname3 b4c.f2pool.com:1228
+global username3 ruscrypto1
 global poolpass3 d=65536
 global sendworker3 yes
-
-# global poolname1 eu-ru01.miningrigrentals.com:3311
-# global username1 andruscrypto
-# global poolpass1 x
-# global sendworker1 yes
-# global poolname2 eu-ru01.miningrigrentals.com:50028
-# global username2 andruscrypto
-# global poolpass2 x
-# global sendworker2 yes
-# global poolname3 172.65.201.122:3333 # (bsv.svpool.com:3333)
-# global username3 ru55ell
-# global poolpass3 d=65536
-# global sendworker3 yes
 
 global asicboost yes
 global autotune yes
@@ -42,7 +29,6 @@ global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 global panelclear 999
-# global panelpass gj83Nkgikg
 
 # global retune 1
 # global reboot 1
@@ -50,28 +36,23 @@ global panelclear 999
 # global reset 1
 
 ## vlans
-vlan 10.0.66.148-148
-# extra machine added 3/3/20
-vlan 10.0.59.45-45 # 86c9c7
+vlan 10.0.66.148-148 # 658bd9
 
 ## locations
-658bd9 location 132139
-# extra machine added 3/3/20
-86c9c7 location RGRUS0XTRA # 10.0.59.45 # 5.2 Th/s
+658bd9 location 132139 # 10.0.66.148
 
 ## throttle
-658bd9 uncork 1584066179
-86c9c7 uncork 1584066179
 
 ## fans
 
 ## reboots
-# s_reboot generated on Mar 26 2020 19:35:43 utc: 1585251343
-658bd9 reboot 1585251343 # 10.0.66.148 132139
-86c9c7 reboot 1585251343 # 10.0.59.45 rgrus0xtra
 
 ## resets
-658bd9 reset 1577385204
 
-## asic password
+## VPS pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
+## Remote pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCovql1bo+pkGUoq+zckj82BiW5CIBbxq1+wfET94ULY9b/BJzZHFxxjX79+aG4oilCpUKHFTJHv8Ox3IvtPxWGyx5IpV+avJqCO66+7/aIoG+Cqcz7f9pZPhK61qOG9AQsLNaZHaaB+jif7qCmXiDB1/eDzKHIh2UHdEnZSkcTrwdU40yA4JhenTAMJAxITopjAfURgJtTOkr9eBIVM6Xj/0x/f9ZUvL5jSLNDL9ujce928zCwvcMND+lrB3q5VgMluwihMUWZ3gJfsvZdHwPVXDP+qo1DaIP/oJ/rfD/ef9KkmYTYS3+RaYwGEJoGd0uHCUzSIl3oUJQg6kj4H22p
+# global panelpass gj83Nkgikg
 asicpass admin
+global logo https://raw.githubusercontent.com/cnels127/Configs/master/Bit49(2).png
