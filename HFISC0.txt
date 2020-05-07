@@ -38,142 +38,140 @@ global reset 1578090951
 # global panelpass gj83Nkgikg
 
 ## vlans
-# vlan 10.0.68.54-63
-# vlan 10.0.56.131-131
-# vlan 10.0.56.134-135
-# vlan 10.0.56.138-143
-# vlan 10.0.56.145-145
-# vlan 10.0.59.151-151
-# vlan 10.0.60.33-33
-# vlan 10.0.60.47-47
-# vlan 10.0.60.59-59
-# vlan 10.0.60.69-69
-# vlan 10.0.60.71-71
-# vlan 10.0.60.119-119
-# vlan 10.0.60.158-158
-# vlan 10.0.61.4-4
-# vlan 10.0.61.14-14
-# vlan 10.0.58.1-1
-# vlan 10.0.58.4-4
-# vlan 10.0.58.10-10
-# vlan 10.0.58.14-14
-# vlan 10.0.58.21-21
-# vlan 10.0.58.22-22
-# vlan 10.0.61.16-16
-# vlan 10.0.62.64-64
-# vlan 10.0.62.118-118
-# vlan 10.0.63.17-17
-# vlan 10.0.65.1-1
-# vlan 10.0.65.2-2
-# vlan 10.0.65.4-4
-# vlan 10.0.65.13-13
-# vlan 10.0.65.14-14
-# vlan 10.0.65.16-16
-# vlan 10.0.65.18-18
-# vlan 10.0.77.27-27
-# vlan 10.0.77.95-95
-# vlan 10.0.115.30-30
-# vlan 10.0.60.83-83
-# vlan 10.0.61.44-44
-# vlan 10.0.117.10-10
-# vlan 10.0.117.15-15
-# vlan 10.0.118.28-28
-# vlan 10.0.118.54-54
-# vlan 10.0.119.125-125
-# vlan 10.0.121.68-68
-# vlan 10.0.64.3-3
-# vlan 10.0.64.107-107
-# vlan 10.0.51.65-65
-# vlan 10.0.51.61-61
-# extra machines added 12/12/19
-vlan 10.0.51.74-74
-vlan 10.0.120.80-80
-vlan 10.0.54.39-39
-vlan 10.0.62.67-67
-vlan 10.0.62.71-71
-vlan 10.0.62.160-160
-vlan 10.0.77.129-129
-vlan 10.0.62.42-42
-vlan 10.0.115.81-81
-vlan 10.0.121.139-139
-vlan 10.0.51.129-129
-
+vlan 10.0.53.34-34 # 994f1c
+vlan 10.0.20.57-57 # 88a339
+vlan 10.0.20.58-58 # 88395a
+# vlan 10.0.20.59-59 # 80a659 # SCRAPPED 4/10/20
+# vlan 10.0.20.60-60 # 7a1084 # SCRAPPED 4/10/20
+vlan 10.0.20.61-61 # 1c50a6
+vlan 10.0.58.73-73 # 27398f
+vlan 10.0.59.77-77 # 1cfdcb
+vlan 10.0.59.103-103 # 6efefd
+# vlan 10.0.59.104-104 # 2fd188 # SCRAPPED 4/24/20
+vlan 10.0.56.131-131 # 2d90d3
+vlan 10.0.56.134-134 # d049a1
+vlan 10.0.56.135-135 # 9a346c
+# vlan 10.0.56.138-138 # cb9593 # SCRAPPED 4/11/20
+# vlan 10.0.56.139-139 # f3d8b8 # SCRAPPED 4/11/20
+vlan 10.0.56.140-140 # 1fc674
+vlan 10.0.56.141-141 # 779e72
+vlan 10.0.56.142-142 # 2020a9
+# vlan 10.0.56.143-143 # 618b1a # SCRAPPED 4/11/20
+vlan 10.0.56.145-145 # bff483
+# vlan 10.0.59.151-151 # 424037 # SCRAPPED 4/11/20
+vlan 10.0.60.33-33 # bca239
+vlan 10.0.60.47-47 # c899f8
+# vlan 10.0.60.59-59 # e2ac32 # SCRAPPED 4/10/20
+vlan 10.0.60.69-69 # b688aa
+# vlan 10.0.60.71-71 # d24d19 # SCRAPPED 4/10/20
+vlan 10.0.60.119-119 # 972425
+# vlan 10.0.60.158-158 # f13d6c # SCRAPPED 4/11/20
+vlan 10.0.61.4-4 # c8c445
+vlan 10.0.61.14-14 # de5a58
+vlan 10.0.58.1-1 # f1a26a
+vlan 10.0.58.4-4 # 24c1e0
+# vlan 10.0.58.10-10 # 540742 # SCRAPPED 4/11/20
+vlan 10.0.58.14-14 # cffad5
+vlan 10.0.58.21-21 # 23b521
+vlan 10.0.58.22-22 # 44e6e0
+# vlan 10.0.61.16-16 # 267c54 # SCRAPPED 4/10/20
+# vlan 10.0.62.64-64 # 10ecee # SCRAPPED 4/10/20
+# vlan 10.0.62.118-118 # 5e2741 # SCRAPPED 4/11/20
+# vlan 10.0.63.17-17 # 396eb4 # SCRAPPED 4/10/20
+# vlan 10.0.65.1-1 # 8008e2 # SCRAPPED 4/22/20
+# vlan 10.0.65.2-2 # 3ff13b # SCRAPPED 4/10/20
+vlan 10.0.65.4-4 # ca8115
+vlan 10.0.65.13-13 # bf90a6
+vlan 10.0.65.14-14 # 4d19c2
+vlan 10.0.65.16-16 # 64fe5e
+vlan 10.0.65.18-18 # 1f956c
+vlan 10.0.77.27-27 # 3ccb07
+# vlan 10.0.77.95-95 # 32db9b # SCRAPPED 4/10/20
+# vlan 10.0.115.30-30 # e3ce5c # SCRAPPED 4/10/20
+# vlan 10.0.60.83-83 # f0acc9 # SCRAPPED 4/10/20
+# vlan 10.0.61.44-44 # 69c26c # SCRAPPED 4/10/20
+vlan 10.0.117.10-10 # abb865
+# vlan 10.0.117.15-15 # b73e18 # SCRAPPED 4/10/20
+# vlan 10.0.118.28-28 # 939cc7 # SCRAPPED 4/10/20
+vlan 10.0.118.54-54 # f2b75b
+vlan 10.0.119.125-125 # 77f6c4
+vlan 10.0.121.68-68 # 9373bb
+vlan 10.0.64.3-3 # 4c84d0
+vlan 10.0.51.61-61 # 000122
+vlan 10.0.64.107-107 # 26c95e # extra added
+vlan 10.0.62.42-42 # 6d6f15 # extra added 12/12/19
+vlan 10.0.62.67-67 # 12a96e # extra added 12/12/19
+vlan 10.0.62.71-71 # 6b2885 # extra added 12/12/19
+vlan 10.0.121.139-139 # 3fd204 # extra added 12/12/19
+vlan 10.0.77.129-129 # 58d6e6 # extra added 12/12/19
 
 ## locations
-994f1c location HFISC00001
-88a339 location HFISC00002
-88395a location HFISC00003
-# 80a659 location HFISC00004 # SCRAPPED 4/10/20
-# 7a1084 location HFISC00005 # SCRAPPED 4/10/20
-1c50a6 location HFISC00006
-27398f location HFISC00007
-1cfdcb location HFISC00008
-6efefd location HFISC00009
-2fd188 location HFISC00010
-2d90d3 location HFISC00011
-d049a1 location HFISC00012
-9a346c location HFISC00013
-# cb9593 location HFISC00014 # SCRAPPED 4/11/20
-# f3d8b8 location HFISC00015 # SCRAPPED 4/11/20
-1fc674 location HFISC00016
-779e72 location HFISC00017
-2020a9 location HFISC00018
-# 618b1a location HFISC00019 # SCRAPPED 4/11/20
-bff483 location HFISC00020
-424037 location HFISC00021
-bca239 location HFISC00022
-c899f8 location HFISC00023
-# e2ac32 location HFISC00024 # SCRAPPED 4/10/20
-b688aa location HFISC00025
-# d24d19 location HFISC00026 # SCRAPPED 4/10/20
-972425 location HFISC00027
-# f13d6c location HFISC00028 # SCRAPPED 4/11/20
-c8c445 location HFISC00029
-de5a58 location HFISC00030
-f1a26a location HFISC00031
-24c1e0 location HFISC00032
-# 540742 location HFISC00033 # SCRAPPED 4/11/20
-cffad5 location HFISC00034
-23b521 location HFISC00035
-44e6e0 location HFISC00036
-# 267c54 location HFISC00037 # SCRAPPED 4/10/20
-# 10ecee location HFISC00038 # SCRAPPED 4/10/20
-# 5e2741 location HFISC00039 # SCRAPPED 4/11/20
-# 396eb4 location HFISC00040 # SCRAPPED 4/10/20
-8008e2 location HFISC00041
-# 3ff13b location HFISC00042 # SCRAPPED 4/10/20
-ca8115 location HFISC00043
-bf90a6 location HFISC00044
-4d19c2 location HFISC00045
-64fe5e location HFISC00046
-1f956c location HFISC00047
-3ccb07 location HFISC00048
-# 32db9b location HFISC00049 # SCRAPPED 4/10/20
-# e3ce5c location HFISC00050 # SCRAPPED 4/10/20
-# f0acc9 location HFISC00051 # SCRAPPED 4/10/20
-# 69c26c location HFISC00052 # SCRAPPED 4/10/20
-abb865 location HFISC00053
-# b73e18 location HFISC00054 # SCRAPPED 4/10/20
-# 939cc7 location HFISC00055 # SCRAPPED 4/10/20
-f2b75b location HFISC00056
-77f6c4 location HFISC00057
-9373bb location HFISC00058
-4c84d0 location HFISC00059
-000122 location HFISC00060
-26c95e location HFISC0XTRA
-227281 location HFISC0XTRA
-# extra machines added 12/12/19
-7c3b2a location HFISC0XTRA # 10.0.51.74
-e9c1a4 location HFISC0XTRA # 10.0.120.80
-02c22d location HFISC0XTRA # 10.0.54.39
-12a96e location HFISC0XTRA # 10.0.62.67
-6b2885 location HFISC0XTRA # 10.0.62.71
-f60107 location HFISC0XTRA # 10.0.62.160
-58d6e6 location HFISC0XTRA # 10.0.77.129
-6d6f15 location HFISC0XTRA # 10.0.62.42
-084f48 location HFISC0XTRA # 10.0.115.81
-3fd204 location HFISC0XTRA # 10.0.121.139
-a8ee8a location HFISC0XTRA # 10.0.51.129
+994f1c location HFISC00001 # 10.0.53.34
+88a339 location HFISC00002 # 10.0.20.57
+88395a location HFISC00003 # 10.0.20.58
+# 80a659 location HFISC00004 # 10.0.20.59 # SCRAPPED 4/10/20
+# 7a1084 location HFISC00005 # 10.0.20.60 # SCRAPPED 4/10/20
+1c50a6 location HFISC00006 # 10.0.20.61
+27398f location HFISC00007 # 10.0.58.73
+1cfdcb location HFISC00008 # 10.0.59.77
+6efefd location HFISC00009 # 10.0.59.103
+# 2fd188 location HFISC00010 # 10.0.59.104 # SCRAPPED 4/24/20
+2d90d3 location HFISC00011 # 10.0.56.131
+d049a1 location HFISC00012 # 10.0.56.134
+9a346c location HFISC00013 # 10.0.56.135
+# cb9593 location HFISC00014 # 10.0.56.138 # SCRAPPED 4/11/20
+# f3d8b8 location HFISC00015 # 10.0.56.139 # SCRAPPED 4/11/20
+1fc674 location HFISC00016 # 10.0.56.140
+779e72 location HFISC00017 # 10.0.56.141
+2020a9 location HFISC00018 # 10.0.56.142
+# 618b1a location HFISC00019 # 10.0.56.143 # SCRAPPED 4/11/20
+bff483 location HFISC00020 # 10.0.56.145
+# 424037 location HFISC00021 # 10.0.59.151 # SCRAPPED 4/11/20
+bca239 location HFISC00022 # 10.0.60.33
+c899f8 location HFISC00023 # 10.0.60.47
+# e2ac32 location HFISC00024 # 10.0.60.59 # SCRAPPED 4/10/20
+b688aa location HFISC00025 # 10.0.60.69
+# d24d19 location HFISC00026 # 10.0.60.71 # SCRAPPED 4/10/20
+972425 location HFISC00027 # 10.0.60.119
+# f13d6c location HFISC00028 # 10.0.60.158 # SCRAPPED 4/11/20
+c8c445 location HFISC00029 # 10.0.61.4
+de5a58 location HFISC00030 # 10.0.61.14
+f1a26a location HFISC00031 # 10.0.58.1
+24c1e0 location HFISC00032 # 10.0.58.4
+# 540742 location HFISC00033 # 10.0.58.10 # SCRAPPED 4/11/20
+cffad5 location HFISC00034 # 10.0.58.14
+23b521 location HFISC00035 # 10.0.58.21
+44e6e0 location HFISC00036 # 10.0.58.22
+# 267c54 location HFISC00037 # 10.0.61.16 # SCRAPPED 4/10/20
+# 10ecee location HFISC00038 # 10.0.62.64 # SCRAPPED 4/10/20
+# 5e2741 location HFISC00039 # 10.0.62.118 # SCRAPPED 4/11/20
+# 396eb4 location HFISC00040 # 10.0.63.17 # SCRAPPED 4/10/20
+# 8008e2 location HFISC00041 # 10.0.65.1 # SCRAPPED 4/22/20
+# 3ff13b location HFISC00042 # 10.0.65.2 # SCRAPPED 4/10/20
+ca8115 location HFISC00043 # 10.0.65.4
+bf90a6 location HFISC00044 # 10.0.65.13
+4d19c2 location HFISC00045 # 10.0.65.14
+64fe5e location HFISC00046 # 10.0.65.16
+1f956c location HFISC00047 # 10.0.65.18
+3ccb07 location HFISC00048 # 10.0.77.27
+# 32db9b location HFISC00049 # 10.0.77.95 # SCRAPPED 4/10/20
+# e3ce5c location HFISC00050 # 10.0.115.30 # SCRAPPED 4/10/20
+# f0acc9 location HFISC00051 # 10.0.60.83 # SCRAPPED 4/10/20
+# 69c26c location HFISC00052 # 10.0.61.44 # SCRAPPED 4/10/20
+abb865 location HFISC00053 # 10.0.117.10
+# b73e18 location HFISC00054 # 10.0.117.15 # SCRAPPED 4/10/20
+# 939cc7 location HFISC00055 # 10.0.118.28 # SCRAPPED 4/10/20
+f2b75b location HFISC00056 # 10.0.118.54
+77f6c4 location HFISC00057 # 10.0.119.125
+9373bb location HFISC00058 # 10.0.121.68
+4c84d0 location HFISC00059 # 10.0.64.3
+000122 location HFISC00060 # 10.0.51.61
+26c95e location HFISC0XTRA # 10.0.64.107 # extra added
+6d6f15 location HFISC0XTRA # 10.0.62.42 # extra added 12/12/19
+12a96e location HFISC0XTRA # 10.0.62.67 # extra added 12/12/19
+6b2885 location HFISC0XTRA # 10.0.62.71 # extra added 12/12/19
+3fd204 location HFISC0XTRA # 10.0.121.139 # extra added 12/12/19
+58d6e6 location HFISC0XTRA # 10.0.77.129 # extra added 12/12/19
 
 ## fans
 
@@ -186,7 +184,7 @@ a8ee8a location HFISC0XTRA # 10.0.51.129
 ## resets
 
 ## removals
-
+global remove e9c1a4,02c22d,f60107,084f48
 
 ## asic password
 asicpass admin
