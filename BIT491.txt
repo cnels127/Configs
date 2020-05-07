@@ -18,7 +18,7 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1350
+global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
@@ -39,9 +39,9 @@ global panelclear 999
 
 ## locations
 
-## throttle
+## tuning
 bb43ef maxwatts 1450
-7fe818 maxwatts 1450
+7fe818 maxwatts 600
 
 ## fans
 
