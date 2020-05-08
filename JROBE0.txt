@@ -1,5 +1,7 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
-## TOTAL EXP HASHRATE 5 s9 @ 16 Th/s = 80 Th/s
+##  3 s9 @ 14.4 Th/s  = 43.2 Th/s
+##  2 s9 @ 16 Th/s    = 32 Th/s
+## TOTAL EXP HASHRATE = 75.2
 
 global custompanel JROBE0bit049
 global customer bit49-Russia
@@ -29,120 +31,53 @@ global fansaver yes
 global blinkgreen idle
 global blinkgreen rapid
 global panelclear 999
-# global panelpass gj83Nkgikg
 
 # global retune 1
 # global reboot 1
 global uncork 1574925076
 # global reset 1
-# global panelpass gj83Nkgikg
 
 ## vlans
-vlan 10.0.54.74-75
-vlan 10.0.68.9-9
-vlan 10.0.119.71-71
-vlan 10.0.120.130-130
-# extra machines added 11/23/19
-vlan 10.0.53.152-152
-vlan 10.0.53.153-153
-# extra machines added 1/30/20
-vlan 10.0.68.89-89 # f2296d
-# extra machines added 3/1/20
-vlan 10.0.59.37-37 # a36e04
-vlan 10.0.58.70-70 # 62bdc8
+# vlan 10.0.54.74-74 # 1565d6 # SCRAPPED 4/24/20
+# vlan 10.0.54.75-75 # 555712 # SCRAPPED 4/24/20
+vlan 10.0.60.20-20 # 317af1
+vlan 10.0.119.71-71 # 9b2f7a
+# vlan 10.0.120.130-130 # 321a3a # SCRAPPED 5/6/20
+vlan 10.0.53.152-152 # 29ece6 # extra added 11/23/19
+vlan 10.0.53.153-153 # 79e1ed # extra added 11/23/19
+vlan 10.0.62.111-111 # f2296d # extra added 1/30/20
+vlan 10.0.59.37-37 # a36e04 # extra added 3/1/20
+vlan 10.0.58.70-70 # 62bdc8 # extra added 3/1/20
 
 ## locations
-1565d6 location JROBE00001
-555712 location JROBE00002
+# 1565d6 location JROBE00001 # 10.0.54.74 # SCRAPPED 4/24/20
+# 555712 location JROBE00002 # 10.0.54.75 # SCRAPPED 4/24/20
 317af1 location JROBE00003
 9b2f7a location JROBE00004
-321a3a location JROBE00005
-# extra machines added 11/23/19
-29ece6 location JROBE0XTRA
-79e1ed location JROBE0XTRA
-29ece6 maxwatts 1450
-79e1ed maxwatts 1450
-# extra machines added 1/30/20
-f2296d location JROBE0XTRA # 10.0.68.89
-# extra machines added 3/1/20
-a36e04 location JROBE0XTRA # 10.0.59.37
-62bdc8 location JROBE0XTRA # 10.0.58.70
+# 321a3a location JROBE00005 # 10.0.120.130 # SCRAPPED 5/6/20
+29ece6 location JROBE0XTRA # 10.0.53.152 # extra added 11/23/19
+79e1ed location JROBE0XTRA # 10.0.53.153 # extra added 11/23/19
+f2296d location JROBE0XTRA # 10.0.62.111 # extra added 1/30/20
+a36e04 location JROBE0XTRA # 10.0.59.37 # extra added 3/1/20
+62bdc8 location JROBE0XTRA # 10.0.58.70 # extra added 3/1/20
 
-## throttle 
-# 3/23/20
-f2296d uncork 1585002274
-a36e04 uncork 1585002274
-# 3/10/20
-a36e04 uncork 1583855385
-# 3/6/20
-79e1ed uncork 1583519212
+## tuning
 
-29ece6 uncork 1581354779
-5d5985 uncork 1581354779
-29ece6 uncork 1581040240
-5d5985 uncork 1581040240
-29ece6 uncork 1581007970
-1565d6 uncork 1581007970
-555712 uncork 1581007970
-5d5985 uncork 1581007970
-79e1ed uncork 1580486100
-555712 uncork 1580486100
-29ece6 uncork 1579330772
-
-## retune
-# 2/19/20
-29ece6 retune 1582129382
+## throttle
 
 ## fans
 
 ## reboots
 
 ## resets
-# 3/4/20
-29ece6 reset 1583365711
-# 3/3/20
-9b2f7a reset 1583346120
-# 3/2/20
-1565d6 reset 1583175662
-555712 reset 1583175662
-321a3a reset 1583175662
-# 2/24/20
-9b2f7a reset 1582567942
-29ece6 reset 1582567942
-# 2/20/20
-29ece6 reset 1582215990
-# 2/19/20
-5d5985 reset 1582128742
-
-f2296d reset 1581708528
-29ece6 reset 1581708528
-79e1ed reset 1581463540
-9b2f7a reset 1581456341
-5d5985 reset 1581123340
-29ece6 reset 1581123340
-79e1ed reset 1581104632
-321a3a reset 1581007970
-555712 reset 1580939049
-5d5985 reset 1580939049
-9b2f7a reset 1580939049
-555712 reset 1580837234
-79e1ed reset 1580757799
-555712 reset 1580752952
-1565d6 reset 1580509227
-9b2f7a reset 1580504008
-d54f75 reset 1580493118
-79e1ed reset 1580487915
-555712 reset 1580487915
-1565d6 reset 1580485984
-9b2f7a reset 1580428899
-79e1ed reset 1580419411
-321a3a reset 1580405773
-1565d6 reset 1580405249
-321a3a reset 1580320461
-317af1 reset 1577117538
 
 ## removals
 global remove 5d5985
 
-## asic password
+## VPS pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
+## Remote pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCovql1bo+pkGUoq+zckj82BiW5CIBbxq1+wfET94ULY9b/BJzZHFxxjX79+aG4oilCpUKHFTJHv8Ox3IvtPxWGyx5IpV+avJqCO66+7/aIoG+Cqcz7f9pZPhK61qOG9AQsLNaZHaaB+jif7qCmXiDB1/eDzKHIh2UHdEnZSkcTrwdU40yA4JhenTAMJAxITopjAfURgJtTOkr9eBIVM6Xj/0x/f9ZUvL5jSLNDL9ujce928zCwvcMND+lrB3q5VgMluwihMUWZ3gJfsvZdHwPVXDP+qo1DaIP/oJ/rfD/ef9KkmYTYS3+RaYwGEJoGd0uHCUzSIl3oUJQg6kj4H22p
+# global panelpass gj83Nkgikg
 asicpass admin
+global logo https://raw.githubusercontent.com/cnels127/Configs/master/Bit49(2).png
