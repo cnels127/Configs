@@ -1,5 +1,6 @@
-## instructions available at: https://asicseer.com/page/kb#writing-config
-## TOTAL EXP HASHRATE 18 s9 @ 14.4 Th/s = 259.2 Th/s
+##   6 s9 @ 14.4 Th/s = 86.4 Th/s(contract expires 3/6/20)
+##  12 s9 @ 14.4 Th/s = 172.8 Th/s (contract expires 5/16/19)
+## TOTAL EXP HASHRATE = 259.2 Th/s
 
 global custompanel DDUNN0bit049
 global customer bit49-Russia
@@ -53,11 +54,6 @@ vlan 10.0.56.86-86 # 968831
 vlan 10.0.56.110-110 # eef025
 vlan 10.0.56.112-112 # 787c22
 vlan 10.0.56.114-114 # 58df28
-vlan 10.3.22.93-93 # 669175 # extra added
-vlan 10.0.50.161-161 # 140b62 # extra added
-vlan 10.0.51.71-71 # 153e95 # extra added
-vlan 10.0.51.76-76 # fcb53d # extra added
-vlan 10.0.51.69-69 # a58136 # extra added
 
 ## locations
 5594a0 location DDUNN00001 # 10.0.54.160
@@ -77,11 +73,6 @@ f5839e location DDUNN00007 # 10.0.55.86
 eef025 location DDUNN00016 # 10.0.56.110
 787c22 location DDUNN00017 # 10.0.56.112
 58df28 location DDUNN00018 # 10.0.56.114
-669175 location DDUNN0XTRA # 10.3.22.93 # extra added
-140b62 location DDUNN0XTRA # 10.0.50.161 # extra added
-153e95 location DDUNN0XTRA # 10.0.51.71 # extra added
-fcb53d location DDUNN0XTRA # 10.0.51.76 # extra added
-a58136 location DDUNN0XTRA # 10.0.51.69 # extra added
 
 ## tuning
 
@@ -94,7 +85,7 @@ a58136 location DDUNN0XTRA # 10.0.51.69 # extra added
 ## resets
 
 ## removals
-global remove 62c412
+global remove 62c412,669175,140b62,153e95,fcb53d,a58136
 
 ## VPS pubkey
 pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
