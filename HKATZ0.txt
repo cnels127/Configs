@@ -4,14 +4,6 @@
 global custompanel HKATZ0bit049
 global customer bit49-Russia
 
-# global poolname1 sha256asicboost.eu-new.nicehash.com:3368
-# global username1 14g9byTqAYT8UgrTWdkbZcEaRDC9r6CpsE
-# global poolpass1 x
-# global sendworker1 yes
-# global poolname2 sha256asicboost.usa-new.nicehash.com:3368
-# global username2 14g9byTqAYT8UgrTWdkbZcEaRDC9r6CpsE
-# global poolpass2 x
-# global sendworker2 yes
 global poolname1 connect.pool.bitcoin.com:3333
 global username1 bit49xhkatz0
 global poolpass1 123
@@ -24,7 +16,6 @@ global poolname3 profit.pool.bitcoin.com:3333
 global username3 bit49
 global poolpass3 123
 global sendworker3 yes
-
 
 global asicboost yes
 global autotune yes
@@ -43,62 +34,40 @@ global panelclear 999
 # global reboot 1573498204
 global uncork 1580497915
 # global reset 1574284478
-# global panelpass gj83Nkgikg
 
-## 2 s9 on 1BcvWti9xXcgPooyDsy4SesR98g1HvBkYo
-## 3 s9 on 14g9byTqAYT8UgrTWdkbZcEaRDC9r6CpsE
 ## vlans
-vlan 10.0.68.38-38 # fae301
-vlan 10.0.68.39-39 # 44ba88
-vlan 10.0.66.30-30 # 7f79ef
 vlan 10.0.65.61-61 # 15e78d
+vlan 10.0.66.30-30 # 7f79ef
 vlan 10.0.67.40-40 # ceac8d
+vlan 10.0.117.42-42 # fae301
+vlan 10.0.117.43-43 # 44ba88
+vlan 10.3.23.44-44 # 771df9 # extra added 3/9/20 # 15.4 Th/s
+vlan 10.3.23.94-94 # c5da9f # extra added 3/9/20 # 15.4 Th/s
 
 ## locations
-fae301 location HKATZ00001
-44ba88 location HKATZ00002
-7f79ef location HKATZ00003
-15e78d location HKATZ00004
-ceac8d location HKATZ00005
-# extra machines added 12/6/19
-60ea91 location HKATZ0XTRA # 10.0.54.31
-4b6238 location HKATZ0XTRA # 10.0.54.34
-# extra machines added 3/9/20 # 30.8 Th/s
-c5da9f location HKATZ0XTRA # 10.0.31.55 # 15.4 Th/s
-771df9 location HKATZ0XTRA # 10.0.31.57 # 15.4 Th/s
+15e78d location HKATZ00001 # 10.0.65.61
+7f79ef location HKATZ00002 # 10.0.66.30
+ceac8d location HKATZ00003 # 10.0.67.40
+fae301 location HKATZ00004 # 10.0.117.42
+44ba88 location HKATZ00005 # 10.0.117.43
+c5da9f location HKATZ0XTRA # 10.0.31.55  # extra added 3/9/20 # 15.4 Th/s
+771df9 location HKATZ0XTRA # 10.0.31.57  # extra added 3/9/20 # 15.4 Th/s
 
 ## throttle
-ceac8d uncork 1585322039
-c5da9f uncork 1585322039
-771df9 uncork 1585322039
 
 ## fans
 
 ## reboots
-# s_reboot generated on Mar 26 2020 18:46:52 utc: 1585248412
-44ba88 reboot 1585248412 # 10.0.117.43 hkatz00002
-c5da9f reboot 1585248412 # 10.0.31.55 hkatz0xtra
-771df9 reboot 1585248412 # 10.0.31.57 hkatz0xtra
-fae301 reboot 1585248412 # 10.0.117.42 hkatz00001
-15e78d reboot 1585248412 # 10.0.65.61 hkatz00004
-ceac8d reboot 1585248412 # 10.0.67.40 hkatz00005
 
 ## resets
-44ba88 reset 1586038747
-# 3/6/20
-44ba88 reset 1583509168
-
-44ba88 reset 1583446062
-fae301 reset 1583446062
-15e78d reset 1583446062
-ceac8d reset 1583444607
-60ea91 reset 1576948827
-fae301 reset 1576886792
-4b6238 reset 1576883227
-15e78d reset 1573586786
 
 ## removals
 global remove 4b6238,60ea91,c24766
 
-## asic password
+## VPS pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
+## Remote pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCovql1bo+pkGUoq+zckj82BiW5CIBbxq1+wfET94ULY9b/BJzZHFxxjX79+aG4oilCpUKHFTJHv8Ox3IvtPxWGyx5IpV+avJqCO66+7/aIoG+Cqcz7f9pZPhK61qOG9AQsLNaZHaaB+jif7qCmXiDB1/eDzKHIh2UHdEnZSkcTrwdU40yA4JhenTAMJAxITopjAfURgJtTOkr9eBIVM6Xj/0x/f9ZUvL5jSLNDL9ujce928zCwvcMND+lrB3q5VgMluwihMUWZ3gJfsvZdHwPVXDP+qo1DaIP/oJ/rfD/ef9KkmYTYS3+RaYwGEJoGd0uHCUzSIl3oUJQg6kj4H22p
+# global panelpass gj83Nkgikg
 asicpass admin
+global logo https://raw.githubusercontent.com/cnels127/Configs/master/Bit49(2).png
