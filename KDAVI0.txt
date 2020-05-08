@@ -1,5 +1,8 @@
-## instructions available at: https://asicseer.com/page/kb#writing-config
-## TOTAL EXP HASHRATE 6 s9 @ 14.4 = 86.4 Th/s
+## 3 s9 contract expired 3/4/20
+## 3 s9 contract expired 5/8/20
+## 3 s9 @ 14.4 = 43.2 Th/s
+## 3 s9 @ 14.4 = 43.2 Th/s
+## TOTAL EXP HASHRATE = 86.4 Th/s
 
 global custompanel KDAVI0bit049
 global customer bit49-Russia
@@ -29,7 +32,6 @@ global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 global panelclear 999
-# global panelpass gj83Nkgikg
 
 # global retune 1
 # global reboot 1
@@ -37,42 +39,38 @@ global uncork 1574904247
 # global reset 1
 
 ## vlans
-# vlan 10.0.54.148-150
-# vlan 10.0.56.127-129
-# extra machines added 12/12/19
-vlan 10.0.118.26-26
+vlan 10.0.54.148-148
+vlan 10.0.54.149-149
+vlan 10.0.54.150-150
+vlan 10.0.56.127-127
+vlan 10.0.56.128-128
+vlan 10.0.56.129-129
 
 ## locations
-cf1a34 location KDAVI00001
-312516 location KDAVI00002
-5f861d location KDAVI00003
-6f3c8b location KDAVI00004
-0819f9 location KDAVI00005
-8ef4ad location KDAVI00006
-# extra machines added 12/12/19
-7ba11d location KDAVI0XTRA # 10.0.118.26
+cf1a34 location KDAVI00001 # 10.0.54.148
+312516 location KDAVI00002 # 10.0.54.149
+5f861d location KDAVI00003 # 10.0.54.150
+6f3c8b location KDAVI00004 # 10.0.56.127
+0819f9 location KDAVI00005 # 10.0.56.128
+8ef4ad location KDAVI00006 # 10.0.56.129
+
+## tuning
 
 ## throttle
-312516 uncork 1585322784
-5f861d uncork 1585322784
-cf1a34 uncork 1585322784
 
 ## fans
 
 ## reboots
-# s_reboot generated on Mar 26 2020 19:13:48 utc: 1585250028
-312516 reboot 1585250028 # 10.0.54.149 kdavi00002
-cf1a34 reboot 1585250028 # 10.0.54.148 kdavi00001
-7ba11d reboot 1585250028 # 10.0.118.26 kdavi0xtra
 
 ## resets
-5f861d reset 1576803820
-cf1a34 reset 1573749600
-cf1a34 reset 1573669556
-cf1a34 reset 1573168196
 
 ## removed
-global remove 343162
+global remove 343162,7ba11d
 
-## asic password
+## VPS pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
+## Remote pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCovql1bo+pkGUoq+zckj82BiW5CIBbxq1+wfET94ULY9b/BJzZHFxxjX79+aG4oilCpUKHFTJHv8Ox3IvtPxWGyx5IpV+avJqCO66+7/aIoG+Cqcz7f9pZPhK61qOG9AQsLNaZHaaB+jif7qCmXiDB1/eDzKHIh2UHdEnZSkcTrwdU40yA4JhenTAMJAxITopjAfURgJtTOkr9eBIVM6Xj/0x/f9ZUvL5jSLNDL9ujce928zCwvcMND+lrB3q5VgMluwihMUWZ3gJfsvZdHwPVXDP+qo1DaIP/oJ/rfD/ef9KkmYTYS3+RaYwGEJoGd0uHCUzSIl3oUJQg6kj4H22p
+# global panelpass gj83Nkgikg
 asicpass admin
+global logo https://raw.githubusercontent.com/cnels127/Configs/master/Bit49(2).png
