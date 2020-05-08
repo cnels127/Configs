@@ -29,7 +29,6 @@ global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 global panelclear 999
-# global panelpass gj83Nkgikg
 
 # global retune 1
 # global reboot 1
@@ -37,55 +36,46 @@ global panelclear 999
 # global reset 1
 
 ## vlans
-vlan 10.0.32.70-79
+vlan 10.0.32.77-77 # 07e0af
+vlan 10.0.32.78-78 # 362e0a
+vlan 10.0.32.79-79 # 564c64
+vlan 10.3.21.24-24 # 1e82c8
+vlan 10.3.21.26-26 # 6659c1
+vlan 10.3.21.31-31 # b7f378
+vlan 10.3.21.32-32 # b7cd11
+vlan 10.3.21.33-33 # eaee2e
+vlan 10.3.21.35-35 # a1c0cf
+vlan 10.3.22.105-105 # 8f312b
 
 ## locations
-6659c1 location JWORR00001
-8f312b location JWORR00002
-b7f378 location JWORR00003
-1e82c8 location JWORR00004
-eaee2e location JWORR00005
-a1c0cf location JWORR00006
-b7cd11 location JWORR00007
-07e0af location JWORR00008
-362e0a location JWORR00009
-564c64 location JWORR00010
-# extra machine added 12/18/19
-6e8e93 location JWORR0XTRA # 10.0.60.132
+07e0af location JWORR00001 # 10.0.32.77
+362e0a location JWORR00002 # 10.0.32.78
+564c64 location JWORR00003 # 10.0.32.79
+1e82c8 location JWORR00004 # 10.3.21.24
+6659c1 location JWORR00005 # 10.3.21.26
+b7f378 location JWORR00006 # 10.3.21.31
+b7cd11 location JWORR00007 # 10.3.21.32
+eaee2e location JWORR00008 # 10.3.21.33
+a1c0cf location JWORR00009 # 10.3.21.35
+8f312b location JWORR00010 # 10.3.22.105
 
 ## tuning
 
-##throttle
-# 3/26/20
-564c64 uncork 1585250593
-07e0af uncork 1585250593
-b7cd11 uncork 1585250593
-# 3/23/20
-8f312b uncork 1585002497
-# 3/10/20
-362e0a uncork 1583858724
-a1c0cf uncork 1583858724
-b7cd11 uncork 1583858724
-
-b7f378 uncork 1581039204
-eaee2e uncork 1581039204
-362e0a uncork 1581039204
-6e8e93 uncork 1581039204
+## throttle
 
 ## fans
 
 ## reboots
-564c64 reboot 1585239225 # 10.0.32.79 jworr00010
-b7f378 reboot 1585239225 # 10.0.32.72 jworr00003
-07e0af reboot 1585239225 # 10.0.32.77 jworr00008
 
 ## resets
-564c64 reset 1586844241
-362e0a reset 1577247504
-a1c0cf reset 1574925292
-eaee2e reset 1574925292
-362e0a reset 1574925292
-6659c1 reset 1574925292
 
-## asic password
+## removals
+global remove 6e8e93
+
+## VPS pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
+## Remote pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCovql1bo+pkGUoq+zckj82BiW5CIBbxq1+wfET94ULY9b/BJzZHFxxjX79+aG4oilCpUKHFTJHv8Ox3IvtPxWGyx5IpV+avJqCO66+7/aIoG+Cqcz7f9pZPhK61qOG9AQsLNaZHaaB+jif7qCmXiDB1/eDzKHIh2UHdEnZSkcTrwdU40yA4JhenTAMJAxITopjAfURgJtTOkr9eBIVM6Xj/0x/f9ZUvL5jSLNDL9ujce928zCwvcMND+lrB3q5VgMluwihMUWZ3gJfsvZdHwPVXDP+qo1DaIP/oJ/rfD/ef9KkmYTYS3+RaYwGEJoGd0uHCUzSIl3oUJQg6kj4H22p
+# global panelpass gj83Nkgikg
 asicpass admin
+global logo https://raw.githubusercontent.com/cnels127/Configs/master/Bit49(2).png
