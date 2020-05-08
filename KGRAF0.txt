@@ -1,6 +1,5 @@
-## instructions available at: https://asicseer.com/page/kb#writing-config
-##    15 s9 @ 16 Th/s = 240 Th/s
-##  30 s9 @ 14.4 Th/s = 432 Th/s
+##    15 s9 @ 16 Th/s = 240 Th/s (Contract start date 8/7/19)
+##  30 s9 @ 14.4 Th/s = 432 Th/s (Contract start date 9/27/19)
 ## TOTAL EXP HASHRATE = 672 Th/s
 
 global custompanel KGRAF0bit049
@@ -31,188 +30,150 @@ global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 global panelclear 999
-# global panelpass gj83Nkgikg
 
 # global retune 1
-global reboot 1580151862 
-global uncork 1574925843
+# global reboot 1580151862 
+# global uncork 1574925843
 # global reset 1
 
 ## vlans
-# vlan 10.0.61.72-72
-# vlan 10.0.61.134-134
-# vlan 10.0.63.68-68
-# vlan 10.0.64.15-15
-# vlan 10.0.64.61-61
-# vlan 10.0.64.151-151
-# vlan 10.0.65.7-7
-# vlan 10.0.65.98-98
-# vlan 10.0.65.127-127
-# vlan 10.0.65.132-132
-# vlan 10.0.65.145-145
-# vlan 10.0.65.158-158
-# vlan 10.0.66.12-12
-# vlan 10.0.66.72-72
-# vlan 10.0.66.74-74
-# vlan 10.0.58.91-91
-# vlan 10.0.59.109-109
-# vlan 10.0.61.13-13
-# vlan 10.0.61.106-106
-# vlan 10.0.62.138-138
-# vlan 10.0.66.154-154
-# vlan 10.0.77.13-13
-# vlan 10.0.77.73-73
-# vlan 10.0.115.6-6
-# vlan 10.0.115.54-54
-# vlan 10.0.115.140-140
-# vlan 10.0.115.148-148
-# vlan 10.0.115.153-153
-# vlan 10.0.116.161-161
-# vlan 10.0.117.6-6
-# vlan 10.0.117.7-7
-# vlan 10.0.117.55-55
-# vlan 10.0.117.85-85
-# vlan 10.0.117.118-118
-# vlan 10.0.117.150-150
-# vlan 10.0.118.31-31
-# vlan 10.0.118.112-112
-# vlan 10.0.119.61-61
-# vlan 10.0.120.112-112
-# vlan 10.0.51.100-100
-# vlan 10.0.115.139-139
-# vlan 10.0.77.125-125
-# vlan 10.0.115.45-45
-# vlan 10.0.121.1-1
-# vlan 10.0.68.45-45
-# extra machines added 12/9/19
-# vlan 10.0.119.58-58
-# vlan 10.0.119.74-74
-# vlan 10.0.119.76-76
-# vlan 10.0.119.77-77
-# vlan 10.0.119.86-86
-# vlan 10.0.119.130-130
-# vlan 10.0.119.145-145
-# vlan 10.0.119.19-19
-# extra machines added 3/4/20
-# vlan 10.0.59.66-66 # 3cd7e0
-# vlan 10.0.61.6-6 # 27a7bc
-# vlan 10.0.121.90-90 # f86022
-# vlan 10.0.56.40-40 # c5496d
-# vlan 10.0.59.54-54 # 8a804d
-# vlan 10.0.59.73-73 # f24571
-# vlan 10.0.59.41-41 # 26be5d
-# vlan 10.0.120.87-87 # cafe14
-# vlan 10.0.118.38-38 # 64e53f
-# vlan 10.0.54.146-146 # 934f82
-# vlan 10.0.59.90-90 # 0c9f37
-
-## reinstalls
-vlan 10.0.58.91-91
-vlan 10.0.61.106-106
-vlan 10.0.64.61-61
-vlan 10.0.115.139-139
-vlan 10.0.115.148-148
-vlan 10.0.117.85-85
-vlan 10.0.117.118-118
-vlan 10.0.119.61-61
+vlan 10.0.51.100-100 # da3e46
+vlan 10.0.58.91-91 # 943575
+vlan 10.0.59.109-109 # 91c3cc
+vlan 10.0.61.13-13 # c28a7c
+vlan 10.0.61.72-72 # 5c49bc
+vlan 10.0.61.106-106 # 7adae2
+vlan 10.0.61.134-134 # 3fb74f
+vlan 10.0.62.138-138 # 2371b0
+vlan 10.0.63.68-68 # 16adc1
+vlan 10.0.64.15-15 # 5d07a6
+vlan 10.0.64.61-61 # 1d3229
+vlan 10.0.64.151-151 # 8d226c
+vlan 10.0.65.7-7 # 93c991
+vlan 10.0.65.98-98 # eec58f
+vlan 10.0.65.127-127 # 701564
+vlan 10.0.65.132-132 # c7bfa8
+vlan 10.0.65.145-145 # e63499
+vlan 10.0.65.158-158 # 141236
+vlan 10.0.66.12-12 # 364861
+vlan 10.0.66.72-72 # e4158d
+vlan 10.0.66.74-74 # eadea9
+vlan 10.0.66.154-154 # b19f40
+vlan 10.0.77.13-13 # fe0384
+vlan 10.0.77.73-73 # d2a09d
+vlan 10.0.77.125-125 # 45ecb6
+vlan 10.0.115.6-6 # 76ebeb
+vlan 10.0.115.45-45 # b6ea4d
+vlan 10.0.115.54-54 # d91645
+vlan 10.0.115.139-139 # d780da
+vlan 10.0.115.140-140 # f6ef21
+vlan 10.0.115.148-148 # 86db98
+vlan 10.0.115.153-153 # 3037fd
+vlan 10.0.116.161-161 # d46fb5
+vlan 10.0.117.6-6 # 2730fb
+vlan 10.0.117.7-7 # 7bc97a
+vlan 10.0.117.49-49 # a62f6a
+vlan 10.0.117.55-55 # 0be583
+vlan 10.0.117.85-85 # 071a82
+vlan 10.0.117.118-118 # 68eecb
+vlan 10.0.117.150-150 # 154753
+vlan 10.0.118.31-31 # 499bef
+vlan 10.0.118.112-112 # b16fdd
+vlan 10.0.119.61-61 # d1c299
+vlan 10.0.120.112-112 # d3efbf
+vlan 10.0.121.1-1 # 0f2dda
+vlan 10.0.54.146-146 # 934f82 # extra added 3/4/20 # 15.8 Th/s
+vlan 10.0.56.40-40 # c5496d # extra added 3/4/20 # 16.1 Th/s
+vlan 10.0.59.41-41 # 26be5d # extra added 3/4/20 # 16 Th/s
+vlan 10.0.59.54-54 # 8a804d # extra added 3/4/20 # 16.1 Th/s
+vlan 10.0.59.66-66 # 3cd7e0 # extra added 3/4/20 # 16.3 Th/s
+vlan 10.0.59.73-73 # f24571 # extra added 3/4/20 # 16.1 Th/s
+vlan 10.0.59.90-90 # 0c9f37 # extra added 3/4/20 # 14.7 Th/s
+vlan 10.0.61.6-6 # 27a7bc # extra added 3/4/20 # 16.3 Th/s
+vlan 10.0.118.38-38 # 64e53f # extra added 3/4/20 # 15.8 Th/s
+vlan 10.0.119.19-19 # eb16ee # extra added 12/9/19
+vlan 10.0.119.58-58 # 78458c # extra added 12/9/19
+vlan 10.0.119.77-77 # d2338b # extra added 12/9/19
+vlan 10.0.120.87-87 # cafe14 # extra added 3/4/20 # 16 Th/s
+vlan 10.0.121.90-90 # f86022 # extra added 3/4/20 # 16.1 Th/s
 
 ## locations
-5c49bc location KGRAF00001
-3fb74f location KGRAF00002
-16adc1 location KGRAF00003
-5d07a6 location KGRAF00004
-1d3229 location KGRAF00005
-8d226c location KGRAF00006
-93c991 location KGRAF00007
-eec58f location KGRAF00008
-701564 location KGRAF00009
-c7bfa8 location KGRAF00010
-e63499 location KGRAF00011
-141236 location KGRAF00012
-364861 location KGRAF00013
-e4158d location KGRAF00014
-eadea9 location KGRAF00015
-943575 location KGRAF00016
-91c3cc location KGRAF00017
-c28a7c location KGRAF00018
-7adae2 location KGRAF00019
-2371b0 location KGRAF00020
-b19f40 location KGRAF00021
-fe0384 location KGRAF00022
-d2a09d location KGRAF00023
-76ebeb location KGRAF00024
-d91645 location KGRAF00025
-f6ef21 location KGRAF00026
-86db98 location KGRAF00027
-3037fd location KGRAF00028
-d46fb5 location KGRAF00029
-2730fb location KGRAF00030
-7bc97a location KGRAF00031
-0be583 location KGRAF00032
-071a82 location KGRAF00033
-68eecb location KGRAF00034
-154753 location KGRAF00035
-499bef location KGRAF00036
-b16fdd location KGRAF00037
-d1c299 location KGRAF00038
-d3efbf location KGRAF00039
-da3e46 location KGRAF00040
-d780da location KGRAF00041
-45ecb6 location KGRAF00042
-b6ea4d location KGRAF00043
-0f2dda location KGRAF00044
-a62f6a location KGRAF00045
-# extra machines added 12/9/19
-78458c location KGRAF0XTRA # 10.0.119.58
-06f2e0 location KGRAF0XTRA # 10.0.119.74
-ae4c6d location KGRAF0XTRA # 10.0.119.76
-d2338b location KGRAF0XTRA # 10.0.119.77
-3546ed location KGRAF0XTRA # 10.0.119.86
-53bae5 location KGRAF0XTRA # 10.0.119.130
-485111 location KGRAF0XTRA # 10.0.119.145
-eb16ee location KGRAF0XTRA # 10.0.119.19
-# extra machines added 3/4/20 # 175.3 Th/s
-3cd7e0 location KGRAF0XTRA # 10.0.59.66 # 16.3 Th/s
-27a7bc location KGRAF0XTRA # 10.0.61.6 # 16.3 Th/s
-f86022 location KGRAF0XTRA # 10.0.121.90 # 16.1 Th/s
-c5496d location KGRAF0XTRA # 10.0.56.40 # 16.1 Th/s
-8a804d location KGRAF0XTRA # 10.0.59.54 # 16.1 Th/s
-f24571 location KGRAF0XTRA # 10.0.59.73 # 16.1 Th/s
-26be5d location KGRAF0XTRA # 10.0.59.41 # 16 Th/s
-cafe14 location KGRAF0XTRA # 10.0.120.87 # 16 Th/s
-64e53f location KGRAF0XTRA # 10.0.118.38 # 15.8 Th/s
-934f82 location KGRAF0XTRA # 10.0.54.146 # 15.8 Th/s
-0c9f37 location KGRAF0XTRA # 10.0.59.90 # 14.7 Th/s
+da3e46 location KGRAF00001 # 10.0.51.100
+943575 location KGRAF00002 # 10.0.58.91
+91c3cc location KGRAF00003 # 10.0.59.109
+c28a7c location KGRAF00004 # 10.0.61.13
+5c49bc location KGRAF00005 # 10.0.61.72
+7adae2 location KGRAF00006 # 10.0.61.106
+3fb74f location KGRAF00007 # 10.0.61.134
+2371b0 location KGRAF00008 # 10.0.62.138
+16adc1 location KGRAF00009 # 10.0.63.68
+5d07a6 location KGRAF00010 # 10.0.64.15
+1d3229 location KGRAF00011 # 10.0.64.61
+8d226c location KGRAF00012 # 10.0.64.151
+93c991 location KGRAF00013 # 10.0.65.7
+eec58f location KGRAF00014 # 10.0.65.98
+701564 location KGRAF00015 # 10.0.65.127
+c7bfa8 location KGRAF00016 # 10.0.65.132
+e63499 location KGRAF00017 # 10.0.65.145
+141236 location KGRAF00018 # 10.0.65.158
+364861 location KGRAF00019 # 10.0.66.12
+e4158d location KGRAF00020 # 10.0.66.72
+eadea9 location KGRAF00021 # 10.0.66.74
+b19f40 location KGRAF00022 # 10.0.66.154
+fe0384 location KGRAF00023 # 10.0.77.13
+d2a09d location KGRAF00024 # 10.0.77.73
+45ecb6 location KGRAF00025 # 10.0.77.125
+76ebeb location KGRAF00026 # 10.0.115.6
+b6ea4d location KGRAF00027 # 10.0.115.45
+d91645 location KGRAF00028 # 10.0.115.54
+d780da location KGRAF00029 # 10.0.115.139
+f6ef21 location KGRAF00030 # 10.0.115.140
+86db98 location KGRAF00031 # 10.0.115.148
+3037fd location KGRAF00032 # 10.0.115.153
+d46fb5 location KGRAF00033 # 10.0.116.161
+2730fb location KGRAF00034 # 10.0.117.6
+7bc97a location KGRAF00035 # 10.0.117.7
+a62f6a location KGRAF00036 # 10.0.117.49
+0be583 location KGRAF00037 # 10.0.117.55
+071a82 location KGRAF00038 # 10.0.117.85
+68eecb location KGRAF00039 # 10.0.117.118
+154753 location KGRAF00040 # 10.0.117.150
+499bef location KGRAF00041 # 10.0.118.31
+b16fdd location KGRAF00042 # 10.0.118.112
+d1c299 location KGRAF00043 # 10.0.119.61
+d3efbf location KGRAF00044 # 10.0.120.112
+0f2dda location KGRAF00045 # 10.0.121.1
+934f82 location KGRAF0XTRA # 10.0.54.146 # extra added 3/4/20 # 15.8 Th/s
+c5496d location KGRAF0XTRA # 10.0.56.40 # extra added 3/4/20 # 16.1 Th/s
+26be5d location KGRAF0XTRA # 10.0.59.41 # extra added 3/4/20 # 16 Th/s
+8a804d location KGRAF0XTRA # 10.0.59.54 # extra added 3/4/20 # 16.1 Th/s
+3cd7e0 location KGRAF0XTRA # 10.0.59.66 # extra added 3/4/20 # 16.3 Th/s
+f24571 location KGRAF0XTRA # 10.0.59.73 # extra added 3/4/20 # 16.1 Th/s
+0c9f37 location KGRAF0XTRA # 10.0.59.90 # extra added 3/4/20 # 14.7 Th/s
+27a7bc location KGRAF0XTRA # 10.0.61.6 # extra added 3/4/20 # 16.3 Th/s
+64e53f location KGRAF0XTRA # 10.0.118.38 # extra added 3/4/20 # 15.8 Th/s
+eb16ee location KGRAF0XTRA # 10.0.119.19 # extra added 12/9/19
+78458c location KGRAF0XTRA # 10.0.119.58 # extra added 12/9/19
+d2338b location KGRAF0XTRA # 10.0.119.77 # extra added 12/9/19
+cafe14 location KGRAF0XTRA # 10.0.120.87 # extra added 3/4/20 # 16 Th/s
+f86022 location KGRAF0XTRA # 10.0.121.90 # extra added 3/4/20 # 16.1 Th/s
+
+## tuning
 
 ## throttle
-c5496d uncork 1584396738
 
 ## fans
 
 ## reboots
-d2338b reboot 1585342676
-943575 reboot 1585342676
-1d3229 reboot 1585342676
-7adae2 reboot 1585342676
-d1c299 reboot 1585342676
-68eecb reboot 1585342676
-ae4c6d reboot 1585342676
-485111 reboot 1585342676
-53bae5 reboot 1585342676
-3546ed reboot 1585342676
-06f2e0 reboot 1585342676
-
-## uncorks
-68eecb uncork 1585259761
-0c9f37 uncork 1585259761
-8d226c uncork 1585259761
-eadea9 uncork 1585259761
-b6ea4d uncork 1585259761
-c5496d uncork 1585259761
-8a804d uncork 1585259761
 
 ## resets
-3cd7e0 reset 1586845094
 
-## asic password
+## removals
+
+## VPS pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
+## Remote pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCovql1bo+pkGUoq+zckj82BiW5CIBbxq1+wfET94ULY9b/BJzZHFxxjX79+aG4oilCpUKHFTJHv8Ox3IvtPxWGyx5IpV+avJqCO66+7/aIoG+Cqcz7f9pZPhK61qOG9AQsLNaZHaaB+jif7qCmXiDB1/eDzKHIh2UHdEnZSkcTrwdU40yA4JhenTAMJAxITopjAfURgJtTOkr9eBIVM6Xj/0x/f9ZUvL5jSLNDL9ujce928zCwvcMND+lrB3q5VgMluwihMUWZ3gJfsvZdHwPVXDP+qo1DaIP/oJ/rfD/ef9KkmYTYS3+RaYwGEJoGd0uHCUzSIl3oUJQg6kj4H22p
+# global panelpass gj83Nkgikg
 asicpass admin
+global logo https://raw.githubusercontent.com/cnels127/Configs/master/Bit49(2).png
