@@ -29,35 +29,33 @@ global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 global panelclear 999
-# global panelpass gj83Nkgikg
 
 # global retune 1
 # global reboot 1
-global uncork 1574924983
+# global uncork 1574924983
 # global reset 1
 
 ## vlans
-# vlan 10.0.116.30-30
-# extra machine added 3/9/20
-vlan 10.0.50.46-46 # 9f8c41
+vlan 10.0.62.160-160 # f60107
 
 ## locations
-ab17e5 location JPOWE00001
-# extra machine added 3/9/20
-9f8c41 location JPOWE0XTRA # 10.0.50.46 # 5.6 Th/s
+f60107 location JPOWE00001 # 10.0.62.160
 
 ## throttle
-9f8c41 uncork 1585322784
-ab17e5 uncork 1585322784
 
 ## fans
 
 ## reboots
-# s_reboot generated on Mar 26 2020 19:10:34 utc: 1585249834
-9f8c41 reboot 1585249834 # 10.0.50.46 jpowe0xtra
-ab17e5 reboot 1585249834 # 10.0.116.30 jpowe00001
 
 ## resets
 
-## asic password
+## removals
+global remove 9f8c41,ab17e5
+
+## VPS pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
+## Remote pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCovql1bo+pkGUoq+zckj82BiW5CIBbxq1+wfET94ULY9b/BJzZHFxxjX79+aG4oilCpUKHFTJHv8Ox3IvtPxWGyx5IpV+avJqCO66+7/aIoG+Cqcz7f9pZPhK61qOG9AQsLNaZHaaB+jif7qCmXiDB1/eDzKHIh2UHdEnZSkcTrwdU40yA4JhenTAMJAxITopjAfURgJtTOkr9eBIVM6Xj/0x/f9ZUvL5jSLNDL9ujce928zCwvcMND+lrB3q5VgMluwihMUWZ3gJfsvZdHwPVXDP+qo1DaIP/oJ/rfD/ef9KkmYTYS3+RaYwGEJoGd0uHCUzSIl3oUJQg6kj4H22p
+# global panelpass gj83Nkgikg
 asicpass admin
+global logo https://raw.githubusercontent.com/cnels127/Configs/master/Bit49(2).png
