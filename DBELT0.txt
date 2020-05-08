@@ -1,5 +1,7 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
-## TOTAL EXP HASHRATE 8 s9 @ 14.4 Th/s = 115.2 Th/s
+##   5 s9 @ 14.4 Th/s = 72 Th/s (contract expires 3/5/20)
+##   3 s9 @ 14.4 Th/s = 43.2 Th/s (contract expires 5/29/20)
+## TOTAL EXP HASHRATE = 115.2 Th/s
 
 global custompanel DBELT0bit049
 global customer bit49-Russia
@@ -44,8 +46,6 @@ vlan 10.0.54.159-159 # 356422
 vlan 10.0.58.18-18 # 179168
 vlan 10.0.58.25-25 # 54750e
 vlan 10.0.58.27-27 # 056415
-vlan 10.0.32.160-160 # 11aa26 # extra added
-vlan 10.3.22.113-113 # b5c0ce # extra added
 
 ## locations
 1667e2 location DBELT00001 # 10.0.54.155
@@ -56,8 +56,6 @@ e7a422 location DBELT00002 # 10.0.54.156
 179168 location DBELT00006 # 10.0.58.18
 54750e location DBELT00007 # 10.0.58.25
 056415 location DBELT00008 # 10.0.58.27
-11aa26 location DBELT0XTRA # 10.0.32.160 # extra added
-b5c0ce location DBELT0XTRA # 10.3.22.113 # extra added
 
 ## tuning
 
@@ -71,7 +69,7 @@ b5c0ce location DBELT0XTRA # 10.3.22.113 # extra added
 b5c0ce reset 1588774526
 
 ## removals
-global remove bfbee3,33c1ae
+global remove bfbee3,33c1ae,11aa26,b5c0ce
 
 ## VPS pubkey
 pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
