@@ -77,7 +77,6 @@ vlan 10.0.121.76-76 # bad6b7
 vlan 10.0.118.24-24 # 2bf2a8
 vlan 10.0.121.23-23 # 1444fa
 # extra machines
-vlan 10.0.118.41-41 # 873362 # extra added
 vlan 10.0.120.48-48 # 9e743b # extra added
 vlan 10.0.121.145-145 # c16782 # extra added
 vlan 10.0.121.5-5 # 752979 # extra added
@@ -144,7 +143,6 @@ bad6b7 location FHOEF00038 # 10.0.121.76
 2bf2a8 location FHOEF00039 # 10.0.118.24
 1444fa location FHOEF00040 # 10.0.121.23
 # extra machines
-873362 location FHOEF0XTRA # 10.0.118.41 # extra added
 9e743b location FHOEF0XTRA # 10.0.120.48 # extra added
 c16782 location FHOEF0XTRA # 10.0.121.145 # extra added
 752979 location FHOEF0XTRA # 10.0.121.5 # extra added
@@ -181,7 +179,7 @@ c4aa6b location FHOEF0XTRA # 10.3.22.108 # extra added 3/9/20 # 15.4 Th/s
 ## resets
 
 ## removals
-global remove 9c860e
+global remove 9c860e,873362
 
 ## VPS pubkey
 pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
