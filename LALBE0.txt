@@ -1,6 +1,7 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
-##   5 s9 @ 14.4 Th/s = 72 Th/s
-##     6 s9 @ 16 Th/s = 96 Th/s
+##   5 s9 @ 14.4 Th/s = 72 Th/s (contract expired?)
+##     3 s9 @ 16 Th/s = 48 Th/s (contract expires 8/7/20)
+##     3 s9 @ 16 Th/s = 48 Th/s (contract expires 8/7/20)
 ## TOTAL EXP HASHRATE = 168 Th/s
 
 global custompanel LALBE0bit049
@@ -31,7 +32,6 @@ global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 global panelclear 999
-# global panelpass gj83Nkgikg
 
 # global retune 1
 # global reboot 1
