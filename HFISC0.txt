@@ -33,9 +33,8 @@ global panelclear 7
 
 # global retune 1
 # global reboot 1573584168 # 1
-global uncork 1574921528
+global uncork 1588953162
 global reset 1578090951
-# global panelpass gj83Nkgikg
 
 ## vlans
 vlan 10.0.20.57-57 # 88a339
@@ -138,7 +137,7 @@ f2b75b location HFISC00035 # 10.0.118.54
 ## resets
 
 ## removals
-global remove e9c1a4,02c22d,f60107,084f48
+global remove e9c1a4,02c22d,f60107,084f48,a8ee8a,7c3b2a,80a659,7a1084,cb9593,f3d8b8,618b1a,424037,e2ac32,d24d19,f13d6c,540742,267c54,10ecee,5e2741,396eb4,8008e2,3ff13b,f0acc9,69c26c,939cc7
 
 ## VPS pubkey
 pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
