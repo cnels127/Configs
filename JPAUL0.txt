@@ -37,66 +37,39 @@ global uncork 1577119673
 # global reset 1
 
 ## vlans
-vlan 10.0.68.36-37
-vlan 10.0.55.128-128
-vlan 10.0.56.83-83
-vlan 10.0.59.91-91
+vlan 10.0.55.128-128 # a7102e
+vlan 10.0.56.83-83 # a01578
+vlan 10.0.117.40-40 # b34b28
+vlan 10.0.117.41-41 # a39697
+# vlan 10.0.59.91-91 # 9c326c # POWERED DOWN - NO WORKING HASHBOARDS
+vlan 10.0.119.156-156 # 1b2eaf # extra added 1/3/20
+vlan 10.3.21.37-37 # 8fdf36 # extra added 3/6/20 # 16.3 Th/s
 
 ## locations
-b34b28 location JPAUL00001
-a39697 location JPAUL00002
-a7102e location JPAUL00003
-a01578 location JPAUL00004
-9c326c location JPAUL00005
-# extra machine added 1/3/20
-1b2eaf location JPAUL0XTRA # 10.0.119.156
-# extra machine added 3/6/20
-8fdf36 location JPAUL0XTRA # 10.0.30.121 # 16.3 Th/s
+a7102e location JPAUL00001 # 10.0.55.128
+a01578 location JPAUL00002 # 10.0.56.83
+b34b28 location JPAUL00003 # 10.0.117.40
+a39697 location JPAUL00004 # 10.0.117.41
+# 9c326c location JPAUL00005 # 10.0.59.91 # POWERED DOWN - NO WORKING HASHBOARDS
+1b2eaf location JPAUL0XTRA # 10.0.119.156 # extra added 1/3/20
+8fdf36 location JPAUL0XTRA # 10.3.21.37 # extra added 3/6/20 # 16.3 Th/s
+
+## tuning
 
 ## throttle
-# 3/26/20
-1b2eaf uncork
-# 3/23/20
-a01578 uncork 1585002030
-# 2/17/20
-a01578 uncork 1581978128
-
-b34b28 uncork 1580838966
-a01578 uncork 1580838966
-a01578 uncork 1578084947
-9c326c uncork 1578084947
-a01578 uncork 1579045995
-b34b28 uncork 1579046115
-a01578 uncork 1579185495
-9c326c uncork 1585237984 # 10.0.59.91 jpaul00005
 
 ## fans
 
 ## reboots
-9c326c reboot 1580153705 # 10.0.59.91 jpaul00005
-9c326c reboot 1585237984 # 10.0.59.91 jpaul00005
 
 ## resets
 
-# 3/10/20
-a39697 uncork 1583856934
-# 3/5/20
-9c326c reset 1583463652
-a39697 reset 1583463579
+## removals
 
-9c326c reset 1581031925
-a01578 reset 1578084947
-9c326c reset 1578084947
-a7102e reset 1578084947
-a39697 reset 1578084947
-b34b28 reset 1578084947
-9c326c reset 1577398813
-b34b28 reset 1574924911
-a01578 reset 1579046355
-b34b28 reset 1579046355
-a01578 reset 1579186515
-9c326c reset 1580153755 # 10.0.59.91 jpaul00005
-
-## asic password
+## VPS pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
+## Remote pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCovql1bo+pkGUoq+zckj82BiW5CIBbxq1+wfET94ULY9b/BJzZHFxxjX79+aG4oilCpUKHFTJHv8Ox3IvtPxWGyx5IpV+avJqCO66+7/aIoG+Cqcz7f9pZPhK61qOG9AQsLNaZHaaB+jif7qCmXiDB1/eDzKHIh2UHdEnZSkcTrwdU40yA4JhenTAMJAxITopjAfURgJtTOkr9eBIVM6Xj/0x/f9ZUvL5jSLNDL9ujce928zCwvcMND+lrB3q5VgMluwihMUWZ3gJfsvZdHwPVXDP+qo1DaIP/oJ/rfD/ef9KkmYTYS3+RaYwGEJoGd0uHCUzSIl3oUJQg6kj4H22p
+# global panelpass gj83Nkgikg
 asicpass admin
-
+global logo https://raw.githubusercontent.com/cnels127/Configs/master/Bit49(2).png
