@@ -38,36 +38,29 @@ global panelclear 999
 
 ## vlans
 vlan 10.0.59.69-69
-# extra machine added 3/5/20
-vlan 10.0.59.44-44 # 4fb133
-# extra machine added 3/9/20
-vlan 10.0.30.144-144 # bc91a2
+vlan 10.0.59.44-44 # 4fb133 # extra added 3/5/20 # 11.4 Th/s
+vlan 10.3.22.46-46 # bc91a2 # extra added 3/9/20 # 5.4 Th/s
 
 ## locations
 80218d location JLUI000001
-# extra machine added 3/5/20
-4fb133 location JLUI00XTRA # 10.0.59.44 # 11.4 Th/s
-# extra machine added 3/9/20
-bc91a2 location JLUI00XTRA # 10.0.30.144 # 5.4 Th/s
+4fb133 location JLUI00XTRA # 10.0.59.44 # extra added 3/5/20 # 11.4 Th/s
+bc91a2 location JLUI00XTRA # 10.3.22.46 # extra added 3/9/20 # 5.4 Th/s
 
 ## throttle
-bc91a2 uncork 1584038512
-4fb133 uncork 1584038512
-80218d uncork 1584038512
 
 ## fans
 
 ## reboots
-# s_reboot generated on Mar 26 2020 19:09:08 utc: 1585249748
-80218d reboot 1585249748 # 10.0.59.69 jlui000001
-bc91a2 reboot 1585249748 # 10.0.30.144 jlui00xtra
-4fb133 reboot 1585249748 # 10.0.59.44 jlui00xtra
 
 ## resets
-e94a20 reset 1581715756
 
 ## removals
 global remove e94a20
 
-## asic password
+## VPS pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
+## Remote pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCovql1bo+pkGUoq+zckj82BiW5CIBbxq1+wfET94ULY9b/BJzZHFxxjX79+aG4oilCpUKHFTJHv8Ox3IvtPxWGyx5IpV+avJqCO66+7/aIoG+Cqcz7f9pZPhK61qOG9AQsLNaZHaaB+jif7qCmXiDB1/eDzKHIh2UHdEnZSkcTrwdU40yA4JhenTAMJAxITopjAfURgJtTOkr9eBIVM6Xj/0x/f9ZUvL5jSLNDL9ujce928zCwvcMND+lrB3q5VgMluwihMUWZ3gJfsvZdHwPVXDP+qo1DaIP/oJ/rfD/ef9KkmYTYS3+RaYwGEJoGd0uHCUzSIl3oUJQg6kj4H22p
+# global panelpass gj83Nkgikg
 asicpass admin
+global logo https://raw.githubusercontent.com/cnels127/Configs/master/Bit49(2).png
