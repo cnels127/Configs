@@ -38,11 +38,8 @@ global uncork 1574925076
 # global reset 1
 
 ## vlans
-# vlan 10.0.54.74-74 # 1565d6 # SCRAPPED 4/24/20
-# vlan 10.0.54.75-75 # 555712 # SCRAPPED 4/24/20
 vlan 10.0.60.20-20 # 317af1
 vlan 10.0.119.71-71 # 9b2f7a
-# vlan 10.0.120.130-130 # 321a3a # SCRAPPED 5/6/20
 vlan 10.0.53.152-152 # 29ece6 # extra added 11/23/19
 vlan 10.0.53.153-153 # 79e1ed # extra added 11/23/19
 vlan 10.0.62.111-111 # f2296d # extra added 1/30/20
@@ -50,11 +47,8 @@ vlan 10.0.59.37-37 # a36e04 # extra added 3/1/20
 vlan 10.0.58.70-70 # 62bdc8 # extra added 3/1/20
 
 ## locations
-# 1565d6 location JROBE00001 # 10.0.54.74 # SCRAPPED 4/24/20
-# 555712 location JROBE00002 # 10.0.54.75 # SCRAPPED 4/24/20
-317af1 location JROBE00003
-9b2f7a location JROBE00004
-# 321a3a location JROBE00005 # 10.0.120.130 # SCRAPPED 5/6/20
+317af1 location JROBE00001
+9b2f7a location JROBE00002
 29ece6 location JROBE0XTRA # 10.0.53.152 # extra added 11/23/19
 79e1ed location JROBE0XTRA # 10.0.53.153 # extra added 11/23/19
 f2296d location JROBE0XTRA # 10.0.62.111 # extra added 1/30/20
