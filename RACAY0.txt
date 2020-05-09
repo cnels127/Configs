@@ -1,6 +1,9 @@
-## instructions available at: https://asicseer.com/page/kb#writing-config
-##    21 s9 @ 16 Th/s = 336 Th/s
-##   3 s9 @ 14.4 Th/s = 43.2 Th/s
+##     3 s9 @ 16 Th/s = 48 Th/s (contract expires 3/7/20)
+##     3 s9 @ 16 Th/s = 48 Th/s (contract expires 5/9/20)
+##     3 s9 @ 16 Th/s = 48 Th/s (contract expires 5/9/20)
+##     6 s9 @ 16 Th/s = 96 Th/s (contract expires 5/9/20)
+##     6 s9 @ 16 Th/s = 96 Th/s (contract expires 6/12/20)
+##   3 s9 @ 14.4 Th/s = 43.2 Th/s (contract expires 9/4/20)
 ## TOTAL EXP HASHRATE = 379.2 Th/s
 
 global custompanel RACAY0bit049
@@ -31,7 +34,6 @@ global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 global panelclear 999
-# global panelpass gj83Nkgikg
 
 # global retune 2
 # global reboot 7
@@ -39,267 +41,74 @@ global panelclear 999
 # global reset 2
 
 ## vlans
-# vlan 10.0.54.151-153
-# vlan 10.0.55.94-94
-# vlan 10.0.55.105-106
-# vlan 10.0.55.115-115
-# vlan 10.0.55.126-126
-# vlan 10.0.55.144-144
-# vlan 10.0.55.146-146
-# vlan 10.0.56.17-17
-# vlan 10.0.56.34-34
-# vlan 10.0.56.36-36
-# vlan 10.0.56.42-42
-# vlan 10.0.56.100-100
-# vlan 10.0.59.16-16
-# vlan 10.0.60.38-38
-# vlan 10.0.60.53-53
-# vlan 10.0.60.86-86
-# vlan 10.0.60.115-115
-# vlan 10.0.60.127-127
-# vlan 10.0.77.68-68
-# vlan 10.0.77.76-76
-# vlan 10.0.77.141-141
-# extra machines added 12/9/19
-# vlan 10.0.117.157-157
-# vlan 10.0.117.161-161
-# vlan 10.0.118.15-15
-# vlan 10.0.118.64-64
-# vlan 10.0.118.67-67
-# vlan 10.0.118.71-71
-# extra machines added 3/9/20
-vlan 10.0.30.95-95 # e775a1
-vlan 10.0.30.109-109 # 93d91c
-vlan 10.0.31.79-79 # c6a6bf
-vlan 10.0.31.80-80 # da000d
-vlan 10.0.31.104-104 # 06bc48
-vlan 10.0.50.24-24 # 33e99b
-vlan 10.0.30.150-150 # a2bd60
+vlan 10.0.54.151-151 # c55a62
+vlan 10.0.54.152-152 # 73d19d
+vlan 10.0.54.153-153 # 55ae8b
+vlan 10.0.55.94-94 # 57c2bb
+# vlan 10.0.55.105-105 # 62dffd # POWERED DOWN - NO WORKING HASHBOARDS
+vlan 10.0.55.106-106 # e98a1b
+vlan 10.0.55.115-115 # cfc1d8
+# vlan 10.0.55.126-126 # 6c2312 # POWERED DOWN - NO WORKING HASHBOARDS
+vlan 10.0.55.144-144 # ec8ea7
+# vlan 10.0.55.146-146 # 74a07a # POWERED DOWN - NO WORKING HASHBOARDS
+vlan 10.0.56.17-17 # 5645bb
+vlan 10.0.56.34-34 # ac1696
+vlan 10.0.56.36-36 # 095c6d
+vlan 10.0.56.42-42 # d6136a
+vlan 10.0.56.100-100 # 9f942d
+vlan 10.0.59.16-16 # 16ab24
+vlan 10.0.60.38-38 # 5b26a0
+vlan 10.0.60.53-53 # 2c65da
+vlan 10.0.60.86-86 # 497b40
+vlan 10.0.60.115-115 # 053705
+vlan 10.0.60.127-127 # 65bbdb
+vlan 10.0.77.68-68 # f729dc
+vlan 10.0.77.76-76 # 9938b8
+vlan 10.0.77.141-141 # 70247c
 
 ## locations
-c55a62 location RACAY00001
-73d19d location RACAY00002
-55ae8b location RACAY00003
-57c2bb location RACAY00004
-62dffd location RACAY00005
-e98a1b location RACAY00006
-cfc1d8 location RACAY00007
-6c2312 location RACAY00008
-ec8ea7 location RACAY00009
-74a07a location RACAY00010
-5645bb location RACAY00011
-ac1696 location RACAY00012
-095c6d location RACAY00013
-d6136a location RACAY00014
-9f942d location RACAY00015
-16ab24 location RACAY00016
-5b26a0 location RACAY00017
-2c65da location RACAY00018
-497b40 location RACAY00019
-053705 location RACAY00020
-65bbdb location RACAY00021
-f729dc location RACAY00022
-9938b8 location RACAY00023
-70247c location RACAY00024
-# extra machines added 12/9/19
-93e5b2 location RACAY0XTRA # 10.0.117.157
-0b0bff location RACAY0XTRA # 10.0.117.161
-2ff049 location RACAY0XTRA # 10.0.118.15
-69dd49 location RACAY0XTRA # 10.0.118.64
-244ed6 location RACAY0XTRA # 10.0.118.67
-c1a324 location RACAY0XTRA # 10.0.118.71
-# extra machines added 3/9/20 # 104.1 Th/s
-e775a1 location RACAY0XTRA # 10.0.30.95 # 15 Th/s
-93d91c location RACAY0XTRA # 10.0.30.109 # 15 Th/s
-c6a6bf location RACAY0XTRA # 10.0.31.79 # 15 Th/s
-da000d location RACAY0XTRA # 10.0.31.80 # 15 Th/s
-06bc48 location RACAY0XTRA # 10.0.31.104 # 15 Th/s
-33e99b location RACAY0XTRA # 10.0.50.24 # 14.6 Th/s
-a2bd60 location RACAY0XTRA # 10.0.30.150 # 14.5 Th/s
+c55a62 location RACAY00001 # 10.0.54.151
+73d19d location RACAY00002 # 10.0.54.152
+55ae8b location RACAY00003 # 10.0.54.153
+57c2bb location RACAY00004 # 10.0.55.94
+# 62dffd location RACAY00005 # 10.0.55.105 # POWERED DOWN - NO WORKING HASHBOARDS
+e98a1b location RACAY00006 # 10.0.55.106
+cfc1d8 location RACAY00007 # 10.0.55.115
+# 6c2312 location RACAY00008 # 10.0.55.126 # POWERED DOWN - NO WORKING HASHBOARDS
+ec8ea7 location RACAY00009 # 10.0.55.144
+# 74a07a location RACAY00010 # 10.0.55.146 # POWERED DOWN - NO WORKING HASHBOARDS
+5645bb location RACAY00011 # 10.0.56.17
+ac1696 location RACAY00012 # 10.0.56.34
+095c6d location RACAY00013 # 10.0.56.36
+d6136a location RACAY00014 # 10.0.56.42
+9f942d location RACAY00015 # 10.0.56.100
+16ab24 location RACAY00016 # 10.0.59.16
+5b26a0 location RACAY00017 # 10.0.60.38
+2c65da location RACAY00018 # 10.0.60.53
+497b40 location RACAY00019 # 10.0.60.86
+053705 location RACAY00020 # 10.0.60.115
+65bbdb location RACAY00021 # 10.0.60.127
+f729dc location RACAY00022 # 10.0.77.68
+9938b8 location RACAY00023 # 10.0.77.76
+70247c location RACAY00024 # 10.0.77.141
 
-##retune
-# 3/6/20
-c55a62 retune 1583515597
-# 3/2/20
-c55a62 retune 1583170853
-
-9f942d retune 1581123688
+## tuning
 
 ## throttle
-# 3/26/20
-c6a6bf uncork 1585255421
-095c6d uncork 1585255421
-06bc48 uncork 1585255421
-16ab24 uncork 1585255421
-5645bb uncork 1585255421
-c55a62 uncork 1585255421
-93d91c uncork 1585255421
-57c2bb uncork 1585255421
-55ae8b uncork 1585255421
-2ff049 uncork 1585255421
-ac1696 uncork 1585255421
-# 3/23/20
-9938b8 uncork 1585012828
-9f942d uncork 1585012828
-2c65da uncork 1585006938
-e98a1b uncork 1585006938
-ec8ea7 uncork 1585006938
-# 3/17/20
-497b40 uncork 1584482065
-5b26a0 uncork 1584482065
-ac1696 uncork 1584482065
-# 3/12/20
-da000d uncork 1584036243
-e775a1 uncork 1584036243
-c55a62 uncork 1584036243
-# 3/10/20
-9f942d uncork 1583855272
-d6136a uncork 1583855272
-# 3/9/20
-06bc48 uncork 1583788734
-93d91c uncork 1583788734
-33e99b uncork 1583788734
-da000d uncork 1583788734
-a2bd60 uncork 1583788734
-e775a1 uncork 1583788734
-e98a1b uncork 1583788734
-9f942d uncork 1583788734
-# 3/6/20
-497b40 uncork 1583515597
-70247c uncork 1583515597
-# 3/2/20
-497b40 uncork 1583170853
-70247c uncork 1583170853
-9f942d uncork 1583170853
-d6136a uncork 1583170853
-# 2/24/20
-9f942d uncork 1582566944
-#2/20/20
-d6136a uncork 1582219402
-#2/18/20
-497b40 uncork 1582054629
-ac1696 uncork 1582054629
-9f942d uncork 1582054629
-# 2/17/20
-ec8ea7 uncork 1581965496
-9f942d uncork 1581965496
-
-9f942d uncork 1581357336
-62dffd uncork 1581357336
-70247c uncork 1581357336
-497b40 uncork 1581020793
-9f942d uncork 1580754257
-ac1696 uncork 1580754257
-095c6d uncork 1580754257
-5b26a0 uncork 1580754257
-d6136a uncork 1580754257
-497b40 uncork 1580754257
-c1a324 uncork 1580419593
-ac1696 uncork 1580419593
-9f942d uncork 1580419593
-5b26a0 uncork 1580419593
-c1a324 uncork 1580419593
-ac1696 uncork 1580419593
-9f942d uncork 1580419593
-5b26a0 uncork 1580419593
-053705 uncork 1579182435
-d6136a uncork 1579182435
-62dffd uncork 1579182435
-e98a1b uncork 1579182435
-ac1696 uncork 1579182435
-9f942d uncork 1579182435
-497b40 uncork 1579182435
-5b26a0 uncork 1579182435
-9938b8 uncork 1579182435
-095c6d uncork 1579182435
-f729dc uncork 1579182435
-c1a324 uncork 1579182435
-c55a62 uncork 1579182435
-5645bb uncork 1579182435
-65bbdb uncork 1579182435
-93e5b2 uncork 1579182435
-d6136a uncork 1580124706
-497b40 uncork 1580124706
-5b26a0 uncork 1580124706
-9f942d uncork 1580124706
-ac1696 uncork 1580124706
 
 ## fans
 
 ## reboots
-# 3/2/20
-0b0bff reboot 1583170853
-73d19d reboot 1583170853
-497b40 reboot 1583170853
-f729dc reboot 1583170853
-9938b8 reboot 1583170853
-70247c reboot 1583170853
 
-0b0bff reboot 1580754257
-d6136a reboot 1580754257
-497b40 reboot 1580754257
-9938b8 reboot 1580754257
-70247c reboot 1580754257
-74a07a reboot 1578438300
-497b40 reboot 1578438300
-c55a62 reboot 1578438300
-0b0bff reboot 1578438300
-6c2312 reboot 1579182015
-74a07a reboot 157918201
- 
 ## resets
-# 3/11/20
-9f942d reset 1583942291
-# 3/2/20
-70247c reset 1583196206
-69dd49 reset 1583170853
-053705 reset 1583170853
-6c2312 reset 1583170853
-62dffd reset 1583170853
-74a07a reset 1583170853
-# 2/19/20
-9f942d reset 1583170853
 
-d6136a reset 1581708800
-9f942d reset 1581708800
-93e5b2 reset 1581028981
-9f942d reset 1581020793
-9f942d reset 1580942288
-55ae8b reset 1580942288
-2c65da reset 1580942288
-5b26a0 reset 1580928591
-497b40 reset 1580848434
-9f942d reset 1580848434
-5b26a0 reset 1580848434
-62dffd reset 1580770968
-d6136a reset 1580770968
-9f942d reset 1580770968
-5b26a0 reset 1580770968
-497b40 reset 1580756617
-2c65da reset 1577084781
-095c6d reset 1577083317
-2c65da reset 1574968127
-6c2312 reset 1574962372
-74a07a reset 1574962372
-053705 reset 1574962372
-73d19d reset 1574962372
-70247c reset 1574962372
-e98a1b reset 1574962372
-d6136a reset 1574962372
-095c6d reset 1574962372
-9938b8 reset 1574962372
-ac1696 reset 1574962372
-2c65da reset 1574962372
-c55a62 reset 1574962372
-55ae8b reset 1574962372
-9f942d reset 1574962372
-ec8ea7 reset 1574962372
-5645bb reset 1574962372
-5b26a0 reset 1574962372
-62dffd reset 1574962372
+## removals
+global remove 93e5b2,0b0bff,06bc48,a2bd60,2ff049,33e99b,244ed6,c1a324,93d91c,da000d,e775a1,69dd49,c6a6bf
 
-##remove
-global remove 93e5b2
-
-## asic password
+## VPS pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
+## Remote pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCovql1bo+pkGUoq+zckj82BiW5CIBbxq1+wfET94ULY9b/BJzZHFxxjX79+aG4oilCpUKHFTJHv8Ox3IvtPxWGyx5IpV+avJqCO66+7/aIoG+Cqcz7f9pZPhK61qOG9AQsLNaZHaaB+jif7qCmXiDB1/eDzKHIh2UHdEnZSkcTrwdU40yA4JhenTAMJAxITopjAfURgJtTOkr9eBIVM6Xj/0x/f9ZUvL5jSLNDL9ujce928zCwvcMND+lrB3q5VgMluwihMUWZ3gJfsvZdHwPVXDP+qo1DaIP/oJ/rfD/ef9KkmYTYS3+RaYwGEJoGd0uHCUzSIl3oUJQg6kj4H22p
+# global panelpass gj83Nkgikg
 asicpass admin
+global logo https://raw.githubusercontent.com/cnels127/Configs/master/Bit49(2).png
