@@ -1,6 +1,7 @@
-## instructions available at: https://asicseer.com/page/kb#writing-config
-## TOTAL EXP HASHRATE 19 s9 @ 14.4 Th/s = 273.6 Th/s
-## 6 s9s decommissioned 4/20/20
+##  20 s9 @ 14.4 Th/s = 288 Th/s (contract expires 6/29/20)
+##   5 s9 @ 14.4 Th/s = 72 Th/s (contract expires 9/4/20)
+##   6 s9 decommissioned 4/20/20
+## TOTAL EXP HASHRATE = 273.6 Th/s
 
 global custompanel MKARO0bit049
 global customer bit49-Russia
@@ -30,7 +31,6 @@ global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 global panelclear 1
-# global panelpass gj83Nkgikg
 
 # global retune 1
 # global reboot 1573584300 # 1
@@ -38,63 +38,46 @@ global uncork 1574926979
 # global reset 1573664307
 
 ## vlans
-vlan 10.0.63.89-89
-# vlan 10.0.66.25-25 # SCRAPPED 4/20/20
-vlan 10.0.66.38-38
-vlan 10.0.66.46-46
-vlan 10.0.66.61-61
-vlan 10.0.66.83-83
-vlan 10.0.66.89-89
-vlan 10.0.66.94-94
-vlan 10.0.66.134-134
-# vlan 10.0.66.135-135 # SCRAPPED 4/20/20
-vlan 10.0.66.151-151
-vlan 10.0.67.1-1
-vlan 10.0.67.22-22
-vlan 10.0.67.27-27
-vlan 10.0.67.77-77
-vlan 10.0.67.103-103
-# vlan 10.0.67.106-106 # SCRAPPED 4/20/20
-vlan 10.0.67.112-112
-vlan 10.0.67.113-113
-vlan 10.0.67.120-120
-vlan 10.0.115.64-64
-# vlan 10.0.116.67-67 # SCRAPPED 4/20/20
-# vlan 10.0.116.126-126 # SCRAPPED 4/20/20
-# vlan 10.0.119.110-110 # SCRAPPED 4/20/20
-vlan 10.0.121.121-121
+vlan 10.0.63.89-89 # 742bc7
+vlan 10.0.66.38-38 # fc1a3a
+vlan 10.0.66.46-46 # 324b65
+vlan 10.0.66.61-61 # f2d5d3
+vlan 10.0.66.83-83 # 15319a
+vlan 10.0.66.89-89 # 55ac26
+vlan 10.0.66.94-94 # f15e5f
+vlan 10.0.66.134-134 # 5f3948
+vlan 10.0.66.151-151 # 409c17
+vlan 10.0.67.1-1 # a1a798
+vlan 10.0.67.22-22 # 76d9af
+vlan 10.0.67.27-27 # 9851d4
+vlan 10.0.67.77-77 # 2bd4e7
+vlan 10.0.67.103-103 # c14399
+vlan 10.0.67.112-112 # 5ee162
+vlan 10.0.67.113-113 # eb4720
+vlan 10.0.67.120-120 # 6dbea7
+vlan 10.0.115.64-64 # 6955e8
+vlan 10.0.121.121-121 # f2e682
 
 ## locations
-742bc7 location MKARO00001
-# 754d9b location MKARO00002 # SCRAPPED 4/20/20
-fc1a3a location MKARO00003
-324b65 location MKARO00004
-f2d5d3 location MKARO00005
-15319a location MKARO00006
-55ac26 location MKARO00007
-f15e5f location MKARO00008
-5f3948 location MKARO00009
-# 7f2285 location MKARO00010 # SCRAPPED 4/20/20
-409c17 location MKARO00011
-a1a798 location MKARO00012
-76d9af location MKARO00013
-9851d4 location MKARO00014
-2bd4e7 location MKARO00015
-c14399 location MKARO00016
-# cd859b location MKARO00017 # SCRAPPED 4/20/20
-5ee162 location MKARO00018
-eb4720 location MKARO00019
-6dbea7 location MKARO00020
-f2e682 location MKARO00021
-# 32b6d0 location MKARO00022 # SCRAPPED 4/20/20
-6955e8 location MKARO00023
-# a53423 location MKARO00024 # SCRAPPED 4/20/20
-# 000122 location MKARO00025 # SCRAPPED 4/20/20
-# extra machines added 12/6/19
-dc4996 location MARKO0XTRA # 10.0.120.33
-e94ba6 location MARKO0XTRA # 10.0.54.17
-# extra machines added 3/9/20 # 23 Th/s
-cdcba9 location MKARO0XTRA # 10.0.50.1 # 11.3 Th/s
+742bc7 location MKARO00001 # 10.0.63.89
+fc1a3a location MKARO00002 # 10.0.66.38
+324b65 location MKARO00003 # 10.0.66.46
+f2d5d3 location MKARO00004 # 10.0.66.61
+15319a location MKARO00005 # 10.0.66.83
+55ac26 location MKARO00006 # 10.0.66.89
+f15e5f location MKARO00007 # 10.0.66.94
+5f3948 location MKARO00008 # 10.0.66.134
+409c17 location MKARO00009 # 10.0.66.151
+a1a798 location MKARO00010 # 10.0.67.1
+76d9af location MKARO00011 # 10.0.67.22
+9851d4 location MKARO00012 # 10.0.67.27
+2bd4e7 location MKARO00013 # 10.0.67.77
+c14399 location MKARO00014 # 10.0.67.103
+5ee162 location MKARO00015 # 10.0.67.112
+eb4720 location MKARO00016 # 10.0.67.113
+6dbea7 location MKARO00017 # 10.0.67.120
+6955e8 location MKARO00018 # 10.0.115.64
+f2e682 location MKARO00019 # 10.0.121.121
 
 ## throttle
 
@@ -103,25 +86,16 @@ cdcba9 location MKARO0XTRA # 10.0.50.1 # 11.3 Th/s
 ## reboots
 
 ## resets
-6dbea7 reset 1587360285
-5ee162 reset 1587360285
 
 ## retunes
-dc4996 retune 1586842377
 
-# s_remove generated on Dec 13 2019 21:04:45 utc: 1576271085
-global remove c5778c
-global remove 6c3de0
-global remove 0884bf
-global remove 8ce706
-global remove 081fad
-global remove 4f615d
-global remove 754d9b
-global remove 7f2285
-global remove cd859b
-global remove 32b6d0
-global remove 000122
-global remove a53423
+## removals
+global remove c5778c,dc4996,0884bf,e94ba6,8ce706,081fad,6c3de0,cdcba9,4f615d,754d9b,7f2285,cd859b,32b6d0,a53423,000122
 
-## asic password
+## VPS pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
+## Remote pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCovql1bo+pkGUoq+zckj82BiW5CIBbxq1+wfET94ULY9b/BJzZHFxxjX79+aG4oilCpUKHFTJHv8Ox3IvtPxWGyx5IpV+avJqCO66+7/aIoG+Cqcz7f9pZPhK61qOG9AQsLNaZHaaB+jif7qCmXiDB1/eDzKHIh2UHdEnZSkcTrwdU40yA4JhenTAMJAxITopjAfURgJtTOkr9eBIVM6Xj/0x/f9ZUvL5jSLNDL9ujce928zCwvcMND+lrB3q5VgMluwihMUWZ3gJfsvZdHwPVXDP+qo1DaIP/oJ/rfD/ef9KkmYTYS3+RaYwGEJoGd0uHCUzSIl3oUJQg6kj4H22p
+# global panelpass gj83Nkgikg
 asicpass admin
+global logo https://raw.githubusercontent.com/cnels127/Configs/master/Bit49(2).png
