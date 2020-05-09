@@ -1,5 +1,4 @@
-## instructions available at: https://asicseer.com/page/kb#writing-config
-## TOTAL EXP HASHRATE 1 s9 @ 16 Th/s = 16 Th/s
+## 1 s9 @ 16 Th/s = 16 Th/s (contract expires 6/23/20)
 
 global custompanel NMANT0bit049
 global customer bit49-Russia
@@ -29,28 +28,19 @@ global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 global panelclear 999
-# global panelpass gj83Nkgikg
 
 # global retune 1
 # global reboot 1
 # global uncork 1
-global reset 1574929374
+# global reset 1574929374
 
 ## vlans
-vlan 10.0.58.132-132
-## The next row is the extra machine, added on 2019-11-15
-vlan 10.0.117.5-5
+vlan 10.0.58.132-132 # 30946f
 
 ## locations
-30946f location NMANT00001
-## The next row is the extra machine, added on 2019-11-15
-926679 location NMANT0XTRA # 10.0.120.41
+30946f location NMANT00001 # 10.0.58.132
 
 ## throttle
-# 3/10/20
-926679 uncork 1583859258
-
-926679 uncork 1581039902
 
 ## fans
 
@@ -59,7 +49,7 @@ vlan 10.0.117.5-5
 ## resets
 
 ## removals
-global remove 5a85bf
+global remove 5a85bf,926679
 
 ## asic password
 asicpass admin
