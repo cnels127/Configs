@@ -1,5 +1,4 @@
-## instructions available at: https://asicseer.com/page/kb#writing-config
-## TOTAL EXP HASHRATE 3 s9 @ 14.4 Th/s = 43.2 Th/s
+## 3 s9 @ 14.4 Th/s = 43.2 Th/s (contract expires 6/13/20)
 
 global custompanel MWAGE0bit049
 global customer bit49-Russia
@@ -29,7 +28,6 @@ global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 global panelclear 999
-# global panelpass gj83Nkgikg
 
 # global retune 1
 # global reboot 1
@@ -37,28 +35,29 @@ global panelclear 999
 # global reset 1
 
 ## vlans
-vlan 10.0.60.68-68
-vlan 10.0.60.129-129
-vlan 10.0.60.161-161
+vlan 10.0.60.68-68 # 9b0fa1
+vlan 10.0.60.129-129 # 96ae02
+vlan 10.0.60.161-161 # 6364b7
 
 ## locations
-9b0fa1 location MWAGE00001
-96ae02 location MWAGE00002
-6364b7 location MWAGE00003
+9b0fa1 location MWAGE00001 # 10.0.60.68
+96ae02 location MWAGE00002 # 10.0.60.129
+6364b7 location MWAGE00003 # 10.0.60.161
+
+## tuning
 
 ## throttle
-# 3/13/20
-9b0fa1 uncork 1584120828
 
-9b0fa1 uncork 1581038329
-96ae02 uncork 1581038329
-96ae02 uncork 1585238550 # 10.0.60.129 mwage00002
 ## fans
 
 ## reboots
-96ae02 reboot 1585238528 # 10.0.60.129 mwage00002
-## resets
-6364b7 reset 1578096854
 
-## asic password
+## resets
+
+## VPS pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
+## Remote pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCovql1bo+pkGUoq+zckj82BiW5CIBbxq1+wfET94ULY9b/BJzZHFxxjX79+aG4oilCpUKHFTJHv8Ox3IvtPxWGyx5IpV+avJqCO66+7/aIoG+Cqcz7f9pZPhK61qOG9AQsLNaZHaaB+jif7qCmXiDB1/eDzKHIh2UHdEnZSkcTrwdU40yA4JhenTAMJAxITopjAfURgJtTOkr9eBIVM6Xj/0x/f9ZUvL5jSLNDL9ujce928zCwvcMND+lrB3q5VgMluwihMUWZ3gJfsvZdHwPVXDP+qo1DaIP/oJ/rfD/ef9KkmYTYS3+RaYwGEJoGd0uHCUzSIl3oUJQg6kj4H22p
+# global panelpass gj83Nkgikg
 asicpass admin
+global logo https://raw.githubusercontent.com/cnels127/Configs/master/Bit49(2).png
