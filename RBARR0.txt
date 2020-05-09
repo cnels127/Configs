@@ -1,6 +1,6 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
-##    25 s9 @ 16 Th/s = 400 Th/s
-##   5 s9 @ 14.4 Th/s = 72 Th/s
+##    25 s9 @ 16 Th/s = 400 Th/s (contract expires 2/18/20)
+##   5 s9 @ 14.4 Th/s = 72 Th/s (contract expires 9/13/20)
 ## TOTAL EXP HASHRATE = 472 Th/s
 
 global custompanel RBARR0bit049
@@ -31,169 +31,93 @@ global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 global panelclear 999
-# global panelpass gj83Nkgikg
 
 # global retune 1
 # global reboot 1
-global uncork 1588950951
+global uncork 1589054108
 # global reset 1574279872
 
 ## vlans
-# vlan 10.0.57.48-72
-# vlan 10.0.115.13-13
-# vlan 10.0.115.14-14
-# vlan 10.0.115.33-33
-# vlan 10.0.115.34-34
-# vlan 10.0.115.71-71
-# extra machines added 2/10/20
-# vlan 10.0.54.11-11 # 2ffd90
-# vlan 10.0.53.31-31 # 084a54
-# vlan 10.0.59.131-131 # 95c235
-# vlan 10.0.60.102-102 # d549fd
-# vlan 10.0.60.150-150 # c1769c
-# vlan 10.0.53.35-35 # 406249
-# vlan 10.0.67.160-160 # 5fa3f6
-# extra machines added 3/9/20
-vlan 10.0.55.20-20 # fb6775
-vlan 10.0.55.29-29 # c02a2d
-vlan 10.0.55.64-64 # 871727
-vlan 10.0.55.66-66 # 4476be
-vlan 10.0.55.73-73 # f584b2
-vlan 10.0.55.79-79 # 02ef83
+vlan 10.0.57.48-48 # 4b3a51
+vlan 10.0.57.49-49 # 6723e2
+vlan 10.0.57.50-50 # 0be34f
+vlan 10.0.57.51-51 # 71df4f
+vlan 10.0.57.52-52 # e83b5d
+vlan 10.0.57.53-53 # 08ede8
+vlan 10.0.57.54-54 # 7e7d0e
+vlan 10.0.57.55-55 # 5d01ba
+vlan 10.0.57.56-56 # 62cd86
+vlan 10.0.57.57-57 # 1d5a79
+vlan 10.0.57.58-58 # 4e2432
+vlan 10.0.57.59-59 # f6aabf
+vlan 10.0.57.60-60 # 247665
+vlan 10.0.57.61-61 # 08445c
+vlan 10.0.57.62-62 # 411421
+vlan 10.0.57.63-63 # 5478c2
+vlan 10.0.57.64-64 # 47fde6
+vlan 10.0.57.65-65 # 9aa009
+vlan 10.0.57.66-66 # eea5d2
+vlan 10.0.57.67-67 # 427893
+vlan 10.0.57.68-68 # 1c4fae
+vlan 10.0.57.69-69 # 693af5
+vlan 10.0.57.70-70 # 3ff0b0
+vlan 10.0.57.71-71 # 6ba6a0
+vlan 10.0.57.72-72 # 0746eb
+vlan 10.0.115.13-13 # aa0122
+vlan 10.0.115.14-14 # a81c86
+vlan 10.0.115.33-33 # defa6a
+vlan 10.0.115.34-34 # 639689
+vlan 10.0.115.71-71 # 894362
 
 ## locations
-4b3a51 location RBARR00001
-6723e2 location RBARR00002
-0be34f location RBARR00003
-71df4f location RBARR00004
-e83b5d location RBARR00005
-08ede8 location RBARR00006
-7e7d0e location RBARR00007
-5d01ba location RBARR00008
-62cd86 location RBARR00009
-1d5a79 location RBARR00010
-4e2432 location RBARR00011
-f6aabf location RBARR00012
-247665 location RBARR00013
-08445c location RBARR00014
-411421 location RBARR00015
-5478c2 location RBARR00016
-47fde6 location RBARR00017
-9aa009 location RBARR00018
-eea5d2 location RBARR00019
-427893 location RBARR00020
-1c4fae location RBARR00021
-693af5 location RBARR00022
-3ff0b0 location RBARR00023
-6ba6a0 location RBARR00024
-0746eb location RBARR00025
-aa0122 location RBARR00026
-a81c86 location RBARR00027
-defa6a location RBARR00028
-639689 location RBARR00029
-894362 location RBARR00030
-# 7 extra machines added 2/10/20 # 100 Th/s
-2ffd90 location RBARR0XTRA # 10.0.54.11 # 15.5 Th/s
-084a54 location RBARR0XTRA # 10.0.53.31 # 15.4 Th/s
-95c235 location RBARR0XTRA # 10.0.59.131 # 15.1 Th/s
-d549fd location RBARR0XTRA # 10.0.60.102 # 15.1 Th/s
-c1769c location RBARR0XTRA # 10.0.60.150 # 14.9 Th/s
-406249 location RBARR0XTRA # 10.0.53.35 # 14.0 Th/s
-5fa3f6 location RBARR0XTRA # 10.0.67.160 # 10.0 Th/s
-# 6 extra machines added 3/9/20 # 93 Th/s
-fb6775 location RBARR0XTRA # 10.0.55.20 # 15.5 Th/s
-c02a2d location RBARR0XTRA # 10.0.55.29 # 15.5 Th/s
-871727 location RBARR0XTRA # 10.0.55.64 # 15.5 Th/s
-4476be location RBARR0XTRA # 10.0.55.66 # 15.5 Th/s
-f584b2 location RBARR0XTRA # 10.0.55.73 # 15.5 Th/s
-02ef83 location RBARR0XTRA # 10.0.55.79 # 15.5 Th/s
+4b3a51 location RBARR00001 # 10.0.57.48
+6723e2 location RBARR00002 # 10.0.57.49
+0be34f location RBARR00003 # 10.0.57.50
+71df4f location RBARR00004 # 10.0.57.51
+e83b5d location RBARR00005 # 10.0.57.52
+08ede8 location RBARR00006 # 10.0.57.53
+7e7d0e location RBARR00007 # 10.0.57.54
+5d01ba location RBARR00008 # 10.0.57.55
+62cd86 location RBARR00009 # 10.0.57.56
+1d5a79 location RBARR00010 # 10.0.57.57
+4e2432 location RBARR00011 # 10.0.57.58
+f6aabf location RBARR00012 # 10.0.57.59
+247665 location RBARR00013 # 10.0.57.60
+08445c location RBARR00014 # 10.0.57.61
+411421 location RBARR00015 # 10.0.57.62
+5478c2 location RBARR00016 # 10.0.57.63
+47fde6 location RBARR00017 # 10.0.57.64
+9aa009 location RBARR00018 # 10.0.57.65
+eea5d2 location RBARR00019 # 10.0.57.66
+427893 location RBARR00020 # 10.0.57.67
+1c4fae location RBARR00021 # 10.0.57.68
+693af5 location RBARR00022 # 10.0.57.69
+3ff0b0 location RBARR00023 # 10.0.57.70
+6ba6a0 location RBARR00024 # 10.0.57.71
+0746eb location RBARR00025 # 10.0.57.72
+aa0122 location RBARR00026 # 10.0.115.13
+a81c86 location RBARR00027 # 10.0.115.14
+defa6a location RBARR00028 # 10.0.115.33
+639689 location RBARR00029 # 10.0.115.34
+894362 location RBARR00030 # 10.0.115.71
+
+## tuning
 
 ## throttle
-c1769c uncork 1585325442
-3ff0b0 uncork 1585325442
-411421 uncork 1585325442
-f6aabf uncork 1585325442
-0be34f uncork 1585325442
-871727 uncork 1585325442
-2ffd90 uncork 1585325442
-95c235 uncork 1585325442
 
 ## fans
  
 ## reboots
-# s_reboot generated on Mar 26 2020 19:34:54 utc: 1585251294
-95c235 reboot 1585251294 # 10.0.59.131 rbarr0xtra
-1c4fae reboot 1585251294 # 10.0.57.68 rbarr00021
-eea5d2 reboot 1585251294 # 10.0.57.66 rbarr00019
-a81c86 reboot 1585251294 # 10.0.115.14 rbarr00027
-5fa3f6 reboot 1585251294 # 10.0.67.160 rbarr0xtra
-427893 reboot 1585251294 # 10.0.57.67 rbarr00020
-d549fd reboot 1585251294 # 10.0.60.102 rbarr0xtra
-c1769c reboot 1585251294 # 10.0.60.150 rbarr0xtra
-f584b2 reboot 1585251294 # 10.0.55.73 rbarr0xtra
-2ffd90 reboot 1585251294 # 10.0.54.11 rbarr0xtra
-406249 reboot 1585251294 # 10.0.53.35 rbarr0xtra
-871727 reboot 1585251294 # 10.0.55.64 rbarr0xtra
-6723e2 reboot 1585251294 # 10.0.57.49 rbarr00002
-0be34f reboot 1585251294 # 10.0.57.50 rbarr00003
-e83b5d reboot 1585251294 # 10.0.57.52 rbarr00005
-08ede8 reboot 1585251294 # 10.0.57.53 rbarr00006
-62cd86 reboot 1585251294 # 10.0.57.56 rbarr00009
-4e2432 reboot 1585251294 # 10.0.57.58 rbarr00011
-f6aabf reboot 1585251294 # 10.0.57.59 rbarr00012
-411421 reboot 1585251294 # 10.0.57.62 rbarr00015
-5478c2 reboot 1585251294 # 10.0.57.63 rbarr00016
-9aa009 reboot 1585251294 # 10.0.57.65 rbarr00018
-3ff0b0 reboot 1585251294 # 10.0.57.70 rbarr00023
-6ba6a0 reboot 1585251294 # 10.0.57.71 rbarr00024
-0746eb reboot 1585251294 # 10.0.57.72 rbarr00025
-aa0122 reboot 1585251294 # 10.0.115.13 rbarr00026
-defa6a reboot 1585251294 # 10.0.115.33 rbarr00028
-639689 reboot 1585251294 # 10.0.115.34 rbarr00029
-894362 reboot 1585251294 # 10.0.115.71 rbarr00030
 
 ## resets
-d549fd reset 1586140228
-5478c2 reset 1586098562
-a81c86 reset 1581398214
-aa0122 reset 1581398214
-639689 reset 1581398214
-0be34f reset 1581398214
-427893 reset 1579720743 # 10.0.57.67 rbarr00020
-e83b5d reset 1579720743 # 10.0.57.52 rbarr00005
-9aa009 reset 1579720743 # 10.0.57.65 rbarr00018
-0be34f reset 1578097768
-693af5 reset 1578075078 # 10.0.57.69 rbarr00022
-4b3a51 reset 1578075078 # 10.0.57.48 rbarr00001
-639689 reset 1578075078 # 10.0.115.34 rbarr00029
-71df4f reset 1578075078 # 10.0.57.51 rbarr00004
-08ede8 reset 1578075078 # 10.0.57.53 rbarr00006
-4e2432 reset 1578075078 # 10.0.57.58 rbarr00011
-08445c reset 1578075078 # 10.0.57.61 rbarr00014
-894362 reset 1578075078 # 10.0.115.71 rbarr00030
-639689 reset 1577117781
-eea5d2 reset 1574962868
-4b3a51 reset 1574440111
-6723e2 reset 1574440111
-0be34f reset 1574440111
-71df4f reset 1574440111
-e83b5d reset 1574440111
-7e7d0e reset 1574440111
-4e2432 reset 1574440111
-08445c reset 1574440111
-5478c2 reset 1574440111
-eea5d2 reset 1574440111
-427893 reset 1574440111
-1c4fae reset 1574440111
-693af5 reset 1574440111
-6ba6a0 reset 1574440111
-aa0122 reset 1574440111
-6ba6a0 reset 1573764900
-5478c2 reset 1573764800
-aa0122 reset 1573173707
-5478c2 reset 1573173707
-9aa009 reset 1573164206
-a81c86 reset 1573152016
 
-## asic password
+## removals
+global remove 95c235,d549fd,f584b2,406249,2ffd90,c1769c,c02a2d,4476be,871727,fb6775,084a54,02ef83,5fa3f6
+
+## VPS pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
+## Remote pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCovql1bo+pkGUoq+zckj82BiW5CIBbxq1+wfET94ULY9b/BJzZHFxxjX79+aG4oilCpUKHFTJHv8Ox3IvtPxWGyx5IpV+avJqCO66+7/aIoG+Cqcz7f9pZPhK61qOG9AQsLNaZHaaB+jif7qCmXiDB1/eDzKHIh2UHdEnZSkcTrwdU40yA4JhenTAMJAxITopjAfURgJtTOkr9eBIVM6Xj/0x/f9ZUvL5jSLNDL9ujce928zCwvcMND+lrB3q5VgMluwihMUWZ3gJfsvZdHwPVXDP+qo1DaIP/oJ/rfD/ef9KkmYTYS3+RaYwGEJoGd0uHCUzSIl3oUJQg6kj4H22p
+# global panelpass gj83Nkgikg
 asicpass admin
+global logo https://raw.githubusercontent.com/cnels127/Configs/master/Bit49(2).png
