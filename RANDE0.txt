@@ -1,6 +1,5 @@
-## instructions available at: https://asicseer.com/page/kb#writing-config
-##   2 s9 @ 14.4 Th/s = 28.8 Th/s
-##     8 s9 @ 16 Th/s = 128 Th/s
+##   2 s9 @ 14.4 Th/s = 28.8 Th/s (contract expires 3/6/20)
+##     8 s9 @ 16 Th/s = 128 Th/s (contract expires 5/28/20)
 ## TOTAL EXP HASHRATE = 156.8 Th/s
 
 global custompanel RANDE0bit049
@@ -31,83 +30,53 @@ global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 global panelclear 999
-# global panelpass gj83Nkgikg
 
 # global retune 1
 # global reboot 1
-# global uncork 1
+global uncork 1589053882
 # global reset 1574962804
 
 ## vlans
-vlan 10.0.55.6-7
-vlan 10.0.57.129-129
-vlan 10.0.57.134-134
-vlan 10.0.57.142-142
-vlan 10.0.57.157-157
-vlan 10.0.58.5-5
-vlan 10.0.58.23-23
-vlan 10.0.58.26-26
-vlan 10.0.57.143-143
+vlan 10.0.55.6-6 # 5dea94
+vlan 10.0.55.7-7 # e35f32
+vlan 10.0.57.129-129 # 1506ab
+vlan 10.0.57.134-134 # 174232
+vlan 10.0.57.142-142 # 679e5d
+vlan 10.0.57.143-143 # 636f5f
+vlan 10.0.57.157-157 # 8a2820
+vlan 10.0.58.5-5 # 005c5e
+vlan 10.0.58.23-23 # a016c1
+vlan 10.0.58.26-26 # 55019f
 
 ## locations
-5dea94 location RANDE00001
-e35f32 location RANDE00002
-1506ab location RANDE00003
-174232 location RANDE00004
-679e5d location RANDE00005
-8a2820 location RANDE00006
-005c5e location RANDE00007
-a016c1 location RANDE00008
-55019f location RANDE00009
-636f5f location RANDE00010
-# extra machines added 12/6/19
-6c69d7 location RANDE0XTRA # 10.0.54.26
-99187c location RANDE0XTRA # 10.0.54.28
+5dea94 location RANDE00001 # 10.0.55.6
+e35f32 location RANDE00002 # 10.0.55.7
+1506ab location RANDE00003 # 10.0.57.129
+174232 location RANDE00004 # 10.0.57.134
+679e5d location RANDE00005 # 10.0.57.142
+636f5f location RANDE00006 # 10.0.57.143
+8a2820 location RANDE00007 # 10.0.57.157
+005c5e location RANDE00008 # 10.0.58.5
+a016c1 location RANDE00009 # 10.0.58.23
+55019f location RANDE00010 # 10.0.58.26
+
+## tuning
 
 ## throttle
-636f5f uncork 1585263693
-55019f uncork 1585263693
-174232 uncork 1585263693
-679e5d uncork 1585263693
 
 ## fans
 
 ## reboots
-8a2820 reboot 1585244581
-174232 reboot 1585244581
-679e5d reboot 1585244581
-99187c reboot 1585244581
-5dea94 reboot 1585244581
-a016c1 reboot 1585244581
-55019f reboot 1585244581
-636f5f reboot 1585244581
 
 ## resets
-a016c1 reset 1585165361
-8a2820 reset 1579021571
-55019f reset 1576121244
-679e5d reset 1576121244
-1506ab reset 1574968148
-679e5d reset 1574968148
-a016c1 reset 1574968148
-55019f reset 1574968148
-1506ab reset 1573945759
-8a2820 reset 1573945759
-679e5d reset 1573945759
-55019f reset 1573945759
-636f5f reset 1573945759
-8a2820 reset 1573071802
-1506ab reset 1573071802
-a016c1 reset 1573071802
-005c5e reset 1573071802
-679e5d reset 1573072500
-a016c1 reset 1573072500
 
-## retunes
-6c69d7 retune 1582747720
-e35f32 retune 1582747720
-005c5e retune 1582747720
+## removals
+global remove 99187c,6c69d7
 
-
-## asic password
+## VPS pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
+## Remote pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCovql1bo+pkGUoq+zckj82BiW5CIBbxq1+wfET94ULY9b/BJzZHFxxjX79+aG4oilCpUKHFTJHv8Ox3IvtPxWGyx5IpV+avJqCO66+7/aIoG+Cqcz7f9pZPhK61qOG9AQsLNaZHaaB+jif7qCmXiDB1/eDzKHIh2UHdEnZSkcTrwdU40yA4JhenTAMJAxITopjAfURgJtTOkr9eBIVM6Xj/0x/f9ZUvL5jSLNDL9ujce928zCwvcMND+lrB3q5VgMluwihMUWZ3gJfsvZdHwPVXDP+qo1DaIP/oJ/rfD/ef9KkmYTYS3+RaYwGEJoGd0uHCUzSIl3oUJQg6kj4H22p
+# global panelpass gj83Nkgikg
 asicpass admin
+global logo https://raw.githubusercontent.com/cnels127/Configs/master/Bit49(2).png
