@@ -1,5 +1,5 @@
 ## instructions available at: https://asicseer.com/page/kb#writing-config
-## 14 s9s @ 16 Th/s = 224 Th/s
+## 14 s9s @ 16 Th/s = 224 Th/s (contract expires 5/28/20)
 ## 14 s9s TURNED OVER TO HOLD06 4/1/20, 14 s9s TURNED BACK OVER TO MSHID0 4/24/20
 
 global custompanel MSHID0bit049
@@ -53,20 +53,20 @@ vlan 10.0.58.20-20 # 6a9f03
 vlan 10.0.58.24-24 # bccae7
 
 ## locations
-7f85b2 location MSHID00001
-7bbb90 location MSHID00002
-46bae8 location MSHID00003
-117c61 location MSHID00004
-9d84e2 location MSHID00005
-96d39b location MSHID00006
-c842f9 location MSHID00007
-304296 location MSHID00008
-0e1ddf location MSHID00009
-80596d location MSHID00010
-749409 location MSHID00011
-7f889a location MSHID00012
-6a9f03 location MSHID00013
-bccae7 location MSHID00014
+7f85b2 location MSHID00001 # 10.0.57.128
+7bbb90 location MSHID00002 # 10.0.57.144
+46bae8 location MSHID00003 # 10.0.57.145
+117c61 location MSHID00004 # 10.0.57.147
+9d84e2 location MSHID00005 # 10.0.57.148
+96d39b location MSHID00006 # 10.0.57.149
+c842f9 location MSHID00007 # 10.0.57.151
+304296 location MSHID00008 # 10.0.57.156
+0e1ddf location MSHID00009 # 10.0.58.2
+80596d location MSHID00010 # 10.0.58.6
+749409 location MSHID00011 # 10.0.58.9
+7f889a location MSHID00012 # 10.0.58.13
+6a9f03 location MSHID00013 # 10.0.58.20
+bccae7 location MSHID00014 # 10.0.58.24
 
 ## throttle
 
@@ -78,5 +78,10 @@ bccae7 location MSHID00014
 
 ## retunes
 
-## asic password
+## VPS pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
+## Remote pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCovql1bo+pkGUoq+zckj82BiW5CIBbxq1+wfET94ULY9b/BJzZHFxxjX79+aG4oilCpUKHFTJHv8Ox3IvtPxWGyx5IpV+avJqCO66+7/aIoG+Cqcz7f9pZPhK61qOG9AQsLNaZHaaB+jif7qCmXiDB1/eDzKHIh2UHdEnZSkcTrwdU40yA4JhenTAMJAxITopjAfURgJtTOkr9eBIVM6Xj/0x/f9ZUvL5jSLNDL9ujce928zCwvcMND+lrB3q5VgMluwihMUWZ3gJfsvZdHwPVXDP+qo1DaIP/oJ/rfD/ef9KkmYTYS3+RaYwGEJoGd0uHCUzSIl3oUJQg6kj4H22p
+# global panelpass gj83Nkgikg
 asicpass admin
+global logo https://raw.githubusercontent.com/cnels127/Configs/master/Bit49(2).png
