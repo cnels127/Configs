@@ -1,5 +1,5 @@
-## instructions available at: https://asicseer.com/page/kb#writing-config
-## 10 s9 to HOLD07 due to non-payment
+## 10 s9 @ 14.4 Th/s = 144 Th/s (contract expires 6/12/20)
+## 10 s9 to HOLD07 due to non-payment 4/1/2020 20:25 UTC
 
 global custompanel NPAVL0bit049
 global customer bit49-Russia
@@ -33,7 +33,7 @@ global panelclear 999
 # global retune 1
 # global reboot 1
 # global uncork 1
-global reset 1574929441
+# global reset 1574929441
 
 ## vlans
 
