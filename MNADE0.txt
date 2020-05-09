@@ -1,5 +1,6 @@
-## instructions available at: https://asicseer.com/page/kb#writing-config
-## TOTAL EXP HASHRATE 10 s9 @ 16 Th/s = 160 Th/s
+##   2 s9 @ 14.4 Th/s = 28.8 Th/s (contract expires 3/6/20)
+##     8 s9 @ 16 Th/s = 128 Th/s (contract expires 5/28/20)
+## TOTAL EXP HASHRATE = 160 Th/s
 
 global custompanel MNADE0bit049
 global customer bit49-Russia
@@ -29,7 +30,6 @@ global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 global panelclear 999
-# global panelpass gj83Nkgikg
 
 # global retune 1
 # global reboot 1573584366 # 1
@@ -54,112 +54,19 @@ e8521d location MNADE00007
 d89759 location MNADE00008
 e260d5 location MNADE00009
 6e6dd8 location MNADE00010
-# extra machines added 12/6/19
-15891f location MNADE0XTRA # 10.0.54.23
-4055c4 location MNADE0XTRA # 10.0.54.24
-# extra machines added 12/26/19
-915cb5 location MNADE0XTRA # 10.0.121.152
-4f7d59 location MNADE0XTRA # 10.0.115.1
-# extra machines added 3/5/20 # 65.8 Th/s
-e61d93 location MNADE0XTRA # 10.0.59.46 # 16.5 Th/s
-5aa9d6 location MNADE0XTRA # 10.0.59.48 # 16.5 Th/s
-644746 location MNADE0XTRA # 10.0.59.39 # 16.4 Th/s
-c16639 location MNADE0XTRA # 10.0.119.23 # 16.4 Th/s
 
-
-## retune
-3bf939 retune 1582143808
+## tuning
 
 ## throttle
-# 3/26/20
-4055c4 uncork 1585252541
-e61d93 uncork 1585252541
-915cb5 uncork 1585252541
-# 3/23/20
-e61d93 uncork 1585005085
-4c4fe6 uncork 1585005085
-2c0fb6 uncork 1585005085
-5aa9d6 uncork 1585005085
-# 3/16/20
-e8521d uncork 1584380994
-4c4fe6 uncork 1584380994
-# 3/13/20
-2c0fb6 uncork 1584121771
-# 3/10/20
-2c0fb6 uncork 1583854379
-# 3/9/20
-e8521d uncork 1583786588
-# 2/17/20
-e8521d uncork 1581965385
-
-e8521d uncork 1581105593
 
 ## fans
 
 ## reboots
-543775 reboot 1583349743
-e260d5 reboot 1583349743
-d89759 reboot 1583349743
-3bf939 reboot 1583349743
-8a919b reboot 1583349743
-4f7d59 reboot 1583349743
-e8521d reboot 1583349743
-543775 reboot 1585238598 # 10.0.77.8 mnade00004
-4c4fe6 reboot 1585238598 # 10.0.77.9 mnade00005
-4055c4 reboot 1585238598 # 10.0.54.24 mnade0xtra
-915cb5 reboot 1585238598 # 10.0.121.152 mnade0xtra
-2ecb70 reboot 1585238598 # 10.0.57.85 mnade00003
-15891f reboot 1585238598 # 10.0.54.23 mnade0xtra
-2c0fb6 reboot 1585238598 # 10.0.77.53 mnade00006
-e61d93 reboot 1585238598 # 10.0.59.46 mnade0xtra
-3bf939 reboot 1585238598 # 10.0.57.83 mnade00001
-8a919b reboot 1585238598 # 10.0.57.84 mnade00002
-d89759 reboot 1585238598 # 10.0.65.115 mnade00008
-e260d5 reboot 1585238598 # 10.0.67.37 mnade00009
-
 
 ## resets
-e8521d reset 1586842709
-# 3/19/20
-543775 reset 1584658059
-# 3/6/20
-2c0fb6 reset 1583513605
-e8521d reset 1583513605
-
-#2/18/20
-e8521d reset 1582054548
-
-e8521d reset 1581708841
-543775 reset 1581009169
-2ecb70 reset 1580931710
-3bf939 reset 1580929442
-2ecb70 reset 1580493377
-2c0fb6 reset 1580493377
-3bf939 reset 1580487772
-8a919b reset 1580415220
-2c0fb6 reset 1580414624
-4ce146 reset 1580404588
-6167d2 reset 1580404588
-e98efc reset 1580404588
-af4344 reset 1580404588
-e260d5 reset 1580402283
-d89759 reset 1580402283
-8a919b reset 1580328499
-d89759 reset 1580328254
-8a919b reset 1580328254
-e260d5 reset 1580328254
-2c0fb6 reset 1578679536
-e8521d reset 1577119844
-6e6dd8 reset 1577119844
-e260d5 reset 1577119844
-8a919b reset 1577119844
-
-2c0fb6 reset 1576883018
-8a919b reset 1574965641
-e260d5 reset 1574928984
 
 ## removals
-global remove 4f7d59
+global remove 4f7d59,c16639,915cb5,5aa9d6,e61d93,4055c4,644746,15891f
 
 ## asic password
 asicpass admin
