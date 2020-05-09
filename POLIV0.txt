@@ -1,6 +1,5 @@
-## instructions available at: https://asicseer.com/page/kb#writing-config
-##     1 s9 @ 16 Th/s = 16 Th/s
-##   3 s9 @ 13.5 Th/s = 40.5 Th/s
+##     1 s9 @ 16 Th/s = 16 Th/s (contract expires 9/25/20)
+##   3 s9 @ 13.5 Th/s = 40.5 Th/s (contract expires 10/1/20)
 ## TOTAL EXP HASHRATE = 56.5 Th/s
 
 global custompanel POLIV0bit049
@@ -31,7 +30,6 @@ global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 global panelclear 999
-# global panelpass gj83Nkgikg
 
 # global retune 1
 # global reboot 1
@@ -39,51 +37,39 @@ global panelclear 999
 # global reset 1
 
 ## vlans
-vlan 10.0.120.99-99
-vlan 10.0.116.79-79
-vlan 10.0.116.83-83
-vlan 10.0.117.17-17
-# extra machines added 11/23/19
-vlan 10.0.53.150-150
-vlan 10.0.53.154-154
+vlan 10.0.116.79-79 # 4fc5e3
+vlan 10.0.116.83-83 # 136cc9
+vlan 10.0.117.17-17 # 88d995
+vlan 10.0.120.99-99 # 1d229c
+vlan 10.0.53.150-150 # d92dc2
+vlan 10.0.53.154-154 # dc8a14
+vlan 10.0.118.69-69 # 797077
 
 ## locations
-1d229c location POLIV00001
-4fc5e3 location POLIV00002
-136cc9 location POLIV00003
-88d995 location POLIV00004
-# extra machines added 11/23/19
-d92dc2 location POLIV0XTRA
-dc8a14 location POLIV0XTRA
-# extra machine added 12/30/19
-797077 location POLIV0XTRA # 10.0.118.69
+4fc5e3 location POLIV00001 # 10.0.116.79
+136cc9 location POLIV00002 # 10.0.116.83
+88d995 location POLIV00003 # 10.0.117.17
+1d229c location POLIV00004 # 10.0.120.99
+d92dc2 location POLIV0XTRA # 10.0.53.150 # extra added 11/23/19
+dc8a14 location POLIV0XTRA # 10.0.53.154 # extra added 11/23/19
+797077 location POLIV0XTRA # 10.0.118.69 # extra added 12/30/19
+
+## tuning
 
 ## throttle
-d92dc2 uncork 1585325442
-1d229c uncork 1585325442
 
 ## fans 
 
 ## reboots
-# s_reboot generated on Mar 26 2020 19:33:53 utc: 1585251233
-1d229c reboot 1585251233 # 10.0.120.99 poliv00001
-d92dc2 reboot 1585251233 # 10.0.53.150 poliv0xtra
-4fc5e3 reboot 1585251233 # 10.0.116.79 poliv00002
-797077 reboot 1585251233 # 10.0.118.69 poliv0xtra
-dc8a14 reboot 1585251233 # 10.0.53.154 poliv0xtra
-136cc9 reboot 1585251233 # 10.0.116.83 poliv00003
-88d995 reboot 1585251233 # 10.0.117.17 poliv00004
 
 ## resets
-# 2/27/20
-136cc9 reset 1582830726
 
-dc8a14 reset 1574962337
-1d229c reset 1574962337
-4fc5e3 reset 1574962337
-88d995 reset 1574962337
-4fc5e3 reset 1573164323
+## removals
 
-## asic password
+## VPS pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
+## Remote pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCovql1bo+pkGUoq+zckj82BiW5CIBbxq1+wfET94ULY9b/BJzZHFxxjX79+aG4oilCpUKHFTJHv8Ox3IvtPxWGyx5IpV+avJqCO66+7/aIoG+Cqcz7f9pZPhK61qOG9AQsLNaZHaaB+jif7qCmXiDB1/eDzKHIh2UHdEnZSkcTrwdU40yA4JhenTAMJAxITopjAfURgJtTOkr9eBIVM6Xj/0x/f9ZUvL5jSLNDL9ujce928zCwvcMND+lrB3q5VgMluwihMUWZ3gJfsvZdHwPVXDP+qo1DaIP/oJ/rfD/ef9KkmYTYS3+RaYwGEJoGd0uHCUzSIl3oUJQg6kj4H22p
+# global panelpass gj83Nkgikg
 asicpass admin
-
+global logo https://raw.githubusercontent.com/cnels127/Configs/master/Bit49(2).png
