@@ -1,5 +1,7 @@
-## instructions available at: https://asicseer.com/page/kb#writing-config
-## TOTAL EXP HASHRATE 9 s9 @ 14.4 Th/s = 129.6 Th/s
+##   3 s9 @ 14.4 Th/s = 43.2 Th/s (contract expires 2/18/20)
+##   3 s9 @ 14.4 Th/s = 43.2 Th/s (contract expires 2/25/20)
+##   3 s9 @ 14.4 Th/s = 43.2 Th/s (contract expires 3/5/20)
+## TOTAL EXP HASHRATE = 129.6 Th/s
 
 global custompanel PKOKE0bit049
 global customer bit49-Russia
@@ -37,75 +39,44 @@ global uncork 1588951067
 # global reset 1574961967
 
 ## vlans
-# vlan 10.0.54.133-135
-# vlan 10.0.56.8-8
-# vlan 10.0.57.73-75
-# vlan 10.0.58.127-127
-# vlan 10.0.61.2-2
-# extra machines added 12/12/19
-# vlan 10.0.62.53-53 # d379c4
-# vlan 10.0.53.148-148 # c1da37
-# extra machines added 12/30/19
-# vlan 10.0.119.62-62 # 1e7afa
-# extra machines added 3/9/20
-vlan 10.0.50.65-65 # a286c5
-vlan 10.0.118.13-13 # bd7794
+vlan 10.0.54.133-133 # 17739c
+# vlan 10.0.54.134-134 # ae28ba # SCRAPPED 4/30/20
+# vlan 10.0.54.135-135 # f39f2b # SCRAPPED 4/30/20
+vlan 10.0.56.8-8 # bcaed0
+vlan 10.0.57.73-73 # bd9932
+vlan 10.0.57.74-74 # 7ed10f
+vlan 10.0.57.75-75 # 3bcc51
+vlan 10.0.58.127-127 # 2baaac
+vlan 10.0.61.2-2 # e5ba90
 
 ## locations
-17739c location PKOKE00001
-ae28ba location PKOKE00002
-f39f2b location PKOKE00003
-bcaed0 location PKOKE00004
-bd9932 location PKOKE00005
-7ed10f location PKOKE00006
-3bcc51 location PKOKE00007
-2baaac location PKOKE00008
-e5ba90 location PKOKE00009
-# extra machines added 12/12/19
-d379c4 location PKOKE0XTRA # 10.0.62.53
-c1da37 location PKOKE0XTRA # 10.0.53.148
-# extra machine added 12/30/19
-1e7afa location PKOKE0XTRA # 10.0.119.62
-# extra machines added 3/9/20
-a286c5 location PKOKE0XTRA # 10.0.50.65 # 11 Th/s
-bd7794 location PKOKE0XTRA # 10.0.118.13 # 10.9 Th/s
+17739c location PKOKE00001 # 10.0.54.133
+# ae28ba location PKOKE00002 # 10.0.54.134 # SCRAPPED 4/30/20
+# f39f2b location PKOKE00003 # 10.0.54.135 # SCRAPPED 4/30/20
+bcaed0 location PKOKE00004 # 10.0.56.8
+bd9932 location PKOKE00005 # 10.0.57.73
+7ed10f location PKOKE00006 # 10.0.57.74
+3bcc51 location PKOKE00007 # 10.0.57.75
+2baaac location PKOKE00008 # 10.0.58.127
+e5ba90 location PKOKE00009 # 10.0.61.2
 
+## tuning
 
 ## throttle
-7ed10f uncork 1584564534
-d379c4 uncork 1584564534
-91b329 uncork 1585261877 
-94587a uncork 1585261877 
 
 ## fans
 
 ## reboots
-# s_reboot generated on Mar 26 2020 19:33:07 utc: 1585251187
-bcaed0 reboot 1585251187 # 10.0.56.8 pkoke00004
-2baaac reboot 1585251187 # 10.0.58.127 pkoke00008
-3bcc51 reboot 1585251187 # 10.0.57.75 pkoke00007
-1e7afa reboot 1585251187 # 10.0.119.62 pkoke0xtra
-a286c5 reboot 1585251187 # 10.0.50.65 pkoke0xtra
-bd7794 reboot 1585251187 # 10.0.118.13 pkoke0xtra
-c1da37 reboot 1585251187 # 10.0.53.148 pkoke0xtra
-d379c4 reboot 1585251187 # 10.0.62.53 pkoke0xtra
-17739c reboot 1585251187 # 10.0.54.133 pkoke00001
-ae28ba reboot 1585251187 # 10.0.54.134 pkoke00002
-f39f2b reboot 1585251187 # 10.0.54.135 pkoke00003
-bd9932 reboot 1585251187 # 10.0.57.73 pkoke00005
-e5ba90 reboot 1585251187 # 10.0.61.2 pkoke00009
 
 ## resets
-e5ba90 reset 1579020774
-ae28ba reset 1577904918
-f39f2b reset 1577904918
-e5ba90 reset 1577766453
-ae28ba reset 1577471957
-d379c4 reset 1577084856
-ae28ba reset 1574965806
-f39f2b reset 1574965806
-ae28ba reset 1573167471
-f39f2b reset 1573164454
 
-## asic password
+## removals
+global remove bd7794,d379c4,a286c5,1e7afa,c1da37
+
+## VPS pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
+## Remote pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCovql1bo+pkGUoq+zckj82BiW5CIBbxq1+wfET94ULY9b/BJzZHFxxjX79+aG4oilCpUKHFTJHv8Ox3IvtPxWGyx5IpV+avJqCO66+7/aIoG+Cqcz7f9pZPhK61qOG9AQsLNaZHaaB+jif7qCmXiDB1/eDzKHIh2UHdEnZSkcTrwdU40yA4JhenTAMJAxITopjAfURgJtTOkr9eBIVM6Xj/0x/f9ZUvL5jSLNDL9ujce928zCwvcMND+lrB3q5VgMluwihMUWZ3gJfsvZdHwPVXDP+qo1DaIP/oJ/rfD/ef9KkmYTYS3+RaYwGEJoGd0uHCUzSIl3oUJQg6kj4H22p
+# global panelpass gj83Nkgikg
 asicpass admin
+global logo https://raw.githubusercontent.com/cnels127/Configs/master/Bit49(2).png
