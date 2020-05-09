@@ -1,5 +1,10 @@
-## instructions available at: https://asicseer.com/page/kb#writing-config
-## TOTAL EXP HASHRATE 15 s9 @ 14.4 Th/s = 216 Th/s
+## 2 s9 @ 14.4 Th/s = 28.8 Th/s (contract expires 1/17/20)
+## 1 s9 @ 14.4 Th/s = 14.4 Th/s (contract expires 2/18/20)
+## 1 s9 @ 14.4 Th/s = 14.4 Th/s (contract expires 3/5/20)
+## 1 s9 @ 14.4 Th/s = 14.4 Th/s (contract expires 5/9/20)
+## 10 s9 @ 14.4 Th/s = 144 Th/s (contract expires 9/6/20)
+## 4 consolidated 3/6/20
+## TOTAL EXP HASHRATE = 158.4 Th/s
 
 global custompanel PEGAN0bit049
 global customer bit49-Russia
@@ -29,121 +34,55 @@ global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 global panelclear 999
-# global panelpass gj83Nkgikg
 
 # global retune 1
 # global reboot 1
-# global uncork 1
-global reset 1574961848
+global uncork 1589045626
+# global reset 1574961848
 
 ## vlans
-vlan 10.0.54.154-154
-# vlan 10.0.55.142-142 # SCRAPPED
-vlan 10.0.62.27-27
-# vlan 10.0.117.38-38 # SCRAPPED
-vlan 10.0.117.39-39
-vlan 10.0.118.5-5
-# vlan 10.0.118.48-48 # SCRAPPED
-vlan 10.0.115.21-21
-vlan 10.0.115.100-100
-vlan 10.0.117.4-4
-# vlan 10.0.115.2-2 # SCRAPPED
-vlan 10.0.115.96-96
-vlan 10.0.118.49-49
-vlan 10.0.120.92-92
-vlan 10.0.119.52-52
+vlan 10.0.54.154-154 # 5a3dde
+vlan 10.0.62.27-27 # 63f1ab
+vlan 10.0.115.21-21 # 6c96dd
+vlan 10.0.115.96-96 # 9a258b
+vlan 10.0.115.100-100 # f49c47
+vlan 10.0.117.4-4 # e6d42b
+vlan 10.0.117.39-39 # 38d579
+vlan 10.0.118.5-5 # c1a1c1
+vlan 10.0.118.49-49 # a03c97
+vlan 10.0.119.52-52 # 4900fd
+vlan 10.0.120.92-92 # f1ae88
 
 ## locations
-5a3dde location PEGAN00001
-44c925 location PEGAN00002 # SCRAPPED
-63f1ab location PEGAN00003
-ef1f6e location PEGAN00004 # SCRAPPED
-38d579 location PEGAN00005
-c1a1c1 location PEGAN00006
-d20101 location PEGAN00007 # SCRAPPED
-6c96dd location PEGAN00008
-f49c47 location PEGAN00009
-e6d42b location PEGAN00010
-4e0552 location PEGAN00011 # SCRAPPED
-9a258b location PEGAN00012
-a03c97 location PEGAN00013
-f1ae88 location PEGAN00014
-4900fd location PEGAN00015
-# extra machines added 3/7/20
-053bf9 location PEGAN0XTRA # 10.0.62.95 # 16.1 Th/s
-ad8ef4 location PEGAN0XTRA # 10.0.31.117 # 16.0 Th/s
-91b329 location PEGAN0XTRA # 10.0.50.20 # 16.0 Th/s
-94587a location PEGAN0XTRA # 10.0.50.137 # 16.0 Th/s
-996b7a location PEGAN0XTRA # 10.0.55.49 # 16.0 Th/s
+5a3dde location PEGAN00001 # 10.0.54.154
+63f1ab location PEGAN00002 # 10.0.62.27
+6c96dd location PEGAN00003 # 10.0.115.21
+9a258b location PEGAN00004 # 10.0.115.96
+f49c47 location PEGAN00005 # 10.0.115.100
+e6d42b location PEGAN00006 # 10.0.117.4
+38d579 location PEGAN00007 # 10.0.117.39
+c1a1c1 location PEGAN00008 # 10.0.118.5
+a03c97 location PEGAN00009 # 10.0.118.49
+4900fd location PEGAN00010 # 10.0.119.52
+f1ae88 location PEGAN00011 # 10.0.120.92
+
+## tuning
 
 ## throttle
-996b7a uncork 1585263693
-94587a uncork 1585263693
+
+## fans
 
 ## reboots
-38d579 reboot 1585244581
-c1a1c1 reboot 1585244581
-4900fd reboot 1585244581
-44c925 reboot 1585244581
-ef1f6e reboot 1585244581
-d20101 reboot 1585244581
-4e0552 reboot 1585244581
-996b7a reboot 1585244581
-94587a reboot 1585244581
-5a3dde reboot 1585244581
-6c96dd reboot 1585244581
-f1ae88 reboot 1585244581
-a03c97 reboot 1585244581
-63f1ab reboot 1585244581
-91b329 reboot 1585244581
-63f1ab reboot 1585326061 
-91b329 reboot 1585326061 
-c1a1c1 reboot 1585326061 
-a03c97 reboot 1585326061 
-38d579 reboot 1585326061 
-f1ae88 reboot 1585326061 
-6c96dd reboot 1585326061 
-44c925 reboot 1585326061 
-ef1f6e reboot 1585326061 
-d20101 reboot 1585326061
-4e0552 reboot 1585326061 
+
 ## resets
-# 3/20/20
-6c96dd reset 1584724848
 
-# 3/6/20
-a03c97 reset 1583509510
+## removals
+global remove 45099f,0884bf,bbf6ce,1a4852,e1a2b1,7bb0bc,52a31b,870cd5,309322,8883eb,053bf9,ad8ef4,91b329,94587a,996b7a
 
-f49c47 reset 1583505061
-9a258b reset 1583505061
-
-9a258b reset 1577904567
-f49c47 reset 1577904567
-6c96dd reset 1577904567
-38d579 reset 1577904567
-1a4852 reset 1577904567
-1a4852 reset 1577904567
-44c925 reset 1577904567
-5a3dde reset 1575933887
-ef1f6e reset 1575933887
-1a4852 reset 1575933887
-870cd5 reset 1574965787
-d20101 reset 1573856046
-f1ae88 reset 1573855943
-d20101 reset 1573254748
-
-## retune
-# 2/20/20
-5a3dde retune 1582225605
-63f1ab retune 1582225605
-
-870cd5 retune 1581706474
-c1a1c1 retune 1581706474
-e6d42b retune 1581706474
-f1ae88 retune 1581706474
-
-# s_remove generated on Dec 07 2019 01:26:01 utc: 1575681961
-global remove 45099f,0884bf,bbf6ce,1a4852,e1a2b1,7bb0bc,52a31b,870cd5,309322,8883eb
-
-## asic password
+## VPS pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
+## Remote pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCovql1bo+pkGUoq+zckj82BiW5CIBbxq1+wfET94ULY9b/BJzZHFxxjX79+aG4oilCpUKHFTJHv8Ox3IvtPxWGyx5IpV+avJqCO66+7/aIoG+Cqcz7f9pZPhK61qOG9AQsLNaZHaaB+jif7qCmXiDB1/eDzKHIh2UHdEnZSkcTrwdU40yA4JhenTAMJAxITopjAfURgJtTOkr9eBIVM6Xj/0x/f9ZUvL5jSLNDL9ujce928zCwvcMND+lrB3q5VgMluwihMUWZ3gJfsvZdHwPVXDP+qo1DaIP/oJ/rfD/ef9KkmYTYS3+RaYwGEJoGd0uHCUzSIl3oUJQg6kj4H22p
+# global panelpass gj83Nkgikg
 asicpass admin
+global logo https://raw.githubusercontent.com/cnels127/Configs/master/Bit49(2).png
