@@ -1,5 +1,6 @@
-##   2 s9 @ 14.4 Th/s = 28.8 Th/s (contract expires 3/6/20)
-##     8 s9 @ 16 Th/s = 128 Th/s (contract expires 5/28/20)
+##     4 s9 @ 16 Th/s = 64 Th/s (contract expires 1/17/20)
+##     3 s9 @ 16 Th/s = 48 Th/s (contract expires 2/18/20)
+##     3 s9 @ 16 Th/s = 48 Th/s (contract expires 7/20/20)
 ## TOTAL EXP HASHRATE = 160 Th/s
 
 global custompanel MNADE0bit049
@@ -37,23 +38,28 @@ global uncork 1574927063
 # global reset 1
 
 ## vlans
-vlan 10.0.57.83-85
-vlan 10.0.68.22-25
-vlan 10.0.65.115-115
-vlan 10.0.67.37-37
-vlan 10.0.65.104-104
+# vlan 10.0.57.83-83 # 3bf939 # POWERED DOWN - NO WORKING HASHBOARDS
+# vlan 10.0.57.84-84 # 8a919b # POWERED DOWN - NO WORKING HASHBOARDS
+vlan 10.0.57.85-85 # 2ecb70
+vlan 10.0.65.104-104 # 6e6dd8
+# vlan 10.0.65.115-115 # d89759 # POWERED DOWN - NO WORKING HASHBOARDS
+# vlan 10.0.67.37-37 # e260d5 # POWERED DOWN - NO WORKING HASHBOARDS
+vlan 10.0.77.8-8 # 543775
+vlan 10.0.77.9-9 # 4c4fe6
+vlan 10.0.77.53-53 # 2c0fb6
+vlan 10.0.77.54-54 # e8521d
 
 ## locations
-3bf939 location MNADE00001
-8a919b location MNADE00002
-2ecb70 location MNADE00003
-543775 location MNADE00004
-4c4fe6 location MNADE00005
-2c0fb6 location MNADE00006
-e8521d location MNADE00007
-d89759 location MNADE00008
-e260d5 location MNADE00009
-6e6dd8 location MNADE00010
+# 3bf939 location MNADE00001 # 10.0.57.83 # POWERED DOWN - NO WORKING HASHBOARDS
+# 8a919b location MNADE00002 # 10.0.57.84 # POWERED DOWN - NO WORKING HASHBOARDS
+2ecb70 location MNADE00003 # 10.0.57.85
+6e6dd8 location MNADE00004 # 10.0.65.104
+# d89759 location MNADE00005 # 10.0.65.115 # POWERED DOWN - NO WORKING HASHBOARDS
+# e260d5 location MNADE00006 # 10.0.67.37 # POWERED DOWN - NO WORKING HASHBOARDS
+543775 location MNADE00007 # 10.0.77.8
+4c4fe6 location MNADE00008 # 10.0.77.9
+2c0fb6 location MNADE00009 # 10.0.77.53
+e8521d location MNADE00010 # 10.0.77.54
 
 ## tuning
 
@@ -68,5 +74,10 @@ e260d5 location MNADE00009
 ## removals
 global remove 4f7d59,c16639,915cb5,5aa9d6,e61d93,4055c4,644746,15891f
 
-## asic password
+## VPS pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
+## Remote pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCovql1bo+pkGUoq+zckj82BiW5CIBbxq1+wfET94ULY9b/BJzZHFxxjX79+aG4oilCpUKHFTJHv8Ox3IvtPxWGyx5IpV+avJqCO66+7/aIoG+Cqcz7f9pZPhK61qOG9AQsLNaZHaaB+jif7qCmXiDB1/eDzKHIh2UHdEnZSkcTrwdU40yA4JhenTAMJAxITopjAfURgJtTOkr9eBIVM6Xj/0x/f9ZUvL5jSLNDL9ujce928zCwvcMND+lrB3q5VgMluwihMUWZ3gJfsvZdHwPVXDP+qo1DaIP/oJ/rfD/ef9KkmYTYS3+RaYwGEJoGd0uHCUzSIl3oUJQg6kj4H22p
+# global panelpass gj83Nkgikg
 asicpass admin
+global logo https://raw.githubusercontent.com/cnels127/Configs/master/Bit49(2).png
