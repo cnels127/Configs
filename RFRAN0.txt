@@ -1,5 +1,4 @@
-## instructions available at: https://asicseer.com/page/kb#writing-config
-## TOTAL EXP HASHRATE 4 s9 @ 16 Th/s = 64 Th/s
+## 4 s9 @ 16 Th/s = 64 Th/s (contract expires 5/7/20)
 
 global custompanel RFRAN0bit049
 global customer bit49-Russia
@@ -29,73 +28,42 @@ global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 global panelclear 999
-# global panelpass gj83Nkgikg
 
 # global retune 1
 # global reboot 1573584429 # 1
-global uncork 1576273391
-# global reset 1574963092
-global reset 1580486394
+# global uncork 1576273391
+# global reset 1580486394
 
 ## vlans
-vlan 10.0.62.36-36
-vlan 10.0.62.38-40
+# vlan 10.0.62.36-36 # af34c7 # SCRAPPED 4/22/20
+vlan 10.0.62.38-38 # 7f3717
+vlan 10.0.62.39-39 # 46bd22
+vlan 10.0.62.40-40 # d54f75
 
 ## locations
-af34c7 location RFRAN00001
-7f3717 location RFRAN00002
-46bd22 location RFRAN00003
-d54f75 location RFRAN00004
-# extra machines added 3/7/20 # 31.4 Th/s
-83d143 location RFRAN0XTRA # 10.0.30.156 # 15.7 Th/s
-01507b location RFRAN0XTRA # 10.0.31.12 # 15.7 Th/s
+af34c7 location RFRAN00001 # 10.0.62.36 # SCRAPPED 4/22/20
+7f3717 location RFRAN00002 # 10.0.62.38
+46bd22 location RFRAN00003 # 10.0.62.39
+d54f75 location RFRAN00004 # 10.0.62.40
+
+## tuning
+7f3717 retune 1589054908
 
 ## throttle
-# 3/26/20
-01507b uncork 1585255635
-# 3/23/20
-46bd22 uncork 1585007368
-d54f75 uncork 1585007368
-
-7f3717 uncork 1580498967
-46bd22 uncork 1580498967
 
 ## fans
 
 ## reboots
-af34c7 reboot 1585238427 # 10.0.62.36 rfran00001
-01507b reboot 1585238427 # 10.0.31.12 rfran0xtra
-70247c reboot 1585238450 # 10.0.77.141 racay00024
-c6a6bf reboot 1585238450 # 10.0.31.79 racay0xtra
-095c6d reboot 1585238450 # 10.0.56.36 racay00013
-73d19d reboot 1585238450 # 10.0.54.152 racay00002
-06bc48 reboot 1585238450 # 10.0.31.104 racay0xtra
-16ab24 reboot 1585238450 # 10.0.59.16 racay00016
-5645bb reboot 1585238450 # 10.0.56.17 racay00011
-57c2bb reboot 1585238450 # 10.0.55.94 racay00004
-55ae8b reboot 1585238450 # 10.0.54.153 racay00003
-c55a62 reboot 1585238450 # 10.0.54.151 racay00001
-93d91c reboot 1585238450 # 10.0.30.109 racay0xtra
-2ff049 reboot 1585238450 # 10.0.118.15 racay0xtra
-0b0bff reboot 1585238450 # 10.0.117.161 racay0xtra
-9f942d reboot 1585238450 # 10.0.56.100 racay00015
-497b40 reboot 1585238450 # 10.0.60.86 racay00019
-f729dc reboot 1585238450 # 10.0.77.68 racay00022
-cfc1d8 reboot 1585238450 # 10.0.55.115 racay00007
-9938b8 reboot 1585238450 # 10.0.77.76 racay00023
-d6136a reboot 1585238450 # 10.0.56.42 racay00014
-ac1696 reboot 1585238450 # 10.0.56.34 racay00012
-e98a1b reboot 1585238450 # 10.0.55.106 racay00006
-ec8ea7 reboot 1585238450 # 10.0.55.144 racay00009
-62dffd reboot 1585238450 # 10.0.55.105 racay00005
-6c2312 reboot 1585238450 # 10.0.55.126 racay00008
-74a07a reboot 1585238450 # 10.0.55.146 racay00010
-053705 reboot 1585238450 # 10.0.60.115 racay00020
 
 ## resets
-af34c7 reset 1580930606
-7f3717 reset 1574970016
-7f3717 reset 1574123798
 
-## asic password
+## removals
+global remove 83d143,01507b
+
+## VPS pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
+## Remote pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCovql1bo+pkGUoq+zckj82BiW5CIBbxq1+wfET94ULY9b/BJzZHFxxjX79+aG4oilCpUKHFTJHv8Ox3IvtPxWGyx5IpV+avJqCO66+7/aIoG+Cqcz7f9pZPhK61qOG9AQsLNaZHaaB+jif7qCmXiDB1/eDzKHIh2UHdEnZSkcTrwdU40yA4JhenTAMJAxITopjAfURgJtTOkr9eBIVM6Xj/0x/f9ZUvL5jSLNDL9ujce928zCwvcMND+lrB3q5VgMluwihMUWZ3gJfsvZdHwPVXDP+qo1DaIP/oJ/rfD/ef9KkmYTYS3+RaYwGEJoGd0uHCUzSIl3oUJQg6kj4H22p
+# global panelpass gj83Nkgikg
 asicpass admin
+global logo https://raw.githubusercontent.com/cnels127/Configs/master/Bit49(2).png
