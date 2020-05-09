@@ -46,10 +46,10 @@ vlan 10.0.57.151-151 # c842f9
 vlan 10.0.57.156-156 # 304296
 vlan 10.0.58.2-2 # 0e1ddf
 vlan 10.0.58.6-6 # 80596d
-vlan 10.0.58.9-9 # 749409
+# vlan 10.0.58.9-9 # 749409 # POWERED OFF - NO WORKING HASHBOARDS
 vlan 10.0.58.13-13 # 7f889a
 vlan 10.0.58.20-20 # 6a9f03
-vlan 10.0.58.24-24 # bccae7
+# vlan 10.0.58.24-24 # bccae7 # POWERED OFF - NO WORKING HASHBOARDS
 
 ## locations
 7f85b2 location MSHID00001 # 10.0.57.128
@@ -62,10 +62,12 @@ c842f9 location MSHID00007 # 10.0.57.151
 304296 location MSHID00008 # 10.0.57.156
 0e1ddf location MSHID00009 # 10.0.58.2
 80596d location MSHID00010 # 10.0.58.6
-749409 location MSHID00011 # 10.0.58.9
+# 749409 location MSHID00011 # 10.0.58.9 # POWERED OFF - NO WORKING HASHBOARDS
 7f889a location MSHID00012 # 10.0.58.13
 6a9f03 location MSHID00013 # 10.0.58.20
-bccae7 location MSHID00014 # 10.0.58.24
+# bccae7 location MSHID00014 # 10.0.58.24 # POWERED OFF - NO WORKING HASHBOARDS
+
+## tuning
 
 ## throttle
 
@@ -75,7 +77,8 @@ bccae7 location MSHID00014 # 10.0.58.24
 
 ## resets
 
-## retunes
+## removals
+global remove 7079fc,ff6c57
 
 ## VPS pubkey
 pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
