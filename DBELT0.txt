@@ -58,6 +58,8 @@ e7a422 location DBELT00002 # 10.0.54.156
 056415 location DBELT00008 # 10.0.58.27
 
 ## tuning
+056415 retune 1589058304
+468aaf retune 1589058304
 
 ## throttle
 
@@ -67,6 +69,7 @@ e7a422 location DBELT00002 # 10.0.54.156
 
 ## resets
 b5c0ce reset 1588774526
+0747e2 reset 1589058304
 
 ## removals
 global remove bfbee3,33c1ae,11aa26,b5c0ce
