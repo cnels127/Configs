@@ -1,4 +1,3 @@
-## instructions available at: https://asicseer.com/page/kb#writing-config
 ## TOTAL EXP HASHRATE 5 s9 @ 14.4 Th/s = 72 Th/s
 
 global custompanel JPAUL0bit049
@@ -57,12 +56,15 @@ a39697 location JPAUL00004 # 10.0.117.41
 ## tuning
 
 ## throttle
+b34b28 uncork 1589057383
 
 ## fans
 
 ## reboots
 
 ## resets
+a01578 reset 1589057383
+a39697 reset 1589057383
 
 ## removals
 
