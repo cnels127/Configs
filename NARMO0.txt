@@ -1,5 +1,4 @@
-## instructions available at: https://asicseer.com/page/kb#writing-config
-## TOTAL EXP HASHRATE 3 s9 @ 16 Th/s = 48 Th/s
+## 3 s9 @ 16 Th/s = 48 Th/s (contract expires 7/17/20)
 
 global custompanel NARMO0bit049
 global customer bit49-Russia
@@ -29,45 +28,40 @@ global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 global panelclear 999
-# global panelpass gj83Nkgikg
 
 # global retune 1
 # global reboot 1
-global uncork 1574927362
-global reset 1574929280
+# global uncork 1574927362
+# global reset 1574929280
 
 ## vlans
-vlan 10.0.65.71-71
-vlan 10.0.65.134-134
-vlan 10.0.66.110-110
+# vlan 10.0.65.71-71 # 76e85b # POWERED DOWN - NO WORKING HASHBOARDS
+vlan 10.0.65.134-134 # 8bdc72
+vlan 10.0.66.110-110 # aa75d6
 
 ## locations
-76e85b location NARMO00001
-8bdc72 location NARMO00002
-aa75d6 location NARMO00003
-# extra machine added 3/24/20
-3ae43c location NARMO0XTRA # 10.0.77.69 # 16.8 Th/s
+# 76e85b location NARMO00001 # 10.0.65.71 # POWERED DOWN - NO WORKING HASHBOARDS
+8bdc72 location NARMO00002 # 10.0.65.134
+aa75d6 location NARMO00003 # 10.0.66.110
+3ae43c location NARMO0XTRA # 10.0.77.69 # extra added 3/24/20 # 16.8 Th/s
+
+## tuning
 
 ## throttle
-8bdc72 uncork 1585324126
 
 ## fans
 
 ## reboots
-# s_reboot generated on Mar 26 2020 19:29:55 utc: 1585250995
-76e85b reboot 1585250995 # 10.0.65.71 narmo00001
-8bdc72 reboot 1585250995 # 10.0.65.134 narmo00002
 
 ## resets
-0cfe82 reset 1585025333
-aa75d6 reset 1577486289
-a1f2ff reset 1577173413
-76e85b reset 1573248116
-aa75d6 reset 1573159170
 
 ## removals
-# s_remove generated on Dec 19 2019 23:16:23 utc: 1576797383
 global remove da7d9d,a1f2ff,3518c2,0cfe82
 
-## asic password
+## VPS pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
+## Remote pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCovql1bo+pkGUoq+zckj82BiW5CIBbxq1+wfET94ULY9b/BJzZHFxxjX79+aG4oilCpUKHFTJHv8Ox3IvtPxWGyx5IpV+avJqCO66+7/aIoG+Cqcz7f9pZPhK61qOG9AQsLNaZHaaB+jif7qCmXiDB1/eDzKHIh2UHdEnZSkcTrwdU40yA4JhenTAMJAxITopjAfURgJtTOkr9eBIVM6Xj/0x/f9ZUvL5jSLNDL9ujce928zCwvcMND+lrB3q5VgMluwihMUWZ3gJfsvZdHwPVXDP+qo1DaIP/oJ/rfD/ef9KkmYTYS3+RaYwGEJoGd0uHCUzSIl3oUJQg6kj4H22p
+# global panelpass gj83Nkgikg
 asicpass admin
+global logo https://raw.githubusercontent.com/cnels127/Configs/master/Bit49(2).png
