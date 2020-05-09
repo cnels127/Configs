@@ -1,5 +1,6 @@
-## instructions available at: https://asicseer.com/page/kb#writing-config
-## TOTAL EXP HASHRATE 10 s9 @ 16 Th/s = 160 Th/s
+##     5 s9 @ 16 Th/s = 80 Th/s (contract expires 1/17/20)
+##     5 s9 @ 16 Th/s = 80 Th/s (contract expires 8/7/20)
+## TOTAL EXP HASHRATE = 160 Th/s
 
 global custompanel PMORG0bit049
 global customer bit49-Russia
@@ -29,155 +30,55 @@ global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 global panelclear 999
-# global panelpass gj83Nkgikg
 
 # global retune 1
 # global reboot 1
-global uncork 1578687558
+# global uncork 1578687558
 # global reset 1
 
 ## vlans
-vlan 10.0.68.17-21
-vlan 10.0.61.93-93
-vlan 10.0.61.150-150
-vlan 10.0.65.17-17
-vlan 10.0.66.127-127
-vlan 10.0.68.16-16
-# extra machines added 11/22/19
-vlan 10.0.53.140-140
-vlan 10.0.53.143-143
-vlan 10.0.53.146-146
-# extra machines added 01/24/20
-vlan 10.0.119.9-9
-vlan 10.0.59.149-149
-# extra machines added 01/25/20
-vlan 10.0.51.58-58
-vlan 10.0.66.129-129
-vlan 10.0.67.61-61
-vlan 10.0.118.7-7
-vlan 10.0.54.43-43
-vlan 10.0.67.10-10
-vlan 10.0.121.101-101
+# vlan 10.0.61.93-93 # 332d51 # POWERED DOWN - NO WORKING HASHBOARDS
+vlan 10.0.61.150-150 # e02f4f
+# vlan 10.0.64.9-9 # 9057b2 # POWERED DOWN - NO WORKING HASHBOARDS
+vlan 10.0.64.19-19 # 81b475
+vlan 10.0.65.17-17 # 35360b
+vlan 10.0.65.38-38 # 37f1e2
+vlan 10.0.65.48-48 # 846595
+# vlan 10.0.66.127-127 # 124035 # POWERED DOWN - NO WORKING HASHBOARDS
+vlan 10.0.67.24-24 # 9a0287
+vlan 10.0.67.36-36 # c29a91
+vlan 10.0.119.9-9 # cdb81f # extra added 1/24/20
 
 ## locations
-81b475 location PMORG00001
-37f1e2 location PMORG00002
-846595 location PMORG00003
-9a0287 location PMORG00004
-c29a91 location PMORG00005
-332d51 location PMORG00006
-e02f4f location PMORG00007
-35360b location PMORG00008
-124035 location PMORG00009
-9057b2 location PMORG00010
-# extra machines added 11/22/19
-37c8cd location PMORG0XTRA
-e4a1aa location PMORG0XTRA
-866b96 location PMORG0XTRA
-# extra machines added 01/24/20
-cdb81f location PMORG0XTRA
-c26b40 location PMORG0XTRA
-# extra machines added 01/25/20
-7508a0 location PMORG0XTRA
-74ebb2 location PMORG0XTRA
-2385b5 location PMORG0XTRA
-e0b685 location PMORG0XTRA
-8259fc location PMORG0XTRA
-e116a2 location PMORG0XTRA
-5db7bf location PMORG0XTRA
-# extra machines added 3/24/20 # 24.0 Th/s
-32e9a1 location PMORG0XTRA # 10.0.50.4 # 16.3 Th/s
-9d2d3d location PMORG0XTRA # 10.0.30.119 # 7.7 Th/s
+# 332d51 location PMORG00001 # 10.0.61.93 # POWERED DOWN - NO WORKING HASHBOARDS
+e02f4f location PMORG00002 # 10.0.61.150
+# 9057b2 location PMORG00003 # 10.0.64.9 # POWERED DOWN - NO WORKING HASHBOARDS
+81b475 location PMORG00004 # 10.0.64.19
+35360b location PMORG00005 # 10.0.65.17
+37f1e2 location PMORG00006 # 10.0.65.38
+846595 location PMORG00007 # 10.0.65.48
+# 124035 location PMORG00008 # 10.0.66.127 # POWERED DOWN - NO WORKING HASHBOARDS
+9a0287 location PMORG00009 # 10.0.67.24
+c29a91 location PMORG00010 # 10.0.67.36
+cdb81f location PMORG0XTRA # 10.0.119.9 # extra added 1/24/20
 
-37c8cd maxwatts 1450
-e4a1aa maxwatts 1450
-866b96 maxwatts 1450
+## tuning
 
 ## throttle
-# 3/26/20
-9a0287 uncork 1585255147
-32e9a1 uncork 1585255147
-c29a91 uncork 1585255147
-35360b uncork 1585255147
-# 3/23/20
-9a0287 uncork 1585005739
-c29a91 uncork 1585005739
-# 3/14/20
-846595 uncork 1584250866
-# 3/10/20
-37c8cd uncork 1583858877
-c26b40 uncork 1583858877
-846595 uncork 1583858877
-# 2/20/20
-846595 uncork 1582219242
-
-846595 uncork 1581359545
-74ebb2 uncork 1581122986
-e116a2 uncork 1581122986
-846595 uncork 1581118788
-e0b685 uncork 1581118788
-e116a2 uncork 1581118788
-35360b uncork 1581038544
-e4a1aa uncork 1579900087
-846595 uncork 1579900087
 
 ## fans
 
 ## reboots
-7508a0 reboot 1580142236
-e4a1aa reboot 1580142236
-37c8cd reboot 1585238472 # 10.0.53.140 pmorg0xtra
-866b96 reboot 1585238472 # 10.0.53.146 pmorg0xtra
-8259fc reboot 1585238472 # 10.0.54.43 pmorg0xtra
-32e9a1 reboot 1585238472 # 10.0.50.4 pmorg0xtra
-9a0287 reboot 1585238472 # 10.0.67.24 pmorg00004
-2385b5 reboot 1585238472 # 10.0.67.61 pmorg0xtra
-cdb81f reboot 1585238472 # 10.0.119.9 pmorg0xtra
-c26b40 reboot 1585238472 # 10.0.59.149 pmorg0xtra
-5db7bf reboot 1585238472 # 10.0.67.10 pmorg0xtra
-9d2d3d reboot 1585238472 # 10.0.30.119 pmorg0xtra
-74ebb2 reboot 1585238472 # 10.0.51.58 pmorg0xtra
-37f1e2 reboot 1585238472 # 10.0.65.38 pmorg00002
-846595 reboot 1585238472 # 10.0.65.48 pmorg00003
-c29a91 reboot 1585238472 # 10.0.67.36 pmorg00005
-332d51 reboot 1585238472 # 10.0.61.93 pmorg00006
-35360b reboot 1585238472 # 10.0.65.17 pmorg00008
-124035 reboot 1585238472 # 10.0.66.127 pmorg00009
-9057b2 reboot 1585238472 # 10.0.64.9 pmorg00010
 
 ## resets
-9d2d3d reset 1586098447
-5db7bf reset 1586038547
-# 3/13/20
-846595 reset 1584121056
-# 2/17/20
-37f1e2 reset 1581957954
 
-ed4012 reset 1581713399
-846595 reset 1581713228
-e0b685 reset 1581446744
-846595 reset 1581446744
-c26b40 reset 1581355681
-7508a0 reset 1581038544
-5db7bf reset 1581038544
-cdb81f reset 1579915276
-c26b40 reset 1579915276
-866b96 reset 1579915276
-37c8cd reset 1579915276
-e4a1aa reset 1579915276
-81b475 reset 1579915276
-37f1e2 reset 1579915276
-846595 reset 1579915276
-9a0287 reset 1579915276
-c29a91 reset 1579915276
-332d51 reset 1579915276
-e02f4f reset 1579915276
-35360b reset 1579915276
-124035 reset 1579915276
-9057b2 reset 1579915276
+## removals 
+global remove e4a1aa,e116a2,e0b685,7508a0,37c8cd,9d2d3d,866b96,8259fc,74ebb2,5db7bf,2385b5,c26b40,32e9a1
 
-## asic password
+## VPS pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
+## Remote pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCovql1bo+pkGUoq+zckj82BiW5CIBbxq1+wfET94ULY9b/BJzZHFxxjX79+aG4oilCpUKHFTJHv8Ox3IvtPxWGyx5IpV+avJqCO66+7/aIoG+Cqcz7f9pZPhK61qOG9AQsLNaZHaaB+jif7qCmXiDB1/eDzKHIh2UHdEnZSkcTrwdU40yA4JhenTAMJAxITopjAfURgJtTOkr9eBIVM6Xj/0x/f9ZUvL5jSLNDL9ujce928zCwvcMND+lrB3q5VgMluwihMUWZ3gJfsvZdHwPVXDP+qo1DaIP/oJ/rfD/ef9KkmYTYS3+RaYwGEJoGd0uHCUzSIl3oUJQg6kj4H22p
+# global panelpass gj83Nkgikg
 asicpass admin
-
-##removals
-global remove e4a1aa,e116a2,e0b685,7508a0
+global logo https://raw.githubusercontent.com/cnels127/Configs/master/Bit49(2).png
