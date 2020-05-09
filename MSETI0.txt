@@ -37,7 +37,7 @@ global uncork 1574927152
 # global reset 1
 
 ## vlans
-vlan 10.0.58.19-19 # 7efb10
+# vlan 10.0.58.19-19 # 7efb10 # POWERED DOWN - NO WORKING HASHBOARDS
 vlan 10.0.61.137-137 # 7104a2
 vlan 10.0.63.140-140 # a22315
 vlan 10.0.63.160-160 # 743db3
@@ -48,7 +48,7 @@ vlan 10.0.61.63-63 # baefba # extra added 12/12/19
 vlan 10.3.22.44-44 # 07e5fd # extra added 03/06/20
 
 ## locations
-7efb10 location MSETI00001 # 10.0.58.19
+# 7efb10 location MSETI00001 # 10.0.58.19 # POWERED DOWN - NO WORKING HASHBOARDS
 7104a2 location MSETI00002 # 10.0.61.137
 a22315 location MSETI00003 # 10.0.63.140
 743db3 location MSETI00004 # 10.0.63.160
