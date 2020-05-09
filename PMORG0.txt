@@ -47,7 +47,6 @@ vlan 10.0.65.48-48 # 846595
 # vlan 10.0.66.127-127 # 124035 # POWERED DOWN - NO WORKING HASHBOARDS
 vlan 10.0.67.24-24 # 9a0287
 vlan 10.0.67.36-36 # c29a91
-vlan 10.0.119.9-9 # cdb81f # extra added 1/24/20
 
 ## locations
 # 332d51 location PMORG00001 # 10.0.61.93 # POWERED DOWN - NO WORKING HASHBOARDS
@@ -60,7 +59,6 @@ e02f4f location PMORG00002 # 10.0.61.150
 # 124035 location PMORG00008 # 10.0.66.127 # POWERED DOWN - NO WORKING HASHBOARDS
 9a0287 location PMORG00009 # 10.0.67.24
 c29a91 location PMORG00010 # 10.0.67.36
-cdb81f location PMORG0XTRA # 10.0.119.9 # extra added 1/24/20
 
 ## tuning
 
@@ -73,7 +71,7 @@ cdb81f location PMORG0XTRA # 10.0.119.9 # extra added 1/24/20
 ## resets
 
 ## removals 
-global remove e4a1aa,e116a2,e0b685,7508a0,37c8cd,9d2d3d,866b96,8259fc,74ebb2,5db7bf,2385b5,c26b40,32e9a1
+global remove e4a1aa,e116a2,e0b685,7508a0,37c8cd,9d2d3d,866b96,8259fc,74ebb2,5db7bf,2385b5,c26b40,32e9a1,cdb81f
 
 ## VPS pubkey
 pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
