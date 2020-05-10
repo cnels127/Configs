@@ -1,5 +1,6 @@
-## instructions available at: https://asicseer.com/page/kb#writing-config
-## TOTAL EXP HASHRATE 30 s9 @ 16 Th/s = 480 Th/s
+##  30 s9 @ 14.4 Th/s = 432 Th/s (contract expires 2/16/20)
+## 5 SCRAPPED 4/30/20
+## TOTAL EXP HASHRATE = 360 Th/s
 
 global custompanel RHUSK0bit049
 global customer bit49-Russia
@@ -29,7 +30,6 @@ global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 global panelclear 999
-# global panelpass gj83Nkgikg
 
 # global retune 1
 # global reboot 3
@@ -37,170 +37,86 @@ global panelclear 999
 # global reset 1574963530
 
 ## vlans
-# vlan 10.0.53.110-139
-# extra machines added 12/9/19
-# vlan 10.0.116.32-32
-# vlan 10.0.116.47-47
-# vlan 10.0.116.60-60
-# vlan 10.0.116.72-72
-# vlan 10.0.116.74-74
-# vlan 10.0.116.81-81
-# vlan 10.0.116.82-82
-# vlan 10.0.116.86-86
-# vlan 10.0.116.90-90
-# vlan 10.0.116.92-92
-# vlan 10.0.116.95-95
-# extra machines added 3/9/20
-vlan 10.0.115.83-83 # c047ef
-vlan 10.0.31.22-22 # a0586c
-vlan 10.0.32.19-19 # 55bff4
-vlan 10.0.50.88-88 # 812582
+vlan 10.0.53.110-110 # 78202a
+vlan 10.0.53.111-111 # 4f6d37
+# vlan 10.0.53.112-112 # 79541e # SCRAPPED 4/30/20
+vlan 10.0.53.113-113 # 164bc2
+vlan 10.0.53.114-114 # 4f284e
+vlan 10.0.53.115-115 # f329fd
+vlan 10.0.53.116-116 # e2e919
+vlan 10.0.53.117-117 # 89f100
+vlan 10.0.53.118-118 # 5c70b5
+vlan 10.0.53.119-119 # bb187d
+vlan 10.0.53.120-120 # 0fe1fa
+# vlan 10.0.53.121-121 # 7b6cfa # SCRAPPED 4/30/20
+vlan 10.0.53.122-122 # 1677ff
+vlan 10.0.53.123-123 # ffab5d
+vlan 10.0.53.124-124 # 1afe68
+vlan 10.0.53.125-125 # cec73f
+vlan 10.0.53.126-126 # 89c98f
+# vlan 10.0.53.127-127 # 3faa4c # SCRAPPED 4/30/20
+vlan 10.0.53.128-128 # 943135
+vlan 10.0.53.129-129 # adbe7f
+# vlan 10.0.53.130-130 # 006cd0 # SCRAPPED 4/30/20
+vlan 10.0.53.131-131 # 4c87c5
+vlan 10.0.53.132-132 # e6077e
+vlan 10.0.53.133-133 # 45dadf
+vlan 10.0.53.134-134 # 40f358
+vlan 10.0.53.135-135 # 06988e
+vlan 10.0.53.136-136 # ba0308
+vlan 10.0.53.137-137 # 534814
+vlan 10.0.53.138-138 # f46832
+# vlan 10.0.53.139-139 # 2fb4f0 # SCRAPPED 4/30/20
 
 ## locations
-78202a location RHUSK00001
-4f6d37 location RHUSK00002
-79541e location RHUSK00003
-164bc2 location RHUSK00004
-4f284e location RHUSK00005
-f329fd location RHUSK00006
-e2e919 location RHUSK00007
-89f100 location RHUSK00008
-5c70b5 location RHUSK00009
-bb187d location RHUSK00010
-0fe1fa location RHUSK00011
-7b6cfa location RHUSK00012
-1677ff location RHUSK00013
-ffab5d location RHUSK00014
-1afe68 location RHUSK00015
-cec73f location RHUSK00016
-89c98f location RHUSK00017
-3faa4c location RHUSK00018
-943135 location RHUSK00019
-adbe7f location RHUSK00020
-006cd0 location RHUSK00021
-4c87c5 location RHUSK00022
-e6077e location RHUSK00023
-45dadf location RHUSK00024
-40f358 location RHUSK00025
-06988e location RHUSK00026
-ba0308 location RHUSK00027
-534814 location RHUSK00028
-f46832 location RHUSK00029
-2fb4f0 location RHUSK00030
-# extra machines added 12/9/19
-d13f5e location RHUSK0XTRA # 10.0.116.32
-e89cef location RHUSK0XTRA # 10.0.116.47
-9ed844 location RHUSK0XTRA # 10.0.116.60
-72f74e location RHUSK0XTRA # 10.0.116.72
-1a4212 location RHUSK0XTRA # 10.0.116.74
-86ed06 location RHUSK0XTRA # 10.0.116.81
-937fb9 location RHUSK0XTRA # 10.0.116.82
-440f84 location RHUSK0XTRA # 10.0.116.86
-8d46c5 location RHUSK0XTRA # 10.0.116.90
-3a5486 location RHUSK0XTRA # 10.0.116.92
-77730e location RHUSK0XTRA # 10.0.116.95
-# extra machines added 3/9/20 # 59.2 Th/s
-c047ef location RHUSK0XTRA # 10.0.115.83 # 14.8 Th/s
-a0586c location RHUSK0XTRA # 10.0.31.22 # 14.8 Th/s
-55bff4 location RHUSK0XTRA # 10.0.32.19 # 14.8 Th/s
-812582 location RHUSK0XTRA # 10.0.50.88 # 14.8 Th/s
+78202a location RHUSK00001 # 10.0.53.110
+4f6d37 location RHUSK00002 # 10.0.53.111
+# 79541e location RHUSK00003 # 10.0.53.112 # SCRAPPED 4/30/20
+164bc2 location RHUSK00004 # 10.0.53.113
+4f284e location RHUSK00005 # 10.0.53.114
+f329fd location RHUSK00006 # 10.0.53.115
+e2e919 location RHUSK00007 # 10.0.53.116
+89f100 location RHUSK00008 # 10.0.53.117
+5c70b5 location RHUSK00009 # 10.0.53.118
+bb187d location RHUSK00010 # 10.0.53.119
+0fe1fa location RHUSK00011 # 10.0.53.120
+# 7b6cfa location RHUSK00012 # 10.0.53.121 # SCRAPPED 4/30/20
+1677ff location RHUSK00013 # 10.0.53.122
+ffab5d location RHUSK00014 # 10.0.53.123
+1afe68 location RHUSK00015 # 10.0.53.124
+cec73f location RHUSK00016 # 10.0.53.125
+89c98f location RHUSK00017 # 10.0.53.126
+# 3faa4c location RHUSK00018 # 10.0.53.127 # SCRAPPED 4/30/20
+943135 location RHUSK00019 # 10.0.53.128
+adbe7f location RHUSK00020 # 10.0.53.129
+# 006cd0 location RHUSK00021 # 10.0.53.130 # SCRAPPED 4/30/20
+4c87c5 location RHUSK00022 # 10.0.53.131
+e6077e location RHUSK00023 # 10.0.53.132
+45dadf location RHUSK00024 # 10.0.53.133
+40f358 location RHUSK00025 # 10.0.53.134
+06988e location RHUSK00026 # 10.0.53.135
+ba0308 location RHUSK00027 # 10.0.53.136
+534814 location RHUSK00028 # 10.0.53.137
+f46832 location RHUSK00029 # 10.0.53.138
+# 2fb4f0 location RHUSK00030 # 10.0.53.139 # SCRAPPED 4/30/20
+
+## tuning
 
 ## throttle
-# 3/26/20
-4f6d37 uncork 1585256461
-812582 uncork 1585256461
-4f284e uncork 1585256461
-5c70b5 uncork 1585256461
-72f74e uncork 1585256461
-1afe68 uncork 1585256461
-cec73f uncork 1585256461
-d13f5e uncork 1585256461
-534814 uncork 1585256461
-06988e uncork 1585256461
-45dadf uncork 1585256461
-1677ff uncork 1585256461
-943135 uncork 1585256461
-# 3/23/20
-8d46c5 uncork 1585008617
-1677ff uncork 1585008617
-# 3/13/20
-440f84 uncork 1584119843
-# 3/12/20
-a0586c uncork 1584039161
-f46832 uncork 1584039161
-# 3/10/20
-a0586c uncork 1583856182
-55bff4 uncork 1583856182
-e6077e uncork 1583856182
-d13f5e uncork 1583856182
-812582 uncork 1583856182
-1677ff uncork 1583856182
-06988e uncork 1583856182
-f46832 uncork 1583856182
-# 2/24/20
-f46832 uncork 1582567114
-# 2/18/20
-adbe7f uncork 1582054749
-
-e6077e uncork 1580845646
-e2e919 uncork 1580845646
-3a5486 uncork 1580423847
-1a4212 uncork 1580423847
-e89cef uncork 1580423847
-72f74e uncork 1580423847
-164bc2 uncork 1580423847
-89c98f uncork 1580423847
-e6077e uncork 1580423847
-40f358 uncork 1580423847
-8d46c5 uncork 1580423847
-1677ff uncork 1580423847
-45dadf uncork 1580423847
-06988e uncork 1580423847
-ba0308 uncork 1580423847
 
 ## fans
 
-## retune
-f46832 retune 1581531474
-
 ## reboots
-# s_reboot generated on Mar 27 2020 16:12:51 utc: 1585325571
-658bd9 reboot 1585325571 # 10.0.66.148 132139
-86c9c7 reboot 1585325571 # 10.0.59.45 rgrus0xtra
 
 ## resets
-# 3/25/20
-c047ef reset 1585178937
-# 3/3/20
-e6077e reset 1583270493
-40f358 reset 1583270493
-#2/17/20
-f46832 reset 1581983316
-
-e6077e reset 1581709324
-45dadf reset 1581709324
-2fb4f0 reset 1581021549
-79541e reset 1581021549
-e2e919 reset 1581021549
-8d46c5 reset 1581021549
-0fe1fa reset 1581021549
-ffab5d reset 1581021549
-45dadf reset 1581021549
-f46832 reset 1581021549
-9ed844 reset 1581021549
-e6077e reset 1581021549
-89c98f reset 1580845646
-f46832 reset 1580845646
-ba0308 reset 1577472361
-534814 reset 1577472361
-e6077e reset 1575656210
-7b6cfa reset 1575656210
-45dadf reset 1575656210
-4c87c5 reset 1575656210
-79541e reset 1575656210
-
-## asic password
-asicpass admin
 
 ## removals
-global remove 937fb9
+global remove 937fb9,8d46c5,1a4212,e89cef,72f74e,a0586c,440f84,c047ef,77730e,d13f5e,86ed06,3a5486,55bff4,9ed844,812582
+
+## VPS pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
+## Remote pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCovql1bo+pkGUoq+zckj82BiW5CIBbxq1+wfET94ULY9b/BJzZHFxxjX79+aG4oilCpUKHFTJHv8Ox3IvtPxWGyx5IpV+avJqCO66+7/aIoG+Cqcz7f9pZPhK61qOG9AQsLNaZHaaB+jif7qCmXiDB1/eDzKHIh2UHdEnZSkcTrwdU40yA4JhenTAMJAxITopjAfURgJtTOkr9eBIVM6Xj/0x/f9ZUvL5jSLNDL9ujce928zCwvcMND+lrB3q5VgMluwihMUWZ3gJfsvZdHwPVXDP+qo1DaIP/oJ/rfD/ef9KkmYTYS3+RaYwGEJoGd0uHCUzSIl3oUJQg6kj4H22p
+# global panelpass gj83Nkgikg
+asicpass admin
+global logo https://raw.githubusercontent.com/cnels127/Configs/master/Bit49(2).png
