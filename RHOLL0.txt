@@ -1,5 +1,6 @@
-## instructions available at: https://asicseer.com/page/kb#writing-config
-## TOTAL EXP HASHRATE 6 s9 @ 14.4 Th/s = 86.4 Th/s
+##   3 s9 @ 14.4 Th/s = 43.2 Th/s (contract expires 6/18/20
+##   3 s9 @ 14.4 Th/s = 43.2 Th/s (contract expires 9/4/20)
+## TOTAL EXP HASHRATE = 86.4 Th/s
 
 global custompanel RHOLL0bit049
 global customer bit49-Russia
@@ -29,7 +30,6 @@ global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 global panelclear 999
-# global panelpass gj83Nkgikg
 
 # global retune 1
 # global reboot 1
@@ -37,74 +37,40 @@ global panelclear 999
 # global reset 1
 
 ## vlans
-vlan 10.0.61.58-60
-vlan 10.0.77.91-91
-vlan 10.0.77.93-93
-vlan 10.0.77.105-105
-# replaced the previous extra machine added 2020-03-05
-vlan 10.0.121.75
-# extra machine added 3/9/20
-vlan 10.0.55.8-8 # 225634
+vlan 10.0.61.58-58 # 425b29
+vlan 10.0.61.59-59 # 396497
+vlan 10.0.61.60-60 # fc92a5
+vlan 10.0.77.91-91 # d9b3f8
+vlan 10.0.77.93-93 # 1c76d5
+# vlan 10.0.77.105-105 # 434628 # SCRAPPED 4/27/20
+vlan 10.0.55.8-8 # 225634 # # extra added 3/9/20
 
 ## locations
-425b29 location RHOLL00001
-396497 location RHOLL00002
-fc92a5 location RHOLL00003
-d9b3f8 location RHOLL00004
-1c76d5 location RHOLL00005
-434628 location RHOLL00006
-# extra machine added 12/17/19
-# Replaced the previous extra machine on 2020-03-05
-839e1f location RHOLL0XTRA # 10.0.121.75
-# extra machine added 3/9/20
-225634 location RHOLL0XTRA # 10.0.55.8 # 5.3 Th/s
+425b29 location RHOLL00001 # 10.0.61.58
+396497 location RHOLL00002 # 10.0.61.59
+fc92a5 location RHOLL00003 # 10.0.61.60
+d9b3f8 location RHOLL00004 # 10.0.77.91
+1c76d5 location RHOLL00005 # 10.0.77.93
+# 434628 location RHOLL00006 # 10.0.77.105 # SCRAPPED 4/27/20
+225634 location RHOLL0XTRA # 10.0.55.8 # extra added 3/9/20 # 5.3 Th/s
+
+## tuning
 
 ## throttle
-# 3/26/20
-fc92a5 uncork 1585256012
-425b29 uncork 1585256012
-1c76d5 uncork 1585256012
-225634 uncork 1585256012
-# 3/23/20
-425b29 uncork 1585007535
-# 3/12/20
-425b29 uncork 1584043597
-
-396497 uncork 1581118475
-fc92a5 uncork 1579722364
-425b29 uncork 1579722364
-396497 uncork 1579722364
-
-## removals
-global remove 64e53f,e292bd
 
 ## fans
 
 ## reboots
-e292bd reboot 1583443775
-434628 reboot 1583443775
-434628 reboot 1585238405 # 10.0.77.105 rholl00006
-225634 reboot 1585238405 # 10.0.55.8 rholl0xtra
-1c76d5 reboot 1585238405 # 10.0.77.93 rholl00005
-425b29 reboot 1585238405 # 10.0.61.58 rholl00001
-839e1f reboot 1585238405 # 10.0.121.75 rholl0xtra
-396497 reboot 1585238405 # 10.0.61.59 rholl00002
-fc92a5 reboot 1585238405 # 10.0.61.60 rholl00003
-d9b3f8 reboot 1585238405 # 10.0.77.91 rholl00004
 
 ## resets
-# 3/5/20
-e292bd reset 1583459690
 
-434628 reset 1581037857
-425b29 reset 1577216763
-434628 reset 1575933014
-434628 reset 1574963494
-425b29 reset 1574963494
-fc92a5 reset 1574963494
-d9b3f8 reset 1574963494
-1c76d5 reset 1574963494
+## removals
+global remove 64e53f,e292bd,839e1f
 
-## asic password
+## VPS pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
+## Remote pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCovql1bo+pkGUoq+zckj82BiW5CIBbxq1+wfET94ULY9b/BJzZHFxxjX79+aG4oilCpUKHFTJHv8Ox3IvtPxWGyx5IpV+avJqCO66+7/aIoG+Cqcz7f9pZPhK61qOG9AQsLNaZHaaB+jif7qCmXiDB1/eDzKHIh2UHdEnZSkcTrwdU40yA4JhenTAMJAxITopjAfURgJtTOkr9eBIVM6Xj/0x/f9ZUvL5jSLNDL9ujce928zCwvcMND+lrB3q5VgMluwihMUWZ3gJfsvZdHwPVXDP+qo1DaIP/oJ/rfD/ef9KkmYTYS3+RaYwGEJoGd0uHCUzSIl3oUJQg6kj4H22p
+# global panelpass gj83Nkgikg
 asicpass admin
-
+global logo https://raw.githubusercontent.com/cnels127/Configs/master/Bit49(2).png
