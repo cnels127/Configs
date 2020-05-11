@@ -1,5 +1,4 @@
-## instructions available at: https://asicseer.com/page/kb#writing-config
-## TOTAL EXP HASHRATE 10 s9 @ 14.4 Th/s = 144 Th/s
+## 10 s9 @ 14.4 Th/s = 144 Th/s (contract expires 9/11/20)
 
 global custompanel SKATO0bit049 
 global customer bit49-Russia
@@ -29,7 +28,6 @@ global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 global panelclear 999
-# global panelpass gj83Nkgikg
 
 # global retune 1
 # global reboot 1
@@ -37,55 +35,52 @@ global panelclear 999
 # global reset 1574964194
 
 ## vlans
-vlan 10.0.118.95-95
-vlan 10.0.119.78-78
-vlan 10.0.225.2-2
-vlan 10.0.225.3-3
-vlan 10.0.225.4-4
-vlan 10.0.225.5-5
-vlan 10.0.225.6-6
-vlan 10.0.225.7-7
-vlan 10.0.225.8-8
-vlan 10.0.225.9-9
+vlan 10.0.118.95-95 # 3dc5cb
+vlan 10.0.119.78-78 # fb347a
+vlan 10.0.120.118-118 # 602346
+vlan 10.0.121.65-65 # 9a1f51
+vlan 10.0.121.54-54 # 5fb768
+vlan 10.0.120.91-91 # bc50a4
+vlan 10.0.121.33-33 # 03c926
+vlan 10.0.121.12-12 # 5a5d0e
+vlan 10.0.120.69-69 # af5ca2
+vlan 10.0.119.51-51 # 054826
+vlan 10.0.59.1-1 # d8a438 # 10.0.59.1 # extra added 12/19/19
+vlan 10.0.120.17-17 # 686f2e # 16.3 Th/s # extra added 3/6/20
+vlan 10.3.21.48-48 # d190c8 # 16.2 Th/s # extra added 3/6/20
 
 ## locations
-3dc5cb location SKATO00001
-fb347a location SKATO00002
-602346 location SKATO00003
-9a1f51 location SKATO00004
-5fb768 location SKATO00005
-bc50a4 location SKATO00006
-03c926 location SKATO00007
-5a5d0e location SKATO00008
-af5ca2 location SKATO00009
-054826 location SKATO00010
-# extra machines added 12/19/19
-d8a438 location SKATO0XTRA # 10.0.59.1
-# extra machines added 3/6/20 # 48.7 Th/s
-d190c8 location SKATO0XTRA # 10.0.30.111 # 16.3 Th/s
-dd7088 location SKATO0XTRA # 10.0.66.17 # 16.2 Th/s
-686f2e location SKATO0XTRA # 10.0.120.17 # 16.2 Th/s
+3dc5cb location SKATO00001 # 10.0.118.95
+# fb347a location SKATO00002 # 10.0.119.78 # POWERED DOWN - NO WORKING HASHBOARDS
+602346 location SKATO00003 # 10.0.120.118
+9a1f51 location SKATO00004 # 10.0.121.65
+5fb768 location SKATO00005 # 10.0.121.54
+bc50a4 location SKATO00006 # 10.0.120.91
+03c926 location SKATO00007 # 10.0.121.33
+5a5d0e location SKATO00008 # 10.0.121.12
+af5ca2 location SKATO00009 # 10.0.120.69
+054826 location SKATO00010 # 10.0.119.51
+d8a438 location SKATO0XTRA # 10.0.59.1 # extra added 12/19/19
+d190c8 location SKATO0XTRA # 10.0.30.111 # 16.3 Th/s # extra added 3/6/20
+686f2e location SKATO0XTRA # 10.0.120.17 # 16.2 Th/s # extra added 3/6/20
+
+## tuning
 
 ## throttle
-054826 uncork 1577483101
-fb347a uncork 1577483101
-9a1f51 uncork 1577483101
-03c926 uncork 1577483101
 
 ## fans
 
 ## reboots
-dd7088 reboot 1585238277 # 10.0.66.17 skato0xtra
-d190c8 reboot 1585238277 # 10.0.30.111 skato0xtra
-fb347a reboot 1585238277 # 10.0.119.78 skato00002
-9a1f51 reboot 1585238277 # 10.0.121.65 skato00004
 
 ## resets
-e8330a reset 1578010668
-af5ca2 reset 1577172856
 
 ## removals
-global remove e8330a,0c9146
+global remove e8330a,0c9146,dd7088
 
-## asic password
+## VPS pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
+## Remote pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCovql1bo+pkGUoq+zckj82BiW5CIBbxq1+wfET94ULY9b/BJzZHFxxjX79+aG4oilCpUKHFTJHv8Ox3IvtPxWGyx5IpV+avJqCO66+7/aIoG+Cqcz7f9pZPhK61qOG9AQsLNaZHaaB+jif7qCmXiDB1/eDzKHIh2UHdEnZSkcTrwdU40yA4JhenTAMJAxITopjAfURgJtTOkr9eBIVM6Xj/0x/f9ZUvL5jSLNDL9ujce928zCwvcMND+lrB3q5VgMluwihMUWZ3gJfsvZdHwPVXDP+qo1DaIP/oJ/rfD/ef9KkmYTYS3+RaYwGEJoGd0uHCUzSIl3oUJQg6kj4H22p
+# global panelpass gj83Nkgikg
 asicpass admin
+global logo https://raw.githubusercontent.com/cnels127/Configs/master/Bit49(2).png
