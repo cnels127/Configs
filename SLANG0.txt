@@ -1,5 +1,9 @@
-## instructions available at: https://asicseer.com/page/kb#writing-config
-## TOTAL EXP HASHRATE 28 s9 @ 16 Th/s = 448 Th/s
+##    10 s9 @ 16 Th/s = 160 Th/s (contract expires 6/13/20)
+##    10 s9 @ 16 Th/s = 160 Th/s (contract expires 8/23/20)
+##     5 s9 @ 16 Th/s = 80 Th/s (contract expires 9/4/20)
+##     3 s9 @ 16 Th/s = 48 Th/s (contract expires 11/25/20)
+##     3 s9 @ 16 Th/s = 48 th/s (purchased from DZUKM0 11/25/19, contract expires 8/23/20)
+## TOTAL EXP HASHRATE = 496 Th/s
 
 global custompanel SLANG0bit049
 global customer bit49-Russia
@@ -29,358 +33,120 @@ global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 global panelclear 999
-# global panelpass gj83Nkgikg
 
 # global retune 1
 # global reboot 1573584581 # 1
-global uncork 1574964310
+global uncork 1589236388
 # global reset 1
 
 ## vlans
-# vlan 10.0.60.6-6
-# vlan 10.0.60.11-11
-# vlan 10.0.60.13-13
-# vlan 10.0.60.29-29
-# vlan 10.0.60.34-34
-# vlan 10.0.60.42-42
-# vlan 10.0.60.56-56
-# vlan 10.0.60.87-87
-# vlan 10.0.60.93-93
-# vlan 10.0.60.104-104
-# vlan 10.0.64.155-155
-# vlan 10.0.65.42-42
-# vlan 10.0.62.76-76
-# vlan 10.0.64.139-139
-# vlan 10.0.61.75-75
-# vlan 10.0.67.30-30
-# vlan 10.0.62.125-125
-# vlan 10.0.63.53-53
-# vlan 10.0.63.10-10
-# vlan 10.0.65.59-59
-# vlan 10.0.61.161-161
-# vlan 10.0.64.74-74
-# vlan 10.0.61.53-53
-# vlan 10.0.66.77-77
-# vlan 10.0.61.77-77
-# vlan 10.0.62.146-146
-# vlan 10.0.226.73-73
-# vlan 10.0.226.102-102
-# vlan 10.0.226.107-107
-# vlan 10.0.226.109-109
-# vlan 10.0.226.113-113
-# machines purchased from DKUZM0 transferred over 11/25/19
-# vlan 10.0.61.133-133
-# vlan 10.0.65.54-54
-# vlan 10.0.65.75-75
-# vlan 10.0.59.79-79 #extra
-# extra machines added 11/22/19
-# vlan 10.0.53.141-141
-# vlan 10.0.53.144-144
-# vlan 10.0.53.145-145
-# extra machines added 11/23/19
-# vlan 10.0.54.36-36
-# vlan 10.0.54.37-37
-# vlan 10.0.54.38-38
-# extra machines added 3/3/20
-# vlan 10.0.59.80-80 # 2d2f66
-# vlan 10.0.54.31-31 # 60ea91
-# vlan 10.0.56.47-47 # ca177b
-# vlan 10.0.56.67-67 # 751610
-# vlan 10.0.56.75-75 # 8e284e
-# vlan 10.0.56.56-56 # 41be8a
-# vlan 10.0.56.50-50 # c02d51
-# vlan 10.0.59.50-50 # 3fb821
-# extra machine added 3/23/20
-vlan 10.0.31.73 # ff3702
+# vlan 10.0.60.6-6 # bf1870 # POWERED OFF - NO WORKING HASHBOARDS
+vlan 10.0.60.11-11 # 435798
+vlan 10.0.60.13-13 # 8c8868
+vlan 10.0.60.29-29 # 939070
+vlan 10.0.60.34-34 # e2c4c8
+# vlan 10.0.60.42-42 # c7c75f # POWERED OFF - NO WORKING HASHBOARDS
+vlan 10.0.60.56-56 # 205fac
+vlan 10.0.60.87-87 # e39d7c
+# vlan 10.0.60.93-93 # fe2dc8 # POWERED OFF - NO WORKING HASHBOARDS
+# vlan 10.0.60.104-104 # e1bef3 # POWERED OFF - NO WORKING HASHBOARDS
+vlan 10.0.63.53-53 # 4d2038
+vlan 10.0.65.42-42 # fbf390
+vlan 10.0.65.59-59 # 596481
+vlan 10.0.61.161-161 # 3c8ba2
+vlan 10.0.64.74-74 # 15269c
+vlan 10.0.61.53-53 # f30ccf
+# vlan 10.0.62.125-125 # d09da5 # POWERED OFF - NO WORKING HASHBOARDS
+vlan 10.0.66.77-77 # 02a4cb
+vlan 10.0.61.77-77 # 8aca82
+vlan 10.0.62.146-146 # 866c28
+vlan 10.0.120.133-133 # c44e97
+vlan 10.0.120.143-143 # b65856
+vlan 10.0.121.70-70 # fd676b
+vlan 10.0.121.128-128 # a3c9ac
+# vlan 10.0.119.12-12 # cc9cd4 # POWERED OFF - NO WORKING HASHBOARDS
+vlan 10.0.61.133-133 # dcf994 # DKUZM0 transferred over 11/25/19
+vlan 10.0.65.54-54 # 596a83 # DKUZM0 transferred over 11/25/19
+vlan 10.0.65.75-75 # e06e8a # DKUZM0 transferred over 11/25/19
+vlan 10.0.53.141-141 # afb5e3 # extra added 11/22/19
+vlan 10.0.53.144-144 # 6f1bef # extra added 11/22/19
+vlan 10.0.53.145-145 # c3196d # extra added 11/22/19
+vlan 10.0.54.31-31 # 60ea91 # extra added 3/3/20
+vlan 10.0.54.36-36 # ff032f # extra added 11/23/19
+vlan 10.0.54.37-37 # 4f826d # extra added 11/23/19
+vlan 10.0.54.38-38 # 75ef00 # extra added 11/23/19
+vlan 10.0.56.47-47 # ca177b # extra added 3/3/20
+vlan 10.0.56.50-50 # c02d51 # extra added 3/3/20
+vlan 10.0.56.56-56 # 41be8a # extra added 3/3/20
+vlan 10.0.56.67-67 # 751610 # extra added 3/3/20
+vlan 10.0.56.75-75 # 8e284e # extra added 3/3/20
+vlan 10.0.59.50-50 # 3fb821 # extra added 3/3/20
+vlan 10.0.59.79-79 # 364899 # extra added
+vlan 10.0.59.80-80 # 2d2f66 # extra added 3/3/20
+vlan 10.3.21.29-29 # ff3702 # extra added 3/23/20
 
 ## locations
-bf1870 location SLANG00001
-435798 location SLANG00002
-8c8868 location SLANG00003
-939070 location SLANG00004
-e2c4c8 location SLANG00005
-c7c75f location SLANG00006
-205fac location SLANG00007
-e39d7c location SLANG00008
-fe2dc8 location SLANG00009
-e1bef3 location SLANG00010
-3c6a08 location SLANG00011
-4d2038 location SLANG00011
-fbf390 location SLANG00012
-56b43e location SLANG00012
-a7b6db location SLANG00013
-596481 location SLANG00013
-84cd22 location SLANG00014
-3c8ba2 location SLANG00014
-d34135 location SLANG00015
-15269c location SLANG00015
-1df8f9 location SLANG00016
-f30ccf location SLANG00016
-d09da5 location SLANG00017
-02a4cb location SLANG00018
-8aca82 location SLANG00019
-866c28 location SLANG00020
-c44e97 location SLANG00021
-b65856 location SLANG00022
-fd676b location SLANG00023
-a3c9ac location SLANG00024
-cc9cd4 location SLANG00025
-dcf994 location SLANG00026
-596a83 location SLANG00027
-e06e8a location SLANG00028
-42cbf5 location SLANG0XTRA
-364899 location SLANG0XTRA
-# extra machines added 11/22/19
-afb5e3 location SLANG0XTRA
-6f1bef location SLANG0XTRA
-c3196d location SLANG0XTRA
-# extra machines added 11/23/19
-ff032f location SLANG0XTRA
-4f826d location SLANG0XTRA
-75ef00 location SLANG0XTRA
-# extra machines added 3/3/20 # 124.8 Th/s
-2d2f66 location SLANG0XTRA # 10.0.59.80 # 15.8 Th/s
-60ea91 location SLANG0XTRA # 10.0.54.31 # 15.8 Th/s
-ca177b location SLANG0XTRA # 10.0.56.47 # 15.7 Th/s
-751610 location SLANG0XTRA # 10.0.56.67 # 15.7 Th/s
-8e284e location SLANG0XTRA # 10.0.56.75 # 15.7 Th/s
-41be8a location SLANG0XTRA # 10.0.56.56 # 15.6 Th/s
-c02d51 location SLANG0XTRA # 10.0.56.50 # 15.5 Th/s
-3fb821 location SLANG0XTRA # 10.0.59.50 # 15.0 Th/s
-# extra machine added 3/23/20
-ff3702 location SLANG0XTRA # 10.0.31.73 # 15.1 Th/s
+bf1870 location SLANG00001 # 10.0.60.6
+435798 location SLANG00002 # 10.0.60.11
+8c8868 location SLANG00003 # 10.0.60.13
+939070 location SLANG00004 # 10.0.60.29
+e2c4c8 location SLANG00005 # 10.0.60.34
+c7c75f location SLANG00006 # 10.0.60.42
+205fac location SLANG00007 # 10.0.60.56
+e39d7c location SLANG00008 # 10.0.60.87
+fe2dc8 location SLANG00009 # 10.0.60.93
+e1bef3 location SLANG00010 # 10.0.60.104
+4d2038 location SLANG00011 # 10.0.63.53
+fbf390 location SLANG00012 # 10.0.65.42
+596481 location SLANG00013 # 10.0.65.59
+3c8ba2 location SLANG00014 # 10.0.61.161
+15269c location SLANG00015 # 10.0.64.74
+f30ccf location SLANG00016 # 10.0.61.53
+d09da5 location SLANG00017 # 10.0.62.125
+02a4cb location SLANG00018 # 10.0.66.77
+8aca82 location SLANG00019 # 10.0.61.77
+866c28 location SLANG00020 # 10.0.62.146
+c44e97 location SLANG00021 # 10.0.120.133
+b65856 location SLANG00022 # 10.0.120.143
+fd676b location SLANG00023 # 10.0.121.70
+a3c9ac location SLANG00024 # 10.0.121.128
+cc9cd4 location SLANG00025 # 10.0.119.12
+dcf994 location SLANG00026 # 10.0.61.133
+596a83 location SLANG00027 # 10.0.65.54
+e06e8a location SLANG00028 # 10.0.65.75
+afb5e3 location SLANG0XTRA # 10.0.53.141 # extra added 11/22/19
+6f1bef location SLANG0XTRA # 10.0.53.144 # extra added 11/22/19
+c3196d location SLANG0XTRA # 10.0.53.145 # extra added 11/22/19
+60ea91 location SLANG0XTRA # 10.0.54.31 # 15.8 Th/s # extra added 3/3/20
+ff032f location SLANG0XTRA # 10.0.54.36 # extra added 11/23/19
+4f826d location SLANG0XTRA # 10.0.54.37 # extra added 11/23/19
+75ef00 location SLANG0XTRA # 10.0.54.38 # extra added 11/23/19
+ca177b location SLANG0XTRA # 10.0.56.47 # 15.7 Th/s # extra added 3/3/20
+c02d51 location SLANG0XTRA # 10.0.56.50 # 15.5 Th/s # extra added 3/3/20
+41be8a location SLANG0XTRA # 10.0.56.56 # 15.6 Th/s # extra added 3/3/20
+751610 location SLANG0XTRA # 10.0.56.67 # 15.7 Th/s # extra added 3/3/20
+8e284e location SLANG0XTRA # 10.0.56.75 # 15.7 Th/s # extra added 3/3/20
+3fb821 location SLANG0XTRA # 10.0.59.50 # 15.0 Th/s # extra added 3/3/20
+364899 location SLANG0XTRA # 10.0.59.79 # extra added
+2d2f66 location SLANG0XTRA # 10.0.59.80 # 15.8 Th/s # extra added 3/3/20
+ff3702 location SLANG0XTRA # 10.3.21.29 # 15.1 Th/s # extra added 3/23/20
+
+## tuning
 
 ## throttle
-# 3/26/20
-8c8868 uncork 1585258149
-ff3702 uncork 1585258149
-6f1bef uncork 1585258149
-596a83 uncork 1585258149
-b65856 uncork 1585258149
-# 3/23/20
-75ef00 uncork 1585009885
-2d2f66 uncork 1585009885
-c3196d uncork 1585009885
-e39d7c uncork 1585009885
-596481 uncork 1585009885
-e2c4c8 uncork 1585009885
-866c28 uncork 1585009885
-fbf390 uncork 1585009885
-15269c uncork 1585009885
-# 3/14/20
-fe2dc8 uncork 1584251410
-866c28 uncork 1584251410
-# 3/12/20
-8c8868 uncork 1584042781
-75ef00 uncork 1584042781
-fbf390 uncork 1584042781
-# 3/10/20
-75ef00 uncork 1583858035
-fe2dc8 uncork 1583858035
-8e284e uncork 1583858035
-939070 uncork 1583858035
-866c28 uncork 1583858035
-fbf390 uncork 1583858035
-b65856 uncork 1583858035
-# 3/3/20
-8e284e uncork 1583267926
-75ef00 uncork 1583267926
-4d2038 uncork 1583267926
-afb5e3 uncork 1583267926
-e2c4c8 uncork 1583267926
-e39d7c uncork 1583267926
-596a83 uncork 1583267926
-b65856 uncork 1583267926
-435798 uncork 1583267926
-#2/24/20
-fd676b uncork 1582567251
-#2/18/20
-fd676b uncork 1582054843
-#2/17/20
-b65856 uncork 1581979051
-
-fd676b uncork 1581709954
-d09da5 uncork 1581709954
-364899 uncork 1581536131
-fd676b uncork 1581446384
-b65856 uncork 1581446384
-e2c4c8 uncork 1581358656
-e39d7c uncork 1581358656
-364899 uncork 1581113831
-fd676b uncork 1581113831
-596481 uncork 1581113831
-e2c4c8 uncork 1581113831
-435798 uncork 1581113831
-b65856 uncork 1581113831
-e2c4c8 uncork 1580848088
-c44e97 uncork 1580839736
-435798 uncork 1580839736
-15269c uncork 1580839736
-a3c9ac uncork 1580839736
-e06e8a uncork 1580839736
-c3196d uncork 1580839736
-afb5e3 uncork 1580839736
-8c8868 uncork 1580839736
-205fac uncork 1580839736
-fd676b uncork 1580839736
-fe2dc8 uncork 1578684628 # 10.0.60.93 slang00009
-e2c4c8 uncork 1578684628 # 10.0.60.34 slang00005
-435798 uncork 1578684628 # 10.0.60.11 slang00002
-364899 uncork 1578684628 # 10.0.59.79 slang0xtra
-fd676b uncork 1578684628 # 10.0.121.70 slang00023
-# s_uncork generated on Jan 07 2020 23:03:41 utc: 1578438221 - JB
-c3196d uncork 1578438221 # 10.0.53.145 slang0xtra
-6f1bef uncork 1578438221 # 10.0.53.144 slang0xtra
-205fac uncork 1578438221 # 10.0.60.56 slang00007
-fe2dc8 uncork 1578438221 # 10.0.60.93 slang00009
-fd676b uncork 1578438221 # 10.0.121.70 slang00023
-a3c9ac uncork 1578438221 # 10.0.121.128 slang00024
-
-b65856 uncork 1574793295
-fd676b uncork 1574793295
-fe2dc8 uncork 1574793295
-4d2038 uncork 1574793295
-42cbf5 uncork 1574793295
-8c8868 uncork 1574793295
-e2c4c8 uncork 1574793295
-d09da5 uncork 1574793295
-bf1870 uncork 1574793295
-364899 uncork 1574793295
-
-## retune
-#2/26/20
-364899 retune 1582746587
-#2/21/20
-364899 retune 1582314284
-
-e2c4c8 retune 1582143441
-364899 retune 1582143441
 
 ## fans
 
 ## reboots
-e06e8a reboot 1578684541 # 10.0.65.75 slang00028
-fbf390 reboot 1578684541 # 10.0.65.42 slang00012
-596a83 reboot 1578684541 # 10.0.65.54 slang00027
-15269c reboot 1578684541 # 10.0.64.74 slang00015
-d09da5 reboot 1578684541 # 10.0.62.125 slang00017
-866c28 reboot 1578684541 # 10.0.62.146 slang00020
-3c8ba2 reboot 1578684541 # 10.0.61.161 slang00014
-bf1870 reboot 1578684541 # 10.0.60.6 slang00001
-c7c75f reboot 1578684541 # 10.0.60.42 slang00006
-e39d7c reboot 1578684541 # 10.0.60.87 slang00008
-e1bef3 reboot 1578684541 # 10.0.60.104 slang00010
-205fac reboot 1578684541 # 10.0.60.56 slang00007
-a3c9ac reboot 1578684541 # 10.0.121.128 slang00024
-c44e97 reboot 1578684541 # 10.0.120.133 slang00021
-b65856 reboot 1578684541 # 10.0.120.143 slang00022
-cc9cd4 reboot 1578684541 # 10.0.119.12 slang00025
-b65856 reboot 1585238232 # 10.0.120.143 slang00022
-fe2dc8 reboot 1585238232 # 10.0.60.93 slang00009
-8c8868 reboot 1585238232 # 10.0.60.13 slang00003
-6f1bef reboot 1585238232 # 10.0.53.144 slang0xtra
-f30ccf reboot 1585238232 # 10.0.61.53 slang00016
-75ef00 reboot 1585238232 # 10.0.54.38 slang0xtra
-866c28 reboot 1585238232 # 10.0.62.146 slang00020
-e2c4c8 reboot 1585238232 # 10.0.60.34 slang00005
-a3c9ac reboot 1585238232 # 10.0.121.128 slang00024
-c44e97 reboot 1585238232 # 10.0.120.133 slang00021
-fbf390 reboot 1585238232 # 10.0.65.42 slang00012
-596a83 reboot 1585238232 # 10.0.65.54 slang00027
-15269c reboot 1585238232 # 10.0.64.74 slang00015
-3c8ba2 reboot 1585238232 # 10.0.61.161 slang00014
-e39d7c reboot 1585238232 # 10.0.60.87 slang00008
-435798 reboot 1585238232 # 10.0.60.11 slang00002
-364899 reboot 1585238232 # 10.0.59.79 slang0xtra
-ff3702 reboot 1585238232 # 10.0.31.73 slang0xtra
-c3196d reboot 1585238232 # 10.0.53.145 slang0xtra
-bf1870 reboot 1585238232 # 10.0.60.6 slang00001
-c7c75f reboot 1585238232 # 10.0.60.42 slang00006
-205fac reboot 1585238232 # 10.0.60.56 slang00007
-e1bef3 reboot 1585238232 # 10.0.60.104 slang00010
-d09da5 reboot 1585238232 # 10.0.62.125 slang00017
-cc9cd4 reboot 1585238232 # 10.0.119.12 slang00025
-e06e8a reboot 1585238232 # 10.0.65.75 slang00028
 
 ## resets
-# 3/25/20
-fe2dc8 reset 1585179066
-# 3/13/20
-fe2dc8 reset 1584120589
-# 3/3/20
-fe2dc8 reset 1583267926
-205fac reset 1583267926
-#2/26/20
-fd676b reset 1582746587
-#2/24/20
-364899 reset 1582568212
-#2/19/20
-fd676b reset 1582143441
-#2/17/20
-364899 reset 1581957395
-fd676b reset 1581978378
 
-fd676b reset 1581041381
-c7c75f reset 1581041381
-364899 reset 1581036817
-bf1870 reset 1581036817
-205fac reset 1581036817
-cc9cd4 reset 1581036817
-e39d7c reset 1581036817
-435798 reset 1581036817
-d09da5 reset 1581036817
-a3c9ac reset 1581036817
-596a83 reset 1581036817
-d09da5 reset 1580849584
-b65856 reset 1580847524
-205fac reset 1580847524
-d09da5 reset 1580839736
-fbf390 reset 1580839736
-b65856 reset 1580839736
-e39d7c reset 1580839736
-e1bef3 reset 1580839736
-3c8ba2 reset 1580839736
-364899 reset 1577216951
-c7c75f reset 1574964310
-bf1870 reset 1574964310
-f30ccf reset 1574964310
-618b1a reset 1574964310
-b65856 reset 1574964310
-cc9cd4 reset 1574964310
-596a83 reset 1574964310
-435798 reset 1574964310
-e39d7c reset 1574964310
-ff032f reset 1574964310
-e06e8a reset 1574964310
-3c8ba2 reset 1574964310
-d09da5 reset 1574964310
-866c28 reset 1574964310
-e1bef3 reset 1574964310
-fbf390 reset 1574964310
-42cbf5 reset 1574964310
-15269c reset 1574964310
-fd676b reset 1574964310
-939070 reset 1574964310
-c44e97 reset 1574964310
-364899 reset 1574964310
-c3196d reset 1574964310
-8aca82 reset 1574964310
-dcf994 reset 1574964310
-afb5e3 reset 1574964310
-4d2038 reset 1574964310
-e2c4c8 reset 1574964310
-bf1870 reset 1574435352
-435798 reset 1574435352
-e2c4c8 reset 1574435352
-c7c75f reset 1574435352
-e39d7c reset 1574435352
-d09da5 reset 1574435352
-4d2038 reset 1574435352
-b65856 reset 1574435352
-fd676b reset 1574435352
-e1bef3 reset 1573789399
-3c8ba2 reset 1573746896
-15269c reset 1573746896
+## removals
 
-## asic password
+## VPS pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
+## Remote pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCovql1bo+pkGUoq+zckj82BiW5CIBbxq1+wfET94ULY9b/BJzZHFxxjX79+aG4oilCpUKHFTJHv8Ox3IvtPxWGyx5IpV+avJqCO66+7/aIoG+Cqcz7f9pZPhK61qOG9AQsLNaZHaaB+jif7qCmXiDB1/eDzKHIh2UHdEnZSkcTrwdU40yA4JhenTAMJAxITopjAfURgJtTOkr9eBIVM6Xj/0x/f9ZUvL5jSLNDL9ujce928zCwvcMND+lrB3q5VgMluwihMUWZ3gJfsvZdHwPVXDP+qo1DaIP/oJ/rfD/ef9KkmYTYS3+RaYwGEJoGd0uHCUzSIl3oUJQg6kj4H22p
+# global panelpass gj83Nkgikg
 asicpass admin
+global logo https://raw.githubusercontent.com/cnels127/Configs/master/Bit49(2).png
