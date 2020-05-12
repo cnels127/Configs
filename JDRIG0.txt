@@ -1,5 +1,6 @@
-## instructions available at: https://asicseer.com/page/kb#writing-config
-## TOTAL EXP HASHRATE 10 s9 @ 16 Th/s = 160 Th/s
+##     4 s9 @ 16 Th/s = 64 Th/s (contract expires 5/17/20)
+##     6 s9 @ 16 Th/s = 96 Th/s (contract expires 7/29/20)
+## TOTAL EXP HASHRATE = 160 Th/s
 
 global custompanel JDRIG0bit049
 global customer bit49-Russia
@@ -29,42 +30,35 @@ global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 global panelclear 999
-# global panelpass gj83Nkgikg
 
 # global retune 2
 # global reboot 1
-global uncork 1588956493
+global uncork 1589326762
 # global reset 1574285085
 
 ## vlans
-vlan 10.0.55.99-99
-vlan 10.0.55.125-125
-vlan 10.0.55.145-145
-vlan 10.0.56.104-104
-vlan 10.0.67.148-148
-vlan 10.0.67.149-149
-vlan 10.0.67.156-156
-vlan 10.0.66.3-3
-vlan 10.0.67.146-146
-vlan 10.0.66.22-22
+vlan 10.0.55.99-99 # 11bafe
+vlan 10.0.55.125-125 # 33b5df
+# vlan 10.0.55.145-145 # 9b787e # POWERED DOWN - NO WORKING HASHBOARDS
+vlan 10.0.56.104-104 # 93e110
+vlan 10.0.67.148-148 # 9163e6
+vlan 10.0.67.149-149 # b3d12e
+vlan 10.0.67.156-156 # d55626
+vlan 10.0.66.3-3 # ceb84b
+vlan 10.0.67.146-146 # cffb6d
+vlan 10.0.66.22-22 # e2fa14
 
 ## location
-11bafe location JDRIG00001
-33b5df location JDRIG00002
-9b787e location JDRIG00003
-93e110 location JDRIG00004
-9163e6 location JDRIG00005
-b3d12e location JDRIG00006
-d55626 location JDRIG00007
-ceb84b location JDRIG00008
-cffb6d location JDRIG00009
-e2fa14 location JDRIG00010
-# extra machines added 12/19/19
-2b6c79 location JDRIG0XTRA # 10.0.118.157
-# extra machines added 3/23/20 # 36.6 Th/s
-194547 location JDRIG0XTRA # 10.0.31.25 # 15.7 Th/s
-e5323c location JDRIG0XTRA # 10.0.31.63 # 15.7 Th/s
-d471c4 location JDRIG0XTRA # 10.0.50.134 # 5.2 Th/s
+11bafe location JDRIG00001 # 10.0.55.99
+33b5df location JDRIG00002 # 10.0.55.125
+# 9b787e location JDRIG00003 # 10.0.55.145 # POWERED DOWN - NO WORKING HASHBOARDS
+93e110 location JDRIG00004 # 10.0.56.104
+9163e6 location JDRIG00005 # 10.0.67.148
+b3d12e location JDRIG00006 # 10.0.67.149
+d55626 location JDRIG00007 # 10.0.67.156
+ceb84b location JDRIG00008 # 10.0.66.3
+cffb6d location JDRIG00009 # 10.0.67.146
+e2fa14 location JDRIG00010 # 10.0.66.22
 
 ## tuning
 9163e6 uncork 1585322597
@@ -99,7 +93,12 @@ cffb6d reset 1585021777
 e2fa14 reset 1585021777
 
 ## removals
-global remove f4e8ee,1cb0b8
+global remove f4e8ee,1cb0b8,2b6c79,194547,e5323c,d471c4
 
-## asic password
+## VPS pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
+## Remote pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCovql1bo+pkGUoq+zckj82BiW5CIBbxq1+wfET94ULY9b/BJzZHFxxjX79+aG4oilCpUKHFTJHv8Ox3IvtPxWGyx5IpV+avJqCO66+7/aIoG+Cqcz7f9pZPhK61qOG9AQsLNaZHaaB+jif7qCmXiDB1/eDzKHIh2UHdEnZSkcTrwdU40yA4JhenTAMJAxITopjAfURgJtTOkr9eBIVM6Xj/0x/f9ZUvL5jSLNDL9ujce928zCwvcMND+lrB3q5VgMluwihMUWZ3gJfsvZdHwPVXDP+qo1DaIP/oJ/rfD/ef9KkmYTYS3+RaYwGEJoGd0uHCUzSIl3oUJQg6kj4H22p
+# global panelpass gj83Nkgikg
 asicpass admin
+global logo https://raw.githubusercontent.com/cnels127/Configs/master/Bit49(2).png
