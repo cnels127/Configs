@@ -1,5 +1,8 @@
-## instructions available at: https://asicseer.com/page/kb#writing-config
-## TOTAL EXP HASHRATE 15 s9 @ 16 Th/s = 240 Th/s
+##     1 s9 @ 16 Th/s = 16 Th/s (contract expires 2/18/20)
+##     3 s9 @ 16 Th/s = 48 Th/s (contract expires 3/5/20)
+##     6 s9 @ 16 Th/s = 96 Th/s (contract expires 3/29/20)
+##     5 s9 @ 16 Th/s = 80 Th/s (contract expires 5/28/20)
+## TOTAL EXP HASHRATE = 240 Th/s
 
 global custompanel THORA0bit049
 global customer bit49-Russia
@@ -29,7 +32,6 @@ global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 global panelclear 999
-# global panelpass gj83Nkgikg
 
 # global retune 1
 # global reboot 1
@@ -37,80 +39,56 @@ global panelclear 999
 # global reset 1574289491
 
 ## vlans
-# vlan 10.0.32.64-69
-# vlan 10.0.54.136-138
-# vlan 10.0.57.87-87
-# vlan 10.0.57.152-152
-# vlan 10.0.57.154-154
-# vlan 10.0.58.7-7
-# vlan 10.0.58.11-12
-# extra machines added 12/9/19
-vlan 10.0.120.12-12
-vlan 10.0.120.16-16
-vlan 10.0.120.19-19
-# extra machines added 3/7/20 # 63.6 Th/s
-9d0c9f location THORA0XTRA # 10.0.32.3 # 15.9 Th/s
-dd58ae location THORA0XTRA # 10.0.32.18 #  15.9 Th/s
-5a95dc location THORA0XTRA # 10.0.50.76 #  15.9 Th/s
-c5e28a location THORA0XTRA # 10.0.50.130 #  15.9 Th/s
+vlan 10.0.32.104-104 # b916a9
+vlan 10.0.32.103-103 # 457c65
+vlan 10.0.32.105-105 # 056132
+vlan 10.0.32.106-106 # 456621
+vlan 10.0.32.107-107 # 981c8f
+vlan 10.0.32.108-108 # c38cc0
+vlan 10.0.54.136-136 # 190eef
+vlan 10.0.54.137-137 # 815cec
+vlan 10.0.54.138-138 # e3240c
+vlan 10.0.57.87-87 # 0ef8df
+vlan 10.0.57.152-152 # b042b3
+vlan 10.0.57.154-154 # 658700
+vlan 10.0.58.7-7 # a7869e
+vlan 10.0.58.11-11 # f764a5
+vlan 10.0.58.12-12 # 13d4e9
 
 ## locations
-b916a9 location THORA00001
-457c65 location THORA00002
-056132 location THORA00003
-456621 location THORA00004
-981c8f location THORA00005
-c38cc0 location THORA00006
-190eef location THORA00007
-815cec location THORA00008
-e3240c location THORA00009
-0ef8df location THORA00010
-b042b3 location THORA00011
-658700 location THORA00012
-a7869e location THORA00013
-f764a5 location THORA00014
-13d4e9 location THORA00015
-# extra machines added 12/9/19
-7abb56 location THORA0XTRA # 10.0.120.12
-f04b81 location THORA0XTRA # 10.0.120.16
-dad66c location THORA0XTRA # 10.0.120.19
+b916a9 location THORA00001 # 10.0.32.104
+457c65 location THORA00002 # 10.0.32.103
+056132 location THORA00003 # 10.0.32.105
+456621 location THORA00004 # 10.0.32.106
+981c8f location THORA00005 # 10.0.32.107
+c38cc0 location THORA00006 # 10.0.32.108
+190eef location THORA00007 # 10.0.54.136
+815cec location THORA00008 # 10.0.54.137
+e3240c location THORA00009 # 10.0.54.138
+0ef8df location THORA00010 # 10.0.57.87
+b042b3 location THORA00011 # 10.0.57.152
+658700 location THORA00012 # 10.0.57.154
+a7869e location THORA00013 # 10.0.58.7
+f764a5 location THORA00014 # 10.0.58.11
+13d4e9 location THORA00015 # 10.0.58.12
+
+## tuning
 
 ## throttle
-b916a9 uncork 1585326607
-9d0c9f uncork 1585326607
-dd58ae uncork 1585326607
-dad66c uncork 1585326607
 
 ## fans
 
 ## reboots
-# s_reboot generated on Mar 26 2020 19:43:03 utc: 1585251783
-b042b3 reboot 1585251783 # 10.0.57.152 thora00011
-13d4e9 reboot 1585251783 # 10.0.58.12 thora00015
-e3240c reboot 1585251783 # 10.0.54.138 thora00009
-dd58ae reboot 1585251783 # 10.0.32.18 thora0xtra
-9d0c9f reboot 1585251783 # 10.0.32.3 thora0xtra
-b916a9 reboot 1585251783 # 10.0.32.64 thora00001
-dad66c reboot 1585251783 # 10.0.120.19 thora0xtra
-c5e28a reboot 1585251783 # 10.0.50.130 thora0xtra
-456621 reboot 1585251783 # 10.0.32.67 thora00004
-0ef8df reboot 1585251783 # 10.0.57.87 thora00010
-658700 reboot 1585251783 # 10.0.57.154 thora00012
-f764a5 reboot 1585251783 # 10.0.58.11 thora00014
 
 ## resets
-456621 reset 1574977617
-190eef reset 1574977617
-815cec reset 1574977617
-e3240c reset 1574977617
-0ef8df reset 1574977617
-b042b3 reset 1574977617
-658700 reset 1574977617
-a7869e reset 1574977617
-f764a5 reset 1574977617
-13d4e9 reset 1574977617
-f764a5 reset 1573160169
-e3240c reset 1573160169
 
-## asic password
+## removals
+global remove 7abb56,5a95dc,9d0c9f,dd58ae,c5e28a,dad66c,f04b81
+
+## VPS pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
+## Remote pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCovql1bo+pkGUoq+zckj82BiW5CIBbxq1+wfET94ULY9b/BJzZHFxxjX79+aG4oilCpUKHFTJHv8Ox3IvtPxWGyx5IpV+avJqCO66+7/aIoG+Cqcz7f9pZPhK61qOG9AQsLNaZHaaB+jif7qCmXiDB1/eDzKHIh2UHdEnZSkcTrwdU40yA4JhenTAMJAxITopjAfURgJtTOkr9eBIVM6Xj/0x/f9ZUvL5jSLNDL9ujce928zCwvcMND+lrB3q5VgMluwihMUWZ3gJfsvZdHwPVXDP+qo1DaIP/oJ/rfD/ef9KkmYTYS3+RaYwGEJoGd0uHCUzSIl3oUJQg6kj4H22p
+# global panelpass gj83Nkgikg
 asicpass admin
+global logo https://raw.githubusercontent.com/cnels127/Configs/master/Bit49(2).png
