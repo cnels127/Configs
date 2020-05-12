@@ -1,5 +1,4 @@
-## instructions available at: https://asicseer.com/page/kb#writing-config
-## TOTAL EXP HASHRATE 3 s9 @ 16 Th/s = 48 Th/s
+## 3 s9 @ 16 Th/s = 48 Th/s (contract expires 5/17/20)
 
 global custompanel TWOJE0bit049
 global customer bit49-Russia
@@ -29,7 +28,6 @@ global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 global panelclear 999
-# global panelpass gj83Nkgikg
 
 # global retune 1
 # global reboot 1
@@ -37,35 +35,32 @@ global panelclear 999
 # global reset 1
 
 ## vlans
-vlan 10.0.55.127-127
-vlan 10.0.55.161-161
-vlan 10.0.56.98-98
+vlan 10.0.55.127-127 # af01c7
+vlan 10.0.55.161-161 # b86fb1
+vlan 10.0.56.98-98 # b0ec6c
 
 ## locations
-af01c7 location TWOJE00001
-b86fb1 location TWOJE00002
-b0ec6c location TWOJE00003
-# extra machine added 12/17/19
-2be5f5 location TWOJE0XTRA # 10.0.119.70
-# extra machine added 3/30/20
-ed8ef5 location TWOJE0XTRA # 10.0.120.5 # 10.0 Th/s
+af01c7 location TWOJE00001 # 10.0.55.127
+b86fb1 location TWOJE00002 # 10.0.55.161
+b0ec6c location TWOJE00003 # 10.0.56.98
+
+## tuning
 
 ## throttle
-#2/24/20
-af01c7 uncork 1582567454
-
-2be5f5 uncork 1581713171
-af01c7 uncork 1581713171
-af01c7 uncork 1581118607
-b0ec6c uncork 1574907206
 
 ## fans
 
 ## reboots
 
 ## resets
-af01c7 reset 1574977834
-af01c7 reset 1572456987
 
-## asic password
+## removals
+global remove 2be5f5,ed8ef5
+
+## VPS pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
+## Remote pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCovql1bo+pkGUoq+zckj82BiW5CIBbxq1+wfET94ULY9b/BJzZHFxxjX79+aG4oilCpUKHFTJHv8Ox3IvtPxWGyx5IpV+avJqCO66+7/aIoG+Cqcz7f9pZPhK61qOG9AQsLNaZHaaB+jif7qCmXiDB1/eDzKHIh2UHdEnZSkcTrwdU40yA4JhenTAMJAxITopjAfURgJtTOkr9eBIVM6Xj/0x/f9ZUvL5jSLNDL9ujce928zCwvcMND+lrB3q5VgMluwihMUWZ3gJfsvZdHwPVXDP+qo1DaIP/oJ/rfD/ef9KkmYTYS3+RaYwGEJoGd0uHCUzSIl3oUJQg6kj4H22p
+# global panelpass gj83Nkgikg
 asicpass admin
+global logo https://raw.githubusercontent.com/cnels127/Configs/master/Bit49(2).png
