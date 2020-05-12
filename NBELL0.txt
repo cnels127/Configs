@@ -1,7 +1,8 @@
-## instructions available at: https://asicseer.com/page/kb#writing-config
-## 207 s9s purchased 
+##  28 s9 @ 14.4 Th/s = (contract expires 6/10/20)
+##  27 s9 @ 14.4 Th/s = (contract expires 6/28/20)
+## 152 s9 @ 14.4 Th/s = (contract expires 8/30/20)
 ## 57 s9 consolidated 4/15/20
-## 150 s9 @ 14.4 Th/s = 2,160 Th/s
+## TOTAL EXP HASHRATE = 2,160 Th/s
 
 global custompanel NBELL0bit049
 global customer bit49-Russia
@@ -31,11 +32,10 @@ global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 global panelclear 180
-# global panelpass gj83Nkgikg
 
 # global retune 1
 # global reboot 1
-global uncork 1588093344
+# global uncork 1588093344
 # global reset 1
 
 ## vlans
@@ -115,7 +115,7 @@ vlan 10.0.77.56-56 # b2a21c
 vlan 10.0.77.59-59 # 49f3a7
 vlan 10.0.77.60-60 # 03b3b0
 vlan 10.0.77.74-74 # 78f183
-vlan 10.0.77.75-75 # 8a141e
+# vlan 10.0.77.75-75 # 8a141e # BURNED - TOTAL LOSS
 vlan 10.0.77.77-77 # 4f5a45
 vlan 10.0.77.79-79 # 2cbc74
 vlan 10.0.77.89-89 # ecd1ec
@@ -267,7 +267,7 @@ b2a21c location NBELL00073 # 10.0.77.56
 49f3a7 location NBELL00074 # 10.0.77.59
 03b3b0 location NBELL00075 # 10.0.77.60
 78f183 location NBELL00076 # 10.0.77.74
-8a141e location NBELL00077 # 10.0.77.75
+# 8a141e location NBELL00077 # 10.0.77.75 # BURNED - TOTAL LOSS
 4f5a45 location NBELL00078 # 10.0.77.77
 2cbc74 location NBELL00079 # 10.0.77.79
 ecd1ec location NBELL00080 # 10.0.77.89
@@ -342,29 +342,23 @@ a23bc8 location NBELL00146 # 10.0.120.135
 3deb9a location NBELL00149 # 10.0.121.137
 369a1c location NBELL00150 # 10.0.121.143
 
+## tuning
+
 ## throttle
-5d7f9b uncork 1587422642
-7f4c6f uncork 1587414366
-18ae66 uncork 1585260236
-853e5d uncork 1585260236
-fb1aea uncork 1585260236
-45c2fd uncork 1585260236
-c1e4ca uncork 1585260236
 
 ## fans
 
 ## reboots
 
 ## resets
-8aa248 reset 1587581775
-048fc1 reset 1587421605
-721b4c reset 1586843124
-2c8034 reset 1586098211
-
-## retune
 
 ## removed
 global remove 8d46c5,636e64,d7cd4b,b85d53,43bb9c,318e30,c81ae4,629744,775716,2fcff9,b8e1be,68c59c,24f06b,861c69,a96f80,676228,c813b9,ad914a,3ebdbe,e943c1,b425a4,7604bf,c7156e,cb59c3,8cb63b,c1e4ca,25c8f1,56415a,460f86,5ef933,45c2fd,7d6154,2fe93e,523bf3,f76f7f,8e49a5,c06f9f,559680,302257,042f1e,0c8fd8,0a9fce,984118,fb1aea,368765,a83b78,9dd012,9fd4e8,22c41f,771e29,38ca89,1d5775,b03069,ecde5a,84f34c,60fbf5,2d2ba1,853e5d,201a71,1385af,16df7e,2365b7,920bc4,055005,d560ca,5288c8,405f5b,e95fcc,9d6f23,c98fa4,45e595,2c8034,b3b6d1,1345e0,1fe000,5e91db,694a29
 
-## asic password
+## VPS pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
+## Remote pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCovql1bo+pkGUoq+zckj82BiW5CIBbxq1+wfET94ULY9b/BJzZHFxxjX79+aG4oilCpUKHFTJHv8Ox3IvtPxWGyx5IpV+avJqCO66+7/aIoG+Cqcz7f9pZPhK61qOG9AQsLNaZHaaB+jif7qCmXiDB1/eDzKHIh2UHdEnZSkcTrwdU40yA4JhenTAMJAxITopjAfURgJtTOkr9eBIVM6Xj/0x/f9ZUvL5jSLNDL9ujce928zCwvcMND+lrB3q5VgMluwihMUWZ3gJfsvZdHwPVXDP+qo1DaIP/oJ/rfD/ef9KkmYTYS3+RaYwGEJoGd0uHCUzSIl3oUJQg6kj4H22p
+# global panelpass gj83Nkgikg
 asicpass admin
+global logo https://raw.githubusercontent.com/cnels127/Configs/master/Bit49(2).png
