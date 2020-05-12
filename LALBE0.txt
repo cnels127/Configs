@@ -1,5 +1,4 @@
-## instructions available at: https://asicseer.com/page/kb#writing-config
-##   5 s9 @ 14.4 Th/s = 72 Th/s (contract expired?)
+##   5 s9 @ 14.4 Th/s = 72 Th/s (contract expires ?)
 ##     3 s9 @ 16 Th/s = 48 Th/s (contract expires 8/7/20)
 ##     3 s9 @ 16 Th/s = 48 Th/s (contract expires 8/7/20)
 ## TOTAL EXP HASHRATE = 168 Th/s
@@ -39,34 +38,34 @@ global panelclear 999
 # global reset 1
 
 ## vlans
-vlan 10.0.56.120-120
-vlan 10.0.56.122-124
-vlan 10.0.56.126-126
-vlan 10.0.64.77-77
-vlan 10.0.64.127-127
-vlan 10.0.65.12-12
-vlan 10.0.66.8-8
-vlan 10.0.67.6-6
-vlan 10.0.68.11-11
-# extra machines added 11/25/19
-vlan 10.0.54.32-32
-vlan 10.0.54.33-33
+vlan 10.0.56.120-120 # b49a7f
+vlan 10.0.56.122-122 # 21619f
+vlan 10.0.56.123-123 # ab49a7
+vlan 10.0.56.124-124 # c935fd
+vlan 10.0.56.126-126 # a9cee7
+vlan 10.0.64.77-77 # e3af8a
+vlan 10.0.64.127-127 # 739481
+vlan 10.0.65.12-12 # 6eb9e6
+vlan 10.0.66.8-8 # 701541
+vlan 10.0.67.6-6 # 979f86
+vlan 10.0.60.41-41 # 4363c7
+vlan 10.0.54.32-32 # extra added 11/25/19
+vlan 10.0.54.33-33 # extra added 11/25/19
 
 ## location
-b49a7f location LALBE00001
-21619f location LALBE00002
-ab49a7 location LALBE00003
-c935fd location LALBE00004
-a9cee7 location LALBE00005
-e3af8a location LALBE00006
-739481 location LALBE00007
-6eb9e6 location LALBE00008
-701541 location LALBE00009
-979f86 location LALBE00010
-4363c7 location LALBE00011
-# extra machines added 11/25/19
-59a9ba location LALBE0XTRA
-a02b78 location LALBE0XTRA
+b49a7f location LALBE00001 # 10.0.56.120
+21619f location LALBE00002 # 10.0.56.122
+ab49a7 location LALBE00003 # 10.0.56.123
+c935fd location LALBE00004 # 10.0.56.124
+a9cee7 location LALBE00005 # 10.0.56.126
+e3af8a location LALBE00006 # 10.0.64.77
+739481 location LALBE00007 # 10.0.64.127
+6eb9e6 location LALBE00008 # 10.0.65.12
+701541 location LALBE00009 # 10.0.66.8
+# 979f86 location LALBE00010 # 10.0.67.6 # POWERED DOWN - NO WORKING HASHBOARDS
+4363c7 location LALBE00011 # 10.0.60.41
+59a9ba location LALBE0XTRA # 10.0.54.32 # extra added 11/25/19
+a02b78 location LALBE0XTRA # 10.0.54.33 # extra added 11/25/19
 
 ## tuning
 
@@ -81,5 +80,10 @@ a02b78 location LALBE0XTRA
 ## removals
 global remove 9d4af9
 
-## asic password
+## VPS pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
+## Remote pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCovql1bo+pkGUoq+zckj82BiW5CIBbxq1+wfET94ULY9b/BJzZHFxxjX79+aG4oilCpUKHFTJHv8Ox3IvtPxWGyx5IpV+avJqCO66+7/aIoG+Cqcz7f9pZPhK61qOG9AQsLNaZHaaB+jif7qCmXiDB1/eDzKHIh2UHdEnZSkcTrwdU40yA4JhenTAMJAxITopjAfURgJtTOkr9eBIVM6Xj/0x/f9ZUvL5jSLNDL9ujce928zCwvcMND+lrB3q5VgMluwihMUWZ3gJfsvZdHwPVXDP+qo1DaIP/oJ/rfD/ef9KkmYTYS3+RaYwGEJoGd0uHCUzSIl3oUJQg6kj4H22p
+# global panelpass gj83Nkgikg
 asicpass admin
+global logo https://raw.githubusercontent.com/cnels127/Configs/master/Bit49(2).png
