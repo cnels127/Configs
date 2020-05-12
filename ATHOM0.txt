@@ -1,7 +1,7 @@
-## instructions available at: https://asicseer.com/page/kb#writing-config
-##  7 s9 @ 14.4 Th/s = 100.8 Th/s (contract expires 3/5/20)
-## 33 s9 @ 14.4 Th/s = 475.2 Th/s (contract expires 6/29/20)
-## TOTAL EXP HASHRATE 40 s9 @ 14.4 Th/s = 576 Th/s
+##   7 s9 @ 14.4 Th/s = 100.8 Th/s (contract expires 3/5/20)
+##  33 s9 @ 14.4 Th/s = 475.2 Th/s (contract expires 6/29/20)
+## TOTAL EXP HASHRATE = 576 Th/s
+## Customer requested PAUSE effective beginning 5/12/20
 
 global custompanel ATHOM0bit049
 global customer bit49-Russia
@@ -31,68 +31,53 @@ global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 global panelclear 999
-# global panelpass gj83Nkgikg
 
 # global retune 1
 # global reboot 1574881590
 # global uncork 1579216320
-global reset 1579216320
+# global reset 1579216320
 
 ## vlans
-# vlan 10.0.54.126-126 # 6a323b
-# vlan 10.0.54.127-127 # de2039
-# vlan 10.0.54.128-128 # 083c04
-# vlan 10.0.54.129-129 # b2bd4a
-# vlan 10.0.54.130-130 # a1e438
-# vlan 10.0.54.131-131 # ae4552
-# vlan 10.0.54.132-132 # 34f9ef
-# vlan 10.0.61.112-112 # 882711
-# vlan 10.0.61.135-135 # f5e0ce
-# vlan 10.0.61.145-145 # f56d20
-# vlan 10.0.62.85-85 # 65a8fa
-# vlan 10.0.63.106-106 # 9be27b
-# vlan 10.0.63.112-112 # e1960a
-# vlan 10.0.63.129-129 # 979a64
-# vlan 10.0.63.132-132 # 794f98
-# vlan 10.0.63.134-134 # d58ae6
-# vlan 10.0.63.141-141 # 158ab6
-# vlan 10.0.63.148-148 # bbe46f
-# vlan 10.0.63.150-150 # 2bb6c8
-# vlan 10.0.63.154-154 # 952ba2
-# vlan 10.0.64.11-11 # 6704f5
-# vlan 10.0.64.12-12 # 756a0c
-# vlan 10.0.64.24-24 # 9b3517
-# vlan 10.0.64.59-59 # 67ef67
-# vlan 10.0.64.85-85 # eedbcd
-# vlan 10.0.64.137-137 # acb675
-# vlan 10.0.65.22-22 # fbf1ac
-# vlan 10.0.65.30-30 # 6d1dce
-# vlan 10.0.65.88-88 # d9dc85
-# vlan 10.0.65.90-90 # 72e31f
-# vlan 10.0.65.97-97 # 42f4ea
-# vlan 10.0.65.109-109 # 82bd69
-# vlan 10.0.65.159-159 # c2edd9
-# vlan 10.0.66.1-1 # 981425
-# vlan 10.0.66.11-11 # 3b7299
-# vlan 10.0.66.104-104 # 94442a
-# vlan 10.0.66.106-106 # f9ca53
-# vlan 10.0.66.109-109 # ead461
-# vlan 10.0.67.54-54 # d13d9c
-# vlan 10.0.67.96-96 # 31a7ae
-# extra machines added 12/9/19
-# vlan 10.0.118.81-81 # 4048c1
-# vlan 10.0.118.72-72 # 8703a7
-# vlan 10.0.118.94-94 # 1815b1
-# vlan 10.0.118.107-107 # 01cfe8
-# vlan 10.0.118.87-87 # 49383c
-# vlan 10.0.118.100-100 # 911c8a
-# vlan 10.0.118.78-78 # 0434ef
-# vlan 10.0.118.86-86 # 9f4322
-# extra machines added 3/9/20
-vlan 10.0.32.7-7 # 7ff9a3
-vlan 10.0.30.110-110 # ef852c
-vlan 10.0.50.153-153 # 38dfad
-vlan 10.0.50.29-29 # 71e6fe
+vlan 10.0.54.126-126 # 6a323b
+vlan 10.0.54.127-127 # de2039
+vlan 10.0.54.128-128 # 083c04
+vlan 10.0.54.129-129 # b2bd4a
+vlan 10.0.54.130-130 # a1e438
+vlan 10.0.54.131-131 # ae4552
+vlan 10.0.54.132-132 # 34f9ef
+vlan 10.0.61.112-112 # 882711
+vlan 10.0.61.135-135 # f5e0ce
+# vlan 10.0.61.145-145 # f56d20 # SCRAPPED 4/30/20
+vlan 10.0.62.85-85 # 65a8fa
+vlan 10.0.63.106-106 # 9be27b
+vlan 10.0.63.112-112 # e1960a
+vlan 10.0.63.129-129 # 979a64
+vlan 10.0.63.132-132 # 794f98
+vlan 10.0.63.134-134 # d58ae6
+vlan 10.0.63.141-141 # 158ab6
+vlan 10.0.63.148-148 # bbe46f
+# vlan 10.0.63.150-150 # 2bb6c8 # SCRAPPED 4/30/20
+vlan 10.0.63.154-154 # 952ba2
+vlan 10.0.64.11-11 # 6704f5
+vlan 10.0.64.12-12 # 756a0c
+vlan 10.0.64.24-24 # 9b3517
+vlan 10.0.64.59-59 # 67ef67
+vlan 10.0.64.85-85 # eedbcd
+vlan 10.0.64.137-137 # acb675
+vlan 10.0.65.22-22 # fbf1ac
+vlan 10.0.65.30-30 # 6d1dce
+vlan 10.0.65.88-88 # d9dc85
+vlan 10.0.65.90-90 # 72e31f
+vlan 10.0.65.97-97 # 42f4ea
+vlan 10.0.65.109-109 # 82bd69
+vlan 10.0.65.159-159 # c2edd9
+vlan 10.0.66.1-1 # 981425
+vlan 10.0.66.11-11 # 3b7299
+vlan 10.0.66.104-104 # 94442a
+vlan 10.0.66.106-106 # f9ca53
+vlan 10.0.66.109-109 # ead461
+vlan 10.0.67.54-54 # d13d9c
+vlan 10.0.67.96-96 # 31a7ae
 
 ## locations
 6a323b location ATHOM00001 # 10.0.54.126
@@ -104,7 +89,7 @@ ae4552 location ATHOM00006 # 10.0.54.131
 34f9ef location ATHOM00007 # 10.0.54.132
 882711 location ATHOM00008 # 10.0.61.112
 f5e0ce location ATHOM00009 # 10.0.61.135
-f56d20 location ATHOM00010 # 10.0.61.145
+# f56d20 location ATHOM00010 # 10.0.61.145 # SCRAPPED 4/30/20
 65a8fa location ATHOM00011 # 10.0.62.85
 9be27b location ATHOM00012 # 10.0.63.106
 e1960a location ATHOM00013 # 10.0.63.112
@@ -113,7 +98,7 @@ e1960a location ATHOM00013 # 10.0.63.112
 d58ae6 location ATHOM00016 # 10.0.63.134
 158ab6 location ATHOM00017 # 10.0.63.141
 bbe46f location ATHOM00018 # 10.0.63.148
-2bb6c8 location ATHOM00019 # 10.0.63.150
+# 2bb6c8 location ATHOM00019 # 10.0.63.150 # SCRAPPED 4/30/20
 952ba2 location ATHOM00020 # 10.0.63.154
 6704f5 location ATHOM00021 # 10.0.64.11
 756a0c location ATHOM00022 # 10.0.64.12
@@ -134,312 +119,25 @@ c2edd9 location ATHOM00033 # 10.0.65.159
 f9ca53 location ATHOM00037 # 10.0.66.106
 ead461 location ATHOM00038 # 10.0.66.109
 d13d9c location ATHOM00039 # 10.0.67.54
-31a7ae location ATHOM0XTRA # 10.0.67.96
-# extra machines added 12/9/19
-4048c1 location ATHOM0XTRA # 10.0.118.81
-8703a7 location ATHOM0XTRA # 10.0.118.72
-1815b1 location ATHOM0XTRA # 10.0.118.94
-01cfe8 location ATHOM0XTRA # 10.0.118.107
-49383c location ATHOM0XTRA # 10.0.118.87
-911c8a location ATHOM0XTRA # 10.0.118.100
-0434ef location ATHOM0XTRA # 10.0.118.78
-9f4322 location ATHOM0XTRA # 10.0.118.86
-# extra machines added 3/9/20 # 47.7 Th/s
-7ff9a3 location ATHOM0XTRA # 10.0.32.7 # 12.5 Th/s
-ef852c location ATHOM0XTRA # 10.0.30.110 # 12.2 Th/s
-38dfad location ATHOM0XTRA # 10.0.50.153 # 12.2 Th/s
-71e6fe location ATHOM0XTRA # 10.0.50.29 # 10.8 Th/s
+31a7ae location ATHOM00040 # 10.0.67.96
 
-
-## retunes
-# 2/28/20
-94442a retune 1582923112
+## tuning
 
 ## throttle
-# 3/27/20
-b126f7 uncork 1585340616
-9f4322 uncork 1585332257
-c2edd9 uncork 1585332257
-756a0c uncork 1585332257
-d9dc85 uncork 1585332257
-083c04 uncork 1585332257
-fbf1ac uncork 1585332257
-eedbcd uncork 1585332257
-979a64 uncork 1585332257
-# 3/25/20
-38dfad uncork 1585182706
-f9ca53 uncork 1585182706
-94442a uncork 1585182706
-3b7299 uncork 1585182706
-756a0c uncork 1585182706
-65a8fa uncork 1585182706
-de2039 uncork 1585182706
-a1e438 uncork 1585182706
-# 3/23/20
-e1960a uncork 1585010935
-72e31f uncork 1585010935
-fbf1ac uncork 1585010935
-31a7ae uncork 1584996107
-794f98 uncork 1584996107
-eedbcd uncork 1584996107
-6d1dce uncork 1584996107
-3b7299 uncork 1584996107
-d13d9c uncork 1584996107
-882711 uncork 1584996107
-bbe46f uncork 1584996107
-756a0c uncork 1584996107
-82bd69 uncork 1584996107
-# 3/20/20
-fbf1ac uncork 1584734583
-de2039 uncork 1584734583
-# 3/17/20
-94442a uncork 1584469011
-# 3/11/20
-94442a uncork 1583967538
-083c04 uncork 1583967538
-f5e0ce uncork 1583967538
-d9dc85 uncork 1583967538
-3b7299 uncork 1583967538
-42f4ea uncork 1583967538
-bbe46f uncork 1583967538
-fbf1ac uncork 1583967538
-# 3/10/20
-083c04 uncork 1583856522
-979a64 uncork 1583856522
-d58ae6 uncork 1583856522
-981425 uncork 1583856522
-fbf1ac uncork 1583856522
-38dfad uncork 1583856522
-ef852c uncork 1583856522
-7ff9a3 uncork 1583856522
-# 3/2/20
-0434ef uncork 1583182025
-083c04 uncork 1583182025
-979a64 uncork 1583182025
-158ab6 uncork 1583182025
-fbf1ac uncork 1583182025
-6d1dce uncork 1583182025
-c2edd9 uncork 1583182025
-# 2/28/20
-de2039 uncork 1582923112
-979a64 uncork 1582923112
-9b3517 uncork 1582923112
-f9ca53 uncork 1582923112
-94442a uncork 1582923112
-158ab6 uncork 1582923112
-# 2/24/20
-94442a uncork 1582566139
-# 2/18/20
-083c04 uncork 1582053399
-de2039 uncork 1582053399
-9b3517 uncork 1582053399
-# 2/17/20
-083c04 uncork 1581976374
-eedbcd uncork 1581976374
-49383c uncork 1581976374
-
-6a323b uncork 1581613218
-083c04 uncork 1581613218
-e1960a uncork 1581613218
-979a64 uncork 1581613218
-de2039 uncork 1581550478
-e1960a uncork 1581358485
-083c04 uncork 1581112638
-4048c1 uncork 1581112638
-9f4322 uncork 1581112638
-6d1dce uncork 1581112638
-911c8a uncork 1581041101
-0434ef uncork 1581041101
-979a64 uncork 1581041101
-eedbcd uncork 1581041101
-f5e0ce uncork 1581032759
-0434ef uncork 1581032759
-083c04 uncork 1581032759
-882711 uncork 1581032759
-f56d20 uncork 1581032759
-e1960a uncork 1581032759
-979a64 uncork 1581032759
-d58ae6 uncork 1581032759
-952ba2 uncork 1581032759
-9b3517 uncork 1581032759
-eedbcd uncork 1581032759
-82bd69 uncork 1581032759
-3b7299 uncork 1581032759
-f9ca53 uncork 1581032759
-d13d9c uncork 1581032759
-f56d20 uncork 1577171540
-94442a uncork 1577171540
-6a323b uncork 1577171540
-6704f5 uncork 1577171540
-979a64 uncork 1577171540
-f5e0ce uncork 1577171540
-9b3517 uncork 1577171540
-f9ca53 uncork 1577171540
-6d1dce uncork 1577171540
-d58ae6 uncork 1577171540
-952ba2 uncork 1577171540
-e1960a uncork 1577171540
-083c04 uncork 1577171540
-eedbcd uncork 1577171540
-42f4ea uncork 1577171540
-c2edd9 uncork 1585323999 
-756a0c uncork 1585323999 
-d9dc85 uncork 1585323999 
-083c04 uncork 1585323999 
-9be27b uncork 1585323999 
-979a64 uncork 1585323999 
-
-# s_reboot generated on Dec 23 2019 21:58:21 utc: 1577138301
-f9ca53 reboot 1577138301 # 10.0.66.106 athom00037
-083c04 reboot 1577138301 # 10.0.54.128 athom00003
-94442a reboot 1577138301 # 10.0.66.104 athom00036
-6a323b reboot 1577138301 # 10.0.54.126 athom00001
-f5e0ce reboot 1577138301 # 10.0.61.135 athom00009
-f56d20 reboot 1577138301 # 10.0.61.145 athom00010
-e1960a reboot 1577138301 # 10.0.63.112 athom00013
-979a64 reboot 1577138301 # 10.0.63.129 athom00014
-d58ae6 reboot 1577138301 # 10.0.63.134 athom00016
-952ba2 reboot 1577138301 # 10.0.63.154 athom00020
-6704f5 reboot 1577138301 # 10.0.64.11 athom00021
-9b3517 reboot 1577138301 # 10.0.64.24 athom00023
-6d1dce reboot 1577138301 # 10.0.65.30 athom00028
-
-67ef67 uncork 1575571208 # 10.0.64.59 athom00024
-34f9ef uncork 1575571208 # 10.0.54.132 athom00007
-083c04 uncork 1575571208 # 10.0.54.128 athom00003
-f5e0ce uncork 1575571208 # 10.0.61.135 athom00009
-6a323b uncork 1575571208 # 10.0.54.126 athom00001
-f56d20 uncork 1575571208 # 10.0.61.145 athom00010
-e1960a uncork 1575571208 # 10.0.63.112 athom00013
-979a64 uncork 1575571208 # 10.0.63.129 athom00014
-d58ae6 uncork 1575571208 # 10.0.63.134 athom00016
-158ab6 uncork 1575571208 # 10.0.63.141 athom00017
-952ba2 uncork 1575571208 # 10.0.63.154 athom00020
-6704f5 uncork 1575571208 # 10.0.64.11 athom00021
-9b3517 uncork 1575571208 # 10.0.64.24 athom00023
-6d1dce uncork 1575571208 # 10.0.65.30 athom00028
-94442a uncork 1575571208 # 10.0.66.104 athom00036
-f9ca53 uncork 1575571208 # 10.0.66.106 athom00037
 
 ## fans
 
 ## reboots
-67ef67 reboot 1575571208 # 10.0.64.59 athom00024
-34f9ef reboot 1575571208 # 10.0.54.132 athom00007
-083c04 reboot 1575571208 # 10.0.54.128 athom00003
-f5e0ce reboot 1575571208 # 10.0.61.135 athom00009
-6a323b reboot 1575571208 # 10.0.54.126 athom00001
-f56d20 reboot 1575571208 # 10.0.61.145 athom00010
-e1960a reboot 1575571208 # 10.0.63.112 athom00013
-979a64 reboot 1575571208 # 10.0.63.129 athom00014
-d58ae6 reboot 1575571208 # 10.0.63.134 athom00016
-158ab6 reboot 1575571208 # 10.0.63.141 athom00017
-952ba2 reboot 1575571208 # 10.0.63.154 athom00020
-6704f5 reboot 1575571208 # 10.0.64.11 athom00021
-9b3517 reboot 1575571208 # 10.0.64.24 athom00023
-6d1dce reboot 1575571208 # 10.0.65.30 athom00028
-94442a reboot 1575571208 # 10.0.66.104 athom00036
-f9ca53 reboot 1575571208 # 10.0.66.106 athom00037
-952ba2 reboot 1585237466 # 10.0.63.154 athom00020
-67ef67 reboot 1585237466 # 10.0.64.59 athom00024
-2bb6c8 reboot 1585237466 # 10.0.63.150 athom00019
-34f9ef reboot 1585237466 # 10.0.54.132 athom00007
-94442a reboot 1585237466 # 10.0.66.104 athom00036
-eedbcd reboot 1585237466 # 10.0.64.85 athom00025
-8703a7 reboot 1585237466 # 10.0.118.72 athom0xtra
-f56d20 reboot 1585237466 # 10.0.61.145 athom00010
-979a64 reboot 1585237466 # 10.0.63.129 athom00014
-158ab6 reboot 1585237466 # 10.0.63.141 athom00017
-083c04 reboot 1585322480 # 10.0.54.128 athom00003
-c2edd9 reboot 1585322480 # 10.0.65.159 athom00033
-d9dc85 reboot 1585322480 # 10.0.65.88 athom00029
-756a0c reboot 1585322480 # 10.0.64.12 athom00022
-979a64 reboot 1585322480 # 10.0.63.129 athom00014
 
 ## resets
-952ba2 reset 1586139906
-# 3/24/20
-158ab6 reset 1585079276
-# 3/23/20
-de2039 reset 1584979239
-083c04 reset 1584979239
-979a64 reset 1584979239
-# 3/19/20
-29f37a reset 1584657809
-319daa reset 1584657809
-73d5cd reset 1584657809
-ebbec9 reset 1584657809
-0b195c reset 1584657809
-b79b7a reset 1584657809
-07a03a reset 1584657809
-d9cb06 reset 1584657809
-0763a7 reset 1584657809
-67ef67 reset 1584657386
-952ba2 reset 1584657386
-34f9ef reset 1584657386
-# 3/14/20
-979a64 reset 1584248078
-d58ae6 reset 1584248078
-# 3/11/20
-38dfad reset 1583942024
-# 3/3/20
-8703a7 reset 1583258068
-# 2/28/20
-8703a7 reset 1582923112
-# 2/26/20
-2bb6c8 reset 1582758866
-67ef67 reset 1582758866
-952ba2 reset 1582758866
-34f9ef reset 1582758866
-94442a reset 1582750348
-#2/24/20
-8703a7 reset 1582589854
-#2/19/20
-979a64 reset 1582129641
-#2/17/20
-e1960a reset 1581957588
 
-01cfe8 reset 1581540558
-8703a7 reset 1581540558
-083c04 reset 1581113068
-fbf1ac reset 1581112638
-6704f5 reset 1581112638
-2bb6c8 reset 1581033321
-acb675 reset 1581033321
-de2039 reset 1581032759
-e1960a reset 1579539279
-3b7299 reset 1579539279
-31a7ae reset 1579276912
-f56d20 reset 1579276912
-acb675 reset 1579276912
-981425 reset 1579276912
-94442a reset 1579276912
-158ab6 reset 1579276912
-34f9ef reset 1577909864
-158ab6 reset 1577909864
-e1960a reset 1577909864
-9be27b reset 1577174350
-31a7ae reset 1577171540
-158ab6 reset 1576121505
-acb675 reset 1574886675
-94442a reset 1574886675
-f56d20 reset 1574886675
-d58ae6 reset 1574886675
-158ab6 reset 1574886675
-3b7299 reset 1574886675
-6d1dce reset 1574886675
-981425 reset 1574886675
-f56d20 reset 1574119536
-acb675 reset 1574119536
-9be27b reset 1574119536
-158ab6 reset 1574119536
-94442a reset 1574119536
-3b7299 reset 1574119536
-d58ae6 reset 1573931515
-8703a7 reset 1578439080
-
-## asic password
-asicpass admin
-
-##removals
+## removals
 global remove 49383c
+
+## VPS pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
+## Remote pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCovql1bo+pkGUoq+zckj82BiW5CIBbxq1+wfET94ULY9b/BJzZHFxxjX79+aG4oilCpUKHFTJHv8Ox3IvtPxWGyx5IpV+avJqCO66+7/aIoG+Cqcz7f9pZPhK61qOG9AQsLNaZHaaB+jif7qCmXiDB1/eDzKHIh2UHdEnZSkcTrwdU40yA4JhenTAMJAxITopjAfURgJtTOkr9eBIVM6Xj/0x/f9ZUvL5jSLNDL9ujce928zCwvcMND+lrB3q5VgMluwihMUWZ3gJfsvZdHwPVXDP+qo1DaIP/oJ/rfD/ef9KkmYTYS3+RaYwGEJoGd0uHCUzSIl3oUJQg6kj4H22p
+# global panelpass gj83Nkgikg
+asicpass admin
+global logo https://raw.githubusercontent.com/cnels127/Configs/master/Bit49(2).png
