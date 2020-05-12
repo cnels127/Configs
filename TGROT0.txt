@@ -1,6 +1,5 @@
-## instructions available at: https://asicseer.com/page/kb#writing-config
-##     3 s9 @ 16 Th/s = 48 Th/s
-##  10 s9 @ 14.4 Th/s = 144 Th/s
+##     3 s9 @ 16 Th/s = 48 Th/s (contract expires 8/23/20)
+##  10 s9 @ 14.4 Th/s = 144 Th/s (contract expires 9/12/20)
 ## TOTAL EXP HASHRATE = 192 Th/s
 
 global custompanel TGROT0bit049
@@ -31,7 +30,6 @@ global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 global panelclear 999
-# global panelpass gj83Nkgikg
 
 # global retune 1
 # global reboot 1574799411
@@ -39,93 +37,63 @@ global panelclear 999
 # global reset 1
 
 ## vlans
-vlan 10.0.61.157-157
-vlan 10.0.63.84-84
-vlan 10.0.65.68-68
-vlan 10.0.115.88-88
-vlan 10.0.115.104-104
-vlan 10.0.115.106-106
-vlan 10.0.115.107-107
-vlan 10.0.115.66-66
-vlan 10.0.115.86-86
-vlan 10.0.116.37-37
-vlan 10.0.116.68-68
-vlan 10.0.116.94-94
-vlan 10.0.68.6
+vlan 10.0.61.157-157 # dae245
+# vlan 10.0.63.84-84 # f2dc4d # SCRAPPED 4/24/20
+vlan 10.0.65.68-68 # 0040fc
+vlan 10.0.115.88-88 # 11a6fc
+vlan 10.0.115.104-104 # 48fe50
+vlan 10.0.115.106-106 # d664b7
+vlan 10.0.115.107-107 # 56444d
+vlan 10.0.115.66-66 # 1ea527
+vlan 10.0.115.86-86 # a485fd
+vlan 10.0.116.37-37 # 052e16
+vlan 10.0.116.68-68 # cb7d1b
+vlan 10.0.116.94-94 # a83fdc
+vlan 10.0.60.14-14 # 3ec4f8
+
+vlan 10.0.32.110-110 # f78d9a # 14.6 Th/s # extra added 3/9/20
+vlan 10.0.50.15-15 # b45f14 # 14.6 Th/s # extra added 3/9/20
+vlan 10.0.50.127-127 # 0d7f09 # 14.8 Th/s # extra added 3/9/20
+vlan 10.0.117.84-84 # 593230 # extra added 12/19/19
+vlan 10.0.119.8-8 # 24884e # extra added 12/6/19
 
 ## locations
-dae245 location TGROT00001
-f2dc4d location TGROT00002
-0040fc location TGROT00003
-11a6fc location TGROT00004
-48fe50 location TGROT00005
-d664b7 location TGROT00006
-56444d location TGROT00007
-1ea527 location TGROT00008
-a485fd location TGROT00009
-052e16 location TGROT00010
-cb7d1b location TGROT00011
-a83fdc location TGROT00012
-3ec4f8 location TGROT00013
-# extra machines added 12/6/19
-45099f location TGROT0XTRA # 10.0.54.19
-24884e location TGROT0XTRA # 10.0.119.8
-# extra machines added 12/19/19
-affb58 location TGROT0XTRA # 10.0.121.10
-593230 location TGROT0XTRA # 10.0.117.84
-# extra machines added 3/9/20 # 58.7 Th/s
-0d7f09 location TGROT0XTRA # 10.0.50.127 # 14.8 Th/s
-8cf564 location TGROT0XTRA # 10.0.31.48 # 14.7 Th/s
-f78d9a location TGROT0XTRA # 10.0.31.138 # 14.6 Th/s
-b45f14 location TGROT0XTRA # 10.0.50.15 # 14.6 Th/s
+dae245 location TGROT00001 # 10.0.61.157
+# f2dc4d location TGROT00002 # 10.0.63.84 # SCRAPPED 4/24/20
+0040fc location TGROT00003 # 10.0.65.68
+11a6fc location TGROT00004 # 10.0.115.88
+48fe50 location TGROT00005 # 10.0.115.104
+d664b7 location TGROT00006 # 10.0.115.106
+56444d location TGROT00007 # 10.0.115.107
+1ea527 location TGROT00008 # 10.0.115.66
+a485fd location TGROT00009 # 10.0.115.86
+052e16 location TGROT00010 # 10.0.116.37
+cb7d1b location TGROT00011 # 10.0.116.68
+a83fdc location TGROT00012 # 10.0.116.94
+3ec4f8 location TGROT00013 # 10.0.60.14
+f78d9a location TGROT0XTRA # 10.0.32.110 # 14.6 Th/s # extra added 3/9/20
+b45f14 location TGROT0XTRA # 10.0.50.15 # 14.6 Th/s # extra added 3/9/20
+0d7f09 location TGROT0XTRA # 10.0.50.127 # 14.8 Th/s # extra added 3/9/20
+593230 location TGROT0XTRA # 10.0.117.84 # extra added 12/19/19
+24884e location TGROT0XTRA # 10.0.119.8 # extra added 12/6/19
+
+## tuning
 
 ## throttle
-1ea527 uncork 158532623
-b45f14 uncork 158532623
-8cf564 uncork 158532623
-11a6fc uncork 158532623
-45099f uncork 158532623
-052e16 uncork 158532623
 
 ## fans
 
 ## reboots
-# s_reboot generated on Mar 26 2020 19:42:06 utc: 1585251726
-11a6fc reboot 1585251726 # 10.0.115.88 tgrot00004
-45099f reboot 1585251726 # 10.0.54.19 tgrot0xtra
-593230 reboot 1585251726 # 10.0.117.84 tgrot0xtra
-f2dc4d reboot 1585251726 # 10.0.63.84 tgrot00002
-48fe50 reboot 1585251726 # 10.0.115.104 tgrot00005
-d664b7 reboot 1585251726 # 10.0.115.106 tgrot00006
-56444d reboot 1585251726 # 10.0.115.107 tgrot00007
-a485fd reboot 1585251726 # 10.0.115.86 tgrot00009
-052e16 reboot 1585251726 # 10.0.116.37 tgrot00010
-cb7d1b reboot 1585251726 # 10.0.116.68 tgrot00011
-a83fdc reboot 1585251726 # 10.0.116.94 tgrot00012
 
 ## resets
-affb58 reset 1578010592
-a83fdc reset 1577997030
-3ec4f8 reset 1577997030
-052e16 reset 1577128251
-f2dc4d reset 1575662745 # 10.0.63.84 tgrot00002
-48fe50 reset 1575662745 # 10.0.115.104 tgrot00005
-d664b7 reset 1575662745 # 10.0.115.106 tgrot00006
-
-48fe50 reset 1574977440
-dae245 reset 1574977440
-f2dc4d reset 1574977440
-0040fc reset 1574977440
-11a6fc reset 1574977440
-052e16 reset 1574977440
-3ec4f8 reset 1574977440
-a83fdc reset 1573160574
-0040fc reset 1573160574
-d664b7 reset 1573160574
-f2dc4d reset 1573151731
 
 ## removals
-global remove 391b81,313029,8d077e
+global remove 391b81,313029,8d077e,8cf564,45099f,affb58
 
-## asic password
+## VPS pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
+## Remote pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCovql1bo+pkGUoq+zckj82BiW5CIBbxq1+wfET94ULY9b/BJzZHFxxjX79+aG4oilCpUKHFTJHv8Ox3IvtPxWGyx5IpV+avJqCO66+7/aIoG+Cqcz7f9pZPhK61qOG9AQsLNaZHaaB+jif7qCmXiDB1/eDzKHIh2UHdEnZSkcTrwdU40yA4JhenTAMJAxITopjAfURgJtTOkr9eBIVM6Xj/0x/f9ZUvL5jSLNDL9ujce928zCwvcMND+lrB3q5VgMluwihMUWZ3gJfsvZdHwPVXDP+qo1DaIP/oJ/rfD/ef9KkmYTYS3+RaYwGEJoGd0uHCUzSIl3oUJQg6kj4H22p
+# global panelpass gj83Nkgikg
 asicpass admin
+global logo https://raw.githubusercontent.com/cnels127/Configs/master/Bit49(2).png
