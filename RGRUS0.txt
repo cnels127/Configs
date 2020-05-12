@@ -1,5 +1,4 @@
-## instructions available at: https://asicseer.com/page/kb#writing-config
-## TOTAL EXP HASHRATE 1 s9 @ 16 Th/s = 16 Th/s
+## 1 s9 @ 16 Th/s = 16 Th/s (contract expires 7/22/20)
 
 global custompanel RGRUS0bit049
 global customer bit49-Russia
@@ -40,6 +39,8 @@ vlan 10.0.66.148-148 # 658bd9
 
 ## locations
 658bd9 location 132139 # 10.0.66.148
+
+## tuning
 
 ## throttle
 
