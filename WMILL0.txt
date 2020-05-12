@@ -1,5 +1,4 @@
-## instructions available at: https://asicseer.com/page/kb#writing-config
-## TOTAL EXP HASHRATE 5 s9 @ 14.4 Th/s = 72 Th/s
+## 5 s9 @ 14.4 Th/s = 72 Th/s (contract expires 2/16/20)
 
 global custompanel WMILL0bit049
 global customer bit49-Russia
@@ -29,7 +28,6 @@ global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 global panelclear 999
-# global panelpass gj83Nkgikg
 
 # global retune 1
 # global reboot 1
@@ -37,73 +35,36 @@ global panelclear 999
 # global reset 1
 
 ## vlans
-vlan 10.0.53.55-59
+vlan 10.0.53.55-55 # 35740c
+vlan 10.0.53.56-56 # cb178d
+vlan 10.0.53.57-57 # ed4012
+vlan 10.0.53.58-58 # 99707f
+vlan 10.0.53.59-59 # 582483
 
 ## locations
-35740c location WMILL00001
-cb178d location WMILL00002
-ed4012 location WMILL00003
-99707f location WMILL00004
-582483 location WMILL00005
-# extra machine added 12/19/19
-0ae6b9 location WMILL0XTRA # 10.0.118.8
-# extra machine added 3/6/20
-b6fba8 location WMILL0XTRA # 10.0.119.16 # 11.1 Th/s
+35740c location WMILL00001 # 10.0.53.55
+cb178d location WMILL00002 # 10.0.53.56
+ed4012 location WMILL00003 # 10.0.53.57
+99707f location WMILL00004 # 10.0.53.58
+582483 location WMILL00005 # 10.0.53.59
+
+## tuning
 
 ## throttle
-# 3/12/20
-ed4012 uncork 1584042962
-# 3/10/20
-ed4012 uncork 1583858460
-# 3/6/20
-35740c uncork 1583524176
-cb178d uncork 1583524176
-582483 uncork 1583524176
-# 3/2/20
-ed4012 uncork 1583188206
-99707f uncork 1583188206
-582483 uncork 1583188206
-# 2/18/20
-ed4012 uncork 1582064403
-
-ed4012 uncork 1581039359
-ed4012 uncork 1580508715
-99707f uncork 1580508715
-582483 uncork 1580508715
-582483 uncork 1577247422
-582483 uncork 1577247422
 
 ## fans
 
 ## reboots
-b6fba8 reboot 1585238060 # 10.0.119.16 wmill0xtra
-99707f reboot 1585238060 # 10.0.53.58 wmill00004
-ed4012 reboot 1585238060 # 10.0.53.57 wmill00003
 
 ## resets
-99707f reset 1586844888
-# 3/10/20
-582483 reset 1583866705
-# 2/19/20
-ed4012 reset 1582143300
-ed4012 reset 1581548532
-54f071 reset 1581367528
-08ef17 reset 1581367528
-42bd7e reset 1581367528
-bc472e reset 1581367528
-e1ebc9 reset 1581367528
-ed4012 reset 1581361828
-ed4012 reset 1581119126
-35740c reset 1577247422
-99707f reset 1575004101
-35740c reset 1574978347
-cb178d reset 1574978347
-99707f reset 1574978347
-cb178d reset 1574125039
-35740c reset 1574125039
-99707f reset 1573940666
 
 ## removals
+global remove 0ae6b9,b6fba8
 
-## asic password
+## VPS pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
+## Remote pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCovql1bo+pkGUoq+zckj82BiW5CIBbxq1+wfET94ULY9b/BJzZHFxxjX79+aG4oilCpUKHFTJHv8Ox3IvtPxWGyx5IpV+avJqCO66+7/aIoG+Cqcz7f9pZPhK61qOG9AQsLNaZHaaB+jif7qCmXiDB1/eDzKHIh2UHdEnZSkcTrwdU40yA4JhenTAMJAxITopjAfURgJtTOkr9eBIVM6Xj/0x/f9ZUvL5jSLNDL9ujce928zCwvcMND+lrB3q5VgMluwihMUWZ3gJfsvZdHwPVXDP+qo1DaIP/oJ/rfD/ef9KkmYTYS3+RaYwGEJoGd0uHCUzSIl3oUJQg6kj4H22p
+# global panelpass gj83Nkgikg
 asicpass admin
+global logo https://raw.githubusercontent.com/cnels127/Configs/master/Bit49(2).png
