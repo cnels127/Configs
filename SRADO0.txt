@@ -1,5 +1,8 @@
-## instructions available at: https://asicseer.com/page/kb#writing-config
-## TOTAL EXP HASHRATE 42 s9 @ 14.4 Th/s = 604.8 Th/s
+##   3 s9 @ 14.4 Th/s = 43.2 Th/s (contract expires 1/17/20)
+##   3 s9 @ 14.4 Th/s = 43.2 Th/s (contract expires 3/5/20)
+##  10 s9 @ 14.4 Th/s = 144 Th/s (contract expires 5/29/20)
+##  26 s9 @ 14.4 Th/s = 374.4 Th/s (contract expires 7/29/20)
+## TOTAL EXP HASHRATE = 604.8 Th/s
 
 global custompanel SRADO0bit049
 global customer bit49-Russia
@@ -29,505 +32,145 @@ global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 global panelclear 999
-# global panelpass gj83Nkgikg
 
 # global retune 1
 # global reboot 1
 # global uncork 1
 # global reset 1574964715
 
+## vlans
+vlan 10.0.54.139-139 # c8c8e3
+vlan 10.0.54.140-140 # 71393e
+vlan 10.0.54.141-141 # bd2001
+vlan 10.0.117.46-46 # 0f22cc # SCRAPPED 4/23/20
+vlan 10.0.117.47-47 # a23fe5
+# vlan 10.0.117.48-48 # fc9425 # POWERED OFF - NO WORKING HASHBOARDS
+vlan 10.0.57.146-146 # 89611d
+vlan 10.0.57.150-150 # 9df692
+vlan 10.0.57.153-153 # 6e3f38
+vlan 10.0.57.155-155 # 531bec
+vlan 10.0.66.105-105 # 756440
+vlan 10.0.57.159-159 # 6da23f
+vlan 10.0.58.8-8 # 7c6af8
+vlan 10.0.58.15-15 # 50dc4e
+# vlan 10.0.58.16-16 # acd279 # SCRAPPED 4/22/20
+# vlan 10.0.58.17-17 # 44a6c9 # SCRAPPED 4/22/20
+# vlan 10.0.60.122-122 # 26db41 # POWERED OFF - NO WORKING HASHBOARDS
+# vlan 10.0.61.67-67 # 1319ac # SCRAPPED 4/24/20
+# vlan 10.0.62.48-48 # 9e09fc # POWERED OFF - NO WORKING HASHBOARDS
+vlan 10.0.62.83-83 # b128e8
+vlan 10.0.63.110-110 # e3835b
+# vlan 10.0.64.69-69 # 2bb22c # SCRAPPED 4/24/20
+# vlan 10.0.65.114-114 # ee5d70 # SCRAPPED 5/6/20
+vlan 10.0.65.36-36 # 866390
+vlan 10.0.65.55-55 # f13fb4
+vlan 10.0.66.100-100 # 0f50f9
+vlan 10.0.66.18-18 # 65013e
+vlan 10.0.66.44-44 # a39e08
+vlan 10.0.66.50-50 # 4d7ab5
+# vlan 10.0.66.51-51 # 11fec4 # POWERED OFF - NO WORKING HASHBOARDS
+vlan 10.0.67.104-104 # 957edc
+vlan 10.0.67.139-139 # c3e505
+vlan 10.0.67.141-141 # d992bc
+# vlan 10.0.67.142-142 # 354bd0 # SCRAPPED 5/6/20
+vlan 10.0.67.147-147 # e95f8a
+vlan 10.0.67.150-150 # 32d65b
+vlan 10.0.67.157-157 # 540807
+vlan 10.0.67.159-159 # ca6c85
+vlan 10.0.67.161-161 # 3815f9
+vlan 10.0.57.158-158 # 71bc68
+vlan 10.0.67.70-70 # 31d8e9
+vlan 10.0.53.40-40 # fb2a81
+vlan 10.3.22.48-48 # 530f2f  # 15.6 Th/s # extra added 3/23/20
+vlan 10.3.21.65-65 # 1599aa # 15.6 Th/s # extra added 3/23/20
+vlan 10.3.21.63-63 # 6bfa85 # 15.6 Th/s # extra added 3/23/20
+vlan 10.3.23.38-38 # 637f46 # 15.6 Th/s # extra added 3/23/20
+vlan 10.0.54.40-40 # 66f88a # extra added 12/23/19
+vlan 10.0.54.46-46 # 24549d # extra added 12/12/19
+vlan 10.0.62.66-66 # bfb0bc # extra added 12/23/19
+vlan 10.0.62.74-74 # d427dd # extra added 12/12/19
+vlan 10.0.59.110-110 # c5abf8 # extra added 12/12/19
+vlan 10.0.115.36-36 # 0b6094 # extra added 12/23/19
+vlan 10.0.77.49-49 # 9b7c66 # extra added 12/12/19
+vlan 10.0.77.80-80 # 5f49b0 # extra added 12/12/19
+vlan 10.0.116.70-70 # c899a0 # extra added 12/12/19
+vlan 10.0.66.37-37 # 31e7bd # extra added 12/23/19
+
+## locations
+c8c8e3 location SRADO00001 # 10.0.54.139
+71393e location SRADO00002 # 10.0.54.140
+bd2001 location SRADO00003 # 10.0.54.141
+# 0f22cc location SRADO00004 10.0.117.46 # SCRAPPED 4/23/20
+a23fe5 location SRADO00005 # 10.0.117.47
+# fc9425 location SRADO00006 # 10.0.117.48 # POWERED OFF - NO WORKING HASHBOARDS
+89611d location SRADO00007 # 10.0.57.146
+9df692 location SRADO00008 # 10.0.57.150
+6e3f38 location SRADO00009 # 10.0.57.153
+531bec location SRADO00010 # 10.0.57.155
+756440 location SRADO00011 # 10.0.66.105
+6da23f location SRADO00012 # 10.0.57.159
+7c6af8 location SRADO00013 # 10.0.58.8
+50dc4e location SRADO00014 # 10.0.58.15
+# acd279 location SRADO00015 # 10.0.58.16 # SCRAPPED 4/22/20
+# 44a6c9 location SRADO00016 # 10.0.58.17 # SCRAPPED 4/22/20
+# 26db41 location SRADO00017 # 10.0.60.122 # POWERED OFF - NO WORKING HASHBOARDS
+1319ac location SRADO00018 # 10.0.61.67 # SCRAPPED 4/24/20
+# 9e09fc location SRADO00019 # 10.0.62.48 # POWERED OFF - NO WORKING HASHBOARDS
+b128e8 location SRADO00020 # 10.0.62.83
+e3835b location SRADO00021 # 10.0.63.110
+# 2bb22c location SRADO00022 # 10.0.64.69 # SCRAPPED 4/24/20
+# ee5d70 location SRADO00023 # 10.0.65.114 # SCRAPPED 5/6/20
+866390 location SRADO00024 # 10.0.65.36
+f13fb4 location SRADO00025 # 10.0.65.55
+0f50f9 location SRADO00026 # 10.0.66.100
+65013e location SRADO00027 # 10.0.66.18
+a39e08 location SRADO00028 # 10.0.66.44
+4d7ab5 location SRADO00029 # 10.0.66.50
+# 11fec4 location SRADO00030 # 10.0.66.51 # POWERED OFF - NO WORKING HASHBOARDS
+957edc location SRADO00031 # 10.0.67.104
+c3e505 location SRADO00032 # 10.0.67.139
+d992bc location SRADO00033 # 10.0.67.141
+# 354bd0 location SRADO00034 # 10.0.67.142 # SCRAPPED 5/6/20
+e95f8a location SRADO00035 # 10.0.67.147
+32d65b location SRADO00036 # 10.0.67.150
+540807 location SRADO00037 # 10.0.67.157
+ca6c85 location SRADO00038 # 10.0.67.159
+3815f9 location SRADO00039 # 10.0.67.161
+71bc68 location SRADO00040 # 10.0.57.158
+31d8e9 location SRADO00041 # 10.0.67.70
+fb2a81 location SRADO00042 # 10.0.53.40
+530f2f location SRADO0XTRA # 10.3.22.48 # 15.6 Th/s # extra added 3/23/20
+1599aa location SRADO0XTRA # 10.3.21.65 # 15.6 Th/s # extra added 3/23/20
+6bfa85 location SRADO0XTRA # 10.3.21.63 # 15.6 Th/s # extra added 3/23/20
+637f46 location SRADO0XTRA # 10.3.23.38 # 15.6 Th/s # extra added 3/23/20
+66f88a location SRADO0XTRA # 10.0.54.40 # extra added 12/23/19
+24549d location SRADO0XTRA # 10.0.54.46 # extra added 12/12/19
+bfb0bc location SRADO0XTRA # 10.0.62.66 # extra added 12/23/19
+d427dd location SRADO0XTRA # 10.0.62.74 # extra added 12/12/19
+c5abf8 location SRADO0XTRA # 10.0.59.110 # extra added 12/12/19
+0b6094 location SRADO0XTRA # 10.0.115.36 # extra added 12/23/19
+9b7c66 location SRADO0XTRA # 10.0.77.49 # extra added 12/12/19
+5f49b0 location SRADO0XTRA # 10.0.77.80 # extra added 12/12/19
+c899a0 location SRADO0XTRA # 10.0.116.70 # extra added 12/12/19
+31e7bd location SRADO0XTRA # 10.0.66.37 # extra added 12/23/19
+
+## tuning
+
+## throttle
+
+## fans
+
+## reboots
+
+## resets
+
 ## removals
 global remove 37923f
 
-## vlans
-# vlan 10.0.54.139-141
-# vlan 10.0.57.146-146
-# vlan 10.0.57.150-150
-# vlan 10.0.57.153-153
-# vlan 10.0.57.155-155
-# vlan 10.0.57.158-159
-# vlan 10.0.58.8-8
-# vlan 10.0.58.15-17
-# vlan 10.0.68.42-44
-# vlan 10.0.60.122-122
-# vlan 10.0.61.67-67
-# vlan 10.0.62.48-48
-# vlan 10.0.62.83-83
-# vlan 10.0.63.110-110
-# vlan 10.0.64.69-69
-# vlan 10.0.65.114-114
-# vlan 10.0.65.36-36
-# vlan 10.0.65.55-55
-# vlan 10.0.66.100-100
-# vlan 10.0.66.105-105
-# vlan 10.0.66.18-18
-# vlan 10.0.66.44-44
-# vlan 10.0.66.50-50
-# vlan 10.0.66.51-51
-# vlan 10.0.67.104-104
-# vlan 10.0.67.139-139
-# vlan 10.0.67.141-141
-# vlan 10.0.67.142-142
-# vlan 10.0.67.147-147
-# vlan 10.0.67.150-150
-# vlan 10.0.67.157-157
-# vlan 10.0.67.159-159
-# vlan 10.0.67.161-161
-# vlan 10.0.57.158-158
-# vlan 10.0.67.70-70
-# vlan 10.0.68.4-4
-# extra machine added 12/12/19
-vlan 10.0.54.46-46
-vlan 10.0.62.74-74
-vlan 10.0.59.110-110
-vlan 10.0.77.80-80
-vlan 10.0.116.70-70
-vlan 10.0.77.49-49
-
-##  locations
-c8c8e3 location SRADO00001
-71393e location SRADO00002
-bd2001 location SRADO00003
-0f22cc location SRADO00004
-a23fe5 location SRADO00005
-fc9425 location SRADO00006
-89611d location SRADO00007
-9df692 location SRADO00008
-6e3f38 location SRADO00009
-531bec location SRADO00010
-756440 location SRADO00011
-6da23f location SRADO00012
-7c6af8 location SRADO00013
-50dc4e location SRADO00014
-acd279 location SRADO00015
-44a6c9 location SRADO00016
-26db41 location SRADO00017
-1319ac location SRADO00018
-9e09fc location SRADO00019
-b128e8 location SRADO00020
-e3835b location SRADO00021
-2bb22c location SRADO00022
-ee5d70 location SRADO00023
-866390 location SRADO00024
-f13fb4 location SRADO00025
-0f50f9 location SRADO00026
-65013e location SRADO00027
-a39e08 location SRADO00028
-4d7ab5 location SRADO00029
-11fec4 location SRADO00030
-957edc location SRADO00031
-c3e505 location SRADO00032
-d992bc location SRADO00033
-354bd0 location SRADO00034
-e95f8a location SRADO00035
-32d65b location SRADO00036
-540807 location SRADO00037
-ca6c85 location SRADO00038
-3815f9 location SRADO00039
-71bc68 location SRADO00040
-31d8e9 location SRADO00041
-fb2a81 location SRADO00042
-# extra machines added 12/12/19
-24549d location SRADO0XTRA # 10.0.54.46
-d427dd location SRADO0XTRA # 10.0.62.74
-c5abf8 location SRADO0XTRA # 10.0.59.110
-5f49b0 location SRADO0XTRA # 10.0.77.80
-c899a0 location SRADO0XTRA # 10.0.116.70
-9b7c66 location SRADO0XTRA # 10.0.77.49
-# extra machines added 12/23/19
-bfb0bc location SRADO0XTRA # 10.0.62.66
-0b6094 location SRADO0XTRA # 10.0.115.36
-66f88a location SRADO0XTRA # 10.0.54.40
-31e7bd location SRADO0XTRA # 10.0.66.37
-37923f location SRADO0XTRA # 10.0.77.123
-# extra machines added 3/23/20
-530f2f location SRADO0XTRA # 10.0.30.157 # 15.6 Th/s
-1599aa location SRADO0XTRA # 10.0.31.26 # 15.6 Th/s
-6bfa85 location SRADO0XTRA # 10.0.31.52 # 15.6 Th/s
-637f46 location SRADO0XTRA # 10.0.31.68 # 15.6 Th/s
-
-## throttle
-# 3/25/20
-756440 uncork 1585158280
-530f2f uncork 1585158280
-d427dd uncork 1585158280
-957edc uncork 1585158280
-ca6c85 uncork 1585158280
-3815f9 uncork 1585158280
-31d8e9 uncork 1585158280
-
-# 3/23/20
-65013e uncork 1584992067
-ca6c85 uncork 1584990253
-d427dd uncork 1584990253
-bd2001 uncork 1584990253
-9df692 uncork 1584990253
-531bec uncork 1584990253
-7c6af8 uncork 1584990253
-50dc4e uncork 1584990253
-c3e505 uncork 1584990253
-
-# 3/18/20
-bd2001 uncork 1584555294
-b128e8 uncork 1584555294
-
-# 3/16/20
-31e7bd uncork 1584376680
-89611d uncork 1584376680
-531bec uncork 1584376680
-3815f9 uncork 1584376680 # firetruck error
-957edc uncork 1584376680 # fire extinguisher error
-
-# 2/28/20
-9e09fc uncork 1582907319
-
-# 2/27/20
-531bec uncork 1582827473
-0f50f9 uncork 1582827473
-65013e uncork 1582827473
-d427dd uncork 1582827473
-9e09fc uncork 1582827473
-bd2001 uncork 1582827473
-
-# 2/26/20
-bd2001 uncork 1582745683
-
-# 2/20/20
-a23fe5 uncork 1582223574
-
-# 2/18/20
-bd2001 uncork 1582053859
-a23fe5 uncork 1582053859
-531bec uncork 1582053859
-ee5d70 uncork 1582053859
-31e7bd uncork 1582053859
-
-# 2/14/20
-6e3f38 uncork 1581705623
-a23fe5 uncork 1581705623
-31e7bd uncork 1581705623
-531bec uncork 1581705623
-fb2a81 uncork 1581705623
-
-# 2/12/20
-31e7bd uncork 1581531210
-fc9425 uncork 1581531210
-2bb22c uncork 1581531210
-
-# 2/11/20
-a23fe5 uncork 1581445056
-65013e uncork 1581445056
-
-# 2/4/20
-b128e8 uncork 1580841835
-d992bc uncork 1580841835
-2bb22c uncork 1580841835
-37923f uncork 1580841835
-26db41 uncork 1580841835
-acd279 uncork 1580841835
-e3835b uncork 1580841835
-ee5d70 uncork 1580841835
-
-# 2/3/20
-89611d uncork 1580754961
-24549d uncork 1580754961
-31e7bd uncork 1580754961
-531bec uncork 1580754961
-b128e8 uncork 1580754961
-d992bc uncork 1580754961
-71bc68 uncork 1580754961
-
-# 1/28/20
-c899a0 uncork 1580237950
-
-# 1/27/20
-26db41 uncork 1580150175
-bd2001 uncork 1580150175
-0f22cc uncork 1580150175
-acd279 uncork 1580150175
-c8c8e3 uncork 1580150175
-e3835b uncork 1580150175
-
-# 1/22/20
-31e7bd uncork 1579719017
-37923f uncork 1579719017
-0f22cc uncork 1579719017
-89611d uncork 1579719017
-531bec uncork 1579719017
-b128e8 uncork 1579719017
-ee5d70 uncork 1579719017
-71bc68 uncork 1579719017
-
-# 1/17/20
-d427dd uncork 1579289586
-31e7bd uncork 1579289586
-a23fe5 uncork 1579289586
-531bec uncork 1579289586
-acd279 uncork 1579289586
-b128e8 uncork 1579289586
-ee5d70 uncork 1579289586
-65013e uncork 1579289586
-4d7ab5 uncork 1579289586
-fb2a81 uncork 1579289586
-
-bd2001 uncork 1578681530
-531bec uncork 1578681530
-37923f uncork 1578681530
-a23fe5 uncork 1578681530
-fb2a81 uncork 1578681530
-4d7ab5 uncork 1578681530
-31e7bd uncork 1578681530
-65013e uncork 1578681530
-acd279 uncork 1578681530
-866390 uncork 1578681530
-71bc68 uncork 1578681530
-354bd0 uncork 1578681530
-fc9425 uncork 1578681530
-9e09fc uncork 1578681530
-e3835b uncork 1578681530
-89611d uncork 1578681530
-
-0f22cc uncork 1577906703
-c8c8e3 uncork 1577906703
-89611d uncork 1577906703
-26db41 uncork 1577906703
-e3835b uncork 1577906703
-2bb22c uncork 1577906703
-354bd0 uncork 1577906703
-31e7bd uncork 1577906703
-fc9425 uncork 1577905493
-37923f uncork 1577905493
-d427dd uncork 1577905493
-31e7bd uncork 1577905493
-71393e uncork 1577905493
-bd2001 uncork 1577905493
-a23fe5 uncork 1577905493
-b128e8 uncork 1577905493
-65013e uncork 1577905493
-
-bd2001 uncork 1577469292
-66f88a uncork 1577469292
-37923f uncork 1577469292
-71393e unork 1577469292
-89611d uncork 1577469292
-b128e8 uncork 1577469292
-
-bd2001 uncork 1577126141
-acd279 uncork 1577126141
-b128e8 uncork 1577126141
-ee5d70 uncork 1577126141
-65013e uncork 1577126141
-fb2a81 uncork 1577126141
-11fec4 uncork 1577126141
-fc9425 uncork 1577126141
-354bd0 uncork 1577126141
-f13fb4 uncork 1577126141
-e95f8a uncork 1577126141
-
-354bd0 uncork 1576859275
-fc9425 uncork 1576859275
-89611d uncork 1576859275
-e3835b uncork 1576859275
-ee5d70 uncork 1576859275
-65013e uncork 1576859275 
-fb2a81 uncork 1576859275
-
-31d8e9 uncork 1576683111
-fb2a81 uncork 1576592907
-a23fe5 uncork 1576592907
-acd279 uncork 1576592907
-
-c8c8e3 uncork 1576165588
-0f22cc uncork 1576165588
-354bd0 uncork 1576165588
-3815f9 uncork 1576165588
-
-fc9425 uncork 1576164374
-0f50f9 uncork 1576164374
-31d8e9 uncork 1576164374
-bd2001 uncork 1576164374
-a23fe5 uncork 1576164374
-89611d uncork 1576164374
-acd279 uncork 1576164374
-1319ac uncork 1576164374
-9e09fc uncork 1576164374
-fb2a81 uncork 1576164374
-
-ca6c85 uncork 1575388036
-354bd0 uncork 1575388036
-ee5d70 uncork 1575388036
-26db41 uncork 1575388036
-89611d uncork 1575388036
-9df692 uncork 1575388036
-71bc68 uncork 1575388036
-c8c8e3 uncork 1575388036
-
-## fans
-a23fe5 fanspeed 90 
-
-## reboots
-# 3/25/20
-c3e505 reboot 1585158347
-
-# 3/20/20
-a39e08 reboot 1584724587
-
-# 2/27/20
-e95f8a reboot 1582827502
-
-# 2/26/20
-bfb0bc reboot 1582745637
-531bec reboot 1582745637
-ee5d70 reboot 1582745637
-
-# 2/20/20
-bfb0bc reboot 1582223279
-e95f8a reboot 1582223279
-
-# 2/14/20
-bfb0bc reboot 1581705670
-
-# 2/12/20
-531bec reboot 1581531619
-
-# 2/11/20
-0f22cc reboot 1581444850
-354bd0 reboot 1581444850  
-11fec4 reboot 1581445855
-2bb22c reboot 1581445855
-26db41 reboot 1581445855
-37923f reboot 1581445855
-fc9425 reboot 1581445855
-
-# 2/3/20
-bfb0bc reboot 1580755000
-
-# 1/31/20
-71bc68 reboot 1580495866
-
-# 1/24/20
-fc9425 reboot 1579893614
-2bb22c reboot 1579893614
-
-# 1/23/20
-354bd0 reboot 1579808176
-2bb22c reboot 1579808176
-
-# 1/17/20
-2bb22c reboot 1579289629
-11fec4 reboot 1579289629
-354bd0 reboot 1579289629
-
-# 1/8/20
-531bec reboot 1578512072
-354bd0 reboot 1578512072
-e95f8a reboot 1578512072
-71bc68 reboot 1578512072
-
-## retunes
-# 3/2/20
-fb2a81 retune 1583174412
-d992bc retune 1583174412
-
-# 2/28/20
-d427dd retune 1582907366
-6e3f38 retune 1582907366
-
-# 2/12/20
-d992bc retune 1581532190
-
-# 2/11/20
-66f88a retune 1581445446
-c5abf8 retune 1581445446
-5f49b0 retune 1581445446
-c3e505 retune 1581445446
-540807 retune 1581445446
-71bc68 retune 1581445446
-fb2a81 retune 1581445446
-
-# 1/10/20
-866390 retune 1578684494
-540807 retune 1578684494
-0f50f9 retune 1578684494
-0b6094 retune 1578684494
-bd2001 retune 1578684494
-d992bc retune 1578684494
-756440 retune 1578684494
-66f88a retune 1578684494
-7c6af8 retune 1578684494
-6e3f38 retune 1578684494
-9b7c66 retune 1578684494
-71393e retune 1578684494
-24549d retune 1578684494
-c899a0 retune 1578684494
-c5abf8 retune 1578684494
-bfb0bc retune 1578684494
-5f49b0 retune 1578684494
-c3e505 retune 1578684494
-ca6c85 retune 1578684494
-957edc retune 1578684494
-b128e8 retune 1578684494
-d427dd retune 1578684494
-4d7ab5 retune 1578684494
-
-## resets
-# 3/2/20
-756440 reset 1585083274
-
-# 3/23/20
-3815f9 reset 1584983500
-957edc reset 1584983500
-3815f9 reset 1584983500
-3815f9 reset 1584983500
-
-# 3/17/20
-bfb0bc reset 1584474996
-
-# 3/2/20
-a23fe5 reset 1583174221
-
-# 2/27/20
-957edc reset 1582829836
-bd2001 reset 1582829836
-
-# 2/21/20
-31e7bd reset 1582316488
-531bec reset 1582316488
-bd2001 reset 1582316488
-
-# 2/19/20
-bd2001 reset 1582136331
-
-#2/14/20
-6e3f38 reset 1581716989
-
-# 2/4/20
-fc9425 reset 1580841721
-
-5f49b0 reset 1579538962
-0f22cc reset 1578768073
-
-a23fe5 reset 1576972796
-1319ac reset 1576683111
-2bb22c reset 1575310551
-fb2a81 reset 1575310551
-acd279 reset 1574970911
-0f22cc reset 1574970911
-a23fe5 reset 1574970911
-2bb22c reset 1574970911
-866390 reset 1574970911
-65013e reset 1574970911
-11fec4 reset 1574970911
-866390 reset 1574811120
-11fec4 reset 1574811120
-65013e reset 1574780587
-a39e08 reset 1574780587
-4d7ab5 reset 1574780587
-0f22cc reset 1574780587
-a23fe5 reset 1574780587
-
-acd279 reset 1574693423
-0f22cc reset 1573327230
-
-## asic password
+## VPS pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
+## Remote pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCovql1bo+pkGUoq+zckj82BiW5CIBbxq1+wfET94ULY9b/BJzZHFxxjX79+aG4oilCpUKHFTJHv8Ox3IvtPxWGyx5IpV+avJqCO66+7/aIoG+Cqcz7f9pZPhK61qOG9AQsLNaZHaaB+jif7qCmXiDB1/eDzKHIh2UHdEnZSkcTrwdU40yA4JhenTAMJAxITopjAfURgJtTOkr9eBIVM6Xj/0x/f9ZUvL5jSLNDL9ujce928zCwvcMND+lrB3q5VgMluwihMUWZ3gJfsvZdHwPVXDP+qo1DaIP/oJ/rfD/ef9KkmYTYS3+RaYwGEJoGd0uHCUzSIl3oUJQg6kj4H22p
+# global panelpass gj83Nkgikg
 asicpass admin
+global logo https://raw.githubusercontent.com/cnels127/Configs/master/Bit49(2).png
