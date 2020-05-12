@@ -1,6 +1,5 @@
-## instructions available at: https://asicseer.com/page/kb#writing-config
-##     1 s9 @ 16 Th/s = 16 Th/s
-##  10 s9 @ 14.4 Th/s = 144 Th/s
+##     1 s9 @ 16 Th/s = 16 Th/s (contract expires 8/18/20)
+##  10 s9 @ 14.4 Th/s = 144 Th/s (contract expires 9/4/20)
 ## TOTAL EXP HASHRATE = 160 Th/s
 
 global custompanel VDUBO0bit049
@@ -31,7 +30,6 @@ global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 global panelclear 999
-# global panelpass gj83Nkgikg
 
 # global retune 1
 # global reboot 1573583357 # 1
@@ -39,163 +37,61 @@ global panelclear 999
 # global reset 1
 
 ## vlans
-vlan 10.0.61.142-142
-vlan 10.0.51.115-115
-vlan 10.0.51.124-124
-vlan 10.0.51.130-130
-vlan 10.0.53.19-19
-vlan 10.0.77.10-10
-vlan 10.0.77.107-107
-vlan 10.0.77.131-131
-vlan 10.0.77.134-134
-vlan 10.0.77.87-87
-vlan 10.0.77.88-88
+# vlan 10.0.61.142-142 # ac80c9 # SCRAPPED 4/30/20 REPLACED WITH 10.0.63.75
+vlan 10.0.63.75-75 # 10992f
+vlan 10.0.51.115-115 # 4e6021
+vlan 10.0.51.124-124 # 175f83
+vlan 10.0.51.130-130 # 6fc701
+vlan 10.0.53.19-19 # c6a34d
+# vlan 10.0.77.10-10 # edcb66 # POWERED DOWN - NO WORKING HASHBOARDS
+# vlan 10.0.77.107-107 # bc84e4 # SCRAPPED 4/27/20
+vlan 10.0.77.131-131 # c55b18
+vlan 10.0.77.134-134 # 0f7cf9
+vlan 10.0.77.87-87 # 33ab1b
+vlan 10.0.77.88-88 # 215267
+vlan 10.0.50.160-160 # 0a2190 # 13 Th/s # extra added 3/9/20
+vlan 10.0.55.42-42 # 694670 # 12.2 Th/s # extra added 3/9/20
+vlan 10.0.54.20-20 # ada517 # extra added 12/6/19
+vlan 10.0.54.22-22 # 535558 # extra added 12/6/19
+vlan 10.0.54.30-30 # 0cf968 # extra added 12/6/19
+vlan 10.0.54.35-35 # 870cd5 # 12.5 Th/s # extra added 3/9/20
 
 ## locations
-ac80c9 location VDUBO00001
-4e6021 location VDUBO00002
-175f83 location VDUBO00003
-6fc701 location VDUBO00004
-c6a34d location VDUBO00005
-edcb66 location VDUBO00006
-bc84e4 location VDUBO00007
-c55b18 location VDUBO00008
-0f7cf9 location VDUBO00009
-33ab1b location VDUBO00010
-215267 location VDUBO00011
-# extra machines added 12/6/19
-ada517 location VDUBO0XTRA # 10.0.54.20
-535558 location VDUBO0XTRA # 10.0.54.22
-0cf968 location VDUBO0XTRA # 10.0.54.30
-# extra machines added 3/9/20
-870cd5 location VDUBO0XTRA # 10.0.54.35 # 12.5 Th/s
-0a2190 location VDUBO0XTRA # 10.0.50.160 # 13 Th/s
-694670 location VDUBO0XTRA # 10.0.55.42 # 12.2 Th/s
+# ac80c9 location VDUBO00001 # 10.0.61.142 # SCRAPPED 4/30/20 REPLACED WITH 10.0.63.75
+10992f location VDUBO00001 # 10.0.63.75
+4e6021 location VDUBO00002 # 10.0.51.115
+175f83 location VDUBO00003 # 10.0.51.124
+6fc701 location VDUBO00004 # 10.0.51.130
+c6a34d location VDUBO00005 # 10.0.53.19
+# edcb66 location VDUBO00006 # 10.0.77.10 # POWERED DOWN - NO WORKING HASHBOARDS
+# bc84e4 location VDUBO00007 # 10.0.77.107 # SCRAPPED 4/27/20
+c55b18 location VDUBO00008 # 10.0.77.131
+0f7cf9 location VDUBO00009 # 10.0.77.134
+33ab1b location VDUBO00010 # 10.0.77.87
+215267 location VDUBO00011 # 10.0.77.88
+0a2190 location VDUBO0XTRA # 10.0.50.160 # 13 Th/s # extra added 3/9/20
+694670 location VDUBO0XTRA # 10.0.55.42 # 12.2 Th/s # extra added 3/9/20
+ada517 location VDUBO0XTRA # 10.0.54.20 # extra added 12/6/19
+535558 location VDUBO0XTRA # 10.0.54.22 # extra added 12/6/19
+0cf968 location VDUBO0XTRA # 10.0.54.30 # extra added 12/6/19
+870cd5 location VDUBO0XTRA # 10.0.54.35 # 12.5 Th/s # extra added 3/9/20
 
+## tuning
 
 ## throttle
-# 3/23/20
-215267 uncork 1585010334
-# 3/20/20
-870cd5 uncork 1584720657
-0cf968 uncork 1584720657
-535558 uncork 1584720657
-4e6021 uncork 1584720657
-0f7cf9 uncork 1584720657
-c6a34d uncork 1584720657
-175f83 uncork 1584720657
-6fc701 uncork 1584720657
-33ab1b uncork 1584720657
-694670 uncork 1584720657
-# 3/19/20
-0a2190 uncork 1584638829
-# 3/18/20
-33ab1b uncork 1584566869
-0f7cf9 uncork 1584566869
-175f83 uncork 1584566869
-4e6021 uncork 1584566869
-535558 uncork 1584566869
-0a2190 uncork 1584566869
-215267 uncork 1584566869
-6fc701 uncork 1584566869
-694670 uncork 1584566869
-# 3/16/20
-215267 uncork 1584382216
-# 3/13/20
-694670 uncork 1584122239
-# 3/10/20
-870cd5 uncork 1583855625
-694670 uncork 1583855625
-# 3/6/20
-ada517 uncork 1583520080
-# 2/24/20
-edcb66 uncork 1582567579
-# 2/21/20
-edcb66 uncork 1582314677
-# 2/17/20
-215267 uncork 1581965623
-
-6fc701 uncork 1581548338
-ac80c9 uncork 1581020195
-ada517 uncork 1581020195
-0f7cf9 uncork 1580414046
-0cf968 uncork 1580414046
-535558 uncork 1580414046
-ada517 uncork 1580414046
-edcb66 uncork 1580414046
-33ab1b uncork 1580414046
-# s_uncork generated on Jan 10 2020 19:56:54 utc: 1578686214
-5ed367 uncork 1578686214 # 10.0.53.92 ahopf0xtra
-ec49d0 uncork 1578686214 # 10.0.119.98 ahopf00125
-963726 uncork 1578686214 # 10.0.53.75 ahopf0xtra
-bde5f4 uncork 1578686214 # 10.0.53.73 ahopf0xtra
-f6b2c7 uncork 1578686214 # 10.0.20.40 ahopf00343
-2e67dc uncork 1578686214 # 10.0.115.118 ahopf00076
 
 ## fans
 
 ## reboots
-ac80c9 reboot 1573503004
-33ab1b reboot 1585238168 # 10.0.77.87 vdubo00010
-0cf968 reboot 1585238168 # 10.0.54.30 vdubo0xtra
-535558 reboot 1585238168 # 10.0.54.22 vdubo0xtra
-870cd5 reboot 1585238168 # 10.0.54.35 vdubo0xtra
-215267 reboot 1585238168 # 10.0.77.88 vdubo00011
-694670 reboot 1585238168 # 10.0.55.42 vdubo0xtra
-ac80c9 reboot 1585238168 # 10.0.61.142 vdubo00001
-175f83 reboot 1585238168 # 10.0.51.124 vdubo00003
-6fc701 reboot 1585238168 # 10.0.51.130 vdubo00004
-edcb66 reboot 1585238168 # 10.0.77.10 vdubo00006
-bc84e4 reboot 1585238168 # 10.0.77.107 vdubo00007
-c55b18 reboot 1585238168 # 10.0.77.131 vdubo00008
 
 ## resets
-# 3/23/20
-c6a34d reset 1584985489
-535558 reset 1584985489
-0cf968 reset 1584985489
-870cd5 reset 1584985489
-694670 reset 1584985489
-4e6021 reset 1584985489
-175f83 reset 1584985489
-6fc701 reset 1584985489
-0f7cf9 reset 1584985489
-33ab1b reset 1584985489
-# 3/14/20
-edcb66 reset 1584251599
-694670 reset 1584251599
-# 3/3/20
-ac80c9 reset 1583268909
-bc84e4 reset 1583268909
-# 3/2/20
-edcb66 reset 1583179371
-ac80c9 reset 1583179371
-bc84e4 reset 1583179371
-# 2/26/20
-edcb66 reset 1582746791
-#2/18/20
-215267 reset 1582054946
 
-215267 reset 1581020514
-33ab1b reset 1581009868
-c55b18 reset 1580414046
-bc84e4 reset 1580414046
-215267 reset 1580414046
-175f83 reset 1580414046
-6fc701 reset 1580414046
-edcb66 reset 1574978009
-bc84e4 reset 1574978009
-c55b18 reset 1574978009
-33ab1b reset 1574978009
-215267 reset 1574978009
-215267 reset 1574124954
-c55b18 reset 1573942105
-215267 reset 1573942105
-ac80c9 reset 1573942105
-175f83 reset 1573503004
-6fc701 reset 1573503004
-c6a34d reset 1573503004
-c55b18 reset 1573586688
+## removals
 
-## asic password
+## VPS pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
+## Remote pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCovql1bo+pkGUoq+zckj82BiW5CIBbxq1+wfET94ULY9b/BJzZHFxxjX79+aG4oilCpUKHFTJHv8Ox3IvtPxWGyx5IpV+avJqCO66+7/aIoG+Cqcz7f9pZPhK61qOG9AQsLNaZHaaB+jif7qCmXiDB1/eDzKHIh2UHdEnZSkcTrwdU40yA4JhenTAMJAxITopjAfURgJtTOkr9eBIVM6Xj/0x/f9ZUvL5jSLNDL9ujce928zCwvcMND+lrB3q5VgMluwihMUWZ3gJfsvZdHwPVXDP+qo1DaIP/oJ/rfD/ef9KkmYTYS3+RaYwGEJoGd0uHCUzSIl3oUJQg6kj4H22p
+# global panelpass gj83Nkgikg
 asicpass admin
+global logo https://raw.githubusercontent.com/cnels127/Configs/master/Bit49(2).png
