@@ -1,5 +1,4 @@
-## instructions available at: https://asicseer.com/page/kb#writing-config
-## TOTAL EXP HASHRATE 82 s9 @ 14.4 Th/s = 1180.8 Th/s
+## 82 s9 @ 14.4 Th/s = 1180.8 Th/s (contract expires 1/14/21)
 
 global custompanel JKENT0bit049
 global customer bit49-Russia
@@ -32,93 +31,110 @@ global panelclear 999
 
 # global retune 1
 # global reboot 1
-global uncork 1583791452
-global reset 1579018967
-# global panelpass gj83Nkgikg
+global uncork 1589405176
+# global reset 1579018967
 
 ## vlans (C40526 82 s9s)
-# vlan 10.0.59.6-6 # 6ad806
-# vlan 10.0.59.10-10 # 3d2252
-# vlan 10.0.59.11-11 # fdb239
-# vlan 10.0.60.151-151 # 3812f9
-# vlan 10.0.60.152-152 # 32c15c
-# vlan 10.0.60.153-153 # 4f5b96
-# vlan 10.0.60.154-154 # a6fc8d
-# vlan 10.0.61.3-3 # 091799
-# vlan 10.0.61.7-7 # 5b4180
-# vlan 10.0.61.11-11 # d5b013
-# vlan 10.0.62.29-29 # 03ee8e
-# vlan 10.0.62.31-31 # 0735b0
-# vlan 10.0.62.54-54 # 621b00
-# vlan 10.0.62.55-55 # 1c8b88
-# vlan 10.0.62.56-56 # 965250
-# vlan 10.0.62.57-57 # be8567
-# vlan 10.0.62.58-58 # 46d9bd
-# vlan 10.0.62.59-59 # a2e43b
-# vlan 10.0.62.61-61 # e490c1
-# vlan 10.0.62.62-62 # 4b97c1
-# vlan 10.0.62.63-63 # 1dbb41
-# vlan 10.0.62.65-65 # 24c735
-# vlan 10.0.62.79-79 # 677a7d
-# vlan 10.0.62.80-80 # 242283
-# vlan 10.0.62.87-87 # a82ce7
-# vlan 10.0.62.88-88 # 3b1a36
-# vlan 10.0.62.89-89 # 12ca54
-# vlan 10.0.62.90-90 # d60e3c
-# vlan 10.0.62.92-92 # d5de9e
-# vlan 10.0.62.93-93 # e56cd3
-# vlan 10.0.62.96-96 # 4a6f13
-# vlan 10.0.62.97-97 # c6e922
-# vlan 10.0.62.98-98 # a759be
-# vlan 10.0.62.99-99 # 79e2ea
-# vlan 10.0.62.100-100 # 1a3c16
-# vlan 10.0.62.105-105 # 0740da
-# vlan 10.0.62.106-106 # 427276
-# vlan 10.0.62.107-107 # 4dc4f1
-# vlan 10.0.62.109-109 # c4c92f
-# vlan 10.0.62.113-113 # 2f9a0b
-# vlan 10.0.62.114-114 # f8e794
-# vlan 10.0.62.116-116 # 7c9430
-# vlan 10.0.62.119-119 # 1faa81
-# vlan 10.0.62.120-120 # 055faf
-# vlan 10.0.62.121-121 # 1720f3
-# vlan 10.0.62.127-127 # ab6e7b
-# vlan 10.0.62.128-128 # 9bd94f
-# vlan 10.0.62.129-129 # eefeb1
-# vlan 10.0.62.130-130 # dc83d8
-# vlan 10.0.62.132-132 # 319c01
-# vlan 10.0.62.133-133 # 082c5c
-# vlan 10.0.62.135-135 # c28889
-# vlan 10.0.62.137-137 # b1914b
-# vlan 10.0.62.139-139 # 599d99
-# vlan 10.0.62.140-140 # d2e4d6
-# vlan 10.0.62.141-141 # 96a470
-# vlan 10.0.62.142-142 # b8d362
-# vlan 10.0.62.143-143 # a018a4
-# vlan 10.0.62.144-144 # 6017b2
-# vlan 10.0.62.145-145 # 7c13b1
-# vlan 10.0.62.148-148 # 6268aa
-# vlan 10.0.62.149-149 # 423257
-# vlan 10.0.62.150-150 # b18d0c
-# vlan 10.0.62.151-151 # 33ba5e
-# vlan 10.0.62.152-152 # c5f63a
-# vlan 10.0.62.155-155 # 06a09f
-# vlan 10.0.62.156-156 # c1a654
-# vlan 10.0.63.1-1 # f7aecd
-# vlan 10.0.63.4-4 # e06fec
-# vlan 10.0.63.5-5 # 952220
-# vlan 10.0.63.6-6 # fad216
-# vlan 10.0.63.7-7 # d7a370
-# vlan 10.0.63.8-8 # 8c6846
-# vlan 10.0.63.11-11 # 39e6c4
-# vlan 10.0.63.12-12 # 5868c9
-# vlan 10.0.63.13-13 # efeb44
-# vlan 10.0.63.14-14 # 83e89f
-# vlan 10.0.63.18-18 # c7d26d
-# vlan 10.0.63.19-19 # 8b483b
-# vlan 10.0.63.25-25 # 294ca8
-# vlan 10.0.63.26-26 # ce8642
-# vlan 10.0.63.27-27 # 439c15
+vlan 10.0.59.6-6 # 6ad806
+vlan 10.0.59.10-10 # 3d2252
+vlan 10.0.59.11-11 # fdb239
+vlan 10.0.60.151-151 # 3812f9
+vlan 10.0.60.152-152 # 32c15c
+vlan 10.0.60.153-153 # 4f5b96
+vlan 10.0.60.154-154 # a6fc8d
+vlan 10.0.61.3-3 # 091799
+vlan 10.0.61.7-7 # 5b4180
+vlan 10.0.61.11-11 # d5b013
+vlan 10.0.62.29-29 # 03ee8e
+vlan 10.0.62.31-31 # 0735b0
+vlan 10.0.62.54-54 # 621b00
+vlan 10.0.62.55-55 # 1c8b88
+vlan 10.0.62.56-56 # 965250
+vlan 10.0.62.57-57 # be8567
+vlan 10.0.62.58-58 # 46d9bd
+vlan 10.0.62.59-59 # a2e43b
+vlan 10.0.62.61-61 # e490c1
+vlan 10.0.62.62-62 # 4b97c1
+vlan 10.0.62.63-63 # 1dbb41
+vlan 10.0.62.65-65 # 24c735
+vlan 10.0.62.79-79 # 677a7d
+vlan 10.0.62.80-80 # 242283
+vlan 10.0.62.87-87 # a82ce7
+vlan 10.0.62.88-88 # 3b1a36
+vlan 10.0.62.89-89 # 12ca54
+vlan 10.0.62.90-90 # d60e3c
+vlan 10.0.62.92-92 # d5de9e
+vlan 10.0.62.93-93 # e56cd3
+vlan 10.0.62.96-96 # 4a6f13
+vlan 10.0.62.97-97 # c6e922
+vlan 10.0.62.98-98 # a759be
+vlan 10.0.62.99-99 # 79e2ea
+vlan 10.0.62.100-100 # 1a3c16
+vlan 10.0.62.105-105 # 0740da
+vlan 10.0.62.106-106 # 427276
+vlan 10.0.62.107-107 # 4dc4f1
+vlan 10.0.62.109-109 # c4c92f
+vlan 10.0.62.113-113 # 2f9a0b
+vlan 10.0.62.114-114 # f8e794
+vlan 10.0.62.116-116 # 7c9430
+vlan 10.0.62.119-119 # 1faa81
+vlan 10.0.62.120-120 # 055faf
+vlan 10.0.62.121-121 # 1720f3
+vlan 10.0.62.127-127 # ab6e7b
+vlan 10.0.62.128-128 # 9bd94f
+vlan 10.0.62.129-129 # eefeb1
+vlan 10.0.62.130-130 # dc83d8
+vlan 10.0.62.132-132 # 319c01
+vlan 10.0.62.133-133 # 082c5c
+vlan 10.0.62.135-135 # c28889
+vlan 10.0.62.137-137 # b1914b
+vlan 10.0.62.139-139 # 599d99
+vlan 10.0.62.140-140 # d2e4d6
+vlan 10.0.62.141-141 # 96a470
+vlan 10.0.62.142-142 # b8d362
+vlan 10.0.62.143-143 # a018a4
+vlan 10.0.62.144-144 # 6017b2
+vlan 10.0.62.145-145 # 7c13b1
+vlan 10.0.62.148-148 # 6268aa
+vlan 10.0.62.149-149 # 423257
+vlan 10.0.62.150-150 # b18d0c
+vlan 10.0.62.151-151 # 33ba5e
+vlan 10.0.62.152-152 # c5f63a
+vlan 10.0.62.155-155 # 06a09f
+vlan 10.0.62.156-156 # c1a654
+vlan 10.0.63.1-1 # f7aecd
+vlan 10.0.63.4-4 # e06fec
+vlan 10.0.63.5-5 # 952220
+vlan 10.0.63.6-6 # fad216
+vlan 10.0.63.7-7 # d7a370
+vlan 10.0.63.8-8 # 8c6846
+vlan 10.0.63.11-11 # 39e6c4
+vlan 10.0.63.12-12 # 5868c9
+vlan 10.0.63.13-13 # efeb44
+vlan 10.0.63.14-14 # 83e89f
+vlan 10.0.63.18-18 # c7d26d
+vlan 10.0.63.19-19 # 8b483b
+vlan 10.0.63.25-25 # 294ca8
+vlan 10.0.63.26-26 # ce8642
+vlan 10.0.63.27-27 # 439c15
+vlan 10.0.63.78-78 # 0beffe # extra added 5/13/20
+vlan 10.0.63.81-81 # ceb6d3 # extra added 5/13/20
+vlan 10.0.63.82-82 # ba9633 # extra added 5/13/20
+vlan 10.0.63.88-88 # 0ce813 # extra added 5/13/20
+vlan 10.0.63.92-92 # f8f07d # extra added 5/13/20
+vlan 10.0.63.93-93 # 1bcd84 # extra added 5/13/20
+vlan 10.0.63.108-108 # 540a7e # extra added 5/13/20
+vlan 10.0.64.40-40 # 86b052 # extra added 1/4/20
+vlan 10.0.64.62-62 # 5d10c8 # extra added 1/4/20
+vlan 10.0.64.83-83 # 34129a # extra added 1/4/20
+vlan 10.0.64.93-93 # 88f593 # extra added 1/4/20
+vlan 10.0.64.97-97 # 79eac2 # extra added 1/4/20
+vlan 10.0.64.101-101 # 4c657f # extra added 1/4/20
+vlan 10.0.64.112-112 # 6cd6ec # extra added 1/4/20
+vlan 10.0.64.114-114 # 495ffc # extra added 1/4/20
+vlan 10.0.64.120-120 # 46c17c # extra added 1/4/20
+vlan 10.0.64.141-141 # be11d6 # extra added 1/4/20
+vlan 10.0.64.147-147 # 84b738 # extra added 1/4/20
 
 ## locations
 6ad806 location JKENT00001 # 10.0.59.6
@@ -203,149 +219,41 @@ c7d26d location JKENT00078 # 10.0.63.18
 294ca8 location JKENT00080 # 10.0.63.25
 ce8642 location JKENT00081 # 10.0.63.26
 439c15 location JKENT00082 # 10.0.63.27
-# extra machines added 1/4/20
-86b052 location JKENT0XTRA # 10.0.64.40
-5d10c8 location JKENT0XTRA # 10.0.64.62
-34129a location JKENT0XTRA # 10.0.64.83
-4c657f location JKENT0XTRA # 10.0.64.101
-79eac2 location JKENT0XTRA # 10.0.64.97
-6cd6ec location JKENT0XTRA # 10.0.64.112
-be11d6 location JKENT0XTRA # 10.0.64.141
-88f593 location JKENT0XTRA # 10.0.64.93
-46c17c location JKENT0XTRA # 10.0.64.120
-84b738 location JKENT0XTRA # 10.0.64.147
-495ffc location JKENT0XTRA # 10.0.64.114
+0beffe location JKENT0XTRA # 10.0.63.78 # extra added 5/13/20
+ceb6d3 location JKENT0XTRA # 10.0.63.81 # extra added 5/13/20
+ba9633 location JKENT0XTRA # 10.0.63.82 # extra added 5/13/20
+0ce813 location JKENT0XTRA # 10.0.63.88 # extra added 5/13/20
+f8f07d location JKENT0XTRA # 10.0.63.92 # extra added 5/13/20
+1bcd84 location JKENT0XTRA # 10.0.63.93 # extra added 5/13/20
+540a7e location JKENT0XTRA # 10.0.63.108 # extra added 5/13/20
+86b052 location JKENT0XTRA # 10.0.64.40 # extra added 1/4/20
+5d10c8 location JKENT0XTRA # 10.0.64.62 # extra added 1/4/20
+34129a location JKENT0XTRA # 10.0.64.83 # extra added 1/4/20
+4c657f location JKENT0XTRA # 10.0.64.101 # extra added 1/4/20
+79eac2 location JKENT0XTRA # 10.0.64.97 # extra added 1/4/20
+6cd6ec location JKENT0XTRA # 10.0.64.112 # extra added 1/4/20
+be11d6 location JKENT0XTRA # 10.0.64.141 # extra added 1/4/20
+88f593 location JKENT0XTRA # 10.0.64.93 # extra added 1/4/20
+46c17c location JKENT0XTRA # 10.0.64.120 # extra added 1/4/20
+84b738 location JKENT0XTRA # 10.0.64.147 # extra added 1/4/20
+495ffc location JKENT0XTRA # 10.0.64.114 # extra added 1/4/20
 
 ## tuning
 
 ## throttle
-091799 uncork 1579191905
-d7a370 uncork 1579191905
-39e6c4 uncork 1579191905
-efeb44 uncork 1579191905
-83e89f uncork 1579191905
-8b483b uncork 1579191905
-ce8642 uncork 1579191905
 
 ## fans
 
 ## reboots
-1faa81 reboot 1579191905
-4a6f13 reboot 1579191905
-12ca54 reboot 1579191905
-6017b2 reboot 1579191905
-b1914b reboot 1579191905
-d5de9e reboot 1579191905
-055faf reboot 1579191905
-f8e794 reboot 1579191905
-c28889 reboot 1579191905
-6268aa reboot 1579191905
-eefeb1 reboot 1579191905
-79eac2 reboot 1579191905
-6ad806 reboot 1579191905
-03ee8e reboot 1579191905
-0735b0 reboot 1579191905
-965250 reboot 1579191905
-46d9bd reboot 1579191905
-a2e43b reboot 1579191905
-1dbb41 reboot 1579191905
-24c735 reboot 1579191905
-c6e922 reboot 1579191905
-427276 reboot 1579191905
-2f9a0b reboot 1579191905
-dc83d8 reboot 1579191905
-599d99 reboot 1579191905
-d2e4d6 reboot 1579191905
-7c13b1 reboot 1579191905
-952220 reboot 1579057233
-621b00 reboot 1579057233
-03ee8e reboot 1579057233
-c1a654 reboot 1579057233
-12ca54 reboot 1579057233
-1faa81 reboot 1579057233
-6017b2 reboot 1579057233
-83e89f reboot 1579057233
-be11d6 reboot 1579057233
-f8e794 reboot 1579057233
-efeb44 reboot 1579057233
-d5de9e reboot 1579057233
-4a6f13 reboot 1579057233
-055faf reboot 1579057233
-b1914b reboot 1579057233
-c28889 reboot 1579057233
-0735b0 reboot 1579057233
-d2e4d6 reboot 1579057233
-46d9bd reboot 1579057233
-e56cd3 reboot 1579057233
-5868c9 reboot 1579057233
 
 ## resets
-495ffc reset 1585106465
-4f5b96 reset 1585106465
-4c657f reset 1585106465
-34129a reset 1585106465
-46c17c reset 1585106465
-88f593 reset 1585106465
-eefeb1 reset 1585106465
-86b052 reset 1585106465
-be11d6 reset 1585106465
-5d10c8 reset 1585106465
-6cd6ec reset 1585106465
-32c15c reset 1585106465
-a6fc8d reset 1585106465
-5b4180 reset 1585106465
-d5b013 reset 1585106465
-e490c1 reset 1585106465
-677a7d reset 1585106465
-a759be reset 1585106465
-79e2ea reset 1585106465
-4dc4f1 reset 1585106465
-1720f3 reset 1585106465
-9bd94f reset 1585106465
-423257 reset 1585106465
-c1a654 reset 1585106465
-952220 reset 1585106465
-fad216 reset 1585106465
-8c6846 reset 1585106465
-39e6c4 reset 1585106465
-efeb44 reset 1585106465
-8b483b reset 1585106465
-294ca8 reset 1585106465
-ce8642 reset 1585106465
-439c15 reset 1585106465
-c28889 reset 1585106465
-4a6f13 reset 1585106465
-12ca54 reset 1585106465
-b1914b reset 1585106465
-6017b2 reset 1585106465
-6ad806 reset 1585106465
-24c735 reset 1585106465
-091799 reset 1585106465
-427276 reset 1585106465
-c6e922 reset 1585106465
-6268aa reset 1585106465
-79eac2 reset 1585106465
-c5f63a reset 1585106465
-1dbb41 reset 1585106465
-1c8b88 reset 1585106465
-7c13b1 reset 1585106465
-599d99 reset 1585106465
-0735b0 reset 1585106465
-a2e43b reset 1585106465
-46d9bd reset 1585106465
-965250 reset 1585106465
-1faa81 reset 1585106465
-03ee8e reset 1585106465
-2f9a0b reset 1585106465
-dc83d8 reset 1585106465
-b18d0c reset 1585106465
-621b00 reset 1585106465
-fdb239 reset 1585106465
-be8567 reset 1585106465
-4b97c1 reset 1585106465
-d60e3c reset 1585106465
 
 ## removals
 
-## asic password
+## VPS pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
+## Remote pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCovql1bo+pkGUoq+zckj82BiW5CIBbxq1+wfET94ULY9b/BJzZHFxxjX79+aG4oilCpUKHFTJHv8Ox3IvtPxWGyx5IpV+avJqCO66+7/aIoG+Cqcz7f9pZPhK61qOG9AQsLNaZHaaB+jif7qCmXiDB1/eDzKHIh2UHdEnZSkcTrwdU40yA4JhenTAMJAxITopjAfURgJtTOkr9eBIVM6Xj/0x/f9ZUvL5jSLNDL9ujce928zCwvcMND+lrB3q5VgMluwihMUWZ3gJfsvZdHwPVXDP+qo1DaIP/oJ/rfD/ef9KkmYTYS3+RaYwGEJoGd0uHCUzSIl3oUJQg6kj4H22p
+# global panelpass gj83Nkgikg
 asicpass admin
+global logo https://raw.githubusercontent.com/cnels127/Configs/master/Bit49(2).png
