@@ -1,5 +1,7 @@
-## instructions available at: https://asicseer.com/page/kb#writing-config
-## TOTAL EXP HASHRATE 35 s9 @ 14.4 Th/s = 504 Th/s
+##  10 s9 @ 14.4 Th/s = 144 Th/s (contract expires 6/13/20)
+##  20 s9 @ 14.4 Th/s = 288 Th/s (contract expires 7/22/20)
+##   5 s9 @ 14.4 Th/s = 72 Th/s (contract expires 9/25/20)
+## TOTAL EXP HASHRATE = 504 Th/s
 
 global custompanel VMANU0bit049
 global customer bit49-Russia
@@ -29,230 +31,131 @@ global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 global panelclear 999
-# global panelpass gj83Nkgikg
 
 # global retune 1
-# global reboot 1
-global reboot 1578596662
-# global uncork 1
-global uncork 1576177695
+# global reboot 1578596662
+# global uncork 1576177695
 # global reset 1
 
 ## vlans
-# vlan 10.0.58.82-82
-# vlan 10.0.59.126-126
-# vlan 10.0.59.148-148
-# vlan 10.0.60.27-27
-# vlan 10.0.60.30-30
-# vlan 10.0.60.44-44
-# vlan 10.0.60.55-55
-# vlan 10.0.60.160-160
-# vlan 10.0.61.5-5
-# vlan 10.0.61.45-45
-# vlan 10.0.61.61-61
-# vlan 10.0.61.160-160
-# vlan 10.0.63.133-133
-# vlan 10.0.64.31-31
-# vlan 10.0.65.39-39
-# vlan 10.0.65.47-47
-# vlan 10.0.65.76-76
-# vlan 10.0.65.94-94
-# vlan 10.0.65.118-118
-# vlan 10.0.65.144-144
-# vlan 10.0.66.31-31
-# vlan 10.0.66.41-41
-# vlan 10.0.66.64-64
-# vlan 10.0.66.66-66
-# vlan 10.0.66.69-69
-# vlan 10.0.66.90-90
-# vlan 10.0.66.96-96
-# vlan 10.0.66.117-117
-# vlan 10.0.66.127-127
-# vlan 10.0.67.63-63
-# vlan 10.0.115.155-155
-# vlan 10.0.116.108-108
-# vlan 10.0.116.121-121
-# vlan 10.0.116.154-154
-# vlan 10.0.115.108-108
-# extra machines added 12/12/19
-# vlan 10.0.62.51-51
-# vlan 10.0.62.52-52
-# vlan 10.0.77.110-110
-# vlan 10.0.64.155-155
-# vlan 10.0.62.72-72
-# vlan 10.0.77.119-119
-# vlan 10.0.77.144-144
-# extra machines added 3/9/20
-vlan 10.0.50.148-148 # a46da9
-vlan 10.0.55.27-27 # f99d9d
-vlan 10.0.31.31-31 # 94a97e
-vlan 10.0.31.158-158 # 2c9456
-vlan 10.0.50.30-30 # 5aad48
-vlan 10.0.50.136-136 # 564bdb
-vlan 10.0.50.155-155 # 4b1240
+vlan 10.0.58.82-82 # 698d83
+vlan 10.0.59.126-126 # ac4af9
+vlan 10.0.59.148-148 # 6ee7a2
+vlan 10.0.60.27-27 # 4d564a
+vlan 10.0.60.30-30 # 00eded
+vlan 10.0.60.44-44 # 0d2787
+vlan 10.0.60.55-55 # 6f8a97
+vlan 10.0.60.160-160 # 29cb77
+# vlan 10.0.61.5-5 # 689c52 # SCRAPPED 4/22/20
+vlan 10.0.61.45-45 # f1d074
+vlan 10.0.61.61-61 # 231e50
+vlan 10.0.61.160-160 # 53c201
+vlan 10.0.63.133-133 # 91e17b
+vlan 10.0.64.31-31 # 08c55f
+vlan 10.0.65.39-39 # e1abed
+vlan 10.0.65.47-47 # 8944e8
+# vlan 10.0.65.76-76 # b3a56f # SCRAPPED 4/24/20
+vlan 10.0.65.94-94 # 6571e1
+vlan 10.0.65.118-118 # 698e7c
+vlan 10.0.65.144-144 # f4b34b
+vlan 10.0.66.31-31 # 8e887d
+vlan 10.0.66.41-41 # 9beb97
+vlan 10.0.66.64-64 # 1583d5
+vlan 10.0.66.66-66 # 545c77
+vlan 10.0.66.69-69 # 183877
+vlan 10.0.66.90-90 # 89473a
+vlan 10.0.66.96-96 # 110033
+vlan 10.0.66.117-117 # 43d9af
+vlan 10.0.66.128-128 # 2687fa
+# vlan 10.0.67.63-63 # b56664 # POWERED DOWN - NO WORKING HASHBOARDS
+vlan 10.0.115.155-155 # 8bb8b2
+vlan 10.0.116.108-108 # a7ebd6
+# vlan 10.0.116.121-121 # 86bd56 # POWERED DOWN - NO WORKING HASHBOARDS
+vlan 10.0.116.154-154 # c6bede
+vlan 10.0.115.108-108 # 5f0304
 
+vlan 10.0.50.30-30 # 5aad48 # extra added 3/9/20
+vlan 10.0.50.136-136 # 564bdb # extra added 3/9/20
+vlan 10.0.50.148-148 # a46da9 # extra added 3/9/20
+vlan 10.0.50.155-155 # 4b1240 # extra added 3/9/20
+vlan 10.0.55.27-27 # f99d9d # extra added 3/9/20
+vlan 10.0.62.51-51 # a88d52 # extra added 12/12/19
+vlan 10.0.62.52-52 # d934fc # extra added 12/12/19
+vlan 10.0.62.72-72 # 23178f # extra added 12/12/19
+vlan 10.0.64.155-155 # 3c6a08 # extra added 12/12/19
+vlan 10.0.77.110-110 # 5af4ab # extra added 12/12/19
+vlan 10.0.77.119-119 # 9c37f8 # extra added 12/12/19
+vlan 10.0.77.144-144 # 59acb5 # extra added 12/12/19
+vlan 10.3.21.114-114 # 94a97e # extra added 3/9/20
+vlan 10.3.23.82-82 # 2c9456 # extra added 3/9/20
 
 ## locations
-698d83 location VMANU00001
-ac4af9 location VMANU00002
-6ee7a2 location VMANU00003
-4d564a location VMANU00004
-00eded location VMANU00005
-0d2787 location VMANU00006
-6f8a97 location VMANU00007
-29cb77 location VMANU00008
-689c52 location VMANU00009
-f1d074 location VMANU00010
-231e50 location VMANU00011
-53c201 location VMANU00012
-91e17b location VMANU00013
-08c55f location VMANU00014
-e1abed location VMANU00015
-8944e8 location VMANU00016
-b3a56f location VMANU00017
-6571e1 location VMANU00018
-698e7c location VMANU00019
-f4b34b location VMANU00020
-8e887d location VMANU00021
-9beb97 location VMANU00022
-1583d5 location VMANU00023
-545c77 location VMANU00024
-183877 location VMANU00025
-89473a location VMANU00026
-110033 location VMANU00027
-43d9af location VMANU00028
-2687fa location VMANU00029
-b56664 location VMANU00030
-8bb8b2 location VMANU00031
-a7ebd6 location VMANU00032
-86bd56 location VMANU00033
-c6bede location VMANU00034
-5f0304 location VMANU00035
-# extra machines added 12/12/19
-a88d52 location VMANU0XTRA # 10.0.62.51
-d934fc location VMANU0XTRA # 10.0.62.52
-5af4ab location VMANU0XTRA # 10.0.77.110
-3c6a08 location VMANU0XTRA # 10.0.64.155
-23178f location VMANU0XTRA # 10.0.62.72
-9c37f8 location VMANU0XTRA # 10.0.77.119
-59acb5 location VMANU0XTRA # 10.0.77.144
-# extra machines added 3/9/20 # 70.9 Th/s
-a46da9 location VMANU0XTRA # 10.0.50.148 # 10.2 Th/s
-f99d9d location VMANU0XTRA # 10.0.55.27 # 10.2 Th/s
-94a97e location VMANU0XTRA # 10.0.31.31 # 10.1 Th/s
-2c9456 location VMANU0XTRA # 10.0.31.158 # 10.1 Th/s
-5aad48 location VMANU0XTRA # 10.0.50.30 # 10.1 Th/s
-564bdb location VMANU0XTRA # 10.0.50.136 # 10.1 Th/s
-4b1240 location VMANU0XTRA # 10.0.50.155 # 10.1 Th/s
+698d83 location VMANU00001 # 10.0.58.82
+ac4af9 location VMANU00002 # 10.0.59.126
+6ee7a2 location VMANU00003 # 10.0.59.148
+4d564a location VMANU00004 # 10.0.60.27
+00eded location VMANU00005 # 10.0.60.30
+0d2787 location VMANU00006 # 10.0.60.44
+6f8a97 location VMANU00007 # 10.0.60.55
+29cb77 location VMANU00008 # 10.0.60.160
+# 689c52 location VMANU00009 # 10.0.61.5 # SCRAPPED 4/22/20
+f1d074 location VMANU00010 # 10.0.61.45
+231e50 location VMANU00011 # 10.0.61.61
+53c201 location VMANU00012 # 10.0.61.160
+91e17b location VMANU00013 # 10.0.63.133
+08c55f location VMANU00014 # 10.0.64.31
+e1abed location VMANU00015 # 10.0.65.39
+8944e8 location VMANU00016 # 10.0.65.47
+# b3a56f location VMANU00017 # 10.0.65.76 # SCRAPPED 4/24/20
+6571e1 location VMANU00018 # 10.0.65.94
+698e7c location VMANU00019 # 10.0.65.118
+f4b34b location VMANU00020 # 10.0.65.144
+8e887d location VMANU00021 # 10.0.66.31
+9beb97 location VMANU00022 # 10.0.66.41
+1583d5 location VMANU00023 # 10.0.66.64
+545c77 location VMANU00024 # 10.0.66.66
+183877 location VMANU00025 # 10.0.66.69
+89473a location VMANU00026 # 10.0.66.90
+110033 location VMANU00027 # 10.0.66.96
+43d9af location VMANU00028 # 10.0.66.117
+2687fa location VMANU00029 # 10.0.66.128
+# b56664 location VMANU00030 # 10.0.67.63 # POWERED DOWN - NO WORKING HASHBOARDS
+8bb8b2 location VMANU00031 # 10.0.115.155
+a7ebd6 location VMANU00032 # 10.0.116.108
+# 86bd56 location VMANU00033 # 10.0.116.121 # POWERED DOWN - NO WORKING HASHBOARDS
+c6bede location VMANU00034 # 10.0.116.154
+5f0304 location VMANU00035 # 10.0.115.108
+5aad48 location VMANU0XTRA # 10.0.50.30 # 10.1 Th/s # extra added 3/9/20
+564bdb location VMANU0XTRA # 10.0.50.136 # 10.1 Th/s # extra added 3/9/20
+a46da9 location VMANU0XTRA # 10.0.50.148 # 10.2 Th/s # extra added 3/9/20
+4b1240 location VMANU0XTRA # 10.0.50.155 # 10.1 Th/s # extra added 3/9/20
+f99d9d location VMANU0XTRA # 10.0.55.27 # 10.2 Th/s # extra added 3/9/20
+a88d52 location VMANU0XTRA # 10.0.62.51 # extra added 12/12/19
+d934fc location VMANU0XTRA # 10.0.62.52 # extra added 12/12/19
+23178f location VMANU0XTRA # 10.0.62.72 # extra added 12/12/19
+3c6a08 location VMANU0XTRA # 10.0.64.155 # extra added 12/12/19
+5af4ab location VMANU0XTRA # 10.0.77.110 # extra added 12/12/19
+9c37f8 location VMANU0XTRA # 10.0.77.119 # extra added 12/12/19
+59acb5 location VMANU0XTRA # 10.0.77.144 # extra added 12/12/19
+94a97e location VMANU0XTRA # 10.3.21.114 # 10.1 Th/s # extra added 3/9/20
+2c9456 location VMANU0XTRA # 10.3.23.82 # 10.1 Th/s # extra added 3/9/20
+
+## tuning
 
 ## throttle
-b3a56f uncork 1585326763
-43d9af uncork 1585326763
-89473a uncork 1585326763
-1583d5 uncork 1585326763
-29cb77 uncork 1585326763
-4d564a uncork 1585326763
-698d83 uncork 1585326763
-6571e1 uncork 1585326763
-e1abed uncork 1585326763
-d934fc uncork 1585326763
-86bd56 uncork 1585326763
-b56664 uncork 1585326763
-110033 uncork 1585326763
-8944e8 uncork 1585326763
-5aad48 uncork 1585326763
-8e887d uncork 1585326763
-2687fa uncork 1585326763
-4b1240 uncork 1585326763
-5f0304 uncork 1585326763
-23178f uncork 1585326763
-9c37f8 uncork 1585326763
-5af4ab uncork 1585326763
 
 ## fans
 
 ## reboots
-# s_reboot generated on Mar 26 2020 19:44:51 utc: 1585251891
-b56664 reboot 1585251891 # 10.0.67.63 vmanu00030
-9c37f8 reboot 1585251891 # 10.0.77.119 vmanu0xtra
-5f0304 reboot 1585251891 # 10.0.115.108 vmanu00035
-110033 reboot 1585251891 # 10.0.66.96 vmanu00027
-86bd56 reboot 1585251891 # 10.0.116.121 vmanu00033
-2687fa reboot 1585251891 # 10.0.66.128 vmanu00029
-43d9af reboot 1585251891 # 10.0.66.117 vmanu00028
-1583d5 reboot 1585251891 # 10.0.66.64 vmanu00023
-8944e8 reboot 1585251891 # 10.0.65.47 vmanu00016
-d934fc reboot 1585251891 # 10.0.62.52 vmanu0xtra
-5aad48 reboot 1585251891 # 10.0.50.30 vmanu0xtra
-4b1240 reboot 1585251891 # 10.0.50.155 vmanu0xtra
-a46da9 reboot 1585251891 # 10.0.50.148 vmanu0xtra
-2c9456 reboot 1585251891 # 10.0.31.158 vmanu0xtra
-f99d9d reboot 1585251891 # 10.0.55.27 vmanu0xtra
-5af4ab reboot 1585251891 # 10.0.77.110 vmanu0xtra
-94a97e reboot 1585251891 # 10.0.31.31 vmanu0xtra
-564bdb reboot 1585251891 # 10.0.50.136 vmanu0xtra
-23178f reboot 1585251891 # 10.0.62.72 vmanu0xtra
-3c6a08 reboot 1585251891 # 10.0.64.155 vmanu0xtra
-698d83 reboot 1585251891 # 10.0.58.82 vmanu00001
-ac4af9 reboot 1585251891 # 10.0.59.126 vmanu00002
-4d564a reboot 1585251891 # 10.0.60.27 vmanu00004
-0d2787 reboot 1585251891 # 10.0.60.44 vmanu00006
-29cb77 reboot 1585251891 # 10.0.60.160 vmanu00008
-689c52 reboot 1585251891 # 10.0.61.5 vmanu00009
-08c55f reboot 1585251891 # 10.0.64.31 vmanu00014
-e1abed reboot 1585251891 # 10.0.65.39 vmanu00015
-b3a56f reboot 1585251891 # 10.0.65.76 vmanu00017
-6571e1 reboot 1585251891 # 10.0.65.94 vmanu00018
-f4b34b reboot 1585251891 # 10.0.65.144 vmanu00020
-8e887d reboot 1585251891 # 10.0.66.31 vmanu00021
-183877 reboot 1585251891 # 10.0.66.69 vmanu00025
-89473a reboot 1585251891 # 10.0.66.90 vmanu00026
-c6bede reboot 1585251891 # 10.0.116.154 vmanu00034
 
 ## resets
-4b1240 reset 1586140228
-a7ebd6 reset 1583868301
-86bd56 reset 1583868301
-08c55f reset 1582735015
-6ee7a2 reset 1579842395
-5af4ab reset 1579842395
-6571e1 reset 1579842395
-6571e1 reset 1578597906 # 10.0.65.94 vmanu00018
-5af4ab reset 1578597906 # 10.0.77.110 vmanu0xtra
-8944e8 reset 1578597906 # 10.0.65.47 vmanu00016
-d934fc reset 1578597906 # 10.0.62.52 vmanu0xtra
-8944e8 reset 1578597813 # 10.0.65.47 vmanu00016
-d934fc reset 1578597813 # 10.0.62.52 vmanu0xtra
-231e50 reset 1577210161 # 10.0.61.61 vmanu00011
-545c77 reset 1577210161 # 10.0.66.66 vmanu00024
-689c52 reset 1577210161 # 10.0.61.5 vmanu00009
-29cb77 reset 1577210161 # 10.0.60.160 vmanu00008
-b3a56f reset 1577210161 # 10.0.65.76 vmanu00017
 
-5f0304 reset 1577173257
-689c52 reset 1574978295
-b3a56f reset 1574978295
-183877 reset 1574978295
-6ee7a2 reset 1574978295
-545c77 reset 1574978295
-b56664 reset 1574978295
-698e7c reset 1574978295
-89473a reset 1574978295
-08c55f reset 1574978295
-2687fa reset 1574978295
-698d83 reset 1574978295
-e1abed reset 1574978295
-6571e1 reset 1574978295
-110033 reset 1574978295
-9beb97 reset 1574978295
-91e17b reset 1574978295
-8e887d reset 1573769700
-8e887d reset 1573686450
-43d9af reset 1573686450
-545c77 reset 1573657206
-183877 reset 1573145364
-0d2787 reset 1573145227
-9beb97 reset 1573145142
+## removals
 
-## asic password 
+## VPS pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
+## Remote pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCovql1bo+pkGUoq+zckj82BiW5CIBbxq1+wfET94ULY9b/BJzZHFxxjX79+aG4oilCpUKHFTJHv8Ox3IvtPxWGyx5IpV+avJqCO66+7/aIoG+Cqcz7f9pZPhK61qOG9AQsLNaZHaaB+jif7qCmXiDB1/eDzKHIh2UHdEnZSkcTrwdU40yA4JhenTAMJAxITopjAfURgJtTOkr9eBIVM6Xj/0x/f9ZUvL5jSLNDL9ujce928zCwvcMND+lrB3q5VgMluwihMUWZ3gJfsvZdHwPVXDP+qo1DaIP/oJ/rfD/ef9KkmYTYS3+RaYwGEJoGd0uHCUzSIl3oUJQg6kj4H22p
+# global panelpass gj83Nkgikg
 asicpass admin
+global logo https://raw.githubusercontent.com/cnels127/Configs/master/Bit49(2).png
