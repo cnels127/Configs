@@ -1,5 +1,6 @@
-## instructions available at: https://asicseer.com/page/kb#writing-config
-## TOTAL EXP HASHRATE 80 s9 @ 14.4 Th/s = 1,152 Th/s
+##   5 s9 @ 14.4 Th/s = (contract expires 2/17/20)
+##  75 s9 @ 14.4 Th/s = (contract expires 10/7/20)
+## TOTAL EXP HASHRATE = 1,152 Th/s
 
 global custompanel JVAND0bit049
 global customer bit49-Russia
@@ -29,997 +30,225 @@ global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 global panelclear 999
-# global panelpass gj83Nkgikg
 
 # global retune 1
 # global reboot 1
-global uncork 1574925109
+# global uncork 1574925109
 # global reset 1
-# global panelpass gj83Nkgikg
 
 ## vlans
-# vlan 10.0.54.59-63
-# vlan 10.0.59.78-78
-# vlan 10.0.66.36-36
-# vlan 10.0.66.155-155
-# vlan 10.0.67.100-100
-# vlan 10.0.115.8-8
-# vlan 10.0.115.25-25
-# vlan 10.0.115.53-53
-# vlan 10.0.115.77-77
-# vlan 10.0.115.84-84
-# vlan 10.0.115.95-95
-# vlan 10.0.115.102-102
-# vlan 10.0.116.6-6
-# vlan 10.0.116.10-10
-# vlan 10.0.116.20-20
-# vlan 10.0.116.50-50
-# vlan 10.0.116.51-51
-# vlan 10.0.116.53-53
-# vlan 10.0.116.54-54
-# vlan 10.0.116.57-57
-# vlan 10.0.116.101-101
-# vlan 10.0.116.106-106
-# vlan 10.0.117.99-99
-# vlan 10.0.117.154-154
-# vlan 10.0.118.46-46
-# vlan 10.0.118.63-63
-# vlan 10.0.118.65-65
-# vlan 10.0.118.73-73
-# vlan 10.0.118.75-75
-# vlan 10.0.118.83-83
-# vlan 10.0.118.98-98
-# vlan 10.0.118.99-99
-# vlan 10.0.118.103-103
-# vlan 10.0.118.104-104
-# vlan 10.0.119.3-3
-# vlan 10.0.119.10-10
-# vlan 10.0.119.37-37
-# vlan 10.0.119.40-40
-# vlan 10.0.119.47-47
-# vlan 10.0.119.50-50
-# vlan 10.0.119.73-73
-# vlan 10.0.119.75-75
-# vlan 10.0.119.79-79
-# vlan 10.0.119.83-83
-# vlan 10.0.119.84-84
-# vlan 10.0.119.89-89
-# vlan 10.0.119.94-94
-# vlan 10.0.119.97-97
-# vlan 10.0.119.100-100
-# vlan 10.0.119.104-104
-# vlan 10.0.119.107-107
-# vlan 10.0.120.4-4
-# vlan 10.0.120.7-7
-# vlan 10.0.120.11-11
-# vlan 10.0.120.32-32
-# vlan 10.0.120.42-42
-# vlan 10.0.120.44-44
-# vlan 10.0.120.50-50
-# vlan 10.0.120.51-51
-# vlan 10.0.120.75-75
-# vlan 10.0.120.88-88
-# vlan 10.0.120.98-98
-# vlan 10.0.120.102-102
-# vlan 10.0.120.103-103
-# vlan 10.0.120.108-108
-# vlan 10.0.120.152-152
-# vlan 10.0.121.13-13
-# vlan 10.0.121.45-45
-# vlan 10.0.121.50-50
-# vlan 10.0.121.52-52
-# vlan 10.0.121.84-84
-# vlan 10.0.121.88-88
-# vlan 10.0.121.92-92
-# vlan 10.0.121.96-96
-# vlan 10.0.121.100-100
-# vlan 10.0.121.103-103
-# extra machines added 12/12/19
-# vlan 10.0.62.43-43
-# vlan 10.0.67.101-101
-# vlan 10.0.77.50-50
-# vlan 10.0.62.45-45
-# vlan 10.0.62.69-69
-# vlan 10.0.62.73-73
-# vlan 10.0.67.130-130
-# vlan 10.0.115.67-67
-# vlan 10.0.62.41-41
-# vlan 10.0.62.70-70
-# vlan 10.0.77.18-18
-# vlan 10.0.61.15-15
-# vlan 10.0.51.111-111
-# vlan 10.0.54.44-44
-# vlan 10.0.77.148-148
-# vlan 10.0.51.105-105
-# vlan 10.0.77.71-71
+vlan 10.0.54.59-59 # 39e026
+vlan 10.0.54.60-60 # 68a150
+vlan 10.0.54.61-61 # 33afb1
+vlan 10.0.54.62-62 # df8f8f
+vlan 10.0.54.63-63 # ac6001
+vlan 10.0.59.78-78 # 8dd5c8
+vlan 10.0.66.36-36 # 54bcb8
+vlan 10.0.66.155-155 # 994f74
+vlan 10.0.67.100-100 # a93cc1
+vlan 10.0.115.8-8 # d657a0
+vlan 10.0.115.25-25 # 893870
+# vlan 10.0.115.53 # ca8c7a # SCRAPPED 4/23/20
+vlan 10.0.115.77-77 # 3ebf58
+vlan 10.0.115.84-84 # ad22e9
+vlan 10.0.115.95-95 # 63239b
+vlan 10.0.115.102-102 # 7368d0
+vlan 10.0.116.6-6 # cd2082
+vlan 10.0.116.10-10 # eab4ee
+vlan 10.0.116.20-20 # 3d85a8
+vlan 10.0.116.50-50 # 6138b0
+vlan 10.0.116.51-51 # 305367
+vlan 10.0.116.53-53 # 100ee3
+vlan 10.0.116.54-54 # af0fab
+vlan 10.0.116.57-57 # 83db84
+vlan 10.0.116.101-101 # d22225
+vlan 10.0.116.106-106 # 707893
+vlan 10.0.117.99-99 # be659d
+vlan 10.0.117.154-154 # 381d25
+vlan 10.0.118.46-46 # 58224a
+vlan 10.0.118.63-63 # 6e866a
+vlan 10.0.118.65-65 # b5522d
+vlan 10.0.118.73-73 # f0b58f
+vlan 10.0.118.75-75 # 38cf59
+vlan 10.0.118.83-83 # 6a9e54
+vlan 10.0.118.98-98 # b16b0a
+vlan 10.0.118.99-99 # c55ec3
+vlan 10.0.118.103-103 # 6e2e68
+vlan 10.0.118.104-104 # c45d02
+vlan 10.0.119.3-3 # 519b76
+vlan 10.0.119.10-10 # 817ac1
+vlan 10.0.119.37-37 # 387f3b
+vlan 10.0.119.40-40 # 962149
+vlan 10.0.119.47-47 # 250269
+vlan 10.0.119.50-50 # b7a6bc
+vlan 10.0.119.73-73 # 000122
+vlan 10.0.119.75-75 # b31776
+vlan 10.0.119.79-79 # 01085c
+vlan 10.0.119.83-83 # dacf42
+vlan 10.0.119.84-84 # 7bf12e
+vlan 10.0.119.89-89 # 133149
+vlan 10.0.119.94-94 # 1cbe40
+vlan 10.0.119.97-97 # ac4e9b
+vlan 10.0.119.100-100 # 3d578d
+vlan 10.0.119.104-104 # 0defe6
+vlan 10.0.119.107-107 # 4b38e9
+vlan 10.0.120.4-4 # 44b6d3
+vlan 10.0.120.7-7 # 9b70e9
+vlan 10.0.120.11-11 # 2ba4ba
+vlan 10.0.120.32-32 # fab434
+vlan 10.0.120.42-42 # 53a5e4
+vlan 10.0.120.44-44 # 6cec70
+vlan 10.0.120.50-50 # aefd4a
+vlan 10.0.120.51-51 # 13fe77
+vlan 10.0.120.75-75 # c0917e
+vlan 10.0.120.88-88 # 6c5e76
+vlan 10.0.120.98-98 # dfd1e4
+vlan 10.0.120.102-102 # 6ef7cf
+vlan 10.0.120.103-103 # 50f5c9
+vlan 10.0.120.108-108 # 189393
+# vlan 10.0.120.152 # 93620c # SCRAPPED 5/6/20
+vlan 10.0.121.13-13 # e3ebf1
+vlan 10.0.121.45-45 # bfb2ab
+vlan 10.0.121.50-50 # f026a7
+vlan 10.0.121.52-52 # d239b0
+vlan 10.0.121.84-84 # f3bb5d
+vlan 10.0.121.88-88 # 2ab52d
+vlan 10.0.121.92-92 # beb772
+vlan 10.0.121.96-96 # b35ae4
+vlan 10.0.121.100-100 # 5047c0
+vlan 10.0.121.103-103 # 8d9cd3
+vlan 10.0.51.105-105 # 061acb # extra added 12/12/19
+vlan 10.0.51.111-111 # 56a397 # extra added 12/12/19
+vlan 10.0.54.44-44 # ac4842 # extra added 12/12/19
+vlan 10.0.61.15-15 # 663078 # extra added 12/12/19
+vlan 10.0.62.41-41 # aee689 # extra added 12/12/19
+vlan 10.0.62.43-43 # d81df4 # extra added 12/12/19
+vlan 10.0.62.45-45 # ab6a45 # extra added 12/12/19
+vlan 10.0.62.69-69 # 5b475d # extra added 12/12/19
+vlan 10.0.62.70-70 # 892d41 # extra added 12/12/19
+vlan 10.0.62.73-73 # 0ca5a4 # extra added 12/12/19
+vlan 10.0.67.101-101 # b7b010 # extra added 12/12/19
+vlan 10.0.77.18-18 # 52a8ec # extra added 12/12/19
+vlan 10.0.77.50-50 # 386a2e # extra added 12/12/19
+vlan 10.0.77.71-71 # 9b8580 # extra added 12/12/19
+vlan 10.0.77.148-148 # ed783e # extra added 12/12/19
+vlan 10.0.115.67-67 # ae4cbd # extra added 12/12/19
 
 ## locations
-39e026 location JVAND00001
-68a150 location JVAND00002
-33afb1 location JVAND00003
-df8f8f location JVAND00004
-ac6001 location JVAND00005
-8dd5c8 location JVAND00006
-54bcb8 location JVAND00007
-994f74 location JVAND00008
-a93cc1 location JVAND00009
-d657a0 location JVAND00010
-893870 location JVAND00011
-ca8c7a location JVAND00012
-3ebf58 location JVAND00013
-ad22e9 location JVAND00014
-63239b location JVAND00015
-7368d0 location JVAND00016
-cd2082 location JVAND00017
-eab4ee location JVAND00018
-3d85a8 location JVAND00019
-6138b0 location JVAND00020
-305367 location JVAND00021
-100ee3 location JVAND00022
-af0fab location JVAND00023
-83db84 location JVAND00024
-d22225 location JVAND00025
-707893 location JVAND00026
-be659d location JVAND00027
-381d25 location JVAND00028
-58224a location JVAND00029
-6e866a location JVAND00030
-b5522d location JVAND00031
-f0b58f location JVAND00032
-38cf59 location JVAND00033
-6a9e54 location JVAND00034
-b16b0a location JVAND00035
-c55ec3 location JVAND00036
-6e2e68 location JVAND00037
-c45d02 location JVAND00038
-519b76 location JVAND00039
-817ac1 location JVAND00040
-387f3b location JVAND00041
-962149 location JVAND00042
-250269 location JVAND00043
-b7a6bc location JVAND00044
-000122 location JVAND00045
-b31776 location JVAND00046
-01085c location JVAND00047
-dacf42 location JVAND00048
-7bf12e location JVAND00049
-133149 location JVAND00050
-1cbe40 location JVAND00051
-ac4e9b location JVAND00052
-3d578d location JVAND00053
-0defe6 location JVAND00054
-4b38e9 location JVAND00055
-44b6d3 location JVAND00056
-9b70e9 location JVAND00057
-2ba4ba location JVAND00058
-fab434 location JVAND00059
-53a5e4 location JVAND00060
-6cec70 location JVAND00061
-aefd4a location JVAND00062
-13fe77 location JVAND00063
-c0917e location JVAND00064
-6c5e76 location JVAND00065
-dfd1e4 location JVAND00066
-6ef7cf location JVAND00067
-50f5c9 location JVAND00068
-189393 location JVAND00069
-93620c location JVAND00070
-e3ebf1 location JVAND00071
-bfb2ab location JVAND00072
-f026a7 location JVAND00073
-d239b0 location JVAND00074
-f3bb5d location JVAND00075
-2ab52d location JVAND00076
-beb772 location JVAND00077
-b35ae4 location JVAND00078
-5047c0 location JVAND00079
-8d9cd3 location JVAND00080
-# extra machines added 12/12/19
-d81df4 location JVAND0XTRA # 10.0.62.43
-b7b010 location JVAND0XTRA # 10.0.67.101
-386a2e location JVAND0XTRA # 10.0.77.50
-ab6a45 location JVAND0XTRA # 10.0.62.45
-5b475d location JVAND0XTRA # 10.0.62.69
-0ca5a4 location JVAND0XTRA # 10.0.62.73
-# 7ef3f6 location JVAND0XTRA # 10.0.67.130 ## SCRAPPED
-ae4cbd location JVAND0XTRA # 10.0.115.67
-aee689 location JVAND0XTRA # 10.0.62.41
-892d41 location JVAND0XTRA # 10.0.62.70
-52a8ec location JVAND0XTRA # 10.0.77.18
-663078 location JVAND0XTRA # 10.0.61.15
-56a397 location JVAND0XTRA # 10.0.51.111
-ac4842 location JVAND0XTRA # 10.0.54.44
-ed783e location JVAND0XTRA # 10.0.77.148
-061acb location JVAND0XTRA # 10.0.51.105
-9b8580 location JVAND0XTRA # 10.0.77.71
+39e026 location JVAND00001 # 10.0.54.59
+68a150 location JVAND00002 # 10.0.54.60
+33afb1 location JVAND00003 # 10.0.54.61
+df8f8f location JVAND00004 # 10.0.54.62
+ac6001 location JVAND00005 # 10.0.54.63
+8dd5c8 location JVAND00006 # 10.0.59.78
+54bcb8 location JVAND00007 # 10.0.66.36
+994f74 location JVAND00008 # 10.0.66.155
+a93cc1 location JVAND00009 # 10.0.67.100
+d657a0 location JVAND00010 # 10.0.115.8
+893870 location JVAND00011 # 10.0.115.25
+# ca8c7a location JVAND00012 # 10.0.115.53 # SCRAPPED 4/23/20
+3ebf58 location JVAND00013 # 10.0.115.77
+ad22e9 location JVAND00014 # 10.0.115.84
+63239b location JVAND00015 # 10.0.115.95
+7368d0 location JVAND00016 # 10.0.115.102
+cd2082 location JVAND00017 # 10.0.116.6
+eab4ee location JVAND00018 # 10.0.116.10
+3d85a8 location JVAND00019 # 10.0.116.20
+6138b0 location JVAND00020 # 10.0.116.50
+305367 location JVAND00021 # 10.0.116.51
+100ee3 location JVAND00022 # 10.0.116.53
+af0fab location JVAND00023 # 10.0.116.54
+83db84 location JVAND00024 # 10.0.116.57
+d22225 location JVAND00025 # 10.0.116.101
+707893 location JVAND00026 # 10.0.116.106
+be659d location JVAND00027 # 10.0.117.99
+381d25 location JVAND00028 # 10.0.117.154
+58224a location JVAND00029 # 10.0.118.46
+6e866a location JVAND00030 # 10.0.118.63
+b5522d location JVAND00031 # 10.0.118.65
+f0b58f location JVAND00032 # 10.0.118.73
+38cf59 location JVAND00033 # 10.0.118.75
+6a9e54 location JVAND00034 # 10.0.118.83
+b16b0a location JVAND00035 # 10.0.118.98
+c55ec3 location JVAND00036 # 10.0.118.99
+6e2e68 location JVAND00037 # 10.0.118.103
+c45d02 location JVAND00038 # 10.0.118.104
+519b76 location JVAND00039 # 10.0.119.3
+817ac1 location JVAND00040 # 10.0.119.10
+387f3b location JVAND00041 # 10.0.119.37
+962149 location JVAND00042 # 10.0.119.40
+250269 location JVAND00043 # 10.0.119.47
+b7a6bc location JVAND00044 # 10.0.119.50
+000122 location JVAND00045 # 10.0.119.73
+b31776 location JVAND00046 # 10.0.119.75
+01085c location JVAND00047 # 10.0.119.79
+dacf42 location JVAND00048 # 10.0.119.83
+7bf12e location JVAND00049 # 10.0.119.84
+133149 location JVAND00050 # 10.0.119.89
+1cbe40 location JVAND00051 # 10.0.119.94
+ac4e9b location JVAND00052 # 10.0.119.97
+3d578d location JVAND00053 # 10.0.119.100
+0defe6 location JVAND00054 # 10.0.119.104
+4b38e9 location JVAND00055 # 10.0.119.107
+44b6d3 location JVAND00056 # 10.0.120.4
+9b70e9 location JVAND00057 # 10.0.120.7
+2ba4ba location JVAND00058 # 10.0.120.11
+fab434 location JVAND00059 # 10.0.120.32
+53a5e4 location JVAND00060 # 10.0.120.42
+6cec70 location JVAND00061 # 10.0.120.44
+aefd4a location JVAND00062 # 10.0.120.50
+13fe77 location JVAND00063 # 10.0.120.51
+c0917e location JVAND00064 # 10.0.120.75
+6c5e76 location JVAND00065 # 10.0.120.88
+dfd1e4 location JVAND00066 # 10.0.120.98
+6ef7cf location JVAND00067 # 10.0.120.102
+50f5c9 location JVAND00068 # 10.0.120.103
+189393 location JVAND00069 # 10.0.120.108
+# 93620c location JVAND00070 # 10.0.120.152 # SCRAPPED 5/6/20
+e3ebf1 location JVAND00071 # 10.0.121.13
+bfb2ab location JVAND00072 # 10.0.121.45
+f026a7 location JVAND00073 # 10.0.121.50
+d239b0 location JVAND00074 # 10.0.121.52
+f3bb5d location JVAND00075 # 10.0.121.84
+2ab52d location JVAND00076 # 10.0.121.88
+beb772 location JVAND00077 # 10.0.121.92
+b35ae4 location JVAND00078 # 10.0.121.96
+5047c0 location JVAND00079 # 10.0.121.100
+8d9cd3 location JVAND00080 # 10.0.121.103
+061acb location JVAND0XTRA # 10.0.51.105 # extra added 12/12/19
+56a397 location JVAND0XTRA # 10.0.51.111 # extra added 12/12/19
+ac4842 location JVAND0XTRA # 10.0.54.44 # extra added 12/12/19
+663078 location JVAND0XTRA # 10.0.61.15 # extra added 12/12/19
+aee689 location JVAND0XTRA # 10.0.62.41 # extra added 12/12/19
+d81df4 location JVAND0XTRA # 10.0.62.43 # extra added 12/12/19
+ab6a45 location JVAND0XTRA # 10.0.62.45 # extra added 12/12/19
+5b475d location JVAND0XTRA # 10.0.62.69 # extra added 12/12/19
+892d41 location JVAND0XTRA # 10.0.62.70 # extra added 12/12/19
+0ca5a4 location JVAND0XTRA # 10.0.62.73 # extra added 12/12/19
+b7b010 location JVAND0XTRA # 10.0.67.101 # extra added 12/12/19
+52a8ec location JVAND0XTRA # 10.0.77.18 # extra added 12/12/19
+386a2e location JVAND0XTRA # 10.0.77.50 # extra added 12/12/19
+9b8580 location JVAND0XTRA # 10.0.77.71 # extra added 12/12/19
+ed783e location JVAND0XTRA # 10.0.77.148 # extra added 12/12/19
+ae4cbd location JVAND0XTRA # 10.0.115.67 # extra added 12/12/19
 
-## removed
-global remove 7ef3f6
+## tuning
 
 ## throttle
-# 3/25/20
-a93cc1 uncork 1585158859
-d657a0 uncork 1585158859
-0defe6 uncork 1585158859
-52a8ec uncork 1585158859
-305367 uncork 1585158859
-56a397 uncork 1585158859
-061acb uncork 1585158859
-54bcb8 uncork 1585158859
-d22225 uncork 1585158859
-f0b58f uncork 1585158859
-000122 uncork 1585158859
-d239b0 uncork 1585158859
-
-# 3/23/20
-893870 uncork 1584990364
-
-# 3/18/20
-0defe6 uncork 1584555717
-
-# 3/11/20
-0defe6 uncork 1583949060
-5047c0 uncork 1583949060
-c55ec3 uncork 1583949060
-c45d02 uncork 1583949060
-061acb uncork 1583949060
-892d41 uncork 1583949060
-d81df4 uncork 1583949060
-6cec70 uncork 1583949060
-aefd4a uncork 1583949060
-6ef7cf uncork 1583949060
-994f74 uncork 1583949060
-
-# 3/2/20
-33afb1 uncork 1583174601
-d81df4 uncork 1583174601
-ae4cbd uncork 1583174601
-68a150 uncork 1583174601
-
-# 2/27/20
-6138b0 uncork 1582827585
-c55ec3 uncork 1582827585
-7ef3f6 uncork 1582827585
-b35ae4 uncork 1582827585
-100ee3 uncork 1582827585 
-
-# 2/18/20
-b31776 uncork 1582054012
-892d41 uncork 1582054012
-aee689 uncork 1582054012
-893870 uncork 1582054012
-3d85a8 uncork 1582054012
-50f5c9 uncork 1582054012
-af0fab uncork 1582054012
-100ee3 uncork 1582054012
-d22225 uncork 1582054012
-6c5e76 uncork 1582054012
-
-# 2/14/20
-d81df4 uncork 1581705174
-56a397 uncork 1581705174
-893870 uncork 1581705174
-50f5c9 uncork 1581705174
-100ee3 uncork 1581705174
-381d25 uncork 1581705174
-3d85a8 uncork 1581705174
-
-# 2/12/20
-100ee3 uncork 1581532710
-13fe77 uncork 1581532710
-
-# 2/11/20
-892d41 uncork 1581446050
-100ee3 uncork 1581446050
-af0fab uncork 1581446050
-
-# 2/6/20
-5047c0 uncork 1581016543
-50f5c9 uncork 1581016543
-2ab52d uncork 1581016543
-af0fab uncork 1581016543
-100ee3 uncork 1581016543
-7ef3f6 uncork 1581016543
-
-# 2/3/20
-7bf12e uncork 1580754544
-68a150 uncork 1580754544
-892d41 uncork 1580754544
-6138b0 uncork 1580754544
-6ef7cf uncork 1580754544
-50f5c9 uncork 1580754544
-
-# 2/1/20
-d81df4 uncork 1580577436
-
-# 1/28/20
-892d41 uncork 1580238007
-56a397 uncork 1580238007
-6138b0 uncork 1580238007
-c55ec3 uncork 1580238007
-7ef3f6 uncork 1580238007
-7bf12e uncork 1580238007
-
-# 1/27/20
-38cf59 uncork 1580150351
-aee689 uncork 1580150351
-892d41 uncork 1580150351
-39e026 uncork 1580150351
-6138b0 uncork 1580150351
-dacf42 uncork 1580150351
-6c5e76 uncork 1580150351
-7ef3f6 uncork 1580150351
-f3bb5d uncork 1580150351
-189393 uncork 1580150351
-e3ebf1 uncork 1580150351
-8d9cd3 uncork 1580150351
-
-# 1/24/20
-7bf12e uncork 1579894514
-305367 uncork 1579894514
-6e866a uncork 1579894514
-100ee3 uncork 1579894514
-b16b0a uncork 1579894514
-44b6d3 uncork 1579894514
-8d9cd3 uncork 1579894514
-
-# 1/22/20
-d81df4 uncork 1579719108
-061acb uncork 1579719108
-ab6a45 uncork 1579719108
-aee689 uncork 1579719108
-893870 uncork 1579719108
-6138b0 uncork 1579719108
-d22225 uncork 1579719108
-38cf59 uncork 1579719108
-c55ec3 uncork 1579719108
-6cec70 uncork 1579719108
-6ef7cf uncork 1579719108
-50f5c9 uncork 1579719108
-f3bb5d uncork 1579719108
-2ab52d uncork 1579719108
-892d41 uncork 1579719108
-
-# 1/17/20
-519b76 uncork 1579285542
-892d41 uncork 1579285542
-ab6a45 uncork 1579285542
-061acb uncork 1579285542
-56a397 uncork 1579285542
-aee689 uncork 1579285542
-68a150 uncork 1579285542
-54bcb8 uncork 1579285542
-994f74 uncork 1579285542
-6138b0 uncork 1579285542
-af0fab uncork 1579285542
-6e2e68 uncork 1579285542
-000122 uncork 1579285542
-6ef7cf uncork 1579285542
-50f5c9 uncork 1579285542
-5047c0 uncork 1579285542
-
-#1/10/20
-0defe6 uncork 1578681614
-7bf12e uncork 1578681614
-af0fab uncork 1578681614
-994f74 uncork 1578681614
-d81df4 uncork 1578681614
-ab6a45 uncork 1578681614
-663078 uncork 1578681614
-061acb uncork 1578681614
-50f5c9 uncork 1578681614
-189393 uncork 1578681614
-fab434 uncork 1578681614
-6cec70 uncork 1578681614
-6138b0 uncork 1578681614
-d22225 uncork 1578681614
-dacf42 uncork 1578681614
-6e866a uncork 1578681614
-6c5e76 uncork 1578681614
-305367 uncork 1578681614
-100ee3 uncork 1578681614
-7ef3f6 uncork 1578681614
-aee689 uncork 1578681614
-
-#1/7/20
-dacf42 uncork 1578426165
-d657a0 uncork 1578426165
-893870 uncork 1578426165
-6ef7cf uncork 1578426165
-50f5c9 uncork 1578426165
-6e866a uncork 1578426165
-13fe77 uncork 1578426165
-8d9cd3 uncork 1578426165
-
-af0fab uncork 1577985292
-
-c45d02 uncork 1577906368
-ae4cbd uncork 1577906368
-6ef7cf uncork 1577906368
-aee689 uncork 1577906368
-061acb uncork 1577906368
-ab6a45 uncork 1577906368
-68a150 uncork 1577906368
-54bcb8 uncork 1577906368
-994f74 uncork 1577906368
-6138b0 uncork 1577906368
-707893 uncork 1577906368
-962149 uncork 1577906368
-50f5c9 uncork 1577906368
-5047c0 uncork 1577906368
-7ef3f6 uncork 1577906368
-44b6d3 uncork 1577906368
-e3ebf1 uncork 1577906368
-4b38e9 uncork 1577906368
-d657a0 uncork 1577906368
-6cec70 uncork 1577906368
-b35ae4 uncork 1577906368
-7bf12e uncork 1577906368
-b31776 uncork 1577906368
-100ee3 uncork 1577906368
-83db84 uncork 1577906368
-6e866a uncork 1577906368
-c55ec3 uncork 1577906368
-b7a6bc uncork 1577906368
-bfb2ab uncork 1577906368
-d239b0 uncork 1577906368
-8d9cd3 uncork 1577906368
-
-133149 uncork 1577383522
-7bf12e uncork 1577383522
-6138b0 uncork 1577383522
-892d41 uncork 1577383522
-aee689 uncork 1577383522
-061acb uncork 1577383522
-0ca5a4 uncork 1577383522
-56a397 uncork 1577383522
-ab6a45 uncork 1577383522
-d81df4 uncork 1577383522
-ae4cbd uncork 1577383522
-994f74 uncork 1577383522
-d657a0 uncork 1577383522
-3ebf58 uncork 1577383522
-d22225 uncork 1577383522
-381d25 uncork 1577383522
-6cec70 uncork 1577383522
-aefd4a uncork 1577383522
-50f5c9 uncork 1577383522
-f3bb5d uncork 1577383522
-5047c0 uncork 1577383522
-
-133149 uncork 1576244207
-061acb uncork 1576244207
-aee689 uncork 1576244207
-52a8ec uncork 1576244207
-892d41 uncork 1576244207
-
-d22225 uncork 1576244207
-7bf12e uncork 1576164501
-893870 uncork 1576164501
-7368d0 uncork 1576164501
-3d85a8 uncork 1576164501
-6138b0 uncork 1576164501
-af0fab uncork 1576164501
-381d25 uncork 1576164501
-2ba4ba uncork 1576164501
-fab434 uncork 1576164501
-53a5e4 uncork 1576164501
-6cec70 uncork 1576164501
-aefd4a uncork 1576164501
-c0917e uncork 1576164501
-6ef7cf uncork 1576164501
-50f5c9 uncork 1576164501
-f026a7 uncork 1576164501
-5047c0 uncork 1576164501
-
-38cf59 uncork 1575739542
-cd2082 uncork 1575739542
-3d85a8 uncork 1575739542
-6138b0 uncork 1575739542
-381d25 uncork 1575739542
-817ac1 uncork 1575739542
-387f3b uncork 1575739542
-9b70e9 uncork 1575739542
-2ba4ba uncork 1575739542
-fab434 uncork 1575739542
-6cec70 uncork 1575739542
-aefd4a uncork 1575739542
-c0917e uncork 1575739542
-6ef7cf uncork 1575739542
-50f5c9 uncork 1575739542
-e3ebf1 uncork 1575739542
-2ab52d uncork 1575739542
-5047c0 uncork 1575739542
-
-1cbe40 uncork 1575736335
-0defe6 uncork 1575736335
-af0fab uncork 1575736335
-
-519b76 uncork 1574928103
-133149 uncork 1574928103
-6e866a uncork 1574796356
-1cbe40 uncork 1574796356
-133149 uncork 1574796356
-519b76 uncork 1574796356
-cd2082 uncork 1574796356
-13fe77 uncork 1574796356
-c0917e uncork 1574796356
-250269 uncork 1574796356
-6138b0 uncork 1574796356
-994f74 uncork 1574796356
-54bcb8 uncork 1574796356
-eab4ee uncork 1574796356
-381d25 uncork 1574796356
-c55ec3 uncork 1574796356
-9b70e9 uncork 1574796356
-fab434 uncork 1574796356
-53a5e4 uncork 1574796356
-6cec70 uncork 1574796356
-aefd4a uncork 1574796356
-6ef7cf uncork 1574796356
-50f5c9 uncork 1574796356
-189393 uncork 1574796356
-f026a7 uncork 1574796356
-b35ae4 uncork 1574796356
 
 ## fans
 
-## retune
-# 3/23/20
-994f74 retune 1584992534
-
-# 3/16/20
-52a8ec retune 1584378922
-9b8580 retune 1584378922
-ad22e9 retune 1584378922
-d81df4 retune 1584378922
-707893 retune 1584378922
-
-# 3/2/20
-52a8ec retune 1583174711
-0defe6 retune 1583174711
-6ef7cf retune 1583174711
-893870 retune 1583174711
-beb772 retune 1583174711
-2ab52d retune 1583174711
-061acb retune 1583174711
-c0917e retune 1583174711
-56a397 retune 1583174711
-dfd1e4 retune 1583174711
-663078 retune 1583174711
-aee689 retune 1583174711
-0ca5a4 retune 1583174711
-ac6001 retune 1583174711
-f0b58f retune 1583174711
-63239b retune 1583174711
-bfb2ab retune 1583174711
-c45d02 retune 1583174711
-df8f8f retune 1583174711
-b7b010 retune 1583174711
-39e026 retune 1583174711
-3d85a8 retune 1583174711
-ab6a45 retune 1583174711
-5b475d retune 1583174711
-54bcb8 retune 1583174711
-b5522d retune 1583174711
-
-# 2/26/20
-dacf42 retune 1582746075
-ac4e9b retune 1582746075
-44b6d3 retune 1582746075
-387f3b retune 1582746075
-6a9e54 retune 1582746075
-58224a retune 1582746075
-
-# 2/14/20
-707893 retune 1581705310
-5047c0 retune 1581705310
-000122 retune 1581705310
-68a150 retune 1581705310
-b5522d retune 1581705310
-7368d0 retune 1581705310
-663078 retune 1581705310
-ad22e9 retune 1581705310
-f026a7 retune 1581705310
-5b475d retune 1581705310
-c45d02 retune 1581705310
-6e2e68 retune 1581705310
-
-# 2/6/20
-519b76 retune 1581016704
-994f74 retune 1581016704
-c45d02 retune 1581016704
-
-# 1/15/20
-892d41 retune 1579116989
-aee689 retune 1579116989
-39e026 retune 1579116989
-8dd5c8 retune 1579116989
-54bcb8 retune 1579116989
-ad22e9 retune 1579116989
-381d25 retune 1579116989
-9b70e9 retune 1579116989
-2ba4ba retune 1579116989
-dfd1e4 retune 1579116989
-2ab52d retune 1579116989
-beb772 retune 1579116989
-
-# 1/14/20
-f0b58f retune 1579031475
-c45d02 retune 1579031475
-817ac1 retune 1579031475
-c0917e retune 1579031475
-f026a7 retune 1579031475
-f3bb5d retune 1579031475
-01085c retune 1579031475
-133149 retune 1579031475
-63239b retune 1579031475
-d81df4 retune 1579031475
-
-# 1/13/20
-68a150 retune 1578941895
-33afb1 retune 1578941895
-df8f8f retune 1578941895
-994f74 retune 1578941895
-a93cc1 retune 1578941895
-7368d0 retune 1578941895
-3d85a8 retune 1578941895
-af0fab retune 1578941895
-707893 retune 1578941895
-b5522d retune 1578941895
-
-# 1/10/20
-0defe6 retune 1578684889
-7bf12e retune 1578684889
-4b38e9 retune 1578684889
-9b8580 retune 1578684889
-56a397 retune 1578684889
-ab6a45 retune 1578684889
-663078 retune 1578684889
-ac4842 retune 1578684889
-ed783e retune 1578684889
-386a2e retune 1578684889
-
-# 1/8/20
-1cbe40 retune 1578510665
-0ca5a4 retune 1578510665
-b7b010 retune 1578510665
-ae4cbd retune 1578510665
-52a8ec retune 1578510665
-5b475d retune 1578510665
-ac6001 retune 1578510665
-893870 retune 1578510665
-000122 retune 1578510665
-
 ## reboots
-# 3/23/20
-10.0.115.77 reboot 1584992341
-
-# 3/19/20
-6e866a reboot 1584642458
-250269 reboot 1584641261
-6c5e76 reboot 1584640990
-387f3b reboot 1584639952
-
-# 3/16/20
-386a2e reboot 1584378309
-9b8580 reboot 1584378309
-ab6a45 reboot 1584378309
-305367 reboot 1584378309
-83db84 reboot 1584378309
-250269 reboot 1584378309
-44b6d3 reboot 1584378309
-fab434 reboot 1584378309
-b35ae4 reboot 1584378309
-
-# 3/2/20
-9b8580 reboot 1583174641
-386a2e reboot 1583174641
-83db84 reboot 1583174641
-817ac1 reboot 1583174641
-250269 reboot 1583174641
-fab434 reboot 1583174641
-6cec70 reboot 1583174641
-b35ae4 reboot 1583174641
-
-# 2/26/20
-386a2e reboot 1582746027
-892d41 reboot 1582746027
-9b8580 reboot 1582746027
-3ebf58 reboot 1582746027
-305367 reboot 1582746027
-83db84 reboot 1582746027
-817ac1 reboot 1582746027
-962149 reboot 1582746027
-250269 reboot 1582746027
-fab434 reboot 1582746027
-b35ae4 reboot 1582746027
-
-# 2/18/20
-386a2e reboot 1582054066
-9b8580 reboot 1582054066
-83db84 reboot 1582054066
-381d25 reboot 1582054066
-817ac1 reboot 1582054066
-fab434 reboot 1582054066
-b35ae4 reboot 1582054066
-
-# 2/14/20
-9b8580 reboot 1581705216
-386a2e reboot 1581705216
-d657a0 reboot 1581705216
-3ebf58 reboot 1581705216
-305367 reboot 1581705216
-100ee3 reboot 1581705216
-83db84 reboot 1581705216
-381d25 reboot 1581705216
-250269 reboot 1581705216
-fab434 reboot 1581705216
-6cec70 reboot 1581705216
-189393 reboot 1581705216
-
-# 2/12/20
-6a9e54 reboot 1581532939
-386a2e reboot 1581533234
-9b8580 reboot 1581533234
-817ac1 reboot 1581533234
-250269 reboot 1581533234
-6cec70 reboot 1581533234
-b35ae4 reboot 1581533234
-
-# 2/6/20
-9b8580 reboot 1581016593
-3ebf58 reboot 1581016593
-250269 reboot 1581016593
-3d578d reboot 1581016593
-44b6d3 reboot 1581016593
-fab434 reboot 1581016593
-
-# 2/4/20
-6cec70 reboot 1580841974
-6138b0 reboot 1580842055
-000122 reboot 1580842055
-3ebf58 reboot 1580843150
-250269 reboot 1580843150
-44b6d3 reboot 1580843150
-fab434 reboot 1580843150
-b35ae4 reboot 1580843150
- 
-# 2/3/20
-9b8580 reboot 1580754664
-fab434 reboot 1580754664
-
-# 2/1/20
-817ac1 reboot 1580577269
-fab434 reboot 1580577269
-9b8580 reboot 1580577269
-
-# 1/31/20
-dacf42 reboot 1580494027
-
-# 1/27/20
-58224a reboot 1580150406
-9b8580 reboot 1580150406
-3ebf58 reboot 1580150406
-817ac1 reboot 1580150406
-250269 reboot 1580150406
-44b6d3 reboot 1580150406
-fab434 reboot 1580150406
-
-# 1/24/20
-d657a0 reboot 1579894136
-50f5c9 reboot 1579894136
-
-# 1/23/20
-bfb2ab reboot 1579804866
-3ebf58 reboot 1579808793
-
-# 1/22/20
-b7a6bc reboot 1579718856
-
-# 1/18/20
-1cbe40 reboot 1579370660
-83db84 reboot 1579370039
-f3bb5d reboot 1579370199
-305367 reboot 1579370199
-6cec70 reboot 1579370199
-aee689 reboot 1579370199
-061acb reboot 1579370199
-6ef7cf reboot 1579370199
-50f5c9 reboot 1579370199
-189393 reboot 1579370199
-2ab52d reboot 1579370199
-8d9cd3 reboot 1579370199
-
-# 1/17/20
-6e866a reboot 1579286477
-7bf12e reboot 1579286477
-ac4e9b reboot 1579286477
-b31776 reboot 1579286477
-d657a0 reboot 1579286477
-3ebf58 reboot 1579286477
-100ee3 reboot 1579286477
-6c5e76 reboot 1579286477
-d239b0 reboot 1579286477
-387f3b reboot 1579285484
-dacf42 reboot 1579285484
-7ef3f6 reboot 1579285484
-6a9e54 reboot 1579285484
-93620c reboot 1579285484
-f3bb5d reboot 1579285484
-9b8580 reboot 1579285427
-305367 reboot 1579285427
-58224a reboot 1579285427
-3d578d reboot 1579285427
-44b6d3 reboot 1579285427
-fab434 reboot 1579285427
-6cec70 reboot 1579285427
-b35ae4 reboot 1579285427
-
-# 1/13/20
-817ac1 reboot 1578935075
-
-# 1/11/20
-387f3b reboot 1578769480
-
-# 1/8/20
-387f3b reboot 1578509323 # 10.0.119.37 jvand00041
-189393 reboot 1578509657 # 10.0.120.108 jvand00069
-83db84 reboot 1578512126
-d22225 reboot 1578512126
-3ebf58 reboot 1578512126
-250269 reboot 1578512126
-
-# 1/7/20
-# chain errors
-9b8580 reboot 1578426760 # 10.0.77.71 jvand0xtra
-83db84 reboot 1578426760 # 10.0.116.57 jvand00024
-d22225 reboot 1578426760 # 10.0.116.101 jvand00025
-b35ae4 reboot 1578426760 # 10.0.121.96 jvand00078
-# zzz errors
-387f3b reboot 1578427153# 10.0.119.37 jvand00041
-93620c reboot 1578427153# 10.0.120.152 jvand00070
-58224a reboot 1578427153# 10.0.118.46 jvand00029
-6a9e54 reboot 1578427153# 10.0.118.83 jvand00034
-
-# s_reboot chain & missing hashboards generated on Dec 02 2019 20:44:59 utc: 1575319499
-b31776 reboot 1575319499 # 10.0.119.75 jvand00046
-ac4e9b reboot 1575319499 # 10.0.119.97 jvand00052
-6e866a reboot 1575319499 # 10.0.118.63 jvand00030
-b7a6bc reboot 1575319499 # 10.0.119.50 jvand00044
-7368d0 reboot 1575319499 # 10.0.115.102 jvand00016
-100ee3 reboot 1575319499 # 10.0.116.53 jvand00022
-83db84 reboot 1575319499 # 10.0.116.57 jvand00024
-58224a reboot 1575319499 # 10.0.118.46 jvand00029
-6a9e54 reboot 1575319499 # 10.0.118.83 jvand00034
-000122 reboot 1575319499 # 10.0.119.73 jvand00045
-3d578d reboot 1575319499 # 10.0.119.100 jvand00053
-44b6d3 reboot 1575319499 # 10.0.120.4 jvand00056
-189393 reboot 1575319499 # 10.0.120.108 jvand00069
-d239b0 reboot 1575319499 # 10.0.121.52 jvand00074
 
 ## resets
-994f74 reset 1586355924
-962149 reset 1586233684
-a93cc1 reset 1586139992
-# 3/24/20
-2ba4ba reset 1585083489
-aefd4a reset 1585083489
 
-# 3/23/20
-ae4cbd reset 1584980586
-56a397 reset 1584980586
-a93cc1 reset 1584980586
-c55ec3 reset 1584980586
+## removals
+global remove 7ef3f6
 
-# 3/17/20
-6138b0 reset 1584461501
-519b76 reset 1584461501
-892d41 reset 1584461501
-
-# 3/3/20
-01085c reset 1583262355
-ac4e9b reset 1583262355
-519b76 reset 1583262355
-962149 reset 1583262355
-8d9cd3 reset 1583262355
-d239b0 reset 1583262355
-f026a7 reset 1583262355
-af0fab reset 1583262355 
-dacf42 reset 1583262860
-387f3b reset 1583262860
-44b6d3 reset 1583262860
-6a9e54 reset 1583262860
-58224a reset 1583262860
-
-# 2/14/20
-d81df4 reset 1581714992
-
-# 1/29/20
-100ee3 reset 1580324977
-
-# 1/23/20
-061acb reset 1579805526
-dacf42 reset 1579808637
-
-8d9cd3 reset 1578679766
-5047c0 reset 1578097695
-061acb reset 1578097695
-892d41 reset 1577471957
-68a150 reset 1577247312
-6ef7cf reset 1577172009
-52a8ec reset 1577117538
-af0fab reset 1575601772
-
-000122 reset 1575577188
-38cf59 reset 1575577188
-3ebf58 reset 1575562280
-
-dacf42 reset 1575388870
-7bf12e reset 1575388870
-1cbe40 reset 1575388870
-01085c reset 1575388870
-133149 reset 1575388870
-519b76 reset 1575388870
-63239b reset 1575388870
-994f74 reset 1575388870
-39e026 reset 1575388870
-33afb1 reset 1575388870
-df8f8f reset 1575388870
-ac6001 reset 1575388870
-8dd5c8 reset 1575388870
-54bcb8 reset 1575388870
-893870 reset 1575388870
-707893 reset 1575388870
-b5522d reset 1575388870
-f0b58f reset 1575388870
-c45d02 reset 1575388870
-2ba4ba reset 1575388870
-c0917e reset 1575388870
-dfd1e4 reset 1575388870
-f3bb5d reset 1575388870
-2ab52d reset 1575388870
-beb772 reset 1575388870
-b35ae4 reset 1575388870
-
-1cbe40 reset 1575321135
-68a150 reset 1575309212
-d22225 reset 1575309212
-38cf59 reset 1575309212
-7bf12e reset 1575309212
-6ef7cf reset 1575309212
-ad22e9 reset 1574954246
-44b6d3 reset 1574954246
-f026a7 reset 1574954246
-
-c55ec3 reset 1574928103
-381d25 reset 1574928103
-6138b0 reset 1574928103
-50f5c9 reset 1574928103
-9b70e9 reset 1574914516
-d7a2fa reset 1574914516
-031b4b reset 1574914516
-fab434 reset 1574914516
-53a5e4 reset 1574914516
-6cec70 reset 1574914516
-e3ebf1 reset 1574914516
-cd2082 reset 1574871826
-af0fab reset 1574871826
-387f3b reset 1574871826
-962149 reset 1574871826
-250269 reset 1574871826
-93620c reset 1573583262
-c55ec3 reset 1572964672 
-d22225 reset 1572964672 
-6e2e68 reset 1572964672 
-38cf59 reset 1572964672 
-817ac1 reset 1572964672 
-3d578d reset 1572964672 
-4b38e9 reset 1572964672 
-50f5c9 reset 1572964672 
-2ba4ba reset 1572964672 
-93620c reset 1572964672 
-54bcb8 reset 1572964672 
-
-## asic password
+## VPS pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
+## Remote pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCovql1bo+pkGUoq+zckj82BiW5CIBbxq1+wfET94ULY9b/BJzZHFxxjX79+aG4oilCpUKHFTJHv8Ox3IvtPxWGyx5IpV+avJqCO66+7/aIoG+Cqcz7f9pZPhK61qOG9AQsLNaZHaaB+jif7qCmXiDB1/eDzKHIh2UHdEnZSkcTrwdU40yA4JhenTAMJAxITopjAfURgJtTOkr9eBIVM6Xj/0x/f9ZUvL5jSLNDL9ujce928zCwvcMND+lrB3q5VgMluwihMUWZ3gJfsvZdHwPVXDP+qo1DaIP/oJ/rfD/ef9KkmYTYS3+RaYwGEJoGd0uHCUzSIl3oUJQg6kj4H22p
+# global panelpass gj83Nkgikg
 asicpass admin
+global logo https://raw.githubusercontent.com/cnels127/Configs/master/Bit49(2).png
