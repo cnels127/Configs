@@ -1,5 +1,6 @@
-## instructions available at: https://asicseer.com/page/kb#writing-config
-## TOTAL EXP HASHRATE 100 s9 @ 16 Th/s = 160 Th/s
+## 60 s9 @ 16 Th/s = 960 Th/s (contract expires 3/29/20)
+## 40 s9 @ 16 Th/s = 640 Th/s (contract expires 4/22/20)
+## TOTAL EXP HASHRATE = 160 Th/s
 
 global custompanel VLIGU0bit049
 global customer bit49-Russia
@@ -29,7 +30,6 @@ global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 global panelclear 999
-# global panelpass gj83Nkgikg
 
 # global retune 1
 # global reboot 8
@@ -37,135 +37,227 @@ global panelclear 999
 # global reset 1574961496
 
 ## vlans
-# vlan 10.0.32.80-83
-# vlan 10.0.51.1-1
-# vlan 10.0.51.3-56
-# vlan 10.0.57.88-127
-# vlan 10.0.57.160
-# extra machines added 12/9/19
-# vlan 10.0.115.62-62
-# vlan 10.0.115.72-72
-# vlan 10.0.115.111-111
-# vlan 10.0.115.116-116
-# vlan 10.0.115.161-161
-# vlan 10.0.116.8-8
-# vlan 10.0.116.24-24
-# vlan 10.0.116.31-31
-# extra machines added 3/9/20
-vlan 10.0.31.156-156 # 7a3f1b
-vlan 10.0.50.59-59 # 69f234
-vlan 10.0.50.74-74 # 31a3b4
-vlan 10.0.50.109-109 # 6140f0
-vlan 10.0.30.124-124 # 2d4ed1
-vlan 10.0.30.131-131 # 5d61db
-vlan 10.0.31.24-24 # 2ce9d3
-vlan 10.0.50.45-45 # 9cd2d8
-vlan 10.0.50.81-81 # a3f926
-vlan 10.0.50.146-146 # 910fab
-vlan 10.0.55.56-56 # c2c61a
-
+vlan 10.0.32.80-80 # 392b95
+vlan 10.0.32.81-81 # 588b28
+vlan 10.0.32.82-82 # 43f6d9
+vlan 10.0.32.83-83 # a1b050
+vlan 10.0.51.1-1 # 193649
+# vlan 10.0.51.3 # 7b1d13 # SCRAPPED 4/21/20
+vlan 10.0.51.4-4 # 75ca40
+vlan 10.0.51.5-5 # d8c2ec
+vlan 10.0.51.6-6 # 7dd754
+vlan 10.0.51.7-7 # 629711
+vlan 10.0.51.8-8 # 6a16cb
+vlan 10.0.51.9-9 # a4acde
+vlan 10.0.51.10-10 # 418123
+vlan 10.0.51.11-11 # db4dc1
+vlan 10.0.51.12-12 # d8a882
+vlan 10.0.51.13-13 # 5bda2f
+vlan 10.0.51.14-14 # 52051a
+vlan 10.0.51.15-15 # 27300f
+vlan 10.0.51.16-16 # 5c0833
+vlan 10.0.51.17-17 # 1be66b
+vlan 10.0.51.18-18 # aaf208
+vlan 10.0.51.19-19 # 54af96
+vlan 10.0.51.20-20 # 7eea51
+vlan 10.0.51.21-21 # 3fb054
+vlan 10.0.51.22-22 # e4561d
+vlan 10.0.51.23-23 # 4319ad
+vlan 10.0.51.24-24 # 7da70a
+vlan 10.0.51.25-25 # ab7297
+vlan 10.0.51.26-26 # f41f50
+vlan 10.0.51.27-27 # 182773
+vlan 10.0.51.28-28 # eabd2c
+vlan 10.0.51.29-29 # d59af9
+vlan 10.0.51.30-30 # 9b9835
+vlan 10.0.51.31-31 # d0fe6f
+vlan 10.0.51.32-32 # 7e0c44
+vlan 10.0.51.33-33 # 6878ae
+vlan 10.0.51.34-34 # 0ebe29
+vlan 10.0.51.35-35 # d756d3
+vlan 10.0.51.36-36 # 81d214
+vlan 10.0.51.37-37 # 688790
+# vlan 10.0.51.38-38 # 9a8744 # SCRAPPED 4/21/20
+vlan 10.0.51.39-39 # b6e3fd
+# vlan 10.0.51.40-40 # 8483c5 # SCRAPPED 4/21/20
+vlan 10.0.51.41-41 # 7ad9c1
+vlan 10.0.51.42-42 # 4dac09
+vlan 10.0.51.43-43 # b84091
+vlan 10.0.51.44-44 # 02d712
+vlan 10.0.51.45-45 # a6cb63
+vlan 10.0.51.46-46 # 3fb0a7
+# vlan 10.0.51.47-47 # fe82d8 # SCRAPPED 4/21/20
+vlan 10.0.51.48-48 # de8889
+vlan 10.0.51.49-49 # 054447
+# vlan 10.0.51.50-50 # fa20ef # SCRAPPED 4/21/20
+vlan 10.0.51.51-51 # 428ab8
+vlan 10.0.51.52-52 # 8ae513
+vlan 10.0.51.53-53 # e29028
+vlan 10.0.51.54-54 # f4ba29
+vlan 10.0.51.55-55 # c05b10
+vlan 10.0.51.56-56 # 9079b4
+vlan 10.0.57.88-88 # da3f92
+vlan 10.0.57.89-89 # 9b7ce8
+vlan 10.0.57.90-90 # 093dac
+vlan 10.0.57.91-91 # 89d0d8
+vlan 10.0.57.92-92 # 89fcd2
+vlan 10.0.57.93-93 # ac0a46
+vlan 10.0.57.94-94 # de6bea
+vlan 10.0.57.95-95 # fde057
+vlan 10.0.57.96-96 # a8f303
+vlan 10.0.57.97-97 # 22122a
+vlan 10.0.57.98-98 # e6ead1
+vlan 10.0.57.99-99 # 8e1779
+vlan 10.0.57.100-100 # adc462
+vlan 10.0.57.101-101 # 268467
+vlan 10.0.57.102-102 # 4d4b02
+# vlan 10.0.57.103-103 # 3bd98f # SCRAPPED 4/24/20
+vlan 10.0.57.104-104 # bc004c
+vlan 10.0.57.105-105 # f7dadf
+vlan 10.0.57.106-106 # d517e7
+vlan 10.0.57.107-107 # 2c95c4
+vlan 10.0.57.108-108 # 0fb0c4
+vlan 10.0.57.109-109 # 6ebe19
+vlan 10.0.57.110-110 # d239b9
+vlan 10.0.57.111-111 # df64b7
+vlan 10.0.57.112-112 # b75ead
+vlan 10.0.57.113-113 # 7646a4
+vlan 10.0.57.114-114 # b0c57f
+vlan 10.0.57.115-115 # 8334c3
+# vlan 10.0.57.116-116 # 229e75 # SCRAPPED 4/30/20
+vlan 10.0.57.117-117 # 6f161e
+vlan 10.0.57.118-118 # 5ad207
+vlan 10.0.57.119-119 # ad13e2
+vlan 10.0.57.120-120 # db2bbb
+vlan 10.0.57.121-121 # 2a8e96
+vlan 10.0.57.122-122 # 6904ea
+vlan 10.0.57.123-123 # 5621cd
+vlan 10.0.57.124-124 # 2bf22d
+vlan 10.0.57.125-125 # 6a116f
+vlan 10.0.57.126-126 # 7a4c7c
+vlan 10.0.57.127-127 # 39c93b
+vlan 10.0.57.160-160 # 430b5d
+vlan 10.0.50.45-45 # 9cd2d8 # extra added 3/9/20
+vlan 10.0.50.59-59 # 69f234 # extra added 3/9/20
+vlan 10.0.50.74-74 # 31a3b4 # extra added 3/9/20
+vlan 10.0.50.81-81 # a3f926 # extra added 3/9/20
+vlan 10.0.50.109-109 # 6140f0 # extra added 3/9/20
+vlan 10.0.50.146-146 # 910fab # extra added 3/9/20
+vlan 10.0.55.56-56 # c2c61a # extra added 3/9/20
+vlan 10.0.115.62-62 # d66933 # extra added 12/9/19
+vlan 10.0.115.72-72 # c16850 # extra added 12/9/19
+vlan 10.0.115.111-111 # fa98c3 # extra added 12/9/19
+vlan 10.0.115.116-116 # c96974 # extra added 12/9/19
+vlan 10.0.116.8-8 # 1c5497 # extra added 12/9/19
+vlan 10.0.116.24-24 # a2affe # extra added 12/9/19
+vlan 10.0.116.31-31 # bd2d70 # extra added 12/9/19
+vlan 10.3.21.21-21 # 2d4ed1 # extra added 3/9/20
+vlan 10.3.21.62-62 # 5d61db # extra added 3/9/20
+vlan 10.3.22.37-37 # 7a3f1b # extra added 3/9/20
+vlan 10.3.22.84-84 # 2ce9d3 # extra added 3/9/20
 
 ## locations
-392b95 location VLIGU00001
-588b28 location VLIGU00002
-43f6d9 location VLIGU00003
-a1b050 location VLIGU00004
-193649 location VLIGU00005
-7b1d13 location VLIGU00006
-75ca40 location VLIGU00007
-d8c2ec location VLIGU00008
-7dd754 location VLIGU00009
-629711 location VLIGU00010
-6a16cb location VLIGU00011
-a4acde location VLIGU00012
-418123 location VLIGU00013
-db4dc1 location VLIGU00014
-d8a882 location VLIGU00015
-5bda2f location VLIGU00016
-52051a location VLIGU00017
-27300f location VLIGU00018
-5c0833 location VLIGU00019
-1be66b location VLIGU00020
-aaf208 location VLIGU00021
-54af96 location VLIGU00022
-7eea51 location VLIGU00023
-3fb054 location VLIGU00024
-e4561d location VLIGU00025
-4319ad location VLIGU00026
-7da70a location VLIGU00027
-ab7297 location VLIGU00028
-f41f50 location VLIGU00029
-182773 location VLIGU00030
-eabd2c location VLIGU00031
-d59af9 location VLIGU00032
-9b9835 location VLIGU00033
-d0fe6f location VLIGU00034
-7e0c44 location VLIGU00035
-6878ae location VLIGU00036
-0ebe29 location VLIGU00037
-d756d3 location VLIGU00038
-81d214 location VLIGU00039
-688790 location VLIGU00040
-9a8744 location VLIGU00041
-b6e3fd location VLIGU00042
-8483c5 location VLIGU00043
-7ad9c1 location VLIGU00044
-4dac09 location VLIGU00045
-b84091 location VLIGU00046
-02d712 location VLIGU00047
-a6cb63 location VLIGU00048
-3fb0a7 location VLIGU00049
-fe82d8 location VLIGU00050
-de8889 location VLIGU00051
-054447 location VLIGU00052
-fa20ef location VLIGU00053
-428ab8 location VLIGU00054
-8ae513 location VLIGU00055
-e29028 location VLIGU00056
-f4ba29 location VLIGU00057
-c05b10 location VLIGU00058
-9079b4 location VLIGU00059
-da3f92 location VLIGU00060
-9b7ce8 location VLIGU00061
-093dac location VLIGU00062
-89d0d8 location VLIGU00063
-89fcd2 location VLIGU00064
-ac0a46 location VLIGU00065
-de6bea location VLIGU00066
-fde057 location VLIGU00067
-a8f303 location VLIGU00068
-22122a location VLIGU00069
-e6ead1 location VLIGU00070
-8e1779 location VLIGU00071
-adc462 location VLIGU00072
-268467 location VLIGU00073
-4d4b02 location VLIGU00074
-3bd98f location VLIGU00075
-bc004c location VLIGU00076
-f7dadf location VLIGU00077
-d517e7 location VLIGU00078
-2c95c4 location VLIGU00079
-0fb0c4 location VLIGU00080
-6ebe19 location VLIGU00081
-d239b9 location VLIGU00082
-df64b7 location VLIGU00083
-b75ead location VLIGU00084
-7646a4 location VLIGU00085
-b0c57f location VLIGU00086
-8334c3 location VLIGU00087
-229e75 location VLIGU00088
-6f161e location VLIGU00089
-5ad207 location VLIGU00090
-ad13e2 location VLIGU00091
-db2bbb location VLIGU00092
-2a8e96 location VLIGU00093
-6904ea location VLIGU00094
-5621cd location VLIGU00095
-2bf22d location VLIGU00096
-6a116f location VLIGU00097
-7a4c7c location VLIGU00098
-39c93b location VLIGU00099
-430b5d location VLIGU00100
+392b95 location VLIGU00001 # 10.0.32.80
+588b28 location VLIGU00002 # 10.0.32.81
+43f6d9 location VLIGU00003 # 10.0.32.82
+a1b050 location VLIGU00004 # 10.0.32.83
+193649 location VLIGU00005 # 10.0.51.1
+# 7b1d13 location VLIGU00006 # 10.0.51.3 # SCRAPPED 4/21/20
+75ca40 location VLIGU00007 # 10.0.51.4
+d8c2ec location VLIGU00008 # 10.0.51.5
+7dd754 location VLIGU00009 # 10.0.51.6
+629711 location VLIGU00010 # 10.0.51.7
+6a16cb location VLIGU00011 # 10.0.51.8
+a4acde location VLIGU00012 # 10.0.51.9
+418123 location VLIGU00013 # 10.0.51.10
+db4dc1 location VLIGU00014 # 10.0.51.11
+d8a882 location VLIGU00015 # 10.0.51.12
+5bda2f location VLIGU00016 # 10.0.51.13
+52051a location VLIGU00017 # 10.0.51.14
+27300f location VLIGU00018 # 10.0.51.15
+5c0833 location VLIGU00019 # 10.0.51.16
+1be66b location VLIGU00020 # 10.0.51.17
+aaf208 location VLIGU00021 # 10.0.51.18
+54af96 location VLIGU00022 # 10.0.51.19
+7eea51 location VLIGU00023 # 10.0.51.20
+3fb054 location VLIGU00024 # 10.0.51.21
+e4561d location VLIGU00025 # 10.0.51.22
+4319ad location VLIGU00026 # 10.0.51.23
+7da70a location VLIGU00027 # 10.0.51.24
+ab7297 location VLIGU00028 # 10.0.51.25
+f41f50 location VLIGU00029 # 10.0.51.26
+182773 location VLIGU00030 # 10.0.51.27
+eabd2c location VLIGU00031 # 10.0.51.28
+d59af9 location VLIGU00032 # 10.0.51.29
+9b9835 location VLIGU00033 # 10.0.51.30
+d0fe6f location VLIGU00034 # 10.0.51.31
+7e0c44 location VLIGU00035 # 10.0.51.32
+6878ae location VLIGU00036 # 10.0.51.33
+0ebe29 location VLIGU00037 # 10.0.51.34
+d756d3 location VLIGU00038 # 10.0.51.35
+81d214 location VLIGU00039 # 10.0.51.36
+688790 location VLIGU00040 # 10.0.51.37
+# 9a8744 location VLIGU00041 # 10.0.51.38 # SCRAPPED 4/21/20
+b6e3fd location VLIGU00042 # 10.0.51.39
+# 8483c5 location VLIGU00043 # 10.0.51.40 # SCRAPPED 4/21/20
+7ad9c1 location VLIGU00044 # 10.0.51.41
+4dac09 location VLIGU00045 # 10.0.51.42
+b84091 location VLIGU00046 # 10.0.51.43
+02d712 location VLIGU00047 # 10.0.51.44
+a6cb63 location VLIGU00048 # 10.0.51.45
+3fb0a7 location VLIGU00049 # 10.0.51.46
+# fe82d8 location VLIGU00050 # 10.0.51.47 # SCRAPPED 4/21/20
+de8889 location VLIGU00051 # 10.0.51.48
+054447 location VLIGU00052 # 10.0.51.49
+# fa20ef location VLIGU00053 # 10.0.51.50 # SCRAPPED 4/21/20
+428ab8 location VLIGU00054 # 10.0.51.51
+8ae513 location VLIGU00055 # 10.0.51.52
+e29028 location VLIGU00056 # 10.0.51.53
+f4ba29 location VLIGU00057 # 10.0.51.54
+c05b10 location VLIGU00058 # 10.0.51.55
+9079b4 location VLIGU00059 # 10.0.51.56
+da3f92 location VLIGU00060 # 10.0.57.88
+9b7ce8 location VLIGU00061 # 10.0.57.89
+093dac location VLIGU00062 # 10.0.57.90
+89d0d8 location VLIGU00063 # 10.0.57.91
+89fcd2 location VLIGU00064 # 10.0.57.92
+ac0a46 location VLIGU00065 # 10.0.57.93
+de6bea location VLIGU00066 # 10.0.57.94
+fde057 location VLIGU00067 # 10.0.57.95
+a8f303 location VLIGU00068 # 10.0.57.96
+22122a location VLIGU00069 # 10.0.57.97
+e6ead1 location VLIGU00070 # 10.0.57.98
+8e1779 location VLIGU00071 # 10.0.57.99
+adc462 location VLIGU00072 # 10.0.57.100
+268467 location VLIGU00073 # 10.0.57.101
+4d4b02 location VLIGU00074 # 10.0.57.102
+# 3bd98f location VLIGU00075 # 10.0.57.103 # SCRAPPED 4/24/20
+bc004c location VLIGU00076 # 10.0.57.104
+f7dadf location VLIGU00077 # 10.0.57.105
+d517e7 location VLIGU00078 # 10.0.57.106
+2c95c4 location VLIGU00079 # 10.0.57.107
+0fb0c4 location VLIGU00080 # 10.0.57.108
+6ebe19 location VLIGU00081 # 10.0.57.109
+d239b9 location VLIGU00082 # 10.0.57.110
+df64b7 location VLIGU00083 # 10.0.57.111
+b75ead location VLIGU00084 # 10.0.57.112
+7646a4 location VLIGU00085 # 10.0.57.113
+b0c57f location VLIGU00086 # 10.0.57.114
+8334c3 location VLIGU00087 # 10.0.57.115
+# 229e75 location VLIGU00088 # 10.0.57.116 # SCRAPPED 4/30/20
+6f161e location VLIGU00089 # 10.0.57.117
+5ad207 location VLIGU00090 # 10.0.57.118
+ad13e2 location VLIGU00091 # 10.0.57.119
+db2bbb location VLIGU00092 # 10.0.57.120
+2a8e96 location VLIGU00093 # 10.0.57.121
+6904ea location VLIGU00094 # 10.0.57.122
+5621cd location VLIGU00095 # 10.0.57.123
+2bf22d location VLIGU00096 # 10.0.57.124
+6a116f location VLIGU00097 # 10.0.57.125
+7a4c7c location VLIGU00098 # 10.0.57.126
+39c93b location VLIGU00099 # 10.0.57.127
+430b5d location VLIGU00100 # 10.0.57.160
+
 # extra machines added 12/9/19
 d66933 location VLIGU0XTRA # 10.0.115.62
 c16850 location VLIGU0XTRA # 10.0.115.72
@@ -188,676 +280,23 @@ a3f926 location VLIGU0XTRA # 10.0.50.81 # 14.9 Th/s
 910fab location VLIGU0XTRA # 10.0.50.146 # 14.9 Th/s
 c2c61a location VLIGU0XTRA # 10.0.55.56 # 14.9 Th/s
 
+## tuning
 
 ## throttle
-# 3/25/20
-2ce9d3 uncork 1585158927
-a4acde uncork 1585158927
-eabd2c uncork 1585158927
-7ad9c1 uncork 1585158927
-7a4c7c uncork 1585158927
-3fb0a7 uncork 1585158927
-b84091 uncork 1585158927
-52051a uncork 1585158927
-5d61db uncork 1585158927
-392b95 uncork 1585158927
-a1b050 uncork 1585158927
-418123 uncork 1585158927
-5bda2f uncork 1585158927
-e4561d uncork 1585158927
-ab7297 uncork 1585158927
-39c93b uncork 1585158927
-430b5d uncork 1585158927
-db2bbb uncork 1585158927
-8ae513 uncork 1585158927
-9079b4 uncork 1585158927
-
-# 3/23/20
-9cd2d8 uncork 1584990520
-a3f926 uncork 1584990520
-9b9835 uncork 1584990520
-9079b4 uncork 1584990520
-da3f92 uncork 1584990520
-9b7ce8 uncork 1584990520
-89fcd2 uncork 1584990520
-22122a uncork 1584990520
-6ebe19 uncork 1584990520
-b75ead uncork 1584990520
-b0c57f uncork 1584990520
-5621cd uncork 1584990520
-6a116f uncork 1584990520 
-
-# 3/18/20
-22122a uncork 1584556110
-69f234 uncork 1584556110
-
-# 3/17/20
-a2affe uncork 1584462250
-31a3b4 uncork 1584462250
-5bda2f uncork 1584462250
-7eea51 uncork 1584462250
-4dac09 uncork 1584462250
-
-# 3/11/20
-d517e7 uncork 1583949132
-52051a uncork 1583949132
-54af96 uncork 1583949132
-430b5d uncork 1583949132
-9cd2d8 uncork 1583949132
-69f234 uncork 1583949132
-5d61db uncork 1583949132
-
-# 3/10/20
-9cd2d8 uncork 1583866495
-5d61db uncork 1583866495
-2d4ed1 uncork 1583866495
-69f234 uncork 1583866495
-2ce9d3 uncork 1583866495
-910fab uncork 1583866495
-6140f0 uncork 1583866495
-c05b10 uncork 1583866495
-
-# 3/2/20
-418123 uncork 1583174951
-1be66b uncork 1583174951
-c05b10 uncork 1583174951
-
-# 2/28/20
-1be66b uncork 1582907968
-c16850 uncork 1582907968
-a6cb63 uncork 1582907968
-9b7ce8 uncork 1582907968
-df64b7 uncork 1582907968
-2bf22d uncork 1582907968
-2a8e96 uncork 1582907968
-52051a uncork 1582907968
-
-# 2/27/20
-430b5d uncork 1582827639
-b0c57f uncork 1582827639
-6ebe19 uncork 1582827639
-2bf22d uncork 1582827639
-df64b7 uncork 1582827639
-eabd2c uncork 1582827639
-f4ba29 uncork 1582827639
-4dac09 uncork 1582827639
-9b9835 uncork 1582827639
-7e0c44 uncork 1582827639
-c05b10 uncork 1582827639
-7eea51 uncork 1582827639
-
-# 2/26/20
-1be66b uncork 1582746271
-54af96 uncork 1582746271
-688790 uncork 1582746271
-c05b10 uncork 1582746271
-2c95c4 uncork 1582746271
-
-# 2/18/20
-75ca40 uncork 1582054138
-3fb054 uncork 1582054138
-a6cb63 uncork 1582054138
-c05b10 uncork 1582054138
-a8f303 uncork 1582054138
-df64b7 uncork 1582054138
-d756d3 uncork 1582054138
-
-# 2/14/20
-c05b10 uncork 1581704781
-7646a4 uncork 1581704781
-
-# 2/13/20
-c96974 uncork 1581620532
-5bda2f uncork 1581620532
-7b1d13 uncork 1581620532
-428ab8 uncork 1581620532
-c05b10 uncork 1581620532
-2a8e96 uncork 1581620532
-d8a882 uncork 1581620532
-
-# 2/11/20
-6904ea uncork 1581446740
-d8a882 uncork 1581446740
-54af96 uncork 1581446740
-7da70a uncork 1581446740
-8e1779 uncork 1581446740
-7646a4 uncork 1581446740
-fa20ef uncork 1581446740
-d756d3 uncork 1581446740
-4d4b02 uncork 1581446740
-2a8e96 uncork 1581446740
-fe82d8 uncork 1581446740
-c05b10 uncork 1581446740
-
-# 2/5/20
-89fcd2 uncork 1580928754
-fde057 uncork 1580928754
-c16850 uncork 1580928754
-bd2d70 uncork 1580928754
-7b1d13 uncork 1580928754
-d8a882 uncork 1580928754
-f41f50 uncork 1580928754
-b6e3fd uncork 1580928754
-c05b10 uncork 1580928754
-ac0a46 uncork 1580928754
-8e1779 uncork 1580928754
-7646a4 uncork 1580928754
-
-# 1/28/20
-c05b10 uncork 1580238073
-c16850 uncork 1580238073
-7da70a uncork 1580238073
-
-# 1/27/20
-d756d3 uncork 1580150516
-c05b10 uncork 1580150516
-1c5497 uncork 1580150516
-7da70a uncork 1580150516
-9079b4 uncork 1580150516
-5ad207 uncork 1580150516
-2a8e96 uncork 1580150516
-c16850 uncork 1580150516
-
-# 1/24/20
-7b1d13 uncork 1579894409
-688790 uncork 1579894409
-c05b10 uncork 1579894409
-093dac uncork 1579894409
-2c95c4 uncork 1579894409
-
-# 1/22/20
-bd2d70 uncork 1579719168
-a2affe uncork 1579719168
-193649 uncork 1579719168
-c05b10 uncork 1579719168
-4d4b02 uncork 1579719168
-
-# 1/17/20
-193649 uncork 1579288536
-d8c2ec uncork 1579288536
-27300f uncork 1579288536
-1be66b uncork 1579288536
-54af96 uncork 1579288536
-c05b10 uncork 1579288536
-ac0a46 uncork 1579288536
-3bd98f uncork 1579288536
-2c95c4 uncork 1579288536
-7646a4 uncork 1579288536
-
-# 1/13/20
-2c95c4 uncork 1578942278
-f7dadf uncork 1578942278
-7b1d13 uncork 1578942278
-4319ad uncork 1578942278
-c05b10 uncork 1578942278
-7646a4 uncork 1578942278
-
-# 1/10/20
-1be66b uncork 1578681724
-054447 uncork 1578681724
-c16850 uncork 1578681724
-d517e7 uncork 1578681724
-268467 uncork 1578681724
-093dac uncork 1578681724
-4d4b02 uncork 1578681724
-ac0a46 uncork 1578681724
-430b5d uncork 1578681724
-22122a uncork 1578681724
-bc004c uncork 1578681724
-2a8e96 uncork 1578681724
-e4561d uncork 1578681724
-7eea51 uncork 1578681724
-5bda2f uncork 1578681724
-ab7297 uncork 1578681724
-7ad9c1 uncork 1578681724
-27300f uncork 1578681724
-b84091 uncork 1578681724
-fa20ef uncork 1578681724
-7da70a uncork 1578681724
-193649 uncork 1578681724
-3bd98f uncork 1578681724
-02d712 uncork 1578681724
-
-# 1/7/20
-02d712 uncork 1578427999
-43f6d9 uncork 1578427999
-1be66b uncork 1578427999
-c05b10 uncork 1578427999
-0ebe29 uncork 1578427999
-54447 uncork 1578427999
-2a8e96 uncork 1578427999
-
-c16850 uncork 1577906564
-43f6d9 uncork 1577906564
-7b1d13 uncork 1577906564
-75ca40 uncork 1577906564
-5c0833 uncork 1577906564
-1be66b uncork 1577906564
-54af96 uncork 1577906564
-4319ad uncork 1577906564
-182773 uncork 1577906564
-d756d3 uncork 1577906564
-688790 uncork 1577906564
-b6e3fd uncork 1577906564
-de8889 uncork 1577906564
-c05b10 uncork 1577906564
-da3f92 uncork 1577906564
-2c95c4 uncork 1577906564
-229e75 uncork 1577906564
-8483c5 uncork 1577906564
-0ebe29 uncork 1577906564
-b84091 uncork 1577906564
-054447 uncork 1577906564
-22122a uncork 1577906564
-5ad207 uncork 1577906564
-db2bbb uncork 1577906564
-2a8e96 uncork 1577906564
-02d712 uncork 1577906564
-
-a1b050 uncork 1577383728
-c16850 uncork 1577383728
-1be66b uncork 1577383728
-75ca40 uncork 1577383728
-d8c2ec uncork 1577383728
-d756d3 uncork 1577383728
-02d712 uncork 1577383728
-c05b10 uncork 1577383728
-a8f303 uncork 1577383728
-22122a uncork 1577383728
-adc462 uncork 1577383728
-268467 uncork 1577383728
-430b5d uncork 1577383728
-
-fa20ef uncork 1576245757
-db2bbb uncork 1576245757
-b84091 uncork 1576245757
-7da70a uncork 1576245757
-2a8e96 uncork 1576245757
-89d0d8 uncork 1576245757
-268467 uncork 1576245757
-fe82d8 uncork 1576245757
-
-02d712 uncork 1576164900
-bd2d70 uncork 1576164900
-a2affe uncork 1576164900
-392b95 uncork 1576164900
-43f6d9 uncork 1576164900
-a1b050 uncork 1576164900
-7b1d13 uncork 1576164900
-a4acde uncork 1576164900
-db4dc1 uncork 1576164900
-27300f uncork 1576164900
-1be66b uncork 1576164900
-aaf208 uncork 1576164900
-e4561d uncork 1576164900
-4319ad uncork 1576164900
-ab7297 uncork 1576164900
-f41f50 uncork 1576164900
-d756d3 uncork 1576164900
-a6cb63 uncork 1576164900
-c05b10 uncork 1576164900
-093dac uncork 1576164900
-ac0a46 uncork 1576164900
-a8f303 uncork 1576164900
-430b5d uncork 1576164900
-
-588b28 uncork 1575736419
-43f6d9 uncork 1575736419
-a1b050 uncork 1575736419
-093dac uncork 1575736419
-4d4b02 uncork 1575736419
-7b1d13 uncork 1575736419
-52051a uncork 1575736419
-
-6ebe19 uncork 1575562073
-7646a4 uncork 1575562073
-2a8e96 uncork 1575562073
-2bf22d uncork 1575562073
-6a16cb uncork 1575562073
-418123 uncork 1575562073
-5bda2f uncork 1575562073
-5c0833 uncork 1575562073
-8ae513 uncork 1575562073
-
-6904ea uncork 1575388088
-430b5d uncork 1575388088
-
-5c0833 uncork 1585234468 
-7e0c44 uncork 1585234468 
 
 ## fans
 
 ## reboots
-# 3/27/20
-27300f reboot 1585330584
-5d61db reboot 1585330584
-
-# 3/26/20
-5c0833 reboot 1585252226 
-7e0c44 reboot 1585252226 
-# 3/26/2020
-52051a reboot 1585238112 # 10.0.51.14 vligu00017
-e29028 reboot 1585238112 # 10.0.51.53 vligu00056
-5c0833 reboot 1585238112 # 10.0.51.16 vligu00019
-7e0c44 reboot 1585238112 # 10.0.51.32 vligu00035
-688790 reboot 1585238112 # 10.0.51.37 vligu00040
-5ad207 reboot 1585238112 # 10.0.57.118 vligu00090
-6878ae reboot 1585238112 # 10.0.51.33 vligu00036
-81d214 reboot 1585238112 # 10.0.51.36 vligu00039
-3fb0a7 reboot 1585238112 # 10.0.51.46 vligu00049
-054447 reboot 1585238112 # 10.0.51.49 vligu00052
-b84091 reboot 1585238112 # 10.0.51.43 vligu00046
-d756d3 reboot 1585238112 # 10.0.51.35 vligu00038
-5d61db reboot 1585238112 # 10.0.30.131 vligu0xtra
-8334c3 reboot 1585238112 # 10.0.57.115 vligu00087
-d517e7 reboot 1585238112 # 10.0.57.106 vligu00078
-adc462 reboot 1585238112 # 10.0.57.100 vligu00072
-d66933 reboot 1585238112 # 10.0.115.62 vligu0xtra
-a2affe reboot 1585238112 # 10.0.116.24 vligu0xtra
-89d0d8 reboot 1585238112 # 10.0.57.91 vligu00063
-22122a reboot 1585238112 # 10.0.57.97 vligu00069
-ad13e2 reboot 1585238112 # 10.0.57.119 vligu00091
-5621cd reboot 1585238112 # 10.0.57.123 vligu00095
-2a8e96 reboot 1585238112 # 10.0.57.121 vligu00093
-e6ead1 reboot 1585238112 # 10.0.57.98 vligu00070
-03a050 reboot 1585238112 # 10.0.115.161 vligu0xtra
-1c5497 reboot 1585238112 # 10.0.116.8 vligu0xtra
-193649 reboot 1585238112 # 10.0.51.1 vligu00005
-7b1d13 reboot 1585238112 # 10.0.51.3 vligu00006
-6a16cb reboot 1585238112 # 10.0.51.8 vligu00011
-d8a882 reboot 1585238112 # 10.0.51.12 vligu00015
-27300f reboot 1585238112 # 10.0.51.15 vligu00018
-4319ad reboot 1585238112 # 10.0.51.23 vligu00026
-7da70a reboot 1585238112 # 10.0.51.24 vligu00027
-eabd2c reboot 1585238112 # 10.0.51.28 vligu00031
-d59af9 reboot 1585238112 # 10.0.51.29 vligu00032
-d0fe6f reboot 1585238112 # 10.0.51.31 vligu00034
-0ebe29 reboot 1585238112 # 10.0.51.34 vligu00037
-9a8744 reboot 1585238112 # 10.0.51.38 vligu00041
-8483c5 reboot 1585238112 # 10.0.51.40 vligu00043
-7ad9c1 reboot 1585238112 # 10.0.51.41 vligu00044
-a6cb63 reboot 1585238112 # 10.0.51.45 vligu00048
-fe82d8 reboot 1585238112 # 10.0.51.47 vligu00050
-fa20ef reboot 1585238112 # 10.0.51.50 vligu00053
-4d4b02 reboot 1585238112 # 10.0.57.102 vligu00074
-3bd98f reboot 1585238112 # 10.0.57.103 vligu00075
-d239b9 reboot 1585238112 # 10.0.57.110 vligu00082
-229e75 reboot 1585238112 # 10.0.57.116 vligu00088
-db2bbb reboot 1585238112 # 10.0.57.120 vligu00092
-39c93b reboot 1585238112 # 10.0.57.127 vligu00099
-# 3/10/20
-4319ad reboot 1583867060
-6878ae reboot 1583867060
-0ebe29 reboot 1583867060
-d756d3 reboot 1583867060
-688790 reboot 1583867060
-b84091 reboot 1583867060
-22122a reboot 1583867060
-e6ead1 reboot 1583867060
-adc462 reboot 1583867060
-
-# 3/2/20
-4319ad reboot 1583174985
-d0fe6f reboot 1583174985
-0ebe29 reboot 1583174985
-
-# 2/28/20
-d239b9 reboot 1582908010
-e6ead1 reboot 1582908010
-d756d3 reboot 1582908010
-e29028 reboot 1582908010
-
-# 2/26/20
-03a050 reboot 1582746311
-0ebe29 reboot 1582746311
-e29028 reboot 1582746311
-e6ead1 reboot 1582746311
-adc462 reboot 1582746311
-d517e7 reboot 1582746311
-ad13e2 reboot 1582746311
-
-# 2/14/20
-193649 reboot 1581704549
-0ebe29 reboot 1581704549
-89fcd2 reboot 1581704549
-e6ead1 reboot 1581704549
-d517e7 reboot 1581704549
-ad13e2 reboot 1581704549
-
-# 2/6/20
-0ebe29 reboot 1581015573
-d756d3 reboot 1581015573
-e6ead1 reboot 1581015573
-adc462 reboot 1581015573
-ad13e2 reboot 1581015573
-
-# 1/30/20
-d59af9 reboot 1580409422
-
-# 1/28/20
-5ad207 reboot 1580237812
-
-# 1/23/20
-8483c5 reboot 1579806014
-0ebe29 reboot 1579806140
-db2bbb reboot 1579806405
-5ad207 reboot 1579806405
-9a8744 reboot 1579806794
-
-# 1/21/20
-89fcd2 reboot 1579633678
-e6ead1 reboot 1579633678
-5ad207 reboot 1579633678
-
-# 1/18/20
-03a050 reboot 1579371300
-c16850 reboot 1579371300
-
-# 1/17/20
-0ebe29 reboot 1579288600
-e6ead1 reboot 1579288600
-adc462 reboot 1579288600
-8483c5 reboot 1579288571
-fe82d8 reboot 1579288571
-b0c57f reboot 1579288571
-5ad207 reboot 1579288571
-ad13e2 reboot 1579288571
-
-# 1/14/20
-b0c57f reboot 1579030395
-fe82d8 reboot 1579030395
-8483c5 reboot 1579030395
-
-# 1/10/20
-193649 reboot 1578682525
-
-# 1/8/20
-e6ead1 reboot 1578512174
-d0fe6f reboot 1578512174
-
-db2bbb reboot 1578426855 # 10.0.57.120 vligu00092
-193649 reboot 1578426855 # 10.0.51.1 vligu00005
-0ebe29 reboot 1578426855 # 10.0.51.34 vligu00037
-e6ead1 reboot 1578426855 # 10.0.57.98 vligu00070
-
-## retunes
-#3/27/20
-910fab retune 1585330584
-b0c57f retune 1585330584
-69f234 retune 1585330584
-b6e3fd retune 1585330584
-
-# 3/17/20
-7a4c7c retune 1584462527
-182773 retune 1584462527
-eabd2c retune 1584462527
-
-# 3/16/20
-093dac retune 1584378993
-69f234 retune 1584378993
-1be66b retune 1584378993
-3fb054 retune 1584378993
-428ab8 retune 1584378993
-a8f303 retune 1584378993
-adc462 retune 1584378993
-392b95 retune 1584378993
-43f6d9 retune 1584378993
-
-# 3/2/20
-093dac retune 1583175052
-39c93b retune 1583175052
-9079b4 retune 1583175052
-de8889 retune 1583175052
-d517e7 retune 1583175052
-688790 retune 1583175052
-bc004c retune 1583175052
-392b95 retune 1583175052
-df64b7 retune 1583175052
-6f161e retune 1583175052
-428ab8 retune 1583175052
-
-# 2/26/20
-093dac retune 1582746370
-89fcd2 retune 1582746370
-de6bea retune 1582746370
-39c93b retune 1582746370
-6f161e retune 1582746370
-392b95 retune 1582746370
-
-# 2/20/20
-39c93b retune 1582224147
-22122a retune 1582224147
-418123 retune 1582224147
-da3f92 retune 1582224147
-a8f303 retune 1582224147
-02d712 retune 1582224147
-43f6d9 retune 1582224147
-6f161e retune 1582224147
-7a4c7c retune 1582224147
-54af96 retune 1582224147
-3fb054 retune 1582224147
-1be66b retune 1582224147
-6904ea retune 1582224147
-392b95 retune 1582224147
-588b28 retune 1582224147
-
-# 2/19/20
-093dac retune 1582136628
-4dac09 retune 1582136628
-89fcd2 retune 1582136628
-6a16cb retune 1582136628
-d8a882 retune 1582136628
-a8f303 retune 1582136628
-da3f92 retune 1582136628
-de6bea retune 1582136628
-de8889 retune 1582136628
-aaf208 retune 1582136628
-6f161e retune 1582136628
-43f6d9 retune 1582136628
-7a4c7c retune 1582136628
-182773 retune 1582136628
-2c95c4 retune 1582136628
-
-# 2/14/20
-093dac retune 1581704702
-3fb054 retune 1581704702
-4319ad retune 1581704702
-ac0a46 retune 1581704702
-e4561d retune 1581704702
-db4dc1 retune 1581704702
-eabd2c retune 1581704702
-a8f303 retune 1581704702
-428ab8 retune 1581704702
-1be66b retune 1581704702
-688790 retune 1581704702
-d756d3 retune 1581704702
-7ad9c1 retune 1581704702
-75ca40 retune 1581704702
-7eea51 retune 1581704702
-
-# 2/13/20
-bc004c retune 1581620966
-f7dadf retune 1581620966
-6ebe19 retune 1581620966
-d239b9 retune 1581620966
-df64b7 retune 1581620966
-7646a4 retune 1581620966
-6f161e retune 1581620966
-2bf22d retune 1581620966
-7a4c7c retune 1581620966
-39c93b retune 1581620966
-
-# 2/11/20
-c96974 retune 1581446959
-03a050 retune 1581446959
-fa98c3 retune 1581446959
-bd2d70 retune 1581446959
-d66933 retune 1581446959
-c16850 retune 1581446959
-a2affe retune 1581446959
-392b95 retune 1581446959
-588b28 retune 1581446959
-43f6d9 retune 1581446959
-
-4319ad retune 1578943140
 
 ## resets
-89d0d8 reset 1586140228
-6878ae reset 1586140228
-7e0c44 reset 1586038426
-# 3/26/20
-4319ad reset 1585245408
 
-# 3/24/20
-a8f303 reset 1585083653
+## removals
+global remove 03a050
 
-# 3/19/20
-ad13e2 reset 1584640833
-
-# 3/18/20
-093dac reset 1584556441
-
-# 3/11/20
-c05b10 reset 1583942163
-e29028 reset 1583950240
-
-db2bbb reset 1580826924
-# 1/29/20
-c16850 reset 1580322253
-
-# 1/21/20
-db2bbb reset 1579633529
-b0c57f reset 1579633529
-8483c5 reset 1579633529
-229e75 reset 1579633309
-fe82d8 reset 1579633309
-9a8744 reset 1579633309
-
-02d712 reset 1579539005
-
-# 1/15/20
-8483c5 reset 1579114580
-093dac reset 1579114580
-
-02d712 reset 1579021163
-2c95c4 reset 1579020095
-f7dadf reset 1579020095
-bc004c reset 1579020095
-1be66b reset 1579020095
-2a8e96 reset 1577473475
-7b1d13 reset 1577054248
-1be66b reset 1577054248
-db2bbb reset 1575991578
-
-2a8e96 reset 1575739349
-5bda2f reset 1575739349
-
-22122a reset 1575008144
-c05b10 reset 1574961288
-a4acde reset 1574693482
-e4561d reset 1574693482
-4319ad reset 1574693482
-a6cb63 reset 1574693482
-
-## asic password
+## VPS pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
+## Remote pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCovql1bo+pkGUoq+zckj82BiW5CIBbxq1+wfET94ULY9b/BJzZHFxxjX79+aG4oilCpUKHFTJHv8Ox3IvtPxWGyx5IpV+avJqCO66+7/aIoG+Cqcz7f9pZPhK61qOG9AQsLNaZHaaB+jif7qCmXiDB1/eDzKHIh2UHdEnZSkcTrwdU40yA4JhenTAMJAxITopjAfURgJtTOkr9eBIVM6Xj/0x/f9ZUvL5jSLNDL9ujce928zCwvcMND+lrB3q5VgMluwihMUWZ3gJfsvZdHwPVXDP+qo1DaIP/oJ/rfD/ef9KkmYTYS3+RaYwGEJoGd0uHCUzSIl3oUJQg6kj4H22p
+# global panelpass gj83Nkgikg
 asicpass admin
+global logo https://raw.githubusercontent.com/cnels127/Configs/master/Bit49(2).png
