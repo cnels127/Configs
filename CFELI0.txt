@@ -1,5 +1,4 @@
-## instructions available at: https://asicseer.com/page/kb#writing-config
-## TOTAL EXP HASHRATE 125 s9 @ 14.4 Th/s = 1,800 Th/s
+## 125 s9 @ 14.4 Th/s = 1,800 Th/s (contract expires 8/30/20)
 ## ANOTHER 175 MACHINES NOT YET LIVE
 
 global custompanel CFELI0bit049
@@ -33,442 +32,279 @@ global panelclear 999
 
 # global retune 1
 # global reboot 1
-global uncork 1588221857
+# global uncork 1588221857
 # global reset 1574283839
-# global panelpass gj83Nkgikg
 
 ## vlans
-# vlan 10.0.51.59-59
-# vlan 10.0.51.62-62
-# vlan 10.0.51.63-63
-# vlan 10.0.51.68-68
-# vlan 10.0.51.70-70
-# vlan 10.0.51.88-88
-# vlan 10.0.51.91-91
-# vlan 10.0.51.93-93
-# vlan 10.0.51.94-94
-# vlan 10.0.51.96-96
-# vlan 10.0.51.97-97
-# vlan 10.0.51.98-98
-# vlan 10.0.51.99-99
-# vlan 10.0.51.114-114
-# vlan 10.0.51.116-116
-# vlan 10.0.51.117-117
-# vlan 10.0.51.118-118
-# vlan 10.0.51.120-120
-# vlan 10.0.51.127-127
-# vlan 10.0.51.128-128
-# vlan 10.0.51.134-134
-# vlan 10.0.53.1-1
-# vlan 10.0.53.2-2
-# vlan 10.0.53.4-4
-# vlan 10.0.53.5-5
-# vlan 10.0.53.7-7
-# vlan 10.0.53.9-9
-# vlan 10.0.53.10-10
-# vlan 10.0.53.16-16
-# vlan 10.0.53.22-22
-# vlan 10.0.53.26-26
-# vlan 10.0.53.30-30
-# vlan 10.0.77.2-2
-# vlan 10.0.77.4-4
-# vlan 10.0.77.6-6
-# vlan 10.0.77.16-16
-# vlan 10.0.77.25-25
-# vlan 10.0.77.29-29
-# vlan 10.0.77.30-30
-# vlan 10.0.77.31-31
-# vlan 10.0.77.32-32
-# vlan 10.0.77.36-36
-# vlan 10.0.77.38-38
-# vlan 10.0.77.40-40
-# vlan 10.0.77.41-41
-# vlan 10.0.77.48-48
-# vlan 10.0.77.58-58
-# vlan 10.0.77.61-61
-# vlan 10.0.77.62-62
-# vlan 10.0.77.65-65
-# vlan 10.0.77.67-67
-# vlan 10.0.77.81-81
-# vlan 10.0.77.86-86
-# vlan 10.0.77.97-97
-# vlan 10.0.77.98-98
-# vlan 10.0.77.104-104
-# vlan 10.0.77.106-106
-# vlan 10.0.77.108-108
-# vlan 10.0.77.111-111
-# vlan 10.0.77.113-113
-# vlan 10.0.77.116-116
-# vlan 10.0.77.135-135
-# vlan 10.0.77.136-136
-# vlan 10.0.77.142-142
-# vlan 10.0.77.147-147
-# vlan 10.0.77.157-157
-# vlan 10.0.115.10-10
-# vlan 10.0.115.80-80
-# vlan 10.0.115.114-114
-# vlan 10.0.115.122-122
-# vlan 10.0.115.127-127
-# vlan 10.0.115.145-145
-# vlan 10.0.115.147-147
-# vlan 10.0.116.16-16
-# vlan 10.0.116.43-43
-# vlan 10.0.116.62-62
-# vlan 10.0.116.110-110
-# vlan 10.0.116.117-117
-# vlan 10.0.116.128-128
-# vlan 10.0.116.136-136
-# vlan 10.0.116.137-137
-# vlan 10.0.116.147-147
-# vlan 10.0.116.150-150
-# vlan 10.0.117.100-100
-# vlan 10.0.117.113-113
-# vlan 10.0.117.119-119
-# vlan 10.0.117.128-128
-# vlan 10.0.117.131-131
-# vlan 10.0.117.135-135
-# vlan 10.0.117.143-143
-# vlan 10.0.117.144-144
-# vlan 10.0.117.145-145
-# vlan 10.0.118.40-40
-# vlan 10.0.118.91-91
-# vlan 10.0.118.96-96
-# vlan 10.0.118.111-111
-# vlan 10.0.118.128-128
-# vlan 10.0.118.130-130
-# vlan 10.0.118.135-135
-# vlan 10.0.118.139-139
-# vlan 10.0.118.143-143
-# vlan 10.0.118.146-146
-# vlan 10.0.118.147-147
-# vlan 10.0.118.158-158
-# vlan 10.0.119.56-56
-# vlan 10.0.119.90-90
-# vlan 10.0.119.96-96
-# vlan 10.0.119.99-99
-# vlan 10.0.119.113-113
-# vlan 10.0.119.116-116
-# vlan 10.0.119.126-126
-# vlan 10.0.119.128-128
-# vlan 10.0.119.133-133
-# vlan 10.0.119.137-137
-# vlan 10.0.119.138-138
-# vlan 10.0.119.140-140
-# vlan 10.0.119.141-141
-# vlan 10.0.119.142-142
-# vlan 10.0.119.146-146
-# vlan 10.0.119.151-151
-# vlan 10.0.120.81-81
-# vlan 10.0.120.144-144
-# vlan 10.0.120.156-156
-# vlan 10.0.120.159-159
-# vlan 10.0.121.138-138
+vlan 10.0.51.59-59 # 569caf
+vlan 10.0.51.62-62 # 264414
+vlan 10.0.51.63-63 # 9df800
+vlan 10.0.51.68-68 # ce651a
+vlan 10.0.51.70-70 # 675375
+vlan 10.0.51.88-88 # 590698
+vlan 10.0.51.91-91 # 79ccbb
+vlan 10.0.51.93-93 # 344c0f
+vlan 10.0.51.94-94 # 00c6d6
+vlan 10.0.51.96-96 # 7a97a5
+vlan 10.0.51.97-97 # 68c1ad
+vlan 10.0.51.98-98 # 8f4f40
+vlan 10.0.51.99-99 # 8f7a2c
+vlan 10.0.51.114-114 # d6d6fa
+vlan 10.0.51.116-116 # 59f457
+vlan 10.0.51.117-117 # 2ad385
+vlan 10.0.51.118-118 # de1210
+vlan 10.0.51.120-120 # b2d051
+vlan 10.0.51.127-127 # 6f7564
+vlan 10.0.51.128-128 # 7e0b37
+vlan 10.0.51.134-134 # 5953f5
+vlan 10.0.53.1-1 # 5dc4be
+vlan 10.0.53.2-2 # 25540e
+vlan 10.0.53.4-4 # de7893
+vlan 10.0.53.5-5 # 8a6dd0
+vlan 10.0.53.7-7 # 34dc74
+vlan 10.0.53.9-9 # 340a14
+vlan 10.0.53.10-10 # a9422c
+vlan 10.0.53.16-16 # 5b087d
+vlan 10.0.53.22-22 # ec9139
+vlan 10.0.53.26-26 # e630e5
+vlan 10.0.53.30-30 # b6f8fd
+vlan 10.0.77.2-2 # 24861f
+vlan 10.0.77.4-4 # ef16b9
+vlan 10.0.77.6-6 # 6f25d3
+vlan 10.0.77.16-16 # 9831ac
+vlan 10.0.77.25-25 # a50d50
+vlan 10.0.77.29-29 # 39af61
+vlan 10.0.77.30-30 # 8074e3
+vlan 10.0.77.31-31 # 858ea7
+vlan 10.0.77.32-32 # 61d55d
+vlan 10.0.77.36-36 # e57caf
+vlan 10.0.77.38-38 # 4f3500
+vlan 10.0.77.40-40 # 4ba225
+vlan 10.0.77.41-41 # 5c6323
+vlan 10.0.77.48-48 # e85843
+vlan 10.0.77.58-58 # d64900
+vlan 10.0.77.61-61 # ef6a37
+vlan 10.0.77.62-62 # f869c1
+vlan 10.0.77.65-65 # adc9fb
+vlan 10.0.77.67-67 # afb8af
+vlan 10.0.77.81-81 # 320ac9
+vlan 10.0.77.86-86 # dec4f4
+vlan 10.0.77.97-97 # 311861
+vlan 10.0.77.98-98 # fa3e17
+vlan 10.0.77.104-104 # ebdc64
+vlan 10.0.77.106-106 # c327dd
+vlan 10.0.77.108-108 # c986dc
+vlan 10.0.77.111-111 # df723d
+vlan 10.0.77.113-113 # c46f3d
+vlan 10.0.77.116-116 # d7ef39
+vlan 10.0.77.135-135 # 5cead9
+vlan 10.0.77.136-136 # 916880
+vlan 10.0.77.142-142 # b01ba7
+vlan 10.0.77.147-147 # 9ed9d8
+vlan 10.0.77.157-157 # bdd349
+vlan 10.0.115.10-10 # a01ab0
+vlan 10.0.115.80-80 # 519469
+vlan 10.0.115.114-114 # 8dc36b
+vlan 10.0.115.122-122 # 492e34
+vlan 10.0.115.127-127 # e04099
+vlan 10.0.115.145-145 # 430852
+vlan 10.0.115.147-147 # 60d855
+vlan 10.0.116.16-16 # 05e2d1
+vlan 10.0.116.43-43 # e2c47c
+vlan 10.0.116.62-62 # 4ecd57
+vlan 10.0.116.110-110 # b8511f
+vlan 10.0.116.117-117 # a8af8e
+vlan 10.0.116.128-128 # 08e0ef
+vlan 10.0.116.136-136 # 1cd86f
+vlan 10.0.116.137-137 # c36a84
+vlan 10.0.116.147-147 # 5343a2
+vlan 10.0.116.150-150 # c546a0
+vlan 10.0.117.100-100 # 6b5fc7
+vlan 10.0.117.113-113 # c07c16
+vlan 10.0.117.119-119 # c9374d
+vlan 10.0.117.128-128 # 303214
+vlan 10.0.117.131-131 # 211c0b
+# vlan 10.0.117.135-135 # 3b50b7 # SCRAPPED 3/3/20
+# vlan 10.0.117.143-143 # a6dc9b # SCRAPPED 5/6/20
+vlan 10.0.117.144-144 # 7fc895
+vlan 10.0.117.145-145 # 16d5a9
+vlan 10.0.118.40-40 # 319230
+vlan 10.0.118.91-91 # 6cfea1
+vlan 10.0.118.96-96 # a25a7d
+vlan 10.0.118.111-111 # 163e19
+vlan 10.0.118.128-128 # 0c74fd
+# vlan 10.0.118.130-130 # 219121 # SCRAPPED 5/6/20
+vlan 10.0.118.135-135 # 507799
+vlan 10.0.118.139-139 # 41d81f
+vlan 10.0.118.143-143 # 772cca
+vlan 10.0.118.146-146 # 9a4c7a
+vlan 10.0.118.147-147 # a6dbf3
+vlan 10.0.118.158-158 # 604d79
+vlan 10.0.119.56-56 # b2899c
+# vlan 10.0.119.90-90 # cb9612 # SCRAPPED 4/30/20
+vlan 10.0.119.96-96 # 5cfdc1
+vlan 10.0.119.99-99 # 1bdbff
+vlan 10.0.119.113-113 # 92708e
+vlan 10.0.119.116-116 # c9273a
+vlan 10.0.119.126-126 # d21562
+vlan 10.0.119.128-128 # eb8faf
+vlan 10.0.119.133-133 # 34307f
+vlan 10.0.119.137-137 # e4a33b
+vlan 10.0.119.138-138 # 8ec38a
+vlan 10.0.119.140-140 # 7c9338
+vlan 10.0.119.141-141 # 0d8889
+vlan 10.0.119.142-142 # 504e6a
+vlan 10.0.119.146-146 # 5aad6c
+vlan 10.0.119.151-151 # 7b5da4
+vlan 10.0.120.81-81 # 300975
+vlan 10.0.120.144-144 # 1c0320
+vlan 10.0.120.156-156 # 53c5b0
+vlan 10.0.120.159-159 # e352e4
+vlan 10.0.121.138-138 # 79b50b
 
 ## location
-569caf location CFELI00001
-264414 location CFELI00002
-9df800 location CFELI00003
-ce651a location CFELI00004
-675375 location CFELI00005
-590698 location CFELI00006
-79ccbb location CFELI00007
-344c0f location CFELI00008
-00c6d6 location CFELI00009
-7a97a5 location CFELI00010
-68c1ad location CFELI00011
-8f4f40 location CFELI00012
-8f7a2c location CFELI00013
-d6d6fa location CFELI00014
-59f457 location CFELI00015
-2ad385 location CFELI00016
-de1210 location CFELI00017
-b2d051 location CFELI00018
-6f7564 location CFELI00019
-7e0b37 location CFELI00020
-5953f5 location CFELI00021
-5dc4be location CFELI00022
-25540e location CFELI00023
-de7893 location CFELI00024
-8a6dd0 location CFELI00025
-34dc74 location CFELI00026
-340a14 location CFELI00027
-a9422c location CFELI00028
-5b087d location CFELI00029
-ec9139 location CFELI00030
-e630e5 location CFELI00031
-b6f8fd location CFELI00032
-24861f location CFELI00033
-ef16b9 location CFELI00034
-6f25d3 location CFELI00035
-9831ac location CFELI00036
-a50d50 location CFELI00037
-39af61 location CFELI00038
-8074e3 location CFELI00039
-858ea7 location CFELI00040
-61d55d location CFELI00041
-e57caf location CFELI00042
-4f3500 location CFELI00043
-4ba225 location CFELI00044
-5c6323 location CFELI00045
-e85843 location CFELI00046
-d64900 location CFELI00047
-ef6a37 location CFELI00048
-f869c1 location CFELI00049
-adc9fb location CFELI00050
-afb8af location CFELI00051
-320ac9 location CFELI00052
-dec4f4 location CFELI00053
-311861 location CFELI00054
-fa3e17 location CFELI00055
-ebdc64 location CFELI00056
-c327dd location CFELI00057
-c986dc location CFELI00058
-df723d location CFELI00059
-c46f3d location CFELI00060
-d7ef39 location CFELI00061
-5cead9 location CFELI00062
-916880 location CFELI00063
-b01ba7 location CFELI00064
-9ed9d8 location CFELI00065
-bdd349 location CFELI00066
-a01ab0 location CFELI00067
-519469 location CFELI00068
-8dc36b location CFELI00069
-492e34 location CFELI00070
-e04099 location CFELI00071
-430852 location CFELI00072
-60d855 location CFELI00073
-05e2d1 location CFELI00074
-e2c47c location CFELI00075
-4ecd57 location CFELI00076
-b8511f location CFELI00077
-a8af8e location CFELI00078
-08e0ef location CFELI00079
-1cd86f location CFELI00080
-c36a84 location CFELI00081
-5343a2 location CFELI00082
-c546a0 location CFELI00083
-6b5fc7 location CFELI00084
-c07c16 location CFELI00085
-c9374d location CFELI00086
-303214 location CFELI00087
-211c0b location CFELI00088
-3b50b7 location CFELI00089
-a6dc9b location CFELI00090
-7fc895 location CFELI00091
-16d5a9 location CFELI00092
-319230 location CFELI00093
-6cfea1 location CFELI00094
-a25a7d location CFELI00095
-163e19 location CFELI00096
-0c74fd location CFELI00097
-219121 location CFELI00098
-507799 location CFELI00099
-41d81f location CFELI00100
-772cca location CFELI00101
-9a4c7a location CFELI00102
-a6dbf3 location CFELI00103
-604d79 location CFELI00104
-b2899c location CFELI00105
-cb9612 location CFELI00106
-5cfdc1 location CFELI00107
-1bdbff location CFELI00108
-92708e location CFELI00109
-c9273a location CFELI00110
-d21562 location CFELI00111
-eb8faf location CFELI00112
-34307f location CFELI00113
-e4a33b location CFELI00114
-8ec38a location CFELI00115
-7c9338 location CFELI00116
-0d8889 location CFELI00117
-504e6a location CFELI00118
-5aad6c location CFELI00119
-7b5da4 location CFELI00120
-300975 location CFELI00121
-1c0320 location CFELI00122
-53c5b0 location CFELI00123
-e352e4 location CFELI00124
-79b50b location CFELI00125
+569caf location CFELI00001 # 10.0.51.59
+264414 location CFELI00002 # 10.0.51.62
+9df800 location CFELI00003 # 10.0.51.63
+ce651a location CFELI00004 # 10.0.51.68
+675375 location CFELI00005 # 10.0.51.70
+590698 location CFELI00006 # 10.0.51.88
+79ccbb location CFELI00007 # 10.0.51.91
+344c0f location CFELI00008 # 10.0.51.93
+00c6d6 location CFELI00009 # 10.0.51.94
+7a97a5 location CFELI00010 # 10.0.51.96
+68c1ad location CFELI00011 # 10.0.51.97
+8f4f40 location CFELI00012 # 10.0.51.98
+8f7a2c location CFELI00013 # 10.0.51.99
+d6d6fa location CFELI00014 # 10.0.51.114
+59f457 location CFELI00015 # 10.0.51.116
+2ad385 location CFELI00016 # 10.0.51.117
+de1210 location CFELI00017 # 10.0.51.118
+b2d051 location CFELI00018 # 10.0.51.120
+6f7564 location CFELI00019 # 10.0.51.127
+7e0b37 location CFELI00020 # 10.0.51.128
+5953f5 location CFELI00021 # 10.0.51.134
+5dc4be location CFELI00022 # 10.0.53.1
+25540e location CFELI00023 # 10.0.53.2
+de7893 location CFELI00024 # 10.0.53.4
+8a6dd0 location CFELI00025 # 10.0.53.5
+34dc74 location CFELI00026 # 10.0.53.7
+340a14 location CFELI00027 # 10.0.53.9
+a9422c location CFELI00028 # 10.0.53.10
+5b087d location CFELI00029 # 10.0.53.16
+ec9139 location CFELI00030 # 10.0.53.22
+e630e5 location CFELI00031 # 10.0.53.26
+b6f8fd location CFELI00032 # 10.0.53.30
+24861f location CFELI00033 # 10.0.77.2
+ef16b9 location CFELI00034 # 10.0.77.4
+6f25d3 location CFELI00035 # 10.0.77.6
+9831ac location CFELI00036 # 10.0.77.16
+a50d50 location CFELI00037 # 10.0.77.25
+39af61 location CFELI00038 # 10.0.77.29
+8074e3 location CFELI00039 # 10.0.77.30
+858ea7 location CFELI00040 # 10.0.77.31
+61d55d location CFELI00041 # 10.0.77.32
+e57caf location CFELI00042 # 10.0.77.36
+4f3500 location CFELI00043 # 10.0.77.38
+4ba225 location CFELI00044 # 10.0.77.40
+5c6323 location CFELI00045 # 10.0.77.41
+e85843 location CFELI00046 # 10.0.77.48
+d64900 location CFELI00047 # 10.0.77.58
+ef6a37 location CFELI00048 # 10.0.77.61
+f869c1 location CFELI00049 # 10.0.77.62
+adc9fb location CFELI00050 # 10.0.77.65
+afb8af location CFELI00051 # 10.0.77.67
+320ac9 location CFELI00052 # 10.0.77.81
+dec4f4 location CFELI00053 # 10.0.77.86
+311861 location CFELI00054 # 10.0.77.97
+fa3e17 location CFELI00055 # 10.0.77.98
+ebdc64 location CFELI00056 # 10.0.77.104
+c327dd location CFELI00057 # 10.0.77.106
+c986dc location CFELI00058 # 10.0.77.108
+df723d location CFELI00059 # 10.0.77.111
+c46f3d location CFELI00060 # 10.0.77.113
+d7ef39 location CFELI00061 # 10.0.77.116
+5cead9 location CFELI00062 # 10.0.77.135
+916880 location CFELI00063 # 10.0.77.136
+b01ba7 location CFELI00064 # 10.0.77.142
+9ed9d8 location CFELI00065 # 10.0.77.147
+bdd349 location CFELI00066 # 10.0.77.157
+a01ab0 location CFELI00067 # 10.0.115.10
+519469 location CFELI00068 # 10.0.115.80
+8dc36b location CFELI00069 # 10.0.115.114
+492e34 location CFELI00070 # 10.0.115.122
+e04099 location CFELI00071 # 10.0.115.127
+430852 location CFELI00072 # 10.0.115.145
+60d855 location CFELI00073 # 10.0.115.147
+05e2d1 location CFELI00074 # 10.0.116.16
+e2c47c location CFELI00075 # 10.0.116.43
+4ecd57 location CFELI00076 # 10.0.116.62
+b8511f location CFELI00077 # 10.0.116.110
+a8af8e location CFELI00078 # 10.0.116.117
+08e0ef location CFELI00079 # 10.0.116.128
+1cd86f location CFELI00080 # 10.0.116.136
+c36a84 location CFELI00081 # 10.0.116.137
+5343a2 location CFELI00082 # 10.0.116.147
+c546a0 location CFELI00083 # 10.0.116.150
+6b5fc7 location CFELI00084 # 10.0.117.100
+c07c16 location CFELI00085 # 10.0.117.113
+c9374d location CFELI00086 # 10.0.117.119
+303214 location CFELI00087 # 10.0.117.128
+211c0b location CFELI00088 # 10.0.117.131
+# 3b50b7 location CFELI00089 # 10.0.117.135 # SCRAPPED 3/3/20
+# a6dc9b location CFELI00090 # 10.0.117.143 # SCRAPPED 5/6/20
+7fc895 location CFELI00091 # 10.0.117.144
+16d5a9 location CFELI00092 # 10.0.117.145
+319230 location CFELI00093 # 10.0.118.40
+6cfea1 location CFELI00094 # 10.0.118.91
+a25a7d location CFELI00095 # 10.0.118.96
+163e19 location CFELI00096 # 10.0.118.111
+0c74fd location CFELI00097 # 10.0.118.128
+# 219121 location CFELI00098 # 10.0.118.130 # SCRAPPED 5/6/20
+507799 location CFELI00099 # 10.0.118.135
+41d81f location CFELI00100 # 10.0.118.139
+772cca location CFELI00101 # 10.0.118.143
+9a4c7a location CFELI00102 # 10.0.118.146
+a6dbf3 location CFELI00103 # 10.0.118.147
+604d79 location CFELI00104 # 10.0.118.158
+b2899c location CFELI00105 # 10.0.119.56
+# cb9612 location CFELI00106 # 10.0.119.90 # SCRAPPED 4/30/20
+5cfdc1 location CFELI00107 # 10.0.119.96
+1bdbff location CFELI00108 # 10.0.119.99
+92708e location CFELI00109 # 10.0.119.113
+c9273a location CFELI00110 # 10.0.119.116
+d21562 location CFELI00111 # 10.0.119.126
+eb8faf location CFELI00112 # 10.0.119.128
+34307f location CFELI00113 # 10.0.119.133
+e4a33b location CFELI00114 # 10.0.119.137
+8ec38a location CFELI00115 # 10.0.119.138
+7c9338 location CFELI00116 # 10.0.119.140
+0d8889 location CFELI00117 # 10.0.119.141
+504e6a location CFELI00118 # 10.0.119.142
+5aad6c location CFELI00119 # 10.0.119.146
+7b5da4 location CFELI00120 # 10.0.119.151
+300975 location CFELI00121 # 10.0.120.81
+1c0320 location CFELI00122 # 10.0.120.144
+53c5b0 location CFELI00123 # 10.0.120.156
+e352e4 location CFELI00124 # 10.0.120.159
+79b50b location CFELI00125 # 10.0.121.138
+
+## tuning
 
 ## throttle
-c36a84 uncork 1585266154
-16d5a9 uncork 1585266154
-d21562 uncork 1585266154
-c07c16 uncork 1585266154
-303214 uncork 1585266154
-ce651a uncork 1585266154
-344c0f uncork 1585266154
-00c6d6 uncork 1585266154
-7a97a5 uncork 1585266154
-25540e uncork 1585266154
-de7893 uncork 1585266154
-a50d50 uncork 1585266154
-60d855 uncork 1585266154
-319230 uncork 1585266154
 
 ## fans
 
 ## reboots
-# s_reboot generated on Mar 26 2020 18:44:40 utc: 1585248280
-1bdbff reboot 1585248280 # 10.0.119.99 cfeli00108
-5cfdc1 reboot 1585248280 # 10.0.119.96 cfeli00107
-7fc895 reboot 1585248280 # 10.0.117.144 cfeli00091
-5aad6c reboot 1585248280 # 10.0.119.146 cfeli00119
-c986dc reboot 1585248280 # 10.0.77.108 cfeli00058
-eb8faf reboot 1585248280 # 10.0.119.128 cfeli00112
-34307f reboot 1585248280 # 10.0.119.133 cfeli00113
-ebdc64 reboot 1585248280 # 10.0.77.104 cfeli00056
-300975 reboot 1585248280 # 10.0.120.81 cfeli00121
-6cfea1 reboot 1585248280 # 10.0.118.91 cfeli00094
-bdd349 reboot 1585248280 # 10.0.77.157 cfeli00066
-9ed9d8 reboot 1585248280 # 10.0.77.147 cfeli00065
-9831ac reboot 1585248280 # 10.0.77.16 cfeli00036
-dec4f4 reboot 1585248280 # 10.0.77.86 cfeli00053
-a6dbf3 reboot 1585248280 # 10.0.118.147 cfeli00103
-e04099 reboot 1585248280 # 10.0.115.127 cfeli00071
-e85843 reboot 1585248280 # 10.0.77.48 cfeli00046
-163e19 reboot 1585248280 # 10.0.118.111 cfeli00096
-4ba225 reboot 1585248280 # 10.0.77.40 cfeli00044
-4f3500 reboot 1585248280 # 10.0.77.38 cfeli00043
-ef16b9 reboot 1585248280 # 10.0.77.4 cfeli00034
-1c0320 reboot 1585248280 # 10.0.120.144 cfeli00122
-6f25d3 reboot 1585248280 # 10.0.77.6 cfeli00035
-79b50b reboot 1585248280 # 10.0.121.138 cfeli00125
-e2c47c reboot 1585248280 # 10.0.116.43 cfeli00075
-5cead9 reboot 1585248280 # 10.0.77.135 cfeli00062
-b8511f reboot 1585248280 # 10.0.116.110 cfeli00077
-5b087d reboot 1585248280 # 10.0.53.16 cfeli00029
-5c6323 reboot 1585248280 # 10.0.77.41 cfeli00045
-590698 reboot 1585248280 # 10.0.51.88 cfeli00006
-6b5fc7 reboot 1585248280 # 10.0.117.100 cfeli00084
-507799 reboot 1585248280 # 10.0.118.135 cfeli00099
-4ecd57 reboot 1585248280 # 10.0.116.62 cfeli00076
-34dc74 reboot 1585248280 # 10.0.53.7 cfeli00026
-59f457 reboot 1585248280 # 10.0.51.116 cfeli00015
-b6f8fd reboot 1585248280 # 10.0.53.30 cfeli00032
-b01ba7 reboot 1585248280 # 10.0.77.142 cfeli00064
-569caf reboot 1585248280 # 10.0.51.59 cfeli00001
-264414 reboot 1585248280 # 10.0.51.62 cfeli00002
-9df800 reboot 1585248280 # 10.0.51.63 cfeli00003
-675375 reboot 1585248280 # 10.0.51.70 cfeli00005
-79ccbb reboot 1585248280 # 10.0.51.91 cfeli00007
-68c1ad reboot 1585248280 # 10.0.51.97 cfeli00011
-8f4f40 reboot 1585248280 # 10.0.51.98 cfeli00012
-8f7a2c reboot 1585248280 # 10.0.51.99 cfeli00013
-d6d6fa reboot 1585248280 # 10.0.51.114 cfeli00014
-2ad385 reboot 1585248280 # 10.0.51.117 cfeli00016
-de1210 reboot 1585248280 # 10.0.51.118 cfeli00017
-b2d051 reboot 1585248280 # 10.0.51.120 cfeli00018
-6f7564 reboot 1585248280 # 10.0.51.127 cfeli00019
-7e0b37 reboot 1585248280 # 10.0.51.128 cfeli00020
-5953f5 reboot 1585248280 # 10.0.51.134 cfeli00021
-5dc4be reboot 1585248280 # 10.0.53.1 cfeli00022
-8a6dd0 reboot 1585248280 # 10.0.53.5 cfeli00025
-340a14 reboot 1585248280 # 10.0.53.9 cfeli00027
-a9422c reboot 1585248280 # 10.0.53.10 cfeli00028
-ec9139 reboot 1585248280 # 10.0.53.22 cfeli00030
-e630e5 reboot 1585248280 # 10.0.53.26 cfeli00031
-24861f reboot 1585248280 # 10.0.77.2 cfeli00033
-8074e3 reboot 1585248280 # 10.0.77.30 cfeli00039
-858ea7 reboot 1585248280 # 10.0.77.31 cfeli00040
-61d55d reboot 1585248280 # 10.0.77.32 cfeli00041
-e57caf reboot 1585248280 # 10.0.77.36 cfeli00042
-d64900 reboot 1585248280 # 10.0.77.58 cfeli00047
-ef6a37 reboot 1585248280 # 10.0.77.61 cfeli00048
-f869c1 reboot 1585248280 # 10.0.77.62 cfeli00049
-adc9fb reboot 1585248280 # 10.0.77.65 cfeli00050
-afb8af reboot 1585248280 # 10.0.77.67 cfeli00051
-320ac9 reboot 1585248280 # 10.0.77.81 cfeli00052
-311861 reboot 1585248280 # 10.0.77.97 cfeli00054
-fa3e17 reboot 1585248280 # 10.0.77.98 cfeli00055
-c327dd reboot 1585248280 # 10.0.77.106 cfeli00057
-df723d reboot 1585248280 # 10.0.77.111 cfeli00059
-c46f3d reboot 1585248280 # 10.0.77.113 cfeli00060
-d7ef39 reboot 1585248280 # 10.0.77.116 cfeli00061
-916880 reboot 1585248280 # 10.0.77.136 cfeli00063
-a01ab0 reboot 1585248280 # 10.0.115.10 cfeli00067
-519469 reboot 1585248280 # 10.0.115.80 cfeli00068
-8dc36b reboot 1585248280 # 10.0.115.114 cfeli00069
-430852 reboot 1585248280 # 10.0.115.145 cfeli00072
-05e2d1 reboot 1585248280 # 10.0.116.16 cfeli00074
-a8af8e reboot 1585248280 # 10.0.116.117 cfeli00078
-08e0ef reboot 1585248280 # 10.0.116.128 cfeli00079
-1cd86f reboot 1585248280 # 10.0.116.136 cfeli00080
-c36a84 reboot 1585248280 # 10.0.116.137 cfeli00081
-5343a2 reboot 1585248280 # 10.0.116.147 cfeli00082
-c546a0 reboot 1585248280 # 10.0.116.150 cfeli00083
-c9374d reboot 1585248280 # 10.0.117.119 cfeli00086
-211c0b reboot 1585248280 # 10.0.117.131 cfeli00088
-a25a7d reboot 1585248280 # 10.0.118.96 cfeli00095
-0c74fd reboot 1585248280 # 10.0.118.128 cfeli00097
-219121 reboot 1585248280 # 10.0.118.130 cfeli00098
-41d81f reboot 1585248280 # 10.0.118.139 cfeli00100
-772cca reboot 1585248280 # 10.0.118.143 cfeli00101
-9a4c7a reboot 1585248280 # 10.0.118.146 cfeli00102
-604d79 reboot 1585248280 # 10.0.118.158 cfeli00104
-b2899c reboot 1585248280 # 10.0.119.56 cfeli00105
-cb9612 reboot 1585248280 # 10.0.119.90 cfeli00106
-92708e reboot 1585248280 # 10.0.119.113 cfeli00109
-c9273a reboot 1585248280 # 10.0.119.116 cfeli00110
-e4a33b reboot 1585248280 # 10.0.119.137 cfeli00114
-8ec38a reboot 1585248280 # 10.0.119.138 cfeli00115
-7c9338 reboot 1585248280 # 10.0.119.140 cfeli00116
-0d8889 reboot 1585248280 # 10.0.119.141 cfeli00117
-504e6a reboot 1585248280 # 10.0.119.142 cfeli00118
-7b5da4 reboot 1585248280 # 10.0.119.151 cfeli00120
-53c5b0 reboot 1585248280 # 10.0.120.156 cfeli00123
-e352e4 reboot 1585248280 # 10.0.120.159 cfeli00124
 
 ## resets
-d7ef39 reset 1588221857
-24861f reset 1588221857
-25540e reset 1586038918
-34dc74 reset 1586038918
-0c74fd reset 1580244334
-504e6a reset 1580244334
-41d81f reset 1580244334
-dec4f4 reset 1580244334
-16d5a9 reset 1580244334
-519469 reset 1580241289
-7a97a5 reset 1580241289
-de1210 reset 1580241289
-b2d051 reset 1580241289
-311861 reset 1580241289
-d7ef39 reset 1580241289
-16d5a9 reset 1580241289
-e630e5 reset 1578097848
-7b5da4 reset 1577511153
-53c5b0 reset 1577511153
-a25a7d reset 1577171633
-4f3500 reset 1577168739
-adb2fe reset 1577117030
-e2c47c reset 1577117030
-05e2d1 reset 1573744048
-05e2d1 reset 1573583561
-c36a84 reset 1573247814
-05e2d1 reset 1573247814
-b8511f reset 1573247814
 
-## reinstallations
-vlan 10.0.116.110-110
-vlan 10.0.121.138-138
-vlan 10.0.116.43-43
-vlan 10.0.77.108-108
-vlan 10.0.77.136-136
-vlan 10.0.51.88-88
-vlan 10.0.119.96-96
-vlan 10.0.118.135-135
-vlan 10.0.119.151-151
-vlan 10.0.119.138-138
-vlan 10.0.119.133-133
-vlan 10.0.119.113-113
-vlan 10.0.119.142-142
-vlan 10.0.118.139-139
-vlan 10.0.118.128-128
-vlan 10.0.115.147-147
-vlan 10.0.115.10-10
-vlan 10.0.116.117-117
+## removals
 
-## asic password
+## VPS pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
+## Remote pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCovql1bo+pkGUoq+zckj82BiW5CIBbxq1+wfET94ULY9b/BJzZHFxxjX79+aG4oilCpUKHFTJHv8Ox3IvtPxWGyx5IpV+avJqCO66+7/aIoG+Cqcz7f9pZPhK61qOG9AQsLNaZHaaB+jif7qCmXiDB1/eDzKHIh2UHdEnZSkcTrwdU40yA4JhenTAMJAxITopjAfURgJtTOkr9eBIVM6Xj/0x/f9ZUvL5jSLNDL9ujce928zCwvcMND+lrB3q5VgMluwihMUWZ3gJfsvZdHwPVXDP+qo1DaIP/oJ/rfD/ef9KkmYTYS3+RaYwGEJoGd0uHCUzSIl3oUJQg6kj4H22p
+# global panelpass gj83Nkgikg
 asicpass admin
+global logo https://raw.githubusercontent.com/cnels127/Configs/master/Bit49(2).png
