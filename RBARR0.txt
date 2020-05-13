@@ -37,36 +37,45 @@ global uncork 1589054108
 # global reset 1574279872
 
 ## vlans
-vlan 10.0.57.48-48 # 4b3a51
-vlan 10.0.57.49-49 # 6723e2
-vlan 10.0.57.50-50 # 0be34f
-vlan 10.0.57.51-51 # 71df4f
-vlan 10.0.57.52-52 # e83b5d
-vlan 10.0.57.53-53 # 08ede8
-vlan 10.0.57.54-54 # 7e7d0e
-vlan 10.0.57.55-55 # 5d01ba
-vlan 10.0.57.56-56 # 62cd86
-vlan 10.0.57.57-57 # 1d5a79
-vlan 10.0.57.58-58 # 4e2432
-vlan 10.0.57.59-59 # f6aabf
-vlan 10.0.57.60-60 # 247665
-vlan 10.0.57.61-61 # 08445c
-vlan 10.0.57.62-62 # 411421
-vlan 10.0.57.63-63 # 5478c2
-vlan 10.0.57.64-64 # 47fde6
-vlan 10.0.57.65-65 # 9aa009
-vlan 10.0.57.66-66 # eea5d2
-vlan 10.0.57.67-67 # 427893
-vlan 10.0.57.68-68 # 1c4fae
-vlan 10.0.57.69-69 # 693af5
-vlan 10.0.57.70-70 # 3ff0b0
-vlan 10.0.57.71-71 # 6ba6a0
-vlan 10.0.57.72-72 # 0746eb
-vlan 10.0.115.13-13 # aa0122
-vlan 10.0.115.14-14 # a81c86
-vlan 10.0.115.33-33 # defa6a
-vlan 10.0.115.34-34 # 639689
-vlan 10.0.115.71-71 # 894362
+# vlan 10.0.57.48-48 # 4b3a51
+# vlan 10.0.57.49-49 # 6723e2
+# vlan 10.0.57.50-50 # 0be34f
+# vlan 10.0.57.51-51 # 71df4f
+# vlan 10.0.57.52-52 # e83b5d
+# vlan 10.0.57.53-53 # 08ede8
+# vlan 10.0.57.54-54 # 7e7d0e
+# vlan 10.0.57.55-55 # 5d01ba
+# vlan 10.0.57.56-56 # 62cd86
+# vlan 10.0.57.57-57 # 1d5a79
+# vlan 10.0.57.58-58 # 4e2432
+# vlan 10.0.57.59-59 # f6aabf
+# vlan 10.0.57.60-60 # 247665
+# vlan 10.0.57.61-61 # 08445c
+# vlan 10.0.57.62-62 # 411421
+# vlan 10.0.57.63-63 # 5478c2
+# vlan 10.0.57.64-64 # 47fde6
+# vlan 10.0.57.65-65 # 9aa009
+# vlan 10.0.57.66-66 # eea5d2
+# vlan 10.0.57.67-67 # 427893
+# vlan 10.0.57.68-68 # 1c4fae
+# vlan 10.0.57.69-69 # 693af5
+# vlan 10.0.57.70-70 # 3ff0b0
+# vlan 10.0.57.71-71 # 6ba6a0
+# vlan 10.0.57.72-72 # 0746eb
+# vlan 10.0.115.13-13 # aa0122
+# vlan 10.0.115.14-14 # a81c86
+# vlan 10.0.115.33-33 # defa6a
+# vlan 10.0.115.34-34 # 639689
+# vlan 10.0.115.71-71 # 894362
+vlan 10.0.50.4-4 # 32e9a1 # extra added 5/13/20 # 16.2 Th/s
+vlan 10.0.50.20-20 # 91b329 # extra added 5/13/20 # 16.2 Th/s
+vlan 10.0.50.55-55 # f89a8a # extra added 5/13/20 # 16.2 Th/s
+vlan 10.0.50.56-56 # 5163c8 # extra added 5/13/20 # 16.2 Th/s
+vlan 10.0.50.87-87 # a6ea5c # extra added 5/13/20 # 16.2 Th/s
+vlan 10.0.51.69-69 # a58136 # extra added 5/13/20 # 16.2 Th/s
+vlan 10.0.51.71-71 # 153e95 # extra added 5/13/20 # 16.2 Th/s
+vlan 10.0.51.102-102 # daed2a # extra added 5/13/20 # 16.2 Th/s
+vlan 10.0.53.37-37 # e67e88 # extra added 5/13/20 # 16.2 Th/s
 
 ## locations
 4b3a51 location RBARR00001 # 10.0.57.48
@@ -99,6 +108,15 @@ a81c86 location RBARR00027 # 10.0.115.14
 defa6a location RBARR00028 # 10.0.115.33
 639689 location RBARR00029 # 10.0.115.34
 894362 location RBARR00030 # 10.0.115.71
+32e9a1 location RBARR0XTRA # 10.0.50.4 # extra added 5/13/20 # 16.2 Th/s
+91b329 location RBARR0XTRA # 10.0.50.20 # extra added 5/13/20 # 16 Th/s
+f89a8a location RBARR0XTRA # 10.0.50.55 # extra added 5/13/20 # 16.1 Th/s
+5163c8 location RBARR0XTRA # 10.0.50.56 # extra added 5/13/20 # 16.1 Th/s
+a6ea5c location RBARR0XTRA # 10.0.50.87 # extra added 5/13/20 # 16 Th/s
+a58136 location RBARR0XTRA # 10.0.51.69 # extra added 5/13/20 # 16.1 Th/s
+153e95 location RBARR0XTRA # 10.0.51.71 # extra added 5/13/20 # 16.1 Th/s
+daed2a location RBARR0XTRA # 10.0.51.102 # extra added 5/13/20 # 16.6 Th/s
+e67e88 location RBARR0XTRA # 10.0.53.37 # extra added 5/13/20 # 16 Th/s
 
 ## tuning
 
