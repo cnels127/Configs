@@ -1,5 +1,6 @@
-## instructions available at: https://asicseer.com/page/kb#writing-config
-## TOTAL EXP HASHRATE 24 s9 @ 16 Th/s = 384 Th/s
+##     5 s9 @ 16 Th/s = 80 Th/s (contract expires 7/17/20)
+##    19 s9 @ 16 Th/s = 304 Th/s (contract expires 7/22/20)
+## TOTAL EXP HASHRATE = 384 Th/s 
 
 global custompanel JFOXX0bit049
 global customer bit49-Russia
@@ -29,236 +30,103 @@ global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 global panelclear 999
-# global panelpass gj83Nkgikg
 
 # global retune 2
 # global reboot 1573770720
-global uncork 1576174810
+# global uncork 1576174810
 # global reset 1
 
 ## vlans
-# vlan 10.0.66.113-115
-# vlan 10.0.66.119-121
-# vlan 10.0.66.124-125
-# vlan 10.0.66.130-133
-# vlan 10.0.66.136-142
-# vlan 10.0.64.66-66
-# vlan 10.0.65.64-64
-# vlan 10.0.65.77-77
-# vlan 10.0.65.122-122
-# vlan 10.0.65.123-123
-# extra machines added 12/12/19
-# vlan 10.0.115.47-47
-# vlan 10.0.62.46-46
-# vlan 10.0.51.90-90
-# vlan 10.0.53.84-84
-# vlan 10.0.62.50-50
-# vlan 10.0.116.71-71
-# extra machines added 3/9/20
-vlan 10.0.30.106-106 # 97fbfe
-vlan 10.0.55.31-31 # 8ed5ee
-vlan 10.0.59.155-155 # d92393
-vlan 10.0.50.132-132 # b8d599
-vlan 10.0.50.100-100 # 8ceecc
-vlan 10.0.117.64-64 # 4c06b8
-vlan 10.0.30.112-112 # d933f2
-vlan 10.0.30.114-114 # 8fad98
-
+vlan 10.0.66.113-113 # 4df20f
+vlan 10.0.66.114-114 # a1dd12
+vlan 10.0.66.115-115 # 4c6349
+vlan 10.0.66.119-119 # 7e981b
+vlan 10.0.66.120-120 # 55c5a2
+vlan 10.0.66.121-121 # 3ce1a0
+vlan 10.0.66.124-124 # 76dbbb
+vlan 10.0.66.125-125 # 5d4833
+vlan 10.0.66.130-130 # 085752
+# vlan 10.0.66.131-131 # 95ae86 # POWERED DOWN - NO WORKING HASHBOARDS
+# vlan 10.0.66.132-132 # 25f83c # SCRAPPED 5/6/20
+vlan 10.0.66.133-133 # 54a9ae
+# vlan 10.0.66.136-136 # 763ea8 # SCRAPPED 5/6/20
+vlan 10.0.66.137-137 # 07fd37
+vlan 10.0.66.138-138 # 57f217
+vlan 10.0.66.139-139 # 4df698
+vlan 10.0.66.140-140 # 6957e3
+# vlan 10.0.66.141-141 # d7ac75 # POWERED DOWN - NO WORKING HASHBOARDS
+vlan 10.0.66.142-142 # d10cec
+vlan 10.0.64.66-66 # f12f89
+vlan 10.0.65.64-64 # bb71c7
+vlan 10.0.65.77-77 # d31afd
+vlan 10.0.65.122-122 # 2287f8
+vlan 10.0.65.123-123 # 6f1b5d
+vlan 10.0.50.100-100 # 8ceecc # extra added 3/9/20
+vlan 10.0.50.132-132 # b8d599 # extra added 3/9/20
+vlan 10.0.51.90-90 # f799cf # extra added 12/12/19
+vlan 10.0.53.84-84 # b40d2b # extra added 12/12/19
+vlan 10.0.55.31-31 # 8ed5ee # extra added 3/9/20
+vlan 10.0.59.155-155 # d92393 # extra added 3/9/20
+vlan 10.0.62.46-46 # e8ce85 # extra added 12/12/19
+vlan 10.0.116.71-71 # 360168 # extra added 12/12/19
+vlan 10.0.117.64-64 # 4c06b8 # extra added 3/9/20
+vlan 10.3.22.33-33 # 8fad98 # extra added 3/9/20
+vlan 10.3.22.103-103 # 97fbfe # extra added 3/9/20
+vlan 10.3.23.45-45 # d933f2 # extra added 3/9/20
 
 ## locations
-4df20f location JFOXX00001
-a1dd12 location JFOXX00002
-4c6349 location JFOXX00003
-7e981b location JFOXX00004
-55c5a2 location JFOXX00005
-3ce1a0 location JFOXX00006
-76dbbb location JFOXX00007
-5d4833 location JFOXX00008
-085752 location JFOXX00009
-95ae86 location JFOXX00010
-25f83c location JFOXX00011
-54a9ae location JFOXX00012
-763ea8 location JFOXX00013
-07fd37 location JFOXX00014
-57f217 location JFOXX00015
-4df698 location JFOXX00016
-6957e3 location JFOXX00017
-d7ac75 location JFOXX00018
-d10cec location JFOXX00019
-f12f89 location JFOXX00020
-bb71c7 location JFOXX00021
-d31afd location JFOXX00022
-2287f8 location JFOXX00023
-6f1b5d location JFOXX00024
-# extra machines added 12/12/19
-1bae03 location JFOXX0XTRA # 10.0.115.47
-e8ce85 location JFOXX0XTRA # 10.0.62.46
-f799cf location JFOXX0XTRA # 10.0.51.90
-b40d2b location JFOXX0XTRA # 10.0.53.84
-7c08b6 location JFOXX0XTRA # 10.0.62.50
-360168 location JFOXX0XTRA # 10.0.116.71
-# extra machines added 3/9/20 # 107.8 Th/s
-97fbfe location JFOXX0XTRA # 10.0.30.106 # 13.9 Th/s
-8ed5ee location JFOXX0XTRA # 10.0.55.31 # 13.8 Th/s
-d92393 location JFOXX0XTRA # 10.0.59.155 # 13.8 Th/s
-b8d599 location JFOXX0XTRA # 10.0.50.132 # 13.6 Th/s
-8ceecc location JFOXX0XTRA # 10.0.50.100 # 13.4 Th/s
-4c06b8 location JFOXX0XTRA # 10.0.117.64 # 13.2 Th/s
-d933f2 location JFOXX0XTRA # 10.0.30.112 # 13.1 Th/s
-8fad98 location JFOXX0XTRA # 10.0.30.114 # 13 Th/s
+4df20f location JFOXX00001 # 10.0.66.113
+a1dd12 location JFOXX00002 # 10.0.66.114
+4c6349 location JFOXX00003 # 10.0.66.115
+7e981b location JFOXX00004 # 10.0.66.119
+55c5a2 location JFOXX00005 # 10.0.66.120
+3ce1a0 location JFOXX00006 # 10.0.66.121
+76dbbb location JFOXX00007 # 10.0.66.124
+5d4833 location JFOXX00008 # 10.0.66.125
+085752 location JFOXX00009 # 10.0.66.130
+# 95ae86 location JFOXX00010 # 10.0.66.131 # POWERED DOWN - NO WORKING HASHBOARDS
+# 25f83c location JFOXX00011 # 10.0.66.132 # SCRAPPED 5/6/20
+54a9ae location JFOXX00012 # 10.0.66.133
+# 763ea8 location JFOXX00013 # 10.0.66.136 # SCRAPPED 5/6/20
+07fd37 location JFOXX00014 # 10.0.66.137
+57f217 location JFOXX00015 # 10.0.66.138
+4df698 location JFOXX00016 # 10.0.66.139
+6957e3 location JFOXX00017 # 10.0.66.140
+# d7ac75 location JFOXX00018 # 10.0.66.141 # POWERED DOWN - NO WORKING HASHBOARDS
+d10cec location JFOXX00019 # 10.0.66.142
+f12f89 location JFOXX00020 # 10.0.64.66
+bb71c7 location JFOXX00021 # 10.0.65.64
+d31afd location JFOXX00022 # 10.0.65.77
+2287f8 location JFOXX00023 # 10.0.65.122
+6f1b5d location JFOXX00024 # 10.0.65.123
+8ceecc location JFOXX0XTRA # 10.0.50.100 # 13.4 Th/s # extra added 3/9/20
+b8d599 location JFOXX0XTRA # 10.0.50.132 # 13.6 Th/s # extra added 3/9/20
+f799cf location JFOXX0XTRA # 10.0.51.90 # extra added 12/12/19
+b40d2b location JFOXX0XTRA # 10.0.53.84 # extra added 12/12/19
+8ed5ee location JFOXX0XTRA # 10.0.55.31 # 13.8 Th/s # extra added 3/9/20
+d92393 location JFOXX0XTRA # 10.0.59.155 # 13.8 Th/s # extra added 3/9/20
+e8ce85 location JFOXX0XTRA # 10.0.62.46 # extra added 12/12/19
+360168 location JFOXX0XTRA # 10.0.116.71 # extra added 12/12/19
+4c06b8 location JFOXX0XTRA # 10.0.117.64 # 13.2 Th/s # extra added 3/9/20
+8fad98 location JFOXX0XTRA # 10.3.22.33 # 13 Th/s # extra added 3/9/20
+97fbfe location JFOXX0XTRA # 10.3.22.103 # 13.9 Th/s # extra added 3/9/20
+d933f2 location JFOXX0XTRA # 10.3.23.45 # 13.1 Th/s # extra added 3/9/20
 
-
-## retunes
-57f217 retune 1581008254
+## tuning
 
 ## throttle
-# 3/26/20
-7e981b uncork 1585249434
-f12f89 uncork 1585249434
-07fd37 uncork 1585249434
-8ed5ee uncork 1585249434
-bb71c7 uncork 1585249434
-97fbfe uncork 1585249434
-4c6349 uncork 1585249434
-55c5a2 uncork 1585249434
-76dbbb uncork 1585249434
-b8d599 uncork 1585249434
-b40d2b uncork 1585249434
-4df20f uncork 1585249434
-a1dd12 uncork 1585249434
-# 3/23/20
-07fd37 uncork 1585001298
-4df20f uncork 1585001298
-b40d2b uncork 1585001298
-d92393 uncork 1585001298
-8ed5ee uncork 1585001298
-55c5a2 uncork 1585001298
-f12f89 uncork 1585001298
-bb71c7 uncork 1585001298
-6f1b5d uncork 1585001298
-# 3/14/20
-d92393 uncork 1584249629
-# 3/13/20
-d92393 uncork 1584118182
-# 3/10/20
-d92393 uncork 1583854742
-8fad98 uncork 1583854742
-8ceecc uncork 1583854742
-a1dd12 uncork 1583854742
-d933f2 uncork 1583854742
-4c06b8 uncork 1583854742
-# 2/28/20
-d7ac75 uncork 1582935429
-# 2/18/20
-57f217 uncork 1582054209
-
-57f217 uncork 1580936377
-55c5a2 uncork 1580836290
-57f217 uncork 1580752511
-7e981b uncork 1580752511
-b40d2b uncork 1580752511
-55c5a2 uncork 1580752511
-07fd37 uncork 1580752511
-bb71c7 uncork 1580752511
-763ea8 uncork 1580752511
-95ae86 uncork 1580752511
-7e981b uncork 1580413556
-54a9ae uncork 1580413556
-07fd37 uncork 1580413556
-57f217 uncork 1580413556
-bb71c7 uncork 1580413556
-5d4833 uncork 1580413556
 
 ## reboots
-a1dd12 reboot 1580752511
-7c08b6 reboot 1580752511
-2287f8 reboot 1580752511
-5d4833 reboot 1585237904 # 10.0.66.125 jfoxx00008
-95ae86 reboot 1585237904 # 10.0.66.131 jfoxx00010
-25f83c reboot 1585237904 # 10.0.66.132 jfoxx00011
-f12f89 reboot 1585237904 # 10.0.64.66 jfoxx00020
-d7ac75 reboot 1585237904 # 10.0.66.141 jfoxx00018
-07fd37 reboot 1585237904 # 10.0.66.137 jfoxx00014
-76dbbb reboot 1585237904 # 10.0.66.124 jfoxx00007
-55c5a2 reboot 1585237904 # 10.0.66.120 jfoxx00005
-7e981b reboot 1585237904 # 10.0.66.119 jfoxx00004
-4c6349 reboot 1585237904 # 10.0.66.115 jfoxx00003
-97fbfe reboot 1585237904 # 10.0.30.106 jfoxx0xtra
-b40d2b reboot 1585237904 # 10.0.53.84 jfoxx0xtra
-8ceecc reboot 1585237904 # 10.0.50.100 jfoxx0xtra
-bb71c7 reboot 1585237904 # 10.0.65.64 jfoxx00021
-8ed5ee reboot 1585237904 # 10.0.55.31 jfoxx0xtra
-b8d599 reboot 1585237904 # 10.0.50.132 jfoxx0xtra
-7c08b6 reboot 1585237904 # 10.0.62.50 jfoxx0xtra
-4df20f reboot 1585237904 # 10.0.66.113 jfoxx00001
-a1dd12 reboot 1585237904 # 10.0.66.114 jfoxx00002
-3ce1a0 reboot 1585237904 # 10.0.66.121 jfoxx00006
-085752 reboot 1585237904 # 10.0.66.130 jfoxx00009
-54a9ae reboot 1585237904 # 10.0.66.133 jfoxx00012
-763ea8 reboot 1585237904 # 10.0.66.136 jfoxx00013
-4df698 reboot 1585237904 # 10.0.66.139 jfoxx00016
-6957e3 reboot 1585237904 # 10.0.66.140 jfoxx00017
-d10cec reboot 1585237904 # 10.0.66.142 jfoxx00019
 
 ## resets
-# 3/16/20
-d92393 reset 1584379902
-# 2/28/20
-763ea8 reset 1582935429
-# 2/17/20
-57f217 reset 1581965191
-
-085752 reset 1581717210
-57f217 reset 1581104744
-1bae03 reset 1581008254
-25f83c reset 1581008254
-5d4833 reset 1580937978
-a1dd12 reset 1580937978
-95ae86 reset 1580937978
-57f217 reset 1580847063
-95ae86 reset 1580836290
-085752 reset 1580836290
-4df698 reset 1580836290
-b40d2b reset 1580770675
-3ce1a0 reset 1580770675
-6957e3 reset 1580770675
-a1dd12 reset 1580756109
-763ea8 reset 1580756109
-95ae86 reset 1580755090
-a1dd12 reset 1580413556
-763ea8 reset 1580413556
-7c08b6 reset 1580413556
-3ce1a0 reset 1580413556
-95ae86 reset 1580413556
-4df698 reset 1580413556
-d10cec reset 1579022061
-2287f8 reset 1579021519
-57f217 reset 1578948029
-95ae86 reset 1574927733
-4df698 reset 1574927733
-7e981b reset 1574927733
-54a9ae reset 1574927733
-a1dd12 reset 1574927733
-55c5a2 reset 1574927733
-085752 reset 1574927733
-4df20f reset 1574927733
-2287f8 reset 1574927733
-76dbbb reset 1574927733
-4c6349 reset 1574927733
-d7ac75 reset 1573790794
-d10cec reset 1573790794
-4c6349 reset 1573790794
-4c6349 reset 1573500083
-4c6349 reset 1573249872
-f12f89 reset 1573249872
-4df698 reset 1573249872
-d7ac75 reset 1573249872
-25f83c reset 1573249872
-a1dd12 reset 1573249872
-25f83c reset 1573249872
 
 ## removals
 global remove 1bae03
 
-## asic password
+## VPS pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
+## Remote pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCovql1bo+pkGUoq+zckj82BiW5CIBbxq1+wfET94ULY9b/BJzZHFxxjX79+aG4oilCpUKHFTJHv8Ox3IvtPxWGyx5IpV+avJqCO66+7/aIoG+Cqcz7f9pZPhK61qOG9AQsLNaZHaaB+jif7qCmXiDB1/eDzKHIh2UHdEnZSkcTrwdU40yA4JhenTAMJAxITopjAfURgJtTOkr9eBIVM6Xj/0x/f9ZUvL5jSLNDL9ujce928zCwvcMND+lrB3q5VgMluwihMUWZ3gJfsvZdHwPVXDP+qo1DaIP/oJ/rfD/ef9KkmYTYS3+RaYwGEJoGd0uHCUzSIl3oUJQg6kj4H22p
+# global panelpass gj83Nkgikg
 asicpass admin
+global logo https://raw.githubusercontent.com/cnels127/Configs/master/Bit49(2).png
