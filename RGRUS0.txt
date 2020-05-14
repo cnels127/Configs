@@ -18,7 +18,7 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1400
+global maxwatts 1450
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
@@ -35,10 +35,12 @@ global panelclear 999
 # global reset 1
 
 ## vlans
-vlan 10.0.66.148-148 # 658bd9
+# vlan 10.0.66.148-148 # 658bd9 # replaced with 10.0.54.15
+vlan 10.0.54.15-15 # 102b68
 
 ## locations
-658bd9 location 132139 # 10.0.66.148
+# 658bd9 location 132139 # 10.0.66.148 # replaced with 10.0.54.15
+102b68 location 132139 # 10.0.54.15
 
 ## tuning
 
