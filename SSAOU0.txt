@@ -36,9 +36,11 @@ global panelclear 999
 
 ## vlans
 # vlan 10.0.53.33-33 # SCRAPPED 4/21/20
+vlan 10.3.22.28-28 # 5687a8
 
 ## locations
 # a3d661 location SSAOU00001 # SCRAPPED 4/21/20
+5687a8 location SSAOU0XTRA # 10.3.22.28
 
 ## tuning
 
