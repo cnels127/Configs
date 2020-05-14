@@ -1,8 +1,7 @@
-## instructions available at: https://asicseer.com/page/kb#writing-config
-##      250 s9s at 16 Th/s = 4,000 Th/s
-##     50 s9s at 14.4 Th/s = 720 Th/s
-## TOTAL EXPECTED HASHRATE = 4,720 Th/s
-## EXPECTED AVERAGE HASHRATE PER MACHINE: 15.73 Th/s
+##   150 s9 @ 16 Th/s = 2,400 Th/s (contract exp 6/10/20)
+##   150 s9 @ 16 Th/s = 1,600 Th/s (contract exp 7/11/20)
+##  50 s9 @ 14.4 Th/s = 720 Th/s (contract exp 9/18/20)
+## TOTAL EXP HASHRATE = 4,720 Th/s
 
 global custompanel GWELT0bit049
 global customer bit49-Russia
@@ -35,384 +34,370 @@ global panelclear 999
 
 # global retune 1
 # global reboot 7
-global uncork 1583791586
+# global uncork 1583791586
 # global reset 1
-# global panelpass gj83Nkgikg
 
 ## vlans
-# vlan 10.0.58.28-28 # 164b1f
-# vlan 10.0.58.30-30 # 9eb1a1
-# vlan 10.0.58.31-31 # 992367
-# vlan 10.0.58.32-32 # 78f152
-# vlan 10.0.58.37-37 # 1dc957
-# vlan 10.0.58.38-38 # a29dfd
-# vlan 10.0.58.39-39 # 73b928
-# vlan 10.0.58.40-40 # 80d217
-# vlan 10.0.58.41-41 # e9f5d8
-# vlan 10.0.58.42-42 # cda7bb
-# vlan 10.0.58.43-43 # cae093
-# vlan 10.0.58.44-44 # c7d190
-# vlan 10.0.58.46-46 # d8473e
-# vlan 10.0.58.47-47 # 8a8251
-# vlan 10.0.58.48-48 # c26b87
-# vlan 10.0.58.49-49 # e684f6
-# vlan 10.0.58.50-50 # af5e7c
-# vlan 10.0.58.51-51 # cce2e1
-# vlan 10.0.58.52-52 # 3d634a
-# vlan 10.0.58.53-53 # 978300
-# vlan 10.0.58.54-54 # d14e14
-# vlan 10.0.58.56-56 # 9b813a
-# vlan 10.0.58.59-59 # f457e2
-# vlan 10.0.58.61-61 # 649527
-# vlan 10.0.58.62-62 # 13dab6
-# vlan 10.0.58.63-63 # db622d
-# vlan 10.0.58.64-64 # 9207d7
-# vlan 10.0.58.65-65 # 862bd2
-# vlan 10.0.58.66-66 # bd02cf
-# vlan 10.0.58.67-67 # 3fa490
-# vlan 10.0.58.68-68 # bc1461
-# vlan 10.0.58.69-69 # b28214
-# vlan 10.0.58.71-71 # 90f656
-# vlan 10.0.58.72-72 # 909fe4
-# vlan 10.0.58.74-74 # 5a95a1
-# vlan 10.0.58.76-76 # b35947
-# vlan 10.0.58.77-77 # 60a06e
-# vlan 10.0.58.78-78 # 5b5ab4
-# vlan 10.0.58.79-79 # 9b26f7
-# vlan 10.0.58.80-80 # d9ed47
-# vlan 10.0.58.81-81 # c4487f
-# vlan 10.0.58.83-83 # d3f476
-# vlan 10.0.58.84-84 # 383a0a
-# vlan 10.0.58.85-85 # ead64e
-# vlan 10.0.58.87-87 # 113356
-# vlan 10.0.58.88-88 # a2e64e
-# vlan 10.0.58.89-89 # 96d4d2
-# vlan 10.0.58.92-92 # 3d6b13
-# vlan 10.0.58.94-94 # 7117bd
-# vlan 10.0.58.96-96 # d5d4ec
-# vlan 10.0.58.97-97 # 89c642
-# vlan 10.0.58.98-98 # 13fd9c
-# vlan 10.0.58.99-99 # 5e5ce4
-# vlan 10.0.58.100-100 # 421c3b
-# vlan 10.0.58.101-101 # 5f9484
-# vlan 10.0.58.102-102 # 9db443
-# vlan 10.0.58.103-103 # f2866b
-# vlan 10.0.58.104-104 # fee13e
-# vlan 10.0.58.105-105 # 3f9efa
-# vlan 10.0.58.106-106 # c040ef
-# vlan 10.0.58.108-108 # 29a826
-# vlan 10.0.58.109-109 # 3fe322
-# vlan 10.0.58.110-110 # 0afc63
-# vlan 10.0.58.111-111 # dcf50c
-# vlan 10.0.58.114-114 # 8b9e55
-# vlan 10.0.58.115-115 # 5889d2
-# vlan 10.0.58.116-116 # 3649ed
-# vlan 10.0.58.118-118 # 2dd3d4
-# vlan 10.0.58.119-119 # 81760c
-# vlan 10.0.58.120-120 # 214b41
-# vlan 10.0.58.121-121 # 2fe2de
-# vlan 10.0.58.122-122 # 5bccd5
-# vlan 10.0.58.123-123 # a2faea
-# vlan 10.0.58.124-124 # 1c1459
-# vlan 10.0.58.125-125 # eb2a9b
-# vlan 10.0.58.126-126 # 89e5d1
-# vlan 10.0.58.128-128 # baaf6d
-# vlan 10.0.58.129-129 # ffc8a3
-# vlan 10.0.58.130-130 # 77b21b
-# vlan 10.0.58.131-131 # ce7138
-# vlan 10.0.58.134-134 # 6c6cee
-# vlan 10.0.58.135-135 # 1dd63e
-# vlan 10.0.58.137-137 # 7f619e
-# vlan 10.0.58.138-138 # 04d98e
-# vlan 10.0.58.141-141 # 3e0e5b
-# vlan 10.0.58.144-144 # 37e998
-# vlan 10.0.58.145-145 # 9a50ee
-# vlan 10.0.58.146-146 # 31a25b
-# vlan 10.0.58.147-147 # d37c62
-# vlan 10.0.58.148-148 # 96cc66
-# vlan 10.0.58.149-149 # 9c2879
-# vlan 10.0.58.150-150 # 3e5c58
-# vlan 10.0.58.151-151 # b63ca3
-# vlan 10.0.58.152-152 # acfadc
-# vlan 10.0.58.153-153 # 29fbb5
-# vlan 10.0.58.156-156 # d02def
-# vlan 10.0.58.158-158 # 8ee9ea
-# vlan 10.0.58.159-159 # 1301f9
-# vlan 10.0.58.160-160 # 0325b4
-# vlan 10.0.58.161-161 # 8472ef
-# vlan 10.0.60.61-61 # 5653f6
-# vlan 10.0.61.26-26 # d1f52e
-# vlan 10.0.62.77-77 # dc1da5
-# vlan 10.0.62.147-147 # c8708c
-# vlan 10.0.63.21-21 # 275c8a
-# vlan 10.0.63.64-64 # 221661
-# vlan 10.0.63.79-79 # 4d2178
-# vlan 10.0.63.147-147 # 57fd9d
-# vlan 10.0.63.151-151 # 5b55d7
-# vlan 10.0.63.159-159 # 0b6bfe
-# vlan 10.0.64.9-9 # 165af1
-# vlan 10.0.64.80-80 # 8843ea
-# vlan 10.0.64.87-87 # 7e5f75
-# vlan 10.0.64.96-96 # 09fd9b
-# vlan 10.0.64.121-121 # 4d8936
-# vlan 10.0.64.159-159 # 9bb9ee
-# vlan 10.0.65.20-20 # 5b4eb2
-# vlan 10.0.65.23-23 # 405b7f
-# vlan 10.0.65.27-27 # aca9eb
-# vlan 10.0.65.31-31 # 7e3274
-# vlan 10.0.65.37-37 # d185ef
-# vlan 10.0.65.45-45 # 3b10a5
-# vlan 10.0.65.49-49 # bbbe26
-# vlan 10.0.65.50-50 # b91d80
-# vlan 10.0.65.52-52 # 22fb1a
-# vlan 10.0.65.53-53 # 3c164a
-# vlan 10.0.65.62-62 # 1e0c4a
-# vlan 10.0.65.65-65 # 35c332
-# vlan 10.0.65.66-66 # cef7d2
-# vlan 10.0.65.69-69 # 7f3209
-# vlan 10.0.65.70-70 # 6a7876
-# vlan 10.0.65.81-81 # 5997f2
-# vlan 10.0.65.83-83 # 4a72c3
-# vlan 10.0.65.84-84 # d69f79
-# vlan 10.0.65.85-85 # 79b437
-# vlan 10.0.65.86-86 # 70324a
-# vlan 10.0.65.87-87 # e0ff92
-# vlan 10.0.65.89-89 # eecd17
-# vlan 10.0.65.93-93 # 130ee0
-# vlan 10.0.65.100-100 # 9f398c
-# vlan 10.0.65.105-105 # 805021
-# vlan 10.0.65.106-106 # 30568e
-# vlan 10.0.65.107-107 # 28ff28
-# vlan 10.0.65.111-111 # c7d73b
-# vlan 10.0.65.113-113 # 34029e
-# vlan 10.0.65.119-119 # a831e6
-# vlan 10.0.65.125-125 # b88890
-# vlan 10.0.65.128-128 # 176d86
-# vlan 10.0.65.131-131 # f0249f
-# vlan 10.0.65.139-139 # 7620af
-# vlan 10.0.65.140-140 # 6cc4d3
-# vlan 10.0.65.141-141 # a410fb
-# vlan 10.0.65.142-142 # c0178e
-# vlan 10.0.65.143-143 # 76bc9a
-# vlan 10.0.65.149-149 # 4a7e40
-# vlan 10.0.65.152-152 # 5ceb9c
-# vlan 10.0.65.153-153 # a03a70
-# vlan 10.0.65.155-155 # c02700
-# vlan 10.0.65.156-156 # 5ced68
-# vlan 10.0.66.2-2 # 021a44
-# vlan 10.0.66.4-4 # d9af93
-# vlan 10.0.66.5-5 # cc59cf
-# vlan 10.0.66.6-6 # fbb31c
-# vlan 10.0.66.7-7 # 84e7b0
-# vlan 10.0.66.10-10 # 3b05e3
-# vlan 10.0.66.13-13 # e087cf
-# vlan 10.0.66.14-14 # f42372
-# vlan 10.0.66.15-15 # 0dd651
-# vlan 10.0.66.16-16 # 949da3
-# vlan 10.0.66.21-21 # 2c2894
-# vlan 10.0.66.24-24 # c00c7e
-# vlan 10.0.66.26-26 # 889a93
-# vlan 10.0.66.28-28 # 5e5a03
-# vlan 10.0.66.29-29 # 373769
-# vlan 10.0.66.32-32 # d2ff85
-# vlan 10.0.66.33-33 # 93a8f8
-# vlan 10.0.66.40-40 # ce096e
-# vlan 10.0.66.42-42 # fddff5
-# vlan 10.0.66.43-43 # 4ca4e7
-# vlan 10.0.66.45-45 # f73001
-# vlan 10.0.66.47-47 # 1d21a2
-# vlan 10.0.66.48-48 # 77e32c
-# vlan 10.0.66.49-49 # 76d822
-# vlan 10.0.66.52-52 # 3ded17
-# vlan 10.0.66.55-55 # b7cb7e
-# vlan 10.0.66.58-58 # 2979a7
-# vlan 10.0.66.59-59 # 14e1ec
-# vlan 10.0.66.60-60 # 55b526
-# vlan 10.0.66.62-62 # 43e45e
-# vlan 10.0.66.63-63 # f9b156
-# vlan 10.0.66.65-65 # 804c65
-# vlan 10.0.66.70-70 # bc6dbc
-# vlan 10.0.66.71-71 # 2701b4
-# vlan 10.0.66.73-73 # 14de29
-# vlan 10.0.66.76-76 # 02bf1b
-# vlan 10.0.66.79-79 # 5a09a9
-# vlan 10.0.66.80-80 # 486ae7
-# vlan 10.0.66.82-82 # 0fb69a
-# vlan 10.0.66.84-84 # 47aaa8
-# vlan 10.0.66.86-86 # 109552
-# vlan 10.0.66.88-88 # e63e4d
-# vlan 10.0.66.92-92 # 3ba77d
-# vlan 10.0.66.97-97 # ca367f
-# vlan 10.0.66.98-98 # 0c08b2
-# vlan 10.0.66.99-99 # e98f88
-# vlan 10.0.66.102-102 # c22b0b
-# vlan 10.0.66.107-107 # 24641d
-# vlan 10.0.66.108-108 # 2306f8
-# vlan 10.0.66.111-111 # 2e7b4a
-# vlan 10.0.66.112-112 # 89d768
-# vlan 10.0.67.60-60 # df0014
-# vlan 10.0.67.62-62 # 7c53a1
-# vlan 10.0.67.64-64 # 235400
-# vlan 10.0.67.65-65 # 26cfed
-# vlan 10.0.67.66-66 # 9c850b
-# vlan 10.0.67.67-67 # 98306d
-# vlan 10.0.67.68-68 # 79e057
-# vlan 10.0.67.71-71 # c62627
-# vlan 10.0.67.72-72 # 5aa6b8
-# vlan 10.0.67.73-73 # ce8617
-# vlan 10.0.67.75-75 # 5d1776
-# vlan 10.0.67.78-78 # 8ec6e6
-# vlan 10.0.67.80-80 # a51cea
-# vlan 10.0.67.81-81 # df6891
-# vlan 10.0.67.86-86 # 6700fb
-# vlan 10.0.67.87-87 # b3c764
-# vlan 10.0.67.88-88 # 7d38ef
-# vlan 10.0.67.91-91 # 94b487
-# vlan 10.0.67.94-94 # d15350
-# vlan 10.0.67.98-98 # 258570
-# vlan 10.0.67.99-99 # c62bf8
-# vlan 10.0.67.102-102 # 0658f5
-# vlan 10.0.67.105-105 # 567f8e
-# vlan 10.0.67.109-109 # b75a76
-# vlan 10.0.67.110-110 # ebe3ba
-# vlan 10.0.67.111-111 # 76a8b9
-# vlan 10.0.67.114-114 # d912b0
-# vlan 10.0.67.116-116 # b41508
-# vlan 10.0.67.117-117 # 82150d
-# vlan 10.0.67.118-118 # e339a9
-# vlan 10.0.67.119-119 # c62831
-# vlan 10.0.67.121-121 # d38774
-# vlan 10.0.67.122-122 # cc4c03
-# vlan 10.0.67.123-123 # 10dbb9
-# vlan 10.0.67.124-124 # 3b771d
-# vlan 10.0.67.125-125 # 6308b3
-# vlan 10.0.67.126-126 # a0bde4
-# vlan 10.0.67.127-127 # c94f44
-# vlan 10.0.67.128-128 # 608111
-# vlan 10.0.67.129-129 # 50f49e
-# vlan 10.0.118.118-118 # 482b5f
-# vlan 10.0.119.7-7 # 334c13
-# vlan 10.0.119.15-15 # 332dd2
-# vlan 10.0.119.28-28 # 75f695
-# vlan 10.0.119.30-30 # c41b38
-# vlan 10.0.119.34-34 # 2c9613
-# vlan 10.0.119.39-39 # f294b4
-# vlan 10.0.119.41-41 # c9b5ce
-# vlan 10.0.119.82-82 # 060916
-# vlan 10.0.119.122-122 # 1e7a91
-# vlan 10.0.119.135-135 # 7833ab
-# vlan 10.0.119.159-159 # 1fe62e
-# vlan 10.0.120.54-54 # 83a46d
-# vlan 10.0.120.70-70 # d6543e
-# vlan 10.0.120.71-71 # 622a99
-# vlan 10.0.120.72-72 # a8fc56
-# vlan 10.0.120.113-113 # afc54a
-# vlan 10.0.120.116-116 # a1e312
-# vlan 10.0.120.122-122 # 7deb62
-# vlan 10.0.120.129-129 # 208f0b
-# vlan 10.0.120.131-131 # 039271
-# vlan 10.0.120.138-138 # 5170b3
-# vlan 10.0.120.141-141 # 74a492
-# vlan 10.0.120.146-146 # c86992
-# vlan 10.0.121.4-4 # 71feb3
-# vlan 10.0.121.11-11 # 90b7fe
-# vlan 10.0.121.15-15 # b7c3ed
-# vlan 10.0.121.16-16 # 1541e1
-# vlan 10.0.121.19-19 # ec7d0a
-# vlan 10.0.121.24-24 # 4ae309
-# vlan 10.0.121.35-35 # 1047f3
-# vlan 10.0.121.44-44 # b5ee93
-# vlan 10.0.121.46-46 # 7352f1
-# vlan 10.0.121.49-49 # 4ea065
-# vlan 10.0.121.59-59 # d07c04
-# vlan 10.0.121.63-63 # 071970
-# vlan 10.0.121.71-71 # 1a64c1
-# vlan 10.0.121.72-72 # 8f3760
-# vlan 10.0.121.73-73 # 6579f1
-# vlan 10.0.121.75-75 # 839e1f
-# vlan 10.0.121.77-77 # e30678
-# vlan 10.0.121.107-107 # f5d121
-# vlan 10.0.121.108-108 # bb2408
-# vlan 10.0.121.110-110 # fbf6a7
-# vlan 10.0.121.111-111 # a2131a
-# vlan 10.0.121.113-113 # fdbabb
-# vlan 10.0.121.122-122 # 9f686d
-# vlan 10.0.121.131-131 # 4f04e1
-# vlan 10.0.121.135-135 # 87056f
-# vlan 10.0.121.160-160 # 989b0b
-# extra machines added 12/9/19
-# vlan 10.0.120.58-58 # eccb56
-# vlan 10.0.77.118-118 # c3ab25
-# vlan 10.0.53.98-98 # 332148
-# vlan 10.0.53.94-94 # 35bc6b
-# vlan 10.0.51.80-80 # e30375
-# vlan 10.0.119.27-27 # 1eacbd
-# vlan 10.0.119.35-35 # f456b4
-# vlan 10.0.120.101-101 # e4b418
-# vlan 10.0.121.86-86 # 405f44
-# vlan 10.0.120.78-78 # ea83e9
-# vlan 10.0.53.106-106 # bb70c4
-# vlan 10.0.118.88-88 # 6ba047
-# vlan 10.0.67.74-74 # 4b5afd
-# vlan 10.0.121.51-51 # 081c44
-# vlan 10.0.121.89-89 # 42ee1f
-# vlan 10.0.120.67-67 # 1bdc6a
-# vlan 10.0.116.141-141 # b58a77
-# vlan 10.0.119.59-59 # a2ec4d
-# vlan 10.0.116.17-17 # 1a4c73
-# vlan 10.0.121.28-28 # f9c114
-# vlan 10.0.116.41-41 # 3002c7
-# vlan 10.0.121.40-40 # cc01c8
-# vlan 10.0.77.94-94 # 07cb48
-# vlan 10.0.77.112-112 # a9d10f
-# vlan 10.0.121.85-85 # e75b6c
-# vlan 10.0.65.103-103 # 031746
-# vlan 10.0.121.69-69 # 6652f6
-# vlan 10.0.116.21-21 # 26e074
-# vlan 10.0.120.52-52 # d3cbcd
-# vlan 10.0.53.105-105 # c9504d
-# vlan 10.0.121.142-142 # ecbb73
-# vlan 10.0.64.37-37 # 14039f
-# vlan 10.0.121.157-157 # db4dc4
-# vlan 10.0.53.104-104 # af453f
-# vlan 10.0.118.53-53 # eb26bb
-# vlan 10.0.121.102-102 # 16c01b
-# vlan 10.0.68.1-1 # d9c608
-# vlan 10.0.120.64-64 # 03dc60
-# vlan 10.0.119.60-60 # 1ff87e
-# vlan 10.0.121.42-42 # d4f964
-# vlan 10.0.121.31-31 # 4c6a74
-# vlan 10.0.121.93-93 # a8958f
-# vlan 10.0.120.87-87 # cafe14
-# vlan 10.0.120.29-29 # 031b4b
-# vlan 10.0.121.78-78 # 921546
-# vlan 10.0.53.93-93 # 1dcc2c
-# vlan 10.0.121.27-27 # 839dc2
-# vlan 10.0.121.74-74 # ecd0c3
-# vlan 10.0.60.77-77 # 3031a6
-# vlan 10.0.121.41-41 # 4cc40a
-# vlan 10.0.121.120-120 # becc26
-# vlan 10.0.121.124-124 # e465d5
-# vlan 10.0.115.93-93 # 70bd72
-# vlan 10.0.121.36-36 # ceba7d
-# vlan 10.0.53.96-96 # 31d75c
-# vlan 10.0.53.8-8 # 32605f
-# vlan 10.0.121.55-55 # 74b647
-# vlan 10.0.120.38-38 # 3e5976
-# vlan 10.0.121.53-53 # cefbab
-## extra machines added 2020-03-18
-vlan 10.0.120.27-27
+vlan 10.0.58.28-28 # 164b1f
+vlan 10.0.58.30-30 # 9eb1a1
+vlan 10.0.58.31-31 # 992367
+vlan 10.0.58.32-32 # 78f152
+# vlan 10.0.58.37-37 # 1dc957 # SCRAPPED
+vlan 10.0.58.38-38 # a29dfd
+# vlan 10.0.58.39-39 # 73b928 # SCRAPPED
+vlan 10.0.58.40-40 # 80d217
+# vlan 10.0.58.41-41 # e9f5d8 # SCRAPPED
+vlan 10.0.58.42-42 # cda7bb
+vlan 10.0.58.43-43 # cae093
+vlan 10.0.58.44-44 # c7d190
+vlan 10.0.58.46-46 # d8473e
+vlan 10.0.58.47-47 # 8a8251
+vlan 10.0.58.48-48 # c26b87
+vlan 10.0.58.49-49 # e684f6
+vlan 10.0.58.50-50 # af5e7c
+vlan 10.0.58.51-51 # cce2e1
+vlan 10.0.58.52-52 # 3d634a
+vlan 10.0.58.53-53 # 978300
+# vlan 10.0.58.54-54 # d14e14 # SCRAPPED
+vlan 10.0.58.56-56 # 9b813a
+vlan 10.0.58.59-59 # f457e2
+vlan 10.0.58.61-61 # 649527
+vlan 10.0.58.62-62 # 13dab6
+vlan 10.0.58.63-63 # db622d
+vlan 10.0.58.64-64 # 9207d7
+vlan 10.0.58.65-65 # 862bd2
+vlan 10.0.58.66-66 # bd02cf
+vlan 10.0.58.67-67 # 3fa490
+vlan 10.0.58.68-68 # bc1461
+vlan 10.0.58.69-69 # b28214
+vlan 10.0.58.71-71 # 90f656
+vlan 10.0.58.72-72 # 909fe4
+vlan 10.0.58.74-74 # 5a95a1
+vlan 10.0.58.76-76 # b35947
+vlan 10.0.58.77-77 # 60a06e
+vlan 10.0.58.78-78 # 5b5ab4
+vlan 10.0.58.79-79 # 9b26f7
+vlan 10.0.58.80-80 # d9ed47
+vlan 10.0.58.81-81 # c4487f
+vlan 10.0.58.83-83 # d3f476
+vlan 10.0.58.84-84 # 383a0a
+vlan 10.0.58.85-85 # ead64e
+vlan 10.0.58.87-87 # 113356
+vlan 10.0.58.88-88 # a2e64e
+vlan 10.0.58.89-89 # 96d4d2
+vlan 10.0.58.92-92 # 3d6b13
+vlan 10.0.58.94-94 # 7117bd
+vlan 10.0.58.96-96 # d5d4ec
+vlan 10.0.58.97-97 # 89c642
+vlan 10.0.58.98-98 # 13fd9c
+vlan 10.0.58.99-99 # 5e5ce4
+vlan 10.0.58.100-100 # 421c3b
+vlan 10.0.58.101-101 # 5f9484
+vlan 10.0.58.102-102 # 9db443
+vlan 10.0.58.103-103 # f2866b
+vlan 10.0.58.104-104 # fee13e
+vlan 10.0.58.105-105 # 3f9efa
+vlan 10.0.58.106-106 # c040ef
+vlan 10.0.58.108-108 # 29a826
+vlan 10.0.58.109-109 # 3fe322
+vlan 10.0.58.110-110 # 0afc63
+vlan 10.0.58.111-111 # dcf50c
+vlan 10.0.58.114-114 # 8b9e55
+vlan 10.0.58.115-115 # 5889d2
+vlan 10.0.58.116-116 # 3649ed
+vlan 10.0.58.118-118 # 2dd3d4
+vlan 10.0.58.119-119 # 81760c
+vlan 10.0.58.120-120 # 214b41
+vlan 10.0.58.121-121 # 2fe2de
+vlan 10.0.58.122-122 # 5bccd5
+vlan 10.0.58.123-123 # a2faea
+vlan 10.0.58.124-124 # 1c1459
+vlan 10.0.58.125-125 # eb2a9b
+vlan 10.0.58.126-126 # 89e5d1
+vlan 10.0.58.128-128 # baaf6d
+vlan 10.0.58.129-129 # ffc8a3
+vlan 10.0.58.130-130 # 77b21b
+vlan 10.0.58.131-131 # ce7138
+vlan 10.0.58.134-134 # 6c6cee
+vlan 10.0.58.135-135 # 1dd63e
+vlan 10.0.58.137-137 # 7f619e
+vlan 10.0.58.138-138 # 04d98e
+vlan 10.0.58.141-141 # 3e0e5b
+vlan 10.0.58.144-144 # 37e998
+# vlan 10.0.58.145-145 # 9a50ee # SCRAPPED
+# vlan 10.0.58.146-146 # 31a25b # SCRAPPED
+vlan 10.0.58.147-147 # d37c62
+vlan 10.0.58.148-148 # 96cc66
+vlan 10.0.58.149-149 # 9c2879
+vlan 10.0.58.150-150 # 3e5c58
+vlan 10.0.58.151-151 # b63ca3
+vlan 10.0.58.152-152 # acfadc
+vlan 10.0.58.153-153 # 29fbb5
+vlan 10.0.58.156-156 # d02def
+vlan 10.0.58.158-158 # 8ee9ea
+vlan 10.0.58.159-159 # 1301f9
+vlan 10.0.58.160-160 # 0325b4
+vlan 10.0.58.161-161 # 8472ef
+vlan 10.0.60.61-61 # 5653f6
+vlan 10.0.61.26-26 # d1f52e
+vlan 10.0.62.77-77 # dc1da5
+vlan 10.0.62.147-147 # c8708c
+vlan 10.0.63.21-21 # 275c8a
+vlan 10.0.63.64-64 # 221661
+vlan 10.0.63.79-79 # 4d2178
+vlan 10.0.63.147-147 # 57fd9d
+vlan 10.0.63.151-151 # 5b55d7
+vlan 10.0.63.159-159 # 0b6bfe
+# vlan 10.0.64.9-9 # 165af1 # SCRAPPED
+vlan 10.0.64.80-80 # 8843ea
+vlan 10.0.64.87-87 # 7e5f75
+vlan 10.0.64.96-96 # 09fd9b
+vlan 10.0.64.121-121 # 4d8936
+vlan 10.0.64.159-159 # 9bb9ee
+vlan 10.0.65.20-20 # 5b4eb2
+vlan 10.0.65.23-23 # 405b7f
+vlan 10.0.65.27-27 # aca9eb
+vlan 10.0.65.31-31 # 7e3274
+vlan 10.0.65.37-37 # d185ef
+vlan 10.0.65.45-45 # 3b10a5
+vlan 10.0.65.49-49 # bbbe26
+# vlan 10.0.65.50-50 # b91d80 # SCRAPPED
+vlan 10.0.65.52-52 # 22fb1a
+vlan 10.0.65.53-53 # 3c164a
+vlan 10.0.65.62-62 # 1e0c4a
+# vlan 10.0.65.65-65 # 35c332 # SCRAPPED
+vlan 10.0.65.66-66 # cef7d2
+vlan 10.0.65.69-69 # 7f3209
+vlan 10.0.65.70-70 # 6a7876
+vlan 10.0.65.81-81 # 5997f2
+# vlan 10.0.65.83-83 # 4a72c3 # SCRAPPED
+vlan 10.0.65.84-84 # d69f79
+vlan 10.0.65.85-85 # 79b437
+vlan 10.0.65.86-86 # 70324a
+vlan 10.0.65.87-87 # e0ff92
+vlan 10.0.65.89-89 # eecd17
+vlan 10.0.65.93-93 # 130ee0
+vlan 10.0.65.100-100 # 9f398c
+vlan 10.0.65.105-105 # 805021
+vlan 10.0.65.106-106 # 30568e
+vlan 10.0.65.107-107 # 28ff28
+vlan 10.0.65.111-111 # c7d73b
+vlan 10.0.65.113-113 # 34029e
+vlan 10.0.65.119-119 # a831e6
+# vlan 10.0.65.125-125 # b88890 # SCRAPPED
+vlan 10.0.65.128-128 # 176d86
+vlan 10.0.65.131-131 # f0249f
+# vlan 10.0.65.139-139 # 7620af # SCRAPPED
+vlan 10.0.65.140-140 # 6cc4d3
+# vlan 10.0.65.141-141 # a410fb # SCRAPPED
+vlan 10.0.65.142-142 # c0178e
+vlan 10.0.65.143-143 # 76bc9a
+vlan 10.0.65.149-149 # 4a7e40
+vlan 10.0.65.152-152 # 5ceb9c
+vlan 10.0.65.153-153 # a03a70
+vlan 10.0.65.155-155 # c02700
+vlan 10.0.65.156-156 # 5ced68
+# vlan 10.0.66.2-2 # 021a44 # SCRAPPED
+# vlan 10.0.66.4-4 # d9af93 # SCRAPPED
+vlan 10.0.66.5-5 # cc59cf
+vlan 10.0.66.6-6 # fbb31c
+vlan 10.0.66.7-7 # 84e7b0
+vlan 10.0.66.10-10 # 3b05e3
+vlan 10.0.66.13-13 # e087cf
+# vlan 10.0.66.14-14 # f42372 # SCRAPPED
+vlan 10.0.66.15-15 # 0dd651
+vlan 10.0.66.16-16 # 949da3
+vlan 10.0.66.21-21 # 2c2894
+vlan 10.0.66.24-24 # c00c7e
+vlan 10.0.66.26-26 # 889a93
+vlan 10.0.66.28-28 # 5e5a03
+vlan 10.0.66.29-29 # 373769
+vlan 10.0.66.32-32 # d2ff85
+vlan 10.0.66.33-33 # 93a8f8
+vlan 10.0.66.40-40 # ce096e
+vlan 10.0.66.42-42 # fddff5
+vlan 10.0.66.43-43 # 4ca4e7
+vlan 10.0.66.45-45 # f73001
+vlan 10.0.66.47-47 # 1d21a2
+vlan 10.0.66.48-48 # 77e32c
+vlan 10.0.66.49-49 # 76d822
+vlan 10.0.66.52-52 # 3ded17
+vlan 10.0.66.55-55 # b7cb7e
+vlan 10.0.66.58-58 # 2979a7
+vlan 10.0.66.59-59 # 14e1ec
+vlan 10.0.66.60-60 # 55b526
+vlan 10.0.66.62-62 # 43e45e
+vlan 10.0.66.63-63 # f9b156
+vlan 10.0.66.65-65 # 804c65
+vlan 10.0.66.70-70 # bc6dbc
+vlan 10.0.66.71-71 # 2701b4
+vlan 10.0.66.73-73 # 14de29
+vlan 10.0.66.76-76 # 02bf1b
+vlan 10.0.66.79-79 # 5a09a9
+vlan 10.0.66.80-80 # 486ae7
+vlan 10.0.66.82-82 # 0fb69a
+vlan 10.0.66.84-84 # 47aaa8
+vlan 10.0.66.86-86 # 109552
+vlan 10.0.66.88-88 # e63e4d
+vlan 10.0.66.92-92 # 3ba77d
+vlan 10.0.66.97-97 # ca367f
+vlan 10.0.66.98-98 # 0c08b2
+vlan 10.0.66.99-99 # e98f88
+vlan 10.0.66.102-102 # c22b0b
+vlan 10.0.66.107-107 # 24641d
+vlan 10.0.66.108-108 # 2306f8
+vlan 10.0.66.111-111 # 2e7b4a
+vlan 10.0.66.112-112 # 89d768
+vlan 10.0.67.60-60 # df0014
+vlan 10.0.67.62-62 # 7c53a1
+vlan 10.0.67.64-64 # 235400
+vlan 10.0.67.65-65 # 26cfed
+vlan 10.0.67.66-66 # 9c850b
+vlan 10.0.67.67-67 # 98306d
+vlan 10.0.67.68-68 # 79e057
+vlan 10.0.67.71-71 # c62627
+vlan 10.0.67.72-72 # 5aa6b8
+vlan 10.0.67.73-73 # ce8617
+vlan 10.0.67.75-75 # 5d1776
+# vlan 10.0.67.78-78 # 8ec6e6 # SCRAPPED
+vlan 10.0.67.80-80 # a51cea
+vlan 10.0.67.81-81 # df6891
+vlan 10.0.67.86-86 # 6700fb
+vlan 10.0.67.87-87 # b3c764
+vlan 10.0.67.88-88 # 7d38ef
+vlan 10.0.67.91-91 # 94b487
+vlan 10.0.67.94-94 # d15350
+vlan 10.0.67.98-98 # 258570
+# vlan 10.0.67.99-99 # c62bf8 # SCRAPPED
+vlan 10.0.67.102-102 # 0658f5
+vlan 10.0.67.105-105 # 567f8e
+# vlan 10.0.67.109-109 # b75a76 # SCRAPPED
+vlan 10.0.67.110-110 # ebe3ba
+vlan 10.0.67.111-111 # 76a8b9
+vlan 10.0.67.114-114 # d912b0
+vlan 10.0.67.116-116 # b41508
+vlan 10.0.67.117-117 # 82150d
+vlan 10.0.67.118-118 # e339a9
+vlan 10.0.67.119-119 # c62831
+vlan 10.0.67.121-121 # d38774
+# vlan 10.0.67.122-122 # cc4c03 # SCRAPPED
+vlan 10.0.67.123-123 # 10dbb9
+vlan 10.0.67.124-124 # 3b771d
+vlan 10.0.67.125-125 # 6308b3
+vlan 10.0.67.126-126 # a0bde4
+vlan 10.0.67.127-127 # c94f44
+# vlan 10.0.67.128-128 # 608111 # SCRAPPED
+# vlan 10.0.67.129-129 # 50f49e # SCRAPPED
+vlan 10.0.118.118-118 # 482b5f
+vlan 10.0.119.7-7 # 334c13
+vlan 10.0.119.15-15 # 332dd2
+vlan 10.0.119.28-28 # 75f695
+vlan 10.0.119.30-30 # c41b38
+vlan 10.0.119.34-34 # 2c9613
+vlan 10.0.119.39-39 # f294b4
+vlan 10.0.119.41-41 # c9b5ce
+vlan 10.0.119.82-82 # 060916
+vlan 10.0.119.122-122 # 1e7a91
+vlan 10.0.119.135-135 # 7833ab
+# vlan 10.0.119.159-159 # 1fe62e # SCRAPPED
+vlan 10.0.120.54-54 # 83a46d
+vlan 10.0.120.70-70 # d6543e
+vlan 10.0.120.71-71 # 622a99
+vlan 10.0.120.72-72 # a8fc56
+vlan 10.0.120.113-113 # afc54a
+vlan 10.0.120.116-116 # a1e312
+# vlan 10.0.120.122-122 # 7deb62 # SCRAPPED
+vlan 10.0.120.129-129 # 208f0b
+vlan 10.0.120.131-131 # 039271
+vlan 10.0.120.138-138 # 5170b3
+vlan 10.0.120.141-141 # 74a492
+vlan 10.0.120.146-146 # c86992
+vlan 10.0.121.4-4 # 71feb3
+vlan 10.0.121.11-11 # 90b7fe
+vlan 10.0.121.15-15 # b7c3ed
+vlan 10.0.121.16-16 # 1541e1
+vlan 10.0.121.19-19 # ec7d0a
+vlan 10.0.121.24-24 # 4ae309
+vlan 10.0.121.35-35 # 1047f3
+vlan 10.0.121.44-44 # b5ee93
+vlan 10.0.121.46-46 # 7352f1
+vlan 10.0.121.49-49 # 4ea065
+vlan 10.0.121.59-59 # d07c04
+# vlan 10.0.121.63-63 # 071970 # SCRAPPED
+vlan 10.0.121.71-71 # 1a64c1
+# vlan 10.0.121.72-72 # 8f3760 # SCRAPPED
+vlan 10.0.121.73-73 # 6579f1
+vlan 10.0.121.75-75 # 839e1f
+vlan 10.0.121.77-77 # e30678
+vlan 10.0.121.107-107 # f5d121
+vlan 10.0.121.108-108 # bb2408
+vlan 10.0.121.110-110 # fbf6a7
+vlan 10.0.121.111-111 # a2131a
+vlan 10.0.121.113-113 # fdbabb
+vlan 10.0.121.122-122 # 9f686d
+vlan 10.0.121.131-131 # 4f04e1
+vlan 10.0.121.135-135 # 87056f
+vlan 10.0.121.160-160 # 989b0b
+vlan 10.0.53.8-8 # 32605f # extra added 12/9/19
+vlan 10.0.53.93-93 # 1dcc2c # extra added 12/9/19
+vlan 10.0.53.96-96 # 31d75c # extra added 12/9/19
+vlan 10.0.53.98-98 # 332148 # extra added 12/9/19
+vlan 10.0.53.104-104 # af453f # extra added 12/9/19
+vlan 10.0.53.106-106 # bb70c4 # extra added 12/9/19
+vlan 10.0.58.17-17 # d9c608 # extra added 12/9/19
+vlan 10.0.60.77-77 # 3031a6 # extra added 12/9/19
+vlan 10.0.64.37-37 # 14039f # extra added 12/9/19
+vlan 10.0.65.103-103 # 031746 # extra added 12/9/19
+vlan 10.0.67.74-74 # 4b5afd # extra added 12/9/19
+vlan 10.0.77.94-94 # 07cb48 # extra added 12/9/19
+vlan 10.0.77.112-112 # a9d10f # extra added 12/9/19
+vlan 10.0.115.93-93 # 70bd72 # extra added 12/9/19
+vlan 10.0.116.17-17 # 1a4c73 # extra added 12/9/19
+vlan 10.0.116.21-21 # 26e074 # extra added 12/9/19
+vlan 10.0.116.41-41 # 3002c7 # extra added 12/9/19
+vlan 10.0.116.141-141 # b58a77 # extra added 12/9/19
+vlan 10.0.118.53-53 # eb26bb # extra added 12/9/19
+vlan 10.0.118.88-88 # 6ba047 # extra added 12/9/19
+vlan 10.0.119.27-27 # 1eacbd # extra added 12/9/19
+vlan 10.0.119.35-35 # f456b4 # extra added 12/9/19
+vlan 10.0.119.59-59 # a2ec4d # extra added 12/9/19
+vlan 10.0.120.27-27 # d7a2fa # extra added 3/18/20
+vlan 10.0.120.29-29 # 031b4b # extra added 12/9/19
+vlan 10.0.120.38-38 # 3e5976 # extra added 12/9/19
+vlan 10.0.120.52-52 # d3cbcd # extra added 12/9/19
+vlan 10.0.120.64-64 # 03dc60 # extra added 12/9/19
+vlan 10.0.120.67-67 # 1bdc6a # extra added 12/9/19
+vlan 10.0.120.101-101 # e4b418 # extra added 12/9/19
+vlan 10.0.121.27-27 # 839dc2 # extra added 12/9/19
+vlan 10.0.121.31-31 # 4c6a74 # extra added 12/9/19
+vlan 10.0.121.36-36 # ceba7d # extra added 12/9/19
+vlan 10.0.121.40-40 # cc01c8 # extra added 12/9/19
+vlan 10.0.121.42-42 # d4f964 # extra added 12/9/19
+vlan 10.0.121.51-51 # 081c44 # extra added 12/9/19
+vlan 10.0.121.53-53 # cefbab # extra added 12/9/19
+vlan 10.0.121.55-55 # 74b647 # extra added 12/9/19
+vlan 10.0.121.69-69 # 6652f6 # extra added 12/9/19
+vlan 10.0.121.74-74 # ecd0c3 # extra added 12/9/19
+vlan 10.0.121.78-78 # 921546 # extra added 12/9/19
+vlan 10.0.121.85-85 # e75b6c # extra added 12/9/19
+vlan 10.0.121.89-89 # 42ee1f # extra added 12/9/19
+vlan 10.0.121.93-93 # a8958f # extra added 12/9/19
+vlan 10.0.121.102-102 # 16c01b # extra added 12/9/19
+vlan 10.0.121.120-120 # becc26 # extra added 12/9/19
+vlan 10.0.121.124-124 # e465d5 # extra added 12/9/19
+vlan 10.0.121.142-142 # ecbb73 # extra added 12/9/19
+vlan 10.0.121.157-157 # db4dc4 # extra added 12/9/19
 
 ## locations
 164b1f location GWELT00001 # 10.0.58.28
 9eb1a1 location GWELT00002 # 10.0.58.30
 992367 location GWELT00003 # 10.0.58.31
 78f152 location GWELT00004 # 10.0.58.32
-1dc957 location GWELT00005 # 10.0.58.37
+# 1dc957 location GWELT00005 # 10.0.58.37 # SCRAPPED 4/22/20
 a29dfd location GWELT00006 # 10.0.58.38
-73b928 location GWELT00007 # 10.0.58.39
+# 73b928 location GWELT00007 # 10.0.58.39 # SCRAPPED 4/22/20
 80d217 location GWELT00008 # 10.0.58.40
-e9f5d8 location GWELT00009 # 10.0.58.41
+# e9f5d8 location GWELT00009 # 10.0.58.41 # SCRAPPED 4/22/20
 cda7bb location GWELT00010 # 10.0.58.42
 cae093 location GWELT00011 # 10.0.58.43
 c7d190 location GWELT00012 # 10.0.58.44
@@ -424,7 +409,7 @@ af5e7c location GWELT00017 # 10.0.58.50
 cce2e1 location GWELT00018 # 10.0.58.51
 3d634a location GWELT00019 # 10.0.58.52
 978300 location GWELT00020 # 10.0.58.53
-d14e14 location GWELT00021 # 10.0.58.54
+# d14e14 location GWELT00021 # 10.0.58.54 # SCRAPPED 4/22/20
 9b813a location GWELT00022 # 10.0.58.56
 f457e2 location GWELT00023 # 10.0.58.59
 649527 location GWELT00024 # 10.0.58.61
@@ -490,8 +475,8 @@ ce7138 location GWELT00080 # 10.0.58.131
 04d98e location GWELT00084 # 10.0.58.138
 3e0e5b location GWELT00085 # 10.0.58.141
 37e998 location GWELT00086 # 10.0.58.144
-9a50ee location GWELT00087 # 10.0.58.145
-31a25b location GWELT00088 # 10.0.58.146
+# 9a50ee location GWELT00087 # 10.0.58.145 # SCRAPPED 4/30/20
+# 31a25b location GWELT00088 # 10.0.58.146 # SCRAPPED 4/30/20
 d37c62 location GWELT00089 # 10.0.58.147
 96cc66 location GWELT00090 # 10.0.58.148
 9c2879 location GWELT00091 # 10.0.58.149
@@ -514,7 +499,7 @@ c8708c location GWELT00104 # 10.0.62.147
 57fd9d location GWELT00108 # 10.0.63.147
 5b55d7 location GWELT00109 # 10.0.63.151
 0b6bfe location GWELT00110 # 10.0.63.159
-165af1 location GWELT00111 # 10.0.64.9
+# 165af1 location GWELT00111 # 10.0.64.9 # SCRAPPED
 8843ea location GWELT00112 # 10.0.64.80
 7e5f75 location GWELT00113 # 10.0.64.87
 09fd9b location GWELT00114 # 10.0.64.96
@@ -527,16 +512,16 @@ aca9eb location GWELT00119 # 10.0.65.27
 d185ef location GWELT00121 # 10.0.65.37
 3b10a5 location GWELT00122 # 10.0.65.45
 bbbe26 location GWELT00123 # 10.0.65.49
-b91d80 location GWELT00124 # 10.0.65.50
+# b91d80 location GWELT00124 # 10.0.65.50 # SCRAPPED 4/22/20
 22fb1a location GWELT00125 # 10.0.65.52
 3c164a location GWELT00126 # 10.0.65.53
 1e0c4a location GWELT00127 # 10.0.65.62
-35c332 location GWELT00128 # 10.0.65.65
+# 35c332 location GWELT00128 # 10.0.65.65 # SCRAPPED 4/24/20
 cef7d2 location GWELT00129 # 10.0.65.66
 7f3209 location GWELT00130 # 10.0.65.69
 6a7876 location GWELT00131 # 10.0.65.70
 5997f2 location GWELT00132 # 10.0.65.81
-4a72c3 location GWELT00133 # 10.0.65.83
+# 4a72c3 location GWELT00133 # 10.0.65.83 # SCRAPPED 4/24/20
 d69f79 location GWELT00134 # 10.0.65.84
 79b437 location GWELT00135 # 10.0.65.85
 70324a location GWELT00136 # 10.0.65.86
@@ -550,12 +535,12 @@ eecd17 location GWELT00138 # 10.0.65.89
 c7d73b location GWELT00144 # 10.0.65.111
 34029e location GWELT00145 # 10.0.65.113
 a831e6 location GWELT00146 # 10.0.65.119
-b88890 location GWELT00147 # 10.0.65.125
+# b88890 location GWELT00147 # 10.0.65.125 # SCRAPPED 5/6/20
 176d86 location GWELT00148 # 10.0.65.128
 f0249f location GWELT00149 # 10.0.65.131
-7620af location GWELT00150 # 10.0.65.139
+# 7620af location GWELT00150 # 10.0.65.139 # SCRAPPED 5/6/20
 6cc4d3 location GWELT00151 # 10.0.65.140
-a410fb location GWELT00152 # 10.0.65.141
+# a410fb location GWELT00152 # 10.0.65.141 # SCRAPPED 5/6/20
 c0178e location GWELT00153 # 10.0.65.142
 76bc9a location GWELT00154 # 10.0.65.143
 4a7e40 location GWELT00155 # 10.0.65.149
@@ -563,14 +548,14 @@ c0178e location GWELT00153 # 10.0.65.142
 a03a70 location GWELT00157 # 10.0.65.153
 c02700 location GWELT00158 # 10.0.65.155
 5ced68 location GWELT00159 # 10.0.65.156
-021a44 location GWELT00160 # 10.0.66.2
-d9af93 location GWELT00161 # 10.0.66.4
+# 021a44 location GWELT00160 # 10.0.66.2 # SCRAPPED 4/22/20
+# d9af93 location GWELT00161 # 10.0.66.4 # SCRAPPED 4/22/20
 cc59cf location GWELT00162 # 10.0.66.5
 fbb31c location GWELT00163 # 10.0.66.6
 84e7b0 location GWELT00164 # 10.0.66.7
 3b05e3 location GWELT00165 # 10.0.66.10
 e087cf location GWELT00166 # 10.0.66.13
-f42372 location GWELT00167 # 10.0.66.14
+# f42372 location GWELT00167 # 10.0.66.14 # SCRAPPED 4/22/20
 0dd651 location GWELT00168 # 10.0.66.15
 949da3 location GWELT00169 # 10.0.66.16
 2c2894 location GWELT00170 # 10.0.66.21
@@ -625,7 +610,7 @@ c62627 location GWELT00218 # 10.0.67.71
 5aa6b8 location GWELT00219 # 10.0.67.72
 ce8617 location GWELT00220 # 10.0.67.73
 5d1776 location GWELT00221 # 10.0.67.75
-8ec6e6 location GWELT00222 # 10.0.67.78
+# 8ec6e6 location GWELT00222 # 10.0.67.78 # SCRAPPED 4/24/20
 a51cea location GWELT00223 # 10.0.67.80
 df6891 location GWELT00224 # 10.0.67.81
 6700fb location GWELT00225 # 10.0.67.86
@@ -634,10 +619,10 @@ b3c764 location GWELT00226 # 10.0.67.87
 94b487 location GWELT00228 # 10.0.67.91
 d15350 location GWELT00229 # 10.0.67.94
 258570 location GWELT00230 # 10.0.67.98
-c62bf8 location GWELT00231 # 10.0.67.99
+# c62bf8 location GWELT00231 # 10.0.67.99 # SCRAPPED 4/24/20
 0658f5 location GWELT00232 # 10.0.67.102
 567f8e location GWELT00233 # 10.0.67.105
-b75a76 location GWELT00234 # 10.0.67.109
+# b75a76 location GWELT00234 # 10.0.67.109 # SCRAPPED 5/6/20
 ebe3ba location GWELT00235 # 10.0.67.110
 76a8b9 location GWELT00236 # 10.0.67.111
 d912b0 location GWELT00237 # 10.0.67.114
@@ -646,14 +631,14 @@ b41508 location GWELT00238 # 10.0.67.116
 e339a9 location GWELT00240 # 10.0.67.118
 c62831 location GWELT00241 # 10.0.67.119
 d38774 location GWELT00242 # 10.0.67.121
-cc4c03 location GWELT00243 # 10.0.67.122
+# cc4c03 location GWELT00243 # 10.0.67.122 # SCRAPPED 5/6/20
 10dbb9 location GWELT00244 # 10.0.67.123
 3b771d location GWELT00245 # 10.0.67.124
 6308b3 location GWELT00246 # 10.0.67.125
 a0bde4 location GWELT00247 # 10.0.67.126
 c94f44 location GWELT00248 # 10.0.67.127
-608111 location GWELT00249 # 10.0.67.128
-50f49e location GWELT00250 # 10.0.67.129
+# 608111 location GWELT00249 # 10.0.67.128 # SCRAPPED 5/6/20
+# 50f49e location GWELT00250 # 10.0.67.129 # SCRAPPED 5/6/20
 482b5f location GWELT00251 # 10.0.118.118
 334c13 location GWELT00252 # 10.0.119.7
 332dd2 location GWELT00253 # 10.0.119.15
@@ -665,14 +650,14 @@ c9b5ce location GWELT00258 # 10.0.119.41
 060916 location GWELT00259 # 10.0.119.82
 1e7a91 location GWELT00260 # 10.0.119.122
 7833ab location GWELT00261 # 10.0.119.135
-1fe62e location GWELT00262 # 10.0.119.159
+# 1fe62e location GWELT00262 # 10.0.119.159 # SCRAPPED 5/6/20
 83a46d location GWELT00263 # 10.0.120.54
 d6543e location GWELT00264 # 10.0.120.70
 622a99 location GWELT00265 # 10.0.120.71
 a8fc56 location GWELT00266 # 10.0.120.72
 afc54a location GWELT00267 # 10.0.120.113
 a1e312 location GWELT00268 # 10.0.120.116
-7deb62 location GWELT00269 # 10.0.120.122
+# 7deb62 location GWELT00269 # 10.0.120.122 # SCRAPPED 5/6/20
 208f0b location GWELT00270 # 10.0.120.129
 039271 location GWELT00271 # 10.0.120.131
 5170b3 location GWELT00272 # 10.0.120.138
@@ -689,9 +674,9 @@ b5ee93 location GWELT00282 # 10.0.121.44
 7352f1 location GWELT00283 # 10.0.121.46
 4ea065 location GWELT00284 # 10.0.121.49
 d07c04 location GWELT00285 # 10.0.121.59
-071970 location GWELT00286 # 10.0.121.63
+# 071970 location GWELT00286 # 10.0.121.63 # SCRAPPED 4/30/20
 1a64c1 location GWELT00287 # 10.0.121.71
-8f3760 location GWELT00288 # 10.0.121.72
+# 8f3760 location GWELT00288 # 10.0.121.72 # SCRAPPED 4/30/20
 6579f1 location GWELT00289 # 10.0.121.73
 839e1f location GWELT00290 # 10.0.121.75
 e30678 location GWELT00291 # 10.0.121.77
@@ -704,247 +689,73 @@ fdbabb location GWELT00296 # 10.0.121.113
 4f04e1 location GWELT00298 # 10.0.121.131
 87056f location GWELT00299 # 10.0.121.135
 989b0b location GWELT00300 # 10.0.121.160
-# extra machines added 12/9/19
-eccb56 location gwelt0xtra # 10.0.120.58
-c3ab25 location gwelt0xtra # 10.0.77.118
-332148 location gwelt0xtra # 10.0.53.98
-35bc6b location gwelt0xtra # 10.0.53.94
-e30375 location gwelt0xtra # 10.0.51.80
-1eacbd location gwelt0xtra # 10.0.119.27
-f456b4 location gwelt0xtra # 10.0.119.35
-e4b418 location gwelt0xtra # 10.0.120.101
-405f44 location gwelt0xtra # 10.0.121.86
-ea83e9 location gwelt0xtra # 10.0.120.78
-bb70c4 location gwelt0xtra # 10.0.53.106
-6ba047 location gwelt0xtra # 10.0.118.88
-4b5afd location gwelt0xtra # 10.0.67.74
-081c44 location gwelt0xtra # 10.0.121.51
-42ee1f location gwelt0xtra # 10.0.121.89
-1bdc6a location gwelt0xtra # 10.0.120.67
-b58a77 location gwelt0xtra # 10.0.116.141
-a2ec4d location gwelt0xtra # 10.0.119.59
-1a4c73 location gwelt0xtra # 10.0.116.17
-f9c114 location gwelt0xtra # 10.0.121.28
-3002c7 location gwelt0xtra # 10.0.116.41
-cc01c8 location gwelt0xtra # 10.0.121.40
-07cb48 location gwelt0xtra # 10.0.77.94
-a9d10f location gwelt0xtra # 10.0.77.112
-e75b6c location gwelt0xtra # 10.0.121.85
-031746 location gwelt0xtra # 10.0.65.103
-6652f6 location gwelt0xtra # 10.0.121.69
-26e074 location gwelt0xtra # 10.0.116.21
-d3cbcd location gwelt0xtra # 10.0.120.52
-c9504d location gwelt0xtra # 10.0.53.105
-ecbb73 location gwelt0xtra # 10.0.121.142
-14039f location gwelt0xtra # 10.0.64.37
-db4dc4 location gwelt0xtra # 10.0.121.157
-af453f location gwelt0xtra # 10.0.53.104
-eb26bb location gwelt0xtra # 10.0.118.53
-16c01b location gwelt0xtra # 10.0.121.102
-d9c608 location gwelt0xtra # 10.0.68.1
-03dc60 location gwelt0xtra # 10.0.120.64
-1ff87e location gwelt0xtra # 10.0.119.60
-d4f964 location gwelt0xtra # 10.0.121.42
-4c6a74 location gwelt0xtra # 10.0.121.31
-a8958f location gwelt0xtra # 10.0.121.93
-cafe14 location gwelt0xtra # 10.0.120.87
-031b4b location gwelt0xtra # 10.0.120.29
-921546 location gwelt0xtra # 10.0.121.78
-1dcc2c location gwelt0xtra # 10.0.53.93
-839dc2 location gwelt0xtra # 10.0.121.27
-ecd0c3 location gwelt0xtra # 10.0.121.74
-3031a6 location gwelt0xtra # 10.0.60.77
-4cc40a location gwelt0xtra # 10.0.121.41
-becc26 location gwelt0xtra # 10.0.121.120
-e465d5 location gwelt0xtra # 10.0.121.124
-70bd72 location gwelt0xtra # 10.0.115.93
-ceba7d location gwelt0xtra # 10.0.121.36
-31d75c location gwelt0xtra # 10.0.53.96
-32605f location gwelt0xtra # 10.0.53.8
-74b647 location gwelt0xtra # 10.0.121.55
-3e5976 location gwelt0xtra # 10.0.120.38
-cefbab location gwelt0xtra # 10.0.121.53
-## extra machines added 2020-03-18
-d7a2fa location gwelt0xtra # 10.0.120.27
+32605f location GWELT0XTRA # 10.0.53.8 # extra added 12/9/19
+1dcc2c location GWELT0XTRA # 10.0.53.93 # extra added 12/9/19
+31d75c location GWELT0XTRA # 10.0.53.96 # extra added 12/9/19
+332148 location GWELT0XTRA # 10.0.53.98 # extra added 12/9/19
+af453f location GWELT0XTRA # 10.0.53.104 # extra added 12/9/19
+bb70c4 location GWELT0XTRA # 10.0.53.106 # extra added 12/9/19
+d9c608 location GWELT0XTRA # 10.0.58.17 # extra added 12/9/19
+3031a6 location GWELT0XTRA # 10.0.60.77 # extra added 12/9/19
+14039f location GWELT0XTRA # 10.0.64.37 # extra added 12/9/19
+031746 location GWELT0XTRA # 10.0.65.103 # extra added 12/9/19
+4b5afd location GWELT0XTRA # 10.0.67.74 # extra added 12/9/19
+07cb48 location GWELT0XTRA # 10.0.77.94 # extra added 12/9/19
+a9d10f location GWELT0XTRA # 10.0.77.112 # extra added 12/9/19
+70bd72 location GWELT0XTRA # 10.0.115.93 # extra added 12/9/19
+1a4c73 location GWELT0XTRA # 10.0.116.17 # extra added 12/9/19
+26e074 location GWELT0XTRA # 10.0.116.21 # extra added 12/9/19
+3002c7 location GWELT0XTRA # 10.0.116.41 # extra added 12/9/19
+b58a77 location GWELT0XTRA # 10.0.116.141 # extra added 12/9/19
+eb26bb location GWELT0XTRA # 10.0.118.53 # extra added 12/9/19
+6ba047 location GWELT0XTRA # 10.0.118.88 # extra added 12/9/19
+1eacbd location GWELT0XTRA # 10.0.119.27 # extra added 12/9/19
+f456b4 location GWELT0XTRA # 10.0.119.35 # extra added 12/9/19
+a2ec4d location GWELT0XTRA # 10.0.119.59 # extra added 12/9/19
+d7a2fa location GWELT0XTRA # 10.0.120.27 # extra added 3/18/20
+031b4b location GWELT0XTRA # 10.0.120.29 # extra added 12/9/19
+3e5976 location GWELT0XTRA # 10.0.120.38 # extra added 12/9/19
+d3cbcd location GWELT0XTRA # 10.0.120.52 # extra added 12/9/19
+03dc60 location GWELT0XTRA # 10.0.120.64 # extra added 12/9/19
+1bdc6a location GWELT0XTRA # 10.0.120.67 # extra added 12/9/19
+e4b418 location GWELT0XTRA # 10.0.120.101 # extra added 12/9/19
+839dc2 location GWELT0XTRA # 10.0.121.27 # extra added 12/9/19
+4c6a74 location GWELT0XTRA # 10.0.121.31 # extra added 12/9/19
+ceba7d location GWELT0XTRA # 10.0.121.36 # extra added 12/9/19
+cc01c8 location GWELT0XTRA # 10.0.121.40 # extra added 12/9/19
+d4f964 location GWELT0XTRA # 10.0.121.42 # extra added 12/9/19
+081c44 location GWELT0XTRA # 10.0.121.51 # extra added 12/9/19
+cefbab location GWELT0XTRA # 10.0.121.53 # extra added 12/9/19
+74b647 location GWELT0XTRA # 10.0.121.55 # extra added 12/9/19
+6652f6 location GWELT0XTRA # 10.0.121.69 # extra added 12/9/19
+ecd0c3 location GWELT0XTRA # 10.0.121.74 # extra added 12/9/19
+921546 location GWELT0XTRA # 10.0.121.78 # extra added 12/9/19
+e75b6c location GWELT0XTRA # 10.0.121.85 # extra added 12/9/19
+42ee1f location GWELT0XTRA # 10.0.121.89 # extra added 12/9/19
+a8958f location GWELT0XTRA # 10.0.121.93 # extra added 12/9/19
+16c01b location GWELT0XTRA # 10.0.121.102 # extra added 12/9/19
+becc26 location GWELT0XTRA # 10.0.121.120 # extra added 12/9/19
+e465d5 location GWELT0XTRA # 10.0.121.124 # extra added 12/9/19
+ecbb73 location GWELT0XTRA # 10.0.121.142 # extra added 12/9/19
+db4dc4 location GWELT0XTRA # 10.0.121.157 # extra added 12/9/19
 
-## global remove
-global remove d7cd4b # Machine d7cd4b was found on GWELT0's panel, but is listed in NBELL0's config file
+## tuning
 
 ## throttle
-75f695 uncork 1585256993
-039271 uncork 1585256993
-cef7d2 uncork 1585256993
-4ca4e7 uncork 1585256993
-164b1f uncork 1585256993
-fbf6a7 uncork 1585256993
-10dbb9 uncork 1585256993
-081c44 uncork 1585256993
-93a8f8 uncork 1585256993
-b7cb7e uncork 1585256993
-2c2894 uncork 1585256993
-804c65 uncork 1585256993
-3ba77d uncork 1585256993
-109552 uncork 1585256993
-cae093 uncork 1585256993
-84e7b0 uncork 1585256993
-cce2e1 uncork 1585256993
-7c53a1 uncork 1585256993
-70bd72 uncork 1585256993
-e63e4d uncork 1585256993
-0dd651 uncork 1585256993
-db4dc4 uncork 1585256993
-4b5afd uncork 1585256993
-47aaa8 uncork 1585256993
-5653f6 uncork 1585256993
-b5ee93 uncork 1585256993
-dc1da5 uncork 1585256993
-ecd0c3 uncork 1585256993
-13fd9c uncork 1585256993
-0325b4 uncork 1585256993
-2701b4 uncork 1585256993
-e684f6 uncork 1585256993
-9b813a uncork 1585256993
-d38774 uncork 1585256993
-486ae7 uncork 1585256993
 
 ## fans
 
 ## reboots
-060916 reboot 1585342676
-82150d reboot 1585342676
-cc4c03 reboot 1585342676
-d9af93 reboot 1585342676
-b75a76 reboot 1585342676
-021a44 reboot 1585342676
-2e7b4a reboot 1585342676
-fddff5 reboot 1585342676
-373769 reboot 1585342676
-c62bf8 reboot 1585342676
-8b9e55 reboot 1585342676
-3d634a reboot 1585342676
-3e0e5b reboot 1585342676
-9eb1a1 reboot 1585342676
-9a50ee reboot 1585342676
-113356 reboot 1585342676
-96d4d2 reboot 1585342676
-3649ed reboot 1585342676
-7f3209 reboot 1585342676
-4a7e40 reboot 1585342676
-eecd17 reboot 1585342676
-8843ea reboot 1585342676
-0b6bfe reboot 1585342676
-4d2178 reboot 1585342676
-a2131a reboot 1585342676
-989b0b reboot 1585342676
-405f44 reboot 1585342676
-c9504d reboot 1585342676
-ecbb73 reboot 1585342676
-e30375 reboot 1585342676
-1ff87e reboot 1585342676
-35bc6b reboot 1585342676
-4cc40a reboot 1585342676
-cafe14 reboot 1585342676
-eccb56 reboot 1585342676
-ea83e9 reboot 1585342676
-f9c114 reboot 1585342676
-c3ab25 reboot 1585342676
-1dc957 reboot 1585342676
-73b928 reboot 1585342676
-e9f5d8 reboot 1585342676
-d14e14 reboot 1585342676
-31a25b reboot 1585342676
-b91d80 reboot 1585342676
-35c332 reboot 1585342676
-4a72c3 reboot 1585342676
-b88890 reboot 1585342676
-7620af reboot 1585342676
-f42372 reboot 1585342676
-8ec6e6 reboot 1585342676
-608111 reboot 1585342676
-1fe62e reboot 1585342676
-83a46d reboot 1585342676
-7deb62 reboot 1585342676
-90b7fe reboot 1585342676
-071970 reboot 1585342676
-8f3760 reboot 1585342676
-839e1f reboot 1585342676
-
-## retunes
 
 ## resets
-fee13e reset 1588222017
-eb26bb reset 1588222017
-3002c7 reset 1588222017
-f456b4 reset 1588222017
-1a4c73 reset 1588222017
-ecbb73 reset 1586356298
-c26b87 reset 1586236455
-9b813a reset 1586139992
-96cc66 reset 1586139992
-af453f reset 1586098136
-482b5f reset 1586098136
-75f695 reset 1586038791
-4ea065 reset 1586038791
-# 3/17/20
-90b7fe reset 1584476554
-# 3/10/20
-9f686d reset 1583868711
-3d634a reset 1583867707
-f9c114 reset 1583867707
-c4487f reset 1583867707
-113356 reset 1583867707
-3f9efa reset 1583867707
-7e5f75 reset 1583867707
-35c332 reset 1583867707
-486ae7 reset 1583867707
-47aaa8 reset 1583867707
-2306f8 reset 1583867707
-c62627 reset 1583867707
-5aa6b8 reset 1583867707
-5d1776 reset 1583867707
-81760c reset 1583867707
-3e0e5b reset 1583867707
-b75a76 reset 1583867707
-50f49e reset 1583867707
-9f686d reset 1583867707
-# 2/27/20
-98306d reset 1582830534
 
-26e074 reset 1579285732
-0afc63 reset 1579020555
-7e3274 reset 1578010188
-8843ea reset 1578010188
-e0ff92 reset 1578010188
-486ae7 reset 1578010188
-98306d reset 1578010188
-ecbb73 reset 1578010188
-1e7a91 reset 1577511153
-d912b0 reset 1577486847
-5ced68 reset 1577486289
-e9f5d8 reset 1577479129
+## global remove
+global remove d7cd4b
 
-0afc63 reset 1577471957
-d02def reset 1577471957
-332148 reset 1577247360
-74b647 reset 1577216482
-
-83a46d reset 1577174420
-83a46d reset 1577171684
-6579f1 reset 1577171684
-df6891 reset 1577171684
-486ae7 reset 1577171684
-e4b418 reset 1575932872
-cae093 reset 1574277053
-81760c reset 1574275905
-235400 reset 1574141281
-3b10a5 reset 1574134268
-ce7138 reset 1573273407
-81760c reset 1574106519
-89e5d1 reset 1574106519
-1dd63e reset 1574106519
-0325b4 reset 1574106519
-
-## removals
-
-## asic password
+## VPS pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
+## Remote pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCovql1bo+pkGUoq+zckj82BiW5CIBbxq1+wfET94ULY9b/BJzZHFxxjX79+aG4oilCpUKHFTJHv8Ox3IvtPxWGyx5IpV+avJqCO66+7/aIoG+Cqcz7f9pZPhK61qOG9AQsLNaZHaaB+jif7qCmXiDB1/eDzKHIh2UHdEnZSkcTrwdU40yA4JhenTAMJAxITopjAfURgJtTOkr9eBIVM6Xj/0x/f9ZUvL5jSLNDL9ujce928zCwvcMND+lrB3q5VgMluwihMUWZ3gJfsvZdHwPVXDP+qo1DaIP/oJ/rfD/ef9KkmYTYS3+RaYwGEJoGd0uHCUzSIl3oUJQg6kj4H22p
+# global panelpass gj83Nkgikg
 asicpass admin
+global logo https://raw.githubusercontent.com/cnels127/Configs/master/Bit49(2).png
