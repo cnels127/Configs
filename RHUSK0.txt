@@ -1,6 +1,4 @@
-##  30 s9 @ 14.4 Th/s = 432 Th/s (contract expires 2/16/20)
-## 5 SCRAPPED 4/30/20
-## TOTAL EXP HASHRATE = 360 Th/s
+## 25 s9 turned over to Bit 49 5/15/20
 
 global custompanel RHUSK0bit049
 global customer bit49-Russia
@@ -37,68 +35,8 @@ global panelclear 999
 # global reset 1574963530
 
 ## vlans
-vlan 10.0.53.110-110 # 78202a
-vlan 10.0.53.111-111 # 4f6d37
-# vlan 10.0.53.112-112 # 79541e # SCRAPPED 4/30/20
-vlan 10.0.53.113-113 # 164bc2
-vlan 10.0.53.114-114 # 4f284e
-vlan 10.0.53.115-115 # f329fd
-vlan 10.0.53.116-116 # e2e919
-vlan 10.0.53.117-117 # 89f100
-vlan 10.0.53.118-118 # 5c70b5
-vlan 10.0.53.119-119 # bb187d
-vlan 10.0.53.120-120 # 0fe1fa
-# vlan 10.0.53.121-121 # 7b6cfa # SCRAPPED 4/30/20
-vlan 10.0.53.122-122 # 1677ff
-vlan 10.0.53.123-123 # ffab5d
-vlan 10.0.53.124-124 # 1afe68
-vlan 10.0.53.125-125 # cec73f
-vlan 10.0.53.126-126 # 89c98f
-# vlan 10.0.53.127-127 # 3faa4c # SCRAPPED 4/30/20
-vlan 10.0.53.128-128 # 943135
-vlan 10.0.53.129-129 # adbe7f
-# vlan 10.0.53.130-130 # 006cd0 # SCRAPPED 4/30/20
-vlan 10.0.53.131-131 # 4c87c5
-vlan 10.0.53.132-132 # e6077e
-vlan 10.0.53.133-133 # 45dadf
-vlan 10.0.53.134-134 # 40f358
-vlan 10.0.53.135-135 # 06988e
-vlan 10.0.53.136-136 # ba0308
-vlan 10.0.53.137-137 # 534814
-vlan 10.0.53.138-138 # f46832
-# vlan 10.0.53.139-139 # 2fb4f0 # SCRAPPED 4/30/20
 
 ## locations
-78202a location RHUSK00001 # 10.0.53.110
-4f6d37 location RHUSK00002 # 10.0.53.111
-# 79541e location RHUSK00003 # 10.0.53.112 # SCRAPPED 4/30/20
-164bc2 location RHUSK00004 # 10.0.53.113
-4f284e location RHUSK00005 # 10.0.53.114
-f329fd location RHUSK00006 # 10.0.53.115
-e2e919 location RHUSK00007 # 10.0.53.116
-89f100 location RHUSK00008 # 10.0.53.117
-5c70b5 location RHUSK00009 # 10.0.53.118
-bb187d location RHUSK00010 # 10.0.53.119
-0fe1fa location RHUSK00011 # 10.0.53.120
-# 7b6cfa location RHUSK00012 # 10.0.53.121 # SCRAPPED 4/30/20
-1677ff location RHUSK00013 # 10.0.53.122
-ffab5d location RHUSK00014 # 10.0.53.123
-1afe68 location RHUSK00015 # 10.0.53.124
-cec73f location RHUSK00016 # 10.0.53.125
-89c98f location RHUSK00017 # 10.0.53.126
-# 3faa4c location RHUSK00018 # 10.0.53.127 # SCRAPPED 4/30/20
-943135 location RHUSK00019 # 10.0.53.128
-adbe7f location RHUSK00020 # 10.0.53.129
-# 006cd0 location RHUSK00021 # 10.0.53.130 # SCRAPPED 4/30/20
-4c87c5 location RHUSK00022 # 10.0.53.131
-e6077e location RHUSK00023 # 10.0.53.132
-45dadf location RHUSK00024 # 10.0.53.133
-40f358 location RHUSK00025 # 10.0.53.134
-06988e location RHUSK00026 # 10.0.53.135
-ba0308 location RHUSK00027 # 10.0.53.136
-534814 location RHUSK00028 # 10.0.53.137
-f46832 location RHUSK00029 # 10.0.53.138
-# 2fb4f0 location RHUSK00030 # 10.0.53.139 # SCRAPPED 4/30/20
 
 ## tuning
 
