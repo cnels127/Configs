@@ -1,7 +1,5 @@
 global custompanel TEST16bit049
 global customer bit49-Russia
-global logo https://raw.githubusercontent.com/cnels127/Configs/master/Bit49(2).png
-# global options nightmode
 
 global poolname1 gate.emcd.io:3333
 global username1 bit49
@@ -36,46 +34,46 @@ global uncork 1588686518
 # global reset 1580151563
 
 ## ATHOM0 (40 s9) hosting paused 5/12/20
-vlan 10.0.54.126-126 # 6a323b
-vlan 10.0.54.127-127 # de2039
-vlan 10.0.54.128-128 # 083c04
-vlan 10.0.54.129-129 # b2bd4a
-vlan 10.0.54.130-130 # a1e438
-vlan 10.0.54.131-131 # ae4552
-vlan 10.0.54.132-132 # 34f9ef
-vlan 10.0.61.112-112 # 882711
-vlan 10.0.61.135-135 # f5e0ce
+# vlan 10.0.54.126-126 # 6a323b
+# vlan 10.0.54.127-127 # de2039
+# vlan 10.0.54.128-128 # 083c04
+# vlan 10.0.54.129-129 # b2bd4a
+# vlan 10.0.54.130-130 # a1e438
+# vlan 10.0.54.131-131 # ae4552
+# vlan 10.0.54.132-132 # 34f9ef
+# vlan 10.0.61.112-112 # 882711
+# vlan 10.0.61.135-135 # f5e0ce
 # vlan 10.0.61.145-145 # f56d20 # SCRAPPED 4/30/20
-vlan 10.0.62.85-85 # 65a8fa
-vlan 10.0.63.106-106 # 9be27b
-vlan 10.0.63.112-112 # e1960a
-vlan 10.0.63.129-129 # 979a64
-vlan 10.0.63.132-132 # 794f98
-vlan 10.0.63.134-134 # d58ae6
-vlan 10.0.63.141-141 # 158ab6
-vlan 10.0.63.148-148 # bbe46f
+# vlan 10.0.62.85-85 # 65a8fa
+# vlan 10.0.63.106-106 # 9be27b
+# vlan 10.0.63.112-112 # e1960a
+# vlan 10.0.63.129-129 # 979a64
+# vlan 10.0.63.132-132 # 794f98
+# vlan 10.0.63.134-134 # d58ae6
+# vlan 10.0.63.141-141 # 158ab6
+# vlan 10.0.63.148-148 # bbe46f
 # vlan 10.0.63.150-150 # 2bb6c8 # SCRAPPED 4/30/20
-vlan 10.0.63.154-154 # 952ba2
-vlan 10.0.64.11-11 # 6704f5
-vlan 10.0.64.12-12 # 756a0c
-vlan 10.0.64.24-24 # 9b3517
-vlan 10.0.64.59-59 # 67ef67
-vlan 10.0.64.85-85 # eedbcd
-vlan 10.0.64.137-137 # acb675
-vlan 10.0.65.22-22 # fbf1ac
-vlan 10.0.65.30-30 # 6d1dce
-vlan 10.0.65.88-88 # d9dc85
-vlan 10.0.65.90-90 # 72e31f
-vlan 10.0.65.97-97 # 42f4ea
-vlan 10.0.65.109-109 # 82bd69
-vlan 10.0.65.159-159 # c2edd9
-vlan 10.0.66.1-1 # 981425
-vlan 10.0.66.11-11 # 3b7299
-vlan 10.0.66.104-104 # 94442a
-vlan 10.0.66.106-106 # f9ca53
-vlan 10.0.66.109-109 # ead461
-vlan 10.0.67.54-54 # d13d9c
-vlan 10.0.67.96-96 # 31a7ae
+# vlan 10.0.63.154-154 # 952ba2
+# vlan 10.0.64.11-11 # 6704f5
+# vlan 10.0.64.12-12 # 756a0c
+# vlan 10.0.64.24-24 # 9b3517
+# vlan 10.0.64.59-59 # 67ef67
+# vlan 10.0.64.85-85 # eedbcd
+# vlan 10.0.64.137-137 # acb675
+# vlan 10.0.65.22-22 # fbf1ac
+# vlan 10.0.65.30-30 # 6d1dce
+# vlan 10.0.65.88-88 # d9dc85
+# vlan 10.0.65.90-90 # 72e31f
+# vlan 10.0.65.97-97 # 42f4ea
+# vlan 10.0.65.109-109 # 82bd69
+# vlan 10.0.65.159-159 # c2edd9
+# vlan 10.0.66.1-1 # 981425
+# vlan 10.0.66.11-11 # 3b7299
+# vlan 10.0.66.104-104 # 94442a
+# vlan 10.0.66.106-106 # f9ca53
+# vlan 10.0.66.109-109 # ead461
+# vlan 10.0.67.54-54 # d13d9c
+# vlan 10.0.67.96-96 # 31a7ae
 6a323b location ATHOM00001 # 10.0.54.126
 de2039 location ATHOM00002 # 10.0.54.127
 083c04 location ATHOM00003 # 10.0.54.128
@@ -2129,5 +2127,10 @@ ffa316 reset 1584031005
 ## removals
 global remove 62c412,227281,545150,d7e534,0686b3,a5910f,b3b2c1,6f6356,35bc6b,a6bc73,21f20d,da7d9d,e4a1aa,b65a11,6073d8,753f7e,2402b8,0b0610,4b6238,3a3729,04339e,c94710,5d208b,86bcfb,6161ba,fbfdea,5b081f,edf21b,4447ae,7fc10f,308db8,1a9051,9c3c4b,137fd6,ccd17b,ce5ec8,e9aa45,84cd22,da3441,35a425,a7849c,7508a0,01a67d,6ab1be,685862,0cf5a9,35fc32,df6e3e,647daf,b9ba02,c3ab25,488098,37923f,d4c174,710634,1bae03,bbf6ce,c732b8,db2219,9bc07b,201341,ae2afa,81d744,ec6e17,faba84,566a7a,0e992b,9b4848,2462cd,5b8363,efaefb,897cd0,f4e8ee,93e5b2,e0b685,391b81,e9592e,54b1c1,156f0f,b14209,266066,b78fed,ae4c6d,3546ed,96d26d,287756,1c5acd,485111,eccb56,e94a20,ea83e9,665217,bdefab,d46013,d6ad83,d681ad,0c3772,e8330a
 
-## asic password
+## VPS pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
+## Remote pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCovql1bo+pkGUoq+zckj82BiW5CIBbxq1+wfET94ULY9b/BJzZHFxxjX79+aG4oilCpUKHFTJHv8Ox3IvtPxWGyx5IpV+avJqCO66+7/aIoG+Cqcz7f9pZPhK61qOG9AQsLNaZHaaB+jif7qCmXiDB1/eDzKHIh2UHdEnZSkcTrwdU40yA4JhenTAMJAxITopjAfURgJtTOkr9eBIVM6Xj/0x/f9ZUvL5jSLNDL9ujce928zCwvcMND+lrB3q5VgMluwihMUWZ3gJfsvZdHwPVXDP+qo1DaIP/oJ/rfD/ef9KkmYTYS3+RaYwGEJoGd0uHCUzSIl3oUJQg6kj4H22p
+# global panelpass gj83Nkgikg
 asicpass admin
+global logo https://raw.githubusercontent.com/cnels127/Configs/master/Bit49(2).png
