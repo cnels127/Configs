@@ -1,4 +1,6 @@
-## instructions available at: https://asicseer.com/page/kb#writing-config
+## 300 s9 @ 16 Th/s = 4,800 Th/s (contract exp 2/21/20)
+##    25 s9 @ 16 Th/s = 400 Th/s (contract exp 7/24/20)
+## TOTAL EXP HASHRATE = 5,200 Th/s
 
 global custompanel SNOOR0bit049
 global customer bit49-Russia
@@ -28,12 +30,11 @@ global fansaver yes
 global blinkred idle
 global blinkgreen rapid
 global panelclear 999
-# global panelpass gj83Nkgikg
 
 # global retune 1
 # global reboot 1
 # global uncork 1
-global reset 1582561274
+# global reset 1582561274
 
 ## SNOOR (300 machines @ 16 Th/s = 4,800 Th/s)
 ## vlans
@@ -42,56 +43,56 @@ global reset 1582561274
 # vlan 10.0.56.1-146
 
 ## ZBROW (25 machines @ 16 Th/s = 400 Th/s)
-vlan 10.0.62.158-158
-vlan 10.0.64.25-25
-vlan 10.0.64.84-84
-vlan 10.0.65.58-58
-vlan 10.0.65.73-73
-vlan 10.0.65.101-101
-vlan 10.0.65.116-116
-vlan 10.0.66.9-9
-vlan 10.0.66.19-19
-vlan 10.0.66.35-35
-vlan 10.0.66.53-53
-vlan 10.0.66.57-57
-vlan 10.0.66.67-67
-vlan 10.0.66.68-68
-vlan 10.0.66.152-152
-vlan 10.0.66.153-153
-vlan 10.0.66.156-156
-vlan 10.0.66.157-157
-vlan 10.0.67.15-15
-vlan 10.0.67.31-31
-vlan 10.0.67.55-55
-vlan 10.0.67.57-57
-vlan 10.0.67.59-59
-vlan 10.0.67.76-76
-vlan 10.0.67.90-90
-fb62b2 location ZBROW00001
-6f3a26 location ZBROW00002
-2f78ac location ZBROW00003
-042161 location ZBROW00004
-bcf062 location ZBROW00005
-da3441 location ZBROW00006
-d1055d location ZBROW00007
-543486 location ZBROW00008
-8e80f3 location ZBROW00009
-e51a48 location ZBROW00010
-fb8a3a location ZBROW00011
-38f9db location ZBROW00012
-9751c0 location ZBROW00013
-504bf9 location ZBROW00014
-0041b8 location ZBROW00015
-0c43df location ZBROW00016
-e0eea2 location ZBROW00017
-6f584d location ZBROW00018
-fe3f38 location ZBROW00019
-a2153e location ZBROW00020
-002190 location ZBROW00021
-1bc2e0 location ZBROW00022
-3c233a location ZBROW00023
-280ed6 location ZBROW00024
-5873d0 location ZBROW00025
+vlan 10.0.62.158-158 # fb62b2
+# 10.0.64.25-25 # 6f3a26 # SCRAPPED 4/22/20
+vlan 10.0.64.84-84 # 2f78ac
+vlan 10.0.65.58-58 # 042161
+vlan 10.0.65.73-73 # bcf062
+# vlan 10.0.65.101-101 # da3441 # SCRAPPED 2/20/20
+vlan 10.0.65.116-116 # d1055d
+vlan 10.0.66.9-9 # 543486
+vlan 10.0.66.19-19 # 8e80f3
+vlan 10.0.66.35-35 # e51a48
+# vlan 10.0.66.53-53 # fb8a3a # SCRAPPED 4/22/20
+vlan 10.0.66.57-57 # 38f9db
+vlan 10.0.66.67-67 # 9751c0
+vlan 10.0.66.68-68 # 504bf9
+vlan 10.0.66.152-152 # 0041b8
+vlan 10.0.66.153-153 # 0c43df
+vlan 10.0.66.156-156 # e0eea2
+# vlan 10.0.66.157-157 # 6f584d # SCRAPPED 5/6/20
+# vlan 10.0.67.15-15 # fe3f38 # SCRAPPED 4/23/20
+vlan 10.0.67.31-31 # a2153e
+vlan 10.0.67.55-55 # 002190
+vlan 10.0.67.57-57 # 1bc2e0
+vlan 10.0.67.59-59 # 3c233a
+vlan 10.0.67.76-76 # 280ed6
+# vlan 10.0.67.90-90 # 5873d0 # SCRAPPED 4/24/20
+fb62b2 location ZBROW00001 # 10.0.62.158
+# 6f3a26 location ZBROW00002 # 10.0.64.25 # SCRAPPED 4/22/20
+2f78ac location ZBROW00003 # 10.0.64.84
+042161 location ZBROW00004 # 10.0.65.58
+bcf062 location ZBROW00005 # 10.0.65.73
+# da3441 location ZBROW00006 # 10.0.65.101 # SCRAPPED 2/20/20
+d1055d location ZBROW00007 # 10.0.65.116
+543486 location ZBROW00008 # 10.0.66.9
+8e80f3 location ZBROW00009 # 10.0.66.19
+e51a48 location ZBROW00010 # 10.0.66.35
+# fb8a3a location ZBROW00011 # 10.0.66.53
+38f9db location ZBROW00012 # 10.0.66.57
+9751c0 location ZBROW00013 # 10.0.66.67
+504bf9 location ZBROW00014 # 10.0.66.68
+0041b8 location ZBROW00015 # 10.0.66.152
+0c43df location ZBROW00016 # 10.0.66.153
+e0eea2 location ZBROW00017 # 10.0.66.156
+# 6f584d location ZBROW00018 # 10.0.66.157
+# fe3f38 location ZBROW00019 # 10.0.67.15
+a2153e location ZBROW00020 # 10.0.67.31
+002190 location ZBROW00021 # 10.0.67.55
+1bc2e0 location ZBROW00022 # 10.0.67.57
+3c233a location ZBROW00023 # 10.0.67.59
+280ed6 location ZBROW00024 # 10.0.67.76
+# 5873d0 location ZBROW00025 # 10.0.67.90
 fb62b2 username1 zoubrown
 6f3a26 username1 zoubrown
 2f78ac username1 zoubrown
@@ -168,45 +169,23 @@ a2153e username3 zoubrown
 280ed6 username3 zoubrown
 5873d0 username3 zoubrown
 
+## tuning
+
 ## throttle
 
-e0eea2 uncork 1585235519 # 10.0.66.156 zbrow00017
-8e80f3 uncork 1585235519 # 10.0.66.19 zbrow00009
-1bc2e0 uncork 1585235519 # 10.0.67.57 zbrow00022
-613792 uncork 1585235519 # 10.0.56.10 set4
-042161 uncork 1585235519 # 10.0.65.58 zbrow00004
-d1055d uncork 1585235519 # 10.0.65.116 zbrow00007
-012910 uncork 1585235519 # 10.0.55.108 set7
-e51a48 uncork 1585235519 # 10.0.66.35 zbrow00010
-a2153e uncork 1585235519 # 10.0.67.31 zbrow00020
-002190 uncork 1585235519 # 10.0.67.55 zbrow00021
 ## fans
 
 ## reboots
 
 ## resets
-543486 reset 1584983160
-a2153e reset 1584983160
-e0eea2 reset 1584983160
-38f9db reset 1584983160
-002190 reset 1584983160
-012910 reset 1584727555
-613792 reset 1584727555
-d1055d reset 1584727555
-1bc2e0 reset 1584727555
-3b770e reset 1584727555
-ac1644 reset 1584727555
-0c43df reset 1584727555
-e0eea2 reset 1577486684
-fb62b2 reset 1577472361
-9751c0 reset 1577172951
-38f9db reset 1577172951
-fe3f38 reset 1577117861
-a2153e reset 1577117861
-002190 reset 1573669190
 
 ## removals
-global remove fbfdea,ab2a55,6161ba,86bcfb,7ac78e
+global remove fbfdea,ab2a55,6161ba,86bcfb,7ac78e,4d4439,3b770e,4cbbff,535d30,613792,2f84b0,53247d,012910,ac1644,e06ea6
 
-## asic password
+## VPS pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
+## Remote pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCovql1bo+pkGUoq+zckj82BiW5CIBbxq1+wfET94ULY9b/BJzZHFxxjX79+aG4oilCpUKHFTJHv8Ox3IvtPxWGyx5IpV+avJqCO66+7/aIoG+Cqcz7f9pZPhK61qOG9AQsLNaZHaaB+jif7qCmXiDB1/eDzKHIh2UHdEnZSkcTrwdU40yA4JhenTAMJAxITopjAfURgJtTOkr9eBIVM6Xj/0x/f9ZUvL5jSLNDL9ujce928zCwvcMND+lrB3q5VgMluwihMUWZ3gJfsvZdHwPVXDP+qo1DaIP/oJ/rfD/ef9KkmYTYS3+RaYwGEJoGd0uHCUzSIl3oUJQg6kj4H22p
+# global panelpass gj83Nkgikg
 asicpass admin
+global logo https://raw.githubusercontent.com/cnels127/Configs/master/Bit49(2).png
