@@ -74,8 +74,8 @@ vlan 10.0.50.56-56 # 5163c8 # extra added 5/13/20 # 16.2 Th/s
 vlan 10.0.50.87-87 # a6ea5c # extra added 5/13/20 # 16.2 Th/s
 vlan 10.0.51.69-69 # a58136 # extra added 5/13/20 # 16.2 Th/s
 vlan 10.0.51.71-71 # 153e95 # extra added 5/13/20 # 16.2 Th/s
-vlan 10.0.51.102-102 # daed2a # extra added 5/13/20 # 16.2 Th/s
-vlan 10.0.53.37-37 # e67e88 # extra added 5/13/20 # 16.2 Th/s
+vlan 10.0.51.92-92 # 8605af # extra added 5/20/20 to replace 10.0.53.37 # 15.7 Th/s
+vlan 10.0.51.102-102 # daed2a # extra added 5/13/20 # 16.6 Th/s
 
 ## locations
 4b3a51 location RBARR00001 # 10.0.57.48
@@ -115,8 +115,9 @@ f89a8a location RBARR0XTRA # 10.0.50.55 # extra added 5/13/20 # 16.1 Th/s
 a6ea5c location RBARR0XTRA # 10.0.50.87 # extra added 5/13/20 # 16 Th/s
 a58136 location RBARR0XTRA # 10.0.51.69 # extra added 5/13/20 # 16.1 Th/s
 153e95 location RBARR0XTRA # 10.0.51.71 # extra added 5/13/20 # 16.1 Th/s
+8605af location RBARR0XTRA # 10.0.51.92 # extra added 5/20/20 to replace 10.0.53.37 # 15.7 Th/s
 daed2a location RBARR0XTRA # 10.0.51.102 # extra added 5/13/20 # 16.6 Th/s
-e67e88 location RBARR0XTRA # 10.0.53.37 # extra added 5/13/20 # 16 Th/s
+
 
 ## tuning
 
@@ -130,7 +131,7 @@ e67e88 location RBARR0XTRA # 10.0.53.37 # extra added 5/13/20 # 16 Th/s
 08445c reset 1589386874
 
 ## removals
-global remove 95c235,d549fd,f584b2,406249,2ffd90,c1769c,c02a2d,4476be,871727,fb6775,084a54,02ef83,5fa3f6,5c70c1,163dfe
+global remove 95c235,d549fd,f584b2,406249,2ffd90,c1769c,c02a2d,4476be,871727,fb6775,084a54,02ef83,5fa3f6,5c70c1,163dfe,e67e88
 
 ## VPS pubkey
 pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
