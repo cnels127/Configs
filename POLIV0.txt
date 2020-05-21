@@ -41,8 +41,8 @@ vlan 10.0.116.79-79 # 4fc5e3
 vlan 10.0.116.83-83 # 136cc9
 vlan 10.0.117.17-17 # 88d995
 vlan 10.0.120.99-99 # 1d229c
-vlan 10.0.53.150-150 # d92dc2
-vlan 10.0.53.154-154 # dc8a14
+vlan 10.0.118.67-67 # 244ed6
+vlan 10.0.118.68-68 # 9d4af9
 vlan 10.0.118.69-69 # 797077
 
 ## locations
@@ -50,8 +50,8 @@ vlan 10.0.118.69-69 # 797077
 136cc9 location POLIV00002 # 10.0.116.83
 88d995 location POLIV00003 # 10.0.117.17
 1d229c location POLIV00004 # 10.0.120.99
-d92dc2 location POLIV0XTRA # 10.0.53.150 # extra added 11/23/19
-dc8a14 location POLIV0XTRA # 10.0.53.154 # extra added 11/23/19
+244ed6 location POLIV0XTRA # 10.0.118.67 # extra to replace 10.0.53.150 # 14.7 Th/s
+9d4af9 location POLIV0XTRA # 10.0.118.68 # extra to replace 10.0.53.150 # 10.6 Th/s
 797077 location POLIV0XTRA # 10.0.118.69 # extra added 12/30/19
 
 ## tuning
@@ -65,6 +65,7 @@ dc8a14 location POLIV0XTRA # 10.0.53.154 # extra added 11/23/19
 ## resets
 
 ## removals
+global remove d92dc2,dc8a14
 
 ## VPS pubkey
 pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
