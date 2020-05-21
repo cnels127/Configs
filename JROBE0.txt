@@ -40,14 +40,12 @@ global uncork 1574925076
 ## vlans
 vlan 10.0.60.20-20 # 317af1
 vlan 10.0.119.71-71 # 9b2f7a
-vlan 10.0.53.153-153 # 79e1ed # extra added 11/23/19
 vlan 10.0.62.111-111 # f2296d # extra added 1/30/20
 vlan 10.0.58.70-70 # 62bdc8 # extra added 3/1/20
 
 ## locations
 317af1 location JROBE00001
 9b2f7a location JROBE00002
-79e1ed location JROBE0XTRA # 10.0.53.153 # extra added 11/23/19
 f2296d location JROBE0XTRA # 10.0.62.111 # extra added 1/30/20
 62bdc8 location JROBE0XTRA # 10.0.58.70 # extra added 3/1/20
 
@@ -62,7 +60,7 @@ f2296d location JROBE0XTRA # 10.0.62.111 # extra added 1/30/20
 ## resets
 
 ## removals
-global remove 5d5985,a36e04,29ece6
+global remove 5d5985,a36e04,29ece6,79e1ed
 
 ## VPS pubkey
 pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
