@@ -80,7 +80,7 @@ vlan 10.0.67.159-159 # ca6c85
 vlan 10.0.67.161-161 # 3815f9
 vlan 10.0.57.158-158 # 71bc68
 vlan 10.0.67.70-70 # 31d8e9
-vlan 10.0.53.40-40 # fb2a81
+vlan 10.0.67.155-155 # 3b882d
 vlan 10.3.22.48-48 # 530f2f  # 15.6 Th/s # extra added 3/23/20
 vlan 10.3.21.65-65 # 1599aa # 15.6 Th/s # extra added 3/23/20
 vlan 10.3.21.63-63 # 6bfa85 # 15.6 Th/s # extra added 3/23/20
@@ -138,7 +138,7 @@ ca6c85 location SRADO00038 # 10.0.67.159
 3815f9 location SRADO00039 # 10.0.67.161
 71bc68 location SRADO00040 # 10.0.57.158
 31d8e9 location SRADO00041 # 10.0.67.70
-fb2a81 location SRADO00042 # 10.0.53.40
+3b882d location SRADO00042 # 10.0.67.155
 530f2f location SRADO0XTRA # 10.3.22.48 # 15.6 Th/s # extra added 3/23/20
 1599aa location SRADO0XTRA # 10.3.21.65 # 15.6 Th/s # extra added 3/23/20
 6bfa85 location SRADO0XTRA # 10.3.21.63 # 15.6 Th/s # extra added 3/23/20
@@ -165,7 +165,7 @@ c899a0 location SRADO0XTRA # 10.0.116.70 # extra added 12/12/19
 ## resets
 
 ## removals
-global remove 37923f
+global remove 37923f,fb2a81
 
 ## VPS pubkey
 pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
