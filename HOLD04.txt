@@ -116,7 +116,7 @@ vlan 10.0.66.87-87 # eb31e9
 vlan 10.0.77.43-43 # 926931
 vlan 10.0.63.10-10 # 56b43e
 vlan 10.0.119.123-123 # 08e3f8
-vlan 10.0.53.25-25 # d5888b
+vlan 10.0.51.74-74 # 7c3b2a
 vlan 10.0.51.66-66 # 98a188
 vlan 10.0.120.142-142 # 719b5e
 vlan 10.0.77.159-159 # d14995
@@ -125,7 +125,7 @@ vlan 10.0.118.42-42 # 5c3a63
 vlan 10.0.51.106-106 # 017eb1
 # vlan 10.0.116.152-152 # ebac3f # BROKEN
 vlan 10.0.63.77-77 # c81b30
-vlan 10.0.53.14-14 # 10335b
+vlan 10.0.51.73-73 # ab5787
 vlan 10.0.77.64-64 # 0de45b
 vlan 10.0.77.156-156 # ea2105
 vlan 10.0.120.151-151 # 2b2c57
@@ -216,7 +216,7 @@ eb31e9 location ASMIT00077 # 10.0.66.87
 926931 location ASMIT00078 # 10.0.77.43
 56b43e location ASMIT00079 # 10.0.63.10
 08e3f8 location ASMIT00080 # 10.0.119.123
-d5888b location ASMIT00081 # 10.0.53.25
+7c3b2a location ASMIT00081 # 10.0.51.74
 98a188 location ASMIT00082 # 10.0.51.66
 719b5e location ASMIT00083 # 10.0.120.142
 d14995 location ASMIT00084 # 10.0.77.159
@@ -225,7 +225,7 @@ d14995 location ASMIT00084 # 10.0.77.159
 017eb1 location ASMIT00087 # 10.0.51.106
 # ebac3f location ASMIT00088 # 10.0.116.152 # BROKEN
 c81b30 location ASMIT00089 # 10.0.63.77
-10335b location ASMIT00090 # 10.0.53.14
+ab5787 location ASMIT00090 # 10.0.51.73
 0de45b location ASMIT00091 # 10.0.77.64
 ea2105 location ASMIT00092 # 10.0.77.156
 2b2c57 location ASMIT00093 # 10.0.120.151
@@ -379,6 +379,9 @@ d14995 reboot 1585234396
 e3414b reboot 1585234396
 989ff6 reboot 1585234396
 683bb6 reboot 1585234396
+
+## removals
+global remove 10335b,d5888b
 
 ## asic password
 asicpass admin
