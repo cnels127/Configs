@@ -37,8 +37,8 @@ global panelclear 999
 
 ## CRIBE0 (206 s9)
 vlan 10.0.51.131-131
-vlan 10.0.53.27-27
-vlan 10.0.53.29-29
+vlan 10.0.51.129-129 # a8ee8a
+vlan 10.0.51.101-101 # c7c6cb
 vlan 10.0.57.138-138
 vlan 10.0.58.36-36
 vlan 10.0.58.60-60
@@ -243,8 +243,8 @@ vlan 10.0.118.62-62
 vlan 10.0.120.106-106
 vlan 10.0.121.136-136
 30f3ce location CRIBE00001
-5226b6 location CRIBE00002
-8df680 location CRIBE00003
+a8ee8a location CRIBE00002 # 10.0.51.129
+c7c6cb location CRIBE00003 # 10.0.51.101
 e1f51e location CRIBE00004
 be6e5c location CRIBE00005
 b78f54 location CRIBE00006
@@ -664,9 +664,7 @@ b42546 reset 1584853841
 96ad80 reset 1584853841
 
 ## removals
-# s_remove generated on Mar 22 2020 03:27:33 utc: 1584847653
-global remove 7cc8a1,be602c,fbb341,4fde10
-global remove 3f31ee,8005fc
+global remove 7cc8a1,be602c,fbb341,4fde10,3f31ee,8005fc,5226b6,8df680
 
 ## asic password
 asicpass admin
