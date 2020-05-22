@@ -338,13 +338,6 @@ vlan 10.0.121.122-122 # 9f686d
 vlan 10.0.121.131-131 # 4f04e1
 vlan 10.0.121.135-135 # 87056f
 vlan 10.0.121.160-160 # 989b0b
-vlan 10.0.53.8-8 # 32605f # extra added 12/9/19
-vlan 10.0.53.93-93 # 1dcc2c # extra added 12/9/19
-vlan 10.0.53.96-96 # 31d75c # extra added 12/9/19
-vlan 10.0.53.98-98 # 332148 # extra added 12/9/19
-vlan 10.0.53.104-104 # af453f # extra added 12/9/19
-vlan 10.0.53.106-106 # bb70c4 # extra added 12/9/19
-vlan 10.0.58.17-17 # d9c608 # extra added 12/9/19
 vlan 10.0.60.77-77 # 3031a6 # extra added 12/9/19
 vlan 10.0.64.37-37 # 14039f # extra added 12/9/19
 vlan 10.0.65.103-103 # 031746 # extra added 12/9/19
@@ -689,13 +682,6 @@ fdbabb location GWELT00296 # 10.0.121.113
 4f04e1 location GWELT00298 # 10.0.121.131
 87056f location GWELT00299 # 10.0.121.135
 989b0b location GWELT00300 # 10.0.121.160
-32605f location GWELT0XTRA # 10.0.53.8 # extra added 12/9/19
-1dcc2c location GWELT0XTRA # 10.0.53.93 # extra added 12/9/19
-31d75c location GWELT0XTRA # 10.0.53.96 # extra added 12/9/19
-332148 location GWELT0XTRA # 10.0.53.98 # extra added 12/9/19
-af453f location GWELT0XTRA # 10.0.53.104 # extra added 12/9/19
-bb70c4 location GWELT0XTRA # 10.0.53.106 # extra added 12/9/19
-d9c608 location GWELT0XTRA # 10.0.58.17 # extra added 12/9/19
 3031a6 location GWELT0XTRA # 10.0.60.77 # extra added 12/9/19
 14039f location GWELT0XTRA # 10.0.64.37 # extra added 12/9/19
 031746 location GWELT0XTRA # 10.0.65.103 # extra added 12/9/19
@@ -750,7 +736,7 @@ db4dc4 location GWELT0XTRA # 10.0.121.157 # extra added 12/9/19
 ## resets
 
 ## global remove
-global remove d7cd4b
+global remove d7cd4b,32605f,1dcc2c,31d75c,332148,af453f,bb70c4,d9c608
 
 ## VPS pubkey
 pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
