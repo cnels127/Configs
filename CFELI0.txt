@@ -57,17 +57,17 @@ vlan 10.0.51.120-120 # b2d051
 vlan 10.0.51.127-127 # 6f7564
 vlan 10.0.51.128-128 # 7e0b37
 vlan 10.0.51.134-134 # 5953f5
-vlan 10.0.53.1-1 # 5dc4be
-vlan 10.0.53.2-2 # 25540e
-vlan 10.0.53.4-4 # de7893
-vlan 10.0.53.5-5 # 8a6dd0
-vlan 10.0.53.7-7 # 34dc74
-vlan 10.0.53.9-9 # 340a14
-vlan 10.0.53.10-10 # a9422c
-vlan 10.0.53.16-16 # 5b087d
-vlan 10.0.53.22-22 # ec9139
-vlan 10.0.53.26-26 # e630e5
-vlan 10.0.53.30-30 # b6f8fd
+vlan 10.0.51.61-61 # 000122
+vlan 10.0.51.58-58 # 74ebb2
+vlan 10.0.51.79-79 # 5f8428
+vlan 10.0.51.81-81 # 485d51
+vlan 10.0.51.80-80 # e30375
+vlan 10.0.51.82-82 # 92a009
+vlan 10.0.51.85-85 # 385e8f
+vlan 10.0.51.86-86 # d2c781
+vlan 10.0.51.76-76 # fcb53d
+vlan 10.0.51.125-125 # 9d7456
+vlan 10.0.50.161-161 # 140b62
 vlan 10.0.77.2-2 # 24861f
 vlan 10.0.77.4-4 # ef16b9
 vlan 10.0.77.6-6 # 6f25d3
@@ -184,17 +184,17 @@ b2d051 location CFELI00018 # 10.0.51.120
 6f7564 location CFELI00019 # 10.0.51.127
 7e0b37 location CFELI00020 # 10.0.51.128
 5953f5 location CFELI00021 # 10.0.51.134
-5dc4be location CFELI00022 # 10.0.53.1
-25540e location CFELI00023 # 10.0.53.2
-de7893 location CFELI00024 # 10.0.53.4
-8a6dd0 location CFELI00025 # 10.0.53.5
-34dc74 location CFELI00026 # 10.0.53.7
-340a14 location CFELI00027 # 10.0.53.9
-a9422c location CFELI00028 # 10.0.53.10
-5b087d location CFELI00029 # 10.0.53.16
-ec9139 location CFELI00030 # 10.0.53.22
-e630e5 location CFELI00031 # 10.0.53.26
-b6f8fd location CFELI00032 # 10.0.53.30
+000122 location CFELI00022 # 10.0.51.61
+74ebb2 location CFELI00023 # 10.0.51.58
+5f8428 location CFELI00024 # 10.0.51.79
+485d51 location CFELI00025 # 10.0.51.81
+e30375 location CFELI00026 # 10.0.51.80
+92a009 location CFELI00027 # 10.0.51.82
+385e8f location CFELI00028 # 10.0.51.85
+d2c781 location CFELI00029 # 10.0.51.86
+fcb53d location CFELI00030 # 10.0.51.76
+9d7456 location CFELI00031 # 10.0.51.125
+140b62 location CFELI00032 # 10.0.50.161
 24861f location CFELI00033 # 10.0.77.2
 ef16b9 location CFELI00034 # 10.0.77.4
 6f25d3 location CFELI00035 # 10.0.77.6
@@ -300,6 +300,7 @@ e352e4 location CFELI00124 # 10.0.120.159
 ## resets
 
 ## removals
+global remove 5dc4be,25540e,de7893,8a6dd0,34dc74,340a14,a9422c,5b087d,ec9139,e630e5,b6f8fd
 
 ## VPS pubkey
 pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
