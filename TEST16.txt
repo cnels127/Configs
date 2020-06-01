@@ -34,13 +34,37 @@ global uncork 1588686518
 # global reset 1580151563
 
 ### PAUSED CUSTOMERS ###
+## LALBE0 (11 s9) hosting paused 6/1/20
+vlan 10.0.56.120-120 # b49a7f
+vlan 10.0.56.122-122 # 21619f
+vlan 10.0.56.123-123 # ab49a7
+vlan 10.0.56.124-124 # c935fd
+vlan 10.0.56.126-126 # a9cee7
+vlan 10.0.64.77-77 # e3af8a
+vlan 10.0.64.127-127 # 739481
+vlan 10.0.65.12-12 # 6eb9e6
+vlan 10.0.66.8-8 # 701541
+# vlan 10.0.67.6-6 # 979f86 # SCRAPPED 5/14/20
+vlan 10.0.60.41-41 # 4363c7
+b49a7f location LALBE00001 # 10.0.56.120
+21619f location LALBE00002 # 10.0.56.122
+ab49a7 location LALBE00003 # 10.0.56.123
+c935fd location LALBE00004 # 10.0.56.124
+a9cee7 location LALBE00005 # 10.0.56.126
+e3af8a location LALBE00006 # 10.0.64.77
+739481 location LALBE00007 # 10.0.64.127
+6eb9e6 location LALBE00008 # 10.0.65.12
+701541 location LALBE00009 # 10.0.66.8
+# 979f86 location LALBE00010 # 10.0.67.6 # SCRAPPED 5/14/20
+4363c7 location LALBE00011 # 10.0.60.41
+
 ## MSETI0 (6 s9) hosting paused 6/1/20
 # vlan 10.0.58.19-19 # 7efb10 # SCRAPPED 5/29/20
-vlan 10.0.61.137-137 # 7104a2
-vlan 10.0.63.140-140 # a22315
-vlan 10.0.63.160-160 # 743db3
-vlan 10.0.115.61-61 # f6388e
-vlan 10.0.117.155-155 # 35e5b2
+# vlan 10.0.61.137-137 # 7104a2
+# vlan 10.0.63.140-140 # a22315
+# vlan 10.0.63.160-160 # 743db3
+# vlan 10.0.115.61-61 # f6388e
+# vlan 10.0.117.155-155 # 35e5b2
 # 7efb10 location MSETI00001 # 10.0.58.19 # SCRAPPED 5/29/20
 7104a2 location MSETI00002 # 10.0.61.137
 a22315 location MSETI00003 # 10.0.63.140
