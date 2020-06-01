@@ -1,4 +1,4 @@
-## 4 s9 @ 14.4 Th/s = 57.6 Th/s (contract expires 1/17/19)
+## Hosting services discontinued 6/1/20, relinquished ownership of 4 s9s to Bit 49
 
 global custompanel RPOUL0bit049
 global customer bit49-Russia
@@ -35,16 +35,8 @@ global panelclear 999
 # global reset 1574963681
 
 ## vlans
-vlan 10.0.117.34-34 # 12c5ea
-vlan 10.0.117.35-35 # 2e86e9
-vlan 10.0.117.36-36 # 256c44
-vlan 10.0.117.37-37 # ba1c4a
 
 ## locations
-12c5ea location RPOUL00001 # 10.0.117.34
-2e86e9 location RPOUL00002 # 10.0.117.35
-256c44 location RPOUL00003 # 10.0.117.36
-ba1c4a location RPOUL00004 # 10.0.117.37
 
 ## tuning
 
