@@ -1,4 +1,5 @@
 ## 3 s9 @ 16 Th/s = 48 Th/s (contract expires 7/17/20)
+## Hosting Services paused 6/1/20
 
 global custompanel NARMO0bit049
 global customer bit49-Russia
@@ -35,16 +36,14 @@ global panelclear 999
 # global reset 1574929280
 
 ## vlans
-# vlan 10.0.65.71-71 # 76e85b # POWERED DOWN - NO WORKING HASHBOARDS
+# vlan 10.0.65.71-71 # 76e85b # SCRAPPED 5/15/20
 vlan 10.0.65.134-134 # 8bdc72
 vlan 10.0.66.110-110 # aa75d6
-vlan 10.0.77.69-69 # 3ae43c # extra added 3/24/20 # 16.8 Th/s
 
 ## locations
-# 76e85b location NARMO00001 # 10.0.65.71 # POWERED DOWN - NO WORKING HASHBOARDS
+# 76e85b location NARMO00001 # 10.0.65.71 # SCRAPPED 5/15/20
 8bdc72 location NARMO00002 # 10.0.65.134
 aa75d6 location NARMO00003 # 10.0.66.110
-3ae43c location NARMO0XTRA # 10.0.77.69 # extra added 3/24/20 # 16.8 Th/s
 
 ## tuning
 
