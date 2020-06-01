@@ -1,6 +1,7 @@
 ##       3 s9 @ 16 Th = 48 Th/s (contract expires 8/7/20)
 ##     3 s9 @ 14.4 Th = 43.2 Th/s (contract expires 9/11/20)
 ## TOTAL EXP HASHRATE = 91.2 Th/s
+## Hosting Services paused 6/1/20
 
 global custompanel MSETI0bit049
 global customer bit49-Russia
@@ -37,26 +38,20 @@ global uncork 1574927152
 # global reset 1
 
 ## vlans
-# vlan 10.0.58.19-19 # 7efb10 # POWERED DOWN - NO WORKING HASHBOARDS
+# vlan 10.0.58.19-19 # 7efb10 # SCRAPPED 5/29/20
 vlan 10.0.61.137-137 # 7104a2
 vlan 10.0.63.140-140 # a22315
 vlan 10.0.63.160-160 # 743db3
 vlan 10.0.115.61-61 # f6388e
 vlan 10.0.117.155-155 # 35e5b2
-vlan 10.0.54.18-18 # d66f6b # extra added 11/23/19
-vlan 10.0.61.63-63 # baefba # extra added 12/12/19
-vlan 10.3.22.44-44 # 07e5fd # extra added 03/06/20
 
 ## locations
-# 7efb10 location MSETI00001 # 10.0.58.19 # POWERED DOWN - NO WORKING HASHBOARDS
+# 7efb10 location MSETI00001 # 10.0.58.19 # SCRAPPED 5/29/20
 7104a2 location MSETI00002 # 10.0.61.137
 a22315 location MSETI00003 # 10.0.63.140
 743db3 location MSETI00004 # 10.0.63.160
 f6388e location MSETI00005 # 10.0.115.61
 35e5b2 location MSETI00006 # 10.0.117.155
-d66f6b location MSETI0XTRA # 10.0.54.18 # extra added 11/23/19
-baefba location MSETI0XTRA # 10.0.61.63 # extra added 12/12/19
-07e5fd location MSETI0XTRA # 10.3.22.44 # extra added 3/6/20
 
 ## tuning
 
