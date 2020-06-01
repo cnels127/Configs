@@ -1,6 +1,4 @@
-##   6 s9 @ 14.4 Th/s = 86.4 Th/s(contract expires 3/6/20)
-##  12 s9 @ 14.4 Th/s = 172.8 Th/s (contract expires 5/16/19)
-## TOTAL EXP HASHRATE = 259.2 Th/s
+## 18 s9 turned over 6/1/20
 
 global custompanel DDUNN0bit049
 global customer bit49-Russia
@@ -33,48 +31,12 @@ global panelclear 999
 
 # global retune 
 # global reboot # 1
-global uncork 1576167431
+# global uncork 1576167431
 # global reset 1
 
 ## vlans
-vlan 10.0.54.160-160 # 5594a0
-# vlan 10.0.54.161-161 # ee9f37 # SCRAPPED 5/28/20
-vlan 10.0.55.1-1 # 14da93
-vlan 10.0.55.2-2 # 9a204a
-vlan 10.0.55.3-3 # 4c1b54
-vlan 10.0.55.4-4 # 9da716
-vlan 10.0.55.86-86 # f5839e
-# vlan 10.0.55.112-112 # 23c698 # SCRAPPED 5/18/20
-vlan 10.0.55.119-119 # 733b65
-vlan 10.0.55.139-139 # 947334
-vlan 10.0.55.147-147 # 15a0ef
-vlan 10.0.55.148-148 # 0f26d2
-# vlan 10.0.56.53-53 # 46781e # SCRAPPED 5/28/20
-# vlan 10.0.56.69-69 # 13424f # SCRAPPED 4/24/20
-vlan 10.0.56.86-86 # 968831
-vlan 10.0.56.110-110 # eef025
-vlan 10.0.56.112-112 # 787c22
-vlan 10.0.56.114-114 # 58df28
 
 ## locations
-5594a0 location DDUNN00001 # 10.0.54.160
-# ee9f37 location DDUNN00002 # 10.0.54.161 # SCRAPPED 05/28/2020
-14da93 location DDUNN00003 # 10.0.55.1
-9a204a location DDUNN00004 # 10.0.55.2
-4c1b54 location DDUNN00005 # 10.0.55.3
-9da716 location DDUNN00006 # 10.0.55.4
-f5839e location DDUNN00007 # 10.0.55.86
-# 23c698 location DDUNN00008 # 10.0.55.112 # SCRAPPED 05/18/2020
-733b65 location DDUNN00009 # 10.0.55.119
-947334 location DDUNN00010 # 10.0.55.139
-15a0ef location DDUNN00011 # 10.0.55.147
-0f26d2 location DDUNN00012 # 10.0.55.148
-# 46781e location DDUNN00013 # 10.0.56.53 # SCRAPPED 05/28/2020
-# 13424f location DDUNN00014 # 10.0.56.69 # SCRAPPED 4/24/2020
-968831 location DDUNN00015 # 10.0.56.86
-eef025 location DDUNN00016 # 10.0.56.110
-787c22 location DDUNN00017 # 10.0.56.112
-58df28 location DDUNN00018 # 10.0.56.114
 
 ## tuning
 
@@ -87,7 +49,6 @@ eef025 location DDUNN00016 # 10.0.56.110
 ## resets
 
 ## removals
-global remove 62c412,669175,140b62,153e95,fcb53d,a58136
 
 ## VPS pubkey
 pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
