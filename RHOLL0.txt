@@ -1,6 +1,7 @@
 ##   3 s9 @ 14.4 Th/s = 43.2 Th/s (contract expires 6/18/20
 ##   3 s9 @ 14.4 Th/s = 43.2 Th/s (contract expires 9/4/20)
 ## TOTAL EXP HASHRATE = 86.4 Th/s
+## Hosting Services paused 6/1/20
 
 global custompanel RHOLL0bit049
 global customer bit49-Russia
@@ -43,7 +44,6 @@ vlan 10.0.61.60-60 # fc92a5
 vlan 10.0.77.91-91 # d9b3f8
 vlan 10.0.77.93-93 # 1c76d5
 # vlan 10.0.77.105-105 # 434628 # SCRAPPED 4/27/20
-vlan 10.0.55.8-8 # 225634 # # extra added 3/9/20
 
 ## locations
 425b29 location RHOLL00001 # 10.0.61.58
@@ -52,7 +52,6 @@ fc92a5 location RHOLL00003 # 10.0.61.60
 d9b3f8 location RHOLL00004 # 10.0.77.91
 1c76d5 location RHOLL00005 # 10.0.77.93
 # 434628 location RHOLL00006 # 10.0.77.105 # SCRAPPED 4/27/20
-225634 location RHOLL0XTRA # 10.0.55.8 # extra added 3/9/20 # 5.3 Th/s
 
 ## tuning
 
