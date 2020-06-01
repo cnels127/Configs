@@ -2,6 +2,7 @@
 ##     3 s9 @ 16 Th/s = 48 Th/s (contract expires 9/7/20)
 ##     3 s9 @ 16 Th/s = 48 Th/s (contract expires 9/7/20)
 ## TOTAL EXP HASHRATE = 168 Th/s
+## Hosting Services paused 6/1/20
 
 global custompanel LALBE0bit049
 global customer bit49-Russia
@@ -47,10 +48,8 @@ vlan 10.0.64.77-77 # e3af8a
 vlan 10.0.64.127-127 # 739481
 vlan 10.0.65.12-12 # 6eb9e6
 vlan 10.0.66.8-8 # 701541
-vlan 10.0.67.6-6 # 979f86
+# vlan 10.0.67.6-6 # 979f86 # SCRAPPED 5/14/20
 vlan 10.0.60.41-41 # 4363c7
-vlan 10.0.54.32-32 # extra added 11/25/19
-vlan 10.0.54.33-33 # extra added 11/25/19
 
 ## location
 b49a7f location LALBE00001 # 10.0.56.120
@@ -62,10 +61,8 @@ e3af8a location LALBE00006 # 10.0.64.77
 739481 location LALBE00007 # 10.0.64.127
 6eb9e6 location LALBE00008 # 10.0.65.12
 701541 location LALBE00009 # 10.0.66.8
-# 979f86 location LALBE00010 # 10.0.67.6 # POWERED DOWN - NO WORKING HASHBOARDS
+# 979f86 location LALBE00010 # 10.0.67.6 # SCRAPPED 5/14/20
 4363c7 location LALBE00011 # 10.0.60.41
-59a9ba location LALBE0XTRA # 10.0.54.32 # extra added 11/25/19
-a02b78 location LALBE0XTRA # 10.0.54.33 # extra added 11/25/19
 
 ## tuning
 
