@@ -157,13 +157,23 @@ b69144 location GBURR00004
 fb355a location GBURR00005
 
 ### ABANDONED ###
+## RPOUL0 (4 s9s turned over 6/1/20)
+vlan 10.0.117.34-34 # 12c5ea
+vlan 10.0.117.35-35 # 2e86e9
+vlan 10.0.117.36-36 # 256c44
+vlan 10.0.117.37-37 # ba1c4a
+12c5ea location RPOUL00001 # 10.0.117.34
+2e86e9 location RPOUL00002 # 10.0.117.35
+256c44 location RPOUL00003 # 10.0.117.36
+ba1c4a location RPOUL00004 # 10.0.117.37
+
 ## KDAVI0 (6 s9s turned over 6/1/20)
-vlan 10.0.54.148-148 # cf1a34
-vlan 10.0.54.149-149 # 312516
-vlan 10.0.54.150-150 # 5f861d
-vlan 10.0.56.127-127 # 6f3c8b
-vlan 10.0.56.128-128 # 0819f9
-vlan 10.0.56.129-129 # 8ef4ad
+# vlan 10.0.54.148-148 # cf1a34
+# vlan 10.0.54.149-149 # 312516
+# vlan 10.0.54.150-150 # 5f861d
+# vlan 10.0.56.127-127 # 6f3c8b
+# vlan 10.0.56.128-128 # 0819f9
+# vlan 10.0.56.129-129 # 8ef4ad
 cf1a34 location KDAVI00001 # 10.0.54.148
 312516 location KDAVI00002 # 10.0.54.149
 5f861d location KDAVI00003 # 10.0.54.150
