@@ -34,10 +34,24 @@ global uncork 1588686518
 # global reset 1580151563
 
 ### PAUSED CUSTOMERS ###
+## MSETI0 (6 s9) hosting paused 6/1/20
+# vlan 10.0.58.19-19 # 7efb10 # SCRAPPED 5/29/20
+vlan 10.0.61.137-137 # 7104a2
+vlan 10.0.63.140-140 # a22315
+vlan 10.0.63.160-160 # 743db3
+vlan 10.0.115.61-61 # f6388e
+vlan 10.0.117.155-155 # 35e5b2
+# 7efb10 location MSETI00001 # 10.0.58.19 # SCRAPPED 5/29/20
+7104a2 location MSETI00002 # 10.0.61.137
+a22315 location MSETI00003 # 10.0.63.140
+743db3 location MSETI00004 # 10.0.63.160
+f6388e location MSETI00005 # 10.0.115.61
+35e5b2 location MSETI00006 # 10.0.117.155
+
 ## NARMO0 (3 s9) hosting paused 6/1/20
 # vlan 10.0.65.71-71 # 76e85b # SCRAPPED 5/15/20
-vlan 10.0.65.134-134 # 8bdc72
-vlan 10.0.66.110-110 # aa75d6
+# vlan 10.0.65.134-134 # 8bdc72
+# vlan 10.0.66.110-110 # aa75d6
 # 76e85b location NARMO00001 # 10.0.65.71 # SCRAPPED 5/15/20
 8bdc72 location NARMO00002 # 10.0.65.134
 aa75d6 location NARMO00003 # 10.0.66.110
