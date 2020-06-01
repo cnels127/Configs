@@ -1,6 +1,4 @@
-##     4 s9 @ 16 Th/s = 64 Th/s (contract expires 5/17/20)
-##     6 s9 @ 16 Th/s = 96 Th/s (contract expires 7/29/20)
-## TOTAL EXP HASHRATE = 160 Th/s
+## Hosting services discontinued 6/1/20, relinquished ownership of 10 s9s to Bit 49
 
 global custompanel JDRIG0bit049
 global customer bit49-Russia
@@ -33,64 +31,22 @@ global panelclear 999
 
 # global retune 2
 # global reboot 1
-global uncork 1589326762
+# global uncork 1589326762
 # global reset 1574285085
 
 ## vlans
-vlan 10.0.55.99-99 # 11bafe
-vlan 10.0.55.125-125 # 33b5df
-# vlan 10.0.55.145-145 # 9b787e # POWERED DOWN - NO WORKING HASHBOARDS
-vlan 10.0.56.104-104 # 93e110
-vlan 10.0.67.148-148 # 9163e6
-vlan 10.0.67.149-149 # b3d12e
-vlan 10.0.67.156-156 # d55626
-vlan 10.0.66.3-3 # ceb84b
-vlan 10.0.67.146-146 # cffb6d
-vlan 10.0.66.22-22 # e2fa14
 
 ## location
-11bafe location JDRIG00001 # 10.0.55.99
-33b5df location JDRIG00002 # 10.0.55.125
-# 9b787e location JDRIG00003 # 10.0.55.145 # POWERED DOWN - NO WORKING HASHBOARDS
-93e110 location JDRIG00004 # 10.0.56.104
-9163e6 location JDRIG00005 # 10.0.67.148
-b3d12e location JDRIG00006 # 10.0.67.149
-d55626 location JDRIG00007 # 10.0.67.156
-ceb84b location JDRIG00008 # 10.0.66.3
-cffb6d location JDRIG00009 # 10.0.67.146
-e2fa14 location JDRIG00010 # 10.0.66.22
 
 ## tuning
-9163e6 uncork 1585322597
-cffb6d uncork 1585322597
-11bafe uncork 1585322597
-e5323c uncork 1585322597
-9b787e uncork 1585322597
  
 ## throttle
-11bafe retune 1584477571
-cffb6d retune 1584477571
-e2fa14 retune 1584477571
 
 ## fans
 
 ## reboots
-cffb6d reboot 1574508116 # 10.0.67.146 jdrig00009
-cffb6d reboot 1574496800 # 10.0.67.146 jdrig00009
-# s_reboot generated on Nov 11 2019 18:45:00 utc: 1573497900
-b3d12e reboot 1573497900 # 10.0.67.149 jdrig00006
-11bafe reboot 1573497900 # 10.0.55.99 jdrig00001
-cffb6d reboot 1573497900 # 10.0.67.146 jdrig00009
-9163e6 reboot 1573497900 # 10.0.67.148 jdrig00005
-d55626 reboot 1573497900 # 10.0.67.156 jdrig00007
 
 ## resets
-11bafe reset 1585021777
-33b5df reset 1585021777
-93e110 reset 1585021777
-b3d12e reset 1585021777
-cffb6d reset 1585021777
-e2fa14 reset 1585021777
 
 ## removals
 global remove f4e8ee,1cb0b8,2b6c79,194547,e5323c,d471c4
