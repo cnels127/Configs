@@ -33,13 +33,16 @@ global panelclear 999
 global uncork 1588686518
 # global reset 1580151563
 
+### UNINSTALLATION ###
+vlan 10.0.53.1-161
+
 ### PAUSED CUSTOMERS ###
 ## RHOLL0 (6 s9) hosting paused 6/1/20
-vlan 10.0.61.58-58 # 425b29
-vlan 10.0.61.59-59 # 396497
-vlan 10.0.61.60-60 # fc92a5
-vlan 10.0.77.91-91 # d9b3f8
-vlan 10.0.77.93-93 # 1c76d5
+# vlan 10.0.61.58-58 # 425b29
+# vlan 10.0.61.59-59 # 396497
+# vlan 10.0.61.60-60 # fc92a5
+# vlan 10.0.77.91-91 # d9b3f8
+# vlan 10.0.77.93-93 # 1c76d5
 # vlan 10.0.77.105-105 # 434628 # SCRAPPED 4/27/20
 425b29 location RHOLL00001 # 10.0.61.58
 396497 location RHOLL00002 # 10.0.61.59
