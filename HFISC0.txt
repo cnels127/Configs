@@ -37,11 +37,11 @@ global uncork 1588953162
 global reset 1578090951
 
 ## vlans
-vlan 10.0.20.57-57 # 88a339
-vlan 10.0.20.58-58 # 88395a
-vlan 10.0.20.61-61 # 1c50a6
-vlan 10.0.20.62-62 # 08ac34
-vlan 10.0.20.63-63 # e467c5
+vlan 10.0.62.42-42 # 6d6f15
+vlan 10.0.62.71-71 # 6b2885
+vlan 10.0.64.107-107 # 26c95e
+vlan 10.0.77.129-129 # 58d6e6
+vlan 10.0.121.139-139 # 3fd204
 vlan 10.0.56.131-131 # 2d90d3
 vlan 10.0.56.134-134 # d049a1
 vlan 10.0.56.135-135 # 9a346c
@@ -74,19 +74,13 @@ vlan 10.0.117.10-10 # abb865
 vlan 10.0.118.54-54 # f2b75b
 vlan 10.0.119.125-125 # 77f6c4
 vlan 10.0.121.68-68 # 9373bb
-vlan 10.0.64.107-107 # 26c95e # extra added
-vlan 10.0.62.42-42 # 6d6f15 # extra added 12/12/19
-vlan 10.0.62.67-67 # 12a96e # extra added 12/12/19
-vlan 10.0.62.71-71 # 6b2885 # extra added 12/12/19
-vlan 10.0.121.139-139 # 3fd204 # extra added 12/12/19
-vlan 10.0.77.129-129 # 58d6e6 # extra added 12/12/19
 
 ## locations
-88a339 location HFISC00001 # 10.0.20.57
-88395a location HFISC00002 # 10.0.20.58
-1c50a6 location HFISC00003 # 10.0.20.61
-08ac34 location HFISC00004 # 10.0.20.62
-e467c5 location HFISC00005 # 10.0.20.63
+6d6f15 location HFISC00001 # 10.0.62.42
+6b2885 location HFISC00002 # 10.0.62.71
+26c95e location HFISC00003 # 10.0.64.107
+58d6e6 location HFISC00004 # 10.0.77.129
+3fd204 location HFISC00005 # 10.0.121.139
 2d90d3 location HFISC00006 # 10.0.56.131
 d049a1 location HFISC00007 # 10.0.56.134
 9a346c location HFISC00008 # 10.0.56.135
@@ -119,12 +113,6 @@ abb865 location HFISC00034 # 10.0.117.10
 f2b75b location HFISC00035 # 10.0.118.54
 77f6c4 location HFISC00036 # 10.0.119.125
 9373bb location HFISC00037 # 10.0.121.68
-26c95e location HFISC0XTRA # 10.0.64.107 # extra added
-6d6f15 location HFISC0XTRA # 10.0.62.42 # extra added 12/12/19
-12a96e location HFISC0XTRA # 10.0.62.67 # extra added 12/12/19
-6b2885 location HFISC0XTRA # 10.0.62.71 # extra added 12/12/19
-3fd204 location HFISC0XTRA # 10.0.121.139 # extra added 12/12/19
-58d6e6 location HFISC0XTRA # 10.0.77.129 # extra added 12/12/19
 
 ## fans
 
@@ -139,7 +127,7 @@ abb865 reset 1591017306
 3fd204 reset 1591017306
 
 ## removals
-global remove e9c1a4,02c22d,f60107,084f48,a8ee8a,7c3b2a,80a659,7a1084,cb9593,f3d8b8,618b1a,424037,e2ac32,d24d19,f13d6c,540742,267c54,10ecee,5e2741,396eb4,8008e2,3ff13b,f0acc9,69c26c,939cc7,000122,994f1c
+global remove e9c1a4,02c22d,f60107,084f48,a8ee8a,7c3b2a,80a659,7a1084,cb9593,f3d8b8,618b1a,424037,e2ac32,d24d19,f13d6c,540742,267c54,10ecee,5e2741,396eb4,8008e2,3ff13b,f0acc9,69c26c,939cc7,000122,994f1c,88a339,88395a,1c50a6,08ac34,e467c5
 
 ## VPS pubkey
 pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
