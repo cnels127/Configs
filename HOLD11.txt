@@ -1,5 +1,5 @@
 ## CSOU00 to HOLD11 5/1/20, returned 5/4/20
-## ARAMA0 to HOLD11 6/9/20
+## ARAMA0 to HOLD11 6/9/20, returned 6/9/20
 
 global custompanel HOLD11bit049
 global customer bit49-Russia
@@ -34,20 +34,6 @@ global panelclear 999
 # global reboot 1
 # global uncork 1
 # global reset 1
-
-## ARAMA0 (6 s9)
-vlan 10.0.54.142-142 # dc1171
-vlan 10.0.54.143-143 # c5f2b7
-vlan 10.0.54.144-144 # 87a39c
-vlan 10.0.56.106-106 # df6f8a
-vlan 10.0.56.115-115 # 44e8a9
-vlan 10.0.56.117-117 # 0a29cc
-dc1171 location ARAMA00001 # 10.0.54.142
-c5f2b7 location ARAMA00002 # 10.0.54.143
-87a39c location ARAMA00003 # 10.0.54.144
-df6f8a location ARAMA00004 # 10.0.56.106
-44e8a9 location ARAMA00005 # 10.0.56.115
-0a29cc location ARAMA00006 # 10.0.56.117
 
 ## asic password
 asicpass admin
