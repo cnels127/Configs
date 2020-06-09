@@ -1,4 +1,5 @@
 ## 1 s9 @ 16 Th/s = 16 Th/s (contract expires 8/18/20)
+## Hosting services PAUSED 6/9/20
 
 global custompanel TCOST0bit049
 global customer bit49-Russia
@@ -36,12 +37,10 @@ global panelclear 999
 # global reset 1
 
 ## vlans
-vlan 10.0.65.147-147 # faba2f
-vlan 10.0.51.110-110 # 3c6c89 # 5.5 Th/s # extra added 3/23/20
+# vlan 10.0.65.147-147 # faba2f # SCRAPPED 5/27/20
 
 ## locations
-faba2f location TCOST00001 # 10.0.65.147
-3c6c89 location TCOST0XTRA # 10.0.51.110 # 5.5 Th/s # extra added 3/23/20
+# faba2f location TCOST00001 # 10.0.65.147 # SCRAPPED 5/27/20
 
 ## throttle
 
@@ -52,7 +51,7 @@ faba2f location TCOST00001 # 10.0.65.147
 ## resets
 
 ## removals
-global remove 10992f
+global remove 10992f,3c6c89
 
 ## VPS pubkey
 pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
