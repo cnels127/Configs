@@ -35,12 +35,10 @@ global panelclear 999
 # global reset 1
 
 ## vlans
-# vlan 10.0.66.148-148 # 658bd9 # replaced with 10.0.54.15
-vlan 10.0.54.15-15 # 102b68
+vlan 10.0.57.160-160 # 430b5d
 
 ## locations
-# 658bd9 location 132139 # 10.0.66.148 # replaced with 10.0.54.15
-102b68 location 132139 # 10.0.54.15 # 16.1 Th/s
+430b5d location RGRUS00001 # 10.0.57.160
 
 ## tuning
 
@@ -51,10 +49,9 @@ vlan 10.0.54.15-15 # 102b68
 ## reboots
 
 ## resets
-658bd9 reset 1589312824
 
 ## removals
-global remove 86c9c7,658bd9
+global remove 86c9c7,658bd9,102b68
 
 ## VPS pubkey
 pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
