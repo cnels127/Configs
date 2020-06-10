@@ -1,5 +1,5 @@
-## instructions available at: https://asicseer.com/page/kb#writing-config
-## TOTAL EXP HASHRATE 3 s9 @ 16 Th/s = 48 Th/s
+## 3 s9 @ 16 Th/s = 48 Th/s (contract exp 8/3/20)
+## CCADR0 to HOLD11 due to non-payment
 
 global custompanel CCADR0bit049
 global customer bit49-Russia
@@ -46,8 +46,6 @@ vlan 10.0.66.116-116 # 551f73
 551f73 location CCADR00003 # 10.0.66.116
 
 ## tuning
-549631 retune 1589057953
-551f73 retune 1589057953
 
 ## throttle
 
