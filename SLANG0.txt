@@ -68,19 +68,6 @@ vlan 10.0.121.128-128 # a3c9ac
 vlan 10.0.61.133-133 # dcf994 # DKUZM0 transferred over 11/25/19
 vlan 10.0.65.54-54 # 596a83 # DKUZM0 transferred over 11/25/19
 vlan 10.0.65.75-75 # e06e8a # DKUZM0 transferred over 11/25/19
-vlan 10.0.54.31-31 # 60ea91 # extra added 3/3/20
-vlan 10.0.54.36-36 # ff032f # extra added 11/23/19
-vlan 10.0.54.37-37 # 4f826d # extra added 11/23/19
-vlan 10.0.54.38-38 # 75ef00 # extra added 11/23/19
-vlan 10.0.56.47-47 # ca177b # extra added 3/3/20
-vlan 10.0.56.50-50 # c02d51 # extra added 3/3/20
-vlan 10.0.56.56-56 # 41be8a # extra added 3/3/20
-vlan 10.0.56.67-67 # 751610 # extra added 3/3/20
-vlan 10.0.56.75-75 # 8e284e # extra added 3/3/20
-vlan 10.0.59.50-50 # 3fb821 # extra added 3/3/20
-vlan 10.0.59.79-79 # 364899 # extra added
-vlan 10.0.59.80-80 # 2d2f66 # extra added 3/3/20
-vlan 10.3.21.29-29 # ff3702 # extra added 3/23/20
 
 ## locations
 bf1870 location SLANG00001 # 10.0.60.6
@@ -111,19 +98,6 @@ cc9cd4 location SLANG00025 # 10.0.119.12
 dcf994 location SLANG00026 # 10.0.61.133
 596a83 location SLANG00027 # 10.0.65.54
 e06e8a location SLANG00028 # 10.0.65.75
-60ea91 location SLANG0XTRA # 10.0.54.31 # 15.8 Th/s # extra added 3/3/20
-ff032f location SLANG0XTRA # 10.0.54.36 # extra added 11/23/19
-4f826d location SLANG0XTRA # 10.0.54.37 # extra added 11/23/19
-75ef00 location SLANG0XTRA # 10.0.54.38 # extra added 11/23/19
-ca177b location SLANG0XTRA # 10.0.56.47 # 15.7 Th/s # extra added 3/3/20
-c02d51 location SLANG0XTRA # 10.0.56.50 # 15.5 Th/s # extra added 3/3/20
-41be8a location SLANG0XTRA # 10.0.56.56 # 15.6 Th/s # extra added 3/3/20
-751610 location SLANG0XTRA # 10.0.56.67 # 15.7 Th/s # extra added 3/3/20
-8e284e location SLANG0XTRA # 10.0.56.75 # 15.7 Th/s # extra added 3/3/20
-3fb821 location SLANG0XTRA # 10.0.59.50 # 15.0 Th/s # extra added 3/3/20
-364899 location SLANG0XTRA # 10.0.59.79 # extra added
-2d2f66 location SLANG0XTRA # 10.0.59.80 # 15.8 Th/s # extra added 3/3/20
-ff3702 location SLANG0XTRA # 10.3.21.29 # 15.1 Th/s # extra added 3/23/20
 
 ## tuning
 
@@ -137,7 +111,7 @@ ff3702 location SLANG0XTRA # 10.3.21.29 # 15.1 Th/s # extra added 3/23/20
 364899 reset 1591017306
 
 ## removals
-global remove afb5e3,6f1bef,c3196d
+global remove afb5e3,6f1bef,c3196d,60ea91,ff032f,4f826d,75ef00,ca177b,c02d51,41be8a,751610,8e284e,3fb821,364899,2d2f66,ff3702
 
 ## VPS pubkey
 pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
