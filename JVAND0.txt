@@ -117,9 +117,6 @@ vlan 10.0.121.92-92 # beb772
 vlan 10.0.121.96-96 # b35ae4
 vlan 10.0.121.100-100 # 5047c0
 vlan 10.0.121.103-103 # 8d9cd3
-vlan 10.0.51.105-105 # 061acb # extra added 12/12/19
-vlan 10.0.51.111-111 # 56a397 # extra added 12/12/19
-vlan 10.0.54.44-44 # ac4842 # extra added 12/12/19
 vlan 10.0.61.15-15 # 663078 # extra added 12/12/19
 vlan 10.0.62.41-41 # aee689 # extra added 12/12/19
 vlan 10.0.62.43-43 # d81df4 # extra added 12/12/19
@@ -215,9 +212,6 @@ beb772 location JVAND00077 # 10.0.121.92
 b35ae4 location JVAND00078 # 10.0.121.96
 5047c0 location JVAND00079 # 10.0.121.100
 8d9cd3 location JVAND00080 # 10.0.121.103
-061acb location JVAND0XTRA # 10.0.51.105 # extra added 12/12/19
-56a397 location JVAND0XTRA # 10.0.51.111 # extra added 12/12/19
-ac4842 location JVAND0XTRA # 10.0.54.44 # extra added 12/12/19
 663078 location JVAND0XTRA # 10.0.61.15 # extra added 12/12/19
 aee689 location JVAND0XTRA # 10.0.62.41 # extra added 12/12/19
 d81df4 location JVAND0XTRA # 10.0.62.43 # extra added 12/12/19
@@ -248,7 +242,7 @@ d239b0 reset 1591017306
 189393 reset 1591017306
 
 ## removals
-global remove 7ef3f6
+global remove 7ef3f6,061acb,56a397,ac4842
 
 ## VPS pubkey
 pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
