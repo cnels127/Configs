@@ -85,8 +85,6 @@ vlan 10.3.22.48-48 # 530f2f  # 15.6 Th/s # extra added 3/23/20
 vlan 10.3.21.65-65 # 1599aa # 15.6 Th/s # extra added 3/23/20
 vlan 10.3.21.63-63 # 6bfa85 # 15.6 Th/s # extra added 3/23/20
 vlan 10.3.23.38-38 # 637f46 # 15.6 Th/s # extra added 3/23/20
-vlan 10.0.54.40-40 # 66f88a # extra added 12/23/19
-vlan 10.0.54.46-46 # 24549d # extra added 12/12/19
 vlan 10.0.62.66-66 # bfb0bc # extra added 12/23/19
 vlan 10.0.62.74-74 # d427dd # extra added 12/12/19
 vlan 10.0.59.110-110 # c5abf8 # extra added 12/12/19
@@ -143,8 +141,6 @@ ca6c85 location SRADO00038 # 10.0.67.159
 1599aa location SRADO0XTRA # 10.3.21.65 # 15.6 Th/s # extra added 3/23/20
 6bfa85 location SRADO0XTRA # 10.3.21.63 # 15.6 Th/s # extra added 3/23/20
 637f46 location SRADO0XTRA # 10.3.23.38 # 15.6 Th/s # extra added 3/23/20
-66f88a location SRADO0XTRA # 10.0.54.40 # extra added 12/23/19
-24549d location SRADO0XTRA # 10.0.54.46 # extra added 12/12/19
 bfb0bc location SRADO0XTRA # 10.0.62.66 # extra added 12/23/19
 d427dd location SRADO0XTRA # 10.0.62.74 # extra added 12/12/19
 c5abf8 location SRADO0XTRA # 10.0.59.110 # extra added 12/12/19
@@ -165,7 +161,7 @@ c899a0 location SRADO0XTRA # 10.0.116.70 # extra added 12/12/19
 ## resets
 
 ## removals
-global remove 37923f,fb2a81
+global remove 37923f,fb2a81,66f88a,24549d
 
 ## VPS pubkey
 pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
