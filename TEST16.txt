@@ -179,32 +179,28 @@ df79d4 location RGUME00002 # 10.0.32.101
 c27ee4 location RGUME00003 # 10.0.32.102
 
 ## PKOKE0 (9 s9) hosting paused 5/19/20
-# vlan 10.0.54.133-133 # 17739c
-# vlan 10.0.54.134-134 # ae28ba # SCRAPPED 4/30/20
-# vlan 10.0.54.135-135 # f39f2b # SCRAPPED 4/30/20
-# vlan 10.0.56.8-8 # bcaed0
-# vlan 10.0.57.73-73 # bd9932
-# vlan 10.0.57.74-74 # 7ed10f
-# vlan 10.0.57.75-75 # 3bcc51
+vlan 10.0.58.70-70 # 62bdc8
 # vlan 10.0.58.127-127 # 2baaac
+vlan 10.0.58.133-133 # 2ecd51
+vlan 10.0.58.140-140 # 603f6f
+vlan 10.0.59.1-1 # d8a438
+vlan 10.0.59.18-18 # adb2fe
 # vlan 10.0.61.2-2 # e5ba90
-17739c location PKOKE00001 # 10.0.54.133
-# ae28ba location PKOKE00002 # 10.0.54.134 # SCRAPPED 4/30/20
-# f39f2b location PKOKE00003 # 10.0.54.135 # SCRAPPED 4/30/20
-bcaed0 location PKOKE00004 # 10.0.56.8
-bd9932 location PKOKE00005 # 10.0.57.73
-7ed10f location PKOKE00006 # 10.0.57.74
-3bcc51 location PKOKE00007 # 10.0.57.75
+62bdc8 location PKOKE00001 # 10.0.58.70
 2baaac location PKOKE00008 # 10.0.58.127
+2ecd51 location PKOKE00004 # 10.0.58.133
+603f6f location PKOKE00005 # 10.0.58.140
+d8a438 location PKOKE00006 # 10.0.59.1
+adb2fe location PKOKE00007 # 10.0.59.18
 e5ba90 location PKOKE00009 # 10.0.61.2
 
 ## ATHOM0 (40 s9) hosting paused 5/12/20
-vlan 10.0.61.6-6 # 27a7bc
-vlan 10.0.61.15-15 # 663078
-vlan 10.0.61.47-47 # 3cd09f
-vlan 10.0.61.52-52 # bff875
-vlan 10.0.61.63-63 # baefba
-vlan 10.0.61.65-65 # 804026
+# vlan 10.0.61.6-6 # 27a7bc
+# vlan 10.0.61.15-15 # 663078
+# vlan 10.0.61.47-47 # 3cd09f
+# vlan 10.0.61.52-52 # bff875
+# vlan 10.0.61.63-63 # baefba
+# vlan 10.0.61.65-65 # 804026
 # vlan 10.0.61.112-112 # 882711
 # vlan 10.0.61.135-135 # f5e0ce
 # vlan 10.0.61.145-145 # f56d20 # SCRAPPED 4/30/20
