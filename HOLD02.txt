@@ -36,157 +36,168 @@ global panelclear 999
 global reset 1584376725
 
 ## LMACK0 (100 s9)
-vlan 10.0.54.76-125
-vlan 10.0.63.76-76
-vlan 10.0.63.80-80
-vlan 10.0.63.96-96
-vlan 10.0.63.101-101
-vlan 10.0.63.109-109
-vlan 10.0.63.116-116
-vlan 10.0.63.127-127
-vlan 10.0.63.130-130
-vlan 10.0.63.131-131
-vlan 10.0.63.136-136
-vlan 10.0.63.137-137
-vlan 10.0.63.138-138
-vlan 10.0.63.139-139
-vlan 10.0.63.142-142
-vlan 10.0.63.155-155
-vlan 10.0.63.156-156
-vlan 10.0.63.157-157
-vlan 10.0.64.6-6
-vlan 10.0.64.13-13
-vlan 10.0.64.16-16
-vlan 10.0.64.17-17
-vlan 10.0.64.20-20
-vlan 10.0.64.30-30
-vlan 10.0.64.32-32
-vlan 10.0.64.35-35
-vlan 10.0.64.41-41
-vlan 10.0.64.67-67
-vlan 10.0.64.78-78
-vlan 10.0.64.89-89
-vlan 10.0.64.90-90
-vlan 10.0.64.91-91
-vlan 10.0.64.92-92
-vlan 10.0.64.103-103
-vlan 10.0.64.106-106
-vlan 10.0.64.117-117
-vlan 10.0.64.118-118
-vlan 10.0.64.119-119
-vlan 10.0.64.134-134
-vlan 10.0.64.136-136
-vlan 10.0.64.146-146
-vlan 10.0.64.161-161
-vlan 10.0.65.5-5
-vlan 10.0.65.10-10
-vlan 10.0.65.21-21
-vlan 10.0.65.32-32
-vlan 10.0.65.33-33
-vlan 10.0.65.41-41
-vlan 10.0.65.44-44
-vlan 10.0.65.46-46
-vlan 10.0.65.63-63
-b449ed location LMACK00001
-baa645 location LMACK00002
-98b693 location LMACK00003
-9cbaab location LMACK00004
-2f0c3e location LMACK00005
-811edf location LMACK00006
-e0fbc5 location LMACK00007
-f82c5a location LMACK00008
-ce7e25 location LMACK00009
-3631fd location LMACK00010
-68bff7 location LMACK00011
-28679c location LMACK00012
-95fe79 location LMACK00013
-340126 location LMACK00014
-4d47c4 location LMACK00015
-b3fa40 location LMACK00016
-09dacf location LMACK00017
-bf813c location LMACK00018
-7b29e7 location LMACK00019
-7a6f07 location LMACK00020
-a92994 location LMACK00021
-6bb076 location LMACK00022
-efd005 location LMACK00023
-a708a6 location LMACK00024
-0bfe76 location LMACK00025
-194a3d location LMACK00026
-f6ae2a location LMACK00027
-9d6e5b location LMACK00028
-ff507b location LMACK00029
-426735 location LMACK00030
-79af19 location LMACK00031
-3aa215 location LMACK00032
-5eb8bd location LMACK00033
-57fe8f location LMACK00034
-48e29f location LMACK00035
-9cbbc0 location LMACK00036
-7e61fb location LMACK00037
-945ac7 location LMACK00038
-49aa9f location LMACK00039
-fef436 location LMACK00040
-b8a2e8 location LMACK00041
-7ff846 location LMACK00042
-b4364f location LMACK00043
-372578 location LMACK00044
-da640f location LMACK00045
-6ecc5b location LMACK00046
-61a902 location LMACK00047
-13262a location LMACK00048
-59810a location LMACK00049
-604d36 location LMACK00050
-184ed5 location LMACK00051
-fdf9e1 location LMACK00052
-f3e559 location LMACK00053
-6d21ad location LMACK00054
-05eada location LMACK00055
-117c32 location LMACK00056
-1fc3d1 location LMACK00057
-8e17cd location LMACK00058
-eab061 location LMACK00059
-f8f4e5 location LMACK00060
-009b2a location LMACK00061
-612b06 location LMACK00062
-6f6bc5 location LMACK00063
-9b0eee location LMACK00064
-b362c2 location LMACK00065
-fa37c0 location LMACK00066
-c8f286 location LMACK00067
-01f0ee location LMACK00068
-aa901a location LMACK00069
-ccbf50 location LMACK00070
-ed31d1 location LMACK00071
-5d4be9 location LMACK00072
-32d8b5 location LMACK00073
-f0956e location LMACK00074
-8db22c location LMACK00075
-0e7df6 location LMACK00076
-06fcb0 location LMACK00077
-676c1a location LMACK00078
-ba4916 location LMACK00079
-9ac79a location LMACK00080
-5a0978 location LMACK00081
-6797cf location LMACK00082
-7c8c74 location LMACK00083
-671310 location LMACK00084
-90d215 location LMACK00085
-e29eef location LMACK00086
-f537f7 location LMACK00087
-84cc12 location LMACK00088
-9e9bff location LMACK00089
-638ba3 location LMACK00090
-f51c4d location LMACK00091
-233eab location LMACK00092
-d8ce86 location LMACK00093
-c807d9 location LMACK00094
-6ad3c0 location LMACK00095
-bae0d7 location LMACK00096
-4e22e3 location LMACK00097
-5ad8ba location LMACK00098
-0c44ff location LMACK00099
-d3cdf7 location LMACK00100
+vlan 10.3.21.1-1 # 32dd13
+vlan 10.3.21.2-2 # d11fae
+vlan 10.3.21.4-4 # 35f8d3
+vlan 10.3.21.5-5 # dd258c
+vlan 10.3.21.12-12 # 931826
+vlan 10.3.21.14-14 # 458508
+vlan 10.3.21.17-17 # 3241ed
+vlan 10.3.21.25-25 # 96aa30
+vlan 10.3.21.27-27 # a7b5ce
+vlan 10.3.21.28-28 # 83daec
+vlan 10.3.21.29-29 # ff3702
+vlan 10.3.21.34-34 # 156f39
+vlan 10.3.21.36-36 # c3ffd0
+vlan 10.3.21.37-37 # 8fdf36
+vlan 10.3.21.38-38 # 1dd296
+vlan 10.3.21.42-42 # ebfef0
+vlan 10.3.21.43-43 # c6558b
+vlan 10.3.21.45-45 # 736160
+vlan 10.3.21.47-47 # ffe40c
+vlan 10.3.21.48-48 # d190c8
+vlan 10.3.21.49-49 # 6bddf7
+vlan 10.3.21.52-52 # 306c92
+vlan 10.3.21.54-54 # 83d143
+vlan 10.3.21.56-56 # 0ebea3
+vlan 10.3.21.62-62 # 5d61db
+vlan 10.3.21.63-63 # 6bfa85
+vlan 10.3.21.64-64 # f3c641
+vlan 10.3.21.65-65 # 1599aa
+vlan 10.3.21.66-66 # 90b06e
+vlan 10.3.21.67-67 # cdcfc0
+vlan 10.3.21.68-68 # e45b18
+vlan 10.3.21.79-79 # c2a063
+vlan 10.3.21.81-81 # 3b2351
+vlan 10.3.21.86-86 # 75f914
+vlan 10.3.21.87-87 # 5db8fa
+vlan 10.3.21.88-88 # 2f15df
+vlan 10.3.21.89-89 # 1e78ac
+vlan 10.3.21.91-91 # 586985
+# vlan 10.0.63.76-76 # 184ed5
+# vlan 10.0.63.80-80 # fdf9e1
+# vlan 10.0.63.96-96 # f3e559
+# vlan 10.0.63.101-101 # 6d21ad
+# vlan 10.0.63.109-109 # 05eada
+# vlan 10.0.63.127-127 # 1fc3d1
+# vlan 10.0.63.136-136 # f8f4e5
+# vlan 10.0.63.138-138 # 612b06
+# vlan 10.0.63.139-139 # 6f6bc5
+# vlan 10.0.63.155-155 # b362c2
+# vlan 10.0.63.156-156 # fa37c0
+# vlan 10.0.63.157-157 # c8f286
+# vlan 10.0.64.6-6 # 01f0ee
+# vlan 10.0.64.13-13 # aa901a
+# vlan 10.0.64.16-16 # ccbf50
+# vlan 10.0.64.17-17 # ed31d1
+# vlan 10.0.64.20-20 # 5d4be9
+# vlan 10.0.64.30-30 # 32d8b5
+# vlan 10.0.64.32-32 # f0956e
+# vlan 10.0.64.35-35 # 8db22c
+# vlan 10.0.64.41-41 # 0e7df6
+# vlan 10.0.64.67-67 # 06fcb0
+# vlan 10.0.64.78-78 # 676c1a
+# vlan 10.0.64.89-89 # ba4916
+# vlan 10.0.64.90-90 # 9ac79a
+# vlan 10.0.64.91-91 # 5a0978
+# vlan 10.0.64.92-92 # 6797cf
+# vlan 10.0.64.103-103 # 7c8c74
+# vlan 10.0.64.106-106 # 671310
+# vlan 10.0.64.117-117 # 90d215
+# vlan 10.0.64.118-118 # e29eef
+# vlan 10.0.64.119-119 # f537f7
+# vlan 10.0.64.134-134 # 84cc12
+# vlan 10.0.64.161-161 # f51c4d
+# vlan 10.0.65.5-5 # 233eab
+# vlan 10.0.65.10-10 # d8ce86
+# vlan 10.0.65.21-21 # c807d9
+# vlan 10.0.65.32-32 # 6ad3c0
+# vlan 10.0.65.33-33 # bae0d7
+# vlan 10.0.65.41-41 # 4e22e3
+# vlan 10.0.65.44-44 # 5ad8ba
+# vlan 10.0.65.46-46 # 0c44ff
+# vlan 10.0.65.63-63 # d3cdf7
+32dd13 location LMACK00002 # 10.3.21.1
+d11fae location LMACK00006 # 10.3.21.2
+35f8d3 location LMACK00007 # 10.3.21.4
+dd258c location LMACK00008 # 10.3.21.5
+931826 location LMACK00009 # 10.3.21.12
+458508 location LMACK00010 # 10.3.21.14
+3241ed location LMACK00011 # 10.3.21.17
+96aa30 location LMACK00012 # 10.3.21.25
+a7b5ce location LMACK00014 # 10.3.21.27
+83daec location LMACK00015 # 10.3.21.28
+ff3702 location LMACK00016 # 10.3.21.29
+156f39 location LMACK00017 # 10.3.21.34
+c3ffd0 location LMACK00018 # 10.3.21.36
+8fdf36 location LMACK00019 # 10.3.21.37
+1dd296 location LMACK00020 # 10.3.21.38
+ebfef0 location LMACK00022 # 10.3.21.42
+c6558b location LMACK00025 # 10.3.21.43
+736160 location LMACK00026 # 10.3.21.45
+ffe40c location LMACK00027 # 10.3.21.47
+d190c8 location LMACK00029 # 10.3.21.48
+6bddf7 location LMACK00031 # 10.3.21.49
+306c92 location LMACK00032 # 10.3.21.52
+83d143 location LMACK00034 # 10.3.21.54
+0ebea3 location LMACK00035 # 10.3.21.56
+5d61db location LMACK00036 # 10.3.21.62
+6bfa85 location LMACK00037 # 10.3.21.63
+f3c641 location LMACK00038 # 10.3.21.64
+1599aa location LMACK00039 # 10.3.21.65
+90b06e location LMACK00040 # 10.3.21.66
+cdcfc0 location LMACK00041 # 10.3.21.67
+e45b18 location LMACK00042 # 10.3.21.68
+c2a063 location LMACK00043 # 10.3.21.79
+3b2351 location LMACK00044 # 10.3.21.81
+75f914 location LMACK00045 # 10.3.21.86
+5db8fa location LMACK00047 # 10.3.21.87
+2f15df location LMACK00048 # 10.3.21.88
+1e78ac location LMACK00049 # 10.3.21.89
+586985 location LMACK00050 # 10.3.21.91
+184ed5 location LMACK00051 # 10.0.63.76
+fdf9e1 location LMACK00052 # 10.0.63.80
+f3e559 location LMACK00053 # 10.0.63.96
+6d21ad location LMACK00054 # 10.0.63.101
+05eada location LMACK00055 # 10.0.63.109
+1fc3d1 location LMACK00057 # 10.0.63.127
+f8f4e5 location LMACK00060 # 10.0.63.136
+612b06 location LMACK00062 # 10.0.63.138
+6f6bc5 location LMACK00063 # 10.0.63.139
+b362c2 location LMACK00065 # 10.0.63.155
+fa37c0 location LMACK00066 # 10.0.63.156
+c8f286 location LMACK00067 # 10.0.63.157
+01f0ee location LMACK00068 # 10.0.64.6
+aa901a location LMACK00069 # 10.0.64.13
+ccbf50 location LMACK00070 # 10.0.64.16
+ed31d1 location LMACK00071 # 10.0.64.17
+5d4be9 location LMACK00072 # 10.0.64.20
+32d8b5 location LMACK00073 # 10.0.64.30
+f0956e location LMACK00074 # 10.0.64.32
+8db22c location LMACK00075 # 10.0.64.35
+0e7df6 location LMACK00076 # 10.0.64.41
+06fcb0 location LMACK00077 # 10.0.64.67
+676c1a location LMACK00078 # 10.0.64.78
+ba4916 location LMACK00079 # 10.0.64.89
+9ac79a location LMACK00080 # 10.0.64.90
+5a0978 location LMACK00081 # 10.0.64.91
+6797cf location LMACK00082 # 10.0.64.92
+7c8c74 location LMACK00083 # 10.0.64.103
+671310 location LMACK00084 # 10.0.64.106
+90d215 location LMACK00085 # 10.0.64.117
+e29eef location LMACK00086 # 10.0.64.118
+f537f7 location LMACK00087 # 10.0.64.119
+84cc12 location LMACK00088 # 10.0.64.134
+f51c4d location LMACK00091 # 10.0.64.161
+233eab location LMACK00092 # 10.0.65.5
+d8ce86 location LMACK00093 # 10.0.65.10
+c807d9 location LMACK00094 # 10.0.65.21
+6ad3c0 location LMACK00095 # 10.0.65.32
+bae0d7 location LMACK00096 # 10.0.65.33
+4e22e3 location LMACK00097 # 10.0.65.41
+5ad8ba location LMACK00098 # 10.0.65.44
+0c44ff location LMACK00099 # 10.0.65.46
+d3cdf7 location LMACK00100 # 10.0.65.63
 
 ## tuning
 13262a uncork 1585347933
