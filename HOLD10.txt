@@ -37,26 +37,20 @@ global panelclear 999
 # global reset 1
 
 ## CLOUI0 (10 s9s) 5/1/20
-vlan 10.0.54.49-49 # 2b7bed
-vlan 10.0.54.50-50 # 1a1611
-vlan 10.0.54.51-51 # bf9f18
-vlan 10.0.54.52-52 # 6d0544
-vlan 10.0.54.53-53 # 3a0cc0
-# vlan 10.0.54.54-54 # 49ba28 # BROKEN,DISASSEMBLED 04/21/2020 07:31 AM
-vlan 10.0.54.55-55 # e2c89b
-vlan 10.0.54.56-56 # f60679
-vlan 10.0.54.57-57 # df94bd
-vlan 10.0.54.58-58 # 6cb55b
-2b7bed location CLOUI00001 # 10.0.54.49
-1a1611 location CLOUI00002 # 10.0.54.50
-bf9f18 location CLOUI00003 # 10.0.54.51
-6d0544 location CLOUI00004 # 10.0.54.52
-3a0cc0 location CLOUI00005 # 10.0.54.53
-# 49ba28 location CLOUI00006 # 10.0.54.54 # BROKEN,DISASSEMBLED 04/21/2020 07:31 AM
-e2c89b location CLOUI00007 # 10.0.54.55
-f60679 location CLOUI00008 # 10.0.54.56
-df94bd location CLOUI00009 # 10.0.54.57
-6cb55b location CLOUI00010 # 10.0.54.58
+vlan 10.3.21.111-111 # 01507b
+vlan 10.3.21.112-112 # be8e6c
+vlan 10.3.21.113-113 # 7ff9a3
+vlan 10.3.21.114-114 # 94a97e
+vlan 10.3.21.116-116 # a0586c
+vlan 10.3.21.117-117 # e566c2
+vlan 10.3.21.119-119 # da000d
+01507b location CLOUI00002 # 10.3.21.111
+be8e6c location CLOUI00003 # 10.3.21.112
+7ff9a3 location CLOUI00004 # 10.3.21.113
+94a97e location CLOUI00005 # 10.3.21.114
+a0586c location CLOUI00007 # 10.3.21.116
+e566c2 location CLOUI00008 # 10.3.21.117
+da000d location CLOUI00009 # 10.3.21.119
 
 ## asic password
 asicpass admin
