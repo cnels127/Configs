@@ -34,7 +34,13 @@ global uncork 1588686518
 # global reset 1580151563
 
 ### XTRA MACHINE RETURN ###
-vlan 10.0.54.77-125
+vlan 10.0.54.50-50 # 1a1611
+vlan 10.0.54.51-51 # bf9f18
+vlan 10.0.54.52-52 # 6d0544
+vlan 10.0.54.53-53 # 3a0cc0
+vlan 10.0.54.55-55 # e2c89b
+vlan 10.0.54.56-56 # f60679
+vlan 10.0.54.57-57 # df94bd
 
 ### UNINSTALLATION ###
 
