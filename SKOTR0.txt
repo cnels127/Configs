@@ -41,14 +41,12 @@ vlan 10.0.56.144-144 # 6dd1ab
 vlan 10.0.58.136-136 # 6c2948
 vlan 10.0.60.155-155 # 031368
 vlan 10.0.61.17-17 # f5417d
-vlan 10.0.50.125-125 # 5aee19 # 14.8 Th/s # extra added 3/9/20
 
 ## locations
 6dd1ab location SKOTR00001 # 10.0.56.144
 6c2948 location SKOTR00002 # 10.0.58.136
 031368 location SKOTR00003 # 10.0.60.155
 f5417d location SKOTR00004 # 10.0.61.17
-5aee19 location SKOTR0XTRA # 10.0.50.125 # 14.8 Th/s # extra added 3/9/20
 
 ## tuning
 
@@ -61,7 +59,7 @@ f5417d location SKOTR00004 # 10.0.61.17
 ## resets
 
 ## removals
-global remove d9dc85,132edf
+global remove d9dc85,132edf,5aee19
 
 ## VPS pubkey
 pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
