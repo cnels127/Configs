@@ -45,12 +45,9 @@ vlan 10.0.67.20-20 # 4363d5
 vlan 10.0.115.32-32 # cee4db
 vlan 10.0.115.44-44 # 445700
 vlan 10.0.115.63-63 # cc8999
-vlan 10.0.120.65-65 # 7462ce
+# vlan 10.0.120.65-65 # 7462ce # SCRAPPED 5/22/20
 # vlan 10.0.67.153-153 # 133b75 # SCRAPPED 5/6/20
 # vlan 10.0.67.107-107 # cc96e4 # SCRAPPED 4/24/20
-vlan 10.3.22.73-73 # 0ae4fc # 15.5 Th/s # extra added 3/23/20
-vlan 10.3.22.95-95 # 807662 # 15.5 Th/s # extra added 3/23/20
-vlan 10.3.23.78-78 # cb20e4 # 15.5 Th/s # extra added 3/23/20
 
 ## locations
 ea3cd1 location SCOST00001 # 10.0.56.118
@@ -60,12 +57,9 @@ a43fe6 location SCOST00002 # 10.0.56.125
 cee4db location SCOST00005 # 10.0.115.32
 445700 location SCOST00006 # 10.0.115.44
 cc8999 location SCOST00007 # 10.0.115.63
-7462ce location SCOST00008 # 10.0.120.65
-# 133b75 location SCOST00009 # SCRAPPED 5/6/20
-# cc96e4 location SCOST00010 # SCRAPPED 4/24/20
-cb20e4 location SCOST0XTRA # 10.3.23.78 # 15.5 Th/s # extra added 3/23/20
-0ae4fc location SCOST0XTRA # 10.3.22.73 # 15.5 Th/s # extra added 3/23/20
-807662 location SCOST0XTRA # 10.3.22.95 # 15.5 Th/s # extra added 3/23/20
+# 7462ce location SCOST00008 # 10.0.120.65 # SCRAPPED 5/22/20
+# 133b75 location SCOST00009 # 10.0.67.153 # SCRAPPED 5/6/20
+# cc96e4 location SCOST00010 # 10.0.57.107 # SCRAPPED 4/24/20
 
 ## tuning
 
@@ -79,7 +73,7 @@ cb20e4 location SCOST0XTRA # 10.3.23.78 # 15.5 Th/s # extra added 3/23/20
 445700 reset 1591017306
 
 ## removals
-global remove 9b4848,753f7e,a4164a,35f34a
+global remove 9b4848,753f7e,a4164a,35f34a,cb20e4,0ae4fc,807662
 
 ## VPS pubkey
 pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
