@@ -38,21 +38,21 @@ global uncork 1576117811
 # global reset 1
 
 ## vlans
-vlan 10.0.54.155-155 # 1667e2
-vlan 10.0.54.156-156 # e7a422
-vlan 10.0.62.101-101 # 468aaf
-vlan 10.0.54.158-158 # 0747e2
-vlan 10.0.54.159-159 # 356422
+vlan 10.0.55.2-2 # 9a204a
+vlan 10.0.55.3-3 # 4c1b54
+vlan 10.0.55.4-4 # 9da716
+vlan 10.0.55.5-5 # 09cad2
+# vlan 10.0.54.159-159 # 356422 # SCRAPPED
 vlan 10.0.58.18-18 # 179168
 vlan 10.0.58.25-25 # 54750e
 vlan 10.0.58.27-27 # 056415
 
 ## locations
-1667e2 location DBELT00001 # 10.0.54.155
-e7a422 location DBELT00002 # 10.0.54.156
-468aaf location DBELT00003 # 10.0.62.101
-0747e2 location DBELT00004 # 10.0.54.158
-356422 location DBELT00005 # 10.0.54.159
+9a204a location DBELT00001 # 10.0.55.2
+4c1b54 location DBELT00002 # 10.0.55.3
+9da716 location DBELT00003 # 10.0.55.4
+09cad2 location DBELT00004 # 10.0.55.5
+# 356422 location DBELT00005 # 10.0.54.159 # SCRAPPED
 179168 location DBELT00006 # 10.0.58.18
 54750e location DBELT00007 # 10.0.58.25
 056415 location DBELT00008 # 10.0.58.27
@@ -72,7 +72,7 @@ b5c0ce reset 1588774526
 0747e2 reset 1589058304
 
 ## removals
-global remove bfbee3,33c1ae,11aa26,b5c0ce
+global remove bfbee3,33c1ae,11aa26,b5c0ce,1667e2,e7a422,468aaf,0747e2
 
 ## VPS pubkey
 pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
