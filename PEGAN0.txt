@@ -41,7 +41,7 @@ global uncork 1589045626
 # global reset 1574961848
 
 ## vlans
-vlan 10.0.54.154-154 # 5a3dde
+vlan 10.0.55.1-1 # 14da93
 vlan 10.0.62.27-27 # 63f1ab
 vlan 10.0.115.21-21 # 6c96dd
 vlan 10.0.115.96-96 # 9a258b
@@ -54,7 +54,7 @@ vlan 10.0.119.52-52 # 4900fd
 vlan 10.0.120.92-92 # f1ae88
 
 ## locations
-5a3dde location PEGAN00001 # 10.0.54.154
+14da93 location PEGAN00001 # 10.0.55.1
 63f1ab location PEGAN00002 # 10.0.62.27
 6c96dd location PEGAN00003 # 10.0.115.21
 9a258b location PEGAN00004 # 10.0.115.96
@@ -77,7 +77,7 @@ f1ae88 location PEGAN00011 # 10.0.120.92
 ## resets
 
 ## removals
-global remove 45099f,0884bf,bbf6ce,1a4852,e1a2b1,7bb0bc,52a31b,870cd5,309322,8883eb,053bf9,ad8ef4,91b329,94587a,996b7a
+global remove 45099f,0884bf,bbf6ce,1a4852,e1a2b1,7bb0bc,52a31b,870cd5,309322,8883eb,053bf9,ad8ef4,91b329,94587a,996b7a,5a3dde
 
 ## VPS pubkey
 pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
