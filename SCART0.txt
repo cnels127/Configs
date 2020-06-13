@@ -65,7 +65,7 @@ vlan 10.3.21.7-7 # 363997
 vlan 10.3.21.53-53 # 5af11a
 vlan 10.3.21.13-13 # 0cc841
 vlan 10.3.21.16-16 # 047af0
-vlan 10.0.32.161-161 # 548bcf
+vlan 10.0.50.9-9 # c686a3
 vlan 10.3.22.96-96 # 4508c7
 vlan 10.3.22.91-91 # 27a764
 vlan 10.3.22.76-76 # 9b8b73
@@ -100,8 +100,8 @@ vlan 10.3.22.47-47 # 0765c2
 vlan 10.3.21.6-6 # b216a0
 vlan 10.3.22.36-36 # 716735
 vlan 10.3.22.52-52 # f4e6f5
-vlan 10.0.32.157-157 # dd2856
-vlan 10.0.32.111-111 # 9b586c
+vlan 10.0.50.13-13 # 811205
+vlan 10.0.50.15-15 # b45f14
 vlan 10.3.21.3-3 # ab0151
 vlan 10.3.22.42-42 # 963eab
 vlan 10.3.21.23-23 # 2fe5c2
@@ -179,13 +179,6 @@ vlan 10.0.118.66-66 # 48e23e
 vlan 10.0.118.70-70 # 915c04
 vlan 10.0.120.158-158 # c99d5c
 vlan 10.0.121.29-29 # 63f265
-vlan 10.0.50.103-103 # 1e46a9 # extra added 3/9/20 # 10.2 Th/s
-vlan 10.0.50.156-156 # c9cde9 # extra added 3/9/20 # 10.4 Th/s
-vlan 10.0.55.10-10 # 2f6e4f # extra added 3/9/20 # 10.4 Th/s
-vlan 10.0.55.55-55 # e31aef # extra added 3/9/20 # 10.3 Th/s
-vlan 10.0.60.10-10 # 309322 # extra added 3/9/20 # 10.3 Th/s
-vlan 10.3.22.19-19 # 25ff97 # extra added 3/9/20 # 10.3 Th/s
-vlan 10.3.23.12-12 # 3844aa # extra added 3/9/20 # 10.3 Th/s
 
 ## locations
 28f489 location SCART00001 # 10.3.23.18
@@ -216,7 +209,7 @@ ff7d35 location SCART00020 # 10.3.22.39
 5af11a location SCART00026 # 10.3.21.53
 0cc841 location SCART00027 # 10.3.21.13
 047af0 location SCART00028 # 10.3.21.16
-548bcf location SCART00029 # 10.0.32.161
+c686a3 location SCART00029 # 10.0.50.9
 4508c7 location SCART00030 # 10.3.22.96
 27a764 location SCART00031 # 10.3.22.91
 9b8b73 location SCART00032 # 10.3.22.76
@@ -251,8 +244,8 @@ a5d526 location SCART00057 # 10.3.22.8
 b216a0 location SCART00061 # 10.3.21.6
 716735 location SCART00062 # 10.3.22.36
 f4e6f5 location SCART00063 # 10.3.22.52
-dd2856 location SCART00064 # 10.0.32.157
-9b586c location SCART00065 # 10.0.32.111
+811205 location SCART00064 # 10.0.50.13
+b45f14 location SCART00065 # 10.0.50.15
 ab0151 location SCART00066 # 10.3.21.3
 963eab location SCART00067 # 10.3.22.42
 2fe5c2 location SCART00068 # 10.3.21.23
@@ -330,13 +323,7 @@ cab11f location SCART00138 # 10.0.117.97
 915c04 location SCART00140 # 10.0.118.70
 c99d5c location SCART00141 # 10.0.120.158
 63f265 location SCART00142 # 10.0.121.29
-1e46a9 location SCART0XTRA # 10.0.50.103 # extra added 3/9/20 # 10.2 Th/s
-c9cde9 location SCART0XTRA # 10.0.50.156 # extra added 3/9/20 # 10.4 Th/s
-2f6e4f location SCART0XTRA # 10.0.55.10 # extra added 3/9/20 # 10.4 Th/s
-e31aef location SCART0XTRA # 10.0.55.55 # extra added 3/9/20 # 10.3 Th/s
-309322 location SCART0XTRA # 10.0.60.10 # extra added 3/9/20 # 10.3 Th/s
-25ff97 location SCART0XTRA # 10.3.22.19 # extra added 3/9/20 # 10.3 Th/s
-3844aa location SCART0XTRA # 10.3.23.12 # extra added 3/9/20 # 10.3 Th/s
+
 
 ## tuning
 
@@ -353,7 +340,7 @@ d095a0 reset 1591373529
 c9b5e7 reset 1591373529
 
 ## removals
-global remove 08c581
+global remove 08c581,1e46a9,c9cde9,2f6e4f,e31aef,309322,25ff97,3844aa,9b586c,dd2856,548bcf
 
 ## VPS pubkey
 pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
