@@ -39,7 +39,7 @@ global uncork 1589053882
 ## vlans
 vlan 10.0.55.6-6 # 5dea94
 vlan 10.0.55.7-7 # e35f32
-vlan 10.0.57.129-129 # 1506ab
+vlan 10.0.56.119-119 # 4cbbff
 vlan 10.0.57.134-134 # 174232
 vlan 10.0.57.142-142 # 679e5d
 vlan 10.0.57.143-143 # 636f5f
@@ -51,7 +51,7 @@ vlan 10.0.58.26-26 # 55019f
 ## locations
 5dea94 location RANDE00001 # 10.0.55.6
 e35f32 location RANDE00002 # 10.0.55.7
-1506ab location RANDE00003 # 10.0.57.129
+4cbbff location RANDE00003 # 10.0.56.119
 174232 location RANDE00004 # 10.0.57.134
 679e5d location RANDE00005 # 10.0.57.142
 636f5f location RANDE00006 # 10.0.57.143
@@ -71,7 +71,7 @@ a016c1 location RANDE00009 # 10.0.58.23
 ## resets
 
 ## removals
-global remove 99187c,6c69d7
+global remove 99187c,6c69d7,1506ab
 
 ## VPS pubkey
 pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
