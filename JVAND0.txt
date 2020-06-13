@@ -37,11 +37,11 @@ global panelclear 999
 # global reset 1
 
 ## vlans
-vlan 10.0.54.59-59 # 39e026
-vlan 10.0.54.60-60 # 68a150
-vlan 10.0.54.61-61 # 33afb1
-vlan 10.0.54.62-62 # df8f8f
-vlan 10.0.54.63-63 # ac6001
+vlan 10.0.59.52-52 # ff488e
+vlan 10.0.59.54-54 # 8a804d
+vlan 10.0.59.64-64 # fecc4d
+vlan 10.0.59.66-66 # 3cd7e0
+vlan 10.0.59.73-73 # f24571
 vlan 10.0.59.78-78 # 8dd5c8
 vlan 10.0.66.36-36 # 54bcb8
 vlan 10.0.66.155-155 # 994f74
@@ -117,26 +117,13 @@ vlan 10.0.121.92-92 # beb772
 vlan 10.0.121.96-96 # b35ae4
 vlan 10.0.121.100-100 # 5047c0
 vlan 10.0.121.103-103 # 8d9cd3
-vlan 10.0.61.15-15 # 663078 # extra added 12/12/19
-vlan 10.0.62.41-41 # aee689 # extra added 12/12/19
-vlan 10.0.62.43-43 # d81df4 # extra added 12/12/19
-vlan 10.0.62.45-45 # ab6a45 # extra added 12/12/19
-vlan 10.0.62.69-69 # 5b475d # extra added 12/12/19
-vlan 10.0.62.70-70 # 892d41 # extra added 12/12/19
-vlan 10.0.62.73-73 # 0ca5a4 # extra added 12/12/19
-vlan 10.0.67.101-101 # b7b010 # extra added 12/12/19
-vlan 10.0.77.18-18 # 52a8ec # extra added 12/12/19
-vlan 10.0.77.50-50 # 386a2e # extra added 12/12/19
-vlan 10.0.77.71-71 # 9b8580 # extra added 12/12/19
-vlan 10.0.77.148-148 # ed783e # extra added 12/12/19
-vlan 10.0.115.67-67 # ae4cbd # extra added 12/12/19
 
 ## locations
-39e026 location JVAND00001 # 10.0.54.59
-68a150 location JVAND00002 # 10.0.54.60
-33afb1 location JVAND00003 # 10.0.54.61
-df8f8f location JVAND00004 # 10.0.54.62
-ac6001 location JVAND00005 # 10.0.54.63
+ff488e location JVAND00001 # 10.0.59.52
+8a804d location JVAND00002 # 10.0.59.54
+fecc4d location JVAND00003 # 10.0.59.64
+3cd7e0 location JVAND00004 # 10.0.59.66
+f24571 location JVAND00005 # 10.0.59.73
 8dd5c8 location JVAND00006 # 10.0.59.78
 54bcb8 location JVAND00007 # 10.0.66.36
 994f74 location JVAND00008 # 10.0.66.155
@@ -212,19 +199,6 @@ beb772 location JVAND00077 # 10.0.121.92
 b35ae4 location JVAND00078 # 10.0.121.96
 5047c0 location JVAND00079 # 10.0.121.100
 8d9cd3 location JVAND00080 # 10.0.121.103
-663078 location JVAND0XTRA # 10.0.61.15 # extra added 12/12/19
-aee689 location JVAND0XTRA # 10.0.62.41 # extra added 12/12/19
-d81df4 location JVAND0XTRA # 10.0.62.43 # extra added 12/12/19
-ab6a45 location JVAND0XTRA # 10.0.62.45 # extra added 12/12/19
-5b475d location JVAND0XTRA # 10.0.62.69 # extra added 12/12/19
-892d41 location JVAND0XTRA # 10.0.62.70 # extra added 12/12/19
-0ca5a4 location JVAND0XTRA # 10.0.62.73 # extra added 12/12/19
-b7b010 location JVAND0XTRA # 10.0.67.101 # extra added 12/12/19
-52a8ec location JVAND0XTRA # 10.0.77.18 # extra added 12/12/19
-386a2e location JVAND0XTRA # 10.0.77.50 # extra added 12/12/19
-9b8580 location JVAND0XTRA # 10.0.77.71 # extra added 12/12/19
-ed783e location JVAND0XTRA # 10.0.77.148 # extra added 12/12/19
-ae4cbd location JVAND0XTRA # 10.0.115.67 # extra added 12/12/19
 
 ## tuning
 
@@ -242,7 +216,7 @@ d239b0 reset 1591017306
 189393 reset 1591017306
 
 ## removals
-global remove 7ef3f6,061acb,56a397,ac4842
+global remove 7ef3f6,061acb,56a397,ac4842,663078,aee689,d81df4,ab6a45,5b475d,892d41,0ca5a4,b7b010,52a8ec,386a2e,9b8580,ed783e,ae4cbd,39e026,68a150,33afb1,df8f8f,ac6001
 
 ## VPS pubkey
 pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
