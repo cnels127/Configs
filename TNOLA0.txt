@@ -35,18 +35,18 @@ global panelclear 999
 # global reset 1
 
 ## vlans
-vlan 10.0.57.76-76 # eaab57
-vlan 10.0.57.77-77 # f7deb6
-vlan 10.0.57.78-78 # 9e6254
-vlan 10.0.57.79-79 # 8bbd8a
-vlan 10.0.57.80-80 # be162a
+vlan 10.0.62.70-70 # 892d41
+vlan 10.0.62.72-72 # 23178f
+vlan 10.0.62.73-73 # 0ca5a4
+vlan 10.0.62.74-74 # d427dd
+vlan 10.0.62.75-75 # 31940f
 
 ## locations
-eaab57 location TNOLA00001 # 10.0.57.76
-f7deb6 location TNOLA00002 # 10.0.57.77
-9e6254 location TNOLA00003 # 10.0.57.78
-8bbd8a location TNOLA00004 # 10.0.57.79
-be162a location TNOLA00005 # 10.0.57.80
+892d41 location TNOLA00001 # 10.0.62.70
+23178f location TNOLA00002 # 10.0.62.72
+0ca5a4 location TNOLA00003 # 10.0.62.73
+d427dd location TNOLA00004 # 10.0.62.74
+31940f location TNOLA00005 # 10.0.62.75
 
 ## tuning
 
@@ -59,7 +59,7 @@ be162a location TNOLA00005 # 10.0.57.80
 ## resets
 
 ## removals
-global remove ee64d3,89b85e,94a3c3
+global remove ee64d3,89b85e,94a3c3,eaab57,f7deb6,9e6254,8bbd8a,be162a
 
 ## VPS pubkey
 pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
