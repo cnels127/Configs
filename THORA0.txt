@@ -39,15 +39,15 @@ global panelclear 999
 # global reset 1574289491
 
 ## vlans
-vlan 10.0.57.114-114 # b0c57f
-vlan 10.0.57.117-117 # 6f161e
-vlan 10.0.57.119-119 # ad13e2
-vlan 10.0.57.121-121 # 2a8e96
-vlan 10.0.57.122-122 # 6904ea
-vlan 10.0.57.123-123 # 5621cd
-vlan 10.0.57.124-124 # 2bf22d
-vlan 10.0.57.125-125 # 6a116f
-vlan 10.0.57.126-126 # 7a4c7c
+vlan 10.0.50.133-133 # 47bcc8
+vlan 10.0.50.138-138 # b6bb9b
+vlan 10.0.50.142-142 # 4a16a7
+vlan 10.0.50.146-146 # 910fab
+vlan 10.0.50.152-152 # 3f52a2
+vlan 10.0.50.157-157 # 26b110
+vlan 10.0.50.158-158 # deee7c
+vlan 10.0.50.159-159 # a1c1cb
+vlan 10.0.50.160-160 # 0a2190
 # vlan 10.0.57.87-87 # 0ef8df # SCRAPPED 3/29/20
 # vlan 10.0.57.152-152 # b042b3
 # vlan 10.0.57.154-154 # 658700 # SCRAPPED 5/27/20
@@ -56,15 +56,15 @@ vlan 10.0.57.126-126 # 7a4c7c
 # vlan 10.0.58.12-12 # 13d4e9 # SCRAPPED 5/27/20
 
 ## locations
-b0c57f location THORA00001 # 10.0.57.114
-6f161e location THORA00002 # 10.0.57.117
-ad13e2 location THORA00003 # 10.0.57.119
-2a8e96 location THORA00004 # 10.0.57.121
-6904ea location THORA00005 # 10.0.57.122
-5621cd location THORA00006 # 10.0.57.123
-2bf22d location THORA00007 # 10.0.57.124
-6a116f location THORA00008 # 10.0.57.125
-7a4c7c location THORA00009 # 10.0.57.126
+47bcc8 location THORA00001 # 10.0.50.133
+b6bb9b location THORA00002 # 10.0.50.138
+4a16a7 location THORA00003 # 10.0.50.142
+910fab location THORA00004 # 10.0.50.146
+3f52a2 location THORA00005 # 10.0.50.152
+26b110 location THORA00006 # 10.0.50.157
+deee7c location THORA00007 # 10.0.50.158
+a1c1cb location THORA00008 # 10.0.50.159
+0a2190 location THORA00009 # 10.0.50.160
 # 0ef8df location THORA00010 # 10.0.57.87 # SCRAPPED 5/21/20
 b042b3 location THORA00011 # 10.0.57.152
 # 658700 location THORA00012 # 10.0.57.154 # SCRAPPED 5/27/20
@@ -84,7 +84,7 @@ f764a5 location THORA00014 # 10.0.58.11
 b042b3 reset 1591017306
 
 ## removals
-global remove 7abb56,5a95dc,9d0c9f,dd58ae,c5e28a,dad66c,f04b81,b916a9,457c65,056132,456621,981c8f,c38cc0,190eef,815cec,e3240c
+global remove 7abb56,5a95dc,9d0c9f,dd58ae,c5e28a,dad66c,f04b81,b916a9,457c65,056132,456621,981c8f,c38cc0,190eef,815cec,e3240c,b0c57f,6f161e,ad13e2,2a8e96,6904ea,5621cd,2bf22d,6a116f,7a4c7c
 
 ## VPS pubkey
 pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
