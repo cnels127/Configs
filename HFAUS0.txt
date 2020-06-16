@@ -33,7 +33,7 @@ global panelclear 999
 
 # global retune 1
 # global reboot 1
-global uncork 1574921337
+global uncork 1592346360
 # global reset 1573933663
 
 ## vlans
@@ -52,16 +52,6 @@ vlan 10.0.65.112-112 # fe7105
 # vlan 10.0.59.161-161 # d51a5c # POWERED DOWN - NO WORKING HASHBOARDS
 # vlan 10.0.64.104-104 # f3c9af # POWERED DOWN - NO WORKING HASHBOARDS
 # vlan 10.0.64.70-70 # 11d430 # POWERED DOWN - NO WORKING HASHBOARDS
-vlan 10.3.22.12-12 # 9813c6 # extra added 3/7/20
-vlan 10.0.50.104-104 # ac0008 # extra added 3/7/20
-vlan 10.0.55.13-13 # 3ca1f0 # extra added 3/7/20
-vlan 10.0.55.26-26 # 930d98 # extra added 3/7/20
-vlan 10.0.55.48-48 # ed5948 # extra added 3/7/20
-vlan 10.0.115.91-91 # 3e769e # extra added 1/28/20
-vlan 10.0.121.39-39 # 0365f7 # extra added 1/28/20
-vlan 10.0.117.108-108 # bc8e6c # extra added 1/28/20
-vlan 10.0.119.24-24 # f8bd59 # extra added 12/26/19
-vlan 10.0.119.25-25 # ee1c21  # extra added 1/28/20
 
 ## locations
 a7fca0 location HFAUS00001 # 10.0.62.37
@@ -79,16 +69,6 @@ fe7105 location HFAUS00010 # 10.0.65.112
 # d51a5c location HFAUS00011 # POWERED DOWN - NO WORKING HASHBOARDS
 # f3c9af location HFAUS00012 # POWERED DOWN - NO WORKING HASHBOARDS
 # 11d430 location HFAUS00013 # POWERED DOWN - NO WORKING HASHBOARDS
-9813c6 location HFAUS0XTRA # 10.0.30.94 # extra added 3/7/20 # 15.7 Th/s
-ac0008 location HFAUS0XTRA # 10.0.50.104 # extra added 3/7/20 # 15.8 Th/s
-3ca1f0 location HFAUS0XTRA # 10.0.55.13 # extra added 3/7/20 # 15.8 Th/s
-930d98 location HFAUS0XTRA # 10.0.55.26 # extra added 3/7/20 # 15.9 Th/s
-ed5948 location HFAUS0XTRA # 10.0.55.48 # extra added 3/7/20 # 15.8 Th/s
-3e769e location HFAUS0XTRA # 10.0.115.91 # extra added 1/28/20
-0365f7 location HFAUS0XTRA # 10.0.121.39 # extra added 1/28/20
-bc8e6c location HFAUS0XTRA # 10.0.68.80 # extra added 1/28/20
-f8bd59 location HFAUS0XTRA # 10.0.119.24 # extra added 12/26/19
-ee1c21 location HFAUS0XTRA # 10.0.119.25 # extra added 1/28/20
 
 ## tuning
 
@@ -102,7 +82,7 @@ ee1c21 location HFAUS0XTRA # 10.0.119.25 # extra added 1/28/20
 f3bb3d reset 1591017306
 
 ## removals
-global remove a3883c,a072b9,d51a5c,f3c9af,11d430,79293a,8f4a03,27a545,5d25fd,3cd509,f8bd59
+global remove a3883c,a072b9,d51a5c,f3c9af,11d430,79293a,8f4a03,27a545,5d25fd,3cd509,f8bd59,930d98,ee1c21,ac0008,3ca1f0,0365f7,bc8e6c,ed5948,3e769e,9813c6
 
 ## VPS pubkey
 pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
