@@ -38,15 +38,11 @@ global panelclear 999
 # vlan 10.0.63.91-91 # bdc4b8 # POWERED DOWN - NO WORKING HASHBOARDS
 vlan 10.0.66.162-162
 # vlan 10.0.67.82-82 # POWERED DOWN - NO WORKING HASHBOARDS
-vlan 10.0.66.39-39 # f85611 # extra to replace 10.0.53.157 # 15.9 Th/s
-vlan 10.0.66.123-123 # 00e768 # extra to replace 10.0.56.41 # 16.1 Th/s
 
 ## locations
 # bdc4b8 location DWINL00001 # 10.0.63.91 # POWERED DOWN - NO WORKING HASHBOARDS
 764024 location DWINL00002 # 10.0.66.162
 # c8aece location DWINL00003 # 10.0.67.82 # POWERED DOWN - NO WORKING HASHBOARDS
-f85611 location DWINL0XTRA # 10.0.66.39 # extra to replace 10.0.53.157 # 15.9 Th/s
-00e768 location DWINL0XTRA # 10.0.66.123 # extra to replace 10.0.56.41 # 16.1 Th/s
 
 ## tuning
 
@@ -59,7 +55,7 @@ f85611 location DWINL0XTRA # 10.0.66.39 # extra to replace 10.0.53.157 # 15.9 Th
 ## resets
 
 ## removals
-global remove 5351fb,271937,13b57d
+global remove 5351fb,271937,13b57d,f85611,00e768
 
 ## VPS pubkey
 pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
