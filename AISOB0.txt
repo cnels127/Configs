@@ -41,10 +41,6 @@ vlan 10.0.115.17-17 # 48080d
 vlan 10.0.115.94-94 # ef873d
 # vlan 10.0.116.48-48 # 7f4b2c # POWERED DOWN - NO WORKING HASHBOARDS
 vlan 10.0.119.45-45 # 138188
-# extra machines
-vlan 10.0.50.9-9 # c686a3
-vlan 10.0.77.7-7 # 62c02a
-vlan 10.0.121.26-26 # 112bcf
 
 ## locations
 6db0b2 location AISOB00001 # 10.0.58.157
@@ -53,10 +49,6 @@ e03581 location AISOB00002 # 10.0.64.72
 ef873d location AISOB00004 # 10.0.115.94
 # 7f4b2c location AISOB00005 # 10.0.116.48 # POWERED DOWN - NO WORKING HASHBOARDS
 138188 location AISOB00006 # 10.0.119.45
-# extra machines
-c686a3 location AISOB0XTRA # 10.0.50.9
-62c02a location AISOB0XTRA # 10.0.77.7
-112bcf location AISOB0XTRA # 10.0.121.26
 
 ## throttle
 138188 uncork 1589057277
@@ -70,7 +62,7 @@ c686a3 location AISOB0XTRA # 10.0.50.9
 ## resets
 
 ## removals
-global remove b6d960
+global remove b6d960,62c02a,112bcf,c686a3
 
 ## VPS pubkey
 pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
