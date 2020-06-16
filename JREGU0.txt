@@ -1,5 +1,4 @@
-## instructions available at: https://asicseer.com/page/kb#writing-config
-## TOTAL EXP HASHRATE 1 s9 @ 16 Th/s = 16 Th/s
+## 1 s9 @ 16 Th/s = 16 Th/s (contract exp 8/26/20)
 
 global custompanel JREGU0bit049
 global customer bit49-Russia
@@ -32,16 +31,14 @@ global panelclear 999
 
 # global retune 1
 # global reboot 1
-global uncork 1588958405
+global uncork 1592348266
 # global reset 1
 
 ## vlans
 vlan 10.0.115.60-60 # cc5e00
-vlan 10.0.50.135-135 # 3c8dcd # extra added 3/24/20 # 10.5 Th/s
 
 ## locations
 cc5e00 location JREGU00001 # 10.0.115.60
-3c8dcd location JREGU0XTRA # 10.0.50.135 # extra added 3/24/20 # 10.5 Th/s
 
 ## throttle
 
@@ -52,7 +49,7 @@ cc5e00 location JREGU00001 # 10.0.115.60
 ## resets
 
 ## removals
-global remove 4c42a8
+global remove 4c42a8,3c8dcd
 
 ## VPS pubkey
 pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
