@@ -1,4 +1,5 @@
-## TOTAL EXP HASHRATE 5 s9 @ 16 Th/s = 80 Th/s (contract exp 
+## 2 s9 @ 16 Th/s = 32 Th/s (contract exp 1/17/20)
+## 3 s9 @ 16 Th/s = 48 Th/s (contract exp 7/20/20)
 
 global custompanel HKATZ0bit049
 global customer bit49-Russia
@@ -40,8 +41,6 @@ vlan 10.0.66.30-30 # 7f79ef
 vlan 10.0.67.40-40 # ceac8d
 # vlan 10.0.117.42-42 # fae301 # POWERED DOWN - NO WORKING HASHBOARDS
 vlan 10.0.117.43-43 # 44ba88
-vlan 10.3.23.44-44 # 771df9 # extra added 3/9/20 # 15.4 Th/s
-vlan 10.3.23.94-94 # c5da9f # extra added 3/9/20 # 15.4 Th/s
 
 ## locations
 15e78d location HKATZ00001 # 10.0.65.61
@@ -49,8 +48,6 @@ vlan 10.3.23.94-94 # c5da9f # extra added 3/9/20 # 15.4 Th/s
 ceac8d location HKATZ00003 # 10.0.67.40
 # fae301 location HKATZ00004 # 10.0.117.42 # POWERED DOWN - NO WORKING HASHBOARDS
 44ba88 location HKATZ00005 # 10.0.117.43
-c5da9f location HKATZ0XTRA # 10.0.31.55  # extra added 3/9/20 # 15.4 Th/s
-771df9 location HKATZ0XTRA # 10.0.31.57  # extra added 3/9/20 # 15.4 Th/s
 
 ## throttle
 
