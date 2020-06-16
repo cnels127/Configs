@@ -82,20 +82,6 @@ vlan 10.0.118.112-112 # b16fdd
 vlan 10.0.119.61-61 # d1c299
 vlan 10.0.120.112-112 # d3efbf
 vlan 10.0.121.1-1 # 0f2dda
-vlan 10.0.54.146-146 # 934f82 # extra added 3/4/20 # 15.8 Th/s
-vlan 10.0.56.40-40 # c5496d # extra added 3/4/20 # 16.1 Th/s
-vlan 10.0.59.41-41 # 26be5d # extra added 3/4/20 # 16 Th/s
-vlan 10.0.59.54-54 # 8a804d # extra added 3/4/20 # 16.1 Th/s
-vlan 10.0.59.66-66 # 3cd7e0 # extra added 3/4/20 # 16.3 Th/s
-vlan 10.0.59.73-73 # f24571 # extra added 3/4/20 # 16.1 Th/s
-vlan 10.0.59.90-90 # 0c9f37 # extra added 3/4/20 # 14.7 Th/s
-vlan 10.0.61.6-6 # 27a7bc # extra added 3/4/20 # 16.3 Th/s
-vlan 10.0.118.38-38 # 64e53f # extra added 3/4/20 # 15.8 Th/s
-vlan 10.0.119.19-19 # eb16ee # extra added 12/9/19
-vlan 10.0.119.58-58 # 78458c # extra added 12/9/19
-vlan 10.0.119.77-77 # d2338b # extra added 12/9/19
-vlan 10.0.120.87-87 # cafe14 # extra added 3/4/20 # 16 Th/s
-vlan 10.0.121.90-90 # f86022 # extra added 3/4/20 # 16.1 Th/s
 
 ## locations
 da3e46 location KGRAF00001 # 10.0.51.100
@@ -143,20 +129,6 @@ b16fdd location KGRAF00042 # 10.0.118.112
 d1c299 location KGRAF00043 # 10.0.119.61
 d3efbf location KGRAF00044 # 10.0.120.112
 0f2dda location KGRAF00045 # 10.0.121.1
-934f82 location KGRAF0XTRA # 10.0.54.146 # extra added 3/4/20 # 15.8 Th/s
-c5496d location KGRAF0XTRA # 10.0.56.40 # extra added 3/4/20 # 16.1 Th/s
-26be5d location KGRAF0XTRA # 10.0.59.41 # extra added 3/4/20 # 16 Th/s
-8a804d location KGRAF0XTRA # 10.0.59.54 # extra added 3/4/20 # 16.1 Th/s
-3cd7e0 location KGRAF0XTRA # 10.0.59.66 # extra added 3/4/20 # 16.3 Th/s
-f24571 location KGRAF0XTRA # 10.0.59.73 # extra added 3/4/20 # 16.1 Th/s
-0c9f37 location KGRAF0XTRA # 10.0.59.90 # extra added 3/4/20 # 14.7 Th/s
-27a7bc location KGRAF0XTRA # 10.0.61.6 # extra added 3/4/20 # 16.3 Th/s
-64e53f location KGRAF0XTRA # 10.0.118.38 # extra added 3/4/20 # 15.8 Th/s
-eb16ee location KGRAF0XTRA # 10.0.119.19 # extra added 12/9/19
-78458c location KGRAF0XTRA # 10.0.119.58 # extra added 12/9/19
-d2338b location KGRAF0XTRA # 10.0.119.77 # extra added 12/9/19
-cafe14 location KGRAF0XTRA # 10.0.120.87 # extra added 3/4/20 # 16 Th/s
-f86022 location KGRAF0XTRA # 10.0.121.90 # extra added 3/4/20 # 16.1 Th/s
 
 ## tuning
 
@@ -171,6 +143,7 @@ d1c299 reset 1591017306
 5d07a6 reset 1591017306
 
 ## removals
+global remove 27a7bc,f24571,f86022,c5496d,78458c,64e53f,cafe14,3cd7e0,8a804d,26be5d,934f82,0c9f37,eb16ee,d2338b
 
 ## VPS pubkey
 pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
