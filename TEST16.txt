@@ -34,15 +34,6 @@ global uncork 1588686518
 # global reset 1580151563
 
 ### XTRA MACHINE RETURN ###
-vlan 10.0.57.114-114 # b0c57f
-vlan 10.0.57.117-117 # 6f161e
-vlan 10.0.57.119-119 # ad13e2
-vlan 10.0.57.121-121 # 2a8e96
-vlan 10.0.57.122-122 # 6904ea
-vlan 10.0.57.123-123 # 5621cd
-vlan 10.0.57.124-124 # 2bf22d
-vlan 10.0.57.125-125 # 6a116f
-vlan 10.0.57.126-126 # 7a4c7c
 
 ### UNINSTALLATION ###
 
@@ -288,6 +279,38 @@ b69144 location GBURR00004
 fb355a location GBURR00005
 
 ### ABANDONED ###
+## THORA0 (15 s9) turned over 6/17/20
+vlan 10.0.50.133-133 # 47bcc8
+vlan 10.0.50.138-138 # b6bb9b
+vlan 10.0.50.142-142 # 4a16a7
+vlan 10.0.50.146-146 # 910fab
+vlan 10.0.50.152-152 # 3f52a2
+vlan 10.0.50.157-157 # 26b110
+vlan 10.0.50.158-158 # deee7c
+vlan 10.0.50.159-159 # a1c1cb
+vlan 10.0.50.160-160 # 0a2190
+# vlan 10.0.57.87-87 # 0ef8df # SCRAPPED 3/29/20
+vlan 10.0.57.152-152 # b042b3
+# vlan 10.0.57.154-154 # 658700 # SCRAPPED 5/27/20
+vlan 10.0.58.7-7 # a7869e
+vlan 10.0.58.11-11 # f764a5
+# vlan 10.0.58.12-12 # 13d4e9 # SCRAPPED 5/27/20
+47bcc8 location THORA00001 # 10.0.50.133
+b6bb9b location THORA00002 # 10.0.50.138
+4a16a7 location THORA00003 # 10.0.50.142
+910fab location THORA00004 # 10.0.50.146
+3f52a2 location THORA00005 # 10.0.50.152
+26b110 location THORA00006 # 10.0.50.157
+deee7c location THORA00007 # 10.0.50.158
+a1c1cb location THORA00008 # 10.0.50.159
+0a2190 location THORA00009 # 10.0.50.160
+# 0ef8df location THORA00010 # 10.0.57.87 # SCRAPPED 5/21/20
+b042b3 location THORA00011 # 10.0.57.152
+# 658700 location THORA00012 # 10.0.57.154 # SCRAPPED 5/27/20
+a7869e location THORA00013 # 10.0.58.7
+f764a5 location THORA00014 # 10.0.58.11
+# 13d4e9 location THORA00015 # 10.0.58.12 # SCRAPPED 5/27/20
+
 ## FHOEF0 (20 s9 turned over 6/3/20)
 # vlan 10.0.55.85-85 # 84fddc # SCRAPPED 4/24/20
 # vlan 10.0.55.101-101 # 7e7126
