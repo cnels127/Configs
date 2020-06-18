@@ -38,6 +38,64 @@ global uncork 1588686518
 ### UNINSTALLATION ###
 
 ### PAUSED CUSTOMERS ###
+## SLANG0 (28 s9s) hosting paused 6/18/20
+# vlan 10.0.60.6-6 # bf1870 # POWERED OFF - NO WORKING HASHBOARDS
+vlan 10.0.60.11-11 # 435798
+vlan 10.0.60.13-13 # 8c8868
+vlan 10.0.60.29-29 # 939070
+vlan 10.0.60.34-34 # e2c4c8
+# vlan 10.0.60.42-42 # c7c75f # POWERED OFF - NO WORKING HASHBOARDS
+vlan 10.0.60.56-56 # 205fac
+vlan 10.0.60.87-87 # e39d7c
+# vlan 10.0.60.93-93 # fe2dc8 # POWERED OFF - NO WORKING HASHBOARDS
+# vlan 10.0.60.104-104 # e1bef3 # POWERED OFF - NO WORKING HASHBOARDS
+vlan 10.0.63.53-53 # 4d2038
+vlan 10.0.65.42-42 # fbf390
+vlan 10.0.65.59-59 # 596481
+vlan 10.0.61.161-161 # 3c8ba2
+vlan 10.0.64.74-74 # 15269c
+vlan 10.0.61.53-53 # f30ccf
+# vlan 10.0.62.125-125 # d09da5 # POWERED OFF - NO WORKING HASHBOARDS
+vlan 10.0.66.77-77 # 02a4cb
+vlan 10.0.61.77-77 # 8aca82
+vlan 10.0.62.146-146 # 866c28
+vlan 10.0.120.133-133 # c44e97
+vlan 10.0.120.143-143 # b65856
+vlan 10.0.121.70-70 # fd676b
+vlan 10.0.121.128-128 # a3c9ac
+# vlan 10.0.119.12-12 # cc9cd4 # POWERED OFF - NO WORKING HASHBOARDS
+vlan 10.0.61.133-133 # dcf994 # DKUZM0 transferred over 11/25/19
+vlan 10.0.65.54-54 # 596a83 # DKUZM0 transferred over 11/25/19
+vlan 10.0.65.75-75 # e06e8a # DKUZM0 transferred over 11/25/19
+bf1870 location SLANG00001 # 10.0.60.6
+435798 location SLANG00002 # 10.0.60.11
+8c8868 location SLANG00003 # 10.0.60.13
+939070 location SLANG00004 # 10.0.60.29
+e2c4c8 location SLANG00005 # 10.0.60.34
+c7c75f location SLANG00006 # 10.0.60.42
+205fac location SLANG00007 # 10.0.60.56
+e39d7c location SLANG00008 # 10.0.60.87
+fe2dc8 location SLANG00009 # 10.0.60.93
+e1bef3 location SLANG00010 # 10.0.60.104
+4d2038 location SLANG00011 # 10.0.63.53
+fbf390 location SLANG00012 # 10.0.65.42
+596481 location SLANG00013 # 10.0.65.59
+3c8ba2 location SLANG00014 # 10.0.61.161
+15269c location SLANG00015 # 10.0.64.74
+f30ccf location SLANG00016 # 10.0.61.53
+d09da5 location SLANG00017 # 10.0.62.125
+02a4cb location SLANG00018 # 10.0.66.77
+8aca82 location SLANG00019 # 10.0.61.77
+866c28 location SLANG00020 # 10.0.62.146
+c44e97 location SLANG00021 # 10.0.120.133
+b65856 location SLANG00022 # 10.0.120.143
+fd676b location SLANG00023 # 10.0.121.70
+a3c9ac location SLANG00024 # 10.0.121.128
+cc9cd4 location SLANG00025 # 10.0.119.12
+dcf994 location SLANG00026 # 10.0.61.133
+596a83 location SLANG00027 # 10.0.65.54
+e06e8a location SLANG00028 # 10.0.65.75
+
 ## MWAGE0 (3 s9)
 # vlan 10.0.60.68-68 # 9b0fa1
 # vlan 10.0.60.129-129 # 96ae02
