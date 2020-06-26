@@ -244,7 +244,20 @@ d8a438 location PKOKE00006 # 10.0.59.1
 adb2fe location PKOKE00007 # 10.0.59.18
 e5ba90 location PKOKE00009 # 10.0.61.2
 
-## ATHOM0 (40 s9) hosting paused 5/12/20
+## GBURR0 (5 s9) hosting paused 5/1/20
+# vlan 10.0.55.87-87 # f0f798
+# vlan 10.0.55.117-117 # e2c6fd
+# vlan 10.0.55.150-150 # 2d11cf
+# vlan 10.0.56.107-107 # b69144
+# vlan 10.0.56.113-113 # fb355a
+f0f798 location GBURR00001
+e2c6fd location GBURR00002
+2d11cf location GBURR00003
+b69144 location GBURR00004
+fb355a location GBURR00005
+
+### ABANDONED ###
+## ATHOM0 (40 s9) paused 5/12/20, turned over 6/26/20
 # vlan 10.0.61.6-6 # 27a7bc
 # vlan 10.0.61.15-15 # 663078
 # vlan 10.0.61.47-47 # 3cd09f
@@ -324,19 +337,6 @@ ead461 location ATHOM00038 # 10.0.66.109
 d13d9c location ATHOM00039 # 10.0.67.54
 31a7ae location ATHOM00040 # 10.0.67.96
 
-## GBURR0 (5 s9) hosting paused 5/1/20
-# vlan 10.0.55.87-87 # f0f798
-# vlan 10.0.55.117-117 # e2c6fd
-# vlan 10.0.55.150-150 # 2d11cf
-# vlan 10.0.56.107-107 # b69144
-# vlan 10.0.56.113-113 # fb355a
-f0f798 location GBURR00001
-e2c6fd location GBURR00002
-2d11cf location GBURR00003
-b69144 location GBURR00004
-fb355a location GBURR00005
-
-### ABANDONED ###
 ## THORA0 (15 s9) turned over 6/17/20
 # vlan 10.0.50.133-133 # 47bcc8
 # vlan 10.0.50.138-138 # b6bb9b
