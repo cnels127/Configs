@@ -7,16 +7,16 @@
 global custompanel SRADO0bit049
 global customer bit49-Russia
 
-global poolname1 connect.pool.bitcoin.com:3333
+global poolname1 gate.emcd.io:3333
 global username1 opejumeys
 global poolpass1 123
 global sendworker1 yes
-global poolname2 ru-west.stratum.slushpool.com:3333
+global poolname2 connect.pool.bitcoin.com:3333
 global username2 opejumeys
 global poolpass2 123
 global sendworker2 yes
-global poolname3 profit.pool.bitcoin.com:3333
-global username3 bit49
+global poolname3 ru-west.stratum.slushpool.com:3333
+global username3 opejumeys
 global poolpass3 123
 global sendworker3 yes
 
@@ -135,6 +135,7 @@ ca6c85 location SRADO00038 # 10.0.67.159
 ## reboots
 
 ## resets
+f13fb4 reset 1593201563
 c3e505 reset 1592325825
 
 ## removals
