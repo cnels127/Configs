@@ -37,11 +37,9 @@ global panelclear 999
 
 ## vlans
 vlan 10.0.66.56-56 # ede705
-vlan 10.0.118.36-36 # 1cb0b8
 
 ## locations
 ede705 location MFASE00001 # 10.0.66.56
-1cb0b8 location MFASE0XTRA # 10.0.118.36 # 5.4 Th/s
 
 ## tuning
 
@@ -52,6 +50,7 @@ ede705 location MFASE00001 # 10.0.66.56
 ## reboots
 
 ## resets
+ede705 reset 1593201136
 
 ## removals
 global remove 70adc2
