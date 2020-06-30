@@ -257,6 +257,20 @@ b69144 location GBURR00004
 fb355a location GBURR00005
 
 ### ABANDONED ###
+## SSAOU0 (1 s9) turned over 6/30/20
+# vlan 10.0.53.33-33 # a3d661 # SCRAPPED 4/21/20
+a3d661 location SSAOU00001 # 10.0.53.33 # SCRAPPED 4/21/20
+
+## SKOTR0 (4 s9) turned over 6/30/20
+# vlan 10.0.56.144-144 # 6dd1ab
+# vlan 10.0.58.136-136 # 6c2948
+# vlan 10.0.60.155-155 # 031368
+# vlan 10.0.61.17-17 # f5417d
+6dd1ab location SKOTR00001 # 10.0.56.144
+6c2948 location SKOTR00002 # 10.0.58.136
+031368 location SKOTR00003 # 10.0.60.155
+f5417d location SKOTR00004 # 10.0.61.17
+
 ## ATHOM0 (40 s9) paused 5/12/20, turned over 6/26/20
 # vlan 10.0.61.6-6 # 27a7bc
 # vlan 10.0.61.15-15 # 663078
