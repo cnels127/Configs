@@ -5,12 +5,12 @@
 global custompanel TGROT0bit049
 global customer bit49-Russia
 
-global poolname1 eu.ss.btc.com:1800
-global username1 tomxster
+global poolname1 sha256.antpool.com:3333
+global username1 MandT
 global poolpass1 123
 global sendworker1 yes
-global poolname2 stratum.antpool.com:3333
-global username2 tomxster
+global poolname2 eu.ss.btc.com:1800
+global username2 MandT
 global poolpass2 123
 global sendworker2 yes
 global poolname3 profit.pool.bitcoin.com:3333
@@ -51,12 +51,6 @@ vlan 10.0.116.68-68 # cb7d1b
 vlan 10.0.116.94-94 # a83fdc
 vlan 10.0.60.14-14 # 3ec4f8
 
-vlan 10.0.32.110-110 # f78d9a # 14.6 Th/s # extra added 3/9/20
-vlan 10.0.50.15-15 # b45f14 # 14.6 Th/s # extra added 3/9/20
-vlan 10.0.50.127-127 # 0d7f09 # 14.8 Th/s # extra added 3/9/20
-vlan 10.0.117.84-84 # 593230 # extra added 12/19/19
-vlan 10.0.119.8-8 # 24884e # extra added 12/6/19
-
 ## locations
 dae245 location TGROT00001 # 10.0.61.157
 # f2dc4d location TGROT00002 # 10.0.63.84 # SCRAPPED 4/24/20
@@ -71,11 +65,6 @@ a485fd location TGROT00009 # 10.0.115.86
 cb7d1b location TGROT00011 # 10.0.116.68
 a83fdc location TGROT00012 # 10.0.116.94
 3ec4f8 location TGROT00013 # 10.0.60.14
-f78d9a location TGROT0XTRA # 10.0.32.110 # 14.6 Th/s # extra added 3/9/20
-b45f14 location TGROT0XTRA # 10.0.50.15 # 14.6 Th/s # extra added 3/9/20
-0d7f09 location TGROT0XTRA # 10.0.50.127 # 14.8 Th/s # extra added 3/9/20
-593230 location TGROT0XTRA # 10.0.117.84 # extra added 12/19/19
-24884e location TGROT0XTRA # 10.0.119.8 # extra added 12/6/19
 
 ## tuning
 
