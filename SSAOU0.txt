@@ -1,4 +1,4 @@
-## 1 s9 @ 14.4 Th/s = 14.4 Th/s (contract expires 1/27/20)
+## Hosting services discontinued on 6/30/20 for 1 s9, transferred ownership to Bit 49
 
 global custompanel SSAOU0bit049
 global customer bit49-Russia
@@ -35,12 +35,8 @@ global panelclear 999
 # global reset 1574964750
 
 ## vlans
-# vlan 10.0.53.33-33 # SCRAPPED 4/21/20
-vlan 10.3.22.28-28 # 5687a8 # extra added 5/14/20 # 15.2 Th/s
 
 ## locations
-# a3d661 location SSAOU00001 # SCRAPPED 4/21/20
-5687a8 location SSAOU0XTRA # 10.3.22.28 # extra added 5/14/20 # 15.2 Th/s
 
 ## tuning
 
