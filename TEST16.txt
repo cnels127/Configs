@@ -257,6 +257,16 @@ b69144 location GBURR00004
 fb355a location GBURR00005
 
 ### ABANDONED ###
+## DMCCL0 (4 s9s) turned over 7/1/20
+# vlan 10.0.117.30-30 # 8d1e83
+# vlan 10.0.117.31-31 # 6a1571
+# vlan 10.0.117.32-32 # 97c2eb # SCRAPPED 5/14/20
+# vlan 10.0.117.33-33 # aab607
+8d1e83 location DMCCL00001 # 10.0.117.30
+6a1571 location DMCCL00002 # 10.0.117.31
+# 97c2eb location DMCCL00003 # 10.0.117.32 # SCRAPPED 5/14/20
+aab607 location DMCCL00004 # 10.0.117.33
+
 ## SSAOU0 (1 s9) turned over 6/30/20
 # vlan 10.0.53.33-33 # a3d661 # SCRAPPED 4/21/20
 a3d661 location SSAOU00001 # 10.0.53.33 # SCRAPPED 4/21/20
