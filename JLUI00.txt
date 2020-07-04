@@ -1,5 +1,5 @@
-## instructions available at: https://asicseer.com/page/kb#writing-config
 ## TOTAL EXP HASHRATE 1 s9 @ 16 Th/s = 16 Th/s
+## Hosting services for 1 s9 PAUSED 7/3/20 due to non-payment
 
 global custompanel JLUI00bit049
 global customer bit49-Russia
@@ -38,13 +38,9 @@ global panelclear 999
 
 ## vlans
 vlan 10.0.59.69-69
-vlan 10.0.59.44-44 # 4fb133 # extra added 3/5/20 # 11.4 Th/s
-vlan 10.3.22.46-46 # bc91a2 # extra added 3/9/20 # 5.4 Th/s
 
 ## locations
 80218d location JLUI000001
-4fb133 location JLUI00XTRA # 10.0.59.44 # extra added 3/5/20 # 11.4 Th/s
-bc91a2 location JLUI00XTRA # 10.3.22.46 # extra added 3/9/20 # 5.4 Th/s
 
 ## throttle
 
