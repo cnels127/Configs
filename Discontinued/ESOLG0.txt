@@ -1,18 +1,20 @@
-## 1 s9 @ 16 Th/s = 16 Th/s (contract expires 8/18/20)
+## instructions available at: https://asicseer.com/page/kb#writing-config
+## TOTAL EXP HASHRATE 400 s9 @ 14.5 Th/s = 5,800 Th/s
+## 400 machines returned to Bit 49 3/6/20
 
-global custompanel SMART0bit049
+global custompanel ESOLG0bit049
 global customer bit49-Russia
 
-global poolname1 ru-west.stratum.slushpool.com:3333
-global username1 tonitram
+global poolname1 eu.ss.btc.com:1800
+global username1 BitPlusMining1
 global poolpass1 123
 global sendworker1 yes
-global poolname2 stratum.slushpool.com:3333
-global username2 tonitram
+global poolname2 us.ss.btc.com:1800
+global username2 BitPlusMining1
 global poolpass2 123
 global sendworker2 yes
-global poolname3 profit.pool.bitcoin.com:3333
-global username3 bit49
+global poolname3 ru-west.stratum.slushpool.com:3333
+global username3 bitplusmining1
 global poolpass3 123
 global sendworker3 yes
 
@@ -29,30 +31,23 @@ global blinkred idle
 global blinkgreen rapid
 global panelclear 999
 
-# global retune 1
-# global reboot 1
-global uncork 1594744049
+# global retune 1571336775
+# global reboot 1573584011 # 2
+# global uncork 1577152007
 # global reset 1
 
-## vlans
-vlan 10.0.118.141-141 # 7c7fa9
-
-## locations
-7c7fa9 location SMART00001 # 10.0.118.141
-
-## tuning
 
 ## throttle
 
 ## fans
 
 ## reboots
-616f22 uncork 1585251489
+
+## retunes
 
 ## resets
 
-## removals
-global remove 616f22
+## throttle
 
 ## VPS pubkey
 pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
