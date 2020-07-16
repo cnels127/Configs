@@ -338,48 +338,6 @@ vlan 10.0.121.122-122 # 9f686d
 vlan 10.0.121.131-131 # 4f04e1
 vlan 10.0.121.135-135 # 87056f
 vlan 10.0.121.160-160 # 989b0b
-vlan 10.0.60.77-77 # 3031a6 # extra added 12/9/19
-vlan 10.0.64.37-37 # 14039f # extra added 12/9/19
-vlan 10.0.65.103-103 # 031746 # extra added 12/9/19
-vlan 10.0.67.74-74 # 4b5afd # extra added 12/9/19
-vlan 10.0.77.94-94 # 07cb48 # extra added 12/9/19
-vlan 10.0.77.112-112 # a9d10f # extra added 12/9/19
-vlan 10.0.115.93-93 # 70bd72 # extra added 12/9/19
-vlan 10.0.116.17-17 # 1a4c73 # extra added 12/9/19
-vlan 10.0.116.21-21 # 26e074 # extra added 12/9/19
-vlan 10.0.116.41-41 # 3002c7 # extra added 12/9/19
-vlan 10.0.116.141-141 # b58a77 # extra added 12/9/19
-vlan 10.0.118.53-53 # eb26bb # extra added 12/9/19
-vlan 10.0.118.88-88 # 6ba047 # extra added 12/9/19
-vlan 10.0.119.27-27 # 1eacbd # extra added 12/9/19
-vlan 10.0.119.35-35 # f456b4 # extra added 12/9/19
-vlan 10.0.119.59-59 # a2ec4d # extra added 12/9/19
-vlan 10.0.120.27-27 # d7a2fa # extra added 3/18/20
-vlan 10.0.120.29-29 # 031b4b # extra added 12/9/19
-vlan 10.0.120.38-38 # 3e5976 # extra added 12/9/19
-vlan 10.0.120.52-52 # d3cbcd # extra added 12/9/19
-vlan 10.0.120.64-64 # 03dc60 # extra added 12/9/19
-vlan 10.0.120.67-67 # 1bdc6a # extra added 12/9/19
-vlan 10.0.120.101-101 # e4b418 # extra added 12/9/19
-vlan 10.0.121.27-27 # 839dc2 # extra added 12/9/19
-vlan 10.0.121.31-31 # 4c6a74 # extra added 12/9/19
-vlan 10.0.121.36-36 # ceba7d # extra added 12/9/19
-vlan 10.0.121.40-40 # cc01c8 # extra added 12/9/19
-vlan 10.0.121.42-42 # d4f964 # extra added 12/9/19
-vlan 10.0.121.51-51 # 081c44 # extra added 12/9/19
-vlan 10.0.121.53-53 # cefbab # extra added 12/9/19
-vlan 10.0.121.55-55 # 74b647 # extra added 12/9/19
-vlan 10.0.121.69-69 # 6652f6 # extra added 12/9/19
-vlan 10.0.121.74-74 # ecd0c3 # extra added 12/9/19
-vlan 10.0.121.78-78 # 921546 # extra added 12/9/19
-vlan 10.0.121.85-85 # e75b6c # extra added 12/9/19
-vlan 10.0.121.89-89 # 42ee1f # extra added 12/9/19
-vlan 10.0.121.93-93 # a8958f # extra added 12/9/19
-vlan 10.0.121.102-102 # 16c01b # extra added 12/9/19
-vlan 10.0.121.120-120 # becc26 # extra added 12/9/19
-vlan 10.0.121.124-124 # e465d5 # extra added 12/9/19
-vlan 10.0.121.142-142 # ecbb73 # extra added 12/9/19
-vlan 10.0.121.157-157 # db4dc4 # extra added 12/9/19
 
 ## locations
 164b1f location GWELT00001 # 10.0.58.28
@@ -682,48 +640,6 @@ fdbabb location GWELT00296 # 10.0.121.113
 4f04e1 location GWELT00298 # 10.0.121.131
 87056f location GWELT00299 # 10.0.121.135
 989b0b location GWELT00300 # 10.0.121.160
-3031a6 location GWELT0XTRA # 10.0.60.77 # extra added 12/9/19
-14039f location GWELT0XTRA # 10.0.64.37 # extra added 12/9/19
-031746 location GWELT0XTRA # 10.0.65.103 # extra added 12/9/19
-4b5afd location GWELT0XTRA # 10.0.67.74 # extra added 12/9/19
-07cb48 location GWELT0XTRA # 10.0.77.94 # extra added 12/9/19
-a9d10f location GWELT0XTRA # 10.0.77.112 # extra added 12/9/19
-70bd72 location GWELT0XTRA # 10.0.115.93 # extra added 12/9/19
-1a4c73 location GWELT0XTRA # 10.0.116.17 # extra added 12/9/19
-26e074 location GWELT0XTRA # 10.0.116.21 # extra added 12/9/19
-3002c7 location GWELT0XTRA # 10.0.116.41 # extra added 12/9/19
-b58a77 location GWELT0XTRA # 10.0.116.141 # extra added 12/9/19
-eb26bb location GWELT0XTRA # 10.0.118.53 # extra added 12/9/19
-6ba047 location GWELT0XTRA # 10.0.118.88 # extra added 12/9/19
-1eacbd location GWELT0XTRA # 10.0.119.27 # extra added 12/9/19
-f456b4 location GWELT0XTRA # 10.0.119.35 # extra added 12/9/19
-a2ec4d location GWELT0XTRA # 10.0.119.59 # extra added 12/9/19
-d7a2fa location GWELT0XTRA # 10.0.120.27 # extra added 3/18/20
-031b4b location GWELT0XTRA # 10.0.120.29 # extra added 12/9/19
-3e5976 location GWELT0XTRA # 10.0.120.38 # extra added 12/9/19
-d3cbcd location GWELT0XTRA # 10.0.120.52 # extra added 12/9/19
-03dc60 location GWELT0XTRA # 10.0.120.64 # extra added 12/9/19
-1bdc6a location GWELT0XTRA # 10.0.120.67 # extra added 12/9/19
-e4b418 location GWELT0XTRA # 10.0.120.101 # extra added 12/9/19
-839dc2 location GWELT0XTRA # 10.0.121.27 # extra added 12/9/19
-4c6a74 location GWELT0XTRA # 10.0.121.31 # extra added 12/9/19
-ceba7d location GWELT0XTRA # 10.0.121.36 # extra added 12/9/19
-cc01c8 location GWELT0XTRA # 10.0.121.40 # extra added 12/9/19
-d4f964 location GWELT0XTRA # 10.0.121.42 # extra added 12/9/19
-081c44 location GWELT0XTRA # 10.0.121.51 # extra added 12/9/19
-cefbab location GWELT0XTRA # 10.0.121.53 # extra added 12/9/19
-74b647 location GWELT0XTRA # 10.0.121.55 # extra added 12/9/19
-6652f6 location GWELT0XTRA # 10.0.121.69 # extra added 12/9/19
-ecd0c3 location GWELT0XTRA # 10.0.121.74 # extra added 12/9/19
-921546 location GWELT0XTRA # 10.0.121.78 # extra added 12/9/19
-e75b6c location GWELT0XTRA # 10.0.121.85 # extra added 12/9/19
-42ee1f location GWELT0XTRA # 10.0.121.89 # extra added 12/9/19
-a8958f location GWELT0XTRA # 10.0.121.93 # extra added 12/9/19
-16c01b location GWELT0XTRA # 10.0.121.102 # extra added 12/9/19
-becc26 location GWELT0XTRA # 10.0.121.120 # extra added 12/9/19
-e465d5 location GWELT0XTRA # 10.0.121.124 # extra added 12/9/19
-ecbb73 location GWELT0XTRA # 10.0.121.142 # extra added 12/9/19
-db4dc4 location GWELT0XTRA # 10.0.121.157 # extra added 12/9/19
 
 ## tuning
 
@@ -734,7 +650,12 @@ db4dc4 location GWELT0XTRA # 10.0.121.157 # extra added 12/9/19
 ## reboots
 
 ## resets
+<<<<<<< HEAD
 79e057 reset 1594864833
+=======
+cda7bb reset 1594864183
+93a8f8 reset 1594864183
+>>>>>>> 6e098a1fad35feadca0945de39c82d00f1c66cbb
 992367 reset 1594827305
 94b487 reset 1594827305
 77b21b reset 1594827305
@@ -759,7 +680,7 @@ eecd17 reset 1591017306
 9eb1a1 reset 1591017306
 c26b87 reset 1591017306
 
-## global remove
+## removals
 global remove d7cd4b,32605f,1dcc2c,31d75c,332148,af453f,bb70c4,d9c608,3002c7,14039f,1a4c73,ceba7d,921546,6652f6,db4dc4,081c44,eb26bb,a8958f,e75b6c,e465d5,1bdc6a,42ee1f,d3cbcd,74b647,031746,ecd0c3,e4b418,03dc60,cc01c8,cefbab,07cb48,26e074,3031a6,4b5afd,d4f964,70bd72,839dc2,b58a77,becc26,16c01b,d7a2fa,f456b4,031b4b,1eacbd,a9d10f,6ba047,4c6a74,3e5976,ecbb73,a2ec4d
 
 ## VPS pubkey
