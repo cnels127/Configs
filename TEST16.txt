@@ -34,27 +34,6 @@ global uncork 1594920075
 # global reset 1580151563
 
 ### REINSTALLATIONS ###
-# vlan 10.0.55.159-159
-vlan 10.0.58.78-78
-vlan 10.0.58.119-119
-vlan 10.0.58.129-129
-vlan 10.0.67.72-72
-vlan 10.0.67.88-88
-vlan 10.0.67.111-111
-vlan 10.0.67.124-124
-vlan 10.0.121.75-75
-vlan 10.0.121.135-135
-# vlan 10.0.66.101-101
-# vlan 10.0.117.8-8
-# vlan 10.0.66.161-161
-# vlan 10.0.59.6-6
-# vlan 10.0.62.87-87
-# vlan 10.0.66.156-156
-# vlan 10.0.67.104-104
-# vlan 10.0.55.61-61
-# vlan 10.0.121.13-13
-# vlan 10.0.62.45-45
-# vlan 10.0.62.69-69
 
 ### PAUSED CUSTOMERS ###
 ## SCOST0 (10 s9s) hosting paused 7/3/20
@@ -851,6 +830,14 @@ b69144 location GBURR00004
 fb355a location GBURR00005
 
 ### ABANDONED ###
+## NARMO0 (3 s9s) turned over 8/1/20
+# vlan 10.0.65.71-71 # 76e85b # SCRAPPED 5/15/20
+vlan 10.0.65.134-134 # 8bdc72
+vlan 10.0.66.110-110 # aa75d6
+# 76e85b location NARMO00001 # 10.0.65.71 # SCRAPPED 5/15/20
+8bdc72 location NARMO00002 # 10.0.65.134
+aa75d6 location NARMO00003 # 10.0.66.110
+
 ## DMCCL0 (4 s9s) turned over 7/1/20
 # vlan 10.0.117.30-30 # 8d1e83
 # vlan 10.0.117.31-31 # 6a1571
