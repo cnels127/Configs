@@ -1,4 +1,4 @@
-## 3 s9 @ 16 Th/s = 48 Th/s (contract expires 5/17/20)
+## Hosting services discontinued 8/1/20, relinquished ownership of 3 s9s to Bit 49
 
 global custompanel TWOJE0bit049
 global customer bit49-Russia
@@ -31,18 +31,12 @@ global panelclear 999
 
 # global retune 1
 # global reboot 1
-global uncork 1594920075
+# global uncork 1594920075
 # global reset 1
 
 ## vlans
-vlan 10.0.55.127-127 # af01c7
-vlan 10.0.55.161-161 # b86fb1
-vlan 10.0.56.98-98 # b0ec6c
 
 ## locations
-af01c7 location TWOJE00001 # 10.0.55.127
-b86fb1 location TWOJE00002 # 10.0.55.161
-b0ec6c location TWOJE00003 # 10.0.56.98
 
 ## tuning
 
@@ -53,7 +47,6 @@ b0ec6c location TWOJE00003 # 10.0.56.98
 ## reboots
 
 ## resets
-af01c7 reset 1593444594
 
 ## removals
 global remove 2be5f5,ed8ef5,af01c7
