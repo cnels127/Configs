@@ -1,10 +1,4 @@
-## 2 s9 @ 14.4 Th/s = 28.8 Th/s (contract expires 1/17/20)
-## 1 s9 @ 14.4 Th/s = 14.4 Th/s (contract expires 2/18/20)
-## 1 s9 @ 14.4 Th/s = 14.4 Th/s (contract expires 3/5/20)
-## 1 s9 @ 14.4 Th/s = 14.4 Th/s (contract expires 5/9/20)
-## 10 s9 @ 14.4 Th/s = 144 Th/s (contract expires 9/6/20)
-## 4 consolidated 3/6/20
-## TOTAL EXP HASHRATE = 158.4 Th/s
+## Hosting services discontinued 8/1/20, relinquished ownership of 15 s9s to Bit 49
 
 global custompanel PEGAN0bit049
 global customer bit49-Russia
@@ -37,34 +31,12 @@ global panelclear 999
 
 # global retune 1
 # global reboot 1
-global uncork 1594920075
+# global uncork 1594920075
 # global reset 1574961848
 
 ## vlans
-vlan 10.0.55.1-1 # 14da93
-vlan 10.0.62.27-27 # 63f1ab
-vlan 10.0.115.21-21 # 6c96dd
-vlan 10.0.115.96-96 # 9a258b
-vlan 10.0.115.100-100 # f49c47
-vlan 10.0.117.4-4 # e6d42b
-vlan 10.0.117.39-39 # 38d579
-vlan 10.0.118.5-5 # c1a1c1
-vlan 10.0.118.49-49 # a03c97
-vlan 10.0.119.52-52 # 4900fd
-vlan 10.0.120.92-92 # f1ae88
 
 ## locations
-14da93 location PEGAN00001 # 10.0.55.1
-63f1ab location PEGAN00002 # 10.0.62.27
-6c96dd location PEGAN00003 # 10.0.115.21
-9a258b location PEGAN00004 # 10.0.115.96
-f49c47 location PEGAN00005 # 10.0.115.100
-e6d42b location PEGAN00006 # 10.0.117.4
-38d579 location PEGAN00007 # 10.0.117.39
-c1a1c1 location PEGAN00008 # 10.0.118.5
-a03c97 location PEGAN00009 # 10.0.118.49
-4900fd location PEGAN00010 # 10.0.119.52
-f1ae88 location PEGAN00011 # 10.0.120.92
 
 ## tuning
 
@@ -75,10 +47,6 @@ f1ae88 location PEGAN00011 # 10.0.120.92
 ## reboots
 
 ## resets
-63f1ab reset 1592407826
-38d579 reset 1592407826
-a03c97 reset 1592407826
-4900fd reset 1592407826
 
 ## removals
 global remove 45099f,0884bf,bbf6ce,1a4852,e1a2b1,7bb0bc,52a31b,870cd5,309322,8883eb,053bf9,ad8ef4,91b329,94587a,996b7a,5a3dde
