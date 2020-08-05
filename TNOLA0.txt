@@ -31,22 +31,22 @@ global panelclear 999
 
 # global retune 1
 # global reboot 1
-global uncork 1594920075
+# global uncork 1594920075
 # global reset 1
 
 ## vlans
-vlan 10.0.62.70-70 # 892d41
-vlan 10.0.62.72-72 # 23178f
-vlan 10.0.62.73-73 # 0ca5a4
-vlan 10.0.62.74-74 # d427dd
-vlan 10.0.62.75-75 # 31940f
+vlan 10.0.59.158-158 # fbb18b # replaced 10.0.62.70 # 892d41
+vlan 10.0.60.54-54 # 6ff8a0 # replaced 10.0.62.72 # 23178f
+vlan 10.0.67.25-25 # 795c1e # replaced 10.0.62.73 # 0ca5a4
+vlan 10.0.67.49-49 # 239cfe # replaced 10.0.62.74 # d427dd
+vlan 10.0.51.21-21 # 3fb054 # replaced 10.0.62.75 # 31940f
 
 ## locations
-892d41 location TNOLA00001 # 10.0.62.70
-23178f location TNOLA00002 # 10.0.62.72
-0ca5a4 location TNOLA00003 # 10.0.62.73
-d427dd location TNOLA00004 # 10.0.62.74
-31940f location TNOLA00005 # 10.0.62.75
+fbb18b location TNOLA00001 # 10.0.59.158 # replaced 10.0.62.70 # 892d41
+6ff8a0 location TNOLA00002 # 10.0.60.54 # replaced 10.0.62.72 # 23178f
+795c1e location TNOLA00003 # 10.0.67.25 # replaced 10.0.62.73 # 0ca5a4
+239cfe location TNOLA00004 # 10.0.67.49 # replaced 10.0.62.74 # d427dd
+3fb054 location TNOLA00005 # 10.0.51.21 # replaced 10.0.62.75 # 31940f
 
 ## tuning
 
@@ -57,10 +57,9 @@ d427dd location TNOLA00004 # 10.0.62.74
 ## reboots
 
 ## resets
-31940f reset 1593201759
 
 ## removals
-global remove ee64d3,89b85e,94a3c3,eaab57,f7deb6,9e6254,8bbd8a,be162a
+global remove ee64d3,89b85e,94a3c3,eaab57,f7deb6,9e6254,8bbd8a,be162a,892d41,23178f,0ca5a4,d427dd,31940f
 
 ## VPS pubkey
 pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
