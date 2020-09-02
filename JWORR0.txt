@@ -21,7 +21,7 @@ global asicboost yes
 global autotune yes
 global maxwatts 1450
 global autoupdate yes
-global allowed yes
+global allowed no
 global maxtemp 90 1
 global throttle 25
 global fanspeed 85
