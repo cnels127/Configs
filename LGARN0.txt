@@ -1,4 +1,5 @@
 ## 3 s9 @ 16 Th/s = 48 Th/s (contract expires 7/23/20)
+## Hosting services PAUSED 9/2/20
 
 global custompanel LGARN0bit049
 global customer bit49-Russia
@@ -20,7 +21,7 @@ global asicboost yes
 global autotune yes
 global maxwatts 1450
 global autoupdate yes
-global allowed yes
+global allowed no
 global maxtemp 90 1
 global throttle 25
 global fanspeed 80
