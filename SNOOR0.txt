@@ -1,6 +1,7 @@
 ## 300 s9 @ 16 Th/s = 4,800 Th/s (contract exp 2/21/20)
 ##    25 s9 @ 16 Th/s = 400 Th/s (contract exp 7/24/20)
 ## TOTAL EXP HASHRATE = 5,200 Th/s
+## Hosting services PAUSED 9/2/20
 
 global custompanel SNOOR0bit049
 global customer bit49-Russia
@@ -22,7 +23,7 @@ global asicboost yes
 global autotune yes
 global maxwatts 1450
 global autoupdate yes
-global allowed yes
+global allowed no
 global maxtemp 90 1
 global throttle 25
 global fanspeed 85
