@@ -1,5 +1,6 @@
 ##   2 s9 @ 16 Th/s = 32 Th/s (contract exp 2/17/20)
 ## 3 s9 @ 14.4 Th/s = 43.2 Th/s (contract exp 9/24/20)
+## Hosting services PAUSED 9/2/20
 
 global custompanel JROBE0bit049
 global customer bit49-Russia
@@ -21,7 +22,7 @@ global asicboost yes
 global autotune yes
 global maxwatts 1450
 global autoupdate yes
-global allowed yes
+global allowed no
 global maxtemp 90 1
 global throttle 25
 global fanspeed 85
