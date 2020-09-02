@@ -1,5 +1,7 @@
 ## 3 s9 @ 16 Th/s = 48 Th/s (contract expires 5/8/20)
 ## Hosting services for 3 s9s PAUSED 7/3/20 due to non-payment
+## Hosting services for 3 s9s RESUMED 7/29/20
+## Hosting services PAUSED 9/2/20
 
 global custompanel KADAP0bit049
 global customer bit49-Russia
@@ -21,7 +23,7 @@ global asicboost yes
 global autotune yes
 global maxwatts 1450
 global autoupdate yes
-global allowed yes
+global allowed no
 global maxtemp 90 1
 global throttle 25
 global fanspeed 85
