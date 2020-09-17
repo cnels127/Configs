@@ -1,0 +1,64 @@
+#     60 machines @ 16 Th = 960 Th/s
+#  146 machines @ 14.4 Th = 2102 Th/s
+# TOTAL EXPECTED HASHRATE = 3,062 Th/s
+# EXPECTED AVERAGE HASHRATE PER MACHINE = 14.86 TH/s
+## Hosting services for 206 s9s terminated 9/2/20
+
+global custompanel CRIBE0bit049
+global customer bit49-Russia
+
+global poolname1 connect.pool.bitcoin.com:3333
+global username1 wisetxwtrus
+global poolpass1 123
+global sendworker1 yes
+global poolname2 eu.ss.btc.com:443
+global username2 wtrus
+global poolpass2 123
+global sendworker2 yes
+global poolname3 ru-west.stratum.slushpool.com:3333
+global username3 WTMINING
+global poolpass3 123
+global sendworker3 yes
+
+global asicboost yes
+global autotune yes
+global maxwatts 1450
+global autoupdate yes
+global allowed yes
+global maxtemp 90 1
+global throttle 25
+global fanspeed 85
+global fansaver yes
+global blinkred idle
+global blinkgreen rapid
+global panelclear 999
+
+# global retune 1
+# global reboot 1
+# global uncork 1594920075
+# global reset 1
+
+## vlans
+
+## locations
+
+## throttle
+
+## fans
+
+## reboots
+
+## retunes
+
+## resets
+
+## removed
+global remove 000122
+
+## VPS pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
+## Remote pubkey
+pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCovql1bo+pkGUoq+zckj82BiW5CIBbxq1+wfET94ULY9b/BJzZHFxxjX79+aG4oilCpUKHFTJHv8Ox3IvtPxWGyx5IpV+avJqCO66+7/aIoG+Cqcz7f9pZPhK61qOG9AQsLNaZHaaB+jif7qCmXiDB1/eDzKHIh2UHdEnZSkcTrwdU40yA4JhenTAMJAxITopjAfURgJtTOkr9eBIVM6Xj/0x/f9ZUvL5jSLNDL9ujce928zCwvcMND+lrB3q5VgMluwihMUWZ3gJfsvZdHwPVXDP+qo1DaIP/oJ/rfD/ef9KkmYTYS3+RaYwGEJoGd0uHCUzSIl3oUJQg6kj4H22p
+# global panelpass gj83Nkgikg
+asicpass admin
+global logo https://raw.githubusercontent.com/cnels127/Configs/master/Bit49(2).png
