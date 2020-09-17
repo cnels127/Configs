@@ -1,5 +1,6 @@
 ##  6 s9 @ 14.4 Th/s = 86.4 Th/s (contract expires 10/25/20)
 ## Hosting services for 6 s9s PAUSED on 7/3/20 due to non-payment
+## Hosting services for 6 s9s terminated on 9/2/20
 
 global custompanel AISOB0bit049
 global customer bit49-Russia
@@ -32,27 +33,14 @@ global panelclear 999
 
 # global retune 1571266647
 # global reboot 2
-global uncork 1594920075
+# global uncork 1594920075
 # global reset 1573575813
 
 ## vlans
-vlan 10.0.58.157-157 # 6db0b2
-vlan 10.0.64.72-72 # e03581
-vlan 10.0.115.17-17 # 48080d
-vlan 10.0.115.94-94 # ef873d
-# vlan 10.0.116.48-48 # 7f4b2c # POWERED DOWN - NO WORKING HASHBOARDS
-vlan 10.0.119.45-45 # 138188
 
 ## locations
-6db0b2 location AISOB00001 # 10.0.58.157
-e03581 location AISOB00002 # 10.0.64.72
-48080d location AISOB00003 # 10.0.115.17
-ef873d location AISOB00004 # 10.0.115.94
-# 7f4b2c location AISOB00005 # 10.0.116.48 # POWERED DOWN - NO WORKING HASHBOARDS
-138188 location AISOB00006 # 10.0.119.45
 
 ## throttle
-138188 uncork 1589057277
 
 ## fans
 
@@ -61,8 +49,6 @@ ef873d location AISOB00004 # 10.0.115.94
 ## retune
 
 ## resets
-138188 reset 1592920326
-48080d reset 1592920326
 
 ## removals
 global remove b6d960,62c02a,112bcf,c686a3
