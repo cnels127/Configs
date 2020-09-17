@@ -1,5 +1,5 @@
 ## 10 s9 @ 16 Th/s = 160 Th/s (contract exp 3/29/20)
-## Hosting services PAUSED 9/2/20
+## Hosting services for 10 s9s terminated 9/2/20
 
 global custompanel JWORR0bit049
 global customer bit49-Russia
@@ -32,32 +32,12 @@ global panelclear 999
 
 # global retune 1
 # global reboot 1
-global uncork 1594920075
+# global uncork 1594920075
 # global reset 1
 
 ## vlans
-vlan 10.3.21.15-15 # 83dcd9
-vlan 10.3.21.18-18 # 2fce82
-vlan 10.3.21.21-21 # 2d4ed1
-vlan 10.3.21.24-24 # 1e82c8
-vlan 10.3.21.26-26 # 6659c1
-vlan 10.3.21.31-31 # b7f378
-vlan 10.3.21.32-32 # b7cd11
-vlan 10.3.21.33-33 # eaee2e
-vlan 10.3.21.35-35 # a1c0cf
-vlan 10.3.22.105-105 # 8f312b
 
 ## locations
-83dcd9 location JWORR00001 # 10.3.21.15
-2fce82 location JWORR00002 # 10.3.21.18
-2d4ed1 location JWORR00003 # 10.3.21.21
-1e82c8 location JWORR00004 # 10.3.21.24
-6659c1 location JWORR00005 # 10.3.21.26
-b7f378 location JWORR00006 # 10.3.21.31
-b7cd11 location JWORR00007 # 10.3.21.32
-eaee2e location JWORR00008 # 10.3.21.33
-a1c0cf location JWORR00009 # 10.3.21.35
-8f312b location JWORR00010 # 10.3.22.105
 
 ## tuning
 
@@ -68,8 +48,6 @@ a1c0cf location JWORR00009 # 10.3.21.35
 ## reboots
 
 ## resets
-b7f378 reset 1592407274
-eaee2e reset 1592407274
 
 ## removals
 global remove 6e8e93,07e0af,362e0a,564c64
