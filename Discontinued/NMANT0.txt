@@ -1,5 +1,6 @@
 ## 1 s9 @ 16 Th/s = 16 Th/s (contract expires 6/23/20)
 ## Hosting services PAUSED 9/2/20
+## Hosting services for 1 s9 terminated 9/17/20
 
 global custompanel NMANT0bit049
 global customer bit49-Russia
@@ -32,14 +33,12 @@ global panelclear 999
 
 # global retune 1
 # global reboot 1
-global uncork 1594920075
+# global uncork 1594920075
 # global reset 1574929374
 
 ## vlans
-vlan 10.0.58.132-132 # 30946f
 
 ## locations
-30946f location NMANT00001 # 10.0.58.132
 
 ## throttle
 
