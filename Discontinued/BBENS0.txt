@@ -1,4 +1,4 @@
-## 2 s9 @ 16 Th/s = 32 Th/s (contract exp 1/20/20)
+## Hosting services for 2 s9s terminated 9/2/20
 
 global custompanel BBENS0bit049
 global customer bit49-Russia
@@ -31,16 +31,12 @@ global panelclear 999
 
 # global retune 1
 # global reboot 1
-global uncork 1594920075
+# global uncork 1594920075
 # global reset 1574280045
 
 ## vlans
-vlan 10.0.117.44-44 # 815d57
-vlan 10.0.117.45-45 # f69de1
 
 ## locations
-815d57 location BBENS00001 # 10.0.117.44
-f69de1 location BBENS00002 # 10.0.117.45
 
 ## throttle
 
