@@ -34,8 +34,16 @@ global uncork 1594920075
 # global reset 1580151563
 
 ### SHUT DOWN ###
+## LGARN0 (3 s9s) hosting terminated 9/2/20
+vlan 10.0.65.60-60 # 0aaeb9
+vlan 10.0.65.102-102 # 0fdb4f
+vlan 10.0.67.85-85 # 1d58bd
+0aaeb9 location LGARN00001 # 10.0.65.60
+0fdb4f location LGARN00002 # 10.0.65.102
+1d58bd location LGARN00003 # 10.0.67.85
+
 ## NMANT0 (1 s9s) hosting terminated 9/17/20
-vlan 10.0.58.132-132 # 30946f
+# vlan 10.0.58.132-132 # 30946f
 30946f location NMANT00001 # 10.0.58.132
 
 ## VMANU0 (35 s9s) hosting terminated 9/17/20
