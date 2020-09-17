@@ -1,7 +1,7 @@
 ## 3 s9 @ 16 Th/s = 48 Th/s (contract expires 5/8/20)
 ## Hosting services for 3 s9s PAUSED 7/3/20 due to non-payment
 ## Hosting services for 3 s9s RESUMED 7/29/20
-## Hosting services PAUSED 9/2/20
+## Hosting services for 3 s9s terminated 9/2/20
 
 global custompanel KADAP0bit049
 global customer bit49-Russia
@@ -34,35 +34,22 @@ global panelclear 999
 
 # global retune 1
 # global reboot 1
-global uncork 1594920075
+# global uncork 1594920075
 # global reset 1
 
 ## vlans
-vlan 10.0.56.132-132 # 2a4b43
-vlan 10.0.56.136-136 # e917af
-vlan 10.0.56.137-137 # 4c9876
 
 ## location
-2a4b43 location KADAP00001 # 10.0.56.132
-e917af location KADAP00002 # 10.0.56.136
-4c9876 location KADAP00003 # 10.0.56.137
 
 ## tuning
-e917af maxwatts 1400
 
 ## throttle
-4c9876 uncork 1596571754
-2a4b43 uncork 1596146804
 
 ## fans
 
 ## reboots
 
 ## resets
-4c9876 reset 1596601810
-2a4b43 reset 1596147573
-e917af reset 1593443444
-2a4b43 reset 1592325057
 
 ## removals
 global remove 81d744,e1a2b1,c1769c,5fa3f6,4112bb,7bb0bc,61cbc7,c3f792,81a6b6,156e90,a1aa21,ecda06,587a48
