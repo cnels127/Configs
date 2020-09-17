@@ -2,6 +2,7 @@
 ##     9 s9 @ 16 Th/s = 144 Th/s (contract expires 8/23/20)
 ##     1 s9 @ 16 Th/s = 16 Th/s (contract expires 8/26/20)
 ## TOTAL EXP HASHRATE = 203.2 Th/s
+## Hosting services for 13 s9s terminated 9/2/20
 
 global custompanel HFAUS0bit049
 global customer bit49-Russia
@@ -33,42 +34,12 @@ global panelclear 999
 
 # global retune 1
 # global reboot 1
-global uncork 1594920075
+# global uncork 1594920075
 # global reset 1573933663
 
 ## vlans
-vlan 10.0.62.37-37 # a7fca0
-vlan 10.0.62.81-81 # 335e38
-vlan 10.0.62.32-32 # 485e13
-vlan 10.0.65.11-11 # c7c8e8
-vlan 10.0.61.109-109 # 737fce
-vlan 10.0.65.124-124 # f3bb3d
-vlan 10.0.63.42-42 # 6192a4
-vlan 10.0.61.105-105 # 50ff88
-vlan 10.0.63.34-34 # 9157ba
-vlan 10.0.65.112-112 # fe7105
-# vlan 10.0.57.86-86 # a3883c # POWERED DOWN - NO WORKING HASHBOARDS
-# vlan 10.0.67.95-95 # a072b9 # POWERED DOWN - NO WORKING HASHBOARDS
-# vlan 10.0.59.161-161 # d51a5c # POWERED DOWN - NO WORKING HASHBOARDS
-# vlan 10.0.64.104-104 # f3c9af # POWERED DOWN - NO WORKING HASHBOARDS
-# vlan 10.0.64.70-70 # 11d430 # POWERED DOWN - NO WORKING HASHBOARDS
 
 ## locations
-a7fca0 location HFAUS00001 # 10.0.62.37
-335e38 location HFAUS00002 # 10.0.62.81
-485e13 location HFAUS00003 # 10.0.62.32
-c7c8e8 location HFAUS00004 # 10.0.65.11
-737fce location HFAUS00005 # 10.0.61.109
-f3bb3d location HFAUS00006 # 10.0.65.124
-6192a4 location HFAUS00007 # 10.0.63.42
-50ff88 location HFAUS00008 # 10.0.61.105
-9157ba location HFAUS00009 # 10.0.63.34
-fe7105 location HFAUS00010 # 10.0.65.112
-# a3883c location HFAUS00002 # POWERED DOWN - NO WORKING HASHBOARDS
-# a072b9 location HFAUS00010 # POWERED DOWN - NO WORKING HASHBOARDS
-# d51a5c location HFAUS00011 # POWERED DOWN - NO WORKING HASHBOARDS
-# f3c9af location HFAUS00012 # POWERED DOWN - NO WORKING HASHBOARDS
-# 11d430 location HFAUS00013 # POWERED DOWN - NO WORKING HASHBOARDS
 
 ## tuning
 
@@ -79,7 +50,6 @@ fe7105 location HFAUS00010 # 10.0.65.112
 ## reboots
 
 ## resets
-f3bb3d reset 1591017306
 
 ## removals
 global remove a3883c,a072b9,d51a5c,f3c9af,11d430,79293a,8f4a03,27a545,5d25fd,3cd509,f8bd59,930d98,ee1c21,ac0008,3ca1f0,0365f7,bc8e6c,ed5948,3e769e,9813c6
