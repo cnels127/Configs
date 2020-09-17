@@ -34,17 +34,27 @@ global uncork 1594920075
 # global reset 1580151563
 
 ### SHUT DOWN ###
+ARAMA0 (4 s9s) hosting terminated 9/17/20
+vlan 10.0.55.78-78 # 17e1e7
+vlan 10.0.55.79-79 # 968831
+vlan 10.0.55.112-112 # 44e8a9
+vlan 10.0.55.116-116 # 0a29cc
+17e1e7 location ARAMA00001 # 10.0.55.78
+968831 location ARAMA00002 # 10.0.55.79
+44e8a9 location ARAMA00005 # 10.0.55.112
+0a29cc location ARAMA00006 # 10.0.55.116
+
 MNADE0 (10 s9s) hosting terminated 9/17/20
-vlan 10.0.55.71-71 # f49c47
-vlan 10.0.55.88-88 # 0d929b
-vlan 10.0.55.103-103 # 60ea4c
-vlan 10.0.65.80-80 # 29a2d1
-vlan 10.0.65.104-104 # 6e6dd8
-vlan 10.0.65.154-154 # eb170d
-vlan 10.0.67.38-38 # ef1930
-vlan 10.0.77.9-9 # 4c4fe6
-vlan 10.0.77.53-53 # 2c0fb6
-vlan 10.0.77.54-54 # e8521d
+# vlan 10.0.55.71-71 # f49c47
+# vlan 10.0.55.88-88 # 0d929b
+# vlan 10.0.55.103-103 # 60ea4c
+# vlan 10.0.65.80-80 # 29a2d1
+# vlan 10.0.65.104-104 # 6e6dd8
+# vlan 10.0.65.154-154 # eb170d
+# vlan 10.0.67.38-38 # ef1930
+# vlan 10.0.77.9-9 # 4c4fe6
+# vlan 10.0.77.53-53 # 2c0fb6
+# vlan 10.0.77.54-54 # e8521d
 f49c47 location MNADE00007 # 10.0.55.71
 0d929b location MNADE00005 # 10.0.55.88
 60ea4c location MNADE00006 # 10.0.55.103
