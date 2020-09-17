@@ -3,6 +3,7 @@
 ## 10 s9 @ 14.4 Th/s = 144 Th/s (contract exp 3/6/20)
 ## TOTAL EXP HASHRATE 40 s9 @ 14.4 = 576 Th/s
 ## Hosting services discontinued for 20 s9 6/3/20
+## Hosting services for remaining 20 s9s terminated 9/2/20
 
 global custompanel FHOEF0bit049
 global customer bit49-Russia
@@ -35,53 +36,12 @@ global panelclear 999
 
 # global retune 1
 # global reboot 1573584090
-global uncork 1594920075
+# global uncork 1594920075
 # global reset 1
 
 ## vlans
-vlan 10.0.62.30-30 # 99d76d
-vlan 10.0.63.144-144 # b6e889
-vlan 10.0.64.58-58 # dcbbe1
-# vlan 10.0.64.126-126 # ed92f7 # POWERED DOWN - NO WORKING HASHBOARDS
-vlan 10.0.64.157-157 # e4b5b6
-vlan 10.0.65.25-25 # a3e024
-vlan 10.0.65.34-34 # bc2299
-vlan 10.0.65.57-57 # fe05ff
-vlan 10.0.65.74-74 # e8cf8b
-vlan 10.0.65.95-95 # e7f1a9
-vlan 10.0.65.148-148 # 8342ab
-vlan 10.0.66.93-93 # b3897a
-vlan 10.0.66.149-149 # a2cb7c
-vlan 10.0.67.34-34 # ae42ad
-vlan 10.0.67.92-92 # d3176c
-# vlan 10.0.67.132-132 # 67304d # POWERED DOWN - NO WORKING HASHBOARDS
-vlan 10.0.67.136-136 # 64cc79
-vlan 10.0.67.143-143 # 589176
-vlan 10.0.60.5-5 # e3f444
-vlan 10.0.61.8-8 # 73ee2e
-
 
 ## locations
-99d76d location FHOEF00011 # 10.0.62.30
-b6e889 location FHOEF00012 # 10.0.63.144
-dcbbe1 location FHOEF00013 # 10.0.64.58
-# ed92f7 location FHOEF00014 # 10.0.64.126 # SCRAPPED 4/30/20
-e4b5b6 location FHOEF00015 # 10.0.64.157
-a3e024 location FHOEF00016 # 10.0.65.25
-# bc2299 location FHOEF00017 # 10.0.65.34 # SCRAPPED 5/14/20
-# fe05ff location FHOEF00018 # 10.0.65.57 # SCRAPPED 5/22/20
-e8cf8b location FHOEF00019 # 10.0.65.74
-e7f1a9 location FHOEF00020 # 10.0.65.95
-8342ab location FHOEF00021 # 10.0.65.148
-b3897a location FHOEF00022 # 10.0.66.93
-a2cb7c location FHOEF00023 # 10.0.66.149
-ae42ad location FHOEF00024 # 10.0.67.34
-d3176c location FHOEF00025 # 10.0.67.92
-# 67304d location FHOEF00026 # 10.0.67.132 # SCRAPPED 5/6/20
-# 64cc79 location FHOEF00027 # 10.0.67.136 # SCRAPPED 5/18/20
-589176 location FHOEF00028 # 10.0.67.143
-e3f444 location FHOEF00029 # 10.0.60.5
-73ee2e location FHOEF00030 # 10.0.61.8
 
 ## tuning
 
@@ -92,13 +52,6 @@ e3f444 location FHOEF00029 # 10.0.60.5
 ## reboots
 
 ## resets
-589176 reset 1595953535
-b3897a reset 1594827305
-ae42ad reset 1593706497
-b3897a reset 1593200523
-a3e024 reset 1593094787
-a3e024 reset 1591372630
-17e1e7 reset 1590626338
 
 ## removals
 global remove 9c860e,873362,c4aa6b,586985,9feac3,1a5616,121b5d,2fce82,37ba71,b1937c,ce9ea0,c16782,9e743b,d560da,51f862,4f22fd,0baec4,6a9e49,eb51ca,458508,3241ed,82c5ca,dd84fc,97782a,84fddc,7e7126,1a7d47,e0ccfa,0faa22,de83b4,167d2c,8d76ff,17e1e7,d2d829,4ffb50,e2c437,584490,88775f,be5d42,a03b81,c71a7f,bad6b7,2bf2a8,1444fa,752979
