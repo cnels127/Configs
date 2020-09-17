@@ -1,4 +1,5 @@
 ## 10 s9 @ 14.4 Th/s = 144 Th/s (contract expires 7/25/19)
+## Hosting services for 10 s9s terminated 9/2/20
 
 global custompanel ANORC0bit049
 global customer bit49-Russia
@@ -31,37 +32,14 @@ global panelclear 999
 
 # global retune 1
 # global reboot 1
-global uncork 1594920075
+# global uncork 1594920075
 # global reset 1
 
 ## vlans
-vlan 10.0.62.136-136 # 29b205
-vlan 10.0.63.145-145 # 07c674
-vlan 10.0.64.109-109 # 17fb06
-vlan 10.0.64.113-113 # f5e34e
-vlan 10.0.64.122-122 # d0157c
-# vlan 10.0.64.132-132 # 0796c0 # POWERED DOWN - NO WORKING HASHBOARDS
-vlan 10.0.65.110-110 # efd6b3
-vlan 10.0.65.160-160 # 3b0926
-vlan 10.0.67.152-152 # ce82d1
-vlan 10.0.67.154-154 # 88093b
 
 ## locations
-29b205 location ANORC00001 # 10.0.62.136
-07c674 location ANORC00002 # 10.0.63.145
-17fb06 location ANORC00003 # 10.0.64.109
-f5e34e location ANORC00004 # 10.0.64.113
-d0157c location ANORC00005 # 10.0.64.122
-# 0796c0 location ANORC00006 # 10.0.64.132 # POWERED DOWN - NO WORKING HASHBOARDS
-efd6b3 location ANORC00007 # 10.0.65.110
-3b0926 location ANORC00008 # 10.0.65.160
-ce82d1 location ANORC00009 # 10.0.67.152
-88093b location ANORC00010 # 10.0.67.154
 
 ## throttle
-07c674 uncork 1589057782
-efd6b3 uncork 1589057782
-3b0926 uncork 1589057782
 
 ## fans
 
@@ -70,10 +48,6 @@ efd6b3 uncork 1589057782
 ## retune
 
 ## resets
-29b205 reset 1597426428
-07c674 reset 1593494718
-d0157c reset 1593494718
-efd6b3 reset 1593494718
 
 ## removals
 global remove 194547,d471c4,0de34a,75f914
