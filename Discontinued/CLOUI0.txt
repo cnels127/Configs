@@ -1,5 +1,6 @@
 ## TOTAL EXP HASHRATE 10 s9 @ 14.4 Th/s = 144 Th/s (contract expires 2/17/20)
 ## CLOUI0 moved to HOLD10 due to non-payment 5/1/20
+## Hosting services for 10 s9s terminated 9/2/20
 
 global custompanel CLOUI0bit049
 global customer bit49-Russia
@@ -32,7 +33,7 @@ global panelclear 999
 
 # global retune 1
 # global reboot 1
-global uncork 1594920075
+# global uncork 1594920075
 # global reset 1
 
 ## vlans
@@ -46,7 +47,6 @@ global uncork 1594920075
 ## reboots
 
 ## resets
-bf9f18 reset 1590630176
 
 ## VPS pubkey
 pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
