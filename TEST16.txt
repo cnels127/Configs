@@ -34,10 +34,32 @@ global uncork 1594920075
 # global reset 1580151563
 
 ### SHUT DOWN ###
+## JWORR0 (10 s9s) hosting terminated 9/17/20
+vlan 10.3.21.15-15 # 83dcd9
+vlan 10.3.21.18-18 # 2fce82
+vlan 10.3.21.21-21 # 2d4ed1
+vlan 10.3.21.24-24 # 1e82c8
+vlan 10.3.21.26-26 # 6659c1
+vlan 10.3.21.31-31 # b7f378
+vlan 10.3.21.32-32 # b7cd11
+vlan 10.3.21.33-33 # eaee2e
+vlan 10.3.21.35-35 # a1c0cf
+vlan 10.3.22.105-105 # 8f312b
+83dcd9 location JWORR00001 # 10.3.21.15
+2fce82 location JWORR00002 # 10.3.21.18
+2d4ed1 location JWORR00003 # 10.3.21.21
+1e82c8 location JWORR00004 # 10.3.21.24
+6659c1 location JWORR00005 # 10.3.21.26
+b7f378 location JWORR00006 # 10.3.21.31
+b7cd11 location JWORR00007 # 10.3.21.32
+eaee2e location JWORR00008 # 10.3.21.33
+a1c0cf location JWORR00009 # 10.3.21.35
+8f312b location JWORR00010 # 10.3.22.105
+
 ## KADAP0 (3 s9s) hosting terminated 9/2/20
-vlan 10.0.55.128-128 # 2a4b43
-vlan 10.0.55.139-139 # e917af
-vlan 10.0.55.140-140 # 4c9876
+# vlan 10.0.55.128-128 # 2a4b43
+# vlan 10.0.55.139-139 # e917af
+# vlan 10.0.55.140-140 # 4c9876
 2a4b43 location KADAP00001 # 10.0.55.128
 e917af location KADAP00002 # 10.0.55.139
 4c9876 location KADAP00003 # 10.0.55.140
