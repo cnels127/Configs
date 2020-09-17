@@ -1,4 +1,5 @@
 ##  2 s9 @ 16.0 Th/s = 32.0 Th/s (contract expires 10/28/20)
+## Hosting services for 2 s9s terminated 9/2/20
 
 global custompanel CSOU00bit049
 global customer bit49-Russia
@@ -31,17 +32,13 @@ global panelclear 999
 
 # global retune 1571266647
 # global reboot 2
-global uncork 1594920075
+# global uncork 1594920075
 # global reset 1
 # global panelpass gj83Nkgikg
 
 ## vlans
-vlan 10.0.117.19-19 # 1ff15c
-vlan 10.0.61.38-38 # ccf206
 
 ## locations
-1ff15c location CSOU000001 # 10.0.117.19
-ccf206 location CSOU000002 # 10.0.61.38
 
 ## retune
 
@@ -50,8 +47,6 @@ ccf206 location CSOU000002 # 10.0.61.38
 ## reboots
 
 ## resets
-1ff15c reset 1588605308
-e9fdf8 reset 1589481048
 
 ## removals
 global remove fd3880,bcb846,4f86dd,e9fdf8
