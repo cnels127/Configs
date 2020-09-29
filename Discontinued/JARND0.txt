@@ -1,0 +1,130 @@
+## instructions available at: https://asicseer.com/page/kb#writing-config
+# POOL1 OBSERVER LINK: https://www.f2pool.com/mining-user/06697a8390f3707624ae967904832eaa
+# POOL2 OBSERVER LINK: https://pool.btc.com/dashboard?access_key=r_5yP7rEdip7Sqo&puid=381410
+# POOL3 OBSERVER LINK: https://www.antpool.com/observer.htm?accessKey=RaQOmZ9P924xmBB9DOEN&coinType=BTC
+
+## 36 T17 @ 40 TH/s = 1,440 Th/s
+
+global custompanel JARND0bit049
+global customer bit49-Russia
+
+global poolname1 47.91.65.135:1800  # (eu.ss.btc.com:1800)
+global username1 jma289EU
+global poolpass1 123
+global sendworker1 yes
+global poolname2 35.177.197.177:3333  # (stratum.antpool.com:3333)
+global username2 jma289
+global poolpass2 123
+global sendworker2 yes
+global poolname3 47.254.146.77:3333  # (btc-eu.f2pool.com:3333)
+global username3 jma289
+global poolpass3 123
+global sendworker3 yes
+
+global asicboost yes
+global autotune yes
+global maxwatts 1500
+global autoupdate yes
+global allowed yes
+global maxtemp 90 1
+global throttle 25
+global fanspeed 85
+global fansaver yes
+global blinkred idle
+global blinkgreen rapid
+global panelclear 999
+# global panelpass gj83Nkgikg
+
+# global retune 1
+# global reboot 1
+# global uncork 1
+# global reset 1
+
+## vlans
+vlan 10.3.86.1-1 # 3c7c23
+vlan 10.3.86.2-2 # ca7396
+vlan 10.3.86.3-3 # 21c7f1
+vlan 10.3.86.4-4 # 48955f
+vlan 10.3.86.5-5 # b4125e
+vlan 10.3.86.6-6 # 24aaaa
+vlan 10.3.86.11-11 # 4a0eb7
+vlan 10.3.86.12-12 # dcbe3c
+vlan 10.3.86.13-13 # 762519
+vlan 10.3.86.14-14 # 120554
+vlan 10.3.86.15-15 # bcd53f
+vlan 10.3.86.16-16 # 068e23
+vlan 10.3.86.21-21 # 78fa7c
+vlan 10.3.86.22-22 # 60248f
+vlan 10.3.86.23-23 # d27c9b
+vlan 10.3.86.24-24 # 4c92bd
+vlan 10.3.86.25-25 # dc87b6
+vlan 10.3.86.26-26 # 2253ac
+vlan 10.3.86.31-31 # 195282
+vlan 10.3.86.32-32 # c13c33
+vlan 10.3.86.33-33 # 8cea4b
+vlan 10.3.86.34-34 # db1c39
+vlan 10.3.86.35-35 # d38c90
+vlan 10.3.86.36-36 # d4cdd9
+vlan 10.3.86.41-41 # 8ae39d
+vlan 10.3.86.42-42 # 9776d2
+vlan 10.3.86.43-43 # fddb38
+vlan 10.3.86.44-44 # 97a92f
+vlan 10.3.86.45-45 # 418959
+vlan 10.3.86.46-46 # de627b
+vlan 10.3.86.51-51 # efcc21
+vlan 10.3.86.52-52 # 5f8c38
+vlan 10.3.86.53-53 # 771f24
+vlan 10.3.86.54-54 # 421807
+vlan 10.3.86.55-55 # 65fb0b
+vlan 10.3.86.56-56 # 3fb33f
+
+## locations
+3c7c23 location 86x1 # 10.3.86.1
+ca7396 location 86x2 # 10.3.86.2
+21c7f1 location 86x3 # 10.3.86.3
+48955f location 86x4 # 10.3.86.4
+b4125e location 86x5 # 10.3.86.5
+24aaaa location 86x6 # 10.3.86.6
+4a0eb7 location 86x11 # 10.3.86.11
+dcbe3c location 86x12 # 10.3.86.12
+762519 location 86x13 # 10.3.86.13
+120554 location 86x14 # 10.3.86.14
+bcd53f location 86x15 # 10.3.86.15
+068e23 location 86x16 # 10.3.86.16
+78fa7c location 86x21 # 10.3.86.21
+60248f location 86x22 # 10.3.86.22
+d27c9b location 86x23 # 10.3.86.23
+4c92bd location 86x24 # 10.3.86.24
+dc87b6 location 86x25 # 10.3.86.25
+2253ac location 86x26 # 10.3.86.26
+195282 location 86x31 # 10.3.86.31
+c13c33 location 86x32 # 10.3.86.32
+8cea4b location 86x33 # 10.3.86.33
+db1c39 location 86x34 # 10.3.86.34
+d38c90 location 86x35 # 10.3.86.35
+d4cdd9 location 86x36 # 10.3.86.36
+8ae39d location 86x41 # 10.3.86.41
+9776d2 location 86x42 # 10.3.86.42
+fddb38 location 86x43 # 10.3.86.43
+97a92f location 86x44 # 10.3.86.44
+418959 location 86x45 # 10.3.86.45
+de627b location 86x46 # 10.3.86.46
+efcc21 location 86x51 # 10.3.86.51
+5f8c38 location 86x52 # 10.3.86.52
+771f24 location 86x53 # 10.3.86.53
+421807 location 86x54 # 10.3.86.54
+65fb0b location 86x55 # 10.3.86.55
+3fb33f location 86x56 # 10.3.86.56
+
+## tuning
+
+## throttle
+
+## fans
+
+## reboots
+
+## resets
+
+## asic password
+asicpass admin
