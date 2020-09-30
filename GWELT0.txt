@@ -30,7 +30,7 @@ global fanspeed 85
 global fansaver yes
 global blinkred idle
 global blinkgreen rapid
-global panelclear 999
+global panelclear 30
 
 # global retune 1
 global reboot 1601421807
@@ -686,7 +686,7 @@ eecd17 reset 1591017306
 c26b87 reset 1591017306
 
 ## removals
-global remove d7cd4b,32605f,1dcc2c,31d75c,332148,af453f,bb70c4,d9c608,3002c7,14039f,1a4c73,ceba7d,921546,6652f6,db4dc4,081c44,eb26bb,a8958f,e75b6c,e465d5,1bdc6a,42ee1f,d3cbcd,74b647,031746,ecd0c3,e4b418,03dc60,cc01c8,cefbab,07cb48,26e074,3031a6,4b5afd,d4f964,70bd72,839dc2,b58a77,becc26,16c01b,d7a2fa,f456b4,031b4b,1eacbd,a9d10f,6ba047,4c6a74,3e5976,ecbb73,a2ec4d,5b5ab4,8f6b18,3786f7,8750eb,9122d6,15227e,ceb6d8,fb3352,fc05ca,cbf13c
+global remove d7cd4b,32605f,1dcc2c,31d75c,332148,af453f,bb70c4,d9c608,3002c7,14039f,1a4c73,ceba7d,921546,6652f6,db4dc4,081c44,eb26bb,a8958f,e75b6c,e465d5,1bdc6a,42ee1f,d3cbcd,74b647,031746,ecd0c3,e4b418,03dc60,cc01c8,cefbab,07cb48,26e074,3031a6,4b5afd,d4f964,70bd72,839dc2,b58a77,becc26,16c01b,d7a2fa,f456b4,031b4b,1eacbd,a9d10f,6ba047,4c6a74,3e5976,ecbb73,a2ec4d,5b5ab4,8f6b18,3786f7,8750eb,9122d6,15227e,ceb6d8,fb3352,fc05ca,cbf13c,235400,1f48c5,78d80d,c394c6,26514e,ef6e8f,e92118,7a74ae,2b7544,f70e00,0dc6d4,abc7a3,5a5fb2,40c994,1ff85e,673bea,0c0fba,0cf4da,2b1a10,2c47e3,2cb673,2d0a44,4b4b31,4b43f8,4f9aa3,5ad8cb,6f06b0,6fee01,7a42a2,7ecb15,9a80ac,9bee27,9d59a0,9e6ad6,9ecb87,14e5d5,14f6c6,19ac62,28cc50,44e964,52b3f9,83b293,274b09,352a24,403d5d,469f17,501ebd,810a0a,915e1c,1281eb,3942f9,4827f2,6641c2,7618c1,9126f8,35876f,53979e,169664,194092,415998,559064,671857,a2ae00,a3096a,a7555a,ac19bc,b7fd8f,b86601,c7a49d,c562a3,ccef65,d3f51d,d757d4,d31235,d36628,dac3f6,dde6b7,deba18,e412b0,f3e2ed,f380ab,f906d1,fab90f,fae4bb
 
 ## VPS pubkey
 pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
