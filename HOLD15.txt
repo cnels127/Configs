@@ -1,14 +1,15 @@
 ## MWAGE0 to HOLD15 6/10/20 to TEST16 for PAUSE of hosting services 6/11/20
+## GWELT0 to HOLD15 10/16/20 
 
 global custompanel HOLD15bit049
 global customer bit49-Russia
 
-global poolname1 profit.pool.bitcoin.com:3333
+global poolname1 connect.pool.bitcoin.com:3333
 global username1 bit49xHOLD15
 global poolpass1 123
 global sendworker1 yes
-global poolname2 eu.ss.btc.com:1800
-global username2 bit49euro
+global poolname2 gate.emcd.io:3333
+global username2 bit49
 global poolpass2 123
 global sendworker2 yes
 global poolname3 ru-west.stratum.slushpool.com:3333
@@ -34,6 +35,356 @@ global panelclear 999
 # global reboot 1
 global uncork 1594920075
 # global reset 1
+
+## vlans
+vlan 10.0.58.11-11 # 109552
+vlan 10.0.58.12-.12 # 2306f8
+vlan 10.0.58.13-.13 # 24641d
+vlan 10.0.58.14-14 # 0fb69a
+vlan 10.0.58.15-15 # 47aaa8
+vlan 10.0.58.16-16 # e63e4d
+vlan 10.0.58.18-18 # 3ba77d
+vlan 10.0.58.19-19 # 0dd651
+vlan 10.0.58.20-20 # 2c2894
+vlan 10.0.58.21-21 # ce096e
+vlan 10.0.58.22-22 # 93a8f8
+vlan 10.0.58.23-23 # 76d822
+vlan 10.0.58.24-24 # 1d21a2
+vlan 10.0.58.25-25 # 77e32c
+vlan 10.0.58.27-27 # f73001
+vlan 10.0.58.28-28 # 164b1f
+vlan 10.0.58.29-29 # d2ff85
+vlan 10.0.58.32-32 # 78f152
+vlan 10.0.58.33-3 # 84e7b0
+vlan 10.0.58.34-34 # e087cf
+vlan 10.0.58.35-35 # 949da3
+vlan 10.0.58.37-37 # c00c7e
+vlan 10.0.58.38-38 # a29dfd
+vlan 10.0.58.40-40 # 80d217
+vlan 10.0.58.41-41 # 5e5a03
+vlan 10.0.58.42-42 # cda7bb
+vlan 10.0.58.43-43 # cae093
+vlan 10.0.58.44-44 # c7d190
+vlan 10.0.58.46-46 # d8473e
+vlan 10.0.58.47-47 # 8a8251
+vlan 10.0.58.49-49 # e684f6
+vlan 10.0.58.50-50 # af5e7c
+vlan 10.0.58.51-51 # cce2e1
+vlan 10.0.58.52-52 # 3ded17
+vlan 10.0.58.53-53 # 978300
+vlan 10.0.58.58-58 # 14de29
+vlan 10.0.58.60-60 # 2701b4
+vlan 10.0.58.61-61 # 649527
+vlan 10.0.58.62-62 # 13dab6
+vlan 10.0.58.63-63 # db622d
+vlan 10.0.58.64-64 # 9207d7
+vlan 10.0.58.66-66 # bd02cf
+vlan 10.0.58.67-67 # 3fa490
+vlan 10.0.58.68-68 # bc1461
+vlan 10.0.58.69-69 # b28214
+vlan 10.0.58.71-71 # 90f656
+vlan 10.0.58.72-72 # 909fe4
+vlan 10.0.58.73-73 # 55b526
+vlan 10.0.58.76-76 # b35947
+vlan 10.0.58.77-77 # 60a06e
+vlan 10.0.58.78-78 # 804c65
+vlan 10.0.58.79-79 # 9b26f7
+vlan 10.0.58.80-80 # d9ed47
+vlan 10.0.58.81-81 # c4487f
+vlan 10.0.58.82-82 # 43e45e
+vlan 10.0.58.83-83 # d3f476
+vlan 10.0.58.84-84 # 383a0a
+vlan 10.0.58.85-85 # ead64e
+vlan 10.0.58.86-86 # 14e1ec
+vlan 10.0.58.88-88 # a2e64e
+vlan 10.0.58.89-89 # 0c08b2
+vlan 10.0.58.91-91 # e98f88
+vlan 10.0.58.92-92 # 3d6b13
+vlan 10.0.58.94-94 # 7117bd
+vlan 10.0.58.95-.95 # c22b0b
+vlan 10.0.58.97-97 # 89c642
+vlan 10.0.58.98-98 # 13fd9c
+vlan 10.0.58.99-99 # 5e5ce4
+vlan 10.0.58.100-100 # 421c3b
+vlan 10.0.58.102-102 # 9db443
+vlan 10.0.58.103-103 # f2866b
+vlan 10.0.58.104-104 # fee13e
+vlan 10.0.58.107-07 # 486ae7
+vlan 10.0.58.114-114 # 5889d2
+vlan 10.0.58.118-118 # 2dd3d4
+vlan 10.0.58.120-120 # 2fe2de
+vlan 10.0.58.122-122 # a2faea
+vlan 10.0.58.124-124 # eb2a9b
+vlan 10.0.58.125-125 # 89e5d1
+vlan 10.0.58.128-128 # baaf6d
+vlan 10.0.58.131-131 # ce7138
+vlan 10.0.58.134-134 # 6c6cee
+vlan 10.0.58.139-139 # 04d98e
+vlan 10.0.58.141-141 # 37e998
+vlan 10.0.58.147-147 # d37c62
+vlan 10.0.58.149-149 # 9c2879
+vlan 10.0.58.151-151 # b63ca3
+vlan 10.0.58.153-153 # 29fbb5
+vlan 10.0.58.155-155 # 8ee9ea
+vlan 10.0.58.157-157 # 1301f9
+vlan 10.0.58.159-159 # 8472ef
+vlan 10.0.65.2-.2 # 7352f1
+vlan 10.0.65.3-.3 # 4ae309
+vlan 10.0.65.4-.4 # 1541e1
+vlan 10.0.65.6-.6 # b7c3ed
+vlan 10.0.65.7-.7 # 75f695
+vlan 10.0.65.8-.8 # 332dd2
+vlan 10.0.65.9-.9 # ec7d0a
+vlan 10.0.65.13-13 # 275c8a
+vlan 10.0.65.17-7 # 334c13
+vlan 10.0.65.18-18 # c41b38
+vlan 10.0.65.19-19 # b5ee93
+vlan 10.0.65.20-20 # 5b4eb2
+vlan 10.0.65.21-21 # 90b7fe
+vlan 10.0.65.22-22 # f294b4
+vlan 10.0.65.23-23 # 405b7f
+vlan 10.0.65.25-25 # c9b5ce
+vlan 10.0.65.26-26 # 1047f3
+vlan 10.0.65.28-28 # 2c9613
+vlan 10.0.65.31-31 # 7e3274
+vlan 10.0.65.37-37 # d185ef
+vlan 10.0.65.45-45 # 3b10a5
+vlan 10.0.65.49-49 # bbbe26
+vlan 10.0.65.53-53 # 3c164a
+vlan 10.0.65.55-55 # dc1da5
+vlan 10.0.65.59-59 # 09fd9b
+vlan 10.0.65.61-61 # 7c53a1
+vlan 10.0.65.62-62 # 1e0c4a
+vlan 10.0.65.65-.65 # 0658f5
+vlan 10.0.65.66-66 # cef7d2
+vlan 10.0.65.67-67 # 98306d
+vlan 10.0.65.68-68 # 9c850b
+vlan 10.0.65.72-72 # 235400
+vlan 10.0.65.74-74 # 7e5f75
+vlan 10.0.65.76-76 # b3c764
+vlan 10.0.65.77-77 # 5653f6
+vlan 10.0.65.78-78 # df6891
+vlan 10.0.65.79-79 # a51cea
+vlan 10.0.65.80-80 # ce8617
+vlan 10.0.65.85-85 # 79b437
+vlan 10.0.65.86-86 # 70324a
+vlan 10.0.65.87-87 # e0ff92
+vlan 10.0.65.88-88 # 26cfed
+vlan 10.0.65.90-90 # 258570
+vlan 10.0.65.93-93 # 130ee0
+vlan 10.0.65.94-94 # e30678
+vlan 10.0.65.95-95 # d6543e
+vlan 10.0.65.96-96 # 622a99
+vlan 10.0.65.98-98 # 1a64c1
+vlan 10.0.65.99-.99 # f5d121
+vlan 10.0.65.100-100 # 9f398c
+vlan 10.0.65.105-105 # 805021
+vlan 10.0.65.107-107 # 28ff28
+vlan 10.0.65.110-110 # c8708c
+vlan 10.0.65.111-111 # 4d8936
+vlan 10.0.65.112-112 # 9bb9ee
+vlan 10.0.65.113-113 # 34029e
+vlan 10.0.65.123-123 # b41508
+vlan 10.0.65.124-124 # c62831
+vlan 10.0.65.125-125 # 57fd9d
+vlan 10.0.65.127-127 # d38774
+vlan 10.0.65.128-128 # 176d86
+vlan 10.0.65.129-129 # 10dbb9
+vlan 10.0.65.131-131 # f0249f
+vlan 10.0.65.132-132 # 6308b3
+vlan 10.0.65.133-133 # c94f44
+vlan 10.0.65.135-135 # e339a9
+vlan 10.0.65.136-136 # fdbabb
+vlan 10.0.65.137-137 # fbf6a7
+vlan 10.0.65.139-139 # a1e312
+vlan 10.0.65.140-140 # 6cc4d3
+vlan 10.0.65.141-141 # 208f0b
+vlan 10.0.65.142-142 # c0178e
+vlan 10.0.65.143-143 # 76bc9a
+vlan 10.0.65.145-145 # 1e7a91
+vlan 10.0.65.147-147 # 5170b3
+vlan 10.0.65.148-148 # afc54a
+vlan 10.0.65.149-149 # c86992
+vlan 10.0.65.150-150 # 482b5f
+vlan 10.0.65.151-151 # 7833ab
+vlan 10.0.65.153-153 # a03a70
+vlan 10.0.65.154-154 # 74a492
+vlan 10.0.65.156-156 # 5ced68
+
+## locations
+109552 location GWELT00200 # 10.0.58.11
+2306f8 location GWELT00208 # 10.0.58.12
+24641d location GWELT00207 # 10.0.58.13
+0fb69a location GWELT00198 # 10.0.58.14
+47aaa8 location GWELT00199 # 10.0.58.15
+e63e4d location GWELT00201 # 10.0.58.16
+3ba77d location GWELT00202 # 10.0.58.18
+0dd651 location GWELT00168 # 10.0.58.19
+2c2894 location GWELT00170 # 10.0.58.20
+ce096e location GWELT00177 # 10.0.58.21
+93a8f8 location GWELT00176 # 10.0.58.22
+76d822 location GWELT00183 # 10.0.58.23
+1d21a2 location GWELT00181 # 10.0.58.24
+77e32c location GWELT00182 # 10.0.58.25
+f73001 location GWELT00180 # 10.0.58.27
+164b1f location GWELT00001 # 10.0.58.28
+d2ff85 location GWELT00175 # 10.0.58.29
+78f152 location GWELT00004 # 10.0.58.32
+84e7b0 location GWELT00164 # 10.0.58.33
+e087cf location GWELT00166 # 10.0.58.34
+949da3 location GWELT00169 # 10.0.58.35
+c00c7e location GWELT00171 # 10.0.58.37
+a29dfd location GWELT00006 # 10.0.58.38
+80d217 location GWELT00008 # 10.0.58.40
+5e5a03 location GWELT00173 # 10.0.58.41
+cda7bb location GWELT00010 # 10.0.58.42
+cae093 location GWELT00011 # 10.0.58.43
+c7d190 location GWELT00012 # 10.0.58.44
+d8473e location GWELT00013 # 10.0.58.46
+8a8251 location GWELT00014 # 10.0.58.47
+e684f6 location GWELT00016 # 10.0.58.49
+af5e7c location GWELT00017 # 10.0.58.50
+cce2e1 location GWELT00018 # 10.0.58.51
+3ded17 location GWELT00184 # 10.0.58.52
+978300 location GWELT00020 # 10.0.58.53
+14de29 location GWELT00194 # 10.0.58.58
+2701b4 location GWELT00193 # 10.0.58.60
+649527 location GWELT00024 # 10.0.58.61
+13dab6 location GWELT00025 # 10.0.58.62
+db622d location GWELT00026 # 10.0.58.63
+9207d7 location GWELT00027 # 10.0.58.64
+bd02cf location GWELT00029 # 10.0.58.66
+3fa490 location GWELT00030 # 10.0.58.67
+bc1461 location GWELT00031 # 10.0.58.68
+b28214 location GWELT00032 # 10.0.58.69
+90f656 location GWELT00033 # 10.0.58.71
+909fe4 location GWELT00034 # 10.0.58.72
+55b526 location GWELT00188 # 10.0.58.73
+b35947 location GWELT00036 # 10.0.58.76
+60a06e location GWELT00037 # 10.0.58.77
+804c65 location GWELT00191 # 10.0.58.78
+9b26f7 location GWELT00039 # 10.0.58.79
+d9ed47 location GWELT00040 # 10.0.58.80
+c4487f location GWELT00041 # 10.0.58.81
+43e45e location GWELT00189 # 10.0.58.82
+d3f476 location GWELT00042 # 10.0.58.83
+383a0a location GWELT00043 # 10.0.58.84
+ead64e location GWELT00044 # 10.0.58.85
+14e1ec location GWELT00187 # 10.0.58.86
+a2e64e location GWELT00046 # 10.0.58.88
+0c08b2 location GWELT00204 # 10.0.58.89
+e98f88 location GWELT00205 # 10.0.58.91
+3d6b13 location GWELT00048 # 10.0.58.92
+7117bd location GWELT00049 # 10.0.58.94
+c22b0b location GWELT00206 # 10.0.58.95
+89c642 location GWELT00051 # 10.0.58.97
+13fd9c location GWELT00052 # 10.0.58.98
+5e5ce4 location GWELT00053 # 10.0.58.99
+421c3b location GWELT00054 # 10.0.58.100
+9db443 location GWELT00056 # 10.0.58.102
+f2866b location GWELT00057 # 10.0.58.103
+fee13e location GWELT00058 # 10.0.58.104
+486ae7 location GWELT00197 # 10.0.58.107
+5889d2 location GWELT00066 # 10.0.58.114
+2dd3d4 location GWELT00068 # 10.0.58.118
+2fe2de location GWELT00071 # 10.0.58.120
+a2faea location GWELT00073 # 10.0.58.122
+eb2a9b location GWELT00075 # 10.0.58.124
+89e5d1 location GWELT00076 # 10.0.58.125
+baaf6d location GWELT00077 # 10.0.58.128
+ce7138 location GWELT00080 # 10.0.58.131
+6c6cee location GWELT00081 # 10.0.58.134
+04d98e location GWELT00084 # 10.0.58.139
+37e998 location GWELT00086 # 10.0.58.141
+d37c62 location GWELT00089 # 10.0.58.147
+9c2879 location GWELT00091 # 10.0.58.149
+b63ca3 location GWELT00093 # 10.0.58.151
+29fbb5 location GWELT00095 # 10.0.58.153
+8ee9ea location GWELT00097 # 10.0.58.155
+1301f9 location GWELT00098 # 10.0.58.157
+8472ef location GWELT00100 # 10.0.58.159
+7352f1 location GWELT00283 # 10.0.65.2
+4ae309 location GWELT00280 # 10.0.65.3
+1541e1 location GWELT00278 # 10.0.65.4
+b7c3ed location GWELT00277 # 10.0.65.6
+75f695 location GWELT00254 # 10.0.65.7
+332dd2 location GWELT00253 # 10.0.65.8
+ec7d0a location GWELT00279 # 10.0.65.9
+275c8a location GWELT00105 # 10.0.65.13
+334c13 location GWELT00252 # 10.0.65.17
+c41b38 location GWELT00255 # 10.0.65.18
+b5ee93 location GWELT00282 # 10.0.65.19
+5b4eb2 location GWELT00117 # 10.0.65.20
+90b7fe location GWELT00276 # 10.0.65.21
+f294b4 location GWELT00257 # 10.0.65.22
+405b7f location GWELT00118 # 10.0.65.23
+c9b5ce location GWELT00258 # 10.0.65.25
+1047f3 location GWELT00281 # 10.0.65.26
+2c9613 location GWELT00256 # 10.0.65.28
+7e3274 location GWELT00120 # 10.0.65.31
+d185ef location GWELT00121 # 10.0.65.37
+3b10a5 location GWELT00122 # 10.0.65.45
+bbbe26 location GWELT00123 # 10.0.65.49
+3c164a location GWELT00126 # 10.0.65.53
+dc1da5 location GWELT00103 # 10.0.65.55
+09fd9b location GWELT00114 # 10.0.65.59
+7c53a1 location GWELT00212 # 10.0.65.61
+1e0c4a location GWELT00127 # 10.0.65.62
+0658f5 location GWELT00232 # 10.0.65.65
+cef7d2 location GWELT00129 # 10.0.65.66
+98306d location GWELT00216 # 10.0.65.67
+9c850b location GWELT00215 # 10.0.65.68
+235400 location GWELT00213 # 10.0.65.72
+7e5f75 location GWELT00113 # 10.0.65.74
+b3c764 location GWELT00226 # 10.0.65.76
+5653f6 location GWELT00101 # 10.0.65.77
+df6891 location GWELT00224 # 10.0.65.78
+a51cea location GWELT00223 # 10.0.65.79
+ce8617 location GWELT00220 # 10.0.65.80
+79b437 location GWELT00135 # 10.0.65.85
+70324a location GWELT00136 # 10.0.65.86
+e0ff92 location GWELT00137 # 10.0.65.87
+26cfed location GWELT00214 # 10.0.65.88
+258570 location GWELT00230 # 10.0.65.90
+130ee0 location GWELT00139 # 10.0.65.93
+e30678 location GWELT00291 # 10.0.65.94
+d6543e location GWELT00264 # 10.0.65.95
+622a99 location GWELT00265 # 10.0.65.96
+1a64c1 location GWELT00287 # 10.0.65.98
+f5d121 location GWELT00292 # 10.0.65.99
+9f398c location GWELT00140 # 10.0.65.100
+805021 location GWELT00141 # 10.0.65.105
+28ff28 location GWELT00143 # 10.0.65.107
+c8708c location GWELT00104 # 10.0.65.110
+4d8936 location GWELT00115 # 10.0.65.111
+9bb9ee location GWELT00116 # 10.0.65.112
+34029e location GWELT00145 # 10.0.65.113
+b41508 location GWELT00238 # 10.0.65.123
+c62831 location GWELT00241 # 10.0.65.124
+57fd9d location GWELT00108 # 10.0.65.125
+d38774 location GWELT00242 # 10.0.65.127
+176d86 location GWELT00148 # 10.0.65.128
+10dbb9 location GWELT00244 # 10.0.65.129
+f0249f location GWELT00149 # 10.0.65.131
+6308b3 location GWELT00246 # 10.0.65.132
+c94f44 location GWELT00248 # 10.0.65.133
+e339a9 location GWELT00240 # 10.0.65.135
+fdbabb location GWELT00296 # 10.0.65.136
+fbf6a7 location GWELT00294 # 10.0.65.137
+a1e312 location GWELT00268 # 10.0.65.139
+6cc4d3 location GWELT00151 # 10.0.65.140
+208f0b location GWELT00270 # 10.0.65.141
+c0178e location GWELT00153 # 10.0.65.142
+76bc9a location GWELT00154 # 10.0.65.143
+1e7a91 location GWELT00260 # 10.0.65.145
+5170b3 location GWELT00272 # 10.0.65.147
+afc54a location GWELT00267 # 10.0.65.148
+c86992 location GWELT00274 # 10.0.65.149
+482b5f location GWELT00251 # 10.0.65.150
+7833ab location GWELT00261 # 10.0.65.151
+a03a70 location GWELT00157 # 10.0.65.153
+74a492 location GWELT00273 # 10.0.65.154
+5ced68 location GWELT00159 # 10.0.65.156
 
 ## removals
 global remove 9b0fa1,96ae02,6364b7
