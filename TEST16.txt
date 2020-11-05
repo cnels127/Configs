@@ -13,7 +13,7 @@ global poolname3 ru-west.stratum.slushpool.com:3333
 global username3 bit49
 global poolpass3 123
 global sendworker3 yes
-
+083938
 global asicboost yes
 global autotune yes
 global maxwatts 1450
@@ -5079,6 +5079,11 @@ a39e08 reset 1602025277
 8e887d reset 1602015783
 
 ## removals
+
+083938 poolname1 ss.poolin.com:443
+083938 username1 bit49
+083938 poolpass1 123
+083938 sendworker1 yes
 
 ## VPS pubkey
 pubkey ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDDAz0t/qQ4/EhcdMA+NVpppSKMekHUVV7qwBXcvIOVs5+tzgIF/MF6Wt2XUYOyqvr1itKezYR0mMDXrk2K5UFVmSqbT6BjFNROOjnYYDn+RmoF19KDebSrR+N5/oZ4uO7HUYBW6VlXBrsWiO+ViYr40UkADCHRsiANDsC8Zj1u3QA6LnvilyY9qgv3agKXUqqiQLLZaVvtfDYHTmWYYS3W3b2GGUlgUSiqt+PyjQAYWdhDK7Dt663yA90SaRVHBx/ZOg/Yn33WybIV9S32CXWqk8LAleWk1U2kFvPro2ca1MDCv6rNEaGmmIy/6vAreOFEToI/QQAOLXabvwaquPcp
