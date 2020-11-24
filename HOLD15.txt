@@ -4,12 +4,12 @@
 global custompanel HOLD15bit049
 global customer bit49-Russia
 
-global poolname1 connect.pool.bitcoin.com:3333
-global username1 bit49xHOLD15
+global poolname1 gate.emcd.io:3333
+global username1 hold15
 global poolpass1 123
 global sendworker1 yes
-global poolname2 gate.emcd.io:3333
-global username2 bit49
+global poolname2 connect.pool.bitcoin.com:3333
+global username2 bit49xHOLD15
 global poolpass2 123
 global sendworker2 yes
 global poolname3 ru-west.stratum.slushpool.com:3333
