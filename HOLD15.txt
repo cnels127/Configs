@@ -19,7 +19,7 @@ global sendworker3 yes
 
 global asicboost yes
 global autotune yes
-global maxwatts 1450
+global maxwatts 1350
 global autoupdate yes
 global allowed yes
 global maxtemp 90 1
@@ -34,7 +34,7 @@ global panelclear 999
 # global retune 1
 # global reboot 1
 global uncork 1594920075
-# global reset 1
+global reset 1609547919
 
 ## vlans
 vlan 10.0.58.11-11 # 109552
